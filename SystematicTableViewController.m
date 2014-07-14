@@ -47,6 +47,7 @@
     NSLog(@"%@",contacts);
     
     */
+    //need to reexamine the data model.
     
     _systematicTerms = [[NSArray alloc] initWithObjects:@"accident", @"adoption", @"agape", @"aggiornomento", @"agnostic", @"allegory", @"analogy", @"apologetics", @"apophatic", @"criteria", nil];
     
