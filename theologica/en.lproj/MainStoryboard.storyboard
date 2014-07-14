@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6154.21" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="4">
+    <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.13"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="15">
+            <objects>
+                <tabBarController id="4" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="5">
+                        <rect key="frame" x="0.0" y="431" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="3ZE-jz-AIY" kind="relationship" relationship="viewControllers" id="woH-JN-76L"/>
+                        <segue destination="BZC-3Q-Dgc" kind="relationship" relationship="viewControllers" id="Uim-YW-nWk"/>
+                        <segue destination="MOU-es-Rfg" kind="relationship" relationship="viewControllers" id="opL-0H-NDI"/>
+                        <segue destination="54G-dF-x7Z" kind="relationship" relationship="viewControllers" id="agD-BA-QfP"/>
+                        <segue destination="QFW-xZ-mKt" kind="relationship" relationship="viewControllers" id="Kh1-go-xkR"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="14" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1100" y="348"/>
+        </scene>
+        <!--Systematic Table View Controller - Theologica-->
+        <scene sceneID="y7M-Dc-MB3">
+            <objects>
+                <tableViewController id="oZ5-nE-rQe" customClass="SystematicTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="ILG-LM-mMR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="systematicCell" textLabel="OL9-fc-20F" style="IBUITableViewCellStyleDefault" id="kDs-46-kxp">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kDs-46-kxp" id="OzY-oY-4FK">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="OL9-fc-20F">
+                                            <rect key="frame" x="15" y="0.0" width="290" height="43"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="sm5-Dc-hQE" kind="push" identifier="showSystematicDetail" id="D2d-iF-b5c"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <sections/>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Theologica" id="puP-se-oj8">
+                        <barButtonItem key="backBarButtonItem" title="Theologica" id="Q2X-Iy-nnk"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="neM-FG-mNi" id="wRe-OL-DDq"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pZt-tF-tCP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="neM-FG-mNi">
+                    <connections>
+                        <outlet property="delegate" destination="oZ5-nE-rQe" id="4JT-vA-399"/>
+                        <outlet property="searchContentsController" destination="oZ5-nE-rQe" id="D3D-8J-ZPL"/>
+                        <outlet property="searchResultsDataSource" destination="oZ5-nE-rQe" id="TW6-M3-nMB"/>
+                        <outlet property="searchResultsDelegate" destination="oZ5-nE-rQe" id="3aN-mt-ABA"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="566" y="-621"/>
+        </scene>
+        <!--Systematic Detail View Controller-->
+        <scene sceneID="Esu-FU-O7a">
+            <objects>
+                <viewController id="sm5-Dc-hQE" customClass="SystematicDetailViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qRY-Ss-C3f">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zrc-9h-0bq">
+                                <rect key="frame" x="20" y="77" width="280" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cyH-hb-U7k">
+                                <rect key="frame" x="20" y="106" width="280" height="183"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="c5B-0g-HjD"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" barStyle="black" translucent="NO"/>
+                    <connections>
+                        <outlet property="systematicDescription" destination="cyH-hb-U7k" id="XIZ-TU-njU"/>
+                        <outlet property="systematicName" destination="zrc-9h-0bq" id="b6f-L8-oRq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ch1-NC-7h2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1221" y="-688"/>
+        </scene>
+        <!--Ecclesial Table View Controller - Theologica-->
+        <scene sceneID="CgF-4d-159">
+            <objects>
+                <tableViewController id="RG8-AO-Dk8" customClass="EcclesialTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="jGr-lD-asy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ecclesialCell" textLabel="mVy-iY-zrQ" style="IBUITableViewCellStyleDefault" id="VBJ-Ey-oiE">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="VBJ-Ey-oiE" id="o21-h7-i2X">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mVy-iY-zrQ">
+                                            <rect key="frame" x="15" y="0.0" width="290" height="43"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="aRL-ei-9Tm" kind="push" identifier="showEcclesialDetail" id="w6i-7r-hPe"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Theologica" id="YyM-PD-vke">
+                        <barButtonItem key="backBarButtonItem" title="Theologica" id="iiY-ey-5sS"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="TnW-jv-91e" id="N52-HE-aVR"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q2r-xJ-34s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="TnW-jv-91e">
+                    <connections>
+                        <outlet property="delegate" destination="RG8-AO-Dk8" id="8zy-xe-3uA"/>
+                        <outlet property="searchContentsController" destination="RG8-AO-Dk8" id="bmZ-R1-kma"/>
+                        <outlet property="searchResultsDataSource" destination="RG8-AO-Dk8" id="Vim-TE-ire"/>
+                        <outlet property="searchResultsDelegate" destination="RG8-AO-Dk8" id="ufp-SA-bJ6"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="566" y="26"/>
+        </scene>
+        <!--Ecclesial Detail View Controller-->
+        <scene sceneID="jxY-9p-ZZh">
+            <objects>
+                <viewController id="aRL-ei-9Tm" customClass="EcclesialDetailViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2kC-uN-ow9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="XX1-Q1-le9">
+                                <rect key="frame" x="20" y="75" width="280" height="29"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="38L-Tr-to0">
+                                <rect key="frame" x="20" y="112" width="280" height="172"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="qEB-bb-uzZ"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" barStyle="black"/>
+                    <connections>
+                        <outlet property="ecclesialDescription" destination="38L-Tr-to0" id="ffk-2j-Qv1"/>
+                        <outlet property="ecclesialName" destination="XX1-Q1-le9" id="yxi-TZ-gwP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eDN-0S-cTG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1221" y="-2"/>
+        </scene>
+        <!--Moral Table View Controller - Theologica-->
+        <scene sceneID="ZY6-Nb-KZg">
+            <objects>
+                <tableViewController id="yoe-Rc-HFT" customClass="MoralTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="x3x-dr-hKp">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="moralCell" textLabel="sAB-TH-8gb" style="IBUITableViewCellStyleDefault" id="wbo-AU-EgM">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wbo-AU-EgM" id="bTc-cV-S1c">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sAB-TH-8gb">
+                                            <rect key="frame" x="15" y="0.0" width="290" height="43"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="hxR-tt-SDM" kind="push" identifier="showMoralDetail" id="T4M-0E-UYb"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Theologica" id="80F-RW-f9m">
+                        <barButtonItem key="backBarButtonItem" title="Theologica" id="c5M-Ef-Dyy"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="1gF-pD-Dr3" id="qNV-Qv-dec"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Np6-t3-sxb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="1gF-pD-Dr3">
+                    <connections>
+                        <outlet property="delegate" destination="yoe-Rc-HFT" id="BDS-5p-MRC"/>
+                        <outlet property="searchContentsController" destination="yoe-Rc-HFT" id="ydZ-Cd-7I8"/>
+                        <outlet property="searchResultsDataSource" destination="yoe-Rc-HFT" id="KCV-iJ-N7n"/>
+                        <outlet property="searchResultsDelegate" destination="yoe-Rc-HFT" id="hHq-a8-mWU"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="572" y="658"/>
+        </scene>
+        <!--Moral Detail View Controller-->
+        <scene sceneID="IIW-Zr-POz">
+            <objects>
+                <viewController id="hxR-tt-SDM" customClass="MoralDetailViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ap3-vv-hzR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EeC-FD-Jf8">
+                                <rect key="frame" x="20" y="73" width="280" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ohg-54-OgM">
+                                <rect key="frame" x="20" y="102" width="280" height="186"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="w73-sL-0jg"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" barStyle="black" translucent="NO"/>
+                    <connections>
+                        <outlet property="moralDescription" destination="ohg-54-OgM" id="zOo-nd-S4x"/>
+                        <outlet property="moralName" destination="EeC-FD-Jf8" id="uuW-Vp-x1H"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G2g-jZ-djX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1229" y="658"/>
+        </scene>
+        <!--Biblical Table View Controller - Theologica-->
+        <scene sceneID="q62-mk-gma">
+            <objects>
+                <tableViewController id="A4p-fK-Loh" customClass="BiblicalTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="PoV-vn-91e">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="biblicalCell" textLabel="AfT-i2-N6W" style="IBUITableViewCellStyleDefault" id="Js1-0E-gKV">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Js1-0E-gKV" id="GSt-qL-iQo">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AfT-i2-N6W">
+                                            <rect key="frame" x="15" y="0.0" width="290" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="zQM-E2-3OV" kind="push" identifier="showBiblicalDetail" id="FdP-jm-dgJ"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Theologica" id="otE-jv-Hs9">
+                        <barButtonItem key="backBarButtonItem" title="Theologica" id="paJ-P0-9F6"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="SXk-wz-mb5" id="imn-Pc-aO6"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4xV-mc-gTx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="SXk-wz-mb5">
+                    <connections>
+                        <outlet property="delegate" destination="A4p-fK-Loh" id="eXr-bY-5CO"/>
+                        <outlet property="searchContentsController" destination="A4p-fK-Loh" id="RQ6-ZP-bT0"/>
+                        <outlet property="searchResultsDataSource" destination="A4p-fK-Loh" id="iba-BK-3Eq"/>
+                        <outlet property="searchResultsDelegate" destination="A4p-fK-Loh" id="von-8G-vfM"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="580" y="1306"/>
+        </scene>
+        <!--Biblical Detail View Controller-->
+        <scene sceneID="KMZ-wb-I4O">
+            <objects>
+                <viewController id="zQM-E2-3OV" customClass="BiblicalDetailViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QFT-oG-yz2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VpX-6h-Py0">
+                                <rect key="frame" x="20" y="83" width="280" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="C91-ZW-UJR">
+                                <rect key="frame" x="20" y="112" width="280" height="265"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3zT-N0-8GD"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" barStyle="black" translucent="NO"/>
+                    <connections>
+                        <outlet property="biblicalDescription" destination="C91-ZW-UJR" id="TfN-Wh-6yd"/>
+                        <outlet property="biblicalName" destination="VpX-6h-Py0" id="bNU-c4-FI3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="msJ-Du-WXi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1229" y="1322"/>
+        </scene>
+        <!--Social Table View Controller - Theologica-->
+        <scene sceneID="86s-5N-Kqe">
+            <objects>
+                <tableViewController id="W0x-bV-aZW" customClass="SocialTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="9DK-Sn-t2q">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="socialCell" textLabel="Ygd-lF-LdA" style="IBUITableViewCellStyleDefault" id="02n-jM-JG6">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="02n-jM-JG6" id="0Rd-fL-8Sb">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ygd-lF-LdA">
+                                            <rect key="frame" x="15" y="0.0" width="290" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="lMo-uy-zx8" kind="push" identifier="showSocialDetail" id="qKt-aq-JuQ"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Theologica" id="Lm9-NV-aAs">
+                        <barButtonItem key="backBarButtonItem" title="Theologica" id="Onq-Ei-giq"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="Aw6-V1-yLn" id="Om9-xW-2lR"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="43L-U0-jQ4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="Aw6-V1-yLn">
+                    <connections>
+                        <outlet property="delegate" destination="W0x-bV-aZW" id="6r1-bj-0Sb"/>
+                        <outlet property="searchContentsController" destination="W0x-bV-aZW" id="jnJ-kA-dGI"/>
+                        <outlet property="searchResultsDataSource" destination="W0x-bV-aZW" id="Gmb-c5-RPY"/>
+                        <outlet property="searchResultsDelegate" destination="W0x-bV-aZW" id="dZJ-et-xip"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="818" y="2032"/>
+        </scene>
+        <!--Social Detail View Controller-->
+        <scene sceneID="ljl-om-jkg">
+            <objects>
+                <viewController id="lMo-uy-zx8" customClass="SocialDetailViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="V5q-XZ-dtT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LIW-oT-tbv">
+                                <rect key="frame" x="20" y="106" width="274" height="187"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8bA-U6-Ycv">
+                                <rect key="frame" x="20" y="77" width="280" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="L52-eE-qSL"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" barStyle="black" translucent="NO"/>
+                    <connections>
+                        <outlet property="socialDescription" destination="LIW-oT-tbv" id="Ia0-44-0iW"/>
+                        <outlet property="socialName" destination="8bA-U6-Ycv" id="lz9-cc-nks"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CFn-KM-XiP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1249" y="2032"/>
+        </scene>
+        <!--Navigation Controller - Social-->
+        <scene sceneID="P0U-03-m0K">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="QFW-xZ-mKt" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Social" image="equality.png" id="XFr-pL-O6j"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" barStyle="black" translucent="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="EdR-Sy-ghw">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="W0x-bV-aZW" kind="relationship" relationship="rootViewController" id="oHg-OI-S8A"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OYU-fo-fOm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="332" y="2032"/>
+        </scene>
+        <!--Navigation Controller - Biblical-->
+        <scene sceneID="S5L-sF-5T5">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="54G-dF-x7Z" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Biblical" image="bible.png" id="Z1S-SJ-ryY"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" barStyle="black" translucent="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="uUE-a6-YLr">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="A4p-fK-Loh" kind="relationship" relationship="rootViewController" id="0N7-GU-rw3"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AuI-9S-i76" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-48" y="1322"/>
+        </scene>
+        <!--Navigation Controller - Moral-->
+        <scene sceneID="LTq-EQ-uvi">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="MOU-es-Rfg" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Moral" image="man-influence.png" id="tiW-Ns-vb9"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" barStyle="black" translucent="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Lcf-M0-Rhv">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="yoe-Rc-HFT" kind="relationship" relationship="rootViewController" id="Us4-UP-dhd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WAp-qD-ICF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-56" y="674"/>
+        </scene>
+        <!--Navigation Controller - Ecclesial-->
+        <scene sceneID="Xj2-wJ-tce">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="BZC-3Q-Dgc" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Ecclesial" image="church.png" id="1oC-qt-PSl"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" barStyle="black" translucent="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="QeF-TX-izp">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="RG8-AO-Dk8" kind="relationship" relationship="rootViewController" id="rhX-HV-Leu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0aL-Zx-K6H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-56" y="26"/>
+        </scene>
+        <!--Navigation Controller - Systematic-->
+        <scene sceneID="fAn-dN-fqo">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="3ZE-jz-AIY" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Systematic" image="hierarchy.png" id="ADP-i6-dTj"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" barStyle="black" translucent="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="GC3-Ld-74n">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="iKW-Gb-UbV">
+                        <rect key="frame" x="0.0" y="416" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="oZ5-nE-rQe" kind="relationship" relationship="rootViewController" id="wub-yh-d34"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hqu-e8-vF2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-56" y="-621"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bible.png" width="30" height="30"/>
+        <image name="church.png" width="30" height="30"/>
+        <image name="equality.png" width="28" height="30"/>
+        <image name="hierarchy.png" width="30" height="30"/>
+        <image name="man-influence.png" width="29" height="30"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
