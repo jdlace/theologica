@@ -10,10 +10,11 @@
 #import "SystematicDetailViewController.h"
 #import "SystematicDetail.h" 
 
-@interface SystematicTableViewController (){
+@interface SystematicTableViewController ()
+{
 
+    NSDictionary *terms;
     NSArray *letters;
-    NSArray *terms;
 }
 
 @end
@@ -33,7 +34,36 @@
 {
     [super viewDidLoad];
     
-    letters = [NSArray arrayWithObjects:@"A", @"B", @"C", @"D", @"E", @"F", @"G", @"H", @"I", @"J", @"K", @"L", @"M", @"N", @"O", @"P", @"Q", @"R", @"S", @"T", @"U", @"V", @"W", @"X", @"Y", @"Z", nil];
+    terms = @{
+              @"A" : @[@"accidence", @"adoption", @"agape", @"aggiornomento", @"agnostic", @"allegory", @"analogy", @"apologetics", @"apophatic"], 
+              @"B" : @[@" 
+              @"C" : @[@" 
+              @"D" : @[@
+              @"E" : @[@
+              @"F" : @[@ 
+              @"G" : @[@ 
+              @"H" : @[@
+              @"I" : @[@ 
+              @"J" : @[@
+              @"K" : @[@ 
+              @"L" : @[@
+              @"M" : @[@
+              @"N" : @[@
+              @"O" : @[@
+              @"P" : @[@
+              @"Q" : @[@
+              @"R" : @[@
+              @"S" : @[@
+              @"T" : @[@ 
+              @"U" : @[@
+              @"V" : @[@
+              @"W" : @[@
+              @"X" : @[@
+              @"Y" : @[@ 
+              @"Z" : @[@ ]
+             };
+             
+    letters = [[terms allKeys] sortedArraysUsingSelector: @selector(localizedCaseInsensitiveCompare:)]; 
     
     /*
     
