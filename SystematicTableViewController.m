@@ -140,18 +140,25 @@
 
     
     _systematicDetails = [[NSMutableArray alloc] init];
-    [_systematicDetails addObject: accidenceSystematicDetail];
-    [_systematicDetails addObject: adoptionSystematicDetail];
-    [_systematicDetails addObject: agapeSystematicDetail];
-    [_systematicDetails addObject: agiornomentoSystematicDetail];
-    [_systematicDetails addObject: agnosticSystematicDetail];
-    [_systematicDetails addObject: allegorySystematicDetail];
-    [_systematicDetails addObject: analogySystematicDetail];
-    [_systematicDetails addObject: apologeticsSystematicDetail]; 
-    [_systematicDetails addObject: apophaticSystematicDetail];
-    [_systematicDetails addObject: baptismSystematicDetail]; 
-
- 
+    
+    for (NSString *letter in letters) {
+        NSMutableArray *array = [NSMutableArray array];
+        if ([letter isEqualToString:@"A"]) {
+            [array addObject: accidenceSystematicDetail];
+            [array addObject: adoptionSystematicDetail];
+            [array addObject: agapeSystematicDetail];
+            [array addObject: agiornomentoSystematicDetail];
+            [array addObject: agnosticSystematicDetail];
+            [array addObject: allegorySystematicDetail];
+            [array addObject: analogySystematicDetail];
+            [array addObject: apologeticsSystematicDetail];
+            [array addObject: apophaticSystematicDetail];
+        } else if ([letter isEqualToString:@"B"]) {
+            [array addObject: baptismSystematicDetail];
+        }
+        
+        [_systematicDetails addObject:array];
+    }
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -272,8 +279,11 @@
     if ([[segue identifier] isEqualToString:@"showSystematicDetail"])
     {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        NSArray *sectionArray = [_systematicDetails objectAtIndex:indexPath.section];
+        SystematicDetail *detail = [sectionArray objectAtIndex:indexPath.row];
+        
         SystematicDetailViewController *systematicDetailViewController = [segue destinationViewController];
-        systematicDetailViewController.currentSystematicDetail = [_systematicDetails objectAtIndex:indexPath.row];
+        systematicDetailViewController.currentSystematicDetail = detail;
     }
 }
 
