@@ -10,10 +10,14 @@
 #import "SystematicDetailViewController.h"
 #import "SystematicDetail.h" 
 
-@interface SystematicTableViewController (){
+@interface SystematicTableViewController ()
+{
+    //added by other dev
+    //NSArray *letters;
+    //NSArray *terms;
 
+    NSDictionary *terms;
     NSArray *letters;
-    NSArray *terms;
 }
 
 @end
@@ -23,7 +27,8 @@
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];
-    if (self) {
+    if (self)
+    {
         // Custom initialization
     }
     return self;
@@ -32,8 +37,44 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+    /* Original Code
     letters = [NSArray arrayWithObjects:@"A", @"B", @"C", @"D", @"E", @"F", @"G", @"H", @"I", @"J", @"K", @"L", @"M", @"N", @"O", @"P", @"Q", @"R", @"S", @"T", @"U", @"V", @"W", @"X", @"Y", @"Z", nil];
+    terms = _systematicTerms;
+    */
+    
+    
+    terms = @{
+              @"A" : @[@"accidence", @"adoption", @"agape", @"aggiornomento", @"agnostic", @"allegory", @"analogy"
+                       , @"apologetics", @"apophatic"],
+              @"B" : @[@"baptism"],
+              @"C" : @[@"criterion"],
+              @"D" : @[@"deism"],
+              @"E" : @[@"essence"],
+              @"F" : @[@"filioque"],
+              @"G" : @[@"gaudium"],
+              @"H" : @[@"heaven"],
+              @"I" : @[@"immanence"],
+              @"J" : @[@"jesus"],
+              @"K" : @[@"krypton"],
+              @"L" : @[@"love"],
+              @"M" : @[@"metaphysics"],
+              @"N" : @[@"necessity"],
+              @"O" : @[@"oracle"],
+              @"P" : @[@"philosophy"],
+              @"Q" : @[@"quintessence"],
+              @"R" : @[@"redeem"],
+              @"S" : @[@"salvation"],
+              @"T" : @[@"trinity"],
+              @"U" : @[@"universalism"],
+              @"V" : @[@"vicarious"],
+              @"W" : @[@"weather"],
+              @"X" : @[@"xcode"],
+              @"Y" : @[@"young"],
+              @"Z" : @[@"zebra"],
+             };
+                                                                                                                        
+    letters = [[terms allKeys] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
+    
     
     /*
     
@@ -49,11 +90,15 @@
     */
     //need to reexamine the data model.
     
-    _systematicTerms = [[NSArray alloc] initWithObjects:@"accident", @"adoption", @"agape", @"aggiornomento", @"agnostic", @"allegory", @"analogy", @"apologetics", @"apophatic", @"criteria", nil];
     
-    SystematicDetail *accidentSystematicDetail = [[SystematicDetail alloc] init];
-    accidentSystematicDetail.systematicName = @"accident";
-    accidentSystematicDetail.systematicDescription = @"In Aristotelean philosophy, a nonessential property or quality of a substance"; 
+    
+    
+    
+    //_systematicTerms = [[NSArray alloc] initWithObjects:@"accident", @"adoption", @"agape", @"aggiornomento", @"agnostic", @"allegory", @"analogy", @"apologetics", @"apophatic", @"criteria", nil];
+    
+    SystematicDetail *accidenceSystematicDetail = [[SystematicDetail alloc] init];
+    accidenceSystematicDetail.systematicName = @"accidence";
+    accidenceSystematicDetail.systematicDescription = @"In Aristotelean philosophy, a nonessential property or quality of a substance.";
     
     SystematicDetail *adoptionSystematicDetail = [[SystematicDetail alloc] init];
     adoptionSystematicDetail.systematicName = @"adoption";
@@ -86,10 +131,16 @@
     
     SystematicDetail *apophaticSystematicDetail = [[SystematicDetail alloc] init];
     apophaticSystematicDetail.systematicName = @"apophatic";
-    apophaticSystematicDetail.systematicDescription = @"language which claims what God is not";
+    apophaticSystematicDetail.systematicDescription = @"language which claims what God is not or a negation.";
+    
+    SystematicDetail *baptismSystematicDetail = [[SystematicDetail alloc] init];
+    baptismSystematicDetail.systematicName = @"baptism";
+    baptismSystematicDetail.systematicDescription = @"a ritual washing used for initiation into the Christian community";
+    
+
     
     _systematicDetails = [[NSMutableArray alloc] init];
-    [_systematicDetails addObject: accidentSystematicDetail]; 
+    [_systematicDetails addObject: accidenceSystematicDetail];
     [_systematicDetails addObject: adoptionSystematicDetail];
     [_systematicDetails addObject: agapeSystematicDetail];
     [_systematicDetails addObject: agiornomentoSystematicDetail];
@@ -98,6 +149,8 @@
     [_systematicDetails addObject: analogySystematicDetail];
     [_systematicDetails addObject: apologeticsSystematicDetail]; 
     [_systematicDetails addObject: apophaticSystematicDetail];
+    [_systematicDetails addObject: baptismSystematicDetail]; 
+
  
 
     // Uncomment the following line to preserve selection between presentations.
@@ -118,13 +171,20 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     // Return the number of sections.
-    return 26;
+    //Original Code
+    //return 26;
+    return [letters count];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
+    //Original Code
     // Return the number of rows in the section.
-    return [_systematicDetails count];
+    //return [_systematicDetails count];
+    NSString *sectionTitle = [letters objectAtIndex:section];
+    NSArray *sectionTerms = [terms objectForKey:sectionTitle];
+    return [sectionTerms count];
+    
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -133,12 +193,19 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     // Configure the cell...
+    NSString *sectionTitle = [letters objectAtIndex:indexPath.section];
+    NSArray *sectionTerms = [terms objectForKey:sectionTitle];
+    NSString *term = [sectionTerms objectAtIndex:indexPath.row];
+    cell.textLabel.text = term;
     
-    cell.textLabel.text = [_systematicTerms objectAtIndex:indexPath.row];
+    //Original Code
+    //cell.textLabel.text = [_systematicTerms objectAtIndex:indexPath.row];
+    
     return cell;
 }
 
--(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
+-(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
 
     return [letters objectAtIndex:section];
 }
@@ -206,7 +273,7 @@
     {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         SystematicDetailViewController *systematicDetailViewController = [segue destinationViewController];
-        systematicDetailViewController.currentSystematicDetail = [_systematicDetails objectAtIndex:indexPath.row]; 
+        systematicDetailViewController.currentSystematicDetail = [_systematicDetails objectAtIndex:indexPath.row];
     }
 }
 
@@ -214,9 +281,9 @@
     return letters;
 }
 
-//- (NSInteger)tableView:(UITableView *)tableView sectionForSectionIndexTitle:(NSString *)title atIndex:(NSInteger)index
-//{
-//    return 1;
-//}
+- (NSInteger)tableView:(UITableView *)tableView sectionForSectionIndexTitle:(NSString *)title atIndex:(NSInteger)index
+{
+    return [letters indexOfObject:title];
+}
 
 @end

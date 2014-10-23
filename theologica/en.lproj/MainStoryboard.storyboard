@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6154.21" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="4">
     <dependencies>
-        <deployment defaultVersion="1792" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.13"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
         <!--Tab Bar Controller-->
@@ -25,9 +24,9 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="14" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1100" y="348"/>
+            <point key="canvasLocation" x="-1858" y="636"/>
         </scene>
-        <!--Systematic Table View Controller - Theologica-->
+        <!--Theologica-->
         <scene sceneID="y7M-Dc-MB3">
             <objects>
                 <tableViewController id="oZ5-nE-rQe" customClass="SystematicTableViewController" sceneMemberID="viewController">
@@ -92,12 +91,15 @@
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cyH-hb-U7k">
                                 <rect key="frame" x="20" y="106" width="280" height="183"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <accessibility key="accessibilityConfiguration">
+                            <accessibilityTraits key="traits" none="YES" selected="YES"/>
+                        </accessibility>
                     </view>
                     <navigationItem key="navigationItem" id="c5B-0g-HjD"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
@@ -111,7 +113,7 @@
             </objects>
             <point key="canvasLocation" x="1221" y="-688"/>
         </scene>
-        <!--Ecclesial Table View Controller - Theologica-->
+        <!--Theologica-->
         <scene sceneID="CgF-4d-159">
             <objects>
                 <tableViewController id="RG8-AO-Dk8" customClass="EcclesialTableViewController" sceneMemberID="viewController">
@@ -176,7 +178,7 @@
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="38L-Tr-to0">
                                 <rect key="frame" x="20" y="112" width="280" height="172"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -194,7 +196,7 @@
             </objects>
             <point key="canvasLocation" x="1221" y="-2"/>
         </scene>
-        <!--Moral Table View Controller - Theologica-->
+        <!--Theologica-->
         <scene sceneID="ZY6-Nb-KZg">
             <objects>
                 <tableViewController id="yoe-Rc-HFT" customClass="MoralTableViewController" sceneMemberID="viewController">
@@ -259,7 +261,7 @@
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ohg-54-OgM">
                                 <rect key="frame" x="20" y="102" width="280" height="186"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -278,7 +280,7 @@
             </objects>
             <point key="canvasLocation" x="1229" y="658"/>
         </scene>
-        <!--Biblical Table View Controller - Theologica-->
+        <!--Theologica-->
         <scene sceneID="q62-mk-gma">
             <objects>
                 <tableViewController id="A4p-fK-Loh" customClass="BiblicalTableViewController" sceneMemberID="viewController">
@@ -341,9 +343,9 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="C91-ZW-UJR">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="C91-ZW-UJR">
                                 <rect key="frame" x="20" y="112" width="280" height="265"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -362,7 +364,7 @@
             </objects>
             <point key="canvasLocation" x="1229" y="1322"/>
         </scene>
-        <!--Social Table View Controller - Theologica-->
+        <!--Theologica-->
         <scene sceneID="86s-5N-Kqe">
             <objects>
                 <tableViewController id="W0x-bV-aZW" customClass="SocialTableViewController" sceneMemberID="viewController">
@@ -410,7 +412,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="818" y="2032"/>
+            <point key="canvasLocation" x="566" y="2024"/>
         </scene>
         <!--Social Detail View Controller-->
         <scene sceneID="ljl-om-jkg">
@@ -422,7 +424,7 @@
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LIW-oT-tbv">
                                 <rect key="frame" x="20" y="106" width="274" height="187"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -445,9 +447,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CFn-KM-XiP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1249" y="2032"/>
+            <point key="canvasLocation" x="1229" y="2024"/>
         </scene>
-        <!--Navigation Controller - Social-->
+        <!--Social-->
         <scene sceneID="P0U-03-m0K">
             <objects>
                 <navigationController definesPresentationContext="YES" id="QFW-xZ-mKt" sceneMemberID="viewController">
@@ -462,9 +464,9 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OYU-fo-fOm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="332" y="2032"/>
+            <point key="canvasLocation" x="-40" y="2024"/>
         </scene>
-        <!--Navigation Controller - Biblical-->
+        <!--Biblical-->
         <scene sceneID="S5L-sF-5T5">
             <objects>
                 <navigationController definesPresentationContext="YES" id="54G-dF-x7Z" sceneMemberID="viewController">
@@ -481,7 +483,7 @@
             </objects>
             <point key="canvasLocation" x="-48" y="1322"/>
         </scene>
-        <!--Navigation Controller - Moral-->
+        <!--Moral-->
         <scene sceneID="LTq-EQ-uvi">
             <objects>
                 <navigationController definesPresentationContext="YES" id="MOU-es-Rfg" sceneMemberID="viewController">
@@ -498,7 +500,7 @@
             </objects>
             <point key="canvasLocation" x="-56" y="674"/>
         </scene>
-        <!--Navigation Controller - Ecclesial-->
+        <!--Ecclesial-->
         <scene sceneID="Xj2-wJ-tce">
             <objects>
                 <navigationController definesPresentationContext="YES" id="BZC-3Q-Dgc" sceneMemberID="viewController">
@@ -515,7 +517,7 @@
             </objects>
             <point key="canvasLocation" x="-56" y="26"/>
         </scene>
-        <!--Navigation Controller - Systematic-->
+        <!--Systematic-->
         <scene sceneID="fAn-dN-fqo">
             <objects>
                 <navigationController definesPresentationContext="YES" id="3ZE-jz-AIY" sceneMemberID="viewController">
