@@ -45,39 +45,39 @@
     
     terms = @{
               @"A" : @[@"accidence", @"adoption", @"agape", @"aggiornomento", @"agnostic", @"allegory", @"analogy"
-                       , @"apologetics", @"apophatic"],
-              @"B" : @[@"baptism"],
-              @"C" : @[@"criterion"],
+                       , @"apologetics", @"apophatic", @"atonement"],
+              @"B" : @[@"baptism", @"blasphemy"],
+              @"C" : @[@"canon", @"creed"],
               @"D" : @[@"deism"],
-              @"E" : @[@"essence"],
-              @"F" : @[@"filioque"],
-              @"G" : @[@"gaudium"],
-              @"H" : @[@"heaven"],
+              @"E" : @[@"epistemology", @"essence", @"ex nihilo"],
+              @"F" : @[@"faith"],
+              @"G" : @[@"gospel"],
+              @"H" : @[@"heresy"],
               @"I" : @[@"immanence"],
               @"J" : @[@"jesus"],
-              @"K" : @[@"krypton"],
-              @"L" : @[@"love"],
+              @"K" : @[@"kataphatic"],
+              @"L" : @[@"liberation theology"],
               @"M" : @[@"metaphysics"],
-              @"N" : @[@"necessity"],
-              @"O" : @[@"oracle"],
-              @"P" : @[@"philosophy"],
+              @"N" : @[@"natural theology"],
+              @"O" : @[@"orthodoxy", @"orthodpraxy"],
+              @"P" : @[@"philosophy", @"predestination"],
               @"Q" : @[@"quintessence"],
-              @"R" : @[@"redeem"],
-              @"S" : @[@"salvation"],
-              @"T" : @[@"trinity"],
+              @"R" : @[@"redemption"],
+              @"S" : @[@"salvation", @"systematic theology"],
+              @"T" : @[@"theodicy", @"theology", @"trinity"],
               @"U" : @[@"universalism"],
               @"V" : @[@"vicarious"],
-              @"W" : @[@"weather"],
+              @"W" : @[@"will"],
               @"X" : @[@"xcode"],
-              @"Y" : @[@"young"],
-              @"Z" : @[@"zebra"],
+              @"Y" : @[@"YHWH"],
+              @"Z" : @[@"zion"],
              };
                                                                                                                         
     letters = [[terms allKeys] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
     
     
     /*
-    
+    //Added by Derek Lee Bronston
     //PATH TO LOCAL FILE THAT STORES CONTACTS
     NSString *path = [[NSBundle mainBundle] bundlePath];
     NSString *finalPath = [path stringByAppendingPathComponent:@"Contacts.plist"];
@@ -137,9 +137,14 @@
     baptismSystematicDetail.systematicName = @"baptism";
     baptismSystematicDetail.systematicDescription = @"a ritual washing used for initiation into the Christian community";
     
+    SystematicDetail *blasphemySystematicDetail = [[SystematicDetail alloc] init];
+    blasphemySystematicDetail.systematicName = @"blasphemy";
+    blasphemySystematicDetail.systematicDescription = @"a form of religious slander";
+    
 
     
     _systematicDetails = [[NSMutableArray alloc] init];
+    /*
     [_systematicDetails addObject: accidenceSystematicDetail];
     [_systematicDetails addObject: adoptionSystematicDetail];
     [_systematicDetails addObject: agapeSystematicDetail];
@@ -151,8 +156,34 @@
     [_systematicDetails addObject: apophaticSystematicDetail];
     [_systematicDetails addObject: baptismSystematicDetail]; 
 
- 
-
+ */
+    //@boxenjim's solution
+    for (NSString *letter in letters)
+    {
+        NSMutableArray *array = [NSMutableArray array];
+        if ([letter isEqualToString:@"A"])
+        {
+            [array addObject: accidenceSystematicDetail];
+            [array addObject: adoptionSystematicDetail];
+            [array addObject: agapeSystematicDetail];
+            [array addObject: agiornomentoSystematicDetail];
+            [array addObject: agnosticSystematicDetail];
+            [array addObject: allegorySystematicDetail];
+            [array addObject: analogySystematicDetail];
+            [array addObject: apologeticsSystematicDetail];
+            [array addObject: apophaticSystematicDetail];
+        }
+        else if ([letter isEqualToString:@"B"])
+        {
+            [array addObject: baptismSystematicDetail];
+            [array addObject: blasphemySystematicDetail]; 
+        }
+        
+             [_systematicDetails addObject:array];
+    }
+    
+    
+    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  
@@ -272,8 +303,12 @@
     if ([[segue identifier] isEqualToString:@"showSystematicDetail"])
     {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        NSArray *sectionArray = [_systematicDetails objectAtIndex:indexPath.section];
+        SystematicDetail *detail = [sectionArray objectAtIndex:indexPath.row];
+    
         SystematicDetailViewController *systematicDetailViewController = [segue destinationViewController];
-        systematicDetailViewController.currentSystematicDetail = [_systematicDetails objectAtIndex:indexPath.row];
+        //systematicDetailViewController.currentSystematicDetail = [_systematicDetail objectAtIndex:indexPath.row];
+        systematicDetailViewController.currentSystematicDetail = detail;
     }
 }
 

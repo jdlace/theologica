@@ -11,7 +11,10 @@
 #import "EcclesialDetail.h"
 
 @interface EcclesialTableViewController ()
-
+{
+    NSDictionary *terms;
+    NSArray *letters;
+}
 @end
 
 @implementation EcclesialTableViewController
@@ -19,7 +22,8 @@
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];
-    if (self) {
+    if (self)
+    {
         // Custom initialization
     }
     return self;
@@ -29,7 +33,38 @@
 {
     [super viewDidLoad];
     
-    _ecclesialTerms = [[NSArray alloc] initWithObjects:@"absolution", @"acolyte", @"altar", @"antiphon", nil];
+    terms = @{
+              @"A" : @[@"absolution", @"acolyte", @"Agnus Dei", @"altar", @"anamnesis", @"anathema", @"antiphon", @"Apostle's Creed", @"Arianism", @"asceticism", @"Ash Wednesday"],
+              @"B" : @[@"baptistry", @"blasphemy", @"basillica", @"Benedictus", @"bishop", @"Byzantine"],
+              @"C" : @[@"Calvinism", @"canon", @"cantor", @"catechumen", @"cathedral", @"chalice", @"Chalcedon", @"chi rho", @"church", @"clergy", @"Confession", @"Confirmation", @"consubstantial", @"contrition", @"council"],
+              @"D" : @[@"Daily Office", @"deacon", @"docetism", @"Donatism"],
+              @"E" : @[@"Easter", @"ecclesia", @"ecclesiology", @"epiclesis", @"Epiphany", @"Eucharist"],
+              @"F" : @[@"Filioque"],
+              @"G" : @[@"Gloria Patri", @"gnosticism", @"Good Friday"],
+              @"H" : @[@"Hail Mary", @"Holy Orders", @"Holy Saturday", @"Holy Week", @"homily", @"homoosious", @"hymn"],
+              @"I" : @[@"icon", @"intinction"],
+              @"J" : @[@"Jubilate Deo"],
+              @"K" : @[@"Kiss of Peace", @"koinonia", @"Kyrie Eleison"],
+              @"L" : @[@"laity", @"Last Rites", @"Lectio Divina", @"lectionary", @"lector", @"liturgy"],
+              @"M" : @[@"Magnificat", @"Marcion", @"martyr", @"mass", @"Memorial Acclamation", @"missal", @"monestary", @"monogenism", @"monophysitism", @"monothelism", @"monstrance", @"Montanism"],
+              @"N" : @[@"narthex", @"Nestorianism", @"Nicene Creed", @"Nunc Dimittis"],
+              @"O" : @[@"Offeratory", @"Ordinary Time", @"Ordination"],
+              @"P" : @[@"Palm Sunday", @"Paschal Candle", @"Passion Sunday", @"Pater Noster", @"patristic", @"Pelagianism", @"penance", @"Pentecost", @"Pope", @"priest", @"Protestantism"],
+              @"Q" : @[@"Quadradecimial Controversy"],
+              @"R" : @[@"rosary", @"Reconciliation", @"rule of faith"],
+              @"S" : @[@"sacramentary", @"Scholasticism", @"synod"],
+              @"T" : @[@"tabernacle", @"thurible", @"transubstantiation", @"Triduum"],
+              @"U" : @[@"Unction"],
+              @"V" : @[@"vespers", @"Viaticum"],
+              @"W" : @[@"Way of the Cross"],
+              @"X" : @[@"XC"],
+              @"Y" : @[@"young"],
+              @"Z" : @[@"zebra"],
+              };
+    
+    letters = [[terms allKeys] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
+    
+    //_ecclesialTerms = [[NSArray alloc] initWithObjects:@"absolution", @"acolyte", @"altar", @"antiphon", nil];
     
     EcclesialDetail *absolutionEcclesialDetail = [[EcclesialDetail alloc] init];
     absolutionEcclesialDetail.ecclesialName = @"absolution";
@@ -47,12 +82,41 @@
     antiphonEcclesialDetail.ecclesialName = @"antiphon";
     antiphonEcclesialDetail.ecclesialDescription = @"the choral response sung during the entrace processional";
     
+    EcclesialDetail *baptismEcclesialDetail = [[EcclesialDetail alloc] init];
+    baptismEcclesialDetail.ecclesialName = @"baptism";
+    baptismEcclesialDetail.ecclesialDescription = @"the intiation rite into the Church";
+    
+    EcclesialDetail *blasphemyEcclesialDetail = [[EcclesialDetail alloc] init];
+    blasphemyEcclesialDetail.ecclesialName = @"blasphemy";
+    blasphemyEcclesialDetail.ecclesialDescription = @"religious slander";
+   
     _ecclesialDetails = [[NSMutableArray alloc] init];
+    /*
     [_ecclesialDetails addObject: absolutionEcclesialDetail]; 
     [_ecclesialDetails addObject: acolyteEcclesialDetail];
     [_ecclesialDetails addObject: altarEcclesialDetail];
     [_ecclesialDetails addObject: antiphonEcclesialDetail];
+    */
     
+    for (NSString *letter in letters)
+        {
+        NSMutableArray *array = [NSMutableArray array];
+        if ([letter isEqualToString:@"A"])
+            {
+            [array addObject: absolutionEcclesialDetail];
+            [array addObject: acolyteEcclesialDetail];
+            [array addObject: altarEcclesialDetail];
+            [array addObject: antiphonEcclesialDetail];
+            }
+        else if ([letter isEqualToString:@"B"])
+            {
+            [array addObject: baptismEcclesialDetail];
+            [array addObject: blasphemyEcclesialDetail];
+            }
+        
+        [_ecclesialDetails addObject:array];
+        }
+
 
     
 
@@ -74,23 +138,35 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     // Return the number of sections.
-    return 1;
+    return [letters count];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return [_ecclesialDetails count];
+    NSString *sectionTitle = [letters objectAtIndex:section];
+    NSArray *sectionTerms = [terms objectForKey:sectionTitle];
+    return [sectionTerms count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"ecclesialCell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    NSString *sectionTitle = [letters objectAtIndex:indexPath.section];
+    NSArray *sectionTerms = [terms objectForKey:sectionTitle];
+    NSString *term = [sectionTerms objectAtIndex:indexPath.row];
+    cell.textLabel.text = term;
     
     // Configure the cell...
-    cell.textLabel.text = [_ecclesialTerms objectAtIndex:indexPath.row];
+    //cell.textLabel.text = [_ecclesialTerms objectAtIndex:indexPath.row];
     return cell;
+}
+
+-(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    
+    return [letters objectAtIndex:section];
 }
 
 /*
@@ -155,17 +231,21 @@
     if ([[segue identifier] isEqualToString:@"showEcclesialDetail"])
     {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        NSArray *sectionArray = [_ecclesialDetails objectAtIndex:indexPath.section];
         EcclesialDetailViewController *ecclesialDetailViewController = [segue destinationViewController];
-        ecclesialDetailViewController.currentEcclesialDetail = [_ecclesialDetails objectAtIndex:indexPath.row];
+        EcclesialDetail *detail = [sectionArray objectAtIndex:indexPath.row];
+        //ecclesialDetailViewController.currentEcclesialDetail = [_ecclesialDetails objectAtIndex:indexPath.row];
+        ecclesialDetailViewController.currentEcclesialDetail = detail;
     }
 }
-- (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView {
-    return[NSArray arrayWithObjects:@"A", @"B", @"C", @"D", @"E", @"F", @"G", @"H", @"I", @"J", @"K", @"L", @"M", @"N", @"O", @"P", @"Q", @"R", @"S", @"T", @"U", @"V", @"W", @"X", @"Y", @"Z", nil];
+- (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView
+{
+    return letters;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView sectionForSectionIndexTitle:(NSString *)title atIndex:(NSInteger)index
 {
-    return 1;
+    return [letters indexOfObject:title];
 }
 
 @end

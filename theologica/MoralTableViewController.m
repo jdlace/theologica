@@ -11,6 +11,11 @@
 #import "MoralDetail.h"
 
 @interface MoralTableViewController ()
+{
+    
+    NSDictionary *terms;
+    NSArray *letters;
+}
 
 @end
 
@@ -28,6 +33,39 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    terms = @{
+              @"A" : @[@"accidence", @"adoption", @"agape", @"aggiornomento", @"agnostic", @"allegory", @"analogy"
+                       , @"apologetics", @"apophatic", @"atonement"],
+              @"B" : @[@"baptism", @"blasphemy"],
+              @"C" : @[@"canon", @"creed"],
+              @"D" : @[@"deism"],
+              @"E" : @[@"epistemology", @"essence", @"ex nihilo"],
+              @"F" : @[@"faith"],
+              @"G" : @[@"gospel"],
+              @"H" : @[@"heresy"],
+              @"I" : @[@"immanence"],
+              @"J" : @[@"jesus"],
+              @"K" : @[@"kataphatic"],
+              @"L" : @[@"liberation theology"],
+              @"M" : @[@"metaphysics"],
+              @"N" : @[@"natural theology"],
+              @"O" : @[@"orthodoxy", @"orthodpraxy"],
+              @"P" : @[@"philosophy", @"predestination"],
+              @"Q" : @[@"quintessence"],
+              @"R" : @[@"redemption"],
+              @"S" : @[@"salvation", @"systematic theology"],
+              @"T" : @[@"theodicy", @"theology", @"trinity"],
+              @"U" : @[@"universalism"],
+              @"V" : @[@"vicarious"],
+              @"W" : @[@"will"],
+              @"X" : @[@"xcode"],
+              @"Y" : @[@"YHWH"],
+              @"Z" : @[@"zion"],
+              };
+    
+    letters = [[terms allKeys] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
+
     
     _moralTerms = [[NSArray alloc] initWithObjects:@"abortion", @"abstinence", @"act", @"adultery", nil];
     
@@ -52,6 +90,27 @@
     [_moralDetails addObject: abstinenceMoralDetail];
     [_moralDetails addObject: actMoralDetail];
     [_moralDetails addObject: adulteryMoralDetail];
+    
+    for (NSString *letter in letters)
+        {
+        NSMutableArray *array = [NSMutableArray array];
+        if ([letter isEqualToString:@"A"])
+            {
+            [array addObject: abortionMoralDetail];
+            [array addObject: abstinenceMoralDetail];
+            [array addObject: actMoralDetail];
+            [array addObject: adulteryMoralDetail];
+            }
+        else if ([letter isEqualToString:@"B"])
+            {
+            //[array addObject: baptismSystematicDetail];
+            //[array addObject: blasphemySystematicDetail];
+            }
+        
+        [_moralDetails addObject:array];
+        }
+    
+
 
 
     // Uncomment the following line to preserve selection between presentations.
