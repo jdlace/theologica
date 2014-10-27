@@ -12,10 +12,6 @@
 
 @interface SystematicTableViewController ()
 {
-    //added by other dev
-    //NSArray *letters;
-    //NSArray *terms;
-
     NSDictionary *terms;
     NSArray *letters;
 }
@@ -49,7 +45,7 @@
               @"B" : @[@"baptism", @"blasphemy"],
               @"C" : @[@"canon", @"creed"],
               @"D" : @[@"deism"],
-              @"E" : @[@"epistemology", @"essence", @"ex nihilo"],
+              @"E" : @[@"epistemology", @"eschatology", @"essence", @"ex nihilo"],
               @"F" : @[@"faith"],
               @"G" : @[@"gospel"],
               @"H" : @[@"heresy"],
@@ -126,12 +122,15 @@
     
     SystematicDetail *apologeticsSystematicDetail = [[SystematicDetail alloc] init];
     apologeticsSystematicDetail.systematicName = @"apologetics";
-    apologeticsSystematicDetail.systematicDescription = @"the rational defense of the Christian faith."; 
-    
+    apologeticsSystematicDetail.systematicDescription = @"the rational defense of the Christian faith.";
     
     SystematicDetail *apophaticSystematicDetail = [[SystematicDetail alloc] init];
     apophaticSystematicDetail.systematicName = @"apophatic";
     apophaticSystematicDetail.systematicDescription = @"language which claims what God is not or a negation.";
+    
+    SystematicDetail *atonementSystematicDetail = [[SystematicDetail alloc] init];
+    atonementSystematicDetail.systematicName = @"atonement";
+    atonementSystematicDetail.systematicDescription = @"the act of making restitution for inflicted harm";
     
     SystematicDetail *baptismSystematicDetail = [[SystematicDetail alloc] init];
     baptismSystematicDetail.systematicName = @"baptism";
@@ -172,17 +171,107 @@
             [array addObject: analogySystematicDetail];
             [array addObject: apologeticsSystematicDetail];
             [array addObject: apophaticSystematicDetail];
+            [array addObject: atonementSystematicDetail];
         }
         else if ([letter isEqualToString:@"B"])
         {
             [array addObject: baptismSystematicDetail];
             [array addObject: blasphemySystematicDetail]; 
         }
+        else if ([letter isEqualToString:@"C"])
+        {
         
+        }
+        else if ([letter isEqualToString:@"D"])
+        {
+            
+        }
+        else if ([letter isEqualToString:@"E"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"F"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"G"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"H"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"I"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"J"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"K"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"L"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"M"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"N"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"O"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"P"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"Q"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"R"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"S"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"T"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"U"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"V"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"W"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"Y"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"Z"])
+            {
+            
+            }
              [_systematicDetails addObject:array];
     }
-    
-    
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -312,7 +401,8 @@
     }
 }
 
-- (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView {
+- (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView
+{
     return letters;
 }
 

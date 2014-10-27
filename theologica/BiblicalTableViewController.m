@@ -11,6 +11,10 @@
 #import "BiblicalDetail.h"
 
 @interface BiblicalTableViewController ()
+{
+    NSDictionary *terms;
+    NSArray *letters;
+}
 
 @end
 
@@ -29,8 +33,42 @@
 {
     [super viewDidLoad];
     
-    _biblicalTerms = [[NSArray alloc] initWithObjects:@"Aaron", @"Alexander the Great", @"Amos", @"anthropomorphism", @"Antiochus IV", @"apocalypse", @"apocrypha", @"apodictic", @"Apollos", @"apostle", @"aqeda", @"Aramaic", @"Artaxerxes", @"Asher", @"Asherah", @"Assyria", @"Ba'al", @"Ban", @"Bathsheba", @"Bible", @"Beth'El", @"canon", @"Deuteronomic Source", @"Elohist Source",nil];
+    terms = @{
+              @"A" : @[@"Abba", @"Adonai", @"anthropomorphism", @"apocalypse", @"apocrypha", @"apodictic", @"apostle", @"aqeda", @"Aramaic", @"Asherah", @"Assyria"],
+              @"B" : @[@"Ba'al", @"Babel", @"Babylon", @"Ban", @"Bible", @"Beth-El"],
+              @"C" : @[@"canon", @"Charism", @"Christ", @"covenant"],
+              @"D" : @[@"Decalogue", @"Deuteronomic Source", @"Deuteronomic History", @"Deuteronomy", @"Documentary Hypothesis"],
+              @"E" : @[@"El", @"Elohim", @"Elohist Source"],
+              @"F" : @[@"faith"],
+              @"G" : @[@"gospel"],
+              @"H" : @[@"heresy"],
+              @"I" : @[@"immanence"],
+              @"J" : @[@"justification"],
+              @"K" : @[@"kataphatic"],
+              @"L" : @[@"liberation theology"],
+              @"M" : @[@"Messiah"],
+              @"N" : @[@"natural theology"],
+              @"O" : @[@"orthodoxy", @"orthodpraxy"],
+              @"P" : @[@"philosophy", @"predestination"],
+              @"Q" : @[@"quintessence"],
+              @"R" : @[@"redemption"],
+              @"S" : @[@"salvation", @"systematic theology"],
+              @"T" : @[@"theodicy", @"theology", @"trinity"],
+              @"U" : @[@"universalism"],
+              @"V" : @[@"vicarious"],
+              @"W" : @[@"will"],
+              @"X" : @[@"xcode"],
+              @"Y" : @[@"YHWH"],
+              @"Z" : @[@"zion"],
+              };
     
+    letters = [[terms allKeys] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
+    
+
+    
+    
+    //_biblicalTerms = [[NSArray alloc] initWithObjects:@"Aaron", @"Alexander the Great", @"Amos", @"anthropomorphism", @"Antiochus IV", @"apocalypse", @"apocrypha", @"apodictic", @"Apollos", @"apostle", @"aqeda", @"Aramaic", @"Artaxerxes", @"Asher", @"Asherah", @"Assyria", @"Ba'al", @"Ban", @"Bathsheba", @"Bible", @"Beth'El", @"canon", @"Deuteronomic Source", @"Elohist Source",nil];
+    /*
     BiblicalDetail *aaronBiblicalDetail = [[BiblicalDetail alloc] init];
     aaronBiblicalDetail.biblicalName = @"Aaron";
     aaronBiblicalDetail.biblicalDescription = @"the brother of Moses and founder of the Israelite priesthood according to the Priestly (P) source. See 'Documentary Hypothesis'";
@@ -42,14 +80,23 @@
     BiblicalDetail *amosBiblicalDetail = [[BiblicalDetail alloc] init];
     amosBiblicalDetail.biblicalName = @"Amos";
     amosBiblicalDetail.biblicalDescription = @"A prophet from the southern kingdom of Judah who spoke Divine oracles against the economic injustice of the northern kingdom of Israel in the 8th century BCE";
+    */
+    BiblicalDetail *abbaBiblicalDetail = [[BiblicalDetail alloc] init];
+    abbaBiblicalDetail.biblicalName = @"Abba";
+    abbaBiblicalDetail.biblicalDescription = @"Aramaic term for 'Daddy'; used by Jesus in prayer to God in the gospels.";
+    
+    BiblicalDetail *adonaiBiblicalDetail = [[BiblicalDetail alloc] init];
+    adonaiBiblicalDetail.biblicalName = @"Adonai";
+    adonaiBiblicalDetail.biblicalDescription =@"Hebrew word for 'Ruler'; used as a synonym for YHWH";
     
     BiblicalDetail *anthropomorphismBiblicalDetail = [[BiblicalDetail alloc] init];
     anthropomorphismBiblicalDetail.biblicalName = @"anthropomorphism";
     anthropomorphismBiblicalDetail.biblicalDescription = @"the attribution of human characteristics to a non-human object";
-    
+    /*
     BiblicalDetail *antiochusBiblicalDetail = [[BiblicalDetail alloc]init];
     antiochusBiblicalDetail.biblicalName = @"Antiochus IV";
     antiochusBiblicalDetail.biblicalDescription = @"Greek king of Seleucid empire who ruled from 215-164 BCE and who caused the Maccabean revolt";
+    */
     
     BiblicalDetail *apocalypseBiblicalDetail = [[BiblicalDetail alloc] init];
     apocalypseBiblicalDetail.biblicalName = @"apocalypse";
@@ -63,10 +110,12 @@
     apodicticBiblicalDetail.biblicalName = @"apodictic";
     apodicticBiblicalDetail.biblicalDescription = @"a type of law which is based on a moral norm or command";
     
+    /*
     BiblicalDetail *apollosBiblicalDetail = [[BiblicalDetail alloc]  init];
     apollosBiblicalDetail.biblicalName = @"Apollos";
     apollosBiblicalDetail.biblicalDescription = @"An apostolic worker associated with Paul; according to Acts 18, he was a Jew from Alexandria who had received Christian instruction";
-    
+    */
+                       
     BiblicalDetail *apostleBiblicalDetail = [[BiblicalDetail alloc] init];
     apostleBiblicalDetail.biblicalName = @"apostle";
     apostleBiblicalDetail.biblicalDescription = @"from the Greek word for 'delegate'; used to refer to those whom Jesus commissioned to spread the good news of the Kingdom of God; also used by Paul to refer to anyone who had seen the risen Christ";
@@ -78,7 +127,7 @@
     BiblicalDetail *aramaicBiblicalDetail = [[BiblicalDetail alloc] init];
     aramaicBiblicalDetail.biblicalName = @"Aramaic";
     aramaicBiblicalDetail.biblicalDescription = @"a variant of Hebrew, likely the native language of the historical Jesus";
-    
+    /*
     BiblicalDetail *artraxercesBiblicalDetail = [[BiblicalDetail alloc] init];
     artraxercesBiblicalDetail.biblicalName = @"Artaxerxes";
     artraxercesBiblicalDetail.biblicalDescription = @"Word meaning 'ruler' applied to the kings of Persia, specifically to Cyrus the Great";
@@ -86,6 +135,7 @@
     BiblicalDetail *asherBiblicalDetail = [[BiblicalDetail alloc] init];
     asherBiblicalDetail.biblicalName = @"Asher";
     asherBiblicalDetail.biblicalDescription = @"One of the twelve tribes of Israel";
+    */
     
     BiblicalDetail *asherahBiblicalDetail = [[BiblicalDetail alloc] init];
     asherahBiblicalDetail.biblicalName = @"Asherah";
@@ -99,13 +149,22 @@
     baalBiblicalDetail.biblicalName = @"Ba'al";
     baalBiblicalDetail.biblicalDescription = @"In Canannite mythology, the son of El and most active of the gods";
     
+    BiblicalDetail *babelBiblicalDetail = [[BiblicalDetail alloc] init];
+    babelBiblicalDetail.biblicalName = @"Babel";
+    babelBiblicalDetail.biblicalDescription = @"Hebrew word for 'confusion'; named for Tower eitiology in Gen. 11.";
+    
+    BiblicalDetail *babylonBiblicalDetail = [[BiblicalDetail alloc] init];
+    babylonBiblicalDetail.biblicalName = @"Babylon";
+    babylonBiblicalDetail.biblicalDescription = @"Empire that conquered the southern kingdom of Judah in 587 BCE.";
+    
     BiblicalDetail *banBiblicalDetail = [[BiblicalDetail alloc] init];
     banBiblicalDetail.biblicalName = @"Ban";
     banBiblicalDetail.biblicalDescription = @"The ancient Israelite practice of the wholesale destruction of a people and their environment";
-    
+    /*
     BiblicalDetail *bathshebaBiblicalDetail = [[BiblicalDetail alloc] init];
     bathshebaBiblicalDetail.biblicalName = @"Bathsheba";
     bathshebaBiblicalDetail.biblicalDescription = @"Widow of Uriah after David orchestrated his assasination in battle; afterwards, David's favored wife and mother of Solomon";
+    */
     
     BiblicalDetail *bibleBiblicalDetail = [[BiblicalDetail alloc] init];
     bibleBiblicalDetail.biblicalName = @"Bible";
@@ -129,6 +188,7 @@
     
     
      _biblicalDetails = [[NSMutableArray alloc] init];
+    /*
     [_biblicalDetails addObject: aaronBiblicalDetail];
     [_biblicalDetails addObject: alexanderBiblicalDetail]; 
     [_biblicalDetails addObject: amosBiblicalDetail];
@@ -153,8 +213,47 @@
     [_biblicalDetails addObject: canonBiblicalDetail];
     [_biblicalDetails addObject: deuteronomicSourceBiblicalDetail];
     [_biblicalDetails addObject: elohistSourceBiblicalDetail];
+     */
     
+    for (NSString *letter in letters)
+    {
+        NSMutableArray *array = [NSMutableArray array];
+        if ([letter isEqualToString:@"A"])
+            {
+            [array addObject: abbaBiblicalDetail]; 
+            [array addObject: adonaiBiblicalDetail];
+            [array addObject: anthropomorphismBiblicalDetail];
+            [array addObject: apocalypseBiblicalDetail];
+            [array addObject: apocryphaBiblicalDetail];
+            [array addObject: apodicticBiblicalDetail];
+            [array addObject: apostleBiblicalDetail];
+            [array addObject: aqedaBiblicalDetail];
+            [array addObject: aramaicBiblicalDetail];
+            [array addObject: asherahBiblicalDetail];
+            [array addObject: assyriaBiblicalDetail];
+            }
+        else if ([letter isEqualToString:@"B"])
+            {
+            [array addObject: baalBiblicalDetail];
+            [array addObject: babelBiblicalDetail];
+            [array addObject: babylonBiblicalDetail];
+            [array addObject: banBiblicalDetail];
+            [array addObject: bibleBiblicalDetail];
+            [array addObject: bethelBiblicalDetail];
+            }
+        else if ([letter isEqualToString:@"C"])
+            {
+                [array addObject:canonBiblicalDetail];
+            }
+        else if ([letter isEqualToString: @"D"])
+            {
+            [array addObject: deuteronomicSourceBiblicalDetail];
+            }
+        
+        [_biblicalDetails addObject:array];
+    }
     
+
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -174,13 +273,16 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     // Return the number of sections.
-    return 1;
+    return [letters count];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return [_biblicalDetails count];
+    //return [_biblicalDetails count];
+    NSString *sectionTitle = [letters objectAtIndex:section];
+    NSArray *sectionTerms = [terms objectForKey:sectionTitle];
+    return [sectionTerms count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -189,9 +291,19 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     // Configure the cell...
+    NSString *sectionTitle = [letters objectAtIndex:indexPath.section];
+    NSArray *sectionTerms = [terms objectForKey:sectionTitle];
+    NSString *term = [sectionTerms objectAtIndex:indexPath.row];
+    cell.textLabel.text = term;
     
-    cell.textLabel.text = [_biblicalTerms objectAtIndex:indexPath.row];
+    //cell.textLabel.text = [_biblicalTerms objectAtIndex:indexPath.row];
     return cell;
+}
+
+-(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    
+    return [letters objectAtIndex:section];
 }
 
 /*
@@ -255,21 +367,27 @@
 -(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([[segue identifier] isEqualToString:@"showBiblicalDetail"])
-    {
+        {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        NSArray *sectionArray = [_biblicalDetails objectAtIndex:indexPath.section];
+        BiblicalDetail *detail = [sectionArray objectAtIndex:indexPath.row];
+        
         BiblicalDetailViewController *biblicalDetailViewController = [segue destinationViewController];
-        biblicalDetailViewController.currentBiblicalDetail = [_biblicalDetails objectAtIndex:indexPath.row];
-    }
+        //systematicDetailViewController.currentSystematicDetail = [_systematicDetail objectAtIndex:indexPath.row];
+        biblicalDetailViewController.currentBiblicalDetail = detail;
+        }
 }
 
-- (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView {
-    return[NSArray arrayWithObjects:@"A", @"B", @"C", @"D", @"E", @"F", @"G", @"H", @"I", @"J", @"K", @"L", @"M", @"N", @"O", @"P", @"Q", @"R", @"S", @"T", @"U", @"V", @"W", @"X", @"Y", @"Z", nil];
+- (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView
+{
+    return letters;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView sectionForSectionIndexTitle:(NSString *)title atIndex:(NSInteger)index
 {
-    return 1; 
+    return [letters indexOfObject:title];
 }
+
 
 
 @end

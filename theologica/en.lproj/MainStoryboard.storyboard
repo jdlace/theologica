@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="4">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
         <!--Tab Bar Controller-->
@@ -34,6 +35,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" showsBookmarkButton="YES" id="7Xx-wf-wwN">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="oZ5-nE-rQe" id="Nqj-Oc-UwG"/>
+                            </connections>
+                        </searchBar>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="systematicCell" textLabel="OL9-fc-20F" style="IBUITableViewCellStyleDefault" id="kDs-46-kxp">
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
@@ -60,7 +70,7 @@
                         <barButtonItem key="backBarButtonItem" title="Theologica" id="Q2X-Iy-nnk"/>
                     </navigationItem>
                     <connections>
-                        <outlet property="searchDisplayController" destination="neM-FG-mNi" id="wRe-OL-DDq"/>
+                        <outlet property="searchDisplayController" destination="5aj-J1-hWz" id="9Ti-kx-Dw4"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pZt-tF-tCP" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -70,6 +80,31 @@
                         <outlet property="searchContentsController" destination="oZ5-nE-rQe" id="D3D-8J-ZPL"/>
                         <outlet property="searchResultsDataSource" destination="oZ5-nE-rQe" id="TW6-M3-nMB"/>
                         <outlet property="searchResultsDelegate" destination="oZ5-nE-rQe" id="3aN-mt-ABA"/>
+                    </connections>
+                </searchDisplayController>
+                <searchDisplayController id="2yt-rG-qPL">
+                    <connections>
+                        <outlet property="delegate" destination="oZ5-nE-rQe" id="yXf-k8-lAW"/>
+                        <outlet property="searchContentsController" destination="oZ5-nE-rQe" id="HF0-EA-IGk"/>
+                        <outlet property="searchResultsDataSource" destination="oZ5-nE-rQe" id="NhP-KC-sN8"/>
+                        <outlet property="searchResultsDelegate" destination="oZ5-nE-rQe" id="auR-fC-4Q5"/>
+                    </connections>
+                </searchDisplayController>
+                <searchDisplayController id="G0V-nF-mx5">
+                    <connections>
+                        <outlet property="delegate" destination="oZ5-nE-rQe" id="lfO-Sw-PQv"/>
+                        <outlet property="searchContentsController" destination="oZ5-nE-rQe" id="LTj-Gf-Jps"/>
+                        <outlet property="searchResultsDataSource" destination="oZ5-nE-rQe" id="t6P-Tt-BcC"/>
+                        <outlet property="searchResultsDelegate" destination="oZ5-nE-rQe" id="9C5-vx-zBt"/>
+                    </connections>
+                </searchDisplayController>
+                <searchDisplayController id="5aj-J1-hWz">
+                    <connections>
+                        <outlet property="delegate" destination="oZ5-nE-rQe" id="97I-9W-FTb"/>
+                        <outlet property="searchBar" destination="7Xx-wf-wwN" id="Kq9-VJ-BPH"/>
+                        <outlet property="searchContentsController" destination="oZ5-nE-rQe" id="Xa9-8c-cxk"/>
+                        <outlet property="searchResultsDataSource" destination="oZ5-nE-rQe" id="2tU-VF-Rtk"/>
+                        <outlet property="searchResultsDelegate" destination="oZ5-nE-rQe" id="XP5-P3-G2D"/>
                     </connections>
                 </searchDisplayController>
             </objects>
@@ -91,7 +126,7 @@
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cyH-hb-U7k">
                                 <rect key="frame" x="20" y="106" width="280" height="183"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -121,6 +156,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" showsBookmarkButton="YES" id="IkU-Nb-lMH">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="RG8-AO-Dk8" id="PQn-9C-Ba3"/>
+                            </connections>
+                        </searchBar>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ecclesialCell" textLabel="mVy-iY-zrQ" style="IBUITableViewCellStyleDefault" id="VBJ-Ey-oiE">
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
@@ -147,7 +191,7 @@
                         <barButtonItem key="backBarButtonItem" title="Theologica" id="iiY-ey-5sS"/>
                     </navigationItem>
                     <connections>
-                        <outlet property="searchDisplayController" destination="TnW-jv-91e" id="N52-HE-aVR"/>
+                        <outlet property="searchDisplayController" destination="JUc-Ik-PVN" id="lBl-g0-hld"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q2r-xJ-34s" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -157,6 +201,31 @@
                         <outlet property="searchContentsController" destination="RG8-AO-Dk8" id="bmZ-R1-kma"/>
                         <outlet property="searchResultsDataSource" destination="RG8-AO-Dk8" id="Vim-TE-ire"/>
                         <outlet property="searchResultsDelegate" destination="RG8-AO-Dk8" id="ufp-SA-bJ6"/>
+                    </connections>
+                </searchDisplayController>
+                <searchDisplayController id="I5l-Vr-hf9">
+                    <connections>
+                        <outlet property="delegate" destination="RG8-AO-Dk8" id="rsa-pV-elH"/>
+                        <outlet property="searchContentsController" destination="RG8-AO-Dk8" id="ISs-M1-JA2"/>
+                        <outlet property="searchResultsDataSource" destination="RG8-AO-Dk8" id="bHD-9e-aVd"/>
+                        <outlet property="searchResultsDelegate" destination="RG8-AO-Dk8" id="TAJ-7f-M3c"/>
+                    </connections>
+                </searchDisplayController>
+                <searchDisplayController id="e7a-iq-kUo">
+                    <connections>
+                        <outlet property="delegate" destination="RG8-AO-Dk8" id="NbF-XT-nBM"/>
+                        <outlet property="searchContentsController" destination="RG8-AO-Dk8" id="pgt-9E-h8o"/>
+                        <outlet property="searchResultsDataSource" destination="RG8-AO-Dk8" id="fcT-na-gvp"/>
+                        <outlet property="searchResultsDelegate" destination="RG8-AO-Dk8" id="ofi-zo-nfj"/>
+                    </connections>
+                </searchDisplayController>
+                <searchDisplayController id="JUc-Ik-PVN">
+                    <connections>
+                        <outlet property="delegate" destination="RG8-AO-Dk8" id="VDS-LC-VOa"/>
+                        <outlet property="searchBar" destination="IkU-Nb-lMH" id="FWp-RR-tgN"/>
+                        <outlet property="searchContentsController" destination="RG8-AO-Dk8" id="ls2-is-8c6"/>
+                        <outlet property="searchResultsDataSource" destination="RG8-AO-Dk8" id="fY0-Nb-eLT"/>
+                        <outlet property="searchResultsDelegate" destination="RG8-AO-Dk8" id="nrb-bZ-UDo"/>
                     </connections>
                 </searchDisplayController>
             </objects>
@@ -178,7 +247,7 @@
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="38L-Tr-to0">
                                 <rect key="frame" x="20" y="112" width="280" height="172"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -204,6 +273,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" showsBookmarkButton="YES" id="7kF-ow-m1G">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="yoe-Rc-HFT" id="Sj1-5R-roO"/>
+                            </connections>
+                        </searchBar>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="moralCell" textLabel="sAB-TH-8gb" style="IBUITableViewCellStyleDefault" id="wbo-AU-EgM">
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
@@ -230,7 +308,7 @@
                         <barButtonItem key="backBarButtonItem" title="Theologica" id="c5M-Ef-Dyy"/>
                     </navigationItem>
                     <connections>
-                        <outlet property="searchDisplayController" destination="1gF-pD-Dr3" id="qNV-Qv-dec"/>
+                        <outlet property="searchDisplayController" destination="VfW-VY-cCV" id="jWu-BB-IFH"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Np6-t3-sxb" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -240,6 +318,23 @@
                         <outlet property="searchContentsController" destination="yoe-Rc-HFT" id="ydZ-Cd-7I8"/>
                         <outlet property="searchResultsDataSource" destination="yoe-Rc-HFT" id="KCV-iJ-N7n"/>
                         <outlet property="searchResultsDelegate" destination="yoe-Rc-HFT" id="hHq-a8-mWU"/>
+                    </connections>
+                </searchDisplayController>
+                <searchDisplayController id="f7U-Vb-1rp">
+                    <connections>
+                        <outlet property="delegate" destination="yoe-Rc-HFT" id="TXl-9f-a4M"/>
+                        <outlet property="searchContentsController" destination="yoe-Rc-HFT" id="0Er-r4-rhR"/>
+                        <outlet property="searchResultsDataSource" destination="yoe-Rc-HFT" id="Jq0-YX-lbS"/>
+                        <outlet property="searchResultsDelegate" destination="yoe-Rc-HFT" id="vef-ZT-r2m"/>
+                    </connections>
+                </searchDisplayController>
+                <searchDisplayController id="VfW-VY-cCV">
+                    <connections>
+                        <outlet property="delegate" destination="yoe-Rc-HFT" id="sNR-Nm-QF7"/>
+                        <outlet property="searchBar" destination="7kF-ow-m1G" id="mmd-3J-afS"/>
+                        <outlet property="searchContentsController" destination="yoe-Rc-HFT" id="dJ1-Th-5KV"/>
+                        <outlet property="searchResultsDataSource" destination="yoe-Rc-HFT" id="0Ap-AT-pL5"/>
+                        <outlet property="searchResultsDelegate" destination="yoe-Rc-HFT" id="BRP-7d-r2d"/>
                     </connections>
                 </searchDisplayController>
             </objects>
@@ -261,7 +356,7 @@
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ohg-54-OgM">
                                 <rect key="frame" x="20" y="102" width="280" height="186"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -288,6 +383,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" showsBookmarkButton="YES" id="kGv-Oa-61t">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="A4p-fK-Loh" id="cJq-sc-ect"/>
+                            </connections>
+                        </searchBar>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="biblicalCell" textLabel="AfT-i2-N6W" style="IBUITableViewCellStyleDefault" id="Js1-0E-gKV">
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
@@ -314,7 +418,7 @@
                         <barButtonItem key="backBarButtonItem" title="Theologica" id="paJ-P0-9F6"/>
                     </navigationItem>
                     <connections>
-                        <outlet property="searchDisplayController" destination="SXk-wz-mb5" id="imn-Pc-aO6"/>
+                        <outlet property="searchDisplayController" destination="UkW-Fq-e2B" id="VrP-0c-F10"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4xV-mc-gTx" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -324,6 +428,31 @@
                         <outlet property="searchContentsController" destination="A4p-fK-Loh" id="RQ6-ZP-bT0"/>
                         <outlet property="searchResultsDataSource" destination="A4p-fK-Loh" id="iba-BK-3Eq"/>
                         <outlet property="searchResultsDelegate" destination="A4p-fK-Loh" id="von-8G-vfM"/>
+                    </connections>
+                </searchDisplayController>
+                <searchDisplayController id="dft-8p-KxB">
+                    <connections>
+                        <outlet property="delegate" destination="A4p-fK-Loh" id="q1Z-oK-yEL"/>
+                        <outlet property="searchContentsController" destination="A4p-fK-Loh" id="A9n-zN-31z"/>
+                        <outlet property="searchResultsDataSource" destination="A4p-fK-Loh" id="o6j-S0-N2f"/>
+                        <outlet property="searchResultsDelegate" destination="A4p-fK-Loh" id="eZC-jb-b21"/>
+                    </connections>
+                </searchDisplayController>
+                <searchDisplayController id="Sqr-bI-dZk">
+                    <connections>
+                        <outlet property="delegate" destination="A4p-fK-Loh" id="03I-aV-OUG"/>
+                        <outlet property="searchContentsController" destination="A4p-fK-Loh" id="qPf-0b-ByS"/>
+                        <outlet property="searchResultsDataSource" destination="A4p-fK-Loh" id="eJq-Ql-JW1"/>
+                        <outlet property="searchResultsDelegate" destination="A4p-fK-Loh" id="7Gz-pV-1YH"/>
+                    </connections>
+                </searchDisplayController>
+                <searchDisplayController id="UkW-Fq-e2B">
+                    <connections>
+                        <outlet property="delegate" destination="A4p-fK-Loh" id="T0i-Zt-0SF"/>
+                        <outlet property="searchBar" destination="kGv-Oa-61t" id="nTt-9P-a9u"/>
+                        <outlet property="searchContentsController" destination="A4p-fK-Loh" id="MC6-w6-Qvo"/>
+                        <outlet property="searchResultsDataSource" destination="A4p-fK-Loh" id="JOT-xB-jpE"/>
+                        <outlet property="searchResultsDelegate" destination="A4p-fK-Loh" id="1pr-TS-2ck"/>
                     </connections>
                 </searchDisplayController>
             </objects>
@@ -345,7 +474,7 @@
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="C91-ZW-UJR">
                                 <rect key="frame" x="20" y="112" width="280" height="265"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -372,6 +501,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" showsBookmarkButton="YES" id="YbI-4R-IyZ">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="W0x-bV-aZW" id="hcL-p2-q4P"/>
+                            </connections>
+                        </searchBar>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="socialCell" textLabel="Ygd-lF-LdA" style="IBUITableViewCellStyleDefault" id="02n-jM-JG6">
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
@@ -399,7 +537,7 @@
                         <barButtonItem key="backBarButtonItem" title="Theologica" id="Onq-Ei-giq"/>
                     </navigationItem>
                     <connections>
-                        <outlet property="searchDisplayController" destination="Aw6-V1-yLn" id="Om9-xW-2lR"/>
+                        <outlet property="searchDisplayController" destination="m8S-Bu-9NV" id="dRd-sX-uGT"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="43L-U0-jQ4" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -409,6 +547,23 @@
                         <outlet property="searchContentsController" destination="W0x-bV-aZW" id="jnJ-kA-dGI"/>
                         <outlet property="searchResultsDataSource" destination="W0x-bV-aZW" id="Gmb-c5-RPY"/>
                         <outlet property="searchResultsDelegate" destination="W0x-bV-aZW" id="dZJ-et-xip"/>
+                    </connections>
+                </searchDisplayController>
+                <searchDisplayController id="M8C-sM-oZ6">
+                    <connections>
+                        <outlet property="delegate" destination="W0x-bV-aZW" id="dAc-zW-MrI"/>
+                        <outlet property="searchContentsController" destination="W0x-bV-aZW" id="KBm-WU-Wiw"/>
+                        <outlet property="searchResultsDataSource" destination="W0x-bV-aZW" id="WrI-VO-3Dz"/>
+                        <outlet property="searchResultsDelegate" destination="W0x-bV-aZW" id="vaG-nH-3x7"/>
+                    </connections>
+                </searchDisplayController>
+                <searchDisplayController id="m8S-Bu-9NV">
+                    <connections>
+                        <outlet property="delegate" destination="W0x-bV-aZW" id="fM0-Uj-e7i"/>
+                        <outlet property="searchBar" destination="YbI-4R-IyZ" id="hoj-sZ-fET"/>
+                        <outlet property="searchContentsController" destination="W0x-bV-aZW" id="aLC-jU-XwE"/>
+                        <outlet property="searchResultsDataSource" destination="W0x-bV-aZW" id="mgh-Zd-06t"/>
+                        <outlet property="searchResultsDelegate" destination="W0x-bV-aZW" id="lkP-sC-on1"/>
                     </connections>
                 </searchDisplayController>
             </objects>
@@ -424,7 +579,7 @@
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LIW-oT-tbv">
                                 <rect key="frame" x="20" y="106" width="274" height="187"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>

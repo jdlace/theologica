@@ -33,6 +33,7 @@
 {
     [super viewDidLoad];
     
+    //data for the table view controller
     terms = @{
               @"A" : @[@"absolution", @"acolyte", @"Agnus Dei", @"altar", @"anamnesis", @"anathema", @"antiphon", @"Apostle's Creed", @"Arianism", @"asceticism", @"Ash Wednesday"],
               @"B" : @[@"baptistry", @"blasphemy", @"basillica", @"Benedictus", @"bishop", @"Byzantine"],
@@ -66,6 +67,7 @@
     
     //_ecclesialTerms = [[NSArray alloc] initWithObjects:@"absolution", @"acolyte", @"altar", @"antiphon", nil];
     
+    //Data for the detail view controller
     EcclesialDetail *absolutionEcclesialDetail = [[EcclesialDetail alloc] init];
     absolutionEcclesialDetail.ecclesialName = @"absolution";
     absolutionEcclesialDetail.ecclesialDescription = @"the act by which a priest declares the forgiveness of sins"; 
@@ -74,13 +76,33 @@
     acolyteEcclesialDetail.ecclesialName = @"acolyte";
     acolyteEcclesialDetail.ecclesialDescription = @"an assistant to a deacon";
     
+    EcclesialDetail *angusDeiEcclesialDetail = [[EcclesialDetail alloc] init];
+    angusDeiEcclesialDetail.ecclesialName = @"Angus Dei";
+    angusDeiEcclesialDetail.ecclesialDescription = @"Part of Mass that begins 'Lamb of God...'.";
+    
     EcclesialDetail *altarEcclesialDetail = [[EcclesialDetail alloc] init];
     altarEcclesialDetail.ecclesialName = @"altar";
     altarEcclesialDetail.ecclesialDescription = @"the object upon which the Eucharist is placed during the act of consecration";
     
+    EcclesialDetail *anamnesisEcclesialDetail = [[EcclesialDetail alloc] init];
+    anamnesisEcclesialDetail.ecclesialName = @"anamnesis";
+    anamnesisEcclesialDetail.ecclesialDescription = @"Greek word for 'rememberance', used in the Words of Institution.";
+    
+    EcclesialDetail *anathemaEcclesialDetail = [[EcclesialDetail alloc] init];
+    anathemaEcclesialDetail.ecclesialName = @"anathema";
+    anathemaEcclesialDetail.ecclesialDescription = @"the state of being out of visible communion with the Church";
+    
     EcclesialDetail *antiphonEcclesialDetail = [[EcclesialDetail alloc] init];
     antiphonEcclesialDetail.ecclesialName = @"antiphon";
     antiphonEcclesialDetail.ecclesialDescription = @"the choral response sung during the entrace processional";
+    
+    EcclesialDetail *apostlesCreedEcclesialDetail = [[EcclesialDetail alloc] init];
+    apostlesCreedEcclesialDetail.ecclesialName = @"Apostle's Creed";
+    apostlesCreedEcclesialDetail.ecclesialDescription = @"The earliest form of the Rule of Faith; based on the Roman baptismal creed, dated to the year A.D. 150."; 
+    
+    EcclesialDetail *arianismEcclesialDetail = [[EcclesialDetail alloc] init];
+    arianismEcclesialDetail.ecclesialName = @"Arianism";
+    arianismEcclesialDetail.ecclesialDescription = @"The teaching of Arius that the Son was of a different substance than the Father (begotten vs. unbegotten) and thus, not fully divine.";
     
     EcclesialDetail *baptismEcclesialDetail = [[EcclesialDetail alloc] init];
     baptismEcclesialDetail.ecclesialName = @"baptism";
@@ -105,8 +127,13 @@
             {
             [array addObject: absolutionEcclesialDetail];
             [array addObject: acolyteEcclesialDetail];
+            [array addObject: angusDeiEcclesialDetail];
             [array addObject: altarEcclesialDetail];
+            [array addObject: anamnesisEcclesialDetail];
+            [array addObject: anathemaEcclesialDetail];
             [array addObject: antiphonEcclesialDetail];
+            [array addObject: apostlesCreedEcclesialDetail];
+            [array addObject: arianismEcclesialDetail];
             }
         else if ([letter isEqualToString:@"B"])
             {

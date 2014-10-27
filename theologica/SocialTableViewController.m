@@ -11,6 +11,10 @@
 #import "SocialDetail.h"
 
 @interface SocialTableViewController ()
+{
+    NSDictionary *terms;
+    NSArray *letters;
+}
 
 @end
 
@@ -29,7 +33,42 @@
 {
     [super viewDidLoad];
 
-    _socialTerms = [[NSArray alloc] initWithObjects: @"action", @"analysis", @"awareness", @"Catholic Social Teaching", @"common good", @"commutative justice", @"contributive justice", @"development", @"dignity", nil];
+    terms = @{
+              @"A" : @[@"action", @"analysis", @"awareness"],
+              @"B" : @[@"baptism", @"blasphemy"],
+              @"C" : @[@"Catholic Social Teaching", @"common good", @"commutative justice", @"contributive justice"],
+              @"D" : @[@"development", @"dignity"],
+              @"E" : @[@"epistemology", @"essence", @"ex nihilo"],
+              @"F" : @[@"faith"],
+              @"G" : @[@"gospel"],
+              @"H" : @[@"heresy"],
+              @"I" : @[@"immanence"],
+              @"J" : @[@"jesus"],
+              @"K" : @[@"kataphatic"],
+              @"L" : @[@"liberation theology"],
+              @"M" : @[@"metaphysics"],
+              @"N" : @[@"natural theology"],
+              @"O" : @[@"orthodoxy", @"orthodpraxy"],
+              @"P" : @[@"philosophy", @"predestination"],
+              @"Q" : @[@"quintessence"],
+              @"R" : @[@"redemption"],
+              @"S" : @[@"salvation", @"systematic theology"],
+              @"T" : @[@"theodicy", @"theology", @"trinity"],
+              @"U" : @[@"universalism"],
+              @"V" : @[@"vicarious"],
+              @"W" : @[@"will"],
+              @"X" : @[@"xcode"],
+              @"Y" : @[@"YHWH"],
+              @"Z" : @[@"zion"],
+              };
+    
+    letters = [[terms allKeys] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
+    
+
+    
+    
+    
+   // _socialTerms = [[NSArray alloc] initWithObjects: @"action", @"analysis", @"awareness", @"Catholic Social Teaching", @"common good", @"commutative justice", @"contributive justice", @"development", @"dignity", nil];
     
     SocialDetail *actionSocialDetail = [[SocialDetail alloc]init];
     actionSocialDetail.socialName = @"action";
@@ -69,6 +108,7 @@
     dignitySocialDetail.socialDescription = @"the sacred status of human beings because of the constant love of God";
     
     _socialDetails = [[NSMutableArray alloc]init];
+    /*
     [_socialDetails addObject:actionSocialDetail];
     [_socialDetails addObject:analysisSocialDetail];
     [_socialDetails addObject:awarenessSocialDetail];
@@ -78,7 +118,37 @@
     [_socialDetails addObject:contributivejusticeSocialDetail]; 
     [_socialDetails addObject:developmentSocialDetail];
     [_socialDetails addObject:dignitySocialDetail]; 
+    */
     
+    for (NSString *letter in letters)
+    {
+        NSMutableArray *array = [NSMutableArray array];
+        if ([letter isEqualToString:@"A"])
+            {
+            [array addObject: actionSocialDetail];
+            [array addObject: analysisSocialDetail];
+            [array addObject: awarenessSocialDetail];
+            }
+        else if ([letter isEqualToString:@"B"])
+            {
+            [array addObject: @""];
+            }
+        else if ([letter isEqualToString:@"C"])
+            {
+            [array addObject: catholicsocialteachingSocialDetail];
+            [array addObject: commongoodSocialDetail];
+            [array addObject: commutativejusticeSocialDetail];
+            [array addObject: contributivejusticeSocialDetail];
+            }
+        else if ([letter isEqualToString:@"D"])
+            {
+            [array addObject: developmentSocialDetail];
+            [array addObject: dignitySocialDetail];
+            }
+        
+        [_socialDetails addObject:array];
+    }
+
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -98,13 +168,16 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     // Return the number of sections.
-    return 1;
+    return [letters count];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return [_socialDetails count];
+    //return [_socialDetails count];
+    NSString *sectionTitle = [letters objectAtIndex:section];
+    NSArray *sectionTerms = [terms objectForKey:sectionTitle];
+    return [sectionTerms count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -112,10 +185,20 @@
     static NSString *CellIdentifier = @"socialCell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
-    // Configure the cell...
-    cell.textLabel.text = [_socialTerms objectAtIndex:indexPath.row];
-    return cell;
+    NSString *sectionTitle = [letters objectAtIndex:indexPath.section];
+    NSArray *sectionTerms = [terms objectForKey:sectionTitle];
+    NSString *term = [sectionTerms objectAtIndex:indexPath.row];
+    cell.textLabel.text = term;
     
+    // Configure the cell...
+    //cell.textLabel.text = [_socialTerms objectAtIndex:indexPath.row];
+    return cell;
+}
+
+-(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    
+    return [letters objectAtIndex:section];
 }
 
 /*
@@ -179,18 +262,24 @@
 
 {
     if ([[segue identifier] isEqualToString:@"showSocialDetail"])
-    {
+        {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        NSArray *sectionArray = [_socialDetails objectAtIndex:indexPath.section];
+        SocialDetail *detail = [sectionArray objectAtIndex:indexPath.row];
+        
         SocialDetailViewController *socialDetailViewController = [segue destinationViewController];
-        socialDetailViewController.currentSocialDetail = [_socialDetails objectAtIndex:indexPath.row];
-    }
+        //systematicDetailViewController.currentSystematicDetail = [_systematicDetail objectAtIndex:indexPath.row];
+        socialDetailViewController.currentSocialDetail = detail;
+        }
 }
 
-- (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView {
-    return[NSArray arrayWithObjects:@"A", @"B", @"C", @"D", @"E", @"F", @"G", @"H", @"I", @"J", @"K", @"L", @"M", @"N", @"O", @"P", @"Q", @"R", @"S", @"T", @"U", @"V", @"W", @"X", @"Y", @"Z", nil];
+- (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView
+{
+    return letters;
 }
+
 - (NSInteger)tableView:(UITableView *)tableView sectionForSectionIndexTitle:(NSString *)title atIndex:(NSInteger)index
 {
-    return 1; 
+    return [letters indexOfObject:title];
 }
 @end

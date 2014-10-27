@@ -291,6 +291,11 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = techrament;
+				TargetAttributes = {
+					692ED2461796D552008554F9 = {
+						DevelopmentTeam = M9E78PZP5E;
+					};
+				};
 			};
 			buildConfigurationList = 692ED2421796D552008554F9 /* Build configuration list for PBXProject "theologica" */;
 			compatibilityVersion = "Xcode 3.2";

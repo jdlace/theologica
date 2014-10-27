@@ -35,8 +35,7 @@
     [super viewDidLoad];
     
     terms = @{
-              @"A" : @[@"accidence", @"adoption", @"agape", @"aggiornomento", @"agnostic", @"allegory", @"analogy"
-                       , @"apologetics", @"apophatic", @"atonement"],
+              @"A" : @[@"abortion", @"abstinence", @"act", @"adultery"],
               @"B" : @[@"baptism", @"blasphemy"],
               @"C" : @[@"canon", @"creed"],
               @"D" : @[@"deism"],
@@ -67,7 +66,7 @@
     letters = [[terms allKeys] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
 
     
-    _moralTerms = [[NSArray alloc] initWithObjects:@"abortion", @"abstinence", @"act", @"adultery", nil];
+    //_moralTerms = [[NSArray alloc] initWithObjects:@"abortion", @"abstinence", @"act", @"adultery", nil];
     
     MoralDetail *abortionMoralDetail = [[MoralDetail alloc] init];
     abortionMoralDetail.moralName = @"abortion";
@@ -86,10 +85,12 @@
     adulteryMoralDetail.moralDescription = @"Marital infidelity or sexual relations between two people, one of which being married to another person";
     
     _moralDetails = [[NSMutableArray alloc] init];
-    [_moralDetails addObject: abortionMoralDetail];
-    [_moralDetails addObject: abstinenceMoralDetail];
-    [_moralDetails addObject: actMoralDetail];
-    [_moralDetails addObject: adulteryMoralDetail];
+    
+    
+    //[_moralDetails addObject: abortionMoralDetail];
+    //[_moralDetails addObject: abstinenceMoralDetail];
+    //[_moralDetails addObject: actMoralDetail];
+    //[_moralDetails addObject: adulteryMoralDetail];
     
     for (NSString *letter in letters)
         {
@@ -131,24 +132,33 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     // Return the number of sections.
-    return 1;
+    return [letters count];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return  [_moralDetails count];
+    NSString *sectionTitle = [letters objectAtIndex:section];
+    NSArray *sectionTerms = [terms objectForKey:sectionTitle];
+    return [sectionTerms count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"moralCell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
-    
-    // Configure the cell...
-    
-    cell.textLabel.text = [_moralTerms objectAtIndex:indexPath.row];
+    NSString *sectionTitle = [letters objectAtIndex:indexPath.section];
+    NSArray *sectionTerms = [terms objectForKey:sectionTitle];
+    NSString *term = [sectionTerms objectAtIndex:indexPath.row];
+    cell.textLabel.text = term;
+
     return cell;
+}
+
+-(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    
+    return [letters objectAtIndex:section];
 }
 
 /*
@@ -210,21 +220,25 @@
 
 -(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
+
     if ([[segue identifier] isEqualToString:@"showMoralDetail"])
     {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        NSArray *sectionArray = [_moralDetails objectAtIndex:indexPath.section];
         MoralDetailViewController *moralDetailViewController = [segue destinationViewController];
-        moralDetailViewController.currentMoralDetail = [_moralDetails objectAtIndex:indexPath.row];
-    }
+        MoralDetail *detail = [sectionArray objectAtIndex:indexPath.row];
+        moralDetailViewController.currentMoralDetail = detail;
+        }
 }
 
-- (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView {
-    return[NSArray arrayWithObjects:@"A", @"B", @"C", @"D", @"E", @"F", @"G", @"H", @"I", @"J", @"K", @"L", @"M", @"N", @"O", @"P", @"Q", @"R", @"S", @"T", @"U", @"V", @"W", @"X", @"Y", @"Z", nil];
+- (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView
+{
+    return letters;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView sectionForSectionIndexTitle:(NSString *)title atIndex:(NSInteger)index
 {
-    return 1;
+    return [letters indexOfObject:title];
 }
 
 @end
