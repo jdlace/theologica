@@ -4,6 +4,26 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Theolgica.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Theologica.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>Theological.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>WordWidget.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>theologica.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +33,26 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>692ED2461796D552008554F9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>69989AC319FF2D5D0009ABAE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>69989AD919FF2F120009ABAE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>69989AED19FF2FA30009ABAE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>69989B0119FF2FC60009ABAE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
