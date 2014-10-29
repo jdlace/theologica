@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SystematicDetail.h"
+#import "Word.h"
 
 @interface SystematicDetailViewController : UIViewController
 
-@property (strong, nonatomic) SystematicDetail *currentSystematicDetail;
+@property (strong, nonatomic) Word *currentWordDetail;
 
 @property (strong, nonatomic) IBOutlet UILabel *systematicName;
 @property (strong, nonatomic) IBOutlet UILabel *systematicDescription;

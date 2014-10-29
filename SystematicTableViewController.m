@@ -8,7 +8,7 @@
 
 #import "SystematicTableViewController.h"
 #import "SystematicDetailViewController.h"
-#import "SystematicDetail.h" 
+#import "Word.h"
 
 @interface SystematicTableViewController ()
 {
@@ -92,68 +92,68 @@
     
     //_systematicTerms = [[NSArray alloc] initWithObjects:@"accident", @"adoption", @"agape", @"aggiornomento", @"agnostic", @"allegory", @"analogy", @"apologetics", @"apophatic", @"criteria", nil];
     
-    SystematicDetail *accidenceSystematicDetail = [[SystematicDetail alloc] init];
-    accidenceSystematicDetail.systematicName = @"accidence";
-    accidenceSystematicDetail.systematicDescription = @"In Aristotelean philosophy, a nonessential property or quality of a substance.";
+    Word *accidenceWord = [[Word alloc] init];
+    accidenceWord.name = @"accidence";
+    accidenceWord.definition = @"In Aristotelean philosophy, a nonessential property or quality of a substance.";
     
-    SystematicDetail *adoptionSystematicDetail = [[SystematicDetail alloc] init];
-    adoptionSystematicDetail.systematicName = @"adoption";
-    adoptionSystematicDetail.systematicDescription = @"the process of becoming a child of God through Jesus Christ";
+    Word *adoptionWord = [[Word alloc] init];
+    adoptionWord.name = @"adoption";
+    adoptionWord.definition = @"the process of becoming a child of God through Jesus Christ";
     
-    SystematicDetail *agapeSystematicDetail = [[SystematicDetail alloc] init];
-    agapeSystematicDetail.systematicName = @"agape";
-    agapeSystematicDetail.systematicDescription = @"The Greek word meaning 'universal and unconditional will for the good of another'. The gospel writers use this word to describe Jesus' teaching on love for God, neighbors and enemies.";
+    Word *agapeWord = [[Word alloc] init];
+    agapeWord.name = @"agape";
+    agapeWord.definition = @"The Greek word meaning 'universal and unconditional will for the good of another'. The gospel writers use this word to describe Jesus' teaching on love for God, neighbors and enemies.";
     
-    SystematicDetail *agiornomentoSystematicDetail = [[SystematicDetail alloc] init];
-    agiornomentoSystematicDetail.systematicName = @"aggiornomento";
-    agiornomentoSystematicDetail.systematicDescription = @"An Italian word meaning 'to bring up to date' which became popular during the Second Vatican Council (1962-1965).";
+    Word *aggiornomentoWord= [[Word alloc] init];
+    aggiornomentoWord.name = @"aggiornomento";
+    aggiornomentoWord.definition = @"An Italian word meaning 'to bring up to date' which became popular during the Second Vatican Council (1962-1965).";
     
-    SystematicDetail *agnosticSystematicDetail = [[SystematicDetail alloc] init];
-    agnosticSystematicDetail.systematicName = @"agnostic";
-    agnosticSystematicDetail.systematicDescription = @"From the Greek word for 'not knowing', a term used to describe uncertainty about the question of God's existence.";
+    Word *agnosticWord = [[Word alloc] init];
+    agnosticWord.name = @"agnostic";
+    agnosticWord.definition = @"From the Greek word for 'not knowing', a term used to describe uncertainty about the question of God's existence.";
     
-    SystematicDetail *allegorySystematicDetail = [[SystematicDetail alloc] init];
-    allegorySystematicDetail.systematicName = @"allegory";
-    allegorySystematicDetail.systematicDescription = @"From the Greek word for 'speaking by way of something else', a reference to an interpretation of a text that goes beyond the literal meaning to find a deeper connection to a higher order of reality";
+    Word *allegoryWord = [[Word alloc] init];
+    allegoryWord.name = @"allegory";
+    allegoryWord.definition = @"From the Greek word for 'speaking by way of something else', a reference to an interpretation of a text that goes beyond the literal meaning to find a deeper connection to a higher order of reality";
     
-    SystematicDetail *analogySystematicDetail = [[SystematicDetail alloc] init];
-    analogySystematicDetail.systematicName = @"analogy";
-    analogySystematicDetail.systematicDescription = @"a way of probing eternal truths...";
+    Word *analogyWord = [[Word alloc] init];
+    analogyWord.name = @"analogy";
+    analogyWord.definition = @"a way of probing eternal truths...";
     
-    SystematicDetail *apologeticsSystematicDetail = [[SystematicDetail alloc] init];
-    apologeticsSystematicDetail.systematicName = @"apologetics";
-    apologeticsSystematicDetail.systematicDescription = @"the rational defense of the Christian faith.";
+    Word *apologeticsWord = [[Word alloc] init];
+    apologeticsWord.name = @"apologetics";
+    apologeticsWord.definition = @"the rational defense of the Christian faith.";
     
-    SystematicDetail *apophaticSystematicDetail = [[SystematicDetail alloc] init];
-    apophaticSystematicDetail.systematicName = @"apophatic";
-    apophaticSystematicDetail.systematicDescription = @"language which claims what God is not or a negation.";
+    Word *apophaticWord = [[Word alloc] init];
+    apophaticWord.name = @"apophatic";
+    apophaticWord.definition = @"language which claims what God is not or a negation.";
     
-    SystematicDetail *atonementSystematicDetail = [[SystematicDetail alloc] init];
-    atonementSystematicDetail.systematicName = @"atonement";
-    atonementSystematicDetail.systematicDescription = @"the act of making restitution for inflicted harm";
+    Word *atonementWord = [[Word alloc] init];
+    atonementWord.name = @"atonement";
+    atonementWord.definition = @"the act of making restitution for inflicted harm";
     
-    SystematicDetail *baptismSystematicDetail = [[SystematicDetail alloc] init];
-    baptismSystematicDetail.systematicName = @"baptism";
-    baptismSystematicDetail.systematicDescription = @"a ritual washing used for initiation into the Christian community";
+    Word *baptismWord = [[Word alloc] init];
+    baptismWord.name = @"baptism";
+    baptismWord.definition = @"a ritual washing used for initiation into the Christian community";
     
-    SystematicDetail *blasphemySystematicDetail = [[SystematicDetail alloc] init];
-    blasphemySystematicDetail.systematicName = @"blasphemy";
-    blasphemySystematicDetail.systematicDescription = @"a form of religious slander";
+    Word *blasphemyWord = [[Word alloc] init];
+    blasphemyWord.name = @"blasphemy";
+    blasphemyWord.definition = @"a form of religious slander";
     
 
     
     _systematicDetails = [[NSMutableArray alloc] init];
     /*
-    [_systematicDetails addObject: accidenceSystematicDetail];
-    [_systematicDetails addObject: adoptionSystematicDetail];
-    [_systematicDetails addObject: agapeSystematicDetail];
-    [_systematicDetails addObject: agiornomentoSystematicDetail];
-    [_systematicDetails addObject: agnosticSystematicDetail];
-    [_systematicDetails addObject: allegorySystematicDetail];
-    [_systematicDetails addObject: analogySystematicDetail];
-    [_systematicDetails addObject: apologeticsSystematicDetail]; 
-    [_systematicDetails addObject: apophaticSystematicDetail];
-    [_systematicDetails addObject: baptismSystematicDetail]; 
+    [_Words addObject: accidenceWord];
+    [_Words addObject: adoptionWord];
+    [_Words addObject: agapeWord];
+    [_Words addObject: agiornomentoWord];
+    [_Words addObject: agnosticWord];
+    [_Words addObject: allegoryWord];
+    [_Words addObject: analogyWord];
+    [_Words addObject: apologeticsWord]; 
+    [_Words addObject: apophaticWord];
+    [_Words addObject: baptismWord]; 
 
  */
     //@boxenjim's solution
@@ -162,21 +162,21 @@
         NSMutableArray *array = [NSMutableArray array];
         if ([letter isEqualToString:@"A"])
         {
-            [array addObject: accidenceSystematicDetail];
-            [array addObject: adoptionSystematicDetail];
-            [array addObject: agapeSystematicDetail];
-            [array addObject: agiornomentoSystematicDetail];
-            [array addObject: agnosticSystematicDetail];
-            [array addObject: allegorySystematicDetail];
-            [array addObject: analogySystematicDetail];
-            [array addObject: apologeticsSystematicDetail];
-            [array addObject: apophaticSystematicDetail];
-            [array addObject: atonementSystematicDetail];
+            [array addObject: accidenceWord];
+            [array addObject: adoptionWord];
+            [array addObject: agapeWord];
+            [array addObject: aggiornomentoWord];
+            [array addObject: agnosticWord];
+            [array addObject: allegoryWord];
+            [array addObject: analogyWord];
+            [array addObject: apologeticsWord];
+            [array addObject: apophaticWord];
+            [array addObject: atonementWord];
         }
         else if ([letter isEqualToString:@"B"])
         {
-            [array addObject: baptismSystematicDetail];
-            [array addObject: blasphemySystematicDetail]; 
+            [array addObject: baptismWord];
+            [array addObject: blasphemyWord]; 
         }
         else if ([letter isEqualToString:@"C"])
         {
@@ -300,7 +300,7 @@
 {
     //Original Code
     // Return the number of rows in the section.
-    //return [_systematicDetails count];
+    //return [_Words count];
     NSString *sectionTitle = [letters objectAtIndex:section];
     NSArray *sectionTerms = [terms objectForKey:sectionTitle];
     return [sectionTerms count];
@@ -389,15 +389,15 @@
 
 -(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    if ([[segue identifier] isEqualToString:@"showSystematicDetail"])
+    if ([[segue identifier] isEqualToString:@"showWord"])
     {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         NSArray *sectionArray = [_systematicDetails objectAtIndex:indexPath.section];
-        SystematicDetail *detail = [sectionArray objectAtIndex:indexPath.row];
+        Word *detail = [sectionArray objectAtIndex:indexPath.row];
     
-        SystematicDetailViewController *systematicDetailViewController = [segue destinationViewController];
-        //systematicDetailViewController.currentSystematicDetail = [_systematicDetail objectAtIndex:indexPath.row];
-        systematicDetailViewController.currentSystematicDetail = detail;
+        SystematicDetailViewController *WordViewController = [segue destinationViewController];
+        //WordViewController.currentWord = [_Word objectAtIndex:indexPath.row];
+        WordViewController.currentWordDetail = detail;
     }
 }
 

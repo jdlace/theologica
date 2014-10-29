@@ -29,8 +29,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-    _systematicName.text = _currentSystematicDetail.systematicName;
-    _systematicDescription.text = _currentSystematicDetail.systematicDescription;
+    _systematicDescription.text = _currentWordDetail.name;
+    _systematicDescription.text = _currentWordDetail.definition;
 }
 
 - (void)didReceiveMemoryWarning

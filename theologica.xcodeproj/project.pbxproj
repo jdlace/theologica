@@ -47,7 +47,6 @@
 		692ED2AF1796EF10008554F9 /* perspective-drawing@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 692ED2A51796EF10008554F9 /* perspective-drawing@2x.png */; };
 		692ED2B21796F466008554F9 /* SystematicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2B11796F466008554F9 /* SystematicTableViewController.m */; };
 		692ED2B51796F48B008554F9 /* SystematicDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2B41796F48B008554F9 /* SystematicDetailViewController.m */; };
-		692ED2B81796F4AA008554F9 /* SystematicDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2B71796F4AA008554F9 /* SystematicDetail.m */; };
 		692ED2BB1796F4D1008554F9 /* EcclesialTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2BA1796F4D1008554F9 /* EcclesialTableViewController.m */; };
 		692ED2BE1796F4EA008554F9 /* EcclesialDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2BD1796F4EA008554F9 /* EcclesialDetailViewController.m */; };
 		692ED2C11796F50D008554F9 /* EcclesialDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2C01796F50D008554F9 /* EcclesialDetail.m */; };
@@ -64,6 +63,7 @@
 		69989B0919FF2FC70009ABAE /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69989B0819FF2FC70009ABAE /* TodayViewController.m */; };
 		69989B0B19FF2FC70009ABAE /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69989B0A19FF2FC70009ABAE /* MainInterface.storyboard */; };
 		69989B0E19FF2FC70009ABAE /* Theologica.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 69989B0219FF2FC60009ABAE /* Theologica.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		69FB18EB1A0051C500F1C9A4 /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = 69FB18EA1A0051C500F1C9A4 /* Word.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -138,8 +138,6 @@
 		692ED2B11796F466008554F9 /* SystematicTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SystematicTableViewController.m; path = ../SystematicTableViewController.m; sourceTree = "<group>"; };
 		692ED2B31796F48B008554F9 /* SystematicDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystematicDetailViewController.h; sourceTree = "<group>"; };
 		692ED2B41796F48B008554F9 /* SystematicDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystematicDetailViewController.m; sourceTree = "<group>"; };
-		692ED2B61796F4AA008554F9 /* SystematicDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystematicDetail.h; sourceTree = "<group>"; };
-		692ED2B71796F4AA008554F9 /* SystematicDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystematicDetail.m; sourceTree = "<group>"; };
 		692ED2B91796F4D1008554F9 /* EcclesialTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EcclesialTableViewController.h; sourceTree = "<group>"; };
 		692ED2BA1796F4D1008554F9 /* EcclesialTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EcclesialTableViewController.m; sourceTree = "<group>"; };
 		692ED2BC1796F4EA008554F9 /* EcclesialDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EcclesialDetailViewController.h; sourceTree = "<group>"; };
@@ -170,6 +168,8 @@
 		69989B0719FF2FC70009ABAE /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
 		69989B0819FF2FC70009ABAE /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
 		69989B0A19FF2FC70009ABAE /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		69FB18E91A0051C500F1C9A4 /* Word.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Word.h; sourceTree = "<group>"; };
+		69FB18EA1A0051C500F1C9A4 /* Word.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Word.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,8 +234,6 @@
 				692ED2B11796F466008554F9 /* SystematicTableViewController.m */,
 				692ED2B31796F48B008554F9 /* SystematicDetailViewController.h */,
 				692ED2B41796F48B008554F9 /* SystematicDetailViewController.m */,
-				692ED2B61796F4AA008554F9 /* SystematicDetail.h */,
-				692ED2B71796F4AA008554F9 /* SystematicDetail.m */,
 				692ED2B91796F4D1008554F9 /* EcclesialTableViewController.h */,
 				692ED2BA1796F4D1008554F9 /* EcclesialTableViewController.m */,
 				692ED2BC1796F4EA008554F9 /* EcclesialDetailViewController.h */,
@@ -259,6 +257,8 @@
 				692ED2D71796F601008554F9 /* SocialDetailViewController.h */,
 				692ED2D81796F602008554F9 /* SocialDetailViewController.m */,
 				692ED2DA1796F618008554F9 /* SocialDetail.h */,
+				69FB18E91A0051C500F1C9A4 /* Word.h */,
+				69FB18EA1A0051C500F1C9A4 /* Word.m */,
 				692ED2DB1796F618008554F9 /* SocialDetail.m */,
 				6902FACD17F51D3E00299A50 /* Images.xcassets */,
 				692ED2511796D552008554F9 /* Supporting Files */,
@@ -462,7 +462,6 @@
 				692ED25B1796D552008554F9 /* AppDelegate.m in Sources */,
 				692ED2B21796F466008554F9 /* SystematicTableViewController.m in Sources */,
 				692ED2B51796F48B008554F9 /* SystematicDetailViewController.m in Sources */,
-				692ED2B81796F4AA008554F9 /* SystematicDetail.m in Sources */,
 				692ED2BB1796F4D1008554F9 /* EcclesialTableViewController.m in Sources */,
 				692ED2BE1796F4EA008554F9 /* EcclesialDetailViewController.m in Sources */,
 				692ED2C11796F50D008554F9 /* EcclesialDetail.m in Sources */,
@@ -475,6 +474,7 @@
 				692ED2D61796F5E7008554F9 /* SocialTableViewController.m in Sources */,
 				692ED2D91796F602008554F9 /* SocialDetailViewController.m in Sources */,
 				692ED2DC1796F618008554F9 /* SocialDetail.m in Sources */,
+				69FB18EB1A0051C500F1C9A4 /* Word.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -679,6 +679,7 @@
 				69989B1119FF2FC70009ABAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
