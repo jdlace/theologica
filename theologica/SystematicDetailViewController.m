@@ -29,7 +29,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-    _systematicDescription.text = _currentWordDetail.name;
+    _systematicName.text = _currentWordDetail.name;
     _systematicDescription.text = _currentWordDetail.definition;
 }
 

@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "EcclesialDetail.h"
+#import "Word.h"
 
 @interface EcclesialDetailViewController : UIViewController
 
-@property (strong, nonatomic) EcclesialDetail *currentEcclesialDetail; 
+@property (strong, nonatomic) Word *currentWordDetail;
 
 @property (strong, nonatomic) IBOutlet UILabel *ecclesialName;
 @property (strong, nonatomic) IBOutlet UILabel *ecclesialDescription;

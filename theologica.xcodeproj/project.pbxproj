@@ -49,7 +49,6 @@
 		692ED2B51796F48B008554F9 /* SystematicDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2B41796F48B008554F9 /* SystematicDetailViewController.m */; };
 		692ED2BB1796F4D1008554F9 /* EcclesialTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2BA1796F4D1008554F9 /* EcclesialTableViewController.m */; };
 		692ED2BE1796F4EA008554F9 /* EcclesialDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2BD1796F4EA008554F9 /* EcclesialDetailViewController.m */; };
-		692ED2C11796F50D008554F9 /* EcclesialDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2C01796F50D008554F9 /* EcclesialDetail.m */; };
 		692ED2C41796F531008554F9 /* MoralTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2C31796F531008554F9 /* MoralTableViewController.m */; };
 		692ED2C71796F544008554F9 /* MoralDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2C61796F544008554F9 /* MoralDetailViewController.m */; };
 		692ED2CA1796F559008554F9 /* MoralDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2C91796F559008554F9 /* MoralDetail.m */; };
@@ -142,8 +141,6 @@
 		692ED2BA1796F4D1008554F9 /* EcclesialTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EcclesialTableViewController.m; sourceTree = "<group>"; };
 		692ED2BC1796F4EA008554F9 /* EcclesialDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EcclesialDetailViewController.h; sourceTree = "<group>"; };
 		692ED2BD1796F4EA008554F9 /* EcclesialDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EcclesialDetailViewController.m; sourceTree = "<group>"; };
-		692ED2BF1796F50D008554F9 /* EcclesialDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EcclesialDetail.h; sourceTree = "<group>"; };
-		692ED2C01796F50D008554F9 /* EcclesialDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EcclesialDetail.m; sourceTree = "<group>"; };
 		692ED2C21796F531008554F9 /* MoralTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoralTableViewController.h; sourceTree = "<group>"; };
 		692ED2C31796F531008554F9 /* MoralTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoralTableViewController.m; sourceTree = "<group>"; };
 		692ED2C51796F544008554F9 /* MoralDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoralDetailViewController.h; sourceTree = "<group>"; };
@@ -238,8 +235,6 @@
 				692ED2BA1796F4D1008554F9 /* EcclesialTableViewController.m */,
 				692ED2BC1796F4EA008554F9 /* EcclesialDetailViewController.h */,
 				692ED2BD1796F4EA008554F9 /* EcclesialDetailViewController.m */,
-				692ED2BF1796F50D008554F9 /* EcclesialDetail.h */,
-				692ED2C01796F50D008554F9 /* EcclesialDetail.m */,
 				692ED2C21796F531008554F9 /* MoralTableViewController.h */,
 				692ED2C31796F531008554F9 /* MoralTableViewController.m */,
 				692ED2C51796F544008554F9 /* MoralDetailViewController.h */,
@@ -464,7 +459,6 @@
 				692ED2B51796F48B008554F9 /* SystematicDetailViewController.m in Sources */,
 				692ED2BB1796F4D1008554F9 /* EcclesialTableViewController.m in Sources */,
 				692ED2BE1796F4EA008554F9 /* EcclesialDetailViewController.m in Sources */,
-				692ED2C11796F50D008554F9 /* EcclesialDetail.m in Sources */,
 				692ED2C41796F531008554F9 /* MoralTableViewController.m in Sources */,
 				692ED2C71796F544008554F9 /* MoralDetailViewController.m in Sources */,
 				692ED2CA1796F559008554F9 /* MoralDetail.m in Sources */,

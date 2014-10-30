@@ -8,7 +8,8 @@
 
 #import "MoralTableViewController.h"
 #import "MoralDetailViewController.h"
-#import "MoralDetail.h"
+#import "Word.h"
+#import "Word.h"
 
 @interface MoralTableViewController ()
 {
@@ -68,39 +69,39 @@
     
     //_moralTerms = [[NSArray alloc] initWithObjects:@"abortion", @"abstinence", @"act", @"adultery", nil];
     
-    MoralDetail *abortionMoralDetail = [[MoralDetail alloc] init];
-    abortionMoralDetail.moralName = @"abortion";
-    abortionMoralDetail.moralDescription = @"the intentional killing of an unborn human being";
+    Word *abortion = [[Word alloc] init];
+    abortion.name = @"abortion";
+    abortion.definition = @"the intentional killing of an unborn human being";
     
-    MoralDetail *abstinenceMoralDetail = [[MoralDetail alloc] init];
-    abstinenceMoralDetail.moralName = @"abstinence";
-    abstinenceMoralDetail.moralDescription = @"to refrain from a given activity";
+    Word *abstinence = [[Word alloc] init];
+    abstinence.name = @"abstinence";
+    abstinence.definition = @"to refrain from a given activity";
     
-    MoralDetail *actMoralDetail = [[MoralDetail alloc] init];
-    actMoralDetail.moralName = @"act";
-    actMoralDetail.moralDescription = @"In moral theology, an truly 'human' act refers to actions made with freedom and will.";
+    Word *act = [[Word alloc] init];
+    act.name = @"act";
+    act.definition = @"In moral theology, an truly 'human' act refers to actions made with freedom and will.";
     
-    MoralDetail *adulteryMoralDetail = [[MoralDetail alloc] init];
-    adulteryMoralDetail.moralName = @"adultery";
-    adulteryMoralDetail.moralDescription = @"Marital infidelity or sexual relations between two people, one of which being married to another person";
+    Word *adultery = [[Word alloc] init];
+    adultery.name = @"adultery";
+    adultery.definition = @"Marital infidelity or sexual relations between two people, one of which being married to another person";
     
     _moralDetails = [[NSMutableArray alloc] init];
     
     
-    //[_moralDetails addObject: abortionMoralDetail];
-    //[_moralDetails addObject: abstinenceMoralDetail];
-    //[_moralDetails addObject: actMoralDetail];
-    //[_moralDetails addObject: adulteryMoralDetail];
+    //[_Words addObject: abortionWord];
+    //[_Words addObject: abstinenceWord];
+    //[_Words addObject: actWord];
+    //[_Words addObject: adulteryWord];
     
     for (NSString *letter in letters)
         {
         NSMutableArray *array = [NSMutableArray array];
         if ([letter isEqualToString:@"A"])
             {
-            [array addObject: abortionMoralDetail];
-            [array addObject: abstinenceMoralDetail];
-            [array addObject: actMoralDetail];
-            [array addObject: adulteryMoralDetail];
+            [array addObject: abortion];
+            [array addObject: abstinence];
+            [array addObject: act];
+            [array addObject: adultery];
             }
         else if ([letter isEqualToString:@"B"])
             {
@@ -221,13 +222,13 @@
 -(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
 
-    if ([[segue identifier] isEqualToString:@"showMoralDetail"])
+    if ([[segue identifier] isEqualToString:@"showWord"])
     {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         NSArray *sectionArray = [_moralDetails objectAtIndex:indexPath.section];
-        MoralDetailViewController *moralDetailViewController = [segue destinationViewController];
-        MoralDetail *detail = [sectionArray objectAtIndex:indexPath.row];
-        moralDetailViewController.currentMoralDetail = detail;
+        MoralDetailViewController *WordViewController = [segue destinationViewController];
+        Word *detail = [sectionArray objectAtIndex:indexPath.row];
+        WordViewController.currentWordDetail = detail;
         }
 }
 

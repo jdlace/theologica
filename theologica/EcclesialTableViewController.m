@@ -8,7 +8,7 @@
 
 #import "EcclesialTableViewController.h"
 #import "EcclesialDetailViewController.h"
-#import "EcclesialDetail.h"
+#import "Word.h"
 
 @interface EcclesialTableViewController ()
 {
@@ -68,56 +68,56 @@
     //_ecclesialTerms = [[NSArray alloc] initWithObjects:@"absolution", @"acolyte", @"altar", @"antiphon", nil];
     
     //Data for the detail view controller
-    EcclesialDetail *absolutionEcclesialDetail = [[EcclesialDetail alloc] init];
-    absolutionEcclesialDetail.ecclesialName = @"absolution";
-    absolutionEcclesialDetail.ecclesialDescription = @"the act by which a priest declares the forgiveness of sins"; 
+    Word *absolution = [[Word alloc] init];
+    absolution.name = @"absolution";
+    absolution.definition = @"the act by which a priest declares the forgiveness of sins"; 
     
-    EcclesialDetail *acolyteEcclesialDetail = [[EcclesialDetail alloc] init];
-    acolyteEcclesialDetail.ecclesialName = @"acolyte";
-    acolyteEcclesialDetail.ecclesialDescription = @"an assistant to a deacon";
+    Word *acolyte = [[Word alloc] init];
+    acolyte.name = @"acolyte";
+    acolyte.definition = @"an assistant to a deacon";
     
-    EcclesialDetail *angusDeiEcclesialDetail = [[EcclesialDetail alloc] init];
-    angusDeiEcclesialDetail.ecclesialName = @"Angus Dei";
-    angusDeiEcclesialDetail.ecclesialDescription = @"Part of Mass that begins 'Lamb of God...'.";
+    Word *angusDei = [[Word alloc] init];
+    angusDei.name = @"Angus Dei";
+    angusDei.definition = @"Part of Mass that begins 'Lamb of God...'.";
     
-    EcclesialDetail *altarEcclesialDetail = [[EcclesialDetail alloc] init];
-    altarEcclesialDetail.ecclesialName = @"altar";
-    altarEcclesialDetail.ecclesialDescription = @"the object upon which the Eucharist is placed during the act of consecration";
+    Word *altar = [[Word alloc] init];
+    altar.name = @"altar";
+    altar.definition = @"the object upon which the Eucharist is placed during the act of consecration";
     
-    EcclesialDetail *anamnesisEcclesialDetail = [[EcclesialDetail alloc] init];
-    anamnesisEcclesialDetail.ecclesialName = @"anamnesis";
-    anamnesisEcclesialDetail.ecclesialDescription = @"Greek word for 'rememberance', used in the Words of Institution.";
+    Word *anamnesis = [[Word alloc] init];
+    anamnesis.name = @"anamnesis";
+    anamnesis.definition = @"Greek Word for 'rememberance', used in the Words of Institution.";
     
-    EcclesialDetail *anathemaEcclesialDetail = [[EcclesialDetail alloc] init];
-    anathemaEcclesialDetail.ecclesialName = @"anathema";
-    anathemaEcclesialDetail.ecclesialDescription = @"the state of being out of visible communion with the Church";
+    Word *anathema = [[Word alloc] init];
+    anathema.name = @"anathema";
+    anathema.definition = @"the state of being out of visible communion with the Church";
     
-    EcclesialDetail *antiphonEcclesialDetail = [[EcclesialDetail alloc] init];
-    antiphonEcclesialDetail.ecclesialName = @"antiphon";
-    antiphonEcclesialDetail.ecclesialDescription = @"the choral response sung during the entrace processional";
+    Word *antiphon = [[Word alloc] init];
+    antiphon.name = @"antiphon";
+    antiphon.definition = @"the choral response sung during the entrace processional";
     
-    EcclesialDetail *apostlesCreedEcclesialDetail = [[EcclesialDetail alloc] init];
-    apostlesCreedEcclesialDetail.ecclesialName = @"Apostle's Creed";
-    apostlesCreedEcclesialDetail.ecclesialDescription = @"The earliest form of the Rule of Faith; based on the Roman baptismal creed, dated to the year A.D. 150."; 
+    Word *apostlesCreed = [[Word alloc] init];
+    apostlesCreed.name = @"Apostle's Creed";
+    apostlesCreed.definition = @"The earliest form of the Rule of Faith; based on the Roman baptismal creed, dated to the year A.D. 150.";
     
-    EcclesialDetail *arianismEcclesialDetail = [[EcclesialDetail alloc] init];
-    arianismEcclesialDetail.ecclesialName = @"Arianism";
-    arianismEcclesialDetail.ecclesialDescription = @"The teaching of Arius that the Son was of a different substance than the Father (begotten vs. unbegotten) and thus, not fully divine.";
+    Word *arianism = [[Word alloc] init];
+    arianism.name = @"Arianism";
+    arianism.definition = @"The teaching of Arius that the Son was of a different substance than the Father (begotten vs. unbegotten) and thus, not fully divine.";
     
-    EcclesialDetail *baptismEcclesialDetail = [[EcclesialDetail alloc] init];
-    baptismEcclesialDetail.ecclesialName = @"baptism";
-    baptismEcclesialDetail.ecclesialDescription = @"the intiation rite into the Church";
+    Word *baptism = [[Word alloc] init];
+    baptism.name = @"baptism";
+    baptism.definition = @"the intiation rite into the Church";
     
-    EcclesialDetail *blasphemyEcclesialDetail = [[EcclesialDetail alloc] init];
-    blasphemyEcclesialDetail.ecclesialName = @"blasphemy";
-    blasphemyEcclesialDetail.ecclesialDescription = @"religious slander";
+    Word *blasphemy = [[Word alloc] init];
+    blasphemy.name = @"blasphemy";
+    blasphemy.definition = @"religious slander";
    
     _ecclesialDetails = [[NSMutableArray alloc] init];
     /*
-    [_ecclesialDetails addObject: absolutionEcclesialDetail]; 
-    [_ecclesialDetails addObject: acolyteEcclesialDetail];
-    [_ecclesialDetails addObject: altarEcclesialDetail];
-    [_ecclesialDetails addObject: antiphonEcclesialDetail];
+    [_Words addObject: absolutionWord]; 
+    [_Words addObject: acolyteWord];
+    [_Words addObject: altarWord];
+    [_Words addObject: antiphonWord];
     */
     
     for (NSString *letter in letters)
@@ -125,20 +125,20 @@
         NSMutableArray *array = [NSMutableArray array];
         if ([letter isEqualToString:@"A"])
             {
-            [array addObject: absolutionEcclesialDetail];
-            [array addObject: acolyteEcclesialDetail];
-            [array addObject: angusDeiEcclesialDetail];
-            [array addObject: altarEcclesialDetail];
-            [array addObject: anamnesisEcclesialDetail];
-            [array addObject: anathemaEcclesialDetail];
-            [array addObject: antiphonEcclesialDetail];
-            [array addObject: apostlesCreedEcclesialDetail];
-            [array addObject: arianismEcclesialDetail];
+            [array addObject: absolution];
+            [array addObject: acolyte];
+            [array addObject: angusDei];
+            [array addObject: altar];
+            [array addObject: anamnesis];
+            [array addObject: anathema];
+            [array addObject: antiphon];
+            [array addObject: apostlesCreed];
+            [array addObject: arianism];
             }
         else if ([letter isEqualToString:@"B"])
             {
-            [array addObject: baptismEcclesialDetail];
-            [array addObject: blasphemyEcclesialDetail];
+            [array addObject: baptism];
+            [array addObject: blasphemy];
             }
         
         [_ecclesialDetails addObject:array];
@@ -246,7 +246,7 @@
 {
     // Navigation logic may go here. Create and push another view controller.
     /*
-     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
+     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibWord:@"<#Nib Word#>" bundle:nil];
      // ...
      // Pass the selected object to the new view controller.
      [self.navigationController pushViewController:detailViewController animated:YES];
@@ -255,14 +255,15 @@
 
 -(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    if ([[segue identifier] isEqualToString:@"showEcclesialDetail"])
+    if ([[segue identifier] isEqualToString:@"showWord"])
     {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         NSArray *sectionArray = [_ecclesialDetails objectAtIndex:indexPath.section];
-        EcclesialDetailViewController *ecclesialDetailViewController = [segue destinationViewController];
-        EcclesialDetail *detail = [sectionArray objectAtIndex:indexPath.row];
-        //ecclesialDetailViewController.currentEcclesialDetail = [_ecclesialDetails objectAtIndex:indexPath.row];
-        ecclesialDetailViewController.currentEcclesialDetail = detail;
+        Word *detail = [sectionArray objectAtIndex:indexPath.row];
+    
+    EcclesialDetailViewController  *WordViewController = [segue destinationViewController]; 
+        //WordViewController.currentWord = [_Words objectAtIndex:indexPath.row];
+        WordViewController.currentWordDetail = detail;
     }
 }
 - (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView

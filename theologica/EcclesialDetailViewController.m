@@ -28,8 +28,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-    _ecclesialName.text = _currentEcclesialDetail.ecclesialName;
-    _ecclesialDescription.text = _currentEcclesialDetail.ecclesialDescription;
+    _ecclesialName.text = _currentWordDetail.name;
+    _ecclesialDescription.text = _currentWordDetail.definition;
 }
 
 - (void)didReceiveMemoryWarning

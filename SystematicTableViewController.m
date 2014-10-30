@@ -92,53 +92,53 @@
     
     //_systematicTerms = [[NSArray alloc] initWithObjects:@"accident", @"adoption", @"agape", @"aggiornomento", @"agnostic", @"allegory", @"analogy", @"apologetics", @"apophatic", @"criteria", nil];
     
-    Word *accidenceWord = [[Word alloc] init];
-    accidenceWord.name = @"accidence";
-    accidenceWord.definition = @"In Aristotelean philosophy, a nonessential property or quality of a substance.";
+    Word *accidence = [[Word alloc] init];
+    accidence.name = @"accidence";
+    accidence.definition = @"In Aristotelean philosophy, a nonessential property or quality of a substance.";
     
-    Word *adoptionWord = [[Word alloc] init];
-    adoptionWord.name = @"adoption";
-    adoptionWord.definition = @"the process of becoming a child of God through Jesus Christ";
+    Word *adoption = [[Word alloc] init];
+    adoption.name = @"adoption";
+    adoption.definition = @"the process of becoming a child of God through Jesus Christ";
     
-    Word *agapeWord = [[Word alloc] init];
-    agapeWord.name = @"agape";
-    agapeWord.definition = @"The Greek word meaning 'universal and unconditional will for the good of another'. The gospel writers use this word to describe Jesus' teaching on love for God, neighbors and enemies.";
+    Word *agape = [[Word alloc] init];
+    agape.name = @"agape";
+    agape.definition = @"The Greek word meaning 'universal and unconditional will for the good of another'. The gospel writers use this word to describe Jesus' teaching on love for God, neighbors and enemies.";
     
-    Word *aggiornomentoWord= [[Word alloc] init];
-    aggiornomentoWord.name = @"aggiornomento";
-    aggiornomentoWord.definition = @"An Italian word meaning 'to bring up to date' which became popular during the Second Vatican Council (1962-1965).";
+    Word *aggiornomento = [[Word alloc] init];
+    aggiornomento.name = @"aggiornomento";
+    aggiornomento.definition = @"An Italian word meaning 'to bring up to date' which became popular during the Second Vatican Council (1962-1965).";
     
-    Word *agnosticWord = [[Word alloc] init];
-    agnosticWord.name = @"agnostic";
-    agnosticWord.definition = @"From the Greek word for 'not knowing', a term used to describe uncertainty about the question of God's existence.";
+    Word *agnostic = [[Word alloc] init];
+    agnostic.name = @"agnostic";
+    agnostic.definition = @"From the Greek word for 'not knowing', a term used to describe uncertainty about the question of God's existence.";
     
-    Word *allegoryWord = [[Word alloc] init];
-    allegoryWord.name = @"allegory";
-    allegoryWord.definition = @"From the Greek word for 'speaking by way of something else', a reference to an interpretation of a text that goes beyond the literal meaning to find a deeper connection to a higher order of reality";
+    Word *allegory = [[Word alloc] init];
+    allegory.name = @"allegory";
+    allegory.definition = @"From the Greek word for 'speaking by way of something else', a reference to an interpretation of a text that goes beyond the literal meaning to find a deeper connection to a higher order of reality";
     
-    Word *analogyWord = [[Word alloc] init];
-    analogyWord.name = @"analogy";
-    analogyWord.definition = @"a way of probing eternal truths...";
+    Word *analogy = [[Word alloc] init];
+    analogy.name = @"analogy";
+    analogy.definition = @"a way of probing eternal truths...";
     
-    Word *apologeticsWord = [[Word alloc] init];
-    apologeticsWord.name = @"apologetics";
-    apologeticsWord.definition = @"the rational defense of the Christian faith.";
+    Word *apologetics = [[Word alloc] init];
+    apologetics.name = @"apologetics";
+    apologetics.definition = @"the rational defense of the Christian faith.";
     
-    Word *apophaticWord = [[Word alloc] init];
-    apophaticWord.name = @"apophatic";
-    apophaticWord.definition = @"language which claims what God is not or a negation.";
+    Word *apophatic = [[Word alloc] init];
+    apophatic.name = @"apophatic";
+    apophatic.definition = @"language which claims what God is not or a negation.";
     
-    Word *atonementWord = [[Word alloc] init];
-    atonementWord.name = @"atonement";
-    atonementWord.definition = @"the act of making restitution for inflicted harm";
+    Word *atonement = [[Word alloc] init];
+    atonement.name = @"atonement";
+    atonement.definition = @"the act of making restitution for inflicted harm";
     
-    Word *baptismWord = [[Word alloc] init];
-    baptismWord.name = @"baptism";
-    baptismWord.definition = @"a ritual washing used for initiation into the Christian community";
+    Word *baptism = [[Word alloc] init];
+    baptism.name = @"baptism";
+    baptism.definition = @"a ritual washing used for initiation into the Christian community";
     
-    Word *blasphemyWord = [[Word alloc] init];
-    blasphemyWord.name = @"blasphemy";
-    blasphemyWord.definition = @"a form of religious slander";
+    Word *blasphemy = [[Word alloc] init];
+    blasphemy.name = @"blasphemy";
+    blasphemy.definition = @"a form of religious slander";
     
 
     
@@ -162,21 +162,21 @@
         NSMutableArray *array = [NSMutableArray array];
         if ([letter isEqualToString:@"A"])
         {
-            [array addObject: accidenceWord];
-            [array addObject: adoptionWord];
-            [array addObject: agapeWord];
-            [array addObject: aggiornomentoWord];
-            [array addObject: agnosticWord];
-            [array addObject: allegoryWord];
-            [array addObject: analogyWord];
-            [array addObject: apologeticsWord];
-            [array addObject: apophaticWord];
-            [array addObject: atonementWord];
+            [array addObject: accidence];
+            [array addObject: adoption];
+            [array addObject: agape];
+            [array addObject: aggiornomento];
+            [array addObject: agnostic];
+            [array addObject: allegory];
+            [array addObject: analogy];
+            [array addObject: apologetics];
+            [array addObject: apophatic];
+            [array addObject: atonement];
         }
         else if ([letter isEqualToString:@"B"])
         {
-            [array addObject: baptismWord];
-            [array addObject: blasphemyWord]; 
+            [array addObject: baptism];
+            [array addObject: blasphemy];
         }
         else if ([letter isEqualToString:@"C"])
         {

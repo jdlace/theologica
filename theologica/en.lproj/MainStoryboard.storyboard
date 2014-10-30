@@ -9,8 +9,8 @@
         <scene sceneID="15">
             <objects>
                 <tabBarController id="4" sceneMemberID="viewController">
-                    <nil key="simulatedBottomBarMetrics"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="5">
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="5">
                         <rect key="frame" x="0.0" y="431" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -60,7 +60,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="sm5-Dc-hQE" kind="push" identifier="showSystematicDetail" id="D2d-iF-b5c"/>
+                                    <segue destination="sm5-Dc-hQE" kind="push" identifier="showWord" id="D2d-iF-b5c"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -182,7 +182,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="aRL-ei-9Tm" kind="push" identifier="showEcclesialDetail" id="w6i-7r-hPe"/>
+                                    <segue destination="aRL-ei-9Tm" kind="push" identifier="showWord" id="w6i-7r-hPe"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -299,7 +299,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="hxR-tt-SDM" kind="push" identifier="showMoralDetail" id="T4M-0E-UYb"/>
+                                    <segue destination="hxR-tt-SDM" kind="push" identifier="showWord" id="T4M-0E-UYb"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>

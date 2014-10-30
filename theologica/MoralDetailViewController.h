@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MoralDetail.h"
+#import "Word.h"
 
 @interface MoralDetailViewController : UIViewController
 
-@property (strong, nonatomic) MoralDetail *currentMoralDetail;
+@property (strong, nonatomic) Word *currentWordDetail;
 
 @property (strong, nonatomic) IBOutlet UILabel *moralName;
 @property (strong, nonatomic) IBOutlet UILabel *moralDescription;

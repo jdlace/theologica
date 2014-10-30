@@ -28,8 +28,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-    _moralName.text = _currentMoralDetail.moralName;
-    _moralDescription.text = _currentMoralDetail.moralDescription;
+    _moralName.text = _currentWordDetail.name;
+    _moralDescription.text = _currentWordDetail.definition;
 }
 
 - (void)didReceiveMemoryWarning
