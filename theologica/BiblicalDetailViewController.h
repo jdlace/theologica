@@ -7,12 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BiblicalDetail.h"
+#import "Word.h"
 
 @interface BiblicalDetailViewController : UIViewController
 
 
-@property (strong, nonatomic) BiblicalDetail *currentBiblicalDetail;
+@property (strong, nonatomic) Word *currentWordDetail;
 
 @property (strong, nonatomic) IBOutlet UILabel *biblicalName;
 @property (strong, nonatomic) IBOutlet UILabel *biblicalDescription;

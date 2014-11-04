@@ -9,7 +9,6 @@
 #import "MoralTableViewController.h"
 #import "MoralDetailViewController.h"
 #import "Word.h"
-#import "Word.h"
 
 @interface MoralTableViewController ()
 {

@@ -28,8 +28,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-    _biblicalName.text = _currentBiblicalDetail.biblicalName;
-    _biblicalDescription.text = _currentBiblicalDetail.biblicalDescription;
+    _biblicalName.text = _currentWordDetail.name;
+    _biblicalDescription.text = _currentWordDetail.definition;
 }
 
 - (void)didReceiveMemoryWarning

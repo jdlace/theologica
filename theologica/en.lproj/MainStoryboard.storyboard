@@ -9,7 +9,7 @@
         <scene sceneID="15">
             <objects>
                 <tabBarController id="4" sceneMemberID="viewController">
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="5">
                         <rect key="frame" x="0.0" y="431" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -409,7 +409,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="zQM-E2-3OV" kind="push" identifier="showBiblicalDetail" id="FdP-jm-dgJ"/>
+                                    <segue destination="zQM-E2-3OV" kind="push" identifier="showWord" id="FdP-jm-dgJ"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
