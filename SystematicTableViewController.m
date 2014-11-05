@@ -71,26 +71,7 @@
                                                                                                                         
     letters = [[terms allKeys] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
     
-    
-    /*
-    //Added by Derek Lee Bronston
-    //PATH TO LOCAL FILE THAT STORES CONTACTS
-    NSString *path = [[NSBundle mainBundle] bundlePath];
-    NSString *finalPath = [path stringByAppendingPathComponent:@"Contacts.plist"];
-    NSLog(@"%@",finalPath);
-    
-    //AUTOMATICALLY PARSE FILE INTO CONTACTS ARRAY -- LOOK AT THE Conatcts.plist file
-    contacts = [NSArray arrayWithContentsOfFile:finalPath];
-    NSLog(@"%@",contacts);
-    
-    */
-    //need to reexamine the data model.
-    
-    
-    
-    
-    
-    //_systematicTerms = [[NSArray alloc] initWithObjects:@"accident", @"adoption", @"agape", @"aggiornomento", @"agnostic", @"allegory", @"analogy", @"apologetics", @"apophatic", @"criteria", nil];
+    //A
     
     Word *accidence = [[Word alloc] init];
     accidence.name = @"accidence";
@@ -132,6 +113,8 @@
     atonement.name = @"atonement";
     atonement.definition = @"the act of making restitution for inflicted harm";
     
+    //B
+    
     Word *baptism = [[Word alloc] init];
     baptism.name = @"baptism";
     baptism.definition = @"a ritual washing used for initiation into the Christian community";
@@ -140,7 +123,57 @@
     blasphemy.name = @"blasphemy";
     blasphemy.definition = @"a form of religious slander";
     
-
+    //C
+    
+    //D
+    
+    //E
+    
+    Word *epistemology = [[Word alloc] init];
+    epistemology.name = @"epistemology";
+    epistemology.definition = @"the study of the origin, nature, and limits of human knowledge; one of the three traditional subjects of Western philosophy.";
+    
+    //F
+    
+    //G
+    
+    //H
+    
+    //I
+    
+    //J
+    
+    //K
+    
+    //L
+    
+    //M
+    
+    //N
+    
+    //O
+    
+    //P
+    
+    //Q
+    
+    //R
+    
+    //S
+    
+    //T
+    
+    //U
+    
+    //V
+    
+    //W
+    
+    //X
+    
+    //Y
+    
+    //Z
     
     _systematicDetails = [[NSMutableArray alloc] init];
     /*
@@ -161,34 +194,34 @@
     {
         NSMutableArray *array = [NSMutableArray array];
         if ([letter isEqualToString:@"A"])
-        {
-            [array addObject: accidence];
-            [array addObject: adoption];
-            [array addObject: agape];
-            [array addObject: aggiornomento];
-            [array addObject: agnostic];
-            [array addObject: allegory];
-            [array addObject: analogy];
-            [array addObject: apologetics];
-            [array addObject: apophatic];
-            [array addObject: atonement];
-        }
+            {
+                [array addObject: accidence];
+                [array addObject: adoption];
+                [array addObject: agape];
+                [array addObject: aggiornomento];
+                [array addObject: agnostic];
+                [array addObject: allegory];
+                [array addObject: analogy];
+                [array addObject: apologetics];
+                [array addObject: apophatic];
+                [array addObject: atonement];
+            }
         else if ([letter isEqualToString:@"B"])
-        {
-            [array addObject: baptism];
-            [array addObject: blasphemy];
-        }
+            {
+                [array addObject: baptism];
+                [array addObject: blasphemy];
+            }
         else if ([letter isEqualToString:@"C"])
-        {
+            {
         
-        }
+            }
         else if ([letter isEqualToString:@"D"])
-        {
-            
-        }
-        else if ([letter isEqualToString:@"E"])
             {
             
+            }
+        else if ([letter isEqualToString:@"E"])
+            {
+                [array addObject: epistemology];
             }
         else if ([letter isEqualToString:@"F"])
             {

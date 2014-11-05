@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SocialDetail.h"
 #import "Word.h"
 
 @interface SocialDetailViewController : UIViewController
