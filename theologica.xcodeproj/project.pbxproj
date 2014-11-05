@@ -55,7 +55,6 @@
 		692ED2D01796F5A7008554F9 /* BiblicalDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2CF1796F5A7008554F9 /* BiblicalDetailViewController.m */; };
 		692ED2D61796F5E7008554F9 /* SocialTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2D51796F5E7008554F9 /* SocialTableViewController.m */; };
 		692ED2D91796F602008554F9 /* SocialDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2D81796F602008554F9 /* SocialDetailViewController.m */; };
-		692ED2DC1796F618008554F9 /* SocialDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2DB1796F618008554F9 /* SocialDetail.m */; };
 		69989B0319FF2FC70009ABAE /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69989AC519FF2D5D0009ABAE /* NotificationCenter.framework */; };
 		69989B0919FF2FC70009ABAE /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69989B0819FF2FC70009ABAE /* TodayViewController.m */; };
 		69989B0B19FF2FC70009ABAE /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69989B0A19FF2FC70009ABAE /* MainInterface.storyboard */; };
@@ -151,8 +150,6 @@
 		692ED2D51796F5E7008554F9 /* SocialTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialTableViewController.m; sourceTree = "<group>"; };
 		692ED2D71796F601008554F9 /* SocialDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialDetailViewController.h; sourceTree = "<group>"; };
 		692ED2D81796F602008554F9 /* SocialDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialDetailViewController.m; sourceTree = "<group>"; };
-		692ED2DA1796F618008554F9 /* SocialDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialDetail.h; sourceTree = "<group>"; };
-		692ED2DB1796F618008554F9 /* SocialDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialDetail.m; sourceTree = "<group>"; };
 		69989AC519FF2D5D0009ABAE /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		69989B0219FF2FC60009ABAE /* Theologica.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Theologica.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		69989B0619FF2FC70009ABAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -241,8 +238,6 @@
 				692ED2D51796F5E7008554F9 /* SocialTableViewController.m */,
 				692ED2D71796F601008554F9 /* SocialDetailViewController.h */,
 				692ED2D81796F602008554F9 /* SocialDetailViewController.m */,
-				692ED2DA1796F618008554F9 /* SocialDetail.h */,
-				692ED2DB1796F618008554F9 /* SocialDetail.m */,
 				69FB18E91A0051C500F1C9A4 /* Word.h */,
 				69FB18EA1A0051C500F1C9A4 /* Word.m */,
 				6902FACD17F51D3E00299A50 /* Images.xcassets */,
@@ -455,7 +450,6 @@
 				692ED2D01796F5A7008554F9 /* BiblicalDetailViewController.m in Sources */,
 				692ED2D61796F5E7008554F9 /* SocialTableViewController.m in Sources */,
 				692ED2D91796F602008554F9 /* SocialDetailViewController.m in Sources */,
-				692ED2DC1796F618008554F9 /* SocialDetail.m in Sources */,
 				69FB18EB1A0051C500F1C9A4 /* Word.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,6 +7,7 @@
 //
 
 #import "SocialDetailViewController.h"
+#import "Word.h"
 
 @interface SocialDetailViewController ()
 
@@ -29,8 +30,8 @@
 	// Do any additional setup after loading the view.
     
     
-    _socialName.text = _currentSocialDetail.socialName;
-    _socialDescription.text = _currentSocialDetail.socialDescription;
+    _socialName.text = _currentWordDetail.name;
+    _socialDescription.text = _currentWordDetail.definition;
 }
 
 - (void)didReceiveMemoryWarning

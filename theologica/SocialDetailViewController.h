@@ -8,10 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import "SocialDetail.h"
+#import "Word.h"
 
 @interface SocialDetailViewController : UIViewController
 
-@property (strong, nonatomic) SocialDetail *currentSocialDetail;
+@property (strong, nonatomic) Word *currentWordDetail;
 
 @property (strong, nonatomic) IBOutlet UILabel *socialName;
 @property (strong, nonatomic) IBOutlet UILabel *socialDescription;

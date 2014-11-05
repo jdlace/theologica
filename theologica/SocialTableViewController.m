@@ -8,7 +8,8 @@
 
 #import "SocialTableViewController.h"
 #import "SocialDetailViewController.h"
-#import "SocialDetail.h"
+#import "Word.h"
+#import "Word.h"
 
 @interface SocialTableViewController ()
 {
@@ -70,54 +71,54 @@
     
    // _socialTerms = [[NSArray alloc] initWithObjects: @"action", @"analysis", @"awareness", @"Catholic Social Teaching", @"common good", @"commutative justice", @"contributive justice", @"development", @"dignity", nil];
     
-    SocialDetail *actionSocialDetail = [[SocialDetail alloc]init];
-    actionSocialDetail.socialName = @"action";
-    actionSocialDetail.socialDescription = @"the third of three steps in achieving justice";
+    Word *action = [[Word alloc]init];
+    action.name = @"action";
+    action.definition = @"the third of three steps in achieving justice";
     
     
-    SocialDetail *analysisSocialDetail = [[SocialDetail alloc] init];
-    analysisSocialDetail.socialName = @"analysis";
-    analysisSocialDetail.socialDescription = @"the second of the 3 steps in achieving justice";
+    Word *analysis = [[Word alloc] init];
+    analysis.name = @"analysis";
+    analysis.definition = @"the second of the 3 steps in achieving justice";
     
-    SocialDetail *awarenessSocialDetail = [[SocialDetail alloc] init];
-    awarenessSocialDetail.socialName = @"awareness";
-    awarenessSocialDetail.socialDescription = @"the first of 3 steps in achieving justice";
+    Word *awareness = [[Word alloc] init];
+    awareness.name = @"awareness";
+    awareness.definition = @"the first of 3 steps in achieving justice";
     
-    SocialDetail *catholicsocialteachingSocialDetail = [[SocialDetail alloc]init];
-    catholicsocialteachingSocialDetail.socialName = @"Catholic Social Teaching";
-    catholicsocialteachingSocialDetail.socialDescription = @"the teaching of the Church which applies principles of social justice to the signs of the times";
+    Word *catholicsocialteaching = [[Word alloc]init];
+    catholicsocialteaching.name = @"Catholic Social Teaching";
+    catholicsocialteaching.definition = @"the teaching of the Church which applies principles of social justice to the signs of the times";
     
-    SocialDetail *commongoodSocialDetail = [[SocialDetail alloc]init];
-    commongoodSocialDetail.socialName = @"common good";
-    commongoodSocialDetail.socialDescription = @"the social condition in which all people are allowed to reach their full development";
+    Word *commongood = [[Word alloc]init];
+    commongood.name = @"common good";
+    commongood.definition = @"the social condition in which all people are allowed to reach their full development";
     
-    SocialDetail *commutativejusticeSocialDetail = [[SocialDetail alloc]init];
-    commutativejusticeSocialDetail.socialName = @"commutative justice";
-    commutativejusticeSocialDetail.socialDescription = @"one of the three types of justice which emphasizes obligations between individuals";
+    Word *commutativejustice = [[Word alloc]init];
+    commutativejustice.name = @"commutative justice";
+    commutativejustice.definition = @"one of the three types of justice which emphasizes obligations between individuals";
     
-    SocialDetail *contributivejusticeSocialDetail = [[SocialDetail alloc]init];
-    contributivejusticeSocialDetail.socialName = @"contributive justice";
-    contributivejusticeSocialDetail.socialDescription = @"one of the three types of justice which emphasizes the obligation of individuals toward society";
+    Word *contributivejustice = [[Word alloc]init];
+    contributivejustice.name = @"contributive justice";
+    contributivejustice.definition = @"one of the three types of justice which emphasizes the obligation of individuals toward society";
     
-    SocialDetail *developmentSocialDetail = [[SocialDetail alloc]init];
-    developmentSocialDetail.socialName = @"development";
-    developmentSocialDetail.socialDescription = @"the process of becoming fully human";
+    Word *development = [[Word alloc]init];
+    development.name = @"development";
+    development.definition = @"the process of becoming fully human";
     
-    SocialDetail *dignitySocialDetail = [[SocialDetail alloc]init];
-    dignitySocialDetail.socialName = @"dignity";
-    dignitySocialDetail.socialDescription = @"the sacred status of human beings because of the constant love of God";
+    Word *dignity = [[Word alloc]init];
+    dignity.name = @"dignity";
+    dignity.definition = @"the sacred status of human beings because of the constant love of God";
     
     _socialDetails = [[NSMutableArray alloc]init];
     /*
-    [_socialDetails addObject:actionSocialDetail];
-    [_socialDetails addObject:analysisSocialDetail];
-    [_socialDetails addObject:awarenessSocialDetail];
-    [_socialDetails addObject:catholicsocialteachingSocialDetail];
-    [_socialDetails addObject:commongoodSocialDetail];
-    [_socialDetails addObject:commutativejusticeSocialDetail];
-    [_socialDetails addObject:contributivejusticeSocialDetail]; 
-    [_socialDetails addObject:developmentSocialDetail];
-    [_socialDetails addObject:dignitySocialDetail]; 
+    [_Words addObject:actionWord];
+    [_Words addObject:analysisWord];
+    [_Words addObject:awarenessWord];
+    [_Words addObject:catholicsocialteachingWord];
+    [_Words addObject:commongoodWord];
+    [_Words addObject:commutativejusticeWord];
+    [_Words addObject:contributivejusticeWord]; 
+    [_Words addObject:developmentWord];
+    [_Words addObject:dignityWord]; 
     */
     
     for (NSString *letter in letters)
@@ -125,9 +126,9 @@
         NSMutableArray *array = [NSMutableArray array];
         if ([letter isEqualToString:@"A"])
             {
-            [array addObject: actionSocialDetail];
-            [array addObject: analysisSocialDetail];
-            [array addObject: awarenessSocialDetail];
+            [array addObject: action];
+            [array addObject: analysis];
+            [array addObject: awareness];
             }
         else if ([letter isEqualToString:@"B"])
             {
@@ -135,15 +136,15 @@
             }
         else if ([letter isEqualToString:@"C"])
             {
-            [array addObject: catholicsocialteachingSocialDetail];
-            [array addObject: commongoodSocialDetail];
-            [array addObject: commutativejusticeSocialDetail];
-            [array addObject: contributivejusticeSocialDetail];
+            [array addObject: catholicsocialteaching];
+            [array addObject: commongood];
+            [array addObject: commutativejustice];
+            [array addObject: contributivejustice];
             }
         else if ([letter isEqualToString:@"D"])
             {
-            [array addObject: developmentSocialDetail];
-            [array addObject: dignitySocialDetail];
+            [array addObject: development];
+            [array addObject: dignity];
             }
         
         [_socialDetails addObject:array];
@@ -174,7 +175,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    //return [_socialDetails count];
+    //return [_Words count];
     NSString *sectionTitle = [letters objectAtIndex:section];
     NSArray *sectionTerms = [terms objectForKey:sectionTitle];
     return [sectionTerms count];
@@ -184,14 +185,10 @@
 {
     static NSString *CellIdentifier = @"socialCell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
-    
     NSString *sectionTitle = [letters objectAtIndex:indexPath.section];
     NSArray *sectionTerms = [terms objectForKey:sectionTitle];
     NSString *term = [sectionTerms objectAtIndex:indexPath.row];
     cell.textLabel.text = term;
-    
-    // Configure the cell...
-    //cell.textLabel.text = [_socialTerms objectAtIndex:indexPath.row];
     return cell;
 }
 
@@ -261,15 +258,15 @@
 
 
 {
-    if ([[segue identifier] isEqualToString:@"showSocialDetail"])
+    if ([[segue identifier] isEqualToString:@"showWord"])
         {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         NSArray *sectionArray = [_socialDetails objectAtIndex:indexPath.section];
-        SocialDetail *detail = [sectionArray objectAtIndex:indexPath.row];
+        Word *detail = [sectionArray objectAtIndex:indexPath.row];
         
-        SocialDetailViewController *socialDetailViewController = [segue destinationViewController];
+        SocialDetailViewController *WordViewController = [segue destinationViewController];
         //systematicDetailViewController.currentSystematicDetail = [_systematicDetail objectAtIndex:indexPath.row];
-        socialDetailViewController.currentSocialDetail = detail;
+        WordViewController.currentWordDetail = detail;
         }
 }
 

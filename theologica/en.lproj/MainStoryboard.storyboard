@@ -528,7 +528,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="lMo-uy-zx8" kind="push" identifier="showSocialDetail" id="qKt-aq-JuQ"/>
+                                    <segue destination="lMo-uy-zx8" kind="push" identifier="showWord" id="qKt-aq-JuQ"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
