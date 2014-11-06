@@ -59,15 +59,10 @@
               @"W" : @[@"will"],
               @"X" : @[@"xcode"],
               @"Y" : @[@"YHWH", @"Yom Kippur"],
-              @"Z" : @[@"zion"],
+              @"Z" : @[@"Zion"],
               };
     
     letters = [[terms allKeys] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
-    
-
-    
-    
-    //_biblicalTerms = [[NSArray alloc] initWithObjects:@"Aaron", @"Alexander the Great", @"Amos", @"anthropomorphism", @"Antiochus IV", @"apocalypse", @"apocrypha", @"apodictic", @"Apollos", @"apostle", @"aqeda", @"Aramaic", @"Artaxerxes", @"Asher", @"Asherah", @"Assyria", @"Ba'al", @"Ban", @"Bathsheba", @"Bible", @"Beth'El", @"canon", @"Deuteronomic Source", @"Elohist Source",nil];
     
     //A
     /*
@@ -325,7 +320,6 @@
     Word *zion = [[Word alloc] init];
     zion.name = @"Zion";
     zion.definition = @"a synonym for the Temple mountain in Jerusalem or for the city of Jerusalem itself.";
-    
     
      _biblicalDetails = [[NSMutableArray alloc] init];
 

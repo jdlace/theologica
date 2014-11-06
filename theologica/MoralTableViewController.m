@@ -64,9 +64,8 @@
               };
     
     letters = [[terms allKeys] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
-
     
-    //_moralTerms = [[NSArray alloc] initWithObjects:@"abortion", @"abstinence", @"act", @"adultery", nil];
+    //A
     
     Word *abortion = [[Word alloc] init];
     abortion.name = @"abortion";
@@ -84,31 +83,174 @@
     adultery.name = @"adultery";
     adultery.definition = @"Marital infidelity or sexual relations between two people, one of which being married to another person";
     
+    //B
+    
+    //C
+    
+    //D
+    
+    //E
+    
+    //F
+    
+    //G
+    
+    //H
+    
+    //I
+    
+    //J
+    
+    //K
+    
+    //L
+    
+    //M
+    
+    //N
+    
+    //O
+    
+    //P
+    
+    //Q
+    
+    //R
+    
+    //S
+    
+    //T
+    
+    //U
+    
+    //V
+    
+    //W
+    
+    //X
+    
+    //Y
+    
+    //Z
+    
+    
+    
+    
     _moralDetails = [[NSMutableArray alloc] init];
-    
-    
-    //[_Words addObject: abortionWord];
-    //[_Words addObject: abstinenceWord];
-    //[_Words addObject: actWord];
-    //[_Words addObject: adulteryWord];
     
     for (NSString *letter in letters)
         {
         NSMutableArray *array = [NSMutableArray array];
         if ([letter isEqualToString:@"A"])
             {
-            [array addObject: abortion];
-            [array addObject: abstinence];
-            [array addObject: act];
-            [array addObject: adultery];
+                [array addObject: abortion];
+                [array addObject: abstinence];
+                [array addObject: act];
+                [array addObject: adultery];
             }
         else if ([letter isEqualToString:@"B"])
             {
-            //[array addObject: baptismSystematicDetail];
-            //[array addObject: blasphemySystematicDetail];
+            
             }
-        
+        else if ([letter isEqualToString:@"C"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"D"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"D"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"F"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"G"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"H"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"I"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"J"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"K"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"L"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"M"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"N"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"O"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"P"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"Q"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"R"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"S"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"T"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"U"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"V"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"W"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"X"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"Y"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"Z"])
+            {
+            
+            }
+
         [_moralDetails addObject:array];
+        
         }
     
 

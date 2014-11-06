@@ -9,7 +9,6 @@
 #import "SocialTableViewController.h"
 #import "SocialDetailViewController.h"
 #import "Word.h"
-#import "Word.h"
 
 @interface SocialTableViewController ()
 {
@@ -65,11 +64,7 @@
     
     letters = [[terms allKeys] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
     
-
-    
-    
-    
-   // _socialTerms = [[NSArray alloc] initWithObjects: @"action", @"analysis", @"awareness", @"Catholic Social Teaching", @"common good", @"commutative justice", @"contributive justice", @"development", @"dignity", nil];
+    //A
     
     Word *action = [[Word alloc]init];
     action.name = @"action";
@@ -83,6 +78,10 @@
     Word *awareness = [[Word alloc] init];
     awareness.name = @"awareness";
     awareness.definition = @"the first of 3 steps in achieving justice";
+    
+    //B
+    
+    //C
     
     Word *catholicsocialteaching = [[Word alloc]init];
     catholicsocialteaching.name = @"Catholic Social Teaching";
@@ -100,6 +99,8 @@
     contributivejustice.name = @"contributive justice";
     contributivejustice.definition = @"one of the three types of justice which emphasizes the obligation of individuals toward society";
     
+    //D
+    
     Word *development = [[Word alloc]init];
     development.name = @"development";
     development.definition = @"the process of becoming fully human";
@@ -107,48 +108,171 @@
     Word *dignity = [[Word alloc]init];
     dignity.name = @"dignity";
     dignity.definition = @"the sacred status of human beings because of the constant love of God";
+
+    //E
+    
+    //F
+    
+    //G
+    
+    //H
+    
+    //I
+    
+    //J
+    
+    //K
+    
+    //L
+    
+    //M
+    
+    //N
+    
+    //O
+    
+    //P
+    
+    //Q
+    
+    //R
+    
+    //S
+    
+    //T
+    
+    //U
+    
+    //V
+    
+    //W
+    
+    //X
+    
+    //Y
+    
+    //Z
+
+    
     
     _socialDetails = [[NSMutableArray alloc]init];
-    /*
-    [_Words addObject:actionWord];
-    [_Words addObject:analysisWord];
-    [_Words addObject:awarenessWord];
-    [_Words addObject:catholicsocialteachingWord];
-    [_Words addObject:commongoodWord];
-    [_Words addObject:commutativejusticeWord];
-    [_Words addObject:contributivejusticeWord]; 
-    [_Words addObject:developmentWord];
-    [_Words addObject:dignityWord]; 
-    */
     
     for (NSString *letter in letters)
     {
         NSMutableArray *array = [NSMutableArray array];
         if ([letter isEqualToString:@"A"])
             {
-            [array addObject: action];
-            [array addObject: analysis];
-            [array addObject: awareness];
+                [array addObject: action];
+                [array addObject: analysis];
+                [array addObject: awareness];
             }
         else if ([letter isEqualToString:@"B"])
             {
-            [array addObject: @""];
+                [array addObject: @""];
             }
         else if ([letter isEqualToString:@"C"])
             {
-            [array addObject: catholicsocialteaching];
-            [array addObject: commongood];
-            [array addObject: commutativejustice];
-            [array addObject: contributivejustice];
+                [array addObject: catholicsocialteaching];
+                [array addObject: commongood];
+                [array addObject: commutativejustice];
+                [array addObject: contributivejustice];
             }
         else if ([letter isEqualToString:@"D"])
             {
-            [array addObject: development];
-            [array addObject: dignity];
+                [array addObject: development];
+                [array addObject: dignity];
             }
-        
+        else if ([letter isEqualToString:@"E"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"F"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"G"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"H"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"I"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"J"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"K"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"L"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"M"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"N"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"O"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"P"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"Q"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"R"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"S"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"T"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"U"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"V"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"W"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"X"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"Y"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"Z"])
+            {
+            
+            }
+
         [_socialDetails addObject:array];
-    }
+        }
 
 
     // Uncomment the following line to preserve selection between presentations.

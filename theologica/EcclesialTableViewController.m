@@ -65,9 +65,8 @@
     
     letters = [[terms allKeys] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
     
-    //_ecclesialTerms = [[NSArray alloc] initWithObjects:@"absolution", @"acolyte", @"altar", @"antiphon", nil];
+    //A
     
-    //Data for the detail view controller
     Word *absolution = [[Word alloc] init];
     absolution.name = @"absolution";
     absolution.definition = @"the act by which a priest declares the forgiveness of sins"; 
@@ -104,6 +103,8 @@
     arianism.name = @"Arianism";
     arianism.definition = @"The teaching of Arius that the Son was of a different substance than the Father (begotten vs. unbegotten) and thus, not fully divine.";
     
+    //B
+    
     Word *baptism = [[Word alloc] init];
     baptism.name = @"baptism";
     baptism.definition = @"the intiation rite into the Church";
@@ -111,34 +112,177 @@
     Word *blasphemy = [[Word alloc] init];
     blasphemy.name = @"blasphemy";
     blasphemy.definition = @"religious slander";
+    
+    //C
+    
+    //D
+    
+    //E
+    
+    //F
+    
+    //G
+    
+    //H
+    
+    //I
+    
+    //J
+    
+    //K
+    
+    //L
+    
+    //M
+    
+    //N
+    
+    //O
+    
+    //P
+    
+    Word *protestant = [[Word alloc] init];
+    protestant.name = @"Protestant";
+    protestant.definition = @"term used to describe the theological objection to the authority of the Pope in the Church; the Protestant Reformation.";
+    
+    //Q
+    
+    //R
+    
+    //S
+    
+    //T
+    
+    //U
+    
+    //V
+    
+    //W
+    
+    //X
+    
+    //Y
+    
+    //Z
+
    
     _ecclesialDetails = [[NSMutableArray alloc] init];
-    /*
-    [_Words addObject: absolutionWord]; 
-    [_Words addObject: acolyteWord];
-    [_Words addObject: altarWord];
-    [_Words addObject: antiphonWord];
-    */
     
     for (NSString *letter in letters)
         {
         NSMutableArray *array = [NSMutableArray array];
         if ([letter isEqualToString:@"A"])
             {
-            [array addObject: absolution];
-            [array addObject: acolyte];
-            [array addObject: angusDei];
-            [array addObject: altar];
-            [array addObject: anamnesis];
-            [array addObject: anathema];
-            [array addObject: antiphon];
-            [array addObject: apostlesCreed];
-            [array addObject: arianism];
+                [array addObject: absolution];
+                [array addObject: acolyte];
+                [array addObject: angusDei];
+                [array addObject: altar];
+                [array addObject: anamnesis];
+                [array addObject: anathema];
+                [array addObject: antiphon];
+                [array addObject: apostlesCreed];
+                [array addObject: arianism];
             }
         else if ([letter isEqualToString:@"B"])
             {
-            [array addObject: baptism];
-            [array addObject: blasphemy];
+                [array addObject: baptism];
+                [array addObject: blasphemy];
+            }
+        else if ([letter isEqualToString:@"C"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"D"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"E"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"F"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"G"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"H"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"I"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"J"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"K"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"L"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"M"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"N"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"O"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"P"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"Q"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"R"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"S"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"T"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"U"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"V"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"W"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"X"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"Y"])
+            {
+            
+            }
+        else if ([letter isEqualToString:@"Z"])
+            {
+            
             }
         
         [_ecclesialDetails addObject:array];

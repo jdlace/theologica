@@ -176,19 +176,7 @@
     //Z
     
     _systematicDetails = [[NSMutableArray alloc] init];
-    /*
-    [_Words addObject: accidenceWord];
-    [_Words addObject: adoptionWord];
-    [_Words addObject: agapeWord];
-    [_Words addObject: agiornomentoWord];
-    [_Words addObject: agnosticWord];
-    [_Words addObject: allegoryWord];
-    [_Words addObject: analogyWord];
-    [_Words addObject: apologeticsWord]; 
-    [_Words addObject: apophaticWord];
-    [_Words addObject: baptismWord]; 
 
- */
     //@boxenjim's solution
     for (NSString *letter in letters)
     {
