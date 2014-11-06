@@ -33,17 +33,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    /* Original Code
-    letters = [NSArray arrayWithObjects:@"A", @"B", @"C", @"D", @"E", @"F", @"G", @"H", @"I", @"J", @"K", @"L", @"M", @"N", @"O", @"P", @"Q", @"R", @"S", @"T", @"U", @"V", @"W", @"X", @"Y", @"Z", nil];
-    terms = _systematicTerms;
-    */
-    
-    
+
     terms = @{
               @"A" : @[@"accidence", @"adoption", @"agape", @"aggiornomento", @"agnostic", @"allegory", @"analogy"
                        , @"apologetics", @"apophatic", @"atonement"],
               @"B" : @[@"baptism", @"blasphemy"],
-              @"C" : @[@"canon", @"creed"],
+              @"C" : @[@"canon", @"Christ", @"creed"],
               @"D" : @[@"deism"],
               @"E" : @[@"epistemology", @"eschatology", @"essence", @"ex nihilo"],
               @"F" : @[@"faith"],
@@ -125,13 +120,42 @@
     
     //C
     
+    Word *canon = [[Word alloc] init];
+    canon.name = @"canon";
+    canon.definition = @"Greek word for 'measuring stick'; used metaphorically to refer to a collection of texts regarded as authoritative for faith and practice within a community";
+    
+    Word *Christ = [[Word alloc] init];
+    Christ.name = @"Christ";
+    Christ.definition = @"from the Greek 'Christos' (annointed one) - title given to Jesus of Nazareth by early Christians.";
+    
+    Word *creed = [[Word alloc] init];
+    creed.name = @"creed";
+    creed.definition = @"from the Latin 'credo' (I believe) - a statement of belief; used to refer to the historical creeds of the Church, most notably the Apostle's and Nicene creed.";
+    
     //D
+    
+    Word *deism = [[Word alloc] init];
+    deism.name = @"deism";
+    deism.definition = @"the belief that God created the world but does not intervene in the natural course of the world.";
     
     //E
     
     Word *epistemology = [[Word alloc] init];
     epistemology.name = @"epistemology";
     epistemology.definition = @"the study of the origin, nature, and limits of human knowledge; one of the three traditional subjects of Western philosophy.";
+    
+    Word *eschatology = [[Word alloc] init];
+    eschatology.name = @"eschatology";
+    eschatology.definition = @"from the Greek 'eschaton' (last thing) - the belief that history will have an end brought about by Divine intervention.";
+    
+    Word *essence = [[Word alloc] init];
+    essence.name = @"essence";
+    essence.definition = @"in Aristotelean philosophy, the property that makes an object what it is.";
+    
+    Word *exNihilo = [[Word alloc] init];
+    exNihilo.name = @"ex nihilo";
+    exNihilo.definition = @"from the Latin 'out of nothing' - the belief that God created the world out of nothing.";
+    
     
     //F
     
@@ -175,7 +199,7 @@
     
     //Z
     
-    _systematicDetails = [[NSMutableArray alloc] init];
+       _systematicDetails = [[NSMutableArray alloc] init];
 
     //@boxenjim's solution
     for (NSString *letter in letters)
@@ -201,15 +225,20 @@
             }
         else if ([letter isEqualToString:@"C"])
             {
-        
+                [array addObject: canon];
+                [array addObject: Christ];
+                [array addObject: creed];
             }
         else if ([letter isEqualToString:@"D"])
             {
-            
+                [array addObject: deism];
             }
         else if ([letter isEqualToString:@"E"])
             {
                 [array addObject: epistemology];
+                [array addObject: eschatology];
+                [array addObject: essence];
+                [array addObject: exNihilo]; 
             }
         else if ([letter isEqualToString:@"F"])
             {
@@ -291,6 +320,7 @@
             {
             
             }
+    
              [_systematicDetails addObject:array];
     }
     

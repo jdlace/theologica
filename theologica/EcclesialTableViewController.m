@@ -36,7 +36,7 @@
     //data for the table view controller
     terms = @{
               @"A" : @[@"absolution", @"acolyte", @"Agnus Dei", @"altar", @"anamnesis", @"anathema", @"antiphon", @"Apostle's Creed", @"Arianism", @"asceticism", @"Ash Wednesday"],
-              @"B" : @[@"baptistry", @"blasphemy", @"basillica", @"Benedictus", @"bishop", @"Byzantine"],
+              @"B" : @[@"baptism", @"baptistry", @"basillica", @"Benedictus", @"blasphemy", @"bishop", @"Byzantine"],
               @"C" : @[@"Calvinism", @"canon", @"cantor", @"catechumen", @"cathedral", @"chalice", @"Chalcedon", @"chi rho", @"church", @"clergy", @"Confession", @"Confirmation", @"consubstantial", @"contrition", @"council"],
               @"D" : @[@"Daily Office", @"deacon", @"docetism", @"Donatism"],
               @"E" : @[@"Easter", @"ecclesia", @"ecclesiology", @"epiclesis", @"Epiphany", @"Eucharist"],
@@ -109,9 +109,24 @@
     baptism.name = @"baptism";
     baptism.definition = @"the intiation rite into the Church";
     
+    Word *baptistry = [[Word alloc] init];
+    baptistry.name = @"baptistry";
+    baptistry.definition = @"the place within a church used for baptism; usually referred to as a 'font'.";
+    
+    Word *basillica = [[Word alloc] init];
+    basillica.name = @"basillica";
+    basillica.definition = @"term used to refer to a church in which the diocescan bishop presides; the Church inherited this architecture from the Roman Imperial administrative system.";
+    
+    Word *benedictus = [[Word alloc] init];
+    benedictus.name = @"Benedictus";
+    benedictus.definition = @"the prayer of Simeon contained within the gospel of Luke 2:29-32.";
+
+    
     Word *blasphemy = [[Word alloc] init];
     blasphemy.name = @"blasphemy";
     blasphemy.definition = @"religious slander";
+    
+
     
     //C
     
@@ -164,8 +179,7 @@
     //Y
     
     //Z
-
-   
+    
     _ecclesialDetails = [[NSMutableArray alloc] init];
     
     for (NSString *letter in letters)
@@ -186,6 +200,9 @@
         else if ([letter isEqualToString:@"B"])
             {
                 [array addObject: baptism];
+                [array addObject: baptistry];
+                [array addObject: basillica];
+                [array addObject: benedictus];
                 [array addObject: blasphemy];
             }
         else if ([letter isEqualToString:@"C"])

@@ -24,7 +24,8 @@
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];
-    if (self) {
+    if (self)
+    {
         // Custom initialization
     }
     return self;
@@ -35,32 +36,32 @@
     [super viewDidLoad];
     
     terms = @{
-              @"A" : @[@"abortion", @"abstinence", @"act", @"adultery"],
-              @"B" : @[@"baptism", @"blasphemy"],
-              @"C" : @[@"canon", @"creed"],
-              @"D" : @[@"deism"],
-              @"E" : @[@"epistemology", @"essence", @"ex nihilo"],
+              @"A" : @[@"abortion", @"abstinence", @"action", @"adultery"],
+              @"B" : @[@""],
+              @"C" : @[@"casuistry", @"common good", @"conscience"],
+              @"D" : @[@"deontology", @"divine command theory"],
+              @"E" : @[@"epistemology", @"ethics"],
               @"F" : @[@"faith"],
               @"G" : @[@"gospel"],
-              @"H" : @[@"heresy"],
+              @"H" : @[@"human rights"],
               @"I" : @[@"immanence"],
-              @"J" : @[@"jesus"],
+              @"J" : @[@"justice", @"jus im bello", @"jus ad bellum", @"just war"],
               @"K" : @[@"kataphatic"],
               @"L" : @[@"liberation theology"],
-              @"M" : @[@"metaphysics"],
-              @"N" : @[@"natural theology"],
-              @"O" : @[@"orthodoxy", @"orthodpraxy"],
-              @"P" : @[@"philosophy", @"predestination"],
+              @"M" : @[@"morality"],
+              @"N" : @[@"natural law"],
+              @"O" : @[@"omission"],
+              @"P" : @[@"pacifism", @"preferential option"],
               @"Q" : @[@"quintessence"],
               @"R" : @[@"redemption"],
-              @"S" : @[@"salvation", @"systematic theology"],
-              @"T" : @[@"theodicy", @"theology", @"trinity"],
-              @"U" : @[@"universalism"],
-              @"V" : @[@"vicarious"],
+              @"S" : @[@"scholasticism", @"structural sin"],
+              @"T" : @[@"teleology"],
+              @"U" : @[@"utilitarianism"],
+              @"V" : @[@"vice", @"virtue"],
               @"W" : @[@"will"],
-              @"X" : @[@"xcode"],
+              @"X" : @[@""],
               @"Y" : @[@"YHWH"],
-              @"Z" : @[@"zion"],
+              @"Z" : @[@""],
               };
     
     letters = [[terms allKeys] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
@@ -87,9 +88,25 @@
     
     //C
     
+    Word *casuistry = [[Word alloc] init];
+    casuistry.name = @"casuistry";
+    casuistry.definition = @"the study of case law";
+    
     //D
     
+    Word *deontology = [[Word alloc] init];
+    deontology.name = @"deontology";
+    deontology.definition = @"from the Greek word for 'duty' (deon) - the study of ethics from the framework of moral duties.";
+    
     //E
+    
+    Word *epistemology = [[Word alloc] init];
+    epistemology.name = @"epistemology";
+    epistemology.definition = @"the study of the origin, nature, and limits of human knowledge; one of the three traditional subjects of Western philosophy.";
+    
+    Word *ethics = [[Word alloc] init];
+    ethics.name = @"ethics";
+    ethics.definition = @"the study of moral systems";
     
     //F
     
@@ -97,15 +114,31 @@
     
     //H
     
+    Word *humanRights = [[Word alloc] init];
+    humanRights.name = @"human rights";
+    humanRights.definition = @"rights due to a person by virtue of his or her being a human being; thirty human rights are enumerated in the United Nations Universal Declaration of Human Rights.";
+    
     //I
     
     //J
+    
+    Word *justice = [[Word alloc] init];
+    justice.name = @"justice";
+    justice.definition = @"the state of right relationships between individuals and groups in society.";
+    
+    Word *jusAdBellum = [[Word alloc] init];
+    jusAdBellum.name = @"jus ad bellum";
+    jusAdBellum.definition = @"Latin for 'justice to war' - a set of criteria used to determine if war is justified in a given situation; see 'Just War Theory'.";
     
     //K
     
     //L
     
     //M
+    
+    Word *morality = [[Word alloc] init];
+    morality.name = @"morality";
+    morality.definition = @"customary norms of behavior considered good or evil, right or wrong in a given system.";
     
     //N
     
@@ -133,13 +166,10 @@
     
     //Z
     
-    
-    
-    
     _moralDetails = [[NSMutableArray alloc] init];
     
     for (NSString *letter in letters)
-        {
+    {
         NSMutableArray *array = [NSMutableArray array];
         if ([letter isEqualToString:@"A"])
             {
@@ -154,15 +184,16 @@
             }
         else if ([letter isEqualToString:@"C"])
             {
-            
+                [array addObject: casuistry];
             }
         else if ([letter isEqualToString:@"D"])
             {
-            
+                [array addObject: deontology];
             }
-        else if ([letter isEqualToString:@"D"])
+        else if ([letter isEqualToString:@"E"])
             {
-            
+                [array addObject: epistemology];
+                [array addObject: ethics];
             }
         else if ([letter isEqualToString:@"F"])
             {
@@ -174,7 +205,7 @@
             }
         else if ([letter isEqualToString:@"H"])
             {
-            
+                [array addObject: humanRights];
             }
         else if ([letter isEqualToString:@"I"])
             {
@@ -182,7 +213,8 @@
             }
         else if ([letter isEqualToString:@"J"])
             {
-            
+                [array addObject: justice];
+                [array addObject: jusAdBellum]; 
             }
         else if ([letter isEqualToString:@"K"])
             {
@@ -194,7 +226,7 @@
             }
         else if ([letter isEqualToString:@"M"])
             {
-            
+                [array addObject: morality];
             }
         else if ([letter isEqualToString:@"N"])
             {
@@ -248,14 +280,11 @@
             {
             
             }
-
+        
         [_moralDetails addObject:array];
         
-        }
+    }
     
-
-
-
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  

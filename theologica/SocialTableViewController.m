@@ -152,8 +152,6 @@
     //Y
     
     //Z
-
-    
     
     _socialDetails = [[NSMutableArray alloc]init];
     
@@ -270,9 +268,8 @@
             {
             
             }
-
         [_socialDetails addObject:array];
-        }
+    }
 
 
     // Uncomment the following line to preserve selection between presentations.

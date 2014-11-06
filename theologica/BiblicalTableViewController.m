@@ -35,7 +35,7 @@
     
     terms = @{
               @"A" : @[@"Abba", @"Adonai", @"anthropomorphism", @"apocalypse", @"apocrypha", @"apodictic", @"apostle", @"aqeda", @"Aramaic", @"Asherah", @"Assyria"],
-              @"B" : @[@"Ba'al", @"Babel", @"Babylon", @"Ban", @"Bible", @"Beth-El"],
+              @"B" : @[@"Ba'al", @"Babel", @"Babylon", @"Ban", @"Bible", @"biblical criticism", @"Beth-El"],
               @"C" : @[@"canon", @"Charism", @"Christ", @"covenant"],
               @"D" : @[@"Decalogue", @"Deuteronomic History", @"Deuteronomic Source", @"Deuteronomy", @"Documentary Hypothesis"],
               @"E" : @[@"eisegesis", @"El", @"Elohim", @"Elohist Source",  @"exegesis"],
@@ -43,7 +43,7 @@
               @"G" : @[@"Gehenna", @"gospel"],
               @"H" : @[@"hermeneutics", @"Holy of Holies"],
               @"I" : @[@"inspiration"],
-              @"J" : @[@"justification"],
+              @"J" : @[@"Jerusalem", @"Jesus of Nazareth", @"jew", @"justification"],
               @"K" : @[@"kosher"],
               @"L" : @[@"liberation theology"],
               @"M" : @[@"Messiah"],
@@ -174,7 +174,7 @@
     biblicalCriticism.definition = @"the process of discovering what can be known about the context of any biblical book or passage in order to understand its original meaning.";
     
     Word *bethel = [[Word alloc] init];
-    bethel.name = @"Beth'El";
+    bethel.name = @"Beth-El";
     bethel.definition = @"Hebrew for 'House of El'; a sacred site within the patriarchal story cycles in Genesis";
     
     //C
@@ -273,6 +273,22 @@
     
     //J
     
+    Word *jerusalem = [[Word alloc] init];
+    jerusalem.name = @"Jerusalem";
+    jerusalem.definition = @"the capital of the united monarchy established under David; the captial of the southern kingdom of Judah after the death of Solomon; the location of Mount Zion and the Temple.";
+    
+    Word *jesus = [[Word alloc] init];
+    jesus.name = @"Jesus of Nazareth";
+    jesus.definition = @"first-century Jewish prophet who proclaimed the Kingdom of God, whom the early Christians believed to the Christ and Son of God that reconciled the world to God.";
+    
+    Word *jew = [[Word alloc] init];
+    jew.name = @"jew";
+    jew.definition = @"member of the tribe of Judah; used to refer to any Israelite after the return from the Exile in 515 BCE.";
+    
+    Word *justification = [[Word alloc] init];
+    justification.name = @"justification";
+    justification.definition = @"the state of being in a just or right relationship; synonymous with 'righteousness'; used by Paul to refer to the state of believers in Jesus.";
+    
     //K
     
     Word *kosher = [[Word alloc] init];
@@ -283,6 +299,9 @@
     
     //M
     
+    Word *messiah = [[Word alloc] init];
+    messiah.name = @"Messiah";
+    messiah.definition = @"from the Hebrew for 'annointed one'; equivalent title to 'Christ'; used by the early Christians to refer to the divinely designated status of Jesus of Nazareth.";
     //N
     
     //O
@@ -294,6 +313,10 @@
     //R
     
     //S
+    
+    Word *synagogue = [[Word alloc] init];
+    synagogue.name = @"synagogue";
+    synagogue.definition = @"from the Greek 'to go together' - local place of weekly assembly for Jews during the Exile in Babylon; carried over into post-Exilic Judaism.";
     
     //T
     
@@ -311,6 +334,10 @@
     
     //Y
     
+    Word *yhwh = [[Word alloc] init];
+    yhwh.name = @"YHWH";
+    yhwh.definition = @"four letter personal name of the God of the Israelites; also called the 'Tetragrammaton', it was likely pronounced 'Yah-way'; according to the E and P sources, this name was not known before it was revealed to Moses in Exodus chapter 3, the J source, however, uses it throughout Genesis, which one argument for the Documentary Hypothesis.";
+    
     Word *yomKippur = [[Word alloc] init];
     yomKippur.name = @"Yom Kippur";
     yomKippur.definition = @"the “day of Atonement”; a day set aside on the Jewish calendar dedicated to bringing about reconciliation with YHWH; explained in detail in Leviticus 16.";
@@ -321,7 +348,7 @@
     zion.name = @"Zion";
     zion.definition = @"a synonym for the Temple mountain in Jerusalem or for the city of Jerusalem itself.";
     
-     _biblicalDetails = [[NSMutableArray alloc] init];
+    _biblicalDetails = [[NSMutableArray alloc] init];
 
     for (NSString *letter in letters)
     {
@@ -393,7 +420,10 @@
             }
         else if ([letter isEqualToString:@"J"])
             {
-                [array addObject: inspiration];
+                [array addObject: jerusalem];
+                [array addObject: jesus];
+                [array addObject: jew];
+                [array addObject: justification];
             }
         else if ([letter isEqualToString:@"K"])
             {
@@ -405,7 +435,7 @@
             }
         else if ([letter isEqualToString:@"M"])
             {
-                [array addObject: inspiration];
+                [array addObject: messiah];
             }
         else if ([letter isEqualToString:@"N"])
             {
@@ -453,6 +483,7 @@
             }
         else if ([letter isEqualToString:@"Y"])
             {
+                [array addObject: yhwh];
                 [array addObject: yomKippur];
             }
         else if ([letter isEqualToString:@"Z"])
