@@ -36,7 +36,7 @@
     //data for the table view controller
     terms = @{
               @"A" : @[@"absolution", @"acolyte", @"Agnus Dei", @"altar", @"anamnesis", @"anathema", @"antiphon", @"Apostle's Creed", @"Arianism", @"asceticism", @"Ash Wednesday"],
-              @"B" : @[@"baptism", @"baptistry", @"basillica", @"Benedictus", @"blasphemy", @"bishop", @"Byzantine"],
+              @"B" : @[@"baptism", @"baptistry", @"basillica", @"Benedictus", @"bishop", @"blasphemy", @"Byzantine"],
               @"C" : @[@"Calvinism", @"canon", @"cantor", @"catechumen", @"cathedral", @"chalice", @"Chalcedon", @"chi rho", @"church", @"clergy", @"Confession", @"Confirmation", @"consubstantial", @"contrition", @"council"],
               @"D" : @[@"Daily Office", @"deacon", @"docetism", @"Donatism"],
               @"E" : @[@"Easter", @"ecclesia", @"ecclesiology", @"epiclesis", @"Epiphany", @"Eucharist"],
@@ -120,8 +120,11 @@
     Word *benedictus = [[Word alloc] init];
     benedictus.name = @"Benedictus";
     benedictus.definition = @"the prayer of Simeon contained within the gospel of Luke 2:29-32.";
-
     
+    Word *bishop = [[Word alloc] init];
+    bishop.name = @"bishop";
+    bishop.definition = @"from the Greek 'episcopos' (overseer) - the third order of clerics in the Catholic tradition; one who presides over a diocese.";
+
     Word *blasphemy = [[Word alloc] init];
     blasphemy.name = @"blasphemy";
     blasphemy.definition = @"religious slander";
@@ -203,6 +206,7 @@
                 [array addObject: baptistry];
                 [array addObject: basillica];
                 [array addObject: benedictus];
+                [array addObject: bishop]; 
                 [array addObject: blasphemy];
             }
         else if ([letter isEqualToString:@"C"])
@@ -303,7 +307,7 @@
             }
         
         [_ecclesialDetails addObject:array];
-        }
+    }
 
 
     

@@ -46,13 +46,13 @@
               @"J" : @[@"Jerusalem", @"Jesus of Nazareth", @"jew", @"justification"],
               @"K" : @[@"kosher"],
               @"L" : @[@"liberation theology"],
-              @"M" : @[@"Messiah"],
-              @"N" : @[@"natural theology"],
-              @"O" : @[@"orthodoxy", @"orthodpraxy"],
-              @"P" : @[@"philosophy", @"predestination"],
+              @"M" : @[@"Messiah", @"Mishnah"],
+              @"N" : @[@"New Testament"],
+              @"O" : @[@"Old Testament"],
+              @"P" : @[@"Pentateuch"],
               @"Q" : @[@"quintessence"],
               @"R" : @[@"redemption"],
-              @"S" : @[@"salvation", @"systematic theology"],
+              @"S" : @[@"Satan"],
               @"T" : @[@"tax collector"],
               @"U" : @[@"universalism"],
               @"V" : @[@"vicarious"],
@@ -302,11 +302,28 @@
     Word *messiah = [[Word alloc] init];
     messiah.name = @"Messiah";
     messiah.definition = @"from the Hebrew for 'annointed one'; equivalent title to 'Christ'; used by the early Christians to refer to the divinely designated status of Jesus of Nazareth.";
+    
+    Word *mishnah = [[Word alloc] init];
+    mishnah.name = @"Mishnah";
+    mishnah.definition = @"An oral commentary on the Torah...";
+    
     //N
+    
+    Word *newTestament = [[Word alloc] init];
+    newTestament.name = @"New Testament";
+    newTestament.definition = @"27 books dealing with the life of Jesus of Nazareth and his followers.";
     
     //O
     
+    Word *oldTestament = [[Word alloc] init];
+    oldTestament.name = @"Old Testament";
+    oldTestament.definition = @"46 books dealing with the people of Israel.";
+    
     //P
+    
+    Word *pentateuch = [[Word alloc] init];
+    pentateuch.name = @"Pentateuch";
+    pentateuch.definition = @"Greek for 'five scrolls' - another term for the first five books of the Old Testament, the Torah.";
     
     //Q
     
@@ -436,18 +453,19 @@
         else if ([letter isEqualToString:@"M"])
             {
                 [array addObject: messiah];
+                [array addObject: mishnah];
             }
         else if ([letter isEqualToString:@"N"])
             {
-                [array addObject: inspiration];
+                [array addObject: newTestament];
             }
         else if ([letter isEqualToString:@"O"])
             {
-                [array addObject: inspiration];
+                [array addObject: oldTestament];
             }
         else if ([letter isEqualToString:@"P"])
             {
-                [array addObject: inspiration];
+                [array addObject: pentateuch];
             }
         else if ([letter isEqualToString:@"Q"])
             {
