@@ -36,7 +36,7 @@
     terms = @{
               @"A" : @[@"Abba", @"Adonai", @"anthropomorphism", @"apocalypse", @"apocrypha", @"apodictic", @"apostle", @"aqeda", @"Aramaic", @"Asherah", @"Assyria"],
               @"B" : @[@"Ba'al", @"Babel", @"Babylon", @"Ban", @"Bible", @"biblical criticism", @"Beth-El"],
-              @"C" : @[@"canon", @"Charism", @"Christ", @"covenant"],
+              @"C" : @[@"canon", @"charism", @"Christ", @"covenant"],
               @"D" : @[@"Decalogue", @"Deuteronomic History", @"Deuteronomic Source", @"Deuteronomy", @"Documentary Hypothesis"],
               @"E" : @[@"eisegesis", @"El", @"Elohim", @"Elohist Source",  @"exegesis"],
               @"F" : @[@"fundamentalism"],
@@ -97,11 +97,11 @@
     
     Word *apocalypse = [[Word alloc] init];
     apocalypse.name = @"apocalypse";
-    apocalypse.definition = @"the Greek word for 'unveiling' something previously hidden, used by Paul to refer to his experience of the risen Jesus; also the name of the last book of the New Testament";
+    apocalypse.definition = @"1. The revelation of something previously hidden, used by Paul to refer to his experience of the risen Jesus. 2. The name of the last book of the New Testament - from the Greek word αποκαλυπσις (apokalypsis) - 'unveiling'.";
     
     Word *apocrypha = [[Word alloc] init];
     apocrypha.name = @"apocrypha";
-    apocrypha.definition = @"the Greek word for 'hidden'; it refers to the 7 books not found in the Protestant canon; Baruch, Judith, 1st and 2nd Maccabees, Sirach, Tobit, Wisdom";
+    apocrypha.definition = @"The 7 books not found in the Protestant canon; Baruch, Judith, 1st and 2nd Maccabees, Sirach, Tobit, Wisdom - from the Greek word for 'hidden'";
     
     Word *apodictic = [[Word alloc] init];
     apodictic.name = @"apodictic";
@@ -115,11 +115,11 @@
                        
     Word *apostle = [[Word alloc] init];
     apostle.name = @"apostle";
-    apostle.definition = @"from the Greek word for 'delegate'; used to refer to those whom Jesus commissioned to spread the good news of the Kingdom of God; also used by Paul to refer to anyone who had seen the risen Christ";
+    apostle.definition = @"The disciples which compirised Jesus' inner cirlce and whom he commissioned to spread the good news of the Kingdom of God; also used by Paul to refer to anyone who had seen the risen Christ - from the Greek word for 'delegate'";
     
     Word *aqeda = [[Word alloc] init];
     aqeda.name = @"aqeda";
-    aqeda.definition = @"Hebrew term for 'binding'; used to refer to story of the binding and near-sacrifice of Isaac by Abraham";
+    aqeda.definition = @"The story of the binding and near-sacrifice of Isaac by Abraham - from Hebrew term for 'binding'.";
     
     Word *aramaic = [[Word alloc] init];
     aramaic.name = @"Aramaic";
@@ -175,21 +175,21 @@
     
     Word *bethel = [[Word alloc] init];
     bethel.name = @"Beth-El";
-    bethel.definition = @"Hebrew for 'House of El'; a sacred site within the patriarchal story cycles in Genesis";
+    bethel.definition = @"A sacred site within the patriarchal story cycles in Genesis - from the Hebrew for 'House of El'.";
     
     //C
     
     Word *canon = [[Word alloc] init];
     canon.name = @"canon";
-    canon.definition = @"Greek word for 'measuring stick'; used metaphorically to refer to a collection of texts regarded as authoritative for faith and practice within a community";
+    canon.definition = @"A collection of texts regarded as authoritative for faith and practice within a community - from the Greek word for 'measuring stick' (κανον - kanon)";
     
     Word *charism = [[Word alloc] init];
     charism.name = @"charism";
-    charism.definition = @"Greek word for 'gift' - used to refer to the Holy Spirit and the various spiritual gifts that come with Christian experience.";
+    charism.definition = @"The spiritual gifts that come with Christian experience of the Holy Spirit - from the Greek word χαρισμα (charisma) - 'gift'.";
     
     Word *Christ = [[Word alloc] init];
     Christ.name = @"Christ";
-    Christ.definition = @"from the Greek 'Christos' (annointed one) - title given to Jesus of Nazareth by early Christians.";
+    Christ.definition = @"The title given to Jesus of Nazareth by early Christians - from the Greek word χριστος (christos) - 'annointed one'.";
     
     Word *covenant = [[Word alloc] init];
     covenant.name = @"covenant";
@@ -199,11 +199,11 @@
     
     Word *decalogue = [[Word alloc] init];
     decalogue.name = @"Decalogue";
-    decalogue.definition = @"from the Greek 'deca' (ten) and 'logos' (word) - the term given to the 10 Commandments in Exodus 20.";
+    decalogue.definition = @"The term given to the 10 Commandments in Exodus 20 - from the Greek words δεκα (deka) - 'ten' and λογος (logos) - 'word'";
     
     Word *deuteronomicHistory = [[Word alloc] init];
     deuteronomicHistory.name = @"Deuteronomic History";
-    deuteronomicHistory.definition = @"term given to the seven books beginning with the book of Deuteronomy and extending through 2 Kings in the Hebrew Bible which details the rise and fall of the Israelite monarchy, united and divided kingdom, and eventual downfall of the nation Israel.";
+    deuteronomicHistory.definition = @"The term given to the seven books, beginning with the book of Deuteronomy and extending through 2 Kings in the Hebrew Bible, which details the rise and fall of the Israelite monarchy, united and divided kingdom, and eventual downfall of the nation Israel.";
     
     Word *deuteronomicSource = [[Word alloc] init];
     deuteronomicSource.name = @"Deuteronomic Source";
@@ -215,7 +215,7 @@
     
     Word *documentaryHypothesis = [[Word alloc] init];
     documentaryHypothesis.name = @"Documentary Hypothesis";
-    documentaryHypothesis.definition = @"the theory, put into classical form by Julius Wellhausen, that there are 4 independent sources which comprise the Torah; 'Yahwist' (J), 'Elohist' (E), 'Priestly' (P), and 'Deuteronomic' (D).";
+    documentaryHypothesis.definition = @"The theory, put into classical form by Julius Wellhausen, that there are 4 independent sources which comprise the Torah; 'Yahwist' (J), 'Elohist' (E), 'Priestly' (P), and 'Deuteronomic' (D).";
     
     //E
     
@@ -228,7 +228,7 @@
     el.definition = @"In Canaanite mythology, father of all the gods and husband of Asherah.";
     
     Word *elohim = [[Word alloc] init];
-    elohim.name = @"elohim";
+    elohim.name = @"Elohim";
     elohim.definition = @"Hebrew for “gods”, “God” or “angels” depending on the context. The plural of “El”, it can refer to the gods of particular peoples, such as the “Elohim of Babylon”, but came to be used as a singular term referring to the God of Israel, with accompanying singular verbs and adjectives, seemingly accompanying the rise of monotheism among the Israelites. In later Biblical usage it can also refer to “heavenly beings” such as angels.";
     
     Word *elohistSource = [[Word alloc] init];
@@ -259,7 +259,7 @@
     
     Word *hermeneutics = [[Word alloc] init];
     hermeneutics.name = @"hermeneutics";
-    hermeneutics.definition = @"from the name of the Greek god 'Hermes', the messenger of the gods - the science of interpretation and process of determining meaning, usually of a text.";
+    hermeneutics.definition = @"The science of interpretation and process of determining meaning, usually of a text - from the name of the Greek god 'Hermes', the messenger of the gods.";
     
     Word *holyOfHolies = [[Word alloc] init];
     holyOfHolies.name = @"Holy of Holies";
@@ -269,31 +269,31 @@
     
     Word *inspiration = [[Word alloc] init];
     inspiration.name = @"inspiration";
-    inspiration.definition = @"from the Latin word for both “spirit” and “breath” - that which provides the “breath of life” or motivation behind a course of action. Divine Inspiration is therefore understood to mean that God has provided the “breath of life” or motivation for a course of action.";
+    inspiration.definition = @"That which provides the “breath of life” or motivation behind a course of action. Divine Inspiration is therefore understood to mean that God has provided the “breath of life” or motivation for a course of action - from the Latin word for both “spirit” and “breath”.";
     
     //J
     
     Word *jerusalem = [[Word alloc] init];
     jerusalem.name = @"Jerusalem";
-    jerusalem.definition = @"the capital of the united monarchy established under David; the captial of the southern kingdom of Judah after the death of Solomon; the location of Mount Zion and the Temple.";
+    jerusalem.definition = @"The capital of the united monarchy established under David; the captial of the southern kingdom of Judah after the death of Solomon; the location of Mount Zion and the Temple.";
     
     Word *jesus = [[Word alloc] init];
     jesus.name = @"Jesus of Nazareth";
-    jesus.definition = @"first-century Jewish prophet who proclaimed the Kingdom of God, whom the early Christians believed to the Christ and Son of God that reconciled the world to God.";
+    jesus.definition = @"First-century Jewish prophet who proclaimed the Kingdom of God, whom the early Christians believed to the Christ and Son of God that reconciled the world to God.";
     
     Word *jew = [[Word alloc] init];
     jew.name = @"jew";
-    jew.definition = @"member of the tribe of Judah; used to refer to any Israelite after the return from the Exile in 515 BCE.";
+    jew.definition = @"Member of the tribe of Judah; used to refer to any Israelite after the return from the Exile in 515 BCE.";
     
     Word *justification = [[Word alloc] init];
     justification.name = @"justification";
-    justification.definition = @"the state of being in a just or right relationship; synonymous with 'righteousness'; used by Paul to refer to the state of believers in Jesus.";
+    justification.definition = @"The state of being in a just or right relationship; synonymous with 'righteousness'; used by Paul to refer to the state of believers in Jesus.";
     
     //K
     
     Word *kosher = [[Word alloc] init];
     kosher.name = @"kosher";
-    kosher.definition = @"often translated as “clean”, this refers to foods that are “fitting” or “appropriate” to eat or be sacrificed to YHWH according to the Torah.";
+    kosher.definition = @"Often translated as “clean”, this refers to foods that are “fitting” or “appropriate” to eat or be sacrificed to YHWH according to the Torah.";
     
     //L
     
@@ -301,7 +301,7 @@
     
     Word *messiah = [[Word alloc] init];
     messiah.name = @"Messiah";
-    messiah.definition = @"from the Hebrew for 'annointed one'; equivalent title to 'Christ'; used by the early Christians to refer to the divinely designated status of Jesus of Nazareth.";
+    messiah.definition = @"Equivalent title to 'Christ'; used by the early Christians to refer to the divinely designated status of Jesus of Nazareth - from the Hebrew for 'annointed one'.";
     
     Word *mishnah = [[Word alloc] init];
     mishnah.name = @"Mishnah";
@@ -323,7 +323,7 @@
     
     Word *pentateuch = [[Word alloc] init];
     pentateuch.name = @"Pentateuch";
-    pentateuch.definition = @"Greek for 'five scrolls' - another term for the first five books of the Old Testament, the Torah.";
+    pentateuch.definition = @"Another term for the first five books of the Old Testament, the Torah - from the Greek for 'five scrolls'.";
     
     //Q
     
@@ -333,7 +333,7 @@
     
     Word *synagogue = [[Word alloc] init];
     synagogue.name = @"synagogue";
-    synagogue.definition = @"from the Greek 'to go together' - local place of weekly assembly for Jews during the Exile in Babylon; carried over into post-Exilic Judaism.";
+    synagogue.definition = @"The local place of weekly assembly for Jews during the Exile in Babylon; carried over into post-Exilic Judaism - from the Greek 'to go together'.";
     
     //T
     

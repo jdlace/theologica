@@ -59,6 +59,10 @@
 		69989B0919FF2FC70009ABAE /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69989B0819FF2FC70009ABAE /* TodayViewController.m */; };
 		69989B0B19FF2FC70009ABAE /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69989B0A19FF2FC70009ABAE /* MainInterface.storyboard */; };
 		69989B0E19FF2FC70009ABAE /* Theologica.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 69989B0219FF2FC60009ABAE /* Theologica.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		69B52B9F1A0EA40A00C23B47 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B52B9E1A0EA40A00C23B47 /* ShareViewController.m */; };
+		69B52BA11A0EA40A00C23B47 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69B52BA01A0EA40A00C23B47 /* MainInterface.storyboard */; };
+		69B52BA41A0EA40A00C23B47 /* TheologicaShare.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 69B52B991A0EA40A00C23B47 /* TheologicaShare.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		69B52BAB1A0EF6C100C23B47 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69B52BAA1A0EF6C100C23B47 /* Launch Screen.xib */; };
 		69FB18EB1A0051C500F1C9A4 /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = 69FB18EA1A0051C500F1C9A4 /* Word.m */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +74,13 @@
 			remoteGlobalIDString = 69989B0119FF2FC60009ABAE;
 			remoteInfo = Theologica;
 		};
+		69B52BA21A0EA40A00C23B47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 692ED23F1796D552008554F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69B52B981A0EA40A00C23B47;
+			remoteInfo = TheologicaShare;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -80,6 +91,7 @@
 			dstSubfolderSpec = 13;
 			files = (
 				69989B0E19FF2FC70009ABAE /* Theologica.appex in Embed App Extensions */,
+				69B52BA41A0EA40A00C23B47 /* TheologicaShare.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -156,6 +168,12 @@
 		69989B0719FF2FC70009ABAE /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
 		69989B0819FF2FC70009ABAE /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
 		69989B0A19FF2FC70009ABAE /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		69B52B991A0EA40A00C23B47 /* TheologicaShare.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TheologicaShare.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		69B52B9C1A0EA40A00C23B47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69B52B9D1A0EA40A00C23B47 /* ShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		69B52B9E1A0EA40A00C23B47 /* ShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		69B52BA01A0EA40A00C23B47 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		69B52BAA1A0EF6C100C23B47 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 		69FB18E91A0051C500F1C9A4 /* Word.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Word.h; sourceTree = "<group>"; };
 		69FB18EA1A0051C500F1C9A4 /* Word.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Word.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -179,14 +197,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		69B52B961A0EA40A00C23B47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		692ED23E1796D552008554F9 = {
 			isa = PBXGroup;
 			children = (
+				69B52BAA1A0EF6C100C23B47 /* Launch Screen.xib */,
 				692ED2501796D552008554F9 /* theologica */,
 				69989B0419FF2FC70009ABAE /* Theologica */,
+				69B52B9A1A0EA40A00C23B47 /* TheologicaShare */,
 				692ED2491796D552008554F9 /* Frameworks */,
 				692ED2481796D552008554F9 /* Products */,
 			);
@@ -197,6 +224,7 @@
 			children = (
 				692ED2471796D552008554F9 /* theologica.app */,
 				69989B0219FF2FC60009ABAE /* Theologica.appex */,
+				69B52B991A0EA40A00C23B47 /* TheologicaShare.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -307,6 +335,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		69B52B9A1A0EA40A00C23B47 /* TheologicaShare */ = {
+			isa = PBXGroup;
+			children = (
+				69B52B9D1A0EA40A00C23B47 /* ShareViewController.h */,
+				69B52B9E1A0EA40A00C23B47 /* ShareViewController.m */,
+				69B52BA01A0EA40A00C23B47 /* MainInterface.storyboard */,
+				69B52B9B1A0EA40A00C23B47 /* Supporting Files */,
+			);
+			path = TheologicaShare;
+			sourceTree = "<group>";
+		};
+		69B52B9B1A0EA40A00C23B47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69B52B9C1A0EA40A00C23B47 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -323,6 +370,7 @@
 			);
 			dependencies = (
 				69989B0D19FF2FC70009ABAE /* PBXTargetDependency */,
+				69B52BA31A0EA40A00C23B47 /* PBXTargetDependency */,
 			);
 			name = theologica;
 			productName = theologica;
@@ -346,6 +394,23 @@
 			productReference = 69989B0219FF2FC60009ABAE /* Theologica.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		69B52B981A0EA40A00C23B47 /* TheologicaShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69B52BA51A0EA40A00C23B47 /* Build configuration list for PBXNativeTarget "TheologicaShare" */;
+			buildPhases = (
+				69B52B951A0EA40A00C23B47 /* Sources */,
+				69B52B961A0EA40A00C23B47 /* Frameworks */,
+				69B52B971A0EA40A00C23B47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheologicaShare;
+			productName = TheologicaShare;
+			productReference = 69B52B991A0EA40A00C23B47 /* TheologicaShare.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -359,6 +424,10 @@
 						DevelopmentTeam = M9E78PZP5E;
 					};
 					69989B0119FF2FC60009ABAE = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = M9E78PZP5E;
+					};
+					69B52B981A0EA40A00C23B47 = {
 						CreatedOnToolsVersion = 6.1;
 						DevelopmentTeam = M9E78PZP5E;
 					};
@@ -378,6 +447,7 @@
 			targets = (
 				692ED2461796D552008554F9 /* theologica */,
 				69989B0119FF2FC60009ABAE /* Theologica */,
+				69B52B981A0EA40A00C23B47 /* TheologicaShare */,
 			);
 		};
 /* End PBXProject section */
@@ -396,6 +466,7 @@
 				692ED2691796D552008554F9 /* first.png in Resources */,
 				692ED26B1796D552008554F9 /* first@2x.png in Resources */,
 				692ED2701796D552008554F9 /* second.png in Resources */,
+				69B52BAB1A0EF6C100C23B47 /* Launch Screen.xib in Resources */,
 				692ED2721796D552008554F9 /* second@2x.png in Resources */,
 				692ED2841796E04B008554F9 /* bible@2x.png in Resources */,
 				692ED2851796E04B008554F9 /* business-network.png in Resources */,
@@ -431,6 +502,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		69B52B971A0EA40A00C23B47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B52BA11A0EA40A00C23B47 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -462,6 +541,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		69B52B951A0EA40A00C23B47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B52B9F1A0EA40A00C23B47 /* ShareViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -469,6 +556,11 @@
 			isa = PBXTargetDependency;
 			target = 69989B0119FF2FC60009ABAE /* Theologica */;
 			targetProxy = 69989B0C19FF2FC70009ABAE /* PBXContainerItemProxy */;
+		};
+		69B52BA31A0EA40A00C23B47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69B52B981A0EA40A00C23B47 /* TheologicaShare */;
+			targetProxy = 69B52BA21A0EA40A00C23B47 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -627,6 +719,57 @@
 			};
 			name = Release;
 		};
+		69B52BA61A0EA40A00C23B47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = TheologicaShare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		69B52BA71A0EA40A00C23B47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = TheologicaShare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -656,6 +799,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		69B52BA51A0EA40A00C23B47 /* Build configuration list for PBXNativeTarget "TheologicaShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69B52BA61A0EA40A00C23B47 /* Debug */,
+				69B52BA71A0EA40A00C23B47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

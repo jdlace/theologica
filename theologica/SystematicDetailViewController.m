@@ -31,12 +31,20 @@
     
     _systematicName.text = _currentWordDetail.name;
     _systematicDescription.text = _currentWordDetail.definition;
+    
+    self.textScroll.contentSize = CGSizeMake(280, 300);
+    self.textScroll.scrollEnabled = YES;
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)systemShare:(UIBarButtonItem *)sender
+{
+    
 }
 
 @end

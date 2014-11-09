@@ -9,13 +9,14 @@
 #import <UIKit/UIKit.h>
 #import "Word.h"
 
-@interface BiblicalDetailViewController : UIViewController
+@interface BiblicalDetailViewController : UIViewController <UIScrollViewDelegate>
 
 
 @property (strong, nonatomic) Word *currentWordDetail;
 
 @property (strong, nonatomic) IBOutlet UILabel *biblicalName;
 @property (strong, nonatomic) IBOutlet UILabel *biblicalDescription;
+@property (strong, nonatomic) IBOutlet UIScrollView *textScroll;
 
 
 @end
