@@ -16,5 +16,6 @@
 @property (strong, nonatomic) IBOutlet UILabel *moralName;
 @property (strong, nonatomic) IBOutlet UILabel *moralDescription;
 
+@property (strong, nonatomic) IBOutlet UIScrollView *textScroll;
 
 @end

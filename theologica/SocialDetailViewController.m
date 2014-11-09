@@ -32,6 +32,9 @@
     
     _socialName.text = _currentWordDetail.name;
     _socialDescription.text = _currentWordDetail.definition;
+    
+    self.textScroll.contentSize = CGSizeMake(280, 300);
+    self.textScroll.scrollEnabled = YES;
 }
 
 - (void)didReceiveMemoryWarning

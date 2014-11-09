@@ -15,4 +15,8 @@
 
 @property (strong, nonatomic) IBOutlet UILabel *ecclesialName;
 @property (strong, nonatomic) IBOutlet UILabel *ecclesialDescription;
+
+
+@property (strong, nonatomic) IBOutlet UIScrollView *textScroll;
+
 @end

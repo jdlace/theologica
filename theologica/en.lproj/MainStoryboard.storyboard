@@ -35,15 +35,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <searchBar key="tableHeaderView" contentMode="redraw" showsBookmarkButton="YES" id="7Xx-wf-wwN">
-                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            <textInputTraits key="textInputTraits"/>
-                            <connections>
-                                <outlet property="delegate" destination="oZ5-nE-rQe" id="Nqj-Oc-UwG"/>
-                            </connections>
-                        </searchBar>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="systematicCell" textLabel="OL9-fc-20F" style="IBUITableViewCellStyleDefault" id="kDs-46-kxp">
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
@@ -101,7 +92,6 @@
                 <searchDisplayController id="5aj-J1-hWz">
                     <connections>
                         <outlet property="delegate" destination="oZ5-nE-rQe" id="97I-9W-FTb"/>
-                        <outlet property="searchBar" destination="7Xx-wf-wwN" id="Kq9-VJ-BPH"/>
                         <outlet property="searchContentsController" destination="oZ5-nE-rQe" id="Xa9-8c-cxk"/>
                         <outlet property="searchResultsDataSource" destination="oZ5-nE-rQe" id="2tU-VF-Rtk"/>
                         <outlet property="searchResultsDelegate" destination="oZ5-nE-rQe" id="XP5-P3-G2D"/>
@@ -123,7 +113,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cyH-hb-U7k">
-                                        <rect key="frame" x="20" y="20" width="280" height="300"/>
+                                        <rect key="frame" x="20" y="-25" width="280" height="300"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -149,7 +139,7 @@
                         </accessibility>
                     </view>
                     <navigationItem key="navigationItem" id="c5B-0g-HjD">
-                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="action" id="Hre-tg-PsT">
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="Hre-tg-PsT">
                             <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <action selector="systemShare:" destination="sm5-Dc-hQE" id="SBU-5a-oVh"/>
@@ -176,15 +166,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                        <searchBar key="tableHeaderView" contentMode="redraw" showsBookmarkButton="YES" id="IkU-Nb-lMH">
-                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            <textInputTraits key="textInputTraits"/>
-                            <connections>
-                                <outlet property="delegate" destination="RG8-AO-Dk8" id="PQn-9C-Ba3"/>
-                            </connections>
-                        </searchBar>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ecclesialCell" textLabel="mVy-iY-zrQ" style="IBUITableViewCellStyleDefault" id="VBJ-Ey-oiE">
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
@@ -242,7 +223,6 @@
                 <searchDisplayController id="JUc-Ik-PVN">
                     <connections>
                         <outlet property="delegate" destination="RG8-AO-Dk8" id="VDS-LC-VOa"/>
-                        <outlet property="searchBar" destination="IkU-Nb-lMH" id="FWp-RR-tgN"/>
                         <outlet property="searchContentsController" destination="RG8-AO-Dk8" id="ls2-is-8c6"/>
                         <outlet property="searchResultsDataSource" destination="RG8-AO-Dk8" id="fY0-Nb-eLT"/>
                         <outlet property="searchResultsDelegate" destination="RG8-AO-Dk8" id="nrb-bZ-UDo"/>
@@ -259,6 +239,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="rSb-eI-yZt">
+                                <rect key="frame" x="0.0" y="184" width="320" height="340"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="38L-Tr-to0">
+                                        <rect key="frame" x="20" y="-25" width="280" height="300"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                                    </label>
+                                </subviews>
+                            </scrollView>
                             <imageView clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" alpha="0.074999999999999997" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ascension" id="Axs-1h-PRz">
                                 <rect key="frame" x="0.0" y="64" width="326" height="520"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -270,23 +262,18 @@
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="38L-Tr-to0">
-                                <rect key="frame" x="20" y="204" width="280" height="300"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                <nil key="highlightedColor"/>
-                                <size key="shadowOffset" width="0.0" height="0.0"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="qEB-bb-uzZ">
-                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="action" id="4jV-cp-eDW"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="4jV-cp-eDW"/>
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics" barStyle="black"/>
                     <connections>
                         <outlet property="ecclesialDescription" destination="38L-Tr-to0" id="ffk-2j-Qv1"/>
                         <outlet property="ecclesialName" destination="XX1-Q1-le9" id="yxi-TZ-gwP"/>
+                        <outlet property="textScroll" destination="rSb-eI-yZt" id="vKP-ga-VsU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eDN-0S-cTG" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -301,15 +288,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                        <searchBar key="tableHeaderView" contentMode="redraw" showsBookmarkButton="YES" id="7kF-ow-m1G">
-                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            <textInputTraits key="textInputTraits"/>
-                            <connections>
-                                <outlet property="delegate" destination="yoe-Rc-HFT" id="Sj1-5R-roO"/>
-                            </connections>
-                        </searchBar>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="moralCell" textLabel="sAB-TH-8gb" style="IBUITableViewCellStyleDefault" id="wbo-AU-EgM">
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
@@ -359,7 +337,6 @@
                 <searchDisplayController id="VfW-VY-cCV">
                     <connections>
                         <outlet property="delegate" destination="yoe-Rc-HFT" id="sNR-Nm-QF7"/>
-                        <outlet property="searchBar" destination="7kF-ow-m1G" id="mmd-3J-afS"/>
                         <outlet property="searchContentsController" destination="yoe-Rc-HFT" id="dJ1-Th-5KV"/>
                         <outlet property="searchResultsDataSource" destination="yoe-Rc-HFT" id="0Ap-AT-pL5"/>
                         <outlet property="searchResultsDelegate" destination="yoe-Rc-HFT" id="BRP-7d-r2d"/>
@@ -376,6 +353,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="1II-Jg-kSG">
+                                <rect key="frame" x="0.0" y="184" width="320" height="344"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ohg-54-OgM">
+                                        <rect key="frame" x="20" y="-25" width="280" height="304"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                                    </label>
+                                </subviews>
+                            </scrollView>
                             <imageView clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" alpha="0.074999999999999997" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ascension" id="G74-bI-lN1">
                                 <rect key="frame" x="0.0" y="64" width="326" height="520"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -383,13 +373,6 @@
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" adjustsFontSizeToFit="NO" id="EeC-FD-Jf8">
                                 <rect key="frame" x="20" y="130" width="280" height="75"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <size key="shadowOffset" width="0.0" height="0.0"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ohg-54-OgM">
-                                <rect key="frame" x="20" y="204" width="280" height="304"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
@@ -405,6 +388,7 @@
                     <connections>
                         <outlet property="moralDescription" destination="ohg-54-OgM" id="zOo-nd-S4x"/>
                         <outlet property="moralName" destination="EeC-FD-Jf8" id="uuW-Vp-x1H"/>
+                        <outlet property="textScroll" destination="1II-Jg-kSG" id="paP-8n-cLM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G2g-jZ-djX" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -419,15 +403,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                        <searchBar key="tableHeaderView" contentMode="redraw" showsBookmarkButton="YES" id="kGv-Oa-61t">
-                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            <textInputTraits key="textInputTraits"/>
-                            <connections>
-                                <outlet property="delegate" destination="A4p-fK-Loh" id="cJq-sc-ect"/>
-                            </connections>
-                        </searchBar>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="biblicalCell" textLabel="AfT-i2-N6W" style="IBUITableViewCellStyleDefault" id="Js1-0E-gKV">
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
@@ -485,7 +460,6 @@
                 <searchDisplayController id="UkW-Fq-e2B">
                     <connections>
                         <outlet property="delegate" destination="A4p-fK-Loh" id="T0i-Zt-0SF"/>
-                        <outlet property="searchBar" destination="kGv-Oa-61t" id="nTt-9P-a9u"/>
                         <outlet property="searchContentsController" destination="A4p-fK-Loh" id="MC6-w6-Qvo"/>
                         <outlet property="searchResultsDataSource" destination="A4p-fK-Loh" id="JOT-xB-jpE"/>
                         <outlet property="searchResultsDelegate" destination="A4p-fK-Loh" id="1pr-TS-2ck"/>
@@ -516,14 +490,14 @@
                                 </subviews>
                             </scrollView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" adjustsFontSizeToFit="NO" id="VpX-6h-Py0">
-                                <rect key="frame" x="20" y="130" width="280" height="70"/>
+                                <rect key="frame" x="20" y="130" width="280" height="75"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
                             <imageView clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" alpha="0.074999999999999997" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ascension" id="Fiu-00-mNY">
-                                <rect key="frame" x="-3" y="0.0" width="326" height="520"/>
+                                <rect key="frame" x="0.0" y="64" width="326" height="520"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -552,15 +526,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                        <searchBar key="tableHeaderView" contentMode="redraw" showsBookmarkButton="YES" id="YbI-4R-IyZ">
-                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            <textInputTraits key="textInputTraits"/>
-                            <connections>
-                                <outlet property="delegate" destination="W0x-bV-aZW" id="hcL-p2-q4P"/>
-                            </connections>
-                        </searchBar>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="socialCell" textLabel="Ygd-lF-LdA" style="IBUITableViewCellStyleDefault" id="02n-jM-JG6">
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
@@ -611,7 +576,6 @@
                 <searchDisplayController id="m8S-Bu-9NV">
                     <connections>
                         <outlet property="delegate" destination="W0x-bV-aZW" id="fM0-Uj-e7i"/>
-                        <outlet property="searchBar" destination="YbI-4R-IyZ" id="hoj-sZ-fET"/>
                         <outlet property="searchContentsController" destination="W0x-bV-aZW" id="aLC-jU-XwE"/>
                         <outlet property="searchResultsDataSource" destination="W0x-bV-aZW" id="mgh-Zd-06t"/>
                         <outlet property="searchResultsDelegate" destination="W0x-bV-aZW" id="lkP-sC-on1"/>
@@ -628,17 +592,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="tIK-GP-Dxr">
+                                <rect key="frame" x="0.0" y="184" width="320" height="340"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LIW-oT-tbv">
+                                        <rect key="frame" x="20" y="-25" width="280" height="300"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                                    </label>
+                                </subviews>
+                            </scrollView>
                             <imageView clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" alpha="0.074999999999999997" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ascension" id="Vkr-oy-GOk">
                                 <rect key="frame" x="0.0" y="64" width="326" height="520"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LIW-oT-tbv">
-                                <rect key="frame" x="20" y="204" width="280" height="300"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <size key="shadowOffset" width="0.0" height="0.0"/>
-                            </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" adjustsFontSizeToFit="NO" id="8bA-U6-Ycv">
                                 <rect key="frame" x="20" y="130" width="280" height="75"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
@@ -657,6 +627,7 @@
                     <connections>
                         <outlet property="socialDescription" destination="LIW-oT-tbv" id="Ia0-44-0iW"/>
                         <outlet property="socialName" destination="8bA-U6-Ycv" id="lz9-cc-nks"/>
+                        <outlet property="textScroll" destination="tIK-GP-Dxr" id="6Br-K4-f2E"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CFn-KM-XiP" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -737,7 +708,6 @@
                 <navigationController definesPresentationContext="YES" id="3ZE-jz-AIY" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Systematic" image="hierarchy.png" id="ADP-i6-dTj"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" barStyle="black" translucent="NO"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="GC3-Ld-74n">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

@@ -16,4 +16,5 @@
 @property (strong, nonatomic) IBOutlet UILabel *socialName;
 @property (strong, nonatomic) IBOutlet UILabel *socialDescription;
 
+@property (strong, nonatomic) IBOutlet UIScrollView *textScroll;
 @end
