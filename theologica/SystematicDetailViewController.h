@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Social.h"
 #import "Word.h"
 
 @interface SystematicDetailViewController : UIViewController <UIScrollViewDelegate >
@@ -16,6 +17,7 @@
 @property (strong, nonatomic) IBOutlet UILabel *systematicName;
 @property (strong, nonatomic) IBOutlet UITextView *systematicDescription;
 
+- (IBAction)share:(UIBarButtonItem *)sender;
 
 
 @end

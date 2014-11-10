@@ -98,7 +98,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="566" y="-621"/>
+            <point key="canvasLocation" x="598" y="-688"/>
         </scene>
         <!--Systematic Detail View Controller-->
         <scene sceneID="Esu-FU-O7a">
@@ -136,7 +136,7 @@
                         <barButtonItem key="rightBarButtonItem" systemItem="action" id="Hre-tg-PsT">
                             <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
-                                <action selector="systemShare:" destination="sm5-Dc-hQE" id="SBU-5a-oVh"/>
+                                <action selector="share:" destination="sm5-Dc-hQE" id="G8T-yJ-g0a"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

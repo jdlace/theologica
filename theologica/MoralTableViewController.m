@@ -96,7 +96,7 @@
     
     Word *deontology = [[Word alloc] init];
     deontology.name = @"deontology";
-    deontology.definition = @"from the Greek word for 'duty' (deon) - the study of ethics from the framework of moral duties.";
+    deontology.definition = @"from the Greek word for 'duty' (deon) - the study of ethics from the framework of moral duties in the form of rules and laws.";
     
     //E
     

@@ -355,6 +355,10 @@
     
     //Y
     
+    Word *yahwist = [[Word alloc] init];
+    yahwist.name = @"Yahwist Source";
+    yahwist.definition = @"The 'J' Source...";
+    
     Word *yhwh = [[Word alloc] init];
     yhwh.name = @"YHWH";
     yhwh.definition = @"four letter personal name of the God of the Israelites; also called the 'Tetragrammaton', it was likely pronounced 'Yah-way'; according to the E and P sources, this name was not known before it was revealed to Moses in Exodus chapter 3, the J source, however, uses it throughout Genesis, which one argument for the Documentary Hypothesis.";
@@ -506,6 +510,7 @@
             }
         else if ([letter isEqualToString:@"Y"])
             {
+                [array addObject: yahwist]; 
                 [array addObject: yhwh];
                 [array addObject: yomKippur];
             }

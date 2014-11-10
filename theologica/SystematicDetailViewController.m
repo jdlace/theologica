@@ -7,8 +7,11 @@
 //
 
 #import "SystematicDetailViewController.h"
+#import "SystematicTableViewController.h"   
 
-@interface SystematicDetailViewController ()
+
+
+@interface SystematicDetailViewController () <UIActionSheetDelegate>
 
 @end
 
@@ -42,9 +45,19 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)systemShare:(UIBarButtonItem *)sender
+
+
+- (IBAction)share:(UIBarButtonItem *)sender
 {
+    NSArray *activityItems;
+    activityItems = @[_currentWordDetail.name, _currentWordDetail.definition];
+
     
+    UIActivityViewController *activityController = [[UIActivityViewController alloc] initWithActivityItems: activityItems applicationActivities:nil];
+    [self presentViewController:activityController
+                       animated:YES completion:nil];
+    
+
 }
 
 @end

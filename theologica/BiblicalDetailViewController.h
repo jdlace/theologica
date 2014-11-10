@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Social.h"
 #import "Word.h"
 
 @interface BiblicalDetailViewController : UIViewController <UIScrollViewDelegate>
