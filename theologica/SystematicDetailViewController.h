@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "Social.h"
+#import "MobileCoreServices.h"
 #import "Word.h"
 
 @interface SystematicDetailViewController : UIViewController <UIScrollViewDelegate >

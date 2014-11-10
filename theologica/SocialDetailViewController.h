@@ -17,4 +17,6 @@
 @property (strong, nonatomic) IBOutlet UILabel *socialName;
 @property (strong, nonatomic) IBOutlet UITextView *socialDescription;
 
+- (IBAction)share:(UIBarButtonItem *)sender;
+
 @end

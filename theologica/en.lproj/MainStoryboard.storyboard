@@ -254,7 +254,11 @@
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="qEB-bb-uzZ">
-                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="4jV-cp-eDW"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="4jV-cp-eDW">
+                            <connections>
+                                <action selector="share:" destination="aRL-ei-9Tm" id="99c-CT-QUW"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics" barStyle="black"/>
@@ -362,7 +366,11 @@
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="w73-sL-0jg">
-                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="Yqm-47-K02"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="Yqm-47-K02">
+                            <connections>
+                                <action selector="share:" destination="hxR-tt-SDM" id="XvW-Eu-f8e"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics" barStyle="black" translucent="NO"/>
@@ -478,7 +486,11 @@
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="3zT-N0-8GD">
-                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="wDg-Xp-Xfw"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="wDg-Xp-Xfw">
+                            <connections>
+                                <action selector="share:" destination="zQM-E2-3OV" id="r8l-VQ-67d"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics" barStyle="black" translucent="NO"/>
@@ -587,7 +599,11 @@
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="L52-eE-qSL">
-                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="jrB-OS-vgn"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="jrB-OS-vgn">
+                            <connections>
+                                <action selector="share:" destination="lMo-uy-zx8" id="3Lh-gP-L0D"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics" barStyle="black" translucent="NO"/>

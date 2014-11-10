@@ -18,5 +18,6 @@
 @property (strong, nonatomic) IBOutlet UILabel *biblicalName;
 @property (strong, nonatomic) IBOutlet UITextView *biblicalDescription;
 
+- (IBAction)share:(UIBarButtonItem *)sender;
 
 @end

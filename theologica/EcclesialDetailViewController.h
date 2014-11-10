@@ -17,5 +17,6 @@
 @property (strong, nonatomic) IBOutlet UILabel *ecclesialName;
 @property (strong, nonatomic) IBOutlet UITextView *ecclesialDescription;
 
+- (IBAction)share:(UIBarButtonItem *)sender;
 
 @end

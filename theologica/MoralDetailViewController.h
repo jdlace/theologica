@@ -17,5 +17,6 @@
 @property (strong, nonatomic) IBOutlet UILabel *moralName;
 @property (strong, nonatomic) IBOutlet UITextView *moralDescription;
 
+- (IBAction)share:(UIBarButtonItem *)sender;
 
 @end

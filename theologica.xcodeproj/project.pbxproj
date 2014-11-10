@@ -65,6 +65,7 @@
 		69B52BAB1A0EF6C100C23B47 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69B52BAA1A0EF6C100C23B47 /* Launch Screen.xib */; };
 		69FB18EB1A0051C500F1C9A4 /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = 69FB18EA1A0051C500F1C9A4 /* Word.m */; };
 		FA3683CD1A1144F300E9740F /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3683CC1A1144F300E9740F /* Social.framework */; };
+		FA3683D31A1155AA00E9740F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3683D21A1155AA00E9740F /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -179,6 +180,8 @@
 		69FB18EA1A0051C500F1C9A4 /* Word.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Word.m; sourceTree = "<group>"; };
 		FA3683CC1A1144F300E9740F /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		FA3683D11A11501600E9740F /* Social.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Social.h; sourceTree = "<group>"; };
+		FA3683D21A1155AA00E9740F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		FA3683D41A1155CD00E9740F /* MobileCoreServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileCoreServices.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +189,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA3683D31A1155AA00E9740F /* MobileCoreServices.framework in Frameworks */,
 				FA3683CD1A1144F300E9740F /* Social.framework in Frameworks */,
 				692ED24B1796D552008554F9 /* UIKit.framework in Frameworks */,
 				692ED24D1796D552008554F9 /* Foundation.framework in Frameworks */,
@@ -236,6 +240,7 @@
 		692ED2491796D552008554F9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FA3683D21A1155AA00E9740F /* MobileCoreServices.framework */,
 				FA3683CC1A1144F300E9740F /* Social.framework */,
 				692ED24A1796D552008554F9 /* UIKit.framework */,
 				692ED24C1796D552008554F9 /* Foundation.framework */,
@@ -251,6 +256,7 @@
 				692ED2591796D552008554F9 /* AppDelegate.h */,
 				692ED25A1796D552008554F9 /* AppDelegate.m */,
 				FA3683D11A11501600E9740F /* Social.h */,
+				FA3683D41A1155CD00E9740F /* MobileCoreServices.h */,
 				692ED2621796D552008554F9 /* MainStoryboard.storyboard */,
 				692ED2B01796F466008554F9 /* SystematicTableViewController.h */,
 				692ED2B11796F466008554F9 /* SystematicTableViewController.m */,
