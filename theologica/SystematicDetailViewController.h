@@ -14,9 +14,8 @@
 @property (strong, nonatomic) Word *currentWordDetail;
 
 @property (strong, nonatomic) IBOutlet UILabel *systematicName;
-@property (strong, nonatomic) IBOutlet UILabel *systematicDescription;
+@property (strong, nonatomic) IBOutlet UITextView *systematicDescription;
 
-@property (strong, nonatomic) IBOutlet UIScrollView *textScroll;
 
 
 @end

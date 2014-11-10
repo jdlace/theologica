@@ -31,9 +31,9 @@
     
     _systematicName.text = _currentWordDetail.name;
     _systematicDescription.text = _currentWordDetail.definition;
+    _systematicDescription.textColor = [UIColor blackColor];
     
-    self.textScroll.contentSize = CGSizeMake(280, 300);
-    self.textScroll.scrollEnabled = YES;
+
 }
 
 - (void)didReceiveMemoryWarning

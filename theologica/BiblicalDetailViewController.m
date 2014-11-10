@@ -30,9 +30,8 @@
     
     _biblicalName.text = _currentWordDetail.name;
     _biblicalDescription.text = _currentWordDetail.definition;
-    
-    self.textScroll.contentSize = CGSizeMake(280, 300);
-    self.textScroll.scrollEnabled = YES;
+    _biblicalDescription.textColor = [UIColor blackColor]; 
+
 }
 
 - (void)didReceiveMemoryWarning

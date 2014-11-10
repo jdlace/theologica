@@ -15,8 +15,7 @@
 @property (strong, nonatomic) Word *currentWordDetail;
 
 @property (strong, nonatomic) IBOutlet UILabel *biblicalName;
-@property (strong, nonatomic) IBOutlet UILabel *biblicalDescription;
-@property (strong, nonatomic) IBOutlet UIScrollView *textScroll;
+@property (strong, nonatomic) IBOutlet UITextView *biblicalDescription;
 
 
 @end

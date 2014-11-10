@@ -30,9 +30,7 @@
     
     _moralName.text = _currentWordDetail.name;
     _moralDescription.text = _currentWordDetail.definition;
-    
-    self.textScroll.contentSize = CGSizeMake(280, 300);
-    self.textScroll.scrollEnabled = YES;
+    _moralDescription.textColor = [UIColor blackColor];
 }
 
 - (void)didReceiveMemoryWarning

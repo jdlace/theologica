@@ -49,7 +49,7 @@
               @"M" : @[@"Messiah", @"Mishnah"],
               @"N" : @[@"New Testament"],
               @"O" : @[@"Old Testament"],
-              @"P" : @[@"Pentateuch"],
+              @"P" : @[@"Pentateuch", @"Priestly Source"],
               @"Q" : @[@"quintessence"],
               @"R" : @[@"redemption"],
               @"S" : @[@"Satan"],
@@ -58,7 +58,7 @@
               @"V" : @[@"vicarious"],
               @"W" : @[@"will"],
               @"X" : @[@"xcode"],
-              @"Y" : @[@"YHWH", @"Yom Kippur"],
+              @"Y" : @[@"Yahwist Source", @"YHWH", @"Yom Kippur"],
               @"Z" : @[@"Zion"],
               };
     
@@ -80,15 +80,15 @@
     */
     Word *abba = [[Word alloc] init];
     abba.name = @"Abba";
-    abba.definition = @"Aramaic term for 'Daddy'; used by Jesus in prayer to God in the gospels.";
+    abba.definition = @"The Aramaic term for 'Daddy'; used by Jesus in prayer to God in the gospels.";
     
     Word *adonai = [[Word alloc] init];
     adonai.name = @"Adonai";
-    adonai.definition =@"Hebrew word for 'Ruler'; used as a synonym for YHWH";
+    adonai.definition =@"The Hebrew word for 'Ruler'; used as a synonym for YHWH";
     
     Word *anthropomorphism = [[Word alloc] init];
     anthropomorphism.name = @"anthropomorphism";
-    anthropomorphism.definition = @"the attribution of human characteristics to a non-human object";
+    anthropomorphism.definition = @"The attribution of human characteristics to a non-human object.";
     /*
     Word *antiochusWord = [[Word alloc]init];
     antiochusWord.name = @"Antiochus IV";
@@ -105,7 +105,7 @@
     
     Word *apodictic = [[Word alloc] init];
     apodictic.name = @"apodictic";
-    apodictic.definition = @"a type of law which is based on a moral norm or command";
+    apodictic.definition = @"A type of law which is based on a moral norm or command; see Exodus 20, 'Decalogue'.";
     
     /*
     Word *apollosWord = [[Word alloc]  init];
@@ -115,7 +115,7 @@
                        
     Word *apostle = [[Word alloc] init];
     apostle.name = @"apostle";
-    apostle.definition = @"The disciples which compirised Jesus' inner cirlce and whom he commissioned to spread the good news of the Kingdom of God; also used by Paul to refer to anyone who had seen the risen Christ - from the Greek word for 'delegate'";
+    apostle.definition = @"The disciples which compirised Jesus' inner cirlce and whom he commissioned to spread the good news of the Kingdom of God; also used by Paul to refer to anyone who had seen the risen Christ - from the Greek word αποστολος (apostolos) - 'delegate'";
     
     Word *aqeda = [[Word alloc] init];
     aqeda.name = @"aqeda";
@@ -123,7 +123,7 @@
     
     Word *aramaic = [[Word alloc] init];
     aramaic.name = @"Aramaic";
-    aramaic.definition = @"a variant of Hebrew, likely the native language of the historical Jesus";
+    aramaic.definition = @"A variant of Hebrew, likely the native language of the historical Jesus";
     /*
     Word *artraxercesWord = [[Word alloc] init];
     artraxercesWord.name = @"Artaxerxes";
@@ -248,7 +248,7 @@
     //G
     
     Word *gehenna = [[Word alloc] init];
-    gehenna.name = @"gehenna";
+    gehenna.name = @"Gehenna";
     gehenna.definition = @"A valley near Jerusalem (the Valley of Hinnom) where a non-Israelite shrine to a god named Moloch once stood where human sacrifice by burning took place. It seems to have become known as a place of the destruction of the wicked in Jewish folklore (a source which claims that it was a burning trash heap or garbage dump is disputed), and this was used by Jesus to refer to a place where those who opposed the will of God would go. Thus, it came to be synonymous with “hell”.";
     
     Word *gospel = [[Word alloc] init];
@@ -324,6 +324,10 @@
     Word *pentateuch = [[Word alloc] init];
     pentateuch.name = @"Pentateuch";
     pentateuch.definition = @"Another term for the first five books of the Old Testament, the Torah - from the Greek for 'five scrolls'.";
+    
+    Word *priestly = [[Word alloc] init];
+    priestly.name = @"Priestly Source";
+    priestly.definition = @"The 'P' Source; compirising various texts throughtout the Torah, but especially Leviticus. The Priestly material can be dated to around the time of Hezekiah; shows a major concern for order, numbers, and categories of holiness and cleanliness; the Priestly material is centered on the sacrificial cult in Jerusalem and regards all other sacrifices as improper or 'profane'; this source, along with E and D, does not accept the revelation of the name YHWH before the Mosaic epiphany in Exodus 3. The Hebrew of the Priestly author reflects a later stage in its development but earlier than that of the Deuteronomic author. Notably, the P source never uses the word 'compassionate' to describe God and forgiveness requires atonement (e.g. the Day of Atonement is a ritual exclusive to the Priestly author).";
     
     //Q
     
@@ -466,6 +470,7 @@
         else if ([letter isEqualToString:@"P"])
             {
                 [array addObject: pentateuch];
+                [array addObject: priestly];
             }
         else if ([letter isEqualToString:@"Q"])
             {

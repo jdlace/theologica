@@ -30,9 +30,7 @@
     
     _ecclesialName.text = _currentWordDetail.name;
     _ecclesialDescription.text = _currentWordDetail.definition;
-    
-    self.textScroll.contentSize = CGSizeMake(280, 300);
-    self.textScroll.scrollEnabled = YES;
+    _ecclesialDescription.textColor = [UIColor blackColor];
 }
 
 - (void)didReceiveMemoryWarning
