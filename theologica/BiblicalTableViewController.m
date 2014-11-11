@@ -49,8 +49,8 @@
               @"M" : @[@"manuscript", @"Messiah", @"Mishnah"],
               @"N" : @[@"Nevi'im", @"New Testament"],
               @"O" : @[@"Old Testament"],
-              @"P" : @[@"parable", @"papyrus", @"Passover", @"Pentateuch", @"pericope", @"Poetic Books", @"Priestly Source", @"prophet", @"Prophetic Books"],
-              @"Q" : @[@"quintessence"],
+              @"P" : @[@"papyrus", @"parable", @"Passover", @"Pentateuch", @"pericope", @"Poetic Books", @"Priestly Source", @"prophet", @"Prophetic Books"],
+              @"Q" : @[@"Q Source"],
               @"R" : @[@"redaction criticism"],
               @"S" : @[@"Satan", @"Septuagint", @"source criticism", @"synchronic", @"synoptic"],
               @"T" : @[@"Tanak", @"tax collector", @"textual criticism", @"theophany", @"Torah"],
@@ -388,6 +388,10 @@
     
     //N
     
+    Word *neviim = [[Word alloc] init];
+    neviim.name = @"Nevi'im";
+    neviim.definition = @"The Hebrew word for 'Prophets'; the term given the second of the three sections of the Tanak.";
+    
     Word *newTestament = [[Word alloc] init];
     newTestament.name = @"New Testament";
     newTestament.definition = @"27 books dealing with the life of Jesus of Nazareth and his followers.";
@@ -400,19 +404,67 @@
     
     //P
     
+    Word *parable = [[Word alloc] init];
+    parable.name = @"parable";
+    parable.definition = @"A fable-like story that makes a theological claim; used frequently by Jesus in the synoptic gospels.";
+    
+    Word *papyrus = [[Word alloc] init];
+    papyrus.name = @"papyrus";
+    papyrus.definition = @"A type of paper used for writing created from a plant...";
+    
+    Word *passover = [[Word alloc] init];
+    passover.name = @"Passover";
+    passover.definition = @"The feast that commemorates the exodus of the Israelites from slavery in Egypt...";
+    
     Word *pentateuch = [[Word alloc] init];
     pentateuch.name = @"Pentateuch";
     pentateuch.definition = @"Another term for the first five books of the Old Testament, the Torah - from the Greek for 'five scrolls'.";
+    
+    Word *pericope = [[Word alloc] init];
+    pericope.name = @"pericope";
+    pericope.definition = @"A given section of a larger text...";
+    
+    Word *poetic = [[Word alloc] init];
+    poetic.name = @"poetic";
+    poetic.definition = @"The third of four sections in the Old Testament; it consists mainly of various writings...";
+
     
     Word *priestly = [[Word alloc] init];
     priestly.name = @"Priestly Source";
     priestly.definition = @"The 'P' Source; compirising various texts throughtout the Torah, but especially Leviticus. The Priestly material can be dated to around the time of Hezekiah; shows a major concern for order, numbers, and categories of holiness and cleanliness; the Priestly material is centered on the sacrificial cult in Jerusalem and regards all other sacrifices as improper or 'profane'; this source, along with E and D, does not accept the revelation of the name YHWH before the Mosaic epiphany in Exodus 3. The Hebrew of the Priestly author reflects a later stage in its development but earlier than that of the Deuteronomic author. Notably, the P source never uses the word 'compassionate' to describe God and forgiveness requires atonement (e.g. the Day of Atonement is a ritual exclusive to the Priestly author).";
     
+    Word *prophet = [[Word alloc] init];
+    prophet.name = @"prophet";
+    prophet.definition = @"One who speaks in place of God; used in the Old Testament to refer to either a court prophet (such as Nathan) or an independent prophet (such as Amos).";
+    
+    Word *prophetic = [[Word alloc] init];
+    prophetic.name = @"Prophetic Books";
+    prophetic.definition = @"The fourth of four sections in the Old Testament...";
+    
     //Q
     
+    Word *q = [[Word alloc] init];
+    q.name = @"Q Source";
+    q.definition = @"The hypothetical written source that lies behind the similar passages, exclusive to Matthew and Luke, which contain various teachings of Jesus; from the German word 'quelle' - 'source'.";
     //R
     
+    Word *redaction = [[Word alloc] init];
+    redaction.name = @"redaction criticism";
+    redaction.definition = @"The type of exegetical criticism that seeks to decipher and analyze the various stages of redaction of a text.";
+    
     //S
+    
+    Word *Satan = [[Word alloc] init];
+    Satan.name = @"Satan";
+    Satan.definition = @"The adversarial being found in post-Exilic Hebrew literature that serves to represent evil events...";
+    
+    Word *septuagint = [[Word alloc] init];
+    septuagint.name = @"Septuagint";
+    septuagint.definition = @"The Greek translation of the Old Testament...";
+    
+    Word *source = [[Word alloc] init];
+    source.name = @"source criticism";
+    source.definition = @"The exegetical criticism that seeks to decipher and analyze the underlying source of a text.";
     
     Word *synagogue = [[Word alloc] init];
     synagogue.name = @"synagogue";
@@ -561,6 +613,7 @@
             }
         else if ([letter isEqualToString:@"N"])
             {
+                [array addObject: neviim];
                 [array addObject: newTestament];
             }
         else if ([letter isEqualToString:@"O"])
@@ -569,20 +622,28 @@
             }
         else if ([letter isEqualToString:@"P"])
             {
+                [array addObject: papyrus];
+                [array addObject: parable];
+                [array addObject: passover];
                 [array addObject: pentateuch];
+                [array addObject: pericope];
+                [array addObject: poetic];
                 [array addObject: priestly];
             }
         else if ([letter isEqualToString:@"Q"])
             {
-                [ array addObject: inspiration];
+                [ array addObject: q];
             }
         else if ([letter isEqualToString:@"R"])
             {
-                [array addObject: inspiration];
+                [array addObject: redaction];
             }
         else if ([letter isEqualToString:@"S"])
             {
-                [array addObject: inspiration];
+                [array addObject: Satan];
+                [array addObject: septuagint];
+                [array addObject: source];
+                [array addObject: synagogue];
             }
         else if ([letter isEqualToString:@"T"])
             {
