@@ -45,7 +45,7 @@
               @"G" : @[@"gospel"],
               @"H" : @[@"human rights"],
               @"I" : @[@"immanence"],
-              @"J" : @[@"justice", @"jus im bello", @"jus ad bellum", @"just war"],
+              @"J" : @[@"justice", @"jus ad bellum", @"jus im bello", @"just war"],
               @"K" : @[@"kataphatic"],
               @"L" : @[@"liberation theology"],
               @"M" : @[@"morality"],

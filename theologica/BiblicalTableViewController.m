@@ -36,27 +36,27 @@
     terms = @{
               @"A" : @[@"Abba", @"Adonai", @"anthropomorphism", @"apocalypse", @"apocrypha", @"apodictic", @"apostle", @"aqeda", @"Aramaic", @"Asherah", @"Assyria"],
               @"B" : @[@"Ba'al", @"Babel", @"Babylon", @"Ban", @"Bible", @"biblical criticism", @"Beth-El"],
-              @"C" : @[@"canon", @"charism", @"Christ", @"covenant"],
-              @"D" : @[@"Decalogue", @"Deuteronomic History", @"Deuteronomic Source", @"Deuteronomy", @"Documentary Hypothesis"],
-              @"E" : @[@"eisegesis", @"El", @"Elohim", @"Elohist Source",  @"exegesis"],
-              @"F" : @[@"fundamentalism"],
-              @"G" : @[@"Gehenna", @"gospel"],
-              @"H" : @[@"hermeneutics", @"Holy of Holies"],
-              @"I" : @[@"inspiration"],
+              @"C" : @[@"call narrative", @"canon", @"charism", @"Christ", @"codex", @"covenant"],
+              @"D" : @[@"Decalogue", @"Deuteronomic History", @"Deuteronomic Source", @"diachronic", @"Documentary Hypothesis", @"dynamic equivalence"],
+              @"E" : @[@"eisegesis", @"El", @"Elohim", @"Elohist Source", @"epistle", @"evangelist", @"exegesis",],
+              @"F" : @[@"folio", @"formal equivalence", @"form criticism", @"fundamentalism",],
+              @"G" : @[@"Gehenna", @"genre", @"gospel"],
+              @"H" : @[@"hermeneutics", @"Historical Books", @"historical-critical method", @"historical criticism", @"Holy of Holies"],
+              @"I" : @[@"inspiration", @"interpretation"],
               @"J" : @[@"Jerusalem", @"Jesus of Nazareth", @"jew", @"justification"],
-              @"K" : @[@"kosher"],
-              @"L" : @[@"liberation theology"],
-              @"M" : @[@"Messiah", @"Mishnah"],
-              @"N" : @[@"New Testament"],
+              @"K" : @[@"Kethuv'im", @"kosher"],
+              @"L" : @[@"Law", @"literary criticism", @"LXX"],
+              @"M" : @[@"manuscript", @"Messiah", @"Mishnah"],
+              @"N" : @[@"Nevi'im", @"New Testament"],
               @"O" : @[@"Old Testament"],
-              @"P" : @[@"Pentateuch", @"Priestly Source"],
+              @"P" : @[@"parable", @"papyrus", @"Passover", @"Pentateuch", @"pericope", @"Poetic Books", @"Priestly Source", @"prophet", @"Prophetic Books"],
               @"Q" : @[@"quintessence"],
-              @"R" : @[@"redemption"],
-              @"S" : @[@"Satan"],
-              @"T" : @[@"tax collector"],
+              @"R" : @[@"redaction criticism"],
+              @"S" : @[@"Satan", @"Septuagint", @"source criticism", @"synchronic", @"synoptic"],
+              @"T" : @[@"Tanak", @"tax collector", @"textual criticism", @"theophany", @"Torah"],
               @"U" : @[@"universalism"],
               @"V" : @[@"vicarious"],
-              @"W" : @[@"will"],
+              @"W" : @[@"wisdom literature"],
               @"X" : @[@"xcode"],
               @"Y" : @[@"Yahwist Source", @"YHWH", @"Yom Kippur"],
               @"Z" : @[@"Zion"],
@@ -179,6 +179,10 @@
     
     //C
     
+    Word *callNarrative = [[Word alloc] init];
+    callNarrative.name = @"call narrative";
+    callNarrative.definition = @"A literary form used throughout the Bible in which a person is called by God for a specific task; consisting of three parts: call, concern, commission. The stories of Moses, Jeremiah, and Isaiah all involve a call narrative.";
+    
     Word *canon = [[Word alloc] init];
     canon.name = @"canon";
     canon.definition = @"A collection of texts regarded as authoritative for faith and practice within a community - from the Greek word for 'measuring stick' (κανον - kanon)";
@@ -190,6 +194,10 @@
     Word *Christ = [[Word alloc] init];
     Christ.name = @"Christ";
     Christ.definition = @"The title given to Jesus of Nazareth by early Christians - from the Greek word χριστος (christos) - 'annointed one'.";
+    
+    Word *codex = [[Word alloc] init];
+    codex.name = @"codex";
+    codex.definition = @"A collection of manuscripts.";
     
     Word *covenant = [[Word alloc] init];
     covenant.name = @"covenant";
@@ -213,9 +221,18 @@
     deuteronomy.name = @"Deuteronomy";
     deuteronomy.definition = @"from the Greek words 'deuteros' (second) and 'nomos' (law) - the fifth and last book of the Torah containing a second version of the Ten Commandments and various laws relating to community life in ancient Israel.";
     
+    Word *diachronic = [[Word alloc] init];
+    diachronic.name = @"diachronic";
+    diachronic.definition = @"The type of truth within a text which transcends time and culture - from the Greek...";
+    
+    
     Word *documentaryHypothesis = [[Word alloc] init];
     documentaryHypothesis.name = @"Documentary Hypothesis";
     documentaryHypothesis.definition = @"The theory, put into classical form by Julius Wellhausen, that there are 4 independent sources which comprise the Torah; 'Yahwist' (J), 'Elohist' (E), 'Priestly' (P), and 'Deuteronomic' (D).";
+    
+    Word *dynamic = [[Word alloc] init];
+    dynamic.name = @"dynamic equivalence";
+    dynamic.definition = @"A translation philosophy that seeks to render the text idea for idea.";
     
     //E
     
@@ -235,11 +252,33 @@
     elohistSource.name = @"Elohist Source";
     elohistSource.definition = @"The 'E' source; comprising various texts throughout Genesis, Exodus, and Numbers; uses 'Elohim' as primary reference for God; reflects a preference for the northern kingdom of Israel; written ca. 900 BCE; favors Moses over Aaron and southern kingdom as well as northern tribes of Ephraim and Joseph; related to the same school of priests responsible for the Deuteronomic Source.";
     
+    Word *epistle = [[Word alloc] init];
+    epistle.name = @"epistle";
+    epistle.definition = @"A letter sent by an apostle.";
+    
+    Word *evangelist = [[Word alloc] init];
+    evangelist.name = @"evangelist";
+    evangelist.definition = @"One who spreads good news; 2. One of the authors of the four gospels.";
+    
     Word *exegesis = [[Word alloc] init];
     exegesis.name = @"exegesis";
     exegesis.definition = @"from the Greek 'ex'(out) and 'ago'(to go) - the process of determining the meaning of a text in its original context.";
     
     //F
+    
+    
+    Word *folio = [[Word alloc] init];
+    folio.name = @"folio";
+    folio.definition = @"A page within a manuscript.";
+    
+    Word *formalEquivalence = [[Word alloc] init];
+    formalEquivalence.name = @"formal eqivalence";
+    formalEquivalence.definition = @"A translation philosophy that seeks to render the text word for word.";
+    
+    Word *formCriticism = [[Word alloc] init];
+    formCriticism.name = @"form criticism";
+    formCriticism.definition = @"A type of criticism which deciphers and analyzes a text's genre or literary form; mentioned in Dei Verbum, 11.";
+    
     
     Word *fundamentalism = [[Word alloc] init];
     fundamentalism.name = @"fundamentalism";
@@ -251,6 +290,10 @@
     gehenna.name = @"Gehenna";
     gehenna.definition = @"A valley near Jerusalem (the Valley of Hinnom) where a non-Israelite shrine to a god named Moloch once stood where human sacrifice by burning took place. It seems to have become known as a place of the destruction of the wicked in Jewish folklore (a source which claims that it was a burning trash heap or garbage dump is disputed), and this was used by Jesus to refer to a place where those who opposed the will of God would go. Thus, it came to be synonymous with “hell”.";
     
+    Word *genre = [[Word alloc] init];
+    genre.name = @"genre";
+    genre.definition = @"A French word referring to the literary form of a text.";
+    
     Word *gospel = [[Word alloc] init];
     gospel.name = @"gospel";
     gospel.definition = @"from the Greek 'evangelion' (good news) - term used to describe: 1. the message of the historical Jesus concerning the Kingdom of God, 2. the message about Jesus concerning the salvation of the world, and 3. one of the four canonical accounts of the life and ministry of the historical Jesus (Matthew, Mark, Luke, and John)";
@@ -261,6 +304,18 @@
     hermeneutics.name = @"hermeneutics";
     hermeneutics.definition = @"The science of interpretation and process of determining meaning, usually of a text - from the name of the Greek god 'Hermes', the messenger of the gods.";
     
+    Word *historicalBooks = [[Word alloc] init];
+    historicalBooks.name = @"Historical Books";
+    historicalBooks.definition = @"The second of four divisions within the Old Testament.";
+    
+    Word *hcm = [[Word alloc] init];
+    hcm.name = @"historical-critical method";
+    hcm.definition = @"The hermeneutical method which seeks to uncover the intention of the author through exegetical analysis of history, language, literature, sources, and culture.";
+    
+    Word *historicalCriticism = [[Word alloc] init];
+    historicalCriticism.name = @"historical criticism";
+    historicalCriticism.definition = @"The type of exegetical criticism which deciphers and analyzes the historical context of a text.";
+    
     Word *holyOfHolies = [[Word alloc] init];
     holyOfHolies.name = @"Holy of Holies";
     holyOfHolies.definition = @"central area of the Temple in Jerusalem where the Ark of the Covenant was believed to reside from the monarchy of Solomon until the Exile in 587 BCE.";
@@ -270,6 +325,10 @@
     Word *inspiration = [[Word alloc] init];
     inspiration.name = @"inspiration";
     inspiration.definition = @"That which provides the “breath of life” or motivation behind a course of action. Divine Inspiration is therefore understood to mean that God has provided the “breath of life” or motivation for a course of action - from the Latin word for both “spirit” and “breath”.";
+    
+    Word *interpretation = [[Word alloc] init];
+    interpretation.name = @"interpretation";
+    interpretation.definition = @"The explanation of the meaning, significance, and relevance of a text.";
     
     //J
     
@@ -291,13 +350,33 @@
     
     //K
     
+    Word *ketuvim = [[Word alloc] init];
+    ketuvim.name = @"Ketuv'im";
+    ketuvim.definition = @"The Hebrew word for 'writings'; the third of three sections in the Tanak; see 'Tanak'";
+    
     Word *kosher = [[Word alloc] init];
     kosher.name = @"kosher";
     kosher.definition = @"Often translated as “clean”, this refers to foods that are “fitting” or “appropriate” to eat or be sacrificed to YHWH according to the Torah.";
     
     //L
     
+    Word *law = [[Word alloc] init];
+    law.name = @"Law";
+    law.definition = @"1. The first five books of the Torah containing a collection of various commandments and legal codes for the Israelites.";
+    
+    Word *literary = [[Word alloc] init];
+    literary.name = @"literary criticism";
+    literary.definition = @"The type of exegetical criticism that deciphers and analyzes the literary characteristics of a text, including setting, plot, characterization, denouement, theme, and climax.";
+    
+    Word *lxx = [[Word alloc] init];
+    lxx.name = @"LXX";
+    lxx.definition = @"The numerical symbol for the Septuagint; named for the supposed 70 translators of the Tanak into Greek at the request of Alexander the Great.";
+    
     //M
+    
+    Word *manuscript = [[Word alloc] init];
+    manuscript.name = @"manuscript";
+    manuscript.definition = @"A hand-written copy of a text.";
     
     Word *messiah = [[Word alloc] init];
     messiah.name = @"Messiah";
@@ -404,18 +483,21 @@
             }
         else if ([letter isEqualToString:@"C"])
             {
+                [array addObject: callNarrative];
                 [array addObject: canon];
                 [array addObject: charism];
                 [array addObject: Christ];
-                [array addObject: covenant]; 
+                [array addObject: codex];
+                [array addObject: covenant];
             }
         else if ([letter isEqualToString: @"D"])
             {
                 [array addObject: decalogue];
                 [array addObject: deuteronomicHistory];
                 [array addObject: deuteronomicSource];
-                [array addObject: deuteronomy];
+                [array addObject: diachronic];
                 [array addObject: documentaryHypothesis];
+                [array addObject: dynamic];
             }
         else if ([letter isEqualToString:@"E"])
             {
@@ -423,25 +505,35 @@
                 [array addObject: el]; 
                 [array addObject: elohim];
                 [array addObject: elohistSource];
+                [array addObject: epistle];
+                [array addObject: evangelist];
                 [array addObject: exegesis];
             }
         else if ([letter isEqualToString:@"F"])
             {
+                [array addObject: folio];
+                [array addObject: formalEquivalence];
+                [array addObject: formCriticism];
                 [array addObject: fundamentalism];
             }
         else if ([letter isEqualToString:@"G"])
             {
                 [array addObject: gehenna];
+                [array addObject: genre];
                 [array addObject: gospel];
             }
         else if ([letter isEqualToString:@"H"])
             {
                 [array addObject: hermeneutics];
-                [array addObject: holyOfHolies]; 
+                [array addObject: historicalBooks];
+                [array addObject: hcm];
+                [array addObject: historicalCriticism];
+                [array addObject: holyOfHolies];
             }
         else if ([letter isEqualToString:@"I"])
             {
                 [array addObject: inspiration];
+                [array addObject: interpretation];
             }
         else if ([letter isEqualToString:@"J"])
             {
@@ -452,14 +544,18 @@
             }
         else if ([letter isEqualToString:@"K"])
             {
+                [array addObject: ketuvim];
                 [array addObject: kosher];
             }
         else if ([letter isEqualToString:@"L"])
             {
-                [array addObject: inspiration];
+                [array addObject: law];
+                [array addObject: literary];
+                [array addObject: lxx];
             }
         else if ([letter isEqualToString:@"M"])
             {
+                [array addObject: manuscript]; 
                 [array addObject: messiah];
                 [array addObject: mishnah];
             }
