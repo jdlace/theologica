@@ -33,6 +33,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    NSDictionary *textAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
+                                    [UIColor blackColor],NSForegroundColorAttributeName,
+                                    [UIColor blackColor],NSBackgroundColorAttributeName,nil];
+    self.navigationController.navigationBar.titleTextAttributes = textAttributes;
+    
 
     terms = @{
               @"A" : @[@"accidence", @"adoption", @"agape", @"aggiornomento", @"agnostic", @"allegory", @"analogy"
@@ -45,7 +51,7 @@
               @"G" : @[@"gospel"],
               @"H" : @[@"heresy"],
               @"I" : @[@"immanence"],
-              @"J" : @[@"jesus"],
+              @"J" : @[@"Jesus of Nazareth"],
               @"K" : @[@"kataphatic"],
               @"L" : @[@"liberation theology"],
               @"M" : @[@"metaphysics"],
@@ -123,10 +129,10 @@
     Word *canon = [[Word alloc] init];
     canon.name = @"canon";
     canon.definition = @"Greek word for 'measuring stick'; used metaphorically to refer to a collection of texts regarded as authoritative for faith and practice within a community";
-    
+
     Word *Christ = [[Word alloc] init];
     Christ.name = @"Christ";
-    Christ.definition = @"from the Greek 'Christos' (annointed one) - title given to Jesus of Nazareth by early Christians.";
+    Christ.definition = @"The title given to Jesus of Nazareth by early Christians - from the Greek word χριστος (christos) - 'annointed one'.";
     
     Word *creed = [[Word alloc] init];
     creed.name = @"creed";
@@ -159,6 +165,10 @@
     
     //F
     
+    Word *faith = [[Word alloc] init];
+    faith.name = @"faith";
+    faith.definition = @"1. Trust or confidence; 2. The content of a religious system ('The Christian faith').";
+    
     //G
     
     //H
@@ -166,6 +176,10 @@
     //I
     
     //J
+    
+    Word *jesus = [[Word alloc] init];
+    jesus.name = @"Jesus of Nazareth";
+    jesus.definition = @"The first-century Jewish prophet who proclaimed the Kingdom of God, was executed by the Roman govenor Pontius Pilate, and whom the early Christians believed to raised from dead as the Christ and Son of God.";
     
     //K
     
@@ -242,7 +256,7 @@
             }
         else if ([letter isEqualToString:@"F"])
             {
-            
+                [array addObject: faith]; 
             }
         else if ([letter isEqualToString:@"G"])
             {
@@ -258,7 +272,7 @@
             }
         else if ([letter isEqualToString:@"J"])
             {
-            
+                [array addObject:jesus]; 
             }
         else if ([letter isEqualToString:@"K"])
             {
@@ -463,4 +477,8 @@
     return [letters indexOfObject:title];
 }
 
+- (IBAction)info:(UIBarButtonItem *)sender
+{
+    
+}
 @end

@@ -45,7 +45,7 @@
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="OL9-fc-20F">
                                             <rect key="frame" x="15" y="0.0" width="290" height="43"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
                                             <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </label>
                                     </subviews>
@@ -58,7 +58,12 @@
                         <sections/>
                     </tableView>
                     <navigationItem key="navigationItem" title="Theologica" id="puP-se-oj8">
-                        <barButtonItem key="backBarButtonItem" id="Q2X-Iy-nnk"/>
+                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="search" id="LEf-Yw-Fka"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="bookmarks" id="RxI-0F-zKf">
+                            <connections>
+                                <segue destination="715-iu-iCs" kind="modal" id="zED-tK-w8O"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="searchDisplayController" destination="5aj-J1-hWz" id="9Ti-kx-Dw4"/>
@@ -98,7 +103,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="598" y="-688"/>
+            <point key="canvasLocation" x="396" y="-632"/>
         </scene>
         <!--Systematic Detail View Controller-->
         <scene sceneID="Esu-FU-O7a">
@@ -119,12 +124,13 @@
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="RCD-3l-VQc">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" id="RCD-3l-VQc">
                                 <rect key="frame" x="25" y="210" width="280" height="280"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES" calendarEvent="YES"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -133,6 +139,14 @@
                         </accessibility>
                     </view>
                     <navigationItem key="navigationItem" id="c5B-0g-HjD">
+                        <nil key="title"/>
+                        <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" id="csg-br-l2Z">
+                            <rect key="frame" x="149" y="11" width="22" height="22"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
                         <barButtonItem key="rightBarButtonItem" systemItem="action" id="Hre-tg-PsT">
                             <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
@@ -149,7 +163,71 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ch1-NC-7h2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1221" y="-688"/>
+            <point key="canvasLocation" x="829" y="-632"/>
+        </scene>
+        <!--Bookmark List Table View Controller-->
+        <scene sceneID="F4P-2m-AMn">
+            <objects>
+                <tableViewController id="qp7-Xs-UHE" customClass="bookmarkListTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Gym-Hb-Fpb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="mpF-K4-Oa9">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mpF-K4-Oa9" id="0TR-4j-f2D">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="qp7-Xs-UHE" id="7V9-n6-uAP"/>
+                            <outlet property="delegate" destination="qp7-Xs-UHE" id="J92-H9-thZ"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="keP-1u-mbO">
+                        <barButtonItem key="leftBarButtonItem" systemItem="edit" id="PzT-uf-PNg"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="EOE-7X-gLX">
+                            <connections>
+                                <action selector="done:" destination="qp7-Xs-UHE" id="C3o-j8-Z8p"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5jB-c8-fcU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1547" y="-792"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="9SL-RQ-eGb">
+            <objects>
+                <tableViewController id="ZEn-Rv-wQc" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="9yP-Hf-Asu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="GYd-IC-Aln">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GYd-IC-Aln" id="6mq-1N-sGv">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="ZEn-Rv-wQc" id="7Tu-tR-1jI"/>
+                            <outlet property="delegate" destination="ZEn-Rv-wQc" id="byV-Ph-kCI"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="c5D-dZ-5Np">
+                        <barButtonItem key="leftBarButtonItem" systemItem="edit" id="J0i-5Y-uoN"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="hPi-kN-WFv"/>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tgp-qq-ygH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1610" y="-94"/>
         </scene>
         <!--Theologica-->
         <scene sceneID="CgF-4d-159">
@@ -169,7 +247,7 @@
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mVy-iY-zrQ">
                                             <rect key="frame" x="15" y="0.0" width="290" height="43"/>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </label>
@@ -183,6 +261,12 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Theologica" id="YyM-PD-vke">
                         <barButtonItem key="backBarButtonItem" title="Theologica" id="iiY-ey-5sS"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="search" id="dbk-Jl-8JM"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="bookmarks" id="xtc-6s-O6B">
+                            <connections>
+                                <segue destination="DNX-4M-cnL" kind="modal" id="41X-4D-fCh"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="searchDisplayController" destination="JUc-Ik-PVN" id="lBl-g0-hld"/>
@@ -222,7 +306,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="566" y="26"/>
+            <point key="canvasLocation" x="396" y="13"/>
         </scene>
         <!--Ecclesial Detail View Controller-->
         <scene sceneID="jxY-9p-ZZh">
@@ -243,17 +327,26 @@
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="Ubz-6m-4zF">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" id="Ubz-6m-4zF">
                                 <rect key="frame" x="25" y="210" width="285" height="280"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES" calendarEvent="YES"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="qEB-bb-uzZ">
+                        <nil key="title"/>
+                        <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" id="mUx-po-Mb4">
+                            <rect key="frame" x="149" y="11" width="22" height="22"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
                         <barButtonItem key="rightBarButtonItem" systemItem="action" id="4jV-cp-eDW">
                             <connections>
                                 <action selector="share:" destination="aRL-ei-9Tm" id="99c-CT-QUW"/>
@@ -269,7 +362,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eDN-0S-cTG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1221" y="-2"/>
+            <point key="canvasLocation" x="821" y="13"/>
         </scene>
         <!--Theologica-->
         <scene sceneID="ZY6-Nb-KZg">
@@ -289,7 +382,7 @@
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sAB-TH-8gb">
                                             <rect key="frame" x="15" y="0.0" width="290" height="43"/>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </label>
@@ -303,6 +396,12 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Theologica" id="80F-RW-f9m">
                         <barButtonItem key="backBarButtonItem" title="Theologica" id="c5M-Ef-Dyy"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="search" id="NY9-ga-0UY"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="bookmarks" id="TWL-dz-LMI">
+                            <connections>
+                                <segue destination="vXI-tb-6VX" kind="modal" id="k3s-eD-xWd"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="searchDisplayController" destination="VfW-VY-cCV" id="jWu-BB-IFH"/>
@@ -334,7 +433,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="572" y="658"/>
+            <point key="canvasLocation" x="396" y="674"/>
         </scene>
         <!--Moral Detail View Controller-->
         <scene sceneID="IIW-Zr-POz">
@@ -355,17 +454,26 @@
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Eca-2Y-tgg">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" id="Eca-2Y-tgg">
                                 <rect key="frame" x="25" y="210" width="285" height="280"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES" calendarEvent="YES"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="w73-sL-0jg">
+                        <nil key="title"/>
+                        <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" id="iEO-cL-ly6">
+                            <rect key="frame" x="149" y="11" width="22" height="22"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
                         <barButtonItem key="rightBarButtonItem" systemItem="action" id="Yqm-47-K02">
                             <connections>
                                 <action selector="share:" destination="hxR-tt-SDM" id="XvW-Eu-f8e"/>
@@ -381,7 +489,97 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G2g-jZ-djX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1229" y="658"/>
+            <point key="canvasLocation" x="821" y="674"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="nSX-IN-cwG">
+            <objects>
+                <tableViewController id="uTX-oH-Ufz" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="rcB-fv-mKJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="izZ-kH-J3C">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="izZ-kH-J3C" id="Io6-j9-o87">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="uTX-oH-Ufz" id="B4l-YF-GZB"/>
+                            <outlet property="delegate" destination="uTX-oH-Ufz" id="QY2-Rx-N7O"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="1Wh-Qd-Ofz">
+                        <barButtonItem key="leftBarButtonItem" systemItem="edit" id="XJK-kq-9mI"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="JHs-Nh-mAl"/>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WZz-Ax-TE6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1610" y="560"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="bbJ-GZ-shy">
+            <objects>
+                <tableViewController id="GyJ-0w-p8c" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="KW2-uM-hXK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="SLV-cz-3yo">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SLV-cz-3yo" id="JtZ-hv-t1Y">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="GyJ-0w-p8c" id="Cqm-w5-eiU"/>
+                            <outlet property="delegate" destination="GyJ-0w-p8c" id="VfS-Cs-fsI"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="g7Z-3C-aE0">
+                        <barButtonItem key="leftBarButtonItem" systemItem="edit" id="F3a-oo-im0"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="edit" id="SA1-5y-VfI"/>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hof-VY-sIS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1628" y="1225"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="rb0-hd-4vJ">
+            <objects>
+                <tableViewController id="ebd-D5-r3v" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="aqg-Ni-MXs">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="ebq-4B-6OL">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ebq-4B-6OL" id="mO7-Y3-sMW">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="ebd-D5-r3v" id="UPN-ap-WMb"/>
+                            <outlet property="delegate" destination="ebd-D5-r3v" id="iBR-qf-HU0"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="OvZ-gQ-ddX">
+                        <barButtonItem key="leftBarButtonItem" systemItem="edit" id="8hD-Zt-0L4"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="XCN-FK-XZf"/>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2cJ-FI-dGp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1636" y="1922"/>
         </scene>
         <!--Theologica-->
         <scene sceneID="q62-mk-gma">
@@ -402,7 +600,7 @@
                                         <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AfT-i2-N6W">
                                             <rect key="frame" x="15" y="0.0" width="290" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -415,6 +613,12 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Theologica" id="otE-jv-Hs9">
                         <barButtonItem key="backBarButtonItem" title="Theologica" id="paJ-P0-9F6"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="search" id="6rt-gC-WNv"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="bookmarks" id="zg4-6I-c8N">
+                            <connections>
+                                <segue destination="HWk-Iq-zIn" kind="modal" id="ZAe-Ev-dOY"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="searchDisplayController" destination="UkW-Fq-e2B" id="VrP-0c-F10"/>
@@ -454,7 +658,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="580" y="1306"/>
+            <point key="canvasLocation" x="396" y="1322"/>
         </scene>
         <!--Biblical Detail View Controller-->
         <scene sceneID="KMZ-wb-I4O">
@@ -475,17 +679,26 @@
                                 <rect key="frame" x="0.0" y="64" width="326" height="520"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="w2D-nw-9J9">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" id="w2D-nw-9J9">
                                 <rect key="frame" x="25" y="210" width="285" height="280"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES" calendarEvent="YES"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="3zT-N0-8GD">
+                        <nil key="title"/>
+                        <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" id="RiP-Al-Frs">
+                            <rect key="frame" x="149" y="11" width="22" height="22"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
                         <barButtonItem key="rightBarButtonItem" systemItem="action" id="wDg-Xp-Xfw">
                             <connections>
                                 <action selector="share:" destination="zQM-E2-3OV" id="r8l-VQ-67d"/>
@@ -501,7 +714,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="msJ-Du-WXi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1229" y="1322"/>
+            <point key="canvasLocation" x="821" y="1322"/>
         </scene>
         <!--Theologica-->
         <scene sceneID="86s-5N-Kqe">
@@ -522,7 +735,7 @@
                                         <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ygd-lF-LdA">
                                             <rect key="frame" x="15" y="0.0" width="290" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -536,6 +749,12 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Theologica" id="Lm9-NV-aAs">
                         <barButtonItem key="backBarButtonItem" title="Theologica" id="Onq-Ei-giq"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="search" id="RNo-j1-Nou"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="bookmarks" id="uf9-ji-yAn">
+                            <connections>
+                                <segue destination="0j4-SS-tlI" kind="modal" id="0PN-X4-bRf"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="searchDisplayController" destination="m8S-Bu-9NV" id="dRd-sX-uGT"/>
@@ -567,7 +786,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="566" y="2024"/>
+            <point key="canvasLocation" x="396" y="2024"/>
         </scene>
         <!--Social Detail View Controller-->
         <scene sceneID="ljl-om-jkg">
@@ -588,17 +807,26 @@
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="GBt-rq-EbA">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" id="GBt-rq-EbA">
                                 <rect key="frame" x="25" y="210" width="285" height="280"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES" calendarEvent="YES"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="L52-eE-qSL">
+                        <nil key="title"/>
+                        <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" id="Wh2-0n-jIi">
+                            <rect key="frame" x="149" y="11" width="22" height="22"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
                         <barButtonItem key="rightBarButtonItem" systemItem="action" id="jrB-OS-vgn">
                             <connections>
                                 <action selector="share:" destination="lMo-uy-zx8" id="3Lh-gP-L0D"/>
@@ -614,7 +842,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CFn-KM-XiP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1229" y="2024"/>
+            <point key="canvasLocation" x="821" y="2024"/>
         </scene>
         <!--Social-->
         <scene sceneID="P0U-03-m0K">
@@ -704,6 +932,96 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hqu-e8-vF2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-56" y="-621"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="mMo-ER-RbE">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="715-iu-iCs" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="p3h-Yk-ggh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="qp7-Xs-UHE" kind="relationship" relationship="rootViewController" id="BgM-yr-p8J"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="quW-83-Xja" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1182" y="-792"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="kWy-q5-vvL">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="DNX-4M-cnL" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="a7F-nr-R9J">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ZEn-Rv-wQc" kind="relationship" relationship="rootViewController" id="v4k-xJ-Q4u"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Dx-5S-jRN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1232" y="-94"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="5Cc-Tm-Vng">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vXI-tb-6VX" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="a3w-Cz-0X2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="uTX-oH-Ufz" kind="relationship" relationship="rootViewController" id="LUG-oK-nCB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kTN-rK-BvT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1232" y="566"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Y5z-CC-Q7W">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="HWk-Iq-zIn" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="feP-QD-fWn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="GyJ-0w-p8c" kind="relationship" relationship="rootViewController" id="qJw-Ae-9M4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wDm-SM-qhd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1232" y="1225"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="GoJ-sx-aH2">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0j4-SS-tlI" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="UOD-GH-Rhj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ebd-D5-r3v" kind="relationship" relationship="rootViewController" id="FdZ-ss-kYy"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T78-hr-98J" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1232" y="1922"/>
         </scene>
     </scenes>
     <resources>

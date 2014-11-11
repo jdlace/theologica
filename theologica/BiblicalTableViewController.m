@@ -37,22 +37,22 @@
               @"A" : @[@"Abba", @"Adonai", @"anthropomorphism", @"apocalypse", @"apocrypha", @"apodictic", @"apostle", @"aqeda", @"Aramaic", @"Asherah", @"Assyria"],
               @"B" : @[@"Ba'al", @"Babel", @"Babylon", @"Ban", @"Bible", @"biblical criticism", @"Beth-El"],
               @"C" : @[@"call narrative", @"canon", @"charism", @"Christ", @"codex", @"covenant"],
-              @"D" : @[@"Decalogue", @"Deuteronomic History", @"Deuteronomic Source", @"diachronic", @"Documentary Hypothesis", @"dynamic equivalence"],
+              @"D" : @[@"Decalogue", @"Dei Verbum", @"Deuteronomic History", @"Deuteronomic Source", @"diachronic", @"Documentary Hypothesis", @"dynamic equivalence"],
               @"E" : @[@"eisegesis", @"El", @"Elohim", @"Elohist Source", @"epistle", @"evangelist", @"exegesis",],
               @"F" : @[@"folio", @"formal equivalence", @"form criticism", @"fundamentalism",],
               @"G" : @[@"Gehenna", @"genre", @"gospel"],
               @"H" : @[@"hermeneutics", @"Historical Books", @"historical-critical method", @"historical criticism", @"Holy of Holies"],
               @"I" : @[@"inspiration", @"interpretation"],
-              @"J" : @[@"Jerusalem", @"Jesus of Nazareth", @"jew", @"justification"],
-              @"K" : @[@"Kethuv'im", @"kosher"],
+              @"J" : @[@"Jerusalem", @"Jesus of Nazareth", @"Jew", @"justification"],
+              @"K" : @[@"Ketuv'im", @"kosher"],
               @"L" : @[@"Law", @"literary criticism", @"LXX"],
               @"M" : @[@"manuscript", @"Messiah", @"Mishnah"],
               @"N" : @[@"Nevi'im", @"New Testament"],
               @"O" : @[@"Old Testament"],
-              @"P" : @[@"papyrus", @"parable", @"Passover", @"Pentateuch", @"pericope", @"Poetic Books", @"Priestly Source", @"prophet", @"Prophetic Books"],
+              @"P" : @[@"papyrus", @"parable", @"Passover", @"Pentateuch", @"pericope", @"Priestly Source", @"prophet", @"Prophetic Books"],
               @"Q" : @[@"Q Source"],
               @"R" : @[@"redaction criticism"],
-              @"S" : @[@"Satan", @"Septuagint", @"source criticism", @"synchronic", @"synoptic"],
+              @"S" : @[@"Satan", @"Septuagint", @"source criticism", @"synagogue", @"synchronic", @"synoptic"],
               @"T" : @[@"Tanak", @"tax collector", @"textual criticism", @"theophany", @"Torah"],
               @"U" : @[@"universalism"],
               @"V" : @[@"vicarious"],
@@ -88,7 +88,7 @@
     
     Word *anthropomorphism = [[Word alloc] init];
     anthropomorphism.name = @"anthropomorphism";
-    anthropomorphism.definition = @"The attribution of human characteristics to a non-human object.";
+    anthropomorphism.definition = @"The attribution of human characteristics to a non-human object. The J Source uses anthropomorphism extensively in its portrayal of YHWH.";
     /*
     Word *antiochusWord = [[Word alloc]init];
     antiochusWord.name = @"Antiochus IV";
@@ -119,7 +119,7 @@
     
     Word *aqeda = [[Word alloc] init];
     aqeda.name = @"aqeda";
-    aqeda.definition = @"The story of the binding and near-sacrifice of Isaac by Abraham - from Hebrew term for 'binding'.";
+    aqeda.definition = @"The story of the binding and near-sacrifice of Isaac by Abraham - from Hebrew word for 'binding'.";
     
     Word *aramaic = [[Word alloc] init];
     aramaic.name = @"Aramaic";
@@ -136,7 +136,7 @@
     
     Word *asherah = [[Word alloc] init];
     asherah.name = @"Asherah";
-    asherah.definition = @"In Canaanite mythology, the wife of El and the goddess of fertility";
+    asherah.definition = @"In Canaanite mythology, the wife of El and the goddess of fertility; mentioned numerous times throughout the Old Testament; according to 2 Kings 23:4 a large Asherah idol was housed in the Temple and dressed by her cult's prostitutes before Josiah's Deuteronomic reform.";
     
     Word *assyria = [[Word alloc] init];
     assyria.name = @"Assyria";
@@ -146,15 +146,15 @@
     
     Word *baal = [[Word alloc]  init];
     baal.name = @"Ba'al";
-    baal.definition = @"In Canannite mythology, the son of El and most active of the gods";
+    baal.definition = @"In Canannite mythology, the son of El and most active of the gods; according to to 2 Kings 23:4 an image of Ba'al was housed in the Temple before Josiah's Deuternomic reform.";
     
     Word *babel = [[Word alloc] init];
     babel.name = @"Babel";
-    babel.definition = @"Hebrew word for 'confusion'; named for Tower eitiology in Gen. 11.";
+    babel.definition = @"The Hebrew word for 'confusion'; named for Tower eitiology in Gen. 11.";
     
     Word *babylon = [[Word alloc] init];
     babylon.name = @"Babylon";
-    babylon.definition = @"Empire that conquered the southern kingdom of Judah in 587 BCE.";
+    babylon.definition = @"The empire that conquered the southern kingdom of Judah in 587 BCE.";
     
     Word *ban = [[Word alloc] init];
     ban.name = @"Ban";
@@ -167,11 +167,11 @@
     
     Word *bible = [[Word alloc] init];
     bible.name = @"Bible";
-    bible.definition = @"The collection of the Old and New Testaments regarded as canonical and inspired within Catholicism";
+    bible.definition = @"The collection of the Old and New Testaments regarded as canonical and inspired within Catholicism. From the Greek word βιβλος (biblos) - 'scroll'.";
     
     Word *biblicalCriticism = [[Word alloc] init];
     biblicalCriticism.name = @"biblical criticism";
-    biblicalCriticism.definition = @"the process of discovering what can be known about the context of any biblical book or passage in order to understand its original meaning.";
+    biblicalCriticism.definition = @"The process of discovering what can be known about the context of any biblical book or passage in order to understand its original meaning.";
     
     Word *bethel = [[Word alloc] init];
     bethel.name = @"Beth-El";
@@ -185,11 +185,11 @@
     
     Word *canon = [[Word alloc] init];
     canon.name = @"canon";
-    canon.definition = @"A collection of texts regarded as authoritative for faith and practice within a community - from the Greek word for 'measuring stick' (κανον - kanon)";
+    canon.definition = @"A collection of texts regarded as authoritative for faith and practice within a community - from the Greek word κανον (kanon) - 'measuring stick'.";
     
     Word *charism = [[Word alloc] init];
     charism.name = @"charism";
-    charism.definition = @"The spiritual gifts that come with Christian experience of the Holy Spirit - from the Greek word χαρισμα (charisma) - 'gift'.";
+    charism.definition = @"According to the Apostle Paul, the spiritual gifts that come with Christian experience of the Holy Spirit - from the Greek word χαρισμα (charisma) - 'gift'. See 1 Corinthians 12.";
     
     Word *Christ = [[Word alloc] init];
     Christ.name = @"Christ";
@@ -201,13 +201,17 @@
     
     Word *covenant = [[Word alloc] init];
     covenant.name = @"covenant";
-    covenant.definition = @"a sacred contract or agreement - used to refer to the relationship between YHWH and Israel in the Old Testament and between God and humanity in the New Testament.";
+    covenant.definition = @"A sacred contract or agreement - used to refer to the relationship between YHWH and Israel in the Old Testament and between God and humanity in the New Testament.";
     
     //D
     
     Word *decalogue = [[Word alloc] init];
     decalogue.name = @"Decalogue";
     decalogue.definition = @"The term given to the 10 Commandments in Exodus 20 - from the Greek words δεκα (deka) - 'ten' and λογος (logos) - 'word'";
+    
+    Word *deiVerbum = [[Word alloc] init];
+    deiVerbum.name = @"Dei Verbum";
+    deiVerbum.definition = @"One of the four dogmatic constitutions of the Second Vatican Council (1962-1965); it is the most definitive statement on the Church's belief in Divine revelation, the Scriptures and Tradition.";
     
     Word *deuteronomicHistory = [[Word alloc] init];
     deuteronomicHistory.name = @"Deuteronomic History";
@@ -238,15 +242,15 @@
     
     Word *eisegesis = [[Word alloc] init];
     eisegesis.name = @"eisegesis";
-    eisegesis.definition = @"from the Greek 'eis' (into) and 'ago' (to go) - interpreting a text by reading into it one’s own ideas and presuppositions; the opposite of exegesis.";
+    eisegesis.definition = @"Interpreting a text by reading into it one’s own ideas and presuppositions; the opposite of exegesis; from the Greek εις (eis) - 'into' and αγω (ago) - 'to go'.";
     
     Word *el = [[Word alloc] init];
     el.name = @"El";
-    el.definition = @"In Canaanite mythology, father of all the gods and husband of Asherah.";
+    el.definition = @"In Canaanite mythology, father of all the gods and husband of Asherah; referred to throughout the patriarchal sagas...";
     
     Word *elohim = [[Word alloc] init];
     elohim.name = @"Elohim";
-    elohim.definition = @"Hebrew for “gods”, “God” or “angels” depending on the context. The plural of “El”, it can refer to the gods of particular peoples, such as the “Elohim of Babylon”, but came to be used as a singular term referring to the God of Israel, with accompanying singular verbs and adjectives, seemingly accompanying the rise of monotheism among the Israelites. In later Biblical usage it can also refer to “heavenly beings” such as angels.";
+    elohim.definition = @"The Hebrew word for “gods”, “God” or “angels” depending on the context. The plural of “El”, it can refer to the gods of particular peoples, such as the “Elohim of Babylon”, but came to be used as a singular term referring to the God of Israel, with accompanying singular verbs and adjectives, seemingly accompanying the rise of monotheism among the Israelites. In later Biblical usage it can also refer to “heavenly beings” such as angels.";
     
     Word *elohistSource = [[Word alloc] init];
     elohistSource.name = @"Elohist Source";
@@ -258,11 +262,11 @@
     
     Word *evangelist = [[Word alloc] init];
     evangelist.name = @"evangelist";
-    evangelist.definition = @"One who spreads good news; 2. One of the authors of the four gospels.";
+    evangelist.definition = @"A person who spreads good news; 2. One of the authors of the four gospels.";
     
     Word *exegesis = [[Word alloc] init];
     exegesis.name = @"exegesis";
-    exegesis.definition = @"from the Greek 'ex'(out) and 'ago'(to go) - the process of determining the meaning of a text in its original context.";
+    exegesis.definition = @"The process of determining the meaning of a text in its original context; a necessary element of hermeneutics; from the Greek εξ (ex) - 'out' and αγω (ago) - 'to go'.";
     
     //F
     
@@ -277,18 +281,18 @@
     
     Word *formCriticism = [[Word alloc] init];
     formCriticism.name = @"form criticism";
-    formCriticism.definition = @"A type of criticism which deciphers and analyzes a text's genre or literary form; mentioned in Dei Verbum, 11.";
+    formCriticism.definition = @"A type of criticism which deciphers and analyzes a text's genre or literary form; mentioned as necessary exegesis in Dei Verbum, 12: “To search out the intention of the sacred writers, attention should be given, among other things, to 'literary forms'. For truth is set forth and expressed differently in texts which are variously historical, prophetic, poetic, or of other forms of discourse.”";
     
     
     Word *fundamentalism = [[Word alloc] init];
     fundamentalism.name = @"fundamentalism";
-    fundamentalism.definition = @"1. a hermeneutical method which exclusively uses a literalist criterion for intepretation of a text. 2. an anti-modern movement which emerged in American Protestantism in the late 19th century which is characterized more than anything else by the viewpoint that Scripture is Divinely Inspired and as such inerrant in all ways including historical and “scientific” - named for its self-proclaimed stress on the “fundamentals” of the Christian faith.";
+    fundamentalism.definition = @"1. A hermeneutical method which exclusively uses a literalist criterion for intepretation of a text; 2. An anti-modern movement which emerged in American Protestantism in the late 19th century which is characterized more than anything else by the viewpoint that Scripture is Divinely Inspired and as such inerrant in all ways including historical and “scientific” - named for its self-proclaimed stress on the “fundamentals” of the Christian faith.";
     
     //G
     
     Word *gehenna = [[Word alloc] init];
     gehenna.name = @"Gehenna";
-    gehenna.definition = @"A valley near Jerusalem (the Valley of Hinnom) where a non-Israelite shrine to a god named Moloch once stood where human sacrifice by burning took place. It seems to have become known as a place of the destruction of the wicked in Jewish folklore (a source which claims that it was a burning trash heap or garbage dump is disputed), and this was used by Jesus to refer to a place where those who opposed the will of God would go. Thus, it came to be synonymous with “hell”.";
+    gehenna.definition = @"A valley near Jerusalem (the Valley of Hinnom) where a non-Israelite shrine to the Canaanite god Moloch once stood where human sacrifice by burning took place. It seems to have become known as a place of the destruction of the wicked in Jewish folklore (a source which claims that it was a burning trash heap or garbage dump is disputed); used by Jesus to refer to a place where those who opposed the will of God would go. Thus, it came to be synonymous with “hell”.";
     
     Word *genre = [[Word alloc] init];
     genre.name = @"genre";
@@ -296,7 +300,7 @@
     
     Word *gospel = [[Word alloc] init];
     gospel.name = @"gospel";
-    gospel.definition = @"from the Greek 'evangelion' (good news) - term used to describe: 1. the message of the historical Jesus concerning the Kingdom of God, 2. the message about Jesus concerning the salvation of the world, and 3. one of the four canonical accounts of the life and ministry of the historical Jesus (Matthew, Mark, Luke, and John)";
+    gospel.definition = @"1. The message of the historical Jesus concerning the Kingdom of God; 2. The message about Jesus concerning the salvation of the world; 3. One of the four canonical accounts of the life and ministry of the historical Jesus (Matthew, Mark, Luke, and John); from the Greek word ευαγγελιον (evangelion) - 'good news'.";
     
     //H
     
@@ -306,11 +310,11 @@
     
     Word *historicalBooks = [[Word alloc] init];
     historicalBooks.name = @"Historical Books";
-    historicalBooks.definition = @"The second of four divisions within the Old Testament.";
+    historicalBooks.definition = @"The second of four divisions within the Old Testament; contains 1 & 2 Samuel, 1 & 2 Kings, 1 & 2 Chronicles, Ezra, Nehemiah, Tobit, Judith, Esther, 1 & 2 Maccabees.";
     
     Word *hcm = [[Word alloc] init];
     hcm.name = @"historical-critical method";
-    hcm.definition = @"The hermeneutical method which seeks to uncover the intention of the author through exegetical analysis of history, language, literature, sources, and culture.";
+    hcm.definition = @"The hermeneutical method which seeks to uncover the intention of the author through exegetical analysis of history, language, literature, sources, and culture; according to the Pontifical Biblical Commission's 'The Interpretation of the Bible in the Church', it is the one essential method for Catholic hermeneutics.";
     
     Word *historicalCriticism = [[Word alloc] init];
     historicalCriticism.name = @"historical criticism";
@@ -318,7 +322,7 @@
     
     Word *holyOfHolies = [[Word alloc] init];
     holyOfHolies.name = @"Holy of Holies";
-    holyOfHolies.definition = @"central area of the Temple in Jerusalem where the Ark of the Covenant was believed to reside from the monarchy of Solomon until the Exile in 587 BCE.";
+    holyOfHolies.definition = @"The innermmost area of the Temple in Jerusalem where the Ark of the Covenant was believed to reside from the monarchy of Solomon until the Exile in 587 BCE.";
     
     //I
     
@@ -338,11 +342,11 @@
     
     Word *jesus = [[Word alloc] init];
     jesus.name = @"Jesus of Nazareth";
-    jesus.definition = @"First-century Jewish prophet who proclaimed the Kingdom of God, whom the early Christians believed to the Christ and Son of God that reconciled the world to God.";
+    jesus.definition = @"The first-century Jewish prophet who proclaimed the Kingdom of God, was executed by the Roman govenor Pontius Pilate, and whom the early Christians believed to raised from dead as the Christ and Son of God.";
     
     Word *jew = [[Word alloc] init];
-    jew.name = @"jew";
-    jew.definition = @"Member of the tribe of Judah; used to refer to any Israelite after the return from the Exile in 515 BCE.";
+    jew.name = @"Jew";
+    jew.definition = @"A member of the tribe of Judah; used to refer to any Israelite after the return from the Exile in 515 BCE.";
     
     Word *justification = [[Word alloc] init];
     justification.name = @"justification";
@@ -366,7 +370,7 @@
     
     Word *literary = [[Word alloc] init];
     literary.name = @"literary criticism";
-    literary.definition = @"The type of exegetical criticism that deciphers and analyzes the literary characteristics of a text, including setting, plot, characterization, denouement, theme, and climax.";
+    literary.definition = @"The type of exegetical criticism that deciphers and analyzes the literary characteristics of a text, including form, setting, plot, characterization, denouement, theme, and climax.";
     
     Word *lxx = [[Word alloc] init];
     lxx.name = @"LXX";
@@ -394,13 +398,13 @@
     
     Word *newTestament = [[Word alloc] init];
     newTestament.name = @"New Testament";
-    newTestament.definition = @"27 books dealing with the life of Jesus of Nazareth and his followers.";
+    newTestament.definition = @"The second of two major sections of the Bible; 27 books dealing with the life of Jesus of Nazareth and his followers; contains the 4 gospels, the Acts of the Apostles, numerous epistles, and the Apocalypse.";
     
     //O
     
     Word *oldTestament = [[Word alloc] init];
     oldTestament.name = @"Old Testament";
-    oldTestament.definition = @"46 books dealing with the people of Israel.";
+    oldTestament.definition = @"The first of two major sections of the Bible; 46 books dealing with the people of Israel; contains the Pentateuch, Historical Books, Wisdom Books, and Prophetic Books.";
     
     //P
     
@@ -424,10 +428,6 @@
     pericope.name = @"pericope";
     pericope.definition = @"A given section of a larger text...";
     
-    Word *poetic = [[Word alloc] init];
-    poetic.name = @"poetic";
-    poetic.definition = @"The third of four sections in the Old Testament; it consists mainly of various writings...";
-
     
     Word *priestly = [[Word alloc] init];
     priestly.name = @"Priestly Source";
@@ -465,22 +465,55 @@
     Word *source = [[Word alloc] init];
     source.name = @"source criticism";
     source.definition = @"The exegetical criticism that seeks to decipher and analyze the underlying source of a text.";
-    
+   
     Word *synagogue = [[Word alloc] init];
     synagogue.name = @"synagogue";
     synagogue.definition = @"The local place of weekly assembly for Jews during the Exile in Babylon; carried over into post-Exilic Judaism - from the Greek 'to go together'.";
     
+    Word *synchronic = [[Word alloc] init];
+    synchronic.name = @"synchronic";
+    synchronic.definition  = @"The type of truth that is relative to the time of a text's composition, usually relating to the worldview of the author.";
+    
+    Word *synoptic = [[Word alloc] init];
+    synoptic.name = @"synoptic";
+    synoptic.definition = @"A term meaning 'to see together'; used to refer to the gospels of Matthew, Mark, and Luke due to their similarity of narrative and Christology contrasted with the gospel of John; from the Greek word συν (syn) - 'together' and οπσις (opsis) - 'appearance'";
+    
+    
     //T
+    
+    Word *tanak = [[Word alloc] init];
+    tanak.name = @"Tanak";
+    tanak.definition = @"Acronymic term to describe the Hebrew Bible: T = Torah, N = Nevi'im, K = Ketuv'im. Since Hebrew has no vowels, those are added.";
     
     Word *taxCollector = [[Word alloc] init];
     taxCollector.name = @"tax collector";
     taxCollector.definition = @"Jews who collected provincial taxes for the Roman Empire; frequently referenced in the gospels due to their presence at numerous border crossings throughout Israel. They were reviled as traitors, likely cheats, and possible idolators. Jesus includes one such person (Matthew) in his inner circle of disciples.";
+    
+    Word *textual = [[Word alloc] init];
+    textual.name = @"textual criticism";
+    textual.definition = @"The exegetical criticism that deciphers and analyzes the original language of a text.";
+    
+    Word *theophany = [[Word alloc] init];
+    theophany.name = @"theophany";
+    theophany.definition = @"An appearance of God to a human being. Numerous theophanies are recorded throughout the Bible with the account of Moses being paradigmatic.";
+    
+    Word *torah = [[Word alloc] init];
+    torah.name = @"Torah";
+    torah.definition = @"The first five books and first section of the Tanak; Genesis, Exodus, Leviticus, Numbers, and Deuteronomy";
     
     //U
     
     //V
     
     //W
+    
+    Word *wisdom = [[Word alloc] init];
+    wisdom.name = @"wisdom literature";
+    wisdom.definition = @"A type of literature that contains wise sayings and philosophical reflections on life.";
+    
+    Word *widsomBooks = [[Word alloc] init];
+    widsomBooks.name = @"poetic";
+    widsomBooks.definition = @"The third of four sections in the Old Testament; it consists mainly of various writings; contains Job, Psalms, Proverbs, Ecclesiastes, Song of Songs, Wisdom, and Sirach.";
     
     //X
     
@@ -492,17 +525,17 @@
     
     Word *yhwh = [[Word alloc] init];
     yhwh.name = @"YHWH";
-    yhwh.definition = @"four letter personal name of the God of the Israelites; also called the 'Tetragrammaton', it was likely pronounced 'Yah-way'; according to the E and P sources, this name was not known before it was revealed to Moses in Exodus chapter 3, the J source, however, uses it throughout Genesis, which one argument for the Documentary Hypothesis.";
+    yhwh.definition = @"The four letter personal name of the God of the Israelites, also called the 'Tetragrammaton'; it was likely pronounced 'Yah-way'; according to the E and P sources, this name was not known before it was revealed to Moses in Exodus chapter 3, the J source, however, uses it throughout Genesis, which is one argument for the Documentary Hypothesis.";
     
     Word *yomKippur = [[Word alloc] init];
     yomKippur.name = @"Yom Kippur";
-    yomKippur.definition = @"the “day of Atonement”; a day set aside on the Jewish calendar dedicated to bringing about reconciliation with YHWH; explained in detail in Leviticus 16.";
+    yomKippur.definition = @"The “Day of Atonement”; a day set aside on the Jewish calendar dedicated to bringing about reconciliation with YHWH; explained in detail in Leviticus 16.";
     
     //Z
     
     Word *zion = [[Word alloc] init];
     zion.name = @"Zion";
-    zion.definition = @"a synonym for the Temple mountain in Jerusalem or for the city of Jerusalem itself.";
+    zion.definition = @"A synonym for the Temple mountain in Jerusalem or for the city of Jerusalem itself.";
     
     _biblicalDetails = [[NSMutableArray alloc] init];
 
@@ -545,6 +578,7 @@
         else if ([letter isEqualToString: @"D"])
             {
                 [array addObject: decalogue];
+                [array addObject: deiVerbum];
                 [array addObject: deuteronomicHistory];
                 [array addObject: deuteronomicSource];
                 [array addObject: diachronic];
@@ -627,7 +661,6 @@
                 [array addObject: passover];
                 [array addObject: pentateuch];
                 [array addObject: pericope];
-                [array addObject: poetic];
                 [array addObject: priestly];
             }
         else if ([letter isEqualToString:@"Q"])
@@ -644,10 +677,16 @@
                 [array addObject: septuagint];
                 [array addObject: source];
                 [array addObject: synagogue];
+                [array addObject: synchronic];
+                [array addObject: synoptic];
             }
         else if ([letter isEqualToString:@"T"])
             {
+                [array addObject: tanak];
                 [array addObject: taxCollector];
+                [array addObject: textual];
+                [array addObject: theophany];
+                [array addObject: torah];
             }
         else if ([letter isEqualToString:@"U"])
             {
@@ -659,7 +698,8 @@
             }
         else if ([letter isEqualToString:@"W"])
             {
-                [array addObject: inspiration];
+                [array addObject: wisdom];
+                [array addObject: widsomBooks];
             }
         else if ([letter isEqualToString:@"X"])
             {
