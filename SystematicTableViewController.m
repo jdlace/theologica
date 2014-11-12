@@ -41,33 +41,33 @@
     
 
     terms = @{
-              @"A" : @[@"accidence", @"adoption", @"agape", @"aggiornomento", @"agnostic", @"allegory", @"analogy"
-                       , @"apologetics", @"apophatic", @"atonement"],
+              @"A" : @[@"accidence", @"adoption", @"aesthetics", @"agape", @"aggiornomento", @"agnostic", @"allegory", @"analogy"
+                       , @"apologetics", @"apophatic", @"a priori", @"a posteriori", @"argument", @"atonement"],
               @"B" : @[@"baptism", @"blasphemy"],
-              @"C" : @[@"canon", @"Christ", @"creed"],
-              @"D" : @[@"deism"],
-              @"E" : @[@"epistemology", @"eschatology", @"essence", @"ex nihilo"],
-              @"F" : @[@"faith"],
-              @"G" : @[@"gospel"],
-              @"H" : @[@"heresy"],
-              @"I" : @[@"immanence"],
-              @"J" : @[@"Jesus of Nazareth"],
-              @"K" : @[@"kataphatic"],
-              @"L" : @[@"liberation theology"],
-              @"M" : @[@"metaphysics"],
-              @"N" : @[@"natural theology"],
-              @"O" : @[@"orthodoxy", @"orthodpraxy"],
-              @"P" : @[@"philosophy", @"predestination"],
+              @"C" : @[@"canon", @"Christ", @"compatiblism", @"Cosmological Argument", @"creationism", @"creed"],
+              @"D" : @[@"deductive argument", @"deism", @"determinism", @"Development of Doctrine", @"dualism"],
+              @"E" : @[@"epistemology", @"eschatology", @"essence", @"exclusivism", @"evolution", @"ex nihilo", @"explanans", @"explanandum"],
+              @"F" : @[@"faith", @"fideism", @"foreknowledge", @"free-will"],
+              @"G" : @[@"gospel", @"grace"],
+              @"H" : @[@"heaven", @"hell", @"henotheism", @"heresy"],
+              @"I" : @[@"idolatry", @"immanence", @"inclusivism", @"inductive argument"],
+              @"J" : @[@"Jesus of Nazareth"],//50
+              @"K" : @[@"kataphatic", @"kenosis"],
+              @"L" : @[@"Law of Non-Contradiction", @"Liberation Theology", @"logic"],
+              @"M" : @[@"metaphysics", @"miracle", @"monotheism", @"mystery"],
+              @"N" : @[@"natural theology", @"numinous"],
+              @"O" : @[@"objective", @"omnibenevolence", @"omnipotence", @"omnipresence", @"omniscience", @"Ontological Argument", @"open theism", @"orthodoxy", @"orthodpraxy"],
+              @"P" : @[@"person", @"philosophy", @"physicalism", @"pluralism", @"polytheism", @"predestination", @"Problem of Evil", @"Process Theology"],
               @"Q" : @[@"quintessence"],
-              @"R" : @[@"redemption"],
-              @"S" : @[@"salvation", @"systematic theology"],
-              @"T" : @[@"theodicy", @"theology", @"trinity"],
+              @"R" : @[@"redemption", @"religious experience", @"repentance"],
+              @"S" : @[@"salvation", @"science", @"sensus fidelium", @"soteriology", @"subjective", @"substance", @"Systematic Theology"],
+              @"T" : @[@"Teleological Argument", @"theism", @"theodicy", @"theology", @"Trinity"],
               @"U" : @[@"universalism"],
               @"V" : @[@"vicarious"],
               @"W" : @[@"will"],
-              @"X" : @[@"xcode"],
+              @"X" : @[@"x"],
               @"Y" : @[@"YHWH"],
-              @"Z" : @[@"zion"],
+              @"Z" : @[@"zeitgeist", @"zionism"],//98
              };
                                                                                                                         
     letters = [[terms allKeys] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
@@ -80,7 +80,7 @@
     
     Word *adoption = [[Word alloc] init];
     adoption.name = @"adoption";
-    adoption.definition = @"the process of becoming a child of God through Jesus Christ";
+    adoption.definition = @"The process of becoming a child of God through Jesus Christ";
     
     Word *agape = [[Word alloc] init];
     agape.name = @"agape";
@@ -100,29 +100,29 @@
     
     Word *analogy = [[Word alloc] init];
     analogy.name = @"analogy";
-    analogy.definition = @"a way of probing eternal truths...";
+    analogy.definition = @"A way of probing eternal truths...";
     
     Word *apologetics = [[Word alloc] init];
     apologetics.name = @"apologetics";
-    apologetics.definition = @"the rational defense of the Christian faith.";
+    apologetics.definition = @"The rational defense of the Christian faith; from the Greek words    (apo) - 'from' and     (logia) - 'reason'.";
     
     Word *apophatic = [[Word alloc] init];
     apophatic.name = @"apophatic";
-    apophatic.definition = @"language which claims what God is not or a negation.";
+    apophatic.definition = @"Language that uses negation to describe God.";
     
     Word *atonement = [[Word alloc] init];
     atonement.name = @"atonement";
-    atonement.definition = @"the act of making restitution for inflicted harm";
+    atonement.definition = @"The act of making restitution for inflicted harm";
     
     //B
     
     Word *baptism = [[Word alloc] init];
     baptism.name = @"baptism";
-    baptism.definition = @"a ritual washing used for initiation into the Christian community";
+    baptism.definition = @"A ritual washing used for initiation into the Christian community";
     
     Word *blasphemy = [[Word alloc] init];
     blasphemy.name = @"blasphemy";
-    blasphemy.definition = @"a form of religious slander";
+    blasphemy.definition = @"A form of religious slander";
     
     //C
     
@@ -142,13 +142,13 @@
     
     Word *deism = [[Word alloc] init];
     deism.name = @"deism";
-    deism.definition = @"the belief that God created the world but does not intervene in the natural course of the world.";
+    deism.definition = @"The belief that God created the world but does not intervene in the natural course of the world.";
     
     //E
     
     Word *epistemology = [[Word alloc] init];
     epistemology.name = @"epistemology";
-    epistemology.definition = @"the study of the origin, nature, and limits of human knowledge; one of the three traditional subjects of Western philosophy.";
+    epistemology.definition = @"The study of the origin, nature, and limits of human knowledge; one of the three traditional subjects of Western philosophy.";
     
     Word *eschatology = [[Word alloc] init];
     eschatology.name = @"eschatology";
@@ -160,7 +160,7 @@
     
     Word *exNihilo = [[Word alloc] init];
     exNihilo.name = @"ex nihilo";
-    exNihilo.definition = @"from the Latin 'out of nothing' - the belief that God created the world out of nothing.";
+    exNihilo.definition = @"from the Latin 'out of nothing' - The belief that God created the world out of nothing.";
     
     
     //F
@@ -175,6 +175,10 @@
     
     //I
     
+    Word *immanence = [[Word alloc] init];
+    immanence.name = @"immanence";
+    immanence.definition = @"The quality of being within human experience.";
+    
     //J
     
     Word *jesus = [[Word alloc] init];
@@ -187,11 +191,19 @@
     
     //M
     
+    Word *metaphysics = [[Word alloc] init];
+    metaphysics.name = @"metaphysics";
+    metaphysics.definition = @"The study of the fundamental nature of reality.";
+    
     //N
     
     //O
     
     //P
+    
+    Word *philosophy = [[Word alloc] init];
+    philosophy.name = @"philosophy";
+    philosophy.definition = @"The critical examination of human thought; the love of wisdom.";
     
     //Q
     
@@ -201,7 +213,15 @@
     
     //T
     
+    Word *transcendence = [[Word alloc] init];
+    transcendence.name = @"transcendence";
+    transcendence.definition = @"The quality of going beyond human experience.";
+    
     //U
+    
+    Word *universalism = [[Word alloc] init];
+    universalism.name = @"universalism";
+    universalism.definition = @"The belief that all of humanity will ultimately experience salvation.";
     
     //V
     
@@ -268,7 +288,7 @@
             }
         else if ([letter isEqualToString:@"I"])
             {
-            
+                [array addObject: immanence];
             }
         else if ([letter isEqualToString:@"J"])
             {
@@ -284,7 +304,7 @@
             }
         else if ([letter isEqualToString:@"M"])
             {
-            
+                [array addObject: metaphysics];
             }
         else if ([letter isEqualToString:@"N"])
             {
@@ -296,7 +316,7 @@
             }
         else if ([letter isEqualToString:@"P"])
             {
-            
+                [array addObject: philosophy];
             }
         else if ([letter isEqualToString:@"Q"])
             {
@@ -312,11 +332,11 @@
             }
         else if ([letter isEqualToString:@"T"])
             {
-            
+                [array addObject: transcendence];
             }
         else if ([letter isEqualToString:@"U"])
             {
-            
+                [array addObject: universalism]; 
             }
         else if ([letter isEqualToString:@"V"])
             {

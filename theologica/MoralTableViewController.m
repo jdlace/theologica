@@ -37,10 +37,10 @@
     
     terms = @{
               @"A" : @[@"abortion", @"abstinence", @"action", @"adultery"],
-              @"B" : @[@""],
+              @"B" : @[@"bigamy"],
               @"C" : @[@"casuistry", @"common good", @"conscience"],
               @"D" : @[@"deontology", @"divine command theory"],
-              @"E" : @[@"epistemology", @"ethics"],
+              @"E" : @[@"epistemology", @"ethics", @"Euthyphro Problem"],
               @"F" : @[@"faith"],
               @"G" : @[@"gospel"],
               @"H" : @[@"human rights"],
@@ -48,10 +48,10 @@
               @"J" : @[@"justice", @"jus ad bellum", @"jus im bello", @"just war"],
               @"K" : @[@"kataphatic"],
               @"L" : @[@"liberation theology"],
-              @"M" : @[@"morality"],
+              @"M" : @[@"monogamy", @"morality"],
               @"N" : @[@"natural law"],
               @"O" : @[@"omission"],
-              @"P" : @[@"pacifism", @"preferential option"],
+              @"P" : @[@"pacifism", @"personhood", @"preferential option"],
               @"Q" : @[@"quintessence"],
               @"R" : @[@"redemption"],
               @"S" : @[@"scholasticism", @"structural sin"],
@@ -59,9 +59,9 @@
               @"U" : @[@"utilitarianism"],
               @"V" : @[@"vice", @"virtue"],
               @"W" : @[@"will"],
-              @"X" : @[@""],
+              @"X" : @[@"xenophobia"],
               @"Y" : @[@"YHWH"],
-              @"Z" : @[@""],
+              @"Z" : @[@""],//42
               };
     
     letters = [[terms allKeys] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];

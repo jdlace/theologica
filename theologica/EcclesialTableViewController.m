@@ -35,22 +35,22 @@
     
     //data for the table view controller
     terms = @{
-              @"A" : @[@"absolution", @"acolyte", @"Agnus Dei", @"altar", @"anamnesis", @"anathema", @"antiphon", @"Apostle's Creed", @"Arianism", @"asceticism", @"Ash Wednesday"],
+              @"A" : @[@"absolution", @"acolyte", @"Advent", @"Agnus Dei", @"altar", @"anamnesis", @"anathema", @"antiphon", @"Apostle's Creed", @"Arianism", @"asceticism", @"Ash Wednesday"],
               @"B" : @[@"baptism", @"baptistry", @"basillica", @"Benedictus", @"bishop", @"blasphemy", @"Byzantine"],
-              @"C" : @[@"Calvinism", @"canon", @"cantor", @"catechumen", @"cathedral", @"chalice", @"Chalcedon", @"chi rho", @"church", @"clergy", @"Confession", @"Confirmation", @"consubstantial", @"contrition", @"council"],
-              @"D" : @[@"Daily Office", @"deacon", @"docetism", @"Donatism"],
-              @"E" : @[@"Easter", @"ecclesia", @"ecclesiology", @"epiclesis", @"Epiphany", @"Eucharist"],
-              @"F" : @[@"Filioque"],
+              @"C" : @[@"Calvinism", @"canon", @"cantor", @"catechumen", @"cathedral", @"chalice", @"Chalcedonean Creed", @"chi rho", @"church", @"clergy", @"Confession", @"Confirmation", @"consubstantial", @"contrition", @"council"],
+              @"D" : @[@"Daily Office", @"deacon", @"denomination", @"diocese", @"docetism", @"Donatism"],
+              @"E" : @[@"Easter", @"ecclesia", @"ecclesiology", @"epiclesis", @"Epiphany", @"Eucharist", @"ex cathedra", @"exorcism"],
+              @"F" : @[@"Filioque"],//50
               @"G" : @[@"Gloria Patri", @"gnosticism", @"Good Friday"],
               @"H" : @[@"Hail Mary", @"Holy Orders", @"Holy Saturday", @"Holy Week", @"homily", @"homoosious", @"hymn"],
-              @"I" : @[@"icon", @"intinction"],
+              @"I" : @[@"icon", @"iconoclasm", @"intinction"],
               @"J" : @[@"Jubilate Deo"],
               @"K" : @[@"Kiss of Peace", @"koinonia", @"Kyrie Eleison"],
-              @"L" : @[@"laity", @"Last Rites", @"Lectio Divina", @"lectionary", @"lector", @"liturgy"],
+              @"L" : @[@"laity", @"Last Rites", @"Lectio Divina", @"Lent", @"lectionary", @"lector", @"liturgy"],
               @"M" : @[@"Magnificat", @"Marcion", @"martyr", @"mass", @"Memorial Acclamation", @"missal", @"monestary", @"monogenism", @"monophysitism", @"monothelism", @"monstrance", @"Montanism"],
               @"N" : @[@"narthex", @"Nestorianism", @"Nicene Creed", @"Nunc Dimittis"],
               @"O" : @[@"Offeratory", @"Ordinary Time", @"Ordination"],
-              @"P" : @[@"Palm Sunday", @"Paschal Candle", @"Passion Sunday", @"Pater Noster", @"patristic", @"Pelagianism", @"penance", @"Pentecost", @"Pope", @"priest", @"Protestantism"],
+              @"P" : @[@"Palm Sunday", @"Paschal Candle", @"Passion Sunday", @"Pater Noster", @"patristic", @"Pelagianism", @"penance", @"Pentecost", @"Petrine Ministry", @"Pope", @"priest", @"Protestantism"],
               @"Q" : @[@"Quadradecimial Controversy"],
               @"R" : @[@"rosary", @"Reconciliation", @"rule of faith"],
               @"S" : @[@"sacramentary", @"Scholasticism", @"synod"],
@@ -60,7 +60,7 @@
               @"W" : @[@"Way of the Cross"],
               @"X" : @[@"XC"],
               @"Y" : @[@"young"],
-              @"Z" : @[@"zebra"],
+              @"Z" : @[@"zebra"],//123
               };
     
     letters = [[terms allKeys] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
@@ -161,7 +161,7 @@
     
     Word *protestant = [[Word alloc] init];
     protestant.name = @"Protestant";
-    protestant.definition = @"term used to describe the theological objection to the authority of the Pope in the Church; the Protestant Reformation.";
+    protestant.definition = @"The theological objection to the authority of the Pope in the Church; the Protestant Reformation.";
     
     //Q
     

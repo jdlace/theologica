@@ -34,14 +34,14 @@
     [super viewDidLoad];
     
     terms = @{
-              @"A" : @[@"Abba", @"Adonai", @"anthropomorphism", @"apocalypse", @"apocrypha", @"apodictic", @"apostle", @"aqeda", @"Aramaic", @"Asherah", @"Assyria"],
+              @"A" : @[@"Abba", @"Adonai", @"anthropomorphism", @"apocalypse", @"apocrypha", @"apodictic", @"apostle", @"aqeda", @"Aramaic", @"Asherah", @"Assyria", @"atonement"],
               @"B" : @[@"Ba'al", @"Babel", @"Babylon", @"Ban", @"Bible", @"biblical criticism", @"Beth-El"],
-              @"C" : @[@"call narrative", @"canon", @"charism", @"Christ", @"codex", @"covenant"],
-              @"D" : @[@"Decalogue", @"Dei Verbum", @"Deuteronomic History", @"Deuteronomic Source", @"diachronic", @"Documentary Hypothesis", @"dynamic equivalence"],
-              @"E" : @[@"eisegesis", @"El", @"Elohim", @"Elohist Source", @"epistle", @"evangelist", @"exegesis",],
+              @"C" : @[@"call narrative", @"canon", @"charism", @"Christ", @"circumcision", @"codex", @"covenant"],
+              @"D" : @[@"Dead Sea Scrolls", @"Decalogue", @"Dei Verbum", @"Deuteronomic History", @"Deuteronomic Source", @"diachronic", @"Divino Afflante Spiritu", @"Documentary Hypothesis", @"dynamic equivalence"],
+              @"E" : @[@"eisegesis", @"El", @"Elohim", @"Elohist Source", @"Essenes", @"epistle", @"evangelist", @"exegesis",],
               @"F" : @[@"folio", @"formal equivalence", @"form criticism", @"fundamentalism",],
-              @"G" : @[@"Gehenna", @"genre", @"gospel"],
-              @"H" : @[@"hermeneutics", @"Historical Books", @"historical-critical method", @"historical criticism", @"Holy of Holies"],
+              @"G" : @[@"Gehenna", @"genre", @"gentile", @"gospel"],//51
+              @"H" : @[@"hermeneutics", @"hermeneutical circle", @"Historical Books", @"historical-critical method", @"historical criticism", @"Holy of Holies"],
               @"I" : @[@"inspiration", @"interpretation"],
               @"J" : @[@"Jerusalem", @"Jesus of Nazareth", @"Jew", @"justification"],
               @"K" : @[@"Ketuv'im", @"kosher"],
@@ -49,17 +49,17 @@
               @"M" : @[@"manuscript", @"Messiah", @"Mishnah"],
               @"N" : @[@"Nevi'im", @"New Testament"],
               @"O" : @[@"Old Testament"],
-              @"P" : @[@"papyrus", @"parable", @"Passover", @"Pentateuch", @"pericope", @"Priestly Source", @"prophet", @"Prophetic Books"],
-              @"Q" : @[@"Q Source"],
-              @"R" : @[@"redaction criticism"],
-              @"S" : @[@"Satan", @"Septuagint", @"source criticism", @"synagogue", @"synchronic", @"synoptic"],
-              @"T" : @[@"Tanak", @"tax collector", @"textual criticism", @"theophany", @"Torah"],
+              @"P" : @[@"papyrus", @"parable", @"Passover", @"Pentateuch", @"pericope", @"Pharisees", @"Priestly Source", @"prophet", @"Prophetic Books", @"Providentissimus Deus"],
+              @"Q" : @[@"Q Source", @"Qumran"],
+              @"R" : @[@"redaction criticism", @"redemption", @"resurrection"],
+              @"S" : @[@"Sadducces", @"saga", @"Satan", @"Septuagint", @"source criticism", @"Servant Songs", @"story cycle", @"synagogue", @"synchronic", @"synoptic"],
+              @"T" : @[@"Tanak", @"Tax Collector", @"textual criticism", @"theophany", @"Torah"],
               @"U" : @[@"universalism"],
-              @"V" : @[@"vicarious"],
+              @"V" : @[@"vicarious justification"],
               @"W" : @[@"wisdom literature"],
-              @"X" : @[@"xcode"],
+              @"X" : @[@"x"],
               @"Y" : @[@"Yahwist Source", @"YHWH", @"Yom Kippur"],
-              @"Z" : @[@"Zion"],
+              @"Z" : @[@"Zealot", @"ziggurat", @"Zion"],//115
               };
     
     letters = [[terms allKeys] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
@@ -194,6 +194,10 @@
     Word *Christ = [[Word alloc] init];
     Christ.name = @"Christ";
     Christ.definition = @"The title given to Jesus of Nazareth by early Christians - from the Greek word χριστος (christos) - 'annointed one'.";
+    
+    Word *circumcision = [[Word alloc] init];
+    circumcision.name = @"circumcision";
+    circumcision.definition = @"The ritual cutting of the male foreskin; the sign of the covenant according to the Priestly author, described in Genesis 17.";
     
     Word *codex = [[Word alloc] init];
     codex.name = @"codex";
@@ -572,6 +576,7 @@
                 [array addObject: canon];
                 [array addObject: charism];
                 [array addObject: Christ];
+                [array addObject: circumcision]; 
                 [array addObject: codex];
                 [array addObject: covenant];
             }
