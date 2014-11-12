@@ -10,7 +10,9 @@
 #import "Word.h"
 
 @interface WordDataSource ()
+
 @property (nonatomic, strong) NSDictionary *dataDictionay;
+
 @end
 
 @implementation WordDataSource
@@ -38,8 +40,7 @@
 
 - (void)buildSystematicWords
 {
-    // build systematic words A
-    NSMutableArray *sysArrayA = [NSMutableArray array];
+    // A (repeat for all letters/words)
     // create word
     Word *accidence = [[Word alloc] init];
     accidence.name = @"accidence";
@@ -81,26 +82,63 @@
     atonement.name = @"atonement";
     atonement.definition = @"The act of making restitution for inflicted harm";
     
+    // A (repeat for all letters/words)
+    NSMutableArray *sysArrayA = [NSMutableArray array];
     // add to sysArrayA
     [sysArrayA addObject: atonement];
+    [sysArrayA addObject: adoption];
+    [sysArrayA addObject: agape];
+    [sysArrayA addObject: aggiornomento];
+    [sysArrayA addObject: agnostic];
+    [sysArrayA addObject: allegory];
+    [sysArrayA addObject: analogy];
+    [sysArrayA addObject: apologetics];
+    [sysArrayA addObject: apophatic];
+    [sysArrayA addObject: atonement];
 
-    
-
-    // repeat for all words
-    
     // set the A key/value in the systematic dict of the dataDictionary
     self.dataDictionay[@"systematic"][@"A"] = sysArrayA;
     
-    // build systematic words B
+    //B
     NSMutableArray *sysArrayB = [NSMutableArray array];
-    // create word
-    // add to sysArrayB
-    // repeat for all words
     
-    // set the B key/value in the systematic dict of the dataDictionary
+    // create word
+    Word *baptism = [[Word alloc] init];
+    baptism.name = @"baptism";
+    baptism.definition = @"A ritual washing used for initiation into the Christian community";
+    
+    Word *blasphemy = [[Word alloc] init];
+    blasphemy.name = @"blasphemy";
+    blasphemy.definition = @"A form of religious slander";
+    
+    
+    // add to sysArrayB
+    [sysArrayB addObject: baptism];
+    [sysArrayB addObject: blasphemy];
+
     self.dataDictionay[@"systematic"][@"B"] = sysArrayB;
     
-    // repeat for all Letters/Words
+    //C
+    NSMutableArray *sysArrayC = [NSMutableArray array];
+    
+    Word *canon = [[Word alloc] init];
+    canon.name = @"canon";
+    canon.definition = @"Greek word for 'measuring stick'; used metaphorically to refer to a collection of texts regarded as authoritative for faith and practice within a community";
+    
+    Word *Christ = [[Word alloc] init];
+    Christ.name = @"Christ";
+    Christ.definition = @"The title given to Jesus of Nazareth by early Christians - from the Greek word χριστος (christos) - 'annointed one'.";
+    
+    Word *creed = [[Word alloc] init];
+    creed.name = @"creed";
+    creed.definition = @"from the Latin 'credo' (I believe) - a statement of belief; used to refer to the historical creeds of the Church, most notably the Apostle's and Nicene creed.";
+    
+    [sysArrayC addObject: canon];
+    [sysArrayC addObject: Christ];
+    [sysArrayC addObject: creed];
+    
+    self.dataDictionay[@"systematic"][@"C"] = sysArrayC;
+    
 }
 
 - (void)buildEcclesialWords
