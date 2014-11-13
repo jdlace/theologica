@@ -201,11 +201,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		692ED23E1796D552008554F9 = {
+		6907A2081A14525300EA7CF4 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				69B52BAA1A0EF6C100C23B47 /* Launch Screen.xib */,
 				692ED2621796D552008554F9 /* MainStoryboard.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		692ED23E1796D552008554F9 = {
+			isa = PBXGroup;
+			children = (
+				6907A2081A14525300EA7CF4 /* View */,
 				692ED2501796D552008554F9 /* Controllers */,
 				69BB25461A130E8200B3F5B5 /* Data Model */,
 				69989B0419FF2FC70009ABAE /* Widget */,
