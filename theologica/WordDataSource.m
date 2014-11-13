@@ -10,21 +10,89 @@
 #import "Word.h"
 
 @interface WordDataSource ()
-@property (nonatomic, strong) NSDictionary *dataDictionay;
+@property (nonatomic, strong) NSArray *keysArray;
+@property (nonatomic, strong) NSMutableDictionary *dataDictionay;
 @end
 
 @implementation WordDataSource
 
-- (NSDictionary *)dataDictionay
+- (NSArray *)keysArray
+{
+    if (!_keysArray) {
+        _keysArray = @[@"A", @"B", @"C", @"D", @"E", @"F", @"G", @"H", @"I", @"J", @"K", @"L", @"M", @"N", @"O", @"P", @"Q", @"R", @"S", @"T", @"U", @"V", @"W", @"X", @"Y", @"Z"];
+//        NSString *key = [[self.dataDictionay allKeys] firstObject];
+//        _keysArray = [[self.dataDictionay[key] allKeys] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
+    }
+    return _keysArray;
+}
+
+- (NSArray *)keysForCategory:(NSString *)category
+{
+    NSDictionary *categoryDict = self.dataDictionay[category];
+    NSArray *keys = [categoryDict allKeys];
+    return keys;
+}
+
+- (NSArray *)sectionArrayForSection:(NSInteger)section category:(NSString *)category
+{
+    NSDictionary *categoryDict = self.dataDictionay[category];
+    NSString *key = self.keysArray[section];
+    NSArray *sectionArray = categoryDict[key];
+    return sectionArray;
+}
+
+- (NSInteger)numberOfSectionsInDataSourceCategory:(NSString *)category
+{
+    return self.keysArray.count;
+}
+
+- (NSInteger)numberOfRowsInSection:(NSInteger)section forCategory:(NSString *)category
+{
+    NSArray *sectionArray = [self sectionArrayForSection:section category:category];
+    return [sectionArray count];
+}
+
+- (Word *)wordForRowAtIndexPath:(NSIndexPath *)indexPath forCategory:(NSString *)category
+{
+    NSArray *sectionArray = [self sectionArrayForSection:indexPath.section category:category];
+    Word *word = sectionArray[indexPath.row];
+    return word;
+}
+
+- (NSString *)titleForHeaderInSection:(NSInteger)section forCategory:(NSString *)category
+{
+    return self.keysArray[section];
+}
+
+- (NSArray *)sectionIndexTitlesForCategory:(NSString *)category
+{
+    return self.keysArray;
+}
+
+- (NSInteger)sectionForSectionIndexTitle:(NSString *)title forCategory:(NSString *)category
+{
+    return [self.keysArray indexOfObject:title];
+}
+
+
+// build the dictionary/words
+- (NSMutableDictionary *)dataDictionay
 {
     if (!_dataDictionay) {
-        _dataDictionay = @{
-                           @"sytematic":[NSMutableDictionary dictionary],
-                           @"ecclisial":[NSMutableDictionary dictionary],
-                           @"moral":[NSMutableDictionary dictionary],
-                           @"biblical":[NSMutableDictionary dictionary],
-                           @"social":[NSMutableDictionary dictionary],
-                           };
+        _dataDictionay = [NSMutableDictionary dictionary];
+        _dataDictionay[@"systematic"] = [NSMutableDictionary dictionary];
+        _dataDictionay[@"ecclesial"] = [NSMutableDictionary dictionary];
+        _dataDictionay[@"moral"] = [NSMutableDictionary dictionary];
+        _dataDictionay[@"biblical"] = [NSMutableDictionary dictionary];
+        _dataDictionay[@"social"] = [NSMutableDictionary dictionary];
+        
+        for (NSString *key in self.keysArray) {
+            _dataDictionay[@"systematic"][key] = [NSMutableArray array];
+            _dataDictionay[@"ecclesial"][key] = [NSMutableArray array];
+            _dataDictionay[@"moral"][key] = [NSMutableArray array];
+            _dataDictionay[@"biblical"][key] = [NSMutableArray array];
+            _dataDictionay[@"social"][key] = [NSMutableArray array];
+        }
         
         [self buildSystematicWords];
         [self buildEcclesialWords];
@@ -39,8 +107,6 @@
 - (void)buildSystematicWords
 {
     // build systematic words A
-    NSMutableArray *sysArrayA = [NSMutableArray array];
-    // create word
     Word *accidence = [[Word alloc] init];
     accidence.name = @"accidence";
     accidence.definition = @"In Aristotelean philosophy, a nonessential property or quality of a substance.";
@@ -80,32 +146,183 @@
     Word *atonement = [[Word alloc] init];
     atonement.name = @"atonement";
     atonement.definition = @"The act of making restitution for inflicted harm";
+    [_dataDictionay[@"systematic"][@"A"] addObjectsFromArray:@[accidence, adoption, agape, aggiornomento, agnostic, allegory, analogy, apologetics, apophatic, atonement]];
     
-    // add to sysArrayA
-    [sysArrayA addObject: atonement];
-
     
-
-    // repeat for all words
-    
-    // set the A key/value in the systematic dict of the dataDictionary
-    self.dataDictionay[@"systematic"][@"A"] = sysArrayA;
     
     // build systematic words B
-    NSMutableArray *sysArrayB = [NSMutableArray array];
-    // create word
-    // add to sysArrayB
-    // repeat for all words
+    Word *baptism = [[Word alloc] init];
+    baptism.name = @"baptism";
+    baptism.definition = @"A ritual washing used for initiation into the Christian community";
     
-    // set the B key/value in the systematic dict of the dataDictionary
-    self.dataDictionay[@"systematic"][@"B"] = sysArrayB;
+    Word *blasphemy = [[Word alloc] init];
+    blasphemy.name = @"blasphemy";
+    blasphemy.definition = @"A form of religious slander";
+    [_dataDictionay[@"systematic"][@"B"] addObjectsFromArray:@[baptism, blasphemy]];
     
-    // repeat for all Letters/Words
+    
+    // build systematic words C
+    Word *canon = [[Word alloc] init];
+    canon.name = @"canon";
+    canon.definition = @"Greek word for 'measuring stick'; used metaphorically to refer to a collection of texts regarded as authoritative for faith and practice within a community";
+    
+    Word *Christ = [[Word alloc] init];
+    Christ.name = @"Christ";
+    Christ.definition = @"The title given to Jesus of Nazareth by early Christians - from the Greek word χριστος (christos) - 'annointed one'.";
+    
+    Word *creed = [[Word alloc] init];
+    creed.name = @"creed";
+    creed.definition = @"from the Latin 'credo' (I believe) - a statement of belief; used to refer to the historical creeds of the Church, most notably the Apostle's and Nicene creed.";
+    [_dataDictionay[@"systematic"][@"C"] addObjectsFromArray:@[canon, Christ, creed]];
+    
+    
+    
+    // build systematic words D
+    Word *deism = [[Word alloc] init];
+    deism.name = @"deism";
+    deism.definition = @"The belief that God created the world but does not intervene in the natural course of the world.";
+    [_dataDictionay[@"systematic"][@"D"] addObjectsFromArray:@[deism]];
+    
+    
+    // build systematic words E
+    Word *epistemology = [[Word alloc] init];
+    epistemology.name = @"epistemology";
+    epistemology.definition = @"The study of the origin, nature, and limits of human knowledge; one of the three traditional subjects of Western philosophy.";
+    
+    Word *eschatology = [[Word alloc] init];
+    eschatology.name = @"eschatology";
+    eschatology.definition = @"from the Greek 'eschaton' (last thing) - the belief that history will have an end brought about by Divine intervention.";
+    
+    Word *essence = [[Word alloc] init];
+    essence.name = @"essence";
+    essence.definition = @"in Aristotelean philosophy, the property that makes an object what it is.";
+    
+    Word *exNihilo = [[Word alloc] init];
+    exNihilo.name = @"ex nihilo";
+    exNihilo.definition = @"from the Latin 'out of nothing' - The belief that God created the world out of nothing.";
+    [_dataDictionay[@"systematic"][@"E"] addObjectsFromArray:@[epistemology, eschatology, essence, exNihilo]];
+    
+    
+    // build systematic words F
+    Word *faith = [[Word alloc] init];
+    faith.name = @"faith";
+    faith.definition = @"1. Trust or confidence; 2. The content of a religious system ('The Christian faith').";
+    [_dataDictionay[@"systematic"][@"F"] addObjectsFromArray:@[faith]];
+    
+    
+    //I
+    Word *immanence = [[Word alloc] init];
+    immanence.name = @"immanence";
+    immanence.definition = @"The quality of being within human experience.";
+    [_dataDictionay[@"systematic"][@"I"] addObjectsFromArray:@[immanence]];
+    
+    
+    //J
+    Word *jesus = [[Word alloc] init];
+    jesus.name = @"Jesus of Nazareth";
+    jesus.definition = @"The first-century Jewish prophet who proclaimed the Kingdom of God, was executed by the Roman govenor Pontius Pilate, and whom the early Christians believed to raised from dead as the Christ and Son of God.";
+    [_dataDictionay[@"systematic"][@"J"] addObjectsFromArray:@[jesus]];
+    
+    
+    //M
+    Word *metaphysics = [[Word alloc] init];
+    metaphysics.name = @"metaphysics";
+    metaphysics.definition = @"The study of the fundamental nature of reality.";
+    [_dataDictionay[@"systematic"][@"M"] addObjectsFromArray:@[metaphysics]];
+    
+    
+    //P
+    Word *philosophy = [[Word alloc] init];
+    philosophy.name = @"philosophy";
+    philosophy.definition = @"The critical examination of human thought; the love of wisdom.";
+    [_dataDictionay[@"systematic"][@"P"] addObjectsFromArray:@[philosophy]];
+    
+    
+    //T
+    Word *transcendence = [[Word alloc] init];
+    transcendence.name = @"transcendence";
+    transcendence.definition = @"The quality of going beyond human experience.";
+    [_dataDictionay[@"systematic"][@"T"] addObjectsFromArray:@[transcendence]];
+    
+    
+    //U
+    Word *universalism = [[Word alloc] init];
+    universalism.name = @"universalism";
+    universalism.definition = @"The belief that all of humanity will ultimately experience salvation.";
+    [_dataDictionay[@"systematic"][@"U"] addObjectsFromArray:@[universalism]];
 }
 
 - (void)buildEcclesialWords
 {
+    //A
+    Word *absolution = [[Word alloc] init];
+    absolution.name = @"absolution";
+    absolution.definition = @"the act by which a priest declares the forgiveness of sins";
     
+    Word *acolyte = [[Word alloc] init];
+    acolyte.name = @"acolyte";
+    acolyte.definition = @"an assistant to a deacon";
+    
+    Word *angusDei = [[Word alloc] init];
+    angusDei.name = @"Angus Dei";
+    angusDei.definition = @"Part of Mass that begins 'Lamb of God...'.";
+    
+    Word *altar = [[Word alloc] init];
+    altar.name = @"altar";
+    altar.definition = @"the object upon which the Eucharist is placed during the act of consecration";
+    
+    Word *anamnesis = [[Word alloc] init];
+    anamnesis.name = @"anamnesis";
+    anamnesis.definition = @"Greek Word for 'rememberance', used in the Words of Institution.";
+    
+    Word *anathema = [[Word alloc] init];
+    anathema.name = @"anathema";
+    anathema.definition = @"the state of being out of visible communion with the Church";
+    
+    Word *antiphon = [[Word alloc] init];
+    antiphon.name = @"antiphon";
+    antiphon.definition = @"the choral response sung during the entrace processional";
+    
+    Word *apostlesCreed = [[Word alloc] init];
+    apostlesCreed.name = @"Apostle's Creed";
+    apostlesCreed.definition = @"The earliest form of the Rule of Faith; based on the Roman baptismal creed, dated to the year A.D. 150.";
+    
+    Word *arianism = [[Word alloc] init];
+    arianism.name = @"Arianism";
+    arianism.definition = @"The teaching of Arius that the Son was of a different substance than the Father (begotten vs. unbegotten) and thus, not fully divine.";
+    [_dataDictionay[@"ecclesial"][@"A"] addObjectsFromArray:@[absolution, acolyte, angusDei, altar, anamnesis, anathema, antiphon, apostlesCreed, arianism]];
+    
+    //B
+    Word *baptism = [[Word alloc] init];
+    baptism.name = @"baptism";
+    baptism.definition = @"the intiation rite into the Church";
+    
+    Word *baptistry = [[Word alloc] init];
+    baptistry.name = @"baptistry";
+    baptistry.definition = @"the place within a church used for baptism; usually referred to as a 'font'.";
+    
+    Word *basillica = [[Word alloc] init];
+    basillica.name = @"basillica";
+    basillica.definition = @"term used to refer to a church in which the diocescan bishop presides; the Church inherited this architecture from the Roman Imperial administrative system.";
+    
+    Word *benedictus = [[Word alloc] init];
+    benedictus.name = @"Benedictus";
+    benedictus.definition = @"the prayer of Simeon contained within the gospel of Luke 2:29-32.";
+    
+    Word *bishop = [[Word alloc] init];
+    bishop.name = @"bishop";
+    bishop.definition = @"from the Greek 'episcopos' (overseer) - the third order of clerics in the Catholic tradition; one who presides over a diocese.";
+    
+    Word *blasphemy = [[Word alloc] init];
+    blasphemy.name = @"blasphemy";
+    blasphemy.definition = @"religious slander";
+    [_dataDictionay[@"ecclesial"][@"B"] addObjectsFromArray:@[baptism, baptistry, basillica, benedictus, bishop, blasphemy]];
+    
+    //P
+    Word *protestant = [[Word alloc] init];
+    protestant.name = @"Protestant";
+    protestant.definition = @"The theological objection to the authority of the Pope in the Church; the Protestant Reformation.";
+    [_dataDictionay[@"ecclesial"][@"P"] addObjectsFromArray:@[protestant]];
 }
 
 - (void)buildMoralWords
