@@ -60,6 +60,7 @@
 		69989B0919FF2FC70009ABAE /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69989B0819FF2FC70009ABAE /* TodayViewController.m */; };
 		69989B0B19FF2FC70009ABAE /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69989B0A19FF2FC70009ABAE /* MainInterface.storyboard */; };
 		69989B0E19FF2FC70009ABAE /* Theologica.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 69989B0219FF2FC60009ABAE /* Theologica.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		699A18651A16ABD700B76311 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 699A18641A16ABD700B76311 /* icon.png */; };
 		69B52BAB1A0EF6C100C23B47 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69B52BAA1A0EF6C100C23B47 /* Launch Screen.xib */; };
 		69BB25491A130F2E00B3F5B5 /* WordDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 69BB25481A130F2E00B3F5B5 /* WordDataSource.m */; };
 		69FB18EB1A0051C500F1C9A4 /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = 69FB18EA1A0051C500F1C9A4 /* Word.m */; };
@@ -164,6 +165,7 @@
 		69989B0719FF2FC70009ABAE /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
 		69989B0819FF2FC70009ABAE /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
 		69989B0A19FF2FC70009ABAE /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		699A18641A16ABD700B76311 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../icon.png; sourceTree = "<group>"; };
 		69B52BAA1A0EF6C100C23B47 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 		69BB25471A130F2E00B3F5B5 /* WordDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordDataSource.h; sourceTree = "<group>"; };
 		69BB25481A130F2E00B3F5B5 /* WordDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordDataSource.m; sourceTree = "<group>"; };
@@ -218,6 +220,7 @@
 			children = (
 				6907A2081A14525300EA7CF4 /* View */,
 				692ED2501796D552008554F9 /* Controllers */,
+				692ED2511796D552008554F9 /* Supporting Files */,
 				69BB25461A130E8200B3F5B5 /* Data Model */,
 				69989B0419FF2FC70009ABAE /* Widget */,
 				692ED2491796D552008554F9 /* Frameworks */,
@@ -278,7 +281,6 @@
 				692ED2D51796F5E7008554F9 /* SocialTableViewController.m */,
 				692ED2D71796F601008554F9 /* SocialDetailViewController.h */,
 				692ED2D81796F602008554F9 /* SocialDetailViewController.m */,
-				692ED2511796D552008554F9 /* Supporting Files */,
 			);
 			name = Controllers;
 			path = theologica;
@@ -294,6 +296,7 @@
 				692ED29D1796EF10008554F9 /* hierarchy@2x.png */,
 				692ED29E1796EF10008554F9 /* man-influence.png */,
 				692ED29F1796EF10008554F9 /* man-influence@2x.png */,
+				699A18641A16ABD700B76311 /* icon.png */,
 				692ED2A01796EF10008554F9 /* meditation.png */,
 				692ED2A11796EF10008554F9 /* meditation@2x.png */,
 				692ED2A21796EF10008554F9 /* monk.png */,
@@ -325,6 +328,7 @@
 				692ED2601796D552008554F9 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			path = theologica;
 			sourceTree = "<group>";
 		};
 		69989B0419FF2FC70009ABAE /* Widget */ = {
@@ -459,6 +463,7 @@
 				692ED28D1796E575008554F9 /* business-network@2x.png in Resources */,
 				692ED2941796E709008554F9 /* angel.png in Resources */,
 				692ED2951796E709008554F9 /* angel@2x.png in Resources */,
+				699A18651A16ABD700B76311 /* icon.png in Resources */,
 				692ED2961796E709008554F9 /* christian.png in Resources */,
 				692ED2971796E709008554F9 /* christian@2x.png in Resources */,
 				692ED2981796E709008554F9 /* equality.png in Resources */,
