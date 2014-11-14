@@ -70,6 +70,10 @@
     analogy.name = @"analogy";
     analogy.definition = @"A way of probing eternal truths...";
     
+    Word *annointing = [[Word alloc] init];
+    annointing.name = @"Annointing of the sick";
+    annointing.definition = @"The sacrament of healing...";
+    
     Word *apologetics = [[Word alloc] init];
     apologetics.name = @"apologetics";
     apologetics.definition = @"The rational defense of the Christian faith; from the Greek words    (apo) - 'from' and     (logia) - 'reason'.";
@@ -99,13 +103,14 @@
     // A (repeat for all letters/words)
     NSMutableArray *sysArrayA = [NSMutableArray array];
     // add to sysArrayA
-    [sysArrayA addObject: atonement];
+    [sysArrayA addObject: accidence];
     [sysArrayA addObject: adoption];
     [sysArrayA addObject: agape];
     [sysArrayA addObject: aggiornomento];
     [sysArrayA addObject: agnostic];
     [sysArrayA addObject: allegory];
     [sysArrayA addObject: analogy];
+    [sysArrayA addObject: annointing];
     [sysArrayA addObject: apologetics];
     [sysArrayA addObject: apophatic];
     [sysArrayA addObject: aposteriori];
@@ -145,6 +150,14 @@
     Word *Christ = [[Word alloc] init];
     Christ.name = @"Christ";
     Christ.definition = @"The title given to Jesus of Nazareth by early Christians - from the Greek word χριστος (christos) - 'annointed one'.";
+    
+    Word *compatiblism = [[Word alloc] init];
+    compatiblism.name = @"compatiblism";
+    compatiblism.definition = @"The belief that human freedom is compatible with deterministic elements of human experience";
+    
+    Word *confession = [[Word alloc] init];
+    confession.name = @"Confession";
+    confession.definition = @"The sacrament of reconciliation..."; 
     
     Word *cosmological = [[Word alloc] init];
     cosmological.name = @"Cosmological Argument";

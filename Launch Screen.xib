@@ -29,6 +29,9 @@
                         <rect key="frame" x="20" y="218" width="441" height="43"/>
                     </variation>
                 </label>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Iq2-ER-Twn">
+                    <rect key="frame" x="120" y="251" width="240" height="125"/>
+                </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
@@ -44,4 +47,7 @@
             <point key="canvasLocation" x="404" y="445"/>
         </view>
     </objects>
+    <resources>
+        <image name="icon2.png" width="120" height="120"/>
+    </resources>
 </document>

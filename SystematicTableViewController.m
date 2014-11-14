@@ -41,33 +41,33 @@
     
 
     terms = @{
-              @"A" : @[@"accidence", @"adoption", @"aesthetics", @"agape", @"aggiornomento", @"agnostic", @"allegory", @"analogy"
-                       , @"apologetics", @"apophatic", @"a priori", @"a posteriori", @"argument", @"atonement"],
+              @"A" : @[@"accidence", @"adoption", @"agape", @"aggiornomento", @"agnostic", @"allegory", @"analogy"
+                       , @"Annointing of the Sick", @"apologetics", @"apophatic", @"a posteriori", @"a priori", @"argument", @"atonement"],
               @"B" : @[@"baptism", @"blasphemy"],
-              @"C" : @[@"canon", @"Christ", @"compatiblism", @"Cosmological Argument", @"creationism", @"creed"],
-              @"D" : @[@"deductive argument", @"deism", @"determinism", @"Development of Doctrine", @"dualism"],
-              @"E" : @[@"epistemology", @"eschatology", @"essence", @"exclusivism", @"evolution", @"ex nihilo", @"explanans", @"explanandum"],
+              @"C" : @[@"canon", @"Christ", @"compatiblism", @"Confession", @"Confirmation", @"Cosmological Argument", @"creationism", @"creed"],
+              @"D" : @[@"deism", @"determinism", @"development of doctrine", @"dualism"],
+              @"E" : @[@"epistemology", @"eschatology", @"essence", @"exclusivism", @"ex nihilo", @"ex opere operato", @"explanans", @"explanandum"],
               @"F" : @[@"faith", @"fideism", @"foreknowledge", @"free-will"],
               @"G" : @[@"gospel", @"grace"],
               @"H" : @[@"heaven", @"hell", @"henotheism", @"heresy"],
-              @"I" : @[@"idolatry", @"immanence", @"inclusivism", @"inductive argument"],
-              @"J" : @[@"Jesus of Nazareth"],//50
+              @"I" : @[@"idolatry", @"immanence", @"inclusivism"],
+              @"J" : @[@"justification"],//50
               @"K" : @[@"kataphatic", @"kenosis"],
               @"L" : @[@"Law of Non-Contradiction", @"Liberation Theology", @"logic"],
               @"M" : @[@"metaphysics", @"miracle", @"monotheism", @"mystery"],
               @"N" : @[@"natural theology", @"numinous"],
-              @"O" : @[@"objective", @"omnibenevolence", @"omnipotence", @"omnipresence", @"omniscience", @"Ontological Argument", @"open theism", @"orthodoxy", @"orthodpraxy"],
+              @"O" : @[@"objective", @"omnibenevolence", @"omnipotence", @"omnipresence", @"omniscience", @"Ontological Argument", @"Open Theism", @"orthodoxy", @"orthodpraxy"],
               @"P" : @[@"person", @"philosophy", @"physicalism", @"pluralism", @"polytheism", @"predestination", @"Problem of Evil", @"Process Theology"],
               @"Q" : @[@"quintessence"],
-              @"R" : @[@"redemption", @"religious experience", @"repentance"],
-              @"S" : @[@"salvation", @"science", @"sensus fidelium", @"soteriology", @"subjective", @"substance", @"Systematic Theology"],
-              @"T" : @[@"Teleological Argument", @"theism", @"theodicy", @"theology", @"Trinity"],
+              @"R" : @[@"redemption", @"religious experience", @"repentance", @"revelation"],
+              @"S" : @[@"salvation", @"sensus fidelium", @"soteriology", @"subjective", @"substance", @"Systematic Theology"],
+              @"T" : @[@"Teleological Argument", @"theism", @"theodicy", @"theological aesthetics", @"theology", @"Trinity"],
               @"U" : @[@"universalism"],
               @"V" : @[@"vicarious"],
               @"W" : @[@"will"],
               @"X" : @[@"x"],
               @"Y" : @[@"YHWH"],
-              @"Z" : @[@"zeitgeist", @"zionism"],//98
+              @"Z" : @[@"zeitgeist"],//98
              };
                                                                                                                         
     letters = [[terms allKeys] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
@@ -213,6 +213,10 @@
     
     //T
     
+    Word *theoAesthetics = [[Word alloc] init];
+    theoAesthetics.name = @"theological aesthetics";
+    theoAesthetics.definition = @"The study of God in light of the human experience of the arts.";
+    
     Word *transcendence = [[Word alloc] init];
     transcendence.name = @"transcendence";
     transcendence.definition = @"The quality of going beyond human experience.";
@@ -332,6 +336,7 @@
             }
         else if ([letter isEqualToString:@"T"])
             {
+                [array addObject: theoAesthetics]; 
                 [array addObject: transcendence];
             }
         else if ([letter isEqualToString:@"U"])
