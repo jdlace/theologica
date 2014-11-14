@@ -96,7 +96,7 @@
 /* Begin PBXFileReference section */
 		690248B617F05294009D6811 /* bookmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bookmark@2x.png"; path = "../bookmark@2x.png"; sourceTree = "<group>"; };
 		6902FACC17F51CFC00299A50 /* theologicaicon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = theologicaicon1.png; sourceTree = SOURCE_ROOT; };
-		6902FACD17F51D3E00299A50 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6902FACD17F51D3E00299A50 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = theologica/Images.xcassets; sourceTree = "<group>"; };
 		692ED2471796D552008554F9 /* theologica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = theologica.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		692ED24A1796D552008554F9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		692ED24C1796D552008554F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -208,6 +208,7 @@
 			children = (
 				69B52BAA1A0EF6C100C23B47 /* Launch Screen.xib */,
 				692ED2621796D552008554F9 /* MainStoryboard.storyboard */,
+				6902FACD17F51D3E00299A50 /* Images.xcassets */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -277,7 +278,6 @@
 				692ED2D51796F5E7008554F9 /* SocialTableViewController.m */,
 				692ED2D71796F601008554F9 /* SocialDetailViewController.h */,
 				692ED2D81796F602008554F9 /* SocialDetailViewController.m */,
-				6902FACD17F51D3E00299A50 /* Images.xcassets */,
 				692ED2511796D552008554F9 /* Supporting Files */,
 			);
 			name = Controllers;
