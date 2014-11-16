@@ -55,12 +55,15 @@
 		692ED2D01796F5A7008554F9 /* BiblicalDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2CF1796F5A7008554F9 /* BiblicalDetailViewController.m */; };
 		692ED2D61796F5E7008554F9 /* SocialTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2D51796F5E7008554F9 /* SocialTableViewController.m */; };
 		692ED2D91796F602008554F9 /* SocialDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2D81796F602008554F9 /* SocialDetailViewController.m */; };
+		6948C2811A184AA6008864F3 /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6948C27F1A184AA6008864F3 /* appicon.png */; };
+		6948C2821A184AA6008864F3 /* appicon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6948C2801A184AA6008864F3 /* appicon2.png */; };
 		695C96DA1A15669E00BB5B7B /* icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 695C96D91A15669E00BB5B7B /* icon2.png */; };
 		69989B0319FF2FC70009ABAE /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69989AC519FF2D5D0009ABAE /* NotificationCenter.framework */; };
 		69989B0919FF2FC70009ABAE /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69989B0819FF2FC70009ABAE /* TodayViewController.m */; };
 		69989B0B19FF2FC70009ABAE /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69989B0A19FF2FC70009ABAE /* MainInterface.storyboard */; };
 		69989B0E19FF2FC70009ABAE /* Theologica.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 69989B0219FF2FC60009ABAE /* Theologica.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		699A18651A16ABD700B76311 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 699A18641A16ABD700B76311 /* icon.png */; };
+		699A18671A17EF5F00B76311 /* circles.png in Resources */ = {isa = PBXBuildFile; fileRef = 699A18661A17EF5F00B76311 /* circles.png */; };
 		69B52BAB1A0EF6C100C23B47 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69B52BAA1A0EF6C100C23B47 /* Launch Screen.xib */; };
 		69BB25491A130F2E00B3F5B5 /* WordDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 69BB25481A130F2E00B3F5B5 /* WordDataSource.m */; };
 		69FB18EB1A0051C500F1C9A4 /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = 69FB18EA1A0051C500F1C9A4 /* Word.m */; };
@@ -158,6 +161,8 @@
 		692ED2D51796F5E7008554F9 /* SocialTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialTableViewController.m; sourceTree = "<group>"; };
 		692ED2D71796F601008554F9 /* SocialDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialDetailViewController.h; sourceTree = "<group>"; };
 		692ED2D81796F602008554F9 /* SocialDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialDetailViewController.m; sourceTree = "<group>"; };
+		6948C27F1A184AA6008864F3 /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appicon.png; path = ../../appicon.png; sourceTree = "<group>"; };
+		6948C2801A184AA6008864F3 /* appicon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appicon2.png; path = ../../appicon2.png; sourceTree = "<group>"; };
 		695C96D91A15669E00BB5B7B /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon2.png; path = ../../icon2.png; sourceTree = "<group>"; };
 		69989AC519FF2D5D0009ABAE /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		69989B0219FF2FC60009ABAE /* Theologica.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Theologica.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -166,6 +171,7 @@
 		69989B0819FF2FC70009ABAE /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
 		69989B0A19FF2FC70009ABAE /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
 		699A18641A16ABD700B76311 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../icon.png; sourceTree = "<group>"; };
+		699A18661A17EF5F00B76311 /* circles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = circles.png; path = ../../circles.png; sourceTree = "<group>"; };
 		69B52BAA1A0EF6C100C23B47 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 		69BB25471A130F2E00B3F5B5 /* WordDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordDataSource.h; sourceTree = "<group>"; };
 		69BB25481A130F2E00B3F5B5 /* WordDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordDataSource.m; sourceTree = "<group>"; };
@@ -296,6 +302,8 @@
 				692ED29D1796EF10008554F9 /* hierarchy@2x.png */,
 				692ED29E1796EF10008554F9 /* man-influence.png */,
 				692ED29F1796EF10008554F9 /* man-influence@2x.png */,
+				6948C27F1A184AA6008864F3 /* appicon.png */,
+				6948C2801A184AA6008864F3 /* appicon2.png */,
 				699A18641A16ABD700B76311 /* icon.png */,
 				692ED2A01796EF10008554F9 /* meditation.png */,
 				692ED2A11796EF10008554F9 /* meditation@2x.png */,
@@ -307,6 +315,7 @@
 				692ED28F1796E709008554F9 /* angel@2x.png */,
 				692ED2901796E709008554F9 /* christian.png */,
 				692ED2911796E709008554F9 /* christian@2x.png */,
+				699A18661A17EF5F00B76311 /* circles.png */,
 				692ED2921796E709008554F9 /* equality.png */,
 				692ED2931796E709008554F9 /* equality@2x.png */,
 				692ED27F1796E04B008554F9 /* bible@2x.png */,
@@ -449,6 +458,7 @@
 				692ED25F1796D552008554F9 /* Default@2x.png in Resources */,
 				692ED2611796D552008554F9 /* Default-568h@2x.png in Resources */,
 				692ED2641796D552008554F9 /* MainStoryboard.storyboard in Resources */,
+				6948C2821A184AA6008864F3 /* appicon2.png in Resources */,
 				692ED2691796D552008554F9 /* first.png in Resources */,
 				692ED26B1796D552008554F9 /* first@2x.png in Resources */,
 				692ED2701796D552008554F9 /* second.png in Resources */,
@@ -458,6 +468,7 @@
 				692ED2851796E04B008554F9 /* business-network.png in Resources */,
 				692ED2861796E04B008554F9 /* church.png in Resources */,
 				692ED2871796E04B008554F9 /* church@2x.png in Resources */,
+				699A18671A17EF5F00B76311 /* circles.png in Resources */,
 				692ED28B1796E511008554F9 /* bible.png in Resources */,
 				6902FACE17F51D3E00299A50 /* Images.xcassets in Resources */,
 				692ED28D1796E575008554F9 /* business-network@2x.png in Resources */,
@@ -478,6 +489,7 @@
 				692ED2AC1796EF10008554F9 /* monk.png in Resources */,
 				692ED2AD1796EF10008554F9 /* monk@2x.png in Resources */,
 				692ED2AE1796EF10008554F9 /* perspective-drawing.png in Resources */,
+				6948C2811A184AA6008864F3 /* appicon.png in Resources */,
 				692ED2AF1796EF10008554F9 /* perspective-drawing@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
