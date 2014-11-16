@@ -63,7 +63,15 @@
               };
     
     letters = [[terms allKeys] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
-    
+   /*
+    NSArray * items = ...;
+    NSMutableString * bulletList = [NSMutableString stringWithCapacity:items.count*30];
+    for (NSString * s in items)
+        {
+        [bulletList appendFormat:@"\u2022 %@\n", s];
+        }
+    textView.text = bulletList;
+    */
     //A
     /*
     Word *aaronWord = [[Word alloc] init];
@@ -722,6 +730,8 @@
             }
         
         [_biblicalDetails addObject:array];
+    
+
     }
     
 
