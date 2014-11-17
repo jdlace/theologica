@@ -88,11 +88,11 @@
     */
     Word *abba = [[Word alloc] init];
     abba.name = @"Abba";
-    abba.definition = @"The Aramaic term for 'Daddy'; used by Jesus in prayer to God in the gospels.";
+    abba.definition = @"The Aramaic term for “Daddy”; used by Jesus in prayer to God in the gospels.";
     
     Word *adonai = [[Word alloc] init];
     adonai.name = @"Adonai";
-    adonai.definition =@"The Hebrew word for 'Ruler'; used as a synonym for YHWH";
+    adonai.definition =@"The Hebrew word for “Ruler”; used as a synonym for YHWH.";
     
     Word *anthropomorphism = [[Word alloc] init];
     anthropomorphism.name = @"anthropomorphism";
@@ -105,15 +105,15 @@
     
     Word *apocalypse = [[Word alloc] init];
     apocalypse.name = @"apocalypse";
-    apocalypse.definition = @"1. The revelation of something previously hidden, used by Paul to refer to his experience of the risen Jesus. 2. The name of the last book of the New Testament - from the Greek word αποκαλυπσις (apokalypsis) - 'unveiling'.";
+    apocalypse.definition = @"1. The revelation of something previously hidden, used by Paul to refer to his experience of the risen Jesus. 2. The name of the last book of the New Testament - from the Greek word αποκαλυπσις (apokalypsis) - “unveiling'.";
     
     Word *apocrypha = [[Word alloc] init];
     apocrypha.name = @"apocrypha";
-    apocrypha.definition = @"The 7 books not found in the Protestant canon; Baruch, Judith, 1st and 2nd Maccabees, Sirach, Tobit, Wisdom - from the Greek word for 'hidden'";
+    apocrypha.definition = @"The 7 books not found in the Protestant canon; Baruch, Judith, 1st and 2nd Maccabees, Sirach, Tobit, Wisdom - from the Greek word for “hidden”";
     
     Word *apodictic = [[Word alloc] init];
     apodictic.name = @"apodictic";
-    apodictic.definition = @"A type of law which is based on a moral norm or command; see Exodus 20, 'Decalogue'.";
+    apodictic.definition = @"A type of law which is based on a moral norm or command; see Exodus 20, “Decalogue”.";
     
     /*
     Word *apollosWord = [[Word alloc]  init];
@@ -123,15 +123,15 @@
                        
     Word *apostle = [[Word alloc] init];
     apostle.name = @"apostle";
-    apostle.definition = @"The disciples which compirised Jesus' inner cirlce and whom he commissioned to spread the good news of the Kingdom of God; also used by Paul to refer to anyone who had seen the risen Christ - from the Greek word αποστολος (apostolos) - 'delegate'";
+    apostle.definition = @"The disciples which compirised Jesus' inner cirlce and whom he commissioned to spread the good news of the Kingdom of God; also used by Paul to refer to anyone who had seen the risen Christ - from the Greek word αποστολος (apostolos) - “delegate”.";
     
     Word *aqeda = [[Word alloc] init];
     aqeda.name = @"aqeda";
-    aqeda.definition = @"The story of the binding and near-sacrifice of Isaac by Abraham - from Hebrew word for 'binding'.";
+    aqeda.definition = @"The story of the binding and near-sacrifice of Isaac by Abraham - from Hebrew word for “binding”.";
     
     Word *aramaic = [[Word alloc] init];
     aramaic.name = @"Aramaic";
-    aramaic.definition = @"A variant of Hebrew, likely the native language of the historical Jesus";
+    aramaic.definition = @"A variant of Hebrew, likely the native language of the historical Jesus.";
     /*
     Word *artraxercesWord = [[Word alloc] init];
     artraxercesWord.name = @"Artaxerxes";
@@ -148,7 +148,7 @@
     
     Word *assyria = [[Word alloc] init];
     assyria.name = @"Assyria";
-    assyria.definition = @"One of the numerous Mesopotamian empires in the ancient world which conquered the northern kindgom of Israel in 722 BCE";
+    assyria.definition = @"One of the numerous Mesopotamian empires in the ancient world which conquered the northern kindgom of Israel in 722 BCE.";
     
     //B
     
@@ -158,7 +158,7 @@
     
     Word *babel = [[Word alloc] init];
     babel.name = @"Babel";
-    babel.definition = @"The Hebrew word for 'confusion'; named for Tower eitiology in Gen. 11.";
+    babel.definition = @"The Hebrew word for “confusion”; named for Tower eitiology in Gen. 11.";
     
     Word *babylon = [[Word alloc] init];
     babylon.name = @"Babylon";
@@ -175,7 +175,7 @@
     
     Word *bible = [[Word alloc] init];
     bible.name = @"Bible";
-    bible.definition = @"The collection of the Old and New Testaments regarded as canonical and inspired within Catholicism. From the Greek word βιβλος (biblos) - 'scroll'.";
+    bible.definition = @"The collection of the Old and New Testaments regarded as canonical and inspired within Catholicism. From the Greek word βιβλος (biblos) - “scroll”.";
     
     Word *biblicalCriticism = [[Word alloc] init];
     biblicalCriticism.name = @"biblical criticism";
@@ -183,7 +183,7 @@
     
     Word *bethel = [[Word alloc] init];
     bethel.name = @"Beth-El";
-    bethel.definition = @"A sacred site within the patriarchal story cycles in Genesis - from the Hebrew for 'House of El'.";
+    bethel.definition = @"A sacred site within the patriarchal story cycles in Genesis - from the Hebrew for “House of El”.";
     
     //C
     
@@ -193,15 +193,15 @@
     
     Word *canon = [[Word alloc] init];
     canon.name = @"canon";
-    canon.definition = @"A collection of texts regarded as authoritative for faith and practice within a community - from the Greek word κανον (kanon) - 'measuring stick'.";
+    canon.definition = @"A collection of texts regarded as authoritative for faith and practice within a community - from the Greek word κανον (kanon) - “measuring stick“.";
     
     Word *charism = [[Word alloc] init];
     charism.name = @"charism";
-    charism.definition = @"According to the Apostle Paul, the spiritual gifts that come with Christian experience of the Holy Spirit - from the Greek word χαρισμα (charisma) - 'gift'. See 1 Corinthians 12.";
+    charism.definition = @"According to the Apostle Paul, the spiritual gifts that come with Christian experience of the Holy Spirit - from the Greek word χαρισμα (charisma) - “gift”. See 1 Corinthians 12.";
     
     Word *Christ = [[Word alloc] init];
     Christ.name = @"Christ";
-    Christ.definition = @"The title given to Jesus of Nazareth by early Christians - from the Greek word χριστος (christos) - 'annointed one'.";
+    Christ.definition = @"The title given to Jesus of Nazareth by early Christians - from the Greek word χριστος (christos) - “annointed one”.";
     
     Word *circumcision = [[Word alloc] init];
     circumcision.name = @"circumcision";
@@ -219,7 +219,7 @@
     
     Word *decalogue = [[Word alloc] init];
     decalogue.name = @"Decalogue";
-    decalogue.definition = @"The term given to the 10 Commandments in Exodus 20 - from the Greek words δεκα (deka) - 'ten' and λογος (logos) - 'word'";
+    decalogue.definition = @"The term given to the 10 Commandments in Exodus 20 - from the Greek words δεκα (deka) - “ten” and λογος (logos) - “word”";
     
     Word *deiVerbum = [[Word alloc] init];
     deiVerbum.name = @"Dei Verbum";
@@ -231,11 +231,11 @@
     
     Word *deuteronomicSource = [[Word alloc] init];
     deuteronomicSource.name = @"Deuteronomic Source";
-    deuteronomicSource.definition = @"The 'D' source; comprising primarily of the book of Deuteronomy; one of the four sources which compose the Torah. See 'Documentary Hypothesis.'";
+    deuteronomicSource.definition = @"The “D” source; comprising primarily of the book of Deuteronomy; one of the four sources which compose the Torah. See “Documentary Hypothesis.”";
     
     Word *deuteronomy = [[Word alloc] init];
     deuteronomy.name = @"Deuteronomy";
-    deuteronomy.definition = @"from the Greek words 'deuteros' (second) and 'nomos' (law) - the fifth and last book of the Torah containing a second version of the Ten Commandments and various laws relating to community life in ancient Israel.";
+    deuteronomy.definition = @"from the Greek words “deuteros” (second) and “nomos” (law) - the fifth and last book of the Torah containing a second version of the Ten Commandments and various laws relating to community life in ancient Israel.";
     
     Word *diachronic = [[Word alloc] init];
     diachronic.name = @"diachronic";
@@ -244,7 +244,7 @@
     
     Word *documentaryHypothesis = [[Word alloc] init];
     documentaryHypothesis.name = @"Documentary Hypothesis";
-    documentaryHypothesis.definition = @"The theory, put into classical form by Julius Wellhausen, that there are 4 independent sources which comprise the Torah; 'Yahwist' (J), 'Elohist' (E), 'Priestly' (P), and 'Deuteronomic' (D).";
+    documentaryHypothesis.definition = @"The theory, put into classical form by Julius Wellhausen, that there are 4 independent sources which comprise the Torah; “Yahwist” (J), “Elohist” (E), “Priestly” (P), and “Deuteronomic” (D).";
     
     Word *dynamic = [[Word alloc] init];
     dynamic.name = @"dynamic equivalence";
@@ -254,7 +254,7 @@
     
     Word *eisegesis = [[Word alloc] init];
     eisegesis.name = @"eisegesis";
-    eisegesis.definition = @"Interpreting a text by reading into it one’s own ideas and presuppositions; the opposite of exegesis; from the Greek εις (eis) - 'into' and αγω (ago) - 'to go'.";
+    eisegesis.definition = @"Interpreting a text by reading into it one’s own ideas and presuppositions; the opposite of exegesis; from the Greek εις (eis) - “into” and αγω (ago) - “to go”.";
     
     Word *el = [[Word alloc] init];
     el.name = @"El";
@@ -266,7 +266,7 @@
     
     Word *elohistSource = [[Word alloc] init];
     elohistSource.name = @"Elohist Source";
-    elohistSource.definition = @"The 'E' source; comprising various texts throughout Genesis, Exodus, and Numbers; uses 'Elohim' as primary reference for God; reflects a preference for the northern kingdom of Israel; written ca. 900 BCE; favors Moses over Aaron and southern kingdom as well as northern tribes of Ephraim and Joseph; related to the same school of priests responsible for the Deuteronomic Source.";
+    elohistSource.definition = @"The “E” source; comprising various texts throughout Genesis, Exodus, and Numbers; uses 'Elohim' as primary reference for God; reflects a preference for the northern kingdom of Israel; written ca. 900 BCE; favors Moses over Aaron and southern kingdom as well as northern tribes of Ephraim and Joseph; related to the same school of priests responsible for the Deuteronomic Source.";
     
     Word *epistle = [[Word alloc] init];
     epistle.name = @"epistle";
@@ -278,7 +278,7 @@
     
     Word *exegesis = [[Word alloc] init];
     exegesis.name = @"exegesis";
-    exegesis.definition = @"The process of determining the meaning of a text in its original context; a necessary element of hermeneutics; from the Greek εξ (ex) - 'out' and αγω (ago) - 'to go'.";
+    exegesis.definition = @"The process of determining the meaning of a text in its original context; a necessary element of hermeneutics; from the Greek εξ (ex) - “out” and αγω (ago) - “to go”.";
     
     //F
     
@@ -312,13 +312,13 @@
     
     Word *gospel = [[Word alloc] init];
     gospel.name = @"gospel";
-    gospel.definition = @"1. The message of the historical Jesus concerning the Kingdom of God; 2. The message about Jesus concerning the salvation of the world; 3. One of the four canonical accounts of the life and ministry of the historical Jesus (Matthew, Mark, Luke, and John); from the Greek word ευαγγελιον (evangelion) - 'good news'.";
+    gospel.definition = @"1. The message of the historical Jesus concerning the Kingdom of God; 2. The message about Jesus concerning the salvation of the world; 3. One of the four canonical accounts of the life and ministry of the historical Jesus (Matthew, Mark, Luke, and John); from the Greek word ευαγγελιον (evangelion) - “good news”.";
     
     //H
     
     Word *hermeneutics = [[Word alloc] init];
     hermeneutics.name = @"hermeneutics";
-    hermeneutics.definition = @"The science of interpretation and process of determining meaning, usually of a text - from the name of the Greek god 'Hermes', the messenger of the gods.";
+    hermeneutics.definition = @"The science of interpretation and process of determining meaning, usually of a text - from the name of the Greek god “Hermes”, the messenger of the gods.";
     
     Word *historicalBooks = [[Word alloc] init];
     historicalBooks.name = @"Historical Books";
@@ -326,7 +326,7 @@
     
     Word *hcm = [[Word alloc] init];
     hcm.name = @"historical-critical method";
-    hcm.definition = @"The hermeneutical method which seeks to uncover the intention of the author through exegetical analysis of history, language, literature, sources, and culture; according to the Pontifical Biblical Commission's 'The Interpretation of the Bible in the Church', it is the one essential method for Catholic hermeneutics.";
+    hcm.definition = @"The hermeneutical method which seeks to uncover the intention of the author through exegetical analysis of history, language, literature, sources, and culture; according to the Pontifical Biblical Commission's “The Interpretation of the Bible in the Church”, it is the one essential method for Catholic hermeneutics.";
     
     Word *historicalCriticism = [[Word alloc] init];
     historicalCriticism.name = @"historical criticism";
@@ -362,13 +362,13 @@
     
     Word *justification = [[Word alloc] init];
     justification.name = @"justification";
-    justification.definition = @"The state of being in a just or right relationship; synonymous with 'righteousness'; used by Paul to refer to the state of believers in Jesus.";
+    justification.definition = @"The state of being in a just or right relationship; synonymous with “righteousness”; used by Paul to refer to the state of believers in Jesus.";
     
     //K
     
     Word *ketuvim = [[Word alloc] init];
     ketuvim.name = @"Ketuv'im";
-    ketuvim.definition = @"The Hebrew word for 'writings'; the third of three sections in the Tanak; see 'Tanak'";
+    ketuvim.definition = @"The Hebrew word for “writings”; the third of three sections in the Tanak; see “Tanak”";
     
     Word *kosher = [[Word alloc] init];
     kosher.name = @"kosher";
@@ -396,7 +396,7 @@
     
     Word *messiah = [[Word alloc] init];
     messiah.name = @"Messiah";
-    messiah.definition = @"Equivalent title to 'Christ'; used by the early Christians to refer to the divinely designated status of Jesus of Nazareth - from the Hebrew for 'annointed one'.";
+    messiah.definition = @"Equivalent title to 'Christ”; used by the early Christians to refer to the divinely designated status of Jesus of Nazareth - from the Hebrew for “annointed one”.";
     
     Word *mishnah = [[Word alloc] init];
     mishnah.name = @"Mishnah";
@@ -406,7 +406,7 @@
     
     Word *neviim = [[Word alloc] init];
     neviim.name = @"Nevi'im";
-    neviim.definition = @"The Hebrew word for 'Prophets'; the term given the second of the three sections of the Tanak.";
+    neviim.definition = @"The Hebrew word for “Prophets”; the term given the second of the three sections of the Tanak.";
     
     Word *newTestament = [[Word alloc] init];
     newTestament.name = @"New Testament";
@@ -434,7 +434,7 @@
     
     Word *pentateuch = [[Word alloc] init];
     pentateuch.name = @"Pentateuch";
-    pentateuch.definition = @"Another term for the first five books of the Old Testament, the Torah - from the Greek for 'five scrolls'.";
+    pentateuch.definition = @"Another term for the first five books of the Old Testament, the Torah - from the Greek for “five scrolls”.";
     
     Word *pericope = [[Word alloc] init];
     pericope.name = @"pericope";
@@ -443,7 +443,7 @@
     
     Word *priestly = [[Word alloc] init];
     priestly.name = @"Priestly Source";
-    priestly.definition = @"The 'P' Source; compirising various texts throughtout the Torah, but especially Leviticus. The Priestly material can be dated to around the time of Hezekiah; shows a major concern for order, numbers, and categories of holiness and cleanliness; the Priestly material is centered on the sacrificial cult in Jerusalem and regards all other sacrifices as improper or 'profane'; this source, along with E and D, does not accept the revelation of the name YHWH before the Mosaic epiphany in Exodus 3. The Hebrew of the Priestly author reflects a later stage in its development but earlier than that of the Deuteronomic author. Notably, the P source never uses the word 'compassionate' to describe God and forgiveness requires atonement (e.g. the Day of Atonement is a ritual exclusive to the Priestly author). For more information see http://en.wikipedia.org/wiki/Priestly_source";
+    priestly.definition = @"The “P” Source; compirising various texts throughtout the Torah, but especially Leviticus. The Priestly material can be dated to around the time of Hezekiah; shows a major concern for order, numbers, and categories of holiness and cleanliness; the Priestly material is centered on the sacrificial cult in Jerusalem and regards all other sacrifices as improper or “profane”; this source, along with E and D, does not accept the revelation of the name YHWH before the Mosaic epiphany in Exodus 3. The Hebrew of the Priestly author reflects a later stage in its development but earlier than that of the Deuteronomic author. Notably, the P source never uses the word “compassionate” to describe God and forgiveness requires atonement (e.g. the Day of Atonement is a ritual exclusive to the Priestly author). For more information see http://en.wikipedia.org/wiki/Priestly_source";
     
     Word *prophet = [[Word alloc] init];
     prophet.name = @"prophet";
@@ -457,7 +457,7 @@
     
     Word *q = [[Word alloc] init];
     q.name = @"Q Source";
-    q.definition = @"The hypothetical written source that lies behind the similar passages, exclusive to Matthew and Luke, which contain various teachings of Jesus; from the German word 'quelle' - 'source'.";
+    q.definition = @"The hypothetical written source that lies behind the similar passages, exclusive to Matthew and Luke, which contain various teachings of Jesus; from the German word “quelle' - “source”.";
     //R
     
     Word *redaction = [[Word alloc] init];
@@ -480,7 +480,7 @@
    
     Word *synagogue = [[Word alloc] init];
     synagogue.name = @"synagogue";
-    synagogue.definition = @"The local place of weekly assembly for Jews during the Exile in Babylon; carried over into post-Exilic Judaism - from the Greek 'to go together'.";
+    synagogue.definition = @"The local place of weekly assembly for Jews during the Exile in Babylon; carried over into post-Exilic Judaism - from the Greek “to go together“.";
     
     Word *synchronic = [[Word alloc] init];
     synchronic.name = @"synchronic";
@@ -488,7 +488,7 @@
     
     Word *synoptic = [[Word alloc] init];
     synoptic.name = @"synoptic";
-    synoptic.definition = @"A term meaning 'to see together'; used to refer to the gospels of Matthew, Mark, and Luke due to their similarity of narrative and Christology contrasted with the gospel of John; from the Greek word συν (syn) - 'together' and οπσις (opsis) - 'appearance'";
+    synoptic.definition = @"A term meaning “to see together”; used to refer to the gospels of Matthew, Mark, and Luke due to their similarity of narrative and Christology contrasted with the gospel of John; from the Greek word συν (syn) - “together” and οπσις (opsis) - “appearance”";
     
     
     //T
@@ -511,7 +511,7 @@
     
     Word *torah = [[Word alloc] init];
     torah.name = @"Torah";
-    torah.definition = @"The first five books and first section of the Tanak; Genesis, Exodus, Leviticus, Numbers, and Deuteronomy";
+    torah.definition = @"The first five books and first section of the Tanak; Genesis, Exodus, Leviticus, Numbers, and Deuteronomy.";
     
     //U
     
@@ -533,11 +533,11 @@
     
     Word *yahwist = [[Word alloc] init];
     yahwist.name = @"Yahwist Source";
-    yahwist.definition = @"The 'J' Source...";
+    yahwist.definition = @"The “J” Source...";
     
     Word *yhwh = [[Word alloc] init];
     yhwh.name = @"YHWH";
-    yhwh.definition = @"The four letter personal name of the God of the Israelites, also called the 'Tetragrammaton'; it was likely pronounced 'Yah-way'; according to the E and P sources, this name was not known before it was revealed to Moses in Exodus chapter 3, the J source, however, uses it throughout Genesis, which is one argument for the Documentary Hypothesis.";
+    yhwh.definition = @"The four letter personal name of the God of the Israelites, also called the 'Tetragrammaton'; it was likely pronounced 'Yah-way”; according to the E and P sources, this name was not known before it was revealed to Moses in Exodus chapter 3, the J source, however, uses it throughout Genesis, which is one argument for the Documentary Hypothesis.";
     
     Word *yomKippur = [[Word alloc] init];
     yomKippur.name = @"Yom Kippur";

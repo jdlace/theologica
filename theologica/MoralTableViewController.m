@@ -78,7 +78,7 @@
     
     Word *act = [[Word alloc] init];
     act.name = @"act";
-    act.definition = @"In moral theology, an truly 'human' act refers to actions made with freedom and will.";
+    act.definition = @"In moral theology, an truly “human” act refers to actions made with freedom and will.";
     
     Word *adultery = [[Word alloc] init];
     adultery.name = @"adultery";
@@ -96,7 +96,7 @@
     
     Word *deontology = [[Word alloc] init];
     deontology.name = @"deontology";
-    deontology.definition = @"from the Greek word for 'duty' (deon) - the study of ethics from the framework of moral duties in the form of rules and laws.";
+    deontology.definition = @"from the Greek word for “duty” (deon) - the study of ethics from the framework of moral duties in the form of rules and laws.";
     
     //E
     
@@ -128,15 +128,15 @@
     
     Word *jusAdBellum = [[Word alloc] init];
     jusAdBellum.name = @"jus ad bellum";
-    jusAdBellum.definition = @"Latin for 'justice to war' - a set of criteria used to determine if war is justified in a given situation: just cause, comparative justice, competent authority, right intention, probability of success, last resort, proportionality; see 'Just War Theory'.";
+    jusAdBellum.definition = @"Latin for “justice to war” - a set of criteria used to determine if war is justified in a given situation: just cause, comparative justice, competent authority, right intention, probability of success, last resort, proportionality; see “Just War Theory”.";
     
     Word *jusImBello = [[Word alloc] init];
     jusImBello.name = @"jus im bello";
-    jusImBello.definition = @"Latin for 'justice in war' - a set of criteria used to determine if the methods of war are justified: distinction, proportionality, military necessity; see 'Just War Theory'";
+    jusImBello.definition = @"Latin for “justice in war” - a set of criteria used to determine if the methods of war are justified: distinction, proportionality, military necessity; see “Just War Theory”.";
     
     Word *justWar = [[Word alloc] init];
     justWar.name = @"Just War Theory";
-    justWar.definition = @"The theory first developed by Augustine and later refined by Aquinas which consists of criteria for determining the justice of both the conditions and methods of war; see jus ad bellum and jus im bello.";
+    justWar.definition = @"The theory first developed by Augustine and later refined by Aquinas which consists of criteria for determining the justice of both the conditions and methods of war; see “jus ad bellum” and “jus im bello”.";
     
     //K
     

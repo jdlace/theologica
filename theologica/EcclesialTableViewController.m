@@ -77,7 +77,7 @@
     
     Word *angusDei = [[Word alloc] init];
     angusDei.name = @"Angus Dei";
-    angusDei.definition = @"Part of Mass that begins 'Lamb of God...'.";
+    angusDei.definition = @"Part of Mass that begins “Lamb of God...”.";
     
     Word *altar = [[Word alloc] init];
     altar.name = @"altar";
@@ -85,7 +85,7 @@
     
     Word *anamnesis = [[Word alloc] init];
     anamnesis.name = @"anamnesis";
-    anamnesis.definition = @"Greek Word for 'rememberance', used in the Words of Institution.";
+    anamnesis.definition = @"Greek Word for “rememberance”, used in the Words of Institution.";
     
     Word *anathema = [[Word alloc] init];
     anathema.name = @"anathema";
@@ -111,7 +111,7 @@
     
     Word *baptistry = [[Word alloc] init];
     baptistry.name = @"baptistry";
-    baptistry.definition = @"the place within a church used for baptism; usually referred to as a 'font'.";
+    baptistry.definition = @"the place within a church used for baptism; usually referred to as a “font”.";
     
     Word *basillica = [[Word alloc] init];
     basillica.name = @"basillica";
@@ -123,7 +123,7 @@
     
     Word *bishop = [[Word alloc] init];
     bishop.name = @"bishop";
-    bishop.definition = @"from the Greek 'episcopos' (overseer) - the third order of clerics in the Catholic tradition; one who presides over a diocese.";
+    bishop.definition = @"from the Greek “episcopos” (overseer) - the third order of clerics in the Catholic tradition; one who presides over a diocese.";
 
     Word *blasphemy = [[Word alloc] init];
     blasphemy.name = @"blasphemy";

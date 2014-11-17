@@ -68,16 +68,16 @@
     
     Word *action = [[Word alloc]init];
     action.name = @"action";
-    action.definition = @"the third of three steps in achieving justice";
+    action.definition = @"the third of three steps in achieving justice.";
     
     
     Word *analysis = [[Word alloc] init];
     analysis.name = @"analysis";
-    analysis.definition = @"the second of the 3 steps in achieving justice";
+    analysis.definition = @"the second of the 3 steps in achieving justice.";
     
     Word *awareness = [[Word alloc] init];
     awareness.name = @"awareness";
-    awareness.definition = @"the first of 3 steps in achieving justice";
+    awareness.definition = @"the first of 3 steps in achieving justice.";
     
     //B
     
@@ -85,29 +85,29 @@
     
     Word *catholicsocialteaching = [[Word alloc]init];
     catholicsocialteaching.name = @"Catholic Social Teaching";
-    catholicsocialteaching.definition = @"the teaching of the Church which applies principles of social justice to the signs of the times";
+    catholicsocialteaching.definition = @"the teaching of the Church which applies principles of social justice to the signs of the times.";
     
     Word *commongood = [[Word alloc]init];
     commongood.name = @"common good";
-    commongood.definition = @"the social condition in which all people are allowed to reach their full development";
+    commongood.definition = @"the social condition in which all people are allowed to reach their full development.";
     
     Word *commutativejustice = [[Word alloc]init];
     commutativejustice.name = @"commutative justice";
-    commutativejustice.definition = @"one of the three types of justice which emphasizes obligations between individuals";
+    commutativejustice.definition = @"one of the three types of justice which emphasizes obligations between individuals.";
     
     Word *contributivejustice = [[Word alloc]init];
     contributivejustice.name = @"contributive justice";
-    contributivejustice.definition = @"one of the three types of justice which emphasizes the obligation of individuals toward society";
+    contributivejustice.definition = @"one of the three types of justice which emphasizes the obligation of individuals toward society.";
     
     //D
     
     Word *development = [[Word alloc]init];
     development.name = @"development";
-    development.definition = @"the process of becoming fully human";
+    development.definition = @"the process of becoming fully human.";
     
     Word *dignity = [[Word alloc]init];
     dignity.name = @"dignity";
-    dignity.definition = @"the sacred status of human beings because of the constant love of God";
+    dignity.definition = @"the sacred status of human beings because of the constant love of God.";
 
     //E
     
