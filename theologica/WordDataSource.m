@@ -115,11 +115,13 @@
     
     Word *adoption = [[Word alloc] init];
     adoption.name = @"adoption";
-    adoption.definition = @"The process of becoming a child of God through Jesus Christ";
+    adoption.definition = @"The process of becoming a child of God through Jesus Christ. See Catechism of the Catholic Church, 1. http://www.vatican.va/archive/ccc_css/archive/catechism/prologue.htm#1";
     
     Word *agape = [[Word alloc] init];
     agape.name = @"agape";
-    agape.definition = @"The Greek word meaning 'universal and unconditional will for the good of another'. The gospel writers use this word to describe Jesus' teaching on love for God, neighbors and enemies.";
+    agape.definition = @"The Greek word meaning “universal and unconditional will for the good of another”. The gospel writers use this word to describe Jesus' teaching on the love of God as well as the love for God, neighbors and enemies. See “Deus Caritas Est” by Pope Benedict XVI. http://www.vatican.va/holy_father/benedict_xvi/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est_en.html";
+
+
     
     Word *aggiornomento = [[Word alloc] init];
     aggiornomento.name = @"aggiornomento";
@@ -127,23 +129,26 @@
     
     Word *agnostic = [[Word alloc] init];
     agnostic.name = @"agnostic";
-    agnostic.definition = @"From the Greek word for 'not knowing', a term used to describe uncertainty about the question of God's existence.";
+    agnostic.definition = @"From the Greek word for “not knowing”, a term used to describe uncertainty about the question of God's existence. See Catechism of the Catholic Church, 2127. http://www.vatican.va/archive/ccc_css/archive/catechism/p3s2c1a1.htm.";
+
+
     
     Word *allegory = [[Word alloc] init];
     allegory.name = @"allegory";
-    allegory.definition = @"From the Greek word for 'speaking by way of something else', a reference to an interpretation of a text that goes beyond the literal meaning to find a deeper connection to a higher order of reality";
+    allegory.definition = @"From the Greek word for “speaking by way of something else”, a reference to an interpretation of a text that goes beyond the literal meaning to find a deeper connection to a higher order of reality. See Catechism of the Catholic Church, 117. http://www.vatican.va/archive/ccc_css/archive/catechism/p1s1c2a3.htm.";
+
     
     Word *analogy = [[Word alloc] init];
     analogy.name = @"analogy";
-    analogy.definition = @"A way of probing eternal truths...";
+    analogy.definition = @"A way of probing eternal truths. See Catechism of the Catholic Church, 114. http://www.vatican.va/archive/ccc_css/archive/catechism/p1s1c2a3.htm";
     
-    Word *annointing = [[Word alloc] init];
-    annointing.name = @"Annointing of the sick";
-    annointing.definition = @"The sacrament of healing...";
+    Word *anointing = [[Word alloc] init];
+    anointing.name = @"Annointing of the Sick";
+    anointing.definition = @"The sacrament of healing. See Catechism of the Catholic Church, 1499. http://www.vatican.va/archive/ccc_css/archive/catechism/p2s2c2a5.htm.";
     
     Word *apologetics = [[Word alloc] init];
     apologetics.name = @"apologetics";
-    apologetics.definition = @"The rational defense of the Christian faith; from the Greek words    (apo) - 'from' and     (logia) - 'reason'.";
+    apologetics.definition = @"The rational defense of the Christian faith; from the Greek words (apo) - “from” and (logia) - “reason”.";
     
     Word *apophatic = [[Word alloc] init];
     apophatic.name = @"apophatic";
@@ -152,31 +157,31 @@
     
     Word *aposteriori = [[Word alloc] init];
     aposteriori.name = @"a priori";
-    aposteriori.definition = @"A philosophical category which follows human experience. The statement 'Water boils at 0 degrees Celsius' is an a posteriori truth.";
+    aposteriori.definition = @"A philosophical category which follows human experience. The statement “Water boils at 0 degrees Celsius” is an a posteriori truth. See Stanford Encyclopedia of Philosophy, “A Priori Justification and Knowledge”. http://plato.stanford.edu/entries/apriori/.";
     
     Word *apriori = [[Word alloc] init];
     apriori.name = @"a priori";
-    apriori.definition = @"A philosophical category which precedes human experience. The statement 'All bachelors are unmarried' is an a priori truth.";
+    apriori.definition = @"A philosophical category which precedes human experience. The statement “All bachelors are unmarried' is an a priori truth. See Stanford Encyclopedia of Philosophy, “A Priori Justification and Knowledge”. http://plato.stanford.edu/entries/apriori/.";
     
     Word *argument = [[Word alloc] init];
     argument.name = @"argument";
-    argument.definition = @"A series of statements that establishes a truth claim; made of two parts - premise and conclusion; the from can be deductive or inductive; deductive arguments can be valid or invalid...";
+    argument.definition = @"A series of statements that establishes a truth claim; made of two parts - premise and conclusion; the from can be deductive or inductive; deductive arguments can be valid or invalid. See Internet Encylopedia of Philosophy, “Argument”. http://www.iep.utm.edu/argument/";
     
     Word *atonement = [[Word alloc] init];
     atonement.name = @"atonement";
-    atonement.definition = @"The act of making restitution for inflicted harm";
+    atonement.definition = @"The act of making restitution for inflicted harm; a theological interpretation of the death of Jesus of Nazrareth. See Catechism of the Catholic Church, 616. http://www.vatican.va/archive/ccc_css/archive/catechism/p122a4p2.htm";
     
-    [_dataDictionay[@"systematic"][@"A"] addObjectsFromArray:@[accidence, adoption, agape, aggiornomento, agnostic, allegory, analogy, annointing, apologetics, apophatic, aposteriori, apriori, argument, atonement]];
+    [_dataDictionay[@"systematic"][@"A"] addObjectsFromArray:@[accidence, adoption, agape, aggiornomento, agnostic, allegory, analogy, anointing, apologetics, apophatic, aposteriori, apriori, argument, atonement]];
     
     
     // build systematic words B
     Word *baptism = [[Word alloc] init];
     baptism.name = @"baptism";
-    baptism.definition = @"A ritual washing used for initiation into the Christian community";
+    baptism.definition = @"A ritual washing used for initiation into the Christian community. See Catechism of the Catholic Church, 1213. http://www.vatican.va/archive/ccc_css/archive/catechism/p2s2c1a1.htm";
     
     Word *blasphemy = [[Word alloc] init];
     blasphemy.name = @"blasphemy";
-    blasphemy.definition = @"A form of religious slander";
+    blasphemy.definition = @"A form of religious slander. See Catechism of the Catholic Church, 2148. http://www.vatican.va/archive/ccc_css/archive/catechism/p3s2c1a2.htm";
     
     [_dataDictionay[@"systematic"][@"B"] addObjectsFromArray:@[baptism, blasphemy]];
     
@@ -184,63 +189,69 @@
     // build systematic words C
     Word *canon = [[Word alloc] init];
     canon.name = @"canon";
-    canon.definition = @"Greek word for 'measuring stick'; used metaphorically to refer to a collection of texts regarded as authoritative for faith and practice within a community";
+    canon.definition = @"Greek word for “measuring stick”; used metaphorically to refer to a collection of texts regarded as authoritative for faith and practice within a community. See Catechism of the Catholic Church, 101. http://www.vatican.va/archive/ccc_css/archive/catechism/p1s1c2a3.htm. Also see Pontifical Biblical Commission, “The Interpretation of the Bible in the Church, III.B”. http://catholic-resources.org/ChurchDocs/PBC_Interp-FullText.htm ";
     
     Word *Christ = [[Word alloc] init];
     Christ.name = @"Christ";
-    Christ.definition = @"The title given to Jesus of Nazareth by early Christians - from the Greek word χριστος (christos) - 'annointed one'.";
+    Christ.definition = @"The title given to Jesus of Nazareth by early Christians - from the Greek word χριστος (christos) - “annointed one”. See Catechism of the Catholic Church, 436. http://www.vatican.va/archive/ccc_css/archive/catechism/p1s2c2a2.htm";
     
-    Word *compatiblism = [[Word alloc] init];
-    compatiblism.name = @"compatiblism";
-    compatiblism.definition = @"The belief that human freedom is compatible with deterministic elements of human experience";
+    Word *compatibilism = [[Word alloc] init];
+    compatibilism.name = @"compatiblism";
+    compatibilism.definition = @"The belief that human freedom is compatible with deterministic elements of human experience. See Standford Encyclopedia of Philosophy, “Compatibilism”. http://plato.stanford.edu/entries/compatibilism/.";
     
     Word *confession = [[Word alloc] init];
     confession.name = @"Confession";
-    confession.definition = @"The sacrament of reconciliation...";
+    confession.definition = @"The sacrament of reconciliation... See Catechism of the Catholic Church, 1424. http://www.vatican.va/archive/ccc_css/archive/catechism/p2s2c2a4.htm";
+    
+    Word *confirmation = [[Word alloc] init];
+    confirmation.name = @"Confirmation";
+    confirmation.definition = @"The sacrament of reception of the Holy Spirit. See Catechism of the Catholic Church, 1285. http://www.vatican.va/archive/ccc_css/archive/catechism/p2s2c1a2.htm";
     
     Word *cosmological = [[Word alloc] init];
     cosmological.name = @"Cosmological Argument";
-    cosmological.definition = @"One of the classical arguments for the existence of God...";
+    cosmological.definition = @"One of the classical arguments for the existence of God, based on the First Cause argument. See Stanford Encyclopedia of Philosophy, “Cosmological Argument”. http://plato.stanford.edu/entries/cosmological-argument/. Thomas Aquinas, Summa Theologica, ST, Ia, q. 2 a. 3 co. http://www.fordham.edu/halsall/source/aquinas3.asp";
+    
+    Word *creationism = [[Word alloc] init];
+    creationism.name = @"Creationism";
+    creationism.definition = @"The belief that God created the earth and human beings directly, with no biological predecessors as described in the book of Genesis.";
     
     Word *creed = [[Word alloc] init];
     creed.name = @"creed";
-    creed.definition = @"from the Latin 'credo' (I believe) - a statement of belief; used to refer to the historical creeds of the Church, most notably the Apostle's and Nicene creed.";
+    creed.definition = @"from the Latin “credo” (I believe) - a statement of belief; used to refer to the historical creeds of the Church, most notably the Apostle's and Nicene creed. See Catechism of the Catholic Church, 187. http://www.vatican.va/archive/ccc_css/archive/catechism/p1s2.htm";
     
-    [_dataDictionay[@"systematic"][@"C"] addObjectsFromArray:@[canon, Christ, confession, cosmological, creed]];
+    [_dataDictionay[@"systematic"][@"C"] addObjectsFromArray:@[canon, Christ, compatibilism, confession, confirmation, cosmological, creationism, creed]];
     
     // build systematic words D
     Word *deism = [[Word alloc] init];
     deism.name = @"deism";
     deism.definition = @"The belief that God created the world but does not intervene in the natural course of the world.";
     
-    [_dataDictionay[@"systematic"][@"D"] addObjectsFromArray:@[deism]];
-    
     Word *determinism = [[Word alloc] init];
     determinism.name = @"determinism";
-    determinism.definition = @"The belief that all events, including human actions, are determined by physical phenomena, negating the concept of free-will.";
+    determinism.definition = @"The belief that all events, including human actions, are determined by physical phenomena, negating the concept of free-will. See Stanford Encyclopedia of Philosophy, “Causal Determinism”. http://plato.stanford.edu/entries/determinism-causal/.";
     
     Word *developmentDoc = [[Word alloc] init];
     developmentDoc.name = @"development of doctrine";
-    developmentDoc.definition = @"The idea that the teaching of the Church can develop over time; first found in the writings of Vincent of Lerins and later re-emphasized by Cardinal John Henry Newman.";
+    developmentDoc.definition = @"The idea that the teaching of the Church can develop over time; first found in the writings of Vincent of Lerins and later re-emphasized by Cardinal John Henry Newman. See John Henry Newman, “Essay on the Development of Doctrine”. http://www.newmanreader.org/Works/development/index.html.";
     
     Word *dualism = [[Word alloc] init];
     dualism.name = @"dualism";
-    dualism.definition = @"The belief that humans are composed of two substances, body and soul/mind; also known as substance dualism; found in the Platonic influence on Christianity and later in the writings of Descartes. Associated problems include the problem of causation and the seeming violation of the scientific law of the conservation of energy.";
+    dualism.definition = @"The belief that humans are composed of two substances, body and soul/mind; also known as substance dualism; found in the Platonic influence on Christianity and later in the writings of Descartes. Associated problems include the problem of causation and the seeming violation of the scientific law of the conservation of energy. See Stanford Dncyclopedia of Philosophy “Dualism”. http://plato.stanford.edu/entries/dualism/.";
     
     [_dataDictionay[@"systematic"][@"D"] addObjectsFromArray:@[deism, determinism, developmentDoc, dualism]];
     
     
     Word *epistemology = [[Word alloc] init];
     epistemology.name = @"epistemology";
-    epistemology.definition = @"The study of the origin, nature, and limits of human knowledge; one of the three traditional subjects of Western philosophy.";
+    epistemology.definition = @"The study of the origin, nature, and limits of human knowledge; one of the three traditional subjects of Western philosophy. See Stanford Encyclopedia of Philosophy “Epistemology”. http://plato.stanford.edu/entries/epistemology/";
     
     Word *eschatology = [[Word alloc] init];
     eschatology.name = @"eschatology";
-    eschatology.definition = @"from the Greek 'eschaton' (last thing) - the belief that history will have an end brought about by Divine intervention.";
+    eschatology.definition = @"from the Greek “eschaton” (last thing) - the belief that history will have an end brought about by Divine intervention. See Catechism of the Catholic Church, 673. http://www.vatican.va/archive/ccc_css/archive/catechism/p1s2c2a7.htm.";
     
     Word *essence = [[Word alloc] init];
     essence.name = @"essence";
-    essence.definition = @"in Aristotelean philosophy, the property that makes an object what it is.";
+    essence.definition = @"A property that makes an object what it is. See Standford Encyclopedia of Philosophy “Essential vs. Accidental Properties”. http://plato.stanford.edu/entries/essential-accidental/.";
     
     Word *exclusivism = [[Word alloc] init];
     exclusivism.name = @"exclusivism";
@@ -248,7 +259,11 @@
     
     Word *exNihilo = [[Word alloc] init];
     exNihilo.name = @"ex nihilo";
-    exNihilo.definition = @"from the Latin 'out of nothing' - The belief that God created the world out of nothing.";
+    exNihilo.definition = @"from the Latin “out of nothing” - The belief that God created the world out of nothing. See Catechism of the Catholic Church, 296. http://www.vatican.va/archive/ccc_css/archive/catechism/p1s2c1p4.htm.";
+    
+    Word *exOpere = [[Word alloc] init];
+    exOpere.name = @"ex opere operato";
+    exOpere.definition = @"Latin phrase for “from the work, worked”.";
     
     Word *explanandum = [[Word alloc] init];
     explanandum.name = @"explanandum";
@@ -258,14 +273,19 @@
     explanans.name = @"explanans";
     explanans.definition = @"That which explains something else...";
     
-    [_dataDictionay[@"systematic"][@"E"] addObjectsFromArray:@[epistemology, eschatology, essence, exclusivism, exNihilo, explanandum, explanans]];
+    [_dataDictionay[@"systematic"][@"E"] addObjectsFromArray:@[epistemology, eschatology, essence, exclusivism, exNihilo, exOpere, explanandum, explanans]];
     
     
     // F
     Word *faith = [[Word alloc] init];
     faith.name = @"faith";
-    faith.definition = @"1. Trust or confidence; 2. The content of a religious system ('The Christian faith').";
-    [_dataDictionay[@"systematic"][@"F"] addObjectsFromArray:@[faith]];
+    faith.definition = @"1. Trust or confidence; 2. The content of a religious system (“The Christian faith”).";
+    
+    Word *fideism = [[Word alloc] init];
+    fideism.name = @"fideism";
+    fideism.definition = @"The belief that....";
+    
+    [_dataDictionay[@"systematic"][@"F"] addObjectsFromArray:@[faith, fideism]];
     
     
     //I
