@@ -1,25 +1,23 @@
 //
-//  MoralTableViewController.m
+//  EcclesialTableViewController.m
 //  theologica
 //
 //  Created by Jonathan Lace on 7/17/13.
 //  Copyright (c) 2013 techrament. All rights reserved.
 //
 
-#import "MoralTableViewController.h"
-#import "MoralDetailViewController.h"
+#import "EcclesialTableViewController.h"
+#import "EcclesialDetailViewController.h"
 #import "Word.h"
 
-@interface MoralTableViewController ()
+@interface EcclesialTableViewController ()
 {
-    
     NSDictionary *terms;
     NSArray *letters;
 }
-
 @end
 
-@implementation MoralTableViewController
+@implementation EcclesialTableViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -35,78 +33,109 @@
 {
     [super viewDidLoad];
     
+    //data for the table view controller
     terms = @{
-              @"A" : @[@"abortion", @"abstinence", @"action", @"adultery"],
-              @"B" : @[@"bigamy"],
-              @"C" : @[@"casuistry", @"common good", @"conscience"],
-              @"D" : @[@"deontology", @"divine command theory"],
-              @"E" : @[@"epistemology", @"ethics", @"Euthyphro Problem"],
-              @"F" : @[@"faith"],
-              @"G" : @[@"gospel"],
-              @"H" : @[@"human rights"],
-              @"I" : @[@"immanence"],
-              @"J" : @[@"justice", @"jus ad bellum", @"jus im bello", @"just war"],
-              @"K" : @[@"kataphatic"],
-              @"L" : @[@"liberation theology"],
-              @"M" : @[@"monogamy", @"morality"],
-              @"N" : @[@"natural law"],
-              @"O" : @[@"omission"],
-              @"P" : @[@"pacifism", @"personhood", @"preferential option"],
-              @"Q" : @[@"quintessence"],
-              @"R" : @[@"redemption"],
-              @"S" : @[@"scholasticism", @"structural sin"],
-              @"T" : @[@"teleology"],
-              @"U" : @[@"utilitarianism"],
-              @"V" : @[@"vice", @"virtue"],
-              @"W" : @[@"will"],
-              @"X" : @[@"xenophobia"],
-              @"Y" : @[@"YHWH"],
-              @"Z" : @[@""],//42
+              @"A" : @[@"absolution", @"acolyte", @"Advent", @"Agnus Dei", @"altar", @"anamnesis", @"anathema", @"antiphon", @"Apostle's Creed", @"Arianism", @"asceticism", @"Ash Wednesday"],
+              @"B" : @[@"baptism", @"baptistry", @"basillica", @"Benedictus", @"bishop", @"blasphemy", @"Byzantine"],
+              @"C" : @[@"Calvinism", @"canon", @"cantor", @"catechumen", @"cathedral", @"chalice", @"Chalcedonean Creed", @"chi rho", @"church", @"clergy", @"Confession", @"Confirmation", @"consubstantial", @"contrition", @"council"],
+              @"D" : @[@"Daily Office", @"deacon", @"denomination", @"diocese", @"docetism", @"Donatism"],
+              @"E" : @[@"Easter", @"ecclesia", @"ecclesiology", @"epiclesis", @"Epiphany", @"Eucharist", @"ex cathedra", @"exorcism"],
+              @"F" : @[@"Filioque"],//50
+              @"G" : @[@"Gloria Patri", @"gnosticism", @"Good Friday"],
+              @"H" : @[@"Hail Mary", @"Holy Orders", @"Holy Saturday", @"Holy Week", @"homily", @"homoosious", @"hymn"],
+              @"I" : @[@"icon", @"iconoclasm", @"intinction"],
+              @"J" : @[@"Jubilate Deo"],
+              @"K" : @[@"Kiss of Peace", @"koinonia", @"Kyrie Eleison"],
+              @"L" : @[@"laity", @"Last Rites", @"Lectio Divina", @"Lent", @"lectionary", @"lector", @"liturgy"],
+              @"M" : @[@"Magnificat", @"Marcion", @"martyr", @"mass", @"Memorial Acclamation", @"missal", @"monestary", @"monogenism", @"monophysitism", @"monothelism", @"monstrance", @"Montanism"],
+              @"N" : @[@"narthex", @"Nestorianism", @"Nicene Creed", @"Nunc Dimittis"],
+              @"O" : @[@"Offeratory", @"Ordinary Time", @"Ordination"],
+              @"P" : @[@"Palm Sunday", @"Paschal Candle", @"Passion Sunday", @"Pater Noster", @"patristic", @"Pelagianism", @"penance", @"Pentecost", @"Petrine Ministry", @"Pope", @"priest", @"Protestantism"],
+              @"Q" : @[@"Quadradecimial Controversy"],
+              @"R" : @[@"rosary", @"Reconciliation", @"rule of faith"],
+              @"S" : @[@"sacramentary", @"Scholasticism", @"synod"],
+              @"T" : @[@"tabernacle", @"thurible", @"transubstantiation", @"Triduum"],
+              @"U" : @[@"Unction"],
+              @"V" : @[@"vespers", @"Viaticum"],
+              @"W" : @[@"Way of the Cross"],
+              @"X" : @[@"XC"],
+              @"Y" : @[@"young"],
+              @"Z" : @[@"zebra"],//123
               };
     
     letters = [[terms allKeys] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
     
     //A
     
-    Word *abortion = [[Word alloc] init];
-    abortion.name = @"abortion";
-    abortion.definition = @"the intentional killing of an unborn human being";
+    Word *absolution = [[Word alloc] init];
+    absolution.name = @"absolution";
+    absolution.definition = @"the act by which a priest declares the forgiveness of sins"; 
     
-    Word *abstinence = [[Word alloc] init];
-    abstinence.name = @"abstinence";
-    abstinence.definition = @"to refrain from a given activity";
+    Word *acolyte = [[Word alloc] init];
+    acolyte.name = @"acolyte";
+    acolyte.definition = @"an assistant to a deacon";
     
-    Word *act = [[Word alloc] init];
-    act.name = @"act";
-    act.definition = @"In moral theology, an truly “human” act refers to actions made with freedom and will.";
+    Word *angusDei = [[Word alloc] init];
+    angusDei.name = @"Angus Dei";
+    angusDei.definition = @"Part of Mass that begins 'Lamb of God...'.";
     
-    Word *adultery = [[Word alloc] init];
-    adultery.name = @"adultery";
-    adultery.definition = @"Marital infidelity or sexual relations between two people, one of which being married to another person";
+    Word *altar = [[Word alloc] init];
+    altar.name = @"altar";
+    altar.definition = @"the object upon which the Eucharist is placed during the act of consecration";
+    
+    Word *anamnesis = [[Word alloc] init];
+    anamnesis.name = @"anamnesis";
+    anamnesis.definition = @"Greek Word for 'rememberance', used in the Words of Institution.";
+    
+    Word *anathema = [[Word alloc] init];
+    anathema.name = @"anathema";
+    anathema.definition = @"the state of being out of visible communion with the Church";
+    
+    Word *antiphon = [[Word alloc] init];
+    antiphon.name = @"antiphon";
+    antiphon.definition = @"the choral response sung during the entrace processional";
+    
+    Word *apostlesCreed = [[Word alloc] init];
+    apostlesCreed.name = @"Apostle's Creed";
+    apostlesCreed.definition = @"The earliest form of the Rule of Faith; based on the Roman baptismal creed, dated to the year A.D. 150.";
+    
+    Word *arianism = [[Word alloc] init];
+    arianism.name = @"Arianism";
+    arianism.definition = @"The teaching of Arius that the Son was of a different substance than the Father (begotten vs. unbegotten) and thus, not fully divine.";
     
     //B
     
-    //C
+    Word *baptism = [[Word alloc] init];
+    baptism.name = @"baptism";
+    baptism.definition = @"the intiation rite into the Church";
     
-    Word *casuistry = [[Word alloc] init];
-    casuistry.name = @"casuistry";
-    casuistry.definition = @"the study of case law";
+    Word *baptistry = [[Word alloc] init];
+    baptistry.name = @"baptistry";
+    baptistry.definition = @"the place within a church used for baptism; usually referred to as a 'font'.";
+    
+    Word *basillica = [[Word alloc] init];
+    basillica.name = @"basillica";
+    basillica.definition = @"term used to refer to a church in which the diocescan bishop presides; the Church inherited this architecture from the Roman Imperial administrative system.";
+    
+    Word *benedictus = [[Word alloc] init];
+    benedictus.name = @"Benedictus";
+    benedictus.definition = @"the prayer of Simeon contained within the gospel of Luke 2:29-32.";
+    
+    Word *bishop = [[Word alloc] init];
+    bishop.name = @"bishop";
+    bishop.definition = @"from the Greek 'episcopos' (overseer) - the third order of clerics in the Catholic tradition; one who presides over a diocese.";
+
+    Word *blasphemy = [[Word alloc] init];
+    blasphemy.name = @"blasphemy";
+    blasphemy.definition = @"religious slander";
+    
+
+    
+    //C
     
     //D
     
-    Word *deontology = [[Word alloc] init];
-    deontology.name = @"deontology";
-    deontology.definition = @"from the Greek word for “duty” (deon) - the study of ethics from the framework of moral duties in the form of rules and laws.";
-    
     //E
-    
-    Word *epistemology = [[Word alloc] init];
-    epistemology.name = @"epistemology";
-    epistemology.definition = @"the study of the origin, nature, and limits of human knowledge; one of the three traditional subjects of Western philosophy.";
-    
-    Word *ethics = [[Word alloc] init];
-    ethics.name = @"ethics";
-    ethics.definition = @"the study of moral systems";
     
     //F
     
@@ -114,29 +143,9 @@
     
     //H
     
-    Word *humanRights = [[Word alloc] init];
-    humanRights.name = @"human rights";
-    humanRights.definition = @"rights due to a person by virtue of his or her being a human being; thirty human rights are enumerated in the United Nations Universal Declaration of Human Rights.";
-    
     //I
     
     //J
-    
-    Word *justice = [[Word alloc] init];
-    justice.name = @"justice";
-    justice.definition = @"the state of right relationships between individuals and groups in society.";
-    
-    Word *jusAdBellum = [[Word alloc] init];
-    jusAdBellum.name = @"jus ad bellum";
-    jusAdBellum.definition = @"Latin for “justice to war” - a set of criteria used to determine if war is justified in a given situation: just cause, comparative justice, competent authority, right intention, probability of success, last resort, proportionality; see “Just War Theory”.";
-    
-    Word *jusImBello = [[Word alloc] init];
-    jusImBello.name = @"jus im bello";
-    jusImBello.definition = @"Latin for “justice in war” - a set of criteria used to determine if the methods of war are justified: distinction, proportionality, military necessity; see “Just War Theory”.";
-    
-    Word *justWar = [[Word alloc] init];
-    justWar.name = @"Just War Theory";
-    justWar.definition = @"The theory first developed by Augustine and later refined by Aquinas which consists of criteria for determining the justice of both the conditions and methods of war; see “jus ad bellum” and “jus im bello”.";
     
     //K
     
@@ -144,15 +153,15 @@
     
     //M
     
-    Word *morality = [[Word alloc] init];
-    morality.name = @"morality";
-    morality.definition = @"customary norms of behavior considered good or evil, right or wrong in a given system.";
-    
     //N
     
     //O
     
     //P
+    
+    Word *protestant = [[Word alloc] init];
+    protestant.name = @"Protestant";
+    protestant.definition = @"The theological objection to the authority of the Pope in the Church; the Protestant Reformation.";
     
     //Q
     
@@ -174,34 +183,43 @@
     
     //Z
     
-    _moralDetails = [[NSMutableArray alloc] init];
+    _ecclesialDetails = [[NSMutableArray alloc] init];
     
     for (NSString *letter in letters)
-    {
+        {
         NSMutableArray *array = [NSMutableArray array];
         if ([letter isEqualToString:@"A"])
             {
-                [array addObject: abortion];
-                [array addObject: abstinence];
-                [array addObject: act];
-                [array addObject: adultery];
+                [array addObject: absolution];
+                [array addObject: acolyte];
+                [array addObject: angusDei];
+                [array addObject: altar];
+                [array addObject: anamnesis];
+                [array addObject: anathema];
+                [array addObject: antiphon];
+                [array addObject: apostlesCreed];
+                [array addObject: arianism];
             }
         else if ([letter isEqualToString:@"B"])
             {
-            
+                [array addObject: baptism];
+                [array addObject: baptistry];
+                [array addObject: basillica];
+                [array addObject: benedictus];
+                [array addObject: bishop]; 
+                [array addObject: blasphemy];
             }
         else if ([letter isEqualToString:@"C"])
             {
-                [array addObject: casuistry];
+            
             }
         else if ([letter isEqualToString:@"D"])
             {
-                [array addObject: deontology];
+            
             }
         else if ([letter isEqualToString:@"E"])
             {
-                [array addObject: epistemology];
-                [array addObject: ethics];
+            
             }
         else if ([letter isEqualToString:@"F"])
             {
@@ -213,7 +231,7 @@
             }
         else if ([letter isEqualToString:@"H"])
             {
-                [array addObject: humanRights];
+            
             }
         else if ([letter isEqualToString:@"I"])
             {
@@ -221,10 +239,7 @@
             }
         else if ([letter isEqualToString:@"J"])
             {
-                [array addObject: justice];
-                [array addObject: jusAdBellum];
-                [array addObject: jusImBello];
-                [array addObject: justWar];
+            
             }
         else if ([letter isEqualToString:@"K"])
             {
@@ -236,7 +251,7 @@
             }
         else if ([letter isEqualToString:@"M"])
             {
-                [array addObject: morality];
+            
             }
         else if ([letter isEqualToString:@"N"])
             {
@@ -291,27 +306,17 @@
             
             }
         
-        [_moralDetails addObject:array];
-        
+        [_ecclesialDetails addObject:array];
     }
+
+
     
+
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    
-    
-    [[NSNotificationCenter defaultCenter]
-     addObserver:self
-     selector:@selector(preferredContentSizeChanged:)
-     name:UIContentSizeCategoryDidChangeNotification
-     object:nil];
-}
-
-- (void)preferredContentSizeChanged:(NSNotification *)notification
-{
-    [self.tableView reloadData];
 }
 
 - (void)didReceiveMemoryWarning
@@ -338,15 +343,15 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"moralCell";
+    static NSString *CellIdentifier = @"ecclesialCell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     NSString *sectionTitle = [letters objectAtIndex:indexPath.section];
     NSArray *sectionTerms = [terms objectForKey:sectionTitle];
     NSString *term = [sectionTerms objectAtIndex:indexPath.row];
     cell.textLabel.text = term;
     
-    cell.textLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
-
+    // Configure the cell...
+    //cell.textLabel.text = [_ecclesialTerms objectAtIndex:indexPath.row];
     return cell;
 }
 
@@ -399,26 +404,14 @@
 
 -(CGFloat) tableView: (UITableView *) tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    
-    static UILabel* label;
-    if (!label) {
-        label = [[UILabel alloc]
-                 initWithFrame:CGRectMake(0, 0, FLT_MAX, FLT_MAX)];
-        label.text = @"test";
-    }
-    
-    label.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
-    [label sizeToFit];
-    return label.frame.size.height * 2.75;
-
-    //return 50;
+    return 50;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // Navigation logic may go here. Create and push another view controller.
     /*
-     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
+     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibWord:@"<#Nib Word#>" bundle:nil];
      // ...
      // Pass the selected object to the new view controller.
      [self.navigationController pushViewController:detailViewController animated:YES];
@@ -427,17 +420,17 @@
 
 -(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-
     if ([[segue identifier] isEqualToString:@"showWord"])
     {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        NSArray *sectionArray = [_moralDetails objectAtIndex:indexPath.section];
-        MoralDetailViewController *WordViewController = [segue destinationViewController];
+        NSArray *sectionArray = [_ecclesialDetails objectAtIndex:indexPath.section];
         Word *detail = [sectionArray objectAtIndex:indexPath.row];
+    
+    EcclesialDetailViewController  *WordViewController = [segue destinationViewController]; 
+        //WordViewController.currentWord = [_Words objectAtIndex:indexPath.row];
         WordViewController.currentWordDetail = detail;
-        }
+    }
 }
-
 - (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView
 {
     return letters;

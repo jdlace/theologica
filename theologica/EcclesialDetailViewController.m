@@ -30,9 +30,20 @@
     
     _ecclesialName.text = _currentWordDetail.name;
     _ecclesialDescription.text = _currentWordDetail.definition;
-    _ecclesialDescription.textColor = [UIColor blackColor];
+    //_ecclesialDescription.textColor = [UIColor blackColor];
+    self.ecclesialDescription.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
+    
+    [[NSNotificationCenter defaultCenter]
+     addObserver:self
+     selector:@selector(preferredContentSizeChanged:)
+     name:UIContentSizeCategoryDidChangeNotification
+     object:nil];
 }
+- (void)preferredContentSizeChanged:(NSNotification *)notification
+{
+    self.ecclesialDescription.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
 
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

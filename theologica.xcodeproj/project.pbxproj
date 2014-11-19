@@ -55,6 +55,8 @@
 		692ED2D01796F5A7008554F9 /* BiblicalDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2CF1796F5A7008554F9 /* BiblicalDetailViewController.m */; };
 		692ED2D61796F5E7008554F9 /* SocialTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2D51796F5E7008554F9 /* SocialTableViewController.m */; };
 		692ED2D91796F602008554F9 /* SocialDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2D81796F602008554F9 /* SocialDetailViewController.m */; };
+		6948C2811A184AA6008864F3 /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6948C27F1A184AA6008864F3 /* appicon.png */; };
+		6948C2821A184AA6008864F3 /* appicon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6948C2801A184AA6008864F3 /* appicon2.png */; };
 		69989B0319FF2FC70009ABAE /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69989AC519FF2D5D0009ABAE /* NotificationCenter.framework */; };
 		69989B0919FF2FC70009ABAE /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69989B0819FF2FC70009ABAE /* TodayViewController.m */; };
 		69989B0B19FF2FC70009ABAE /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69989B0A19FF2FC70009ABAE /* MainInterface.storyboard */; };
@@ -95,7 +97,7 @@
 /* Begin PBXFileReference section */
 		690248B617F05294009D6811 /* bookmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bookmark@2x.png"; path = "../bookmark@2x.png"; sourceTree = "<group>"; };
 		6902FACC17F51CFC00299A50 /* theologicaicon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = theologicaicon1.png; sourceTree = SOURCE_ROOT; };
-		6902FACD17F51D3E00299A50 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6902FACD17F51D3E00299A50 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = theologica/Images.xcassets; sourceTree = "<group>"; };
 		692ED2471796D552008554F9 /* theologica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = theologica.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		692ED24A1796D552008554F9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		692ED24C1796D552008554F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -156,6 +158,8 @@
 		692ED2D51796F5E7008554F9 /* SocialTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialTableViewController.m; sourceTree = "<group>"; };
 		692ED2D71796F601008554F9 /* SocialDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialDetailViewController.h; sourceTree = "<group>"; };
 		692ED2D81796F602008554F9 /* SocialDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialDetailViewController.m; sourceTree = "<group>"; };
+		6948C27F1A184AA6008864F3 /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appicon.png; path = ../../appicon.png; sourceTree = "<group>"; };
+		6948C2801A184AA6008864F3 /* appicon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appicon2.png; path = ../../appicon2.png; sourceTree = "<group>"; };
 		69989AC519FF2D5D0009ABAE /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		69989B0219FF2FC60009ABAE /* Theologica.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Theologica.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		69989B0619FF2FC70009ABAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -201,12 +205,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		692ED23E1796D552008554F9 = {
+		6907A2081A14525300EA7CF4 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				69B52BAA1A0EF6C100C23B47 /* Launch Screen.xib */,
-				692ED2501796D552008554F9 /* theologica */,
-				69989B0419FF2FC70009ABAE /* Theologica */,
+				692ED2621796D552008554F9 /* MainStoryboard.storyboard */,
+				6902FACD17F51D3E00299A50 /* Images.xcassets */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		692ED23E1796D552008554F9 = {
+			isa = PBXGroup;
+			children = (
+				6907A2081A14525300EA7CF4 /* View */,
+				692ED2501796D552008554F9 /* Controllers */,
+				692ED2511796D552008554F9 /* Supporting Files */,
+				69BB25461A130E8200B3F5B5 /* Data Model */,
+				69989B0419FF2FC70009ABAE /* Widget */,
 				692ED2491796D552008554F9 /* Frameworks */,
 				692ED2481796D552008554F9 /* Products */,
 			);
@@ -234,14 +250,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		692ED2501796D552008554F9 /* theologica */ = {
+		692ED2501796D552008554F9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				692ED2591796D552008554F9 /* AppDelegate.h */,
 				692ED25A1796D552008554F9 /* AppDelegate.m */,
 				FA3683D11A11501600E9740F /* Social.h */,
 				FA3683D41A1155CD00E9740F /* MobileCoreServices.h */,
-				692ED2621796D552008554F9 /* MainStoryboard.storyboard */,
 				FA84505A1A129CA0007839D8 /* bookmarkListTableViewController.h */,
 				FA84505B1A129CA0007839D8 /* bookmarkListTableViewController.m */,
 				FA8450571A1285CE007839D8 /* infoButtonViewController.h */,
@@ -266,10 +281,8 @@
 				692ED2D51796F5E7008554F9 /* SocialTableViewController.m */,
 				692ED2D71796F601008554F9 /* SocialDetailViewController.h */,
 				692ED2D81796F602008554F9 /* SocialDetailViewController.m */,
-				69BB25461A130E8200B3F5B5 /* Data Model */,
-				6902FACD17F51D3E00299A50 /* Images.xcassets */,
-				692ED2511796D552008554F9 /* Supporting Files */,
 			);
+			name = Controllers;
 			path = theologica;
 			sourceTree = "<group>";
 		};
@@ -282,6 +295,8 @@
 				692ED29D1796EF10008554F9 /* hierarchy@2x.png */,
 				692ED29E1796EF10008554F9 /* man-influence.png */,
 				692ED29F1796EF10008554F9 /* man-influence@2x.png */,
+				6948C27F1A184AA6008864F3 /* appicon.png */,
+				6948C2801A184AA6008864F3 /* appicon2.png */,
 				692ED2A01796EF10008554F9 /* meditation.png */,
 				692ED2A11796EF10008554F9 /* meditation@2x.png */,
 				692ED2A21796EF10008554F9 /* monk.png */,
@@ -313,9 +328,10 @@
 				692ED2601796D552008554F9 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			path = theologica;
 			sourceTree = "<group>";
 		};
-		69989B0419FF2FC70009ABAE /* Theologica */ = {
+		69989B0419FF2FC70009ABAE /* Widget */ = {
 			isa = PBXGroup;
 			children = (
 				69989B0719FF2FC70009ABAE /* TodayViewController.h */,
@@ -323,6 +339,7 @@
 				69989B0A19FF2FC70009ABAE /* MainInterface.storyboard */,
 				69989B0519FF2FC70009ABAE /* Supporting Files */,
 			);
+			name = Widget;
 			path = Theologica;
 			sourceTree = "<group>";
 		};
@@ -343,6 +360,7 @@
 				69BB25481A130F2E00B3F5B5 /* WordDataSource.m */,
 			);
 			name = "Data Model";
+			path = theologica;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -431,6 +449,7 @@
 				692ED25F1796D552008554F9 /* Default@2x.png in Resources */,
 				692ED2611796D552008554F9 /* Default-568h@2x.png in Resources */,
 				692ED2641796D552008554F9 /* MainStoryboard.storyboard in Resources */,
+				6948C2821A184AA6008864F3 /* appicon2.png in Resources */,
 				692ED2691796D552008554F9 /* first.png in Resources */,
 				692ED26B1796D552008554F9 /* first@2x.png in Resources */,
 				692ED2701796D552008554F9 /* second.png in Resources */,
@@ -458,6 +477,7 @@
 				692ED2AC1796EF10008554F9 /* monk.png in Resources */,
 				692ED2AD1796EF10008554F9 /* monk@2x.png in Resources */,
 				692ED2AE1796EF10008554F9 /* perspective-drawing.png in Resources */,
+				6948C2811A184AA6008864F3 /* appicon.png in Resources */,
 				692ED2AF1796EF10008554F9 /* perspective-drawing@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -529,6 +549,7 @@
 				692ED2631796D552008554F9 /* en */,
 			);
 			name = MainStoryboard.storyboard;
+			path = theologica;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

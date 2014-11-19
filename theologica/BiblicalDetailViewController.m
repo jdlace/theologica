@@ -30,8 +30,20 @@
     
     _biblicalName.text = _currentWordDetail.name;
     _biblicalDescription.text = _currentWordDetail.definition;
-    _biblicalDescription.textColor = [UIColor blackColor]; 
+    //_biblicalDescription.textColor = [UIColor blackColor];
+    self.biblicalDescription.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
+    
+    [[NSNotificationCenter defaultCenter]
+     addObserver:self
+     selector:@selector(preferredContentSizeChanged:)
+     name:UIContentSizeCategoryDidChangeNotification
+     object:nil];
 
+}
+
+- (void)preferredContentSizeChanged:(NSNotification *)notification
+{
+    self.biblicalDescription.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
 }
 
 - (void)didReceiveMemoryWarning

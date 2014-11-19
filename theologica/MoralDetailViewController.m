@@ -30,7 +30,19 @@
     
     _moralName.text = _currentWordDetail.name;
     _moralDescription.text = _currentWordDetail.definition;
-    _moralDescription.textColor = [UIColor blackColor];
+    //_moralDescription.textColor = [UIColor blackColor];
+    self.moralDescription.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
+    
+    [[NSNotificationCenter defaultCenter]
+     addObserver:self
+     selector:@selector(preferredContentSizeChanged:)
+     name:UIContentSizeCategoryDidChangeNotification
+     object:nil];
+}
+
+- (void)preferredContentSizeChanged:(NSNotification *)notification
+{
+    self.moralDescription.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
 }
 
 - (void)didReceiveMemoryWarning

@@ -1,29 +1,29 @@
 //
-//  SocialTableViewController.m
+//  EcclesialTableViewController.m
 //  theologica
 //
 //  Created by Jonathan Lace on 7/17/13.
 //  Copyright (c) 2013 techrament. All rights reserved.
 //
 
-#import "SocialTableViewController.h"
-#import "SocialDetailViewController.h"
+#import "EcclesialTableViewController.h"
+#import "EcclesialDetailViewController.h"
 #import "Word.h"
 
-@interface SocialTableViewController ()
+@interface EcclesialTableViewController ()
 {
     NSDictionary *terms;
     NSArray *letters;
 }
-
 @end
 
-@implementation SocialTableViewController
+@implementation EcclesialTableViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];
-    if (self) {
+    if (self)
+    {
         // Custom initialization
     }
     return self;
@@ -32,83 +32,109 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
+    
+    //data for the table view controller
     terms = @{
-              @"A" : @[@"action", @"analysis", @"awareness"],
-              @"B" : @[@"baptism", @"blasphemy"],
-              @"C" : @[@"Catholic Social Teaching", @"common good", @"commutative justice", @"contributive justice"],
-              @"D" : @[@"development", @"dignity"],
-              @"E" : @[@"epistemology", @"essence", @"ex nihilo"],
-              @"F" : @[@"faith"],
-              @"G" : @[@"gospel"],
-              @"H" : @[@"heresy"],
-              @"I" : @[@"immanence"],
-              @"J" : @[@"jesus"],
-              @"K" : @[@"kataphatic"],
-              @"L" : @[@"liberation theology"],
-              @"M" : @[@"metaphysics"],
-              @"N" : @[@"natural theology"],
-              @"O" : @[@"orthodoxy", @"orthodpraxy"],
-              @"P" : @[@"philosophy", @"predestination"],
-              @"Q" : @[@"quintessence"],
-              @"R" : @[@"redemption"],
-              @"S" : @[@"salvation", @"systematic theology"],
-              @"T" : @[@"theodicy", @"theology", @"trinity"],
-              @"U" : @[@"universalism"],
-              @"V" : @[@"vicarious"],
-              @"W" : @[@"will"],
-              @"X" : @[@"xcode"],
-              @"Y" : @[@"YHWH"],
-              @"Z" : @[@"zion"],
+              @"A" : @[@"absolution", @"acolyte", @"Advent", @"Agnus Dei", @"altar", @"anamnesis", @"anathema", @"antiphon", @"Apostle's Creed", @"Arianism", @"asceticism", @"Ash Wednesday"],
+              @"B" : @[@"baptism", @"baptistry", @"basillica", @"Benedictus", @"bishop", @"blasphemy", @"Byzantine"],
+              @"C" : @[@"Calvinism", @"canon", @"cantor", @"catechumen", @"cathedral", @"chalice", @"Chalcedonean Creed", @"chi rho", @"church", @"clergy", @"Confession", @"Confirmation", @"consubstantial", @"contrition", @"council"],
+              @"D" : @[@"Daily Office", @"deacon", @"denomination", @"diocese", @"docetism", @"Donatism"],
+              @"E" : @[@"Easter", @"ecclesia", @"ecclesiology", @"epiclesis", @"Epiphany", @"Eucharist", @"ex cathedra", @"exorcism"],
+              @"F" : @[@"Filioque"],//50
+              @"G" : @[@"Gloria Patri", @"gnosticism", @"Good Friday"],
+              @"H" : @[@"Hail Mary", @"Holy Orders", @"Holy Saturday", @"Holy Week", @"homily", @"homoosious", @"hymn"],
+              @"I" : @[@"icon", @"iconoclasm", @"intinction"],
+              @"J" : @[@"Jubilate Deo"],
+              @"K" : @[@"Kiss of Peace", @"koinonia", @"Kyrie Eleison"],
+              @"L" : @[@"laity", @"Last Rites", @"Lectio Divina", @"Lent", @"lectionary", @"lector", @"liturgy"],
+              @"M" : @[@"Magnificat", @"Marcion", @"martyr", @"mass", @"Memorial Acclamation", @"missal", @"monestary", @"monogenism", @"monophysitism", @"monothelism", @"monstrance", @"Montanism"],
+              @"N" : @[@"narthex", @"Nestorianism", @"Nicene Creed", @"Nunc Dimittis"],
+              @"O" : @[@"Offeratory", @"Ordinary Time", @"Ordination"],
+              @"P" : @[@"Palm Sunday", @"Paschal Candle", @"Passion Sunday", @"Pater Noster", @"patristic", @"Pelagianism", @"penance", @"Pentecost", @"Petrine Ministry", @"Pope", @"priest", @"Protestantism"],
+              @"Q" : @[@"Quadradecimial Controversy"],
+              @"R" : @[@"rosary", @"Reconciliation", @"rule of faith"],
+              @"S" : @[@"sacramentary", @"Scholasticism", @"synod"],
+              @"T" : @[@"tabernacle", @"thurible", @"transubstantiation", @"Triduum"],
+              @"U" : @[@"Unction"],
+              @"V" : @[@"vespers", @"Viaticum"],
+              @"W" : @[@"Way of the Cross"],
+              @"X" : @[@"XC"],
+              @"Y" : @[@"young"],
+              @"Z" : @[@"zebra"],//123
               };
     
     letters = [[terms allKeys] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
     
     //A
     
-    Word *action = [[Word alloc]init];
-    action.name = @"action";
-    action.definition = @"the third of three steps in achieving justice.";
+    Word *absolution = [[Word alloc] init];
+    absolution.name = @"absolution";
+    absolution.definition = @"the act by which a priest declares the forgiveness of sins"; 
     
+    Word *acolyte = [[Word alloc] init];
+    acolyte.name = @"acolyte";
+    acolyte.definition = @"an assistant to a deacon";
     
-    Word *analysis = [[Word alloc] init];
-    analysis.name = @"analysis";
-    analysis.definition = @"the second of the 3 steps in achieving justice.";
+    Word *angusDei = [[Word alloc] init];
+    angusDei.name = @"Angus Dei";
+    angusDei.definition = @"Part of Mass that begins “Lamb of God...”.";
     
-    Word *awareness = [[Word alloc] init];
-    awareness.name = @"awareness";
-    awareness.definition = @"the first of 3 steps in achieving justice.";
+    Word *altar = [[Word alloc] init];
+    altar.name = @"altar";
+    altar.definition = @"the object upon which the Eucharist is placed during the act of consecration";
+    
+    Word *anamnesis = [[Word alloc] init];
+    anamnesis.name = @"anamnesis";
+    anamnesis.definition = @"Greek Word for “rememberance”, used in the Words of Institution.";
+    
+    Word *anathema = [[Word alloc] init];
+    anathema.name = @"anathema";
+    anathema.definition = @"the state of being out of visible communion with the Church";
+    
+    Word *antiphon = [[Word alloc] init];
+    antiphon.name = @"antiphon";
+    antiphon.definition = @"the choral response sung during the entrace processional";
+    
+    Word *apostlesCreed = [[Word alloc] init];
+    apostlesCreed.name = @"Apostle's Creed";
+    apostlesCreed.definition = @"The earliest form of the Rule of Faith; based on the Roman baptismal creed, dated to the year A.D. 150.";
+    
+    Word *arianism = [[Word alloc] init];
+    arianism.name = @"Arianism";
+    arianism.definition = @"The teaching of Arius that the Son was of a different substance than the Father (begotten vs. unbegotten) and thus, not fully divine.";
     
     //B
     
+    Word *baptism = [[Word alloc] init];
+    baptism.name = @"baptism";
+    baptism.definition = @"the intiation rite into the Church";
+    
+    Word *baptistry = [[Word alloc] init];
+    baptistry.name = @"baptistry";
+    baptistry.definition = @"the place within a church used for baptism; usually referred to as a “font”.";
+    
+    Word *basillica = [[Word alloc] init];
+    basillica.name = @"basillica";
+    basillica.definition = @"term used to refer to a church in which the diocescan bishop presides; the Church inherited this architecture from the Roman Imperial administrative system.";
+    
+    Word *benedictus = [[Word alloc] init];
+    benedictus.name = @"Benedictus";
+    benedictus.definition = @"the prayer of Simeon contained within the gospel of Luke 2:29-32.";
+    
+    Word *bishop = [[Word alloc] init];
+    bishop.name = @"bishop";
+    bishop.definition = @"from the Greek “episcopos” (overseer) - the third order of clerics in the Catholic tradition; one who presides over a diocese.";
+
+    Word *blasphemy = [[Word alloc] init];
+    blasphemy.name = @"blasphemy";
+    blasphemy.definition = @"religious slander";
+    
+
+    
     //C
-    
-    Word *catholicsocialteaching = [[Word alloc]init];
-    catholicsocialteaching.name = @"Catholic Social Teaching";
-    catholicsocialteaching.definition = @"the teaching of the Church which applies principles of social justice to the signs of the times.";
-    
-    Word *commongood = [[Word alloc]init];
-    commongood.name = @"common good";
-    commongood.definition = @"the social condition in which all people are allowed to reach their full development.";
-    
-    Word *commutativejustice = [[Word alloc]init];
-    commutativejustice.name = @"commutative justice";
-    commutativejustice.definition = @"one of the three types of justice which emphasizes obligations between individuals.";
-    
-    Word *contributivejustice = [[Word alloc]init];
-    contributivejustice.name = @"contributive justice";
-    contributivejustice.definition = @"one of the three types of justice which emphasizes the obligation of individuals toward society.";
     
     //D
     
-    Word *development = [[Word alloc]init];
-    development.name = @"development";
-    development.definition = @"the process of becoming fully human.";
-    
-    Word *dignity = [[Word alloc]init];
-    dignity.name = @"dignity";
-    dignity.definition = @"the sacred status of human beings because of the constant love of God.";
-
     //E
     
     //F
@@ -133,6 +159,10 @@
     
     //P
     
+    Word *protestant = [[Word alloc] init];
+    protestant.name = @"Protestant";
+    protestant.definition = @"The theological objection to the authority of the Pope in the Church; the Protestant Reformation.";
+    
     //Q
     
     //R
@@ -153,32 +183,39 @@
     
     //Z
     
-    _socialDetails = [[NSMutableArray alloc]init];
+    _ecclesialDetails = [[NSMutableArray alloc] init];
     
     for (NSString *letter in letters)
-    {
+        {
         NSMutableArray *array = [NSMutableArray array];
         if ([letter isEqualToString:@"A"])
             {
-                [array addObject: action];
-                [array addObject: analysis];
-                [array addObject: awareness];
+                [array addObject: absolution];
+                [array addObject: acolyte];
+                [array addObject: angusDei];
+                [array addObject: altar];
+                [array addObject: anamnesis];
+                [array addObject: anathema];
+                [array addObject: antiphon];
+                [array addObject: apostlesCreed];
+                [array addObject: arianism];
             }
         else if ([letter isEqualToString:@"B"])
             {
-                [array addObject: @""];
+                [array addObject: baptism];
+                [array addObject: baptistry];
+                [array addObject: basillica];
+                [array addObject: benedictus];
+                [array addObject: bishop]; 
+                [array addObject: blasphemy];
             }
         else if ([letter isEqualToString:@"C"])
             {
-                [array addObject: catholicsocialteaching];
-                [array addObject: commongood];
-                [array addObject: commutativejustice];
-                [array addObject: contributivejustice];
+            
             }
         else if ([letter isEqualToString:@"D"])
             {
-                [array addObject: development];
-                [array addObject: dignity];
+            
             }
         else if ([letter isEqualToString:@"E"])
             {
@@ -268,9 +305,12 @@
             {
             
             }
-        [_socialDetails addObject:array];
+        
+        [_ecclesialDetails addObject:array];
     }
 
+
+    
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -308,7 +348,6 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    //return [_Words count];
     NSString *sectionTitle = [letters objectAtIndex:section];
     NSArray *sectionTerms = [terms objectForKey:sectionTitle];
     return [sectionTerms count];
@@ -316,18 +355,18 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"socialCell";
+    static NSString *CellIdentifier = @"ecclesialCell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     NSString *sectionTitle = [letters objectAtIndex:indexPath.section];
     NSArray *sectionTerms = [terms objectForKey:sectionTitle];
     NSString *term = [sectionTerms objectAtIndex:indexPath.row];
     cell.textLabel.text = term;
     
-     cell.textLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
+    cell.textLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
     
+    // Configure the cell...
+    //cell.textLabel.text = [_ecclesialTerms objectAtIndex:indexPath.row];
     return cell;
-    
-   
 }
 
 -(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
@@ -397,28 +436,26 @@
 {
     // Navigation logic may go here. Create and push another view controller.
     /*
-     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
+     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibWord:@"<#Nib Word#>" bundle:nil];
      // ...
      // Pass the selected object to the new view controller.
      [self.navigationController pushViewController:detailViewController animated:YES];
      */
 }
+
 -(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-
-
 {
     if ([[segue identifier] isEqualToString:@"showWord"])
-        {
+    {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        NSArray *sectionArray = [_socialDetails objectAtIndex:indexPath.section];
+        NSArray *sectionArray = [_ecclesialDetails objectAtIndex:indexPath.section];
         Word *detail = [sectionArray objectAtIndex:indexPath.row];
-        
-        SocialDetailViewController *WordViewController = [segue destinationViewController];
-        //systematicDetailViewController.currentSystematicDetail = [_systematicDetail objectAtIndex:indexPath.row];
+    
+    EcclesialDetailViewController  *WordViewController = [segue destinationViewController]; 
+        //WordViewController.currentWord = [_Words objectAtIndex:indexPath.row];
         WordViewController.currentWordDetail = detail;
-        }
+    }
 }
-
 - (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView
 {
     return letters;
@@ -428,4 +465,5 @@
 {
     return [letters indexOfObject:title];
 }
+
 @end

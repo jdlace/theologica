@@ -1,26 +1,26 @@
 //
-//  SystematicTableViewController.m
+//  EcclesialTableViewController.m
 //  theologica
 //
 //  Created by Jonathan Lace on 7/17/13.
 //  Copyright (c) 2013 techrament. All rights reserved.
 //
 
-#import "SystematicTableViewController.h"
-#import "SystematicDetailViewController.h"
+#import "EcclesialTableViewController.h"
+#import "EcclesialDetailViewController.h"
 #import "WordDataSource.h"
 #import "Word.h"
 
-@interface SystematicTableViewController ()
+@interface EcclesialTableViewController ()
 @property (nonatomic, readonly) NSString *category;
 @property (nonatomic, strong) WordDataSource *wordDataSource;
 @end
 
-@implementation SystematicTableViewController
+@implementation EcclesialTableViewController
 
 - (NSString *)category
 {
-    return @"systematic";
+    return @"ecclesial";
 }
 
 - (WordDataSource *)wordDataSource
@@ -45,16 +45,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    NSDictionary *textAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
-                                    [UIColor blackColor],NSForegroundColorAttributeName,
-                                    [UIColor blackColor],NSBackgroundColorAttributeName,nil];
-    self.navigationController.navigationBar.titleTextAttributes = textAttributes;
-}
-
-- (void)preferredContentSizeChanged:(NSNotification *)notification
-{
-    [self.tableView reloadData];
 }
 
 - (void)didReceiveMemoryWarning
@@ -73,31 +63,25 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
+    // Return the number of rows in the section.
     return [self.wordDataSource numberOfRowsInSection:section forCategory:self.category];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"systematicCell";
+    static NSString *CellIdentifier = @"ecclesialCell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     // Configure the cell...
     Word *word = [self.wordDataSource wordForRowAtIndexPath:indexPath forCategory:self.category];
     cell.textLabel.text = word.name;
     
-    cell.textLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
-    
-    //need code for setting initial font on table view
-    
-    //Original Code
-    //cell.textLabel.text = [_systematicTerms objectAtIndex:indexPath.row];
-    
     return cell;
 }
 
 -(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
 {
-
+    
     return [self.wordDataSource titleForHeaderInSection:section forCategory:self.category];
 }
 
@@ -144,25 +128,14 @@
 
 -(CGFloat) tableView: (UITableView *) tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    
-    static UILabel* label;
-    if (!label) {
-        label = [[UILabel alloc]
-                 initWithFrame:CGRectMake(0, 0, FLT_MAX, FLT_MAX)];
-        label.text = @"test";
-    }
-    
-    label.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
-    [label sizeToFit];
-    return label.frame.size.height * 2.75;
-    //return 50;
+    return 50;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // Navigation logic may go here. Create and push another view controller.
     /*
-     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
+     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibWord:@"<#Nib Word#>" bundle:nil];
      // ...
      // Pass the selected object to the new view controller.
      [self.navigationController pushViewController:detailViewController animated:YES];
@@ -174,13 +147,14 @@
     if ([[segue identifier] isEqualToString:@"showWord"])
     {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        Word *word = [self.wordDataSource wordForRowAtIndexPath:indexPath forCategory:self.category];
+        NSArray *sectionArray = [_ecclesialDetails objectAtIndex:indexPath.section];
+        Word *detail = [sectionArray objectAtIndex:indexPath.row];
     
-        SystematicDetailViewController *WordViewController = [segue destinationViewController];
-        WordViewController.currentWordDetail = word;
+    EcclesialDetailViewController  *WordViewController = [segue destinationViewController]; 
+        //WordViewController.currentWord = [_Words objectAtIndex:indexPath.row];
+        WordViewController.currentWordDetail = detail;
     }
 }
-
 - (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView
 {
     return [self.wordDataSource sectionIndexTitlesForCategory:self.category];
@@ -189,11 +163,6 @@
 - (NSInteger)tableView:(UITableView *)tableView sectionForSectionIndexTitle:(NSString *)title atIndex:(NSInteger)index
 {
     return [self.wordDataSource sectionForSectionIndexTitle:title forCategory:self.category];
-}
-
-- (IBAction)info:(UIBarButtonItem *)sender
-{
-    
 }
 
 @end
