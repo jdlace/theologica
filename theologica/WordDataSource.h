@@ -8,8 +8,20 @@
 
 #import <Foundation/Foundation.h>
 
+@class Word;
+
 @interface WordDataSource : NSObject
 
+- (NSInteger)numberOfSectionsInDataSourceCategory:(NSString *)category;
 
+- (NSInteger)numberOfRowsInSection:(NSInteger)section forCategory:(NSString *)category;
+
+- (Word *)wordForRowAtIndexPath:(NSIndexPath *)indexPath forCategory:(NSString *)category;
+
+- (NSString *)titleForHeaderInSection:(NSInteger)section forCategory:(NSString *)category;
+
+- (NSArray *)sectionIndexTitlesForCategory:(NSString *)category;
+
+- (NSInteger)sectionForSectionIndexTitle:(NSString *)title forCategory:(NSString *)category;
 
 @end
