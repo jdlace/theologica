@@ -170,15 +170,13 @@
 -(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([[segue identifier] isEqualToString:@"showWord"])
-    {
+        {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        NSArray *sectionArray = [_ecclesialDetails objectAtIndex:indexPath.section];
-        Word *detail = [sectionArray objectAtIndex:indexPath.row];
-    
-        EcclesialDetailViewController  *WordViewController = [segue destinationViewController]; 
-        //WordViewController.currentWord = [_Words objectAtIndex:indexPath.row];
-        WordViewController.currentWordDetail = detail;
-    }
+        Word *word = [self.wordDataSource wordForRowAtIndexPath:indexPath forCategory:self.category];
+        
+        EcclesialDetailViewController *WordViewController = [segue destinationViewController];
+        WordViewController.currentWordDetail = word;
+        }
 }
 - (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView
 {

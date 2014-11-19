@@ -18,11 +18,12 @@
 
 - (NSArray *)keysArray
 {
-    if (!_keysArray) {
+    if (!_keysArray)
+        {
         _keysArray = @[@"A", @"B", @"C", @"D", @"E", @"F", @"G", @"H", @"I", @"J", @"K", @"L", @"M", @"N", @"O", @"P", @"Q", @"R", @"S", @"T", @"U", @"V", @"W", @"X", @"Y", @"Z"];
-//        NSString *key = [[self.dataDictionay allKeys] firstObject];
-//        _keysArray = [[self.dataDictionay[key] allKeys] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
-    }
+            //        NSString *key = [[self.dataDictionay allKeys] firstObject];
+            //        _keysArray = [[self.dataDictionay[key] allKeys] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
+        }
     return _keysArray;
 }
 
@@ -86,13 +87,14 @@
         _dataDictionay[@"biblical"] = [NSMutableDictionary dictionary];
         _dataDictionay[@"social"] = [NSMutableDictionary dictionary];
         
-        for (NSString *key in self.keysArray) {
+        for (NSString *key in self.keysArray)
+            {
             _dataDictionay[@"systematic"][key] = [NSMutableArray array];
             _dataDictionay[@"ecclesial"][key] = [NSMutableArray array];
             _dataDictionay[@"moral"][key] = [NSMutableArray array];
             _dataDictionay[@"biblical"][key] = [NSMutableArray array];
             _dataDictionay[@"social"][key] = [NSMutableArray array];
-        }
+            }
         
         [self buildSystematicWords];
         [self buildEcclesialWords];
@@ -163,6 +165,7 @@
     Word *atonement = [[Word alloc] init];
     atonement.name = @"atonement";
     atonement.definition = @"The act of making restitution for inflicted harm";
+    
     [_dataDictionay[@"systematic"][@"A"] addObjectsFromArray:@[accidence, adoption, agape, aggiornomento, agnostic, allegory, analogy, annointing, apologetics, apophatic, aposteriori, apriori, argument, atonement]];
     
     
@@ -174,6 +177,7 @@
     Word *blasphemy = [[Word alloc] init];
     blasphemy.name = @"blasphemy";
     blasphemy.definition = @"A form of religious slander";
+    
     [_dataDictionay[@"systematic"][@"B"] addObjectsFromArray:@[baptism, blasphemy]];
     
     
@@ -201,12 +205,14 @@
     Word *creed = [[Word alloc] init];
     creed.name = @"creed";
     creed.definition = @"from the Latin 'credo' (I believe) - a statement of belief; used to refer to the historical creeds of the Church, most notably the Apostle's and Nicene creed.";
+    
     [_dataDictionay[@"systematic"][@"C"] addObjectsFromArray:@[canon, Christ, confession, cosmological, creed]];
     
     // build systematic words D
     Word *deism = [[Word alloc] init];
     deism.name = @"deism";
     deism.definition = @"The belief that God created the world but does not intervene in the natural course of the world.";
+    
     [_dataDictionay[@"systematic"][@"D"] addObjectsFromArray:@[deism]];
     
     Word *determinism = [[Word alloc] init];
@@ -220,6 +226,7 @@
     Word *dualism = [[Word alloc] init];
     dualism.name = @"dualism";
     dualism.definition = @"The belief that humans are composed of two substances, body and soul/mind; also known as substance dualism; found in the Platonic influence on Christianity and later in the writings of Descartes. Associated problems include the problem of causation and the seeming violation of the scientific law of the conservation of energy.";
+    
     [_dataDictionay[@"systematic"][@"D"] addObjectsFromArray:@[deism, determinism, developmentDoc, dualism]];
     
     
@@ -250,6 +257,7 @@
     Word *explanans = [[Word alloc] init];
     explanans.name = @"explanans";
     explanans.definition = @"That which explains something else...";
+    
     [_dataDictionay[@"systematic"][@"E"] addObjectsFromArray:@[epistemology, eschatology, essence, exclusivism, exNihilo, explanandum, explanans]];
     
     
@@ -264,6 +272,7 @@
     Word *immanence = [[Word alloc] init];
     immanence.name = @"immanence";
     immanence.definition = @"The quality of being within human experience.";
+    
     [_dataDictionay[@"systematic"][@"I"] addObjectsFromArray:@[immanence]];
     
     
@@ -271,6 +280,7 @@
     Word *jesus = [[Word alloc] init];
     jesus.name = @"Jesus of Nazareth";
     jesus.definition = @"The first-century Jewish prophet who proclaimed the Kingdom of God, was executed by the Roman govenor Pontius Pilate, and whom the early Christians believed to raised from dead as the Christ and Son of God.";
+    
     [_dataDictionay[@"systematic"][@"J"] addObjectsFromArray:@[jesus]];
     
     
@@ -278,6 +288,7 @@
     Word *metaphysics = [[Word alloc] init];
     metaphysics.name = @"metaphysics";
     metaphysics.definition = @"The study of the fundamental nature of reality.";
+    
     [_dataDictionay[@"systematic"][@"M"] addObjectsFromArray:@[metaphysics]];
     
     
@@ -285,6 +296,7 @@
     Word *philosophy = [[Word alloc] init];
     philosophy.name = @"philosophy";
     philosophy.definition = @"The critical examination of human thought; the love of wisdom.";
+    
     [_dataDictionay[@"systematic"][@"P"] addObjectsFromArray:@[philosophy]];
     
     
@@ -292,6 +304,7 @@
     Word *transcendence = [[Word alloc] init];
     transcendence.name = @"transcendence";
     transcendence.definition = @"The quality of going beyond human experience.";
+    
     [_dataDictionay[@"systematic"][@"T"] addObjectsFromArray:@[transcendence]];
     
     
@@ -299,6 +312,7 @@
     Word *universalism = [[Word alloc] init];
     universalism.name = @"universalism";
     universalism.definition = @"The belief that all of humanity will ultimately experience salvation.";
+    
     [_dataDictionay[@"systematic"][@"U"] addObjectsFromArray:@[universalism]];
 }
 
@@ -340,6 +354,7 @@
     Word *arianism = [[Word alloc] init];
     arianism.name = @"Arianism";
     arianism.definition = @"The teaching of Arius that the Son was of a different substance than the Father (begotten vs. unbegotten) and thus, not fully divine.";
+    
     [_dataDictionay[@"ecclesial"][@"A"] addObjectsFromArray:@[absolution, acolyte, angusDei, altar, anamnesis, anathema, antiphon, apostlesCreed, arianism]];
     
     //B
@@ -366,17 +381,130 @@
     Word *blasphemy = [[Word alloc] init];
     blasphemy.name = @"blasphemy";
     blasphemy.definition = @"religious slander";
+    
     [_dataDictionay[@"ecclesial"][@"B"] addObjectsFromArray:@[baptism, baptistry, basillica, benedictus, bishop, blasphemy]];
     
     //P
     Word *protestant = [[Word alloc] init];
     protestant.name = @"Protestant";
     protestant.definition = @"The theological objection to the authority of the Pope in the Church; the Protestant Reformation.";
+    
     [_dataDictionay[@"ecclesial"][@"P"] addObjectsFromArray:@[protestant]];
 }
 
 - (void)buildMoralWords
 {
+    //A
+    
+    Word *abortion = [[Word alloc] init];
+    abortion.name = @"abortion";
+    abortion.definition = @"the intentional killing of an unborn human being";
+    
+    Word *abstinence = [[Word alloc] init];
+    abstinence.name = @"abstinence";
+    abstinence.definition = @"to refrain from a given activity";
+    
+    Word *act = [[Word alloc] init];
+    act.name = @"act";
+    act.definition = @"In moral theology, an truly “human” act refers to actions made with freedom and will.";
+    
+    Word *adultery = [[Word alloc] init];
+    adultery.name = @"adultery";
+    adultery.definition = @"Marital infidelity or sexual relations between two people, one of which being married to another person";
+    
+    [_dataDictionay [@"moral"][@"A"] addObjectsFromArray:@[abortion, abstinence, act, adultery]]; 
+    
+    //B
+    
+    //C
+    
+    Word *casuistry = [[Word alloc] init];
+    casuistry.name = @"casuistry";
+    casuistry.definition = @"the study of case law";
+    
+    //D
+    
+    Word *deontology = [[Word alloc] init];
+    deontology.name = @"deontology";
+    deontology.definition = @"from the Greek word for “duty” (deon) - the study of ethics from the framework of moral duties in the form of rules and laws.";
+    
+    //E
+    
+    Word *epistemology = [[Word alloc] init];
+    epistemology.name = @"epistemology";
+    epistemology.definition = @"the study of the origin, nature, and limits of human knowledge; one of the three traditional subjects of Western philosophy.";
+    
+    Word *ethics = [[Word alloc] init];
+    ethics.name = @"ethics";
+    ethics.definition = @"the study of moral systems";
+    
+    //F
+    
+    //G
+    
+    //H
+    
+    Word *humanRights = [[Word alloc] init];
+    humanRights.name = @"human rights";
+    humanRights.definition = @"rights due to a person by virtue of his or her being a human being; thirty human rights are enumerated in the United Nations Universal Declaration of Human Rights.";
+    
+    //I
+    
+    //J
+    
+    Word *justice = [[Word alloc] init];
+    justice.name = @"justice";
+    justice.definition = @"the state of right relationships between individuals and groups in society.";
+    
+    Word *jusAdBellum = [[Word alloc] init];
+    jusAdBellum.name = @"jus ad bellum";
+    jusAdBellum.definition = @"Latin for “justice to war” - a set of criteria used to determine if war is justified in a given situation: just cause, comparative justice, competent authority, right intention, probability of success, last resort, proportionality; see “Just War Theory”.";
+    
+    Word *jusImBello = [[Word alloc] init];
+    jusImBello.name = @"jus im bello";
+    jusImBello.definition = @"Latin for “justice in war” - a set of criteria used to determine if the methods of war are justified: distinction, proportionality, military necessity; see “Just War Theory”.";
+    
+    Word *justWar = [[Word alloc] init];
+    justWar.name = @"Just War Theory";
+    justWar.definition = @"The theory first developed by Augustine and later refined by Aquinas which consists of criteria for determining the justice of both the conditions and methods of war; see “jus ad bellum” and “jus im bello”.";
+    
+    //K
+    
+    //L
+    
+    //M
+    
+    Word *morality = [[Word alloc] init];
+    morality.name = @"morality";
+    morality.definition = @"customary norms of behavior considered good or evil, right or wrong in a given system.";
+    
+    //N
+    
+    //O
+    
+    //P
+    
+    //Q
+    
+    //R
+    
+    //S
+    
+    //T
+    
+    //U
+    
+    //V
+    
+    //W
+    
+    //X
+    
+    //Y
+    
+    //Z
+
+    
     
 }
 
