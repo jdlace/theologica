@@ -10,14 +10,8 @@
 #import "Word.h"
 
 @interface WordDataSource ()
-<<<<<<< HEAD
 @property (nonatomic, strong) NSArray *keysArray;
 @property (nonatomic, strong) NSMutableDictionary *dataDictionay;
-=======
-
-@property (nonatomic, strong) NSDictionary *dataDictionay;
-
->>>>>>> 4002fa926a5ba49baacaecfdc24b995abf2445f0
 @end
 
 @implementation WordDataSource
@@ -112,12 +106,7 @@
 
 - (void)buildSystematicWords
 {
-<<<<<<< HEAD
     // build systematic words A
-=======
-    // A (repeat for all letters/words)
-    // create word
->>>>>>> 4002fa926a5ba49baacaecfdc24b995abf2445f0
     Word *accidence = [[Word alloc] init];
     accidence.name = @"accidence";
     accidence.definition = @"In Aristotelean philosophy, a nonessential property or quality of a substance.";
@@ -171,43 +160,13 @@
     argument.name = @"argument";
     argument.definition = @"A series of statements that establishes a truth claim; made of two parts - premise and conclusion; the from can be deductive or inductive; deductive arguments can be valid or invalid...";
     
-    
     Word *atonement = [[Word alloc] init];
     atonement.name = @"atonement";
     atonement.definition = @"The act of making restitution for inflicted harm";
-    [_dataDictionay[@"systematic"][@"A"] addObjectsFromArray:@[accidence, adoption, agape, aggiornomento, agnostic, allegory, analogy, apologetics, apophatic, atonement]];
-    
-<<<<<<< HEAD
+    [_dataDictionay[@"systematic"][@"A"] addObjectsFromArray:@[accidence, adoption, agape, aggiornomento, agnostic, allegory, analogy, annointing, apologetics, apophatic, aposteriori, apriori, argument, atonement]];
     
     
     // build systematic words B
-=======
-    // A (repeat for all letters/words)
-    NSMutableArray *sysArrayA = [NSMutableArray array];
-    // add to sysArrayA
-    [sysArrayA addObject: accidence];
-    [sysArrayA addObject: adoption];
-    [sysArrayA addObject: agape];
-    [sysArrayA addObject: aggiornomento];
-    [sysArrayA addObject: agnostic];
-    [sysArrayA addObject: allegory];
-    [sysArrayA addObject: analogy];
-    [sysArrayA addObject: annointing];
-    [sysArrayA addObject: apologetics];
-    [sysArrayA addObject: apophatic];
-    [sysArrayA addObject: aposteriori];
-    [sysArrayA addObject: apriori];
-    [sysArrayA addObject: argument];
-    [sysArrayA addObject: atonement];
-
-    // set the A key/value in the systematic dict of the dataDictionary
-    self.dataDictionay[@"systematic"][@"A"] = sysArrayA;
-    
-    //B
-    NSMutableArray *sysArrayB = [NSMutableArray array];
-    
-    // create word
->>>>>>> 4002fa926a5ba49baacaecfdc24b995abf2445f0
     Word *baptism = [[Word alloc] init];
     baptism.name = @"baptism";
     baptism.definition = @"A ritual washing used for initiation into the Christian community";
@@ -215,46 +174,10 @@
     Word *blasphemy = [[Word alloc] init];
     blasphemy.name = @"blasphemy";
     blasphemy.definition = @"A form of religious slander";
-<<<<<<< HEAD
     [_dataDictionay[@"systematic"][@"B"] addObjectsFromArray:@[baptism, blasphemy]];
     
     
     // build systematic words C
-    Word *canon = [[Word alloc] init];
-    canon.name = @"canon";
-    canon.definition = @"Greek word for 'measuring stick'; used metaphorically to refer to a collection of texts regarded as authoritative for faith and practice within a community";
-    
-    Word *Christ = [[Word alloc] init];
-    Christ.name = @"Christ";
-    Christ.definition = @"The title given to Jesus of Nazareth by early Christians - from the Greek word χριστος (christos) - 'annointed one'.";
-    
-    Word *creed = [[Word alloc] init];
-    creed.name = @"creed";
-    creed.definition = @"from the Latin 'credo' (I believe) - a statement of belief; used to refer to the historical creeds of the Church, most notably the Apostle's and Nicene creed.";
-    [_dataDictionay[@"systematic"][@"C"] addObjectsFromArray:@[canon, Christ, creed]];
-    
-    
-    
-    // build systematic words D
-    Word *deism = [[Word alloc] init];
-    deism.name = @"deism";
-    deism.definition = @"The belief that God created the world but does not intervene in the natural course of the world.";
-    [_dataDictionay[@"systematic"][@"D"] addObjectsFromArray:@[deism]];
-    
-    
-    // build systematic words E
-=======
-    
-    
-    // add to sysArrayB
-    [sysArrayB addObject: baptism];
-    [sysArrayB addObject: blasphemy];
-
-    self.dataDictionay[@"systematic"][@"B"] = sysArrayB;
-    
-    //C
-    NSMutableArray *sysArrayC = [NSMutableArray array];
-    
     Word *canon = [[Word alloc] init];
     canon.name = @"canon";
     canon.definition = @"Greek word for 'measuring stick'; used metaphorically to refer to a collection of texts regarded as authoritative for faith and practice within a community";
@@ -269,7 +192,7 @@
     
     Word *confession = [[Word alloc] init];
     confession.name = @"Confession";
-    confession.definition = @"The sacrament of reconciliation..."; 
+    confession.definition = @"The sacrament of reconciliation...";
     
     Word *cosmological = [[Word alloc] init];
     cosmological.name = @"Cosmological Argument";
@@ -278,21 +201,13 @@
     Word *creed = [[Word alloc] init];
     creed.name = @"creed";
     creed.definition = @"from the Latin 'credo' (I believe) - a statement of belief; used to refer to the historical creeds of the Church, most notably the Apostle's and Nicene creed.";
+    [_dataDictionay[@"systematic"][@"C"] addObjectsFromArray:@[canon, Christ, confession, cosmological, creed]];
     
-    [sysArrayC addObject: canon];
-    [sysArrayC addObject: Christ];
-    [sysArrayC addObject: cosmological];
-    [sysArrayC addObject: creed];
-    
-    self.dataDictionay[@"systematic"][@"C"] = sysArrayC;
-    
-    //D
-    
-    NSMutableArray *sysArrayD = [NSMutableArray array];
-    
+    // build systematic words D
     Word *deism = [[Word alloc] init];
     deism.name = @"deism";
     deism.definition = @"The belief that God created the world but does not intervene in the natural course of the world.";
+    [_dataDictionay[@"systematic"][@"D"] addObjectsFromArray:@[deism]];
     
     Word *determinism = [[Word alloc] init];
     determinism.name = @"determinism";
@@ -305,19 +220,9 @@
     Word *dualism = [[Word alloc] init];
     dualism.name = @"dualism";
     dualism.definition = @"The belief that humans are composed of two substances, body and soul/mind; also known as substance dualism; found in the Platonic influence on Christianity and later in the writings of Descartes. Associated problems include the problem of causation and the seeming violation of the scientific law of the conservation of energy.";
+    [_dataDictionay[@"systematic"][@"D"] addObjectsFromArray:@[deism, determinism, developmentDoc, dualism]];
     
-    [sysArrayD addObject: deism];
-    [sysArrayD addObject: determinism];
-    [sysArrayD addObject: developmentDoc];
-    [sysArrayD addObject: dualism];
     
-    self.dataDictionay [@"systematic"] [@"D"] = sysArrayD;
-    
-    //E
-    
-    NSMutableArray *sysArrayE = [NSMutableArray array];
-    
->>>>>>> 4002fa926a5ba49baacaecfdc24b995abf2445f0
     Word *epistemology = [[Word alloc] init];
     epistemology.name = @"epistemology";
     epistemology.definition = @"The study of the origin, nature, and limits of human knowledge; one of the three traditional subjects of Western philosophy.";
@@ -330,14 +235,25 @@
     essence.name = @"essence";
     essence.definition = @"in Aristotelean philosophy, the property that makes an object what it is.";
     
-<<<<<<< HEAD
+    Word *exclusivism = [[Word alloc] init];
+    exclusivism.name = @"exclusivism";
+    exclusivism.definition = @"The soteriological belief that only those people who have a made an explicit Christian confession will experience salvation.";
+    
     Word *exNihilo = [[Word alloc] init];
     exNihilo.name = @"ex nihilo";
     exNihilo.definition = @"from the Latin 'out of nothing' - The belief that God created the world out of nothing.";
-    [_dataDictionay[@"systematic"][@"E"] addObjectsFromArray:@[epistemology, eschatology, essence, exNihilo]];
+    
+    Word *explanandum = [[Word alloc] init];
+    explanandum.name = @"explanandum";
+    explanandum.definition = @"That which is explained by something else.";
+    
+    Word *explanans = [[Word alloc] init];
+    explanans.name = @"explanans";
+    explanans.definition = @"That which explains something else...";
+    [_dataDictionay[@"systematic"][@"E"] addObjectsFromArray:@[epistemology, eschatology, essence, exclusivism, exNihilo, explanandum, explanans]];
     
     
-    // build systematic words F
+    // F
     Word *faith = [[Word alloc] init];
     faith.name = @"faith";
     faith.definition = @"1. Trust or confidence; 2. The content of a religious system ('The Christian faith').";
@@ -384,109 +300,6 @@
     universalism.name = @"universalism";
     universalism.definition = @"The belief that all of humanity will ultimately experience salvation.";
     [_dataDictionay[@"systematic"][@"U"] addObjectsFromArray:@[universalism]];
-=======
-    Word *exclusivism = [[Word alloc] init];
-    exclusivism.name = @"exclusivism";
-    exclusivism.definition = @"The soteriological belief that only those people who have a made an explicit Christian confession will experience salvation.";
-    
-    Word *exNihilo = [[Word alloc] init];
-    exNihilo.name = @"ex nihilo";
-    exNihilo.definition = @"from the Latin 'out of nothing' - The belief that God created the world out of nothing.";
-    
-    Word *explanandum = [[Word alloc] init];
-    explanandum.name = @"explanandum";
-    explanandum.definition = @"That which is explained by something else.";
-    
-    Word *explanans = [[Word alloc] init];
-    explanans.name = @"explanans";
-    explanans.definition = @"That which explains something else...";
-    
-    [sysArrayE addObject: epistemology];
-    [sysArrayE addObject: eschatology];
-    [sysArrayE addObject: essence];
-    [sysArrayE addObject: exclusivism];
-    [sysArrayE addObject: exNihilo];
-    [sysArrayE addObject: explanandum];
-    [sysArrayE addObject: explanans];
-    
-    self.dataDictionay [@"systematic"] [@"E"] = sysArrayE;
-    
-    //F
-    
-    Word *faith = [[Word alloc] init];
-    faith.name = @"faith";
-    faith.definition = @"1. Trust or confidence; 2. The content of a religious system ('The Christian faith').";
-    
-    //G
-    
-    //H
-    
-    //I
-    
-    Word *immanence = [[Word alloc] init];
-    immanence.name = @"immanence";
-    immanence.definition = @"The quality of being within human experience.";
-    
-    //J
-    
-    Word *jesus = [[Word alloc] init];
-    jesus.name = @"Jesus of Nazareth";
-    jesus.definition = @"The first-century Jewish prophet who proclaimed the Kingdom of God, was executed by the Roman govenor Pontius Pilate, and whom the early Christians believed to raised from dead as the Christ and Son of God.";
-    
-    //K
-    
-    //L
-    
-    //M
-    
-    Word *metaphysics = [[Word alloc] init];
-    metaphysics.name = @"metaphysics";
-    metaphysics.definition = @"The study of the fundamental nature of reality.";
-    
-    //N
-    
-    //O
-    
-    //P
-    
-    Word *philosophy = [[Word alloc] init];
-    philosophy.name = @"philosophy";
-    philosophy.definition = @"The critical examination of human thought; the love of wisdom.";
-    
-    //Q
-    
-    //R
-    
-    //S
-    
-    //T
-    
-    Word *theoAesthetics = [[Word alloc] init];
-    theoAesthetics.name = @"theological aesthetics";
-    theoAesthetics.definition = @"The study of God in light of the human experience of the arts.";
-    
-    Word *transcendence = [[Word alloc] init];
-    transcendence.name = @"transcendence";
-    transcendence.definition = @"The quality of going beyond human experience.";
-    
-    //U
-    
-    Word *universalism = [[Word alloc] init];
-    universalism.name = @"universalism";
-    universalism.definition = @"The belief that all of humanity will ultimately experience salvation.";
-    
-    //V
-    
-    //W
-    
-    //X
-    
-    //Y
-    
-    //Z
-
-    
->>>>>>> 4002fa926a5ba49baacaecfdc24b995abf2445f0
 }
 
 - (void)buildEcclesialWords

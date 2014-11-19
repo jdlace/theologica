@@ -50,6 +50,12 @@
                                     [UIColor blackColor],NSForegroundColorAttributeName,
                                     [UIColor blackColor],NSBackgroundColorAttributeName,nil];
     self.navigationController.navigationBar.titleTextAttributes = textAttributes;
+    
+    [[NSNotificationCenter defaultCenter]
+     addObserver:self
+     selector:@selector(preferredContentSizeChanged:)
+     name:UIContentSizeCategoryDidChangeNotification
+     object:nil];
 }
 
 - (void)preferredContentSizeChanged:(NSNotification *)notification
