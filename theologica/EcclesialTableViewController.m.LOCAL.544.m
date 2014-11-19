@@ -45,18 +45,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    
-    [[NSNotificationCenter defaultCenter]
-     addObserver:self
-     selector:@selector(preferredContentSizeChanged:)
-     name:UIContentSizeCategoryDidChangeNotification
-     object:nil];
-}
-
-- (void)preferredContentSizeChanged:(NSNotification *)notification
-{
-    [self.tableView reloadData];
 }
 
 - (void)didReceiveMemoryWarning
@@ -83,8 +71,6 @@
 {
     static NSString *CellIdentifier = @"ecclesialCell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
-    
-    cell.textLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
     
     // Configure the cell...
     Word *word = [self.wordDataSource wordForRowAtIndexPath:indexPath forCategory:self.category];
@@ -142,18 +128,7 @@
 
 -(CGFloat) tableView: (UITableView *) tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static UILabel* label;
-    if (!label) {
-        label = [[UILabel alloc]
-                 initWithFrame:CGRectMake(0, 0, FLT_MAX, FLT_MAX)];
-        label.text = @"test";
-    }
-    
-    label.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
-    [label sizeToFit];
-    return label.frame.size.height * 2.75;
-
-    //return 50;
+    return 50;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
@@ -175,7 +150,7 @@
         NSArray *sectionArray = [_ecclesialDetails objectAtIndex:indexPath.section];
         Word *detail = [sectionArray objectAtIndex:indexPath.row];
     
-        EcclesialDetailViewController  *WordViewController = [segue destinationViewController]; 
+    EcclesialDetailViewController  *WordViewController = [segue destinationViewController]; 
         //WordViewController.currentWord = [_Words objectAtIndex:indexPath.row];
         WordViewController.currentWordDetail = detail;
     }
