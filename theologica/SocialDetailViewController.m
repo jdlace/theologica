@@ -32,7 +32,19 @@
     
     _socialName.text = _currentWordDetail.name;
     _socialDescription.text = _currentWordDetail.definition;
-    _socialDescription.textColor = [UIColor blackColor];
+    //_socialDescription.textColor = [UIColor blackColor];
+    self.socialDescription.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
+    
+    [[NSNotificationCenter defaultCenter]
+     addObserver:self
+     selector:@selector(preferredContentSizeChanged:)
+     name:UIContentSizeCategoryDidChangeNotification
+     object:nil];
+}
+
+- (void)preferredContentSizeChanged:(NSNotification *)notification
+{
+    self.socialDescription.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
 }
 
 - (void)didReceiveMemoryWarning

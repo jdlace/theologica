@@ -34,6 +34,7 @@
 {
     [super viewDidLoad];
     
+    
     NSDictionary *textAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
                                     [UIColor blackColor],NSForegroundColorAttributeName,
                                     [UIColor blackColor],NSBackgroundColorAttributeName,nil];
@@ -450,6 +451,17 @@
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+    [[NSNotificationCenter defaultCenter]
+     addObserver:self
+     selector:@selector(preferredContentSizeChanged:)
+     name:UIContentSizeCategoryDidChangeNotification
+     object:nil];
+}
+
+- (void)preferredContentSizeChanged:(NSNotification *)notification
+{
+    [self.tableView reloadData];
 }
 
 - (void)didReceiveMemoryWarning
@@ -490,11 +502,16 @@
     NSString *term = [sectionTerms objectAtIndex:indexPath.row];
     cell.textLabel.text = term;
     
+    cell.textLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
+    
+    //need code for setting initial font on table view
+    
     //Original Code
     //cell.textLabel.text = [_systematicTerms objectAtIndex:indexPath.row];
     
     return cell;
 }
+
 
 -(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
 {
@@ -545,7 +562,18 @@
 
 -(CGFloat) tableView: (UITableView *) tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 50;
+    
+    static UILabel* label;
+    if (!label) {
+        label = [[UILabel alloc]
+                 initWithFrame:CGRectMake(0, 0, FLT_MAX, FLT_MAX)];
+        label.text = @"test";
+    }
+    
+    label.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
+    [label sizeToFit];
+    return label.frame.size.height * 2.75;
+    //return 50;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
@@ -587,4 +615,5 @@
 {
     
 }
+
 @end

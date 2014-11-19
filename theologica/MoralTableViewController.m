@@ -300,6 +300,18 @@
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+    
+    [[NSNotificationCenter defaultCenter]
+     addObserver:self
+     selector:@selector(preferredContentSizeChanged:)
+     name:UIContentSizeCategoryDidChangeNotification
+     object:nil];
+}
+
+- (void)preferredContentSizeChanged:(NSNotification *)notification
+{
+    [self.tableView reloadData];
 }
 
 - (void)didReceiveMemoryWarning
@@ -332,6 +344,8 @@
     NSArray *sectionTerms = [terms objectForKey:sectionTitle];
     NSString *term = [sectionTerms objectAtIndex:indexPath.row];
     cell.textLabel.text = term;
+    
+    cell.textLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
 
     return cell;
 }
@@ -385,7 +399,19 @@
 
 -(CGFloat) tableView: (UITableView *) tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 50;
+    
+    static UILabel* label;
+    if (!label) {
+        label = [[UILabel alloc]
+                 initWithFrame:CGRectMake(0, 0, FLT_MAX, FLT_MAX)];
+        label.text = @"test";
+    }
+    
+    label.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
+    [label sizeToFit];
+    return label.frame.size.height * 2.75;
+
+    //return 50;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath

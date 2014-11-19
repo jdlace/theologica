@@ -32,11 +32,22 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
+    //self.systematicName.font = [UIFont preferredFontForTextStyle: UIFontTextStyleBody];
+    self.systematicDescription.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
+    
     _systematicName.text = _currentWordDetail.name;
     _systematicDescription.text = _currentWordDetail.definition;
-    _systematicDescription.textColor = [UIColor blackColor];
+    //_systematicDescription.textColor = [UIColor blacColor];
     
+    [[NSNotificationCenter defaultCenter]
+     addObserver:self
+     selector:@selector(preferredContentSizeChanged:)
+     name:UIContentSizeCategoryDidChangeNotification
+     object:nil];
+}
 
+- (void)preferredContentSizeChanged:(NSNotification *)notification {
+    self.systematicDescription.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
 }
 
 - (void)didReceiveMemoryWarning
