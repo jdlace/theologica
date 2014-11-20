@@ -156,7 +156,7 @@
 
     
     Word *aposteriori = [[Word alloc] init];
-    aposteriori.name = @"a priori";
+    aposteriori.name = @"a posteriori";
     aposteriori.definition = @"A philosophical category which follows human experience. The statement “Water boils at 0 degrees Celsius” is an a posteriori truth. See Stanford Encyclopedia of Philosophy, “A Priori Justification and Knowledge”. http://plato.stanford.edu/entries/apriori/.";
     
     Word *apriori = [[Word alloc] init];
@@ -285,15 +285,61 @@
     fideism.name = @"fideism";
     fideism.definition = @"The belief that....";
     
-    [_dataDictionay[@"systematic"][@"F"] addObjectsFromArray:@[faith, fideism]];
+    Word *foreknowledge = [[Word alloc] init];
+    foreknowledge.name = @"foreknowledge";
+    foreknowledge.definition = @"The belief that God knows future events; this idea features prominently in post-Exilic Hebrew literature and in the New Testament; associated philosophical problems include constraints on human freedom and the problem of evil. See Catechism of the Catholic Church, 600. http://www.vatican.va/archive/ccc_css/archive/catechism/p122a4p2.htm. Also see Stanford Encylopedia of Philosophy, “Foreknowledge and Free Will”. http://plato.stanford.edu/entries/free-will-foreknowledge/";
     
+    Word *freewill = [[Word alloc] init];
+    freewill.name = @"free will";
+    freewill.definition = @"The ability to choose...";
+    
+    [_dataDictionay[@"systematic"][@"F"] addObjectsFromArray:@[faith, fideism, foreknowledge, freewill]];
+    
+    //G
+    Word *gospel = [[Word alloc] init];
+    gospel.name = @"gospel";
+    gospel.definition = @"1. The message of the historical Jesus concerning the Kingdom of God; 2. The message about Jesus concerning the salvation of the world; 3. One of the four canonical accounts of the life and ministry of the historical Jesus (Matthew, Mark, Luke, and John); from the Greek word ευαγγελιον (evangelion) - “good news”.";
+    
+    Word *grace = [[Word alloc] init];
+    grace.name = @"grace";
+    grace.definition = @"unmerited favor... See Catechism of the Catholic Church, 1996. http://www.vatican.va/archive/ccc_css/archive/catechism/p3s1c3a2.htm";
+    
+    [_dataDictionay [@"systematic"][@"G"] addObjectsFromArray:@[gospel, grace]];
+    
+    //H
+    Word *heaven = [[Word alloc] init];
+    heaven.name = @"heaven";
+    heaven.definition = @"The state of complete union with God...";
+    
+    Word *hell = [[Word alloc] init];
+    hell.name = @"hell";
+    hell.definition = @"The state of complete separation from God...";
+    
+    Word *henotheism = [[Word alloc] init];
+    henotheism.name = @"henotheism";
+    henotheism.definition = @"The belief that many gods exist while only one is served.";
+    
+    Word *heresy = [[Word alloc] init];
+    heresy.name = @"heresy";
+    heresy.definition = @"The formal contradiction of orthodox belief...";
+    
+    
+    [_dataDictionay [@"systematic"][@"H"] addObjectsFromArray:@[heaven, hell, henotheism, heresy]];
     
     //I
     Word *immanence = [[Word alloc] init];
     immanence.name = @"immanence";
     immanence.definition = @"The quality of being within human experience.";
     
-    [_dataDictionay[@"systematic"][@"I"] addObjectsFromArray:@[immanence]];
+    Word *idolatry = [[Word alloc] init];
+    idolatry.name = @"idolatry";
+    idolatry.definition = @"The bestowal of ultimate value on that which is not ultimate.";
+    
+    Word *inclusivism = [[Word alloc] init];
+    inclusivism.name = @"inclusivism";
+    inclusivism.definition = @"The belief that those who respond to the truth they have receieved will experience salvation; a soteriology developed by Karl Rahner in the mid-twentieth century.";
+    
+    [_dataDictionay[@"systematic"][@"I"] addObjectsFromArray:@[immanence, idolatry, inclusivism]];
     
     
     //J
@@ -301,23 +347,155 @@
     jesus.name = @"Jesus of Nazareth";
     jesus.definition = @"The first-century Jewish prophet who proclaimed the Kingdom of God, was executed by the Roman govenor Pontius Pilate, and whom the early Christians believed to raised from dead as the Christ and Son of God.";
     
-    [_dataDictionay[@"systematic"][@"J"] addObjectsFromArray:@[jesus]];
+    Word *justification = [[Word alloc] init];
+    justification.name = @"justification";
+    justification.definition = @"The act of being put into a just relationship. Paul uses this word to describe those who believe in Jesus as the Christ...";
+    
+    [_dataDictionay[@"systematic"][@"J"] addObjectsFromArray:@[jesus, justification]];
+    
+    //K
+    Word *kataphatic = [[Word alloc] init];
+    kataphatic.name = @"kataphatic";
+    kataphatic.definition = @"Language which makes postiive claims about God.";
+    
+    Word *kenosis = [[Word alloc] init];
+    kenosis.name = @"kenosis";
+    kenosis.definition = @"The process of emptying; from the Greek word    ; used by Paul in his letter to the Philippians to describe the self-emptying of Jesus.";
+    
+    [_dataDictionay [@"systematic"][@"K"] addObjectsFromArray:@[kataphatic, kenosis]];
+    
+    //L
+    Word *lawNC = [[Word alloc] init];
+    lawNC.name = @"Law of Non-Contradiction";
+    lawNC.definition = @"The logical axiom that states that A and ~A cannot both be true at the same time in the same way.";
+    
+    Word *liberation = [[Word alloc]init];
+    liberation.name = @"liberation theology";
+    liberation.definition = @"The theological movement associated with the idea that the gospel is only authentic in the face of radical poverty.";
+    
+    Word *logic = [[Word alloc] init];
+    logic.name = @"logic";
+    logic.definition = @"The science of reasoning. See “The Logic Web”, University of Oxford. http://logic.philosophy.ox.ac.uk/main.htm. Also see Wikipedia, “Logic”. http://en.wikipedia.org/wiki/Logic.";
+    
+    [_dataDictionay [@"systematic"][@"L"] addObjectsFromArray:@[lawNC, liberation, logic]];
     
     
     //M
     Word *metaphysics = [[Word alloc] init];
     metaphysics.name = @"metaphysics";
-    metaphysics.definition = @"The study of the fundamental nature of reality.";
+    metaphysics.definition = @"The study of the fundamental nature of reality; the study of ontology; a highly contested area of inquiry that has including a variation of topics throughout history since the time of Aristotle. See Routledge Encyclopedia of Philosophy, “Metaphysics”. http://www.rep.routledge.com/article/N095";
     
-    [_dataDictionay[@"systematic"][@"M"] addObjectsFromArray:@[metaphysics]];
+    Word *miracle = [[Word alloc] init];
+    miracle.name = @"miracle";
+    miracle.definition = @"In common parlance, a supernatural event which defies scientific explanation.";
     
+    Word *monotheism = [[Word alloc] init];
+    monotheism.name = @"monotheism";
+    monotheism.definition = @"The belief that only one God exists.";
+    
+    Word *mystery = [[Word alloc] init];
+    mystery.name = @"mystery";
+    mystery.definition = @"That which transcends human comprehension and explanation.";
+    
+    
+    [_dataDictionay[@"systematic"][@"M"] addObjectsFromArray:@[metaphysics, miracle, monotheism, mystery]];
+    
+    //N
+    Word *naturalTheo = [[Word alloc] init];
+    naturalTheo.name = @"natural theology";
+    naturalTheo.definition = @"The study of God by inference from the facts of the physical world.";
+    
+    Word *numinous = [[Word alloc] init];
+    numinous.name = @"numinous";
+    numinous.definition = @"The category of religous experience as defined by Rudoph Otto.";
+    
+    [_dataDictionay [@"systematic"][@"N"] addObjectsFromArray:@[naturalTheo, numinous]];
+    
+    
+    
+    //O
+    Word *omnibenevolence = [[Word alloc] init];
+    omnibenevolence.name = @"omnibenevolence";
+    omnibenevolence.definition = @"The quality of being all-loving.";
+    
+    Word *omnipotence = [[Word alloc] init];
+    omnipotence.name = @"omnipotence";
+    omnipotence.definition = @"The quality of being all-powerful.";
+    
+    Word *omnipresence = [[Word alloc] init];
+    omnipresence.name = @"omnipresence";
+    omnipresence.definition = @"The quality of being all-present";
+    
+    Word *omniscience = [[Word alloc] init];
+    omniscience.name = @"omniscience";
+    omniscience.definition = @"The quality of being all-knowing";
+    
+    Word *ontological = [[Word alloc] init];
+    ontological.name = @"Ontological Argument";
+    ontological.definition = @"The argument, first formulated by Anselm of Canterburry, that states God, as the greatest possible Being, is a necessary Being.";
+    
+    Word *openTheism = [[Word alloc] init];
+    openTheism.name = @"Open Theism";
+    openTheism.definition = @"A theological movement characterized by the belief that there are logical limits on God's power and knowledge.";
+    
+    Word *orthodox = [[Word alloc] init];
+    orthodox.name = @"orthodox";
+    orthodox.definition = @"A Greek word meaning 'straight belief....";
+    
+    Word *orthopraxis = [[Word alloc] init];
+    orthopraxis.name = @"orthopraxis";
+    orthopraxis.definition = @"A Greek word meaning 'straight practice...";
+    
+    [_dataDictionay [@"systematic"][@"O"] addObjectsFromArray:@[omnibenevolence, omnipotence, omnipresence, omniscience, ontological, openTheism, orthodox, orthopraxis]];
     
     //P
+    Word *person = [[Word alloc] init];
+    person.name = @"person";
+    person.definition = @"A human being capable of self-transcendence";
+    
     Word *philosophy = [[Word alloc] init];
     philosophy.name = @"philosophy";
     philosophy.definition = @"The critical examination of human thought; the love of wisdom.";
     
-    [_dataDictionay[@"systematic"][@"P"] addObjectsFromArray:@[philosophy]];
+    Word *physicalism = [[Word alloc] init];
+    physicalism.name = @"physicalism";
+    physicalism.definition = @"The belief that phenemena traditionally attributed to the soul can be more simply explained by the functioning of a brain";
+    
+    Word *pluralism = [[Word alloc] init];
+    pluralism.name = @"pluralism";
+    pluralism.definition = @"The belief that all religous claims are equally valid.";
+    
+    Word *polytheism = [[Word alloc] init];
+    polytheism.name = @"polytheism";
+    polytheism.definition = @"The belief that many gods exist.";
+    
+    Word *predistination = [[Word alloc] init];
+    predistination.name = @"predestination";
+    predistination.definition = @"The belief that God has fixed the destiny of certain individuals...";
+    
+    Word *problem = [[Word alloc] init];
+    problem.name = @"Problem of Evil";
+    problem.definition = @"The philosophical problem that results from belief in Divine omniscience, omnipotence, and omnibenevolence and the experience of suffering and evil in the world....";
+    
+    Word *processTheo = [[Word alloc] init];
+    processTheo.name = @"process theology";
+    processTheo.definition = @"The theological school of thought based primarily on the thought of Alfred North Whitehead.";
+
+    [_dataDictionay[@"systematic"][@"P"] addObjectsFromArray:@[philosophy, person, physicalism, pluralism, polytheism]];
+    
+    //Q
+    Word *quintessence = [[Word alloc] init];
+    quintessence.name = @"quintessence";
+    quintessence.definition = @"A term meaning “fifth essence”; used by Aristotle to refer to a substance higher than the four on earth.";
+    
+    [_dataDictionay[@"systematic"][@"Q"] addObjectsFromArray:@[quintessence]];
+    
+    //R
+    Word *redemption = [[Word alloc] init];
+    redemption.name = @"redemption";
+    redemption.definition = @"The process of exchanging the economic value of an object.";
+    
+     [_dataDictionay[@"systematic"][@"R"] addObjectsFromArray:@[redemption]];
     
     
     //T

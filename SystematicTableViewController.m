@@ -56,6 +56,7 @@
      selector:@selector(preferredContentSizeChanged:)
      name:UIContentSizeCategoryDidChangeNotification
      object:nil];
+
 }
 
 - (void)preferredContentSizeChanged:(NSNotification *)notification

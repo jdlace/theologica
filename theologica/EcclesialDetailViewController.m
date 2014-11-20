@@ -41,7 +41,7 @@
 }
 - (void)preferredContentSizeChanged:(NSNotification *)notification
 {
-    self.ecclesialDescription.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
+   // self.ecclesialDescription.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
 
 }
 - (void)didReceiveMemoryWarning
