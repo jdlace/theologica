@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface BiblicalTableViewController : UITableViewController
 
 @property (strong, nonatomic) NSArray *biblicalTerms;

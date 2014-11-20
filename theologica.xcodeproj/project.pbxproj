@@ -68,6 +68,7 @@
 		FA3683D31A1155AA00E9740F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3683D21A1155AA00E9740F /* MobileCoreServices.framework */; };
 		FA8450591A1285CE007839D8 /* infoButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8450581A1285CE007839D8 /* infoButtonViewController.m */; };
 		FA84505C1A129CA0007839D8 /* bookmarkListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA84505B1A129CA0007839D8 /* bookmarkListTableViewController.m */; };
+		FA9323091A1E6DE8008CF833 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9323081A1E6DE8008CF833 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -179,6 +180,7 @@
 		FA8450581A1285CE007839D8 /* infoButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = infoButtonViewController.m; path = ../infoButtonViewController.m; sourceTree = "<group>"; };
 		FA84505A1A129CA0007839D8 /* bookmarkListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bookmarkListTableViewController.h; sourceTree = "<group>"; };
 		FA84505B1A129CA0007839D8 /* bookmarkListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bookmarkListTableViewController.m; sourceTree = "<group>"; };
+		FA9323081A1E6DE8008CF833 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +188,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA9323091A1E6DE8008CF833 /* MapKit.framework in Frameworks */,
 				FA3683D31A1155AA00E9740F /* MobileCoreServices.framework in Frameworks */,
 				FA3683CD1A1144F300E9740F /* Social.framework in Frameworks */,
 				692ED24B1796D552008554F9 /* UIKit.framework in Frameworks */,
@@ -240,6 +243,7 @@
 		692ED2491796D552008554F9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FA9323081A1E6DE8008CF833 /* MapKit.framework */,
 				FA3683D21A1155AA00E9740F /* MobileCoreServices.framework */,
 				FA3683CC1A1144F300E9740F /* Social.framework */,
 				692ED24A1796D552008554F9 /* UIKit.framework */,

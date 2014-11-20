@@ -12,6 +12,7 @@
 #import "Word.h"
 
 @interface SystematicTableViewController ()
+
 @property (nonatomic, readonly) NSString *category;
 @property (nonatomic, strong) WordDataSource *wordDataSource;
 @end

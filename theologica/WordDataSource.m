@@ -613,6 +613,19 @@
     [_dataDictionay [@"moral"][@"A"] addObjectsFromArray:@[abortion, abstinence, act, adultery]]; 
     
     //B
+    Word *beneficence = [[Word alloc] init];
+    beneficence.name = @"beneficence";
+    beneficence.definition = @"The first principle in medical ethics; do no harm.";
+    
+    Word *benefit = [[Word alloc] init];
+    benefit.name = @"benefit/burden ratio";
+    benefit.definition = @"The ratio of benefits over the burdens of particular....";
+    
+    Word *bioethics = [[Word alloc] init];
+    bioethics.name = @"bioethics";
+    bioethics.definition = @"The study of ethics related to life issues...";
+    
+     [_dataDictionay [@"moral"][@"A"] addObjectsFromArray:@[beneficence, benefit, bioethics]];
     
     //C
     
@@ -713,6 +726,68 @@
 
 - (void)buildSocialWords
 {
+    //A
+    
+    Word *action = [[Word alloc]init];
+    action.name = @"action";
+    action.definition = @"The third of three steps in achieving justice.";
+    
+    
+    Word *analysis = [[Word alloc] init];
+    analysis.name = @"analysis";
+    analysis.definition = @"The second of the 3 steps in achieving justice.";
+    
+    Word *awareness = [[Word alloc] init];
+    awareness.name = @"awareness";
+    awareness.definition = @"The first of 3 steps in achieving justice.";
+    
+    [_dataDictionay[@"social"][@"A"] addObjectsFromArray:@[action, analysis, awareness]];
+    
+    //B
+    
+    //C
+    Word *catholicsocialteaching = [[Word alloc]init];
+    catholicsocialteaching.name = @"Catholic Social Teaching";
+    catholicsocialteaching.definition = @"the teaching of the Church which applies principles of social justice to the signs of the times";
+    
+    Word *commongood = [[Word alloc]init];
+    commongood.name = @"common good";
+    commongood.definition = @"the social condition in which all people are allowed to reach their full development";
+    
+    Word *commutativejustice = [[Word alloc]init];
+    commutativejustice.name = @"commutative justice";
+    commutativejustice.definition = @"one of the three types of justice which emphasizes obligations between individuals";
+    
+    Word *contributivejustice = [[Word alloc]init];
+    contributivejustice.name = @"contributive justice";
+    contributivejustice.definition = @"one of the three types of justice which emphasizes the obligation of individuals toward society";
+    
+    [_dataDictionay[@"social"][@"C"] addObjectsFromArray:@[catholicsocialteaching, commongood, commutativejustice, contributivejustice]];
+    
+    //D
+    Word *development = [[Word alloc]init];
+    development.name = @"development";
+    development.definition = @"the process of becoming fully human";
+    
+    Word *dignity = [[Word alloc]init];
+    dignity.name = @"dignity";
+    dignity.definition = @"the sacred status of human beings because of the constant love of God";
+    
+    [_dataDictionay[@"social"][@"D"] addObjectsFromArray:@[development, dignity]];
+    
+    //E
+    
+    //F
+    
+    //G
+    
+    //H
+    
+    Word *humanRights = [[Word alloc] init];
+    humanRights.name = @"human rights";
+    humanRights.definition = @"rights due to a person by virtue of his or her being a human being; thirty human rights are enumerated in the United Nations Universal Declaration of Human Rights. See Compendium of the Social Doctrine of the Church, 152. http://www.vatican.va/roman_curia/pontifical_councils/justpeace/documents/rc_pc_justpeace_doc_20060526_compendio-dott-soc_en.html";
+    
+    [_dataDictionay[@"social"][@"H"] addObjectsFromArray:@[humanRights]];
     
 }
 
