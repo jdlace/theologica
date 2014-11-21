@@ -12,8 +12,10 @@
 #import "Word.h"
 
 @interface EcclesialTableViewController ()
+
 @property (nonatomic, readonly) NSString *category;
 @property (nonatomic, strong) WordDataSource *wordDataSource;
+
 @end
 
 @implementation EcclesialTableViewController
@@ -25,7 +27,8 @@
 
 - (WordDataSource *)wordDataSource
 {
-    if (!_wordDataSource) {
+    if (!_wordDataSource)
+    {
         _wordDataSource = [[WordDataSource alloc] init];
     }
     

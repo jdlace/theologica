@@ -15,6 +15,7 @@
 
 @property (nonatomic, readonly) NSString *category;
 @property (nonatomic, strong) WordDataSource *wordDataSource;
+
 @end
 
 @implementation SystematicTableViewController
@@ -26,7 +27,8 @@
 
 - (WordDataSource *)wordDataSource
 {
-    if (!_wordDataSource) {
+    if (!_wordDataSource)
+    {
         _wordDataSource = [[WordDataSource alloc] init];
     }
     
@@ -47,16 +49,23 @@
 {
     [super viewDidLoad];
     
+    
+   //change nav bar attributes
+    /*
     NSDictionary *textAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
                                     [UIColor blackColor],NSForegroundColorAttributeName,
                                     [UIColor blackColor],NSBackgroundColorAttributeName,nil];
     self.navigationController.navigationBar.titleTextAttributes = textAttributes;
+    */
     
     [[NSNotificationCenter defaultCenter]
      addObserver:self
      selector:@selector(preferredContentSizeChanged:)
      name:UIContentSizeCategoryDidChangeNotification
      object:nil];
+    
+    [UIFont fontWithName:@"HelveticaNeueLight"size:20.0]; 
+    
 
 }
 

@@ -9,8 +9,6 @@
 #import "SystematicDetailViewController.h"
 #import "SystematicTableViewController.h"   
 
-
-
 @interface SystematicDetailViewController () <UIActionSheetDelegate>
 
 @end
@@ -63,12 +61,9 @@
     NSArray *activityItems;
     activityItems = @[_currentWordDetail.name, _currentWordDetail.definition];
 
-    
-    UIActivityViewController *activityController = [[UIActivityViewController alloc] initWithActivityItems: activityItems applicationActivities: nil];
+    UIActivityViewController *activityController = [[UIActivityViewController alloc] initWithActivityItems: activityItems applicationActivities:nil];
     [self presentViewController:activityController
                        animated:YES completion:nil];
-    
-
 }
 
 @end
