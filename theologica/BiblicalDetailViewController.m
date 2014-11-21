@@ -30,6 +30,7 @@
     
     _biblicalName.text = _currentWordDetail.name;
     _biblicalDescription.text = _currentWordDetail.definition;
+
     //_biblicalDescription.textColor = [UIColor blackColor];
     self.biblicalDescription.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
     

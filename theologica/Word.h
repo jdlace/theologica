@@ -12,5 +12,6 @@
 
 @property (copy, nonatomic) NSString *name;
 @property (copy, nonatomic) NSString *definition;
+@property (copy, nonatomic) UIImage *image; 
 
 @end

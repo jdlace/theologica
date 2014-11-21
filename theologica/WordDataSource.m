@@ -233,7 +233,7 @@
     
     Word *dualism = [[Word alloc] init];
     dualism.name = @"dualism";
-    dualism.definition = @"The belief that humans are composed of two substances, body and soul/mind; also known as substance dualism; found in the Platonic influence on Christianity and later in the writings of Descartes. Associated problems include the problem of causation and the seeming violation of the scientific law of the conservation of energy. See Stanford Dncyclopedia of Philosophy “Dualism”. http://plato.stanford.edu/entries/dualism/.";
+    dualism.definition = @"The belief that humans are composed of two substances, body and soul/mind; also known as substance dualism; found in the Platonic influence on Christianity and later in the writings of Descartes. Associated problems include the problem of causation and the seeming violation of the scientific law of the conservation of energy. See Stanford Encyclopedia of Philosophy “Dualism”. http://plato.stanford.edu/entries/dualism/.";
     
     [_dataDictionay[@"systematic"][@"D"] addObjectsFromArray:@[deism, determinism, developmentDoc, dualism]];
     
@@ -798,7 +798,7 @@
     
     Word *apocalypse = [[Word alloc] init];
     apocalypse.name = @"apocalypse";
-    apocalypse.definition = @"1. The revelation of something previously hidden, used by Paul to refer to his experience of the risen Jesus. 2. The name of the last book of the New Testament - from the Greek word αποκαλυπσις (apokalypsis) - “unveiling'.";
+    apocalypse.definition = @"1. The revelation of something previously hidden, used by Paul to refer to his experience of the risen Jesus. 2. The name of the last book of the New Testament - from the Greek word αποκαλυπσις (apokalypsis) - “unveiling”.";
     
     Word *apocrypha = [[Word alloc] init];
     apocrypha.name = @"apocrypha";
@@ -1135,6 +1135,8 @@
     Word *manuscript = [[Word alloc] init];
     manuscript.name = @"manuscript";
     manuscript.definition = @"A hand-written copy of a text.";
+   
+                        
     
     Word *messiah = [[Word alloc] init];
     messiah.name = @"Messiah";
