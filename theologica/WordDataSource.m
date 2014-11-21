@@ -1204,8 +1204,8 @@
     pericope.definition = @"A given section of a larger text...";
     
     Word *pharisee = [[Word alloc] init];
-    pharisee.name = @"Pharisee";
-    pharisee.definition = @"A member of a Jewish group of laymen in the first century...";
+    pharisee.name = @"Pharisees";
+    pharisee.definition = @"A Jewish group of laymen in the first century...";
     
     Word *priestly = [[Word alloc] init];
     priestly.name = @"Priestly Source";
@@ -1244,6 +1244,11 @@
 
     
     //S
+    
+    Word *sadducees = [[Word alloc] init];
+    sadducees.name = @"Sadducees";
+    sadducees.definition = @"The elite class of Jerusalem-based Temple scribes....";
+    
     
     Word *Satan = [[Word alloc] init];
     Satan.name = @"Satan";
@@ -1284,7 +1289,7 @@
     tanak.definition = @"Acronymic term to describe the Hebrew Bible: T = Torah, N = Nevi'im, K = Ketuv'im. Since Hebrew has no vowels, those are added.";
     
     Word *taxCollector = [[Word alloc] init];
-    taxCollector.name = @"tax collector";
+    taxCollector.name = @"Tax Collectors";
     taxCollector.definition = @"Jews who collected provincial taxes for the Roman Empire; frequently referenced in the gospels due to their presence at numerous border crossings throughout Israel. They were reviled as traitors, likely cheats, and possible idolators. Jesus includes one such person (Matthew) in his inner circle of disciples.";
     
     Word *temple = [[Word alloc] init];
@@ -1349,8 +1354,8 @@
     //Z
     
     Word *zealot = [[Word alloc] init];
-    zealot.name = @"zealot";
-    zealot.definition = @"A member of a Jewish revolutionary group that used violence in an effort to repel Roman Imperial forces.";
+    zealot.name = @"Zealots";
+    zealot.definition = @"A Jewish revolutionary group that used violence in an effort to repel Roman Imperial forces.";
     
     Word *zion = [[Word alloc] init];
     zion.name = @"Zion";

@@ -33,7 +33,7 @@
     _socialName.text = _currentWordDetail.name;
     _socialDescription.text = _currentWordDetail.definition;
     //_socialDescription.textColor = [UIColor blackColor];
-    self.socialDescription.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
+    self.socialDescription.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
     
     [[NSNotificationCenter defaultCenter]
      addObserver:self

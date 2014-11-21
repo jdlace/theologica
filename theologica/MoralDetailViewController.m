@@ -31,7 +31,7 @@
     _moralName.text = _currentWordDetail.name;
     _moralDescription.text = _currentWordDetail.definition;
     //_moralDescription.textColor = [UIColor blackColor];
-    self.moralDescription.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
+    self.moralDescription.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
     
     [[NSNotificationCenter defaultCenter]
      addObserver:self

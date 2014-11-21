@@ -31,7 +31,7 @@
     _ecclesialName.text = _currentWordDetail.name;
     _ecclesialDescription.text = _currentWordDetail.definition;
     //_ecclesialDescription.textColor = [UIColor blackColor];
-    self.ecclesialDescription.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
+    self.ecclesialDescription.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
     
     [[NSNotificationCenter defaultCenter]
      addObserver:self

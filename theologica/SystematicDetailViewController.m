@@ -31,7 +31,7 @@
 	// Do any additional setup after loading the view.
     
     //self.systematicName.font = [UIFont preferredFontForTextStyle: UIFontTextStyleBody];
-    self.systematicDescription.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
+    self.systematicDescription.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
     
     _systematicName.text = _currentWordDetail.name;
     _systematicDescription.text = _currentWordDetail.definition;
