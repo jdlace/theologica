@@ -48,24 +48,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    
-   //change nav bar attributes
-    /*
-    NSDictionary *textAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
-                                    [UIColor blackColor],NSForegroundColorAttributeName,
-                                    [UIColor blackColor],NSBackgroundColorAttributeName,nil];
-    self.navigationController.navigationBar.titleTextAttributes = textAttributes;
-    */
-    
+        
     [[NSNotificationCenter defaultCenter]
      addObserver:self
      selector:@selector(preferredContentSizeChanged:)
      name:UIContentSizeCategoryDidChangeNotification
      object:nil];
-    
-    [UIFont fontWithName:@"HelveticaNeueLight"size:20.0]; 
-    
 
 }
 
@@ -213,4 +201,6 @@
     
 }
 
+- (IBAction)infoButton:(UIBarButtonItem *)sender {
+}
 @end

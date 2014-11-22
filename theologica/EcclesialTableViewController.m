@@ -48,8 +48,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    
+        
     [[NSNotificationCenter defaultCenter]
      addObserver:self
      selector:@selector(preferredContentSizeChanged:)

@@ -13,5 +13,4 @@
 @property (strong, nonatomic) NSArray *systematicTerms;
 @property (strong, nonatomic) NSMutableArray *systematicDetails; 
 
-- (IBAction)info:(UIButton *)sender;
-@end
+

@@ -10,4 +10,5 @@
 
 @interface infoButtonViewController : UIViewController
 
+- (IBAction)closeButton:(id)sender;
 @end
