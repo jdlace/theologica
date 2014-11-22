@@ -27,7 +27,7 @@
             </objects>
             <point key="canvasLocation" x="-1858" y="636"/>
         </scene>
-        <!--Theologica-->
+        <!--Systematic Table View Controller-->
         <scene sceneID="y7M-Dc-MB3">
             <objects>
                 <tableViewController id="oZ5-nE-rQe" customClass="SystematicTableViewController" sceneMemberID="viewController">
@@ -67,13 +67,30 @@
                         </prototypes>
                         <sections/>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Theologica" id="puP-se-oj8">
+                    <navigationItem key="navigationItem" id="puP-se-oj8">
+                        <nil key="title"/>
                         <barButtonItem key="backBarButtonItem" title="Terms" id="TeJ-ib-7ab"/>
                         <barButtonItem key="leftBarButtonItem" title="Info" id="LEf-Yw-Fka">
                             <connections>
-                                <segue destination="AwM-2a-5bG" kind="modal" id="tjf-fv-6GA"/>
+                                <segue destination="AwM-2a-5bG" kind="modal" id="yWy-9g-A5c"/>
                             </connections>
                         </barButtonItem>
+                        <button key="titleView" opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="4M3-HD-6Fw">
+                            <rect key="frame" x="76" y="5" width="168" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal">
+                                <attributedString key="attributedTitle">
+                                    <fragment content="Theologica">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="27" name="HelveticaNeue-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                            </state>
+                            <state key="highlighted" image="appicon2.png"/>
+                        </button>
                         <barButtonItem key="rightBarButtonItem" systemItem="bookmarks" id="RxI-0F-zKf">
                             <connections>
                                 <segue destination="715-iu-iCs" kind="modal" id="zED-tK-w8O"/>
@@ -97,7 +114,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="396" y="-632"/>
+            <point key="canvasLocation" x="451" y="-683"/>
         </scene>
         <!--Info Button View Controller-->
         <scene sceneID="kFn-9S-L5J">
@@ -122,7 +139,9 @@
                                 <rect key="frame" x="16" y="102" width="288" height="417"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">“Theologica” is a theological dictionary designed to provide a simple, easy-to-use, yet comprehensive reference to the Catholic theological tradition. Over 500 of the most commonly used terms across the various sub-disciplines of theology are grouped into 5 categories: Systematic, Ecclesial, Moral, Biblical, and Social. Each term can be bookmarked for quick reference and shared via text, email, and social media. Definitions include links to: 
+                                <mutableString key="text">Systematic theology examines the rational coherence of Christianity as a whole and in relation to other disciplines, especially philosophy and science. Its first major exemplar was Origen of Alexandria (185-254 CE) and includes subsequent major thinkers in the history of the Church such as Augustine of Hippo, Thomas Aquinas, and Karl Rahner. Of all the various sub-disciplines, Systematics is the most comprehensive and is the starting point of all others. Terms in this category are those that are essential to understanding basic concepts and practices within the Christian tradition. Students who are taking theology for the first time will generally take a course that is closely related to Systematics.                                                                                                          
+
+	“Theologica” is a theological dictionary designed to provide a simple, easy-to-use, yet comprehensive reference to the Catholic theological tradition. Over 500 of the most commonly used terms across the various sub-disciplines of theology are grouped into 5 categories: Systematic, Ecclesial, Moral, Biblical, and Social. Each term can be bookmarked for quick reference and shared via text, email, and social media. Definitions include links to: 
 
 Catechism of the Catholic Church
 Sacred Scripture
@@ -132,7 +151,8 @@ Pontifical Commissions
  
 In addition, definitions include links to trusted reference works in the larger Western philosophical and theological tradition. Thus, the app provides a comprehensive snapshot of the meaning of the term and its current understanding across multiple layers of Church teaching and within Academia. 
 
-	“Theologica” is based on the sequence, scope, and content of the theology curriculum at Seton Hall Preparatory School in West Orange, NJ. For more information, email techrament@icloud.com.</string>
+	“Theologica” is based on the sequence, scope, and content of the theology curriculum at Seton Hall Preparatory School in West Orange, NJ. For more information, email techrament@icloud.com.
+</mutableString>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES" address="YES"/>
@@ -147,7 +167,7 @@ In addition, definitions include links to trusted reference works in the larger 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vGN-Df-3Ch" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1330" y="1057"/>
+            <point key="canvasLocation" x="645" y="-1289"/>
         </scene>
         <!--Systematic Detail View Controller-->
         <scene sceneID="Esu-FU-O7a">
@@ -205,7 +225,7 @@ In addition, definitions include links to trusted reference works in the larger 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ch1-NC-7h2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="829" y="-632"/>
+            <point key="canvasLocation" x="811" y="-683"/>
         </scene>
         <!--Bookmark List Table View Controller-->
         <scene sceneID="F4P-2m-AMn">
@@ -241,7 +261,7 @@ In addition, definitions include links to trusted reference works in the larger 
             </objects>
             <point key="canvasLocation" x="1528" y="1026"/>
         </scene>
-        <!--Theologica-->
+        <!--Ecclesial Table View Controller-->
         <scene sceneID="CgF-4d-159">
             <objects>
                 <tableViewController id="RG8-AO-Dk8" customClass="EcclesialTableViewController" sceneMemberID="viewController">
@@ -280,13 +300,25 @@ In addition, definitions include links to trusted reference works in the larger 
                             </tableViewCell>
                         </prototypes>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Theologica" id="YyM-PD-vke">
+                    <navigationItem key="navigationItem" id="YyM-PD-vke">
+                        <nil key="title"/>
                         <barButtonItem key="backBarButtonItem" title="Terms" id="iiY-ey-5sS"/>
-                        <barButtonItem key="leftBarButtonItem" title="Info" id="dbk-Jl-8JM">
-                            <connections>
-                                <segue destination="AwM-2a-5bG" kind="modal" id="9Hj-n1-czN"/>
-                            </connections>
-                        </barButtonItem>
+                        <barButtonItem key="leftBarButtonItem" title="Info" id="dbk-Jl-8JM"/>
+                        <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="Ks7-Rj-Ctz">
+                            <rect key="frame" x="96" y="7" width="128" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal">
+                                <attributedString key="attributedTitle">
+                                    <fragment content="Theologica">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="27" name="HelveticaNeue-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                            </state>
+                        </button>
                         <barButtonItem key="rightBarButtonItem" systemItem="bookmarks" id="xtc-6s-O6B">
                             <connections>
                                 <segue destination="715-iu-iCs" kind="modal" id="tce-EJ-mpw"/>
@@ -310,7 +342,21 @@ In addition, definitions include links to trusted reference works in the larger 
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="396" y="13"/>
+            <point key="canvasLocation" x="292" y="520"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="qwB-Ob-Qks">
+            <objects>
+                <viewController id="w0N-oA-3wi" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nmT-qP-wFh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="om4-gd-C0D" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="504" y="1122"/>
         </scene>
         <!--Ecclesial Detail View Controller-->
         <scene sceneID="jxY-9p-ZZh">
@@ -363,9 +409,9 @@ In addition, definitions include links to trusted reference works in the larger 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eDN-0S-cTG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="821" y="13"/>
+            <point key="canvasLocation" x="702" y="520"/>
         </scene>
-        <!--Theologica-->
+        <!--Moral Table View Controller-->
         <scene sceneID="ZY6-Nb-KZg">
             <objects>
                 <tableViewController id="yoe-Rc-HFT" customClass="MoralTableViewController" sceneMemberID="viewController">
@@ -404,13 +450,23 @@ In addition, definitions include links to trusted reference works in the larger 
                             </tableViewCell>
                         </prototypes>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Theologica" id="80F-RW-f9m">
+                    <navigationItem key="navigationItem" id="80F-RW-f9m">
+                        <nil key="title"/>
                         <barButtonItem key="backBarButtonItem" title="Terms" id="c5M-Ef-Dyy"/>
-                        <barButtonItem key="leftBarButtonItem" title="Info" id="NY9-ga-0UY">
-                            <connections>
-                                <segue destination="AwM-2a-5bG" kind="modal" id="xLV-Vu-uHw"/>
-                            </connections>
-                        </barButtonItem>
+                        <barButtonItem key="leftBarButtonItem" title="Info" id="NY9-ga-0UY"/>
+                        <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="xmd-O2-e4j">
+                            <rect key="frame" x="94" y="6" width="132" height="33"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal">
+                                <attributedString key="attributedTitle">
+                                    <fragment content="Theologica">
+                                        <attributes>
+                                            <font key="NSFont" size="27" name="HelveticaNeue-Light"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                            </state>
+                        </button>
                         <barButtonItem key="rightBarButtonItem" systemItem="bookmarks" id="TWL-dz-LMI">
                             <connections>
                                 <segue destination="715-iu-iCs" kind="modal" id="Tzh-dI-tw1"/>
@@ -434,7 +490,7 @@ In addition, definitions include links to trusted reference works in the larger 
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="396" y="674"/>
+            <point key="canvasLocation" x="330" y="1722"/>
         </scene>
         <!--Moral Detail View Controller-->
         <scene sceneID="IIW-Zr-POz">
@@ -491,9 +547,9 @@ In addition, definitions include links to trusted reference works in the larger 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G2g-jZ-djX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="821" y="674"/>
+            <point key="canvasLocation" x="684" y="1722"/>
         </scene>
-        <!--Theologica-->
+        <!--Biblical Table View Controller-->
         <scene sceneID="q62-mk-gma">
             <objects>
                 <tableViewController id="A4p-fK-Loh" customClass="BiblicalTableViewController" sceneMemberID="viewController">
@@ -532,13 +588,25 @@ In addition, definitions include links to trusted reference works in the larger 
                             </tableViewCell>
                         </prototypes>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Theologica" id="otE-jv-Hs9">
+                    <navigationItem key="navigationItem" id="otE-jv-Hs9">
+                        <nil key="title"/>
                         <barButtonItem key="backBarButtonItem" title="Terms" id="paJ-P0-9F6"/>
-                        <barButtonItem key="leftBarButtonItem" title="Info" id="6rt-gC-WNv">
-                            <connections>
-                                <segue destination="AwM-2a-5bG" kind="modal" id="ub2-0s-Qnk"/>
-                            </connections>
-                        </barButtonItem>
+                        <barButtonItem key="leftBarButtonItem" title="Info" id="6rt-gC-WNv"/>
+                        <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="Roj-Nm-B4N">
+                            <rect key="frame" x="72" y="7" width="176" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal">
+                                <attributedString key="attributedTitle">
+                                    <fragment content="Theologica">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="27" name="HelveticaNeue-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                            </state>
+                        </button>
                         <barButtonItem key="rightBarButtonItem" systemItem="bookmarks" id="zg4-6I-c8N">
                             <connections>
                                 <segue destination="715-iu-iCs" kind="modal" id="w7n-9w-sWV"/>
@@ -562,7 +630,7 @@ In addition, definitions include links to trusted reference works in the larger 
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="396" y="1322"/>
+            <point key="canvasLocation" x="264" y="2791"/>
         </scene>
         <!--Biblical Detail View Controller-->
         <scene sceneID="KMZ-wb-I4O">
@@ -618,9 +686,9 @@ In addition, definitions include links to trusted reference works in the larger 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="msJ-Du-WXi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="821" y="1322"/>
+            <point key="canvasLocation" x="691" y="2791"/>
         </scene>
-        <!--Theologica-->
+        <!--Social Table View Controller-->
         <scene sceneID="86s-5N-Kqe">
             <objects>
                 <tableViewController id="W0x-bV-aZW" customClass="SocialTableViewController" sceneMemberID="viewController">
@@ -661,13 +729,25 @@ In addition, definitions include links to trusted reference works in the larger 
                             </tableViewCell>
                         </prototypes>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Theologica" id="Lm9-NV-aAs">
+                    <navigationItem key="navigationItem" id="Lm9-NV-aAs">
+                        <nil key="title"/>
                         <barButtonItem key="backBarButtonItem" title="Terms" id="Onq-Ei-giq"/>
-                        <barButtonItem key="leftBarButtonItem" title="Info" id="RNo-j1-Nou">
-                            <connections>
-                                <segue destination="AwM-2a-5bG" kind="modal" id="2uI-xt-gIm"/>
-                            </connections>
-                        </barButtonItem>
+                        <barButtonItem key="leftBarButtonItem" title="Info" id="RNo-j1-Nou"/>
+                        <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="cRJ-DF-UeH">
+                            <rect key="frame" x="96" y="7" width="128" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal">
+                                <attributedString key="attributedTitle">
+                                    <fragment content="Theologica">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="27" name="HelveticaNeue-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                            </state>
+                        </button>
                         <barButtonItem key="rightBarButtonItem" systemItem="bookmarks" id="uf9-ji-yAn">
                             <connections>
                                 <segue destination="715-iu-iCs" kind="modal" id="ajf-fE-bhB"/>
@@ -691,7 +771,7 @@ In addition, definitions include links to trusted reference works in the larger 
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="396" y="2024"/>
+            <point key="canvasLocation" x="426" y="4083"/>
         </scene>
         <!--Social Detail View Controller-->
         <scene sceneID="ljl-om-jkg">
@@ -744,7 +824,7 @@ In addition, definitions include links to trusted reference works in the larger 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CFn-KM-XiP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="821" y="2024"/>
+            <point key="canvasLocation" x="823" y="4083"/>
         </scene>
         <!--Social-->
         <scene sceneID="P0U-03-m0K">
@@ -765,7 +845,7 @@ In addition, definitions include links to trusted reference works in the larger 
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OYU-fo-fOm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-40" y="2024"/>
+            <point key="canvasLocation" x="43" y="4083"/>
         </scene>
         <!--Biblical-->
         <scene sceneID="S5L-sF-5T5">
@@ -786,7 +866,7 @@ In addition, definitions include links to trusted reference works in the larger 
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AuI-9S-i76" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-48" y="1322"/>
+            <point key="canvasLocation" x="-130" y="2791"/>
         </scene>
         <!--Moral-->
         <scene sceneID="LTq-EQ-uvi">
@@ -808,7 +888,7 @@ In addition, definitions include links to trusted reference works in the larger 
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WAp-qD-ICF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-56" y="674"/>
+            <point key="canvasLocation" x="-35" y="1722"/>
         </scene>
         <!--Ecclesial-->
         <scene sceneID="Xj2-wJ-tce">
@@ -829,7 +909,7 @@ In addition, definitions include links to trusted reference works in the larger 
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0aL-Zx-K6H" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-56" y="26"/>
+            <point key="canvasLocation" x="-64" y="520"/>
         </scene>
         <!--Systematic-->
         <scene sceneID="fAn-dN-fqo">
@@ -851,7 +931,7 @@ In addition, definitions include links to trusted reference works in the larger 
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hqu-e8-vF2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-56" y="-621"/>
+            <point key="canvasLocation" x="92" y="-683"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="mMo-ER-RbE">
@@ -874,6 +954,7 @@ In addition, definitions include links to trusted reference works in the larger 
     </scenes>
     <resources>
         <image name="appicon.png" width="120" height="120"/>
+        <image name="appicon2.png" width="80" height="80"/>
         <image name="church.png" width="30" height="30"/>
         <image name="earth-america-7@3x copy.png" width="90" height="90"/>
         <image name="equality.png" width="28" height="30"/>
@@ -886,7 +967,6 @@ In addition, definitions include links to trusted reference works in the larger 
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="9Hj-n1-czN"/>
-        <segue reference="tce-EJ-mpw"/>
+        <segue reference="ajf-fE-bhB"/>
     </inferredMetricsTieBreakers>
 </document>
