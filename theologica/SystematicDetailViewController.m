@@ -7,7 +7,6 @@
 //
 
 #import "SystematicDetailViewController.h"
-#import "SystematicTableViewController.h"   
 
 @interface SystematicDetailViewController () <UIActionSheetDelegate>
 
