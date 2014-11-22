@@ -13,4 +13,4 @@
 @property (strong, nonatomic) NSArray *systematicTerms;
 @property (strong, nonatomic) NSMutableArray *systematicDetails; 
 
-
+@end

@@ -62,6 +62,7 @@
 		69B52BAB1A0EF6C100C23B47 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69B52BAA1A0EF6C100C23B47 /* Launch Screen.xib */; };
 		69BB25491A130F2E00B3F5B5 /* WordDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 69BB25481A130F2E00B3F5B5 /* WordDataSource.m */; };
 		69C826651A204BF6001B9CBF /* old-scroll@3x copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C826641A204BF6001B9CBF /* old-scroll@3x copy.png */; };
+		69F295BC1A20F6FF0007D417 /* earth-america-7@3x copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 69F295BB1A20F6FF0007D417 /* earth-america-7@3x copy.png */; };
 		69FB18EB1A0051C500F1C9A4 /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = 69FB18EA1A0051C500F1C9A4 /* Word.m */; };
 		9BAC0B451A1C4BA1004C4867 /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BAC0B431A1C4BA1004C4867 /* appicon.png */; };
 		9BAC0B461A1C4BA1004C4867 /* appicon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BAC0B441A1C4BA1004C4867 /* appicon2.png */; };
@@ -170,6 +171,7 @@
 		69BB25471A130F2E00B3F5B5 /* WordDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordDataSource.h; sourceTree = "<group>"; };
 		69BB25481A130F2E00B3F5B5 /* WordDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordDataSource.m; sourceTree = "<group>"; };
 		69C826641A204BF6001B9CBF /* old-scroll@3x copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "old-scroll@3x copy.png"; path = "../../old-scroll@3x copy.png"; sourceTree = "<group>"; };
+		69F295BB1A20F6FF0007D417 /* earth-america-7@3x copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "earth-america-7@3x copy.png"; path = "../../earth-america-7@3x copy.png"; sourceTree = "<group>"; };
 		69FB18E91A0051C500F1C9A4 /* Word.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Word.h; sourceTree = "<group>"; };
 		69FB18EA1A0051C500F1C9A4 /* Word.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Word.m; sourceTree = "<group>"; };
 		9BAC0B431A1C4BA1004C4867 /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon.png; sourceTree = "<group>"; };
@@ -306,6 +308,7 @@
 				692ED2A01796EF10008554F9 /* meditation.png */,
 				69C826641A204BF6001B9CBF /* old-scroll@3x copy.png */,
 				692ED2A11796EF10008554F9 /* meditation@2x.png */,
+				69F295BB1A20F6FF0007D417 /* earth-america-7@3x copy.png */,
 				692ED2A21796EF10008554F9 /* monk.png */,
 				692ED2A31796EF10008554F9 /* monk@2x.png */,
 				692ED2A41796EF10008554F9 /* perspective-drawing.png */,
@@ -465,6 +468,7 @@
 				692ED2851796E04B008554F9 /* business-network.png in Resources */,
 				692ED2861796E04B008554F9 /* church.png in Resources */,
 				692ED2871796E04B008554F9 /* church@2x.png in Resources */,
+				69F295BC1A20F6FF0007D417 /* earth-america-7@3x copy.png in Resources */,
 				692ED28B1796E511008554F9 /* bible.png in Resources */,
 				69C826651A204BF6001B9CBF /* old-scroll@3x copy.png in Resources */,
 				6902FACE17F51D3E00299A50 /* Images.xcassets in Resources */,
