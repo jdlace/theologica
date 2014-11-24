@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <NotificationCenter/NotificationCenter.h>
 
-@interface TodayViewController : UIViewController
+@interface TodayViewController : UIViewController <NCWidgetProviding>
 
 @property (strong, nonatomic) IBOutlet UILabel *wordLabel;
-@property (strong, nonatomic) IBOutlet UILabel *definitionLabel;
 
 @end

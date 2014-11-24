@@ -80,7 +80,8 @@
 // build the dictionary/words
 - (NSMutableDictionary *)dataDictionay
 {
-    if (!_dataDictionay) {
+    if (!_dataDictionay)
+    {
         _dataDictionay = [NSMutableDictionary dictionary];
         _dataDictionay[@"systematic"] = [NSMutableDictionary dictionary];
         _dataDictionay[@"ecclesial"] = [NSMutableDictionary dictionary];
@@ -167,7 +168,7 @@
     atonement.name = @"atonement";
     atonement.definition = @"The act of making restitution for inflicted harm; a theological interpretation of the death of Jesus of Nazrareth. See Catechism of the Catholic Church, 616. http://www.vatican.va/archive/ccc_css/archive/catechism/p122a4p2.htm";
     
-    [_dataDictionay[@"systematic"][@"A"] addObjectsFromArray:@[accidence, adoption, agape, aggiornomento, agnostic, allegory, analogy, anointing, apologetics, apophatic, aposteriori, apriori, argument, atonement]];
+    [_dataDictionay[@"systematic"][@"A"] addObjectsFromArray:@[aposteriori, apriori, accidence, adoption, agape, aggiornomento, agnostic, allegory, analogy, anointing, apologetics, apophatic, argument, atonement]];
     
     //B
     
@@ -239,6 +240,10 @@
     
     //E
     
+    Word *ecumenism = [[Word alloc] init];
+    ecumenism.name = @"ecumenism";
+    ecumenism.definition = @"A movement which gained popularity in the 20th century that emphasized shared beliefs among various Christian churches over and against differences.";
+    
     Word *epistemology = [[Word alloc] init];
     epistemology.name = @"epistemology";
     epistemology.definition = @"The study of the origin, nature, and limits of human knowledge; one of the three traditional subjects of Western philosophy. See Stanford Encyclopedia of Philosophy “Epistemology”. http://plato.stanford.edu/entries/epistemology/";
@@ -250,6 +255,10 @@
     Word *essence = [[Word alloc] init];
     essence.name = @"essence";
     essence.definition = @"A property that makes an object what it is. See Standford Encyclopedia of Philosophy “Essential vs. Accidental Properties”. http://plato.stanford.edu/entries/essential-accidental/.";
+    
+    Word *eucharist = [[Word alloc] init];
+    eucharist.name = @"Eucharist";
+    eucharist.definition = @"The sacred community meal of bread and wine in which Christians belief Jesus is present.";
     
     Word *exclusivism = [[Word alloc] init];
     exclusivism.name = @"exclusivism";
@@ -271,7 +280,7 @@
     explanans.name = @"explanans";
     explanans.definition = @"That which explains something else...";
     
-    [_dataDictionay[@"systematic"][@"E"] addObjectsFromArray:@[epistemology, eschatology, essence, exclusivism, exNihilo, exOpere, explanandum, explanans]];
+    [_dataDictionay[@"systematic"][@"E"] addObjectsFromArray:@[ecumenism, epistemology, eschatology, essence, eucharist, exclusivism, exNihilo, exOpere, explanandum, explanans]];
     
     //F
     
@@ -279,9 +288,17 @@
     faith.name = @"faith";
     faith.definition = @"1. Trust or confidence; 2. The content of a religious system (“The Christian faith”).";
     
+    Word *feminism = [[Word alloc] init];
+    feminism.name = @"feminism";
+    feminism.definition = @"The promotion of women's equality in relation to patriarchal societal structures.";
+    
     Word *fideism = [[Word alloc] init];
     fideism.name = @"fideism";
     fideism.definition = @"The belief that....";
+    
+    Word *fallibilism = [[Word alloc] init];
+    fallibilism.name = @"fallibilism";
+    fallibilism.definition = @"The idea that humans can have inaccurate, yet justified beliefs about the world. See Internet Ecyclopedia of Philosophy,“Fallibilism. http://www.iep.utm.edu/fallibil/";
     
     Word *foreknowledge = [[Word alloc] init];
     foreknowledge.name = @"foreknowledge";
@@ -291,7 +308,7 @@
     freewill.name = @"free will";
     freewill.definition = @"The ability to choose...";
     
-    [_dataDictionay[@"systematic"][@"F"] addObjectsFromArray:@[faith, fideism, foreknowledge, freewill]];
+    [_dataDictionay[@"systematic"][@"F"] addObjectsFromArray:@[faith, feminism, fideism, foreknowledge, freewill]];
     
     //G
     
@@ -323,7 +340,11 @@
     heresy.name = @"heresy";
     heresy.definition = @"The formal contradiction of orthodox belief...";
     
-    [_dataDictionay [@"systematic"][@"H"] addObjectsFromArray:@[heaven, hell, henotheism, heresy]];
+    Word *hierarchy = [[Word alloc] init];
+    hierarchy.name = @"hierarchy of truths";
+    hierarchy.definition = @"The idea that some truths are more essential to salvation than others.";
+    
+    [_dataDictionay [@"systematic"][@"H"] addObjectsFromArray:@[heaven, hell, henotheism, heresy, hierarchy]];
     
     //I
     
@@ -499,15 +520,56 @@
     redemption.name = @"redemption";
     redemption.definition = @"The process of exchanging the economic value of an object.";
     
-     [_dataDictionay[@"systematic"][@"R"] addObjectsFromArray:@[redemption]];
+    Word *resurrection = [[Word alloc] init];
+    resurrection.name = @"resurrection";
+    resurrection.definition = @"The belief which developed in post-Exilic Judaism, that God would raise the righteous to eternal life; the belief of the early Christians that Jesus of Nazareth was raised from the dead.";
+    
+     [_dataDictionay[@"systematic"][@"R"] addObjectsFromArray:@[redemption, resurrection]];
+    
+    //S
+    
+    Word *salvation = [[Word alloc] init];
+    salvation.name = @"salvation";
+    salvation.definition = @"The experience of being saved from sin and eventually death.";
+    
+    Word *soteriology = [[Word alloc] init];
+    soteriology.name = @"soteriology";
+    soteriology.definition = @"The study of salvation; a particular framework of salvation.";
+    
+    [_dataDictionay[@"systematic"][@"S"] addObjectsFromArray:@[salvation, soteriology]];
+
     
     //T
+    
+    Word *theodicy = [[Word alloc] init];
+    theodicy.name = @"theodicy";
+    theodicy.definition = @"The question of God's justice in the face of suffering and evil.";
+    
+    Word *theology = [[Word alloc] init];
+    theology.name = @"theology";
+    theology.definition = @"The study of God.";
+    
+    Word *theosis = [[Word alloc] init];
+    theosis.name = @"theosis";
+    theosis.definition = @"The process of becoming like God, emphasized in the Easter Orthodox tradition.";
+    
+    Word *tradition = [[Word alloc] init];
+    tradition.name = @"tradition";
+    tradition.definition = @"The process of handing over beliefs and practices.";
     
     Word *transcendence = [[Word alloc] init];
     transcendence.name = @"transcendence";
     transcendence.definition = @"The quality of going beyond human experience.";
     
-    [_dataDictionay[@"systematic"][@"T"] addObjectsFromArray:@[transcendence]];
+    Word *transub = [[Word alloc] init];
+    transub.name = @"transubstantiation";
+    transub.definition = @"The belief, formulated by Thomas Aquinas, that the substance of the bread and wine change into the substance of the body and blood of Christ in the Eucharist.";
+    
+    Word *trinity = [[Word alloc] init];
+    trinity.name = @"Trinity";
+    trinity.definition = @"The belief that God exists in three persons...";
+    
+    [_dataDictionay[@"systematic"][@"T"] addObjectsFromArray:@[theodicy, theology, theosis, transcendence, trinity]];
     
     //U
     
@@ -516,6 +578,36 @@
     universalism.definition = @"The belief that all of humanity will ultimately experience salvation.";
     
     [_dataDictionay[@"systematic"][@"U"] addObjectsFromArray:@[universalism]];
+    
+    //V
+    
+    Word *virgin = [[Word alloc] init];
+    virgin.name = @"virginal conception";
+    virgin.definition = @"The belief that Jesus of Nazareth was conceived by the Holy Spirit and born from the virgin Mary.";
+    
+    Word *vocation = [[Word alloc] init];
+    vocation.name = @"vocation";
+    vocation.definition = @"The calling by God of someone to a particular way of life.";
+    
+    [_dataDictionay[@"systematic"][@"V"] addObjectsFromArray:@[virgin, vocation]];
+    
+    //W
+    
+    Word *word = [[Word alloc] init];
+    word.name = @"Word of God";
+    word.definition = @"The saving message of God in which humans trust.";
+    
+    [_dataDictionay[@"systematic"][@"W"] addObjectsFromArray:@[word]];
+
+    
+    //X
+    
+    
+    //Y
+    
+    
+    //Z
+
 }
 
 - (void)buildEcclesialWords
