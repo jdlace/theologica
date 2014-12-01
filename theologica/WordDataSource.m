@@ -773,7 +773,7 @@
     bioethics.name = @"bioethics";
     bioethics.definition = @"The study of ethics related to life issues...";
     
-     [_dataDictionay [@"moral"][@"A"] addObjectsFromArray:@[beneficence, benefit, bioethics]];
+     [_dataDictionay [@"moral"][@"B"] addObjectsFromArray:@[beneficence, benefit, bioethics]];
     
     //C
     
@@ -781,21 +781,46 @@
     casuistry.name = @"casuistry";
     casuistry.definition = @"the study of case law";
     
+    Word *catholicsocialteaching = [[Word alloc]init];
+    catholicsocialteaching.name = @"Catholic Social Teaching";
+    catholicsocialteaching.definition = @"the teaching of the Church which applies principles of social justice to the signs of the times";
+    
+    Word *commutativejustice = [[Word alloc]init];
+    commutativejustice.name = @"commutative justice";
+    commutativejustice.definition = @"one of the three types of justice which emphasizes obligations between individuals";
+    
+    Word *contributivejustice = [[Word alloc]init];
+    contributivejustice.name = @"contributive justice";
+    contributivejustice.definition = @"one of the three types of justice which emphasizes the obligation of individuals toward society";
+    
+    [_dataDictionay[@"moral"][@"C"] addObjectsFromArray:@[casuistry, catholicsocialteaching, commutativejustice, contributivejustice]];
+
+    
     //D
     
     Word *deontology = [[Word alloc] init];
     deontology.name = @"deontology";
     deontology.definition = @"from the Greek word for “duty” (deon) - the study of ethics from the framework of moral duties in the form of rules and laws.";
     
+    Word *distributive = [[Word alloc] init];
+    distributive.name = @"distributive justice";
+    distributive.definition = @"The type of justice which emphasizes society's responsibilities to the individual.";
+    
+    [_dataDictionay[@"moral"][@"D"] addObjectsFromArray:@[deontology, distributive]];
+
+    
     //E
     
-    Word *epistemology = [[Word alloc] init];
-    epistemology.name = @"epistemology";
-    epistemology.definition = @"the study of the origin, nature, and limits of human knowledge; one of the three traditional subjects of Western philosophy.";
+    Word *economic = [[Word alloc] init];
+    economic.name = @"economic justice";
+    economic.definition = @"The right relationship between human beings to a given economic system.";
     
     Word *ethics = [[Word alloc] init];
     ethics.name = @"ethics";
     ethics.definition = @"the study of moral systems";
+    
+    [_dataDictionay[@"moral"][@"E"] addObjectsFromArray:@[economic, ethics]];
+
     
     //F
     
@@ -805,7 +830,10 @@
     
     Word *humanRights = [[Word alloc] init];
     humanRights.name = @"human rights";
-    humanRights.definition = @"rights due to a person by virtue of his or her being a human being; thirty human rights are enumerated in the United Nations Universal Declaration of Human Rights.";
+    humanRights.definition = @"rights due to a person by virtue of his or her being a human being; thirty human rights are enumerated in the United Nations Universal Declaration of Human Rights. See Compendium of the Social Doctrine of the Church, 152. http://www.vatican.va/roman_curia/pontifical_councils/justpeace/documents/rc_pc_justpeace_doc_20060526_compendio-dott-soc_en.html";
+    
+    [_dataDictionay[@"moral"][@"H"] addObjectsFromArray:@[humanRights]];
+
     
     //I
     
@@ -827,6 +855,9 @@
     justWar.name = @"Just War Theory";
     justWar.definition = @"The theory first developed by Augustine and later refined by Aquinas which consists of criteria for determining the justice of both the conditions and methods of war; see “jus ad bellum” and “jus im bello”.";
     
+    [_dataDictionay[@"moral"][@"J"] addObjectsFromArray:@[justice, jusAdBellum, jusImBello, justWar]];
+
+    
     //K
     
     //L
@@ -836,6 +867,9 @@
     Word *morality = [[Word alloc] init];
     morality.name = @"morality";
     morality.definition = @"customary norms of behavior considered good or evil, right or wrong in a given system.";
+    
+    [_dataDictionay[@"moral"][@"M"] addObjectsFromArray:@[morality]];
+
     
     //N
     
@@ -848,6 +882,12 @@
     //R
     
     //S
+    
+    Word *social = [[Word alloc] init];
+    social.name = @"social justice";
+    social.definition = @"The type of justice which prioritizes the common good with a preferential option for the poor and marginalized.";
+    
+    [_dataDictionay[@"moral"][@"S"] addObjectsFromArray:@[social]];
     
     //T
     
@@ -1461,7 +1501,7 @@
     
 }
 
-- (void)buildSocialWords
+- (void)buildSocialWords //This category will be devoted to a theology of culture terms
 {
     //A
     
@@ -1469,52 +1509,91 @@
     action.name = @"action";
     action.definition = @"The third of three steps in achieving justice.";
     
-    
     Word *analysis = [[Word alloc] init];
     analysis.name = @"analysis";
     analysis.definition = @"The second of the 3 steps in achieving justice.";
+    
+    Word *anthropology = [[Word alloc] init];
+    anthropology.name = @"anthropology";
+    anthropology.definition = @"The science that studies human origins, development, and culture.";
+    
+    Word *atheism = [[Word alloc] init];
+    atheism.name = @"atheism";
+    atheism.definition = @"The belief that no God exists.";
     
     Word *awareness = [[Word alloc] init];
     awareness.name = @"awareness";
     awareness.definition = @"The first of 3 steps in achieving justice.";
     
-    [_dataDictionay[@"social"][@"A"] addObjectsFromArray:@[action, analysis, awareness]];
+    [_dataDictionay[@"social"][@"A"] addObjectsFromArray:@[action, analysis, anthropology, atheism, awareness]];
     
     //B
     
+    Word *bigbang = [[Word alloc] init];
+    bigbang.name = @"Big Bang Theory";
+    bigbang.definition = @"The cosmological theory, first developed by Fr. George Lemaitre, that claims that the Universe began at an infintely small and dense point of matter, energy, space, and time which then expanded over the course of time to become the observable cosmos we see today. See 'Creation' in 'Systematic'.";
+    
+    Word *buddhism = [[Word alloc] init];
+    buddhism.name = @"Buddhism";
+    buddhism.definition = @"The philosophy and religion based on the teachings of Siddartha...";
+    
+    [_dataDictionay[@"social"][@"B"] addObjectsFromArray:@[bigbang, buddhism]];
+
+    
     //C
-    Word *catholicsocialteaching = [[Word alloc]init];
-    catholicsocialteaching.name = @"Catholic Social Teaching";
-    catholicsocialteaching.definition = @"the teaching of the Church which applies principles of social justice to the signs of the times";
+    
+    Word *churchstate = [[Word alloc] init];
+    churchstate.name = @"Church/State";
+    churchstate.definition = @"The dichotomy used to express philosophical, theological, and legal differences in religious and political entities.";
+    
+    Word *colonialism = [[Word alloc] init];
+    colonialism.name = @"colonialism";
+    colonialism.definition = @"The practice of settling foreign lands...";
     
     Word *commongood = [[Word alloc]init];
     commongood.name = @"common good";
     commongood.definition = @"the social condition in which all people are allowed to reach their full development";
     
-    Word *commutativejustice = [[Word alloc]init];
-    commutativejustice.name = @"commutative justice";
-    commutativejustice.definition = @"one of the three types of justice which emphasizes obligations between individuals";
+
     
-    Word *contributivejustice = [[Word alloc]init];
-    contributivejustice.name = @"contributive justice";
-    contributivejustice.definition = @"one of the three types of justice which emphasizes the obligation of individuals toward society";
-    
-    [_dataDictionay[@"social"][@"C"] addObjectsFromArray:@[catholicsocialteaching, commongood, commutativejustice, contributivejustice]];
+    [_dataDictionay[@"social"][@"C"] addObjectsFromArray:@[churchstate, colonialism, commongood]];
     
     //D
+    
+    Word *dehumanization = [[Word alloc] init];
+    dehumanization.name = @"dehumanization";
+    dehumanization.definition = @"The process of objectifying a human being, removing his or her dignity";
+    
     Word *development = [[Word alloc]init];
     development.name = @"development";
     development.definition = @"the process of becoming fully human";
     
     Word *dignity = [[Word alloc]init];
     dignity.name = @"dignity";
-    dignity.definition = @"the sacred status of human beings because of the constant love of God";
+    dignity.definition = @"The sacred status of human beings because of the constant love of God; one of the 7 Principles of Catholic Social Teaching.";
     
-    [_dataDictionay[@"social"][@"D"] addObjectsFromArray:@[development, dignity]];
+    [_dataDictionay[@"social"][@"D"] addObjectsFromArray:@[dehumanization, development, dignity]];
     
     //E
     
+    Word *elementary = [[Word alloc] init];
+    elementary.name = @"elementary experience";
+    elementary.definition = @"According to Fr. Luigi Giussani, the complex of needs and evidences that humans have for truth, justice, beauty, and goodness.";
+    
+    Word *existential = [[Word alloc] init];
+    existential.name = @"existentialism";
+    existential.definition = @"1. Of or relating to existence. 2. A philosophical movement which gained popularity in the late 19th century...";
+    
+     [_dataDictionay[@"social"][@"E"] addObjectsFromArray:@[elementary, existential]];
+    
     //F
+    
+    Word *feminism = [[Word alloc] init];
+    feminism.name = @"feminism";
+    feminism.definition = @"The movement that seeks female liberation from patriarchal structures and norms...";
+    
+    [_dataDictionay[@"social"][@"F"] addObjectsFromArray:@[feminism]];
+
     
     //G
     
@@ -1526,6 +1605,97 @@
     
     [_dataDictionay[@"social"][@"H"] addObjectsFromArray:@[humanRights]];
     
+    
+    //I
+    
+    //J
+    
+    //K
+    
+    //L
+    
+    Word *living = [[Word alloc] init];
+    living.name = @"living wage";
+    living.definition = @"A form of income that is enables a worker to support his or her family. It should be noted that at the time Pope Leo XIII taught this in Rerum Novarum, women did not work.";
+    
+     [_dataDictionay[@"social"][@"L"] addObjectsFromArray:@[living]];
+    
+    //M
+    
+    //N
+    
+    Word *naturalism = [[Word alloc] init];
+    naturalism.name = @"naturalism";
+    naturalism.definition = @"The belief that nature is all that exists and denies a supernatural order.";
+    
+    [_dataDictionay[@"social"][@"N"] addObjectsFromArray:@[naturalism]];
+
+    
+    //O
+    
+    //P
+    
+    //Q
+    
+    //R
+    
+    Word *religious = [[Word alloc] init];
+    religious.name = @"religious naturalism";
+    religious.definition = @"A movement within naturalism which emphasizes the scientific history of the universe as a core mythos around which revolve interpretive, spiritual, and moral axes.";
+    
+    Word *rerum = [[Word alloc] init];
+    rerum.name = @"Rerum Novarum";
+    rerum.definition = @"The encyclical of Pope Leo XIII in 1891 which responded to the after effects of the Industrial Revolution in Europe by teaching that private property is relative to the Common Good and that workers have a right to unionized and to a living wage.";
+    
+     [_dataDictionay[@"social"][@"R"] addObjectsFromArray:@[religious, rerum]];
+    
+    //S
+    
+    Word *semiotics = [[Word alloc] init];
+    semiotics.name = @"semiotics";
+    semiotics.definition = @"The study of signs and symbols used as elements of communication...";
+    
+    Word *sociology = [[Word alloc] init];
+    sociology.name = @"sociology";
+    sociology.definition = @"The study of society...";
+    
+    
+    Word *solidarity = [[Word alloc] init];
+    solidarity.name = @"solidarity";
+    solidarity.definition = @"The idea that human beings share a fundamental unity which should be a criteria for determining justice.";
+    
+    Word *spirituality = [[Word alloc] init];
+    spirituality.name = @"spirituality";
+    spirituality.definition = @"The conscious process of integration of one's life toward Ultimate value.";
+    
+    Word *structuralism = [[Word alloc] init];
+    structuralism.name = @"structuralism";
+    structuralism.definition = @"The anthropological movement based on the work of Levi Strauss...";
+    
+    Word *supernormal = [[Word alloc] init];
+    supernormal.name = @"supernormal allurements";
+    supernormal.definition = @"The attraction to concentrated quantities of substances that allowed hu;manity to evolve and flourish, such as sugar, salt, and sex.";
+    
+    
+    [_dataDictionay [@"social"][@"S"] addObjectsFromArray:@[semiotics, sociology, solidarity, spirituality, structuralism, supernormal]];
+    
+    //T
+    
+    //U
+    
+    Word *universal = [[Word alloc] init];
+    universal.name = @"Universal Destination of Goods";
+    universal.definition = @"The idea that the goods of the earth are intended to be justly distributed among its inhabitants according to the will of the Creator. See The Compendium of the Social Doctrine of the Church, 171";
+    
+    //V
+    
+    //W
+    
+    //X
+    
+    //Y
+    
+    //Z
 }
 
 @end
