@@ -139,9 +139,9 @@
                                 <rect key="frame" x="16" y="102" width="288" height="417"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Systematic theology examines the rational coherence of Christianity as a whole and in relation to other disciplines, especially philosophy and science. Its first major exemplar was Origen of Alexandria (185-254 CE) and includes subsequent major thinkers in the history of the Church such as Augustine of Hippo, Thomas Aquinas, and Karl Rahner. Of all the various sub-disciplines, Systematics is the most comprehensive and is the starting point of all others. Terms in this category are those that are essential to understanding basic concepts and practices within the Christian tradition. Students who are taking theology for the first time will generally take a course that is closely related to Systematics.                                                                                                          
+                                <mutableString key="text">Systematic theology examines the rational coherence of Christianity as a whole and in relation to other disciplines, especially philosophy and science. Its first major exemplar was Origen of Alexandria (185-254 CE) and includes subsequent major thinkers in the history of the Church such as Augustine of Hippo, Thomas Aquinas, and Karl Rahner. Of all the various sub-disciplines, Systematics is the most comprehensive and is the starting point of all others. Terms in this category are those that are essential to understanding basic concepts and practices within the Christian tradition. Students who are taking theology for the first time will generally take a course that is closely related to Systematics.                                                                                                          
 
-	“Theologica” is a theological dictionary designed to provide a simple, easy-to-use, yet comprehensive reference to the Catholic theological tradition. Over 500 of the most commonly used terms across the various sub-disciplines of theology are grouped into 5 categories: Systematic, Ecclesial, Moral, Biblical, and Social. Each term can be bookmarked for quick reference and shared via text, email, and social media. Definitions include links to: 
+	“Theologica” is a theological dictionary designed to provide a simple, easy-to-use, yet comprehensive reference to the Catholic theological tradition. Over 500 of the most commonly used terms across the various sub-disciplines of theology and points of cultural intersection are grouped into 5 categories: Systematic, Ecclesial, Moral, Biblical, and Cultural. Each term can be bookmarked for quick reference and shared via text, email, and social media. Definitions include links to: 
 
 Catechism of the Catholic Church
 Sacred Scripture
@@ -152,7 +152,7 @@ Pontifical Commissions
 In addition, definitions include links to trusted reference works in the larger Western philosophical and theological tradition. Thus, the app provides a comprehensive snapshot of the meaning of the term and its current understanding across multiple layers of Church teaching and within Academia. 
 
 	“Theologica” is based on the sequence, scope, and content of the theology curriculum at Seton Hall Preparatory School in West Orange, NJ. For more information, email techrament@icloud.com.
-</string>
+</mutableString>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES" address="YES"/>
@@ -662,11 +662,11 @@ In addition, definitions include links to trusted reference works in the larger 
             </objects>
             <point key="canvasLocation" x="-213" y="681"/>
         </scene>
-        <!--Historical-->
+        <!--Ecclesial-->
         <scene sceneID="Xj2-wJ-tce">
             <objects>
                 <navigationController definesPresentationContext="YES" id="BZC-3Q-Dgc" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Historical" image="church.png" id="1oC-qt-PSl">
+                    <tabBarItem key="tabBarItem" title="Ecclesial" image="church.png" id="1oC-qt-PSl">
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
                     </tabBarItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>

@@ -128,10 +128,6 @@
     aggiornomento.name = @"aggiornomento";
     aggiornomento.definition = @"An Italian word meaning 'to bring up to date' which became popular during the Second Vatican Council (1962-1965).";
     
-    Word *agnostic = [[Word alloc] init];
-    agnostic.name = @"agnostic";
-    agnostic.definition = @"From the Greek word for “not knowing”, a term used to describe uncertainty about the question of God's existence. See Catechism of the Catholic Church, 2127. http://www.vatican.va/archive/ccc_css/archive/catechism/p3s2c1a1.htm.";
-    
     Word *allegory = [[Word alloc] init];
     allegory.name = @"allegory";
     allegory.definition = @"From the Greek word for “speaking by way of something else”, a reference to an interpretation of a text that goes beyond the literal meaning to find a deeper connection to a higher order of reality. See Catechism of the Catholic Church, 117. http://www.vatican.va/archive/ccc_css/archive/catechism/p1s1c2a3.htm.";
@@ -152,23 +148,12 @@
     apophatic.name = @"apophatic";
     apophatic.definition = @"Language that uses negation to describe God.";
 
-    Word *aposteriori = [[Word alloc] init];
-    aposteriori.name = @"a posteriori";
-    aposteriori.definition = @"A philosophical category which follows human experience. The statement “Water boils at 0 degrees Celsius” is an a posteriori truth. See Stanford Encyclopedia of Philosophy, “A Priori Justification and Knowledge”. http://plato.stanford.edu/entries/apriori/.";
-    
-    Word *apriori = [[Word alloc] init];
-    apriori.name = @"a priori";
-    apriori.definition = @"A philosophical category which precedes human experience. The statement “All bachelors are unmarried' is an a priori truth. See Stanford Encyclopedia of Philosophy, “A Priori Justification and Knowledge”. http://plato.stanford.edu/entries/apriori/.";
-    
-    Word *argument = [[Word alloc] init];
-    argument.name = @"argument";
-    argument.definition = @"A series of statements that establishes a truth claim; made of two parts - premise and conclusion; the from can be deductive or inductive; deductive arguments can be valid or invalid. See Internet Encylopedia of Philosophy, “Argument”. http://www.iep.utm.edu/argument/";
     
     Word *atonement = [[Word alloc] init];
     atonement.name = @"atonement";
     atonement.definition = @"The act of making restitution for inflicted harm; a theological interpretation of the death of Jesus of Nazrareth. See Catechism of the Catholic Church, 616. http://www.vatican.va/archive/ccc_css/archive/catechism/p122a4p2.htm";
     
-    [_dataDictionay[@"systematic"][@"A"] addObjectsFromArray:@[aposteriori, apriori, accidence, adoption, agape, aggiornomento, agnostic, allegory, analogy, anointing, apologetics, apophatic, argument, atonement]];
+    [_dataDictionay[@"systematic"][@"A"] addObjectsFromArray:@[accidence, adoption, agape, aggiornomento, allegory, analogy, anointing, apologetics, apophatic, atonement]];
     
     //B
     
@@ -192,10 +177,6 @@
     Christ.name = @"Christ";
     Christ.definition = @"The title given to Jesus of Nazareth by early Christians - from the Greek word χριστος (christos) - “annointed one”. See Catechism of the Catholic Church, 436. http://www.vatican.va/archive/ccc_css/archive/catechism/p1s2c2a2.htm";
     
-    Word *compatibilism = [[Word alloc] init];
-    compatibilism.name = @"compatiblism";
-    compatibilism.definition = @"The belief that human freedom is compatible with deterministic elements of human experience. See Standford Encyclopedia of Philosophy, “Compatibilism”. http://plato.stanford.edu/entries/compatibilism/.";
-    
     Word *confession = [[Word alloc] init];
     confession.name = @"Confession";
     confession.definition = @"The sacrament of reconciliation... See Catechism of the Catholic Church, 1424. http://www.vatican.va/archive/ccc_css/archive/catechism/p2s2c2a4.htm";
@@ -216,27 +197,19 @@
     creed.name = @"creed";
     creed.definition = @"from the Latin “credo” (I believe) - a statement of belief; used to refer to the historical creeds of the Church, most notably the Apostle's and Nicene creed. See Catechism of the Catholic Church, 187. http://www.vatican.va/archive/ccc_css/archive/catechism/p1s2.htm";
     
-    [_dataDictionay[@"systematic"][@"C"] addObjectsFromArray:@[canon, Christ, compatibilism, confession, confirmation, cosmological, creationism, creed]];
+    [_dataDictionay[@"systematic"][@"C"] addObjectsFromArray:@[canon, Christ, confession, confirmation, cosmological, creationism, creed]];
     
     //D
-    
-    Word *deism = [[Word alloc] init];
-    deism.name = @"deism";
-    deism.definition = @"The belief that God created the world but does not intervene in the natural course of the world.";
-    
-    Word *determinism = [[Word alloc] init];
-    determinism.name = @"determinism";
-    determinism.definition = @"The belief that all events, including human actions, are determined by physical phenomena, negating the concept of free-will. See Stanford Encyclopedia of Philosophy, “Causal Determinism”. http://plato.stanford.edu/entries/determinism-causal/.";
     
     Word *developmentDoc = [[Word alloc] init];
     developmentDoc.name = @"development of doctrine";
     developmentDoc.definition = @"The idea that the teaching of the Church can develop over time; first found in the writings of Vincent of Lerins and later re-emphasized by Cardinal John Henry Newman. See John Henry Newman, “Essay on the Development of Doctrine”. http://www.newmanreader.org/Works/development/index.html.";
     
-    Word *dualism = [[Word alloc] init];
-    dualism.name = @"dualism";
-    dualism.definition = @"The belief that humans are composed of two substances, body and soul/mind; also known as substance dualism; found in the Platonic influence on Christianity and later in the writings of Descartes. Associated problems include the problem of causation and the seeming violation of the scientific law of the conservation of energy. See Stanford Encyclopedia of Philosophy “Dualism”. http://plato.stanford.edu/entries/dualism/.";
+    Word *devil = [[Word alloc] init];
+    devil.name = @"devil";
+    devil.definition = @"The personal malevolent spiritual being who became synonymous with Satan in inter-testamental years leading up to the life of Jesus...";
     
-    [_dataDictionay[@"systematic"][@"D"] addObjectsFromArray:@[deism, determinism, developmentDoc, dualism]];
+    [_dataDictionay[@"systematic"][@"D"] addObjectsFromArray:@[developmentDoc, devil]];
     
     //E
     
@@ -244,9 +217,6 @@
     ecumenism.name = @"ecumenism";
     ecumenism.definition = @"A movement which gained popularity in the 20th century that emphasized shared beliefs among various Christian churches over and against differences.";
     
-    Word *epistemology = [[Word alloc] init];
-    epistemology.name = @"epistemology";
-    epistemology.definition = @"The study of the origin, nature, and limits of human knowledge; one of the three traditional subjects of Western philosophy. See Stanford Encyclopedia of Philosophy “Epistemology”. http://plato.stanford.edu/entries/epistemology/";
     
     Word *eschatology = [[Word alloc] init];
     eschatology.name = @"eschatology";
@@ -272,25 +242,14 @@
     exOpere.name = @"ex opere operato";
     exOpere.definition = @"Latin phrase for “from the work, worked”.";
     
-    Word *explanandum = [[Word alloc] init];
-    explanandum.name = @"explanandum";
-    explanandum.definition = @"That which is explained by something else.";
     
-    Word *explanans = [[Word alloc] init];
-    explanans.name = @"explanans";
-    explanans.definition = @"That which explains something else...";
-    
-    [_dataDictionay[@"systematic"][@"E"] addObjectsFromArray:@[ecumenism, epistemology, eschatology, essence, eucharist, exclusivism, exNihilo, exOpere, explanandum, explanans]];
+    [_dataDictionay[@"systematic"][@"E"] addObjectsFromArray:@[ecumenism, eschatology, essence, eucharist, exclusivism, exNihilo, exOpere]];
     
     //F
     
     Word *faith = [[Word alloc] init];
     faith.name = @"faith";
     faith.definition = @"1. Trust or confidence; 2. The content of a religious system (“The Christian faith”).";
-    
-    Word *feminism = [[Word alloc] init];
-    feminism.name = @"feminism";
-    feminism.definition = @"The promotion of women's equality in relation to patriarchal societal structures.";
     
     Word *fideism = [[Word alloc] init];
     fideism.name = @"fideism";
@@ -308,7 +267,7 @@
     freewill.name = @"free will";
     freewill.definition = @"The ability to choose...";
     
-    [_dataDictionay[@"systematic"][@"F"] addObjectsFromArray:@[faith, feminism, fideism, foreknowledge, freewill]];
+    [_dataDictionay[@"systematic"][@"F"] addObjectsFromArray:@[faith, fideism, foreknowledge, freewill]];
     
     //G
     
@@ -395,18 +354,11 @@
     Word *liberation = [[Word alloc]init];
     liberation.name = @"liberation theology";
     liberation.definition = @"The theological movement associated with the idea that the gospel is only authentic in the face of radical poverty.";
+
     
-    Word *logic = [[Word alloc] init];
-    logic.name = @"logic";
-    logic.definition = @"The science of reasoning. See “The Logic Web”, University of Oxford. http://logic.philosophy.ox.ac.uk/main.htm. Also see Wikipedia, “Logic”. http://en.wikipedia.org/wiki/Logic.";
-    
-    [_dataDictionay [@"systematic"][@"L"] addObjectsFromArray:@[lawNC, liberation, logic]];
+    [_dataDictionay [@"systematic"][@"L"] addObjectsFromArray:@[lawNC, liberation]];
     
     //M
-    
-    Word *metaphysics = [[Word alloc] init];
-    metaphysics.name = @"metaphysics";
-    metaphysics.definition = @"The study of the fundamental nature of reality; the study of ontology; a highly contested area of inquiry that has including a variation of topics throughout history since the time of Aristotle. See Routledge Encyclopedia of Philosophy, “Metaphysics”. http://www.rep.routledge.com/article/N095";
     
     Word *miracle = [[Word alloc] init];
     miracle.name = @"miracle";
@@ -420,7 +372,7 @@
     mystery.name = @"mystery";
     mystery.definition = @"That which transcends human comprehension and explanation.";
     
-    [_dataDictionay[@"systematic"][@"M"] addObjectsFromArray:@[metaphysics, miracle, monotheism, mystery]];
+    [_dataDictionay[@"systematic"][@"M"] addObjectsFromArray:@[miracle, monotheism, mystery]];
     
     //N
     
@@ -476,14 +428,6 @@
     person.name = @"person";
     person.definition = @"A human being capable of self-transcendence";
     
-    Word *philosophy = [[Word alloc] init];
-    philosophy.name = @"philosophy";
-    philosophy.definition = @"The critical examination of human thought; the love of wisdom.";
-    
-    Word *physicalism = [[Word alloc] init];
-    physicalism.name = @"physicalism";
-    physicalism.definition = @"The belief that phenemena traditionally attributed to the soul can be more simply explained by the functioning of a brain";
-    
     Word *pluralism = [[Word alloc] init];
     pluralism.name = @"pluralism";
     pluralism.definition = @"The belief that all religous claims are equally valid.";
@@ -492,19 +436,15 @@
     polytheism.name = @"polytheism";
     polytheism.definition = @"The belief that many gods exist.";
     
-    Word *predistination = [[Word alloc] init];
-    predistination.name = @"predestination";
-    predistination.definition = @"The belief that God has fixed the destiny of certain individuals...";
-    
-    Word *problem = [[Word alloc] init];
-    problem.name = @"Problem of Evil";
-    problem.definition = @"The philosophical problem that results from belief in Divine omniscience, omnipotence, and omnibenevolence and the experience of suffering and evil in the world....";
+    Word *predestination = [[Word alloc] init];
+    predestination.name = @"predestination";
+    predestination.definition = @"The belief that God has fixed the destiny of certain individuals...";
     
     Word *processTheo = [[Word alloc] init];
     processTheo.name = @"process theology";
     processTheo.definition = @"The theological school of thought based primarily on the thought of Alfred North Whitehead.";
 
-    [_dataDictionay[@"systematic"][@"P"] addObjectsFromArray:@[philosophy, person, physicalism, pluralism, polytheism]];
+    [_dataDictionay[@"systematic"][@"P"] addObjectsFromArray:@[person, pluralism, polytheism]];
     
     //Q
     
@@ -798,15 +738,23 @@
     
     //D
     
+    Word *dehumanization = [[Word alloc] init];
+    dehumanization.name = @"dehumanization";
+    dehumanization.definition = @"The process of objectifying a human being, removing his or her dignity";
+    
     Word *deontology = [[Word alloc] init];
     deontology.name = @"deontology";
     deontology.definition = @"from the Greek word for “duty” (deon) - the study of ethics from the framework of moral duties in the form of rules and laws.";
+    
+    Word *dignity = [[Word alloc]init];
+    dignity.name = @"dignity";
+    dignity.definition = @"The sacred status of human beings because of the constant love of God; one of the 7 Principles of Catholic Social Teaching.";
     
     Word *distributive = [[Word alloc] init];
     distributive.name = @"distributive justice";
     distributive.definition = @"The type of justice which emphasizes society's responsibilities to the individual.";
     
-    [_dataDictionay[@"moral"][@"D"] addObjectsFromArray:@[deontology, distributive]];
+    [_dataDictionay[@"moral"][@"D"] addObjectsFromArray:@[dehumanization, deontology, dignity, distributive]];
 
     
     //E
@@ -1505,9 +1453,21 @@
 {
     //A
     
+    Word *aposteriori = [[Word alloc] init];
+    aposteriori.name = @"a posteriori";
+    aposteriori.definition = @"A philosophical category which follows human experience. The statement “Water boils at 0 degrees Celsius” is an a posteriori truth. See Stanford Encyclopedia of Philosophy, “A Priori Justification and Knowledge”. http://plato.stanford.edu/entries/apriori/.";
+    
+    Word *apriori = [[Word alloc] init];
+    apriori.name = @"a priori";
+    apriori.definition = @"A philosophical category which precedes human experience. The statement “All bachelors are unmarried' is an a priori truth. See Stanford Encyclopedia of Philosophy, “A Priori Justification and Knowledge”. http://plato.stanford.edu/entries/apriori/.";
+    
     Word *action = [[Word alloc]init];
     action.name = @"action";
     action.definition = @"The third of three steps in achieving justice.";
+    
+    Word *agnostic = [[Word alloc] init];
+    agnostic.name = @"agnostic";
+    agnostic.definition = @"From the Greek word for “not knowing”, a term used to describe uncertainty about the question of God's existence. See Catechism of the Catholic Church, 2127. http://www.vatican.va/archive/ccc_css/archive/catechism/p3s2c1a1.htm.";
     
     Word *analysis = [[Word alloc] init];
     analysis.name = @"analysis";
@@ -1517,6 +1477,10 @@
     anthropology.name = @"anthropology";
     anthropology.definition = @"The science that studies human origins, development, and culture.";
     
+    Word *argument = [[Word alloc] init];
+    argument.name = @"argument";
+    argument.definition = @"A series of statements that establishes a truth claim; made of two parts - premise and conclusion; the from can be deductive or inductive; deductive arguments can be valid or invalid. See Internet Encylopedia of Philosophy, “Argument”. http://www.iep.utm.edu/argument/";
+    
     Word *atheism = [[Word alloc] init];
     atheism.name = @"atheism";
     atheism.definition = @"The belief that no God exists.";
@@ -1525,7 +1489,7 @@
     awareness.name = @"awareness";
     awareness.definition = @"The first of 3 steps in achieving justice.";
     
-    [_dataDictionay[@"social"][@"A"] addObjectsFromArray:@[action, analysis, anthropology, atheism, awareness]];
+    [_dataDictionay[@"social"][@"A"] addObjectsFromArray:@[aposteriori, apriori, action, analysis, anthropology, argument, atheism, awareness]];
     
     //B
     
@@ -1554,25 +1518,33 @@
     commongood.name = @"common good";
     commongood.definition = @"the social condition in which all people are allowed to reach their full development";
     
+    Word *compatibilism = [[Word alloc] init];
+    compatibilism.name = @"compatiblism";
+    compatibilism.definition = @"The belief that human freedom is compatible with deterministic elements of human experience. See Standford Encyclopedia of Philosophy, “Compatibilism”. http://plato.stanford.edu/entries/compatibilism/.";
+    
 
     
-    [_dataDictionay[@"social"][@"C"] addObjectsFromArray:@[churchstate, colonialism, commongood]];
+    [_dataDictionay[@"social"][@"C"] addObjectsFromArray:@[churchstate, colonialism, commongood, compatibilism]];
     
     //D
     
-    Word *dehumanization = [[Word alloc] init];
-    dehumanization.name = @"dehumanization";
-    dehumanization.definition = @"The process of objectifying a human being, removing his or her dignity";
+    Word *deism = [[Word alloc] init];
+    deism.name = @"deism";
+    deism.definition = @"The belief that God created the world but does not intervene in the natural course of the world.";
+    
+    Word *determinism = [[Word alloc] init];
+    determinism.name = @"determinism";
+    determinism.definition = @"The belief that all events, including human actions, are determined by physical phenomena, negating the concept of free-will. See Stanford Encyclopedia of Philosophy, “Causal Determinism”. http://plato.stanford.edu/entries/determinism-causal/.";
     
     Word *development = [[Word alloc]init];
     development.name = @"development";
     development.definition = @"the process of becoming fully human";
     
-    Word *dignity = [[Word alloc]init];
-    dignity.name = @"dignity";
-    dignity.definition = @"The sacred status of human beings because of the constant love of God; one of the 7 Principles of Catholic Social Teaching.";
+    Word *dualism = [[Word alloc] init];
+    dualism.name = @"dualism";
+    dualism.definition = @"The belief that humans are composed of two substances, body and soul/mind; also known as substance dualism; found in the Platonic influence on Christianity and later in the writings of Descartes. Associated problems include the problem of causation and the seeming violation of the scientific law of the conservation of energy. See Stanford Encyclopedia of Philosophy “Dualism”. http://plato.stanford.edu/entries/dualism/.";
     
-    [_dataDictionay[@"social"][@"D"] addObjectsFromArray:@[dehumanization, development, dignity]];
+    [_dataDictionay[@"social"][@"D"] addObjectsFromArray:@[deism, determinism, development, dualism]];
     
     //E
     
@@ -1580,11 +1552,23 @@
     elementary.name = @"elementary experience";
     elementary.definition = @"According to Fr. Luigi Giussani, the complex of needs and evidences that humans have for truth, justice, beauty, and goodness.";
     
+    Word *epistemology = [[Word alloc] init];
+    epistemology.name = @"epistemology";
+    epistemology.definition = @"The study of the origin, nature, and limits of human knowledge; one of the three traditional subjects of Western philosophy. See Stanford Encyclopedia of Philosophy “Epistemology”. http://plato.stanford.edu/entries/epistemology/";
+    
     Word *existential = [[Word alloc] init];
     existential.name = @"existentialism";
     existential.definition = @"1. Of or relating to existence. 2. A philosophical movement which gained popularity in the late 19th century...";
     
-     [_dataDictionay[@"social"][@"E"] addObjectsFromArray:@[elementary, existential]];
+    Word *explanandum = [[Word alloc] init];
+    explanandum.name = @"explanandum";
+    explanandum.definition = @"That which is explained by something else.";
+    
+    Word *explanans = [[Word alloc] init];
+    explanans.name = @"explanans";
+    explanans.definition = @"That which explains something else...";
+    
+     [_dataDictionay[@"social"][@"E"] addObjectsFromArray:@[elementary, epistemology, existential]];
     
     //F
     
@@ -1618,9 +1602,20 @@
     living.name = @"living wage";
     living.definition = @"A form of income that is enables a worker to support his or her family. It should be noted that at the time Pope Leo XIII taught this in Rerum Novarum, women did not work.";
     
-     [_dataDictionay[@"social"][@"L"] addObjectsFromArray:@[living]];
+    Word *logic = [[Word alloc] init];
+    logic.name = @"logic";
+    logic.definition = @"The science of reasoning. See “The Logic Web”, University of Oxford. http://logic.philosophy.ox.ac.uk/main.htm. Also see Wikipedia, “Logic”. http://en.wikipedia.org/wiki/Logic.";
+    
+     [_dataDictionay[@"social"][@"L"] addObjectsFromArray:@[living, logic]];
     
     //M
+    
+    Word *metaphysics = [[Word alloc] init];
+    metaphysics.name = @"metaphysics";
+    metaphysics.definition = @"The study of the fundamental nature of reality; the study of ontology; a highly contested area of inquiry that has including a variation of topics throughout history since the time of Aristotle. See Routledge Encyclopedia of Philosophy, “Metaphysics”. http://www.rep.routledge.com/article/N095";
+    
+    [_dataDictionay[@"social"][@"M"] addObjectsFromArray:@[metaphysics]];
+
     
     //N
     
@@ -1634,6 +1629,21 @@
     //O
     
     //P
+    
+    Word *philosophy = [[Word alloc] init];
+    philosophy.name = @"philosophy";
+    philosophy.definition = @"The critical examination of human thought; the love of wisdom.";
+    
+    Word *physicalism = [[Word alloc] init];
+    physicalism.name = @"physicalism";
+    physicalism.definition = @"The belief that phenemena traditionally attributed to the soul can be more simply explained by the functioning of a brain";
+    
+    Word *problem = [[Word alloc] init];
+    problem.name = @"Problem of Evil";
+    problem.definition = @"The philosophical problem that results from belief in Divine omniscience, omnipotence, and omnibenevolence and the experience of suffering and evil in the world....";
+    
+    [_dataDictionay[@"social"][@"P"] addObjectsFromArray:@[philosophy, physicalism, problem]];
+
     
     //Q
     
