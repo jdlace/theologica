@@ -833,10 +833,15 @@
     
     Word *humanRights = [[Word alloc] init];
     humanRights.name = @"human rights";
+<<<<<<< HEAD
+    humanRights.definition = @"rights due to a person by virtue of his or her being a human being; thirty human rights are enumerated in the United Nations Universal Declaration of Human Rights.";
+    [_dataDictionay [@"moral"][@"H"] addObjectsFromArray:@[humanRights]];
+=======
     humanRights.definition = @"rights due to a person by virtue of his or her being a human being; thirty human rights are enumerated in the United Nations Universal Declaration of Human Rights. See Compendium of the Social Doctrine of the Church, 152. http://www.vatican.va/roman_curia/pontifical_councils/justpeace/documents/rc_pc_justpeace_doc_20060526_compendio-dott-soc_en.html";
     
     [_dataDictionay[@"moral"][@"H"] addObjectsFromArray:@[humanRights]];
 
+>>>>>>> 5b606c74ba4f9d128c2e582f33a8a15c403acdaa
     
     //I
     
