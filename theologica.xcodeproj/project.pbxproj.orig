@@ -254,18 +254,24 @@
 				692ED29F1796EF10008554F9 /* man-influence@2x.png */,
 				9BAC0B431A1C4BA1004C4867 /* appicon.png */,
 				9BAC0B441A1C4BA1004C4867 /* appicon2.png */,
+<<<<<<< HEAD
+=======
 				69B7DF701A2140910033465A /* appicon copy 7.png */,
 				69C826641A204BF6001B9CBF /* old-scroll@3x copy.png */,
 				695757D91A240D010091CE12 /* angel@3x copy.png */,
 				695757D51A2403BD0091CE12 /* monk@3x copy.png */,
 				692D9E851A22220C00F8E4BF /* earth-wireframe-7@3x copy.png */,
+>>>>>>> 5b606c74ba4f9d128c2e582f33a8a15c403acdaa
 				692ED2921796E709008554F9 /* equality.png */,
 				695757D31A2403B80091CE12 /* meditation@3x copy.png */,
 				692ED2931796E709008554F9 /* equality@2x.png */,
 				692ED27F1796E04B008554F9 /* bible@2x.png */,
 				692ED28A1796E511008554F9 /* bible.png */,
+<<<<<<< HEAD
+=======
 				69DD3F361A22B28B004C4F55 /* church-7@3x copy.png */,
 				695757D71A2403EB0091CE12 /* color-rgb-7@3x copy.png */,
+>>>>>>> 5b606c74ba4f9d128c2e582f33a8a15c403acdaa
 				692ED2811796E04B008554F9 /* church.png */,
 				692ED2821796E04B008554F9 /* church@2x.png */,
 				692ED2521796D552008554F9 /* theologica-Info.plist */,
@@ -447,8 +453,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				692ED2551796D552008554F9 /* InfoPlist.strings in Resources */,
+<<<<<<< HEAD
+=======
 				692ED25D1796D552008554F9 /* Default.png in Resources */,
 				695757D81A2403EB0091CE12 /* color-rgb-7@3x copy.png in Resources */,
+>>>>>>> 5b606c74ba4f9d128c2e582f33a8a15c403acdaa
 				690248B717F05294009D6811 /* bookmark@2x.png in Resources */,
 				692ED2641796D552008554F9 /* MainStoryboard.storyboard in Resources */,
 				69B52BAB1A0EF6C100C23B47 /* Launch Screen.xib in Resources */,
@@ -456,8 +465,11 @@
 				692ED2861796E04B008554F9 /* church.png in Resources */,
 				692ED2871796E04B008554F9 /* church@2x.png in Resources */,
 				692ED28B1796E511008554F9 /* bible.png in Resources */,
+<<<<<<< HEAD
+=======
 				695757DA1A240D010091CE12 /* angel@3x copy.png in Resources */,
 				69C826651A204BF6001B9CBF /* old-scroll@3x copy.png in Resources */,
+>>>>>>> 5b606c74ba4f9d128c2e582f33a8a15c403acdaa
 				6902FACE17F51D3E00299A50 /* Images.xcassets in Resources */,
 				695757D61A2403BD0091CE12 /* monk@3x copy.png in Resources */,
 				692ED2981796E709008554F9 /* equality.png in Resources */,

@@ -803,11 +803,11 @@ In addition, definitions include links to trusted reference works in the larger 
             </objects>
             <point key="canvasLocation" x="823" y="4083"/>
         </scene>
-        <!--Social-->
+        <!--Cultural-->
         <scene sceneID="P0U-03-m0K">
             <objects>
                 <navigationController definesPresentationContext="YES" id="QFW-xZ-mKt" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Social" image="earth-wireframe-7@3x copy.png" id="XFr-pL-O6j">
+                    <tabBarItem key="tabBarItem" title="Cultural" image="earth-wireframe-7@3x copy.png" id="XFr-pL-O6j">
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
                     </tabBarItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
@@ -872,11 +872,11 @@ In addition, definitions include links to trusted reference works in the larger 
             </objects>
             <point key="canvasLocation" x="-35" y="1722"/>
         </scene>
-        <!--Ecclesial-->
+        <!--Historical-->
         <scene sceneID="Xj2-wJ-tce">
             <objects>
                 <navigationController definesPresentationContext="YES" id="BZC-3Q-Dgc" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Ecclesial" image="church.png" id="1oC-qt-PSl">
+                    <tabBarItem key="tabBarItem" title="Historical" image="church.png" id="1oC-qt-PSl">
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
                     </tabBarItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
