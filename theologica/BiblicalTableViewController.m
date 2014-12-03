@@ -7,7 +7,7 @@
 //
 
 #import "BiblicalTableViewController.h"
-#import "BiblicalDetailViewController.h"
+#import "WordDetailViewController.h"
 #import "WordDataSource.h"
 #import "Word.h"
 
@@ -179,12 +179,12 @@
 
 -(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    if ([[segue identifier] isEqualToString:@"showWord"])
+    if ([[segue identifier] isEqualToString:@"showWordDetail"])
         {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         Word *word = [self.wordDataSource wordForRowAtIndexPath:indexPath forCategory:self.category];
         
-        BiblicalDetailViewController *WordViewController = [segue destinationViewController];
+        WordDetailViewController *WordViewController = [segue destinationViewController];
         WordViewController.currentWordDetail = word;
         }
 }

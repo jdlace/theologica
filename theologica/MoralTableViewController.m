@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 techrament. All rights reserved.
 //
 #import "MoralTableViewController.h"
-#import "MoralDetailViewController.h"
+#import "WordDetailViewController.h"
 #import "WordDataSource.h"
 #import "Word.h"
 
@@ -178,12 +178,12 @@
 
 -(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    if ([[segue identifier] isEqualToString:@"showWord"])
+    if ([[segue identifier] isEqualToString:@"showWordDetail"])
         {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         Word *word = [self.wordDataSource wordForRowAtIndexPath:indexPath forCategory:self.category];
         
-        MoralDetailViewController *WordViewController = [segue destinationViewController];
+        WordDetailViewController *WordViewController = [segue destinationViewController];
         WordViewController.currentWordDetail = word;
         }
 }

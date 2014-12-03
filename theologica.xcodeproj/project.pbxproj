@@ -30,20 +30,14 @@
 		692ED28B1796E511008554F9 /* bible.png in Resources */ = {isa = PBXBuildFile; fileRef = 692ED28A1796E511008554F9 /* bible.png */; };
 		692ED2981796E709008554F9 /* equality.png in Resources */ = {isa = PBXBuildFile; fileRef = 692ED2921796E709008554F9 /* equality.png */; };
 		692ED2991796E709008554F9 /* equality@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 692ED2931796E709008554F9 /* equality@2x.png */; };
-		692ED2A61796EF10008554F9 /* hierarchy.png in Resources */ = {isa = PBXBuildFile; fileRef = 692ED29C1796EF10008554F9 /* hierarchy.png */; };
-		692ED2A71796EF10008554F9 /* hierarchy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 692ED29D1796EF10008554F9 /* hierarchy@2x.png */; };
 		692ED2A81796EF10008554F9 /* man-influence.png in Resources */ = {isa = PBXBuildFile; fileRef = 692ED29E1796EF10008554F9 /* man-influence.png */; };
 		692ED2A91796EF10008554F9 /* man-influence@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 692ED29F1796EF10008554F9 /* man-influence@2x.png */; };
 		692ED2B21796F466008554F9 /* SystematicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2B11796F466008554F9 /* SystematicTableViewController.m */; };
-		692ED2B51796F48B008554F9 /* SystematicDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2B41796F48B008554F9 /* SystematicDetailViewController.m */; };
+		692ED2B51796F48B008554F9 /* WordDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2B41796F48B008554F9 /* WordDetailViewController.m */; };
 		692ED2BB1796F4D1008554F9 /* EcclesialTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2BA1796F4D1008554F9 /* EcclesialTableViewController.m */; };
-		692ED2BE1796F4EA008554F9 /* EcclesialDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2BD1796F4EA008554F9 /* EcclesialDetailViewController.m */; };
 		692ED2C41796F531008554F9 /* MoralTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2C31796F531008554F9 /* MoralTableViewController.m */; };
-		692ED2C71796F544008554F9 /* MoralDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2C61796F544008554F9 /* MoralDetailViewController.m */; };
 		692ED2CD1796F58F008554F9 /* BiblicalTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2CC1796F58F008554F9 /* BiblicalTableViewController.m */; };
-		692ED2D01796F5A7008554F9 /* BiblicalDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2CF1796F5A7008554F9 /* BiblicalDetailViewController.m */; };
 		692ED2D61796F5E7008554F9 /* SocialTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2D51796F5E7008554F9 /* SocialTableViewController.m */; };
-		692ED2D91796F602008554F9 /* SocialDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2D81796F602008554F9 /* SocialDetailViewController.m */; };
 		695757D41A2403B80091CE12 /* meditation@3x copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 695757D31A2403B80091CE12 /* meditation@3x copy.png */; };
 		695757D61A2403BD0091CE12 /* monk@3x copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 695757D51A2403BD0091CE12 /* monk@3x copy.png */; };
 		695757D81A2403EB0091CE12 /* color-rgb-7@3x copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 695757D71A2403EB0091CE12 /* color-rgb-7@3x copy.png */; };
@@ -93,7 +87,6 @@
 
 /* Begin PBXFileReference section */
 		690248B617F05294009D6811 /* bookmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bookmark@2x.png"; path = "../bookmark@2x.png"; sourceTree = "<group>"; };
-		6902FACC17F51CFC00299A50 /* theologicaicon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = theologicaicon1.png; sourceTree = SOURCE_ROOT; };
 		6902FACD17F51D3E00299A50 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = theologica/Images.xcassets; sourceTree = "<group>"; };
 		692D9E851A22220C00F8E4BF /* earth-wireframe-7@3x copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "earth-wireframe-7@3x copy.png"; path = "../../earth-wireframe-7@3x copy.png"; sourceTree = "<group>"; };
 		692ED2471796D552008554F9 /* theologica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = theologica.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,30 +113,20 @@
 		692ED28A1796E511008554F9 /* bible.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bible.png; sourceTree = "<group>"; };
 		692ED2921796E709008554F9 /* equality.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = equality.png; sourceTree = "<group>"; };
 		692ED2931796E709008554F9 /* equality@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "equality@2x.png"; sourceTree = "<group>"; };
-		692ED29C1796EF10008554F9 /* hierarchy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hierarchy.png; path = ../hierarchy.png; sourceTree = "<group>"; };
-		692ED29D1796EF10008554F9 /* hierarchy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "hierarchy@2x.png"; path = "../hierarchy@2x.png"; sourceTree = "<group>"; };
 		692ED29E1796EF10008554F9 /* man-influence.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "man-influence.png"; path = "../man-influence.png"; sourceTree = "<group>"; };
 		692ED29F1796EF10008554F9 /* man-influence@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "man-influence@2x.png"; path = "../man-influence@2x.png"; sourceTree = "<group>"; };
 		692ED2B01796F466008554F9 /* SystematicTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SystematicTableViewController.h; path = ../SystematicTableViewController.h; sourceTree = "<group>"; };
 		692ED2B11796F466008554F9 /* SystematicTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SystematicTableViewController.m; path = ../SystematicTableViewController.m; sourceTree = "<group>"; };
-		692ED2B31796F48B008554F9 /* SystematicDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystematicDetailViewController.h; sourceTree = "<group>"; };
-		692ED2B41796F48B008554F9 /* SystematicDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystematicDetailViewController.m; sourceTree = "<group>"; };
+		692ED2B31796F48B008554F9 /* WordDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordDetailViewController.h; sourceTree = "<group>"; };
+		692ED2B41796F48B008554F9 /* WordDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordDetailViewController.m; sourceTree = "<group>"; };
 		692ED2B91796F4D1008554F9 /* EcclesialTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EcclesialTableViewController.h; sourceTree = "<group>"; };
 		692ED2BA1796F4D1008554F9 /* EcclesialTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EcclesialTableViewController.m; sourceTree = "<group>"; };
-		692ED2BC1796F4EA008554F9 /* EcclesialDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EcclesialDetailViewController.h; sourceTree = "<group>"; };
-		692ED2BD1796F4EA008554F9 /* EcclesialDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EcclesialDetailViewController.m; sourceTree = "<group>"; };
 		692ED2C21796F531008554F9 /* MoralTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoralTableViewController.h; sourceTree = "<group>"; };
 		692ED2C31796F531008554F9 /* MoralTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoralTableViewController.m; sourceTree = "<group>"; };
-		692ED2C51796F544008554F9 /* MoralDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoralDetailViewController.h; sourceTree = "<group>"; };
-		692ED2C61796F544008554F9 /* MoralDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoralDetailViewController.m; sourceTree = "<group>"; };
 		692ED2CB1796F58F008554F9 /* BiblicalTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BiblicalTableViewController.h; sourceTree = "<group>"; };
 		692ED2CC1796F58F008554F9 /* BiblicalTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BiblicalTableViewController.m; sourceTree = "<group>"; };
-		692ED2CE1796F5A7008554F9 /* BiblicalDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BiblicalDetailViewController.h; sourceTree = "<group>"; };
-		692ED2CF1796F5A7008554F9 /* BiblicalDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BiblicalDetailViewController.m; sourceTree = "<group>"; };
 		692ED2D41796F5E7008554F9 /* SocialTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialTableViewController.h; sourceTree = "<group>"; };
 		692ED2D51796F5E7008554F9 /* SocialTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialTableViewController.m; sourceTree = "<group>"; };
-		692ED2D71796F601008554F9 /* SocialDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialDetailViewController.h; sourceTree = "<group>"; };
-		692ED2D81796F602008554F9 /* SocialDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialDetailViewController.m; sourceTree = "<group>"; };
 		695757D31A2403B80091CE12 /* meditation@3x copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "meditation@3x copy.png"; path = "../../meditation@3x copy.png"; sourceTree = "<group>"; };
 		695757D51A2403BD0091CE12 /* monk@3x copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "monk@3x copy.png"; path = "../../monk@3x copy.png"; sourceTree = "<group>"; };
 		695757D71A2403EB0091CE12 /* color-rgb-7@3x copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "color-rgb-7@3x copy.png"; path = "../../color-rgb-7@3x copy.png"; sourceTree = "<group>"; };
@@ -268,10 +251,7 @@
 		692ED2511796D552008554F9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6902FACC17F51CFC00299A50 /* theologicaicon1.png */,
 				690248B617F05294009D6811 /* bookmark@2x.png */,
-				692ED29C1796EF10008554F9 /* hierarchy.png */,
-				692ED29D1796EF10008554F9 /* hierarchy@2x.png */,
 				692ED29E1796EF10008554F9 /* man-influence.png */,
 				692ED29F1796EF10008554F9 /* man-influence@2x.png */,
 				9BAC0B431A1C4BA1004C4867 /* appicon.png */,
@@ -333,8 +313,8 @@
 				FA8450581A1285CE007839D8 /* infoButtonViewController.m */,
 				692ED2B01796F466008554F9 /* SystematicTableViewController.h */,
 				692ED2B11796F466008554F9 /* SystematicTableViewController.m */,
-				692ED2B31796F48B008554F9 /* SystematicDetailViewController.h */,
-				692ED2B41796F48B008554F9 /* SystematicDetailViewController.m */,
+				692ED2B31796F48B008554F9 /* WordDetailViewController.h */,
+				692ED2B41796F48B008554F9 /* WordDetailViewController.m */,
 			);
 			name = Systematic;
 			sourceTree = "<group>";
@@ -344,8 +324,6 @@
 			children = (
 				692ED2B91796F4D1008554F9 /* EcclesialTableViewController.h */,
 				692ED2BA1796F4D1008554F9 /* EcclesialTableViewController.m */,
-				692ED2BC1796F4EA008554F9 /* EcclesialDetailViewController.h */,
-				692ED2BD1796F4EA008554F9 /* EcclesialDetailViewController.m */,
 			);
 			name = Ecclesial;
 			sourceTree = "<group>";
@@ -355,8 +333,6 @@
 			children = (
 				692ED2C21796F531008554F9 /* MoralTableViewController.h */,
 				692ED2C31796F531008554F9 /* MoralTableViewController.m */,
-				692ED2C51796F544008554F9 /* MoralDetailViewController.h */,
-				692ED2C61796F544008554F9 /* MoralDetailViewController.m */,
 			);
 			name = Moral;
 			sourceTree = "<group>";
@@ -366,8 +342,6 @@
 			children = (
 				692ED2CB1796F58F008554F9 /* BiblicalTableViewController.h */,
 				692ED2CC1796F58F008554F9 /* BiblicalTableViewController.m */,
-				692ED2CE1796F5A7008554F9 /* BiblicalDetailViewController.h */,
-				692ED2CF1796F5A7008554F9 /* BiblicalDetailViewController.m */,
 			);
 			name = Biblical;
 			sourceTree = "<group>";
@@ -377,8 +351,6 @@
 			children = (
 				692ED2D41796F5E7008554F9 /* SocialTableViewController.h */,
 				692ED2D51796F5E7008554F9 /* SocialTableViewController.m */,
-				692ED2D71796F601008554F9 /* SocialDetailViewController.h */,
-				692ED2D81796F602008554F9 /* SocialDetailViewController.m */,
 			);
 			name = Social;
 			sourceTree = "<group>";
@@ -498,8 +470,6 @@
 				695757D61A2403BD0091CE12 /* monk@3x copy.png in Resources */,
 				692ED2981796E709008554F9 /* equality.png in Resources */,
 				692ED2991796E709008554F9 /* equality@2x.png in Resources */,
-				692ED2A61796EF10008554F9 /* hierarchy.png in Resources */,
-				692ED2A71796EF10008554F9 /* hierarchy@2x.png in Resources */,
 				69DD3F371A22B28B004C4F55 /* church-7@3x copy.png in Resources */,
 				692ED2A81796EF10008554F9 /* man-influence.png in Resources */,
 				692ED2A91796EF10008554F9 /* man-influence@2x.png in Resources */,
@@ -529,17 +499,13 @@
 				692ED25B1796D552008554F9 /* AppDelegate.m in Sources */,
 				69BB25491A130F2E00B3F5B5 /* WordDataSource.m in Sources */,
 				692ED2B21796F466008554F9 /* SystematicTableViewController.m in Sources */,
-				692ED2B51796F48B008554F9 /* SystematicDetailViewController.m in Sources */,
+				692ED2B51796F48B008554F9 /* WordDetailViewController.m in Sources */,
 				FA8450591A1285CE007839D8 /* infoButtonViewController.m in Sources */,
 				692ED2BB1796F4D1008554F9 /* EcclesialTableViewController.m in Sources */,
-				692ED2BE1796F4EA008554F9 /* EcclesialDetailViewController.m in Sources */,
 				692ED2C41796F531008554F9 /* MoralTableViewController.m in Sources */,
-				692ED2C71796F544008554F9 /* MoralDetailViewController.m in Sources */,
 				FA84505C1A129CA0007839D8 /* bookmarkListTableViewController.m in Sources */,
 				692ED2CD1796F58F008554F9 /* BiblicalTableViewController.m in Sources */,
-				692ED2D01796F5A7008554F9 /* BiblicalDetailViewController.m in Sources */,
 				692ED2D61796F5E7008554F9 /* SocialTableViewController.m in Sources */,
-				692ED2D91796F602008554F9 /* SocialDetailViewController.m in Sources */,
 				69FB18EB1A0051C500F1C9A4 /* Word.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="4">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
         <!--Tab Bar Controller-->
@@ -25,7 +25,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="14" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1858" y="636"/>
+            <point key="canvasLocation" x="-1334" y="452"/>
         </scene>
         <!--Systematic Table View Controller-->
         <scene sceneID="y7M-Dc-MB3">
@@ -61,7 +61,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="sm5-Dc-hQE" kind="push" identifier="showWord" id="D2d-iF-b5c"/>
+                                    <segue destination="sm5-Dc-hQE" kind="push" identifier="showWordDetail" id="D2d-iF-b5c"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -93,7 +93,7 @@
                         </button>
                         <barButtonItem key="rightBarButtonItem" systemItem="bookmarks" id="RxI-0F-zKf">
                             <connections>
-                                <segue destination="715-iu-iCs" kind="modal" id="zED-tK-w8O"/>
+                                <segue destination="715-iu-iCs" kind="modal" identifier="showBookmark" id="zED-tK-w8O"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -114,7 +114,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="451" y="-683"/>
+            <point key="canvasLocation" x="221" y="-677"/>
         </scene>
         <!--Info Button View Controller-->
         <scene sceneID="kFn-9S-L5J">
@@ -167,12 +167,12 @@ In addition, definitions include links to trusted reference works in the larger 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vGN-Df-3Ch" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="645" y="-1289"/>
+            <point key="canvasLocation" x="761" y="-677"/>
         </scene>
-        <!--Systematic Detail View Controller-->
+        <!--Word Detail View Controller-->
         <scene sceneID="Esu-FU-O7a">
             <objects>
-                <viewController extendedLayoutIncludesOpaqueBars="YES" id="sm5-Dc-hQE" customClass="SystematicDetailViewController" sceneMemberID="viewController">
+                <viewController extendedLayoutIncludesOpaqueBars="YES" id="sm5-Dc-hQE" customClass="WordDetailViewController" sceneMemberID="viewController">
                     <view key="view" opaque="NO" contentMode="scaleToFill" id="qRY-Ss-C3f">
                         <rect key="frame" x="0.0" y="64" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -216,13 +216,13 @@ In addition, definitions include links to trusted reference works in the larger 
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
                     <connections>
-                        <outlet property="systematicDescription" destination="RCD-3l-VQc" id="PMA-8Y-gwR"/>
-                        <outlet property="systematicName" destination="zrc-9h-0bq" id="b6f-L8-oRq"/>
+                        <outlet property="descriptionTextView" destination="RCD-3l-VQc" id="M7u-H1-yne"/>
+                        <outlet property="nameLabel" destination="zrc-9h-0bq" id="tA9-oj-qeB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ch1-NC-7h2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="811" y="-683"/>
+            <point key="canvasLocation" x="1673" y="840"/>
         </scene>
         <!--Bookmark List Table View Controller-->
         <scene sceneID="F4P-2m-AMn">
@@ -256,7 +256,7 @@ In addition, definitions include links to trusted reference works in the larger 
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5jB-c8-fcU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1528" y="1026"/>
+            <point key="canvasLocation" x="1886" y="48"/>
         </scene>
         <!--Ecclesial Table View Controller-->
         <scene sceneID="CgF-4d-159">
@@ -276,7 +276,7 @@ In addition, definitions include links to trusted reference works in the larger 
                             </connections>
                         </searchBar>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ecclesialCell" textLabel="mVy-iY-zrQ" style="IBUITableViewCellStyleDefault" id="VBJ-Ey-oiE">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ecclesialCell" textLabel="mVy-iY-zrQ" style="IBUITableViewCellStyleDefault" id="VBJ-Ey-oiE">
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="VBJ-Ey-oiE" id="o21-h7-i2X">
@@ -292,7 +292,7 @@ In addition, definitions include links to trusted reference works in the larger 
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="aRL-ei-9Tm" kind="push" identifier="showWord" id="w6i-7r-hPe"/>
+                                    <segue destination="sm5-Dc-hQE" kind="push" identifier="showWordDetail" id="3bf-TE-cT4"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -318,7 +318,7 @@ In addition, definitions include links to trusted reference works in the larger 
                         </button>
                         <barButtonItem key="rightBarButtonItem" systemItem="bookmarks" id="xtc-6s-O6B">
                             <connections>
-                                <segue destination="715-iu-iCs" kind="modal" id="tce-EJ-mpw"/>
+                                <segue destination="715-iu-iCs" kind="modal" identifier="showBookmark" id="tce-EJ-mpw"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -339,70 +339,7 @@ In addition, definitions include links to trusted reference works in the larger 
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="292" y="520"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="qwB-Ob-Qks">
-            <objects>
-                <viewController id="w0N-oA-3wi" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="nmT-qP-wFh">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="om4-gd-C0D" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="504" y="1122"/>
-        </scene>
-        <!--Ecclesial Detail View Controller-->
-        <scene sceneID="jxY-9p-ZZh">
-            <objects>
-                <viewController extendedLayoutIncludesOpaqueBars="YES" id="aRL-ei-9Tm" customClass="EcclesialDetailViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="2kC-uN-ow9">
-                        <rect key="frame" x="0.0" y="64" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <imageView clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appicon.png" id="Axs-1h-PRz">
-                                <rect key="frame" x="100" y="460" width="120" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" adjustsFontSizeToFit="NO" id="XX1-Q1-le9">
-                                <rect key="frame" x="20" y="75" width="280" height="75"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="27"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <size key="shadowOffset" width="0.0" height="0.0"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" editable="NO" textAlignment="justified" id="W6d-OP-UsL">
-                                <rect key="frame" x="20" y="154" width="280" height="300"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <dataDetectorType key="dataDetectorTypes" link="YES" calendarEvent="YES"/>
-                            </textView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="qEB-bb-uzZ">
-                        <nil key="title"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="4jV-cp-eDW">
-                            <connections>
-                                <action selector="share:" destination="aRL-ei-9Tm" id="99c-CT-QUW"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
-                    <connections>
-                        <outlet property="ecclesialDescription" destination="W6d-OP-UsL" id="J3h-yh-40e"/>
-                        <outlet property="ecclesialName" destination="XX1-Q1-le9" id="yxi-TZ-gwP"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="eDN-0S-cTG" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="702" y="520"/>
+            <point key="canvasLocation" x="221" y="-44"/>
         </scene>
         <!--Moral Table View Controller-->
         <scene sceneID="ZY6-Nb-KZg">
@@ -422,7 +359,7 @@ In addition, definitions include links to trusted reference works in the larger 
                             </connections>
                         </searchBar>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="moralCell" textLabel="sAB-TH-8gb" style="IBUITableViewCellStyleDefault" id="wbo-AU-EgM">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="moralCell" textLabel="sAB-TH-8gb" style="IBUITableViewCellStyleDefault" id="wbo-AU-EgM">
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wbo-AU-EgM" id="bTc-cV-S1c">
@@ -438,7 +375,7 @@ In addition, definitions include links to trusted reference works in the larger 
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="hxR-tt-SDM" kind="push" identifier="showWord" id="T4M-0E-UYb"/>
+                                    <segue destination="sm5-Dc-hQE" kind="push" identifier="showWordDetail" id="XWK-bm-ZrR"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -472,6 +409,7 @@ In addition, definitions include links to trusted reference works in the larger 
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
                     <connections>
                         <outlet property="searchDisplayController" destination="2Kh-4o-phd" id="uUK-R7-IxD"/>
+                        <segue destination="sm5-Dc-hQE" kind="modal" id="RhF-78-Pwg"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Np6-t3-sxb" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -485,57 +423,7 @@ In addition, definitions include links to trusted reference works in the larger 
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="330" y="1722"/>
-        </scene>
-        <!--Moral Detail View Controller-->
-        <scene sceneID="IIW-Zr-POz">
-            <objects>
-                <viewController extendedLayoutIncludesOpaqueBars="YES" id="hxR-tt-SDM" customClass="MoralDetailViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ap3-vv-hzR">
-                        <rect key="frame" x="0.0" y="64" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" adjustsFontSizeToFit="NO" id="EeC-FD-Jf8">
-                                <rect key="frame" x="20" y="75" width="280" height="75"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="27"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <size key="shadowOffset" width="0.0" height="0.0"/>
-                            </label>
-                            <imageView clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appicon.png" id="G74-bI-lN1">
-                                <rect key="frame" x="100" y="460" width="120" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" id="Eca-2Y-tgg">
-                                <rect key="frame" x="20" y="154" width="280" height="300"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <dataDetectorType key="dataDetectorTypes" link="YES" calendarEvent="YES"/>
-                            </textView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="w73-sL-0jg">
-                        <nil key="title"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="Yqm-47-K02">
-                            <connections>
-                                <action selector="share:" destination="hxR-tt-SDM" id="XvW-Eu-f8e"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
-                    <connections>
-                        <outlet property="moralDescription" destination="Eca-2Y-tgg" id="1OC-B7-FMS"/>
-                        <outlet property="moralName" destination="EeC-FD-Jf8" id="uuW-Vp-x1H"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="G2g-jZ-djX" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="684" y="1722"/>
+            <point key="canvasLocation" x="221" y="681"/>
         </scene>
         <!--Biblical Table View Controller-->
         <scene sceneID="q62-mk-gma">
@@ -555,7 +443,7 @@ In addition, definitions include links to trusted reference works in the larger 
                             </connections>
                         </searchBar>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="biblicalCell" textLabel="AfT-i2-N6W" style="IBUITableViewCellStyleDefault" id="Js1-0E-gKV">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="biblicalCell" textLabel="AfT-i2-N6W" style="IBUITableViewCellStyleDefault" id="Js1-0E-gKV">
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Js1-0E-gKV" id="GSt-qL-iQo">
@@ -571,7 +459,7 @@ In addition, definitions include links to trusted reference works in the larger 
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="zQM-E2-3OV" kind="push" identifier="showWord" id="FdP-jm-dgJ"/>
+                                    <segue destination="sm5-Dc-hQE" kind="push" identifier="showWordDetail" id="ysu-ag-PcD"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -618,56 +506,7 @@ In addition, definitions include links to trusted reference works in the larger 
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="264" y="2791"/>
-        </scene>
-        <!--Biblical Detail View Controller-->
-        <scene sceneID="KMZ-wb-I4O">
-            <objects>
-                <viewController extendedLayoutIncludesOpaqueBars="YES" id="zQM-E2-3OV" customClass="BiblicalDetailViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="QFT-oG-yz2">
-                        <rect key="frame" x="0.0" y="64" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" adjustsFontSizeToFit="NO" id="VpX-6h-Py0">
-                                <rect key="frame" x="20" y="75" width="280" height="75"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="27"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <size key="shadowOffset" width="0.0" height="0.0"/>
-                            </label>
-                            <imageView clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appicon.png" id="Fiu-00-mNY">
-                                <rect key="frame" x="100" y="460" width="120" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" id="w2D-nw-9J9">
-                                <rect key="frame" x="20" y="154" width="280" height="300"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <dataDetectorType key="dataDetectorTypes" link="YES" calendarEvent="YES"/>
-                            </textView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="3zT-N0-8GD">
-                        <nil key="title"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="wDg-Xp-Xfw">
-                            <connections>
-                                <action selector="share:" destination="zQM-E2-3OV" id="r8l-VQ-67d"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
-                    <connections>
-                        <outlet property="biblicalDescription" destination="w2D-nw-9J9" id="vIk-yY-4cz"/>
-                        <outlet property="biblicalName" destination="VpX-6h-Py0" id="bNU-c4-FI3"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="msJ-Du-WXi" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="691" y="2791"/>
+            <point key="canvasLocation" x="213" y="1331"/>
         </scene>
         <!--Social Table View Controller-->
         <scene sceneID="86s-5N-Kqe">
@@ -688,7 +527,7 @@ In addition, definitions include links to trusted reference works in the larger 
                             </connections>
                         </searchBar>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="socialCell" textLabel="Ygd-lF-LdA" style="IBUITableViewCellStyleDefault" id="02n-jM-JG6">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="socialCell" textLabel="Ygd-lF-LdA" style="IBUITableViewCellStyleDefault" id="02n-jM-JG6">
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="02n-jM-JG6" id="0Rd-fL-8Sb">
@@ -705,7 +544,7 @@ In addition, definitions include links to trusted reference works in the larger 
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="lMo-uy-zx8" kind="push" identifier="showWord" id="qKt-aq-JuQ"/>
+                                    <segue destination="sm5-Dc-hQE" kind="push" identifier="showWordDetail" id="nFZ-di-1bf"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -752,56 +591,7 @@ In addition, definitions include links to trusted reference works in the larger 
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="426" y="4083"/>
-        </scene>
-        <!--Social Detail View Controller-->
-        <scene sceneID="ljl-om-jkg">
-            <objects>
-                <viewController extendedLayoutIncludesOpaqueBars="YES" id="lMo-uy-zx8" customClass="SocialDetailViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="V5q-XZ-dtT">
-                        <rect key="frame" x="0.0" y="64" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" adjustsFontSizeToFit="NO" id="8bA-U6-Ycv">
-                                <rect key="frame" x="20" y="75" width="280" height="75"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="27"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <size key="shadowOffset" width="0.0" height="0.0"/>
-                            </label>
-                            <imageView clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appicon.png" id="Vkr-oy-GOk">
-                                <rect key="frame" x="100" y="460" width="120" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" id="GBt-rq-EbA">
-                                <rect key="frame" x="20" y="154" width="280" height="300"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <dataDetectorType key="dataDetectorTypes" link="YES" calendarEvent="YES"/>
-                            </textView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="L52-eE-qSL">
-                        <nil key="title"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="jrB-OS-vgn">
-                            <connections>
-                                <action selector="share:" destination="lMo-uy-zx8" id="3Lh-gP-L0D"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
-                    <connections>
-                        <outlet property="socialDescription" destination="GBt-rq-EbA" id="dgU-fU-B3E"/>
-                        <outlet property="socialName" destination="8bA-U6-Ycv" id="lz9-cc-nks"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="CFn-KM-XiP" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="823" y="4083"/>
+            <point key="canvasLocation" x="241" y="2037"/>
         </scene>
         <!--Cultural-->
         <scene sceneID="P0U-03-m0K">
@@ -824,7 +614,7 @@ In addition, definitions include links to trusted reference works in the larger 
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OYU-fo-fOm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="43" y="4083"/>
+            <point key="canvasLocation" x="-221" y="2037"/>
         </scene>
         <!--Biblical-->
         <scene sceneID="S5L-sF-5T5">
@@ -847,7 +637,7 @@ In addition, definitions include links to trusted reference works in the larger 
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AuI-9S-i76" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-130" y="2791"/>
+            <point key="canvasLocation" x="-213" y="1331"/>
         </scene>
         <!--Moral-->
         <scene sceneID="LTq-EQ-uvi">
@@ -870,7 +660,7 @@ In addition, definitions include links to trusted reference works in the larger 
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WAp-qD-ICF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-35" y="1722"/>
+            <point key="canvasLocation" x="-213" y="681"/>
         </scene>
         <!--Historical-->
         <scene sceneID="Xj2-wJ-tce">
@@ -893,7 +683,7 @@ In addition, definitions include links to trusted reference works in the larger 
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0aL-Zx-K6H" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-64" y="520"/>
+            <point key="canvasLocation" x="-166" y="-44"/>
         </scene>
         <!--Systematic-->
         <scene sceneID="fAn-dN-fqo">
@@ -917,7 +707,7 @@ In addition, definitions include links to trusted reference works in the larger 
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hqu-e8-vF2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="92" y="-683"/>
+            <point key="canvasLocation" x="-166" y="-683"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="mMo-ER-RbE">
@@ -935,7 +725,7 @@ In addition, definitions include links to trusted reference works in the larger 
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="quW-83-Xja" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1179" y="1026"/>
+            <point key="canvasLocation" x="1413" y="48"/>
         </scene>
     </scenes>
     <resources>
@@ -954,5 +744,6 @@ In addition, definitions include links to trusted reference works in the larger 
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="ajf-fE-bhB"/>
+        <segue reference="ysu-ag-PcD"/>
     </inferredMetricsTieBreakers>
 </document>

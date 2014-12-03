@@ -6,13 +6,13 @@
 //  Copyright (c) 2013 techrament. All rights reserved.
 //
 
-#import "SystematicDetailViewController.h"
+#import "WordDetailViewController.h"
 
-@interface SystematicDetailViewController () <UIActionSheetDelegate>
+@interface WordDetailViewController () <UIActionSheetDelegate>
 
 @end
 
-@implementation SystematicDetailViewController
+@implementation WordDetailViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -30,10 +30,10 @@
 	// Do any additional setup after loading the view.
     
     //self.systematicName.font = [UIFont preferredFontForTextStyle: UIFontTextStyleBody];
-    self.systematicDescription.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
+    self.descriptionTextView.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
     
-    _systematicName.text = _currentWordDetail.name;
-    _systematicDescription.text = _currentWordDetail.definition;
+    _nameLabel.text = _currentWordDetail.name;
+    _descriptionTextView.text = _currentWordDetail.definition;
     //_systematicDescription.textColor = [UIColor blacColor];
     
     [[NSNotificationCenter defaultCenter]
@@ -44,7 +44,7 @@
 }
 
 - (void)preferredContentSizeChanged:(NSNotification *)notification {
-    self.systematicDescription.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
+    self.descriptionTextView.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
 }
 
 - (void)didReceiveMemoryWarning
