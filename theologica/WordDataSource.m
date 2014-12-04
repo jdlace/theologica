@@ -114,15 +114,15 @@
     
     Word *accidence = [[Word alloc] init];
     accidence.name = @"accidence";
-    accidence.definition = @"In Aristotelean philosophy, a nonessential property or quality of a substance.";
+    accidence.definition = @"In Aristotelean philosophy, a nonessential property or quality of an object that is dependent upon the substance of the object for its existence.";
     
     Word *adoption = [[Word alloc] init];
     adoption.name = @"adoption";
-    adoption.definition = @"The process of becoming a child of God through Jesus Christ. See Catechism of the Catholic Church, 1. http://www.vatican.va/archive/ccc_css/archive/catechism/prologue.htm#1";
+    adoption.definition = @"A biblical metaphor used to refer to the process of entering into a new relationship with God through Jesus Christ. See Catechism of the Catholic Church, 1. http://www.vatican.va/archive/ccc_css/archive/catechism/prologue.htm#1";
     
     Word *agape = [[Word alloc] init];
     agape.name = @"agape";
-    agape.definition = @"The Greek word meaning “universal and unconditional will for the good of another”. The gospel writers use this word to describe Jesus' teaching on the love of God as well as the love for God, neighbors and enemies. See “Deus Caritas Est” by Pope Benedict XVI. http://www.vatican.va/holy_father/benedict_xvi/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est_en.html";
+    agape.definition = @"1. The Greek word meaning “universal and unconditional will for the good of another”. The gospel writers use this word to describe Jesus' teaching on the love of God as well as the love for God, neighbors and enemies (Matthew 5:44, 22:37, 39). 2. The early Christian communal meal after which the Eucharist was celebrated (Jude 1:12). See “Deus Caritas Est” by Pope Benedict XVI. http://www.vatican.va/holy_father/benedict_xvi/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est_en.html";
 
     Word *aggiornomento = [[Word alloc] init];
     aggiornomento.name = @"aggiornomento";
@@ -140,6 +140,10 @@
     anointing.name = @"Annointing of the Sick";
     anointing.definition = @"The sacrament of healing. See Catechism of the Catholic Church, 1499. http://www.vatican.va/archive/ccc_css/archive/catechism/p2s2c2a5.htm.";
     
+    Word *anthropocentrism = [[Word alloc] init];
+    anthropocentrism.name = @"anthropocentrism";
+    anthropocentrism.definition = @"A method of theological enquiry from the starting point and within the horizon of the human experience...";
+    
     Word *apologetics = [[Word alloc] init];
     apologetics.name = @"apologetics";
     apologetics.definition = @"The rational defense of the Christian faith; from the Greek words (apo) - “from” and (logia) - “reason”.";
@@ -153,7 +157,7 @@
     atonement.name = @"atonement";
     atonement.definition = @"The act of making restitution for inflicted harm; a theological interpretation of the death of Jesus of Nazrareth. See Catechism of the Catholic Church, 616. http://www.vatican.va/archive/ccc_css/archive/catechism/p122a4p2.htm";
     
-    [_dataDictionay[@"systematic"][@"A"] addObjectsFromArray:@[accidence, adoption, agape, aggiornomento, allegory, analogy, anointing, apologetics, apophatic, atonement]];
+    [_dataDictionay[@"systematic"][@"A"] addObjectsFromArray:@[accidence, adoption, agape, aggiornomento, allegory, analogy, anointing, anthropocentrism, apologetics, apophatic, atonement]];
     
     //B
     
@@ -562,25 +566,57 @@
     acolyte.name = @"acolyte";
     acolyte.definition = @"an assistant to a deacon";
     
+    Word *adoptionism = [[Word alloc] init];
+    adoptionism.name = @"adoptionism";
+    adoptionism.definition = @"The belief that Jesus was not the Son of God by nature, but rather adopted by God at his baptism; held by the so-called Ebionites of the end of the first century...";
+    
+    Word *adoration = [[Word alloc] init];
+    adoration.name = @"adoration";
+    adoration.definition = @"The act of adoring Christ present in the Eucharist...";
+    
     Word *angusDei = [[Word alloc] init];
     angusDei.name = @"Angus Dei";
     angusDei.definition = @"Part of Mass that begins 'Lamb of God...'.";
     
     Word *advent = [[Word alloc] init];
     advent.name = @"Advent";
-    advent.definition = @"The first season of the liturgical year.";
+    advent.definition = @"The first season of the liturgical year in the Church that prepares for the the celebration of the birth of Jesus; consists of 5 Sundays...";
+    
+    Word *alleluia = [[Word alloc] init];
+    alleluia.name = @"alleluia";
+    alleluia.definition = @"A Latinized form of the phrase 'Praise the LORD'; spoken before the reading of the Gospel during the Mass; not spoken during the season of Lent...";
     
     Word *altar = [[Word alloc] init];
     altar.name = @"altar";
-    altar.definition = @"the object upon which the Eucharist is placed during the act of consecration";
+    altar.definition = @"The table upon which the Eucharist is placed during the act of consecration due to the interpretation of the death of Jesus as an atoning sacrifice. See Catechism of the Catholic Church, 1182.";
+    
+    Word *ambo = [[Word alloc] init];
+    ambo.name = @"ambo";
+    ambo.definition = @"The elevated platform behind which the lector, cantor, or homilist stands to sing, read, or speak to the congregation.";
+    
+    Word *amen = [[Word alloc] init];
+    amen.name = @"amen";
+    amen.definition = @"A Hebrew word meaning 'may it be so'; traditionally said after a prayer as a form of agreement; derived from Jewish use in the synagogue and later in the New Testament where it is used to indicate the truthfulness of what is said.";
     
     Word *anamnesis = [[Word alloc] init];
     anamnesis.name = @"anamnesis";
-    anamnesis.definition = @"Greek Word for 'rememberance', used in the Words of Institution.";
+    anamnesis.definition = @"Greek Word for 'rememberance', used in the Words of Institution; a performative act used to re-present the salvific death and resurrection of Jesus...";
+    
+    Word *anaphora = [[Word alloc] init];
+    anaphora.name = @"anaphora";
+    anaphora.definition = @"The Greek term for 'offering'; the Eucharistic prayer of the Mass...";
     
     Word *anathema = [[Word alloc] init];
     anathema.name = @"anathema";
-    anathema.definition = @"the state of being out of visible communion with the Church";
+    anathema.definition = @"The Greek word for 'accursed'; the state of being out of visible communion with the Church";
+    
+    Word *anglican = [[Word alloc] init];
+    anglican.name = @"Anglican Communion";
+    anglican.definition = @"The Church of England...";
+    
+    Word *annulment = [[Word alloc] init];
+    annulment.name = @"annulment";
+    annulment.definition = @"An ecclesial declaration that a valid marriage never existed....";
     
     Word *antiphon = [[Word alloc] init];
     antiphon.name = @"antiphon";
@@ -594,7 +630,7 @@
     arianism.name = @"Arianism";
     arianism.definition = @"The teaching of Arius that the Son was of a different substance than the Father (begotten vs. unbegotten) and thus, not fully divine.";
     
-    [_dataDictionay[@"ecclesial"][@"A"] addObjectsFromArray:@[absolution, acolyte, advent, angusDei, altar, anamnesis, anathema, antiphon, apostlesCreed, arianism]];
+    [_dataDictionay[@"ecclesial"][@"A"] addObjectsFromArray:@[absolution, acolyte, adoptionism, adoration, advent, angusDei, altar, alleluia, amen, anaphora, anamnesis, anathema, anglican, annulment, antiphon, apostlesCreed, arianism]];
     
     //B
     
@@ -684,11 +720,11 @@
     
     Word *abortion = [[Word alloc] init];
     abortion.name = @"abortion";
-    abortion.definition = @"the intentional killing of an unborn human being";
+    abortion.definition = @"The intentional killing of an unborn human being, who is regarded as sacred from the moment of conception. The death of an unborn as a consequence of other procedures good in themselves is not considered an abortion per se but rather a consequence of the principle of double-effect (See “Principle of Double-Effect”). The Catholic tradition is consistent in its classification of abortion as a grave sin, with the Code of Canon Law declaring those who procure abortions excommunicate themselves from the Church (CIC, 1323-1324). See Catechism of the Catholic Church, 2270. See “Roe vs. Wade” in the Cultural category.";
     
     Word *abstinence = [[Word alloc] init];
     abstinence.name = @"abstinence";
-    abstinence.definition = @"to refrain from a given activity";
+    abstinence.definition = @"The restraining of oneself from a given activity; traditionally applied to sexual relations and food...";
     
     Word *act = [[Word alloc] init];
     act.name = @"act";
@@ -867,6 +903,10 @@
     adonai.name = @"Adonai";
     adonai.definition =@"The Hebrew word for “Ruler”; used as a synonym for YHWH.";
     
+    Word *anawim = [[Word alloc] init];
+    anawim.name = @"anawim";
+    anawim.definition = @"The Hebrew word for the poor and marginalized in ancient Israel who trust completely in the mercy of God (Is. 10:2, Zeph 2:3)..";
+    
     Word *anthropomorphism = [[Word alloc] init];
     anthropomorphism.name = @"anthropomorphism";
     anthropomorphism.definition = @"The attribution of human characteristics to a non-human object. The J Source uses anthropomorphism extensively in its portrayal of YHWH.";
@@ -923,7 +963,7 @@
     assyria.name = @"Assyria";
     assyria.definition = @"One of the numerous Mesopotamian empires in the ancient world which conquered the northern kindgom of Israel in 722 BCE.";
     
-    [_dataDictionay[@"biblical"][@"A"] addObjectsFromArray:@[abba, adonai, anthropomorphism, apocalypse, apocrypha, apodictic, apostle, aqeda, aramaic, asherah, assyria]];
+    [_dataDictionay[@"biblical"][@"A"] addObjectsFromArray:@[abba, adonai, anawim, anthropomorphism, apocalypse, apocrypha, apodictic, apostle, aqeda, aramaic, asherah, assyria]];
 
     
     //B
@@ -1477,6 +1517,10 @@
     anthropology.name = @"anthropology";
     anthropology.definition = @"The science that studies human origins, development, and culture.";
     
+    Word *antisemitism = [[Word alloc] init];
+    antisemitism.name = @"anti-Semitism";
+    antisemitism.definition = @"Prejudice, hatred, or racial bias against Jews. Some portions of the New Testament bear traces of anti-Semitism due to theological biases against the Jewish people for rejecting Christ. Thus, the Christian tradition has included anti-Semitic currents that have been rejected since the Second Vatican Council.";
+    
     Word *argument = [[Word alloc] init];
     argument.name = @"argument";
     argument.definition = @"A series of statements that establishes a truth claim; made of two parts - premise and conclusion; the from can be deductive or inductive; deductive arguments can be valid or invalid. See Internet Encylopedia of Philosophy, “Argument”. http://www.iep.utm.edu/argument/";
@@ -1489,7 +1533,7 @@
     awareness.name = @"awareness";
     awareness.definition = @"The first of 3 steps in achieving justice.";
     
-    [_dataDictionay[@"social"][@"A"] addObjectsFromArray:@[aposteriori, apriori, action, analysis, anthropology, argument, atheism, awareness]];
+    [_dataDictionay[@"social"][@"A"] addObjectsFromArray:@[aposteriori, apriori, action, analysis, anthropology, antisemitism, argument, atheism, awareness]];
     
     //B
     
