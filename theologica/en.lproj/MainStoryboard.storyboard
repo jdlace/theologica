@@ -551,7 +551,7 @@ In addition, definitions include links to trusted reference works in the larger 
                     </tableView>
                     <navigationItem key="navigationItem" id="Lm9-NV-aAs">
                         <nil key="title"/>
-                        <barButtonItem key="backBarButtonItem" title="Social" id="Onq-Ei-giq"/>
+                        <barButtonItem key="backBarButtonItem" title="Cultural" id="Onq-Ei-giq"/>
                         <barButtonItem key="leftBarButtonItem" title="Info" id="RNo-j1-Nou"/>
                         <button key="titleView" opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="cRJ-DF-UeH">
                             <rect key="frame" x="96" y="7" width="128" height="30"/>
@@ -743,7 +743,7 @@ In addition, definitions include links to trusted reference works in the larger 
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="D2d-iF-b5c"/>
-        <segue reference="zED-tK-w8O"/>
+        <segue reference="nFZ-di-1bf"/>
+        <segue reference="ajf-fE-bhB"/>
     </inferredMetricsTieBreakers>
 </document>
