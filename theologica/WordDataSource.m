@@ -489,6 +489,10 @@
     theodicy.name = @"theodicy";
     theodicy.definition = @"The question of God's justice in the face of suffering and evil.";
     
+    Word *theologoumenon = [[Word alloc] init];
+    theologoumenon.name = @"theologoumenon";
+    theologoumenon.definition = @"A theological opinion on a disputable matter that has not been defined in Church teaching...";
+    
     Word *theology = [[Word alloc] init];
     theology.name = @"theology";
     theology.definition = @"The study of God.";
@@ -513,7 +517,7 @@
     trinity.name = @"Trinity";
     trinity.definition = @"The belief that God exists in three persons...";
     
-    [_dataDictionay[@"systematic"][@"T"] addObjectsFromArray:@[theodicy, theology, theosis, transcendence, trinity]];
+    [_dataDictionay[@"systematic"][@"T"] addObjectsFromArray:@[theodicy, theologoumenon, theology, theosis, transcendence, trinity]];
     
     //U
     
@@ -541,7 +545,12 @@
     word.name = @"Word of God";
     word.definition = @"The saving message of God in which humans trust.";
     
-    [_dataDictionay[@"systematic"][@"W"] addObjectsFromArray:@[word]];
+    Word *will = [[Word alloc] init];
+    will.name = @"Will of God";
+    will.definition = @"The ultimate desire of God for creation....";
+    
+    
+    [_dataDictionay[@"systematic"][@"W"] addObjectsFromArray:@[word, will]];
 
     
     //X
