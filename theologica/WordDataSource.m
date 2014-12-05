@@ -232,7 +232,7 @@
     
     Word *eucharist = [[Word alloc] init];
     eucharist.name = @"Eucharist";
-    eucharist.definition = @"The sacred community meal of bread and wine in which Christians belief Jesus is present.";
+    eucharist.definition = @"The sacred community meal of bread and wine in which Christians believe Jesus is present.";
     
     Word *exclusivism = [[Word alloc] init];
     exclusivism.name = @"exclusivism";
