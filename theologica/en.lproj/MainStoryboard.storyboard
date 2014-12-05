@@ -178,7 +178,7 @@ In addition, definitions include links to trusted reference works in the larger 
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" adjustsFontSizeToFit="NO" id="zrc-9h-0bq">
-                                <rect key="frame" x="0.0" y="65" width="320" height="80"/>
+                                <rect key="frame" x="0.0" y="65" width="320" height="75"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="27"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -195,7 +195,7 @@ In addition, definitions include links to trusted reference works in the larger 
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
                             <progressView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" progress="0.99999999999999989" id="Gus-ri-tQk">
-                                <rect key="frame" x="21" y="144" width="278" height="3"/>
+                                <rect key="frame" x="21" y="140" width="278" height="3"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="progressTintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                             </progressView>
