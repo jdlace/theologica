@@ -184,13 +184,8 @@ In addition, definitions include links to trusted reference works in the larger 
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
-                            <imageView autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appicon.png" id="K8d-mN-hMv">
-                                <rect key="frame" x="100" y="460" width="120" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                            </imageView>
                             <textView autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="center" editable="NO" textAlignment="justified" id="RCD-3l-VQc">
-                                <rect key="frame" x="20" y="154" width="280" height="300"/>
+                                <rect key="frame" x="20" y="154" width="280" height="350"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -199,7 +194,7 @@ In addition, definitions include links to trusted reference works in the larger 
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <accessibility key="accessibilityConfiguration">
                             <accessibilityTraits key="traits" none="YES" selected="YES"/>
                         </accessibility>
@@ -527,7 +522,7 @@ In addition, definitions include links to trusted reference works in the larger 
                             </connections>
                         </searchBar>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="socialCell" textLabel="Ygd-lF-LdA" style="IBUITableViewCellStyleDefault" id="02n-jM-JG6">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="socialCell" textLabel="Ygd-lF-LdA" style="IBUITableViewCellStyleDefault" id="02n-jM-JG6">
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="02n-jM-JG6" id="0Rd-fL-8Sb">
@@ -743,7 +738,7 @@ In addition, definitions include links to trusted reference works in the larger 
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="nFZ-di-1bf"/>
-        <segue reference="ajf-fE-bhB"/>
+        <segue reference="zED-tK-w8O"/>
+        <segue reference="D2d-iF-b5c"/>
     </inferredMetricsTieBreakers>
 </document>
