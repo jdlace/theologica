@@ -114,35 +114,35 @@
     
     Word *accidence = [[Word alloc] init];
     accidence.name = @"accidence";
-    accidence.definition = @"In Aristotelean philosophy, a nonessential property or quality of an object that is dependent upon the substance of the object for its existence.";
+    accidence.definition = @"In Aristotelean philosophy, a nonessential property or quality of an object that is dependent upon the substance of the object for its existence. Thomas Aquinas used this concept to support his theory of “transubstantiation” of the Eucharist.\r\rSee http://en.wikipedia.org/wiki/Accident_(philosophy)";
     
     Word *adoption = [[Word alloc] init];
     adoption.name = @"adoption";
-    adoption.definition = @"A biblical metaphor used to refer to the process of entering into a new relationship with God through Jesus Christ. See Catechism of the Catholic Church, 1. http://www.vatican.va/archive/ccc_css/archive/catechism/prologue.htm#1";
+    adoption.definition = @"A biblical metaphor used to refer to the process of entering into a new relationship with God through Jesus Christ. \r\rSee Catechism of the Catholic Church, 1. http://www.vatican.va/archive/ccc_css/archive/catechism/prologue.htm#1";
     
     Word *agape = [[Word alloc] init];
     agape.name = @"agape";
-    agape.definition = @"1. The Greek word meaning “universal and unconditional will for the good of another”. The gospel writers use this word to describe Jesus' teaching on the love of God as well as the love for God, neighbors and enemies (Matthew 5:44, 22:37, 39). 2. The early Christian communal meal after which the Eucharist was celebrated (Jude 1:12). See “Deus Caritas Est” by Pope Benedict XVI. http://www.vatican.va/holy_father/benedict_xvi/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est_en.html";
+    agape.definition = @"1. The Greek word (αγαπη) meaning “universal and unconditional will for the good of another”. The gospel writers use this word to describe Jesus' teaching on the love of God as well as the love for God, neighbors and enemies (Matthew 5:44, 22:37, 39). 2. The early Christian communal meal after which the Eucharist was celebrated (Jude 1:12). \r\rSee “Deus Caritas Est” by Pope Benedict XVI. http://www.vatican.va/holy_father/benedict_xvi/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est_en.html";
 
     Word *aggiornomento = [[Word alloc] init];
     aggiornomento.name = @"aggiornomento";
-    aggiornomento.definition = @"An Italian word meaning 'to bring up to date' which became popular during the Second Vatican Council (1962-1965).";
+    aggiornomento.definition = @"An Italian word meaning 'to bring up to date' which became popular during and synonymous with the reforms of the Second Vatican Council (1962-1965); used by Pope John XXIII to describe the purpose of the Council.\r\rSee http://en.wikipedia.org/wiki/Aggiornamento#cite_note-3";
     
     Word *allegory = [[Word alloc] init];
     allegory.name = @"allegory";
-    allegory.definition = @"From the Greek word for “speaking by way of something else”, a reference to an interpretation of a text that goes beyond the literal meaning to find a deeper connection to a higher order of reality. See Catechism of the Catholic Church, 117. http://www.vatican.va/archive/ccc_css/archive/catechism/p1s1c2a3.htm.";
+    allegory.definition = @"From the Greek word for “speaking by way of something else”, a reference to an interpretation of a text that goes beyond the literal meaning to find a deeper connection to a higher order of reality. \r\rSee Catechism of the Catholic Church, 117. http://www.vatican.va/archive/ccc_css/archive/catechism/p1s1c2a3.htm.";
 
     Word *analogy = [[Word alloc] init];
     analogy.name = @"analogy";
-    analogy.definition = @"A way of probing eternal truths. See Catechism of the Catholic Church, 114. http://www.vatican.va/archive/ccc_css/archive/catechism/p1s1c2a3.htm";
+    analogy.definition = @"A way of probing eternal truths. \r\rSee Catechism of the Catholic Church, 114. http://www.vatican.va/archive/ccc_css/archive/catechism/p1s1c2a3.htm";
     
     Word *anointing = [[Word alloc] init];
     anointing.name = @"Annointing of the Sick";
-    anointing.definition = @"The sacrament of healing. See Catechism of the Catholic Church, 1499. http://www.vatican.va/archive/ccc_css/archive/catechism/p2s2c2a5.htm.";
+    anointing.definition = @"The sacrament of healing... \r\rSee Catechism of the Catholic Church, 1499. http://www.vatican.va/archive/ccc_css/archive/catechism/p2s2c2a5.htm.";
     
     Word *anthropocentrism = [[Word alloc] init];
     anthropocentrism.name = @"anthropocentrism";
-    anthropocentrism.definition = @"A method of theological enquiry from the starting point and within the horizon of the human experience...";
+    anthropocentrism.definition = @"A method of theological enquiry from the starting point and within the horizon of the human experience. All theological claims are claims made by human beings in human language. Theology is relevant to human beings in so far as they concern human experience.";
     
     Word *apologetics = [[Word alloc] init];
     apologetics.name = @"apologetics";
@@ -155,7 +155,7 @@
     
     Word *atonement = [[Word alloc] init];
     atonement.name = @"atonement";
-    atonement.definition = @"The act of making restitution for inflicted harm; a theological interpretation of the death of Jesus of Nazrareth. See Catechism of the Catholic Church, 616. http://www.vatican.va/archive/ccc_css/archive/catechism/p122a4p2.htm";
+    atonement.definition = @"The act of making restitution for inflicted harm; a theological interpretation of the death of Jesus of Nazrareth. \r\rSee Catechism of the Catholic Church, 616. http://www.vatican.va/archive/ccc_css/archive/catechism/p122a4p2.htm";
     
     [_dataDictionay[@"systematic"][@"A"] addObjectsFromArray:@[accidence, adoption, agape, aggiornomento, allegory, analogy, anointing, anthropocentrism, apologetics, apophatic, atonement]];
     
@@ -163,11 +163,11 @@
     
     Word *baptism = [[Word alloc] init];
     baptism.name = @"baptism";
-    baptism.definition = @"A ritual washing used for initiation into the Christian community. See Catechism of the Catholic Church, 1213. http://www.vatican.va/archive/ccc_css/archive/catechism/p2s2c1a1.htm";
+    baptism.definition = @"The sacrament of initiation into the Christian community in which faith is professed and sins are forgiven. \r\rSee Catechism of the Catholic Church, 1213. http://www.vatican.va/archive/ccc_css/archive/catechism/p2s2c1a1.htm";
     
     Word *blasphemy = [[Word alloc] init];
     blasphemy.name = @"blasphemy";
-    blasphemy.definition = @"A form of religious slander. See Catechism of the Catholic Church, 2148. http://www.vatican.va/archive/ccc_css/archive/catechism/p3s2c1a2.htm";
+    blasphemy.definition = @"A form of religious slander. \r\rSee Catechism of the Catholic Church, 2148. http://www.vatican.va/archive/ccc_css/archive/catechism/p3s2c1a2.htm";
     
     [_dataDictionay[@"systematic"][@"B"] addObjectsFromArray:@[baptism, blasphemy]];
     
@@ -175,31 +175,31 @@
     
     Word *canon = [[Word alloc] init];
     canon.name = @"canon";
-    canon.definition = @"Greek word for “measuring stick”; used metaphorically to refer to a collection of texts regarded as authoritative for faith and practice within a community. See Catechism of the Catholic Church, 101. http://www.vatican.va/archive/ccc_css/archive/catechism/p1s1c2a3.htm. Also see Pontifical Biblical Commission, “The Interpretation of the Bible in the Church, III.B”. http://catholic-resources.org/ChurchDocs/PBC_Interp-FullText.htm ";
+    canon.definition = @"The Greek word (κανον) meaning “measuring stick”; used metaphorically to refer to a standard or criterion regarded as authoritative within a community. The Bible is referred to as the canon of the Scriptures. \r\rSee Catechism of the Catholic Church, 101. http://www.vatican.va/archive/ccc_css/archive/catechism/p1s1c2a3.htm. Also see Pontifical Biblical Commission, “The Interpretation of the Bible in the Church, III.B”. http://catholic-resources.org/ChurchDocs/PBC_Interp-FullText.htm ";
     
     Word *Christ = [[Word alloc] init];
     Christ.name = @"Christ";
-    Christ.definition = @"The title given to Jesus of Nazareth by early Christians - from the Greek word χριστος (christos) - “annointed one”. See Catechism of the Catholic Church, 436. http://www.vatican.va/archive/ccc_css/archive/catechism/p1s2c2a2.htm";
+    Christ.definition = @"The title given to Jesus of Nazareth by early Christians - from the Greek word χριστος (christos) - “annointed one”. \r\rSee Catechism of the Catholic Church, 436. http://www.vatican.va/archive/ccc_css/archive/catechism/p1s2c2a2.htm";
     
     Word *confession = [[Word alloc] init];
     confession.name = @"Confession";
-    confession.definition = @"The sacrament of reconciliation... See Catechism of the Catholic Church, 1424. http://www.vatican.va/archive/ccc_css/archive/catechism/p2s2c2a4.htm";
+    confession.definition = @"The sacrament of reconciliation... \r\rSee Catechism of the Catholic Church, 1424. http://www.vatican.va/archive/ccc_css/archive/catechism/p2s2c2a4.htm";
     
     Word *confirmation = [[Word alloc] init];
     confirmation.name = @"Confirmation";
-    confirmation.definition = @"The sacrament of reception of the Holy Spirit. See Catechism of the Catholic Church, 1285. http://www.vatican.va/archive/ccc_css/archive/catechism/p2s2c1a2.htm";
+    confirmation.definition = @"The sacrament of reception of the Holy Spirit in which.... \r\rSee Catechism of the Catholic Church, 1285. http://www.vatican.va/archive/ccc_css/archive/catechism/p2s2c1a2.htm";
     
     Word *cosmological = [[Word alloc] init];
     cosmological.name = @"Cosmological Argument";
-    cosmological.definition = @"One of the classical arguments for the existence of God, based on the First Cause argument. See Stanford Encyclopedia of Philosophy, “Cosmological Argument”. http://plato.stanford.edu/entries/cosmological-argument/. Thomas Aquinas, Summa Theologica, ST, Ia, q. 2 a. 3 co. http://www.fordham.edu/halsall/source/aquinas3.asp";
+    cosmological.definition = @"One of the classical arguments for the existence of God, based on the First Cause argument. \r\rSee Stanford Encyclopedia of Philosophy, “Cosmological Argument”. http://plato.stanford.edu/entries/cosmological-argument/. \r\rThomas Aquinas, Summa Theologica, ST, Ia, q. 2 a. 3 co. http://www.fordham.edu/halsall/source/aquinas3.asp";
     
     Word *creationism = [[Word alloc] init];
     creationism.name = @"Creationism";
-    creationism.definition = @"The belief that God created the earth and human beings directly, with no biological predecessors as described in the book of Genesis.";
+    creationism.definition = @"The belief that God created the earth and human beings directly, with no biological predecessors as described in the book of Genesis.\r\rSee “evolution” in the Cultural cateogry";
     
     Word *creed = [[Word alloc] init];
     creed.name = @"creed";
-    creed.definition = @"from the Latin “credo” (I believe) - a statement of belief; used to refer to the historical creeds of the Church, most notably the Apostle's and Nicene creed. See Catechism of the Catholic Church, 187. http://www.vatican.va/archive/ccc_css/archive/catechism/p1s2.htm";
+    creed.definition = @"The Latin word (credo) meaning “I believe” - a statement of belief; used to refer to the historical creeds of the Church, most notably the Apostle's and Nicene creed. \r\rSee Catechism of the Catholic Church, 187. http://www.vatican.va/archive/ccc_css/archive/catechism/p1s2.htm";
     
     [_dataDictionay[@"systematic"][@"C"] addObjectsFromArray:@[canon, Christ, confession, confirmation, cosmological, creationism, creed]];
     
@@ -207,7 +207,7 @@
     
     Word *developmentDoc = [[Word alloc] init];
     developmentDoc.name = @"development of doctrine";
-    developmentDoc.definition = @"The idea that the teaching of the Church can develop over time; first found in the writings of Vincent of Lerins and later re-emphasized by Cardinal John Henry Newman. See John Henry Newman, “Essay on the Development of Doctrine”. http://www.newmanreader.org/Works/development/index.html.";
+    developmentDoc.definition = @"The idea that the teaching of the Church can develop over time; first found in the writings of Vincent of Lerins and later re-emphasized by Cardinal John Henry Newman. \r\rSee John Henry Newman, “Essay on the Development of Doctrine”. http://www.newmanreader.org/Works/development/index.html.";
     
     Word *devil = [[Word alloc] init];
     devil.name = @"devil";
@@ -224,15 +224,15 @@
     
     Word *eschatology = [[Word alloc] init];
     eschatology.name = @"eschatology";
-    eschatology.definition = @"from the Greek “eschaton” (last thing) - the belief that history will have an end brought about by Divine intervention. See Catechism of the Catholic Church, 673. http://www.vatican.va/archive/ccc_css/archive/catechism/p1s2c2a7.htm.";
+    eschatology.definition = @"from the Greek “eschaton” (last thing) - the belief that history will have an end brought about by Divine intervention. \r\rSee Catechism of the Catholic Church, 673. http://www.vatican.va/archive/ccc_css/archive/catechism/p1s2c2a7.htm.";
     
     Word *essence = [[Word alloc] init];
     essence.name = @"essence";
-    essence.definition = @"A property that makes an object what it is. See Standford Encyclopedia of Philosophy “Essential vs. Accidental Properties”. http://plato.stanford.edu/entries/essential-accidental/.";
+    essence.definition = @"A property that makes an object what it is. \r\rSee Standford Encyclopedia of Philosophy “Essential vs. Accidental Properties”. http://plato.stanford.edu/entries/essential-accidental/.";
     
     Word *eucharist = [[Word alloc] init];
     eucharist.name = @"Eucharist";
-    eucharist.definition = @"The sacred community meal of bread and wine in which Christians believe Jesus is present.";
+    eucharist.definition = @"The sacred community meal of bread and wine in which Christians believe Jesus is present. The belief that Jesus is present in the Eucharist predates any theory (e.g. transubstantiation) as to how he is present.\r\rSee Catechism of the Catholic Church, 1322. http://www.vatican.va/archive/ccc_css/archive/catechism/p2s2c1a3.htm";
     
     Word *exclusivism = [[Word alloc] init];
     exclusivism.name = @"exclusivism";
@@ -240,7 +240,7 @@
     
     Word *exNihilo = [[Word alloc] init];
     exNihilo.name = @"ex nihilo";
-    exNihilo.definition = @"from the Latin “out of nothing” - The belief that God created the world out of nothing. See Catechism of the Catholic Church, 296. http://www.vatican.va/archive/ccc_css/archive/catechism/p1s2c1p4.htm.";
+    exNihilo.definition = @"from the Latin “out of nothing” - The belief that God created the world out of nothing. \r\rSee Catechism of the Catholic Church, 296. http://www.vatican.va/archive/ccc_css/archive/catechism/p1s2c1p4.htm.";
     
     Word *exOpere = [[Word alloc] init];
     exOpere.name = @"ex opere operato";
@@ -261,11 +261,11 @@
     
     Word *fallibilism = [[Word alloc] init];
     fallibilism.name = @"fallibilism";
-    fallibilism.definition = @"The idea that humans can have inaccurate, yet justified beliefs about the world. See Internet Ecyclopedia of Philosophy,“Fallibilism. http://www.iep.utm.edu/fallibil/";
+    fallibilism.definition = @"The idea that humans can have inaccurate, yet justified beliefs about the world. \r\rSee Internet Ecyclopedia of Philosophy,“Fallibilism. http://www.iep.utm.edu/fallibil/";
     
     Word *foreknowledge = [[Word alloc] init];
     foreknowledge.name = @"foreknowledge";
-    foreknowledge.definition = @"The belief that God knows future events; this idea features prominently in post-Exilic Hebrew literature and in the New Testament; associated philosophical problems include constraints on human freedom and the problem of evil. See Catechism of the Catholic Church, 600. http://www.vatican.va/archive/ccc_css/archive/catechism/p122a4p2.htm. Also see Stanford Encylopedia of Philosophy, “Foreknowledge and Free Will”. http://plato.stanford.edu/entries/free-will-foreknowledge/";
+    foreknowledge.definition = @"The belief that God knows future events; this idea features prominently in post-Exilic Hebrew literature and in the New Testament; associated philosophical problems include constraints on human freedom and the problem of evil. \r\rSee Catechism of the Catholic Church, 600. http://www.vatican.va/archive/ccc_css/archive/catechism/p122a4p2.htm. \r\rAlso see Stanford Encylopedia of Philosophy, “Foreknowledge and Free Will”. http://plato.stanford.edu/entries/free-will-foreknowledge/";
     
     Word *freewill = [[Word alloc] init];
     freewill.name = @"free will";
@@ -281,7 +281,7 @@
     
     Word *grace = [[Word alloc] init];
     grace.name = @"grace";
-    grace.definition = @"unmerited favor... See Catechism of the Catholic Church, 1996. http://www.vatican.va/archive/ccc_css/archive/catechism/p3s1c3a2.htm";
+    grace.definition = @"unmerited favor... \r\rSee Catechism of the Catholic Church, 1996. http://www.vatican.va/archive/ccc_css/archive/catechism/p3s1c3a2.htm";
     
     [_dataDictionay [@"systematic"][@"G"] addObjectsFromArray:@[gospel, grace]];
     
@@ -351,16 +351,12 @@
     
     //L
     
-    Word *lawNC = [[Word alloc] init];
-    lawNC.name = @"Law of Non-Contradiction";
-    lawNC.definition = @"The logical axiom that states that A and ~A cannot both be true at the same time in the same way.";
-    
     Word *liberation = [[Word alloc]init];
     liberation.name = @"liberation theology";
     liberation.definition = @"The theological movement associated with the idea that the gospel is only authentic in the face of radical poverty.";
 
     
-    [_dataDictionay [@"systematic"][@"L"] addObjectsFromArray:@[lawNC, liberation]];
+    [_dataDictionay [@"systematic"][@"L"] addObjectsFromArray:@[liberation]];
     
     //M
     
@@ -464,11 +460,15 @@
     redemption.name = @"redemption";
     redemption.definition = @"The process of exchanging the economic value of an object.";
     
+    Word *ressourcement = [[Word alloc] init];
+    ressourcement.name = @"ressourcement";
+    ressourcement.definition = @"A French term meaning “to return to the sources”; used by some theologians as the preferred interpretation of the purpose of Vatican II...\r\rSee 'aggiornomento'.";
+    
     Word *resurrection = [[Word alloc] init];
     resurrection.name = @"resurrection";
     resurrection.definition = @"The belief which developed in post-Exilic Judaism, that God would raise the righteous to eternal life; the belief of the early Christians that Jesus of Nazareth was raised from the dead.";
     
-     [_dataDictionay[@"systematic"][@"R"] addObjectsFromArray:@[redemption, resurrection]];
+     [_dataDictionay[@"systematic"][@"R"] addObjectsFromArray:@[redemption, ressourcement, resurrection]];
     
     //S
     
@@ -729,7 +729,7 @@
     
     Word *abortion = [[Word alloc] init];
     abortion.name = @"abortion";
-    abortion.definition = @"The intentional killing of an unborn human being, who is regarded as sacred from the moment of conception. The death of an unborn as a consequence of other procedures good in themselves is not considered an abortion per se but rather a consequence of the principle of double-effect (See “Principle of Double-Effect”). The Catholic tradition is consistent in its classification of abortion as a grave sin, with the Code of Canon Law declaring those who procure abortions excommunicate themselves from the Church (CIC, 1323-1324). See Catechism of the Catholic Church, 2270. See “Roe vs. Wade” in the Cultural category.";
+    abortion.definition = @"The intentional killing of an unborn human being, who is regarded as sacred from the moment of conception. The death of an unborn as a consequence of other procedures good in themselves is not considered an abortion per se but rather a consequence of the principle of double-effect (See “Principle of Double-Effect”). The Catholic tradition is consistent in its classification of abortion as a grave sin, with the Code of Canon Law declaring those who procure abortions excommunicate themselves from the Church (CIC, 1323-1324). \r\rSee Catechism of the Catholic Church, 2270. See “Roe vs. Wade” in the Cultural category.";
     
     Word *abstinence = [[Word alloc] init];
     abstinence.name = @"abstinence";
@@ -823,7 +823,7 @@
     
     Word *humanRights = [[Word alloc] init];
     humanRights.name = @"human rights";
-    humanRights.definition = @"rights due to a person by virtue of his or her being a human being; thirty human rights are enumerated in the United Nations Universal Declaration of Human Rights. See Compendium of the Social Doctrine of the Church, 152. http://www.vatican.va/roman_curia/pontifical_councils/justpeace/documents/rc_pc_justpeace_doc_20060526_compendio-dott-soc_en.html";
+    humanRights.definition = @"rights due to a person by virtue of his or her being a human being; thirty human rights are enumerated in the United Nations Universal Declaration of Human Rights. \r\rSee Compendium of the Social Doctrine of the Church, 152. http://www.vatican.va/roman_curia/pontifical_councils/justpeace/documents/rc_pc_justpeace_doc_20060526_compendio-dott-soc_en.html";
     
     [_dataDictionay[@"moral"][@"H"] addObjectsFromArray:@[humanRights]];
 
@@ -1340,7 +1340,7 @@
     
     Word *priestly = [[Word alloc] init];
     priestly.name = @"Priestly Source";
-    priestly.definition = @"The “P” Source; compirising various texts throughtout the Torah, but especially Leviticus. The Priestly material can be dated to around the time of Hezekiah; shows a major concern for order, numbers, and categories of holiness and cleanliness; the Priestly material is centered on the sacrificial cult in Jerusalem and regards all other sacrifices as improper or “profane”; this source, along with E and D, does not accept the revelation of the name YHWH before the Mosaic epiphany in Exodus 3. The Hebrew of the Priestly author reflects a later stage in its development but earlier than that of the Deuteronomic author. Notably, the P source never uses the word “compassionate” to describe God and forgiveness requires atonement (e.g. the Day of Atonement is a ritual exclusive to the Priestly author). For more information see http://en.wikipedia.org/wiki/Priestly_source";
+    priestly.definition = @"The “P” Source; compirising various texts throughtout the Torah, but especially Leviticus. The Priestly material can be dated to around the time of Hezekiah; shows a major concern for order, numbers, and categories of holiness and cleanliness; the Priestly material is centered on the sacrificial cult in Jerusalem and regards all other sacrifices as improper or “profane”; this source, along with E and D, does not accept the revelation of the name YHWH before the Mosaic epiphany in Exodus 3. The Hebrew of the Priestly author reflects a later stage in its development but earlier than that of the Deuteronomic author. Notably, the P source never uses the word “compassionate” to describe God and forgiveness requires atonement (e.g. the Day of Atonement is a ritual exclusive to the Priestly author). \r\rSee http://en.wikipedia.org/wiki/Priestly_source";
     
     Word *primeval = [[Word alloc] init];
     primeval.name = @"Primeval History";
@@ -1504,11 +1504,11 @@
     
     Word *aposteriori = [[Word alloc] init];
     aposteriori.name = @"a posteriori";
-    aposteriori.definition = @"A philosophical category which follows human experience. The statement “Water boils at 0 degrees Celsius” is an a posteriori truth. See Stanford Encyclopedia of Philosophy, “A Priori Justification and Knowledge”. http://plato.stanford.edu/entries/apriori/.";
+    aposteriori.definition = @"A philosophical category which follows human experience. The statement “Water boils at 0 degrees Celsius” is an a posteriori truth. \r\rSee Stanford Encyclopedia of Philosophy, “A Priori Justification and Knowledge”. http://plato.stanford.edu/entries/apriori/.";
     
     Word *apriori = [[Word alloc] init];
     apriori.name = @"a priori";
-    apriori.definition = @"A philosophical category which precedes human experience. The statement “All bachelors are unmarried' is an a priori truth. See Stanford Encyclopedia of Philosophy, “A Priori Justification and Knowledge”. http://plato.stanford.edu/entries/apriori/.";
+    apriori.definition = @"A philosophical category which precedes human experience. The statement “All bachelors are unmarried' is an a priori truth. \r\rSee Stanford Encyclopedia of Philosophy, “A Priori Justification and Knowledge”. http://plato.stanford.edu/entries/apriori/.";
     
     Word *action = [[Word alloc]init];
     action.name = @"action";
@@ -1516,7 +1516,7 @@
     
     Word *agnostic = [[Word alloc] init];
     agnostic.name = @"agnostic";
-    agnostic.definition = @"From the Greek word for “not knowing”, a term used to describe uncertainty about the question of God's existence. See Catechism of the Catholic Church, 2127. http://www.vatican.va/archive/ccc_css/archive/catechism/p3s2c1a1.htm.";
+    agnostic.definition = @"From the Greek word for “not knowing”, a term used to describe uncertainty about the question of God's existence. \r\rSee Catechism of the Catholic Church, 2127. http://www.vatican.va/archive/ccc_css/archive/catechism/p3s2c1a1.htm.";
     
     Word *analysis = [[Word alloc] init];
     analysis.name = @"analysis";
@@ -1532,7 +1532,7 @@
     
     Word *argument = [[Word alloc] init];
     argument.name = @"argument";
-    argument.definition = @"A series of statements that establishes a truth claim; made of two parts - premise and conclusion; the from can be deductive or inductive; deductive arguments can be valid or invalid. See Internet Encylopedia of Philosophy, “Argument”. http://www.iep.utm.edu/argument/";
+    argument.definition = @"A series of statements that establishes a truth claim; made of two parts - premise and conclusion; the from can be deductive or inductive; deductive arguments can be valid or invalid. \r\rSee Internet Encylopedia of Philosophy, “Argument”. http://www.iep.utm.edu/argument/";
     
     Word *atheism = [[Word alloc] init];
     atheism.name = @"atheism";
@@ -1573,7 +1573,7 @@
     
     Word *compatibilism = [[Word alloc] init];
     compatibilism.name = @"compatiblism";
-    compatibilism.definition = @"The belief that human freedom is compatible with deterministic elements of human experience. See Standford Encyclopedia of Philosophy, “Compatibilism”. http://plato.stanford.edu/entries/compatibilism/.";
+    compatibilism.definition = @"The belief that human freedom is compatible with deterministic elements of human experience. \r\rSee Standford Encyclopedia of Philosophy, “Compatibilism”. http://plato.stanford.edu/entries/compatibilism/.";
     
 
     
@@ -1587,7 +1587,7 @@
     
     Word *determinism = [[Word alloc] init];
     determinism.name = @"determinism";
-    determinism.definition = @"The belief that all events, including human actions, are determined by physical phenomena, negating the concept of free-will. See Stanford Encyclopedia of Philosophy, “Causal Determinism”. http://plato.stanford.edu/entries/determinism-causal/.";
+    determinism.definition = @"The belief that all events, including human actions, are determined by physical phenomena, negating the concept of free-will. \r\rSee Stanford Encyclopedia of Philosophy, “Causal Determinism”. http://plato.stanford.edu/entries/determinism-causal/.";
     
     Word *development = [[Word alloc]init];
     development.name = @"development";
@@ -1595,7 +1595,7 @@
     
     Word *dualism = [[Word alloc] init];
     dualism.name = @"dualism";
-    dualism.definition = @"The belief that humans are composed of two substances, body and soul/mind; also known as substance dualism; found in the Platonic influence on Christianity and later in the writings of Descartes. Associated problems include the problem of causation and the seeming violation of the scientific law of the conservation of energy. See Stanford Encyclopedia of Philosophy “Dualism”. http://plato.stanford.edu/entries/dualism/.";
+    dualism.definition = @"The belief that humans are composed of two substances, body and soul/mind; also known as substance dualism; found in the Platonic influence on Christianity and later in the writings of Descartes. Associated problems include the problem of causation and the seeming violation of the scientific law of the conservation of energy. \r\rSee Stanford Encyclopedia of Philosophy “Dualism”. http://plato.stanford.edu/entries/dualism/.";
     
     [_dataDictionay[@"social"][@"D"] addObjectsFromArray:@[deism, determinism, development, dualism]];
     
@@ -1607,7 +1607,7 @@
     
     Word *epistemology = [[Word alloc] init];
     epistemology.name = @"epistemology";
-    epistemology.definition = @"The study of the origin, nature, and limits of human knowledge; one of the three traditional subjects of Western philosophy. See Stanford Encyclopedia of Philosophy “Epistemology”. http://plato.stanford.edu/entries/epistemology/";
+    epistemology.definition = @"The study of the origin, nature, and limits of human knowledge; one of the three traditional subjects of Western philosophy. \r\rSee Stanford Encyclopedia of Philosophy “Epistemology”. http://plato.stanford.edu/entries/epistemology/";
     
     Word *existential = [[Word alloc] init];
     existential.name = @"existentialism";
@@ -1638,7 +1638,7 @@
     
     Word *humanRights = [[Word alloc] init];
     humanRights.name = @"human rights";
-    humanRights.definition = @"rights due to a person by virtue of his or her being a human being; thirty human rights are enumerated in the United Nations Universal Declaration of Human Rights. See Compendium of the Social Doctrine of the Church, 152. http://www.vatican.va/roman_curia/pontifical_councils/justpeace/documents/rc_pc_justpeace_doc_20060526_compendio-dott-soc_en.html";
+    humanRights.definition = @"rights due to a person by virtue of his or her being a human being; thirty human rights are enumerated in the United Nations Universal Declaration of Human Rights. \r\rSee Compendium of the Social Doctrine of the Church, 152. http://www.vatican.va/roman_curia/pontifical_councils/justpeace/documents/rc_pc_justpeace_doc_20060526_compendio-dott-soc_en.html";
     
     [_dataDictionay[@"social"][@"H"] addObjectsFromArray:@[humanRights]];
     
@@ -1651,21 +1651,25 @@
     
     //L
     
+    Word *lawNC = [[Word alloc] init];
+    lawNC.name = @"Law of Non-Contradiction";
+    lawNC.definition = @"The logical axiom that states that A and ~A cannot both be true at the same time in the same way.";
+    
     Word *living = [[Word alloc] init];
     living.name = @"living wage";
     living.definition = @"A form of income that is enables a worker to support his or her family. It should be noted that at the time Pope Leo XIII taught this in Rerum Novarum, women did not work.";
     
     Word *logic = [[Word alloc] init];
     logic.name = @"logic";
-    logic.definition = @"The science of reasoning. See “The Logic Web”, University of Oxford. http://logic.philosophy.ox.ac.uk/main.htm. Also see Wikipedia, “Logic”. http://en.wikipedia.org/wiki/Logic.";
+    logic.definition = @"The science of reasoning. \r\rSee “The Logic Web”, University of Oxford. http://logic.philosophy.ox.ac.uk/main.htm. Also see Wikipedia, “Logic”. http://en.wikipedia.org/wiki/Logic.";
     
-     [_dataDictionay[@"social"][@"L"] addObjectsFromArray:@[living, logic]];
+     [_dataDictionay[@"social"][@"L"] addObjectsFromArray:@[lawNC, living, logic]];
     
     //M
     
     Word *metaphysics = [[Word alloc] init];
     metaphysics.name = @"metaphysics";
-    metaphysics.definition = @"The study of the fundamental nature of reality; the study of ontology; a highly contested area of inquiry that has including a variation of topics throughout history since the time of Aristotle. See Routledge Encyclopedia of Philosophy, “Metaphysics”. http://www.rep.routledge.com/article/N095";
+    metaphysics.definition = @"The study of the fundamental nature of reality; the study of ontology; a highly contested area of inquiry that has including a variation of topics throughout history since the time of Aristotle. \r\rSee Routledge Encyclopedia of Philosophy, “Metaphysics”. http://www.rep.routledge.com/article/N095";
     
     [_dataDictionay[@"social"][@"M"] addObjectsFromArray:@[metaphysics]];
 
@@ -1748,7 +1752,7 @@
     
     Word *universal = [[Word alloc] init];
     universal.name = @"Universal Destination of Goods";
-    universal.definition = @"The idea that the goods of the earth are intended to be justly distributed among its inhabitants according to the will of the Creator. See The Compendium of the Social Doctrine of the Church, 171";
+    universal.definition = @"The idea that the goods of the earth are intended to be justly distributed among its inhabitants according to the will of the Creator. \r\rSee The Compendium of the Social Doctrine of the Church, 171";
     
     //V
     

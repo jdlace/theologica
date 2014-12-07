@@ -91,7 +91,6 @@
     cell.textLabel.text = word.name;
     
     cell.textLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
-    
     //need code for setting initial font on table view
     
     //Original Code
