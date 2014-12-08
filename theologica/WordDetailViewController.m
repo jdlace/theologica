@@ -54,6 +54,7 @@
 }
 
 
+//method for Action button - allows sharing
 
 - (IBAction)share:(UIBarButtonItem *)sender
 {

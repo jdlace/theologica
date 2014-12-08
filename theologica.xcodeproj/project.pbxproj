@@ -42,6 +42,7 @@
 		695757D61A2403BD0091CE12 /* monk@3x copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 695757D51A2403BD0091CE12 /* monk@3x copy.png */; };
 		695757D81A2403EB0091CE12 /* color-rgb-7@3x copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 695757D71A2403EB0091CE12 /* color-rgb-7@3x copy.png */; };
 		695757DA1A240D010091CE12 /* angel@3x copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 695757D91A240D010091CE12 /* angel@3x copy.png */; };
+		697700461A349F2A0038DD26 /* SearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 697700451A349F2A0038DD26 /* SearchBar.m */; };
 		69989B0319FF2FC70009ABAE /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69989AC519FF2D5D0009ABAE /* NotificationCenter.framework */; };
 		69989B0919FF2FC70009ABAE /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69989B0819FF2FC70009ABAE /* TodayViewController.m */; };
 		69989B0B19FF2FC70009ABAE /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69989B0A19FF2FC70009ABAE /* MainInterface.storyboard */; };
@@ -131,6 +132,8 @@
 		695757D51A2403BD0091CE12 /* monk@3x copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "monk@3x copy.png"; path = "../../monk@3x copy.png"; sourceTree = "<group>"; };
 		695757D71A2403EB0091CE12 /* color-rgb-7@3x copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "color-rgb-7@3x copy.png"; path = "../../color-rgb-7@3x copy.png"; sourceTree = "<group>"; };
 		695757D91A240D010091CE12 /* angel@3x copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "angel@3x copy.png"; path = "../../angel@3x copy.png"; sourceTree = "<group>"; };
+		697700441A349F2A0038DD26 /* SearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchBar.h; sourceTree = "<group>"; };
+		697700451A349F2A0038DD26 /* SearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchBar.m; sourceTree = "<group>"; };
 		69989AC519FF2D5D0009ABAE /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		69989B0219FF2FC60009ABAE /* Theologica.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Theologica.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		69989B0619FF2FC70009ABAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -196,6 +199,8 @@
 		692ED23E1796D552008554F9 = {
 			isa = PBXGroup;
 			children = (
+				697700441A349F2A0038DD26 /* SearchBar.h */,
+				697700451A349F2A0038DD26 /* SearchBar.m */,
 				6907A2081A14525300EA7CF4 /* View */,
 				692ED2501796D552008554F9 /* Controllers */,
 				692ED2511796D552008554F9 /* Supporting Files */,
@@ -501,6 +506,7 @@
 				692ED2B21796F466008554F9 /* SystematicTableViewController.m in Sources */,
 				692ED2B51796F48B008554F9 /* WordDetailViewController.m in Sources */,
 				FA8450591A1285CE007839D8 /* infoButtonViewController.m in Sources */,
+				697700461A349F2A0038DD26 /* SearchBar.m in Sources */,
 				692ED2BB1796F4D1008554F9 /* EcclesialTableViewController.m in Sources */,
 				692ED2C41796F531008554F9 /* MoralTableViewController.m in Sources */,
 				FA84505C1A129CA0007839D8 /* bookmarkListTableViewController.m in Sources */,

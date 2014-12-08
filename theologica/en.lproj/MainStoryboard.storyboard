@@ -35,13 +35,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                        <searchBar key="tableHeaderView" contentMode="redraw" id="n92-qG-Wbt">
+                        <searchBar key="tableHeaderView" contentMode="redraw" id="NJh-kj-heU">
                             <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <textInputTraits key="textInputTraits"/>
                             <connections>
-                                <outlet property="delegate" destination="oZ5-nE-rQe" id="cfF-Tu-CAF"/>
+                                <outlet property="delegate" destination="oZ5-nE-rQe" id="SqE-cV-8DL"/>
                             </connections>
                         </searchBar>
                         <prototypes>
@@ -75,7 +75,7 @@
                                 <segue destination="AwM-2a-5bG" kind="modal" id="yWy-9g-A5c"/>
                             </connections>
                         </barButtonItem>
-                        <button key="titleView" opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="4M3-HD-6Fw">
+                        <button key="titleView" opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="4M3-HD-6Fw">
                             <rect key="frame" x="76" y="5" width="168" height="35"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <state key="normal">
@@ -99,17 +99,17 @@
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
                     <connections>
-                        <outlet property="searchDisplayController" destination="VyI-Hi-5c7" id="ef7-LS-zu2"/>
+                        <outlet property="searchDisplayController" destination="KeB-ed-Ogw" id="Fxr-4H-coe"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pZt-tF-tCP" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <searchDisplayController id="VyI-Hi-5c7">
+                <searchDisplayController id="KeB-ed-Ogw">
                     <connections>
-                        <outlet property="delegate" destination="oZ5-nE-rQe" id="V4D-dE-W39"/>
-                        <outlet property="searchBar" destination="n92-qG-Wbt" id="Ilb-WG-V2c"/>
-                        <outlet property="searchContentsController" destination="oZ5-nE-rQe" id="Xhi-0E-QJ3"/>
-                        <outlet property="searchResultsDataSource" destination="oZ5-nE-rQe" id="oGR-0F-h2x"/>
-                        <outlet property="searchResultsDelegate" destination="oZ5-nE-rQe" id="OWD-SD-MUe"/>
+                        <outlet property="delegate" destination="oZ5-nE-rQe" id="4GU-L9-FeT"/>
+                        <outlet property="searchBar" destination="NJh-kj-heU" id="gXT-Nc-ZOl"/>
+                        <outlet property="searchContentsController" destination="oZ5-nE-rQe" id="J1p-T8-VFY"/>
+                        <outlet property="searchResultsDataSource" destination="oZ5-nE-rQe" id="mBj-qM-Uu2"/>
+                        <outlet property="searchResultsDelegate" destination="oZ5-nE-rQe" id="dqL-8e-dVc"/>
                     </connections>
                 </searchDisplayController>
             </objects>
@@ -138,7 +138,7 @@
                                 <rect key="frame" x="16" y="102" width="288" height="417"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Systematic theology examines the rational coherence of Christianity as a whole and in relation to other disciplines, especially philosophy and science. Its first major exemplar was Origen of Alexandria (185-254 CE) and includes subsequent major thinkers in the history of the Church such as Augustine of Hippo, Thomas Aquinas, and Karl Rahner. Of all the various sub-disciplines, Systematics is the most comprehensive and is the starting point of all others. Terms in this category are those that are essential to understanding basic concepts and practices within the Christian tradition. Students who are taking theology for the first time will generally take a course that is closely related to Systematics.                                                                                                          
+                                <string key="text">Systematic theology examines the rational coherence of Christianity as a whole and in relation to other disciplines, especially philosophy and science. Of all the various sub-disciplines, Systematics is the most comprehensive and is the starting point of all others. Terms in this category are those that are essential to understanding basic concepts and practices within the Christian tradition. Students who are taking theology for the first time will generally take a course that is closely related to Systematics.                                                                                                          
 
 	“Theologica” is a theological dictionary designed to provide a simple, easy-to-use, yet comprehensive reference to the Catholic theological tradition. Over 500 of the most commonly used terms across the various sub-disciplines of theology and points of cultural intersection are grouped into 5 categories: Systematic, Ecclesial, Moral, Biblical, and Cultural. Each term can be bookmarked for quick reference and shared via text, email, and social media. Definitions include links to: 
 
@@ -265,17 +265,8 @@ In addition, definitions include links to trusted reference works in the larger 
                         <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                        <searchBar key="tableHeaderView" contentMode="redraw" id="l8I-G6-K6p">
-                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            <textInputTraits key="textInputTraits"/>
-                            <connections>
-                                <outlet property="delegate" destination="RG8-AO-Dk8" id="oQD-zU-hTt"/>
-                            </connections>
-                        </searchBar>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ecclesialCell" textLabel="mVy-iY-zrQ" style="IBUITableViewCellStyleDefault" id="VBJ-Ey-oiE">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ecclesialCell" textLabel="mVy-iY-zrQ" style="IBUITableViewCellStyleDefault" id="VBJ-Ey-oiE">
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="VBJ-Ey-oiE" id="o21-h7-i2X">
@@ -323,20 +314,8 @@ In addition, definitions include links to trusted reference works in the larger 
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
-                    <connections>
-                        <outlet property="searchDisplayController" destination="g3J-kk-Thw" id="Yl0-Xc-Aic"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q2r-xJ-34s" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <searchDisplayController id="g3J-kk-Thw">
-                    <connections>
-                        <outlet property="delegate" destination="RG8-AO-Dk8" id="e5G-0O-BnA"/>
-                        <outlet property="searchBar" destination="l8I-G6-K6p" id="RcF-NZ-3GG"/>
-                        <outlet property="searchContentsController" destination="RG8-AO-Dk8" id="OHq-9U-nvM"/>
-                        <outlet property="searchResultsDataSource" destination="RG8-AO-Dk8" id="QUk-ZR-UB7"/>
-                        <outlet property="searchResultsDelegate" destination="RG8-AO-Dk8" id="SiP-Wv-jNN"/>
-                    </connections>
-                </searchDisplayController>
             </objects>
             <point key="canvasLocation" x="221" y="-44"/>
         </scene>
@@ -348,17 +327,8 @@ In addition, definitions include links to trusted reference works in the larger 
                         <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                        <searchBar key="tableHeaderView" contentMode="redraw" text="" id="BxB-vC-hwr">
-                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            <textInputTraits key="textInputTraits"/>
-                            <connections>
-                                <outlet property="delegate" destination="yoe-Rc-HFT" id="5Sn-st-t6L"/>
-                            </connections>
-                        </searchBar>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="moralCell" textLabel="sAB-TH-8gb" style="IBUITableViewCellStyleDefault" id="wbo-AU-EgM">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="moralCell" textLabel="sAB-TH-8gb" style="IBUITableViewCellStyleDefault" id="wbo-AU-EgM">
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wbo-AU-EgM" id="bTc-cV-S1c">
@@ -406,21 +376,8 @@ In addition, definitions include links to trusted reference works in the larger 
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
-                    <connections>
-                        <outlet property="searchDisplayController" destination="2Kh-4o-phd" id="uUK-R7-IxD"/>
-                        <segue destination="sm5-Dc-hQE" kind="modal" id="RhF-78-Pwg"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Np6-t3-sxb" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <searchDisplayController id="2Kh-4o-phd">
-                    <connections>
-                        <outlet property="delegate" destination="yoe-Rc-HFT" id="dXj-HN-8Uc"/>
-                        <outlet property="searchBar" destination="BxB-vC-hwr" id="qCK-Df-48s"/>
-                        <outlet property="searchContentsController" destination="yoe-Rc-HFT" id="P69-sk-7lj"/>
-                        <outlet property="searchResultsDataSource" destination="yoe-Rc-HFT" id="2z7-IB-9tT"/>
-                        <outlet property="searchResultsDelegate" destination="yoe-Rc-HFT" id="1ze-cq-8dK"/>
-                    </connections>
-                </searchDisplayController>
             </objects>
             <point key="canvasLocation" x="221" y="681"/>
         </scene>
@@ -432,17 +389,8 @@ In addition, definitions include links to trusted reference works in the larger 
                         <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                        <searchBar key="tableHeaderView" contentMode="redraw" text="" id="j53-vI-6Q3">
-                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            <textInputTraits key="textInputTraits"/>
-                            <connections>
-                                <outlet property="delegate" destination="A4p-fK-Loh" id="fQe-ko-oRj"/>
-                            </connections>
-                        </searchBar>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="biblicalCell" textLabel="AfT-i2-N6W" style="IBUITableViewCellStyleDefault" id="Js1-0E-gKV">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="biblicalCell" textLabel="AfT-i2-N6W" style="IBUITableViewCellStyleDefault" id="Js1-0E-gKV">
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Js1-0E-gKV" id="GSt-qL-iQo">
@@ -490,20 +438,8 @@ In addition, definitions include links to trusted reference works in the larger 
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
-                    <connections>
-                        <outlet property="searchDisplayController" destination="sKf-io-ozX" id="Lgp-bZ-b6O"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4xV-mc-gTx" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <searchDisplayController id="sKf-io-ozX">
-                    <connections>
-                        <outlet property="delegate" destination="A4p-fK-Loh" id="cOV-8N-t8g"/>
-                        <outlet property="searchBar" destination="j53-vI-6Q3" id="Rkb-yY-eU2"/>
-                        <outlet property="searchContentsController" destination="A4p-fK-Loh" id="135-Dm-SXG"/>
-                        <outlet property="searchResultsDataSource" destination="A4p-fK-Loh" id="2z2-bU-6Zi"/>
-                        <outlet property="searchResultsDelegate" destination="A4p-fK-Loh" id="vv8-EF-cn6"/>
-                    </connections>
-                </searchDisplayController>
             </objects>
             <point key="canvasLocation" x="213" y="1331"/>
         </scene>
@@ -516,27 +452,17 @@ In addition, definitions include links to trusted reference works in the larger 
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <color key="tintColor" red="0.0" green="0.47789520273269498" blue="0.96135085978835977" alpha="1" colorSpace="calibratedRGB"/>
-                        <searchBar key="tableHeaderView" contentMode="redraw" text="" id="96u-JD-T9p">
-                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            <textInputTraits key="textInputTraits"/>
-                            <connections>
-                                <outlet property="delegate" destination="W0x-bV-aZW" id="ZXX-8d-Byv"/>
-                            </connections>
-                        </searchBar>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="socialCell" textLabel="Ygd-lF-LdA" style="IBUITableViewCellStyleDefault" id="02n-jM-JG6">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="socialCell" textLabel="76M-oM-KT6" style="IBUITableViewCellStyleDefault" id="02n-jM-JG6">
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="02n-jM-JG6" id="0Rd-fL-8Sb">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ygd-lF-LdA">
-                                            <rect key="frame" x="15" y="0.0" width="290" height="43"/>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="76M-oM-KT6">
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -574,20 +500,8 @@ In addition, definitions include links to trusted reference works in the larger 
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
-                    <connections>
-                        <outlet property="searchDisplayController" destination="IU5-ZC-lsf" id="lTt-b3-YaK"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="43L-U0-jQ4" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <searchDisplayController id="IU5-ZC-lsf">
-                    <connections>
-                        <outlet property="delegate" destination="W0x-bV-aZW" id="1Lj-DS-sug"/>
-                        <outlet property="searchBar" destination="96u-JD-T9p" id="xNL-ev-zpg"/>
-                        <outlet property="searchContentsController" destination="W0x-bV-aZW" id="PIU-2B-rl6"/>
-                        <outlet property="searchResultsDataSource" destination="W0x-bV-aZW" id="tQb-eU-R3n"/>
-                        <outlet property="searchResultsDelegate" destination="W0x-bV-aZW" id="hxO-bK-dho"/>
-                    </connections>
-                </searchDisplayController>
             </objects>
             <point key="canvasLocation" x="241" y="2037"/>
         </scene>
@@ -740,7 +654,7 @@ In addition, definitions include links to trusted reference works in the larger 
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="zED-tK-w8O"/>
-        <segue reference="D2d-iF-b5c"/>
+        <segue reference="nFZ-di-1bf"/>
+        <segue reference="ajf-fE-bhB"/>
     </inferredMetricsTieBreakers>
 </document>

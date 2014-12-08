@@ -15,6 +15,8 @@
 
 @property (nonatomic, readonly) NSString *category;
 @property (nonatomic, strong) WordDataSource *wordDataSource;
+@property (nonatomic, strong) NSArray *searchResults;
+
 
 @end
 
@@ -24,6 +26,8 @@
 {
     return @"systematic";
 }
+
+//Getter method for wordDataSource object
 
 - (WordDataSource *)wordDataSource
 {
@@ -48,13 +52,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    //implemented as part of Dynamic Type
         
     [[NSNotificationCenter defaultCenter]
      addObserver:self
      selector:@selector(preferredContentSizeChanged:)
      name:UIContentSizeCategoryDidChangeNotification
      object:nil];
-
+    
+    self.searchResults = [[NSArray alloc] init];
 }
 
 - (void)preferredContentSizeChanged:(NSNotification *)notification
@@ -68,6 +75,28 @@
     // Dispose of any resources that can be recreated.
 }
 
+//search methods from https://www.youtube.com/watch?v=TijuWkbxP1o
+
+
+- (void)filterContentForSearchText:(NSString*)searchText scope:(NSString*)scope
+{
+    NSPredicate *resultPredicate = [NSPredicate predicateWithFormat:@"SELF contains[c] %@", searchText];
+    
+    _searchResults = [_systematicTerms filteredArrayUsingPredicate:resultPredicate];
+}
+
+-(BOOL)searchDisplayController:(UISearchDisplayController *)controller shouldReloadTableForSearchString:(NSString *)searchString
+{
+    [self filterContentForSearchText:searchString
+                               scope:[[self.searchDisplayController.searchBar scopeButtonTitles]
+                                      objectAtIndex:[self.searchDisplayController.searchBar
+                                                     selectedScopeButtonIndex]]];
+    
+    return YES;
+}
+
+//
+
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -78,23 +107,47 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return [self.wordDataSource numberOfRowsInSection:section forCategory:self.category];
+    //return [self.wordDataSource numberOfRowsInSection:section forCategory:self.category];
+    
+    if (tableView == self.searchDisplayController.searchResultsTableView)
+        {
+            return [self.searchResults count];
+        }
+    else
+        {
+        return [self.wordDataSource numberOfRowsInSection:section forCategory:self.category];;
+        }
+    
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"systematicCell";
+    
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     // Configure the cell...
-    Word *word = [self.wordDataSource wordForRowAtIndexPath:indexPath forCategory:self.category];
-    cell.textLabel.text = word.name;
+    //Word *word = [self.wordDataSource wordForRowAtIndexPath:indexPath forCategory:self.category];
+    //cell.textLabel.text = word.name;
     
-    cell.textLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
+    //cell.textLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
     //need code for setting initial font on table view
+   
+    //from https://www.youtube.com/watch?v=TijuWkbxP1o
     
-    //Original Code
-    //cell.textLabel.text = [_systematicTerms objectAtIndex:indexPath.row];
+    if (tableView == self.searchDisplayController.searchResultsTableView)
+        {
+        cell.textLabel.text = [self.searchResults objectAtIndex:indexPath.row];
+        }
+    else
+        {
+        Word *word = [self.wordDataSource wordForRowAtIndexPath:indexPath forCategory:self.category];
+        cell.textLabel.text = word.name;
+        
+        cell.textLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
+        }
+    
+    //
     
     return cell;
 }
@@ -200,6 +253,8 @@
     
 }
 
-- (IBAction)infoButton:(UIBarButtonItem *)sender {
+- (IBAction)infoButton:(UIBarButtonItem *)sender
+{
+    
 }
 @end

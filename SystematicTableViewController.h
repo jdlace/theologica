@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WordDataSource.h"
 
-@interface SystematicTableViewController : UITableViewController
+@interface SystematicTableViewController : UITableViewController <UISearchDisplayDelegate>
 
 @property (strong, nonatomic) NSArray *systematicTerms;
-@property (strong, nonatomic) NSMutableArray *systematicDetails; 
+@property (strong, nonatomic) NSMutableArray *systematicDetails;
 
 @end
