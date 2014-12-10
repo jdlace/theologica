@@ -11,11 +11,12 @@
 #import "WordDataSource.h"
 #import "Word.h"
 
-@interface SystematicTableViewController ()
+@interface SystematicTableViewController () <UISearchResultsUpdating, UISearchControllerDelegate, UISearchBarDelegate>
 
 @property (nonatomic, readonly) NSString *category;
 @property (nonatomic, strong) WordDataSource *wordDataSource;
-@property (nonatomic, strong) NSArray *searchResults;
+@property (strong, nonatomic) UISearchController *searchController;
+@property (strong, nonatomic) NSMutableArray *searchResults; //filtered search results
 
 
 @end
@@ -61,7 +62,31 @@
      name:UIContentSizeCategoryDidChangeNotification
      object:nil];
     
-    self.searchResults = [[NSArray alloc] init];
+   /*
+    // Create a mutable array to contain products for the search results table.
+    self.searchResults = [NSMutableArray arrayWithCapacity:[self.systematicTerms count]];
+    
+    // The table view controller is in a nav controller, and so the containing nav controller is the 'search results controller'
+    UINavigationController *searchResultsController = [[self storyboard] instantiateViewControllerWithIdentifier:@"SystematicNavController"];
+    
+    
+    */
+    
+    
+    
+    
+    //Add a UISearchController with search bar (currently not in IB object library)
+    
+    _searchController = [[UISearchController alloc] initWithSearchResultsController:nil];
+    _searchController.searchResultsUpdater = self;
+    self.searchController.searchBar.frame = CGRectMake(0.0, 0.0, 280.0, 40.0);
+    self.tableView.tableHeaderView = _searchController.searchBar;
+    
+    //self.searchController.dimsBackgroundDuringPresentation = YES;
+    //self.searchController.searchBar.searchBarStyle = UISearchBarStyleDefault;
+    //self.searchController.searchBar.tintColor = [UIColor whiteColor];
+    //self.searchController.searchBar.returnKeyType = UIReturnKeySearch;
+    
 }
 
 - (void)preferredContentSizeChanged:(NSNotification *)notification
@@ -73,26 +98,6 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-//search methods from https://www.youtube.com/watch?v=TijuWkbxP1o
-
-
-- (void)filterContentForSearchText:(NSString*)searchText scope:(NSString*)scope
-{
-    NSPredicate *resultPredicate = [NSPredicate predicateWithFormat:@"SELF contains[c] %@", searchText];
-    
-    _searchResults = [_systematicTerms filteredArrayUsingPredicate:resultPredicate];
-}
-
--(BOOL)searchDisplayController:(UISearchDisplayController *)controller shouldReloadTableForSearchString:(NSString *)searchString
-{
-    [self filterContentForSearchText:searchString
-                               scope:[[self.searchDisplayController.searchBar scopeButtonTitles]
-                                      objectAtIndex:[self.searchDisplayController.searchBar
-                                                     selectedScopeButtonIndex]]];
-    
-    return YES;
 }
 
 //
@@ -107,16 +112,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    //return [self.wordDataSource numberOfRowsInSection:section forCategory:self.category];
-    
-    if (tableView == self.searchDisplayController.searchResultsTableView)
-        {
-            return [self.searchResults count];
-        }
-    else
-        {
-        return [self.wordDataSource numberOfRowsInSection:section forCategory:self.category];;
-        }
+    return [self.wordDataSource numberOfRowsInSection:section forCategory:self.category];
     
 }
 
@@ -127,27 +123,12 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     // Configure the cell...
-    //Word *word = [self.wordDataSource wordForRowAtIndexPath:indexPath forCategory:self.category];
-    //cell.textLabel.text = word.name;
+    Word *word = [self.wordDataSource wordForRowAtIndexPath:indexPath forCategory:self.category];
+    cell.textLabel.text = word.name;
     
-    //cell.textLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
+    cell.textLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
     //need code for setting initial font on table view
    
-    //from https://www.youtube.com/watch?v=TijuWkbxP1o
-    
-    if (tableView == self.searchDisplayController.searchResultsTableView)
-        {
-        cell.textLabel.text = [self.searchResults objectAtIndex:indexPath.row];
-        }
-    else
-        {
-        Word *word = [self.wordDataSource wordForRowAtIndexPath:indexPath forCategory:self.category];
-        cell.textLabel.text = word.name;
-        
-        cell.textLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
-        }
-    
-    //
     
     return cell;
 }
