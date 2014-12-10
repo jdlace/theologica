@@ -66,8 +66,13 @@
                                 <segue destination="AwM-2a-5bG" kind="modal" id="yWy-9g-A5c"/>
                             </connections>
                         </barButtonItem>
+<<<<<<< HEAD
+                        <button key="titleView" opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="4M3-HD-6Fw">
+                            <rect key="frame" x="76" y="4.5" width="168" height="35"/>
+=======
                         <button key="titleView" opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="4M3-HD-6Fw">
                             <rect key="frame" x="76" y="5" width="168" height="35"/>
+>>>>>>> 9d7774b881ffe57315389e133df8395c009edf07
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <state key="normal">
                                 <attributedString key="attributedTitle">
@@ -333,7 +338,11 @@ In addition, definitions include links to trusted reference works in the larger 
                         <barButtonItem key="backBarButtonItem" title="Terms" id="c5M-Ef-Dyy"/>
                         <barButtonItem key="leftBarButtonItem" title="Info" id="NY9-ga-0UY"/>
                         <button key="titleView" opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="xmd-O2-e4j">
+<<<<<<< HEAD
+                            <rect key="frame" x="94" y="5.5" width="132" height="33"/>
+=======
                             <rect key="frame" x="74" y="0.0" width="173" height="44"/>
+>>>>>>> 9d7774b881ffe57315389e133df8395c009edf07
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <state key="normal">
                                 <attributedString key="attributedTitle">

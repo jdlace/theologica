@@ -11,12 +11,12 @@
 #import "MobileCoreServices.h"
 #import "Word.h"
 
-@interface SystematicDetailViewController : UIViewController <UIScrollViewDelegate >
+@interface WordDetailViewController : UIViewController <UIScrollViewDelegate >
 
 @property (strong, nonatomic) Word *currentWordDetail;
 
-@property (strong, nonatomic) IBOutlet UILabel *systematicName;
-@property (strong, nonatomic) IBOutlet UITextView *systematicDescription;
+@property (strong, nonatomic) IBOutlet UILabel *nameLabel;
+@property (strong, nonatomic) IBOutlet UITextView *descriptionTextView;
 
 - (IBAction)share:(UIBarButtonItem *)sender;
 

@@ -7,14 +7,17 @@
 //
 
 #import "SystematicTableViewController.h"
-#import "SystematicDetailViewController.h"
+#import "WordDetailViewController.h"
 #import "WordDataSource.h"
 #import "Word.h"
 
-@interface SystematicTableViewController ()
+@interface SystematicTableViewController () <UISearchResultsUpdating, UISearchControllerDelegate, UISearchBarDelegate>
 
 @property (nonatomic, readonly) NSString *category;
 @property (nonatomic, strong) WordDataSource *wordDataSource;
+@property (strong, nonatomic) UISearchController *searchController;
+@property (strong, nonatomic) NSMutableArray *searchResults; //filtered search results
+
 
 @end
 
@@ -24,6 +27,8 @@
 {
     return @"systematic";
 }
+
+//Getter method for wordDataSource object
 
 - (WordDataSource *)wordDataSource
 {
@@ -48,13 +53,40 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    //implemented as part of Dynamic Type
         
     [[NSNotificationCenter defaultCenter]
      addObserver:self
      selector:@selector(preferredContentSizeChanged:)
      name:UIContentSizeCategoryDidChangeNotification
      object:nil];
-
+    
+   /*
+    // Create a mutable array to contain products for the search results table.
+    self.searchResults = [NSMutableArray arrayWithCapacity:[self.systematicTerms count]];
+    
+    // The table view controller is in a nav controller, and so the containing nav controller is the 'search results controller'
+    UINavigationController *searchResultsController = [[self storyboard] instantiateViewControllerWithIdentifier:@"SystematicNavController"];
+    
+    
+    */
+    
+    
+    
+    
+    //Add a UISearchController with search bar (currently not in IB object library)
+    
+    _searchController = [[UISearchController alloc] initWithSearchResultsController:nil];
+    _searchController.searchResultsUpdater = self;
+    self.searchController.searchBar.frame = CGRectMake(0.0, 0.0, 280.0, 40.0);
+    self.tableView.tableHeaderView = _searchController.searchBar;
+    
+    //self.searchController.dimsBackgroundDuringPresentation = YES;
+    //self.searchController.searchBar.searchBarStyle = UISearchBarStyleDefault;
+    //self.searchController.searchBar.tintColor = [UIColor whiteColor];
+    //self.searchController.searchBar.returnKeyType = UIReturnKeySearch;
+    
 }
 
 - (void)preferredContentSizeChanged:(NSNotification *)notification
@@ -68,6 +100,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+//
+
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -79,11 +113,13 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return [self.wordDataSource numberOfRowsInSection:section forCategory:self.category];
+    
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"systematicCell";
+    
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     // Configure the cell...
@@ -91,11 +127,8 @@
     cell.textLabel.text = word.name;
     
     cell.textLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
-    
     //need code for setting initial font on table view
-    
-    //Original Code
-    //cell.textLabel.text = [_systematicTerms objectAtIndex:indexPath.row];
+   
     
     return cell;
 }
@@ -176,12 +209,12 @@
 
 -(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    if ([[segue identifier] isEqualToString:@"showWord"])
+    if ([[segue identifier] isEqualToString:@"showWordDetail"])
     {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         Word *word = [self.wordDataSource wordForRowAtIndexPath:indexPath forCategory:self.category];
     
-        SystematicDetailViewController *WordViewController = [segue destinationViewController];
+        WordDetailViewController *WordViewController = [segue destinationViewController];
         WordViewController.currentWordDetail = word;
     }
 }
@@ -201,6 +234,8 @@
     
 }
 
-- (IBAction)infoButton:(UIBarButtonItem *)sender {
+- (IBAction)infoButton:(UIBarButtonItem *)sender
+{
+    
 }
 @end
