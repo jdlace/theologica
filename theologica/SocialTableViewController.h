@@ -11,8 +11,4 @@
 @interface SocialTableViewController : UITableViewController
 
 
-@property (strong, nonatomic) NSArray *socialTerms;
-@property (strong, nonatomic) NSMutableArray *socialDetails;
-
-
 @end

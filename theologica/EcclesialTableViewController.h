@@ -10,7 +10,5 @@
 
 @interface EcclesialTableViewController : UITableViewController
 
-@property (strong, nonatomic) NSArray *ecclesialTerms;
-@property (strong, nonatomic) NSMutableArray *ecclesialDetails; 
 
 @end

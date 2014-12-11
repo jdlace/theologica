@@ -10,7 +10,5 @@
 
 @interface MoralTableViewController : UITableViewController
 
-@property (strong, nonatomic) NSArray *moralTerms;
-@property (strong, nonatomic) NSMutableArray *moralDetails;
 
 @end

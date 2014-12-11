@@ -77,15 +77,15 @@
     
     //Add a UISearchController with search bar (currently not in IB object library)
     
-    _searchController = [[UISearchController alloc] initWithSearchResultsController:nil];
-    _searchController.searchResultsUpdater = self;
+    self.searchController = [[UISearchController alloc] initWithSearchResultsController:nil];
+    self.searchController.searchResultsUpdater = self;
     self.searchController.searchBar.frame = CGRectMake(0.0, 0.0, 280.0, 40.0);
     self.tableView.tableHeaderView = _searchController.searchBar;
     
-    //self.searchController.dimsBackgroundDuringPresentation = YES;
-    //self.searchController.searchBar.searchBarStyle = UISearchBarStyleDefault;
-    //self.searchController.searchBar.tintColor = [UIColor whiteColor];
-    //self.searchController.searchBar.returnKeyType = UIReturnKeySearch;
+    self.searchController.dimsBackgroundDuringPresentation = YES;
+    self.searchController.searchBar.searchBarStyle = UISearchBarStyleDefault;
+    self.searchController.searchBar.tintColor = [UIColor whiteColor];
+    self.searchController.searchBar.returnKeyType = UIReturnKeySearch;
     
 }
 
@@ -128,7 +128,6 @@
     
     cell.textLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
     //need code for setting initial font on table view
-   
     
     return cell;
 }
