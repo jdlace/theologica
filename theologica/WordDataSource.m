@@ -30,7 +30,7 @@
 
 - (NSArray *)keysForCategory:(NSString *)category
 {
-    NSDictionary *categoryDict = self.dataDictionay[category];
+    NSDictionary *categoryDict = self.dataDict[category];
     NSArray *keys = [categoryDict allKeys];
     return keys;
 }
@@ -143,6 +143,11 @@
     anthropocentrism.definition = @"A method of theological enquiry from the starting point and within the horizon of the human experience. All theological claims are claims made by human beings in human language. Theology is relevant to human beings in so far as they concern human experience.";
     anthropocentrism.category = @"Systematic";
     
+    Word *apocatastasis = [[Word alloc] init];
+    apocatastasis.name = @"Apocatastasis";
+    apocatastasis.definition = @"A Greek term meaning the restoration of all things; the belief that at the eschaton, God will restore all creation back into full Divine communion; the belief that all persons will be saved.";
+    apocatastasis.category = @"Systematic";
+    
     Word *apologetics = [[Word alloc] init];
     apologetics.name = @"Apologetics";
     apologetics.definition = @"The rational defense of the Christian faith; from the Greek words (apo) - “from” and (logia) - “reason”.";
@@ -152,13 +157,23 @@
     apophatic.name = @"Apophatic";
     apophatic.definition = @"Language that uses negation to describe God.";
     apophatic.category = @"Systematic";
+    
+    Word *apostolicity = [[Word alloc] init];
+    apostolicity.name = @"Apostolicity";
+    apostolicity.definition = @"The quality of the Church as being based on the Apostolic tradition; one of the four marks of the Church.";
+    apostolicity.category = @"Systematic";
+    
+    Word *assumption = [[Word alloc] init];
+    assumption.name = @"Assumption of Mary";
+    assumption.definition = @"The dogma, defined by Pope Pius IX, which states that the Virgin Mary was assumed body and soul into heaven at the end of her earthly life.";
+    assumption.category = @"Systematic";
 
     Word *atonement = [[Word alloc] init];
     atonement.name = @"Atonement";
     atonement.definition = @"The act of making restitution for inflicted harm; a theological interpretation of the death of Jesus of Nazrareth. \r\rSee Catechism of the Catholic Church, 616. http://www.vatican.va/archive/ccc_css/archive/catechism/p122a4p2.htm";
     atonement.category = @"Systematic";
     
-    [_dataArray addObjectsFromArray:@[accident, asceticism, adoption, agape, aggiornomento, allegory, analogy, anointing, anthropocentrism, apologetics, apophatic, atonement]];
+    [_dataArray addObjectsFromArray:@[accident, adoption, agape, aggiornomento, allegory, analogy, anointing, anthropocentrism, apocatastasis, apologetics, apophatic, apostolicity, asceticism, atonement]];
     
     //B
     
@@ -181,11 +196,41 @@
     canon.definition = @"The Greek word (κανον) meaning “measuring stick”; used metaphorically to refer to a standard or criterion regarded as authoritative within a community. The Bible is referred to as the canon of the Scriptures. \r\rSee Catechism of the Catholic Church, 101. http://www.vatican.va/archive/ccc_css/archive/catechism/p1s1c2a3.htm. \r\rAlso see Pontifical Biblical Commission, “The Interpretation of the Bible in the Church, III.B”. http://catholic-resources.org/ChurchDocs/PBC_Interp-FullText.htm ";
     canon.category = @"Systematic";
     
+    Word *catholicity = [[Word alloc] init];
+    catholicity.name = @"Catholicity";
+    catholicity.definition = @"The quality of being universal in scope; one of the four marks of the Church.";
+    catholicity.category = @"Systematic";
+    
     Word *Christ = [[Word alloc] init];
     Christ.name = @"Christ";
     Christ.definition = @"The title given to Jesus of Nazareth by early Christians - from the Greek word χριστος (christos) - “annointed one”. \r\rSee Catechism of the Catholic Church, 436. http://www.vatican.va/archive/ccc_css/archive/catechism/p1s2c2a2.htm";
     Christ.category = @"Systematic";
     
+    Word *christOfFaith = [[Word alloc] init];
+    christOfFaith.name = @"Christ of Faith";
+    christOfFaith.definition = @"The term applied to the risen Jesus that emphasized the discontinuity with his earthly form of existence";
+    christOfFaith.category = @"Systematic";
+    
+    Word *Christology = [[Word alloc] init];
+    Christology.name = @"Christology";
+    Christology.definition = @"The study of the person and nature of Christ.";
+    Christology.category = @"Systematic";
+    
+    Word *church = [[Word alloc] init];
+    church.name = @"Church";
+    church.definition = @"The community belonging to the Lord; the people of God; the community centered on the belief that Jesus of Nazraeth is the divine Savior of the world.";
+    church.category = @"Systematic";
+    
+    Word *communicatio = [[Word alloc] init];
+    communicatio.name = @"Communicatio Idiomatum";
+    communicatio.definition = @"A Latin phrase that refers to the inter-communication of the divine and human natures in the person of Jesus.";
+    communicatio.category = @"Systematic";
+    
+    Word *communion = [[Word alloc] init];
+    communion.name = @"Communion of Saints";
+    communion.definition = @"The unity among believers that exists in Christ...";
+    communion.category = @"Systematic";
+
     Word *confession = [[Word alloc] init];
     confession.name = @"Confession";
     confession.definition = @"The sacrament of reconciliation... \r\rSee Catechism of the Catholic Church, 1424. http://www.vatican.va/archive/ccc_css/archive/catechism/p2s2c2a4.htm";
@@ -196,10 +241,20 @@
     confirmation.definition = @"The sacrament of reception of the Holy Spirit in which.... \r\rSee Catechism of the Catholic Church, 1285. http://www.vatican.va/archive/ccc_css/archive/catechism/p2s2c1a2.htm";
     confirmation.category = @"Systematic";
     
+    Word *conversion = [[Word alloc]init];
+    conversion.name = @"Conversion";
+    conversion.definition = @"The process of changing one's direction in life...";
+    conversion.category = @"Systematic";
+    
     Word *cosmological = [[Word alloc] init];
     cosmological.name = @"Cosmological Argument";
     cosmological.definition = @"One of the classical arguments for the existence of God, based on the First Cause argument. \r\rSee Stanford Encyclopedia of Philosophy, “Cosmological Argument”. http://plato.stanford.edu/entries/cosmological-argument/. \r\rThomas Aquinas, Summa Theologica, ST, Ia, q. 2 a. 3 co. http://www.fordham.edu/halsall/source/aquinas3.asp";
     cosmological.category = @"Systematic";
+    
+    Word *creation = [[Word alloc] init];
+    creation.name = @"Creation";
+    creation.definition = @"The universe...";
+    creation.category = @"Systematic";
     
     Word *creationism = [[Word alloc] init];
     creationism.name = @"Creationism";
@@ -211,9 +266,14 @@
     creed.definition = @"The Latin word (credo) meaning “I believe” - a statement of belief; used to refer to the historical creeds of the Church, most notably the Apostle's and Nicene creed. \r\rSee Catechism of the Catholic Church, 187. http://www.vatican.va/archive/ccc_css/archive/catechism/p1s2.htm";
     creed.category = @"Systematic";
     
-    [_dataArray addObjectsFromArray:@[canon, confession, confirmation, cosmological, creationism, creed]];
+    [_dataArray addObjectsFromArray:@[canon, catholicity, christOfFaith, Christology, church, communicatio, confession, confirmation, conversion, cosmological, creation, creationism, creed]];
     
     //D
+    
+    Word *deposit = [[Word alloc] init];
+    deposit.name = @"Deposit of Faith";
+    deposit.definition = @"The content of the Christian faith given by God to the Church through the Apostolic...";
+    deposit.category = @"Systematic";
     
     Word *developmentDoc = [[Word alloc] init];
     developmentDoc.name = @"Development of Doctrine";
@@ -225,14 +285,34 @@
     devil.definition = @"The personal malevolent spiritual being who became synonymous with Satan in inter-testamental years leading up to the life of Jesus...";
     devil.category = @"Systematic";
     
-    [_dataArray addObjectsFromArray:@[developmentDoc, devil]];
+    Word *doctrine = [[Word alloc] init];
+    doctrine.name = @"Doctrine";
+    doctrine.definition = @"The teaching of the Church...";
+    doctrine.category = @"Systematic";
+    
+    Word *dogma = [[Word alloc] init];
+    dogma.name = @"Dogma";
+    dogma.definition = @"A revealed truth...";
+    dogma.category = @"Systematic";
+    
+    [_dataArray addObjectsFromArray:@[deposit, developmentDoc, devil, doctrine, dogma]];
     
     //E
+    
+    Word *ecclesiology = [[Word alloc] init];
+    ecclesiology.name = @"Ecclesiology";
+    ecclesiology.definition = @"The study of the Church.";
+    ecclesiology.category = @"Systematic";
     
     Word *ecumenism = [[Word alloc] init];
     ecumenism.name = @"Ecumenism";
     ecumenism.definition = @"A movement which gained popularity in the 20th century that emphasized shared beliefs among various Christian churches over and against differences.";
     ecumenism.category = @"Systematic";
+    
+    Word *election = [[Word alloc] init];
+    election.name = @"Election";
+    election.definition = @"The concept that Israel was chosen by God to be in a covenant relationship.";
+    election.category = @"Systematic";
     
     Word *eschatology = [[Word alloc] init];
     eschatology.name = @"Eschatology";
@@ -264,7 +344,7 @@
     exOpere.definition = @"Latin phrase for “from the work, worked”.";
     exOpere.category = @"Systematic";
     
-    [_dataArray addObjectsFromArray:@[ecumenism, eschatology, essence, eucharist, exclusivism, exNihilo, exOpere]];
+    [_dataArray addObjectsFromArray:@[ecumenism, election, eschatology, essence, eucharist, exclusivism, exNihilo, exOpere]];
     
     //F
     
