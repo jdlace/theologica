@@ -26,21 +26,53 @@
             //        _keysArray = [[self.dataDictionay[key] allKeys] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
         }
     return _keysArray;
+    
+    
 }
+
+// build the array of words
+- (NSMutableArray *)dataArray
+{
+    if (!_dataArray)
+        {
+        _dataArray = [NSMutableArray array];
+        
+        [self buildSystematicWords];
+        [self buildEcclesialWords];
+        [self buildMoralWords];
+        [self buildBiblicalWords];
+        [self buildSocialWords];
+        }
+    
+    return _dataArray;
+}
+
 
 - (NSArray *)keysForCategory:(NSString *)category
 {
-    NSDictionary *categoryDict = self.dataDict[category];
-    NSArray *keys = [categoryDict allKeys];
+    NSArray *keysArray = self.keysArray;
+    NSArray *keys = [keysArray arrayByAddingObject:category];
     return keys;
+    
+   // NSDictionary *categoryDict = self.dataDictionay[category];
+    //NSArray *keys = [categoryDict allKeys];
+    //return keys;
 }
 
 - (NSArray *)sectionArrayForSection:(NSInteger)section category:(NSString *)category
 {
-    NSDictionary *categoryDict = self.dataDictionay[category];
-    NSString *key = self.keysArray[section];
-    NSArray *sectionArray = categoryDict[key];
+    NSArray *dataArray = self.dataArray;
+    NSArray *terms = self.dataArray[section];
+    //[dataArray arrayByAddingObject:section];
+    
+    NSArray *sectionArray = [dataArray arrayByAddingObject:terms];
+    //[NSArray sectionArrayForSection:section category:category];
     return sectionArray;
+    
+    //NSDictionary *categoryDict = self.dataDictionay[category];
+    //NSString *key = self.keysArray[section];
+    //NSArray *sectionArray = categoryDict[key];
+    //return sectionArray;
 }
 
 - (NSInteger)numberOfSectionsInDataSourceCategory:(NSString *)category
@@ -76,23 +108,6 @@
     return [self.keysArray indexOfObject:title];
 }
 
-
-// build the dictionary/words
-- (NSMutableArray *)dataArray
-{
-    if (!_dataArray)
-    {
-        _dataArray = [NSMutableArray array];
-        
-        [self buildSystematicWords];
-        [self buildEcclesialWords];
-        [self buildMoralWords];
-        [self buildBiblicalWords];
-        [self buildSocialWords];
-    }
-    
-    return _dataArray;
-}
 
 - (void)buildSystematicWords
 {

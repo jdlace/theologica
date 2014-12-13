@@ -202,6 +202,26 @@ In addition, definitions include links to trusted reference works in the larger 
             </objects>
             <point key="canvasLocation" x="1673" y="840"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="Edy-lw-xDa">
+            <objects>
+                <viewController id="qJM-Uc-9hJ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PEG-V7-Pcc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="ad6-SE-eqa">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J0z-Jr-lHg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1709" y="1938"/>
+        </scene>
         <!--Bookmark List Table View Controller-->
         <scene sceneID="F4P-2m-AMn">
             <objects>
@@ -580,7 +600,7 @@ In addition, definitions include links to trusted reference works in the larger 
         <scene sceneID="fAn-dN-fqo">
             <objects>
                 <navigationController definesPresentationContext="YES" id="3ZE-jz-AIY" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Systematic" image="hierarchy.png" id="ADP-i6-dTj">
+                    <tabBarItem key="tabBarItem" title="Systematic" image="hierarchy" id="ADP-i6-dTj">
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
                     </tabBarItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
@@ -624,7 +644,7 @@ In addition, definitions include links to trusted reference works in the larger 
         <image name="church.png" width="30" height="30"/>
         <image name="earth-wireframe-7@3x copy.png" width="90" height="90"/>
         <image name="equality.png" width="28" height="30"/>
-        <image name="hierarchy.png" width="30" height="30"/>
+        <image name="hierarchy" width="30" height="30"/>
         <image name="old-scroll@3x copy.png" width="90" height="90"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
