@@ -113,6 +113,22 @@
 {
     //A
     
+    Word *absolution = [[Word alloc] init];
+    absolution.name = @"Absolution";
+    absolution.definition = @"the act by which a priest declares the forgiveness of sins";
+    absolution.category = @"Systematic";
+    
+    Word *acolyte = [[Word alloc] init];
+    acolyte.name = @"Acolyte";
+    acolyte.definition = @"an assistant to a deacon";
+    acolyte.category = @"Liturgical";
+    
+    Word *adoptionism = [[Word alloc] init];
+    adoptionism.name = @"Adoptionism";
+    adoptionism.definition = @"The belief that Jesus was not the Son of God by nature, but rather adopted by God at his baptism; held by the so-called Ebionites of the end of the first century...";
+    adoptionism.category = @"Historical";
+
+    
     Word *accident = [[Word alloc] init];
     accident.name = @"Accident";
     accident.definition = @"In Aristotelean philosophy, a nonessential property or quality of an object that is dependent upon the substance of the object for its existence. Thomas Aquinas used this concept to support his theory of “transubstantiation” of the Eucharist.\r\rSee http://en.wikipedia.org/wiki/Accident_(philosophy)";
@@ -120,7 +136,7 @@
     
     Word *asceticism = [[Word alloc] init];
     asceticism.name = @"Asceticism";
-    asceticism.definition = @"";
+    asceticism.definition = @"Theh practice of self-denial for a higher purpose.";
     asceticism.category = @"Systematic";
     
     Word *adoption = [[Word alloc] init];
@@ -188,7 +204,82 @@
     atonement.definition = @"The act of making restitution for inflicted harm; a theological interpretation of the death of Jesus of Nazrareth. \r\rSee Catechism of the Catholic Church, 616. http://www.vatican.va/archive/ccc_css/archive/catechism/p122a4p2.htm";
     atonement.category = @"Systematic";
     
-    [_dataArray addObjectsFromArray:@[accident, adoption, agape, aggiornomento, allegory, analogy, anointing, anthropocentrism, apocatastasis, apologetics, apophatic, apostolicity, asceticism, atonement]];
+    Word *adoration = [[Word alloc] init];
+    adoration.name = @"Adoration";
+    adoration.definition = @"The act of adoring Christ present in the Eucharist...";
+    adoration.category = @"Liturgical";
+    
+    Word *angusDei = [[Word alloc] init];
+    angusDei.name = @"Agnus Dei";
+    angusDei.definition = @"Part of Mass that begins 'Lamb of God...'.";
+    angusDei.category = @"Liturgical";
+    
+    Word *advent = [[Word alloc] init];
+    advent.name = @"Advent";
+    advent.definition = @"The first season of the liturgical year in the Church that prepares for the the celebration of the birth of Jesus; consists of 5 Sundays...";
+    advent.category = @"Ecclesial";
+    
+    Word *alleluia = [[Word alloc] init];
+    alleluia.name = @"Alleluia";
+    alleluia.definition = @"A Latinized form of the phrase 'Praise the LORD'; spoken before the reading of the Gospel during the Mass; not spoken during the season of Lent...";
+    alleluia.category = @"Liturgical";
+    
+    Word *altar = [[Word alloc] init];
+    altar.name = @"Altar";
+    altar.definition = @"The table upon which the Eucharist is placed during the act of consecration due to the interpretation of the death of Jesus as an atoning sacrifice. See Catechism of the Catholic Church, 1182.";
+    altar.category = @"Liturgical";
+    
+    Word *ambo = [[Word alloc] init];
+    ambo.name = @"Ambo";
+    ambo.definition = @"The elevated platform behind which the lector, cantor, or homilist stands to sing, read, or speak to the congregation.";
+    ambo.category = @"Liturgical";
+    
+    Word *amen = [[Word alloc] init];
+    amen.name = @"Amen";
+    amen.definition = @"A Hebrew word meaning 'may it be so'; traditionally said after a prayer as a form of agreement; derived from Jewish use in the synagogue and later in the New Testament where it is used to indicate the truthfulness of what is said.";
+    amen.category = @"Liturgical";
+    
+    Word *anamnesis = [[Word alloc] init];
+    anamnesis.name = @"Anamnesis";
+    anamnesis.definition = @"Greek Word for 'rememberance', used in the Words of Institution; a performative act used to re-present the salvific death and resurrection of Jesus...";
+    anamnesis.category = @"Liturgical";
+    
+    Word *anaphora = [[Word alloc] init];
+    anaphora.name = @"Anaphora";
+    anaphora.definition = @"The Greek term for 'offering'; the Eucharistic prayer of the Mass...";
+    anaphora.category = @"Liturgical";
+    
+    Word *anathema = [[Word alloc] init];
+    anathema.name = @"Anathema";
+    anathema.definition = @"The Greek word for 'accursed'; the state of being out of visible communion with the Church";
+    anathema.category = @"Systematic";
+    
+    Word *anglican = [[Word alloc] init];
+    anglican.name = @"Anglican Communion";
+    anglican.definition = @"The Church of England...";
+    anglican.category = @"Historical";
+    
+    Word *annulment = [[Word alloc] init];
+    annulment.name = @"Annulment";
+    annulment.definition = @"An ecclesial declaration that a valid marriage never existed....";
+    annulment.definition = @"Systematic";
+    
+    Word *antiphon = [[Word alloc] init];
+    antiphon.name = @"Antiphon";
+    antiphon.definition = @"the choral response sung during the entrace processional";
+    antiphon.category = @"Liturgical";
+    
+    Word *apostlesCreed = [[Word alloc] init];
+    apostlesCreed.name = @"Apostle's Creed";
+    apostlesCreed.definition = @"The earliest form of the Rule of Faith; based on the Roman baptismal creed, dated to the year A.D. 150.";
+    apostlesCreed.category = @"Historical";
+    
+    Word *arianism = [[Word alloc] init];
+    arianism.name = @"Arianism";
+    arianism.definition = @"The teaching of Arius that the Son was of a different substance than the Father (begotten vs. unbegotten) and thus, not fully divine.";
+    arianism.category = @"Historical";
+    
+    [_dataArray addObjectsFromArray:@[absolution, accident, acolyte, adoption, adoptionism, adoration,advent, agape, aggiornomento, angusDei, allegory, alleluia, altar, ambo, amen, analogy, anamnesis, anaphora, anathema, anglican, annulment, anointing, antiphon, anthropocentrism, apocatastasis, apologetics, apophatic, apostlesCreed, apostolicity, arianism, asceticism, atonement]];
     
     //B
     
@@ -201,8 +292,29 @@
     blasphemy.name = @"Blasphemy";
     blasphemy.definition = @"A form of religious slander. \r\rSee Catechism of the Catholic Church, 2148. http://www.vatican.va/archive/ccc_css/archive/catechism/p3s2c1a2.htm";
     blasphemy.category = @"Systematic";
+    
+    Word *baptistry = [[Word alloc] init];
+    baptistry.name = @"Baptistry";
+    baptistry.definition = @"the place within a church used for baptism; usually referred to as a 'font'.";
+    baptism.category = @"Liturgical";
+    
+    Word *basillica = [[Word alloc] init];
+    basillica.name = @"Basillica";
+    basillica.definition = @"term used to refer to a church in which the diocescan bishop presides; the Church inherited this architecture from the Roman Imperial administrative system.";
+    basillica.category = @"Liturgical";
+    
+    Word *benedictus = [[Word alloc] init];
+    benedictus.name = @"Benedictus";
+    benedictus.definition = @"the prayer of Simeon contained within the gospel of Luke 2:29-32.";
+    benedictus.category = @"Liturgical";
+    
+    Word *bishop = [[Word alloc] init];
+    bishop.name = @"Bishop";
+    bishop.definition = @"from the Greek 'episcopos' (overseer) - the third order of clerics in the Catholic tradition; one who presides over a diocese.";
+    bishop.category = @"Systematic";
+    
      
-     [_dataArray addObjectsFromArray:@[baptism, blasphemy]];
+     [_dataArray addObjectsFromArray:@[baptism, baptistry, basillica, benedictus, bishop, blasphemy]];
     
     //C
     
@@ -736,6 +848,10 @@
 {
     //A
     
+    Word *catechism = [[Word alloc] init];
+    catechism.name = @"Catechism of the Catholic Church.";
+    catechism.category = @"http://www.vatican.va/archive/ENG0015/_INDEX.HTM";
+    
     Word *absolution = [[Word alloc] init];
     absolution.name = @"Absolution";
     absolution.definition = @"the act by which a priest declares the forgiveness of sins";
@@ -835,10 +951,12 @@
     baptism.definition = @"the intiation rite into the Church";
     baptism.category = @"Ecclesial";
     
+   /*
     Word *baptistry = [[Word alloc] init];
     baptistry.name = @"Baptistry";
     baptistry.definition = @"the place within a church used for baptism; usually referred to as a 'font'.";
     baptism.category = @"Ecclesial";
+    */
     
     Word *basillica = [[Word alloc] init];
     basillica.name = @"Basillica";
@@ -860,7 +978,7 @@
     blasphemy.definition = @"religious slander";
     blasphemy.category = @"Ecclesial";
     
-    [_dataArray addObjectsFromArray:@[baptism, baptistry, basillica, benedictus, bishop, blasphemy]];
+    [_dataArray addObjectsFromArray:@[baptism, basillica, benedictus, bishop, blasphemy]];
     
     //C
     

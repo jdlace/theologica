@@ -81,6 +81,7 @@
     self.searchController.searchResultsUpdater = self;
     self.searchController.searchBar.frame = CGRectMake(0.0, 0.0, 280.0, 40.0);
     self.tableView.tableHeaderView = _searchController.searchBar;
+    //self.searchController.searchBar.
     
     self.searchController.dimsBackgroundDuringPresentation = YES;
     self.searchController.searchBar.searchBarStyle = UISearchBarStyleDefault;
@@ -125,8 +126,9 @@
     // Configure the cell...
     Word *word = [self.wordDataSource wordForRowAtIndexPath:indexPath forCategory:self.category];
     cell.textLabel.text = word.name;
+    cell.detailTextLabel.text = word.category;
     
-    cell.textLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
+    cell.textLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleHeadline];
     //need code for setting initial font on table view
     
     return cell;

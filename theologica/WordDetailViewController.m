@@ -29,7 +29,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-    //self.systematicName.font = [UIFont preferredFontForTextStyle: UIFontTextStyleBody];
+    //self.nameLabel.font = [UIFont preferredFontForTextStyle: UIFontTextStyleHeadline];
     self.descriptionTextView.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
     
     _nameLabel.text = _currentWordDetail.name;
@@ -43,7 +43,8 @@
      object:nil];
 }
 
-- (void)preferredContentSizeChanged:(NSNotification *)notification {
+- (void)preferredContentSizeChanged:(NSNotification *)notification
+{
     self.descriptionTextView.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
 }
 
