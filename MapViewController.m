@@ -17,6 +17,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    MKCoordinateSpan span = MKCoordinateSpanMake(1.0f,10.0001f);
+    CLLocationCoordinate2D coordinate = {31.7833, 35.2167};
+    MKCoordinateRegion region = {coordinate, span};
+    
+    MKCoordinateRegion regionThatFits = [self.mapView regionThatFits:region];
+    NSLog(@"Fit Region %f %f", regionThatFits.center.latitude, regionThatFits.center.longitude);
+    
+    [self.mapView setRegion:regionThatFits animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

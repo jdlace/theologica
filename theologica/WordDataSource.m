@@ -107,10 +107,6 @@
     absolution.definition = @"the act by which a priest declares the forgiveness of sins";
     absolution.category = @"Systematic";
     
-    Word *acolyte = [[Word alloc] init];
-    acolyte.name = @"Acolyte";
-    acolyte.definition = @"an assistant to a deacon";
-    acolyte.category = @"Liturgical";
     
     Word *adoptionism = [[Word alloc] init];
     adoptionism.name = @"Adoptionism";
@@ -268,7 +264,7 @@
     arianism.definition = @"The teaching of Arius that the Son was of a different substance than the Father (begotten vs. unbegotten) and thus, not fully divine.";
     arianism.category = @"Historical";
     
-    [_dataArray addObjectsFromArray:@[absolution, accident, acolyte, adoption, adoptionism, adoration,advent, agape, aggiornomento, angusDei, allegory, alleluia, altar, ambo, amen, analogy, anamnesis, anaphora, anathema, anglican, annulment, anointing, antiphon, anthropocentrism, apocatastasis, apologetics, apophatic, apostlesCreed, apostolicity, arianism, asceticism, atonement]];
+    [_dataArray addObjectsFromArray:@[absolution, accident, adoption, adoptionism, adoration,advent, agape, aggiornomento, angusDei, allegory, alleluia, altar, ambo, amen, analogy, anamnesis, anaphora, anathema, anglican, annulment, anointing, antiphon, anthropocentrism, apocatastasis, apologetics, apophatic, apostlesCreed, apostolicity, arianism, asceticism, atonement]];
     
     //B
     
