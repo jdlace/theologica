@@ -11,7 +11,5 @@
 
 @interface BiblicalTableViewController : UITableViewController
 
-@property (strong, nonatomic) NSArray *biblicalTerms;
-@property (strong, nonatomic) NSMutableArray *biblicalDetails;
 
 @end
