@@ -10,7 +10,7 @@
 #import "WordDataSource.h"
 
 
-@interface SystematicTableViewController : UITableViewController
+@interface DictionaryTableViewController : UITableViewController
 
 
 @end

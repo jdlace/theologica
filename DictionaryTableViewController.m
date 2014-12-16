@@ -6,14 +6,13 @@
 //  Copyright (c) 2013 techrament. All rights reserved.
 //
 
-#import "SystematicTableViewController.h"
+#import "DictionaryTableViewController.h"
 #import "WordDetailViewController.h"
 #import "WordDataSource.h"
 #import "Word.h"
 
-@interface SystematicTableViewController () <UISearchResultsUpdating, UISearchControllerDelegate, UISearchBarDelegate>
+@interface DictionaryTableViewController () <UISearchResultsUpdating, UISearchControllerDelegate, UISearchBarDelegate>
 
-@property (nonatomic, readonly) NSString *category;
 @property (nonatomic, strong) WordDataSource *wordDataSource;
 @property (strong, nonatomic) UISearchController *searchController;
 @property (strong, nonatomic) NSMutableArray *searchResults; //filtered search results
@@ -21,12 +20,7 @@
 
 @end
 
-@implementation SystematicTableViewController
-
-- (NSString *)category
-{
-    return @"systematic";
-}
+@implementation DictionaryTableViewController
 
 //Getter method for wordDataSource object
 
@@ -108,23 +102,23 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     // Return the number of sections.
-    return [self.wordDataSource numberOfSectionsInDataSourceCategory:self.category];
+    return [self.wordDataSource numberOfSectionsInDataSourceCategory:nil];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return [self.wordDataSource numberOfRowsInSection:section forCategory:self.category];
+    return [self.wordDataSource numberOfRowsInSection:section forCategory:nil];
     
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"systematicCell";
+    static NSString *CellIdentifier = @"DictionaryCell";
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     // Configure the cell...
-    Word *word = [self.wordDataSource wordForRowAtIndexPath:indexPath forCategory:self.category];
+    Word *word = [self.wordDataSource wordForRowAtIndexPath:indexPath forCategory:nil];
     cell.textLabel.text = word.name;
     cell.detailTextLabel.text = word.category;
     
@@ -137,7 +131,7 @@
 -(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
 {
 
-    return [self.wordDataSource titleForHeaderInSection:section forCategory:self.category];
+    return [self.wordDataSource titleForHeaderInSection:section forCategory:nil];
 }
 
 /*
@@ -213,7 +207,7 @@
     if ([[segue identifier] isEqualToString:@"showWordDetail"])
     {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        Word *word = [self.wordDataSource wordForRowAtIndexPath:indexPath forCategory:self.category];
+        Word *word = [self.wordDataSource wordForRowAtIndexPath:indexPath forCategory:nil];
     
         WordDetailViewController *WordViewController = [segue destinationViewController];
         WordViewController.currentWordDetail = word;
@@ -222,12 +216,12 @@
 
 - (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView
 {
-    return [self.wordDataSource sectionIndexTitlesForCategory:self.category];
+    return [self.wordDataSource sectionIndexTitlesForCategory:nil];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView sectionForSectionIndexTitle:(NSString *)title atIndex:(NSInteger)index
 {
-    return [self.wordDataSource sectionForSectionIndexTitle:title forCategory:self.category];
+    return [self.wordDataSource sectionForSectionIndexTitle:title forCategory:nil];
 }
 
 - (IBAction)info:(UIBarButtonItem *)sender

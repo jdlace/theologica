@@ -7,7 +7,7 @@
 //
 
 #import "SearchBarViewController.h"
-#import "SystematicTableViewController.h"
+#import "DictionaryTableViewController.h"
 
 @interface SearchBarViewController ()
 

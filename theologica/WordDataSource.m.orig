@@ -11,24 +11,30 @@
 
 @interface WordDataSource ()
 
-@property (nonatomic, strong) NSArray *lettersArray;
+@property (nonatomic, strong) NSArray *keysArray;
 @property (nonatomic, strong) NSMutableArray *dataArray;
 @end
 
 @implementation WordDataSource
 
-- (NSArray *)lettersArray
+- (NSArray *)keysArray
 {
-    if (!_lettersArray) {
-        _lettersArray = @[@"A", @"B", @"C", @"D", @"E", @"F", @"G", @"H", @"I", @"J", @"K", @"L", @"M", @"N", @"O", @"P", @"Q", @"R", @"S", @"T", @"U", @"V", @"W", @"X", @"Y", @"Z"];
-    }
-    return _lettersArray;
+    if (!_keysArray)
+        {
+        _keysArray = @[@"A", @"B", @"C", @"D", @"E", @"F", @"G", @"H", @"I", @"J", @"K", @"L", @"M", @"N", @"O", @"P", @"Q", @"R", @"S", @"T", @"U", @"V", @"W", @"X", @"Y", @"Z"];
+            //        NSString *key = [[self.dataDictionay allKeys] firstObject];
+            //        _keysArray = [[self.dataDictionay[key] allKeys] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
+        }
+    return _keysArray;
+    
+    
 }
 
 // build the array of words
 - (NSMutableArray *)dataArray
 {
-    if (!_dataArray) {
+    if (!_dataArray)
+        {
         _dataArray = [NSMutableArray array];
         
         [self buildSystematicWords];
@@ -36,37 +42,42 @@
         [self buildMoralWords];
         [self buildBiblicalWords];
         [self buildSocialWords];
-    }
+        }
     
     return _dataArray;
 }
 
+
+- (NSArray *)keysForCategory:(NSString *)category
+{
+    NSArray *keysArray = self.keysArray;
+    NSArray *keys = [keysArray arrayByAddingObject:category];
+    return keys;
+    
+   // NSDictionary *categoryDict = self.dataDictionay[category];
+    //NSArray *keys = [categoryDict allKeys];
+    //return keys;
+}
+
 - (NSArray *)sectionArrayForSection:(NSInteger)section category:(NSString *)category
 {
-    // convert section into Letter
-    NSString *letter = self.lettersArray[section];
+    NSArray *dataArray = self.dataArray;
+    NSArray *terms = self.dataArray[section];
+    //[dataArray arrayByAddingObject:section];
     
-    // get words that match the section and category
-    NSPredicate *predicate = [NSPredicate predicateWithBlock:^BOOL(id evaluatedObject, NSDictionary *bindings){
-        
-        BOOL match = NO;
-        if ([evaluatedObject isKindOfClass:[Word class]]) {
-            Word *word = (Word *)evaluatedObject;
-            
-            if (category) {
-                match = [[word.category uppercaseString] isEqualToString:[category uppercaseString]] && [[word.name uppercaseString] hasPrefix:[letter uppercaseString]];
-            } else {
-                match = [[word.name uppercaseString] hasPrefix:[letter uppercaseString]];
-            }
-        }
-        return match;
-    }];
-    return [self.dataArray filteredArrayUsingPredicate:predicate];
+    NSArray *sectionArray = [dataArray arrayByAddingObject:terms];
+    //[NSArray sectionArrayForSection:section category:category];
+    return sectionArray;
+    
+    //NSDictionary *categoryDict = self.dataDictionay[category];
+    //NSString *key = self.keysArray[section];
+    //NSArray *sectionArray = categoryDict[key];
+    //return sectionArray;
 }
 
 - (NSInteger)numberOfSectionsInDataSourceCategory:(NSString *)category
 {
-    return self.lettersArray.count;
+    return self.keysArray.count;
 }
 
 - (NSInteger)numberOfRowsInSection:(NSInteger)section forCategory:(NSString *)category
@@ -84,17 +95,17 @@
 
 - (NSString *)titleForHeaderInSection:(NSInteger)section forCategory:(NSString *)category
 {
-    return self.lettersArray[section];
+    return self.keysArray[section];
 }
 
 - (NSArray *)sectionIndexTitlesForCategory:(NSString *)category
 {
-    return self.lettersArray;
+    return self.keysArray;
 }
 
 - (NSInteger)sectionForSectionIndexTitle:(NSString *)title forCategory:(NSString *)category
 {
-    return [self.lettersArray indexOfObject:title];
+    return [self.keysArray indexOfObject:title];
 }
 
 
@@ -1073,7 +1084,11 @@
     Word *casuistry = [[Word alloc] init];
     casuistry.name = @"Casuistry";
     casuistry.definition = @"the study of case law";
+<<<<<<< HEAD
+    [_dataDictionay [@"moral"][@"C"] addObjectsFromArray:@[casuistry]];
+=======
     casuistry.category = @"Moral";
+>>>>>>> b0e20dcec8272ae24145fad3b27b1ec7b2b0bf1f
     
     Word *catholicsocialteaching = [[Word alloc]init];
     catholicsocialteaching.name = @"Catholic Social Teaching";
@@ -1103,7 +1118,11 @@
     Word *deontology = [[Word alloc] init];
     deontology.name = @"Deontology";
     deontology.definition = @"from the Greek word for “duty” (deon) - the study of ethics from the framework of moral duties in the form of rules and laws.";
+<<<<<<< HEAD
+    [_dataDictionay [@"moral"][@"D"] addObjectsFromArray:@[deontology]];
+=======
     deontology.category = @"Moral";
+>>>>>>> b0e20dcec8272ae24145fad3b27b1ec7b2b0bf1f
     
     Word *dignity = [[Word alloc]init];
     dignity.name = @"Dignity";
@@ -1128,7 +1147,11 @@
     Word *ethics = [[Word alloc] init];
     ethics.name = @"Ethics";
     ethics.definition = @"the study of moral systems";
+<<<<<<< HEAD
+    [_dataDictionay [@"moral"][@"E"] addObjectsFromArray:@[epistemology, ethics]];
+=======
     ethics.category = @"Moral";
+>>>>>>> b0e20dcec8272ae24145fad3b27b1ec7b2b0bf1f
     
     [_dataArray addObjectsFromArray:@[economic, ethics]];
 
@@ -1169,7 +1192,11 @@
     Word *justWar = [[Word alloc] init];
     justWar.name = @"Just War Theory";
     justWar.definition = @"The theory first developed by Augustine and later refined by Aquinas which consists of criteria for determining the justice of both the conditions and methods of war; see “jus ad bellum” and “jus im bello”.";
+<<<<<<< HEAD
+    [_dataDictionay [@"moral"][@"J"] addObjectsFromArray:@[justice, jusAdBellum, jusImBello, justWar]];
+=======
     justWar.category = @"Moral";
+>>>>>>> b0e20dcec8272ae24145fad3b27b1ec7b2b0bf1f
     
     [_dataArray addObjectsFromArray:@[justice, jusAdBellum, jusImBello, justWar]];
 
@@ -1183,7 +1210,11 @@
     Word *morality = [[Word alloc] init];
     morality.name = @"Morality";
     morality.definition = @"customary norms of behavior considered good or evil, right or wrong in a given system.";
+<<<<<<< HEAD
+    [_dataDictionay [@"moral"][@"M"] addObjectsFromArray:@[morality]];
+=======
     morality.category = @"Moral";
+>>>>>>> b0e20dcec8272ae24145fad3b27b1ec7b2b0bf1f
     
     [_dataArray addObjectsFromArray:@[morality]];
 
@@ -2237,6 +2268,20 @@
     
     
     [_dataArray addObjectsFromArray:@[semiotics, sociology, solidarity, spirituality, structuralism, supernormal]];
+    
+    //T
+    
+    //U
+    
+    //V
+    
+    //W
+    
+    //X
+    
+    //Y
+    
+    //Z
 }
 
 @end
