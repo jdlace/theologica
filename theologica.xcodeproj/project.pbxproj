@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		690248B717F05294009D6811 /* bookmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 690248B617F05294009D6811 /* bookmark@2x.png */; };
 		6902FACE17F51D3E00299A50 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6902FACD17F51D3E00299A50 /* Images.xcassets */; };
-		692198481A3DF713001838A7 /* christ-redeemer-7@3x copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 692198471A3DF713001838A7 /* christ-redeemer-7@3x copy.png */; };
-		692D9E861A22220C00F8E4BF /* earth-wireframe-7@3x copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 692D9E851A22220C00F8E4BF /* earth-wireframe-7@3x copy.png */; };
 		692ED24B1796D552008554F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692ED24A1796D552008554F9 /* UIKit.framework */; };
 		692ED24D1796D552008554F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692ED24C1796D552008554F9 /* Foundation.framework */; };
 		692ED24F1796D552008554F9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692ED24E1796D552008554F9 /* CoreGraphics.framework */; };
@@ -26,16 +24,12 @@
 		692ED2991796E709008554F9 /* equality@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 692ED2931796E709008554F9 /* equality@2x.png */; };
 		692ED2A81796EF10008554F9 /* man-influence.png in Resources */ = {isa = PBXBuildFile; fileRef = 692ED29E1796EF10008554F9 /* man-influence.png */; };
 		692ED2A91796EF10008554F9 /* man-influence@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 692ED29F1796EF10008554F9 /* man-influence@2x.png */; };
-		692ED2B21796F466008554F9 /* SystematicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2B11796F466008554F9 /* SystematicTableViewController.m */; };
+		692ED2B21796F466008554F9 /* DictionaryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2B11796F466008554F9 /* DictionaryTableViewController.m */; };
 		692ED2B51796F48B008554F9 /* WordDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2B41796F48B008554F9 /* WordDetailViewController.m */; };
 		692ED2BB1796F4D1008554F9 /* EcclesialTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2BA1796F4D1008554F9 /* EcclesialTableViewController.m */; };
 		692ED2C41796F531008554F9 /* MoralTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2C31796F531008554F9 /* MoralTableViewController.m */; };
 		692ED2CD1796F58F008554F9 /* BiblicalTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2CC1796F58F008554F9 /* BiblicalTableViewController.m */; };
 		692ED2D61796F5E7008554F9 /* SocialTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2D51796F5E7008554F9 /* SocialTableViewController.m */; };
-		695757D41A2403B80091CE12 /* meditation@3x copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 695757D31A2403B80091CE12 /* meditation@3x copy.png */; };
-		695757D61A2403BD0091CE12 /* monk@3x copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 695757D51A2403BD0091CE12 /* monk@3x copy.png */; };
-		695757D81A2403EB0091CE12 /* color-rgb-7@3x copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 695757D71A2403EB0091CE12 /* color-rgb-7@3x copy.png */; };
-		695757DA1A240D010091CE12 /* angel@3x copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 695757D91A240D010091CE12 /* angel@3x copy.png */; };
 		69739B561A36897F008BAB06 /* SearchBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69739B551A36897F008BAB06 /* SearchBarViewController.m */; };
 		6988A94A1A3E8DEB005A1B65 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6988A9491A3E8DEB005A1B65 /* MapViewController.m */; };
 		69989B0319FF2FC70009ABAE /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69989AC519FF2D5D0009ABAE /* NotificationCenter.framework */; };
@@ -81,8 +75,6 @@
 /* Begin PBXFileReference section */
 		690248B617F05294009D6811 /* bookmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bookmark@2x.png"; path = "../bookmark@2x.png"; sourceTree = "<group>"; };
 		6902FACD17F51D3E00299A50 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = theologica/Images.xcassets; sourceTree = "<group>"; };
-		692198471A3DF713001838A7 /* christ-redeemer-7@3x copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "christ-redeemer-7@3x copy.png"; path = "../../christ-redeemer-7@3x copy.png"; sourceTree = "<group>"; };
-		692D9E851A22220C00F8E4BF /* earth-wireframe-7@3x copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "earth-wireframe-7@3x copy.png"; path = "../../earth-wireframe-7@3x copy.png"; sourceTree = "<group>"; };
 		692ED2471796D552008554F9 /* theologica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = theologica.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		692ED24A1796D552008554F9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		692ED24C1796D552008554F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -102,8 +94,8 @@
 		692ED2931796E709008554F9 /* equality@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "equality@2x.png"; sourceTree = "<group>"; };
 		692ED29E1796EF10008554F9 /* man-influence.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "man-influence.png"; path = "../man-influence.png"; sourceTree = "<group>"; };
 		692ED29F1796EF10008554F9 /* man-influence@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "man-influence@2x.png"; path = "../man-influence@2x.png"; sourceTree = "<group>"; };
-		692ED2B01796F466008554F9 /* SystematicTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SystematicTableViewController.h; path = ../SystematicTableViewController.h; sourceTree = "<group>"; };
-		692ED2B11796F466008554F9 /* SystematicTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SystematicTableViewController.m; path = ../SystematicTableViewController.m; sourceTree = "<group>"; };
+		692ED2B01796F466008554F9 /* DictionaryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DictionaryTableViewController.h; path = ../DictionaryTableViewController.h; sourceTree = "<group>"; };
+		692ED2B11796F466008554F9 /* DictionaryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DictionaryTableViewController.m; path = ../DictionaryTableViewController.m; sourceTree = "<group>"; };
 		692ED2B31796F48B008554F9 /* WordDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordDetailViewController.h; sourceTree = "<group>"; };
 		692ED2B41796F48B008554F9 /* WordDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordDetailViewController.m; sourceTree = "<group>"; };
 		692ED2B91796F4D1008554F9 /* EcclesialTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EcclesialTableViewController.h; sourceTree = "<group>"; };
@@ -114,10 +106,6 @@
 		692ED2CC1796F58F008554F9 /* BiblicalTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BiblicalTableViewController.m; sourceTree = "<group>"; };
 		692ED2D41796F5E7008554F9 /* SocialTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialTableViewController.h; sourceTree = "<group>"; };
 		692ED2D51796F5E7008554F9 /* SocialTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialTableViewController.m; sourceTree = "<group>"; };
-		695757D31A2403B80091CE12 /* meditation@3x copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "meditation@3x copy.png"; path = "../../meditation@3x copy.png"; sourceTree = "<group>"; };
-		695757D51A2403BD0091CE12 /* monk@3x copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "monk@3x copy.png"; path = "../../monk@3x copy.png"; sourceTree = "<group>"; };
-		695757D71A2403EB0091CE12 /* color-rgb-7@3x copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "color-rgb-7@3x copy.png"; path = "../../color-rgb-7@3x copy.png"; sourceTree = "<group>"; };
-		695757D91A240D010091CE12 /* angel@3x copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "angel@3x copy.png"; path = "../../angel@3x copy.png"; sourceTree = "<group>"; };
 		69739B541A36897F008BAB06 /* SearchBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchBarViewController.h; sourceTree = "<group>"; };
 		69739B551A36897F008BAB06 /* SearchBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchBarViewController.m; sourceTree = "<group>"; };
 		6988A9481A3E8DEB005A1B65 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = ../MapViewController.h; sourceTree = "<group>"; };
@@ -246,19 +234,10 @@
 				692ED29F1796EF10008554F9 /* man-influence@2x.png */,
 				9BAC0B431A1C4BA1004C4867 /* appicon.png */,
 				9BAC0B441A1C4BA1004C4867 /* appicon2.png */,
-				69B7DF701A2140910033465A /* appicon copy 7.png */,
-				69C826641A204BF6001B9CBF /* old-scroll@3x copy.png */,
-				695757D91A240D010091CE12 /* angel@3x copy.png */,
-				695757D51A2403BD0091CE12 /* monk@3x copy.png */,
-				692D9E851A22220C00F8E4BF /* earth-wireframe-7@3x copy.png */,
 				692ED2921796E709008554F9 /* equality.png */,
-				692198471A3DF713001838A7 /* christ-redeemer-7@3x copy.png */,
-				695757D31A2403B80091CE12 /* meditation@3x copy.png */,
 				692ED2931796E709008554F9 /* equality@2x.png */,
 				692ED27F1796E04B008554F9 /* bible@2x.png */,
 				692ED28A1796E511008554F9 /* bible.png */,
-				69DD3F361A22B28B004C4F55 /* church-7@3x copy.png */,
-				695757D71A2403EB0091CE12 /* color-rgb-7@3x copy.png */,
 				692ED2811796E04B008554F9 /* church.png */,
 				692ED2821796E04B008554F9 /* church@2x.png */,
 				692ED2521796D552008554F9 /* theologica-Info.plist */,
@@ -295,8 +274,8 @@
 			children = (
 				FA8450571A1285CE007839D8 /* infoButtonViewController.h */,
 				FA8450581A1285CE007839D8 /* infoButtonViewController.m */,
-				692ED2B01796F466008554F9 /* SystematicTableViewController.h */,
-				692ED2B11796F466008554F9 /* SystematicTableViewController.m */,
+				692ED2B01796F466008554F9 /* DictionaryTableViewController.h */,
+				692ED2B11796F466008554F9 /* DictionaryTableViewController.m */,
 				69739B541A36897F008BAB06 /* SearchBarViewController.h */,
 				69739B551A36897F008BAB06 /* SearchBarViewController.m */,
 				692ED2B31796F48B008554F9 /* WordDetailViewController.h */,
@@ -434,29 +413,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				692ED2551796D552008554F9 /* InfoPlist.strings in Resources */,
-				692ED25D1796D552008554F9 /* Default.png in Resources */,
-				695757D81A2403EB0091CE12 /* color-rgb-7@3x copy.png in Resources */,
 				690248B717F05294009D6811 /* bookmark@2x.png in Resources */,
 				692ED2641796D552008554F9 /* MainStoryboard.storyboard in Resources */,
 				69B52BAB1A0EF6C100C23B47 /* Launch Screen.xib in Resources */,
 				692ED2841796E04B008554F9 /* bible@2x.png in Resources */,
 				692ED2861796E04B008554F9 /* church.png in Resources */,
 				692ED2871796E04B008554F9 /* church@2x.png in Resources */,
-				69B7DF711A2140910033465A /* appicon copy 7.png in Resources */,
-				692198481A3DF713001838A7 /* christ-redeemer-7@3x copy.png in Resources */,
 				692ED28B1796E511008554F9 /* bible.png in Resources */,
-				695757DA1A240D010091CE12 /* angel@3x copy.png in Resources */,
-				69C826651A204BF6001B9CBF /* old-scroll@3x copy.png in Resources */,
 				6902FACE17F51D3E00299A50 /* Images.xcassets in Resources */,
-				695757D61A2403BD0091CE12 /* monk@3x copy.png in Resources */,
 				692ED2981796E709008554F9 /* equality.png in Resources */,
 				692ED2991796E709008554F9 /* equality@2x.png in Resources */,
-				69DD3F371A22B28B004C4F55 /* church-7@3x copy.png in Resources */,
 				692ED2A81796EF10008554F9 /* man-influence.png in Resources */,
 				692ED2A91796EF10008554F9 /* man-influence@2x.png in Resources */,
 				9BAC0B461A1C4BA1004C4867 /* appicon2.png in Resources */,
 				9BAC0B451A1C4BA1004C4867 /* appicon.png in Resources */,
-				695757D41A2403B80091CE12 /* meditation@3x copy.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,7 +448,7 @@
 				692ED2571796D552008554F9 /* main.m in Sources */,
 				692ED25B1796D552008554F9 /* AppDelegate.m in Sources */,
 				69BB25491A130F2E00B3F5B5 /* WordDataSource.m in Sources */,
-				692ED2B21796F466008554F9 /* SystematicTableViewController.m in Sources */,
+				692ED2B21796F466008554F9 /* DictionaryTableViewController.m in Sources */,
 				69739B561A36897F008BAB06 /* SearchBarViewController.m in Sources */,
 				692ED2B51796F48B008554F9 /* WordDetailViewController.m in Sources */,
 				FA8450591A1285CE007839D8 /* infoButtonViewController.m in Sources */,

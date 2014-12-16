@@ -11,30 +11,24 @@
 
 @interface WordDataSource ()
 
-@property (nonatomic, strong) NSArray *keysArray;
+@property (nonatomic, strong) NSArray *lettersArray;
 @property (nonatomic, strong) NSMutableArray *dataArray;
 @end
 
 @implementation WordDataSource
 
-- (NSArray *)keysArray
+- (NSArray *)lettersArray
 {
-    if (!_keysArray)
-        {
-        _keysArray = @[@"A", @"B", @"C", @"D", @"E", @"F", @"G", @"H", @"I", @"J", @"K", @"L", @"M", @"N", @"O", @"P", @"Q", @"R", @"S", @"T", @"U", @"V", @"W", @"X", @"Y", @"Z"];
-            //        NSString *key = [[self.dataDictionay allKeys] firstObject];
-            //        _keysArray = [[self.dataDictionay[key] allKeys] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
-        }
-    return _keysArray;
-    
-    
+    if (!_lettersArray) {
+        _lettersArray = @[@"A", @"B", @"C", @"D", @"E", @"F", @"G", @"H", @"I", @"J", @"K", @"L", @"M", @"N", @"O", @"P", @"Q", @"R", @"S", @"T", @"U", @"V", @"W", @"X", @"Y", @"Z"];
+    }
+    return _lettersArray;
 }
 
 // build the array of words
 - (NSMutableArray *)dataArray
 {
-    if (!_dataArray)
-        {
+    if (!_dataArray) {
         _dataArray = [NSMutableArray array];
         
         [self buildSystematicWords];
@@ -42,42 +36,37 @@
         [self buildMoralWords];
         [self buildBiblicalWords];
         [self buildSocialWords];
-        }
+    }
     
     return _dataArray;
 }
 
-
-- (NSArray *)keysForCategory:(NSString *)category
-{
-    NSArray *keysArray = self.keysArray;
-    NSArray *keys = [keysArray arrayByAddingObject:category];
-    return keys;
-    
-   // NSDictionary *categoryDict = self.dataDictionay[category];
-    //NSArray *keys = [categoryDict allKeys];
-    //return keys;
-}
-
 - (NSArray *)sectionArrayForSection:(NSInteger)section category:(NSString *)category
 {
-    NSArray *dataArray = self.dataArray;
-    NSArray *terms = self.dataArray[section];
-    //[dataArray arrayByAddingObject:section];
+    // convert section into Letter
+    NSString *letter = self.lettersArray[section];
     
-    NSArray *sectionArray = [dataArray arrayByAddingObject:terms];
-    //[NSArray sectionArrayForSection:section category:category];
-    return sectionArray;
-    
-    //NSDictionary *categoryDict = self.dataDictionay[category];
-    //NSString *key = self.keysArray[section];
-    //NSArray *sectionArray = categoryDict[key];
-    //return sectionArray;
+    // get words that match the section and category
+    NSPredicate *predicate = [NSPredicate predicateWithBlock:^BOOL(id evaluatedObject, NSDictionary *bindings){
+        
+        BOOL match = NO;
+        if ([evaluatedObject isKindOfClass:[Word class]]) {
+            Word *word = (Word *)evaluatedObject;
+            
+            if (category) {
+                match = [[word.category uppercaseString] isEqualToString:[category uppercaseString]] && [[word.name uppercaseString] hasPrefix:[letter uppercaseString]];
+            } else {
+                match = [[word.name uppercaseString] hasPrefix:[letter uppercaseString]];
+            }
+        }
+        return match;
+    }];
+    return [self.dataArray filteredArrayUsingPredicate:predicate];
 }
 
 - (NSInteger)numberOfSectionsInDataSourceCategory:(NSString *)category
 {
-    return self.keysArray.count;
+    return self.lettersArray.count;
 }
 
 - (NSInteger)numberOfRowsInSection:(NSInteger)section forCategory:(NSString *)category
@@ -95,17 +84,17 @@
 
 - (NSString *)titleForHeaderInSection:(NSInteger)section forCategory:(NSString *)category
 {
-    return self.keysArray[section];
+    return self.lettersArray[section];
 }
 
 - (NSArray *)sectionIndexTitlesForCategory:(NSString *)category
 {
-    return self.keysArray;
+    return self.lettersArray;
 }
 
 - (NSInteger)sectionForSectionIndexTitle:(NSString *)title forCategory:(NSString *)category
 {
-    return [self.keysArray indexOfObject:title];
+    return [self.lettersArray indexOfObject:title];
 }
 
 
@@ -2248,20 +2237,6 @@
     
     
     [_dataArray addObjectsFromArray:@[semiotics, sociology, solidarity, spirituality, structuralism, supernormal]];
-    
-    //T
-    
-    //U
-    
-    //V
-    
-    //W
-    
-    //X
-    
-    //Y
-    
-    //Z
 }
 
 @end
