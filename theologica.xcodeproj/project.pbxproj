@@ -204,12 +204,7 @@
 		692ED2501796D552008554F9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				692ED2591796D552008554F9 /* AppDelegate.h */,
-				692ED25A1796D552008554F9 /* AppDelegate.m */,
-				FA84505A1A129CA0007839D8 /* bookmarkListTableViewController.h */,
-				FA84505B1A129CA0007839D8 /* bookmarkListTableViewController.m */,
-				6988A9481A3E8DEB005A1B65 /* MapViewController.h */,
-				6988A9491A3E8DEB005A1B65 /* MapViewController.m */,
+				FA4D5CB01A41BFD9002B40F2 /* Map */,
 				69B7DF611A2127EA0033465A /* Dictionary */,
 				69B7DF641A2128480033465A /* Sources */,
 			);
@@ -220,6 +215,8 @@
 		692ED2511796D552008554F9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				692ED2591796D552008554F9 /* AppDelegate.h */,
+				692ED25A1796D552008554F9 /* AppDelegate.m */,
 				690248B617F05294009D6811 /* bookmark@2x.png */,
 				692ED29E1796EF10008554F9 /* man-influence.png */,
 				692ED29F1796EF10008554F9 /* man-influence@2x.png */,
@@ -263,6 +260,8 @@
 		69B7DF611A2127EA0033465A /* Dictionary */ = {
 			isa = PBXGroup;
 			children = (
+				FA84505A1A129CA0007839D8 /* bookmarkListTableViewController.h */,
+				FA84505B1A129CA0007839D8 /* bookmarkListTableViewController.m */,
 				FA8450571A1285CE007839D8 /* infoButtonViewController.h */,
 				FA8450581A1285CE007839D8 /* infoButtonViewController.m */,
 				692ED2B01796F466008554F9 /* DictionaryTableViewController.h */,
@@ -296,6 +295,15 @@
 			);
 			name = "Data Model";
 			path = theologica;
+			sourceTree = "<group>";
+		};
+		FA4D5CB01A41BFD9002B40F2 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				6988A9481A3E8DEB005A1B65 /* MapViewController.h */,
+				6988A9491A3E8DEB005A1B65 /* MapViewController.m */,
+			);
+			name = Map;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

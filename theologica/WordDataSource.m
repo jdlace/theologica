@@ -116,7 +116,7 @@
     //A
     Word *abba = [[Word alloc] init];
     abba.name = @"Abba";
-    abba.definition = @"The Aramaic term for “Daddy”; used by Jesus in prayer to God in the gospels.";
+    abba.definition = @"The Aramaic term for “Daddy”; used by Jesus in prayer to God in the gospels. ";
     abba.category = @"Biblical";
     
     Word *adonai = [[Word alloc] init];
@@ -190,6 +190,7 @@
     asherah.name = @"Asherah";
     asherah.definition = @"In Canaanite mythology, the wife of El and the goddess of fertility; mentioned numerous times throughout the Old Testament; according to 2 Kings 23:4 a large Asherah idol was housed in the Temple and dressed by her cult's prostitutes before Josiah's Deuteronomic reform.";
     asherah.category = @"Biblical";
+    //asherah.image =
     
     Word *assyria = [[Word alloc] init];
     assyria.name = @"Assyria";
@@ -198,7 +199,7 @@
     
     Word *abortion = [[Word alloc] init];
     abortion.name = @"Abortion";
-    abortion.definition = @"The intentional killing of an unborn human being, who is regarded as sacred from the moment of conception. The death of an unborn as a consequence of other procedures good in themselves is not considered an abortion per se but rather a consequence of the principle of double-effect (See “Principle of Double-Effect”). The Catholic tradition is consistent in its classification of abortion as a grave sin, with the Code of Canon Law declaring those who procure abortions excommunicate themselves from the Church (CIC, 1323-1324). \r\rSee Catechism of the Catholic Church, 2270. See “Roe vs. Wade” in the Cultural category.";
+    abortion.definition = @"The intentional killing of an unborn human being, who is regarded as sacred from the moment of conception. The death of an unborn child as a consequence of other procedures deemed good in themselves is not considered an abortion per se but rather a consequence of the principle of double-effect (See “Principle of Double-Effect”). The Catholic tradition is consistent in its classification of abortion as a grave sin, the willful commision of which incurs an automatic excommunication. \r\rSee Catechism of the Catholic Church, 2270. http://www.vatican.va/archive/ccc_css/archive/catechism/p3s2c2a5.htm. See “Roe vs. Wade”.";
     abortion.category = @"Moral";
     
     Word *abstinence = [[Word alloc] init];
@@ -350,11 +351,6 @@
     anathema.name = @"Anathema";
     anathema.definition = @"The Greek word for 'accursed'; the state of being out of visible communion with the Church";
     anathema.category = @"Systematic";
-    
-    Word *anglican = [[Word alloc] init];
-    anglican.name = @"Anglican Communion";
-    anglican.definition = @"The Church of England...";
-    anglican.category = @"Historical";
     
     Word *annulment = [[Word alloc] init];
     annulment.name = @"Annulment";

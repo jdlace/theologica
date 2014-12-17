@@ -33,38 +33,123 @@
     MKPointAnnotation *jerusalemAnnotation = [[MKPointAnnotation alloc] init];
     jerusalemAnnotation.coordinate = CLLocationCoordinate2DMake(31.7883, 35.2167);
     jerusalemAnnotation.title = @"Jerusalem";
-    jerusalemAnnotation.subtitle = @"The City of David (2 Sam. 24:24)";
+    jerusalemAnnotation.subtitle = @"2 Sam. 24:24";
     
     MKPointAnnotation *romeAnnotation = [[MKPointAnnotation alloc] init];
     romeAnnotation.coordinate = CLLocationCoordinate2DMake(41.9000, 12.5000);
     romeAnnotation.title = @"Rome";
-    romeAnnotation.subtitle = @"The capital of the Roman Empire";
+    romeAnnotation.subtitle = @"Romans 1:2";
     
     MKPointAnnotation *nazarethAnnotation = [[MKPointAnnotation alloc] init];
     nazarethAnnotation.coordinate = CLLocationCoordinate2DMake(32.7019, 35.3033);
     nazarethAnnotation.title = @"Nazareth";
-    nazarethAnnotation.subtitle = @"The hometown of Jesus of Nazareth.";
+    nazarethAnnotation.subtitle = @"Luke 4:16";
     
     MKPointAnnotation *bethEl = [[MKPointAnnotation alloc] init];
     bethEl.coordinate = CLLocationCoordinate2DMake(31.9300, 35.2200);
     bethEl.title = @"Beth-El";
-    bethEl.subtitle = @"One of two worship sites built by Jeroboam I.";
+    bethEl.subtitle = @"1 Kings 12:28";
+    
+    MKPointAnnotation *ephesus = [[MKPointAnnotation alloc] init];
+    ephesus.coordinate = CLLocationCoordinate2DMake(37.9411, 27.3419);
+    ephesus.title = @"Ephesus";
+    ephesus.subtitle = @"Ephesians 1:4";
+    
+    MKPointAnnotation *corinth = [[MKPointAnnotation alloc] init];
+    corinth.coordinate = CLLocationCoordinate2DMake(37.9333, 22.9333);
+    corinth.title = @"Corinth";
+    corinth.subtitle = @"1 Corinthians 1:3";
+    
+    MKPointAnnotation *dan = [[MKPointAnnotation alloc] init];
+    dan.coordinate = CLLocationCoordinate2DMake(33.2490, 35.6520);
+    dan.title = @"Dan";
+    dan.subtitle = @"1 Kings 12: 28";
+    
+    MKPointAnnotation *temple = [[MKPointAnnotation alloc] init];
+    temple.coordinate = CLLocationCoordinate2DMake(31.7780, 35.2358);
+    temple.title = @"The Temple Mount";
+    temple.subtitle = @"1 Kings 6:1";
+    
+    MKPointAnnotation *hazor = [[MKPointAnnotation alloc] init];
+    hazor.coordinate = CLLocationCoordinate2DMake(33.0167, 35.5669);
+    hazor.title = @"Hazor";
+    hazor.subtitle = @"Joshua 11:10";
+    
     
     [self.mapView addAnnotation:jerusalemAnnotation];
     [self.mapView addAnnotation:nazarethAnnotation];
     [self.mapView addAnnotation:romeAnnotation];
     [self.mapView addAnnotation:bethEl];
+    [self.mapView addAnnotation:ephesus];
+    [self.mapView addAnnotation:corinth];
+    [self.mapView addAnnotation:dan];
+    [self.mapView addAnnotation:temple];
+    [self.mapView addAnnotation:hazor];
+    
+
     
 }
+
 /*
-- (MKAnnotationView *)mapView:(MKMapView *)mapView
-            viewForAnnotation:(id<MKAnnotation>)annotation
+- (MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id <MKAnnotation>)annotation
 {
-   
+    // If it's the user location, just return nil.
+    if ([annotation isKindOfClass:[MKUserLocation class]])
+        return nil;
+    
+    // Handle any custom annotations.
+    if ([annotation isKindOfClass:[MKPointAnnotation class]])
+    {
+        // Try to dequeue an existing pin view first.
+        MKPinAnnotationView *pinView = (MKPinAnnotationView*)[mapView dequeueReusableAnnotationViewWithIdentifier:@"CustomPinAnnotationView"];
+        if (!pinView)
+        {
+            // If an existing pin view was not available, create one.
+            pinView = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"CustomPinAnnotationView"];
+            pinView.animatesDrop = YES;
+            //pinView.canShowCallout = YES;
+            pinView.image = [UIImage imageNamed: @"small-pin-map-7"];
+            //pinView.pinColor = MKPinAnnotationColorRed;
+            pinView.calloutOffset = CGPointMake(0, 32);
+        }
+        else
+        {
+            pinView.annotation = annotation;
+        }
+        
+        
+        // Add a detail disclosure button to the callout.
+        //UIButton* rightButton = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
+        //pinView.rightCalloutAccessoryView = rightButton;
+        
+        //Add an image to the left callout.
+        UIImageView *iconView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"small-pin-map-7"]];
+        pinView.leftCalloutAccessoryView = iconView;
+        
+        
+        return pinView;
+        
+        
+    }
+    return nil;
     
 }
- 
  */
+
+/*
+-(void)mapView:(MKMapView *)mapView annotationView:(MKAnnotationView *)view calloutAccessoryControlTapped:(UIControl *)control
+{
+    id <MKAnnotation> annotation = [view annotation];
+   
+    if ([annotation isKindOfClass:[MKPointAnnotation class]])
+    {
+        NSLog(@"Clicked Pizza Shop");
+    }
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"More Info" message:@"Click Cancel to Go Back" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"OK", nil];
+    [alertView show];
+    
+}
+*/
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
