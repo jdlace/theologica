@@ -78,7 +78,7 @@
     //self.searchController.searchBar.
     
     self.searchController.dimsBackgroundDuringPresentation = YES;
-    self.searchController.searchBar.searchBarStyle = UISearchBarStyleDefault;
+    self.searchController.searchBar.searchBarStyle = UISearchBarStyleProminent;
     self.searchController.searchBar.tintColor = [UIColor whiteColor];
     self.searchController.searchBar.returnKeyType = UIReturnKeySearch;
     
