@@ -7,6 +7,7 @@
 //
 
 #import "MapViewController.h"
+#import "MapDetailViewController.h"
 #import <CoreLocation/CoreLocation.h>
 
 @interface MapViewController ()
@@ -15,9 +16,22 @@
 
 @implementation MapViewController
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    // restore the nav bar to translucent
+    self.navigationController.navigationBar.barStyle = UIBarStyleDefault;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    // create a custom navigation bar button and set it to always says "Back"
+    UIBarButtonItem *temporaryBarButtonItem = [[UIBarButtonItem alloc] init];
+    temporaryBarButtonItem.title = @"Back";
+    self.navigationItem.backBarButtonItem = temporaryBarButtonItem;
     
     //Create a region and zoom level for the intial view of the map. 
     MKCoordinateSpan span = MKCoordinateSpanMake(40.0f,40.0001f);
@@ -25,7 +39,6 @@
     MKCoordinateRegion region = {coordinate, span};
     
     MKCoordinateRegion regionThatFits = [self.mapView regionThatFits:region];
-    NSLog(@"Fit Region %f %f", regionThatFits.center.latitude, regionThatFits.center.longitude);
     
     [self.mapView setRegion:regionThatFits animated:YES];
  
@@ -90,7 +103,7 @@
     
 }
 
-/*
+
 - (MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id <MKAnnotation>)annotation
 {
     // If it's the user location, just return nil.
@@ -106,8 +119,8 @@
         {
             // If an existing pin view was not available, create one.
             pinView = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"CustomPinAnnotationView"];
-            pinView.animatesDrop = YES;
-            //pinView.canShowCallout = YES;
+            //pinView.animatesDrop = YES;
+            pinView.canShowCallout = YES;
             pinView.image = [UIImage imageNamed: @"small-pin-map-7"];
             //pinView.pinColor = MKPinAnnotationColorRed;
             pinView.calloutOffset = CGPointMake(0, 32);
@@ -119,12 +132,12 @@
         
         
         // Add a detail disclosure button to the callout.
-        //UIButton* rightButton = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
-        //pinView.rightCalloutAccessoryView = rightButton;
+        UIButton* rightButton = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
+        pinView.rightCalloutAccessoryView = rightButton;
         
         //Add an image to the left callout.
-        UIImageView *iconView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"small-pin-map-7"]];
-        pinView.leftCalloutAccessoryView = iconView;
+        //UIImageView *iconView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"IMG_0429"]];
+        //pinView.leftCalloutAccessoryView = iconView;
         
         
         return pinView;
@@ -134,22 +147,22 @@
     return nil;
     
 }
- */
 
-/*
+
+
 -(void)mapView:(MKMapView *)mapView annotationView:(MKAnnotationView *)view calloutAccessoryControlTapped:(UIControl *)control
 {
-    id <MKAnnotation> annotation = [view annotation];
    
-    if ([annotation isKindOfClass:[MKPointAnnotation class]])
-    {
-        NSLog(@"Clicked Pizza Shop");
-    }
-    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"More Info" message:@"Click Cancel to Go Back" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"OK", nil];
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Info"
+                                                        message:@"Site description here."
+                                                       delegate:self
+                                              cancelButtonTitle:@"OK"
+                                              otherButtonTitles:nil];
     [alertView show];
     
+    
 }
-*/
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

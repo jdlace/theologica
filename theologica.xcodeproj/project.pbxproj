@@ -40,6 +40,7 @@
 		69FB18EB1A0051C500F1C9A4 /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = 69FB18EA1A0051C500F1C9A4 /* Word.m */; };
 		9BAC0B451A1C4BA1004C4867 /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BAC0B431A1C4BA1004C4867 /* appicon.png */; };
 		9BAC0B461A1C4BA1004C4867 /* appicon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BAC0B441A1C4BA1004C4867 /* appicon2.png */; };
+		FA0BAF781A4333DE00AF6DFB /* MapDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0BAF771A4333DE00AF6DFB /* MapDetailViewController.m */; };
 		FA3683CD1A1144F300E9740F /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3683CC1A1144F300E9740F /* Social.framework */; };
 		FA3683D31A1155AA00E9740F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3683D21A1155AA00E9740F /* MobileCoreServices.framework */; };
 		FA8450591A1285CE007839D8 /* infoButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8450581A1285CE007839D8 /* infoButtonViewController.m */; };
@@ -119,6 +120,8 @@
 		69FB18EA1A0051C500F1C9A4 /* Word.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Word.m; sourceTree = "<group>"; };
 		9BAC0B431A1C4BA1004C4867 /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon.png; sourceTree = "<group>"; };
 		9BAC0B441A1C4BA1004C4867 /* appicon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon2.png; sourceTree = "<group>"; };
+		FA0BAF761A4333DE00AF6DFB /* MapDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapDetailViewController.h; sourceTree = "<group>"; };
+		FA0BAF771A4333DE00AF6DFB /* MapDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapDetailViewController.m; sourceTree = "<group>"; };
 		FA3683CC1A1144F300E9740F /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		FA3683D21A1155AA00E9740F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		FA8450571A1285CE007839D8 /* infoButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = infoButtonViewController.h; path = ../infoButtonViewController.h; sourceTree = "<group>"; };
@@ -302,6 +305,8 @@
 			children = (
 				6988A9481A3E8DEB005A1B65 /* MapViewController.h */,
 				6988A9491A3E8DEB005A1B65 /* MapViewController.m */,
+				FA0BAF761A4333DE00AF6DFB /* MapDetailViewController.h */,
+				FA0BAF771A4333DE00AF6DFB /* MapDetailViewController.m */,
 			);
 			name = Map;
 			sourceTree = "<group>";
@@ -429,6 +434,7 @@
 				FA8450591A1285CE007839D8 /* infoButtonViewController.m in Sources */,
 				FA84505C1A129CA0007839D8 /* bookmarkListTableViewController.m in Sources */,
 				692ED2CD1796F58F008554F9 /* BiblicalTableViewController.m in Sources */,
+				FA0BAF781A4333DE00AF6DFB /* MapDetailViewController.m in Sources */,
 				69FB18EB1A0051C500F1C9A4 /* Word.m in Sources */,
 				6988A94A1A3E8DEB005A1B65 /* MapViewController.m in Sources */,
 			);

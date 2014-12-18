@@ -219,7 +219,7 @@
 
     Word *absolution = [[Word alloc] init];
     absolution.name = @"Absolution";
-    absolution.definition = @"the act by which a priest declares the forgiveness of sins";
+    absolution.definition = @"The act by which a priest declares the forgiveness of sins.";
     absolution.category = @"Systematic";
     
     Word *adoptionism = [[Word alloc] init];
@@ -309,7 +309,7 @@
     
     Word *angusDei = [[Word alloc] init];
     angusDei.name = @"Agnus Dei";
-    angusDei.definition = @"Part of Mass that begins 'Lamb of God...'.";
+    angusDei.definition = @"The sequence of Mass that begins 'Lamb of God' chanted 3 times before the distribution of the Eucharist.";
     angusDei.category = @"Liturgical";
     
     Word *advent = [[Word alloc] init];
@@ -355,7 +355,7 @@
     Word *annulment = [[Word alloc] init];
     annulment.name = @"Annulment";
     annulment.definition = @"An ecclesial declaration that a valid marriage never existed....";
-    annulment.definition = @"Systematic";
+    annulment.category = @"Systematic";
     
     Word *antiphon = [[Word alloc] init];
     antiphon.name = @"Antiphon";
@@ -454,8 +454,8 @@
     
     Word *baptistry = [[Word alloc] init];
     baptistry.name = @"Baptistry";
-    baptistry.definition = @"the place within a church used for baptism; usually referred to as a 'font'.";
-    baptism.category = @"Liturgical";
+    baptistry.definition = @"The place within a church used for baptism; usually referred to as a 'font'.";
+    baptistry.category = @"Liturgical";
     
     Word *basillica = [[Word alloc] init];
     basillica.name = @"Basillica";
@@ -1286,6 +1286,10 @@
     newTestament.definition = @"The second of two major sections of the Bible; 27 books dealing with the life of Jesus of Nazareth and his followers; contains the 4 gospels, the Acts of the Apostles, numerous epistles, and the Apocalypse.";
     newTestament.category = @"Biblical";
     
+    Word *niceneCo = [[Word alloc] init];
+    niceneCo.name = @"Nicene-Constantiopolitan Creed";
+    niceneCo.definition = @"The creed initially formulated at the Council of Constantinople in A.D. 321 and based on the prior Nicene Creed in A.D. 325. \r\r“We believe in one God, the Father, the Almighty, maker of heaven and earth, of all that is, seen and unseen. \r\rWe believe one Lord, Jesus Christ, the only Son of God, eternally begotten of the Father, God from God, Light from Light, true God from true God, begotten, not made, one in Being with the Father. Through Him all things were made. For us men and for our salvation, He came down from heaven: by the power of the Holy Spirit He was born of the Virgin Mary, and became Man. For our sake He was crucified under Pontius Pilate. He suffered, died, and was buried. On the third day He rose again in fulfillment of the Scriptures; He ascended into heaven, and is seated at the right hand of the Father. He will come again in glory to judge the living and the dead, and His kingdom will have no end. \r\rWe believe in the Holy Spirit, the Lord, the Giver of life, Who proceeds from the Father and the Son. With the Father and the Son He is worshiped and glorified. He has spoken through the prophets.\r\rWe believe in one, holy, catholic, and apostolic Church. We acknowledge one Baptism for the forgiveness of sins. We look for the resurrection of the dead, and the life of the world to come. Amen.”";
+    
     Word *numinous = [[Word alloc] init];
     numinous.name = @"Numinous";
     numinous.definition = @"The category of religous experience as defined by Rudoph Otto.";
@@ -1297,7 +1301,7 @@
     naturalism.category = @"Cultural";
 
     
-    [_dataArray addObjectsFromArray:@[naturalism, naturalTheo, neviim, newTestament, numinous]];
+    [_dataArray addObjectsFromArray:@[naturalism, naturalTheo, neviim, newTestament, numinous, niceneCo]];
     
     //O
     
@@ -1352,7 +1356,7 @@
     oracle.category = @"Biblical";
     
     Word *oral = [[Word alloc] init];
-    oral.name = @"Oral Rradition";
+    oral.name = @"Oral Tradition";
     oral.definition = @"The transmission of stories and beliefs by word of mouth.";
     oral.category = @"Biblical";
 

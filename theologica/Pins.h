@@ -10,4 +10,7 @@
 
 @interface Pins : MKPointAnnotation
 
+@property (copy, nonatomic) NSString *title;
+@property (copy, nonatomic) NSString *information; 
+
 @end
