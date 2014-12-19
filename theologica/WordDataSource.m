@@ -116,7 +116,7 @@
     //A
     Word *abba = [[Word alloc] init];
     abba.name = @"Abba";
-    abba.definition = @"The Aramaic term for “Daddy”; used by Jesus in prayer to God in the gospels. ";
+    abba.definition = @"The Aramaic term for “Daddy”; used by Jesus in prayer to God according to the gospels. Paul claims that Christians also use the term because of their filial adoption; “Because you are sons, God has sent the Spirit of his Son into our hearts, crying, 'Abba! Father!'” (Gal 4:6)  \r\rSee Catechism of the Catholic Church, 683 http://www.vatican.va/archive/ccc_css/archive/catechism/p1s2c3.htm#683.";
     abba.category = @"Biblical";
     
     Word *adonai = [[Word alloc] init];
@@ -131,7 +131,7 @@
     
     Word *anthropomorphism = [[Word alloc] init];
     anthropomorphism.name = @"Anthropomorphism";
-    anthropomorphism.definition = @"The attribution of human characteristics to a non-human object. The J Source uses anthropomorphism extensively in its portrayal of YHWH.";
+    anthropomorphism.definition = @"The attribution of human characteristics to a non-human object. The Yahwist Source uses anthropomorphism extensively in its portrayal of YHWH in the Torah. See “Yahwist Source”";
     anthropomorphism.category = @"Biblical";
     
     /*
@@ -245,7 +245,7 @@
     Word *agape = [[Word alloc] init];
     agape.name = @"Agape";
     agape.definition = @"1. The Greek word (αγαπη) meaning “universal and unconditional will for the good of another”. The gospel writers use this word to describe Jesus' teaching on the love of God as well as the love for God, neighbors and enemies (Matthew 5:44, 22:37, 39). 2. The early Christian communal meal after which the Eucharist was celebrated (Jude 1:12). \r\rSee “Deus Caritas Est” by Pope Benedict XVI. http://www.vatican.va/holy_father/benedict_xvi/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est_en.html";
-    agape.category = @"Systematic";
+    agape.category = @"Moral";
 
     Word *aggiornomento = [[Word alloc] init];
     aggiornomento.name = @"Aggiornomento";
@@ -869,6 +869,11 @@
     epistle.definition = @"A letter sent by an apostle.";
     epistle.category = @"Biblical";
     
+    Word *eros = [[Word alloc] init];
+    eros.name = @"Eros";
+    eros.definition = @"The Greek term for physical love; the love that seeks to possess";
+    eros.category = @"Moral";
+    
     Word *etiology = [[Word alloc] init];
     etiology.name = @"Etiology";
     etiology.definition = @"A traditional story that explains a contemporary situation.";
@@ -920,7 +925,7 @@
     explanans.category = @"Cultural";
 
     
-    [_dataArray addObjectsFromArray:@[ecumenism, economic, el, election, elementary, elohim, elohistSource, epistemology, epistle, eschatology, essence, ethics, etiology, eucharist, evangelist, exclusivism, exegesis, exile, existential, exNihilo, explanandum, explanans, exodus, exOpere]];
+    [_dataArray addObjectsFromArray:@[ecumenism, economic, el, election, elementary, elohim, elohistSource, epistemology, epistle, eros, eschatology, essence, ethics, etiology, eucharist, evangelist, exclusivism, exegesis, exile, existential, exNihilo, explanandum, explanans, exodus, exOpere]];
     
     //F
     
@@ -1271,6 +1276,11 @@
     
     //N
     
+    Word *natural  = [[Word alloc] init];
+    natural.name = @"Natural Law";
+    natural.definition = @"The universal moral norm, accessible by human reason...";
+    natural.category = @"Moral";
+    
     Word *naturalTheo = [[Word alloc] init];
     naturalTheo.name = @"Natural Theology";
     naturalTheo.definition = @"The study of God by inference from the facts of the physical world.";
@@ -1301,7 +1311,7 @@
     naturalism.category = @"Cultural";
 
     
-    [_dataArray addObjectsFromArray:@[naturalism, naturalTheo, neviim, newTestament, numinous, niceneCo]];
+    [_dataArray addObjectsFromArray:@[natural, naturalism, naturalTheo, neviim, newTestament, numinous, niceneCo]];
     
     //O
     
@@ -1385,6 +1395,11 @@
     predestination.definition = @"The belief that God has fixed the destiny of certain individuals...";
     predestination.category = @"Systematic";
     
+    Word *principle = [[Word alloc] init];
+    principle.name = @"Pinciple of Double Effect";
+    principle.definition = @"The principle which states....";
+    principle.category = @"Moral";
+    
     Word *processTheo = [[Word alloc] init];
     processTheo.name = @"Process Theology";
     processTheo.definition = @"The theological school of thought based primarily on the thought of Alfred North Whitehead.";
@@ -1460,7 +1475,7 @@
     problem.definition = @"The philosophical problem that results from belief in Divine omniscience, omnipotence, and omnibenevolence and the experience of suffering and evil in the world....";
     problem.category = @"Cultural";
 
-    [_dataArray addObjectsFromArray:@[parable, papyrus, passover, pentateuch, pericope, person, pharisee, philosophy, physicalism, pluralism, polytheism, predestination, priestly, primeval, problem, processTheo, prophet, prophetic, protestant]];
+    [_dataArray addObjectsFromArray:@[parable, papyrus, passover, pentateuch, pericope, person, pharisee, philosophy, physicalism, pluralism, polytheism, predestination, priestly, primeval, problem, processTheo, prophet, prophetic, protestant, principle]];
     
     //Q
     
@@ -1472,7 +1487,7 @@
     Word *quintessence = [[Word alloc] init];
     quintessence.name = @"Quintessence";
     quintessence.definition = @"A term meaning “fifth essence”; used by Aristotle to refer to a substance higher than the four on earth.";
-    quintessence.category = @"Systematic";
+    quintessence.category = @"Cultural";
     
     [_dataArray addObjectsFromArray:@[q, quintessence]];
     
@@ -1490,7 +1505,7 @@
     
     Word *ressourcement = [[Word alloc] init];
     ressourcement.name = @"Ressourcement";
-    ressourcement.definition = @"A French term meaning “to return to the sources”; used by some theologians as the preferred interpretation of the purpose of Vatican II...\r\rSee 'aggiornomento'.";
+    ressourcement.definition = @"A French term meaning “to return to the sources”; used by some theologians as the preferred interpretation of the purpose of Vatican II...\r\rSee “Aggiornomento”.";
     ressourcement.category = @"Systematic";
     
     Word *resurrection = [[Word alloc] init];
