@@ -34,9 +34,11 @@
 		69989B0B19FF2FC70009ABAE /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69989B0A19FF2FC70009ABAE /* MainInterface.storyboard */; };
 		69989B0E19FF2FC70009ABAE /* Theologica.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 69989B0219FF2FC60009ABAE /* Theologica.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		69B52BAB1A0EF6C100C23B47 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69B52BAA1A0EF6C100C23B47 /* Launch Screen.xib */; };
-		69B8D9381A4122B300186EA2 /* Pins.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B8D9371A4122B300186EA2 /* Pins.m */; };
+		69B8D9381A4122B300186EA2 /* BiblicalPins.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B8D9371A4122B300186EA2 /* BiblicalPins.m */; };
 		69B8D93A1A4138B600186EA2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B8D9391A4138B600186EA2 /* CoreLocation.framework */; };
 		69BB25491A130F2E00B3F5B5 /* WordDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 69BB25481A130F2E00B3F5B5 /* WordDataSource.m */; };
+		69D6284C1A47617B0073C157 /* HistoricalPins.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D6284B1A47617B0073C157 /* HistoricalPins.m */; };
+		69D6284F1A4762830073C157 /* SocialPins.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D6284E1A4762830073C157 /* SocialPins.m */; };
 		69FB18EB1A0051C500F1C9A4 /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = 69FB18EA1A0051C500F1C9A4 /* Word.m */; };
 		9BAC0B451A1C4BA1004C4867 /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BAC0B431A1C4BA1004C4867 /* appicon.png */; };
 		9BAC0B461A1C4BA1004C4867 /* appicon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BAC0B441A1C4BA1004C4867 /* appicon2.png */; };
@@ -111,11 +113,15 @@
 		69989B0819FF2FC70009ABAE /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
 		69989B0A19FF2FC70009ABAE /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
 		69B52BAA1A0EF6C100C23B47 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
-		69B8D9361A4122B300186EA2 /* Pins.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pins.h; sourceTree = "<group>"; };
-		69B8D9371A4122B300186EA2 /* Pins.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pins.m; sourceTree = "<group>"; };
+		69B8D9361A4122B300186EA2 /* BiblicalPins.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BiblicalPins.h; sourceTree = "<group>"; };
+		69B8D9371A4122B300186EA2 /* BiblicalPins.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BiblicalPins.m; sourceTree = "<group>"; };
 		69B8D9391A4138B600186EA2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		69BB25471A130F2E00B3F5B5 /* WordDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordDataSource.h; sourceTree = "<group>"; };
 		69BB25481A130F2E00B3F5B5 /* WordDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordDataSource.m; sourceTree = "<group>"; };
+		69D6284A1A47617B0073C157 /* HistoricalPins.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoricalPins.h; sourceTree = "<group>"; };
+		69D6284B1A47617B0073C157 /* HistoricalPins.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoricalPins.m; sourceTree = "<group>"; };
+		69D6284D1A4762830073C157 /* SocialPins.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialPins.h; sourceTree = "<group>"; };
+		69D6284E1A4762830073C157 /* SocialPins.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialPins.m; sourceTree = "<group>"; };
 		69FB18E91A0051C500F1C9A4 /* Word.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Word.h; sourceTree = "<group>"; };
 		69FB18EA1A0051C500F1C9A4 /* Word.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Word.m; sourceTree = "<group>"; };
 		9BAC0B431A1C4BA1004C4867 /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon.png; sourceTree = "<group>"; };
@@ -293,8 +299,12 @@
 				69FB18EA1A0051C500F1C9A4 /* Word.m */,
 				69BB25471A130F2E00B3F5B5 /* WordDataSource.h */,
 				69BB25481A130F2E00B3F5B5 /* WordDataSource.m */,
-				69B8D9361A4122B300186EA2 /* Pins.h */,
-				69B8D9371A4122B300186EA2 /* Pins.m */,
+				69B8D9361A4122B300186EA2 /* BiblicalPins.h */,
+				69B8D9371A4122B300186EA2 /* BiblicalPins.m */,
+				69D6284A1A47617B0073C157 /* HistoricalPins.h */,
+				69D6284B1A47617B0073C157 /* HistoricalPins.m */,
+				69D6284D1A4762830073C157 /* SocialPins.h */,
+				69D6284E1A4762830073C157 /* SocialPins.m */,
 			);
 			name = "Data Model";
 			path = theologica;
@@ -424,13 +434,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69B8D9381A4122B300186EA2 /* Pins.m in Sources */,
+				69B8D9381A4122B300186EA2 /* BiblicalPins.m in Sources */,
 				692ED2571796D552008554F9 /* main.m in Sources */,
 				692ED25B1796D552008554F9 /* AppDelegate.m in Sources */,
+				69D6284F1A4762830073C157 /* SocialPins.m in Sources */,
 				69BB25491A130F2E00B3F5B5 /* WordDataSource.m in Sources */,
 				692ED2B21796F466008554F9 /* DictionaryTableViewController.m in Sources */,
 				69739B561A36897F008BAB06 /* SearchBarViewController.m in Sources */,
 				692ED2B51796F48B008554F9 /* WordDetailViewController.m in Sources */,
+				69D6284C1A47617B0073C157 /* HistoricalPins.m in Sources */,
 				FA8450591A1285CE007839D8 /* infoButtonViewController.m in Sources */,
 				FA84505C1A129CA0007839D8 /* bookmarkListTableViewController.m in Sources */,
 				692ED2CD1796F58F008554F9 /* BiblicalTableViewController.m in Sources */,

@@ -8,9 +8,11 @@
 
 #import <MapKit/MapKit.h>
 
-@interface Pins : MKPointAnnotation
+@interface BiblicalPins : NSObject <MKAnnotation>
 
 @property (copy, nonatomic) NSString *title;
+@property (copy, nonatomic) NSString *subtitle;
+@property (nonatomic, assign) CLLocationCoordinate2D coordinate; 
 @property (copy, nonatomic) NSString *information; 
 
 @end

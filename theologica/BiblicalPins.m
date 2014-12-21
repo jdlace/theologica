@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 techrament. All rights reserved.
 //
 
-#import "Pins.h"
+#import "BiblicalPins.h"
 
-@implementation Pins
+@implementation BiblicalPins
 
 @end

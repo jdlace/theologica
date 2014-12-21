@@ -12,5 +12,9 @@
 @interface MapViewController : UIViewController <MKMapViewDelegate>
 
 @property (strong, nonatomic) IBOutlet MKMapView *mapView;
+- (IBAction)biblicalButton:(id)sender;
+- (IBAction)historicalButton:(id)sender;
+- (IBAction)socialButton:(id)sender;
+- (IBAction)allButton:(id)sender;
 
 @end

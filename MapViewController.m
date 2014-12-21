@@ -9,6 +9,9 @@
 #import "MapViewController.h"
 #import "MapDetailViewController.h"
 #import <CoreLocation/CoreLocation.h>
+#import "BiblicalPins.h"
+#import "HistoricalPins.h"
+#import "SocialPins.h"
 
 @interface MapViewController ()
 
@@ -28,6 +31,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    [self.mapView setDelegate:self];
+    
     // create a custom navigation bar button and set it to always says "Back"
     UIBarButtonItem *temporaryBarButtonItem = [[UIBarButtonItem alloc] init];
     temporaryBarButtonItem.title = @"Back";
@@ -42,65 +47,75 @@
     
     [self.mapView setRegion:regionThatFits animated:YES];
  
-
-    MKPointAnnotation *jerusalemAnnotation = [[MKPointAnnotation alloc] init];
-    jerusalemAnnotation.coordinate = CLLocationCoordinate2DMake(31.7883, 35.2167);
-    jerusalemAnnotation.title = @"Jerusalem";
-    jerusalemAnnotation.subtitle = @"2 Sam. 24:24";
+/*
+    BiblicalPins *jerusalem = [[BiblicalPins alloc] init];
+    jerusalem.coordinate = CLLocationCoordinate2DMake(31.7883, 35.2167);
+    jerusalem.title = @"Jerusalem";
+    jerusalem.subtitle = @"2 Sam. 24:24";
     
-    MKPointAnnotation *romeAnnotation = [[MKPointAnnotation alloc] init];
-    romeAnnotation.coordinate = CLLocationCoordinate2DMake(41.9000, 12.5000);
-    romeAnnotation.title = @"Rome";
-    romeAnnotation.subtitle = @"Romans 1:2";
+    BiblicalPins *rome = [[BiblicalPins alloc] init];
+    rome.coordinate = CLLocationCoordinate2DMake(41.9000, 12.5000);
+    rome.title = @"Rome";
+    rome.subtitle = @"Romans 1:2";
     
-    MKPointAnnotation *nazarethAnnotation = [[MKPointAnnotation alloc] init];
-    nazarethAnnotation.coordinate = CLLocationCoordinate2DMake(32.7019, 35.3033);
-    nazarethAnnotation.title = @"Nazareth";
-    nazarethAnnotation.subtitle = @"Luke 4:16";
+    BiblicalPins *nazareth = [[BiblicalPins alloc] init];
+    nazareth.coordinate = CLLocationCoordinate2DMake(32.7019, 35.3033);
+    nazareth.title = @"Nazareth";
+    nazareth.subtitle = @"Luke 4:16";
     
-    MKPointAnnotation *bethEl = [[MKPointAnnotation alloc] init];
+    BiblicalPins *bethEl = [[BiblicalPins alloc] init];
     bethEl.coordinate = CLLocationCoordinate2DMake(31.9300, 35.2200);
     bethEl.title = @"Beth-El";
     bethEl.subtitle = @"1 Kings 12:28";
     
-    MKPointAnnotation *ephesus = [[MKPointAnnotation alloc] init];
+    BiblicalPins *ephesus = [[BiblicalPins alloc] init];
     ephesus.coordinate = CLLocationCoordinate2DMake(37.9411, 27.3419);
     ephesus.title = @"Ephesus";
     ephesus.subtitle = @"Ephesians 1:4";
     
-    MKPointAnnotation *corinth = [[MKPointAnnotation alloc] init];
+    BiblicalPins *corinth = [[BiblicalPins alloc] init];
     corinth.coordinate = CLLocationCoordinate2DMake(37.9333, 22.9333);
     corinth.title = @"Corinth";
     corinth.subtitle = @"1 Corinthians 1:3";
     
-    MKPointAnnotation *dan = [[MKPointAnnotation alloc] init];
+    BiblicalPins *dan = [[BiblicalPins alloc] init];
     dan.coordinate = CLLocationCoordinate2DMake(33.2490, 35.6520);
     dan.title = @"Dan";
     dan.subtitle = @"1 Kings 12: 28";
     
-    MKPointAnnotation *temple = [[MKPointAnnotation alloc] init];
+    BiblicalPins *temple = [[BiblicalPins alloc] init];
     temple.coordinate = CLLocationCoordinate2DMake(31.7780, 35.2358);
     temple.title = @"The Temple Mount";
     temple.subtitle = @"1 Kings 6:1";
     
-    MKPointAnnotation *hazor = [[MKPointAnnotation alloc] init];
+    BiblicalPins *hazor = [[BiblicalPins alloc] init];
     hazor.coordinate = CLLocationCoordinate2DMake(33.0167, 35.5669);
     hazor.title = @"Hazor";
     hazor.subtitle = @"Joshua 11:10";
     
+    HistoricalPins *nicea = [[HistoricalPins alloc] init];
+    nicea.coordinate = CLLocationCoordinate2DMake(40.2574, 29.4317);
+    nicea.title = @"Nicea";
+    nicea.subtitle = @"A.D. 325, First Ecumenical Council";
     
-    [self.mapView addAnnotation:jerusalemAnnotation];
-    [self.mapView addAnnotation:nazarethAnnotation];
-    [self.mapView addAnnotation:romeAnnotation];
+    SocialPins *greenland = [[SocialPins alloc] init];
+    greenland.coordinate = CLLocationCoordinate2DMake(72.0000, -40.0000);
+    greenland.title = @"Greenland";
+    greenland.subtitle = @"Glacial Melt";
+    
+    
+    [self.mapView addAnnotation:jerusalem];
+    [self.mapView addAnnotation:nazareth];
+    [self.mapView addAnnotation:rome];
     [self.mapView addAnnotation:bethEl];
     [self.mapView addAnnotation:ephesus];
     [self.mapView addAnnotation:corinth];
     [self.mapView addAnnotation:dan];
     [self.mapView addAnnotation:temple];
     [self.mapView addAnnotation:hazor];
-    
-
-    
+    [self.mapView addAnnotation:nicea];
+    [self.mapView addAnnotation:greenland]; 
+    */
 }
 
 
@@ -108,10 +123,13 @@
 {
     // If it's the user location, just return nil.
     if ([annotation isKindOfClass:[MKUserLocation class]])
+        {
         return nil;
+        }
+    
     
     // Handle any custom annotations.
-    if ([annotation isKindOfClass:[MKPointAnnotation class]])
+    if ([annotation isKindOfClass:[BiblicalPins class]])
     {
         // Try to dequeue an existing pin view first.
         MKPinAnnotationView *pinView = (MKPinAnnotationView*)[mapView dequeueReusableAnnotationViewWithIdentifier:@"CustomPinAnnotationView"];
@@ -119,31 +137,69 @@
         {
             // If an existing pin view was not available, create one.
             pinView = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"CustomPinAnnotationView"];
-            //pinView.animatesDrop = YES;
+            pinView.animatesDrop = YES;
             pinView.canShowCallout = YES;
-            pinView.image = [UIImage imageNamed: @"small-pin-map-7"];
-            //pinView.pinColor = MKPinAnnotationColorRed;
+            //pinView.image = [UIImage imageNamed: @"small-pin-map-7"];
+            pinView.pinColor = MKPinAnnotationColorGreen;
             pinView.calloutOffset = CGPointMake(0, 32);
+        
+        return pinView;
+        
         }
-        else
+    }
+    else if ([annotation isKindOfClass:[HistoricalPins class]])
+    {
+        // Try to dequeue an existing pin view first.
+        MKPinAnnotationView *pinView = (MKPinAnnotationView*)[mapView dequeueReusableAnnotationViewWithIdentifier:@"CustomPinAnnotationView"];
+        if (!pinView)
+        {
+            // If an existing pin view was not available, create one.
+            pinView = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"CustomPinAnnotationView"];
+            pinView.animatesDrop = YES;
+            pinView.canShowCallout = YES;
+            //pinView.image = [UIImage imageNamed: @"small-pin-map-7"];
+            pinView.pinColor = MKPinAnnotationColorPurple;
+            pinView.calloutOffset = CGPointMake(0, 32);
+        
+        return pinView;
+        
+        }
+            
+    }
+    else if ([annotation isKindOfClass:[SocialPins class]])
+    {
+        // Try to dequeue an existing pin view first.
+        MKPinAnnotationView *pinView = (MKPinAnnotationView*)[mapView dequeueReusableAnnotationViewWithIdentifier:@"CustomPinAnnotationView"];
+        if (!pinView)
+        {
+            // If an existing pin view was not available, create one.
+            pinView = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"CustomPinAnnotationView"];
+            pinView.animatesDrop = YES;
+            pinView.canShowCallout = YES;
+            //pinView.image = [UIImage imageNamed: @"small-pin-map-7"];
+            pinView.pinColor = MKPinAnnotationColorRed;
+            pinView.calloutOffset = CGPointMake(0, 32);
+        
+        }
+    
+    else
         {
             pinView.annotation = annotation;
         }
-        
-        
+    
+    return pinView;
+    
+
+    }
+    
         // Add a detail disclosure button to the callout.
-        UIButton* rightButton = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
-        pinView.rightCalloutAccessoryView = rightButton;
+        //UIButton* rightButton = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
+        //pinView.rightCalloutAccessoryView = rightButton;
         
         //Add an image to the left callout.
         //UIImageView *iconView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"IMG_0429"]];
         //pinView.leftCalloutAccessoryView = iconView;
-        
-        
-        return pinView;
-        
-        
-    }
+    
     return nil;
     
 }
@@ -152,14 +208,14 @@
 
 -(void)mapView:(MKMapView *)mapView annotationView:(MKAnnotationView *)view calloutAccessoryControlTapped:(UIControl *)control
 {
-   
+   /*
     UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Info"
                                                         message:@"Site description here."
                                                        delegate:self
                                               cancelButtonTitle:@"OK"
                                               otherButtonTitles:nil];
     [alertView show];
-    
+    */
     
 }
 
@@ -179,4 +235,146 @@
 }
 */
 
+- (IBAction)biblicalButton:(id)sender
+{
+    [self.mapView removeAnnotations:self.mapView.annotations];
+    
+    BiblicalPins *jerusalem = [[BiblicalPins alloc] init];
+    jerusalem.coordinate = CLLocationCoordinate2DMake(31.7883, 35.2167);
+    jerusalem.title = @"Jerusalem";
+    jerusalem.subtitle = @"2 Sam. 24:24";
+    
+    BiblicalPins *rome = [[BiblicalPins alloc] init];
+    rome.coordinate = CLLocationCoordinate2DMake(41.9000, 12.5000);
+    rome.title = @"Rome";
+    rome.subtitle = @"Romans 1:2";
+    
+    BiblicalPins *nazareth = [[BiblicalPins alloc] init];
+    nazareth.coordinate = CLLocationCoordinate2DMake(32.7019, 35.3033);
+    nazareth.title = @"Nazareth";
+    nazareth.subtitle = @"Luke 4:16";
+    
+    BiblicalPins *bethEl = [[BiblicalPins alloc] init];
+    bethEl.coordinate = CLLocationCoordinate2DMake(31.9300, 35.2200);
+    bethEl.title = @"Beth-El";
+    bethEl.subtitle = @"1 Kings 12:28";
+    
+    BiblicalPins *ephesus = [[BiblicalPins alloc] init];
+    ephesus.coordinate = CLLocationCoordinate2DMake(37.9411, 27.3419);
+    ephesus.title = @"Ephesus";
+    ephesus.subtitle = @"Ephesians 1:4";
+    
+    BiblicalPins *corinth = [[BiblicalPins alloc] init];
+    corinth.coordinate = CLLocationCoordinate2DMake(37.9333, 22.9333);
+    corinth.title = @"Corinth";
+    corinth.subtitle = @"1 Corinthians 1:3";
+    
+    BiblicalPins *dan = [[BiblicalPins alloc] init];
+    dan.coordinate = CLLocationCoordinate2DMake(33.2490, 35.6520);
+    dan.title = @"Dan";
+    dan.subtitle = @"1 Kings 12: 28";
+    
+    BiblicalPins *temple = [[BiblicalPins alloc] init];
+    temple.coordinate = CLLocationCoordinate2DMake(31.7780, 35.2358);
+    temple.title = @"The Temple Mount";
+    temple.subtitle = @"1 Kings 6:1";
+    
+    BiblicalPins *hazor = [[BiblicalPins alloc] init];
+    hazor.coordinate = CLLocationCoordinate2DMake(33.0167, 35.5669);
+    hazor.title = @"Hazor";
+    hazor.subtitle = @"Joshua 11:10";
+    
+    NSArray *annotations = [NSArray arrayWithObjects:jerusalem,rome, nazareth, dan, bethEl, temple, corinth, ephesus, hazor, nil];
+    [self.mapView addAnnotations:annotations];
+
+}
+
+- (IBAction)historicalButton:(id)sender
+{
+    [self.mapView removeAnnotations:self.mapView.annotations];
+    
+    HistoricalPins *nicea = [[HistoricalPins alloc] init];
+    nicea.coordinate = CLLocationCoordinate2DMake(40.2574, 29.4317);
+    nicea.title = @"Nicea: Ecumencial Councils I, VII";
+    nicea.subtitle = @"A.D. 325, 787";
+    
+    HistoricalPins *alexandria = [[HistoricalPins alloc] init];
+    alexandria.coordinate = CLLocationCoordinate2DMake(31.1980, 29.9192);
+    alexandria.title = @"Alexandria, Egypt: Patriarchate";
+    alexandria.subtitle = @"Major catechemenical center in early Christianity";
+    
+    NSArray *annotations = [NSArray arrayWithObjects:nicea, alexandria, nil];
+    [self.mapView addAnnotations:annotations];
+}
+
+- (IBAction)socialButton:(id)sender
+{
+    [self.mapView removeAnnotations:self.mapView.annotations];
+    
+}
+
+- (IBAction)allButton:(id)sender
+{
+    [self.mapView removeAnnotations:self.mapView.annotations];
+    
+    BiblicalPins *jerusalem = [[BiblicalPins alloc] init];
+    jerusalem.coordinate = CLLocationCoordinate2DMake(31.7883, 35.2167);
+    jerusalem.title = @"Jerusalem";
+    jerusalem.subtitle = @"2 Sam. 24:24";
+    
+    BiblicalPins *rome = [[BiblicalPins alloc] init];
+    rome.coordinate = CLLocationCoordinate2DMake(41.9000, 12.5000);
+    rome.title = @"Rome";
+    rome.subtitle = @"Romans 1:2";
+    
+    BiblicalPins *nazareth = [[BiblicalPins alloc] init];
+    nazareth.coordinate = CLLocationCoordinate2DMake(32.7019, 35.3033);
+    nazareth.title = @"Nazareth";
+    nazareth.subtitle = @"Luke 4:16";
+    
+    BiblicalPins *bethEl = [[BiblicalPins alloc] init];
+    bethEl.coordinate = CLLocationCoordinate2DMake(31.9300, 35.2200);
+    bethEl.title = @"Beth-El";
+    bethEl.subtitle = @"1 Kings 12:28";
+    
+    BiblicalPins *ephesus = [[BiblicalPins alloc] init];
+    ephesus.coordinate = CLLocationCoordinate2DMake(37.9411, 27.3419);
+    ephesus.title = @"Ephesus";
+    ephesus.subtitle = @"Ephesians 1:4";
+    
+    BiblicalPins *corinth = [[BiblicalPins alloc] init];
+    corinth.coordinate = CLLocationCoordinate2DMake(37.9333, 22.9333);
+    corinth.title = @"Corinth";
+    corinth.subtitle = @"1 Corinthians 1:3";
+    
+    BiblicalPins *dan = [[BiblicalPins alloc] init];
+    dan.coordinate = CLLocationCoordinate2DMake(33.2490, 35.6520);
+    dan.title = @"Dan";
+    dan.subtitle = @"1 Kings 12: 28";
+    
+    BiblicalPins *temple = [[BiblicalPins alloc] init];
+    temple.coordinate = CLLocationCoordinate2DMake(31.7780, 35.2358);
+    temple.title = @"The Temple Mount";
+    temple.subtitle = @"1 Kings 6:1";
+    
+    BiblicalPins *hazor = [[BiblicalPins alloc] init];
+    hazor.coordinate = CLLocationCoordinate2DMake(33.0167, 35.5669);
+    hazor.title = @"Hazor";
+    hazor.subtitle = @"Joshua 11:10";
+    
+    HistoricalPins *nicea = [[HistoricalPins alloc] init];
+    nicea.coordinate = CLLocationCoordinate2DMake(40.2574, 29.4317);
+    nicea.title = @"Nicea";
+    nicea.subtitle = @"A.D. 325, First Ecumenical Council";
+    
+    SocialPins *greenland = [[SocialPins alloc] init];
+    greenland.coordinate = CLLocationCoordinate2DMake(72.0000, -40.0000);
+    greenland.title = @"Greenland";
+    greenland.subtitle = @"Glacial Melt";
+
+    NSArray *annotations = [NSArray arrayWithObjects:jerusalem, bethEl, ephesus, corinth, dan, temple, hazor, nicea, greenland, rome, nazareth, nil];
+    [self.mapView addAnnotations:annotations];
+    
+    
+}
 @end
