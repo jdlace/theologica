@@ -17,4 +17,7 @@
 
 -(id) initWithLocation:(CLLocationCoordinate2D)coords;
 
+//from MapCallout sample
+//+ (MKAnnotationView *)createViewAnnotationForMapView:(MKMapView *)mapView annotation:(id <MKAnnotation>)annotation;
+
 @end

@@ -19,6 +19,7 @@
 
 @implementation MapViewController
 
+/*
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
@@ -26,101 +27,55 @@
     // restore the nav bar to translucent
     self.navigationController.navigationBar.barStyle = UIBarStyleDefault;
 }
+*/
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
-    [self.mapView setDelegate:self];
+    //[self.mapView setDelegate:self];
     
-    
-    /*
-    [self.mapView setDelegate:self];
-    
-    // create a custom navigation bar button and set it to always says "Back"
     UIBarButtonItem *temporaryBarButtonItem = [[UIBarButtonItem alloc] init];
     temporaryBarButtonItem.title = @"Back";
     self.navigationItem.backBarButtonItem = temporaryBarButtonItem;
-    */
-    
-    
+
     
     //Create a region and zoom level for the intial view of the map. 
     MKCoordinateSpan span = MKCoordinateSpanMake(100.0000f,100.0000f);
-    CLLocationCoordinate2D coordinate = {41.9000, 12.5000};
+    CLLocationCoordinate2D coordinate = {38.4667, -28.4000};
     MKCoordinateRegion region = {coordinate, span};
     
     MKCoordinateRegion regionThatFits = [self.mapView regionThatFits:region];
     
     [self.mapView setRegion:regionThatFits animated:YES];
     
-    
+    /*
     //Array to store multiple annotations
     //Create one instance of Bible Pins to use for other annotations - from Lynda.com
-    /*
-    //Coordinate
+    
+    NSMutableArray *annotations = [[NSMutableArray alloc] init];
     CLLocationCoordinate2D location;
+    BiblicalPins *biblicalPin;
+    
+    //Annotations
     location.latitude = 41.9000;
     location.longitude = 12.5000;
-    BiblicalPins *biblicalPin = [[BiblicalPins alloc] init];
-    //Annotation
+    biblicalPin = [[BiblicalPins alloc] init];
     [biblicalPin setCoordinate: location];
     biblicalPin.title = @"Jerusalem";
     biblicalPin.subtitle = @"The City of David. According to 2 Samuel 24:24, David purchased this city from the Jebusites and then moved his captial from Hebron to here.";
     [annotations addObject:biblicalPin];
     
-    CLLocationCoordinate2D location;
-    location.latitude = 41.9000;
-    location.longitude = 12.5000;
-    BiblicalPins *biblicalPin = [[BiblicalPins alloc] init];
-    //Annotation
-    [biblicalPin setCoordinate: location];
-    biblicalPin.title = @"Jerusalem";
-    biblicalPin.subtitle = @"The City of David. According to 2 Samuel 24:24, David purchased this city from the Jebusites and then moved his captial from Hebron to here.";
-    [annotations addObject:biblicalPin];
+    
+    [self.mapView addAnnotations:annotations];
+
     */
-    
 
 }
 
 
-//This method creates a custom alert callout with the pin's detailed information - need to work on this.
--(void)mapView:(MKMapView *)mapView annotationView:(MKAnnotationView *)view calloutAccessoryControlTapped:(UIControl *)control
+- (void)didReceiveMemoryWarning
 {
-    
-    //annotation
-    BiblicalPins *jerusalem = (BiblicalPins *) view.annotation;
-
-    //deselect button selected
-    [self.mapView deselectAnnotation:jerusalem animated:YES];
-    
-    //alert
-    //NSString *msg = [[NSString alloc]
-    
-    UIAlertController *alert = [UIAlertController alertControllerWithTitle:jerusalem.title message:jerusalem.subtitle preferredStyle:(UIAlertControllerStyleAlert)];
-    
-    UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
-                                                          handler:^(UIAlertAction * action) {}];
-    
-    [alert addAction:defaultAction];
-    [self presentViewController:alert animated:YES completion:nil];
-    
-
-    
-    
-   /*
-    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Info"
-                                                        message:@"Site description here."
-                                                       delegate:self
-                                              cancelButtonTitle:@"OK"
-                                              otherButtonTitles:nil];
-    [alertView show];
-    */
-    
-}
-
-
-- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
@@ -142,13 +97,12 @@
     BiblicalPins *jerusalem = [[BiblicalPins alloc] init];
     jerusalem.coordinate = CLLocationCoordinate2DMake(31.7883, 35.2167);
     jerusalem.title = @"Jerusalem";
-    jerusalem.subtitle = @"2 Sam. 24:24";
-    jerusalem.information = @"The city that King David purchased from the Jebusites and designated the capital of Israel.";
+    jerusalem.subtitle = @"2 Sam. 24:24 \r\rThe capital of the Davidic monarchy. \r\rAccording to 2 Samuel 24:24, King David purchased Jerusaem from the Jebusites and designated the capital of Israel.";
     
     BiblicalPins *rome = [[BiblicalPins alloc] init];
     rome.coordinate = CLLocationCoordinate2DMake(41.9000, 12.5000);
     rome.title = @"Rome";
-    rome.subtitle = @"Romans 1:2";
+    rome.subtitle = @"Romans 1:2 \r\rThe Church of Rome was established in the first century and quickly acquired a reputation for generosity. According to tradition, both Peter and Paul were martyred there during the persecution under Nero.";
     
     BiblicalPins *nazareth = [[BiblicalPins alloc] init];
     nazareth.coordinate = CLLocationCoordinate2DMake(32.7019, 35.3033);
@@ -187,6 +141,15 @@
     
     NSArray *annotations = [NSArray arrayWithObjects:jerusalem,rome, nazareth, dan, bethEl, temple, corinth, ephesus, hazor, nil];
     [self.mapView addAnnotations:annotations];
+    
+    MKCoordinateSpan span = MKCoordinateSpanMake(100.0000f,100.0000f);
+    CLLocationCoordinate2D coordinate = {37.9333, 22.9333};
+    MKCoordinateRegion region = {coordinate, span};
+    
+    MKCoordinateRegion regionThatFits = [self.mapView regionThatFits:region];
+    
+    [self.mapView setRegion:regionThatFits animated:YES];
+
 
 }
 
@@ -197,23 +160,22 @@
     HistoricalPins *nicea = [[HistoricalPins alloc] init];
     nicea.coordinate = CLLocationCoordinate2DMake(40.2574, 29.4317);
     nicea.title = @"Nicea: Councils I, VII";
-    nicea.subtitle = @"A.D. 325, 787";
+    nicea.subtitle = @"A.D. 325, 787 \r\rThe first Council of Nicea was called by Constantine. It condemned the teaching of Arius and declared that Christ is ομοουσιους (homoousious) - 'of the same substance' as God. \r\rThe second Council of Nicea approved the veneration of icons.";
     
     HistoricalPins *alexandria = [[HistoricalPins alloc] init];
     alexandria.coordinate = CLLocationCoordinate2DMake(31.1980, 29.9192);
     alexandria.title = @"Alexandria, Egypt";
-    alexandria.subtitle = @"Major catechemenical center in early Christianity";
+    alexandria.subtitle = @"Eastern Patriarchate \r\rMajor catechemenical center in early Christianity. \r\rAlexandria contained the largest library in the ancient world as well as the famous Catechetical School, which produced such minds as Origen.";
     
     HistoricalPins *rome2 = [[HistoricalPins alloc] init];
     rome2.coordinate = CLLocationCoordinate2DMake(41.9022, 12.4533);
     rome2.title = @"Rome";
-    rome2.subtitle = @"The Church that Presides in Love";
+    rome2.subtitle = @"The Church that 'Presides in Love'.\r\rThe Church of Rome was established in the first century and quickly acquired a reputation for generosity. According to tradition, both Peter and Paul were martyred there during the persecution under Nero.";
     
     HistoricalPins *constantinople = [[HistoricalPins alloc] init];
     constantinople.coordinate = CLLocationCoordinate2DMake(41.0122, 28.9760);
     constantinople.title = @"Constantinople, Councils II, V";
-    constantinople.subtitle = @"A.D. 381, 553";
-    
+    constantinople.subtitle = @"A.D. 381, 553 \r\rThe 2nd and 5th ecumenical councils confirmed the Nicene Council's creed and clarified the teaching on the nature of Christ, respectively.";    
     
     
     NSArray *annotations = [NSArray arrayWithObjects:nicea, alexandria, rome2, constantinople,  nil];
@@ -267,13 +229,12 @@
     BiblicalPins *jerusalem = [[BiblicalPins alloc] init];
     jerusalem.coordinate = CLLocationCoordinate2DMake(31.7883, 35.2167);
     jerusalem.title = @"Jerusalem";
-    jerusalem.subtitle = @"2 Sam. 24:24";
-    jerusalem.information = @"The city that King David purchased from the Jebusites and designated the capital of Israel.";
+    jerusalem.subtitle = @"2 Sam. 24:24 \r\rThe capital of the Davidic monarchy. \r\rAccording to 2 Samuel 24:24, King David purchased Jerusaem from the Jebusites and designated the capital of Israel.";
     
     BiblicalPins *rome = [[BiblicalPins alloc] init];
     rome.coordinate = CLLocationCoordinate2DMake(41.9000, 12.5000);
     rome.title = @"Rome";
-    rome.subtitle = @"Romans 1:2";
+    rome.subtitle = @"Romans 1:2.\r\rThe Church of Rome was established in the first century and quickly acquired a reputation for generosity. According to tradition, both Peter and Paul were martyred there during the persecution under Nero.";
     
     BiblicalPins *nazareth = [[BiblicalPins alloc] init];
     nazareth.coordinate = CLLocationCoordinate2DMake(32.7019, 35.3033);
@@ -312,8 +273,8 @@
     
     HistoricalPins *nicea = [[HistoricalPins alloc] init];
     nicea.coordinate = CLLocationCoordinate2DMake(40.2574, 29.4317);
-    nicea.title = @"Nicea";
-    nicea.subtitle = @"A.D. 325, First Ecumenical Council";
+    nicea.title = @"Nicea, Councils I, VII";
+    nicea.subtitle = @"A.D. 325, 787 \r\rThe first Council of Nicea was called by the Emperor Constantine. It condemned the teaching of Arius and declared that Christ is ομοουσιους (homoousious) - 'of the same substance' as God. \r\rThe second Council of Nicea approved the veneration of icons.";
     
     SocialPins *greenland = [[SocialPins alloc] init];
     greenland.coordinate = CLLocationCoordinate2DMake(72.0000, -40.0000);
@@ -322,18 +283,18 @@
     
     HistoricalPins *alexandria = [[HistoricalPins alloc] init];
     alexandria.coordinate = CLLocationCoordinate2DMake(31.1980, 29.9192);
-    alexandria.title = @"Alexandria, Egypt: Patriarchate";
-    alexandria.subtitle = @"Major catechemenical center in early Christianity";
+    alexandria.title = @"Alexandria, Egypt";
+    alexandria.subtitle = @"Eastern Patriarchate \r\rMajor catechumenical center in early Christianity. \r\rAlexandria contained the largest library in the ancient world as well as the famous Catechetical School, which produced such minds as Origen.";
     
     HistoricalPins *rome2 = [[HistoricalPins alloc] init];
     rome2.coordinate = CLLocationCoordinate2DMake(41.9022, 12.4533);
     rome2.title = @"Rome";
-    rome2.subtitle = @"The Church that Presides in Love";
+    rome2.subtitle = @"The Church that 'Presides in Love'. \r\rThe Church of Rome was established in the first century and quickly acquired a reputation for generosity. According to tradition, both Peter and Paul were martyred there during the persecution under Nero.";
     
     HistoricalPins *constantinople = [[HistoricalPins alloc] init];
     constantinople.coordinate = CLLocationCoordinate2DMake(41.0122, 28.9760);
     constantinople.title = @"Constantinople, Councils II, V";
-    constantinople.subtitle = @"A.D. 381, 553";
+    constantinople.subtitle = @"A.D. 381, 553 \r\rThe 2nd and 5th ecumenical councils confirmed the Nicene Council's creed and clarified the teaching on the nature of Christ, respectively.";
     
     SocialPins *sierraLeone = [[SocialPins alloc] init];
     sierraLeone.coordinate = CLLocationCoordinate2DMake(8.4844, -13.2344);
@@ -360,32 +321,24 @@
     israel.title = @"Israel";
     israel.subtitle = @"Issue: Regional Terrorism";
 
-    NSArray *annotations = [NSArray arrayWithObjects:jerusalem, bethEl, ephesus, corinth, dan, temple, hazor, nicea, greenland, rome, nazareth, sierraLeone, camden, atlantic, rome2, constantinople, palestine, israel, nil];
+    NSArray *annotations = [NSArray arrayWithObjects:jerusalem, bethEl, ephesus, corinth, dan, temple, hazor, nicea, greenland, rome, nazareth, sierraLeone, camden, atlantic, rome2, constantinople, palestine, israel, alexandria, nil];
     [self.mapView addAnnotations:annotations];
+    
+    MKCoordinateSpan span = MKCoordinateSpanMake(100.0000f,100.0000f);
+    CLLocationCoordinate2D coordinate = {38.4667, -28.4000};
+    MKCoordinateRegion region = {coordinate, span};
+    
+    MKCoordinateRegion regionThatFits = [self.mapView regionThatFits:region];
+    
+    [self.mapView setRegion:regionThatFits animated:YES];
+
     
     
 }
 
 - (MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id <MKAnnotation>)annotation
 {
-    /* from Lynda.com
-     //view
-     MKPinAnnotationView *view = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"pin"];
-     //pin color
-     view.pinColor = MKPinAnnotationColorRed;
-     //enabled animated
-     view.enabled = YES;
-     view.animatesDrop = YES;
-     view.canShowCallout = YES;
-     //image - button
-     UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"old-scroll@3x copy-1"]];
-     view.leftCalloutAccessoryView = imageView;
-     view.rightCalloutAccessoryView = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
-     return view;
-     */
-    
-    
-    
+    //MKAnnotationView  *returnedAnnotationView = nil; //from MapCallouts
     
     // If it's the user location, just return nil.
     if ([annotation isKindOfClass:[MKUserLocation class]])
@@ -398,6 +351,9 @@
     if ([annotation isKindOfClass:[BiblicalPins class]])
         {
         // Try to dequeue an existing pin view first.
+        
+        //from MapCallouts sample - returnedAnnotationView = [BiblicalPins createViewAnnotationForMapView: self.mapView annotation:annotation];
+        
         MKPinAnnotationView *pinView = (MKPinAnnotationView*)[mapView dequeueReusableAnnotationViewWithIdentifier:@"CustomPinAnnotationView"];
         if (!pinView)
             {
@@ -406,18 +362,26 @@
             pinView.animatesDrop = YES;
             pinView.canShowCallout = YES;
             UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"old-scroll@3x copy-1"]];
+            pinView.rightCalloutAccessoryView = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
             pinView.leftCalloutAccessoryView = imageView;
-            pinView.pinColor = MKPinAnnotationColorRed;
-            pinView.calloutOffset = CGPointMake(0, 32);
+            
+        //UIButton *rightButton = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
+            //[rightButton addTarget:nil action:nil forControlEvents:UIControlEventTouchUpInside];
+            //((MKPinAnnotationView *) returnedAnnotationView).rightCalloutAccessoryView = rightButton;
+            }
+            
+            //pinView.pinColor = MKPinAnnotationColorRed;
+            //pinView.calloutOffset = CGPointMake(0, 32);
             
             return pinView;
             
-            }
-        }
+        
+    }
+
     else if ([annotation isKindOfClass:[HistoricalPins class]])
         {
         // Try to dequeue an existing pin view first.
-        MKPinAnnotationView *pinView = (MKPinAnnotationView*)[mapView dequeueReusableAnnotationViewWithIdentifier:@"CustomPinAnnotationView2"];
+        MKPinAnnotationView *pinView = (MKPinAnnotationView*)[mapView dequeueReusableAnnotationViewWithIdentifier:@"CustomPinAnnotationView"];
         if (!pinView)
             {
             // If an existing pin view was not available, create one.
@@ -426,6 +390,7 @@
             pinView.canShowCallout = YES;
             UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"church@3x copy"]];
             pinView.leftCalloutAccessoryView = imageView;
+             pinView.rightCalloutAccessoryView = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
             pinView.pinColor = MKPinAnnotationColorRed;
             pinView.calloutOffset = CGPointMake(0, 32);
             
@@ -437,15 +402,16 @@
     else if ([annotation isKindOfClass:[SocialPins class]])
         {
         // Try to dequeue an existing pin view first.
-        MKPinAnnotationView *pinView = (MKPinAnnotationView*)[mapView dequeueReusableAnnotationViewWithIdentifier:@"CustomPinAnnotationView3"];
+         MKPinAnnotationView *pinView = (MKPinAnnotationView*)[mapView dequeueReusableAnnotationViewWithIdentifier:@"CustomPinAnnotationView"];
         if (!pinView)
             {
             // If an existing pin view was not available, create one.
             pinView = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"CustomPinAnnotationView3"];
             pinView.animatesDrop = YES;
             pinView.canShowCallout = YES;
-            UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"man-woman-child-7@3x copy"]];
+            UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"earth-wireframe-7@3x copy"]];
             pinView.leftCalloutAccessoryView = imageView;
+             pinView.rightCalloutAccessoryView = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
             pinView.pinColor = MKPinAnnotationColorRed;
             pinView.calloutOffset = CGPointMake(0, 32);
             
@@ -474,4 +440,53 @@
     
 }
 
+
+
+
+//This method creates a custom alert callout with the pin's detailed information - need to work on this.
+-(void)mapView:(MKMapView *)mapView annotationView:(MKAnnotationView *)view calloutAccessoryControlTapped:(UIControl *)control
+{
+    //id <MKAnnotation> annotation = [view annotation];
+
+    
+    //annotation - works
+    BiblicalPins *biblicalPin = (BiblicalPins *) view.annotation;
+    
+    //deselect button selected - works
+    [self.mapView deselectAnnotation:biblicalPin animated:YES];
+        
+  
+    
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle: biblicalPin.title message:biblicalPin.subtitle preferredStyle:(UIAlertControllerStyleAlert)];
+    
+    UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
+                                                          handler:^(UIAlertAction * action) {}];
+    
+    [alert addAction:defaultAction];
+    [self presentViewController:alert animated:YES completion:nil];
+    
+    
+    /*
+    if ([annotation isKindOfClass:[BiblicalPins class]])
+        {
+        MapDetailViewController *detailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"detailViewController"];
+        
+        if (([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone))
+        {
+        [self.navigationController pushViewController:detailViewController animated:YES];
+        }
+*/
+    
+    
+    
+    /*
+     UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Info"
+     message:@"Site description here."
+     delegate:self
+     cancelButtonTitle:@"OK"
+     otherButtonTitles:nil];
+     [alertView show];
+     */
+
+}
 @end

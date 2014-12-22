@@ -24,4 +24,23 @@
     return self; 
 }
 
++ (MKAnnotationView *)createViewAnnotationForMapView:(MKMapView *)mapView annotation:(id <MKAnnotation>)annotation
+{
+    // try to dequeue an existing pin view first
+    MKAnnotationView *returnedAnnotationView =
+    [mapView dequeueReusableAnnotationViewWithIdentifier:NSStringFromClass([BiblicalPins class])];
+    if (returnedAnnotationView == nil)
+        {
+        returnedAnnotationView =
+        [[MKPinAnnotationView alloc] initWithAnnotation:annotation
+                                        reuseIdentifier:NSStringFromClass([BiblicalPins class])];
+        
+        ((MKPinAnnotationView *)returnedAnnotationView).pinColor = MKPinAnnotationColorRed;
+        ((MKPinAnnotationView *)returnedAnnotationView).animatesDrop = YES;
+        ((MKPinAnnotationView *)returnedAnnotationView).canShowCallout = YES;
+        }
+    
+    return returnedAnnotationView;
+}
+
 @end
