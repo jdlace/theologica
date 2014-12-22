@@ -1233,8 +1233,8 @@
     
     Word *monotheism = [[Word alloc] init];
     monotheism.name = @"Monotheism";
-    monotheism.definition = @"The belief that only one God exists.";
-    monotheism.definition = @"Systematic";
+    monotheism.definition = @"The belief in only one God.";
+    monotheism.category = @"Systematic";
     
     Word *morality = [[Word alloc] init];
     morality.name = @"Morality";
@@ -1299,6 +1299,7 @@
     Word *niceneCo = [[Word alloc] init];
     niceneCo.name = @"Nicene-Constantiopolitan Creed";
     niceneCo.definition = @"The creed initially formulated at the Council of Constantinople in A.D. 321 and based on the prior Nicene Creed in A.D. 325. \r\r“We believe in one God, the Father, the Almighty, maker of heaven and earth, of all that is, seen and unseen. \r\rWe believe one Lord, Jesus Christ, the only Son of God, eternally begotten of the Father, God from God, Light from Light, true God from true God, begotten, not made, one in Being with the Father. Through Him all things were made. For us men and for our salvation, He came down from heaven: by the power of the Holy Spirit He was born of the Virgin Mary, and became Man. For our sake He was crucified under Pontius Pilate. He suffered, died, and was buried. On the third day He rose again in fulfillment of the Scriptures; He ascended into heaven, and is seated at the right hand of the Father. He will come again in glory to judge the living and the dead, and His kingdom will have no end. \r\rWe believe in the Holy Spirit, the Lord, the Giver of life, Who proceeds from the Father and the Son. With the Father and the Son He is worshiped and glorified. He has spoken through the prophets.\r\rWe believe in one, holy, catholic, and apostolic Church. We acknowledge one Baptism for the forgiveness of sins. We look for the resurrection of the dead, and the life of the world to come. Amen.”";
+    niceneCo.category = @"Historical"; 
     
     Word *numinous = [[Word alloc] init];
     numinous.name = @"Numinous";

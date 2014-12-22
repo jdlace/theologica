@@ -9,5 +9,19 @@
 #import "BiblicalPins.h"
 
 @implementation BiblicalPins
+@synthesize coordinate;
+
+
+-(id)initWithLocation:(CLLocationCoordinate2D)coords
+{
+    self = [super init];
+    
+    if (self)
+    {
+        self.coordinate = coords;
+    }
+    
+    return self; 
+}
 
 @end

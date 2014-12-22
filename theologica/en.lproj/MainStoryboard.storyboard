@@ -223,11 +223,13 @@ In addition, definitions include links to trusted reference works in the larger 
                                             <action selector="biblicalButton:" destination="qJM-Uc-9hJ" id="mut-9H-yn8"/>
                                         </connections>
                                     </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Nxc-Gs-fva"/>
                                     <barButtonItem title="Historical" id="dvc-hC-TZ1">
                                         <connections>
                                             <action selector="historicalButton:" destination="qJM-Uc-9hJ" id="jtF-V0-hMq"/>
                                         </connections>
                                     </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="F5A-df-Pct"/>
                                     <barButtonItem title="Social" id="vps-Ex-2kT">
                                         <connections>
                                             <action selector="socialButton:" destination="qJM-Uc-9hJ" id="W2Q-7X-gxf"/>
@@ -240,6 +242,7 @@ In addition, definitions include links to trusted reference works in the larger 
                                         </connections>
                                     </barButtonItem>
                                 </items>
+                                <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

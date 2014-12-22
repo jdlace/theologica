@@ -10,9 +10,11 @@
 
 @interface BiblicalPins : NSObject <MKAnnotation>
 
+@property (nonatomic, assign) CLLocationCoordinate2D coordinate;
 @property (copy, nonatomic) NSString *title;
 @property (copy, nonatomic) NSString *subtitle;
-@property (nonatomic, assign) CLLocationCoordinate2D coordinate; 
-@property (copy, nonatomic) NSString *information; 
+@property (copy, nonatomic) NSString *information;
+
+-(id) initWithLocation:(CLLocationCoordinate2D)coords;
 
 @end
