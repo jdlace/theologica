@@ -16,5 +16,7 @@
 - (IBAction)historicalButton:(id)sender;
 - (IBAction)socialButton:(id)sender;
 - (IBAction)allButton:(id)sender;
+- (IBAction)viewButton:(id)sender;
+- (IBAction)infoButton:(id)sender;
 
 @end

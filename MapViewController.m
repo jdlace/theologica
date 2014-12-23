@@ -489,4 +489,25 @@
      */
 
 }
+
+- (IBAction)viewButton:(id)sender
+{
+    
+    UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:@"Choose a View for the Map." delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"Satellite", @"Hybrid", @"Standard", nil]; 
+    
+    [actionSheet showInView:self.view];
+   
+}
+
+
+
+
+
+
+
+
+- (IBAction)infoButton:(id)sender
+
+{
+}
 @end
