@@ -1,5 +1,5 @@
 //
-//  SystematicTableViewController.m
+//  DictionaryTableViewController.m
 //  theologica
 //
 //  Created by Jonathan Lace on 7/17/13.
@@ -224,13 +224,73 @@
     return [self.wordDataSource sectionForSectionIndexTitle:title forCategory:nil];
 }
 
-- (IBAction)info:(UIBarButtonItem *)sender
+
+- (IBAction)typeButton:(id)sender
 {
     
-}
+    UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Choose the Type of Terms for the Dictionary."
+                                                                   message:nil
+                                                            preferredStyle:UIAlertControllerStyleActionSheet];
+    
+    UIAlertAction* systematicAction = [UIAlertAction actionWithTitle:@"Systematic" style:UIAlertActionStyleDefault
+                                                            handler:^(UIAlertAction * action)
+                                      {
+                                      }];
+    
+    UIAlertAction* historicalAction = [UIAlertAction actionWithTitle:@"Historical" style:UIAlertActionStyleDefault
+                                                         handler:^(UIAlertAction * action)
+                                   {
+                                   }];
+    
+    UIAlertAction* moralAction = [UIAlertAction actionWithTitle:@"Moral" style:UIAlertActionStyleDefault
+                                                           handler:^(UIAlertAction * action)
+                                     {
+                                     }];
+    
+    UIAlertAction *biblicalAction = [UIAlertAction actionWithTitle:@"Biblical" style:UIAlertActionStyleDefault
+                                                           handler:^(UIAlertAction *action){}];
+    
+    UIAlertAction *culturalAction = [UIAlertAction actionWithTitle:@"Cultural" style:UIAlertActionStyleDefault
+                                                           handler:^(UIAlertAction *action){}];
+    
+    UIAlertAction *allAction = [UIAlertAction actionWithTitle:@"All" style:UIAlertActionStyleDefault
+                                                           handler:^(UIAlertAction *action){}];
 
-- (IBAction)infoButton:(UIBarButtonItem *)sender
-{
+    
+    UIAlertAction* cancelAction = [UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleDestructive
+                                                         handler:^(UIAlertAction * action)
+                                   {
+                                   [self dismissViewControllerAnimated:YES completion:nil];
+                                   }];
+    
+    [alert addAction:systematicAction];
+    [alert addAction:historicalAction];
+    [alert addAction:moralAction];
+    [alert addAction:biblicalAction];
+    [alert addAction:culturalAction];
+    [alert addAction:allAction];
+    [alert addAction:cancelAction]; 
+    
+    
+    
+    [self presentViewController:alert animated:YES completion:nil];
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
 }
 @end

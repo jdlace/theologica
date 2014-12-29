@@ -121,17 +121,17 @@
     
     Word *adonai = [[Word alloc] init];
     adonai.name = @"Adonai";
-    adonai.definition =@"The Hebrew word for “Ruler”; used as a synonym for YHWH.";
+    adonai.definition =@"The Hebrew word for “Ruler” or “Master”; used as a synonym for YHWH.\r\rSee Catechism of the Catholic Church, 209. link:  ";
     adonai.category = @"Biblical";
     
     Word *anawim = [[Word alloc] init];
     anawim.name = @"Anawim";
-    anawim.definition = @"The Hebrew word for the poor and marginalized in ancient Israel who trust completely in the mercy of God (Is. 10:2, Zeph 2:3)..";
+    anawim.definition = @"The Hebrew word for the poor and marginalized in ancient Israel who trust completely in the mercy of God (Is. 10:2, Zeph 2:3); frequently used in the Psalms.";
     anawim.category = @"Biblical";
     
     Word *anthropomorphism = [[Word alloc] init];
     anthropomorphism.name = @"Anthropomorphism";
-    anthropomorphism.definition = @"The attribution of human characteristics to a non-human object. The Yahwist Source uses anthropomorphism extensively in its portrayal of YHWH in the Torah. See “Yahwist Source”";
+    anthropomorphism.definition = @"The attribution of human characteristics to a non-human object. God is described in human terms throughout the Christian tradition, and especially within the Scriptures. The Yahwist Source uses anthropomorphism extensively in its portrayal of YHWH in the Torah.Such language is, however, ultimately, only analogous to God. See “Analogy”, “Yahwist Source”, “YHWH”";
     anthropomorphism.category = @"Biblical";
     
     /*
@@ -168,7 +168,7 @@
     
     Word *aqeda = [[Word alloc] init];
     aqeda.name = @"Aqeda";
-    aqeda.definition = @"The story of the binding and near-sacrifice of Isaac by Abraham - from Hebrew word for “binding”.";
+    aqeda.definition = @"The story of the binding and near-sacrifice of Isaac by Abraham - from Hebrew word for “binding”. According to Richard Elliot Freidman, the Aqedah is mostly an Elohist Source story with a very different original ending that was amended by the Redactor of the Torah.\r\rSee ";
     aqeda.category = @"Biblical";
     
     Word *aramaic = [[Word alloc] init];
@@ -204,7 +204,7 @@
     
     Word *abstinence = [[Word alloc] init];
     abstinence.name = @"Abstinence";
-    abstinence.definition = @"The restraining of oneself from a given activity; traditionally applied to sexual relations and food...";
+    abstinence.definition = @"The restraining of oneself from a given activity for the purpose of spiritual edification; traditionally applied to food and sexual activity. ";
     abstinence.category = @"Moral";
     
     Word *act = [[Word alloc] init];
@@ -219,7 +219,7 @@
 
     Word *absolution = [[Word alloc] init];
     absolution.name = @"Absolution";
-    absolution.definition = @"The act by which a priest declares the forgiveness of sins.";
+    absolution.definition = @"The act by which a priest declares the forgiveness of sins.\r\rSee Catechism of the Catholic Church, 1424 link: ";
     absolution.category = @"Systematic";
     
     Word *adoptionism = [[Word alloc] init];
@@ -234,7 +234,7 @@
     
     Word *asceticism = [[Word alloc] init];
     asceticism.name = @"Asceticism";
-    asceticism.definition = @"Theh practice of self-denial for a higher purpose.";
+    asceticism.definition = @"The practice of self-discipline for a higher purpose, often involving abstinence - from the Greek word ασκησις (askesis) - “training”. See “abstinence”";
     asceticism.category = @"Systematic";
     
     Word *adoption = [[Word alloc] init];
@@ -264,7 +264,7 @@
     
     Word *anointing = [[Word alloc] init];
     anointing.name = @"Annointing of the Sick";
-    anointing.definition = @"The sacrament of healing... \r\rSee Catechism of the Catholic Church, 1499. http://www.vatican.va/archive/ccc_css/archive/catechism/p2s2c2a5.htm.";
+    anointing.definition = @"The sacrament of healing in which sacramental oil is applied to an infirm human body... \r\rSee Catechism of the Catholic Church, 1499. http://www.vatican.va/archive/ccc_css/archive/catechism/p2s2c2a5.htm.";
     anointing.category = @"Systematic";
     
     Word *anthropocentrism = [[Word alloc] init];
@@ -279,7 +279,7 @@
     
     Word *apologetics = [[Word alloc] init];
     apologetics.name = @"Apologetics";
-    apologetics.definition = @"The rational defense of the Christian faith; from the Greek words (apo) - “from” and (logia) - “reason”.";
+    apologetics.definition = @"The rational defense of the Christian faith; from the Greek word απολογια (apologia) - “defense”.";
     apologetics.category = @"Systematic";
     
     Word *apophatic = [[Word alloc] init];
@@ -289,7 +289,7 @@
     
     Word *apostolicity = [[Word alloc] init];
     apostolicity.name = @"Apostolicity";
-    apostolicity.definition = @"The quality of the Church as being based on the Apostolic tradition; one of the four marks of the Church.";
+    apostolicity.definition = @"The quality of the Church as being based on the Apostolic tradition; one of the four marks of the Church - One, Holy, Catholic, Apostolic. See Catechism of the Catholic Church, 857. link: ";
     apostolicity.category = @"Systematic";
     
     Word *assumption = [[Word alloc] init];
@@ -690,12 +690,12 @@
     
     Word *deontology = [[Word alloc] init];
     deontology.name = @"Deontology";
-    deontology.definition = @"from the Greek word for “duty” (deon) - the study of ethics from the framework of moral duties in the form of rules and laws.";
+    deontology.definition = @"The study of ethics from the framework of moral duties in the form of rules and laws; from the Greek word δεον (deon) - “duty”";
     deontology.category = @"Moral";
     
     Word *dignity = [[Word alloc]init];
-    dignity.name = @"Dignity";
-    dignity.definition = @"The sacred status of human beings because of the constant love of God; one of the 7 Principles of Catholic Social Teaching.";
+    dignity.name = @"Dignity of the Human Person";
+    dignity.definition = @"The sacred status of human beings because of the constant love of God; the first principle of Catholic Social Teaching in which all others are based. See “Catholic Social Teaching”, “Human Person”.\r\rSee Catechism of the Catholic Church,   link:";
     dignity.category = @"Moral";
     
     Word *distributive = [[Word alloc] init];
@@ -760,7 +760,7 @@
     
     Word *documentaryHypothesis = [[Word alloc] init];
     documentaryHypothesis.name = @"Documentary Hypothesis";
-    documentaryHypothesis.definition = @"The theory, put into classical form by Julius Wellhausen, that there are 4 independent sources which comprise the Torah; “Yahwist” (J), “Elohist” (E), “Priestly” (P), and “Deuteronomic” (D).";
+    documentaryHypothesis.definition = @"The theory, put into classical form by Julius Wellhausen, that there are 4 independent sources which comprise the Torah that have been edited together into its current canonical form; “Yahwist” (J), “Elohist” (E), “Priestly” (P), and “Deuteronomic” (D).\r\rAccording to Dr. Richard Elliot Freidman, there are seven arguments for its validity:\r\r1. Language\r2. Terminology\r3. Consistent Content\r4. Narrative Flow\r5. Other Biblical Connections\r6. Inter-Source Relationships\r7. Convergence of Arguments \r\rSee “Who Wrote The Flood Story?” by Richard Elliot Freidman, www.pbs.org/wgbh/nova/bible/flood.html";
     documentaryHypothesis.category = @"Biblical";
     
     Word *dynamic = [[Word alloc] init];
@@ -928,9 +928,14 @@
     explanans.name = @"Explanans";
     explanans.definition = @"That which explains something else...";
     explanans.category = @"Cultural";
+    
+    Word *environmentalism = [[Word alloc] init];
+    environmentalism.name = @"Environmentalism";
+    environmentalism.definition = @"The movement, which gained popularity in the 1960s in the United States, that emphasizes concern for the environment as a matter of public policy and social justice.";
+    environmentalism.category = @"Cultural";
 
     
-    [_dataArray addObjectsFromArray:@[ecumenism, economic, el, election, elementary, elohim, elohistSource, epistemology, epistle, eros, eschatology, essence, ethics, etiology, eucharist, evangelist, exclusivism, exegesis, exile, existential, exNihilo, explanandum, explanans, exodus, exOpere]];
+    [_dataArray addObjectsFromArray:@[ecumenism, economic, el, election, elementary, elohim, elohistSource, epistemology, epistle, eros, eschatology, essence, ethics, etiology, eucharist, evangelist, exclusivism, exegesis, exile, existential, exNihilo, explanandum, explanans, exodus, exOpere, environmentalism]];
     
     //F
     
@@ -1070,9 +1075,18 @@
     holyOfHolies.definition = @"The innermmost area of the Temple in Jerusalem where the Ark of the Covenant was believed to reside from the monarchy of Solomon until the Exile in 587 BCE.";
     holyOfHolies.category = @"Biblical";
 
+    Word *humanEcology = [[Word alloc] init];
+    humanEcology.name = @"Human Ecology";
+    humanEcology.definition = @"The environmental context of the human person in light of the truths of Creation and the challenges posed by climate change and other developmental factors in which justice is neglected. Pope Francis has made the subject of human ecology a theme of his latest encyclical. \r\rSee www.vatican.va/....";
+    humanEcology.category = @"Moral";
+    
+    Word *humanPerson = [[Word alloc] init];
+    humanPerson.name = @"Human Person";
+    humanPerson.definition = @"A human being (member of the species homo sapiens sapiens) with the capacity for self-transcendence. According to the teaching of the Church, human beings are also human persons from the moment of conception. Disputed questions include the pheneomenon of twinning and the problems associated with dualism. See Catechism of the Catholic Church, 1700-1706. link: ";
+    humanPerson.category = @"Systematic";
 
     
-    [_dataArray addObjectsFromArray:@[heaven, hell, henotheism, heresy, hermeneutics, hierarchy, historicalBooks, hcm, historicalCriticism, holyOfHolies, humanRights]];
+    [_dataArray addObjectsFromArray:@[heaven, hell, henotheism, heresy, hermeneutics, hierarchy, historicalBooks, hcm, historicalCriticism, holyOfHolies, humanRights, humanEcology, humanPerson]];
     
     //I
     
@@ -1114,7 +1128,7 @@
     Word *jesus = [[Word alloc] init];
     jesus.name = @"Jesus of Nazareth";
     jesus.definition = @"The first-century Jewish prophet who proclaimed the Kingdom of God, was executed by the Roman govenor Pontius Pilate, and whom the early Christians believed to raised from dead as the Christ and Son of God.";
-    jesus.category = @"Systematic";
+    jesus.category = @"Biblical";
     
     Word *justification = [[Word alloc] init];
     justification.name = @"Justification";
@@ -1538,6 +1552,11 @@
     salvation.name = @"Salvation";
     salvation.definition = @"The experience of being saved from sin and eventually death.";
     salvation.category = @"Systematic";
+    
+    Word *selucid = [[Word alloc] init];
+    selucid.name = @"Selucid";
+    selucid.definition = @"The descendants of Alexander the Great...";
+    selucid.category = @"Biblical"; 
     
     Word *social = [[Word alloc] init];
     social.name = @"Social Justice";

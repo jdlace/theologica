@@ -46,7 +46,6 @@
 		FA0BAF781A4333DE00AF6DFB /* MapDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0BAF771A4333DE00AF6DFB /* MapDetailViewController.m */; };
 		FA3683CD1A1144F300E9740F /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3683CC1A1144F300E9740F /* Social.framework */; };
 		FA3683D31A1155AA00E9740F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3683D21A1155AA00E9740F /* MobileCoreServices.framework */; };
-		FA8450591A1285CE007839D8 /* infoButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8450581A1285CE007839D8 /* infoButtonViewController.m */; };
 		FA84505C1A129CA0007839D8 /* bookmarkListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA84505B1A129CA0007839D8 /* bookmarkListTableViewController.m */; };
 		FA9323091A1E6DE8008CF833 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9323081A1E6DE8008CF833 /* MapKit.framework */; };
 /* End PBXBuildFile section */
@@ -133,8 +132,6 @@
 		FA0BAF771A4333DE00AF6DFB /* MapDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapDetailViewController.m; sourceTree = "<group>"; };
 		FA3683CC1A1144F300E9740F /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		FA3683D21A1155AA00E9740F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		FA8450571A1285CE007839D8 /* infoButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = infoButtonViewController.h; path = ../infoButtonViewController.h; sourceTree = "<group>"; };
-		FA8450581A1285CE007839D8 /* infoButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = infoButtonViewController.m; path = ../infoButtonViewController.m; sourceTree = "<group>"; };
 		FA84505A1A129CA0007839D8 /* bookmarkListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bookmarkListTableViewController.h; sourceTree = "<group>"; };
 		FA84505B1A129CA0007839D8 /* bookmarkListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bookmarkListTableViewController.m; sourceTree = "<group>"; };
 		FA9323081A1E6DE8008CF833 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -274,8 +271,6 @@
 			children = (
 				FA84505A1A129CA0007839D8 /* bookmarkListTableViewController.h */,
 				FA84505B1A129CA0007839D8 /* bookmarkListTableViewController.m */,
-				FA8450571A1285CE007839D8 /* infoButtonViewController.h */,
-				FA8450581A1285CE007839D8 /* infoButtonViewController.m */,
 				692ED2B01796F466008554F9 /* DictionaryTableViewController.h */,
 				692ED2B11796F466008554F9 /* DictionaryTableViewController.m */,
 				69739B541A36897F008BAB06 /* SearchBarViewController.h */,
@@ -448,7 +443,6 @@
 				69739B561A36897F008BAB06 /* SearchBarViewController.m in Sources */,
 				692ED2B51796F48B008554F9 /* WordDetailViewController.m in Sources */,
 				69D6284C1A47617B0073C157 /* HistoricalPins.m in Sources */,
-				FA8450591A1285CE007839D8 /* infoButtonViewController.m in Sources */,
 				FA84505C1A129CA0007839D8 /* bookmarkListTableViewController.m in Sources */,
 				691EAA2C1A49EE3900F98942 /* ViewButtonViewController.m in Sources */,
 				692ED2CD1796F58F008554F9 /* BiblicalTableViewController.m in Sources */,
