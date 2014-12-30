@@ -195,7 +195,7 @@
 {
     // Navigation logic may go here. Create and push another view controller.
     /*
-     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
+     DetailViewController *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
      // ...
      // Pass the selected object to the new view controller.
      [self.navigationController pushViewController:detailViewController animated:YES];
@@ -228,7 +228,7 @@
 - (IBAction)typeButton:(id)sender
 {
     
-    UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Choose the Type of Terms for the Dictionary."
+    UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Choose a set of Terms\rfor the Dictionary."
                                                                    message:nil
                                                             preferredStyle:UIAlertControllerStyleActionSheet];
     

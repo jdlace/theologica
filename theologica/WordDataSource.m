@@ -536,17 +536,17 @@
     
     Word *catholicsocialteaching = [[Word alloc]init];
     catholicsocialteaching.name = @"Catholic Social Teaching";
-    catholicsocialteaching.definition = @"the teaching of the Church which applies principles of social justice to the signs of the times";
+    catholicsocialteaching.definition = @"The teaching of the Church which applies the principles of social justice to the signs of the times. See “Social Justice”, “Signs of the Times”.\r\rSee Compendium of the Social Doctrine of the Church, http://www.vatican.va/roman_curia/pontifical_councils/justpeace/documents/rc_pc_justpeace_doc_200060526_compendio-dott-soc_en.html ";
     catholicsocialteaching.category = @"Moral";
     
     Word *commutativejustice = [[Word alloc]init];
     commutativejustice.name = @"Commutative Justice";
-    commutativejustice.definition = @"one of the three types of justice which emphasizes obligations between individuals";
+    commutativejustice.definition = @"One of the three aspects of justice which emphasizes obligations between individuals.\r\rSee Catechism of the Catholic Church, 2411. link:";
     commutativejustice.category = @"Moral";
     
     Word *contributivejustice = [[Word alloc]init];
     contributivejustice.name = @"Contributive Justice";
-    contributivejustice.definition = @"one of the three types of justice which emphasizes the obligation of individuals toward society";
+    contributivejustice.definition = @"One of the three aspects of justice which emphasizes the obligation of individuals toward society.\r\rSee Catechism of the Catholic Church, ";
     contributivejustice.category = @"Moral";
     
     Word *canon = [[Word alloc] init];
@@ -1416,7 +1416,7 @@
     predestination.category = @"Systematic";
     
     Word *principle = [[Word alloc] init];
-    principle.name = @"Pinciple of Double Effect";
+    principle.name = @"Principle of Double Effect";
     principle.definition = @"The principle which states....";
     principle.category = @"Moral";
     

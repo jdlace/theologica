@@ -27,7 +27,8 @@
 		692ED2A91796EF10008554F9 /* man-influence@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 692ED29F1796EF10008554F9 /* man-influence@2x.png */; };
 		692ED2B21796F466008554F9 /* DictionaryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2B11796F466008554F9 /* DictionaryTableViewController.m */; };
 		692ED2B51796F48B008554F9 /* WordDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2B41796F48B008554F9 /* WordDetailViewController.m */; };
-		692ED2CD1796F58F008554F9 /* BiblicalTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2CC1796F58F008554F9 /* BiblicalTableViewController.m */; };
+		6932282C1A5256AF00528421 /* SourcesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6932282B1A5256AF00528421 /* SourcesTableViewController.m */; };
+		6932282F1A5256ED00528421 /* SourcesWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6932282E1A5256ED00528421 /* SourcesWebViewController.m */; };
 		69739B561A36897F008BAB06 /* SearchBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69739B551A36897F008BAB06 /* SearchBarViewController.m */; };
 		6988A94A1A3E8DEB005A1B65 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6988A9491A3E8DEB005A1B65 /* MapViewController.m */; };
 		69989B0319FF2FC70009ABAE /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69989AC519FF2D5D0009ABAE /* NotificationCenter.framework */; };
@@ -102,8 +103,10 @@
 		692ED2B11796F466008554F9 /* DictionaryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DictionaryTableViewController.m; path = ../DictionaryTableViewController.m; sourceTree = "<group>"; };
 		692ED2B31796F48B008554F9 /* WordDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordDetailViewController.h; sourceTree = "<group>"; };
 		692ED2B41796F48B008554F9 /* WordDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordDetailViewController.m; sourceTree = "<group>"; };
-		692ED2CB1796F58F008554F9 /* BiblicalTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BiblicalTableViewController.h; sourceTree = "<group>"; };
-		692ED2CC1796F58F008554F9 /* BiblicalTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BiblicalTableViewController.m; sourceTree = "<group>"; };
+		6932282A1A5256AF00528421 /* SourcesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourcesTableViewController.h; sourceTree = "<group>"; };
+		6932282B1A5256AF00528421 /* SourcesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SourcesTableViewController.m; sourceTree = "<group>"; };
+		6932282D1A5256ED00528421 /* SourcesWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourcesWebViewController.h; sourceTree = "<group>"; };
+		6932282E1A5256ED00528421 /* SourcesWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SourcesWebViewController.m; sourceTree = "<group>"; };
 		69739B541A36897F008BAB06 /* SearchBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchBarViewController.h; sourceTree = "<group>"; };
 		69739B551A36897F008BAB06 /* SearchBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchBarViewController.m; sourceTree = "<group>"; };
 		6988A9481A3E8DEB005A1B65 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = ../MapViewController.h; sourceTree = "<group>"; };
@@ -284,8 +287,10 @@
 		69B7DF641A2128480033465A /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				692ED2CB1796F58F008554F9 /* BiblicalTableViewController.h */,
-				692ED2CC1796F58F008554F9 /* BiblicalTableViewController.m */,
+				6932282A1A5256AF00528421 /* SourcesTableViewController.h */,
+				6932282B1A5256AF00528421 /* SourcesTableViewController.m */,
+				6932282D1A5256ED00528421 /* SourcesWebViewController.h */,
+				6932282E1A5256ED00528421 /* SourcesWebViewController.m */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -436,6 +441,7 @@
 			files = (
 				69B8D9381A4122B300186EA2 /* BiblicalPins.m in Sources */,
 				692ED2571796D552008554F9 /* main.m in Sources */,
+				6932282C1A5256AF00528421 /* SourcesTableViewController.m in Sources */,
 				692ED25B1796D552008554F9 /* AppDelegate.m in Sources */,
 				69D6284F1A4762830073C157 /* SocialPins.m in Sources */,
 				69BB25491A130F2E00B3F5B5 /* WordDataSource.m in Sources */,
@@ -445,9 +451,9 @@
 				69D6284C1A47617B0073C157 /* HistoricalPins.m in Sources */,
 				FA84505C1A129CA0007839D8 /* bookmarkListTableViewController.m in Sources */,
 				691EAA2C1A49EE3900F98942 /* ViewButtonViewController.m in Sources */,
-				692ED2CD1796F58F008554F9 /* BiblicalTableViewController.m in Sources */,
 				FA0BAF781A4333DE00AF6DFB /* MapDetailViewController.m in Sources */,
 				69FB18EB1A0051C500F1C9A4 /* Word.m in Sources */,
+				6932282F1A5256ED00528421 /* SourcesWebViewController.m in Sources */,
 				6988A94A1A3E8DEB005A1B65 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

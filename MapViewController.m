@@ -241,7 +241,7 @@
             UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bible-7copy"]];
             pinView.rightCalloutAccessoryView = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
             pinView.leftCalloutAccessoryView = imageView;
-            pinView.pinColor = MKPinAnnotationColorGreen;
+            pinView.pinColor = MKPinAnnotationColorRed;
             pinView.calloutOffset = CGPointMake(0, 32);
 
             }
@@ -265,7 +265,7 @@
             UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"church@3x copy"]];
             pinView.leftCalloutAccessoryView = imageView;
              pinView.rightCalloutAccessoryView = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
-            pinView.pinColor = MKPinAnnotationColorPurple;
+            pinView.pinColor = MKPinAnnotationColorRed;
             pinView.calloutOffset = CGPointMake(0, 32);
             }
         
@@ -396,7 +396,7 @@
 - (IBAction)mapsButton:(id)sender
 {
     
-    UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Choose a Map \rto expand your Theological perspective."
+    UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Choose a set of Pins \rto display on the Map."
                                                                    message:nil
                                                             preferredStyle:UIAlertControllerStyleActionSheet];
     
