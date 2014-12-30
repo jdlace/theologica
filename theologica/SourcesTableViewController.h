@@ -10,6 +10,8 @@
 
 @interface SourcesTableViewController : UITableViewController
 
+@property (strong, nonatomic) NSArray *sourcesArray;
+
 
 
 @end

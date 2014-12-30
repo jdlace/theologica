@@ -35,7 +35,7 @@
                         <sections>
                             <tableViewSection headerTitle="Church" id="2ft-Cj-yfK">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="DXu-Wz-nas" style="IBUITableViewCellStyleDefault" id="H4k-35-JDV">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="DXu-Wz-nas" imageView="GM6-8U-gof" style="IBUITableViewCellStyleDefault" id="H4k-35-JDV">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="H4k-35-JDV" id="7bV-v1-IHh">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -46,10 +46,13 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="bible-7@3x copy" id="GM6-8U-gof">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="4SU-8a-pp9" style="IBUITableViewCellStyleDefault" id="muH-iu-jqD">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="4SU-8a-pp9" imageView="qAX-SI-6A6" style="IBUITableViewCellStyleDefault" id="muH-iu-jqD">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="muH-iu-jqD" id="6kv-gn-ynZ">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -67,10 +70,13 @@
                                                     </attributedString>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="glass" id="qAX-SI-6A6">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="5TA-4W-xDh" style="IBUITableViewCellStyleDefault" id="eBk-Hh-LRD">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="5TA-4W-xDh" imageView="w5b-Vx-Beu" style="IBUITableViewCellStyleDefault" id="eBk-Hh-LRD">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eBk-Hh-LRD" id="qrt-DN-qaA">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -81,10 +87,13 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="man-three-7" id="w5b-Vx-Beu">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="C0e-A1-jmD" style="IBUITableViewCellStyleDefault" id="Ahc-dy-NHb">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="C0e-A1-jmD" imageView="1JL-gd-yW5" style="IBUITableViewCellStyleDefault" id="Ahc-dy-NHb">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ahc-dy-NHb" id="JaT-uH-Oth">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -102,10 +111,13 @@
                                                     </attributedString>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="crowd" id="1JL-gd-yW5">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="FWL-5F-MUW" style="IBUITableViewCellStyleDefault" id="18N-77-MG0">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="FWL-5F-MUW" imageView="4cc-4Z-OD5" style="IBUITableViewCellStyleDefault" id="18N-77-MG0">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="18N-77-MG0" id="m4R-NV-Gga">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -123,6 +135,9 @@
                                                     </attributedString>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="anchor-7" id="4cc-4Z-OD5">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -130,7 +145,7 @@
                             </tableViewSection>
                             <tableViewSection headerTitle="Culture" id="YFE-nP-hSd">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="fQj-fA-bYm" style="IBUITableViewCellStyleDefault" id="d8e-6W-iI4">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="fQj-fA-bYm" imageView="Vrg-fk-OMF" style="IBUITableViewCellStyleDefault" id="d8e-6W-iI4">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="d8e-6W-iI4" id="WYD-yG-V1E">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -141,10 +156,13 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="lightbulb-7" id="Vrg-fk-OMF">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="obh-Cm-hV8" style="IBUITableViewCellStyleDefault" id="QWp-OG-Vnx">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="obh-Cm-hV8" imageView="rhM-Ui-elU" style="IBUITableViewCellStyleDefault" id="QWp-OG-Vnx">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QWp-OG-Vnx" id="KLZ-oN-QVh">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -162,24 +180,30 @@
                                                     </attributedString>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="atom-7" id="rhM-Ui-elU">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="kvN-UG-B2W" style="IBUITableViewCellStyleDefault" id="36z-U9-Zkp">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="kvN-UG-B2W" imageView="dTd-cx-S3i" style="IBUITableViewCellStyleDefault" id="36z-U9-Zkp">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="36z-U9-Zkp" id="LxF-Ri-nlT">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Art" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kvN-UG-B2W">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Arts" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kvN-UG-B2W">
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="color-palette" id="dTd-cx-S3i">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="0ur-TK-jg5" style="IBUITableViewCellStyleDefault" id="Rv4-mr-6tE">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="0ur-TK-jg5" imageView="Slq-8v-AC8" style="IBUITableViewCellStyleDefault" id="Rv4-mr-6tE">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Rv4-mr-6tE" id="S9A-50-5Id">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -197,6 +221,9 @@
                                                     </attributedString>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="globe-ball-7" id="Slq-8v-AC8">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -578,9 +605,18 @@
     </scenes>
     <resources>
         <image name="525px-fresco_of_a_dominican_by_fra_angelico_001" width="175" height="200"/>
+        <image name="anchor-7" width="29" height="30"/>
         <image name="appicon2.png" width="80" height="80"/>
+        <image name="atom-7" width="30" height="30"/>
+        <image name="bible-7@3x copy" width="30" height="30"/>
         <image name="book-arrange-7" width="30" height="30"/>
+        <image name="color-palette" width="30" height="30"/>
+        <image name="crowd" width="29" height="30"/>
+        <image name="glass" width="30" height="30"/>
+        <image name="globe-ball-7" width="30" height="30"/>
         <image name="hierarchy" width="30" height="30"/>
+        <image name="lightbulb-7" width="30" height="30"/>
+        <image name="man-three-7" width="29" height="30"/>
         <image name="map-location@3x copy" width="30" height="30"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
