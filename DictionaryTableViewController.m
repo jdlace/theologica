@@ -15,7 +15,8 @@
 
 @property (nonatomic, strong) WordDataSource *wordDataSource;
 @property (strong, nonatomic) UISearchController *searchController;
-@property (strong, nonatomic) NSMutableArray *searchResults; //filtered search results
+@property (strong, nonatomic) NSMutableArray *searchResults; //filtered search
+@property (copy, nonatomic) NSString *category;
 
 
 @end
@@ -102,12 +103,12 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     // Return the number of sections.
-    return [self.wordDataSource numberOfSectionsInDataSourceCategory:nil];
+    return [self.wordDataSource numberOfSectionsInDataSourceCategory:self.category];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return [self.wordDataSource numberOfRowsInSection:section forCategory:nil];
+    return [self.wordDataSource numberOfRowsInSection:section forCategory:self.category];
     
 }
 
@@ -118,7 +119,7 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     // Configure the cell...
-    Word *word = [self.wordDataSource wordForRowAtIndexPath:indexPath forCategory:nil];
+    Word *word = [self.wordDataSource wordForRowAtIndexPath:indexPath forCategory:self.category];
     cell.textLabel.text = word.name;
     cell.detailTextLabel.text = word.category;
     
@@ -131,7 +132,7 @@
 -(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
 {
 
-    return [self.wordDataSource titleForHeaderInSection:section forCategory:nil];
+    return [self.wordDataSource titleForHeaderInSection:section forCategory:self.category];
 }
 
 /*
@@ -207,7 +208,7 @@
     if ([[segue identifier] isEqualToString:@"showWordDetail"])
     {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        Word *word = [self.wordDataSource wordForRowAtIndexPath:indexPath forCategory:nil];
+        Word *word = [self.wordDataSource wordForRowAtIndexPath:indexPath forCategory:self.category];
     
         WordDetailViewController *WordViewController = [segue destinationViewController];
         WordViewController.currentWordDetail = word;
@@ -216,12 +217,12 @@
 
 - (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView
 {
-    return [self.wordDataSource sectionIndexTitlesForCategory:nil];
+    return [self.wordDataSource sectionIndexTitlesForCategory:self.category];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView sectionForSectionIndexTitle:(NSString *)title atIndex:(NSInteger)index
 {
-    return [self.wordDataSource sectionForSectionIndexTitle:title forCategory:nil];
+    return [self.wordDataSource sectionForSectionIndexTitle:title forCategory:self.category];
 }
 
 
@@ -235,26 +236,54 @@
     UIAlertAction* systematicAction = [UIAlertAction actionWithTitle:@"Systematic" style:UIAlertActionStyleDefault
                                                             handler:^(UIAlertAction * action)
                                       {
+                                        self.category = @"Systematic";
+                                      [self.tableView reloadData];
+                                      
                                       }];
     
     UIAlertAction* historicalAction = [UIAlertAction actionWithTitle:@"Historical" style:UIAlertActionStyleDefault
                                                          handler:^(UIAlertAction * action)
                                    {
+                                        self.category = @"Historical";
+                                        [self.tableView reloadData];
+                                   
                                    }];
     
     UIAlertAction* moralAction = [UIAlertAction actionWithTitle:@"Moral" style:UIAlertActionStyleDefault
                                                            handler:^(UIAlertAction * action)
                                      {
+                                        self.category = @"Moral";
+                                        [self.tableView reloadData];
+                                     
+                                     
                                      }];
     
     UIAlertAction *biblicalAction = [UIAlertAction actionWithTitle:@"Biblical" style:UIAlertActionStyleDefault
-                                                           handler:^(UIAlertAction *action){}];
+                                                           handler:^(UIAlertAction *action)
+                                    {
+                                        self.category = @"Biblical";
+                                        [self.tableView reloadData];
+                                    
+                                    }];
     
     UIAlertAction *culturalAction = [UIAlertAction actionWithTitle:@"Cultural" style:UIAlertActionStyleDefault
-                                                           handler:^(UIAlertAction *action){}];
+                                                           handler:^(UIAlertAction *action)
+    
+                                    {
+                                        self.category = @"Cultural";
+                                        [self.tableView reloadData];
+                                    
+                                    }];
     
     UIAlertAction *allAction = [UIAlertAction actionWithTitle:@"All" style:UIAlertActionStyleDefault
-                                                           handler:^(UIAlertAction *action){}];
+                                                           handler:^(UIAlertAction *action)
+    
+                                    {
+                                    
+                                        self.category = nil;
+                                        [self.tableView reloadData]; 
+                                    
+                                    }];
 
     
     UIAlertAction* cancelAction = [UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleDestructive

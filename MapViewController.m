@@ -8,6 +8,7 @@
 
 #import "MapViewController.h"
 #import "MapDetailViewController.h"
+#import "WordDetailViewController.h"
 #import <CoreLocation/CoreLocation.h>
 #import "BiblicalPins.h"
 #import "HistoricalPins.h"
@@ -238,7 +239,7 @@
             pinView = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"CustomPinAnnotationView"];
             pinView.animatesDrop = YES;
             pinView.canShowCallout = YES;
-            UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bible-7copy"]];
+            UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"biblelines2"]];
             pinView.rightCalloutAccessoryView = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
             pinView.leftCalloutAccessoryView = imageView;
             pinView.pinColor = MKPinAnnotationColorRed;
@@ -262,7 +263,7 @@
             pinView = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"CustomPinAnnotationView2"];
             pinView.animatesDrop = YES;
             pinView.canShowCallout = YES;
-            UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"church@3x copy"]];
+            UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"churchlines"]];
             pinView.leftCalloutAccessoryView = imageView;
              pinView.rightCalloutAccessoryView = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
             pinView.pinColor = MKPinAnnotationColorRed;
@@ -284,7 +285,7 @@
             pinView = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"CustomPinAnnotationView3"];
             pinView.animatesDrop = YES;
             pinView.canShowCallout = YES;
-            UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"earth-wireframe-7@3x copy"]];
+            UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"earthlines"]];
             pinView.leftCalloutAccessoryView = imageView;
              pinView.rightCalloutAccessoryView = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
             pinView.pinColor = MKPinAnnotationColorRed;
@@ -313,38 +314,40 @@
 
     
     //annotation - works
-    BiblicalPins *biblicalPin = (BiblicalPins *) view.annotation;
+    //BiblicalPins *biblicalPin = (BiblicalPins *) view.annotation;
     
     //deselect button selected - works
-    [self.mapView deselectAnnotation:biblicalPin animated:YES];
+    //[self.mapView deselectAnnotation:biblicalPin animated:YES];
         
   
     
-    UIAlertController *alert = [UIAlertController alertControllerWithTitle: biblicalPin.title message:biblicalPin.subtitle preferredStyle:(UIAlertControllerStyleAlert)];
+    //UIAlertController *alert = [UIAlertController alertControllerWithTitle: biblicalPin.title message:biblicalPin.subtitle preferredStyle:(UIAlertControllerStyleAlert)];
     
-    UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
-                                                          handler:^(UIAlertAction * action) {}];
+    //UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
+                                                          //handler:^(UIAlertAction * action) {}];
     
-    [alert addAction:defaultAction];
-    [self presentViewController:alert animated:YES completion:nil];
+    //[alert addAction:defaultAction];
+    //[self presentViewController:alert animated:YES completion:nil];
     
     
     
-/*
+
     BiblicalPins *biblicalPin = (BiblicalPins *) view.annotation;
     
     [self.mapView deselectAnnotation:biblicalPin animated:YES];
 
     
     
-        MapDetailViewController *detailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"detailViewController"];
-        
-            if (([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone))
-                {
-                    [self.navigationController pushViewController:detailViewController animated:YES];
-                }
+        WordDetailViewController *detailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"WordDetailViewController"];
+    
+    Word *word = [[Word alloc] init];
+    word.name = biblicalPin.title;
+    word.definition = biblicalPin.subtitle;
+    
+    detailViewController.currentWordDetail = word;
+    
+    [self.navigationController pushViewController:detailViewController animated:YES];
 
-*/
 
 }
 
