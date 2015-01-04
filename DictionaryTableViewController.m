@@ -229,7 +229,7 @@
 - (IBAction)typeButton:(id)sender
 {
     
-    UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Choose a set of Terms\rfor the Dictionary."
+    UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Choose the category of Terms\rfor the Dictionary."
                                                                    message:nil
                                                             preferredStyle:UIAlertControllerStyleActionSheet];
     
@@ -266,6 +266,14 @@
                                     
                                     }];
     
+    UIAlertAction *liturgicalAction = [UIAlertAction actionWithTitle:@"Liturgical" style:UIAlertActionStyleDefault
+                                                           handler:^(UIAlertAction *action)
+                                     {
+                                     self.category = @"Liturgical";
+                                     [self.tableView reloadData];
+                                     
+                                     }];
+    
     UIAlertAction *culturalAction = [UIAlertAction actionWithTitle:@"Cultural" style:UIAlertActionStyleDefault
                                                            handler:^(UIAlertAction *action)
     
@@ -296,6 +304,7 @@
     [alert addAction:historicalAction];
     [alert addAction:moralAction];
     [alert addAction:biblicalAction];
+    [alert addAction:liturgicalAction];
     [alert addAction:culturalAction];
     [alert addAction:allAction];
     [alert addAction:cancelAction]; 

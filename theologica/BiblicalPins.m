@@ -24,7 +24,8 @@
     return self; 
 }
 
-+ (MKAnnotationView *)createViewAnnotationForMapView:(MKMapView *)mapView annotation:(id <MKAnnotation>)annotation
+/*
+ + (MKAnnotationView *)createViewAnnotationForMapView:(MKMapView *)mapView annotation:(id <MKAnnotation>)annotation
 {
     // try to dequeue an existing pin view first
     MKAnnotationView *returnedAnnotationView =
@@ -42,5 +43,5 @@
     
     return returnedAnnotationView;
 }
-
+*/
 @end

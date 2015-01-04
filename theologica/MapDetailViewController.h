@@ -7,7 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Word.h"
 
 @interface MapDetailViewController : UIViewController
+
+@property (strong, nonatomic) IBOutlet UILabel *locationLabel;
+@property (strong, nonatomic) IBOutlet UITextView *locationDescription;
+
+@property (strong, nonatomic) IBOutlet UIImageView *imageView;
+@property (strong, nonatomic) UIImage *image;
+
+
+
+@property (strong, nonatomic) Word *currentWordDetail;
+
+
+
 
 @end

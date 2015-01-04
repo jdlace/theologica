@@ -11,9 +11,8 @@
       "scale" : "2x"
     },
     {
-      "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "Screen Shot 2014-11-15 at 8.31.17 PM copy.png",
+      "size" : "40x40",
       "scale" : "2x"
     },
     {
@@ -29,7 +28,7 @@
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "Screen Shot 2014-11-15 at 8.31.17 PM.png",
+      "filename" : "appicon.png",
       "scale" : "2x"
     },
     {

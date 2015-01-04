@@ -18,16 +18,17 @@
 {
     {
         [super viewDidLoad];
-        
+    /*
         // fit the our popover size to match our image size
         UIImageView *imageView = (UIImageView *)self.view;
         
         // this will determine the appropriate size of our popover
         self.preferredContentSize = CGSizeMake(imageView.image.size.width, imageView.image.size.height);
-        self.title = @"Info";
+        //self.title = @"Info";
         
         // for this view controller we want a black style nav bar
         self.navigationController.navigationBar.barStyle = UIBarStyleDefault;
+    */
     }
 }
 

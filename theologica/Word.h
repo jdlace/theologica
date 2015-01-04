@@ -13,7 +13,6 @@
 @property (copy, nonatomic) NSString *name;
 @property (copy, nonatomic) NSString *definition;
 @property (copy, nonatomic) NSString *category;
-@property (weak, nonatomic) UIImage *image; 
 @property (nonatomic) BOOL bookmarked; 
 
 @end
