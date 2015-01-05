@@ -12,6 +12,7 @@
 
 @property (copy, nonatomic) NSString *name;
 @property (copy, nonatomic) NSString *definition;
+@property (copy, nonatomic) NSString *twitterDef; 
 @property (copy, nonatomic) NSString *category;
 @property (nonatomic) BOOL bookmarked; 
 

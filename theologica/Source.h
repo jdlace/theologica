@@ -12,6 +12,7 @@
 
 @property (copy, nonatomic) NSString *name;
 @property (copy, nonatomic) NSString *comment;
+@property (copy, nonatomic) NSString *twitterDef;
 @property (strong, nonatomic) UIImage *image;
 
 @end

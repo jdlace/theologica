@@ -116,22 +116,26 @@
     //A
     Word *abba = [[Word alloc] init];
     abba.name = @"Abba";
-    abba.definition = @"The Aramaic term for “Daddy”; used by Jesus in prayer to God according to the gospels. Paul claims that Christians also use the term because of their filial adoption; “Because you are sons, God has sent the Spirit of his Son into our hearts, crying, 'Abba! Father!'” (Gal 4:6)  \r\rSee Catechism of the Catholic Church, 683 http://www.vatican.va/archive/ccc_css/archive/catechism/p1s2c3.htm#683.";
+    abba.twitterDef = @"the Aramaic word for “Daddy”";
+    abba.definition = @"This term was by Jesus in prayer to God according to the gospels. Paul claims that Christians also use the term because of their filial adoption; “Because you are sons, God has sent the Spirit of his Son into our hearts, crying, 'Abba! Father!'” (Gal 4:6)  \r\rSee Catechism of the Catholic Church, 683 http://www.vatican.va/archive/ccc_css/archive/catechism/p1s2c3.htm#683.";
     abba.category = @"Biblical";
     
     Word *adonai = [[Word alloc] init];
     adonai.name = @"Adonai";
-    adonai.definition =@"The Hebrew word for “Ruler” or “Master”; used as a synonym for YHWH.\r\rSee Catechism of the Catholic Church, 209. link:  ";
+    adonai.twitterDef = @"the Hebrew word for “Ruler” or “Master”";
+    adonai.definition = @"This term is used as a synonym for YHWH in the Bible and in contemporary Judaism.\r\rSee Catechism of the Catholic Church, 209. link:  ";
     adonai.category = @"Biblical";
     
     Word *anawim = [[Word alloc] init];
     anawim.name = @"Anawim";
-    anawim.definition = @"The Hebrew word for the poor and marginalized in ancient Israel who trust completely in the mercy of God (Is. 10:2, Zeph 2:3); frequently used in the Psalms.";
+    anawim.twitterDef = @"the Hebrew word for the “poor”";
+    anawim.definition = @"This term is used in the Hebrew Bible to refer to those who are poor, destitue, and marginalized who trust completely in the mercy of God (Is. 10:2, Zeph 2:3); frequently used in the Psalms.";
     anawim.category = @"Biblical";
     
     Word *anthropomorphism = [[Word alloc] init];
     anthropomorphism.name = @"Anthropomorphism";
-    anthropomorphism.definition = @"The attribution of human characteristics to a non-human object. God is described in human terms throughout the Christian tradition, and especially within the Scriptures. The Yahwist Source uses anthropomorphism extensively in its portrayal of YHWH in the Torah.Such language is, however, ultimately, only analogous to God. See “Analogy”, “Yahwist Source”, “YHWH”";
+    anthropomorphism.twitterDef = @"Attributing human characteristics to God";
+    anthropomorphism.definition = @"God is described in human terms throughout the Christian tradition, and especially within the Scriptures. The Yahwist Source uses anthropomorphism extensively in its portrayal of YHWH in the Torah. Such language is, however, ultimately, only analogous to God. See “Analogy”, “Yahwist Source”, “YHWH”.";
     anthropomorphism.category = @"Biblical";
     
     /*
@@ -142,16 +146,19 @@
     
     Word *apocalypse = [[Word alloc] init];
     apocalypse.name = @"Apocalypse";
+    apocalypse.twitterDef = @"the Greek term for “unveiling”";
     apocalypse.definition = @"1. The revelation of something previously hidden, used by Paul to refer to his experience of the risen Jesus. 2. The name of the last book of the New Testament - from the Greek word αποκαλυπσις (apokalypsis) - “unveiling”.";
     apocalypse.category = @"Biblical";
     
     Word *apocrypha = [[Word alloc] init];
     apocrypha.name = @"Apocrypha";
-    apocrypha.definition = @"The 7 books not found in the Protestant canon; Baruch, Judith, 1st and 2nd Maccabees, Sirach, Tobit, Wisdom - from the Greek word for “hidden”";
+    apocrypha.twitterDef = @"the Greek term for “hidden things”";
+    apocrypha.definition = @"The 7 Old Testament books not found in the Protestant canon; Baruch, Judith, 1st and 2nd Maccabees, Sirach, Tobit, Wisdom - from the Greek word for “hidden”";
     apocrypha.category = @"Biblical";
     
     Word *apodictic = [[Word alloc] init];
     apodictic.name = @"Apodictic";
+    apodictic.twitterDef = @"Law based on universal norms";
     apodictic.definition = @"A type of law which is based on a moral norm or command; see Exodus 20, “Decalogue”.";
     apodictic.category = @"Biblical";
     
@@ -163,16 +170,19 @@
     
     Word *apostle = [[Word alloc] init];
     apostle.name = @"Apostle";
+    apostle.twitterDef = @"A disciple personally commissioned by Jesus";
     apostle.definition = @"The disciples which compirised Jesus' inner cirlce and whom he commissioned to spread the good news of the Kingdom of God; also used by Paul to refer to anyone who had seen the risen Christ - from the Greek word αποστολος (apostolos) - “delegate”.";
     apostle.category = @"Biblical";
     
     Word *aqeda = [[Word alloc] init];
     aqeda.name = @"Aqeda";
+    aqeda.twitterDef = @"the Hebrew word for the “binding” of Isaac";
     aqeda.definition = @"The story of the binding and near-sacrifice of Isaac by Abraham - from Hebrew word for “binding”. According to Richard Elliot Freidman, the Aqedah is mostly an Elohist Source story with a very different original ending that was amended by the Redactor of the Torah.\r\rSee ";
     aqeda.category = @"Biblical";
     
     Word *aramaic = [[Word alloc] init];
     aramaic.name = @"Aramaic";
+    aramaic.twitterDef = @"a variant dialect of Hebrew";
     aramaic.definition = @"A variant of Hebrew, likely the native language of the historical Jesus.";
     aramaic.category = @"Biblical";
     
@@ -188,62 +198,74 @@
     
     Word *asherah = [[Word alloc] init];
     asherah.name = @"Asherah";
+    asherah.twitterDef = @"Canaanite fertility goddess & wife of El";
     asherah.definition = @"In Canaanite mythology, the wife of El and the goddess of fertility; mentioned numerous times throughout the Old Testament; according to 2 Kings 23:4 a large Asherah idol was housed in the Temple and dressed by her cult's prostitutes before Josiah's Deuteronomic reform.";
     asherah.category = @"Biblical";
     //asherah.image =
     
     Word *assyria = [[Word alloc] init];
     assyria.name = @"Assyria";
-    assyria.definition = @"One of the numerous Mesopotamian empires in the ancient world which conquered the northern kindgom of Israel in 722 BCE.";
+    assyria.twitterDef = @"the empire that conquered Israel in 722 B.C.";
+    assyria.definition = @"One of the numerous Mesopotamian empires in the ancient world which conquered the northern kindgom of Israel in 722 B.C.";
     assyria.category = @"Biblical";
     
     Word *abortion = [[Word alloc] init];
     abortion.name = @"Abortion";
+    abortion.twitterDef = @"the willful killing of a human being in utero";
     abortion.definition = @"The intentional killing of an unborn human being, who is regarded as sacred from the moment of conception. The death of an unborn child as a consequence of other procedures deemed good in themselves is not considered an abortion per se but rather a consequence of the principle of double-effect (See “Principle of Double-Effect”). The Catholic tradition is consistent in its classification of abortion as a grave sin, the willful commision of which incurs an automatic excommunication. \r\rSee Catechism of the Catholic Church, 2270. http://www.vatican.va/archive/ccc_css/archive/catechism/p3s2c2a5.htm. See “Roe vs. Wade”.";
     abortion.category = @"Moral";
     
     Word *abstinence = [[Word alloc] init];
     abstinence.name = @"Abstinence";
+    abstinence.twitterDef = @"to purposely refrain from a given activity";
     abstinence.definition = @"The restraining of oneself from a given activity for the purpose of spiritual edification; traditionally applied to food and sexual activity. ";
     abstinence.category = @"Moral";
     
     Word *act = [[Word alloc] init];
     act.name = @"Act";
+    act.twitterDef = @"a free act of the will";
     act.definition = @"In moral theology, an truly “human” act refers to actions made with freedom and will.";
     act.category = @"Moral";
     
     Word *adultery = [[Word alloc] init];
     adultery.name = @"Adultery";
+    adultery.twitterDef = @"extra-marital sexual relations";
     adultery.definition = @"Marital infidelity or sexual relations between two people, one of which being married to another person";
     adultery.category = @"Moral";
 
     Word *absolution = [[Word alloc] init];
     absolution.name = @"Absolution";
+    absolution.twitterDef = @"the declaration that sins are forgiven";
     absolution.definition = @"The act by which a priest declares the forgiveness of sins.\r\rSee Catechism of the Catholic Church, 1424 link: ";
     absolution.category = @"Systematic";
     
     Word *adoptionism = [[Word alloc] init];
     adoptionism.name = @"Adoptionism";
+    adoptionism.twitterDef = @"the belief that Jesus was not divine by nature";
     adoptionism.definition = @"The belief that Jesus was not the Son of God by nature, but rather adopted by God at his baptism; held by the so-called Ebionites of the end of the first century...";
     adoptionism.category = @"Historical";
     
     Word *accident = [[Word alloc] init];
     accident.name = @"Accident";
+    accident.twitterDef = @"a nonessential property or quality of an object";
     accident.definition = @"In Aristotelean philosophy, a nonessential property or quality of an object that is dependent upon the substance of the object for its existence. Thomas Aquinas used this concept to support his theory of “transubstantiation” of the Eucharist.\r\rSee http://en.wikipedia.org/wiki/Accident_(philosophy)";
     accident.category = @"Systematic";
     
     Word *asceticism = [[Word alloc] init];
     asceticism.name = @"Asceticism";
+    asceticism.twitterDef = @"the practice of self-discipline";
     asceticism.definition = @"The practice of self-discipline for a higher purpose, often involving abstinence - from the Greek word ασκησις (askesis) - “training”. See “abstinence”";
     asceticism.category = @"Systematic";
     
     Word *adoption = [[Word alloc] init];
     adoption.name = @"Adoption";
+    adoption.twitterDef = @"the process of becoming a child of God";
     adoption.definition = @"A biblical metaphor used to refer to the process of entering into a new relationship with God through Jesus Christ. \r\rSee Catechism of the Catholic Church, 1. http://www.vatican.va/archive/ccc_css/archive/catechism/prologue.htm#1";
     adoption.category = @"Systematic";
     
     Word *agape = [[Word alloc] init];
     agape.name = @"Agape";
+    agape.twitterDef = @"universal and unconditional love";
     agape.definition = @"1. The Greek word (αγαπη) meaning “universal and unconditional will for the good of another”. The gospel writers use this word to describe Jesus' teaching on the love of God as well as the love for God, neighbors and enemies (Matthew 5:44, 22:37, 39). 2. The early Christian communal meal after which the Eucharist was celebrated (Jude 1:12). \r\rSee “Deus Caritas Est” by Pope Benedict XVI. http://www.vatican.va/holy_father/benedict_xvi/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est_en.html";
     agape.category = @"Moral";
 
@@ -740,6 +762,7 @@
     
     Word *deuteronomicHistory = [[Word alloc] init];
     deuteronomicHistory.name = @"Deuteronomic History";
+    deuteronomicHistory.twitterDef = @"The 7 books of Deuteronomy - 2 Kings";
     deuteronomicHistory.definition = @"The term given to the seven books, beginning with the book of Deuteronomy and extending through 2 Kings in the Hebrew Bible, which details the rise and fall of the Israelite monarchy, united and divided kingdom, and eventual downfall of the nation Israel.";
     deuteronomicHistory.category = @"Biblical";
     
@@ -1472,7 +1495,8 @@
     
     Word *prophet = [[Word alloc] init];
     prophet.name = @"Prophet";
-    prophet.definition = @"One who speaks in place of God; used in the Old Testament to refer to either a court prophet (such as Nathan) or an independent prophet (such as Amos).";
+    prophet.twitterDef = @"One who speaks in the place of God";
+    prophet.definition = @"This term is used in the Old Testament to refer to either a court prophet (such as Nathan) or an independent prophet (such as Amos).";
     prophet.category = @"Biblical";
     
     Word *prophetic = [[Word alloc] init];

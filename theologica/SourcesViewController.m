@@ -123,6 +123,7 @@
     
     Source *scriptureSource = [[Source alloc] init];
     scriptureSource.name = @"Sacred Scripture";
+    scriptureSource.twitterDef = @"The Old and New Testaments";
     scriptureSource.comment = @"Throughout the history of the Catholic tradition, the canon of Scripture has always played a central and dialectic role in the community life of the Church. The Hebrew Bible is the foundation of the Biblical tradition.\r\rThe Old Testament\r\rConsisting of the Hebrew canon plus seven additional books, the Old Testament contains the story of the people of Israel.";
     
     WordDetailViewController *detailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"WordDetailViewController"];
@@ -136,6 +137,7 @@
     Word *word = [[Word alloc] init];
     word.name = scriptureSource.name;
     word.definition = scriptureSource.comment;
+    word.twitterDef = scriptureSource.twitterDef;
     
     detailViewController.currentWordDetail = word;
     
@@ -146,6 +148,7 @@
 {
     Source *fathersSource = [[Source alloc] init];
     fathersSource.name = @"Fathers of the Church";
+    fathersSource.twitterDef = @"Early Christian Thinkers";
     fathersSource.comment = @"The Fathers of the Church occupy a special place in the Catholic Tradition.";
     
     WordDetailViewController *detailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"WordDetailViewController"];
@@ -157,6 +160,7 @@
     Word *word = [[Word alloc] init];
     word.name = fathersSource.name;
     word.definition = fathersSource.comment;
+    word.twitterDef = fathersSource.twitterDef;
     
     detailViewController.currentWordDetail = word;
     
@@ -167,6 +171,7 @@
 {
     Source *catechismSource = [[Source alloc] init];
     catechismSource.name = @"Magisterium";
+    catechismSource.twitterDef = @"The Teaching Authority of the Church";
     catechismSource.comment = @"The Magisterium represents the teaching authority of the Church.";
     
     WordDetailViewController *detailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"WordDetailViewController"];
@@ -178,6 +183,7 @@
     Word *word = [[Word alloc] init];
     word.name = catechismSource.name;
     word.definition = catechismSource.comment;
+    word.twitterDef = catechismSource.twitterDef;
     
     detailViewController.currentWordDetail = word;
     
@@ -190,6 +196,7 @@
 {
     Source *liturgySource = [[Source alloc] init];
     liturgySource.name = @"Liturgy";
+    liturgySource.twitterDef = @"The Worship of the Church";
     liturgySource.comment = @"The liturgy of the Church expresses what it believes. Lex Orandi-Lex Credendi.";
     
     WordDetailViewController *detailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"WordDetailViewController"];
@@ -201,6 +208,7 @@
     Word *word = [[Word alloc] init];
     word.name = liturgySource.name;
     word.definition = liturgySource.comment;
+    word.twitterDef = liturgySource.twitterDef;
     
     detailViewController.currentWordDetail = word;
     
@@ -213,6 +221,7 @@
 {
     Source *councilsSource = [[Source alloc] init];
     councilsSource.name = @"Ecumenical Councils";
+    councilsSource.twitterDef = @"Gatherings of Bishops";
     councilsSource.comment = @"Ecumenical Councils are called to settle matters of faith and practice.";
     
     WordDetailViewController *detailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"WordDetailViewController"];
@@ -224,6 +233,7 @@
     Word *word = [[Word alloc] init];
     word.name = councilsSource.name;
     word.definition = councilsSource.comment;
+    word.twitterDef = councilsSource.twitterDef;
     
     detailViewController.currentWordDetail = word;
     
@@ -236,6 +246,7 @@
 {
     Source *scienceSource = [[Source alloc] init];
     scienceSource.name = @"Science";
+    scienceSource.twitterDef = @"Knowlege of the Physical World";
     scienceSource.comment = @"As a separate but related domain of knowledge, science is akin to theology in that it involves a specific methodology designed to answer a specific set of questions about human experience.";
     
     WordDetailViewController *detailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"WordDetailViewController"];
@@ -247,6 +258,7 @@
     Word *word = [[Word alloc] init];
     word.name = scienceSource.name;
     word.definition = scienceSource.comment;
+    word.twitterDef = scienceSource.twitterDef;
     
     detailViewController.currentWordDetail = word;
     
@@ -258,6 +270,7 @@
 {
     Source *artsSource = [[Source alloc] init];
     artsSource.name = @"The Arts";
+    artsSource.twitterDef = @"The Expression";
     artsSource.comment = @"The Arts express the existential situation of the human person.";
     
     WordDetailViewController *detailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"WordDetailViewController"];
@@ -269,6 +282,7 @@
     Word *word = [[Word alloc] init];
     word.name = artsSource.name;
     word.definition = artsSource.comment;
+    word.twitterDef = artsSource.twitterDef;
     
     detailViewController.currentWordDetail = word;
     
@@ -291,6 +305,7 @@
     Word *word = [[Word alloc] init];
     word.name = mediaSource.name;
     word.definition = mediaSource.comment;
+    word.twitterDef = mediaSource.twitterDef;
     
     detailViewController.currentWordDetail = word;
     
@@ -313,6 +328,7 @@
     Word *word = [[Word alloc] init];
     word.name = politicsSource.name;
     word.definition = politicsSource.comment;
+    word.twitterDef = politicsSource.twitterDef;
     
     detailViewController.currentWordDetail = word;
     
@@ -324,6 +340,7 @@
 {
     Source *philosophySource = [[Source alloc] init];
     philosophySource.name = @"Philosophy";
+    philosophySource.twitterDef = @"The Love of Wisdom"; 
     philosophySource.comment = @"Philosophy has an authentic independence from theology.";
     philosophySource.image = [UIImage imageNamed:@"lightlines"]; 
     
@@ -336,6 +353,7 @@
     Word *word = [[Word alloc] init];
     word.name = philosophySource.name;
     word.definition = philosophySource.comment;
+    word.twitterDef = philosophySource.twitterDef;
     
     detailViewController.currentWordDetail = word;
 
@@ -360,6 +378,7 @@
     Word *word = [[Word alloc] init];
     word.name = theologicaSource.name;
     word.definition = theologicaSource.comment;
+    word.twitterDef = theologicaSource.twitterDef;
     
     detailViewController.currentWordDetail = word;
     

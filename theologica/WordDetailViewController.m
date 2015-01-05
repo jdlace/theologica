@@ -33,6 +33,7 @@
     self.descriptionTextView.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
     
     _nameLabel.text = _currentWordDetail.name;
+    _twitterLabel.text = _currentWordDetail.twitterDef; 
     _descriptionTextView.text = _currentWordDetail.definition;
     //_systematicDescription.textColor = [UIColor blacColor];
     
@@ -60,7 +61,10 @@
 - (IBAction)share:(UIBarButtonItem *)sender
 {
     NSArray *activityItems;
-    activityItems = @[_currentWordDetail.name, _currentWordDetail.definition];
+    activityItems = @[_currentWordDetail.name, _currentWordDetail.twitterDef, @"#theologica"];
+    
+    //NSArray *activityActions;
+    
 
     UIActivityViewController *activityController = [[UIActivityViewController alloc] initWithActivityItems: activityItems applicationActivities:nil];
     [self presentViewController:activityController

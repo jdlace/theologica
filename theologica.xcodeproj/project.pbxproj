@@ -328,10 +328,10 @@
 				FA84505B1A129CA0007839D8 /* bookmarkListTableViewController.m */,
 				692ED2B01796F466008554F9 /* DictionaryTableViewController.h */,
 				692ED2B11796F466008554F9 /* DictionaryTableViewController.m */,
-				69739B541A36897F008BAB06 /* SearchBarViewController.h */,
-				69739B551A36897F008BAB06 /* SearchBarViewController.m */,
 				692ED2B31796F48B008554F9 /* WordDetailViewController.h */,
 				692ED2B41796F48B008554F9 /* WordDetailViewController.m */,
+				69739B541A36897F008BAB06 /* SearchBarViewController.h */,
+				69739B551A36897F008BAB06 /* SearchBarViewController.m */,
 			);
 			name = Dictionary;
 			sourceTree = "<group>";
