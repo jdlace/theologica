@@ -18,6 +18,8 @@
 {
     {
         [super viewDidLoad];
+    
+    self.locationDescription.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
     /*
         // fit the our popover size to match our image size
         UIImageView *imageView = (UIImageView *)self.view;
@@ -38,6 +40,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+/*
+- (void) backButtonTapped:(id)sender
+{
+    [self.delegate resetMapView];
+    
+    [self.navigationController popViewControllerAnimated:YES];
+}
+*/
 /*
 #pragma mark - Navigation
 

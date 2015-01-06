@@ -14,7 +14,7 @@
 #import "HistoricalPins.h"
 #import "SocialPins.h"
 
-@interface MapViewController ()
+@interface MapViewController () 
 
 @end
 
@@ -54,7 +54,7 @@
     jerusalem.coordinate = CLLocationCoordinate2DMake(31.7570, 35.1790);
     jerusalem.title = @"Jerusalem";
     jerusalem.subtitle = @"The City of David"; 
-    jerusalem.information = @"The capital of the Davidic monarchy. According to 2 Samuel 24:24, King David purchased Jerusalem from the Jebusites and designated it the capital of his united kingdom. Solomon built the Temple on Mount Moriah in Jerusalem along with his palace. The city was destroyed by the Babylonians in 587 B.C. and re-established in 538 after the return of the Jews from the Exile. It served as the religious center of Palestine during the Roman occupation from 63 B.C. to its destruction in A.D. 70 by the Romans.\r\rCoordinates:\r\r31.7883, 35.2167";
+    jerusalem.information = @"The capital of the Davidic monarchy. According to 2 Samuel 24:24, King David purchased Jerusalem from the Jebusites and designated it the capital of his united kingdom. Solomon built the Temple on Mount Moriah in Jerusalem along with his palace. The city was destroyed by the Babylonians in 587 B.C. and re-established in 538 after the return of the Jews from the Exile. It served as the religious center of Palestine during the Roman occupation from 63 B.C. to its destruction in A.D. 70 by the Romans. The city was rebuilt successively throughout the period of the Ottoman Empire. It is currently divided between Palestine and Israel.\r\rCoordinates:\r31.7883, 35.2167";
     
     BiblicalPins *rome = [[BiblicalPins alloc] init];
     rome.coordinate = CLLocationCoordinate2DMake(41.8900, 12.4938);
@@ -340,8 +340,8 @@
     //[self presentViewController:alert animated:YES completion:nil];
     
     
-    //-----------------------------------------------------------------------------
-/*
+    //----------------------------------------------------------------------------
+
     BiblicalPins *biblicalPin = (BiblicalPins *) view.annotation;
     
     [self.mapView deselectAnnotation:biblicalPin animated:YES];
@@ -356,39 +356,18 @@
     
     Word *word = [[Word alloc] init];
     word.name = biblicalPin.title;
-    
-    //detailViewController.imageView.image = [UIImage imageNamed:@"earthlines"];
-    //[self.view addSubview:detailViewController.view];
-    
-    MKMapSnapshotOptions *options = [[MKMapSnapshotOptions alloc] init];
-    options.size = CGSizeMake(960, 640);
-    options.scale = [[UIScreen mainScreen] scale]; // iOS only
-    options.region = self.mapView.region;
-    options.mapType = MKMapTypeStandard;
-    
-    MKMapSnapshotter *snapshotter =
-    [[MKMapSnapshotter alloc] initWithOptions:options];
-    [snapshotter startWithCompletionHandler:^(MKMapSnapshot *snapshot, NSError *e)
-    {
-    //if (e) ...;// Handle errors
-    
-    UIImage *image = snapshot.image;
-    
-    detailViewController.imageView.image = image;
-// Done!
-    }];
-    
-
     word.definition = biblicalPin.information;
+    word.twitterDef = biblicalPin.subtitle; 
     
     detailViewController.currentWordDetail = word;
 
     
     [self.navigationController pushViewController:detailViewController animated:YES];
-*/
 
-   
-    //----------------------
+
+ 
+/*
+    //----------------------  This should be working ------------------
  
     BiblicalPins *biblicalPin = (BiblicalPins *) view.annotation;
     
@@ -405,18 +384,31 @@
     Word *word = [[Word alloc] init];
     word.name = biblicalPin.title;
     
-    /*
+    
+    mapDetail.currentWordDetail = word;
+    mapDetail.locationLabel.text = biblicalPin.title;
+    mapDetail.locationDescription.text = biblicalPin.information;
+    
+    
+    word.definition = biblicalPin.information;
+    
+    
+    [self.navigationController pushViewController:mapDetail animated:YES];
+    */
+    
+    //---------------------------------------------------------------------
+    /*  I took this out b/c it was messing with scroll action of TextView.
     MKMapCamera  *myCamera = [MKMapCamera
                               cameraLookingAtCenterCoordinate:biblicalPin.coordinate
                               fromEyeCoordinate:biblicalPin.coordinate
-                              eyeAltitude:8000];
+                              eyeAltitude:9000];
     
     mapView.camera = myCamera;
-    */
+    
     MKMapSnapshotOptions *options = [[MKMapSnapshotOptions alloc] init];
-    options.size = CGSizeMake(310, 140);
-    //options.camera = myCamera;
-    options.scale = [[UIScreen mainScreen] scale]; // iOS only
+    options.size = CGSizeMake(320, 475);
+    options.camera = myCamera;
+    options.scale = 2;//[[UIScreen mainScreen] scale]; // iOS only
     options.region = self.mapView.region;
     options.mapType = MKMapTypeStandard;
     
@@ -432,31 +424,25 @@
      mapDetail.currentWordDetail = word;
      mapDetail.locationLabel.text = biblicalPin.title;
      mapDetail.locationDescription.text = biblicalPin.information;
-     //[backButton --- add a method to return the user to the original mapView alititude.
-    
+     
+     if(backButton)
+         {
+     
+         MKCoordinateSpan span = MKCoordinateSpanMake(80.0000f,80.0000f);
+         CLLocationCoordinate2D coordinate = {38.4667, -28.4000};
+         MKCoordinateRegion region = {coordinate, span};
+         
+         MKCoordinateRegion regionThatFits = [self.mapView regionThatFits:region];
+         
+         [self.mapView setRegion:regionThatFits animated:YES];
+     
+         
+         }
      }];
    
+*/
 
-   // MKAnnotationView *pin = [[MKPinAnnotationView alloc] initWithAnnotation:nil reuseIdentifier:@""];
-    //UIImage *pinImage = pin.image; - - so if you want to capture pins in your snapshot, they must all be drawn manually. OMG - Apple please fix this. 
-
-    
-    word.definition = biblicalPin.information;
-    
-    [self.navigationController pushViewController:mapDetail animated:YES];
-    /*
-    if (backButton)
-        {
-        
-        MKMapCamera *camera = [self.mapView camera];
-        [NSKeyedArchiver archiveRootObject:camera toFile:stateFile];
-        MKMapCamera *camera =
-        [NSKeyedUnarchiver unarchiveObjectWithFile:stateFile];
-        [map setCamera:camera];
-        
-        };
-     */
-  //
+ 
 }
 
 - (IBAction)viewButton:(id)sender

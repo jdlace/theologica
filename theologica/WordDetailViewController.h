@@ -20,7 +20,6 @@
 @property (strong, nonatomic) IBOutlet UITextView *descriptionTextView;
 
 @property (strong, nonatomic) IBOutlet UIImageView *imageView; 
-@property (strong, nonatomic) UIImage *image;
 
 - (IBAction)share:(UIBarButtonItem *)sender;
 

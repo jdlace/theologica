@@ -31,6 +31,7 @@
     
     //self.nameLabel.font = [UIFont preferredFontForTextStyle: UIFontTextStyleHeadline];
     self.descriptionTextView.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
+    self.twitterLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
     
     _nameLabel.text = _currentWordDetail.name;
     _twitterLabel.text = _currentWordDetail.twitterDef; 

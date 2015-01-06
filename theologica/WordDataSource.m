@@ -247,7 +247,7 @@
     
     Word *accident = [[Word alloc] init];
     accident.name = @"Accident";
-    accident.twitterDef = @"a nonessential property or quality of an object";
+    accident.twitterDef = @"a nonessential property of an object";
     accident.definition = @"In Aristotelean philosophy, a nonessential property or quality of an object that is dependent upon the substance of the object for its existence. Thomas Aquinas used this concept to support his theory of “transubstantiation” of the Eucharist.\r\rSee http://en.wikipedia.org/wiki/Accident_(philosophy)";
     accident.category = @"Systematic";
     
@@ -265,8 +265,8 @@
     
     Word *agape = [[Word alloc] init];
     agape.name = @"Agape";
-    agape.twitterDef = @"universal and unconditional love";
-    agape.definition = @"1. The Greek word (αγαπη) meaning “universal and unconditional will for the good of another”. The gospel writers use this word to describe Jesus' teaching on the love of God as well as the love for God, neighbors and enemies (Matthew 5:44, 22:37, 39). 2. The early Christian communal meal after which the Eucharist was celebrated (Jude 1:12). \r\rSee “Deus Caritas Est” by Pope Benedict XVI. http://www.vatican.va/holy_father/benedict_xvi/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est_en.html";
+    agape.twitterDef = @"the Greek word (αγαπη) for universal and unconditional love";
+    agape.definition = @"The gospel writers use this word to describe Jesus' teaching on the love of God as well as the love for God, neighbors and enemies (Matthew 5:44, 22:37, 39). The early Christians also used “agape” to refer to their communal meal after which the Eucharist was celebrated (Jude 1:12). \r\rSee “Deus Caritas Est” by Pope Benedict XVI. http://www.vatican.va/holy_father/benedict_xvi/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est_en.html";
     agape.category = @"Moral";
 
     Word *aggiornomento = [[Word alloc] init];
@@ -762,8 +762,8 @@
     
     Word *deuteronomicHistory = [[Word alloc] init];
     deuteronomicHistory.name = @"Deuteronomic History";
-    deuteronomicHistory.twitterDef = @"The 7 books of Deuteronomy - 2 Kings";
-    deuteronomicHistory.definition = @"The term given to the seven books, beginning with the book of Deuteronomy and extending through 2 Kings in the Hebrew Bible, which details the rise and fall of the Israelite monarchy, united and divided kingdom, and eventual downfall of the nation Israel.";
+    deuteronomicHistory.twitterDef = @"The theologized history of Israel in Joshua, Judges, 1 & 2 Samuel, and 1 & 2 Kings";
+    deuteronomicHistory.definition = @"The term given to the books Joshua, Judges, 1 & 2 Samuel, and 1 & 2 Kings, based on the theology of the book of Deuteronomy, which detail the rise and fall of the Israelite monarchy, united and divided kingdom, and eventual downfall of the nation Israel.";
     deuteronomicHistory.category = @"Biblical";
     
     Word *deuteronomicSource = [[Word alloc] init];
