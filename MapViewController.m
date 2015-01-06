@@ -341,7 +341,7 @@
     
     
     //----------------------------------------------------------------------------
-
+/*
     BiblicalPins *biblicalPin = (BiblicalPins *) view.annotation;
     
     [self.mapView deselectAnnotation:biblicalPin animated:YES];
@@ -363,10 +363,10 @@
 
     
     [self.navigationController pushViewController:detailViewController animated:YES];
-
+*/
 
  
-/*
+
     //----------------------  This should be working ------------------
  
     BiblicalPins *biblicalPin = (BiblicalPins *) view.annotation;
@@ -385,17 +385,40 @@
     word.name = biblicalPin.title;
     
     
-    mapDetail.currentWordDetail = word;
-    mapDetail.locationLabel.text = biblicalPin.title;
-    mapDetail.locationDescription.text = biblicalPin.information;
+    MKMapCamera  *myCamera = [MKMapCamera
+                              cameraLookingAtCenterCoordinate:biblicalPin.coordinate
+                              fromEyeCoordinate:biblicalPin.coordinate
+                              eyeAltitude:9000];
     
+    mapView.camera = myCamera;
     
+    MKMapSnapshotOptions *options = [[MKMapSnapshotOptions alloc] init];
+    options.size = CGSizeMake(320, 90);
+    options.camera = myCamera;
+    options.scale = [[UIScreen mainScreen] scale]; // iOS only
+    options.region = self.mapView.region;
+    options.mapType = MKMapTypeStandard;
+    
+    MKMapSnapshotter *snapshotter =
+    [[MKMapSnapshotter alloc] initWithOptions:options];
+    [snapshotter startWithCompletionHandler:^(MKMapSnapshot *snapshot, NSError *e)
+     {
+     //if (e) ...;// Handle errors
+     
+     UIImage *image = snapshot.image;
+     
+     mapDetail.imageView.image = image;
+     mapDetail.currentWordDetail = word;
+     mapDetail.locationLabel.text = biblicalPin.title;
+     mapDetail.locationDescription.text = biblicalPin.information;
+    
+     }];
     word.definition = biblicalPin.information;
     
     
     [self.navigationController pushViewController:mapDetail animated:YES];
-    */
-    
+}
+
     //---------------------------------------------------------------------
     /*  I took this out b/c it was messing with scroll action of TextView.
     MKMapCamera  *myCamera = [MKMapCamera
@@ -442,8 +465,6 @@
    
 */
 
- 
-}
 
 - (IBAction)viewButton:(id)sender
 {
