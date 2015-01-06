@@ -18,6 +18,28 @@
 {
     {
         [super viewDidLoad];
+        
+        [super viewDidLoad];
+        // Do any additional setup after loading the view.
+        
+        
+        //self.locationLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
+        self.locationDescription.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
+        
+        _locationLabel.text = _currentWordDetail.name;
+        _locationDescription.text = _currentWordDetail.definition;
+        _imageView.image = _currentWordDetail.image; 
+
+        
+        //_twitterLabel.text = _currentWordDetail.twitterDef;
+        
+        
+        [[NSNotificationCenter defaultCenter]
+         addObserver:self
+         selector:@selector(preferredContentSizeChanged:)
+         name:UIContentSizeCategoryDidChangeNotification
+         object:nil];
+
     
     self.locationDescription.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
     /*

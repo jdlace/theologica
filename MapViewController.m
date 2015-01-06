@@ -21,15 +21,13 @@
 @implementation MapViewController
 
 /*
-- (void)viewWillAppear:(BOOL)animated
+-(void) viewWillAppear:(BOOL)animated
 {
-    [super viewWillAppear:animated];
-    
-    // restore the nav bar to translucent
-    self.navigationController.navigationBar.barStyle = UIBarStyleDefault;
+    self.originalCamera.altitude = self.mapView.camera.altitude;
+    //BiblicalPins *biblicalPin = (BiblicalPins *) self.mapView.annotations;
+    [self.mapView setCamera:self.originalCamera animated:YES];
 }
 */
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -53,13 +51,15 @@
     BiblicalPins *jerusalem = [[BiblicalPins alloc] init];
     jerusalem.coordinate = CLLocationCoordinate2DMake(31.7570, 35.1790);
     jerusalem.title = @"Jerusalem";
-    jerusalem.subtitle = @"The City of David"; 
+    jerusalem.subtitle = @"The City of David";
+    jerusalem.image = [UIImage imageNamed:@"jerusalem"];
     jerusalem.information = @"The capital of the Davidic monarchy. According to 2 Samuel 24:24, King David purchased Jerusalem from the Jebusites and designated it the capital of his united kingdom. Solomon built the Temple on Mount Moriah in Jerusalem along with his palace. The city was destroyed by the Babylonians in 587 B.C. and re-established in 538 after the return of the Jews from the Exile. It served as the religious center of Palestine during the Roman occupation from 63 B.C. to its destruction in A.D. 70 by the Romans. The city was rebuilt successively throughout the period of the Ottoman Empire. It is currently divided between Palestine and Israel.\r\rCoordinates:\r31.7883, 35.2167";
     
     BiblicalPins *rome = [[BiblicalPins alloc] init];
     rome.coordinate = CLLocationCoordinate2DMake(41.8900, 12.4938);
     rome.title = @"Rome";
     rome.subtitle = @"The Church that “Presides in Love”";
+    rome.image = [UIImage imageNamed:@"pantheon2"]; 
     rome.information = @"The Church of Rome was established in the first century and quickly acquired a reputation for generosity. According to tradition, both Peter and Paul were martyred there during the persecution under Nero.\r\rCoordinates:\r\r41.9000, 12.5000\r\r";
     
     BiblicalPins *nazareth = [[BiblicalPins alloc] init];
@@ -340,7 +340,7 @@
     //[self presentViewController:alert animated:YES completion:nil];
     
     
-    //----------------------------------------------------------------------------
+    //--------------------This was Jim's original solution for a Map detail view----------------------------
 /*
     BiblicalPins *biblicalPin = (BiblicalPins *) view.annotation;
     
@@ -367,7 +367,7 @@
 
  
 
-    //----------------------  This should be working ------------------
+    //----------------------  This implementation uses MKMapSnapshotter--------------------------------------------------
  
     BiblicalPins *biblicalPin = (BiblicalPins *) view.annotation;
     
@@ -383,18 +383,22 @@
     
     Word *word = [[Word alloc] init];
     word.name = biblicalPin.title;
+    word.definition = biblicalPin.information;
+    word.twitterDef = biblicalPin.subtitle;
+    word.image = biblicalPin.image;
     
-    
+    mapDetail.currentWordDetail = word; 
+    /*
     MKMapCamera  *myCamera = [MKMapCamera
                               cameraLookingAtCenterCoordinate:biblicalPin.coordinate
-                              fromEyeCoordinate:biblicalPin.coordinate
-                              eyeAltitude:9000];
+                                            fromEyeCoordinate:biblicalPin.coordinate
+                                            eyeAltitude:2000];
     
     mapView.camera = myCamera;
     
     MKMapSnapshotOptions *options = [[MKMapSnapshotOptions alloc] init];
     options.size = CGSizeMake(320, 90);
-    options.camera = myCamera;
+    //options.camera = myCamera;
     options.scale = [[UIScreen mainScreen] scale]; // iOS only
     options.region = self.mapView.region;
     options.mapType = MKMapTypeStandard;
@@ -413,57 +417,48 @@
      mapDetail.locationDescription.text = biblicalPin.information;
     
      }];
-    word.definition = biblicalPin.information;
-    
+     */
+    //mapDetail.imageView.image = biblicalPin.image;
+    //mapDetail.currentWordDetail = word;
+    //mapDetail.locationLabel.text = biblicalPin.title;
+    //mapDetail.locationDescription.text = biblicalPin.information;
     
     [self.navigationController pushViewController:mapDetail animated:YES];
 }
 
-    //---------------------------------------------------------------------
-    /*  I took this out b/c it was messing with scroll action of TextView.
-    MKMapCamera  *myCamera = [MKMapCamera
-                              cameraLookingAtCenterCoordinate:biblicalPin.coordinate
-                              fromEyeCoordinate:biblicalPin.coordinate
-                              eyeAltitude:9000];
-    
-    mapView.camera = myCamera;
-    
-    MKMapSnapshotOptions *options = [[MKMapSnapshotOptions alloc] init];
-    options.size = CGSizeMake(320, 475);
-    options.camera = myCamera;
-    options.scale = 2;//[[UIScreen mainScreen] scale]; // iOS only
-    options.region = self.mapView.region;
-    options.mapType = MKMapTypeStandard;
-    
-    MKMapSnapshotter *snapshotter =
-    [[MKMapSnapshotter alloc] initWithOptions:options];
-    [snapshotter startWithCompletionHandler:^(MKMapSnapshot *snapshot, NSError *e)
-     {
-     //if (e) ...;// Handle errors
-     
-     UIImage *image = snapshot.image;
-     
-     mapDetail.imageView.image = image;
-     mapDetail.currentWordDetail = word;
-     mapDetail.locationLabel.text = biblicalPin.title;
-     mapDetail.locationDescription.text = biblicalPin.information;
-     
-     if(backButton)
-         {
-     
-         MKCoordinateSpan span = MKCoordinateSpanMake(80.0000f,80.0000f);
-         CLLocationCoordinate2D coordinate = {38.4667, -28.4000};
-         MKCoordinateRegion region = {coordinate, span};
-         
-         MKCoordinateRegion regionThatFits = [self.mapView regionThatFits:region];
-         
-         [self.mapView setRegion:regionThatFits animated:YES];
-     
-         
-         }
-     }];
-   
+    //------------------A solution without a MKMapSnapShotter that just sets the label and textView properties on the MapDetailVC goes here-------------------------------------
+
+/*
+BiblicalPins *biblicalPin = (BiblicalPins *) view.annotation;
+
+[self.mapView deselectAnnotation:biblicalPin animated:YES];
+
+
+
+WordDetailViewController *MapDetailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"MapDetailViewController"];
+
+UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Map"
+                                                               style:UIBarButtonItemStylePlain target:nil action:nil];
+self.navigationItem.backBarButtonItem = backButton;
+
+Word *word = [[Word alloc] init];
+word.name = biblicalPin.title;
+word.definition = biblicalPin.information;
+word.twitterDef = biblicalPin.subtitle;
+
+MapDetailViewController.currentWordDetail = word;
+
+
+[self.navigationController pushViewController:MapDetailViewController animated:YES];
+
+
 */
+
+
+
+  //
+
+
 
 
 - (IBAction)viewButton:(id)sender

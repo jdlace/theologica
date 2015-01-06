@@ -14,6 +14,7 @@
 @property (copy, nonatomic) NSString *title;
 @property (copy, nonatomic) NSString *subtitle;
 @property (copy, nonatomic) NSString *information;
+@property (copy, nonatomic) UIImage *image;
 
 -(id) initWithLocation:(CLLocationCoordinate2D)coords;
 
