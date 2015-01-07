@@ -15,6 +15,8 @@
 @property (copy, nonatomic) NSString *subtitle;
 @property (nonatomic, assign) CLLocationCoordinate2D coordinate; 
 @property (copy, nonatomic) NSString *information;
+@property (copy, nonatomic) UIImage *image;
+
 
 //+ (MKAnnotationView *)createViewAnnotationForMapView:(MKMapView *)mapView annotation:(id <MKAnnotation>)annotation;
 

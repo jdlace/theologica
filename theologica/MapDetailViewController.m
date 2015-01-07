@@ -28,7 +28,8 @@
         
         _locationLabel.text = _currentWordDetail.name;
         _locationDescription.text = _currentWordDetail.definition;
-        _imageView.image = _currentWordDetail.image; 
+        _locationSubtitle.text = _currentWordDetail.twitterDef; 
+        _imageView.image = _currentWordDetail.image;
 
         
         //_twitterLabel.text = _currentWordDetail.twitterDef;
@@ -60,6 +61,11 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView
+{
+    return self.imageView;
 }
 
 /*
