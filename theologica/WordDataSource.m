@@ -211,7 +211,7 @@
     
     Word *abortion = [[Word alloc] init];
     abortion.name = @"Abortion";
-    abortion.twitterDef = @"the willful killing of a human being in utero";
+    abortion.twitterDef = @"the willful killing of a human in utero";
     abortion.definition = @"The intentional killing of an unborn human being, who is regarded as sacred from the moment of conception. The death of an unborn child as a consequence of other procedures deemed good in themselves is not considered an abortion per se but rather a consequence of the principle of double-effect (See “Principle of Double-Effect”). The Catholic tradition is consistent in its classification of abortion as a grave sin, the willful commision of which incurs an automatic excommunication. \r\rSee Catechism of the Catholic Church, 2270. http://www.vatican.va/archive/ccc_css/archive/catechism/p3s2c2a5.htm. See “Roe vs. Wade”.";
     abortion.category = @"Moral";
     

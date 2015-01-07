@@ -34,7 +34,7 @@
     //self.twitterLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
     
     _nameLabel.text = _currentWordDetail.name;
-    _twitterLabel.text = _currentWordDetail.twitterDef; 
+    _twitterLabel.text = _currentWordDetail.twitterDef;
     _descriptionTextView.text = _currentWordDetail.definition;
     //_systematicDescription.textColor = [UIColor blacColor];
     
