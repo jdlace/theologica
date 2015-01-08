@@ -123,9 +123,9 @@
     
     Source *scriptureSource = [[Source alloc] init];
     scriptureSource.name = @"Sacred Scripture";
-    scriptureSource.twitterDef = @"The Old and New Testaments";
+    scriptureSource.twitterDef = @"The Word of God in Human Language";
     scriptureSource.comment = @"Throughout the history of the Catholic tradition, the canon of Scripture has always played a central and dialectic role in the community life of the Church. The Hebrew Bible is the foundation of the Biblical tradition.\r\rThe Old Testament\r\rConsisting of the Hebrew canon plus seven additional books, the Old Testament contains the story of the people of Israel.";
-    scriptureSource.image = [UIImage imageNamed:@"appicon"];
+    scriptureSource.image = [UIImage imageNamed:@"biblelines"];
     scriptureSource.bigPic = [UIImage imageNamed:@"codex"]; 
     
     SourcesDetailViewController *sourcesDetailViewController = [[self storyboard]
@@ -146,9 +146,9 @@
 {
     Source *fathersSource = [[Source alloc] init];
     fathersSource.name = @"Fathers of the Church";
-    fathersSource.twitterDef = @"Early Christian Thinkers";
+    fathersSource.twitterDef = @"Stewards of the Faith";
     fathersSource.comment = @"The Fathers of the Church occupy a special place in the Catholic Tradition.";
-    fathersSource.image = [UIImage imageNamed:@"appicon"];
+    fathersSource.image = [UIImage imageNamed:@"men"];
     fathersSource.bigPic = [UIImage imageNamed:@"fathers"]; 
     
     SourcesDetailViewController *sourcesDetailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"SourcesDetailViewController"];
@@ -176,7 +176,7 @@
     catechismSource.name = @"Magisterium";
     catechismSource.twitterDef = @"The Teaching Authority of the Church";
     catechismSource.comment = @"The Magisterium represents the teaching authority of the Church.";
-    catechismSource.image = [UIImage imageNamed:@"appicon"];
+    catechismSource.image = [UIImage imageNamed:@"papal2"];
     catechismSource.bigPic = [UIImage imageNamed:@"peter"]; 
     
     SourcesDetailViewController *sourcesDetailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"SourcesDetailViewController"];
@@ -201,6 +201,8 @@
     liturgySource.name = @"Liturgy";
     liturgySource.twitterDef = @"The Worship of the Church";
     liturgySource.comment = @"The liturgy of the Church expresses what it believes. Lex Orandi-Lex Credendi.";
+    liturgySource.image = [UIImage imageNamed:@"winelines"];
+    liturgySource.bigPic = [UIImage imageNamed:@"orans"];
     
     SourcesDetailViewController *sourcesDetailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"SourcesDetailViewController"];
     
@@ -222,8 +224,9 @@
 {
     Source *councilsSource = [[Source alloc] init];
     councilsSource.name = @"Ecumenical Councils";
-    councilsSource.twitterDef = @"Gatherings of Bishops";
+    councilsSource.twitterDef = @"";
     councilsSource.comment = @"Ecumenical Councils are called to settle matters of faith and practice.";
+    councilsSource.image = [UIImage imageNamed:@"churchlines"];
     
     SourcesDetailViewController *sourcesDetailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"SourcesDetailViewController"];
     
@@ -245,7 +248,7 @@
     scienceSource.name = @"Science";
     scienceSource.twitterDef = @"Knowlege of the Physical World";
     scienceSource.comment = @"As a separate but related domain of knowledge, science is akin to theology in that it involves a specific methodology designed to answer a specific set of questions about human experience.";
-    scienceSource.image = [UIImage imageNamed:@"appicon"];
+    scienceSource.image = [UIImage imageNamed:@"atomlines"];
     scienceSource.bigPic = [UIImage imageNamed:@"station"];
 
     
@@ -265,8 +268,9 @@
 {
     Source *artsSource = [[Source alloc] init];
     artsSource.name = @"The Arts";
-    artsSource.twitterDef = @"The Expression";
+    artsSource.twitterDef = @"The Heart in Motion";
     artsSource.comment = @"The Arts express the existential situation of the human person.";
+    artsSource.image = [UIImage imageNamed:@"headphonelines"];
     
     SourcesDetailViewController *sourcesDetailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"SourcesDetailViewController"];
     
@@ -276,6 +280,8 @@
                                                                    style:UIBarButtonItemStylePlain target:nil action:nil];
     self.navigationItem.backBarButtonItem = backButton;
     
+    sourcesDetailViewController.currentSourceDetail = artsSource;
+
     
     
     [self.navigationController pushViewController:sourcesDetailViewController animated:YES];
@@ -285,7 +291,9 @@
 {
     Source *mediaSource = [[Source alloc] init];
     mediaSource.name = @"Technology";
+    mediaSource.twitterDef = @"Tools From and For Human Development";
     mediaSource.comment = @"Since it coincided with and enabled the evolution of homo sapiens, technology has always influenced and been an expression of human creativity.";
+    mediaSource.image = [UIImage imageNamed:@"radarlines"];
     
     SourcesDetailViewController *sourcesDetailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"SourcesDetailViewController"];
     
@@ -294,6 +302,9 @@
     UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Sources"
                                                                    style:UIBarButtonItemStylePlain target:nil action:nil];
     self.navigationItem.backBarButtonItem = backButton;
+    
+    sourcesDetailViewController.currentSourceDetail = mediaSource;
+
     
     
     [self.navigationController pushViewController:sourcesDetailViewController animated:YES];
@@ -303,7 +314,9 @@
 {
     Source *politicsSource = [[Source alloc] init];
     politicsSource.name = @"Politics";
+    politicsSource.twitterDef = @"The Affairs of the People";
     politicsSource.comment = @"The regulation of human society is essential to its survival and development.";
+    politicsSource.image = [UIImage imageNamed:@"citylines"]; 
     
     SourcesDetailViewController *sourcesDetailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"SourcesDetailViewController"];
     
@@ -312,6 +325,9 @@
     UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Sources"
                                                                    style:UIBarButtonItemStylePlain target:nil action:nil];
     self.navigationItem.backBarButtonItem = backButton;
+    
+    sourcesDetailViewController.currentSourceDetail = politicsSource;
+
     
     
     [self.navigationController pushViewController:sourcesDetailViewController animated:YES];
@@ -323,7 +339,7 @@
     philosophySource.name = @"Philosophy";
     philosophySource.twitterDef = @"The Love of Wisdom"; 
     philosophySource.comment = @"Philosophy has an authentic independence from theology.";
-    philosophySource.image = [UIImage imageNamed:@"appicon"];
+    philosophySource.image = [UIImage imageNamed:@"lightlines"];
     philosophySource.bigPic = [UIImage imageNamed:@"thinker"];
     
 
@@ -346,6 +362,8 @@
 {
     Source *theologicaSource = [[Source alloc] init];
     theologicaSource.name = @"Theology";
+    theologicaSource.twitterDef = @"Faith Seeking Understanding";
+    theologicaSource.image = [UIImage imageNamed:@"appicon"];
     theologicaSource.comment = @"Theology has been called faith seeking understanding and the intelligence of faith.";
     
     SourcesDetailViewController *sourcesDetailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"SourcesDetailViewController"];
@@ -356,7 +374,8 @@
                                                                    style:UIBarButtonItemStylePlain target:nil action:nil];
     self.navigationItem.backBarButtonItem = backButton;
     
-    
+    sourcesDetailViewController.currentSourceDetail = theologicaSource;
+
     
     [self.navigationController pushViewController:sourcesDetailViewController animated:YES];
 }
