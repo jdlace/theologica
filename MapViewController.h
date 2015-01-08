@@ -12,7 +12,6 @@
 @interface MapViewController : UIViewController <MKMapViewDelegate>
 
 @property (strong, nonatomic) IBOutlet MKMapView *mapView;
-@property (strong, nonatomic) MKMapCamera *originalCamera; 
 
 
 - (IBAction)viewButton:(id)sender;

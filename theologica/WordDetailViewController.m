@@ -31,11 +31,12 @@
     
     //self.nameLabel.font = [UIFont preferredFontForTextStyle: UIFontTextStyleHeadline];
     self.descriptionTextView.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
-    //self.twitterLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
+    self.twitterLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
     
     _nameLabel.text = _currentWordDetail.name;
     _twitterLabel.text = _currentWordDetail.twitterDef;
     _descriptionTextView.text = _currentWordDetail.definition;
+    //_imageView.image = _currentWordDetail.image;
     //_systematicDescription.textColor = [UIColor blacColor];
     
     [[NSNotificationCenter defaultCenter]

@@ -7,7 +7,7 @@
 //
 
 #import "SourcesViewController.h"
-#import "WordDetailViewController.h"
+#import "SourcesDetailViewController.h"
 
 @interface SourcesViewController ()
 
@@ -125,23 +125,21 @@
     scriptureSource.name = @"Sacred Scripture";
     scriptureSource.twitterDef = @"The Old and New Testaments";
     scriptureSource.comment = @"Throughout the history of the Catholic tradition, the canon of Scripture has always played a central and dialectic role in the community life of the Church. The Hebrew Bible is the foundation of the Biblical tradition.\r\rThe Old Testament\r\rConsisting of the Hebrew canon plus seven additional books, the Old Testament contains the story of the people of Israel.";
+    scriptureSource.image = [UIImage imageNamed:@"appicon"];
+    scriptureSource.bigPic = [UIImage imageNamed:@"codex"]; 
     
-    WordDetailViewController *detailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"WordDetailViewController"];
+    SourcesDetailViewController *sourcesDetailViewController = [[self storyboard]
+            instantiateViewControllerWithIdentifier:@"SourcesDetailViewController"];
     
-    detailViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+    sourcesDetailViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
     
     UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Sources"
                                                                    style:UIBarButtonItemStylePlain target:nil action:nil];
     self.navigationItem.backBarButtonItem = backButton;
     
-    Word *word = [[Word alloc] init];
-    word.name = scriptureSource.name;
-    word.definition = scriptureSource.comment;
-    word.twitterDef = scriptureSource.twitterDef;
+    sourcesDetailViewController.currentSourceDetail = scriptureSource;
     
-    detailViewController.currentWordDetail = word;
-    
-    [self.navigationController pushViewController:detailViewController animated:YES];
+    [self.navigationController pushViewController:sourcesDetailViewController animated:YES];
 }
 
 - (IBAction)fathersButton:(id)sender
@@ -150,22 +148,27 @@
     fathersSource.name = @"Fathers of the Church";
     fathersSource.twitterDef = @"Early Christian Thinkers";
     fathersSource.comment = @"The Fathers of the Church occupy a special place in the Catholic Tradition.";
+    fathersSource.image = [UIImage imageNamed:@"appicon"];
+    fathersSource.bigPic = [UIImage imageNamed:@"fathers"]; 
     
-    WordDetailViewController *detailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"WordDetailViewController"];
+    SourcesDetailViewController *sourcesDetailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"SourcesDetailViewController"];
+    
+    sourcesDetailViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
     
     UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Sources"
                                                                    style:UIBarButtonItemStylePlain target:nil action:nil];
     self.navigationItem.backBarButtonItem = backButton;
     
-    Word *word = [[Word alloc] init];
-    word.name = fathersSource.name;
-    word.definition = fathersSource.comment;
-    word.twitterDef = fathersSource.twitterDef;
+    sourcesDetailViewController.currentSourceDetail = fathersSource;
+
     
-    detailViewController.currentWordDetail = word;
+    //sourcesDetailViewController.sourceName.text = fathersSource.name;
+    //sourcesDetailViewController.sourceSubtitle.text = fathersSource.twitterDef;
+    //sourcesDetailViewController.sourceInformation.text = fathersSource.comment;
+    //sourcesDetailViewController.imageView.image = fathersSource.image;
     
-    [self.navigationController pushViewController:detailViewController animated:YES];
-}
+    
+    [self.navigationController pushViewController:sourcesDetailViewController animated:YES];}
 
 - (IBAction)catechismButton:(id)sender
 {
@@ -173,21 +176,21 @@
     catechismSource.name = @"Magisterium";
     catechismSource.twitterDef = @"The Teaching Authority of the Church";
     catechismSource.comment = @"The Magisterium represents the teaching authority of the Church.";
+    catechismSource.image = [UIImage imageNamed:@"appicon"];
+    catechismSource.bigPic = [UIImage imageNamed:@"peter"]; 
     
-    WordDetailViewController *detailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"WordDetailViewController"];
+    SourcesDetailViewController *sourcesDetailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"SourcesDetailViewController"];
+    
+    sourcesDetailViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
     
     UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Sources"
                                                                    style:UIBarButtonItemStylePlain target:nil action:nil];
     self.navigationItem.backBarButtonItem = backButton;
     
-    Word *word = [[Word alloc] init];
-    word.name = catechismSource.name;
-    word.definition = catechismSource.comment;
-    word.twitterDef = catechismSource.twitterDef;
+    sourcesDetailViewController.currentSourceDetail = catechismSource;
+
     
-    detailViewController.currentWordDetail = word;
-    
-    [self.navigationController pushViewController:detailViewController animated:YES];
+    [self.navigationController pushViewController:sourcesDetailViewController animated:YES];
 
     
 }
@@ -199,21 +202,19 @@
     liturgySource.twitterDef = @"The Worship of the Church";
     liturgySource.comment = @"The liturgy of the Church expresses what it believes. Lex Orandi-Lex Credendi.";
     
-    WordDetailViewController *detailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"WordDetailViewController"];
+    SourcesDetailViewController *sourcesDetailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"SourcesDetailViewController"];
+    
+    sourcesDetailViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
     
     UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Sources"
                                                                    style:UIBarButtonItemStylePlain target:nil action:nil];
     self.navigationItem.backBarButtonItem = backButton;
     
-    Word *word = [[Word alloc] init];
-    word.name = liturgySource.name;
-    word.definition = liturgySource.comment;
-    word.twitterDef = liturgySource.twitterDef;
-    
-    detailViewController.currentWordDetail = word;
-    
-    [self.navigationController pushViewController:detailViewController animated:YES];
+    sourcesDetailViewController.currentSourceDetail = liturgySource;
 
+    
+    
+    [self.navigationController pushViewController:sourcesDetailViewController animated:YES];
     
 }
 
@@ -224,22 +225,18 @@
     councilsSource.twitterDef = @"Gatherings of Bishops";
     councilsSource.comment = @"Ecumenical Councils are called to settle matters of faith and practice.";
     
-    WordDetailViewController *detailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"WordDetailViewController"];
+    SourcesDetailViewController *sourcesDetailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"SourcesDetailViewController"];
+    
+    sourcesDetailViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
     
     UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Sources"
                                                                    style:UIBarButtonItemStylePlain target:nil action:nil];
     self.navigationItem.backBarButtonItem = backButton;
     
-    Word *word = [[Word alloc] init];
-    word.name = councilsSource.name;
-    word.definition = councilsSource.comment;
-    word.twitterDef = councilsSource.twitterDef;
-    
-    detailViewController.currentWordDetail = word;
-    
-    [self.navigationController pushViewController:detailViewController animated:YES];
+    sourcesDetailViewController.currentSourceDetail = councilsSource;
 
     
+    [self.navigationController pushViewController:sourcesDetailViewController animated:YES];
 }
 
 - (IBAction)scienceButton:(id)sender
@@ -248,23 +245,21 @@
     scienceSource.name = @"Science";
     scienceSource.twitterDef = @"Knowlege of the Physical World";
     scienceSource.comment = @"As a separate but related domain of knowledge, science is akin to theology in that it involves a specific methodology designed to answer a specific set of questions about human experience.";
+    scienceSource.image = [UIImage imageNamed:@"appicon"];
+    scienceSource.bigPic = [UIImage imageNamed:@"station"];
+
     
-    WordDetailViewController *detailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"WordDetailViewController"];
+    SourcesDetailViewController *sourcesDetailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"SourcesDetailViewController"];
+    
+    sourcesDetailViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
     
     UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Sources"
                                                                    style:UIBarButtonItemStylePlain target:nil action:nil];
     self.navigationItem.backBarButtonItem = backButton;
     
-    Word *word = [[Word alloc] init];
-    word.name = scienceSource.name;
-    word.definition = scienceSource.comment;
-    word.twitterDef = scienceSource.twitterDef;
+    sourcesDetailViewController.currentSourceDetail = scienceSource;
     
-    detailViewController.currentWordDetail = word;
-    
-    [self.navigationController pushViewController:detailViewController animated:YES];
-
-}
+    [self.navigationController pushViewController:sourcesDetailViewController animated:YES];}
 
 - (IBAction)artsButton:(id)sender
 {
@@ -273,21 +268,17 @@
     artsSource.twitterDef = @"The Expression";
     artsSource.comment = @"The Arts express the existential situation of the human person.";
     
-    WordDetailViewController *detailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"WordDetailViewController"];
+    SourcesDetailViewController *sourcesDetailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"SourcesDetailViewController"];
+    
+    sourcesDetailViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
     
     UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Sources"
                                                                    style:UIBarButtonItemStylePlain target:nil action:nil];
     self.navigationItem.backBarButtonItem = backButton;
     
-    Word *word = [[Word alloc] init];
-    word.name = artsSource.name;
-    word.definition = artsSource.comment;
-    word.twitterDef = artsSource.twitterDef;
     
-    detailViewController.currentWordDetail = word;
     
-    [self.navigationController pushViewController:detailViewController animated:YES];
-
+    [self.navigationController pushViewController:sourcesDetailViewController animated:YES];
 }
 
 - (IBAction)mediaButton:(id)sender
@@ -296,21 +287,16 @@
     mediaSource.name = @"Technology";
     mediaSource.comment = @"Since it coincided with and enabled the evolution of homo sapiens, technology has always influenced and been an expression of human creativity.";
     
-    WordDetailViewController *detailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"WordDetailViewController"];
+    SourcesDetailViewController *sourcesDetailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"SourcesDetailViewController"];
+    
+    sourcesDetailViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
     
     UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Sources"
                                                                    style:UIBarButtonItemStylePlain target:nil action:nil];
     self.navigationItem.backBarButtonItem = backButton;
     
-    Word *word = [[Word alloc] init];
-    word.name = mediaSource.name;
-    word.definition = mediaSource.comment;
-    word.twitterDef = mediaSource.twitterDef;
     
-    detailViewController.currentWordDetail = word;
-    
-    [self.navigationController pushViewController:detailViewController animated:YES];
-
+    [self.navigationController pushViewController:sourcesDetailViewController animated:YES];
 }
 
 - (IBAction)politicsButton:(id)sender
@@ -319,21 +305,16 @@
     politicsSource.name = @"Politics";
     politicsSource.comment = @"The regulation of human society is essential to its survival and development.";
     
-    WordDetailViewController *detailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"WordDetailViewController"];
+    SourcesDetailViewController *sourcesDetailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"SourcesDetailViewController"];
+    
+    sourcesDetailViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
     
     UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Sources"
                                                                    style:UIBarButtonItemStylePlain target:nil action:nil];
     self.navigationItem.backBarButtonItem = backButton;
     
-    Word *word = [[Word alloc] init];
-    word.name = politicsSource.name;
-    word.definition = politicsSource.comment;
-    word.twitterDef = politicsSource.twitterDef;
     
-    detailViewController.currentWordDetail = word;
-    
-    [self.navigationController pushViewController:detailViewController animated:YES];
-
+    [self.navigationController pushViewController:sourcesDetailViewController animated:YES];
 }
 
 - (IBAction)philosophyButton:(id)sender
@@ -342,25 +323,23 @@
     philosophySource.name = @"Philosophy";
     philosophySource.twitterDef = @"The Love of Wisdom"; 
     philosophySource.comment = @"Philosophy has an authentic independence from theology.";
-    philosophySource.image = [UIImage imageNamed:@"lightlines"]; 
+    philosophySource.image = [UIImage imageNamed:@"appicon"];
+    philosophySource.bigPic = [UIImage imageNamed:@"thinker"];
     
-    WordDetailViewController *detailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"WordDetailViewController"];
+
+    
+    SourcesDetailViewController *sourcesDetailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"SourcesDetailViewController"];
+    
+    sourcesDetailViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
     
     UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Sources"
                                                                    style:UIBarButtonItemStylePlain target:nil action:nil];
     self.navigationItem.backBarButtonItem = backButton;
     
-    Word *word = [[Word alloc] init];
-    word.name = philosophySource.name;
-    word.definition = philosophySource.comment;
-    word.twitterDef = philosophySource.twitterDef;
-    
-    detailViewController.currentWordDetail = word;
+    sourcesDetailViewController.currentSourceDetail = philosophySource;
 
     
-    [self.navigationController pushViewController:detailViewController animated:YES];
-
-    
+    [self.navigationController pushViewController:sourcesDetailViewController animated:YES];
 }
 
 - (IBAction)theologicaButton:(id)sender
@@ -369,20 +348,16 @@
     theologicaSource.name = @"Theology";
     theologicaSource.comment = @"Theology has been called faith seeking understanding and the intelligence of faith.";
     
-    WordDetailViewController *detailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"WordDetailViewController"];
+    SourcesDetailViewController *sourcesDetailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"SourcesDetailViewController"];
+    
+    sourcesDetailViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
     
     UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Sources"
                                                                    style:UIBarButtonItemStylePlain target:nil action:nil];
     self.navigationItem.backBarButtonItem = backButton;
     
-    Word *word = [[Word alloc] init];
-    word.name = theologicaSource.name;
-    word.definition = theologicaSource.comment;
-    word.twitterDef = theologicaSource.twitterDef;
     
-    detailViewController.currentWordDetail = word;
     
-    [self.navigationController pushViewController:detailViewController animated:YES];
-
+    [self.navigationController pushViewController:sourcesDetailViewController animated:YES];
 }
 @end
