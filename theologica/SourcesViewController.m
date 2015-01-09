@@ -375,11 +375,7 @@
 
 - (IBAction)sourcesButton:(id)sender
 {
-    //UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Choose a Source for Theology."
-                                                                   //message:@"Theology begins with a provocation from the human experience"
-                                                            //preferredStyle: UIAlertViewStyleDefault];
-    
-    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Choose a Source for Theology."  message:@"Theology draws on both religious and cultural sources for its enterprise." preferredStyle:(UIAlertControllerStyleAlert)];
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Start exploring Theologica by choosing a theological Source to investigate."  message:@"Theology draws on both religious and cultural sources for its enterprise." preferredStyle:(UIAlertControllerStyleAlert)];
     
     UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"Engage" style:UIAlertActionStyleDefault
     handler:^(UIAlertAction * action) {}];
