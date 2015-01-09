@@ -372,4 +372,20 @@
     
     [self.navigationController pushViewController:sourcesDetailViewController animated:YES];
 }
+
+- (IBAction)sourcesButton:(id)sender
+{
+    //UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Choose a Source for Theology."
+                                                                   //message:@"Theology begins with a provocation from the human experience"
+                                                            //preferredStyle: UIAlertViewStyleDefault];
+    
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Choose a Source for Theology."  message:@"Theology draws on both religious and cultural sources for its enterprise." preferredStyle:(UIAlertControllerStyleAlert)];
+    
+    UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"Engage" style:UIAlertActionStyleDefault
+    handler:^(UIAlertAction * action) {}];
+    
+    [alert addAction:defaultAction];
+    [self presentViewController:alert animated:YES completion:nil];
+
+}
 @end

@@ -18,8 +18,8 @@
                         <segue destination="gNN-7E-KYP" kind="relationship" relationship="viewControllers" id="PcE-Au-Jkm"/>
                         <segue destination="3ZE-jz-AIY" kind="relationship" relationship="viewControllers" id="woH-JN-76L"/>
                         <segue destination="Z0P-od-vVe" kind="relationship" relationship="viewControllers" id="LwP-Mq-yRL"/>
-                        <segue destination="3kh-FI-uIe" kind="relationship" relationship="viewControllers" id="go8-Ny-Gno"/>
                         <segue destination="FNM-Aj-5h7" kind="relationship" relationship="viewControllers" id="9RI-VJ-FwG"/>
+                        <segue destination="3kh-FI-uIe" kind="relationship" relationship="viewControllers" id="go8-Ny-Gno"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="14" sceneMemberID="firstResponder"/>
@@ -232,6 +232,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="lEq-0v-NKQ">
                         <nil key="title"/>
+                        <barButtonItem key="leftBarButtonItem" image="question" id="MUw-I6-Qf5"/>
                         <button key="titleView" opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="zcJ-tZ-nEQ">
                             <rect key="frame" x="83" y="1" width="154" height="42"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -241,6 +242,11 @@
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                         </button>
+                        <barButtonItem key="rightBarButtonItem" image="sourceslines3" id="HC9-md-peO">
+                            <connections>
+                                <action selector="sourcesButton:" destination="3cO-3O-ueC" id="hdN-Ke-lqC"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
@@ -257,39 +263,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="gSd-Wo-JD2">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Dyu-de-zMi">
+                                <rect key="frame" x="145" y="144" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <visualEffectView opaque="NO" contentMode="scaleAspectFill" id="BvO-YW-Dby">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="KVT-H3-07r">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                    <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yid-dh-fh6">
-                                            <rect key="frame" x="18" y="109" width="285" height="29"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" id="zEE-sf-0Ob">
-                                            <rect key="frame" x="10" y="179" width="300" height="332"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
-                                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                        </textView>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Dyu-de-zMi">
-                                            <rect key="frame" x="145" y="146" width="30" height="30"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        </imageView>
-                                    </subviews>
-                                </view>
-                                <blurEffect style="extraLight"/>
-                            </visualEffectView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" id="4gF-gh-o1Z">
                                 <rect key="frame" x="0.0" y="80" width="320" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -297,8 +274,22 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yid-dh-fh6">
+                                <rect key="frame" x="18" y="111" width="285" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" id="zEE-sf-0Ob">
+                                <rect key="frame" x="10" y="178" width="300" height="308"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
@@ -809,9 +800,11 @@
         <image name="men" width="29" height="30"/>
         <image name="mic" width="30" height="30"/>
         <image name="papal2" width="30" height="30"/>
+        <image name="question" width="30" height="30"/>
         <image name="radarlines" width="30" height="30"/>
         <image name="server-mini" width="20" height="20"/>
         <image name="sourcesicon" width="30" height="30"/>
+        <image name="sourceslines3" width="30" height="30"/>
         <image name="winelines" width="29" height="30"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

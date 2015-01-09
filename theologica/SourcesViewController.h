@@ -26,6 +26,7 @@
 - (IBAction)philosophyButton:(id)sender;
 - (IBAction)theologicaButton:(id)sender;
 
+- (IBAction)sourcesButton:(id)sender;
 
 
 
