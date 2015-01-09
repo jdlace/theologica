@@ -25,7 +25,8 @@
         
         //self.locationLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
         self.locationDescription.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
-        
+        self.locationSubtitle.font = [UIFont preferredFontForTextStyle: UIFontTextStyleSubheadline];
+    
         _locationLabel.text = _currentWordDetail.name;
         _locationDescription.text = _currentWordDetail.definition;
         _locationSubtitle.text = _currentWordDetail.twitterDef; 

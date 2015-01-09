@@ -117,7 +117,7 @@
     Word *abba = [[Word alloc] init];
     abba.name = @"Abba";
     abba.twitterDef = @"the Aramaic word for “Daddy”";
-    abba.definition = @"This term was by Jesus in prayer to God according to the gospels. Paul claims that Christians also use the term because of their filial adoption; “Because you are sons, God has sent the Spirit of his Son into our hearts, crying, 'Abba! Father!'” (Gal 4:6)  \r\rSee Catechism of the Catholic Church, 683 http://www.vatican.va/archive/ccc_css/archive/catechism/p1s2c3.htm#683.";
+    abba.definition = @"This term was by Jesus in prayer to God according to the gospels. Paul claims that Christians also use the term because of their filial adoption; “Because you are sons, God has sent the Spirit of his Son into our hearts, crying, 'Abba! Father!'” (Gal 4:6)\r\rSee Catechism of the Catholic Church, 683 http://www.vatican.va/archive/ccc_css/archive/catechism/p1s2c3.htm#683.";
     abba.category = @"Biblical";
     
     Word *adonai = [[Word alloc] init];
@@ -146,7 +146,7 @@
     
     Word *apocalypse = [[Word alloc] init];
     apocalypse.name = @"Apocalypse";
-    apocalypse.twitterDef = @"the Greek term for “unveiling”";
+    apocalypse.twitterDef = @"the Greek word for “unveiling”";
     apocalypse.definition = @"1. The revelation of something previously hidden, used by Paul to refer to his experience of the risen Jesus. 2. The name of the last book of the New Testament - from the Greek word αποκαλυπσις (apokalypsis) - “unveiling”.";
     apocalypse.category = @"Biblical";
     
@@ -158,7 +158,7 @@
     
     Word *apodictic = [[Word alloc] init];
     apodictic.name = @"Apodictic";
-    apodictic.twitterDef = @"Law based on universal norms";
+    apodictic.twitterDef = @" a type of law based on universal norms";
     apodictic.definition = @"A type of law which is based on a moral norm or command; see Exodus 20, “Decalogue”.";
     apodictic.category = @"Biblical";
     
@@ -170,7 +170,7 @@
     
     Word *apostle = [[Word alloc] init];
     apostle.name = @"Apostle";
-    apostle.twitterDef = @"A disciple personally commissioned by Jesus";
+    apostle.twitterDef = @"a disciple personally commissioned by Jesus";
     apostle.definition = @"The disciples which compirised Jesus' inner cirlce and whom he commissioned to spread the good news of the Kingdom of God; also used by Paul to refer to anyone who had seen the risen Christ - from the Greek word αποστολος (apostolos) - “delegate”.";
     apostle.category = @"Biblical";
     
@@ -182,8 +182,8 @@
     
     Word *aramaic = [[Word alloc] init];
     aramaic.name = @"Aramaic";
-    aramaic.twitterDef = @"a variant dialect of Hebrew";
-    aramaic.definition = @"A variant of Hebrew, likely the native language of the historical Jesus.";
+    aramaic.twitterDef = @"a language similar to Hebrew";
+    aramaic.definition = @"Aramaic was the native language of the historical Jesus.";
     aramaic.category = @"Biblical";
     
     /*
@@ -199,13 +199,13 @@
     Word *asherah = [[Word alloc] init];
     asherah.name = @"Asherah";
     asherah.twitterDef = @"Canaanite fertility goddess & wife of El";
-    asherah.definition = @"In Canaanite mythology, the wife of El and the goddess of fertility; mentioned numerous times throughout the Old Testament; according to 2 Kings 23:4 a large Asherah idol was housed in the Temple and dressed by her cult's prostitutes before Josiah's Deuteronomic reform.";
+    asherah.definition = @"In Canaanite mythology, the wife of El and the goddess of fertility; mentioned numerous times throughout the Old Testament; according to 2 Kings 23:4 a large Asherah statue was housed in the Temple and dressed by her cult's prostitutes before Josiah's Deuteronomic reform.";
     asherah.category = @"Biblical";
     //asherah.image =
     
     Word *assyria = [[Word alloc] init];
     assyria.name = @"Assyria";
-    assyria.twitterDef = @"the empire that conquered Israel in 722 B.C.";
+    assyria.twitterDef = @"the Empire that conquered Israel in 722 B.C.";
     assyria.definition = @"One of the numerous Mesopotamian empires in the ancient world which conquered the northern kindgom of Israel in 722 B.C.";
     assyria.category = @"Biblical";
     
@@ -265,62 +265,73 @@
     
     Word *agape = [[Word alloc] init];
     agape.name = @"Agape";
-    agape.twitterDef = @"the Greek word (αγαπη) for universal and unconditional love";
-    agape.definition = @"The gospel writers use this word to describe Jesus' teaching on the love of God as well as the love for God, neighbors and enemies (Matthew 5:44, 22:37, 39). The early Christians also used “agape” to refer to their communal meal after which the Eucharist was celebrated (Jude 1:12). \r\rSee “Deus Caritas Est” by Pope Benedict XVI. http://www.vatican.va/holy_father/benedict_xvi/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est_en.html";
+    agape.twitterDef = @"the Greek word meaning\r“universal and unconditional love”";
+    agape.definition = @"The gospel writers use this word (αγαπη) to describe Jesus' teaching on the love for God, neighbors and enemies (Matthew 5:44, 22:37, 39). It is used by later New Testament writers to describe the love of God towards humanity as seen in the sacrificial death of Jesus and even the very nature of God. The early Christians also used “agape” to refer to their communal meal after which the Eucharist was celebrated (Jude 1:12). \r\rSee “Deus Caritas Est” by Pope Benedict XVI. http://www.vatican.va/holy_father/benedict_xvi/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est_en.html";
     agape.category = @"Moral";
 
     Word *aggiornomento = [[Word alloc] init];
     aggiornomento.name = @"Aggiornomento";
-    aggiornomento.definition = @"An Italian word meaning 'to bring up to date' which became popular during and synonymous with the reforms of the Second Vatican Council (1962-1965); used by Pope John XXIII to describe the purpose of the Council.\r\rSee http://en.wikipedia.org/wiki/Aggiornamento#cite_note-3";
+    aggiornomento.twitterDef = @"An Italian word meaning “to bring up to date”";
+    aggiornomento.definition = @"As a way to describe one of its emphases, it became popular during and synonymous with the reforms of the Second Vatican Council (1962-1965); used by Pope John XXIII.\r\rSee http://en.wikipedia.org/wiki/Aggiornamento#cite_note-3";
     aggiornomento.category = @"Systematic";
     
     Word *allegory = [[Word alloc] init];
     allegory.name = @"Allegory";
+    allegory.twitterDef = @"an interpretation that seeks higher orders of meanining";
     allegory.definition = @"From the Greek word for “speaking by way of something else”, a reference to an interpretation of a text that goes beyond the literal meaning to find a deeper connection to a higher order of reality. \r\rSee Catechism of the Catholic Church, 117. http://www.vatican.va/archive/ccc_css/archive/catechism/p1s1c2a3.htm.";
     allegory.category = @"Systematic";
 
     Word *analogy = [[Word alloc] init];
     analogy.name = @"Analogy";
+    analogy.twitterDef = @"a way of comparing two kinds of things";
     analogy.definition = @"A way of probing eternal truths. \r\rSee Catechism of the Catholic Church, 114. http://www.vatican.va/archive/ccc_css/archive/catechism/p1s1c2a3.htm";
     analogy.category = @"Systematic";
     
     Word *anointing = [[Word alloc] init];
     anointing.name = @"Annointing of the Sick";
+    anointing.twitterDef = @"the Sacrament of Healing by anointing with oil";
     anointing.definition = @"The sacrament of healing in which sacramental oil is applied to an infirm human body... \r\rSee Catechism of the Catholic Church, 1499. http://www.vatican.va/archive/ccc_css/archive/catechism/p2s2c2a5.htm.";
     anointing.category = @"Systematic";
     
     Word *anthropocentrism = [[Word alloc] init];
     anthropocentrism.name = @"Anthropocentrism";
+    anthropocentrism.twitterDef = @"centered on humanity";
     anthropocentrism.definition = @"A method of theological enquiry from the starting point and within the horizon of the human experience. All theological claims are claims made by human beings in human language. Theology is relevant to human beings in so far as they concern human experience.";
     anthropocentrism.category = @"Systematic";
     
     Word *apocatastasis = [[Word alloc] init];
     apocatastasis.name = @"Apocatastasis";
-    apocatastasis.definition = @"A Greek term meaning the restoration of all things; the belief that at the eschaton, God will restore all creation back into full Divine communion; the belief that all persons will be saved.";
+    apocatastasis.twitterDef = @"a Greek word meaning the “restoration of all things”";
+    apocatastasis.definition = @"The belief that at the eschaton, God will restore all creation back into full Divine communion; the belief that all persons will be saved.";
     apocatastasis.category = @"Systematic";
     
     Word *apologetics = [[Word alloc] init];
     apologetics.name = @"Apologetics";
+    apologetics.twitterDef = @"The rational defense of the Christian faith";
     apologetics.definition = @"The rational defense of the Christian faith; from the Greek word απολογια (apologia) - “defense”.";
     apologetics.category = @"Systematic";
     
     Word *apophatic = [[Word alloc] init];
     apophatic.name = @"Apophatic";
-    apophatic.definition = @"Language that uses negation to describe God.";
+    apophatic.twitterDef = @"language that uses negation to describe God.";
+    apophatic.definition = @"language that uses negation to describe God.";
     apophatic.category = @"Systematic";
     
     Word *apostolicity = [[Word alloc] init];
     apostolicity.name = @"Apostolicity";
-    apostolicity.definition = @"The quality of the Church as being based on the Apostolic tradition; one of the four marks of the Church - One, Holy, Catholic, Apostolic. See Catechism of the Catholic Church, 857. link: ";
+    apostolicity.twitterDef = @"the quality of the Church as being based on the Apostolic tradition";
+    apostolicity.definition = @"One of the four marks of the Church - One, Holy, Catholic, Apostolic. See Catechism of the Catholic Church, 857. link: ";
     apostolicity.category = @"Systematic";
     
     Word *assumption = [[Word alloc] init];
     assumption.name = @"Assumption of Mary";
+    assumption.twitterDef = @"The dogma that the Virgin Mary was assumed into heaven";
     assumption.definition = @"The dogma, defined by Pope Pius IX, which states that the Virgin Mary was assumed body and soul into heaven at the end of her earthly life.";
     assumption.category = @"Systematic";
 
     Word *atonement = [[Word alloc] init];
     atonement.name = @"Atonement";
+    atonement.twitterDef = @"The act of making restitution for inflicted harm";
     atonement.definition = @"The act of making restitution for inflicted harm; a theological interpretation of the death of Jesus of Nazrareth. \r\rSee Catechism of the Catholic Church, 616. http://www.vatican.va/archive/ccc_css/archive/catechism/p122a4p2.htm";
     atonement.category = @"Systematic";
     
@@ -1310,7 +1321,8 @@
     
     Word *metaphysics = [[Word alloc] init];
     metaphysics.name = @"Metaphysics";
-    metaphysics.definition = @"The study of the fundamental nature of reality; the study of ontology; a highly contested area of inquiry that has including a variation of topics throughout history since the time of Aristotle. \r\rSee Routledge Encyclopedia of Philosophy, “Metaphysics”. http://www.rep.routledge.com/article/N095";
+    metaphysics.twitterDef = @"The study of the fundamental nature of reality";
+    metaphysics.definition = @"The study of ontology; a highly contested area of inquiry that has including a variation of topics throughout history since the time of Aristotle. \r\rSee Routledge Encyclopedia of Philosophy, “Metaphysics”. http://www.rep.routledge.com/article/N095";
     metaphysics.category = @"Cultural";
 
     
@@ -1485,11 +1497,13 @@
     
     Word *priestly = [[Word alloc] init];
     priestly.name = @"Priestly Source";
-    priestly.definition = @"The “P” Source; compirising various texts throughtout the Torah, but especially Leviticus. The Priestly material can be dated to around the time of Hezekiah; shows a major concern for order, numbers, and categories of holiness and cleanliness; the Priestly material is centered on the sacrificial cult in Jerusalem and regards all other sacrifices as improper or “profane”; this source, along with E and D, does not accept the revelation of the name YHWH before the Mosaic epiphany in Exodus 3. The Hebrew of the Priestly author reflects a later stage in its development but earlier than that of the Deuteronomic author. Notably, the P source never uses the word “compassionate” to describe God and forgiveness requires atonement (e.g. the Day of Atonement is a ritual exclusive to the Priestly author). \r\rSee http://en.wikipedia.org/wiki/Priestly_source";
+    priestly.twitterDef = @"The Torah literary tradition that is concerned with priestly categories of meaning";
+    priestly.definition = @"   The Priestly, or “P” tradition in the Torah can be dated to the time of Hezekiah (ca. 700 B.C.) and shows a major concern for order, numbers, and categories of holiness and cleanliness, especially in the book of Leviticus. The Priestly material is centered on the sacrificial cult in Jerusalem and regards all other sacrifices as improper or “profane”; this source, along with the Elohist and Deuteronomic Sources, does not accept the revelation of the name YHWH before the Mosaic epiphany in Exodus 3. The Hebrew of the Priestly author reflects a later stage in its development but earlier than that of the Deuteronomic author. Notably, the P source never uses the word “compassionate” to describe God and forgiveness requires atonement (e.g. the Day of Atonement is a ritual exclusive to the Priestly author).\r\rSee http://en.wikipedia.org/wiki/Priestly_source";
     priestly.category = @"Biblical";
     
     Word *primeval = [[Word alloc] init];
     primeval.name = @"Primeval History";
+    primeval.twitterDef = @"The mythological stories of Genesis 1 - 11"; 
     primeval.definition = @"Genesis chapters 1 - 11";
     primeval.category = @"Biblical";
     

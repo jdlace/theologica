@@ -26,6 +26,8 @@
     _sourcesPic.image = _currentSourceDetail.bigPic;
     
     self.sourceSubtitle.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
+    
+    self.sourceInformation.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline]; 
 }
 
 - (void)didReceiveMemoryWarning
