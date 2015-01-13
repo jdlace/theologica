@@ -182,7 +182,7 @@
     
     Word *aramaic = [[Word alloc] init];
     aramaic.name = @"Aramaic";
-    aramaic.twitterDef = @"a language similar to Hebrew";
+    aramaic.twitterDef = @"a Semitic language similar to Hebrew";
     aramaic.definition = @"Aramaic was the native language of the historical Jesus.";
     aramaic.category = @"Biblical";
     
@@ -259,8 +259,8 @@
     
     Word *adoption = [[Word alloc] init];
     adoption.name = @"Adoption";
-    adoption.twitterDef = @"the process of becoming a child of God";
-    adoption.definition = @"A biblical metaphor used to refer to the process of entering into a new relationship with God through Jesus Christ. \r\rSee Catechism of the Catholic Church, 1. http://www.vatican.va/archive/ccc_css/archive/catechism/prologue.htm#1";
+    adoption.twitterDef = @"A biblical metaphor used to refer to the process of becoming a child of God";
+    adoption.definition = @"In the New Testament, Paul uses this term to describe God's process of extending His family through Jesus Christ.\r\rSee Catechism of the Catholic Church, 1. http://www.vatican.va/archive/ccc_css/archive/catechism/prologue.htm#1";
     adoption.category = @"Systematic";
     
     Word *agape = [[Word alloc] init];
@@ -301,20 +301,20 @@
     
     Word *apocatastasis = [[Word alloc] init];
     apocatastasis.name = @"Apocatastasis";
-    apocatastasis.twitterDef = @"a Greek word meaning the “restoration of all things”";
+    apocatastasis.twitterDef = @"the Greek word meaning the “restoration of all things”";
     apocatastasis.definition = @"The belief that at the eschaton, God will restore all creation back into full Divine communion; the belief that all persons will be saved.";
     apocatastasis.category = @"Systematic";
     
     Word *apologetics = [[Word alloc] init];
     apologetics.name = @"Apologetics";
     apologetics.twitterDef = @"The rational defense of the Christian faith";
-    apologetics.definition = @"The rational defense of the Christian faith; from the Greek word απολογια (apologia) - “defense”.";
+    apologetics.definition = @"The early Christians were compelled to defend authentic Christian faith and practice from ; from the Greek word απολογια (apologia) - “defense”.";
     apologetics.category = @"Systematic";
     
     Word *apophatic = [[Word alloc] init];
     apophatic.name = @"Apophatic";
     apophatic.twitterDef = @"language that uses negation to describe God.";
-    apophatic.definition = @"language that uses negation to describe God.";
+    apophatic.definition = @"Apophatic language was popular with the early Greek fathers.";
     apophatic.category = @"Systematic";
     
     Word *apostolicity = [[Word alloc] init];
@@ -337,36 +337,43 @@
     
     Word *adoration = [[Word alloc] init];
     adoration.name = @"Adoration";
+    adoration.twitterDef = @"The act of adoring Christ present in the Eucharist";
     adoration.definition = @"The act of adoring Christ present in the Eucharist...";
     adoration.category = @"Liturgical";
     
     Word *angusDei = [[Word alloc] init];
     angusDei.name = @"Agnus Dei";
+    angusDei.twitterDef = @"The sequence of Mass that begins 'Lamb of God'";
     angusDei.definition = @"The sequence of Mass that begins 'Lamb of God' chanted 3 times before the distribution of the Eucharist.";
     angusDei.category = @"Liturgical";
     
     Word *advent = [[Word alloc] init];
     advent.name = @"Advent";
-    advent.definition = @"The first season of the liturgical year in the Church that prepares for the the celebration of the birth of Jesus; consists of 5 Sundays...";
+    advent.twitterDef = @"The first season of the liturgical year in the Church";
+    advent.definition = @"The first season of the liturgical year in the Church that prepares for the the celebration of the birth of Jesus; consists of 4 Sundays...";
     advent.category = @"Ecclesial";
     
     Word *alleluia = [[Word alloc] init];
     alleluia.name = @"Alleluia";
+    alleluia.twitterDef = @"A Latinized form of the phrase 'Praise the LORD'";
     alleluia.definition = @"A Latinized form of the phrase 'Praise the LORD'; spoken before the reading of the Gospel during the Mass; not spoken during the season of Lent...";
     alleluia.category = @"Liturgical";
     
     Word *altar = [[Word alloc] init];
     altar.name = @"Altar";
+    altar.twitterDef = @"The table upon which the Eucharist is placed";
     altar.definition = @"The table upon which the Eucharist is placed during the act of consecration due to the interpretation of the death of Jesus as an atoning sacrifice. See Catechism of the Catholic Church, 1182.";
     altar.category = @"Liturgical";
     
     Word *ambo = [[Word alloc] init];
     ambo.name = @"Ambo";
+    ambo.twitterDef = @"The elevated platform behind which the lector, cantor, or homilist stands";
     ambo.definition = @"The elevated platform behind which the lector, cantor, or homilist stands to sing, read, or speak to the congregation.";
     ambo.category = @"Liturgical";
     
     Word *amen = [[Word alloc] init];
     amen.name = @"Amen";
+    amen.twitterDef = @"A Hebrew word meaning 'may it be so'"; 
     amen.definition = @"A Hebrew word meaning 'may it be so'; traditionally said after a prayer as a form of agreement; derived from Jewish use in the synagogue and later in the New Testament where it is used to indicate the truthfulness of what is said.";
     amen.category = @"Liturgical";
     
