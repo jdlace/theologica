@@ -9,9 +9,12 @@
 #import <UIKit/UIKit.h>
 #import "Source.h"
 
-@interface SourcesViewController : UIViewController
+@interface SourcesViewController : UIViewController <UIPageViewControllerDataSource, UIPageViewControllerDelegate>
 
-@property (strong, nonatomic) NSArray *sourcesArray;
+@property (strong, nonatomic) IBOutlet UILabel *sourceLabel;
+@property (strong, nonatomic) UIPageViewController *pageController;
+
+
 
 - (IBAction)scriptureButton:(id)sender;
 - (IBAction)fathersButton:(id)sender;
@@ -25,6 +28,7 @@
 - (IBAction)politicsButton:(id)sender;
 - (IBAction)philosophyButton:(id)sender;
 - (IBAction)theologicaButton:(id)sender;
+
 
 - (IBAction)sourcesButton:(id)sender;
 
