@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "Source.h"
 
-@interface SourcesViewController : UIViewController <UIPageViewControllerDataSource, UIPageViewControllerDelegate>
+@interface SourcesViewController : UIViewController <UIScrollViewDelegate>
 
-@property (strong, nonatomic) IBOutlet UILabel *sourceLabel;
-@property (strong, nonatomic) UIPageViewController *pageController;
-
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (weak, nonatomic) IBOutlet UIView *sourceView;
+@property (weak, nonatomic) IBOutlet UIView *signView;
 
 
 - (IBAction)scriptureButton:(id)sender;

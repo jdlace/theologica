@@ -18,28 +18,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    /*
-    self.pageController = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStyleScroll navigationOrientation:UIPageViewControllerNavigationOrientationHorizontal options:nil];
     
-    self.pageController.dataSource = self;
-    [[self.pageController view] setFrame:[[self view] bounds]];
+    CGRect rect = self.signView.frame;
+    rect.origin = CGPointMake(self.sourceView.bounds.size.width, rect.origin.y);
+    self.signView.frame = rect;
     
-    SourcesViewController *initialViewController = [self viewControllerAtIndex:0];
-    
-    NSArray *viewControllers = [NSArray arrayWithObject:initialViewController];
-    
-    [self.pageController setViewControllers:viewControllers direction:UIPageViewControllerNavigationDirectionForward animated:NO completion:nil];
-    
-    [self addChildViewController:self.pageController];
-    [[self view] addSubview:[self.pageController view]];
-    [self.pageController didMoveToParentViewController:self];
-     */
-    
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    self.scrollView.contentSize = CGSizeMake(self.signView.frame.origin.x + self.sourceView.bounds.size.width, self.scrollView.contentSize.height); 
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -211,7 +196,7 @@
     liturgySource.twitterDef = @"The Worship of the Church";
     liturgySource.comment = @"The liturgy of the Church expresses what it believes. Lex Orandi-Lex Credendi.";
     liturgySource.image = [UIImage imageNamed:@"winelines"];
-    liturgySource.bigPic = [UIImage imageNamed:@"orans"];
+    liturgySource.bigPic = [UIImage imageNamed:@"consecration-cross"];
     
     SourcesDetailViewController *sourcesDetailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"SourcesDetailViewController"];
     
