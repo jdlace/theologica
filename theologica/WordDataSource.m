@@ -158,7 +158,7 @@
     
     Word *apodictic = [[Word alloc] init];
     apodictic.name = @"Apodictic";
-    apodictic.twitterDef = @" a type of law based on universal norms";
+    apodictic.twitterDef = @"a type of law based on universal norms";
     apodictic.definition = @"A type of law which is based on a moral norm or command; see Exodus 20, “Decalogue”.";
     apodictic.category = @"Biblical";
     
@@ -198,14 +198,14 @@
     
     Word *asherah = [[Word alloc] init];
     asherah.name = @"Asherah";
-    asherah.twitterDef = @"Canaanite fertility goddess & wife of El";
+    asherah.twitterDef = @"the Canaanite mother goddess & wife of El";
     asherah.definition = @"In Canaanite mythology, the wife of El and the goddess of fertility; mentioned numerous times throughout the Old Testament; according to 2 Kings 23:4 a large Asherah statue was housed in the Temple and dressed by her cult's prostitutes before Josiah's Deuteronomic reform.";
     asherah.category = @"Biblical";
     //asherah.image =
     
     Word *assyria = [[Word alloc] init];
     assyria.name = @"Assyria";
-    assyria.twitterDef = @"the Empire that conquered Israel in 722 B.C.";
+    assyria.twitterDef = @"the Empire that conquered the northen kingdom of Israel in 722 B.C.";
     assyria.definition = @"One of the numerous Mesopotamian empires in the ancient world which conquered the northern kindgom of Israel in 722 B.C.";
     assyria.category = @"Biblical";
     
@@ -307,7 +307,7 @@
     
     Word *apologetics = [[Word alloc] init];
     apologetics.name = @"Apologetics";
-    apologetics.twitterDef = @"The rational defense of the Christian faith";
+    apologetics.twitterDef = @"the rational defense of the Christian faith";
     apologetics.definition = @"The early Christians were compelled to defend authentic Christian faith and practice from ; from the Greek word απολογια (apologia) - “defense”.";
     apologetics.category = @"Systematic";
     
@@ -379,86 +379,103 @@
     
     Word *anamnesis = [[Word alloc] init];
     anamnesis.name = @"Anamnesis";
+    anamnesis.twitterDef = @"the Greek Word for 'rememberance',\rused to describe the Eucharist";
     anamnesis.definition = @"Greek Word for 'rememberance', used in the Words of Institution; a performative act used to re-present the salvific death and resurrection of Jesus...";
     anamnesis.category = @"Liturgical";
     
     Word *anaphora = [[Word alloc] init];
     anaphora.name = @"Anaphora";
+    anaphora.twitterDef = @"the Greek word for 'offering', used for the Eucharistic prayer";
     anaphora.definition = @"The Greek term for 'offering'; the Eucharistic prayer of the Mass...";
     anaphora.category = @"Liturgical";
     
     Word *anathema = [[Word alloc] init];
     anathema.name = @"Anathema";
+    anathema.twitterDef = @"the state of being out of communion with the Church";
     anathema.definition = @"The Greek word for 'accursed'; the state of being out of visible communion with the Church";
     anathema.category = @"Systematic";
     
     Word *annulment = [[Word alloc] init];
     annulment.name = @"Annulment";
+    annulment.twitterDef = @"an ecclesial declaration that a valid marriage never exixted";
     annulment.definition = @"An ecclesial declaration that a valid marriage never existed....";
     annulment.category = @"Systematic";
     
     Word *antiphon = [[Word alloc] init];
     antiphon.name = @"Antiphon";
+    antiphon.twitterDef = @"the choral response sung during\rthe entrace processional during Mass";
     antiphon.definition = @"the choral response sung during the entrace processional";
     antiphon.category = @"Liturgical";
     
     Word *apostlesCreed = [[Word alloc] init];
     apostlesCreed.name = @"Apostle's Creed";
+    apostlesCreed.twitterDef = @"the Creed used in Rome around the year A.D. 150";
     apostlesCreed.definition = @"The earliest form of the Rule of Faith; based on the Roman baptismal creed, dated to the year A.D. 150.";
     apostlesCreed.category = @"Historical";
     
     Word *arianism = [[Word alloc] init];
     arianism.name = @"Arianism";
+    arianism.twitterDef = @"the teaching that the Son was not of the same substance as the Father";
     arianism.definition = @"The teaching of Arius that the Son was of a different substance than the Father (begotten vs. unbegotten) and thus, not fully divine.";
     arianism.category = @"Historical";
     
     Word *aposteriori = [[Word alloc] init];
     aposteriori.name = @"A Posteriori";
+    aposteriori.twitterDef = @"a phrase meaning 'after experience'";
     aposteriori.definition = @"A philosophical category which follows human experience. The statement “Water boils at 0 degrees Celsius” is an a posteriori truth. \r\rSee Stanford Encyclopedia of Philosophy, “A Priori Justification and Knowledge”. http://plato.stanford.edu/entries/apriori/.";
     aposteriori.category = @"Cultural";
     
     Word *apriori = [[Word alloc] init];
     apriori.name = @"A Priori";
+    apriori.twitterDef = @"a phrase meaning 'before experience'";
     apriori.definition = @"A philosophical category which precedes human experience. The statement “All bachelors are unmarried' is an a priori truth. \r\rSee Stanford Encyclopedia of Philosophy, “A Priori Justification and Knowledge”. http://plato.stanford.edu/entries/apriori/.";
     apriori.category = @"Cultural";
     
     Word *action = [[Word alloc]init];
     action.name = @"Action";
+    action.twitterDef = @"direct or indirect action taken to achieve justice";
     action.definition = @"The third of three steps in achieving justice.";
     action.category = @"Cultural";
     
     Word *agnostic = [[Word alloc] init];
     agnostic.name = @"Agnostic";
+    agnostic.twitterDef = @"the word used to describe uncertainty about the existence of God";
     agnostic.definition = @"From the Greek word for “not knowing”, a term used to describe uncertainty about the question of God's existence. \r\rSee Catechism of the Catholic Church, 2127. http://www.vatican.va/archive/ccc_css/archive/catechism/p3s2c1a1.htm.";
     agnostic.category = @"Cultural";
     
     Word *analysis = [[Word alloc] init];
     analysis.name = @"Analysis";
+    analysis.twitterDef = @"the process of discerning appropriate steps to achieving justice"; 
     analysis.definition = @"The second of the 3 steps in achieving justice.";
     analysis.category = @"Cultural";
     
     Word *anthropology = [[Word alloc] init];
     anthropology.name = @"Anthropology";
+    anthropology.twitterDef = @"the science that studies human origins, development, and culture";
     anthropology.definition = @"The science that studies human origins, development, and culture.";
     anthropology.category = @"Cultural";
     
     Word *antisemitism = [[Word alloc] init];
     antisemitism.name = @"Anti-Semitism";
+    antisemitism.twitterDef = @"prejudice, hatred, or racial bias against Jewish persons";
     antisemitism.definition = @"Prejudice, hatred, or racial bias against Jews. Some portions of the New Testament bear traces of anti-Semitism due to theological biases against the Jewish people for rejecting Christ. Thus, the Christian tradition has included anti-Semitic currents that have been rejected since the Second Vatican Council.";
     antisemitism.category = @"Cultural";
     
     Word *argument = [[Word alloc] init];
     argument.name = @"Argument";
+    argument.twitterDef = @"a series of statements that establishes a truth claim";
     argument.definition = @"A series of statements that establishes a truth claim; made of two parts - premise and conclusion; the from can be deductive or inductive; deductive arguments can be valid or invalid. \r\rSee Internet Encylopedia of Philosophy, “Argument”. http://www.iep.utm.edu/argument/";
     argument.category = @"Cultural";
     
     Word *atheism = [[Word alloc] init];
     atheism.name = @"Atheism";
+    atheism.twitterDef = @"the belief that no God exists";
     atheism.definition = @"The belief that no God exists.";
     atheism.category = @"Cultural";
     
     Word *awareness = [[Word alloc] init];
     awareness.name = @"Awareness";
+    awareness.twitterDef = @"the gathering of information about a given injustice";
     awareness.definition = @"The first of 3 steps in achieving justice.";
     awareness.category = @"Cultural";
 
