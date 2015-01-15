@@ -10,26 +10,6 @@
 
 @interface LinksTableViewController ()
 
-@property (strong, nonatomic) NSMutableArray *hierarchy;
-@property (copy) NSMutableArray *scripture;
-@property (copy) NSMutableArray *councils;
-@property (copy) NSMutableArray *catechism;
-@property (copy) NSMutableArray *liturgy;
-@property (copy) NSMutableArray *history;
-@property (copy) NSMutableArray *ethics;
-@property (copy) NSMutableArray *philosophy;
-@property (copy) NSMutableArray *arts;
-@property (copy) NSMutableArray *science;
-
-
-
-
-
-
-
-
-
-
 
 @end
 
@@ -38,6 +18,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.hierarchy = [[NSArray alloc] initWithObjects:@"Vatican", @"Council of Bishops", nil];
+    self.scripture = [[NSArray alloc] initWithObjects: @"Bible", @"Pontifical Biblical Commission", nil];
+    self.fathers = [[NSArray alloc] initWithObjects:@"Patristics Archive", nil];
+    self.councils = [[NSArray alloc] initWithObjects:@"Vatican II", nil];
+    self.creeds = [[NSArray alloc] initWithObjects:@"Nicene Creed", nil]; 
+                      
+    
+    
+    
+    /*
     self.hierarchy = [@[@"Vatican", @"U.S. Conference of Catholic Bishops"]mutableCopy];
     self.scripture = [@[@"Pontifical Biblical Commission", @"Oxford Biblical Studies"] mutableCopy];
     self.councils = [@[@"Church Councils"]mutableCopy];
@@ -48,6 +38,7 @@
     self.philosophy = [@[@"Stanford Encyclopedia of Philosophy", @"Internet Philosophy Archive"] mutableCopy];
     self.science = [@[@"National Academy of Sciences"]mutableCopy];
     self.arts = [@[@"Arts"]mutableCopy];
+     */
 }
 
 - (void)didReceiveMemoryWarning {
