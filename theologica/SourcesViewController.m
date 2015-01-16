@@ -374,11 +374,11 @@
     [self.navigationController pushViewController:sourcesDetailViewController animated:YES];
 }
 
-- (IBAction)sourcesButton:(id)sender
+- (IBAction)startButton:(id)sender
 {
-    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Start exploring Theologica by choosing a theological Source to investigate."  message:@"Theology draws on both religious and cultural sources for its enterprise." preferredStyle:(UIAlertControllerStyleAlert)];
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Start exploring Theologica"  message:@"Theology draws on its Sources (Magisterium, Scripture, Fathers, Councils, Creeds, Liturgy) to interpret the Signs of the Times; cultural trends that affect the worldview of human beings in any given time." preferredStyle:(UIAlertControllerStyleAlert)];
     
-    UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"Engage" style:UIAlertActionStyleDefault
+    UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"Start" style:UIAlertActionStyleDefault
     handler:^(UIAlertAction * action) {}];
     
     [alert addAction:defaultAction];

@@ -478,9 +478,26 @@
     awareness.twitterDef = @"the gathering of information about a given injustice";
     awareness.definition = @"The first of 3 steps in achieving justice.";
     awareness.category = @"Cultural";
-
     
-    [_dataArray addObjectsFromArray:@[aposteriori, apriori, abortion, absolution, abstinence, accident, act, adonai, adoption, adoptionism, adoration, adultery, advent, agape, aggiornomento, agnostic, angusDei, allegory, alleluia, altar, ambo, amen, analogy, analysis, anamnesis, anaphora, anathema, anawim, annulment, anointing, anthropology, antiphon, antisemitism, anthropocentrism, anthropomorphism, apocatastasis, apocalypse, apocrypha, apodictic, apologetics, apophatic, apostle, apostlesCreed, apostolicity, aqeda, aramaic, argument, arianism, asceticism, asherah, assumption, assyria, atheism, atonement, awareness, abba]];
+    Word *acolyte = [[Word alloc] init];
+    acolyte.name = @"Acolyte";
+    acolyte.twitterDef = @"a liturgical assistant to the celebrant of Mass";
+    acolyte.definition = @"Acolytes occur as early as the   century.";
+    acolyte.category = @"Liturgical";
+    
+    Word *actOfContrition = [[Word alloc] init];
+    actOfContrition.name = @"Act of Contrition";
+    actOfContrition.twitterDef = @"a prayer said before the Sacrament of Reonciliation";
+    actOfContrition.definition = @"The Act of Contrition is the traditional penitential prayer..";
+    actOfContrition.category = @"Liturgical";
+
+    Word *apostolicFathers = [[Word alloc] init];
+    apostolicFathers.name = @"Apostolic Fathers"; 
+    apostolicFathers.twitterDef = @"the collection of Christian texts from the late first and early second centuries.";
+    apostolicFathers.definition = @"The Aposotolic Fathers are the earliest extra-biblical texts outside the Bible.";
+    apostolicFathers.category = @"Historical";
+    
+    [_dataArray addObjectsFromArray:@[aposteriori, apriori, abortion, absolution, abstinence, accident, act, adonai, adoption, adoptionism, adoration, adultery, advent, agape, aggiornomento, agnostic, angusDei, allegory, alleluia, altar, ambo, amen, analogy, analysis, anamnesis, anaphora, anathema, anawim, annulment, anointing, anthropology, antiphon, antisemitism, anthropocentrism, anthropomorphism, apocatastasis, apocalypse, apocrypha, apodictic, apologetics, apophatic, apostle, apostlesCreed, apostolicity, aqeda, aramaic, argument, arianism, asceticism, asherah, assumption, assyria, atheism, atonement, awareness, abba, acolyte, actOfContrition, apostolicFathers]];
     
     //B
     

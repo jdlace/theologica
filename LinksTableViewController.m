@@ -15,14 +15,20 @@
 
 @implementation LinksTableViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
     
     self.hierarchy = [[NSArray alloc] initWithObjects:@"Vatican", @"Council of Bishops", nil];
     self.scripture = [[NSArray alloc] initWithObjects: @"Bible", @"Pontifical Biblical Commission", nil];
     self.fathers = [[NSArray alloc] initWithObjects:@"Patristics Archive", nil];
     self.councils = [[NSArray alloc] initWithObjects:@"Vatican II", nil];
-    self.creeds = [[NSArray alloc] initWithObjects:@"Nicene Creed", nil]; 
+    self.creeds = [[NSArray alloc] initWithObjects:@"Nicene Creed", nil];
+    self.liturgy = [[NSArray alloc] initWithObjects:@"Liturgy Sites", nil];
+    self.science = [[NSArray alloc] initWithObjects:@"National Center for Science Education", nil];
+    self.philosophy = [[NSArray alloc] initWithObjects:@"Philosophy Sites", nil];
+    self.economics = [[NSArray alloc] initWithObjects:@"Economics", nil];
+    self.ethics = [[NSArray alloc] initWithObjects:@"Catholic Moral Theology", nil];
                       
     
     
@@ -41,7 +47,8 @@
      */
 }
 
-- (void)didReceiveMemoryWarning {
+- (void)didReceiveMemoryWarning
+{
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
@@ -51,11 +58,29 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     // Return the number of sections.
-    return 10;
+    return 12;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
+    /*
+    NSDictionary *linkDictionary = @{
+        
+                                        @"Magisterium" : @[self.hierarchy],
+                                        @"Scripture"   : @[self.scripture],
+                                        @"Fathers"     : @[self.fathers],
+                                        @"Councils"    : @[self.councils],
+                                        @"Creeds"      : @[self.creeds],
+                                        @"Liturgy"     : @[self.liturgy],
+                                        @"Science"     : @[self.science],
+                                        @"Philosophy"  : @[self.philosophy],
+                                        @"Economics"   : @[self.economics],
+                                        @"Ethics"      : @[self.ethics],
+                                    };
+    
+    return [linkDictionary count];
+    */
+    /*
     // Return the number of rows in the section.
     switch (section)
         {
@@ -99,6 +124,9 @@
         }
     
     return section; 
+     */
+    
+    return [self.scripture count]; 
 }
 
 
@@ -106,8 +134,33 @@
 {
     
     //Configure the cell
-    static NSString *cellIdentifier = @"cell";
+    static NSString *cellIdentifier = @"linksCell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
+    
+    cell.textLabel.text = [self.scripture objectAtIndex:indexPath.row];
+    return cell; 
+   
+    /*
+    NSDictionary *linkDictionary = @{
+                                     
+                                     @"Magisterium" : @[self.hierarchy],
+                                     @"Scripture"   : @[self.scripture],
+                                     @"Fathers"     : @[self.fathers],
+                                     @"Councils"    : @[self.councils],
+                                     @"Creeds"      : @[self.creeds],
+                                     @"Liturgy"     : @[self.liturgy],
+                                     @"Science"     : @[self.science],
+                                     @"Philosophy"  : @[self.philosophy],
+                                     @"Economics"   : @[self.economics],
+                                     @"Ethics"      : @[self.ethics],
+                                     };
+    
+    NSArray *links = [linkDictionary allKeys];
+    cell = links[indexPath.row];
+    return cell; 
+     */
+    
+    /*
     NSString *entry;
     
     if (indexPath.section == 0)
@@ -130,6 +183,8 @@
     cell.textLabel.text = entry;
     
     return cell;
+     
+     */
 }
 
 -(NSString *) tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section

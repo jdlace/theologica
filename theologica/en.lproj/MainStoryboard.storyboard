@@ -300,7 +300,11 @@
                     </view>
                     <navigationItem key="navigationItem" id="lEq-0v-NKQ">
                         <nil key="title"/>
-                        <barButtonItem key="leftBarButtonItem" title="Start" id="MUw-I6-Qf5"/>
+                        <barButtonItem key="leftBarButtonItem" title="Start" id="MUw-I6-Qf5">
+                            <connections>
+                                <action selector="startButton:" destination="3cO-3O-ueC" id="u7a-5C-6b8"/>
+                            </connections>
+                        </barButtonItem>
                         <button key="titleView" opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="zcJ-tZ-nEQ">
                             <rect key="frame" x="83" y="1" width="154" height="42"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -726,7 +730,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell multipleTouchEnabled="YES" contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" reuseIdentifier="linkCell" textLabel="Eyv-gP-BJp" style="IBUITableViewCellStyleDefault" id="bm2-Fa-HZg">
+                            <tableViewCell multipleTouchEnabled="YES" contentMode="scaleToFill" restorationIdentifier="linksCell" selectionStyle="blue" indentationWidth="10" reuseIdentifier="linksCell" textLabel="Eyv-gP-BJp" style="IBUITableViewCellStyleDefault" id="bm2-Fa-HZg">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bm2-Fa-HZg" id="C63-Wm-KIG">
                                     <autoresizingMask key="autoresizingMask"/>

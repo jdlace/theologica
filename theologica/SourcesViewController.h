@@ -30,7 +30,7 @@
 - (IBAction)theologicaButton:(id)sender;
 
 
-- (IBAction)sourcesButton:(id)sender;
+- (IBAction)startButton:(id)sender;
 
 
 
