@@ -1206,67 +1206,80 @@
     
     Word *heaven = [[Word alloc] init];
     heaven.name = @"Heaven";
+    heaven.twitterDef = @"the state of complete union with God...";
     heaven.definition = @"The state of complete union with God...";
     heaven.category = @"Systematic";
     
     Word *hell = [[Word alloc] init];
     hell.name = @"Hell";
+    hell.twitterDef = @"the state of complete separation from God...";
     hell.definition = @"The state of complete separation from God...";
     hell.category = @"Systematic";
     
     Word *henotheism = [[Word alloc] init];
     henotheism.name = @"Henotheism";
+    henotheism.twitterDef = @"the belief that many gods exist while only one is served.";
     henotheism.definition = @"The belief that many gods exist while only one is served.";
     henotheism.category = @"Systematic";
     
     Word *heresy = [[Word alloc] init];
     heresy.name = @"Heresy";
+    heresy.twitterDef = @"the formal contradiction of orthodox belief...";
     heresy.definition = @"The formal contradiction of orthodox belief...";
     heresy.category = @"Systematic";
     
     Word *hierarchy = [[Word alloc] init];
     hierarchy.name = @"Hierarchy of Truths";
+    hierarchy.twitterDef = @"the idea that some truths are more essential to salvation than others.";
     hierarchy.definition = @"The idea that some truths are more essential to salvation than others.";
     hierarchy.category = @"Systematic";
     
     Word *humanRights = [[Word alloc] init];
     humanRights.name = @"Human Rights";
+    humanRights.twitterDef = @"the rights due to a person by virtue of his or her being a human being";
     humanRights.definition = @"rights due to a person by virtue of his or her being a human being; thirty human rights are enumerated in the United Nations Universal Declaration of Human Rights. \r\rSee Compendium of the Social Doctrine of the Church, 152. http://www.vatican.va/roman_curia/pontifical_councils/justpeace/documents/rc_pc_justpeace_doc_20060526_compendio-dott-soc_en.html";
     humanRights.category = @"Moral";
     
     Word *hermeneutics = [[Word alloc] init];
     hermeneutics.name = @"Hermeneutics";
+    hermeneutics.twitterDef = @"the science of interpretation and process of determining meaning";
     hermeneutics.definition = @"The science of interpretation and process of determining meaning, usually of a text - from the name of the Greek god “Hermes”, the messenger of the gods.";
     hermeneutics.category = @"Biblical";
     
     Word *historicalBooks = [[Word alloc] init];
     historicalBooks.name = @"Historical Books";
+    historicalBooks.twitterDef = @"the second of four divisions within the Old Testament";
     historicalBooks.definition = @"The second of four divisions within the Old Testament; contains 1 & 2 Samuel, 1 & 2 Kings, 1 & 2 Chronicles, Ezra, Nehemiah, Tobit, Judith, Esther, 1 & 2 Maccabees.";
     historicalBooks.category = @"Biblical";
     
     Word *hcm = [[Word alloc] init];
     hcm.name = @"Historical-Critical Method";
+    hcm.twitterDef = @"the hermeneutical method which seeks the intention of the author through exegetical analysis of the text's context";
     hcm.definition = @"The hermeneutical method which seeks to uncover the intention of the author through exegetical analysis of history, language, literature, sources, and culture; according to the Pontifical Biblical Commission's “The Interpretation of the Bible in the Church”, it is the one essential method for Catholic hermeneutics.";
     hcm.category = @"Biblical";
     
     Word *historicalCriticism = [[Word alloc] init];
     historicalCriticism.name = @"Historical Criticism";
+    historicalCriticism.twitterDef = @"the type of exegetical criticism which deciphers and analyzes the historical context of a text.";
     historicalCriticism.definition = @"The type of exegetical criticism which deciphers and analyzes the historical context of a text.";
     historicalCriticism.category = @"Biblical";
     
     Word *holyOfHolies = [[Word alloc] init];
     holyOfHolies.name = @"Holy of Holies";
+    holyOfHolies.twitterDef = @"the innermmost area of the Temple in Jerusalem where the Ark of the Covenant was believed to reside";
     holyOfHolies.definition = @"The innermmost area of the Temple in Jerusalem where the Ark of the Covenant was believed to reside from the monarchy of Solomon until the Exile in 587 BCE.";
     holyOfHolies.category = @"Biblical";
 
     Word *humanEcology = [[Word alloc] init];
     humanEcology.name = @"Human Ecology";
+    humanEcology.twitterDef = @"the environmental context of the human person in light of the truths of Creation";
     humanEcology.definition = @"The environmental context of the human person in light of the truths of Creation and the challenges posed by climate change and other developmental factors in which justice is neglected. Pope Francis has made the subject of human ecology a theme of his latest encyclical. \r\rSee www.vatican.va/....";
     humanEcology.category = @"Moral";
     
     Word *humanPerson = [[Word alloc] init];
     humanPerson.name = @"Human Person";
-    humanPerson.definition = @"A human being (member of the species homo sapiens sapiens) with the capacity for self-transcendence. According to the teaching of the Church, human beings are also human persons from the moment of conception. Disputed questions include the pheneomenon of twinning and the problems associated with dualism. See Catechism of the Catholic Church, 1700-1706. link: ";
+    humanPerson.twitterDef = @"a human being (member of the species homo sapiens sapiens) with the capacity for self-transcendence.";
+    humanPerson.definition = @"According to the teaching of the Church, human beings are also human persons from the moment of conception. Disputed questions include the pheneomenon of twinning and the problems associated with dualism. See Catechism of the Catholic Church, 1700-1706. link: ";
     humanPerson.category = @"Systematic";
 
     
@@ -1276,31 +1289,37 @@
     
     Word *immanence = [[Word alloc] init];
     immanence.name = @"Immanence";
+    immanence.twitterDef =  @"the quality of being within human experience";
     immanence.definition = @"The quality of being within human experience.";
     immanence.category = @"Systematic";
     
     Word *idolatry = [[Word alloc] init];
     idolatry.name = @"Idolatry";
-    idolatry.definition = @"The bestowal of ultimate value on that which is not ultimate.";
+    idolatry.twitterDef = @"the bestowal of ultimate value on that which is not ultimate";
+    idolatry.definition = @"The bestowal of ultimate value on that which is not ultimate";
     idolatry.category = @"Systematic";
     
     Word *inclusivism = [[Word alloc] init];
     inclusivism.name = @"Inclusivism";
-    inclusivism.definition = @"The belief that those who respond to the truth they have receieved will experience salvation; a soteriology developed by Karl Rahner in the mid-twentieth century.";
+    inclusivism.twitterDef = @"the belief that those who respond to the truth they have receieved will experience salvation";
+    inclusivism.definition = @"Inclusivism is a soteriology developed by Karl Rahner in the mid-twentieth century.";
     inclusivism.category = @"Systematic";
     
     Word *inspiration = [[Word alloc] init];
     inspiration.name = @"Inspiration";
+    inspiration.twitterDef = @"that which provides the “breath of life” or motivation behind a course of action";
     inspiration.definition = @"That which provides the “breath of life” or motivation behind a course of action. Divine Inspiration is therefore understood to mean that God has provided the “breath of life” or motivation for a course of action - from the Latin word for both “spirit” and “breath”.";
     inspiration.category = @"Biblical";
     
     Word *interpretation = [[Word alloc] init];
     interpretation.name = @"Interpretation";
+    interpretation.twitterDef = @"the explanation of the meaning, significance, and relevance of a text.";
     interpretation.definition = @"The explanation of the meaning, significance, and relevance of a text.";
     interpretation.category = @"Biblical";
     
     Word *israel = [[Word alloc] init];
     israel.name = @"Israel";
+    israel.twitterDef = @"The name given to Jacob which means “struggles with God”...";
     israel.definition = @"The name given to Jacob which means “struggles with God”...";
     israel.category = @"Biblical";
 
@@ -1311,16 +1330,19 @@
     
     Word *jesus = [[Word alloc] init];
     jesus.name = @"Jesus of Nazareth";
+    jesus.twitterDef = @"The first-century Jewish prophet who proclaimed the Kingdom of God";
     jesus.definition = @"The first-century Jewish prophet who proclaimed the Kingdom of God, was executed by the Roman govenor Pontius Pilate, and whom the early Christians believed to raised from dead as the Christ and Son of God.";
     jesus.category = @"Biblical";
     
     Word *justification = [[Word alloc] init];
     justification.name = @"Justification";
+    justification.twitterDef = @"The act of being put into a just relationship";
     justification.definition = @"The act of being put into a just relationship. Paul uses this word to describe those who believe in Jesus as the Christ...";
     justification.category = @"Systematic";
     
     Word *justice = [[Word alloc] init];
     justice.name = @"Justice";
+    justice.twitterDef = @"the state of right relationships between individuals and groups in society.";
     justice.definition = @"the state of right relationships between individuals and groups in society.";
     justice.category = @"Moral";
     

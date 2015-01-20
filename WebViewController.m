@@ -18,7 +18,7 @@
 {
     [super viewDidLoad];
     
-    NSURL *url = [[NSURL alloc] initWithString:@"http://www.vatican.va"];
+    NSURL *url = [[NSURL alloc] initWithString:@"https://www.bible.com/bible/463/gen.1.nabre"]; 
     NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
     [self.webView loadRequest:request]; 
     
