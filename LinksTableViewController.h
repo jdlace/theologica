@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WebViewController.h"
 
 @interface LinksTableViewController : UITableViewController
 
@@ -23,5 +24,6 @@
 @property (strong, nonatomic) NSArray *arts;
 @property (strong, nonatomic) NSArray *science;
 @property (strong, nonatomic) NSArray *economics;
+
 
 @end

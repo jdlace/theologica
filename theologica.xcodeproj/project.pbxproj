@@ -34,6 +34,7 @@
 		69739B561A36897F008BAB06 /* SearchBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69739B551A36897F008BAB06 /* SearchBarViewController.m */; };
 		698893B81A5E24CE00D1AC74 /* SourcesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 698893B71A5E24CE00D1AC74 /* SourcesDetailViewController.m */; };
 		6988A94A1A3E8DEB005A1B65 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6988A9491A3E8DEB005A1B65 /* MapViewController.m */; };
+		698F27AE1A6D85260065F8A6 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 698F27AD1A6D85260065F8A6 /* CloudKit.framework */; };
 		69989B0319FF2FC70009ABAE /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69989AC519FF2D5D0009ABAE /* NotificationCenter.framework */; };
 		69989B0919FF2FC70009ABAE /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69989B0819FF2FC70009ABAE /* TodayViewController.m */; };
 		69989B0B19FF2FC70009ABAE /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69989B0A19FF2FC70009ABAE /* MainInterface.storyboard */; };
@@ -120,6 +121,8 @@
 		698893B71A5E24CE00D1AC74 /* SourcesDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SourcesDetailViewController.m; sourceTree = "<group>"; };
 		6988A9481A3E8DEB005A1B65 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = ../MapViewController.h; sourceTree = "<group>"; };
 		6988A9491A3E8DEB005A1B65 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = ../MapViewController.m; sourceTree = "<group>"; };
+		698F27AC1A6D837F0065F8A6 /* theologica.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = theologica.entitlements; path = theologica/theologica.entitlements; sourceTree = "<group>"; };
+		698F27AD1A6D85260065F8A6 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		69989AC519FF2D5D0009ABAE /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		69989B0219FF2FC60009ABAE /* Theologica.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Theologica.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		69989B0619FF2FC70009ABAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -159,6 +162,7 @@
 				FA3683D31A1155AA00E9740F /* MobileCoreServices.framework in Frameworks */,
 				FA3683CD1A1144F300E9740F /* Social.framework in Frameworks */,
 				692ED24B1796D552008554F9 /* UIKit.framework in Frameworks */,
+				698F27AE1A6D85260065F8A6 /* CloudKit.framework in Frameworks */,
 				692ED24D1796D552008554F9 /* Foundation.framework in Frameworks */,
 				692ED24F1796D552008554F9 /* CoreGraphics.framework in Frameworks */,
 			);
@@ -188,6 +192,7 @@
 		692ED23E1796D552008554F9 = {
 			isa = PBXGroup;
 			children = (
+				698F27AC1A6D837F0065F8A6 /* theologica.entitlements */,
 				6907A2081A14525300EA7CF4 /* View */,
 				692ED2501796D552008554F9 /* Controllers */,
 				69BB25461A130E8200B3F5B5 /* Data Model */,
@@ -210,6 +215,7 @@
 		692ED2491796D552008554F9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				698F27AD1A6D85260065F8A6 /* CloudKit.framework */,
 				69B8D9391A4138B600186EA2 /* CoreLocation.framework */,
 				FA9323081A1E6DE8008CF833 /* MapKit.framework */,
 				FA3683D21A1155AA00E9740F /* MobileCoreServices.framework */,
@@ -424,6 +430,11 @@
 				TargetAttributes = {
 					692ED2461796D552008554F9 = {
 						DevelopmentTeam = M9E78PZP5E;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					69989B0119FF2FC60009ABAE = {
 						CreatedOnToolsVersion = 6.1;
@@ -609,12 +620,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = theologica/theologica.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "theologica/theologica-Prefix.pch";
 				INFOPLIST_FILE = "theologica/theologica-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -624,12 +638,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = theologica/theologica.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "theologica/theologica-Prefix.pch";
 				INFOPLIST_FILE = "theologica/theologica-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

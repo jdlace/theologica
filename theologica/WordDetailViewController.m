@@ -49,6 +49,7 @@
 - (void)preferredContentSizeChanged:(NSNotification *)notification
 {
     self.descriptionTextView.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
+    self.twitterLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
 }
 
 - (void)didReceiveMemoryWarning
