@@ -635,7 +635,7 @@
     Word *commutativejustice = [[Word alloc]init];
     commutativejustice.name = @"Commutative Justice";
     commutativejustice.twitterDef = @"One of the three aspects of justice which emphasizes obligations between individuals.";
-    commutativejustice.definition = @"One of the three aspects of justice which emphasizes obligations between individuals.\r\rSee Catechism of the Catholic Church, 2411. link:";
+    commutativejustice.definition = @"the type of justice which emphasizes obligations between individuals\r\rSee Catechism of the Catholic Church, 2411. link:";
     commutativejustice.category = @"Moral";
     
     Word *contributivejustice = [[Word alloc]init];
@@ -1183,7 +1183,7 @@
     
     Word *gehenna = [[Word alloc] init];
     gehenna.name = @"Gehenna";
-    gehenna.twitterDef = @"a valley near Jerusalem in which devotees would sacrifice children in fire to the Canaanite god Molech";
+    gehenna.twitterDef = @"a valley near Jerusalem in which devotees would sacrifice children in fire";
     gehenna.definition = @"A valley near Jerusalem (the Valley of Hinnom) where a non-Israelite shrine to the Canaanite god Moloch once stood where human sacrifice by burning took place. It seems to have become known as a place of the destruction of the wicked in Jewish folklore (a source which claims that it was a burning trash heap or garbage dump is disputed); used by Jesus to refer to a place where those who opposed the will of God would go. Thus, it came to be synonymous with “hell”.";
     gehenna.category = @"Biblical";
     
@@ -1195,7 +1195,7 @@
     
     Word *gospel = [[Word alloc] init];
     gospel.name = @"Gospel";
-    gospel.twitterDef = @"good news"; 
+    gospel.twitterDef = @"good news";
     gospel.definition = @"1. The message of the historical Jesus concerning the Kingdom of God; 2. The message about Jesus concerning the salvation of the world; 3. One of the four canonical accounts of the life and ministry of the historical Jesus (Matthew, Mark, Luke, and John); from the Greek word ευαγγελιον (evangelion) - “good news”.";
     gospel.category = @"Biblical";
 
