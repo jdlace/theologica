@@ -140,7 +140,7 @@
         {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         WebViewController *webViewController = [segue destinationViewController];
-        webViewController.webView = [self.scripture objectAtIndex:indexPath.row]; 
+        webViewController.webView = [self.linkKeys objectAtIndex:indexPath.row];
         }
 }
 
