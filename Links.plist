@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Science</key>
+	<array>
+		<string>Atom + Eve Project</string>
+		<string>National Academy of Sciences</string>
+	</array>
+	<key>Creeds</key>
+	<array>
+		<string>Nicene Creed</string>
+	</array>
+	<key>Councils</key>
+	<array>
+		<string>Ecumenical Councils</string>
+		<string>Vatican II Voice</string>
+	</array>
+	<key>Fathers</key>
+	<array>
+		<string>Christian Classics Ethereal Library</string>
+		<string>Early Christian Writings</string>
+		<string>Early Church Fathers</string>
+	</array>
+	<key>Scripture</key>
+	<array>
+		<string>NT Gateway</string>
+		<string>OT Gateway</string>
+		<string>BibleHub</string>
+		<string>Oxford Biblical Studies </string>
+		<string>Pontifical Biblical Commission</string>
+		<string>Biblical Texts</string>
+	</array>
+	<key>Magisterium</key>
+	<array>
+		<string>Bishops</string>
+		<string>Vatican</string>
+	</array>
+</dict>
+</plist>

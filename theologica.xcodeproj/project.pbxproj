@@ -32,6 +32,7 @@
 		694E879E1A55D52400CE4A37 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 694E879D1A55D52400CE4A37 /* WebViewController.m */; };
 		694E87A41A56504F00CE4A37 /* Source.m in Sources */ = {isa = PBXBuildFile; fileRef = 694E87A31A56504F00CE4A37 /* Source.m */; };
 		69739B561A36897F008BAB06 /* SearchBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69739B551A36897F008BAB06 /* SearchBarViewController.m */; };
+		6976E3021A6F3E8D0013A6D5 /* Links.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6976E3011A6F3E8D0013A6D5 /* Links.plist */; };
 		698893B81A5E24CE00D1AC74 /* SourcesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 698893B71A5E24CE00D1AC74 /* SourcesDetailViewController.m */; };
 		6988A94A1A3E8DEB005A1B65 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6988A9491A3E8DEB005A1B65 /* MapViewController.m */; };
 		698F27AE1A6D85260065F8A6 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 698F27AD1A6D85260065F8A6 /* CloudKit.framework */; };
@@ -117,6 +118,7 @@
 		694E87A31A56504F00CE4A37 /* Source.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Source.m; sourceTree = "<group>"; };
 		69739B541A36897F008BAB06 /* SearchBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchBarViewController.h; sourceTree = "<group>"; };
 		69739B551A36897F008BAB06 /* SearchBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchBarViewController.m; sourceTree = "<group>"; };
+		6976E3011A6F3E8D0013A6D5 /* Links.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Links.plist; sourceTree = "<group>"; };
 		698893B61A5E24CE00D1AC74 /* SourcesDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourcesDetailViewController.h; sourceTree = "<group>"; };
 		698893B71A5E24CE00D1AC74 /* SourcesDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SourcesDetailViewController.m; sourceTree = "<group>"; };
 		6988A9481A3E8DEB005A1B65 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = ../MapViewController.h; sourceTree = "<group>"; };
@@ -192,6 +194,7 @@
 		692ED23E1796D552008554F9 = {
 			isa = PBXGroup;
 			children = (
+				6976E3011A6F3E8D0013A6D5 /* Links.plist */,
 				698F27AC1A6D837F0065F8A6 /* theologica.entitlements */,
 				6907A2081A14525300EA7CF4 /* View */,
 				692ED2501796D552008554F9 /* Controllers */,
@@ -479,6 +482,7 @@
 				692ED2A81796EF10008554F9 /* man-influence.png in Resources */,
 				692ED2A91796EF10008554F9 /* man-influence@2x.png in Resources */,
 				9BAC0B461A1C4BA1004C4867 /* appicon2.png in Resources */,
+				6976E3021A6F3E8D0013A6D5 /* Links.plist in Resources */,
 				9BAC0B451A1C4BA1004C4867 /* appicon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

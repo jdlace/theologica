@@ -647,7 +647,7 @@
     Word *canon = [[Word alloc] init];
     canon.name = @"Canon";
     canon.twitterDef = @"The Greek word meaning “measuring stick” that refers to the Bible";
-    canon.definition = @"The Greek word meaning “measuring stick”; (κανον)used metaphorically to refer to a standard or criterion regarded as authoritative within a community. The Bible is referred to as the canon of the Scriptures. \r\rSee Catechism of the Catholic Church, 101. http://www.vatican.va/archive/ccc_css/archive/catechism/p1s1c2a3.htm. \r\rAlso see Pontifical Biblical Commission, “The Interpretation of the Bible in the Church, III.B”. http://catholic-resources.org/ChurchDocs/PBC_Interp-FullText.htm ";
+    canon.definition = @"The Greek word (κανον) is used metaphorically to refer to a standard or criterion regarded as authoritative within a community. The Bible is referred to as the canon of the Scriptures. \r\rSee Catechism of the Catholic Church, 101. http://www.vatican.va/archive/ccc_css/archive/catechism/p1s1c2a3.htm. \r\rAlso see Pontifical Biblical Commission, “The Interpretation of the Bible in the Church, III.B”. http://catholic-resources.org/ChurchDocs/PBC_Interp-FullText.htm ";
     canon.category = @"Systematic";
     
     Word *catholicity = [[Word alloc] init];
@@ -1348,6 +1348,7 @@
     
     Word *jusAdBellum = [[Word alloc] init];
     jusAdBellum.name = @"Jus Ad Bellum";
+    jusAdBellum.twitterDef = @"a set of criteria used to determine if war is justified in a given situation"; 
     jusAdBellum.definition = @"Latin for “justice to war” - a set of criteria used to determine if war is justified in a given situation: just cause, comparative justice, competent authority, right intention, probability of success, last resort, proportionality; see “Just War Theory”.";
     jusAdBellum.category = @"Moral";
     

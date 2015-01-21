@@ -11,6 +11,9 @@
 
 @interface LinksTableViewController : UITableViewController
 
+@property (strong, nonatomic) NSDictionary *links; 
+@property (strong, nonatomic) NSArray *linkKeys;
+
 @property (strong, nonatomic) NSArray *hierarchy;
 @property (strong, nonatomic) NSArray *scripture;
 @property (strong, nonatomic) NSArray *fathers; 
