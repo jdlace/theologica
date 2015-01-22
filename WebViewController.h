@@ -11,6 +11,6 @@
 @interface WebViewController : UIViewController
 
 @property (strong, nonatomic) IBOutlet UIWebView *webView;
-@property (nonatomic, copy) NSString *url; 
+@property (nonatomic, copy) NSString *urlString;
 
 @end

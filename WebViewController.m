@@ -7,6 +7,7 @@
 //
 
 #import "WebViewController.h"
+#import "LinksTableViewController.h"
 
 @interface WebViewController ()
 
@@ -18,10 +19,10 @@
 {
     [super viewDidLoad];
     
-    NSURL *url = [[NSURL alloc] initWithString:@"https://www.bible.com/bible/463/gen.1.nabre"];
-    //https://www.bible.com/bible/463/gen.1.nabre
-    //http://www.biblicalarchaeology.org/category/daily/biblical-topics/bible-interpretation/
+    NSURL *url = [[NSURL alloc] initWithString:self.urlString];
+   
     NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
+     
     [self.webView loadRequest:request]; 
     
     // Do any additional setup after loading the view.
@@ -29,11 +30,18 @@
     
 }
 
+-(void) viewWillAppear:(BOOL)animated
+{
+
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 /*
 #pragma mark - Navigation

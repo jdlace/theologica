@@ -4,37 +4,36 @@
 <dict>
 	<key>Science</key>
 	<array>
-		<string>Atom + Eve Project</string>
-		<string>National Academy of Sciences</string>
-	</array>
-	<key>Creeds</key>
-	<array>
-		<string>Nicene Creed</string>
-	</array>
-	<key>Councils</key>
-	<array>
-		<string>Ecumenical Councils</string>
-		<string>Vatican II Voice</string>
-	</array>
-	<key>Fathers</key>
-	<array>
-		<string>Christian Classics Ethereal Library</string>
-		<string>Early Christian Writings</string>
-		<string>Early Church Fathers</string>
+		<dict>
+			<key>Name</key>
+			<string>Science and Religion</string>
+			<key>URL</key>
+			<string>http://washtheocon.org/resources/using-science-pastoral-ministry/</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>National Academy of Sciences</string>
+			<key>URL</key>
+			<string>http://www.nasonline.org</string>
+		</dict>
 	</array>
 	<key>Scripture</key>
 	<array>
-		<string>NT Gateway</string>
-		<string>OT Gateway</string>
-		<string>BibleHub</string>
-		<string>Oxford Biblical Studies </string>
-		<string>Pontifical Biblical Commission</string>
-		<string>Biblical Texts</string>
+		<dict>
+			<key>Name</key>
+			<string>Biblical Texts</string>
+			<key>URL</key>
+			<string>http://www.bible.com</string>
+		</dict>
 	</array>
 	<key>Magisterium</key>
 	<array>
-		<string>Bishops</string>
-		<string>Vatican</string>
+		<dict>
+			<key>Name</key>
+			<string>Vatican</string>
+			<key>URL</key>
+			<string>http://www.vatican.va</string>
+		</dict>
 	</array>
 </dict>
 </plist>

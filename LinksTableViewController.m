@@ -55,6 +55,8 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     
+    
+    
     //Configure the cell
     NSString *key = [_linkKeys objectAtIndex:indexPath.section];
     NSArray *link = [_links objectForKey:key];
@@ -62,12 +64,9 @@
     static NSString *cellIdentifier = @"linksCell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
     
-    if (cell != nil)
-    {
-    cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
-    }
+    NSDictionary *dict = link[indexPath.row];
     
-    cell.textLabel.text = [link objectAtIndex:indexPath.row];
+    cell.textLabel.text = dict[@"Name"];
     return cell; 
    
 
@@ -128,6 +127,7 @@
 }
 
 
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -140,7 +140,17 @@
         {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         WebViewController *webViewController = [segue destinationViewController];
-        webViewController.webView = [self.linkKeys objectAtIndex:indexPath.row];
+        //webViewController.urlString = [self.linkKeys objectAtIndex:indexPath.row];
+        
+        NSString *key = [_linkKeys objectAtIndex:indexPath.section];
+        NSArray *link = [_links objectForKey:key];
+        
+        NSDictionary *dict = link[indexPath.row];
+        webViewController.urlString = dict[@"URL"];
+        
+        NSLog(@"dict is %@", dict); 
+                
+        
         }
 }
 
