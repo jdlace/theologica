@@ -2,23 +2,50 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Science</key>
+	<key>Theology</key>
 	<array>
 		<dict>
 			<key>Name</key>
-			<string>Science and Religion</string>
+			<string>Catholic Climate Covenant</string>
 			<key>URL</key>
-			<string>http://washtheocon.org/resources/using-science-pastoral-ministry/</string>
+			<string>http://catholicclimatecovenant.org</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>National Academy of Sciences</string>
+			<string>Catholic Moral Theology</string>
 			<key>URL</key>
-			<string>http://www.nasonline.org</string>
+			<string>http://catholicmoraltheology.com</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Communion and Stewardship</string>
+			<key>URL</key>
+			<string>http://www.vatican.va/roman_curia/congregations/cfaith/cti_documents/rc_con_cfaith_doc_20040723_communion-stewardship_en.html</string>
+		</dict>
+	</array>
+	<key>Magisterium</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Vatican</string>
+			<key>URL</key>
+			<string>http://www.vatican.va</string>
 		</dict>
 	</array>
 	<key>Scripture</key>
 	<array>
+		<dict>
+			<key>Name</key>
+			<string>Biblical Texts</string>
+			<key>URL</key>
+			<string>https://www.bible.com/bible/463/gen.1.nabre</string>
+		</dict>
+		<dict>
+			<key>URL</key>
+			<string>http://www.bibleinterp.com/index.shtml</string>
+			<key>Name</key>
+			<string>The Bible and Interpretation</string>
+		</dict>
 		<dict>
 			<key>Name</key>
 			<string>Biblical Archeology Review</string>
@@ -31,20 +58,80 @@
 			<key>URL</key>
 			<string>http://www.oxfordbiblicalstudies.com</string>
 		</dict>
-		<dict>
-			<key>Name</key>
-			<string>Biblical Texts</string>
-			<key>URL</key>
-			<string>http://www.bible.com</string>
-		</dict>
 	</array>
-	<key>Magisterium</key>
+	<key>Liturgy</key>
 	<array>
 		<dict>
 			<key>Name</key>
-			<string>Vatican</string>
+			<string>Daily Readings</string>
 			<key>URL</key>
-			<string>http://www.vatican.va</string>
+			<string>http://www.universalis.com/mass.htm</string>
+		</dict>
+	</array>
+	<key>Science</key>
+	<array>
+		<dict>
+			<key>URL</key>
+			<string>http://en.wikipedia.org/wiki/Evolution</string>
+			<key>Name</key>
+			<string>Evolution</string>
+		</dict>
+		<dict>
+			<key>URL</key>
+			<string>http://vimeo.com/35718571</string>
+			<key>Name</key>
+			<string>Theology and the Big Bang </string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Modern Physics and Creation</string>
+			<key>URL</key>
+			<string>http://vimeo.com/35972542</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Science and Religion</string>
+			<key>URL</key>
+			<string>http://washtheocon.org/resources/using-science-pastoral-ministry/</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>National Science Foundation</string>
+			<key>URL</key>
+			<string>http://www.nsf.gov</string>
+		</dict>
+	</array>
+	<key>Arts</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>National Endowment for the Arts</string>
+			<key>URL</key>
+			<string>http://arts.gov</string>
+		</dict>
+	</array>
+	<key>Technology</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>NYT Technology News</string>
+			<key>URL</key>
+			<string>http://www.nytimes.com/pages/technology/index.html</string>
+		</dict>
+	</array>
+	<key>Councils</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Vatican II Voice</string>
+			<key>URL</key>
+			<string>http://www.vatican2voice.org</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Vatican II Documents</string>
+			<key>URL</key>
+			<string>http://www.vatican.va/archive/hist_councils/ii_vatican_council/index.htm</string>
 		</dict>
 	</array>
 </dict>
