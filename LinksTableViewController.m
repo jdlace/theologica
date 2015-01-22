@@ -114,20 +114,11 @@
     return YES;
 }
 */
-
--(void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-   
-        WebViewController *webViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"WebViewController"]; 
-    
-    [self.navigationController pushViewController:webViewController animated:YES];
-    
-        
-    
-}
+/*
 
 
 
+*/
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation

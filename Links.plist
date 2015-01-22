@@ -21,6 +21,18 @@
 	<array>
 		<dict>
 			<key>Name</key>
+			<string>Biblical Archeology Review</string>
+			<key>URL</key>
+			<string>http://www.biblicalarchaeology.org</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Oxford Biblical Studies</string>
+			<key>URL</key>
+			<string>http://www.oxfordbiblicalstudies.com</string>
+		</dict>
+		<dict>
+			<key>Name</key>
 			<string>Biblical Texts</string>
 			<key>URL</key>
 			<string>http://www.bible.com</string>

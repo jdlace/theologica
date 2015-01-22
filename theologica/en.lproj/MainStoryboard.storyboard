@@ -721,7 +721,7 @@
                             <textInputTraits key="textInputTraits"/>
                         </searchBar>
                         <prototypes>
-                            <tableViewCell multipleTouchEnabled="YES" contentMode="scaleToFill" restorationIdentifier="linksCell" selectionStyle="blue" indentationWidth="10" reuseIdentifier="linksCell" textLabel="Eyv-gP-BJp" style="IBUITableViewCellStyleDefault" id="bm2-Fa-HZg">
+                            <tableViewCell multipleTouchEnabled="YES" contentMode="scaleToFill" restorationIdentifier="linksCell" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="linksCell" textLabel="Eyv-gP-BJp" style="IBUITableViewCellStyleDefault" id="bm2-Fa-HZg">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bm2-Fa-HZg" id="C63-Wm-KIG">
                                     <autoresizingMask key="autoresizingMask"/>
@@ -734,6 +734,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="Zuk-WO-xRs" kind="push" identifier="linksDetail" id="Bud-OL-VxH"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <sections/>
@@ -755,9 +758,6 @@
                             </state>
                         </button>
                     </navigationItem>
-                    <connections>
-                        <segue destination="Zuk-WO-xRs" kind="push" identifier="linksDetail" id="LI2-fd-OSP"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dgA-gS-tMu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
