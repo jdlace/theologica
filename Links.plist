@@ -105,9 +105,9 @@
 	<array>
 		<dict>
 			<key>Name</key>
-			<string>National Endowment for the Arts</string>
+			<string>Vatican Museum</string>
 			<key>URL</key>
-			<string>http://arts.gov</string>
+			<string>http://mv.vatican.va/3_EN/pages/MV_Visite.html</string>
 		</dict>
 	</array>
 	<key>Technology</key>
