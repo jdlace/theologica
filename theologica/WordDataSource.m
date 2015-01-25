@@ -1947,7 +1947,7 @@
     
     Word *theosis = [[Word alloc] init];
     theosis.name = @"Theosis";
-    theosis.twitterDef = @"The process of becoming like God, emphasized in the Easter Orthodox tradition.";
+    theosis.twitterDef = @"the process of becoming like God, emphasized in the Easter Orthodox tradition.";
     theosis.definition = @"The process of becoming like God, emphasized in the Easter Orthodox tradition.";
     theosis.category = @"Systematic";
     
@@ -1965,51 +1965,61 @@
     
     Word *transub = [[Word alloc] init];
     transub.name = @"Transubstantiation";
-    transub.definition = @"The belief, formulated by Thomas Aquinas, that the substance of the bread and wine change into the substance of the body and blood of Christ in the Eucharist.";
+    transub.twitterDef = @"the Thomistic concept that the substance of the bread and wine change into the substance of the body and blood of Christ in the Eucharist.";
+    transub.definition = @"the belief, formulated by Thomas Aquinas, that the substance of the bread and wine change into the substance of the body and blood of Christ in the Eucharist.";
     transub.category = @"Systematic";
     
     Word *trinity = [[Word alloc] init];
     trinity.name = @"Trinity";
+    trinity.twitterDef = @"the existence of God in three persons; Father, Son, and Holy Spirit";
     trinity.definition = @"The belief that God exists in three persons...";
     trinity.category = @"Systematic";
     
     Word *tabernacle = [[Word alloc] init];
     tabernacle.name = @"Tabernacle";
-    tabernacle.definition = @"The temporary dwelling place of YHWH.";
+    tabernacle.twitterDef = @"the pre-Solomonic temporary dwelling place of YHWH in Israel";
+    tabernacle.definition = @"The Tabernacle was initially housed at Shiloh...";
     tabernacle.category = @"Biblical";
     
     Word *tanak = [[Word alloc] init];
     tanak.name = @"Tanak";
+    tanak.twitterDef = @"an acronymic term to describe the Hebrew Bible: T = Torah, N = Nevi'im, K = Ketuv'im";
     tanak.definition = @"Acronymic term to describe the Hebrew Bible: T = Torah, N = Nevi'im, K = Ketuv'im. Since Hebrew has no vowels, those are added.";
     tanak.category = @"Biblical";
     
     Word *taxCollector = [[Word alloc] init];
     taxCollector.name = @"Tax Collectors";
+    taxCollector.twitterDef = @"a class of Jews who collected provincial taxes for the Roman Empire";
     taxCollector.definition = @"Jews who collected provincial taxes for the Roman Empire; frequently referenced in the gospels due to their presence at numerous border crossings throughout Israel. They were reviled as traitors, likely cheats, and possible idolators. Jesus includes one such person (Matthew) in his inner circle of disciples.";
     taxCollector.category = @"Biblical";
     
     Word *temple = [[Word alloc] init];
     temple.name = @"Temple";
+    temple.twitterDef = @"the permanent dwelling place of YHWH in Israel.";
     temple.definition = @"The dwelling place of YHWH.";
     temple.category = @"Biblical";
     
     Word *textual = [[Word alloc] init];
     textual.name = @"Textual Criticism";
+    textual.twitterDef = @"the exegetical criticism that deciphers and analyzes the original language of a text";
     textual.definition = @"The exegetical criticism that deciphers and analyzes the original language of a text.";
     textual.category = @"Biblical";
     
     Word *theophany = [[Word alloc] init];
     theophany.name = @"Theophany";
+    theophany.twitterDef = @"an appearance of God to a human being in which Divine communication occurs";
     theophany.definition = @"An appearance of God to a human being. Numerous theophanies are recorded throughout the Bible with the account of Moses being paradigmatic.";
     theophany.category = @"Biblical";
     
     Word *torah = [[Word alloc] init];
     torah.name = @"Torah";
+    torah.twitterDef = @"the first five books and first section of the Tanak; Genesis, Exodus, Leviticus, Numbers, and Deuteronomy";
     torah.definition = @"The first five books and first section of the Tanak; Genesis, Exodus, Leviticus, Numbers, and Deuteronomy.";
     torah.category = @"Biblical";
     
     Word *typology = [[Word alloc] init];
     typology.name = @"Typology";
+    typology.twitterDef = @"a way of interpreting the Old Testament through a Christological hermeneutic";
     typology.definition = @"A way of reading the Old Testament...";
     typology.category = @"Biblical";
 
@@ -2019,11 +2029,13 @@
     //U
     Word *universal = [[Word alloc] init];
     universal.name = @"Universal Destination of Goods";
+    universal.twitterDef = @"the idea that the goods of the earth are intended to be justly distributed among its inhabitants";
     universal.definition = @"The idea that the goods of the earth are intended to be justly distributed among its inhabitants according to the will of the Creator. \r\rSee The Compendium of the Social Doctrine of the Church, 171";
     universal.category = @"Moral";
     
     Word *universalism = [[Word alloc] init];
     universalism.name = @"Universalism";
+    universalism.twitterDef = @"the belief that all of humanity will ultimately experience salvation";
     universalism.definition = @"The belief that all of humanity will ultimately experience salvation.";
     universalism.category = @"Systematic";
     
@@ -2033,11 +2045,13 @@
     
     Word *virgin = [[Word alloc] init];
     virgin.name = @"Virginal Conception";
-    virgin.definition = @"The belief that Jesus of Nazareth was conceived by the Holy Spirit and born from the virgin Mary.";
+    virgin.twitterDef = @"the belief that Jesus of Nazareth was conceived by the Holy Spirit";
+    virgin.definition = @"Both the gospels of Matthew and Luke claim that Jesus was concieved by a virgin mother. Later tradition would develop the idea of Mary's perpetual viriginity although this idea was not univerally accepted.";
     virgin.category = @"Systematic";
     
     Word *vocation = [[Word alloc] init];
     vocation.name = @"Vocation";
+    vocation.twitterDef = @"the calling by God of someone to a particular way of life";
     vocation.definition = @"The calling by God of someone to a particular way of life.";
     vocation.category = @"Systematic";
     
@@ -2047,22 +2061,26 @@
     
     Word *wisdom = [[Word alloc] init];
     wisdom.name = @"Wisdom Literature";
-    wisdom.definition = @"A type of literature that contains wise sayings and philosophical reflections on life.";
+    wisdom.twitterDef = @"a genre of literature in the Old Testament that contains wise sayings and philosophical reflections on life";
+    wisdom.definition = @"a type of literature that contains wise sayings and philosophical reflections on life.";
     wisdom.category = @"Biblical";
     
     Word *wisdomBooks = [[Word alloc] init];
     wisdomBooks.name = @"Poetic";
+    wisdomBooks.twitterDef = @"the third of four sections in the Old Testament, it contains Job, Psalms, Proverbs, Ecclesiastes, Song of Songs, Wisdom, and Sirach";
     wisdomBooks.definition = @"The third of four sections in the Old Testament; it consists mainly of various writings; contains Job, Psalms, Proverbs, Ecclesiastes, Song of Songs, Wisdom, and Sirach.";
     wisdomBooks.category = @"Biblical";
 
     
     Word *word = [[Word alloc] init];
     word.name = @"Word of God";
+    word.twitterDef = @"the saving message of God in which humans trust for salvation";
     word.definition = @"The saving message of God in which humans trust.";
     word.category = @"Systematic";
     
     Word *will = [[Word alloc] init];
     will.name = @"Will of God";
+    will.twitterDef = @"The ultimate desire of God for creation";
     will.definition = @"The ultimate desire of God for creation....";
     will.category = @"Systematic";
     
@@ -2073,6 +2091,7 @@
     
     Word *xeno = [[Word alloc] init];
     xeno.name = @"Xenophobia";
+    xeno.twitterDef = @"the fear of foreigners";
     xeno.definition = @"The fear of foreigners. The ministry of the historical Jesus can be seen, partly, as a movement against the xenophobic nationalism of the religious elite in Second Temple Judaism";
     xeno.category = @"Biblical";
     
@@ -2083,17 +2102,20 @@
     
     Word *yahwist = [[Word alloc] init];
     yahwist.name = @"Yahwist Source";
+    yahwist.twitterDef = @"the “J” Source...";
     yahwist.definition = @"The “J” Source...";
     yahwist.category = @"Biblical";
     
     Word *yhwh = [[Word alloc] init];
     yhwh.name = @"YHWH";
+    yhwh.twitterDef = @"the four letter personal name of the God of the Israelites, also called the “Tetragrammaton”";
     yhwh.definition = @"The four letter personal name of the God of the Israelites, also called the 'Tetragrammaton'; it was likely pronounced 'Yah-way”; according to the E and P sources, this name was not known before it was revealed to Moses in Exodus chapter 3, the J source, however, uses it throughout Genesis, which is one argument for the Documentary Hypothesis.";
     yhwh.category = @"Biblical";
     
     Word *yomKippur = [[Word alloc] init];
     yomKippur.name = @"Yom Kippur";
-    yomKippur.definition = @"The “Day of Atonement”; a day set aside on the Jewish calendar dedicated to bringing about reconciliation with YHWH; explained in detail in Leviticus 16.";
+    yomKippur.twitterDef = @"a Hebrew phrase meaning “Day of Atonement”";
+    yomKippur.definition = @"According to Leviticus 16, Yom Kippur is a day set aside on the Jewish calendar dedicated to bringing about personal and national reconciliation with YHWH";
     yomKippur.category = @"Biblical";
     
     [_dataArray addObjectsFromArray:@[yahwist, yhwh, yomKippur]];
@@ -2103,11 +2125,13 @@
     
     Word *zealot = [[Word alloc] init];
     zealot.name = @"Zealots";
+    zealot.twitterDef = @"a Jewish revolutionary group that used violence in an effort to repel Roman Imperial forces";
     zealot.definition = @"A Jewish revolutionary group that used violence in an effort to repel Roman Imperial forces.";
     zealot.category = @"Biblical";
     
     Word *zion = [[Word alloc] init];
     zion.name = @"Zion";
+    zion.twitterDef = @"a synonym for the Temple Mount in Jerusalem or for the city of Jerusalem itself";
     zion.definition = @"A synonym for the Temple mountain in Jerusalem or for the city of Jerusalem itself.";
     zion.category = @"Biblical";
     

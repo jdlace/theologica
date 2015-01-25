@@ -295,7 +295,7 @@
                             <rect key="frame" x="83" y="1" width="154" height="42"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
-                            <state key="normal" title="Theologica">
+                            <state key="normal" title="Overview">
                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
@@ -431,7 +431,7 @@
                             <rect key="frame" x="79" y="5" width="162" height="35"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
-                            <state key="normal" title="Theologica">
+                            <state key="normal" title="Dictionary">
                                 <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </state>
                             <state key="highlighted" image="appicon2.png"/>
@@ -542,7 +542,7 @@
                             <rect key="frame" x="87" y="7" width="146" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
-                            <state key="normal" title="Theologica">
+                            <state key="normal" title="Map">
                                 <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
@@ -752,7 +752,7 @@
                             <rect key="frame" x="88" y="7" width="144" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
-                            <state key="normal" title="Theologica">
+                            <state key="normal" title="Links">
                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
@@ -776,8 +776,8 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" id="xag-FS-2mi">
-                                <rect key="frame" x="82" y="300" width="150" height="2"/>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" progress="0.5" id="xag-FS-2mi">
+                                <rect key="frame" x="0.0" y="64" width="320" height="3"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </progressView>
                         </subviews>
@@ -851,11 +851,11 @@
             </objects>
             <point key="canvasLocation" x="-2236" y="1145"/>
         </scene>
-        <!--Sources-->
+        <!--Overview-->
         <scene sceneID="LjN-ji-VcW">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gNN-7E-KYP" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Sources" image="sourcesicon" id="zvm-r6-5ad"/>
+                    <tabBarItem key="tabBarItem" title="Overview" image="sourcesicon" id="zvm-r6-5ad"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="FNK-ox-Mil">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>

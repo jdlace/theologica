@@ -2,27 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Theology</key>
-	<array>
-		<dict>
-			<key>Name</key>
-			<string>Catholic Climate Covenant</string>
-			<key>URL</key>
-			<string>http://catholicclimatecovenant.org</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>Catholic Moral Theology</string>
-			<key>URL</key>
-			<string>http://catholicmoraltheology.com</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>Communion and Stewardship</string>
-			<key>URL</key>
-			<string>http://www.vatican.va/roman_curia/congregations/cfaith/cti_documents/rc_con_cfaith_doc_20040723_communion-stewardship_en.html</string>
-		</dict>
-	</array>
 	<key>Magisterium</key>
 	<array>
 		<dict>
@@ -36,7 +15,43 @@
 	<array>
 		<dict>
 			<key>Name</key>
-			<string>Biblical Texts</string>
+			<string>OT Gateway</string>
+			<key>URL</key>
+			<string>http://www.otgateway.com</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>NT Gateway</string>
+			<key>URL</key>
+			<string>http://www.ntgateway.com</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>BibleHub</string>
+			<key>URL</key>
+			<string>http://biblehub.com</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Hebrew Interlinear OT</string>
+			<key>URL</key>
+			<string>http://biblehub.com/interlinear/genesis/1.htm</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Greek Interlinear NT</string>
+			<key>URL</key>
+			<string>http://biblehub.com/interlinear/john/1.htm</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Greek NT</string>
+			<key>URL</key>
+			<string>http://biblia.com/books/sblgnt/Jn1</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>New American Standard Bible</string>
 			<key>URL</key>
 			<string>https://www.bible.com/bible/463/gen.1.nabre</string>
 		</dict>
@@ -59,13 +74,73 @@
 			<string>http://www.oxfordbiblicalstudies.com</string>
 		</dict>
 	</array>
+	<key>Councils</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Vatican II Voice</string>
+			<key>URL</key>
+			<string>http://www.vatican2voice.org</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Vatican II Documents</string>
+			<key>URL</key>
+			<string>http://www.vatican.va/archive/hist_councils/ii_vatican_council/index.htm</string>
+		</dict>
+	</array>
 	<key>Liturgy</key>
 	<array>
 		<dict>
 			<key>Name</key>
-			<string>Daily Readings</string>
+			<string>Liturgical Calendar</string>
+			<key>URL</key>
+			<string>http://www.universalis.com/calendar.htm</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Morning Prayer</string>
+			<key>URL</key>
+			<string>http://www.universalis.com/lauds.htm</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Evening Prayer</string>
+			<key>URL</key>
+			<string>http://www.universalis.com/vespers.htm</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Office of Readings</string>
+			<key>URL</key>
+			<string>http://www.universalis.com/readings.htm</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Mass Readings</string>
 			<key>URL</key>
 			<string>http://www.universalis.com/mass.htm</string>
+		</dict>
+	</array>
+	<key>Theology</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Catholic Climate Covenant</string>
+			<key>URL</key>
+			<string>http://catholicclimatecovenant.org</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Catholic Moral Theology</string>
+			<key>URL</key>
+			<string>http://catholicmoraltheology.com</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Communion and Stewardship</string>
+			<key>URL</key>
+			<string>http://www.vatican.va/roman_curia/congregations/cfaith/cti_documents/rc_con_cfaith_doc_20040723_communion-stewardship_en.html</string>
 		</dict>
 	</array>
 	<key>Science</key>
@@ -117,21 +192,6 @@
 			<string>NYT Technology News</string>
 			<key>URL</key>
 			<string>http://www.nytimes.com/pages/technology/index.html</string>
-		</dict>
-	</array>
-	<key>Councils</key>
-	<array>
-		<dict>
-			<key>Name</key>
-			<string>Vatican II Voice</string>
-			<key>URL</key>
-			<string>http://www.vatican2voice.org</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>Vatican II Documents</string>
-			<key>URL</key>
-			<string>http://www.vatican.va/archive/hist_councils/ii_vatican_council/index.htm</string>
 		</dict>
 	</array>
 </dict>

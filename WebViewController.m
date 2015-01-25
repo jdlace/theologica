@@ -25,7 +25,7 @@
      
     [self.webView loadRequest:request];
 
-    //self.theBool = false;
+    self.theBool = false;
 
     
     
@@ -39,14 +39,14 @@
     self.progressBar.progress = 0;
     self.theBool = false;
     //0.01667 is roughly 1/60, so it will update at 60 FPS
-    self.timer = [NSTimer scheduledTimerWithTimeInterval:0.03000 target:self selector:@selector(timerCallBack) userInfo:nil repeats:YES];
+    self.timer = [NSTimer scheduledTimerWithTimeInterval:0.04000 target:self selector:@selector(timerCallBack) userInfo:nil repeats:YES];
   
 
 }
 
 -(void) timerCallBack
 {
-    if (self.theBool)
+    if (!self.theBool)
         {
         
         if (self.progressBar.progress == 1.0)
