@@ -12,10 +12,10 @@
 
 @interface MapDetailViewController : UIViewController <UIScrollViewDelegate>
 
-@property (strong, nonatomic) IBOutlet UILabel *locationLabel;
-@property (strong, nonatomic) IBOutlet UILabel *locationSubtitle;
-@property (strong, nonatomic) IBOutlet UITextView *locationDescription;
-@property (strong, nonatomic) IBOutlet UIImageView *imageView;
+@property (weak, nonatomic) IBOutlet UILabel *locationLabel;
+@property (weak, nonatomic) IBOutlet UILabel *locationSubtitle;
+@property (weak, nonatomic) IBOutlet UITextView *locationDescription;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
  
 
 

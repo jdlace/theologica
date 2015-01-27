@@ -11,10 +11,10 @@
 @interface WebViewController : UIViewController <UIWebViewDelegate>
 
 
-@property (strong, nonatomic) IBOutlet UIWebView *webView;
+@property (weak, nonatomic) IBOutlet UIWebView *webView;
 @property (nonatomic, copy) NSString *urlString;
 
-@property (strong, nonatomic) IBOutlet UIProgressView *progressBar;
+@property (weak, nonatomic) IBOutlet UIProgressView *progressBar;
 @property (strong, nonatomic) NSTimer *timer;
 
 @property(nonatomic) BOOL theBool;

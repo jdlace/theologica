@@ -15,10 +15,10 @@
 @property (strong, nonatomic) Source *currentSourceDetail;
 
 
-@property (strong, nonatomic) IBOutlet UILabel *sourceName;
-@property (strong, nonatomic) IBOutlet UILabel *sourceSubtitle;
-@property (strong, nonatomic) IBOutlet UIImageView *imageView;
-@property (strong, nonatomic) IBOutlet UITextView *sourceInformation;
-@property (strong, nonatomic) IBOutlet UIImageView *sourcesPic;
+@property (weak, nonatomic) IBOutlet UILabel *sourceName;
+@property (weak, nonatomic) IBOutlet UILabel *sourceSubtitle;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (weak, nonatomic) IBOutlet UITextView *sourceInformation;
+@property (weak, nonatomic) IBOutlet UIImageView *sourcesPic;
 
 @end

@@ -2,6 +2,42 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Economy</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Bureau of Economic Analysis</string>
+			<key>URL</key>
+			<string>http://www.bea.gov</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>The Economist</string>
+			<key>URL</key>
+			<string>http://www.economist.com</string>
+		</dict>
+	</array>
+	<key>Politics</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>United States Government</string>
+			<key>URL</key>
+			<string>http://www.usa.gov</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>United Nations</string>
+			<key>URL</key>
+			<string>http://www.un.org/en/</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>NYT Politics News</string>
+			<key>URL</key>
+			<string>http://www.nytimes.com/pages/politics/index.html</string>
+		</dict>
+	</array>
 	<key>Magisterium</key>
 	<array>
 		<dict>
@@ -9,6 +45,24 @@
 			<string>Vatican</string>
 			<key>URL</key>
 			<string>http://www.vatican.va</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Vatican News</string>
+			<key>URL</key>
+			<string>http://www.news.va/en</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>U.S. Bishops</string>
+			<key>URL</key>
+			<string>http://www.usccb.org</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Whispers in the Loggia</string>
+			<key>URL</key>
+			<string>http://whispersintheloggia.blogspot.com</string>
 		</dict>
 	</array>
 	<key>Scripture</key>
@@ -146,6 +200,12 @@
 	<key>Science</key>
 	<array>
 		<dict>
+			<key>Name</key>
+			<string>NYT Science News</string>
+			<key>URL</key>
+			<string>http://www.nytimes.com/pages/science/index.html</string>
+		</dict>
+		<dict>
 			<key>URL</key>
 			<string>http://en.wikipedia.org/wiki/Evolution</string>
 			<key>Name</key>
@@ -165,12 +225,6 @@
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>Science and Religion</string>
-			<key>URL</key>
-			<string>http://washtheocon.org/resources/using-science-pastoral-ministry/</string>
-		</dict>
-		<dict>
-			<key>Name</key>
 			<string>National Science Foundation</string>
 			<key>URL</key>
 			<string>http://www.nsf.gov</string>
@@ -187,6 +241,24 @@
 	</array>
 	<key>Technology</key>
 	<array>
+		<dict>
+			<key>Name</key>
+			<string>Wired</string>
+			<key>URL</key>
+			<string>http://www.wired.com</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Ars Technica</string>
+			<key>URL</key>
+			<string>http://arstechnica.com</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Techrament</string>
+			<key>URL</key>
+			<string>http://techrament.com</string>
+		</dict>
 		<dict>
 			<key>Name</key>
 			<string>NYT Technology News</string>

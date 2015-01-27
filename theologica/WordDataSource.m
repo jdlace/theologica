@@ -117,25 +117,25 @@
     Word *abba = [[Word alloc] init];
     abba.name = @"Abba";
     abba.twitterDef = @"the Aramaic word for “Daddy”";
-    abba.definition = @"This term was by Jesus in prayer to God according to the gospels. Paul claims that Christians also use the term because of their filial adoption; “Because you are sons, God has sent the Spirit of his Son into our hearts, crying, 'Abba! Father!'” (Gal 4:6)\r\rSee Catechism of the Catholic Church, 683 http://www.vatican.va/archive/ccc_css/archive/catechism/p1s2c3.htm#683.";
+    abba.definition = @"This term was by Jesus in prayer to God according to the gospels. Paul claims that Christians also use the term because of their filial adoption; “Because you are sons, God has sent the Spirit of his Son into our hearts, crying, 'Abba! Father!'” (Gal 4:6)\r\rCatechism of the Catholic Church, 683\rhttp://tinyurl.com/pqxxm8l";
     abba.category = @"Biblical";
     
     Word *adonai = [[Word alloc] init];
     adonai.name = @"Adonai";
     adonai.twitterDef = @"the Hebrew word for “Ruler” or “Master”";
-    adonai.definition = @"This term is used as a synonym for YHWH in the Bible and in contemporary Judaism.\r\rSee Catechism of the Catholic Church, 209. link:  ";
+    adonai.definition = @"This term is used as a synonym for YHWH in the Bible and in contemporary Judaism. See “YHWH”.\r\rCatechism of the Catholic Church, 209\rhttp://tinyurl.com/bruqt9r";
     adonai.category = @"Biblical";
     
     Word *anawim = [[Word alloc] init];
     anawim.name = @"Anawim";
     anawim.twitterDef = @"the Hebrew word for the “poor”";
-    anawim.definition = @"This term is used in the Hebrew Bible to refer to those who are poor, destitue, and marginalized who trust completely in the mercy of God (Is. 10:2, Zeph 2:3); frequently used in the Psalms.";
+    anawim.definition = @"This term is used in the Hebrew Bible to refer to those who are poor, destitue, and marginalized who trust completely in the mercy of God (Is. 10:2, Zeph 2:3); frequently used in the Psalms.\r\rJohn Paul II, General Audience, 5/23/2001\rhttp://tinyurl.com/lyfphvo";
     anawim.category = @"Biblical";
     
     Word *anthropomorphism = [[Word alloc] init];
     anthropomorphism.name = @"Anthropomorphism";
     anthropomorphism.twitterDef = @"the process of attributing human characteristics to God";
-    anthropomorphism.definition = @"God is described in human terms throughout the Christian tradition, and especially within the Scriptures. The Yahwist Source uses anthropomorphism extensively in its portrayal of YHWH in the Torah. Such language is, however, ultimately, only analogous to God. See “Analogy”, “Yahwist Source”, “YHWH”.";
+    anthropomorphism.definition = @"God is described in human terms throughout the Christian tradition, and especially within the Scriptures. The Yahwist Source uses anthropomorphism extensively in its portrayal of YHWH in the Torah. Such language is, however, ultimately, only analogous to God. See “Analogy”, “Yahwist Source”, “YHWH”.\r\rWikipedia, “Anthropomorphism”\rhttp://tinyurl.com/ffpra";
     anthropomorphism.category = @"Biblical";
     
     /*
@@ -147,19 +147,19 @@
     Word *apocalypse = [[Word alloc] init];
     apocalypse.name = @"Apocalypse";
     apocalypse.twitterDef = @"the Greek word for “unveiling”";
-    apocalypse.definition = @"1. The revelation of something previously hidden, used by Paul to refer to his experience of the risen Jesus. 2. The name of the last book of the New Testament - from the Greek word αποκαλυπσις (apokalypsis) - “unveiling”.";
+    apocalypse.definition = @"1. The revelation of something previously hidden, used by Paul to refer to his experience of the risen Jesus. 2. The name of the last book of the New Testament - from the Greek word αποκαλυπσις (apokalypsis) - “unveiling”.\r\rCatechism of the Catholic Church, 120\rhttp://tinyurl.com/kvc3tvq";
     apocalypse.category = @"Biblical";
     
     Word *apocrypha = [[Word alloc] init];
     apocrypha.name = @"Apocrypha";
     apocrypha.twitterDef = @"the Greek term for “hidden things”";
-    apocrypha.definition = @"The 7 Old Testament books not found in the Protestant canon; Baruch, Judith, 1st and 2nd Maccabees, Sirach, Tobit, Wisdom - from the Greek word for “hidden”";
+    apocrypha.definition = @"a Protestant term for the 7 Old Testament books not found in the Protestant canon; Baruch, Judith, 1st and 2nd Maccabees, Sirach, Tobit, Wisdom - from the Greek word for “hidden”.\r\rWikipedia, “Apocrypha”\rhttp://tinyurl.com/bddlr";
     apocrypha.category = @"Biblical";
     
     Word *apodictic = [[Word alloc] init];
     apodictic.name = @"Apodictic";
-    apodictic.twitterDef = @"a type of law based on universal norms";
-    apodictic.definition = @"A type of law which is based on a moral norm or command; see Exodus 20, “Decalogue”.";
+    apodictic.twitterDef = @"1. beyond dispute\r2. a type of law based on universal norms";
+    apodictic.definition = @"Apodictic law are those such as the 10 Commandments. It is universally binding at all times and places. See Exodus 20, “Decalogue”\r\rWikipedia, “Apodicticity”\rhttp://tinyurl.com/k7u8mkr";
     apodictic.category = @"Biblical";
     
     /*
@@ -171,19 +171,19 @@
     Word *apostle = [[Word alloc] init];
     apostle.name = @"Apostle";
     apostle.twitterDef = @"a disciple personally commissioned by Jesus";
-    apostle.definition = @"The disciples which compirised Jesus' inner cirlce and whom he commissioned to spread the good news of the Kingdom of God; also used by Paul to refer to anyone who had seen the risen Christ - from the Greek word αποστολος (apostolos) - “delegate”.";
+    apostle.definition = @"The disciples which compirised Jesus' inner cirlce and whom he commissioned to spread the good news of the Kingdom of God; also used by Paul to refer to anyone who had seen the risen Christ - from the Greek word αποστολος (apostolos) - “delegate”.\r\r“Disciples and Apostles in the New Testament” by Felix Just, S.J.\rhttp://tinyurl.com/mzcbt37";
     apostle.category = @"Biblical";
     
     Word *aqeda = [[Word alloc] init];
     aqeda.name = @"Aqeda";
     aqeda.twitterDef = @"the Hebrew word for the “binding” of Isaac";
-    aqeda.definition = @"The story of the binding and near-sacrifice of Isaac by Abraham - from Hebrew word for “binding”. According to Richard Elliot Freidman, the Aqedah is mostly an Elohist Source story with a very different original ending that was amended by the Redactor of the Torah.\r\rSee ";
+    aqeda.definition = @"The story of the binding and near-sacrifice of Isaac by Abraham - from Hebrew word for “binding”. According to Richard Elliot Freidman, the Aqedah is mostly an Elohist Source story with a very different original ending that was amended by the Redactor of the Torah.\r\rWikipedia, “Aqeda”\rhttp://tinyurl.com/56dxyl";
     aqeda.category = @"Biblical";
     
     Word *aramaic = [[Word alloc] init];
     aramaic.name = @"Aramaic";
     aramaic.twitterDef = @"a Semitic language similar to Hebrew";
-    aramaic.definition = @"Aramaic was the native language of the historical Jesus.";
+    aramaic.definition = @"Aramaic was the native language of the historical Jesus.\r\rWikipedia, “Aramaic”\rhttp://tinyurl.com/y2okx9";
     aramaic.category = @"Biblical";
     
     /*
@@ -199,248 +199,248 @@
     Word *asherah = [[Word alloc] init];
     asherah.name = @"Asherah";
     asherah.twitterDef = @"the Canaanite mother goddess & wife of El";
-    asherah.definition = @"In Canaanite mythology, the wife of El and the goddess of fertility; mentioned numerous times throughout the Old Testament; according to 2 Kings 23:4 a large Asherah statue was housed in the Temple and dressed by her cult's prostitutes before Josiah's Deuteronomic reform.";
+    asherah.definition = @"In Canaanite mythology, the wife of El and the goddess of fertility; mentioned numerous times throughout the Old Testament; according to 2 Kings 23:4 a large Asherah statue was housed in the Temple and dressed by her cult's prostitutes before Josiah's Deuteronomic reform.\r\rWikipedia, “Asherah”\rhttp://tinyurl.com/6qf2tt";
     asherah.category = @"Biblical";
-    //asherah.image =
+
     
     Word *assyria = [[Word alloc] init];
     assyria.name = @"Assyria";
     assyria.twitterDef = @"the Empire that conquered the northen kingdom of Israel in 722 B.C.";
-    assyria.definition = @"One of the numerous Mesopotamian empires in the ancient world which conquered the northern kindgom of Israel in 722 B.C.";
+    assyria.definition = @"One of the numerous Mesopotamian empires in the ancient world which conquered the northern kindgom of Israel in 722 B.C.\r\rWikipedia, “Assyria”\rhttp://tinyurl.com/2allao";
     assyria.category = @"Biblical";
     
     Word *abortion = [[Word alloc] init];
     abortion.name = @"Abortion";
-    abortion.twitterDef = @"the willful killing of a human in utero";
-    abortion.definition = @"The intentional killing of an unborn human being, who is regarded as sacred from the moment of conception. The death of an unborn child as a consequence of other procedures deemed good in themselves is not considered an abortion per se but rather a consequence of the principle of double-effect (See “Principle of Double-Effect”). The Catholic tradition is consistent in its classification of abortion as a grave sin, the willful commision of which incurs an automatic excommunication. \r\rSee Catechism of the Catholic Church, 2270. http://www.vatican.va/archive/ccc_css/archive/catechism/p3s2c2a5.htm. See “Roe vs. Wade”.";
+    abortion.twitterDef = @"the intentional killing of a human being in utero";
+    abortion.definition = @"In the Catholic tradition, human beings are regarded as sacred from the moment of conception. The death of an unborn child as a consequence of other procedures deemed good in themselves is not considered an abortion per se but rather a consequence of the principle of double-effect. The Catholic tradition is consistent in its classification of abortion as a grave sin, the willful commision of which incurs an automatic excommunication. Abortion was legalized in the United States in 1973 by the Supreme Court in Roe v. Wade. See “Principle of Double-Effect”, “Roe v. Wade”\r\rCatechism of the Catholic Church, 2270\rhttp://tinyurl.com/dh7r\r\rWikipedia, “Roe v. Wade”\rhttp://tinyurl.com/aqq5j";
     abortion.category = @"Moral";
     
     Word *abstinence = [[Word alloc] init];
     abstinence.name = @"Abstinence";
     abstinence.twitterDef = @"to purposely refrain from a given activity";
-    abstinence.definition = @"The restraining of oneself from a given activity for the purpose of spiritual edification; traditionally applied to food and sexual activity.";
+    abstinence.definition = @"The restraining of oneself from a given activity for the purpose of spiritual edification; traditionally applied to food and sexual activity.\r\rCatechism of the Catholic Church, 2043\rhttp://tinyurl.com/l56b6h4";
     abstinence.category = @"Moral";
     
     Word *act = [[Word alloc] init];
     act.name = @"Act";
     act.twitterDef = @"a free act of the will";
-    act.definition = @"In moral theology, an truly “human” act refers to actions made with freedom and will.";
+    act.definition = @"In moral theology, an truly “human” act refers to actions made with freedom and will.\r\rCatholic Moral Theology blog\rhttp://tinyurl.com/pyfcn3n";
     act.category = @"Moral";
     
     Word *adultery = [[Word alloc] init];
     adultery.name = @"Adultery";
-    adultery.twitterDef = @"extra-marital sexual relations";
-    adultery.definition = @"Marital infidelity or sexual relations between two people, one of which being married to another person";
+    adultery.twitterDef = @"sexual relations with another person's spouse ";
+    adultery.definition = @"Marital infidelity or sexual relations between two people, one of which being married to another person.\r\rCatechism of the Catholic Church, 2380\rhttp://tinyurl.com/cz1w ";
     adultery.category = @"Moral";
 
     Word *absolution = [[Word alloc] init];
     absolution.name = @"Absolution";
     absolution.twitterDef = @"the declaration that sins are forgiven";
-    absolution.definition = @"The act by which a priest declares the forgiveness of sins.\r\rSee Catechism of the Catholic Church, 1424 link: ";
+    absolution.definition = @"The act by which a priest declares the forgiveness of sins.\r\rCatechism of the Catholic Church, 1424\rhttp://tinyurl.com/l7xon9e";
     absolution.category = @"Systematic";
     
     Word *adoptionism = [[Word alloc] init];
     adoptionism.name = @"Adoptionism";
     adoptionism.twitterDef = @"the belief that Jesus was not divine by nature";
-    adoptionism.definition = @"The belief that Jesus was not the Son of God by nature, but rather adopted by God at his baptism; held by the so-called Ebionites of the end of the first century...";
+    adoptionism.definition = @"The belief that Jesus was not the Son of God by nature, but rather adopted by God at his baptism; held by the so-called Ebionites of the end of the first century.\r\rWikipedia, “Adoptionism”\rhttp://tinyurl.com/25fgze";
     adoptionism.category = @"Historical";
     
     Word *accident = [[Word alloc] init];
     accident.name = @"Accident";
     accident.twitterDef = @"a nonessential property of an object";
-    accident.definition = @"In Aristotelean philosophy, a nonessential property or quality of an object that is dependent upon the substance of the object for its existence. Thomas Aquinas used this concept to support his theory of “transubstantiation” of the Eucharist.\r\rSee http://en.wikipedia.org/wiki/Accident_(philosophy)";
+    accident.definition = @"In Aristotelean philosophy, a nonessential property or quality of an object that is dependent upon the substance of the object for its existence. Thomas Aquinas used this concept to support his theory of “transubstantiation” of the Eucharist.\r\rWikipedia, “Accident”\rhttp://tinyurl.com/88ojytv";
     accident.category = @"Systematic";
     
     Word *asceticism = [[Word alloc] init];
     asceticism.name = @"Asceticism";
     asceticism.twitterDef = @"the practice of self-discipline";
-    asceticism.definition = @"The practice of self-discipline for a higher purpose, often involving abstinence - from the Greek word ασκησις (askesis) - “training”. See “abstinence”";
+    asceticism.definition = @"The practice of self-discipline for a higher purpose, often involving abstinence - from the Greek word ασκησις (askesis) - “training”. See “abstinence”.\r\rWikipedia, “Asceticism”\rhttp://tinyurl.com/29eqh2";
     asceticism.category = @"Systematic";
     
     Word *adoption = [[Word alloc] init];
     adoption.name = @"Adoption";
     adoption.twitterDef = @"a biblical metaphor used to refer to the process of becoming a child of God";
-    adoption.definition = @"In the New Testament, Paul uses this term to describe God's process of extending His family through Jesus Christ.\r\rSee Catechism of the Catholic Church, 1. http://www.vatican.va/archive/ccc_css/archive/catechism/prologue.htm#1";
+    adoption.definition = @"In the New Testament, Paul uses this term to describe God's process of extending His family through Jesus Christ.\r\rCatechism of the Catholic Church, 1\rhttp://tinyurl.com/o7udb4d";
     adoption.category = @"Systematic";
     
     Word *agape = [[Word alloc] init];
     agape.name = @"Agape";
     agape.twitterDef = @"the Greek word meaning\r“universal and unconditional love”";
-    agape.definition = @"The gospel writers use this word (αγαπη) to describe Jesus' teaching on the love for God, neighbors and enemies (Matthew 5:44, 22:37, 39). It is used by later New Testament writers to describe the love of God towards humanity as seen in the sacrificial death of Jesus and even the very nature of God. The early Christians also used “agape” to refer to their communal meal after which the Eucharist was celebrated (Jude 1:12). \r\rSee “Deus Caritas Est” by Pope Benedict XVI. http://www.vatican.va/holy_father/benedict_xvi/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est_en.html";
+    agape.definition = @"The gospel writers use this word (αγαπη) to describe Jesus' teaching on the love for God, neighbors and enemies (Matthew 5:44, 22:37, 39). It is used by later New Testament writers to describe the love of God towards humanity as seen in the sacrificial death of Jesus and even the very nature of God. The early Christians also used “agape” to refer to their communal meal after which the Eucharist was celebrated (Jude 1:12).\r\rPope Benedict XVI, “Deus Caritas Est”\rhttp://tinyurl.com/p8ueefs";
     agape.category = @"Moral";
 
     Word *aggiornomento = [[Word alloc] init];
     aggiornomento.name = @"Aggiornomento";
     aggiornomento.twitterDef = @"an Italian word meaning “to bring up to date”";
-    aggiornomento.definition = @"As a way to describe one of its emphases, it became popular during and synonymous with the reforms of the Second Vatican Council (1962-1965); used by Pope John XXIII.\r\rSee http://en.wikipedia.org/wiki/Aggiornamento#cite_note-3";
+    aggiornomento.definition = @"As a way to describe one of its emphases, it became popular during and synonymous with the reforms of the Second Vatican Council (1962-1965); used by Pope John XXIII in his opening remarks at the Councils's first session.\r\rWikipedia, “Aggiornomento”\rhttp://tinyurl.com/k6y4ylh";
     aggiornomento.category = @"Systematic";
     
     Word *allegory = [[Word alloc] init];
     allegory.name = @"Allegory";
     allegory.twitterDef = @"an interpretation that seeks higher orders of meanining";
-    allegory.definition = @"From the Greek word for “speaking by way of something else”, a reference to an interpretation of a text that goes beyond the literal meaning to find a deeper connection to a higher order of reality. \r\rSee Catechism of the Catholic Church, 117. http://www.vatican.va/archive/ccc_css/archive/catechism/p1s1c2a3.htm.";
+    allegory.definition = @"From the Greek word for “speaking by way of something else”, a reference to an interpretation of a text that goes beyond the literal meaning to find a deeper connection to a higher order of reality.\r\rCatechism of the Catholic Church, 117\rhttp://tinyurl.com/kvc3tvq";
     allegory.category = @"Systematic";
 
     Word *analogy = [[Word alloc] init];
     analogy.name = @"Analogy";
     analogy.twitterDef = @"a way of comparing two kinds of things";
-    analogy.definition = @"A way of probing eternal truths. \r\rSee Catechism of the Catholic Church, 114. http://www.vatican.va/archive/ccc_css/archive/catechism/p1s1c2a3.htm";
+    analogy.definition = @"A way of probing eternal truths.\r\rCatechism of the Catholic Church, 114\rhttp://tinyurl.com/kvc3tvq";
     analogy.category = @"Systematic";
     
     Word *anointing = [[Word alloc] init];
     anointing.name = @"Annointing of the Sick";
     anointing.twitterDef = @"the Sacrament of Healing by anointing with oil";
-    anointing.definition = @"The sacrament of healing in which sacramental oil is applied to an infirm human body... \r\rSee Catechism of the Catholic Church, 1499. http://www.vatican.va/archive/ccc_css/archive/catechism/p2s2c2a5.htm.";
+    anointing.definition = @"The sacrament of healing in which sacramental oil is applied to an infirm human body.\r\rCatechism of the Catholic Church, 1499\rhttp://tinyurl.com/n3lyve9";
     anointing.category = @"Systematic";
     
     Word *anthropocentrism = [[Word alloc] init];
     anthropocentrism.name = @"Anthropocentrism";
     anthropocentrism.twitterDef = @"centered on humanity";
-    anthropocentrism.definition = @"A method of theological enquiry from the starting point and within the horizon of the human experience. All theological claims are claims made by human beings in human language. Theology is relevant to human beings in so far as they concern human experience.";
+    anthropocentrism.definition = @"A method of theological enquiry from the starting point and within the horizon of the human experience. All theological claims are claims made by human beings in human language. Theology is relevant to human beings in so far as they concern human experience.\r\rWikipedia, “Anthropocentrism”\rhttp://tinyurl.com/8hj52d";
     anthropocentrism.category = @"Systematic";
     
     Word *apocatastasis = [[Word alloc] init];
     apocatastasis.name = @"Apocatastasis";
     apocatastasis.twitterDef = @"the Greek word meaning the “restoration of all things”";
-    apocatastasis.definition = @"The belief that at the eschaton, God will restore all creation back into full Divine communion; the belief that all persons will be saved.";
+    apocatastasis.definition = @"This term only occurs in the New Testament in Acts 3:21, wherein Peter refers to the state of creation in the Messianic Age. Later in the Patristic era, Origen used it to the belief that, at the eschaton, God will restore all creation back into full Divine communion.\r\rWikipedia, “Apocatastasis”\rhttp://tinyurl.com/n8txupj";
     apocatastasis.category = @"Systematic";
     
     Word *apologetics = [[Word alloc] init];
     apologetics.name = @"Apologetics";
     apologetics.twitterDef = @"the rational defense of the Christian faith";
-    apologetics.definition = @"The early Christians were compelled to defend authentic Christian faith and practice from ; from the Greek word απολογια (apologia) - “defense”.";
+    apologetics.definition = @"The early Christians were compelled to defend authentic Christian faith and practice from ; from the Greek word απολογια (apologia) - “defense”.\r\rWikipedia, “Apologetics”\rhttp://tinyurl.com/cxswly";
     apologetics.category = @"Systematic";
     
     Word *apophatic = [[Word alloc] init];
     apophatic.name = @"Apophatic";
-    apophatic.twitterDef = @"language that uses negation to describe God.";
+    apophatic.twitterDef = @"language that uses negation to describe God";
     apophatic.definition = @"Apophatic language was popular with the early Greek fathers.";
     apophatic.category = @"Systematic";
     
     Word *apostolicity = [[Word alloc] init];
     apostolicity.name = @"Apostolicity";
     apostolicity.twitterDef = @"the quality of the Church as being based on the Apostolic tradition";
-    apostolicity.definition = @"One of the four marks of the Church - One, Holy, Catholic, Apostolic. See Catechism of the Catholic Church, 857. link: ";
+    apostolicity.definition = @"One of the four marks of the Church - One, Holy, Catholic, Apostolic.\r\rCatechism of the Catholic Church, 857\rhttp://tinyurl.com/oupb5";
     apostolicity.category = @"Systematic";
     
     Word *assumption = [[Word alloc] init];
     assumption.name = @"Assumption of Mary";
     assumption.twitterDef = @"The dogma that the Virgin Mary was assumed into heaven";
-    assumption.definition = @"The dogma, defined by Pope Pius IX, which states that the Virgin Mary was assumed body and soul into heaven at the end of her earthly life.";
+    assumption.definition = @"The dogma, defined by Pope Pius IX, which states that the Virgin Mary was assumed body and soul into heaven at the end of her earthly life.\r\rCatechism of the Catholic Church, 966\rhttp://tinyurl.com/mtfzewa";
     assumption.category = @"Systematic";
 
     Word *atonement = [[Word alloc] init];
     atonement.name = @"Atonement";
     atonement.twitterDef = @"the act of making restitution for inflicted harm";
-    atonement.definition = @"The act of making restitution for inflicted harm; a theological interpretation of the death of Jesus of Nazrareth. \r\rSee Catechism of the Catholic Church, 616. http://www.vatican.va/archive/ccc_css/archive/catechism/p122a4p2.htm";
+    atonement.definition = @"The act of making restitution for inflicted harm; a theological interpretation of the death of Jesus of Nazrareth.\r\rCatechism of the Catholic Church, 616\rhttp://tinyurl.com/p3dfabj";
     atonement.category = @"Systematic";
     
     Word *adoration = [[Word alloc] init];
     adoration.name = @"Adoration";
     adoration.twitterDef = @"the act of adoring Christ present in the Eucharist";
-    adoration.definition = @"The act of adoring Christ present in the Eucharist...";
+    adoration.definition = @"The act of adoring Christ present in the Eucharist.\r\rCatechism of the Catholic Church, 1378\rhttp://tinyurl.com/q6gyoc7";
     adoration.category = @"Liturgical";
     
     Word *angusDei = [[Word alloc] init];
     angusDei.name = @"Agnus Dei";
     angusDei.twitterDef = @"the sequence of Mass that begins 'Lamb of God'";
-    angusDei.definition = @"The sequence of Mass that begins 'Lamb of God' chanted 3 times before the distribution of the Eucharist.";
+    angusDei.definition = @"The sequence of Mass that begins 'Lamb of God' chanted 3 times before the distribution of the Eucharist.\r\rUnited States Conference of Catholic Bishops, “Liturgy of the Eucharist”\rhttp://tinyurl.com/lleofmh";
     angusDei.category = @"Liturgical";
     
     Word *advent = [[Word alloc] init];
     advent.name = @"Advent";
     advent.twitterDef = @"the first season of the liturgical year in the Church";
-    advent.definition = @"The first season of the liturgical year in the Church that prepares for the the celebration of the birth of Jesus; consists of 4 Sundays...";
+    advent.definition = @"The first season of the liturgical year in the Church that prepares for the the celebration of the birth of Jesus; consists of 4 Sundays.\r\rCatechism of the Catholic Church, 524\rhttp://tinyurl.com/mou9egj";
     advent.category = @"Ecclesial";
     
     Word *alleluia = [[Word alloc] init];
     alleluia.name = @"Alleluia";
-    alleluia.twitterDef = @"a Latinized form of the phrase 'Praise the LORD'";
-    alleluia.definition = @"A Latinized form of the phrase 'Praise the LORD'; spoken before the reading of the Gospel during the Mass; not spoken during the season of Lent...";
+    alleluia.twitterDef = @"a Latinized form of the phrase “Praise the LORD”";
+    alleluia.definition = @"The Alleluia is spoken before the reading of the Gospel during the Mass. It is not spoken during the season of Lent.\r\rCatechism of the Catholic Church, 2589\rhttp://tinyurl.com/pynlg6a";
     alleluia.category = @"Liturgical";
     
     Word *altar = [[Word alloc] init];
     altar.name = @"Altar";
     altar.twitterDef = @"the table upon which the Eucharist is placed";
-    altar.definition = @"The table upon which the Eucharist is placed during the act of consecration due to the interpretation of the death of Jesus as an atoning sacrifice. See Catechism of the Catholic Church, 1182.";
+    altar.definition = @"The table upon which the Eucharist is placed during the act of consecration due to the interpretation of the death of Jesus as an atoning sacrifice.\r\rCatechism of the Catholic Church, 1182\rhttp://tinyurl.com/p9382z5";
     altar.category = @"Liturgical";
     
     Word *ambo = [[Word alloc] init];
     ambo.name = @"Ambo";
-    ambo.twitterDef = @"the elevated platform behind which the lector, cantor, or homilist stands";
-    ambo.definition = @"The elevated platform behind which the lector, cantor, or homilist stands to sing, read, or speak to the congregation.";
+    ambo.twitterDef = @"the elevated platform (lecturn) behind which the lector, cantor, or homilist stands";
+    ambo.definition = @"The elevated platform behind which the lector, cantor, or homilist stands to sing, read, or speak to the congregation.\r\rCatechism of the Catholic Church, 1184\rhttp://tinyurl.com/p9382z5";
     ambo.category = @"Liturgical";
     
     Word *amen = [[Word alloc] init];
     amen.name = @"Amen";
-    amen.twitterDef = @"a Hebrew word meaning 'may it be so'";
-    amen.definition = @"A Hebrew word meaning 'may it be so'; traditionally said after a prayer as a form of agreement; derived from Jewish use in the synagogue and later in the New Testament where it is used to indicate the truthfulness of what is said.";
+    amen.twitterDef = @"a Hebrew word meaning “may it be so”";
+    amen.definition = @"The Amen is traditionally said after a prayer as a form of agreement. It derives from Jewish use in the synagogue and later in the New Testament where it is used to indicate the truthfulness of what is said.\r\rCatechism of the Catholic Church, 1061\rhttp://tinyurl.com/k3f2f8p";
     amen.category = @"Liturgical";
     
     Word *anamnesis = [[Word alloc] init];
     anamnesis.name = @"Anamnesis";
-    anamnesis.twitterDef = @"the Greek Word for 'rememberance',\rused to describe the Eucharist";
-    anamnesis.definition = @"Greek Word for 'rememberance', used in the Words of Institution; a performative act used to re-present the salvific death and resurrection of Jesus...";
+    anamnesis.twitterDef = @"the Greek Word meaning “rememberance”,\rused to recall the salvific presence of Christ in the Eucharist";
+    anamnesis.definition = @"The Anamnesis is used in the Words of Institution. It is a performative act used to re-present the salvific death and resurrection of Jesus.\r\rCatechism of the Catholic Church, 1103\rhttp://tinyurl.com/oqbzkx3";
     anamnesis.category = @"Liturgical";
     
     Word *anaphora = [[Word alloc] init];
     anaphora.name = @"Anaphora";
-    anaphora.twitterDef = @"the Greek word for 'offering', used for the Eucharistic prayer";
-    anaphora.definition = @"The Greek term for 'offering'; the Eucharistic prayer of the Mass...";
+    anaphora.twitterDef = @"the Greek word for “offering” used for the Eucharistic prayer";
+    anaphora.definition = @"The Greek term for 'offering'; the Eucharistic prayer of the Mass.\r\rCatechism of the Catholic Church, 1352\rhttp://tinyurl.com/m88dbjl";
     anaphora.category = @"Liturgical";
     
     Word *anathema = [[Word alloc] init];
     anathema.name = @"Anathema";
     anathema.twitterDef = @"the state of being out of communion with the Church";
-    anathema.definition = @"The Greek word for 'accursed'; the state of being out of visible communion with the Church";
+    anathema.definition = @"Anathema comes from the Greek word for “set up high”. Over time it came to refer to those who were accursed or banished from the community.\r\rNew Advent, Anathema\rhttp://tinyurl.com/o5fl88l";
     anathema.category = @"Systematic";
     
     Word *annulment = [[Word alloc] init];
     annulment.name = @"Annulment";
     annulment.twitterDef = @"an ecclesial declaration that a valid marriage never exixted";
-    annulment.definition = @"An ecclesial declaration that a valid marriage never existed....";
+    annulment.definition = @"An ecclesial declaration that a valid marriage never existed.\r\rCatechism of the Catholic Church, 1629\rhttp://tinyurl.com/ykptlg";
     annulment.category = @"Systematic";
     
     Word *antiphon = [[Word alloc] init];
     antiphon.name = @"Antiphon";
     antiphon.twitterDef = @"the choral response sung during\rthe entrace processional during Mass";
-    antiphon.definition = @"the choral response sung during the entrace processional";
+    antiphon.definition = @"the choral response sung during the entrace processional.\r\rGeneral Instruction on the Liturgy of the Hours, III.II\rhttp://tinyurl.com/ku23eyw";
     antiphon.category = @"Liturgical";
     
     Word *apostlesCreed = [[Word alloc] init];
     apostlesCreed.name = @"Apostle's Creed";
     apostlesCreed.twitterDef = @"the Creed used in Rome around the year A.D. 150";
-    apostlesCreed.definition = @"The earliest form of the Rule of Faith; based on the Roman baptismal creed, dated to the year A.D. 150.";
+    apostlesCreed.definition = @"The Apostle's Creed is based on the Roman baptismal creed, dated to the year A.D. 150.\r\r“I believe in God, the Father almighty, Creator of heaven and earth, and in Jesus Christ, his only Son, our Lord, who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died and was buried; he descended into hell; on the third day he rose again from the dead; he ascended into heaven, and is seated at the right hand of God the Father almighty; from there he will come to judge the living and the dead. I believe in the Holy Spirit, the holy catholic Church, the communion of saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen.”\r\rCatechism of the Catholic Church, 194\rhttp://tinyurl.com/mo3f24x";
     apostlesCreed.category = @"Historical";
     
     Word *arianism = [[Word alloc] init];
     arianism.name = @"Arianism";
-    arianism.twitterDef = @"the teaching that the Son was not of the same substance as the Father";
-    arianism.definition = @"The teaching of Arius that the Son was of a different substance than the Father (begotten vs. unbegotten) and thus, not fully divine.";
+    arianism.twitterDef = @"the teaching of a third century presbyter, Arius, that the Son was not of the same substance as the Father";
+    arianism.definition = @"The teaching of Arius that the Son was of a different substance than the Father (begotten vs. unbegotten) and thus, not fully divine.\r\rCatechism of the Catholic Church, 465\rhttp://tinyurl.com/37wuaux";
     arianism.category = @"Historical";
     
     Word *aposteriori = [[Word alloc] init];
     aposteriori.name = @"A Posteriori";
-    aposteriori.twitterDef = @"a phrase meaning 'after experience'";
-    aposteriori.definition = @"A philosophical category which follows human experience. The statement “Water boils at 0 degrees Celsius” is an a posteriori truth. \r\rSee Stanford Encyclopedia of Philosophy, “A Priori Justification and Knowledge”. http://plato.stanford.edu/entries/apriori/.";
+    aposteriori.twitterDef = @"a phrase meaning “after experience”";
+    aposteriori.definition = @"A philosophical category which follows human experience. The statement “Water boils at 0 degrees Celsius” is an a posteriori truth.\r\rStanford Encyclopedia of Philosophy,\r“A Priori Justification and Knowledge”\rhttp://tinyurl.com/6tp7oyz";
     aposteriori.category = @"Cultural";
     
     Word *apriori = [[Word alloc] init];
     apriori.name = @"A Priori";
-    apriori.twitterDef = @"a phrase meaning 'before experience'";
-    apriori.definition = @"A philosophical category which precedes human experience. The statement “All bachelors are unmarried' is an a priori truth. \r\rSee Stanford Encyclopedia of Philosophy, “A Priori Justification and Knowledge”. http://plato.stanford.edu/entries/apriori/.";
+    apriori.twitterDef = @"a phrase meaning “before experience”";
+    apriori.definition = @"A philosophical category which precedes human experience. The statement “All bachelors are unmarried' is an a priori truth.\r\rStanford Encyclopedia of Philosophy,\r“A Priori Justification and Knowledge”\rhttp://tinyurl.com/6tp7oyz";
     apriori.category = @"Cultural";
     
     Word *action = [[Word alloc]init];
     action.name = @"Action";
     action.twitterDef = @"direct or indirect action taken to achieve justice";
-    action.definition = @"The third of three steps in achieving justice.";
+    action.definition = @"The third of three steps in achieving justice.\r\rCompendium of the Social Doctrine of the Church, 419\rhttp://tinyurl.com/qfo6bd7";
     action.category = @"Cultural";
     
     Word *agnostic = [[Word alloc] init];
     agnostic.name = @"Agnostic";
     agnostic.twitterDef = @"the word used to describe uncertainty about the existence of God";
-    agnostic.definition = @"From the Greek word for “not knowing”, a term used to describe uncertainty about the question of God's existence. \r\rSee Catechism of the Catholic Church, 2127. http://www.vatican.va/archive/ccc_css/archive/catechism/p3s2c1a1.htm.";
+    agnostic.definition = @"From the Greek word for “not knowing”, a term used to describe uncertainty about the question of God's existence.\r\rCatechism of the Catholic Church, 2127\rhttp://tinyurl.com/lu75a9k.";
     agnostic.category = @"Cultural";
     
     Word *analysis = [[Word alloc] init];
@@ -452,25 +452,25 @@
     Word *anthropology = [[Word alloc] init];
     anthropology.name = @"Anthropology";
     anthropology.twitterDef = @"the science that studies human origins, development, and culture";
-    anthropology.definition = @"The science that studies human origins, development, and culture.";
+    anthropology.definition = @"The science that studies human origins, development, and culture.\r\rAmerican Anthropological Association\rhttp://tinyurl.com/28tcvt";
     anthropology.category = @"Cultural";
     
     Word *antisemitism = [[Word alloc] init];
     antisemitism.name = @"Anti-Semitism";
     antisemitism.twitterDef = @"prejudice, hatred, or racial bias against Jewish persons";
-    antisemitism.definition = @"Prejudice, hatred, or racial bias against Jews. Some portions of the New Testament bear traces of anti-Semitism due to theological biases against the Jewish people for rejecting Christ. Thus, the Christian tradition has included anti-Semitic currents that have been rejected since the Second Vatican Council.";
+    antisemitism.definition = @"Prejudice, hatred, or racial bias against Jews. Some portions of the New Testament bear traces of anti-Semitism due to theological biases against the Jewish people for rejecting Christ. Thus, the Christian tradition has included anti-Semitic currents that have been rejected since the Second Vatican Council.\r\rVatican II, Nostra Aetate\rhttp://tinyurl.com/k4dj";
     antisemitism.category = @"Cultural";
     
     Word *argument = [[Word alloc] init];
     argument.name = @"Argument";
     argument.twitterDef = @"a series of statements that establishes a truth claim";
-    argument.definition = @"A series of statements that establishes a truth claim; made of two parts - premise and conclusion; the from can be deductive or inductive; deductive arguments can be valid or invalid. \r\rSee Internet Encylopedia of Philosophy, “Argument”. http://www.iep.utm.edu/argument/";
+    argument.definition = @"A series of statements that establishes a truth claim; made of two parts - premise and conclusion; the from can be deductive or inductive; deductive arguments can be valid or invalid.\r\rInternet Encylopedia of Philosophy, “Argument”\r http://tinyurl.com/aruqml5";
     argument.category = @"Cultural";
     
     Word *atheism = [[Word alloc] init];
     atheism.name = @"Atheism";
     atheism.twitterDef = @"the belief that no God exists";
-    atheism.definition = @"The belief that no God exists.";
+    atheism.definition = @"The belief that no God exists.\r\rCatechism of the Catholic Church, 2113\rhttp://tinyurl.com/lu75a9k";
     atheism.category = @"Cultural";
     
     Word *awareness = [[Word alloc] init];
@@ -482,19 +482,19 @@
     Word *acolyte = [[Word alloc] init];
     acolyte.name = @"Acolyte";
     acolyte.twitterDef = @"a liturgical assistant to the celebrant of Mass";
-    acolyte.definition = @"Acolytes occur as early as the   century.";
+    acolyte.definition = @"Acolytes occur as early as the   century.\r\rCatechism of the Catholic Church, 903\rhttp://tinyurl.com/m65ttaf";
     acolyte.category = @"Liturgical";
     
     Word *actOfContrition = [[Word alloc] init];
     actOfContrition.name = @"Act of Contrition";
     actOfContrition.twitterDef = @"a prayer said before the Sacrament of Reonciliation";
-    actOfContrition.definition = @"The Act of Contrition is the traditional penitential prayer..";
+    actOfContrition.definition = @"While the Church does not canonize any one prayer for forgiveness, a popular one in current usage reads:\r\r“My God, I am sorry for my sins with all my heart. In choosing to do wrong and failing to do good, I have sinned against You whom I should love above all things. I firmly intend, with Your help, to do penance, to sin no more, and to avoid whatever leads me to sin. Our Saviour Jesus Christ, suffered and died for us. In His name, my God, have mercy.”\r\rCatholic Online, Act of Contrition\rhttp://tinyurl.com/kcosvkv";
     actOfContrition.category = @"Liturgical";
 
     Word *apostolicFathers = [[Word alloc] init];
     apostolicFathers.name = @"Apostolic Fathers"; 
     apostolicFathers.twitterDef = @"the collection of Christian texts from the late first and early second centuries.";
-    apostolicFathers.definition = @"The Aposotolic Fathers are the earliest extra-biblical texts outside the Bible.";
+    apostolicFathers.definition = @"The Aposotolic Fathers are the earliest extra-biblical texts outside the Bible.\r\rWikipedia, “Apostolic Fathers”\rhttp://tinyurl.com/56xymr";
     apostolicFathers.category = @"Historical";
     
     [_dataArray addObjectsFromArray:@[aposteriori, apriori, abortion, absolution, abstinence, accident, act, adonai, adoption, adoptionism, adoration, adultery, advent, agape, aggiornomento, agnostic, angusDei, allegory, alleluia, altar, ambo, amen, analogy, analysis, anamnesis, anaphora, anathema, anawim, annulment, anointing, anthropology, antiphon, antisemitism, anthropocentrism, anthropomorphism, apocatastasis, apocalypse, apocrypha, apodictic, apologetics, apophatic, apostle, apostlesCreed, apostolicity, aqeda, aramaic, argument, arianism, asceticism, asherah, assumption, assyria, atheism, atonement, awareness, abba, acolyte, actOfContrition, apostolicFathers]];
@@ -504,7 +504,7 @@
     Word *beneficence = [[Word alloc] init];
     beneficence.name = @"Beneficence";
     beneficence.twitterDef = @"the first principle in medical ethics; do no harm.";
-    beneficence.definition = @"The first principle in medical ethics; do no harm.";
+    beneficence.definition = @"The first principle in medical ethics; do no harm.\r\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht";
     beneficence.category = @"Moral";
     
     Word *benefit = [[Word alloc] init];
@@ -516,7 +516,7 @@
     Word *bioethics = [[Word alloc] init];
     bioethics.name = @"Bioethics";
     bioethics.twitterDef = @"the study of ethics related to life issues...";
-    bioethics.definition = @"The study of ethics related to life issues...";
+    bioethics.definition = @"The study of ethics related to life issues.\r\rAmerican Bioethics Advisory Commission, “What is Bioethics?”\rhttp://tinyurl.com/k8sppee";
     bioethics.category = @"Moral";
     
     Word *baptism = [[Word alloc] init];
@@ -629,7 +629,7 @@
     Word *catholicsocialteaching = [[Word alloc]init];
     catholicsocialteaching.name = @"Catholic Social Teaching";
     catholicsocialteaching.twitterDef = @"the teaching of the Church which applies the principles of social justice to society";
-    catholicsocialteaching.definition = @"The teaching of the Church that applies the principles of social justice to the signs of the times. See “Social Justice”, “Signs of the Times”.\r\rSee Compendium of the Social Doctrine of the Church, http://www.vatican.va/roman_curia/pontifical_councils/justpeace/documents/rc_pc_justpeace_doc_200060526_compendio-dott-soc_en.html ";
+    catholicsocialteaching.definition = @"According to Pope Paul VI's encyclical, Populorum Progressio, social teaching is essential to authentic evangelization. It consists of principles of reflection, criteria of judgment, and directives for action. See “Social Justice”, “Signs of the Times”.\r\rCompendium of the Social Doctrine of the Church, 85\rhttp://tinyurl.com/kn6q5wm ";
     catholicsocialteaching.category = @"Moral";
     
     Word *commutativejustice = [[Word alloc]init];

@@ -15,11 +15,11 @@
 
 @property (strong, nonatomic) Word *currentWordDetail;
 
-@property (strong, nonatomic) IBOutlet UILabel *nameLabel;
-@property (strong, nonatomic) IBOutlet UILabel *twitterLabel;
-@property (strong, nonatomic) IBOutlet UITextView *descriptionTextView;
+@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
+@property (weak, nonatomic) IBOutlet UILabel *twitterLabel;
+@property (weak, nonatomic) IBOutlet UITextView *descriptionTextView;
 
-@property (strong, nonatomic) IBOutlet UIImageView *imageView; 
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
 - (IBAction)share:(UIBarButtonItem *)sender;
 
