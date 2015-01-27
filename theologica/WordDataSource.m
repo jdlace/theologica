@@ -522,19 +522,19 @@
     Word *baptism = [[Word alloc] init];
     baptism.name = @"Baptism";
     baptism.twitterDef = @"the sacrament of initiation into the Christian community";
-    baptism.definition = @"The sacrament of initiation into the Christian community in which faith is professed and sins are forgiven. \r\rSee Catechism of the Catholic Church, 1213. http://www.vatican.va/archive/ccc_css/archive/catechism/p2s2c1a1.htm";
+    baptism.definition = @"The sacrament of initiation into the Christian community in which faith is professed and sins are forgiven.\r\rCatechism of the Catholic Church, 1213\rhttp://tinyurl.com/ykqqof";
     baptism.category = @"Systematic";
     
     Word *blasphemy = [[Word alloc] init];
     blasphemy.name = @"Blasphemy";
     blasphemy.twitterDef = @"a form of religious slander.";
-    blasphemy.definition = @"A form of religious slander. \r\rSee Catechism of the Catholic Church, 2148. http://www.vatican.va/archive/ccc_css/archive/catechism/p3s2c1a2.htm";
+    blasphemy.definition = @"A form of religious slander.\r\rCatechism of the Catholic Church, 2148\rhttp://tinyurl.com/bczm8h7";
     blasphemy.category = @"Systematic";
     
     Word *baptistry = [[Word alloc] init];
     baptistry.name = @"Baptistry";
     baptistry.twitterDef = @"the place within a church used for baptism; usually referred to as a 'font'.";
-    baptistry.definition = @"The place within a church used for baptism; usually referred to as a 'font'.";
+    baptistry.definition = @"The place within a church used for baptism; usually referred to as a 'font'.\r\rCatechism of the Catholic Church, 1185\rhttp://tinyurl.com/p9382z5";
     baptistry.category = @"Liturgical";
     
     Word *basillica = [[Word alloc] init];

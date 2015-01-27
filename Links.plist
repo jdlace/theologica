@@ -2,6 +2,45 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Environment</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Catholic Climate Covenant</string>
+			<key>URL</key>
+			<string>http://catholicclimatecovenant.org</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>World Resources Institutie</string>
+			<key>URL</key>
+			<string>http://www.wri.org</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>U.N. Environment Program</string>
+			<key>URL</key>
+			<string>http://www.unep.org</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>NASA Earth Observer</string>
+			<key>URL</key>
+			<string>http://www.nasa.gov/topics/earth/index.html</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>National Snow/Ice Data Center</string>
+			<key>URL</key>
+			<string>http://nsidc.org</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>NYT Environmental News</string>
+			<key>URL</key>
+			<string>http://www.nytimes.com/pages/science/earth/index.html</string>
+		</dict>
+	</array>
 	<key>Economy</key>
 	<array>
 		<dict>
@@ -45,6 +84,12 @@
 			<string>Vatican</string>
 			<key>URL</key>
 			<string>http://www.vatican.va</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Vatican Radio</string>
+			<key>URL</key>
+			<string>http://en.radiovaticana.va</string>
 		</dict>
 		<dict>
 			<key>Name</key>
@@ -207,12 +252,6 @@
 		</dict>
 		<dict>
 			<key>URL</key>
-			<string>http://en.wikipedia.org/wiki/Evolution</string>
-			<key>Name</key>
-			<string>Evolution</string>
-		</dict>
-		<dict>
-			<key>URL</key>
 			<string>http://vimeo.com/35718571</string>
 			<key>Name</key>
 			<string>Theology and the Big Bang </string>
@@ -243,15 +282,15 @@
 	<array>
 		<dict>
 			<key>Name</key>
-			<string>Wired</string>
-			<key>URL</key>
-			<string>http://www.wired.com</string>
-		</dict>
-		<dict>
-			<key>Name</key>
 			<string>Ars Technica</string>
 			<key>URL</key>
 			<string>http://arstechnica.com</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Wired</string>
+			<key>URL</key>
+			<string>http://www.wired.com</string>
 		</dict>
 		<dict>
 			<key>Name</key>
