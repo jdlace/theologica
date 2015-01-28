@@ -65,7 +65,7 @@
             if (self.progressBar.progress >= 0.95)
             {
                 self.progressBar.progress = 0.95;
-                self.progressBar.hidden = true;
+                self.progressBar.hidden = false;
             }
         }
 }

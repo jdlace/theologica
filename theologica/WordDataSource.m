@@ -211,7 +211,7 @@
     
     Word *abortion = [[Word alloc] init];
     abortion.name = @"Abortion";
-    abortion.twitterDef = @"the intentional killing of a human being in utero";
+    abortion.twitterDef = @"the willful killing of a human being in utero";
     abortion.definition = @"In the Catholic tradition, human beings are regarded as sacred from the moment of conception. The death of an unborn child as a consequence of other procedures deemed good in themselves is not considered an abortion per se but rather a consequence of the principle of double-effect. The Catholic tradition is consistent in its classification of abortion as a grave sin, the willful commision of which incurs an automatic excommunication. Abortion was legalized in the United States in 1973 by the Supreme Court in Roe v. Wade. See “Principle of Double-Effect”, “Roe v. Wade”\r\rCatechism of the Catholic Church, 2270\rhttp://tinyurl.com/dh7r\r\rWikipedia, “Roe v. Wade”\rhttp://tinyurl.com/aqq5j";
     abortion.category = @"Moral";
     
@@ -229,7 +229,7 @@
     
     Word *adultery = [[Word alloc] init];
     adultery.name = @"Adultery";
-    adultery.twitterDef = @"sexual relations with another person's spouse ";
+    adultery.twitterDef = @"sexual relations with another person's spouse";
     adultery.definition = @"Marital infidelity or sexual relations between two people, one of which being married to another person.\r\rCatechism of the Catholic Church, 2380\rhttp://tinyurl.com/cz1w ";
     adultery.category = @"Moral";
 
@@ -242,7 +242,7 @@
     Word *adoptionism = [[Word alloc] init];
     adoptionism.name = @"Adoptionism";
     adoptionism.twitterDef = @"the belief that Jesus was not divine by nature";
-    adoptionism.definition = @"The belief that Jesus was not the Son of God by nature, but rather adopted by God at his baptism; held by the so-called Ebionites of the end of the first century.\r\rWikipedia, “Adoptionism”\rhttp://tinyurl.com/25fgze";
+    adoptionism.definition = @"Adoptionism is the belief that Jesus was not the Son of God by nature, but rather adopted by God at his baptism. It was held by the so-called Ebionites of the end of the first century.\r\rWikipedia, “Adoptionism”\rhttp://tinyurl.com/25fgze";
     adoptionism.category = @"Historical";
     
     Word *accident = [[Word alloc] init];
@@ -272,7 +272,7 @@
     Word *aggiornomento = [[Word alloc] init];
     aggiornomento.name = @"Aggiornomento";
     aggiornomento.twitterDef = @"an Italian word meaning “to bring up to date”";
-    aggiornomento.definition = @"As a way to describe one of its emphases, it became popular during and synonymous with the reforms of the Second Vatican Council (1962-1965); used by Pope John XXIII in his opening remarks at the Councils's first session.\r\rWikipedia, “Aggiornomento”\rhttp://tinyurl.com/k6y4ylh";
+    aggiornomento.definition = @"As a way to describe one of its emphases, it became popular during and synonymous with the reforms of the Second Vatican Council (1962-1965). It was used by Pope John XXIII to describe the agenda of Vatican II. John XXIII claimed:\r\r“The greatest concern of the Ecumenical Council is this: that he sacred deposit of Christian doctrine should be guarded and taught more efficaciously...In order, however, that this doctrine may influence the numerous fields of human activity, with reference to individuals, to families, and to socia life, it is necessary first of all that the Church should never depart from the sacred patrimony of truth received from the Fathers. But at the same time she must ever look to the present, to the new conditions and new forms of life introduced into the modern world, which have opened new avenues to the Catholic apostolate...which, however, should be studied and expounded through the methods of research and through the literary forms of modern thought. The substance of the ancient doctrine of the deposit of faith is one thing, and the way in which it is presented is another. And it is the latter that must be taken into great consideration with patience if necessary,everything being measured in the forms and proportions of a magisterium which is predominantly pastoral in character.”\r\rWikipedia, “Aggiornomento”\rhttp://tinyurl.com/k6y4ylh";
     aggiornomento.category = @"Systematic";
     
     Word *allegory = [[Word alloc] init];
@@ -509,20 +509,20 @@
     
     Word *benefit = [[Word alloc] init];
     benefit.name = @"Benefit/Burden Ratio";
-    benefit.twitterDef = @"the ratio of benefits over the burdens of particular....";
-    benefit.definition = @"The ratio of benefits over the burdens of particular....";
+    benefit.twitterDef = @"the ratio of benefits over the burdens of a particular medical treatment";
+    benefit.definition = @"The Benefit/Burden Ratio is a variable in morality of certain medical procedures. It's use extends outside theology to the broader study of ethics.";
     benefit.category = @"Moral";
     
     Word *bioethics = [[Word alloc] init];
     bioethics.name = @"Bioethics";
-    bioethics.twitterDef = @"the study of ethics related to life issues...";
-    bioethics.definition = @"The study of ethics related to life issues.\r\rAmerican Bioethics Advisory Commission, “What is Bioethics?”\rhttp://tinyurl.com/k8sppee";
+    bioethics.twitterDef = @"the study of ethics related to medical and life issues";
+    bioethics.definition = @"Bioethics has become a specialization in the field of ethics due, in part, to the tremendous technological advances that enable new forms of treatment but that also raise new ethical questions in the practice of medicine.\r\rAmerican Bioethics Advisory Commission, “What is Bioethics?”\rhttp://tinyurl.com/k8sppee";
     bioethics.category = @"Moral";
     
     Word *baptism = [[Word alloc] init];
     baptism.name = @"Baptism";
-    baptism.twitterDef = @"the sacrament of initiation into the Christian community";
-    baptism.definition = @"The sacrament of initiation into the Christian community in which faith is professed and sins are forgiven.\r\rCatechism of the Catholic Church, 1213\rhttp://tinyurl.com/ykqqof";
+    baptism.twitterDef = @"the Sacrament of Initiation into the Church in which faith is professed and sins are forgiven";
+    baptism.definition = @"Baptism is a practice which Christianity inherited from the Jewish practice of the Mikvah, or ceremonial washing in Second Temple Period. John the Baptist practiced a derivation of this in his ministry, of which Jesus of Nazareth was a follower for some period of time. According to the book of Acts, John's baptism was still being practiced concurrently with Christian baptism. In the Sacrament of Baptism, faith is professed and sins are forgiven.\r\rCatechism of the Catholic Church, 1213\rhttp://tinyurl.com/ykqqof";
     baptism.category = @"Systematic";
     
     Word *blasphemy = [[Word alloc] init];
@@ -534,25 +534,25 @@
     Word *baptistry = [[Word alloc] init];
     baptistry.name = @"Baptistry";
     baptistry.twitterDef = @"the place within a church used for baptism; usually referred to as a 'font'.";
-    baptistry.definition = @"The place within a church used for baptism; usually referred to as a 'font'.\r\rCatechism of the Catholic Church, 1185\rhttp://tinyurl.com/p9382z5";
+    baptistry.definition = @"Baptistries are a later development in the Christian tradition. They are connected to the growth of the Church after its more definitive separation from Judaism after A.D. 70.\r\rCatechism of the Catholic Church, 1185\rhttp://tinyurl.com/p9382z5";
     baptistry.category = @"Liturgical";
     
     Word *basillica = [[Word alloc] init];
-    basillica.name = @"Basillica";
+    basillica.name = @"Basilica";
     basillica.twitterDef = @"a church in which the diocescan bishop presides";
-    basillica.definition = @"term used to refer to a church in which the diocescan bishop presides; the Church inherited this architecture from the Roman Imperial administrative system.";
+    basillica.definition = @"The Church inherited basilicas from the Roman Imperial administrative system. Literally meaning “house of the king”, these buildings were essentially courthouses in which Roman administrators would hear cases.";
     basillica.category = @"Liturgical";
     
     Word *benedictus = [[Word alloc] init];
     benedictus.name = @"Benedictus";
-    benedictus.twitterDef = @"the prayer of Simeon contained within the gospel of Luke 2:29-32.";
-    benedictus.definition = @"the prayer of Simeon contained within the gospel of Luke 2:29-32.";
+    benedictus.twitterDef = @"the prayer of Simeon contained within the gospel of Luke 2:29-32";
+    benedictus.definition = @"The Benedictus is a part of the Liturgy of the Hours.";
     benedictus.category = @"Liturgical";
     
     Word *bishop = [[Word alloc] init];
     bishop.name = @"Bishop";
     bishop.twitterDef = @"the third order of clergy;\rone who presides over a diocese";
-    bishop.definition = @"from the Greek 'episcopos' (overseer) - the third order of clerics in the Catholic tradition; one who presides over a diocese.";
+    bishop.definition = @"from the Greek “episcopos” (overseer) - the third order of clerics in the Catholic tradition; one who presides over a diocese.";
     bishop.category = @"Systematic";
     
     Word *baal = [[Word alloc]  init];
@@ -1260,7 +1260,7 @@
     
     Word *historicalCriticism = [[Word alloc] init];
     historicalCriticism.name = @"Historical Criticism";
-    historicalCriticism.twitterDef = @"the type of exegetical criticism which deciphers and analyzes the historical context of a text.";
+    historicalCriticism.twitterDef = @"the type of criticism which deciphers and analyzes the historical context of a text.";
     historicalCriticism.definition = @"The type of exegetical criticism which deciphers and analyzes the historical context of a text.";
     historicalCriticism.category = @"Biblical";
     
@@ -1427,7 +1427,7 @@
     
     Word *literary = [[Word alloc] init];
     literary.name = @"Literary Criticism";
-    literary.twitterDef = @"the type of exegetical criticism that deciphers and analyzes the literary characteristics of a text";
+    literary.twitterDef = @"the type of criticism that deciphers and analyzes the literary characteristics of a text";
     literary.definition = @"the type of exegetical criticism that deciphers and analyzes the literary characteristics of a text, including form, setting, plot, characterization, denouement, theme, and climax.";
     literary.category = @"Biblical";
     
@@ -1442,10 +1442,16 @@
     liberation.definition = @"the theological movement associated with the idea that the gospel is only authentic in the face of radical poverty.";
     liberation.category = @"Systematic";
     
+    Word *liturgyH = [[Word alloc] init];
+    liturgyH.name = @"Liturgy of the Hours";
+    liturgyH.twitterDef = @"the cycle of daily prayer offered by the Church throughout the liturgical year;\ralso called “The Divine Office”";
+    liturgyH.definition = @"The Liturgy of the Hours is an ancient practice that dates back to the earliest days of the Church, which inhereited from Judaism the custom of praying at set times during the day. The Divine Office is the public prayer of the Church, which is offered continuously by both clergy and laity.\r\rCatechism of the Catholic Church, 1174\rhttp://tinyurl.com/p9382z5";
+    liturgyH.category = @"Liturgical";
+    
     Word *lawNC = [[Word alloc] init];
     lawNC.name = @"Law of Non-Contradiction";
-    lawNC.twitterDef = @"the logical axiom that states that A and ~A cannot both be true at the same time in the same way";
-    lawNC.definition = @"the logical axiom that states that A and ~A cannot both be true at the same time in the same way.";
+    lawNC.twitterDef = @"A and ~A cannot both be true at the same time in the same way";
+    lawNC.definition = @"This principle is first found in the writings of Aristotle, in his fourth book on Metaphysics. There he claims that without this principle, no learning could be possible.\r\rStanford Encyclopedia of Philosophy, “Aristotle on Non-Contradiction”\rhttp://tinyurl.com/yvzfdk";
     lawNC.category = @"Cultural";
     
     Word *living = [[Word alloc] init];
@@ -1462,7 +1468,7 @@
 
 
     
-    [_dataArray addObjectsFromArray:@[law, lawNC, levite, liberation, literary, living, logic, lxx]];
+    [_dataArray addObjectsFromArray:@[law, lawNC, levite, liberation, literary, living, logic, lxx, liturgyH]];
     
     //M
     
@@ -1862,7 +1868,7 @@
     
     Word *source = [[Word alloc] init];
     source.name = @"Source Criticism";
-    source.twitterDef = @"the exegetical criticism that seeks to decipher and analyze the underlying source of a text.";
+    source.twitterDef = @"the type of criticism that seeks to decipher and analyze the underlying source of a text.";
     source.definition = @"the exegetical criticism that seeks to decipher and analyze the underlying source of a text.";
     source.category = @"Biblical";
     

@@ -24,8 +24,8 @@
     NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:path];
     self.links = dict;
     
-    NSArray *array = [_links allKeys];
-    self.linkKeys = array;
+    NSArray *array = @[@"Magisterium", @"Scripture", @"Fathers", @"Councils", @"Creeds", @"Liturgy", @"Theology", @"Environment", @"Science", @"Technology", @"Politics", @"Economy", @"Arts"];
+    self.linkKeys = array; 
     
 
 }

@@ -312,7 +312,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u2n-N2-OLS" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="3Bz-oj-TMZ"/>
             </objects>
-            <point key="canvasLocation" x="-1511" y="-1354"/>
+            <point key="canvasLocation" x="-1501" y="-1361"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="eli-Yo-o7G">
@@ -638,7 +638,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="keP-1u-mbO">
-                        <barButtonItem key="leftBarButtonItem" systemItem="edit" id="PzT-uf-PNg"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="edit" id="PzT-uf-PNg">
+                            <connections>
+                                <action selector="edit:" destination="qp7-Xs-UHE" id="5Df-8P-Xvd"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="done" id="EOE-7X-gLX">
                             <connections>
                                 <action selector="done:" destination="qp7-Xs-UHE" id="C3o-j8-Z8p"/>
@@ -783,7 +787,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="mtE-nY-8u5"/>
+                    <navigationItem key="navigationItem" id="mtE-nY-8u5">
+                        <nil key="title"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="progressBar" destination="xag-FS-2mi" id="EHH-4a-Q7m"/>
                         <outlet property="webView" destination="bfX-fn-Gr1" id="Q31-H5-PIK"/>
@@ -868,7 +874,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZMD-ul-mvR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1870" y="-1385"/>
+            <point key="canvasLocation" x="-1883" y="-1361"/>
         </scene>
     </scenes>
     <resources>

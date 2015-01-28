@@ -2,6 +2,24 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Creeds</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Creeds</string>
+			<key>URL</key>
+			<string>http://www.vatican.va/archive/ccc_css/archive/catechism/credo.htm</string>
+		</dict>
+	</array>
+	<key>Fathers</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Ante-Nicene Fathers</string>
+			<key>URL</key>
+			<string>http://en.wikisource.org/wiki/Ante-Nicene_Fathers</string>
+		</dict>
+	</array>
 	<key>Environment</key>
 	<array>
 		<dict>
