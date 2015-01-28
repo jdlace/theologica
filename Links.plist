@@ -19,21 +19,21 @@
 			<key>URL</key>
 			<string>http://en.wikisource.org/wiki/Ante-Nicene_Fathers</string>
 		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Post-Nicene Fathers I</string>
+			<key>URL</key>
+			<string>http://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Post-Nicene Fathers II</string>
+			<key>URL</key>
+			<string>http://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II</string>
+		</dict>
 	</array>
 	<key>Environment</key>
 	<array>
-		<dict>
-			<key>Name</key>
-			<string>Catholic Climate Covenant</string>
-			<key>URL</key>
-			<string>http://catholicclimatecovenant.org</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>World Resources Institutie</string>
-			<key>URL</key>
-			<string>http://www.wri.org</string>
-		</dict>
 		<dict>
 			<key>Name</key>
 			<string>U.N. Environment Program</string>
@@ -45,6 +45,12 @@
 			<string>NASA Earth Observer</string>
 			<key>URL</key>
 			<string>http://www.nasa.gov/topics/earth/index.html</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>World Resources Institutie</string>
+			<key>URL</key>
+			<string>http://www.wri.org</string>
 		</dict>
 		<dict>
 			<key>Name</key>
@@ -63,15 +69,21 @@
 	<array>
 		<dict>
 			<key>Name</key>
+			<string>The Economist</string>
+			<key>URL</key>
+			<string>http://www.economist.com</string>
+		</dict>
+		<dict>
+			<key>Name</key>
 			<string>Bureau of Economic Analysis</string>
 			<key>URL</key>
 			<string>http://www.bea.gov</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>The Economist</string>
+			<string>NYT Economics News</string>
 			<key>URL</key>
-			<string>http://www.economist.com</string>
+			<string>http://www.nytimes.com/pages/business/economy/index.html</string>
 		</dict>
 	</array>
 	<key>Politics</key>
@@ -111,12 +123,6 @@
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>Vatican News</string>
-			<key>URL</key>
-			<string>http://www.news.va/en</string>
-		</dict>
-		<dict>
-			<key>Name</key>
 			<string>U.S. Bishops</string>
 			<key>URL</key>
 			<string>http://www.usccb.org</string>
@@ -132,21 +138,21 @@
 	<array>
 		<dict>
 			<key>Name</key>
-			<string>OT Gateway</string>
+			<string>Oxford Biblical Studies</string>
 			<key>URL</key>
-			<string>http://www.otgateway.com</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>NT Gateway</string>
-			<key>URL</key>
-			<string>http://www.ntgateway.com</string>
+			<string>http://www.oxfordbiblicalstudies.com</string>
 		</dict>
 		<dict>
 			<key>Name</key>
 			<string>BibleHub</string>
 			<key>URL</key>
 			<string>http://biblehub.com</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>NT Gateway</string>
+			<key>URL</key>
+			<string>http://www.ntgateway.com</string>
 		</dict>
 		<dict>
 			<key>Name</key>
@@ -168,7 +174,7 @@
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>New American Standard Bible</string>
+			<string>English Bibles</string>
 			<key>URL</key>
 			<string>https://www.bible.com/bible/463/gen.1.nabre</string>
 		</dict>
@@ -184,18 +190,12 @@
 			<key>URL</key>
 			<string>http://www.biblicalarchaeology.org</string>
 		</dict>
-		<dict>
-			<key>Name</key>
-			<string>Oxford Biblical Studies</string>
-			<key>URL</key>
-			<string>http://www.oxfordbiblicalstudies.com</string>
-		</dict>
 	</array>
 	<key>Councils</key>
 	<array>
 		<dict>
 			<key>Name</key>
-			<string>Vatican II Voice</string>
+			<string>Vatican II Analysis</string>
 			<key>URL</key>
 			<string>http://www.vatican2voice.org</string>
 		</dict>
@@ -210,9 +210,15 @@
 	<array>
 		<dict>
 			<key>Name</key>
-			<string>Liturgical Calendar</string>
+			<string>Mass Readings</string>
 			<key>URL</key>
-			<string>http://www.universalis.com/calendar.htm</string>
+			<string>http://www.universalis.com/mass.htm</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Office of Readings</string>
+			<key>URL</key>
+			<string>http://www.universalis.com/readings.htm</string>
 		</dict>
 		<dict>
 			<key>Name</key>
@@ -228,19 +234,31 @@
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>Office of Readings</string>
+			<string>Liturgical Calendar</string>
 			<key>URL</key>
-			<string>http://www.universalis.com/readings.htm</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>Mass Readings</string>
-			<key>URL</key>
-			<string>http://www.universalis.com/mass.htm</string>
+			<string>http://www.universalis.com/calendar.htm</string>
 		</dict>
 	</array>
 	<key>Theology</key>
 	<array>
+		<dict>
+			<key>Name</key>
+			<string>Communion and Stewardship</string>
+			<key>URL</key>
+			<string>http://www.vatican.va/roman_curia/congregations/cfaith/cti_documents/rc_con_cfaith_doc_20040723_communion-stewardship_en.html</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Modern Physics and Creation</string>
+			<key>URL</key>
+			<string>http://vimeo.com/35972542</string>
+		</dict>
+		<dict>
+			<key>URL</key>
+			<string>http://vimeo.com/35718571</string>
+			<key>Name</key>
+			<string>Theology and the Big Bang </string>
+		</dict>
 		<dict>
 			<key>Name</key>
 			<string>Catholic Climate Covenant</string>
@@ -253,38 +271,20 @@
 			<key>URL</key>
 			<string>http://catholicmoraltheology.com</string>
 		</dict>
-		<dict>
-			<key>Name</key>
-			<string>Communion and Stewardship</string>
-			<key>URL</key>
-			<string>http://www.vatican.va/roman_curia/congregations/cfaith/cti_documents/rc_con_cfaith_doc_20040723_communion-stewardship_en.html</string>
-		</dict>
 	</array>
 	<key>Science</key>
 	<array>
 		<dict>
 			<key>Name</key>
-			<string>NYT Science News</string>
-			<key>URL</key>
-			<string>http://www.nytimes.com/pages/science/index.html</string>
-		</dict>
-		<dict>
-			<key>URL</key>
-			<string>http://vimeo.com/35718571</string>
-			<key>Name</key>
-			<string>Theology and the Big Bang </string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>Modern Physics and Creation</string>
-			<key>URL</key>
-			<string>http://vimeo.com/35972542</string>
-		</dict>
-		<dict>
-			<key>Name</key>
 			<string>National Science Foundation</string>
 			<key>URL</key>
 			<string>http://www.nsf.gov</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>NYT Science News</string>
+			<key>URL</key>
+			<string>http://www.nytimes.com/pages/science/index.html</string>
 		</dict>
 	</array>
 	<key>Arts</key>
@@ -309,12 +309,6 @@
 			<string>Wired</string>
 			<key>URL</key>
 			<string>http://www.wired.com</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>Techrament</string>
-			<key>URL</key>
-			<string>http://techrament.com</string>
 		</dict>
 		<dict>
 			<key>Name</key>

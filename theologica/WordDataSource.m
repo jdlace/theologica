@@ -153,7 +153,7 @@
     Word *apocrypha = [[Word alloc] init];
     apocrypha.name = @"Apocrypha";
     apocrypha.twitterDef = @"the Greek term for “hidden things”";
-    apocrypha.definition = @"a Protestant term for the 7 Old Testament books not found in the Protestant canon; Baruch, Judith, 1st and 2nd Maccabees, Sirach, Tobit, Wisdom - from the Greek word for “hidden”.\r\rWikipedia, “Apocrypha”\rhttp://tinyurl.com/bddlr";
+    apocrypha.definition = @"Apocrypha is the Protestant term for the 7 Old Testament books not found in the Protestant canon; Baruch, Judith, 1st and 2nd Maccabees, Sirach, Tobit, Wisdom - from the Greek word for “hidden”.\r\rWikipedia, “Apocrypha”\rhttp://tinyurl.com/bddlr";
     apocrypha.category = @"Biblical";
     
     Word *apodictic = [[Word alloc] init];
@@ -522,13 +522,13 @@
     Word *baptism = [[Word alloc] init];
     baptism.name = @"Baptism";
     baptism.twitterDef = @"the Sacrament of Initiation into the Church in which faith is professed and sins are forgiven";
-    baptism.definition = @"Baptism is a practice which Christianity inherited from the Jewish practice of the Mikvah, or ceremonial washing in Second Temple Period. John the Baptist practiced a derivation of this in his ministry, of which Jesus of Nazareth was a follower for some period of time. According to the book of Acts, John's baptism was still being practiced concurrently with Christian baptism. In the Sacrament of Baptism, faith is professed and sins are forgiven.\r\rCatechism of the Catholic Church, 1213\rhttp://tinyurl.com/ykqqof";
+    baptism.definition = @"Baptism is a practice which Christianity inherited from the Jewish practice of the Mikvah, or ceremonial washing in Second Temple Period. John the Baptist practiced a derivation of this in his ministry, of which Jesus of Nazareth was a follower for some period of time. According to the book of Acts, John's baptism was still being practiced concurrently with Christian baptism. Baptism, along with Eucharist, is a Christian practice dating back to the earliest days of the Church. According to the consistent tradition of the Church, Baptism removes the stain of Original Sin, forgives actual sins, and brings about a spiritual rebirth.\r\rCatechism of the Catholic Church, 1213\rhttp://tinyurl.com/ykqqof";
     baptism.category = @"Systematic";
     
     Word *blasphemy = [[Word alloc] init];
     blasphemy.name = @"Blasphemy";
-    blasphemy.twitterDef = @"a form of religious slander.";
-    blasphemy.definition = @"A form of religious slander.\r\rCatechism of the Catholic Church, 2148\rhttp://tinyurl.com/bczm8h7";
+    blasphemy.twitterDef = @"a form of religious slander";
+    blasphemy.definition = @" form of religious slander.\r\rCatechism of the Catholic Church, 2148\rhttp://tinyurl.com/bczm8h7";
     blasphemy.category = @"Systematic";
     
     Word *baptistry = [[Word alloc] init];
@@ -540,43 +540,43 @@
     Word *basillica = [[Word alloc] init];
     basillica.name = @"Basilica";
     basillica.twitterDef = @"a church in which the diocescan bishop presides";
-    basillica.definition = @"The Church inherited basilicas from the Roman Imperial administrative system. Literally meaning “house of the king”, these buildings were essentially courthouses in which Roman administrators would hear cases.";
+    basillica.definition = @"The Church inherited basilicas from the Roman Imperial administrative system. Literally meaning “house of the king”, these buildings were essentially courthouses in which Roman administrators would hear cases.\r\rWikipedia, “Basilica”";
     basillica.category = @"Liturgical";
     
     Word *benedictus = [[Word alloc] init];
     benedictus.name = @"Benedictus";
-    benedictus.twitterDef = @"the prayer of Simeon contained within the gospel of Luke 2:29-32";
-    benedictus.definition = @"The Benedictus is a part of the Liturgy of the Hours.";
+    benedictus.twitterDef = @"the Canticle (Song) of Zechariah contained within the Gospel of Luke 1:68-79";
+    benedictus.definition = @"This song is recorded as the extemporaneous prayer of Zechariah on the occassion of the birth of his son, John the Baptist. The Benedictus is a part of Morning Prayer in the Liturgy of the Hours.\rWikipedia, “Benedictus”\rhttp://tinyurl.com/nvdk23a";
     benedictus.category = @"Liturgical";
     
     Word *bishop = [[Word alloc] init];
     bishop.name = @"Bishop";
-    bishop.twitterDef = @"the third order of clergy;\rone who presides over a diocese";
-    bishop.definition = @"from the Greek “episcopos” (overseer) - the third order of clerics in the Catholic tradition; one who presides over a diocese.";
+    bishop.twitterDef = @"a successor to the Apostles who oversees a particular diocese";
+    bishop.definition = @"The office of Bishop - from the Greek επισκοπος (episcopos) “overseer” - is the third order of clerics in the Catholic tradition. In the New Testament, Paul speaks of bishops in the church at Philippi together with deacons. In the second century there seems to have been a further development of the office. Local presbyters elected one of their own to a leadership position. This is reflected in the letters of Ignatius of Antioch (ca. A.D. 110). This form of having one bishop presiding over a local church, (known as “monoepiscopacy”) became the norm in every church by the end of the third century. Bishops were later attached to larger areas of churches known as dioceses, which were Roman Imperial adminstrative distrcts set up by the Emperor Diocletian. After the legalization of Christianity, the Church inherited these districts in its own administration. See “Monoepiscopacy”.\r\rCatechism of the Catholic Church\rhttp://tinyurl.com/m65ttaf";
     bishop.category = @"Systematic";
     
     Word *baal = [[Word alloc]  init];
     baal.name = @"Ba'al";
-    baal.twitterDef = @"the son of El and most active of the gods in Canannite mythology, ";
-    baal.definition = @"According to to 2 Kings 23:4 an image of Ba'al was housed in the Temple before Josiah's Deuternomic reform.";
+    baal.twitterDef = @"the son of El and most active of the gods in Canannite mythology";
+    baal.definition = @"Ba'al is a Semitic word for “Ruler”, “Husband”, or “Lord”. It became synonymous with a very popular Canaanite deity who was worshipped by ancient Israelites. According to to 2 Kings 23:4 an image of Ba'al was housed in the Temple before Josiah's Deuternomic reform.\r\rWikipedia, Ba'al\rhttp://tinyurl.com/ljhlb";
     baal.category = @"Biblical";
     
     Word *babel = [[Word alloc] init];
     babel.name = @"Babel";
     babel.twitterDef = @"the Hebrew word for “confusion”";
-    babel.definition = @"The Hebrew word for “confusion”; named for Tower eitiology in Gen. 11.";
+    babel.definition = @"This word is given to the mythical Tower in the eitiology of Gen. 11. That story explains both how human language became divided as well as the geographic distribution of human populations.\r\rCatechism of the Catholic Church, 57\rhttp://tinyurl.com/k6ljesq";
     babel.category = @"Biblical";
     
     Word *babylon = [[Word alloc] init];
     babylon.name = @"Babylon";
-    babylon.twitterDef = @"the empire that conquered the southern kingdom of Judah in 587 BCE.";
-    babylon.definition = @"The empire that conquered the southern kingdom of Judah in 587 BCE.";
+    babylon.twitterDef = @"the empire that conquered the southern kingdom of Judah in 587 B.C.";
+    babylon.definition = @"The Babylonians destroyed the Temple and took most of the residents of Jerusalem captive to Babylon, where they remained for 50 years.\r\rOxford Biblical Studies, “Babylon” \rhttp://tinyurl.com/q7fujw5";
     babylon.category = @"Biblical";
     
     Word *ban = [[Word alloc] init];
     ban.name = @"Ban";
-    ban.twitterDef = @"the ancient Israelite practice of the wholesale destruction of a people and their environment";
-    ban.definition = @"The ancient Israelite practice of the wholesale destruction of a people and their environment";
+    ban.twitterDef = @"the ancient Israelite practice of dedicating certain possessions to YHWH by destruction";
+    ban.definition = @"When victorious over its enemies, Israel was to place certain possessions under the Ban and completely destroy them in order to devote them anew to YHWH. Such is the case in Joshua 6 and 1 Samuel 15. Modern critics see this practice as tantamount to an ancient form of theologically-justified genocide. See “YHWH”.\r\rOxford Biblical Studies, “Ban”\rhttp://tinyurl.com/lhwe4mo";
     ban.category = @"Biblical";
     
     Word *bigbang = [[Word alloc] init];

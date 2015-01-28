@@ -64,7 +64,7 @@
 - (IBAction)share:(UIBarButtonItem *)sender
 {
     NSArray *activityItems;
-    activityItems = @[_currentWordDetail.name, _currentWordDetail.twitterDef, @"#theologica"];
+    activityItems = @[_currentWordDetail.name, _currentWordDetail.twitterDef];
     
     //NSArray *activityActions;
     
