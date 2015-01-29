@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="4">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
         <!--Tab Bar Controller-->
@@ -421,7 +421,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="puP-se-oj8">
                         <nil key="title"/>
-                        <barButtonItem key="backBarButtonItem" title="Terms" id="TeJ-ib-7ab"/>
+                        <barButtonItem key="backBarButtonItem" title="Glossary" id="TeJ-ib-7ab"/>
                         <barButtonItem key="leftBarButtonItem" title="Terms" style="plain" id="LEf-Yw-Fka">
                             <connections>
                                 <action selector="typeButton:" destination="oZ5-nE-rQe" id="iGs-j9-C0a"/>
@@ -431,7 +431,7 @@
                             <rect key="frame" x="79" y="5" width="162" height="35"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
-                            <state key="normal" title="Dictionary">
+                            <state key="normal" title="Glossary">
                                 <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </state>
                             <state key="highlighted" image="appicon2.png"/>
@@ -654,11 +654,11 @@
             </objects>
             <point key="canvasLocation" x="-202" y="-457"/>
         </scene>
-        <!--Dictionary-->
+        <!--Glossary-->
         <scene sceneID="fAn-dN-fqo">
             <objects>
                 <navigationController definesPresentationContext="YES" id="3ZE-jz-AIY" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Dictionary" image="server-mini" id="ADP-i6-dTj">
+                    <tabBarItem key="tabBarItem" title="Glossary" image="server-mini" id="ADP-i6-dTj">
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
                     </tabBarItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
