@@ -42,9 +42,9 @@
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>NASA Earth Observer</string>
+			<string>E.P.A.</string>
 			<key>URL</key>
-			<string>http://www.nasa.gov/topics/earth/index.html</string>
+			<string>http://m.epa.gov</string>
 		</dict>
 		<dict>
 			<key>Name</key>

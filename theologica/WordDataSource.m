@@ -582,13 +582,13 @@
     Word *bigbang = [[Word alloc] init];
     bigbang.name = @"Big Bang Theory";
     bigbang.twitterDef = @"the theory that the Universe expanded from an infinite singularity of space, time, matter, and energy";
-    bigbang.definition = @"The cosmological theory, first developed by Fr. George Lemaitre, that claims that the Universe began at an infintely small and dense point of matter, energy, space, and time which then expanded over the course of time to become the observable cosmos we see today. See 'Creation' in 'Systematic'.";
+    bigbang.definition = @"The cosmological theory, first developed by Fr. George Lemaitre, that claims that the Universe began at an infintely small and dense point of matter, energy, space, and time which then expanded over the course of time to become the observable cosmos we see today. See “Creation”\r\rWikipedia, “Big Bang”\rhttp://tinyurl.com/9nq4k";
     bigbang.category = @"Cultural";
     
     Word *buddhism = [[Word alloc] init];
     buddhism.name = @"Buddhism";
-    buddhism.twitterDef = @"the philosophy and religion based on the teachings of Siddartha...";
-    buddhism.definition = @"The philosophy and religion based on the teachings of Siddartha...";
+    buddhism.twitterDef = @"the philosophy and religion based on the teachings of Siddartha Gotama (ca. 500 B.C.)";
+    buddhism.definition = @"Buddhism is based on the teachings after Siddartha's awakening. He taught the Four Noble Truths:\r\r1. Life is Suffering.\r2. Attachement is the root of suffering.\r3. Suffering can be overcome.\r4. The Eightfold Path.\r\rBuddhism has had increasing contact with Christianity over the last 100 years. Perhaps the most famous point of intersection was between the Trappist monk, Thomas Merton and the Dalai Lama in 1968. Buddhism claims to be offer a lifestyle that can be adapted to anu religion, although this is contested due to some of its claims.\r\rBuddhnet, “Basic Buddhism”\rhttp://tinyurl.com/69cl";
     buddhism.category  = @"Cultural";
 
     
@@ -601,7 +601,7 @@
     Word *bible = [[Word alloc] init];
     bible.name = @"Bible";
     bible.twitterDef = @"the collection of the Old and New Testaments";
-    bible.definition = @"The collection of the Old and New Testaments regarded as canonical and inspired within Catholicism. From the Greek word βιβλος (biblos) - “scroll”.";
+    bible.definition = @"The collection of the Old and New Testaments regarded as canonical and inspired within Catholicism. From the Greek word βιβλος (biblos) - “scroll”. Historically, the Catholic canon of Scripture has included the Deuterocanonical books while Protestant bibles have excluded them. See ”Sacred Scripture” in the Overview tab.\r\r";
     bible.category = @"Biblical";
     
     //Word *biblicalCriticism = [[Word alloc] init];
@@ -609,21 +609,21 @@
     //biblicalCriticism.definition = @"The process of discovering what can be known about the context of any biblical book or passage in order to understand its original meaning.";
     //biblicalCriticism.category = @"Biblical";
     
-    Word *bethel = [[Word alloc] init];
-    bethel.name = @"Beth-El";
-    bethel.twitterDef = @"a sacred site within the patriarchal story cycles in Genesis";
-    bethel.definition = @"A sacred site within the patriarchal story cycles in Genesis - from the Hebrew for “House of El”.";
-    bethel.category = @"Biblical";
+    //Word *bethel = [[Word alloc] init];
+    //bethel.name = @"Beth-El";
+    //bethel.twitterDef = @"a sacred site within the patriarchal story cycles in Genesis";
+    //bethel.definition = @"Bethel is a Hebrew word meaning “House of El”. It is a prominent site in the Old Testament in both the periods of the Patriarchs and the Monarchy.";
+    //bethel.category = @"Biblical";
     
      
-     [_dataArray addObjectsFromArray:@[baal, babel, babylon, ban, baptism, baptistry, basillica, benedictus, beneficence, benefit, bethel, bible, bigbang, bioethics, bishop, blasphemy, buddhism]];
+     [_dataArray addObjectsFromArray:@[baal, babel, babylon, ban, baptism, baptistry, basillica, benedictus, beneficence, benefit, bible, bigbang, bioethics, bishop, blasphemy, buddhism]];
     
     //C
     
     Word *casuistry = [[Word alloc] init];
-    casuistry.name = @"Casuistry";
-    casuistry.twitterDef = @"the study of case law";
-    casuistry.definition = @"the study of case law";
+    casuistry.name = @"Casuistic";
+    casuistry.twitterDef = @"a type of law derived from individual cases rather than universal norms";
+    casuistry.definition = @"Casuistic law is contrasted with apodictic law. The latter is exemplified by the 10 Commandments, while the former is found in the Covenant Code of Exodus 21-23.\r\rWikipedia, “Casuistry”\rhttp://tinyurl.com/2pntmh";
     casuistry.category = @"Moral";
     
     Word *catholicsocialteaching = [[Word alloc]init];
@@ -634,92 +634,92 @@
     
     Word *commutativejustice = [[Word alloc]init];
     commutativejustice.name = @"Commutative Justice";
-    commutativejustice.twitterDef = @"one of the three aspects of justice which emphasizes obligations between individuals.";
-    commutativejustice.definition = @"the type of justice which emphasizes obligations between individuals\r\rSee Catechism of the Catholic Church, 2411. link:";
+    commutativejustice.twitterDef = @"one of the three aspects of justice which emphasizes obligations between individuals";
+    commutativejustice.definition = @"the type of justice which emphasizes obligations between individuals\r\rCatechism of the Catholic Church, 2411\rhttp://tinyurl.com/6y3q4";
     commutativejustice.category = @"Moral";
     
     Word *contributivejustice = [[Word alloc]init];
     contributivejustice.name = @"Contributive Justice";
-    contributivejustice.twitterDef = @"one of the three aspects of justice that emphasizes the obligation of individuals toward society.";
-    contributivejustice.definition = @"One of the three aspects of justice which emphasizes the obligation of individuals toward society.\r\rSee Catechism of the Catholic Church, ";
+    contributivejustice.twitterDef = @"one of the three aspects of justice that emphasizes the obligation of individuals toward society";
+    contributivejustice.definition = @"Contributive justice is met when the individual fulfills his responsbilities to the larger society.\r\rUnited States Conference of Catholic Bishops, “Economic Justice For All”, II.b.1.b\rhttp://tinyurl.com/75hnlx3";
     contributivejustice.category = @"Moral";
     
     Word *canon = [[Word alloc] init];
     canon.name = @"Canon";
-    canon.twitterDef = @"the Greek word meaning “measuring stick” that refers to the Bible";
-    canon.definition = @"The Greek word (κανον) is used metaphorically to refer to a standard or criterion regarded as authoritative within a community. The Bible is referred to as the canon of the Scriptures. \r\rSee Catechism of the Catholic Church, 101. http://www.vatican.va/archive/ccc_css/archive/catechism/p1s1c2a3.htm. \r\rAlso see Pontifical Biblical Commission, “The Interpretation of the Bible in the Church, III.B”. http://catholic-resources.org/ChurchDocs/PBC_Interp-FullText.htm ";
+    canon.twitterDef = @"the Greek word meaning “measuring stick”";
+    canon.definition = @"The Greek word κανον (canon) is used metaphorically to refer to a standard or criterion regarded as authoritative within a community. Saints are canonized by the Church as standards by which Catholics may judge their lives. The Bible is referred to as the canon of the Scriptures that provide criteria for faith and practice. See “Sacred Scripture” in the Overview tab.\r\rCatechism of the Catholic Church, 120. http://tinyurl.com/kvc3tvq\rPontifical Biblical Commission, “The Interpretation of the Bible in the Church, III.B”\rhttp://tinyurl.com/2gb5dm ";
     canon.category = @"Systematic";
     
     Word *catholicity = [[Word alloc] init];
     catholicity.name = @"Catholicity";
     catholicity.twitterDef = @"the quality of being universal in scope";
-    catholicity.definition = @"The quality of being universal in scope; one of the four marks of the Church.";
+    catholicity.definition = @"The quality of being universal in scope; one of the four marks of the Church.\r\rCatechism of the Catholic Church, 830\rhttp://tinyurl.com/c5m8w5j";
     catholicity.category = @"Systematic";
     
     Word *Christ = [[Word alloc] init];
     Christ.name = @"Christ";
     Christ.twitterDef = @"the Greek word meaning “annointed one”";
-    Christ.definition = @"The title given to Jesus of Nazareth by early Christians - from the Greek word χριστος (christos) - “annointed one”. \r\rSee Catechism of the Catholic Church, 436. http://www.vatican.va/archive/ccc_css/archive/catechism/p1s2c2a2.htm";
+    Christ.definition = @"The title given to Jesus of Nazareth by early Christians - from the Greek word χριστος (christos) - “annointed one”.\r\rCatechism of the Catholic Church, 436\rhttp://tinyurl.com/neqlbg7";
     Christ.category = @"Systematic";
     
     Word *christOfFaith = [[Word alloc] init];
     christOfFaith.name = @"Christ of Faith";
-    christOfFaith.twitterDef = @"the term for the risen Jesus that emphasizes discontinuity with his earthly life";
-    christOfFaith.definition = @"The term applied to the risen Jesus that emphasized the discontinuity with his earthly form of existence";
+    christOfFaith.twitterDef = @"the term for the risen Jesus that emphasizes his glorified existence";
+    christOfFaith.definition = @"The term Christ of Faith is often contrasted with the Jesus of History...";
     christOfFaith.category = @"Systematic";
     
     Word *Christology = [[Word alloc] init];
     Christology.name = @"Christology";
     Christology.twitterDef = @"the study of the person and nature of Christ.";
-    Christology.definition = @"The study of the person and nature of Christ.";
+    Christology.definition = @"Christology is a subset of Systematics and takes as its point of departure the Chalcedonian definition of the two natures and hypostatic union in Jesus.\r\rWikipedia, “Christology”\rhttp://tinyurl.com/2b79fj";
     Christology.category = @"Systematic";
     
     Word *church = [[Word alloc] init];
     church.name = @"Church";
     church.twitterDef = @"the community centered on the belief that Jesus of Nazraeth is the divine Savior of the world";
-    church.definition = @"The community belonging to the Lord; the people of God; the community centered on the belief that Jesus of Nazraeth is the divine Savior of the world.";
+    church.definition = @"The community belonging to the Lord; the people of God; the community centered on the belief that Jesus of Nazraeth is the divine Savior of the world.\r\rCatechism of the Catholic Church, 751\rhttp://tinyurl.com/ojrdr53";
     church.category = @"Systematic";
     
     Word *communicatio = [[Word alloc] init];
     communicatio.name = @"Communicatio Idiomatum";
-    communicatio.twitterDef = @"a Latin phrase that refers to the inter-communication of the divine and human natures in the person of Jesus.";
-    communicatio.definition = @"A Latin phrase that refers to the inter-communication of the divine and human natures in the person of Jesus.";
+    communicatio.twitterDef = @"a Latin phrase describing the communication between Christ's divine and human natures";
+    communicatio.definition = @"The idea of the Communicatio Idiomatum means that the properties of the human Jesus can also be predicated of the Logos and vice versa.\r\rNew Advent, “Communicatio Idiomatum”\rhttp://tinyurl.com/nqusf6m";
     communicatio.category = @"Systematic";
     
     Word *communion = [[Word alloc] init];
     communion.name = @"Communion of Saints";
     communion.twitterDef = @"the unity among believers that exists in Christ...";
-    communion.definition = @"The unity among believers that exists in Christ...";
+    communion.definition = @"The unity among believers that exists in Christ.\r\rCatechism of the Catholic Church, 946\rhttp://tinyurl.com/pkxuudx";
     communion.category = @"Systematic";
 
     Word *confession = [[Word alloc] init];
     confession.name = @"Confession";
     confession.twitterDef = @"the sacrament of reconciliation...";
-    confession.definition = @"The sacrament of reconciliation... \r\rSee Catechism of the Catholic Church, 1424. http://www.vatican.va/archive/ccc_css/archive/catechism/p2s2c2a4.htm";
+    confession.definition = @"The sacrament of reconciliation...\r\rCatechism of the Catholic Church, 1424\r http://tinyurl.com/l7xon9e";
     confession.category = @"Systematic";
     
     Word *confirmation = [[Word alloc] init];
     confirmation.name = @"Confirmation";
     confirmation.twitterDef = @"the sacrament of reception of the Holy Spirit in which....";
-    confirmation.definition = @"The sacrament of reception of the Holy Spirit in which.... \r\rSee Catechism of the Catholic Church, 1285. http://www.vatican.va/archive/ccc_css/archive/catechism/p2s2c1a2.htm";
+    confirmation.definition = @"The sacrament of reception of the Holy Spirit in which.... \r\rCatechism of the Catholic Church, 1285\rhttp://tinyurl.com/lcgw5p7";
     confirmation.category = @"Systematic";
     
     Word *conversion = [[Word alloc]init];
     conversion.name = @"Conversion";
     conversion.twitterDef = @"the process of changing one's direction in life...";
-    conversion.definition = @"The process of changing one's direction in life...";
+    conversion.definition = @"The process of changing one's direction in life.\r\rCatechism of the Catholic Church, 1989\rhttp://tinyurl.com/yaua7cc";
     conversion.category = @"Systematic";
     
     Word *cosmological = [[Word alloc] init];
     cosmological.name = @"Cosmological Argument";
     cosmological.twitterDef = @"one of the classical arguments for God's existence, based on Aristotle's First Cause argument.";
-    cosmological.definition = @"One of the classical arguments for the existence of God, based on the First Cause argument. \r\rSee Stanford Encyclopedia of Philosophy, “Cosmological Argument”. http://plato.stanford.edu/entries/cosmological-argument/. \r\rThomas Aquinas, Summa Theologica, ST, Ia, q. 2 a. 3 co. http://www.fordham.edu/halsall/source/aquinas3.asp";
+    cosmological.definition = @"One of the classical arguments for the existence of God, based on the First Cause argument.\r\rSee Stanford Encyclopedia of Philosophy, “Cosmological Argument”. http://plato.stanford.edu/entries/cosmological-argument/. \r\rThomas Aquinas, Summa Theologica, ST, Ia, q. 2 a. 3 co. http://www.fordham.edu/halsall/source/aquinas3.asp";
     cosmological.category = @"Systematic";
     
     Word *creation = [[Word alloc] init];
     creation.name = @"Creation";
     creation.twitterDef = @"the Universe...";
-    creation.definition = @"The universe...";
+    creation.definition = @"The universe.\r\rCatechism of the Catholic Church, 280\rhttp://tinyurl.com/6kvj6";
     creation.category = @"Systematic";
     
     Word *creationism = [[Word alloc] init];
@@ -731,7 +731,7 @@
     Word *creed = [[Word alloc] init];
     creed.name = @"Creed";
     creed.twitterDef = @"a statement of faith or belief";
-    creed.definition = @"The Latin word (credo) meaning “I believe” - a statement of belief; used to refer to the historical creeds of the Church, most notably the Apostle's and Nicene creed. \r\rSee Catechism of the Catholic Church, 187. http://www.vatican.va/archive/ccc_css/archive/catechism/p1s2.htm";
+    creed.definition = @"The Latin word (credo) meaning “I believe” - a statement of belief; used to refer to the historical creeds of the Church, most notably the Apostle's and Nicene creed.\r\rSee Catechism of the Catholic Church, 187\rhttp://tinyurl.com/mo3f24x";
     creed.category = @"Systematic";
     
     Word *callNarrative = [[Word alloc] init];
@@ -761,7 +761,7 @@
     Word *covenant = [[Word alloc] init];
     covenant.name = @"Covenant";
     covenant.twitterDef = @"a sacred contract or agreement";
-    covenant.definition = @"A sacred contract or agreement - used to refer to the relationship between YHWH and Israel in the Old Testament and between God and humanity in the New Testament.";
+    covenant.definition = @"Covenants are used throughout the Bible. They refer to the relationship between YHWH and Noah and all living creatures in Genesis 9; between God and Abraham in Genesis 15 and 17; between YHWH and all Israel in Exodus 25; and between God and humanity in the Gospels.\r\rCatechism of the Catholic Church, 56, 59, 62, 73\rhttp://tinyurl.com/pesbbq3";
     covenant.category = @"Biblical";
     
     Word *churchstate = [[Word alloc] init];
@@ -785,7 +785,7 @@
     Word *compatibilism = [[Word alloc] init];
     compatibilism.name = @"Compatiblism";
     compatibilism.twitterDef = @"the belief that human freedom is compatible with deterministic elements of human experience.";
-    compatibilism.definition = @"The belief that human freedom is compatible with deterministic elements of human experience. \r\rSee Standford Encyclopedia of Philosophy, “Compatibilism”. http://plato.stanford.edu/entries/compatibilism/.";
+    compatibilism.definition = @"The belief that human freedom is compatible with deterministic elements of human experience.\r\rStandford Encyclopedia of Philosophy, “Compatibilism”\rhttp://tinyurl.com/l3aj5j.";
     compatibilism.category = @"Cultural";
     
     Word *council = [[Word alloc] init];
@@ -797,7 +797,7 @@
     Word *cybertheology = [[Word alloc] init];
     cybertheology.name = @"Cybertheology";
     cybertheology.twitterDef = @"the intelligence of faith in the era of the Internet and World Wide Web";
-    cybertheology.definition = @"According to Fr. Antonio Spadaro, S.J., the term “cybertheology” refers to the intelligence of faith in the era of the Internet and World Wide Web, which arises from the recognition that, as technology changes ways of thinking, theology necessarily changes as well.\r\rhttps://twitter.com/cybertheology\r\rhttp://www.amazon.com/Cybertheology-Thinking-Christianity-Era-Internet/dp/0823257002";
+    cybertheology.definition = @"According to Fr. Antonio Spadaro, S.J., the term “cybertheology” refers to the intelligence of faith in the era of the Internet and World Wide Web, which arises from the recognition that, as technology changes ways of thinking, theology necessarily changes as well.\r\rAmazon, “Cybertheology”\rhttp://tinyurl.com/kznfyw9";
     cybertheology.category = @"Systematic";
     
     [_dataArray addObjectsFromArray:@[callNarrative, canon, casuistry, catholicity, catholicsocialteaching, circumcision, charism, christOfFaith, Christology, church, churchstate, codex, colonialism, commongood, communicatio, commutativejustice, compatibilism, confession, confirmation, contributivejustice, conversion, cosmological, council, covenant, creation, creationism, creed, cybertheology]];
