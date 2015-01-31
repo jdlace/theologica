@@ -117,7 +117,7 @@
     Word *abba = [[Word alloc] init];
     abba.name = @"Abba";
     abba.twitterDef = @"the Aramaic word meaning\r“Daddy”";
-    abba.definition = @"This term was by Jesus in prayer to God according to the gospels. Paul claims that Christians also use the term because of their filial adoption; “Because you are sons, God has sent the Spirit of his Son into our hearts, crying, 'Abba! Father!'” (Gal 4:6)\r\rFurther Reference:\rCatechism of the Catholic Church, 683\rhttp://tinyurl.com/pqxxm8l";
+    abba.definition = @"This term was by Jesus in prayer to God according to the gospels. Paul claims that Christians also use the term because of their filial adoption; “Because you are sons, God has sent the Spirit of his Son into our hearts, crying, “Abba! Father!” See “Adoption”. (Gal 4:6)\r\rFurther Reference:\rCatechism of the Catholic Church, 683\rhttp://tinyurl.com/pqxxm8l";
     abba.category = @"Biblical";
     
     Word *adonai = [[Word alloc] init];
@@ -147,13 +147,13 @@
     Word *apocalypse = [[Word alloc] init];
     apocalypse.name = @"Apocalypse";
     apocalypse.twitterDef = @"the Greek word meaning\r“unveiling”";
-    apocalypse.definition = @"1. The revelation of something previously hidden, used by Paul to refer to his experience of the risen Jesus. 2. The name of the last book of the New Testament - from the Greek word αποκαλυπσις (apokalypsis) - “unveiling”.\r\rFurther Reference:\rCatechism of the Catholic Church, 120\rhttp://tinyurl.com/kvc3tvq";
+    apocalypse.definition = @"1. The revelation of something previously hidden, used by Paul to refer to his experience of the risen Jesus. 2. The name of the last book of the New Testament; from the Greek word αποκαλυπσις (apokalypsis) “unveiling”.\r\rFurther Reference:\rCatechism of the Catholic Church, 120\rhttp://tinyurl.com/kvc3tvq";
     apocalypse.category = @"Biblical";
     
     Word *apocrypha = [[Word alloc] init];
     apocrypha.name = @"Apocrypha";
     apocrypha.twitterDef = @"the Greek word meaning\r“hidden things”";
-    apocrypha.definition = @"Apocrypha is the Protestant term for the 7 Old Testament books not found in the Protestant canon; Baruch, Judith, 1st and 2nd Maccabees, Sirach, Tobit, Wisdom - from the Greek word for “hidden”.\r\rWikipedia, “Apocrypha”\rhttp://tinyurl.com/bddlr";
+    apocrypha.definition = @"Apocrypha is the Protestant term for the 7 Old Testament books not found in the Protestant canon; Baruch, Judith, 1st and 2nd Maccabees, Sirach, Tobit, Wisdom - from the Greek word αποκρυφα “hidden”.\r\rWikipedia, “Apocrypha”\rhttp://tinyurl.com/bddlr";
     apocrypha.category = @"Biblical";
     
     Word *apodictic = [[Word alloc] init];
@@ -171,7 +171,7 @@
     Word *apostle = [[Word alloc] init];
     apostle.name = @"Apostle";
     apostle.twitterDef = @"a disciple personally commissioned by Jesus";
-    apostle.definition = @"The disciples which compirised Jesus' inner cirlce and whom he commissioned to spread the good news of the Kingdom of God; also used by Paul to refer to anyone who had seen the risen Christ - from the Greek word αποστολος (apostolos) - “delegate”.\r\rFurther Reference:\r“Disciples and Apostles in the New Testament” by Felix Just, S.J.\rhttp://tinyurl.com/mzcbt37";
+    apostle.definition = @"The term Apostle is normally used to refer to the Twelve appointed from a larger group of disciples. It is also used by Paul to refer to anyone who had seen the risen Christ; from the Greek word αποστολος (apostolos) “delegate”.\r\rFurther Reference:\r“Disciples and Apostles in the New Testament” by Felix Just, S.J.\rhttp://tinyurl.com/mzcbt37";
     apostle.category = @"Biblical";
     
     Word *aqeda = [[Word alloc] init];
@@ -266,7 +266,7 @@
     Word *agape = [[Word alloc] init];
     agape.name = @"Agape";
     agape.twitterDef = @"the Greek word meaning\r“universal and unconditional love”";
-    agape.definition = @"The gospel writers use this word (αγαπη) to describe Jesus' teaching on the love for God, neighbors and enemies (Matthew 5:44, 22:37, 39). It is used by later New Testament writers to describe the love of God towards humanity as seen in the sacrificial death of Jesus and even the very nature of God. The early Christians also used “agape” to refer to their communal meal after which the Eucharist was celebrated (Jude 1:12).\r\rFurther Reference:\rPope Benedict XVI, “Deus Caritas Est”\rhttp://tinyurl.com/p8ueefs";
+    agape.definition = @"The gospel writers use agape to describe Jesus' teaching on the love for God, neighbors and enemies (Matthew 5:44, 22:37, 39). It is used by later New Testament writers to describe the love of God towards humanity as seen in the sacrificial death of Jesus and even the very nature of God. The early Christians also used “agape” to refer to their communal meal after which the Eucharist was celebrated (Jude 1:12); from the Greek αγαπη.\r\rFurther Reference:\rPope Benedict XVI, “Deus Caritas Est”\rhttp://tinyurl.com/p8ueefs";
     agape.category = @"Moral";
 
     Word *aggiornomento = [[Word alloc] init];
@@ -302,13 +302,13 @@
     Word *apocatastasis = [[Word alloc] init];
     apocatastasis.name = @"Apocatastasis";
     apocatastasis.twitterDef = @"the Greek word meaning\r“the restoration of all things”";
-    apocatastasis.definition = @"This term only occurs in the New Testament in Acts 3:21, wherein Peter refers to the state of creation in the Messianic Age. Later in the Patristic era, Origen used it to the belief that, at the eschaton, God will restore all creation back into full Divine communion.\r\rFurther Reference:\rWikipedia, “Apocatastasis”\rhttp://tinyurl.com/n8txupj";
+    apocatastasis.definition = @"This term only occurs in the New Testament in Acts 3:21, wherein Peter refers to the state of creation in the Messianic Age. Later in the Patristic era, Origen used it to the belief that, at the eschaton, God will restore all creation back into full Divine communion; from the Greek αποκαταστασις.\r\rFurther Reference:\rWikipedia, “Apocatastasis”\rhttp://tinyurl.com/n8txupj";
     apocatastasis.category = @"Systematic";
     
     Word *apologetics = [[Word alloc] init];
     apologetics.name = @"Apologetics";
     apologetics.twitterDef = @"the rational defense of the Christian faith";
-    apologetics.definition = @"The early Christians were compelled to defend authentic Christian faith and practice from ; from the Greek word απολογια (apologia) - “defense”.\r\rFurther Reference:\rWikipedia, “Apologetics”\rhttp://tinyurl.com/cxswly";
+    apologetics.definition = @"The early Christians were compelled to defend authentic Christian faith and practice from ; from the Greek word απολογια (apologia) “defense”.\r\rFurther Reference:\rWikipedia, “Apologetics”\rhttp://tinyurl.com/cxswly";
     apologetics.category = @"Systematic";
     
     Word *apophatic = [[Word alloc] init];
@@ -343,8 +343,8 @@
     
     Word *angusDei = [[Word alloc] init];
     angusDei.name = @"Agnus Dei";
-    angusDei.twitterDef = @"the sequence of Mass that begins 'Lamb of God'";
-    angusDei.definition = @"The sequence of Mass that begins 'Lamb of God' chanted 3 times before the distribution of the Eucharist.\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, “Liturgy of the Eucharist”\rhttp://tinyurl.com/lleofmh";
+    angusDei.twitterDef = @"the sequence of Mass that begins\rwith the phrase “Lamb of God”";
+    angusDei.definition = @"The Agnus Dei is chanted 3 times before the distribution of the Eucharist.\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, “Liturgy of the Eucharist”\rhttp://tinyurl.com/lleofmh";
     angusDei.category = @"Liturgical";
     
     Word *advent = [[Word alloc] init];
@@ -379,14 +379,14 @@
     
     Word *anamnesis = [[Word alloc] init];
     anamnesis.name = @"Anamnesis";
-    anamnesis.twitterDef = @"the Greek Word meaning “rememberance”,\rused to recall the salvific presence of Christ in the Eucharist";
-    anamnesis.definition = @"The Anamnesis is used in the Words of Institution. It is a performative act used to re-present the salvific death and resurrection of Jesus.\r\rFurther Reference:\rCatechism of the Catholic Church, 1103\rhttp://tinyurl.com/oqbzkx3";
+    anamnesis.twitterDef = @"the Greek word meaning\r“lived rememberance”";
+    anamnesis.definition = @"The Anamnesis is used in the Words of Institution. It is a performative act used to re-present the salvific death and resurrection of Jesus. from the Greek αναμνησις.\r\rFurther Reference:\rCatechism of the Catholic Church, 1103\rhttp://tinyurl.com/oqbzkx3";
     anamnesis.category = @"Liturgical";
     
     Word *anaphora = [[Word alloc] init];
     anaphora.name = @"Anaphora";
-    anaphora.twitterDef = @"the Greek word meaning “offering”\rused for the Eucharistic prayer";
-    anaphora.definition = @"The Greek term for 'offering'; the Eucharistic prayer of the Mass.\r\rFurther Reference:\rCatechism of the Catholic Church, 1352\rhttp://tinyurl.com/m88dbjl";
+    anaphora.twitterDef = @"the Greek word meaning\r“offering”";
+    anaphora.definition = @"The Eucharistic prayer of the Mass was referred to as the “Anaphora” at an early stage of liturgical development; from the Greek αναφορα.\r\rFurther Reference:\rCatechism of the Catholic Church, 1352\rhttp://tinyurl.com/m88dbjl";
     anaphora.category = @"Liturgical";
     
     Word *anathema = [[Word alloc] init];
@@ -521,7 +521,7 @@
     
     Word *baptism = [[Word alloc] init];
     baptism.name = @"Baptism";
-    baptism.twitterDef = @"the Sacrament of Initiation into the Church in which faith is professed and sins are forgiven";
+    baptism.twitterDef = @"the Sacrament of Initiation into the Church\rby ritual cleansing with water";
     baptism.definition = @"Baptism is a practice which Christianity inherited from the Jewish practice of the Mikvah, or ceremonial washing in Second Temple Period. John the Baptist practiced a derivation of this in his ministry, of which Jesus of Nazareth was a follower for some period of time. According to the book of Acts, John's baptism was still being practiced concurrently with Christian baptism. Baptism, along with Eucharist, is a Christian practice dating back to the earliest days of the Church. According to the consistent tradition of the Church, Baptism removes the stain of Original Sin, forgives actual sins, and brings about a spiritual rebirth.\r\rFurther Reference:\rCatechism of the Catholic Church, 1213\rhttp://tinyurl.com/ykqqof";
     baptism.category = @"Systematic";
     
@@ -533,7 +533,7 @@
     
     Word *baptistry = [[Word alloc] init];
     baptistry.name = @"Baptistry";
-    baptistry.twitterDef = @"the place within a church used for baptism; usually referred to as a “font”.";
+    baptistry.twitterDef = @"the place within a church used for baptism,\rusually referred to as a “font”";
     baptistry.definition = @"Baptistries are a later development in the Christian tradition. They are connected to the growth of the Church after its more definitive separation from Judaism after A.D. 70.\r\rFurther Reference:\rCatechism of the Catholic Church, 1185\rhttp://tinyurl.com/p9382z5";
     baptistry.category = @"Liturgical";
     
@@ -601,7 +601,7 @@
     Word *bible = [[Word alloc] init];
     bible.name = @"Bible";
     bible.twitterDef = @"the collection of the Old and New Testaments";
-    bible.definition = @"The collection of the Old and New Testaments regarded as canonical and inspired within Catholicism. From the Greek word βιβλος (biblos) - “scroll”. Historically, the Catholic canon of Scripture has included the Deuterocanonical books while Protestant bibles have excluded them. See ”Sacred Scripture” in the Overview tab.\r\rFurther Reference:\r";
+    bible.definition = @"The collection of the Old and New Testaments regarded as canonical and inspired within Catholicism. From the Greek word βιβλος (biblos) - “scroll”. Historically, the Catholic canon of Scripture has included the Deuterocanonical books while Protestant bibles have excluded them. See ”Sacred Scripture” in the Overview tab.\r\rFurther Reference:\rWikipedia, “Catholic Bible”\r";
     bible.category = @"Biblical";
     
     //Word *biblicalCriticism = [[Word alloc] init];
@@ -647,7 +647,7 @@
     Word *canon = [[Word alloc] init];
     canon.name = @"Canon";
     canon.twitterDef = @"the Greek word meaning\r“measuring stick”";
-    canon.definition = @"The Greek word κανον (canon) is used metaphorically to refer to a standard or criterion regarded as authoritative within a community. Saints are canonized by the Church as standards by which Catholics may judge their lives. The Bible is referred to as the canon of the Scriptures that provide criteria for faith and practice. See “Sacred Scripture” in the Overview tab.\r\rFurther Reference:\rCatechism of the Catholic Church, 120. http://tinyurl.com/kvc3tvq\r\rPontifical Biblical Commission, “The Interpretation of the Bible in the Church, III.B” http://tinyurl.com/2gb5dm ";
+    canon.definition = @"Canon is used metaphorically to refer to a standard or criterion regarded as authoritative within a community. Saints are canonized by the Church as standards by which Catholics may judge their lives. The Bible is referred to as the canon of the Scriptures that provide criteria for faith and practice; from the Greek κανον. See “Sacred Scripture” in the Overview tab.\r\rFurther Reference:\rCatechism of the Catholic Church, 120. http://tinyurl.com/kvc3tvq\r\rPontifical Biblical Commission, “The Interpretation of the Bible in the Church, III.B” http://tinyurl.com/2gb5dm ";
     canon.category = @"Systematic";
     
     Word *catholicity = [[Word alloc] init];
@@ -658,8 +658,8 @@
     
     Word *Christ = [[Word alloc] init];
     Christ.name = @"Christ";
-    Christ.twitterDef = @"the Greek word meaning “annointed one”";
-    Christ.definition = @"The title given to Jesus of Nazareth by early Christians - from the Greek word χριστος (christos) - “annointed one”.\r\rFurther Reference:\rCatechism of the Catholic Church, 436\rhttp://tinyurl.com/neqlbg7";
+    Christ.twitterDef = @"a title of Jesus meaning “annointed one”";
+    Christ.definition = @"The title given to Jesus of Nazareth by early Christians; from the Greek χριστος (christos) “annointed one”.\r\rFurther Reference:\rCatechism of the Catholic Church, 436\rhttp://tinyurl.com/neqlbg7";
     Christ.category = @"Systematic";
     
     Word *christOfFaith = [[Word alloc] init];
@@ -676,13 +676,13 @@
     
     Word *church = [[Word alloc] init];
     church.name = @"Church";
-    church.twitterDef = @"the community centered on the belief that Jesus of Nazraeth is the divine Savior of the world";
+    church.twitterDef = @"the community that believes that Jesus of Nazraeth\ris the divine Savior of the world";
     church.definition = @"The community belonging to the Lord; the people of God; the community centered on the belief that Jesus of Nazraeth is the divine Savior of the world.\r\rFurther Reference:\rCatechism of the Catholic Church, 751\rhttp://tinyurl.com/ojrdr53";
     church.category = @"Systematic";
     
     Word *communicatio = [[Word alloc] init];
     communicatio.name = @"Communicatio Idiomatum";
-    communicatio.twitterDef = @"a Latin phrase describing the communication between Christ's divine and human natures";
+    communicatio.twitterDef = @"a Latin phrase describing the interexchange of Christ's divine and human natures";
     communicatio.definition = @"The idea of the Communicatio Idiomatum means that the properties of the human Jesus can also be predicated of the Logos and vice versa.\r\rFurther Reference:\rNew Advent, “Communicatio Idiomatum”\rhttp://tinyurl.com/nqusf6m";
     communicatio.category = @"Systematic";
     
@@ -737,7 +737,7 @@
     Word *callNarrative = [[Word alloc] init];
     callNarrative.name = @"Call Narrative";
     callNarrative.twitterDef = @"a literary form used throughout the Bible in which a person is called by God for a specific task";
-    callNarrative.definition = @"A literary form used throughout the Bible in which a person is called by God for a specific task; consisting of three parts: call, concern, commission. The stories of Moses, Jeremiah, and Isaiah all involve a call narrative.\r\rFurther Reference:\r";
+    callNarrative.definition = @"Call Narratives consist of three parts: call, concern, commission. The stories of Moses, Jeremiah, and Isaiah all involve a call narrative.\r\rFurther Reference:\r";
     callNarrative.category = @"Biblical";
     
     Word *charism = [[Word alloc] init];
@@ -836,7 +836,7 @@
     Word *developmentDoc = [[Word alloc] init];
     developmentDoc.name = @"Development of Doctrine";
     developmentDoc.twitterDef = @"the idea that the teaching of the Church can faithfully develop over time";
-    developmentDoc.definition = @"The concept of the Development of Doctrine is first found in the writings of Vincent of Lerins and later re-emphasized by Cardinal John Henry Newman. More recently, Thomas Guarino has argued that....\r\rFurther Reference:\rJohn Henry Newman, “Essay on the Development of Doctrine”\rhttp://tinyurl.com/n8kpzcc";
+    developmentDoc.definition = @"The concept of the Development of Doctrine is first found in the writings of Vincent of Lerins and later re-emphasized by Cardinal John Henry Newman. The former was cited explicitly by the council fathers at Vatican I. Recently, Thomas Guarino has argued that his lack of representation at Vatican II was the result of a misinterpretation of Vincent's famous claim:\r\r“We hold that which has been believed everywhere, always, and by everyone.”\r\rPope Francis has recently quoted Vincent's ideas in his discussions on abortion and gay marriage.\r\rFurther Reference:\rJohn Henry Newman, “Essay on the Development of Doctrine”\rhttp://tinyurl.com/n8kpzcc\r\rThomas Guarino, “Pope Francis Looks To Vincent of Lerins”\rhttp://tinyurl.com/ogtb5ej";
     developmentDoc.category = @"Systematic";
     
     Word *devil = [[Word alloc] init];
@@ -853,7 +853,7 @@
     
     Word *dogma = [[Word alloc] init];
     dogma.name = @"Dogma";
-    dogma.twitterDef = @"a Greek word meaning “opinion or belief” used to refer to infallible teaching";
+    dogma.twitterDef = @"a Greek word meaning “opinion or belief”\rused to refer to infallible teaching";
     dogma.definition = @"A dogma in the Catholic tradition is a subset of Church doctrine. It refers to a divinely revealed truth that has been defined infallibly.\r\rFurther Reference:\rCatechism of the Catholic Church, 88\rhttp://tinyurl.com/bx8mnlu";
     dogma.category = @"Systematic";
     
@@ -979,8 +979,8 @@
     
     Word *eucharist = [[Word alloc] init];
     eucharist.name = @"Eucharist";
-    eucharist.twitterDef = @"the Greek word meaning\r“good thanksgiving”";
-    eucharist.definition = @"The word Eucharist from the Greek ευχαριστος (eucharistos) “good thanksgiving” - came to be associated with the bread and wine of the Eucharist which early Christians believed to be directly related to the body and blood of Jesus. The belief that Jesus is present in the Eucharist predates to the earliest years of the Church. Paul claims that bread and wine of the Eucharist are a participation in the body and blood of Christ. This belief predates any theory (e.g. transubstantiation) as to how he is present. See “Anamnesis”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1322\rhttp://tinyurl.com/q6gyoc7";
+    eucharist.twitterDef = @"the word meaning\r“good thanksgiving”";
+    eucharist.definition = @"The word Eucharist came to be associated with the bread and wine of the Eucharist which early Christians believed to be directly related to the body and blood of Jesus. The belief that Jesus is present in the Eucharist predates to the earliest years of the Church. Paul claims that bread and wine of the Eucharist are a participation in the body and blood of Christ. This belief predates any theory (e.g. transubstantiation) as to how he is present; from the Greek ευχαριστος (eucharistos) “good thanksgiving”. See “Anamnesis”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1322\rhttp://tinyurl.com/q6gyoc7";
     eucharist.category = @"Systematic";
     
     Word *exclusivism = [[Word alloc] init];
@@ -1015,19 +1015,19 @@
     
     Word *elohim = [[Word alloc] init];
     elohim.name = @"Elohim";
-    elohim.twitterDef = @"the Hebrew word for “gods”, “God” or “angels” depending on the context";
+    elohim.twitterDef = @"the Hebrew word for “gods”, “God”, or “angels”";
     elohim.definition = @"The plural of “El”, “Elohim” can refer to the gods of particular peoples, such as the “Elohim of Babylon”, but came to be used as a singular term referring to the God of Israel, with accompanying singular verbs and adjectives, seemingly accompanying the rise of monotheism among the Israelites. In later Biblical usage it can also refer to “heavenly beings” such as angels.\r\rFurther Reference:\rWikipedia, “Elohim”\rhttp://tinyurl.com/yv38ap";
     elohim.category = @"Biblical";
     
     Word *elohistSource = [[Word alloc] init];
     elohistSource.name = @"Elohist Source";
-    elohistSource.twitterDef = @"The literary “E” Source in the Torah\rthat favors the Northern sites";
+    elohistSource.twitterDef = @"The literary “E” Source in the Torah\rthat favors the northern traditions of Israel";
     elohistSource.definition = @"The “E” source uses “Elohim” as primary reference for God; reflects a preference for the northern kingdom of Israel; written ca. 900 BCE; favors Moses over Aaron and southern kingdom as well as northern tribes of Ephraim and Joseph; related to the same school of priests responsible for the Deuteronomic Source.\r\rFurther Reference:\rWikipedia, “Elohist Source”\rhttp://tinyurl.com/2axcpau";
     elohistSource.category = @"Biblical";
     
     Word *epistle = [[Word alloc] init];
     epistle.name = @"Epistle";
-    epistle.twitterDef = @"the Greek word meaning\r“letter”";
+    epistle.twitterDef = @"a word meaning\r“letter”";
     epistle.definition = @"The New Testament contains 21 letters written from apostles or apostolic associates, but mostly from Paul. The Apostolic Fathers contain various epistles as well from Ignatius of Antioch, Polycarp, Barnabas, and Diognetus.\r\rFurther Reference:\rWikipedia, “Epistle”\rhttp://tinyurl.com/6h68vhn";
     epistle.category = @"Biblical";
     
@@ -1052,7 +1052,7 @@
     Word *exegesis = [[Word alloc] init];
     exegesis.name = @"Exegesis";
     exegesis.twitterDef = @"the process of determining the meaning of a text in its original context";
-    exegesis.definition = @"Exegesis is a necessary element of hermeneutics; from the Greek εξ (ex) - “out” and αγω (ago) - “to go”.\r\rFurther Reference:\r";
+    exegesis.definition = @"Exegesis is a necessary element of hermeneutics. It is an essential component of the Historical-Critical Method; from the Greek εξ (ex) “out” and αγω (ago) “to go”. See “Hermeneutics”, “Historical-Critical Method”\r\rFurther Reference:\rFelix Just S.J., “Biblical Exegeis”\rhttp://tinyurl.com/k3u6rma";
     exegesis.category = @"Biblical";
     
     Word *exile = [[Word alloc] init];
@@ -1087,13 +1087,13 @@
     
     Word *explanandum = [[Word alloc] init];
     explanandum.name = @"Explanandum";
-    explanandum.twitterDef = @"a Latin phrase meaning\r“that which is explained by something else”";
+    explanandum.twitterDef = @"a Latin word meaning\r“that which is explained by something else”";
     explanandum.definition = @"In the study of Logic, the explanandum is always explained by something else.\r\rFurther Reference:\r";
     explanandum.category = @"Cultural";
     
     Word *explanans = [[Word alloc] init];
     explanans.name = @"Explanans";
-    explanans.twitterDef = @"a Latin phrase meaning\r“that which explains something else”";
+    explanans.twitterDef = @"a Latin word meaning\r“that which explains something else”";
     explanans.definition = @"In the study of Logic, the explanans always explains something else...";
     explanans.category = @"Cultural";
     
@@ -1111,91 +1111,96 @@
     Word *faith = [[Word alloc] init];
     faith.name = @"Faith";
     faith.twitterDef = @"1. trust or confidence\r2. the content of a religious tradition";
-    faith.definition = @"In Catholicism, both uses of faith are very common...";
+    faith.definition = @"In Catholicism, both uses of faith are very common.\r\rFurther Reference:\rCatechism of the Catholic Church, 1814\rhttp://tinyurl.com/pd2yc32";
     faith.category = @"Systematic";
     
     Word *fideism = [[Word alloc] init];
     fideism.name = @"Fideism";
     fideism.twitterDef = @"the belief that....";
-    fideism.definition = @"The belief that....";
+    fideism.definition = @"The belief that..";
     fideism.category = @"Systematic";
     
     Word *fallibilism = [[Word alloc] init];
     fallibilism.name = @"Fallibilism";
     fallibilism.twitterDef = @"the idea that humans can have inaccurate, yet justified beliefs about the world";
-    fallibilism.definition = @"The idea that humans can have inaccurate, yet justified beliefs about the world. \r\rSee Internet Ecyclopedia of Philosophy,“Fallibilism. http://www.iep.utm.edu/fallibil/";
+    fallibilism.definition = @"The idea that humans can have inaccurate, yet justified beliefs about the world. \r\rFurther Reference:\rInternet Ecyclopedia of Philosophy,“Fallibilism\rhttp://tinyurl.com/q6we5fk";
     fallibilism.category = @"Systematic";
     
     Word *foreknowledge = [[Word alloc] init];
     foreknowledge.name = @"Foreknowledge";
     foreknowledge.twitterDef = @"the belief that God knows future events";
-    foreknowledge.definition = @"The belief that God knows future events; this idea features prominently in post-Exilic Hebrew literature and in the New Testament; associated philosophical problems include constraints on human freedom and the problem of evil. \r\rSee Catechism of the Catholic Church, 600. http://www.vatican.va/archive/ccc_css/archive/catechism/p122a4p2.htm. \r\rAlso see Stanford Encylopedia of Philosophy, “Foreknowledge and Free Will”. http://plato.stanford.edu/entries/free-will-foreknowledge/";
+    foreknowledge.definition = @"The belief that God knows future events; this idea features prominently in post-Exilic Hebrew literature and in the New Testament; associated philosophical problems include constraints on human freedom and the problem of evil. \r\rFurther Reference:\rCatechism of the Catholic Church, 600\rhttp://tinyurl.com/p3dfabj\r\rStanford Encylopedia of Philosophy, “Foreknowledge and Free Will”\r http://tinyurl.com/g8eze";
     foreknowledge.category = @"Systematic";
     
     Word *freewill = [[Word alloc] init];
     freewill.name = @"Free Will";
     freewill.twitterDef = @"the ability to freely make a rational choice";
-    freewill.definition = @"The ability to choose...";
+    freewill.definition = @"The ability to choose.\r\rFurther Reference:\rCatechism of the Catholic Church, 1731\rhttp://tinyurl.com/qzj6nl9";
     freewill.category = @"Systematic";
     
     Word *folio = [[Word alloc] init];
     folio.name = @"Folio";
-    folio.twitterDef = @"a page within a manuscript.";
-    folio.definition = @"In textual criticism, folios are sometimes all that remains of a larger manuscript collection...";
+    folio.twitterDef = @"a page within a manuscript";
+    folio.definition = @"In textual criticism, folios are sometimes all that remains of a larger manuscript.\r\rFurther Reference:\rWikipedia, “Folio”\rhttp://tinyurl.com/37amz3t";
     folio.category = @"Biblical";
     
     Word *formalEquivalence = [[Word alloc] init];
     formalEquivalence.name = @"Formal Eqivalence";
-    formalEquivalence.twitterDef = @"a translation philosophy that seeks to render the text word for word.";
-    formalEquivalence.definition = @"A translation philosophy that seeks to render the text word for word.";
+    formalEquivalence.twitterDef = @"a translation philosophy that seeks to render the text word for word";
+    formalEquivalence.definition = @"The 2011 English translation of the Mass is based on formal equivalence, sometimes resulting in odd sentence structure as Latin syntax works differently than that of English.";
     formalEquivalence.category = @"Biblical";
     
     Word *formCriticism = [[Word alloc] init];
     formCriticism.name = @"Form Criticism";
     formCriticism.twitterDef = @"a type of criticism which deciphers and analyzes a text's genre or literary form";
-    formCriticism.definition = @"A type of criticism which deciphers and analyzes a text's genre or literary form; mentioned as necessary exegesis in Dei Verbum, 12: “To search out the intention of the sacred writers, attention should be given, among other things, to 'literary forms'. For truth is set forth and expressed differently in texts which are variously historical, prophetic, poetic, or of other forms of discourse.”";
+    formCriticism.definition = @"Form Criticism is mentioned as necessary to proper exegesis in Vatican II's Dogmatic Constitution on Divine Revelation, “Dei Verbum”:\r\r“To search out the intention of the sacred writers, attention should be given, among other things, to 'literary forms'. For truth is set forth and expressed differently in texts which are variously historical, prophetic, poetic, or of other forms of discourse.”\r\rForm Criticism is one of the criticisms used by the Historical-Critical Method. See “Exegesis”, “Historical-Critical Method”.\r\rFurther Reference:\rVatican II, “Dei Verbum”, III.12\rhttp://tinyurl.com/3ecxu";
     formCriticism.category = @"Biblical";
     
     Word *fundamentalism = [[Word alloc] init];
     fundamentalism.name = @"Fundamentalism";
     fundamentalism.twitterDef = @"a fundamenalist method that exclusively uses a literalist criteron for interpretation";
-    fundamentalism.definition = @"1. A hermeneutical method which exclusively uses a literalist criterion for intepretation of a text; 2. An anti-modern movement which emerged in American Protestantism in the late 19th century which is characterized more than anything else by the viewpoint that Scripture is Divinely Inspired and as such inerrant in all ways including historical and “scientific” - named for its self-proclaimed stress on the “fundamentals” of the Christian faith.";
+    fundamentalism.definition = @"In addition to describing a particular hermeneutical method, fundamentalism also refers to an anti-modern movement which emerged in American Protestantism in the late 19th century which is characterized more than anything else by the viewpoint that Scripture is Divinely Inspired and as such inerrant in all ways including historical and “scientific” - named for its self-proclaimed stress on the “fundamentals” of the Christian faith. This approach to a sacred text also extends to Judaism, Islam, and other religions. The term can also refer to a strict adherence to a given viewpoint.\r\rFurther Reference:\rWikipedia, “Fundamentalism”\rhttp://tinyurl.com/2xvbkc";
     fundamentalism.category = @"Biblical";
+    
+    Word *fundamentalOption = [[Word alloc] init];
+    fundamentalOption.name = @"Fundamental Option";
+    fundamentalOption.twitterDef = @"a person's basic, spiritual orientation";
+    fundamentalOption.definition = @"Karl Rahner was the first to develop this concept.\r\rFurther Reference:\rCatechism of the Catholic Church, 847\rhttp://tinyurl.com/oupb5";
     
     Word *feminism = [[Word alloc] init];
     feminism.name = @"Feminism";
     feminism.twitterDef = @"the movement that seeks female liberation from patriarchal structures and norms";
-    feminism.definition = @"The movement that seeks female liberation from patriarchal structures and norms...";
+    feminism.definition = @"Feminism was widely influential in the twentieth century.\r\rFurther Reference:\rWikipedia, Feminism\rhttp://tinyurl.com/mdu3o";
     feminism.category = @"Cultural";
 
 
     
-    [_dataArray addObjectsFromArray:@[faith, fideism, fallibilism, feminism, folio, foreknowledge, formalEquivalence, formCriticism, freewill, fundamentalism]];
+    [_dataArray addObjectsFromArray:@[faith, fideism, fallibilism, feminism, folio, foreknowledge, formalEquivalence, formCriticism, freewill, fundamentalism, fundamentalOption]];
     
     //G
     
     Word *grace = [[Word alloc] init];
     grace.name = @"Grace";
     grace.twitterDef = @"unmerited favor";
-    grace.definition = @"unmerited favor... \r\rSee Catechism of the Catholic Church, 1996. http://www.vatican.va/archive/ccc_css/archive/catechism/p3s1c3a2.htm";
+    grace.definition = @"unmerited favor.\r\rFurther Reference:\rCatechism of the Catholic Church, 1996\rhttp://tinyurl.com/yaua7cc";
     grace.category = @"Systematic";
     
     Word *gehenna = [[Word alloc] init];
     gehenna.name = @"Gehenna";
     gehenna.twitterDef = @"a valley near Jerusalem in which devotees would sacrifice children in fire";
-    gehenna.definition = @"A valley near Jerusalem (the Valley of Hinnom) where a non-Israelite shrine to the Canaanite god Moloch once stood where human sacrifice by burning took place. It seems to have become known as a place of the destruction of the wicked in Jewish folklore (a source which claims that it was a burning trash heap or garbage dump is disputed); used by Jesus to refer to a place where those who opposed the will of God would go. Thus, it came to be synonymous with “hell”.";
+    gehenna.definition = @"A valley near Jerusalem (the Valley of Hinnom) where a non-Israelite shrine to the Canaanite god Moloch once stood and where human sacrifice of babies by burning took place. It seems to have become known as a place of the destruction of the wicked in Jewish folklore (a source which claims that it was a burning trash heap or garbage dump is disputed); used by Jesus to refer to a place where those who opposed the will of God would go. Thus, it came to be synonymous with “hell”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1034\rhttp://tinyurl.com/l9ha57h\r\rWikipedia, Gehenna\rhttp://tinyurl.com/ymbj2d";
     gehenna.category = @"Biblical";
     
     Word *genre = [[Word alloc] init];
     genre.name = @"Genre";
-    genre.twitterDef = @"a french word referring to the literary form of a text";
-    genre.definition = @"A French word referring to the literary form of a text.";
+    genre.twitterDef = @"a french word meaning\r“the literary form of a text”";
+    genre.definition = @"A French word referring to the literary form of a text.\r\rFurther Reference:\rWikipedia, Genre http://tinyurl.com/gsh83";
     genre.category = @"Biblical";
     
     Word *gospel = [[Word alloc] init];
     gospel.name = @"Gospel";
-    gospel.twitterDef = @"good news";
-    gospel.definition = @"1. The message of the historical Jesus concerning the Kingdom of God; 2. The message about Jesus concerning the salvation of the world; 3. One of the four canonical accounts of the life and ministry of the historical Jesus (Matthew, Mark, Luke, and John); from the Greek word ευαγγελιον (evangelion) - “good news”.";
+    gospel.twitterDef = @"the message of and about Jesus of Narareth\rconcerning God, Israel, and the world";
+    gospel.definition = @"1. The message of the historical Jesus concerning the Kingdom of God; 2. The message about Jesus concerning the salvation of the world; 3. One of the four canonical accounts of the life and ministry of the historical Jesus (Matthew, Mark, Luke, and John); from the Greek word ευαγγελιον (evangelion) - “good news”.\r\rFurther Reference:\rCatechism of the Catholic Church, 75\rhttp://tinyurl.com/bx8mnlu";
     gospel.category = @"Biblical";
 
     
@@ -1205,80 +1210,80 @@
     
     Word *heaven = [[Word alloc] init];
     heaven.name = @"Heaven";
-    heaven.twitterDef = @"the state of complete union with God...";
-    heaven.definition = @"The state of complete union with God...";
+    heaven.twitterDef = @"the state of complete union with God";
+    heaven.definition = @"Heaven is the state of those who enter eternal life in God's grace and friendship.\r\rFurther Reference:\rCatechism of the Catholic Church, 1021\rhttp://tinyurl.com/k3f2f8p";
     heaven.category = @"Systematic";
     
     Word *hell = [[Word alloc] init];
     hell.name = @"Hell";
-    hell.twitterDef = @"the state of complete separation from God...";
-    hell.definition = @"The state of complete separation from God...";
+    hell.twitterDef = @"the state of complete separation from God";
+    hell.definition = @"Hell is the state of those who willingly refuse God's love and enter eternal life with the inablity to repent.\r\rFurther Reference:\rCatechism of the Catholic Church, 1033\rhttp://tinyurl.com/k3f2f8p";
     hell.category = @"Systematic";
     
     Word *henotheism = [[Word alloc] init];
     henotheism.name = @"Henotheism";
-    henotheism.twitterDef = @"the belief that many gods exist while only one is served.";
-    henotheism.definition = @"The belief that many gods exist while only one is served.";
+    henotheism.twitterDef = @"the belief that many gods exist while only one is served";
+    henotheism.definition = @"The pre-exilic Israelites believed that foreign gods were real, but they only had a covenant with YHWH.\r\rFurther Reference:\rWikipedia, “Henotheism”\rhttp://tinyurl.com/chgvyn";
     henotheism.category = @"Systematic";
     
     Word *heresy = [[Word alloc] init];
     heresy.name = @"Heresy";
-    heresy.twitterDef = @"the formal contradiction of orthodox belief...";
-    heresy.definition = @"The formal contradiction of orthodox belief...";
+    heresy.twitterDef = @"the formal denial of revealed truth";
+    heresy.definition = @"The formal contradiction of orthodox belief.\r\rFurther Reference:\rCatechism of the Catholic Church, 2089\rhttp://tinyurl.com/lu75a9k";
     heresy.category = @"Systematic";
     
     Word *hierarchy = [[Word alloc] init];
     hierarchy.name = @"Hierarchy of Truths";
-    hierarchy.twitterDef = @"the idea that some truths are more essential to salvation than others.";
-    hierarchy.definition = @"The idea that some truths are more essential to salvation than others.";
+    hierarchy.twitterDef = @"the idea that some truths are more essential to salvation than others";
+    hierarchy.definition = @"The idea that some truths are more essential to salvation than others.\r\rFurther Reference:\rCatechism of the Catholic Church, 873\rhttp://tinyurl.com/m65ttaf";
     hierarchy.category = @"Systematic";
     
     Word *humanRights = [[Word alloc] init];
     humanRights.name = @"Human Rights";
     humanRights.twitterDef = @"the rights due to a person by virtue of his or her being a human being";
-    humanRights.definition = @"rights due to a person by virtue of his or her being a human being; thirty human rights are enumerated in the United Nations Universal Declaration of Human Rights. \r\rSee Compendium of the Social Doctrine of the Church, 152. http://www.vatican.va/roman_curia/pontifical_councils/justpeace/documents/rc_pc_justpeace_doc_20060526_compendio-dott-soc_en.html";
+    humanRights.definition = @"A list of thirty human rights are enumerated in the United Nations Universal Declaration of Human Rights.\r\rFurther Reference:\rCompendium of the Social Doctrine of the Church, 152 http://tinyurl.com/qfo6bd7";
     humanRights.category = @"Moral";
     
     Word *hermeneutics = [[Word alloc] init];
     hermeneutics.name = @"Hermeneutics";
     hermeneutics.twitterDef = @"the science of interpretation and process of determining meaning";
-    hermeneutics.definition = @"The science of interpretation and process of determining meaning, usually of a text - from the name of the Greek god “Hermes”, the messenger of the gods.";
+    hermeneutics.definition = @"The science of interpretation and process of determining meaning, usually of a text - from the name of the Greek god “Hermes”, the messenger of the gods.\r\rFurther Reference:\r";
     hermeneutics.category = @"Biblical";
     
     Word *historicalBooks = [[Word alloc] init];
     historicalBooks.name = @"Historical Books";
     historicalBooks.twitterDef = @"the second of four divisions within the Old Testament";
-    historicalBooks.definition = @"The second of four divisions within the Old Testament; contains 1 & 2 Samuel, 1 & 2 Kings, 1 & 2 Chronicles, Ezra, Nehemiah, Tobit, Judith, Esther, 1 & 2 Maccabees.";
+    historicalBooks.definition = @"The second of four divisions within the Old Testament; contains 1 & 2 Samuel, 1 & 2 Kings, 1 & 2 Chronicles, Ezra, Nehemiah, Tobit, Judith, Esther, 1 & 2 Maccabees.\r\rFurther Reference:\r";
     historicalBooks.category = @"Biblical";
     
     Word *hcm = [[Word alloc] init];
     hcm.name = @"Historical-Critical Method";
-    hcm.twitterDef = @"the hermeneutical method which seeks the intention of the author through exegetical analysis";
-    hcm.definition = @"The hermeneutical method which seeks to uncover the intention of the author through exegetical analysis of history, language, literature, sources, and culture; according to the Pontifical Biblical Commission's “The Interpretation of the Bible in the Church”, it is the one essential method for Catholic hermeneutics.";
+    hcm.twitterDef = @"the hermeneutical method which examines the author's intent through exegetical analysis";
+    hcm.definition = @"The hermeneutical method which seeks to uncover the intention of the author through exegetical analysis of history, language, literature, sources, and culture. According to the Pontifical Biblical Commission, it is the one essential method for Catholic hermeneutics.\r\rFurther Reference:\rPontifical Biblical Commission, “The Interpretation of the Bible in the Church, I.A”, http://tinyurl.com/2gb5dm";
     hcm.category = @"Biblical";
     
     Word *historicalCriticism = [[Word alloc] init];
     historicalCriticism.name = @"Historical Criticism";
     historicalCriticism.twitterDef = @"the type of criticism which deciphers and analyzes the historical context of a text.";
-    historicalCriticism.definition = @"The type of exegetical criticism which deciphers and analyzes the historical context of a text.";
+    historicalCriticism.definition = @"The type of exegetical criticism which deciphers and analyzes the historical context of a text.\r\rFurther Reference:\rPontifical Biblical Commission, “The Interpretation of the Bible in the Church, I.A.2”, http://tinyurl.com/2gb5dm";
     historicalCriticism.category = @"Biblical";
     
     Word *holyOfHolies = [[Word alloc] init];
     holyOfHolies.name = @"Holy of Holies";
-    holyOfHolies.twitterDef = @"the innermmost area of the Temple in Jerusalem where the Ark of the Covenant was believed to reside";
-    holyOfHolies.definition = @"The innermmost area of the Temple in Jerusalem where the Ark of the Covenant was believed to reside from the monarchy of Solomon until the Exile in 587 BCE.";
+    holyOfHolies.twitterDef = @"the innermmost chamber in the Temple\rthat housed the Ark of the Covenant";
+    holyOfHolies.definition = @"The innermmost area of the Temple in Jerusalem where the Ark of the Covenant was believed to reside from the monarchy of Solomon until the Exile in 587 BCE.\r\rFurther Reference:\rEncyclopedia Britannica, “Holy of Holies”\rhttp://tinyurl.com/lcagxrw";
     holyOfHolies.category = @"Biblical";
 
     Word *humanEcology = [[Word alloc] init];
     humanEcology.name = @"Human Ecology";
     humanEcology.twitterDef = @"the environmental context of the human person in light of the truths of Creation";
-    humanEcology.definition = @"The environmental context of the human person in light of the truths of Creation and the challenges posed by climate change and other developmental factors in which justice is neglected. Pope Francis has made the subject of human ecology a theme of his latest encyclical. \r\rSee www.vatican.va/....";
+    humanEcology.definition = @"The environmental context of the human person in light of the truths of Creation and the challenges posed by climate change and other developmental factors in which justice is neglected. Pope Francis has made the subject of human ecology a theme of his latest encyclical.\r\rFurther Reference:\rwww.vatican.va/....";
     humanEcology.category = @"Moral";
     
     Word *humanPerson = [[Word alloc] init];
     humanPerson.name = @"Human Person";
-    humanPerson.twitterDef = @"a human being (member of the species homo sapiens sapiens) with the capacity for self-transcendence.";
-    humanPerson.definition = @"According to the teaching of the Church, human beings are also human persons from the moment of conception. Disputed questions include the pheneomenon of twinning and the problems associated with dualism. See Catechism of the Catholic Church, 1700-1706. link: ";
+    humanPerson.twitterDef = @"a human being with the capacity\rfor self-transcendence.";
+    humanPerson.definition = @"According to the teaching of the Church, human beings are also human persons from the moment of conception. Disputed questions include the pheneomenon of twinning and the problems associated with dualism.\r\rFurther Reference:\rCatechism of the Catholic Church, 2270\rhttp://tinyurl.com/dh7r";
     humanPerson.category = @"Systematic";
 
     
@@ -1289,37 +1294,37 @@
     Word *immanence = [[Word alloc] init];
     immanence.name = @"Immanence";
     immanence.twitterDef =  @"the quality of being within human experience";
-    immanence.definition = @"The quality of being within human experience.";
+    immanence.definition = @"The quality of being within human experience.\r\rFurther Reference:\r\rCatechism of the Catholic Church, 239\rhttp://tinyurl.com/4tymjt";
     immanence.category = @"Systematic";
     
     Word *idolatry = [[Word alloc] init];
     idolatry.name = @"Idolatry";
     idolatry.twitterDef = @"the bestowal of ultimate value on that which is not ultimate";
-    idolatry.definition = @"The bestowal of ultimate value on that which is not ultimate";
+    idolatry.definition = @"The bestowal of ultimate value on that which is not ultimate.\r\rFurther Reference:\rCatechism of the Catholic Church, 2113\rhttp://tinyurl.com/lu75a9k";
     idolatry.category = @"Systematic";
     
     Word *inclusivism = [[Word alloc] init];
     inclusivism.name = @"Inclusivism";
     inclusivism.twitterDef = @"the belief that those who respond to the truth they have receieved will experience salvation";
-    inclusivism.definition = @"Inclusivism is a soteriology developed by Karl Rahner in the mid-twentieth century.";
+    inclusivism.definition = @"Inclusivism is a soteriology developed by Karl Rahner in the mid-twentieth century. He claimed that all people possess a fundamental option for or against God.\r\rFurther Reference:\rCatechism of the Catholic Church, 847\rhttp://tinyurl.com/oupb5";
     inclusivism.category = @"Systematic";
     
     Word *inspiration = [[Word alloc] init];
     inspiration.name = @"Inspiration";
-    inspiration.twitterDef = @"that which provides the “breath of life” or motivation behind a course of action";
-    inspiration.definition = @"That which provides the “breath of life” or motivation behind a course of action. Divine Inspiration is therefore understood to mean that God has provided the “breath of life” or motivation for a course of action - from the Latin word for both “spirit” and “breath”.";
+    inspiration.twitterDef = @"that which provides the “breath of life”\ror motivation behind a course of action";
+    inspiration.definition = @"Divine Inspiration is understood to mean that God has provided the “breath of life” or motivation for a course of action - from the Latin word for both “spirit” and “breath”.\r\rFurther Reference:\rVatican II, Dei Verbum, 11\rhttp://tinyurl.com/3ecxu";
     inspiration.category = @"Biblical";
     
     Word *interpretation = [[Word alloc] init];
     interpretation.name = @"Interpretation";
     interpretation.twitterDef = @"the explanation of the meaning, significance, and relevance of a text.";
-    interpretation.definition = @"The explanation of the meaning, significance, and relevance of a text.";
+    interpretation.definition = @"The explanation of the meaning, significance, and relevance of a text.\r\rFurther Reference:\rPontifical Biblical Commission, “The Interpretation of the Bible in the Church”\rhttp://tinyurl.com/2gb5dm";
     interpretation.category = @"Biblical";
     
     Word *israel = [[Word alloc] init];
     israel.name = @"Israel";
-    israel.twitterDef = @"the name given to the patriarch Jacob which means “struggles with God”";
-    israel.definition = @"The name given to Jacob which means “struggles with God”...";
+    israel.twitterDef = @"the name given to Jacob meaning\r“struggles with God”";
+    israel.definition = @"The name given to Jacob which means “struggles with God”.\r\rFurther Reference:\rCatechism of the Catholic Church, 62\rhttp://tinyurl.com/pesbbq3";
     israel.category = @"Biblical";
 
     
@@ -1330,37 +1335,37 @@
     Word *jesus = [[Word alloc] init];
     jesus.name = @"Jesus of Nazareth";
     jesus.twitterDef = @"the first-century Jewish prophet who proclaimed the Kingdom of God";
-    jesus.definition = @"The first-century Jewish prophet who proclaimed the Kingdom of God, was executed by the Roman govenor Pontius Pilate, and whom the early Christians believed to raised from dead as the Christ and Son of God.";
+    jesus.definition = @"The first-century Jewish prophet who proclaimed the Kingdom of God, was executed by the Roman govenor Pontius Pilate, and whom the early Christians believed to raised from dead as the Christ and Son of God.\r\rFurther Reference:\r";
     jesus.category = @"Biblical";
     
     Word *justification = [[Word alloc] init];
     justification.name = @"Justification";
     justification.twitterDef = @"the act of being put into a just relationship";
-    justification.definition = @"The act of being put into a just relationship. Paul uses this word to describe those who believe in Jesus as the Christ...";
+    justification.definition = @"The act of being put into a just relationship. Paul uses this word to describe those who believe in Jesus as the Christ.\r\rFurther Reference:\r";
     justification.category = @"Systematic";
     
     Word *justice = [[Word alloc] init];
     justice.name = @"Justice";
     justice.twitterDef = @"the state of right relationships between individuals and groups in society.";
-    justice.definition = @"the state of right relationships between individuals and groups in society.";
+    justice.definition = @"the state of right relationships between individuals and groups in society.\r\rFurther Reference:\r";
     justice.category = @"Moral";
     
     Word *jusAdBellum = [[Word alloc] init];
     jusAdBellum.name = @"Jus Ad Bellum";
     jusAdBellum.twitterDef = @"a set of criteria used to determine if war is justified in a given situation"; 
-    jusAdBellum.definition = @"Latin for “justice to war” - a set of criteria used to determine if war is justified in a given situation: just cause, comparative justice, competent authority, right intention, probability of success, last resort, proportionality; see “Just War Theory”.";
+    jusAdBellum.definition = @"Latin for “justice to war” - a set of criteria used to determine if war is justified in a given situation: just cause, comparative justice, competent authority, right intention, probability of success, last resort, proportionality; see “Just War Theory”.\r\rFurther Reference:\r";
     jusAdBellum.category = @"Moral";
     
     Word *jusImBello = [[Word alloc] init];
     jusImBello.name = @"Jus Im Bello";
     jusImBello.twitterDef = @"a set of criteria used to determine if the methods of war are justified";
-    jusImBello.definition = @"Latin for “justice in war” - a set of criteria used to determine if the methods of war are justified: distinction, proportionality, military necessity; see “Just War Theory”.";
+    jusImBello.definition = @"Latin for “justice in war” - a set of criteria used to determine if the methods of war are justified: distinction, proportionality, military necessity; see “Just War Theory”.\r\rFurther Reference:\r";
     jusImBello.category = @"Moral";
     
     Word *justWar = [[Word alloc] init];
     justWar.name = @"Just War Theory";
     justWar.twitterDef = @"the set of criteria for determining the justice of both the conditions and methods of war";
-    justWar.definition = @"The theory first developed by Augustine and later refined by Aquinas which consists of criteria for determining the justice of both the conditions and methods of war; see “Jus Ad Bellum” and “Jus Im Bello”.";
+    justWar.definition = @"The theory first developed by Augustine and later refined by Aquinas which consists of criteria for determining the justice of both the conditions and methods of war; see “Jus Ad Bellum” and “Jus Im Bello”.\r\rFurther Reference:\r";
     justWar.category = @"Moral";
     
     /*
@@ -1374,13 +1379,13 @@
     Word *jew = [[Word alloc] init];
     jew.name = @"Jew";
     jew.twitterDef = @"a member of the tribe of Judah used to refer to any Israelite after the return from the Exile in 515 B.C.";
-    jew.definition = @"a member of the tribe of Judah used to refer to any Israelite after the return from the Exile in 515 B.C.";
+    jew.definition = @"a member of the tribe of Judah used to refer to any Israelite after the return from the Exile in 515 B.C.\r\rFurther Reference:\r";
     jew.category = @"Biblical";
     
     Word *judah = [[Word alloc] init];
     judah.name = @"Judah";
     judah.twitterDef = @"1. the fourth son of Jacob. 2. the southern kingdom established after the death of Solomon in 922 B.C.";
-    judah.definition = @"The tribe of Judah enjoyed a priviledged status during the monarchy.";
+    judah.definition = @"The tribe of Judah enjoyed a priviledged status during the monarchy.\r\rFurther Reference:\r";
     judah.category = @"Biblical";
 
     
@@ -1390,22 +1395,25 @@
     
     Word *kataphatic = [[Word alloc] init];
     kataphatic.name = @"Kataphatic";
-    kataphatic.definition = @"language which makes postiive claims about God.";
+    kataphatic.twitterDef = @"language which makes postiive claims about God";
+    kataphatic.definition = @"language which makes postiive claims about God";
     kataphatic.category = @"Systematic";
     
     Word *kenosis = [[Word alloc] init];
     kenosis.name = @"Kenosis";
-    kenosis.definition = @"the process of emptying; from the Greek word    ; used by Paul in his letter to the Philippians to describe the self-emptying of Jesus.";
+    kenosis.twitterDef = @"a Greek word meaning\r“the process of emptying”";
+    kenosis.definition = @"Kenosis is used by Paul in his letter to the Philippians to describe the self-emptying of Jesus.\r\rFurther Reference:\r";
     kenosis.category = @"Systematic";
     
     Word *ketuvim = [[Word alloc] init];
     ketuvim.name = @"Ketuv'im";
-    ketuvim.definition = @"the Hebrew word for “writings”; the third of three sections in the Tanak; see “Tanak”";
+    ketuvim.definition = @"the Hebrew word meaning\r“writings”; the third of three sections in the Tanak; see “Tanak”\r\rFurther Reference:\r";
     ketuvim.category = @"Biblical";
     
     Word *kosher = [[Word alloc] init];
     kosher.name = @"Kosher";
-    kosher.definition = @"often translated as “clean”, this refers to foods that are “fitting” or “appropriate” to eat or be sacrificed to YHWH according to the Torah.";
+    kosher.twitterDef = @"foods that are “fitting” or “appropriate” to eat or be sacrificed to YHWH";
+    kosher.definition = @"often translated as “clean”, this refers to foods that are “fitting” or “appropriate” to eat or be sacrificed to YHWH according to the Torah.\r\rFurther Reference:\r";
     kosher.category = @"Biblical";
     
     [_dataArray addObjectsFromArray:@[kataphatic, kenosis, ketuvim, kosher]];
@@ -1415,30 +1423,30 @@
     Word *law = [[Word alloc] init];
     law.name = @"Law";
     law.twitterDef = @"the first five books of the Pentateuch containing a collection of various commandments and legal codes for the Israelites.";
-    law.definition = @"the first five books of the Pentateuch containing a collection of various commandments and legal codes for the Israelites.";
+    law.definition = @"the first five books of the Pentateuch containing a collection of various commandments and legal codes for the Israelites.\r\rFurther Reference:\r";
     law.category = @"Biblical";
     
     Word *levite = [[Word alloc] init];
     levite.name = @"Levite";
     levite.twitterDef = @"one of the 12 tribes of Israel; according to the Elohist source, the Levites were all designated as priests of YHWH after rallying with Moses in Exodus 32.";
-    levite.definition = @"one of the 12 tribes of Israel; according to the Elohist source, the Levites were all designated as priests of YHWH after rallying with Moses in Exodus 32.";
+    levite.definition = @"one of the 12 tribes of Israel; according to the Elohist source, the Levites were all designated as priests of YHWH after rallying with Moses in Exodus 32.\r\rFurther Reference:\r";
     levite.category = @"Biblical";
     
     Word *literary = [[Word alloc] init];
     literary.name = @"Literary Criticism";
     literary.twitterDef = @"the type of criticism that deciphers and analyzes the literary characteristics of a text";
-    literary.definition = @"the type of exegetical criticism that deciphers and analyzes the literary characteristics of a text, including form, setting, plot, characterization, denouement, theme, and climax.";
+    literary.definition = @"the type of exegetical criticism that deciphers and analyzes the literary characteristics of a text, including form, setting, plot, characterization, denouement, theme, and climax.\r\rFurther Reference:\r";
     literary.category = @"Biblical";
     
     Word *lxx = [[Word alloc] init];
     lxx.name = @"LXX";
     lxx.twitterDef = @"the numerical symbol for the Septuagint";
-    lxx.definition = @"the numerical symbol for the Septuagint; named for the supposed 70 translators of the Tanak into Greek at the request of Alexander the Great.";
+    lxx.definition = @"the numerical symbol for the Septuagint; named for the supposed 70 translators of the Tanak into Greek at the request of Alexander the Great.\r\rFurther Reference:\r";
     lxx.category = @"Biblical";
 
     Word *liberation = [[Word alloc]init];
     liberation.name = @"Liberation Theology";
-    liberation.definition = @"the theological movement associated with the idea that the gospel is only authentic in the face of radical poverty.";
+    liberation.definition = @"the theological movement associated with the idea that the gospel is only authentic in the face of radical poverty.\r\rFurther Reference:\r";
     liberation.category = @"Systematic";
     
     Word *liturgyH = [[Word alloc] init];
@@ -1456,17 +1464,15 @@
     Word *living = [[Word alloc] init];
     living.name = @"Living Wage";
     living.twitterDef = @"A form of income that is enables a worker to support his or her family";
-    living.definition = @"A form of income that is enables a worker to support his or her family. It should be noted that at the time Pope Leo XIII taught this in Rerum Novarum, women did not work.";
+    living.definition = @"A form of income that is enables a worker to support his or her family. It should be noted that at the time Pope Leo XIII taught this in Rerum Novarum, women did not work.\r\rFurther Reference:\r";
     living.category = @"Cultural";
     
     Word *logic = [[Word alloc] init];
     logic.name = @"Logic";
     logic.twitterDef = @"the science of reasoning";
-    logic.definition = @"the science of reasoning. \r\rSee “The Logic Web”, University of Oxford. http://logic.philosophy.ox.ac.uk/main.htm. Also see Wikipedia, “Logic”. http://en.wikipedia.org/wiki/Logic.";
+    logic.definition = @"the science of reasoning.\r\rFurther Reference:\rUniversity of Oxford, “The Logic Web”\rhttp://tinyurl.com/y8lr2lh.\r\rWikipedia, “Logic”\rhttp://tinyurl.com/q2uqv3x";
     logic.category = @"Cultural";
 
-
-    
     [_dataArray addObjectsFromArray:@[law, lawNC, levite, liberation, literary, living, logic, lxx, liturgyH]];
     
     //M
@@ -1474,51 +1480,55 @@
     Word *miracle = [[Word alloc] init];
     miracle.name = @"Miracle";
     miracle.twitterDef = @"a supernatural event which defies scientific explanation";
-    miracle.definition = @"In common parlance, miracles are events which violate the laws of nature.";
+    miracle.definition = @"In common parlance, miracles are events which violate the laws of nature.\r\rFurther Reference:\r";
     miracle.category = @"Systematic";
     
     Word *monotheism = [[Word alloc] init];
     monotheism.name = @"Monotheism";
+    monotheism.twitterDef = @"the belief in only one God";
     monotheism.definition = @"the belief in only one God.";
     monotheism.category = @"Systematic";
     
     Word *morality = [[Word alloc] init];
     morality.name = @"Morality";
+    morality.twitterDef = @"customary norms of behavior considered good or evil";
     morality.definition = @"customary norms of behavior considered good or evil, right or wrong in a given system.";
     morality.category = @"Moral";
     
     Word *mystery = [[Word alloc] init];
     mystery.name = @"Mystery";
-    mystery.definition = @"that which transcends human comprehension and explanation.";
+    mystery.twitterDef = @"that which transcends human comprehension and explanation";
+    mystery.definition = @"that which transcends human comprehension and explanation.\r\rFurther Reference:\r";
     mystery.category = @"Systematic";
     
     Word *manuscript = [[Word alloc] init];
     manuscript.name = @"Manuscript";
-    manuscript.definition = @"a hand-written copy of a text.";
+    manuscript.twitterDef = @"a hand-written copy of a text";
+    manuscript.definition = @"a hand-written copy of a text.\r\rFurther Reference:\r";
     manuscript.category = @"Biblical";
     
     Word *messiah = [[Word alloc] init];
     messiah.name = @"Messiah";
     messiah.twitterDef = @"the Hebrew equivalent title to “Christ”";
-    messiah.definition = @"Christ was used by the early Christians to refer to the divinely designated status of Jesus of Nazareth - from the Hebrew for “annointed one”.";
+    messiah.definition = @"Christ was used by the early Christians to refer to the divinely designated status of Jesus of Nazareth - from the Hebrew for “annointed one”.\r\rFurther Reference:\r";
     messiah.category = @"Biblical";
     
     Word *mishnah = [[Word alloc] init];
     mishnah.name = @"Mishnah";
     mishnah.twitterDef = @"the traditional oral commentary on the Torah";
-    mishnah.definition = @"an oral commentary on the Torah...";
+    mishnah.definition = @"an oral commentary on the Torah.\r\rFurther Reference:\r";
     mishnah.category = @"Biblical";
     
     Word *myth = [[Word alloc] init];
     myth.name = @"Myth";
-    myth.twitterDef = @"a story that cannot be historically verified.";
-    myth.definition = @"a story that cannot be historically verified.";
+    myth.twitterDef = @"a story that cannot be historically verified";
+    myth.definition = @"a story that cannot be historically verified.\r\rFurther Reference:\r";
     myth.category = @"Biblical";
     
     Word *metaphysics = [[Word alloc] init];
     metaphysics.name = @"Metaphysics";
     metaphysics.twitterDef = @"the study of the fundamental nature of reality";
-    metaphysics.definition = @"The study of ontology; a highly contested area of inquiry that has including a variation of topics throughout history since the time of Aristotle. \r\rSee Routledge Encyclopedia of Philosophy, “Metaphysics”. http://www.rep.routledge.com/article/N095";
+    metaphysics.definition = @"The study of ontology; a highly contested area of inquiry that has including a variation of topics throughout history since the time of Aristotle.\r\rFurther Reference:\rRoutledge Encyclopedia of Philosophy, “Metaphysics”\rhttp://tinyurl.com/mydu3hx";
     metaphysics.category = @"Cultural";
 
     
@@ -1528,44 +1538,44 @@
     
     Word *natural  = [[Word alloc] init];
     natural.name = @"Natural Law";
-    natural.twitterDef = @"the universal moral norm, accessible by human reason.";
-    natural.definition = @"the universal moral norm, accessible by human reason.";
+    natural.twitterDef = @"the universal moral norm, accessible by human reason";
+    natural.definition = @"the universal moral norm, accessible by human reason.\r\rFurther Reference:\r";
     natural.category = @"Moral";
     
     Word *naturalTheo = [[Word alloc] init];
     naturalTheo.name = @"Natural Theology";
     naturalTheo.twitterDef = @"the study of God by inference from the facts of the physical world";
-    naturalTheo.definition = @"the study of God by inference from the facts of the physical world";
+    naturalTheo.definition = @"the study of God by inference from the facts of the physical world.\r\rFurther Reference:\r";
     naturalTheo.category = @"Systematic";
     
     Word *neviim = [[Word alloc] init];
     neviim.name = @"Nevi'im";
-    neviim.twitterDef = @"the Hebrew word for “prophets”";
-    neviim.definition = @"The Hebrew word for “Prophets”; the term given the second of the three sections of the Tanak.";
+    neviim.twitterDef = @"the Hebrew word meaning\r“prophets”";
+    neviim.definition = @"The Hebrew word for “Prophets”; the term given the second of the three sections of the Tanak.\r\rFurther Reference:\r";
     neviim.category = @"Biblical";
     
     Word *newTestament = [[Word alloc] init];
     newTestament.name = @"New Testament";
     newTestament.twitterDef = @"the 27 books dealing with the life of Jesus of Nazareth and his followers";
-    newTestament.definition = @"The New Testament contains the 4 gospels, the Acts of the Apostles, numerous epistles, and the Apocalypse.";
+    newTestament.definition = @"The New Testament contains the 4 gospels, the Acts of the Apostles, numerous epistles, and the Apocalypse.\r\rFurther Reference:\r";
     newTestament.category = @"Biblical";
     
     Word *niceneCo = [[Word alloc] init];
     niceneCo.name = @"Nicene-Constantiopolitan Creed";
-    niceneCo.twitterDef = @"the creed initially formulated at the Council of Constantinople in A.D. 381 and based on the prior Nicene Creed in A.D. 325.";
-    niceneCo.definition = @"“We believe in one God, the Father, the Almighty, maker of heaven and earth, of all that is, seen and unseen. \r\rWe believe one Lord, Jesus Christ, the only Son of God, eternally begotten of the Father, God from God, Light from Light, true God from true God, begotten, not made, one in Being with the Father. Through Him all things were made. For us men and for our salvation, He came down from heaven: by the power of the Holy Spirit He was born of the Virgin Mary, and became Man. For our sake He was crucified under Pontius Pilate. He suffered, died, and was buried. On the third day He rose again in fulfillment of the Scriptures; He ascended into heaven, and is seated at the right hand of the Father. He will come again in glory to judge the living and the dead, and His kingdom will have no end. \r\rWe believe in the Holy Spirit, the Lord, the Giver of life, Who proceeds from the Father and the Son. With the Father and the Son He is worshiped and glorified. He has spoken through the prophets.\r\rWe believe in one, holy, catholic, and apostolic Church. We acknowledge one Baptism for the forgiveness of sins. We look for the resurrection of the dead, and the life of the world to come. Amen.”";
+    niceneCo.twitterDef = @"the creed initially formulated at the Council of Constantinople in A.D. 381 and based on the prior Nicene Creed in A.D. 325";
+    niceneCo.definition = @"“We believe in one God, the Father, the Almighty, maker of heaven and earth, of all that is, seen and unseen. \r\rWe believe one Lord, Jesus Christ, the only Son of God, eternally begotten of the Father, God from God, Light from Light, true God from true God, begotten, not made, one in Being with the Father. Through Him all things were made. For us men and for our salvation, He came down from heaven: by the power of the Holy Spirit He was born of the Virgin Mary, and became Man. For our sake He was crucified under Pontius Pilate. He suffered, died, and was buried. On the third day He rose again in fulfillment of the Scriptures; He ascended into heaven, and is seated at the right hand of the Father. He will come again in glory to judge the living and the dead, and His kingdom will have no end. \r\rWe believe in the Holy Spirit, the Lord, the Giver of life, Who proceeds from the Father and the Son. With the Father and the Son He is worshiped and glorified. He has spoken through the prophets.\r\rWe believe in one, holy, catholic, and apostolic Church. We acknowledge one Baptism for the forgiveness of sins. We look for the resurrection of the dead, and the life of the world to come. Amen.”\r\rFurther Reference:\r";
     niceneCo.category = @"Historical"; 
     
     Word *numinous = [[Word alloc] init];
     numinous.name = @"Numinous";
-    numinous.twitterDef = @"the category of religous experience as defined by Rudoph Otto.";
-    numinous.definition = @"The category of religous experience as defined by Rudoph Otto.";
+    numinous.twitterDef = @"the category of religous experience as defined by Rudoph Otto";
+    numinous.definition = @"The category of religous experience as defined by Rudoph Otto.\r\rFurther Reference:\r";
     numinous.category = @"Systematic";
     
     Word *naturalism = [[Word alloc] init];
     naturalism.name = @"Naturalism";
-    naturalism.twitterDef = @"the belief that nature is all that exists and denies a supernatural order.";
-    naturalism.definition = @"The belief that nature is all that exists and denies a supernatural order.";
+    naturalism.twitterDef = @"the belief that nature is all that exists and denies a supernatural order";
+    naturalism.definition = @"The belief that nature is all that exists and denies a supernatural order.\r\rFurther Reference:\r";
     naturalism.category = @"Cultural";
 
     
@@ -1575,68 +1585,68 @@
     
     Word *omnibenevolence = [[Word alloc] init];
     omnibenevolence.name = @"Omnibenevolence";
-    omnibenevolence.twitterDef = @"the quality of being all-loving.";
-    omnibenevolence.definition = @"The quality of being all-loving.";
+    omnibenevolence.twitterDef = @"the quality of being all-loving";
+    omnibenevolence.definition = @"The quality of being all-loving.\r\rFurther Reference:\r";
     omnibenevolence.category = @"Systematic";
     
     Word *omnipotence = [[Word alloc] init];
     omnipotence.name = @"Omnipotence";
-    omnipotence.twitterDef = @"the quality of being all-powerful.";
-    omnipotence.definition = @"The quality of being all-powerful.";
+    omnipotence.twitterDef = @"the quality of being all-powerful";
+    omnipotence.definition = @"The quality of being all-powerful.\r\rFurther Reference:\r";
     omnipotence.category = @"Systematic";
     
     Word *omnipresence = [[Word alloc] init];
     omnipresence.name = @"Omnipresence";
     omnipresence.twitterDef = @"the quality of being all-present";
-    omnipresence.definition = @"The quality of being all-present";
+    omnipresence.definition = @"The quality of being all-present.\r\rFurther Reference:\r";
     omnipresence.category = @"Systematic";
     
     Word *omniscience = [[Word alloc] init];
     omniscience.name = @"Omniscience";
     omniscience.twitterDef = @"the quality of being all-knowing";
-    omniscience.definition = @"The quality of being all-knowing";
+    omniscience.definition = @"The quality of being all-knowing.\r\rFurther Reference:\r";
     omniscience.category = @"Systematic";
     
     Word *ontological = [[Word alloc] init];
     ontological.name = @"Ontological Argument";
     ontological.twitterDef = @"the argument that states God, as the greatest possible Being, is a necessary Being";
-    ontological.definition = @"The argument, first formulated by Anselm of Canterburry, that states God, as the greatest possible Being, is a necessary Being.";
+    ontological.definition = @"The argument, first formulated by Anselm of Canterburry, that states God, as the greatest possible Being, is a necessary Being.\r\rFurther Reference:\r";
     ontological.category = @"Systematic";
     
     Word *openTheism = [[Word alloc] init];
     openTheism.name = @"Open Theism";
     openTheism.twitterDef = @"a theological movement characterized by the belief that there are logical limits on God's power and knowledge";
-    openTheism.definition = @"a theological movement characterized by the belief that there are logical limits on God's power and knowledge.";
+    openTheism.definition = @"a theological movement characterized by the belief that there are logical limits on God's power and knowledge.\r\rFurther Reference:\r";
     openTheism.category = @"Systematic";
     
     Word *orthodox = [[Word alloc] init];
     orthodox.name = @"Orthodox";
     orthodox.twitterDef = @"a Greek word meaning “straight belief”";
-    orthodox.definition = @"A Greek word meaning 'straight belief....";
+    orthodox.definition = @"A Greek word meaning 'straight belief.\r\rFurther Reference:\r";
     orthodox.category = @"Systematic";
     
     Word *orthopraxis = [[Word alloc] init];
     orthopraxis.name = @"Orthopraxis";
     orthopraxis.twitterDef = @"a Greek word meaning “straight practice”";
-    orthopraxis.definition = @"a Greek word meaning 'straight practice...";
+    orthopraxis.definition = @"a Greek word meaning 'straight practice.\r\rFurther Reference:\r";
     orthopraxis.category = @"Systematic";
     
     Word *oldTestament = [[Word alloc] init];
     oldTestament.name = @"Old Testament";
     oldTestament.twitterDef = @"the 46 books dealing with the people of Israel";
-    oldTestament.definition = @"the 46 books dealing with the people of Israel; contains the Pentateuch, Historical Books, Wisdom Books, and Prophetic Books.";
+    oldTestament.definition = @"the 46 books dealing with the people of Israel; contains the Pentateuch, Historical Books, Wisdom Books, and Prophetic Books.\r\rFurther Reference:\r";
     oldTestament.category = @"Biblical";
     
     Word *oracle = [[Word alloc] init];
     oracle.name = @"Oracle";
     oracle.definition = @"a prophetic medium...";
-    oracle.twitterDef = @"a prophetic medium...";
+    oracle.twitterDef = @"a prophetic medium.\r\rFurther Reference:\r";
     oracle.category = @"Biblical";
     
     Word *oral = [[Word alloc] init];
     oral.name = @"Oral Tradition";
     oral.twitterDef = @"the transmission of stories and beliefs by word of mouth";
-    oral.definition = @"the transmission of stories and beliefs by word of mouth.";
+    oral.definition = @"the transmission of stories and beliefs by word of mouth.\r\rFurther Reference:\r";
     oral.category = @"Biblical";
 
     
@@ -1647,121 +1657,121 @@
     Word *person = [[Word alloc] init];
     person.name = @"Person";
     person.twitterDef = @"a human being capable of self-transcendence";
-    person.definition = @"a human being capable of self-transcendence";
+    person.definition = @"a human being capable of self-transcendence.\r\rFurther Reference:\r";
     person.category = @"Systematic";
     
     Word *pluralism = [[Word alloc] init];
     pluralism.name = @"Pluralism";
-    pluralism.twitterDef = @"the belief that all religous claims are equally valid.";
-    pluralism.definition = @"the belief that all religous claims are equally valid.";
+    pluralism.twitterDef = @"the belief that all religous claims are equally valid";
+    pluralism.definition = @"the belief that all religous claims are equally valid.\r\rFurther Reference:\r";
     pluralism.category = @"Systematic";
     
     Word *polytheism = [[Word alloc] init];
     polytheism.name = @"Polytheism";
-    polytheism.twitterDef = @"the belief that many gods exist.";
-    polytheism.definition = @"the belief that many gods exist.";
+    polytheism.twitterDef = @"the belief that many gods exist";
+    polytheism.definition = @"the belief that many gods exist.\r\rFurther Reference:\r";
     polytheism.category = @"Systematic";
     
     Word *predestination = [[Word alloc] init];
     predestination.name = @"Predestination";
     predestination.twitterDef = @"the belief that God has fixed the destiny of certain nations or peoples";
-    predestination.definition = @"the belief that God has fixed the destiny of certain individuals...";
+    predestination.definition = @"the belief that God has fixed the destiny of certain individuals.\r\rFurther Reference:\r";
     predestination.category = @"Systematic";
     
     Word *principle = [[Word alloc] init];
     principle.name = @"Principle of Double Effect";
     principle.twitterDef = @"the principle which states...";
-    principle.definition = @"the principle which states....";
+    principle.definition = @"the principle which states.\r\rFurther Reference:\r";
     principle.category = @"Moral";
     
     Word *processTheo = [[Word alloc] init];
     processTheo.name = @"Process Theology";
-    processTheo.twitterDef = @"the theological school of thought that views the basic structure of the Universe as process instead of substance.";
-    processTheo.definition = @"Process theology is named after the thought of Alfred North Whitehead";
+    processTheo.twitterDef = @"the theological school of thought that views the basic structure of the Universe as process instead of substance";
+    processTheo.definition = @"Process theology is named after the thought of Alfred North Whitehead.\r\rFurther Reference:\r";
     processTheo.category = @"Systematic";
     
     Word *protestant = [[Word alloc] init];
     protestant.name = @"Protestant";
-    protestant.twitterDef = @"the theological objection to the authority of the Pope in the Church; the Protestant Reformation.";
+    protestant.twitterDef = @"the theological objection to the authority of the Pope in the Church; the Protestant Reformation";
     protestant.definition = @"the theological objection to the authority of the Pope in the Church; the Protestant Reformation.";
     protestant.category = @"Ecclesial";
     
     Word *parable = [[Word alloc] init];
     parable.name = @"Parable";
     parable.twitterDef = @"a fable-like story that makes a theological claim";
-    parable.definition = @"a fable-like story that makes a theological claim; used frequently by Jesus in the synoptic gospels.";
+    parable.definition = @"a fable-like story that makes a theological claim; used frequently by Jesus in the synoptic gospels.\r\rFurther Reference:\r";
     parable.category = @"Biblical";
     
     Word *papyrus = [[Word alloc] init];
     papyrus.name = @"Papyrus";
     papyrus.twitterDef = @"a type of paper in the ancient world used for writing created from a plant";
-    papyrus.definition = @"a type of paper used for writing created from a plant...";
+    papyrus.definition = @"a type of paper used for writing created from a plant.\r\rFurther Reference:\r";
     papyrus.category = @"Biblical";
     
     Word *passover = [[Word alloc] init];
     passover.name = @"Passover";
     passover.twitterDef = @"the feast that commemorates the Exodus of the Israelites from slavery in Egypt";
-    passover.definition = @"the feast that commemorates the exodus of the Israelites from slavery in Egypt...";
+    passover.definition = @"the feast that commemorates the exodus of the Israelites from slavery in Egypt.\r\rFurther Reference:\r";
     passover.category = @"Biblical";
     
     Word *pentateuch = [[Word alloc] init];
     pentateuch.name = @"Pentateuch";
     pentateuch.twitterDef = @"another term for the first five books of the Old Testament, the Torah";
-    pentateuch.definition = @"another term for the first five books of the Old Testament, the Torah - from the Greek for “five scrolls”.";
+    pentateuch.definition = @"another term for the first five books of the Old Testament, the Torah - from the Greek for “five scrolls”.\r\rFurther Reference:\r";
     pentateuch.category = @"Biblical";
     
     Word *pericope = [[Word alloc] init];
     pericope.name = @"Pericope";
     pericope.twitterDef = @"a given section of a larger text...";
-    pericope.definition = @"a given section of a larger text...";
+    pericope.definition = @"a given section of a larger text.\r\rFurther Reference:\r";
     pericope.category = @"Biblical";
     
     Word *pharisee = [[Word alloc] init];
     pharisee.name = @"Pharisees";
     pharisee.twitterDef = @"a Jewish group of laymen in the first century devoted to Torah-observance";
-    pharisee.definition = @"A Jewish group of laymen in the first century...";
+    pharisee.definition = @"A Jewish group of laymen in the first century.\r\rFurther Reference:\r";
     pharisee.category = @"Biblical";
     
     Word *priestly = [[Word alloc] init];
     priestly.name = @"Priestly Source";
     priestly.twitterDef = @"The Torah literary tradition that is concerned with priestly categories of meaning";
-    priestly.definition = @"   The Priestly, or “P” tradition in the Torah can be dated to the time of Hezekiah (ca. 700 B.C.) and shows a major concern for order, numbers, and categories of holiness and cleanliness, especially in the book of Leviticus. The Priestly material is centered on the sacrificial cult in Jerusalem and regards all other sacrifices as improper or “profane”; this source, along with the Elohist and Deuteronomic Sources, does not accept the revelation of the name YHWH before the Mosaic epiphany in Exodus 3. The Hebrew of the Priestly author reflects a later stage in its development but earlier than that of the Deuteronomic author. Notably, the P source never uses the word “compassionate” to describe God and forgiveness requires atonement (e.g. the Day of Atonement is a ritual exclusive to the Priestly author).\r\rSee http://en.wikipedia.org/wiki/Priestly_source";
+    priestly.definition = @"   The Priestly, or “P” tradition in the Torah can be dated to the time of Hezekiah (ca. 700 B.C.) and shows a major concern for order, numbers, and categories of holiness and cleanliness, especially in the book of Leviticus. The Priestly material is centered on the sacrificial cult in Jerusalem and regards all other sacrifices as improper or “profane”; this source, along with the Elohist and Deuteronomic Sources, does not accept the revelation of the name YHWH before the Mosaic epiphany in Exodus 3. The Hebrew of the Priestly author reflects a later stage in its development but earlier than that of the Deuteronomic author. Notably, the P source never uses the word “compassionate” to describe God and forgiveness requires atonement (e.g. the Day of Atonement is a ritual exclusive to the Priestly author).\r\rFurther Reference:\rWikipeida, Priestly Source\rhttp://tinyurl.com/yq83pf";
     priestly.category = @"Biblical";
     
     Word *primeval = [[Word alloc] init];
     primeval.name = @"Primeval History";
     primeval.twitterDef = @"The mythological stories of Genesis 1 - 11"; 
-    primeval.definition = @"Genesis chapters 1 - 11";
+    primeval.definition = @"Genesis chapters 1 - 11.\r\rFurther Reference:\r";
     primeval.category = @"Biblical";
     
     Word *prophet = [[Word alloc] init];
     prophet.name = @"Prophet";
     prophet.twitterDef = @"one who speaks in the place of God";
-    prophet.definition = @"This term is used in the Old Testament to refer to either a court prophet (such as Nathan) or an independent prophet (such as Amos).";
+    prophet.definition = @"This term is used in the Old Testament to refer to either a court prophet (such as Nathan) or an independent prophet (such as Amos).\r\rFurther Reference:\r";
     prophet.category = @"Biblical";
     
     Word *prophetic = [[Word alloc] init];
     prophetic.name = @"Prophetic Books";
     prophetic.twitterDef = @"the fourth of four sections in the Old Testament";
-    prophetic.definition = @"The fourth of four sections in the Old Testament...";
+    prophetic.definition = @"The fourth of four sections in the Old Testament.\r\rFurther Reference:\r";
     prophetic.category = @"Biblical";
     
     Word *philosophy = [[Word alloc] init];
     philosophy.name = @"Philosophy";
-    philosophy.twitterDef = @"the critical examination of human thought; the love of wisdom.";
-    philosophy.definition = @"the critical examination of human thought; the love of wisdom.";
+    philosophy.twitterDef = @"the critical examination of human thought;\rthe love of wisdom";
+    philosophy.definition = @"the critical examination of human thought; the love of wisdom.\r\rFurther Reference:\r";
     philosophy.category = @"Cultural";
     
     Word *physicalism = [[Word alloc] init];
     physicalism.name = @"Physicalism";
     physicalism.twitterDef = @"The belief that phenemena traditionally attributed to the soul can be more simply explained by the functioning of a brain";
-    physicalism.definition = @"Physicalism has received from support from modern neuroscience. Various Christian philosophers, such as Nancy Murphy, are advocates of a non-reductive, physicalist anthropology";
+    physicalism.definition = @"Physicalism has received from support from modern neuroscience. Various Christian philosophers, such as Nancy Murphy, are advocates of a non-reductive, physicalist anthropology.\r\rFurther Reference:\r";
     physicalism.category = @"Cultural";
     
     Word *problem = [[Word alloc] init];
     problem.name = @"Problem of Evil";
     problem.twitterDef = @"the philosophical problem of belief in God and the experience of evil";
-    problem.definition = @"The philosophical problem that results from belief in Divine omniscience, omnipotence, and omnibenevolence and the experience of suffering and evil in the world....";
+    problem.definition = @"The philosophical problem that results from belief in Divine omniscience, omnipotence, and omnibenevolence and the experience of suffering and evil in the world.\r\rFurther Reference:\r";
     problem.category = @"Cultural";
 
     [_dataArray addObjectsFromArray:@[parable, papyrus, passover, pentateuch, pericope, person, pharisee, philosophy, physicalism, pluralism, polytheism, predestination, priestly, primeval, problem, processTheo, prophet, prophetic, protestant, principle]];
@@ -1771,13 +1781,13 @@
     Word *q = [[Word alloc] init];
     q.name = @"Q Source";
     q.twitterDef = @"the hypothetical written source that lies behind similar passages in Matthew and Luke";
-    q.definition = @"The hypothetical written source that lies behind the similar passages, exclusive to Matthew and Luke, which contain various teachings of Jesus; from the German word “quelle' - “source”.";
+    q.definition = @"The hypothetical written source that lies behind the similar passages, exclusive to Matthew and Luke, which contain various teachings of Jesus; from the German word “quelle' - “source”.\r\rFurther Reference:\r";
     q.category = @"Biblical";
     
     Word *quintessence = [[Word alloc] init];
     quintessence.name = @"Quintessence";
     quintessence.twitterDef = @"a term meaning “fifth essence”; used by Aristotle to refer to a substance higher than the four of earth, wind, water, and fire";
-    quintessence.definition = @"A term meaning “fifth essence”; used by Aristotle to refer to a substance higher than the four on earth.";
+    quintessence.definition = @"A term meaning “fifth essence”; used by Aristotle to refer to a substance higher than the four on earth.\r\rFurther Reference:\r";
     quintessence.category = @"Cultural";
     
     [_dataArray addObjectsFromArray:@[q, quintessence]];
@@ -1786,12 +1796,12 @@
     
     Word *redaction = [[Word alloc] init];
     redaction.name = @"Redaction Criticism";
-    redaction.definition = @"the type of exegetical criticism that seeks to decipher and analyze the various stages of redaction of a text";
+    redaction.definition = @"the type of exegetical criticism that seeks to decipher and analyze the various stages of redaction of a text.\r\rFurther Reference:\r";
     redaction.category = @"Biblical";
     
     Word *redemption = [[Word alloc] init];
     redemption.name = @"Redemption";
-    redemption.definition = @"the process of exchanging the economic value of an object.";
+    redemption.definition = @"the process of exchanging the economic value of an object.\r\rFurther Reference:\r";
     redemption.category = @"Systematic";
     
     Word *ressourcement = [[Word alloc] init];
@@ -1803,19 +1813,19 @@
     Word *resurrection = [[Word alloc] init];
     resurrection.name = @"Resurrection";
     resurrection.twitterDef = @"the belief that God will raise the righteous dead to eternal life";
-    resurrection.definition = @"the belief which developed in post-Exilic Judaism, that God would raise the righteous to eternal life; the belief of the early Christians that Jesus of Nazareth was raised from the dead.";
+    resurrection.definition = @"the belief which developed in post-Exilic Judaism, that God would raise the righteous to eternal life; the belief of the early Christians that Jesus of Nazareth was raised from the dead.\r\rFurther Reference:\r";
     resurrection.category = @"Systematic";
     
     Word *religious = [[Word alloc] init];
     religious.name = @"Religious Naturalism";
     religious.twitterDef = @"a movement within naturalism that emphasizes scientific knowledge as a foundational mythos";
-    religious.definition = @"A movement within naturalism which emphasizes the scientific history of the universe as a core mythos around which revolve interpretive, spiritual, and moral axes.";
+    religious.definition = @"A movement within naturalism which emphasizes the scientific history of the universe as a core mythos around which revolve interpretive, spiritual, and moral axes.\r\rFurther Reference:\r";
     religious.category = @"Cultural";
     
     Word *rerum = [[Word alloc] init];
     rerum.name = @"Rerum Novarum";
     rerum.twitterDef = @"the encyclical of Pope Leo XIII that laid the foundations of modern Catholic Social Teaching";
-    rerum.definition = @"The encyclical of Pope Leo XIII in 1891 which responded to the after effects of the Industrial Revolution in Europe by teaching that private property is relative to the Common Good and that workers have a right to unionized and to a living wage.";
+    rerum.definition = @"The encyclical of Pope Leo XIII in 1891 which responded to the after effects of the Industrial Revolution in Europe by teaching that private property is relative to the Common Good and that workers have a right to unionized and to a living wage.\r\rFurther Reference:\r";
     rerum.category = @"Moral";
 
     
@@ -1826,103 +1836,103 @@
     Word *salvation = [[Word alloc] init];
     salvation.name = @"Salvation";
     salvation.twitterDef = @"the experience of being saved from sin and eventually death";
-    salvation.definition = @"The experience of being saved from sin and eventually death.";
+    salvation.definition = @"The experience of being saved from sin and eventually death.\r\rFurther Reference:\r";
     salvation.category = @"Systematic";
     
     Word *selucid = [[Word alloc] init];
     selucid.name = @"Selucid";
     selucid.twitterDef = @"the descendants of Alexander the Great that ruled in Syria";
-    selucid.definition = @"the descendants of Alexander the Great...";
+    selucid.definition = @"the descendants of Alexander the Great.\r\rFurther Reference:\r";
     selucid.category = @"Biblical"; 
     
     Word *social = [[Word alloc] init];
     social.name = @"Social Justice";
     social.twitterDef = @"the type of justice which prioritizes the common good with a preferential option for the poor and marginalized";
-    social.definition = @"According to Pope Paul VI, social justice is an essential aspect to the proclamation of the gospel.";
+    social.definition = @"According to Pope Paul VI, social justice is an essential aspect to the proclamation of the gospel.\r\rFurther Reference:\r";
     social.category = @"Moral";
     
     Word *soteriology = [[Word alloc] init];
     soteriology.name = @"Soteriology";
     soteriology.twitterDef = @"the study of salvation; a particular framework of salvation";
-    soteriology.definition = @"the study of salvation; a particular framework of salvation.";
+    soteriology.definition = @"the study of salvation; a particular framework of salvation.\r\rFurther Reference:\r";
     soteriology.category = @"Systematic";
     
     Word *sadducees = [[Word alloc] init];
     sadducees.name = @"Sadducees";
     sadducees.twitterDef = @"the elite class of Jerusalem-based Temple scribes that mediated with the Roman occupation";
-    sadducees.definition = @"the elite class of Jerusalem-based Temple scribes....";
+    sadducees.definition = @"the elite class of Jerusalem-based Temple scribes.\r\rFurther Reference:\r";
     sadducees.category = @"Biblical";
     
     Word *Satan = [[Word alloc] init];
     Satan.name = @"Satan";
     Satan.twitterDef = @"the adversarial being found in post-Exilic Hebrew literature that serves to represent evil events...";
-    Satan.definition = @"the adversarial being found in post-Exilic Hebrew literature that serves to represent evil events...";
+    Satan.definition = @"the adversarial being found in post-Exilic Hebrew literature that serves to represent evil events.\r\rFurther Reference:\r";
     Satan.category = @"Biblical";
     
     Word *septuagint = [[Word alloc] init];
     septuagint.name = @"Septuagint";
     septuagint.twitterDef = @"the Greek translation of the Old Testament made at the request of Alexander the Great";
-    septuagint.definition = @"the Greek translation of the Old Testament made at the request of Alexander the Great";
+    septuagint.definition = @"the Greek translation of the Old Testament made at the request of Alexander the Great.\r\rFurther Reference:\r";
     septuagint.category = @"Biblical";
     
     Word *source = [[Word alloc] init];
     source.name = @"Source Criticism";
-    source.twitterDef = @"the type of criticism that seeks to decipher and analyze the underlying source of a text.";
-    source.definition = @"the exegetical criticism that seeks to decipher and analyze the underlying source of a text.";
+    source.twitterDef = @"the type of criticism that seeks to decipher and analyze the underlying source of a text";
+    source.definition = @"the exegetical criticism that seeks to decipher and analyze the underlying source of a text.\r\rFurther Reference:\r";
     source.category = @"Biblical";
     
     Word *synagogue = [[Word alloc] init];
     synagogue.name = @"Synagogue";
     synagogue.twitterDef = @"The local place of weekly assembly for Jews during the Exile in Babylon";
-    synagogue.definition = @"The local place of weekly assembly for Jews during the Exile in Babylon; carried over into post-Exilic Judaism - from the Greek “to go together“.";
+    synagogue.definition = @"The local place of weekly assembly for Jews during the Exile in Babylon; carried over into post-Exilic Judaism - from the Greek “to go together“.\r\rFurther Reference:\r";
     synagogue.category = @"Biblical";
     
     Word *synchronic = [[Word alloc] init];
     synchronic.name = @"Synchronic";
     synchronic.twitterDef = @"the type of truth that is relative to the time of a text's composition";
-    synchronic.definition  = @"the type of truth that is relative to the time of a text's composition, usually relating to the worldview of the author.";
+    synchronic.definition  = @"the type of truth that is relative to the time of a text's composition, usually relating to the worldview of the author.\r\rFurther Reference:\r";
     synchronic.category = @"Biblical";
     
     Word *synoptic = [[Word alloc] init];
     synoptic.name = @"Synoptic";
     synoptic.twitterDef = @"a Greek term meaning “to see together”; used to refer to the gospels of Matthew, Mark, and Luke due to their similarity";
-    synoptic.definition = @"a term meaning “to see together”; used to refer to the gospels of Matthew, Mark, and Luke due to their similarity of narrative and Christology contrasted with the gospel of John; from the Greek word συν (syn) - “together” and οπσις (opsis) - “appearance”";
+    synoptic.definition = @"a term meaning “to see together”; used to refer to the gospels of Matthew, Mark, and Luke due to their similarity of narrative and Christology contrasted with the gospel of John; from the Greek word συν (syn) - “together” and οπσις (opsis) - “appearance”.\r\rFurther Reference:\r";
     synoptic.category = @"Biblical";
     
     Word *semiotics = [[Word alloc] init];
     semiotics.name = @"Semiotics";
     semiotics.twitterDef = @"the study of signs and symbols used as elements of communication";
-    semiotics.definition = @"the study of signs and symbols used as elements of communication...";
+    semiotics.definition = @"the study of signs and symbols used as elements of communication.\r\rFurther Reference:\r";
     semiotics.category = @"Cultural";
     
     Word *sociology = [[Word alloc] init];
     sociology.name = @"Sociology";
     sociology.twitterDef = @"The study of society";
-    sociology.definition = @"The study of society...";
+    sociology.definition = @"The study of society.\r\rFurther Reference:\r";
     sociology.category = @"Cultural";
     
     
     Word *solidarity = [[Word alloc] init];
     solidarity.name = @"Solidarity";
-    solidarity.twitterDef = @"the idea that human beings share a fundamental unity which should be a criteria for determining justice.";
-    solidarity.definition = @"Solidarity is a basic principle of Catholic Social Teaching";
+    solidarity.twitterDef = @"the idea that human beings share a fundamental unity which should be a criteria for determining justice";
+    solidarity.definition = @"Solidarity is a basic principle of Catholic Social Teaching.\r\rFurther Reference:\r";
     solidarity.category = @"Cultural";
     
     Word *spirituality = [[Word alloc] init];
     spirituality.name = @"Spirituality";
-    spirituality.twitterDef = @"the conscious process of integration of one's life toward Ultimate value.";
-    spirituality.definition = @"the conscious process of integration of one's life toward Ultimate value.";
+    spirituality.twitterDef = @"the conscious process of integration of one's life toward Ultimate value";
+    spirituality.definition = @"the conscious process of integration of one's life toward Ultimate value.\r\rFurther Reference:\r";
     spirituality.category = @"Cultural";
     
     Word *structuralism = [[Word alloc] init];
     structuralism.name = @"Structuralism";
-    structuralism.definition = @"the anthropological movement based on the work of Levi Strauss...";
+    structuralism.definition = @"the anthropological movement based on the work of Levi Strauss.\r\rFurther Reference:\r";
     structuralism.category = @"Cultural";
     
     Word *supernormal = [[Word alloc] init];
     supernormal.name = @"Supernormal Allurements";
-    supernormal.twitterDef = @"the attraction to concentrated quantities of substances that allowed hu;manity to evolve and flourish, such as sugar, salt, and sex.";
-    supernormal.definition = @"the attraction to concentrated quantities of substances that allowed hu;manity to evolve and flourish, such as sugar, salt, and sex.";
+    supernormal.twitterDef = @"the attraction to concentrated quantities of substances that allowed hu;manity to evolve and flourish, such as sugar, salt, and sex";
+    supernormal.definition = @"the attraction to concentrated quantities of substances that allowed hu;manity to evolve and flourish, such as sugar, salt, and sex.\r\rFurther Reference:\r";
     supernormal.category = @"Cultural";
 
 
@@ -1934,32 +1944,32 @@
     
     Word *theodicy = [[Word alloc] init];
     theodicy.name = @"Theodicy";
-    theodicy.twitterDef = @"The question of God's justice in the face of suffering and evil.";
-    theodicy.definition = @"The question of God's justice in the face of suffering and evil.";
+    theodicy.twitterDef = @"the question of God's justice in the face of suffering and evil";
+    theodicy.definition = @"The question of God's justice in the face of suffering and evil.\r\rFurther Reference:\r";
     theodicy.category = @"Systematic";
     
     Word *theologoumenon = [[Word alloc] init];
     theologoumenon.name = @"Theologoumenon";
-    theologoumenon.twitterDef = @"A theological opinion on a disputable matter that has not been defined in Church teaching.";
-    theologoumenon.definition = @"A theological opinion on a disputable matter that has not been defined in Church teaching...";
+    theologoumenon.twitterDef = @"a theological opinion on a disputable matter that has not been defined in Church teaching";
+    theologoumenon.definition = @"A theological opinion on a disputable matter that has not been defined in Church teaching.\r\rFurther Reference:\r";
     theologoumenon.category = @"Systematic";
     
     Word *theology = [[Word alloc] init];
     theology.name = @"Theology";
     theology.twitterDef = @"the study of God";
-    theology.definition = @"The study of God.";
+    theology.definition = @"The study of God.\r\rFurther Reference:\r";
     theology.category = @"Systematic";
     
     Word *theosis = [[Word alloc] init];
     theosis.name = @"Theosis";
-    theosis.twitterDef = @"the process of becoming like God, emphasized in the Easter Orthodox tradition.";
-    theosis.definition = @"The process of becoming like God, emphasized in the Easter Orthodox tradition.";
+    theosis.twitterDef = @"the process of becoming like God, emphasized in the Easter Orthodox tradition";
+    theosis.definition = @"The process of becoming like God, emphasized in the Easter Orthodox tradition.\r\rFurther Reference:\r";
     theosis.category = @"Systematic";
     
     Word *tradition = [[Word alloc] init];
     tradition.name = @"Tradition";
-    tradition.twitterDef = @"the process of handing over beliefs and practices.";
-    tradition.definition = @"the process of handing over beliefs and practices.";
+    tradition.twitterDef = @"the process of handing over beliefs and practices";
+    tradition.definition = @"the process of handing over beliefs and practices.\r\rFurther Reference:\r\r\rFurther Reference:\r";
     tradition.category = @"Systematic";
     
     Word *transcendence = [[Word alloc] init];
@@ -1970,62 +1980,62 @@
     
     Word *transub = [[Word alloc] init];
     transub.name = @"Transubstantiation";
-    transub.twitterDef = @"the Thomistic concept that the substance of the bread and wine change into the substance of the body and blood of Christ in the Eucharist.";
-    transub.definition = @"the belief, formulated by Thomas Aquinas, that the substance of the bread and wine change into the substance of the body and blood of Christ in the Eucharist.";
+    transub.twitterDef = @"the Thomistic concept that the substance of the bread and wine change into the substance of the body and blood of Christ in the Eucharist";
+    transub.definition = @"the belief, formulated by Thomas Aquinas, that the substance of the bread and wine change into the substance of the body and blood of Christ in the Eucharist.\r\rFurther Reference:\r";
     transub.category = @"Systematic";
     
     Word *trinity = [[Word alloc] init];
     trinity.name = @"Trinity";
     trinity.twitterDef = @"the existence of God in three persons; Father, Son, and Holy Spirit";
-    trinity.definition = @"The belief that God exists in three persons...";
+    trinity.definition = @"The belief that God exists in three persons.\r\rFurther Reference:\r";
     trinity.category = @"Systematic";
     
     Word *tabernacle = [[Word alloc] init];
     tabernacle.name = @"Tabernacle";
     tabernacle.twitterDef = @"the pre-Solomonic temporary dwelling place of YHWH in Israel";
-    tabernacle.definition = @"The Tabernacle was initially housed at Shiloh...";
+    tabernacle.definition = @"The Tabernacle was initially housed at Shiloh.\r\rFurther Reference:\r";
     tabernacle.category = @"Biblical";
     
     Word *tanak = [[Word alloc] init];
     tanak.name = @"Tanak";
     tanak.twitterDef = @"an acronymic term to describe the Hebrew Bible: T = Torah, N = Nevi'im, K = Ketuv'im";
-    tanak.definition = @"Acronymic term to describe the Hebrew Bible: T = Torah, N = Nevi'im, K = Ketuv'im. Since Hebrew has no vowels, those are added.";
+    tanak.definition = @"Acronymic term to describe the Hebrew Bible: T = Torah, N = Nevi'im, K = Ketuv'im. Since Hebrew has no vowels, those are added.\r\rFurther Reference:\r";
     tanak.category = @"Biblical";
     
     Word *taxCollector = [[Word alloc] init];
     taxCollector.name = @"Tax Collectors";
     taxCollector.twitterDef = @"a class of Jews who collected provincial taxes for the Roman Empire";
-    taxCollector.definition = @"Jews who collected provincial taxes for the Roman Empire; frequently referenced in the gospels due to their presence at numerous border crossings throughout Israel. They were reviled as traitors, likely cheats, and possible idolators. Jesus includes one such person (Matthew) in his inner circle of disciples.";
+    taxCollector.definition = @"Jews who collected provincial taxes for the Roman Empire; frequently referenced in the gospels due to their presence at numerous border crossings throughout Israel. They were reviled as traitors, likely cheats, and possible idolators. Jesus includes one such person (Matthew) in his inner circle of disciples.\r\rFurther Reference:\r";
     taxCollector.category = @"Biblical";
     
     Word *temple = [[Word alloc] init];
     temple.name = @"Temple";
-    temple.twitterDef = @"the permanent dwelling place of YHWH in Israel.";
-    temple.definition = @"The dwelling place of YHWH.";
+    temple.twitterDef = @"the permanent dwelling place of YHWH in Israel";
+    temple.definition = @"The dwelling place of YHWH.\r\rFurther Reference:\r";
     temple.category = @"Biblical";
     
     Word *textual = [[Word alloc] init];
     textual.name = @"Textual Criticism";
-    textual.twitterDef = @"the exegetical criticism that deciphers and analyzes the original language of a text";
-    textual.definition = @"The exegetical criticism that deciphers and analyzes the original language of a text.";
+    textual.twitterDef = @"the criticism that deciphers and analyzes the original language of a text";
+    textual.definition = @"The exegetical criticism that deciphers and analyzes the original language of a text.\r\rFurther Reference:\r";
     textual.category = @"Biblical";
     
     Word *theophany = [[Word alloc] init];
     theophany.name = @"Theophany";
     theophany.twitterDef = @"an appearance of God to a human being in which Divine communication occurs";
-    theophany.definition = @"An appearance of God to a human being. Numerous theophanies are recorded throughout the Bible with the account of Moses being paradigmatic.";
+    theophany.definition = @"An appearance of God to a human being. Numerous theophanies are recorded throughout the Bible with the account of Moses being paradigmatic.\r\rFurther Reference:\r";
     theophany.category = @"Biblical";
     
     Word *torah = [[Word alloc] init];
     torah.name = @"Torah";
     torah.twitterDef = @"the first five books and first section of the Tanak; Genesis, Exodus, Leviticus, Numbers, and Deuteronomy";
-    torah.definition = @"The first five books and first section of the Tanak; Genesis, Exodus, Leviticus, Numbers, and Deuteronomy.";
+    torah.definition = @"The first five books and first section of the Tanak; Genesis, Exodus, Leviticus, Numbers, and Deuteronomy.\r\rFurther Reference:\r";
     torah.category = @"Biblical";
     
     Word *typology = [[Word alloc] init];
     typology.name = @"Typology";
     typology.twitterDef = @"a way of interpreting the Old Testament through a Christological hermeneutic";
-    typology.definition = @"A way of reading the Old Testament...";
+    typology.definition = @"A way of reading the Old Testament.\r\rFurther Reference:\r";
     typology.category = @"Biblical";
 
     
@@ -2034,14 +2044,14 @@
     //U
     Word *universal = [[Word alloc] init];
     universal.name = @"Universal Destination of Goods";
-    universal.twitterDef = @"the idea that the goods of the earth are intended to be justly distributed among its inhabitants";
-    universal.definition = @"The idea that the goods of the earth are intended to be justly distributed among its inhabitants according to the will of the Creator. \r\rSee The Compendium of the Social Doctrine of the Church, 171";
+    universal.twitterDef = @"the idea that the goods of the earth are intended to be justly distributed";
+    universal.definition = @"The idea that the goods of the earth are intended to be justly distributed among its inhabitants according to the will of the Creator.\r\rFurther Reference:\rThe Compendium of the Social Doctrine of the Church, 171";
     universal.category = @"Moral";
     
     Word *universalism = [[Word alloc] init];
     universalism.name = @"Universalism";
     universalism.twitterDef = @"the belief that all of humanity will ultimately experience salvation";
-    universalism.definition = @"The belief that all of humanity will ultimately experience salvation.";
+    universalism.definition = @"The belief that all of humanity will ultimately experience salvation.\r\rFurther Reference:\r";
     universalism.category = @"Systematic";
     
     [_dataArray addObjectsFromArray:@[universal, universalism]];
@@ -2051,13 +2061,13 @@
     Word *virgin = [[Word alloc] init];
     virgin.name = @"Virginal Conception";
     virgin.twitterDef = @"the belief that Jesus of Nazareth was conceived by the Holy Spirit";
-    virgin.definition = @"Both the gospels of Matthew and Luke claim that Jesus was concieved by a virgin mother. Later tradition would develop the idea of Mary's perpetual viriginity although this idea was not univerally accepted.";
+    virgin.definition = @"Both the gospels of Matthew and Luke claim that Jesus was concieved by a virgin mother. Later tradition would develop the idea of Mary's perpetual viriginity although this idea was not univerally accepted.\r\rFurther Reference:\r";
     virgin.category = @"Systematic";
     
     Word *vocation = [[Word alloc] init];
     vocation.name = @"Vocation";
     vocation.twitterDef = @"the calling by God of someone to a particular way of life";
-    vocation.definition = @"The calling by God of someone to a particular way of life.";
+    vocation.definition = @"The calling by God of someone to a particular way of life.\r\rFurther Reference:\r";
     vocation.category = @"Systematic";
     
     [_dataArray addObjectsFromArray:@[virgin, vocation]];
@@ -2067,26 +2077,26 @@
     Word *wisdom = [[Word alloc] init];
     wisdom.name = @"Wisdom Literature";
     wisdom.twitterDef = @"a genre of literature in the Old Testament that contains wise sayings and philosophical reflections on life";
-    wisdom.definition = @"a type of literature that contains wise sayings and philosophical reflections on life.";
+    wisdom.definition = @"a type of literature that contains wise sayings and philosophical reflections on life.\r\rFurther Reference:\r";
     wisdom.category = @"Biblical";
     
     Word *wisdomBooks = [[Word alloc] init];
     wisdomBooks.name = @"Poetic";
     wisdomBooks.twitterDef = @"the third of four sections in the Old Testament, it contains Job, Psalms, Proverbs, Ecclesiastes, Song of Songs, Wisdom, and Sirach";
-    wisdomBooks.definition = @"The third of four sections in the Old Testament; it consists mainly of various writings; contains Job, Psalms, Proverbs, Ecclesiastes, Song of Songs, Wisdom, and Sirach.";
+    wisdomBooks.definition = @"The third of four sections in the Old Testament; it consists mainly of various writings; contains Job, Psalms, Proverbs, Ecclesiastes, Song of Songs, Wisdom, and Sirach.\r\rFurther Reference:\r";
     wisdomBooks.category = @"Biblical";
 
     
     Word *word = [[Word alloc] init];
     word.name = @"Word of God";
     word.twitterDef = @"the saving message of God in which humans trust for salvation";
-    word.definition = @"The saving message of God in which humans trust.";
+    word.definition = @"The saving message of God in which humans trust.\r\rFurther Reference:\r";
     word.category = @"Systematic";
     
     Word *will = [[Word alloc] init];
     will.name = @"Will of God";
     will.twitterDef = @"The ultimate desire of God for creation";
-    will.definition = @"The ultimate desire of God for creation....";
+    will.definition = @"The ultimate desire of God for creation.\r\rFurther Reference:\r";
     will.category = @"Systematic";
     
     [_dataArray addObjectsFromArray:@[will, wisdom, wisdomBooks, word]];
@@ -2097,7 +2107,7 @@
     Word *xeno = [[Word alloc] init];
     xeno.name = @"Xenophobia";
     xeno.twitterDef = @"the fear of foreigners";
-    xeno.definition = @"The fear of foreigners. The ministry of the historical Jesus can be seen, partly, as a movement against the xenophobic nationalism of the religious elite in Second Temple Judaism";
+    xeno.definition = @"The fear of foreigners. The ministry of the historical Jesus can be seen, partly, as a movement against the xenophobic nationalism of the religious elite in Second Temple Judaism.\r\rFurther Reference:\r";
     xeno.category = @"Biblical";
     
     [_dataArray addObjectsFromArray:@[xeno]];
@@ -2114,13 +2124,13 @@
     Word *yhwh = [[Word alloc] init];
     yhwh.name = @"YHWH";
     yhwh.twitterDef = @"the four letter personal name of the God of the Israelites, also called the “Tetragrammaton”";
-    yhwh.definition = @"The four letter personal name of the God of the Israelites, also called the 'Tetragrammaton'; it was likely pronounced 'Yah-way”; according to the E and P sources, this name was not known before it was revealed to Moses in Exodus chapter 3, the J source, however, uses it throughout Genesis, which is one argument for the Documentary Hypothesis.";
+    yhwh.definition = @"The four letter personal name of the God of the Israelites, also called the 'Tetragrammaton'; it was likely pronounced 'Yah-way”; according to the E and P sources, this name was not known before it was revealed to Moses in Exodus chapter 3, the J source, however, uses it throughout Genesis, which is one argument for the Documentary Hypothesis.\r\rFurther Reference:\r";
     yhwh.category = @"Biblical";
     
     Word *yomKippur = [[Word alloc] init];
     yomKippur.name = @"Yom Kippur";
     yomKippur.twitterDef = @"a Hebrew phrase meaning “Day of Atonement”";
-    yomKippur.definition = @"According to Leviticus 16, Yom Kippur is a day set aside on the Jewish calendar dedicated to bringing about personal and national reconciliation with YHWH";
+    yomKippur.definition = @"According to Leviticus 16, Yom Kippur is a day set aside on the Jewish calendar dedicated to bringing about personal and national reconciliation with YHWH.\r\rFurther Reference:\r";
     yomKippur.category = @"Biblical";
     
     [_dataArray addObjectsFromArray:@[yahwist, yhwh, yomKippur]];
@@ -2131,13 +2141,13 @@
     Word *zealot = [[Word alloc] init];
     zealot.name = @"Zealots";
     zealot.twitterDef = @"a Jewish revolutionary group that used violence in an effort to repel Roman Imperial forces";
-    zealot.definition = @"A Jewish revolutionary group that used violence in an effort to repel Roman Imperial forces.";
+    zealot.definition = @"A Jewish revolutionary group that used violence in an effort to repel Roman Imperial forces.\r\rFurther Reference:\r";
     zealot.category = @"Biblical";
     
     Word *zion = [[Word alloc] init];
     zion.name = @"Zion";
     zion.twitterDef = @"a synonym for the Temple Mount in Jerusalem or for the city of Jerusalem itself";
-    zion.definition = @"A synonym for the Temple mountain in Jerusalem or for the city of Jerusalem itself.";
+    zion.definition = @"A synonym for the Temple mountain in Jerusalem or for the city of Jerusalem itself.\r\rFurther Reference:\r";
     zion.category = @"Biblical";
     
       [_dataArray addObjectsFromArray:@[zealot, zion]];
