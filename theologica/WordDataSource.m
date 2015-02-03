@@ -1312,6 +1312,12 @@
     genre.definition = @"A French word referring to the literary form of a text.\r\rFurther Reference:\rWikipedia, Genre http://tinyurl.com/gsh83";
     genre.category = @"Biblical";
     
+    Word *gnosticism = [Word new];
+    gnosticism.name = @"Gnosticism";
+    gnosticism.twitterDef = @"a heretical Christian sect that\rtaught salvation through esoteric knowledge";
+    gnosticism.definition = @"Gnosticism flourished in the second and third centuries...";
+    gnosticism.category = @"Historical";
+    
     Word *gospel = [[Word alloc] init];
     gospel.name = @"Gospel";
     gospel.twitterDef = @"the message of and about Jesus of Narareth\rconcerning God, Israel, and the world";
@@ -1319,7 +1325,7 @@
     gospel.category = @"Biblical";
 
     
-    [_dataArray addObjectsFromArray:@[gehenna, genre, gospel, grace, greatSchism]];
+    [_dataArray addObjectsFromArray:@[gehenna, genre, gospel, grace, greatSchism, gnosticism]];
     
     //H
     
