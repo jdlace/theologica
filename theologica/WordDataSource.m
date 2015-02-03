@@ -1661,43 +1661,43 @@
     Word *natural  = [[Word alloc] init];
     natural.name = @"Natural Law";
     natural.twitterDef = @"the universal moral norm, accessible by human reason";
-    natural.definition = @"the universal moral norm, accessible by human reason.\r\rFurther Reference:\r";
+    natural.definition = @"The concept of natural law dates back to the early Greek philosophers. It is alluded to in Paul's epistle to the Romans 1:21.\r\rFurther Reference:\rCatechism of the Catholic Church, 1954\rhttp://tinyurl.com/yla3tgm";
     natural.category = @"Moral";
     
     Word *naturalTheo = [[Word alloc] init];
     naturalTheo.name = @"Natural Theology";
     naturalTheo.twitterDef = @"the study of God by inference from the facts of the physical world";
-    naturalTheo.definition = @"the study of God by inference from the facts of the physical world.\r\rFurther Reference:\r";
+    naturalTheo.definition = @"Natural Theology is the attempt to examine the concept of God from the natural world, apart from any special revelation.\r\rFurther Reference:\rInternet Encyclopedia of Philosophy, “Natural Law”\rhttp://tinyurl.com/7ckb5tz";
     naturalTheo.category = @"Systematic";
     
     Word *neviim = [[Word alloc] init];
     neviim.name = @"Nevi'im";
     neviim.twitterDef = @"the Hebrew word meaning\r“prophets”";
-    neviim.definition = @"The Hebrew word for “Prophets”; the term given the second of the three sections of the Tanak.\r\rFurther Reference:\r";
+    neviim.definition = @"The Nevi'im is the second of the three sections of the Tanak; from the Hebrew, נְבִיאִים. See “Tanak”.\r\rFurther Reference:\rWikipedia, “Nevi'im”\rhttp://tinyurl.com/qyks6kh";
     neviim.category = @"Biblical";
     
     Word *newTestament = [[Word alloc] init];
     newTestament.name = @"New Testament";
     newTestament.twitterDef = @"the 27 books dealing with the life of Jesus of Nazareth and his followers";
-    newTestament.definition = @"The New Testament contains the 4 gospels, the Acts of the Apostles, numerous epistles, and the Apocalypse.\r\rFurther Reference:\r";
+    newTestament.definition = @"The New Testament contains the 4 gospels, the Acts of the Apostles, numerous epistles, and the Apocalypse. See “Gospel”, “Epistle”, “Apocalypse”.\r\rFurther Reference:\rCatechism of the Catholic Church, 124-127\rhttp://tinyurl.com/kvc3tvq";
     newTestament.category = @"Biblical";
     
     Word *niceneCo = [[Word alloc] init];
     niceneCo.name = @"Nicene-Constantiopolitan Creed";
-    niceneCo.twitterDef = @"the creed initially formulated at the Council of Constantinople in A.D. 381 and based on the prior Nicene Creed in A.D. 325";
-    niceneCo.definition = @"“We believe in one God, the Father, the Almighty, maker of heaven and earth, of all that is, seen and unseen. \r\rWe believe one Lord, Jesus Christ, the only Son of God, eternally begotten of the Father, God from God, Light from Light, true God from true God, begotten, not made, one in Being with the Father. Through Him all things were made. For us men and for our salvation, He came down from heaven: by the power of the Holy Spirit He was born of the Virgin Mary, and became Man. For our sake He was crucified under Pontius Pilate. He suffered, died, and was buried. On the third day He rose again in fulfillment of the Scriptures; He ascended into heaven, and is seated at the right hand of the Father. He will come again in glory to judge the living and the dead, and His kingdom will have no end. \r\rWe believe in the Holy Spirit, the Lord, the Giver of life, Who proceeds from the Father and the Son. With the Father and the Son He is worshiped and glorified. He has spoken through the prophets.\r\rWe believe in one, holy, catholic, and apostolic Church. We acknowledge one Baptism for the forgiveness of sins. We look for the resurrection of the dead, and the life of the world to come. Amen.”\r\rFurther Reference:\r";
+    niceneCo.twitterDef = @"the creed from Constantinople in A.D. 381,\rbased on the Nicene Creed in A.D. 325";
+    niceneCo.definition = @"“We believe in one God, the Father, the Almighty, maker of heaven and earth, of all that is, seen and unseen. \r\rWe believe one Lord, Jesus Christ, the only Son of God, eternally begotten of the Father, God from God, Light from Light, true God from true God, begotten, not made, one in Being with the Father. Through Him all things were made. For us men and for our salvation, He came down from heaven: by the power of the Holy Spirit He was born of the Virgin Mary, and became Man. For our sake He was crucified under Pontius Pilate. He suffered, died, and was buried. On the third day He rose again in fulfillment of the Scriptures; He ascended into heaven, and is seated at the right hand of the Father. He will come again in glory to judge the living and the dead, and His kingdom will have no end. \r\rWe believe in the Holy Spirit, the Lord, the Giver of life, Who proceeds from the Father and the Son. With the Father and the Son He is worshiped and glorified. He has spoken through the prophets.\r\rWe believe in one, holy, catholic, and apostolic Church. We acknowledge one Baptism for the forgiveness of sins. We look for the resurrection of the dead, and the life of the world to come. Amen.”\r\rSee “Nicea” in the Historical section of the Map tab.\r\rFurther Reference:\rCatechism of the Catholic Church, Sec. II\rhttp://tinyurl.com/2dszf5";
     niceneCo.category = @"Historical"; 
     
     Word *numinous = [[Word alloc] init];
     numinous.name = @"Numinous";
-    numinous.twitterDef = @"the category of religous experience as defined by Rudoph Otto";
-    numinous.definition = @"The category of religous experience as defined by Rudoph Otto.\r\rFurther Reference:\r";
+    numinous.twitterDef = @"experience of the Holy that includes\rboth terrifying and fascinating aspects";
+    numinous.definition = @"According to Otto, in his seminal work, “The Idea of the Holy”, religious experience is an encounter with the Holy this is totally Other and numinous. Such experiences are mysteriously terrifying (mysterium tremendum) and mysteriously fascinating (mysterium fascinans).\r\rFurther Reference:\rWikipedia, “Numinous”\rhttp://tinyurl.com/q2nys8u";
     numinous.category = @"Systematic";
     
     Word *naturalism = [[Word alloc] init];
     naturalism.name = @"Naturalism";
     naturalism.twitterDef = @"the belief that nature is all that exists and denies a supernatural order";
-    naturalism.definition = @"The belief that nature is all that exists and denies a supernatural order.\r\rFurther Reference:\r";
+    naturalism.definition = @"\r\rFurther Reference:\r";
     naturalism.category = @"Cultural";
 
     
