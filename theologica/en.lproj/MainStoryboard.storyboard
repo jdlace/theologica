@@ -424,7 +424,7 @@
                         <barButtonItem key="backBarButtonItem" title="Glossary" id="TeJ-ib-7ab"/>
                         <barButtonItem key="leftBarButtonItem" title="Terms" style="plain" id="LEf-Yw-Fka">
                             <connections>
-                                <action selector="typeButton:" destination="oZ5-nE-rQe" id="iGs-j9-C0a"/>
+                                <action selector="termsButton:" destination="oZ5-nE-rQe" id="w9s-2l-WOC"/>
                             </connections>
                         </barButtonItem>
                         <button key="titleView" opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="4M3-HD-6Fw">
@@ -436,8 +436,9 @@
                             </state>
                             <state key="highlighted" image="appicon2.png"/>
                         </button>
-                        <barButtonItem key="rightBarButtonItem" image="bookmarklines" id="RxI-0F-zKf">
+                        <barButtonItem key="rightBarButtonItem" title="Saved" id="RxI-0F-zKf">
                             <connections>
+                                <action selector="savedButton:" destination="oZ5-nE-rQe" id="3zh-9D-7Mc"/>
                                 <segue destination="715-iu-iCs" kind="modal" identifier="showBookmark" id="zED-tK-w8O"/>
                             </connections>
                         </barButtonItem>
@@ -447,7 +448,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pZt-tF-tCP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1516" y="-765"/>
+            <point key="canvasLocation" x="-1501" y="-734"/>
         </scene>
         <!--Word Detail View Controller-->
         <scene sceneID="Esu-FU-O7a">
@@ -514,7 +515,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ch1-NC-7h2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1107" y="-770"/>
+            <point key="canvasLocation" x="-1115" y="-734"/>
         </scene>
         <!--Map View Controller-->
         <scene sceneID="Edy-lw-xDa">
@@ -629,7 +630,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" reuseIdentifier="bookmarkCell" id="mpF-K4-Oa9">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" showsReorderControl="YES" indentationWidth="10" reuseIdentifier="bookmarkCell" id="mpF-K4-Oa9">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mpF-K4-Oa9" id="0TR-4j-f2D">
                                     <autoresizingMask key="autoresizingMask"/>
@@ -700,16 +701,43 @@
             </objects>
             <point key="canvasLocation" x="-635" y="-457"/>
         </scene>
-        <!--View Controller-->
+        <!--Verbatim View Controller-->
         <scene sceneID="zJW-Gp-0B7">
             <objects>
-                <viewController id="AhB-vL-tFP" sceneMemberID="viewController">
+                <viewController id="AhB-vL-tFP" customClass="VerbatimViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DDN-AM-gb5">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" progress="0.5" id="aC3-dO-ikO">
+                                <rect key="frame" x="0.0" y="65" width="320" height="3"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </progressView>
+                            <webView contentMode="scaleToFill" keyboardDisplayRequiresUserAction="NO" id="eBx-7V-8BJ">
+                                <rect key="frame" x="0.0" y="68" width="320" height="501"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="GKs-kk-Kfa"/>
+                    <navigationItem key="navigationItem" id="pWq-ph-Bdt">
+                        <nil key="title"/>
+                        <button key="titleView" opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="jgA-P7-PFz">
+                            <rect key="frame" x="96" y="7" width="128" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <rect key="contentStretch" x="0.0" y="0.050000000000000003" width="1" height="1"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
+                            <state key="normal" title="Verbatim">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="progressBar" destination="aC3-dO-ikO" id="aMm-8T-z80"/>
+                        <outlet property="webView" destination="eBx-7V-8BJ" id="dUy-SW-u7s"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d6h-cJ-fhC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -780,7 +808,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" progress="0.5" id="xag-FS-2mi">
-                                <rect key="frame" x="0.0" y="64" width="320" height="3"/>
+                                <rect key="frame" x="0.0" y="65" width="320" height="3"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </progressView>
                         </subviews>
@@ -880,7 +908,6 @@
         <image name="appicon.png" width="120" height="120"/>
         <image name="appicon2.png" width="80" height="80"/>
         <image name="appiconnew" width="66" height="66"/>
-        <image name="bookmarklines" width="30" height="30"/>
         <image name="chiRho-1" width="70" height="70"/>
         <image name="codex2-1" width="70" height="70"/>
         <image name="defdetail-1" width="106" height="49"/>

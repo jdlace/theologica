@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		690248B717F05294009D6811 /* bookmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 690248B617F05294009D6811 /* bookmark@2x.png */; };
 		6902FACE17F51D3E00299A50 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6902FACD17F51D3E00299A50 /* Images.xcassets */; };
+		6907EB581A7E7AA300AE52A1 /* VerbatimViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6907EB571A7E7AA300AE52A1 /* VerbatimViewController.m */; };
 		691EAA2C1A49EE3900F98942 /* ViewButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 691EAA2B1A49EE3900F98942 /* ViewButtonViewController.m */; };
 		692ED24B1796D552008554F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692ED24A1796D552008554F9 /* UIKit.framework */; };
 		692ED24D1796D552008554F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692ED24C1796D552008554F9 /* Foundation.framework */; };
@@ -31,6 +32,7 @@
 		694E879A1A55C5AB00CE4A37 /* LinksTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 694E87991A55C5AB00CE4A37 /* LinksTableViewController.m */; };
 		694E879E1A55D52400CE4A37 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 694E879D1A55D52400CE4A37 /* WebViewController.m */; };
 		694E87A41A56504F00CE4A37 /* Source.m in Sources */ = {isa = PBXBuildFile; fileRef = 694E87A31A56504F00CE4A37 /* Source.m */; };
+		6954E3DD1A7D54F0003FDBF2 /* Bookmarks.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6954E3DC1A7D54F0003FDBF2 /* Bookmarks.plist */; };
 		69739B561A36897F008BAB06 /* SearchBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69739B551A36897F008BAB06 /* SearchBarViewController.m */; };
 		6976E3021A6F3E8D0013A6D5 /* Links.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6976E3011A6F3E8D0013A6D5 /* Links.plist */; };
 		698893B81A5E24CE00D1AC74 /* SourcesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 698893B71A5E24CE00D1AC74 /* SourcesDetailViewController.m */; };
@@ -83,6 +85,8 @@
 /* Begin PBXFileReference section */
 		690248B617F05294009D6811 /* bookmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bookmark@2x.png"; path = "../bookmark@2x.png"; sourceTree = "<group>"; };
 		6902FACD17F51D3E00299A50 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = theologica/Images.xcassets; sourceTree = "<group>"; };
+		6907EB561A7E7AA300AE52A1 /* VerbatimViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VerbatimViewController.h; path = ../VerbatimViewController.h; sourceTree = "<group>"; };
+		6907EB571A7E7AA300AE52A1 /* VerbatimViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VerbatimViewController.m; path = ../VerbatimViewController.m; sourceTree = "<group>"; };
 		691EAA2A1A49EE3900F98942 /* ViewButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewButtonViewController.h; path = ../ViewButtonViewController.h; sourceTree = "<group>"; };
 		691EAA2B1A49EE3900F98942 /* ViewButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewButtonViewController.m; path = ../ViewButtonViewController.m; sourceTree = "<group>"; };
 		692ED2471796D552008554F9 /* theologica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = theologica.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +120,7 @@
 		694E879D1A55D52400CE4A37 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		694E87A21A56504F00CE4A37 /* Source.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Source.h; sourceTree = "<group>"; };
 		694E87A31A56504F00CE4A37 /* Source.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Source.m; sourceTree = "<group>"; };
+		6954E3DC1A7D54F0003FDBF2 /* Bookmarks.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Bookmarks.plist; path = theologica/Bookmarks.plist; sourceTree = "<group>"; };
 		69739B541A36897F008BAB06 /* SearchBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchBarViewController.h; sourceTree = "<group>"; };
 		69739B551A36897F008BAB06 /* SearchBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchBarViewController.m; sourceTree = "<group>"; };
 		6976E3011A6F3E8D0013A6D5 /* Links.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Links.plist; sourceTree = "<group>"; };
@@ -191,10 +196,20 @@
 			name = View;
 			sourceTree = "<group>";
 		};
+		6907EB591A7E7ABC00AE52A1 /* Verbatim */ = {
+			isa = PBXGroup;
+			children = (
+				6907EB561A7E7AA300AE52A1 /* VerbatimViewController.h */,
+				6907EB571A7E7AA300AE52A1 /* VerbatimViewController.m */,
+			);
+			name = Verbatim;
+			sourceTree = "<group>";
+		};
 		692ED23E1796D552008554F9 = {
 			isa = PBXGroup;
 			children = (
 				6976E3011A6F3E8D0013A6D5 /* Links.plist */,
+				6954E3DC1A7D54F0003FDBF2 /* Bookmarks.plist */,
 				698F27AC1A6D837F0065F8A6 /* theologica.entitlements */,
 				6907A2081A14525300EA7CF4 /* View */,
 				692ED2501796D552008554F9 /* Controllers */,
@@ -234,6 +249,7 @@
 		692ED2501796D552008554F9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				6907EB591A7E7ABC00AE52A1 /* Verbatim */,
 				69B7DF641A2128480033465A /* Sources */,
 				69B7DF611A2127EA0033465A /* Dictionary */,
 				FA4D5CB01A41BFD9002B40F2 /* Map */,
@@ -481,6 +497,7 @@
 				692ED2991796E709008554F9 /* equality@2x.png in Resources */,
 				692ED2A81796EF10008554F9 /* man-influence.png in Resources */,
 				692ED2A91796EF10008554F9 /* man-influence@2x.png in Resources */,
+				6954E3DD1A7D54F0003FDBF2 /* Bookmarks.plist in Resources */,
 				9BAC0B461A1C4BA1004C4867 /* appicon2.png in Resources */,
 				6976E3021A6F3E8D0013A6D5 /* Links.plist in Resources */,
 				9BAC0B451A1C4BA1004C4867 /* appicon.png in Resources */,
@@ -513,6 +530,7 @@
 				692ED2B51796F48B008554F9 /* WordDetailViewController.m in Sources */,
 				69D6284C1A47617B0073C157 /* HistoricalPins.m in Sources */,
 				FA84505C1A129CA0007839D8 /* bookmarkListTableViewController.m in Sources */,
+				6907EB581A7E7AA300AE52A1 /* VerbatimViewController.m in Sources */,
 				691EAA2C1A49EE3900F98942 /* ViewButtonViewController.m in Sources */,
 				694E87A41A56504F00CE4A37 /* Source.m in Sources */,
 				694E879A1A55C5AB00CE4A37 /* LinksTableViewController.m in Sources */,

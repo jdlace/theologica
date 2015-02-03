@@ -76,6 +76,11 @@
     bethEl.image = [UIImage imageNamed:@"bethel"];
     bethEl.information = @"Beth-El was a popular cultic site devoted to the Canaanite god El, the father of the Canaanite pantheon. In Genesis 32 and 35 it is associated with the Hebrew patriarch Jacob.\r\rCoordinates:\r31.9390, 35.2260";
     
+    BiblicalPins *capernaum = [[BiblicalPins alloc] init];
+    capernaum.coordinate = CLLocationCoordinate2DMake(32.8811, 35.5750);
+    capernaum.title = @"Capernaum";
+    capernaum.subtitle = @"Fishing village on the Sea of Galilee";
+    
     BiblicalPins *ephesus = [[BiblicalPins alloc] init];
     ephesus.coordinate = CLLocationCoordinate2DMake(37.9411, 27.3419);
     ephesus.title = @"Ephesus";
@@ -95,6 +100,13 @@
     dan.image = [UIImage imageNamed:@"dan"];
     dan.subtitle = @"Northern Israelite Cultic Site";
     dan.information = @"Coordinates: 33.2490, 35.6520";
+    
+    BiblicalPins *jericho = [[BiblicalPins alloc] init];
+    jericho.coordinate = CLLocationCoordinate2DMake(31.8500, 35.4500);
+    jericho.title = @"Jericho";
+    jericho.subtitle = @"Walled Canaanite City";
+    jericho.information = @"Coordinates: 31.8500, 35.4500";
+
     
     BiblicalPins *temple = [[BiblicalPins alloc] init];
     temple.coordinate = CLLocationCoordinate2DMake(31.7780, 35.2354);
@@ -555,30 +567,39 @@ MapDetailViewController.currentWordDetail = word;
                                       [self.mapView removeAnnotations:self.mapView.annotations];
                                       
                                       BiblicalPins *jerusalem = [[BiblicalPins alloc] init];
-                                      jerusalem.coordinate = CLLocationCoordinate2DMake(31.7883, 35.2167);
+                                      jerusalem.coordinate = CLLocationCoordinate2DMake(31.7570, 35.1790);
                                       jerusalem.title = @"Jerusalem";
-                                      jerusalem.subtitle = @"The City of David";
-                                      jerusalem.information = @"The capital of the Davidic monarchy. According to 2 Samuel 24:24, King David purchased Jerusalem from the Jebusites and designated it the capital of his united kingdom. Solomon built the Temple on Mount Moriah in Jerusalem along with his palace. The city was destroyed by the Babylonians in 587 B.C. and re-established in 538 after the return of the Jews from the Exile. It served as the religious center of Palestine during the Roman occupation from 63 B.C. to its destruction in A.D. 70 by the Romans.\r\rCoordinates: 31.7883, 35.2167";
+                                      jerusalem.subtitle = @"Capital of the Davidic Dynasty";
+                                      jerusalem.image = [UIImage imageNamed:@"jerusalem"];
+                                      jerusalem.information = @"According to 2 Samuel 24:24, King David purchased Jerusalem from the Jebusites and designated it the capital of his united kingdom. Solomon built the Temple on Mount Moriah in Jerusalem along with his palace. The city was destroyed by the Babylonians in 587 B.C. and re-established in 538 after the return of the Jews from the Exile. It served as the religious center of Palestine during the Roman occupation from 63 B.C. to its destruction in A.D. 70 by the Romans.\r\rThe city was rebuilt successively throughout the period of the Ottoman Empire. It is currently divided between Palestine and Israel.\r\rCoordinates:\r31.7883, 35.2167";
                                       
                                       BiblicalPins *bethEl = [[BiblicalPins alloc] init];
-                                      bethEl.coordinate = CLLocationCoordinate2DMake(31.9300, 35.2200);
+                                      bethEl.coordinate = CLLocationCoordinate2DMake(31.9390, 35.2260);
                                       bethEl.title = @"Beth-El";
-                                      bethEl.subtitle = @"1 Kings 12:28";
+                                      bethEl.subtitle = @"Canaanite cultic site of El";
+                                      bethEl.image = [UIImage imageNamed:@"bethel"];
+                                      bethEl.information = @"Beth-El was a popular cultic site devoted to the Canaanite god El, the father of the Canaanite pantheon. In Genesis 32 and 35 it is associated with the Hebrew patriarch Jacob.\r\rCoordinates:\r31.9390, 35.2260";
                                       
                                       BiblicalPins *dan = [[BiblicalPins alloc] init];
                                       dan.coordinate = CLLocationCoordinate2DMake(33.2490, 35.6520);
                                       dan.title = @"Dan";
-                                      dan.subtitle = @"1 Kings 12: 28";
+                                      dan.image = [UIImage imageNamed:@"dan"];
+                                      dan.subtitle = @"Northern Israelite Cultic Site";
+                                      dan.information = @"Coordinates: 33.2490, 35.6520";
                                       
                                       BiblicalPins *temple = [[BiblicalPins alloc] init];
                                       temple.coordinate = CLLocationCoordinate2DMake(31.7780, 35.2354);
                                       temple.title = @"The Temple Mount";
-                                      temple.subtitle = @"1 Kings 6:1";
+                                      temple.subtitle = @"The House of YHWH";
+                                      temple.image = [UIImage imageNamed:@"temple"];
+                                      temple.information = @"The Temple was originally built by Solomon in the 10th century B.C. During the reign of Josiah, it purportedly housed a large statue of the Canaanite goddess Asherah. It was destroyed by the Babylonians in 587 B.C. during their conquest of Judah. Upon their return from the Exile, the Jews rebuilt the Temple and dedicated it in 515 B.C.\r\rIt was later expanded by Herod the Great.\r\rCoordinates:\r31.7780, 35.2354";
                                       
                                       BiblicalPins *hazor = [[BiblicalPins alloc] init];
                                       hazor.coordinate = CLLocationCoordinate2DMake(33.0167, 35.5669);
                                       hazor.title = @"Hazor";
-                                      hazor.subtitle = @"Joshua 11:10";
+                                      hazor.image = [UIImage imageNamed:@"hazor"];
+                                      hazor.subtitle = @"Major Ancient Canaanite City";
+                                      hazor.information = @"Hazor was a major city in ancient Canaan. It was described as being destroyed in Joshua.\r\rCoordinates:\r33.0167, 35.5669";
                                       
                                       BiblicalPins *jericho = [[BiblicalPins alloc] init];
                                       jericho.coordinate = CLLocationCoordinate2DMake(31.8500, 35.4500);
@@ -588,7 +609,7 @@ MapDetailViewController.currentWordDetail = word;
                                       BiblicalPins *shiloh = [[BiblicalPins alloc] init];
                                       shiloh.coordinate = CLLocationCoordinate2DMake(32.0556, 35.2895);
                                       shiloh.title = @"Shiloh";
-                                      shiloh.subtitle = @"Shrine with the Ark of the Covenant";
+                                      shiloh.subtitle = @"Shrine of the Ark of the Covenant";
                                       
                                       BiblicalPins *hebron = [[BiblicalPins alloc] init];
                                       hebron.coordinate = CLLocationCoordinate2DMake(31.5333, 35.0950);
@@ -601,8 +622,8 @@ MapDetailViewController.currentWordDetail = word;
                                       NSArray *annotations = [NSArray arrayWithObjects:jerusalem, dan, bethEl, temple, hazor,jericho, shiloh, hebron, nil];
                                       [self.mapView addAnnotations:annotations];
                                       
-                                      MKCoordinateSpan span = MKCoordinateSpanMake(100.0000f,100.0000f);
-                                      CLLocationCoordinate2D coordinate = {37.9333, 22.9333};
+                                      MKCoordinateSpan span = MKCoordinateSpanMake(03.0000f,03.0000f);
+                                      CLLocationCoordinate2D coordinate = {32.0556, 35.2895};
                                       MKCoordinateRegion region = {coordinate, span};
                                       
                                       MKCoordinateRegion regionThatFits = [self.mapView regionThatFits:region];
@@ -618,9 +639,11 @@ MapDetailViewController.currentWordDetail = word;
                                         [self.mapView removeAnnotations:self.mapView.annotations];
                                    
                                    BiblicalPins *nazareth = [[BiblicalPins alloc] init];
-                                   nazareth.coordinate = CLLocationCoordinate2DMake(32.7019, 35.3033);
+                                   nazareth.coordinate = CLLocationCoordinate2DMake(32.7000, 35.3040);
                                    nazareth.title = @"Nazareth";
-                                   nazareth.subtitle = @"Luke 4:16";
+                                   nazareth.subtitle = @"Traditional Hometown of Jesus";
+                                   nazareth.image = [UIImage imageNamed:@"nazareth"];
+                                   nazareth.information = @"The town of Nazareth is not mentioned in the Hebrew Scriptures. It was a small village only 4 miles from Sepphoris, the captial city of Herod Antipas.\r\rCoordinates:\r32.7000, 35.3040";
                                    
                                    BiblicalPins *capernaum = [[BiblicalPins alloc] init];
                                    capernaum.coordinate = CLLocationCoordinate2DMake(32.8811, 35.5750);
@@ -635,12 +658,16 @@ MapDetailViewController.currentWordDetail = word;
                                    BiblicalPins *corinth = [[BiblicalPins alloc] init];
                                    corinth.coordinate = CLLocationCoordinate2DMake(37.9333, 22.9333);
                                    corinth.title = @"Corinth";
-                                   corinth.subtitle = @"1 Corinthians 1:3";
+                                   corinth.subtitle = @"Major Greek Port City";
+                                   corinth.image = [UIImage imageNamed:@"corinth"];
+                                   corinth.information = @"Coordinates: 37.9333, 22.9333";
                                    
                                    BiblicalPins *thessalonica = [[BiblicalPins alloc] init];
                                    thessalonica.coordinate = CLLocationCoordinate2DMake(40.6500, 22.9000);
                                    thessalonica.title = @"Thessalonica";
-                                   thessalonica.subtitle = @"1 & 2 Thessalonians";
+                                   thessalonica.subtitle = @"Greek Coastal City";
+                                   thessalonica.image = [UIImage imageNamed:@"thessalonica"];
+                                   thessalonica.information = @"Thessalonica was home to one of the earlier Christian communities founded by the Apostle Paul.\r\rCoordinates:\r40.6500, 22.9000";
                                    
                                    BiblicalPins *philippi = [[BiblicalPins alloc] init];
                                    philippi.coordinate = CLLocationCoordinate2DMake(41.0131, 24.2864);
@@ -648,15 +675,19 @@ MapDetailViewController.currentWordDetail = word;
                                    philippi.subtitle = @"Philippians 1:2";
                                    
                                    BiblicalPins *rome = [[BiblicalPins alloc] init];
-                                   rome.coordinate = CLLocationCoordinate2DMake(41.9000, 12.5000);
+                                   rome.coordinate = CLLocationCoordinate2DMake(41.8900, 12.4938);
                                    rome.title = @"Rome";
-                                   rome.subtitle = @"Romans 1:2 \r\rThe Church of Rome was established in the first century and quickly acquired a reputation for generosity. According to tradition, both Peter and Paul were martyred there during the persecution under Nero.";
+                                   rome.subtitle = @"Capital of the Roman Empire";
+                                   rome.image = [UIImage imageNamed:@"rome-1"];
+                                   rome.information = @"The Church of Rome was established in the first century and quickly acquired a reputation for generosity. According to tradition, both Peter and Paul were martyred there during the persecution under Nero.\r\rCoordinates:\r41.8900, 12.4938";
                                    
                                    BiblicalPins *jerusalem = [[BiblicalPins alloc] init];
-                                   jerusalem.coordinate = CLLocationCoordinate2DMake(31.7883, 35.2167);
+                                   jerusalem.coordinate = CLLocationCoordinate2DMake(31.7570, 35.1790);
                                    jerusalem.title = @"Jerusalem";
-                                   jerusalem.subtitle = @"The City of David";
-                                   jerusalem.information = @"The capital of the Davidic monarchy. According to 2 Samuel 24:24, King David purchased Jerusalem from the Jebusites and designated it the capital of his united kingdom. Solomon built the Temple on Mount Moriah in Jerusalem along with his palace. The city was destroyed by the Babylonians in 587 B.C. and re-established in 538 after the return of the Jews from the Exile. It served as the religious center of Palestine during the Roman occupation from 63 B.C. to its destruction in A.D. 70 by the Romans.\r\rCoordinates: 31.7883, 35.2167";
+                                   jerusalem.subtitle = @"Capital of the Davidic Dynasty";
+                                   jerusalem.image = [UIImage imageNamed:@"jerusalem"];
+                                   jerusalem.information = @"According to 2 Samuel 24:24, King David purchased Jerusalem from the Jebusites and designated it the capital of his united kingdom. Solomon built the Temple on Mount Moriah in Jerusalem along with his palace. The city was destroyed by the Babylonians in 587 B.C. and re-established in 538 after the return of the Jews from the Exile. It served as the religious center of Palestine during the Roman occupation from 63 B.C. to its destruction in A.D. 70 by the Romans.\r\rThe city was rebuilt successively throughout the period of the Ottoman Empire. It is currently divided between Palestine and Israel.\r\rCoordinates:\r31.7883, 35.2167";
+
                                    
                                    BiblicalPins *colossae = [[BiblicalPins alloc] init];
                                    colossae.coordinate = CLLocationCoordinate2DMake(37.7878, 29.2615);
@@ -666,7 +697,9 @@ MapDetailViewController.currentWordDetail = word;
                                    BiblicalPins *temple = [[BiblicalPins alloc] init];
                                    temple.coordinate = CLLocationCoordinate2DMake(31.7780, 35.2354);
                                    temple.title = @"The Temple Mount";
-                                   temple.subtitle = @"1 Kings 6:1";
+                                   temple.subtitle = @"The House of YHWH";
+                                   temple.image = [UIImage imageNamed:@"temple"];
+                                   temple.information = @"The Temple was originally built by Solomon in the 10th century B.C. During the reign of Josiah, it purportedly housed a large statue of the Canaanite goddess Asherah. It was destroyed by the Babylonians in 587 B.C. during their conquest of Judah. Upon their return from the Exile, the Jews rebuilt the Temple and dedicated it in 515 B.C.\r\rIt was later expanded by Herod the Great.\r\rCoordinates:\r31.7780, 35.2354";
                                    
                                    BiblicalPins *antioch = [[BiblicalPins alloc] init];
                                    antioch.coordinate = CLLocationCoordinate2DMake(36.2000, 36.1500);
@@ -674,14 +707,16 @@ MapDetailViewController.currentWordDetail = word;
                                    antioch.subtitle = @"Center of Paul's Missions";
                                    
                                    BiblicalPins *bethlehem = [[BiblicalPins alloc] init];
-                                   bethlehem.coordinate = CLLocationCoordinate2DMake(31.7031, 35.1956);
+                                   bethlehem.coordinate = CLLocationCoordinate2DMake(31.7063, 35.2090);
                                    bethlehem.title = @"Bethlehem";
-                                   bethlehem.subtitle = @"Traditional birthplace of Jesus";
+                                   bethlehem.image = [UIImage imageNamed:@"bethlehem"];
+                                   bethlehem.subtitle = @"Traditional Birthplace of Jesus";
+                                   bethlehem.information = @"Coordinates:\r31.7031, 35.1956";
                                    
                                    NSArray *annotations = [NSArray arrayWithObjects: nazareth, ephesus, corinth, rome, thessalonica, philippi, capernaum, colossae, temple, jerusalem, antioch, bethlehem, nil];
                                    [self.mapView addAnnotations:annotations];
                                    
-                                   MKCoordinateSpan span = MKCoordinateSpanMake(100.0000f,100.0000f);
+                                   MKCoordinateSpan span = MKCoordinateSpanMake(40.0000f,40.0000f);
                                    CLLocationCoordinate2D coordinate = {37.9333, 22.9333};
                                    MKCoordinateRegion region = {coordinate, span};
                                    
@@ -701,9 +736,12 @@ MapDetailViewController.currentWordDetail = word;
                                    [self.mapView removeAnnotations:self.mapView.annotations];
                                    
                                    HistoricalPins *nicea = [[HistoricalPins alloc] init];
-                                   nicea.coordinate = CLLocationCoordinate2DMake(40.2574, 29.4317);
-                                   nicea.title = @"Nicea: Councils I, VII";
-                                   nicea.subtitle = @"A.D. 325, 787 \r\rThe first Council of Nicea was called by Constantine. It condemned the teaching of Arius and declared that Christ is ομοουσιους (homoousious) - 'of the same substance' as God. \r\rThe second Council of Nicea approved the veneration of icons.";
+                                   nicea.coordinate = CLLocationCoordinate2DMake(40.4292, 29.7211);
+                                   nicea.title = @"Nicea";
+                                   nicea.image = [UIImage imageNamed:@"nicea"];
+                                   nicea.subtitle = @"Ecumenical Councils I, VII";
+                                   nicea.information = @"The first Council of Nicea was called by the Emperor Constantine in A.D. 325. It condemned the teaching of Arius and declared that Christ is ομοουσιους (homoousious) - 'of the same substance' as God. \r\rThe second Council of Nicea in A.D. 787 brought an end to the iconoclasm controversy by approving the veneration of icons.\r\rCoordinates:\r40.2574, 29.4317";
+
                                    
                                    HistoricalPins *alexandria = [[HistoricalPins alloc] init];
                                    alexandria.coordinate = CLLocationCoordinate2DMake(31.1980, 29.9192);
@@ -776,81 +814,110 @@ MapDetailViewController.currentWordDetail = word;
                                    BiblicalPins *jerusalem = [[BiblicalPins alloc] init];
                                    jerusalem.coordinate = CLLocationCoordinate2DMake(31.7570, 35.1790);
                                    jerusalem.title = @"Jerusalem";
-                                   jerusalem.subtitle = @"The City of David";
-                                   jerusalem.information = @"The capital of the Davidic monarchy. According to 2 Samuel 24:24, King David purchased Jerusalem from the Jebusites and designated it the capital of his united kingdom. Solomon built the Temple on Mount Moriah in Jerusalem along with his palace. The city was destroyed by the Babylonians in 587 B.C. and re-established in 538 after the return of the Jews from the Exile. It served as the religious center of Palestine during the Roman occupation from 63 B.C. to its destruction in A.D. 70 by the Romans.\r\rCoordinates: 31.7883, 35.2167";
+                                   jerusalem.subtitle = @"Capital of the Davidic Dynasty";
+                                   jerusalem.image = [UIImage imageNamed:@"jerusalem"];
+                                   jerusalem.information = @"According to 2 Samuel 24:24, King David purchased Jerusalem from the Jebusites and designated it the capital of his united kingdom. Solomon built the Temple on Mount Moriah in Jerusalem along with his palace. The city was destroyed by the Babylonians in 587 B.C. and re-established in 538 after the return of the Jews from the Exile. It served as the religious center of Palestine during the Roman occupation from 63 B.C. to its destruction in A.D. 70 by the Romans.\r\rThe city was rebuilt successively throughout the period of the Ottoman Empire. It is currently divided between Palestine and Israel.\r\rCoordinates:\r31.7883, 35.2167";
                                    
                                    BiblicalPins *rome = [[BiblicalPins alloc] init];
                                    rome.coordinate = CLLocationCoordinate2DMake(41.8900, 12.4938);
                                    rome.title = @"Rome";
-                                   rome.subtitle = @"The Church that “presides in love”";
-                                   rome.information = @"The Church of Rome was established in the first century and quickly acquired a reputation for generosity. According to tradition, both Peter and Paul were martyred there during the persecution under Nero.\r\rCoordinates: 41.9000, 12.5000\r\r";
+                                   rome.subtitle = @"Capital of the Roman Empire";
+                                   rome.image = [UIImage imageNamed:@"rome-1"];
+                                   rome.information = @"The Church of Rome was established in the first century and quickly acquired a reputation for generosity. According to tradition, both Peter and Paul were martyred there during the persecution under Nero.\r\rCoordinates:\r41.8900, 12.4938";
                                    
                                    BiblicalPins *nazareth = [[BiblicalPins alloc] init];
                                    nazareth.coordinate = CLLocationCoordinate2DMake(32.7000, 35.3040);
                                    nazareth.title = @"Nazareth";
-                                   nazareth.subtitle = @"Hometown of Jesus";
-                                   nazareth.information = @"The town of Nazareth is not mentioned in the Hebrew Scriptures. It was a small village only 4 miles from Sepphoris, the captial city of Herod Antipas.\r\rCoordinates: 32.7019, 35.3033";
+                                   nazareth.subtitle = @"Traditional Hometown of Jesus";
+                                   nazareth.image = [UIImage imageNamed:@"nazareth"];
+                                   nazareth.information = @"The town of Nazareth is not mentioned in the Hebrew Scriptures. It was a small village only 4 miles from Sepphoris, the captial city of Herod Antipas.\r\rCoordinates:\r32.7000, 35.3040";
                                    
                                    BiblicalPins *bethEl = [[BiblicalPins alloc] init];
                                    bethEl.coordinate = CLLocationCoordinate2DMake(31.9390, 35.2260);
                                    bethEl.title = @"Beth-El";
-                                   bethEl.subtitle = @"House of El";
-                                   bethEl.information = @"Beth-El was a popular cultic site devoted to the Canaanite god El, the father of the Canaanite pantheon. In Genesis 32 and 35 it is associated with the Hebrew patriarch Jacob.\r\rCoordinates: 31.9300, 35.2200";
+                                   bethEl.subtitle = @"Canaanite cultic site of El";
+                                   bethEl.image = [UIImage imageNamed:@"bethel"];
+                                   bethEl.information = @"Beth-El was a popular cultic site devoted to the Canaanite god El, the father of the Canaanite pantheon. In Genesis 32 and 35 it is associated with the Hebrew patriarch Jacob.\r\rCoordinates:\r31.9390, 35.2260";
+                                   
+                                   BiblicalPins *capernaum = [[BiblicalPins alloc] init];
+                                   capernaum.coordinate = CLLocationCoordinate2DMake(32.8811, 35.5750);
+                                   capernaum.title = @"Capernaum";
+                                   capernaum.subtitle = @"Fishing village on the Sea of Galilee";
                                    
                                    BiblicalPins *ephesus = [[BiblicalPins alloc] init];
                                    ephesus.coordinate = CLLocationCoordinate2DMake(37.9411, 27.3419);
                                    ephesus.title = @"Ephesus";
-                                   ephesus.subtitle = @"Paul's Asiatic Missionary Base";
-                                   ephesus.information = @"Coordinates: 37.9411, 27.3419 ";
+                                   ephesus.subtitle = @"Roman Provincial Captial of Asia";
+                                   ephesus.information = @"Ephesus was the base for Paul's European missionary journeys.\r\rCoordinates:\r37.9411, 27.3419";
                                    
                                    BiblicalPins *corinth = [[BiblicalPins alloc] init];
                                    corinth.coordinate = CLLocationCoordinate2DMake(37.9333, 22.9333);
                                    corinth.title = @"Corinth";
+                                   corinth.subtitle = @"Major Greek Port City";
+                                   corinth.image = [UIImage imageNamed:@"corinth"];
                                    corinth.information = @"Coordinates: 37.9333, 22.9333";
                                    
                                    BiblicalPins *dan = [[BiblicalPins alloc] init];
                                    dan.coordinate = CLLocationCoordinate2DMake(33.2490, 35.6520);
                                    dan.title = @"Dan";
-                                   dan.subtitle = @"Northern cultic site";
+                                   dan.image = [UIImage imageNamed:@"dan"];
+                                   dan.subtitle = @"Northern Israelite Cultic Site";
                                    dan.information = @"Coordinates: 33.2490, 35.6520";
+                                   
+                                   BiblicalPins *jericho = [[BiblicalPins alloc] init];
+                                   jericho.coordinate = CLLocationCoordinate2DMake(31.8500, 35.4500);
+                                   jericho.title = @"Jericho";
+                                   jericho.subtitle = @"Walled Canaanite City";
+                                   jericho.information = @"Coordinates: 31.8500, 35.4500";
+                                   
                                    
                                    BiblicalPins *temple = [[BiblicalPins alloc] init];
                                    temple.coordinate = CLLocationCoordinate2DMake(31.7780, 35.2354);
                                    temple.title = @"The Temple Mount";
                                    temple.subtitle = @"The House of YHWH";
-                                   temple.information = @"Coordinates: 31.7780, 35.2354";
+                                   temple.image = [UIImage imageNamed:@"temple"];
+                                   temple.information = @"The Temple was originally built by Solomon in the 10th century B.C. During the reign of Josiah, it purportedly housed a large statue of the Canaanite goddess Asherah. It was destroyed by the Babylonians in 587 B.C. during their conquest of Judah. Upon their return from the Exile, the Jews rebuilt the Temple and dedicated it in 515 B.C.\r\rIt was later expanded by Herod the Great.\r\rCoordinates:\r31.7780, 35.2354";
                                    
                                    BiblicalPins *hazor = [[BiblicalPins alloc] init];
                                    hazor.coordinate = CLLocationCoordinate2DMake(33.0167, 35.5669);
                                    hazor.title = @"Hazor";
-                                   hazor.information = @"Coordinates: 33.0167, 35.5669";
+                                   hazor.image = [UIImage imageNamed:@"hazor"];
+                                   hazor.subtitle = @"Major Ancient Canaanite City";
+                                   hazor.information = @"Hazor was a major city in ancient Canaan. It was described as being destroyed in Joshua.\r\rCoordinates:\r33.0167, 35.5669";
                                    
                                    HistoricalPins *nicea = [[HistoricalPins alloc] init];
-                                   nicea.coordinate = CLLocationCoordinate2DMake(40.2574, 29.4317);
+                                   nicea.coordinate = CLLocationCoordinate2DMake(40.4292, 29.7211);
                                    nicea.title = @"Nicea";
-                                   nicea.subtitle = @"Ecumenical Councils II, V";
-                                   nicea.information = @"The first Council of Nicea was called by the Emperor Constantine in A.D. 325. It condemned the teaching of Arius and declared that Christ is ομοουσιους (homoousious) - 'of the same substance' as God. \r\rThe second Council of Nicea in A.D. 787 brought an end to the iconoclasm controversy by approving the veneration of icons.\r\rCoordinates: 40.2574, 29.4317";
+                                   nicea.image = [UIImage imageNamed:@"nicea"];
+                                   nicea.subtitle = @"Ecumenical Councils I, VII";
+                                   nicea.information = @"The first Council of Nicea was called by the Emperor Constantine in A.D. 325. It condemned the teaching of Arius and declared that Christ is ομοουσιους (homoousious) - 'of the same substance' as God. \r\rThe second Council of Nicea in A.D. 787 brought an end to the iconoclasm controversy by approving the veneration of icons.\r\rCoordinates:\r40.2574, 29.4317";
                                    
                                    SocialPins *greenland = [[SocialPins alloc] init];
-                                   greenland.coordinate = CLLocationCoordinate2DMake(72.0000, -40.0000);
+                                   greenland.coordinate = CLLocationCoordinate2DMake(61.2950, -45.0000);
                                    greenland.title = @"Greenland";
-                                   greenland.subtitle = @"Accelerated Glacial Melt";
-                                   greenland.information = @"Greenland is an examplar of the effects of climate change.\r\rCoordinates: 72.0000, -40.0000";
+                                   greenland.subtitle = @"Issue: Accelerated Glacial Melt";
+                                   greenland.information = @"Greenland is an examplar of the effects of climate change.\r\rCoordinates: 50.0000, -40.0000";
                                    
                                    HistoricalPins *alexandria = [[HistoricalPins alloc] init];
                                    alexandria.coordinate = CLLocationCoordinate2DMake(31.1980, 29.9192);
                                    alexandria.title = @"Alexandria";
-                                   alexandria.information = @"Eastern Patriarchate \r\rMajor catechumenical center in early Christianity. \r\rAlexandria contained the largest library in the ancient world as well as the famous Catechetical School, which produced such minds as Origen.\r\rCoordinates: 31.1980, 29.9192";
+                                   alexandria.subtitle = @"Eastern Patriarchate";
+                                   alexandria.image = [UIImage imageNamed:@"alexandria"];
+                                   alexandria.information = @"Eastern Patriarchate \r\rMajor catechumenical center in early Christianity. \r\rAlexandria contained the largest library in the ancient world as well as the famous Catechetical School, which produced such minds as Origen.\r\rCoordinates:\r31.1980, 29.9192";
                                    
                                    HistoricalPins *rome2 = [[HistoricalPins alloc] init];
                                    rome2.coordinate = CLLocationCoordinate2DMake(41.9022, 12.4533);
-                                   rome2.title = @"Vatican City";
-                                   rome2.information = @"The Church that 'Presides in Love'. \r\rThe Church of Rome was established in the first century and quickly acquired a reputation for generosity. According to tradition, both Peter and Paul were martyred there during the persecution under Nero.\r\rCoordinates: 41.9022, 12.4533";
+                                   rome2.title = @"Church of Rome";
+                                   rome2.subtitle = @"The Apostolic See";
+                                   rome2.image = [UIImage imageNamed:@"vatican"];
+                                   rome2.information = @"The Church of Rome was established in the first century and quickly acquired a reputation for generosity. According to tradition, both Peter and Paul were martyred there during the persecution under Nero.\r\rCoordinates:\r41.9022, 12.4533";
                                    
                                    HistoricalPins *constantinople = [[HistoricalPins alloc] init];
                                    constantinople.coordinate = CLLocationCoordinate2DMake(41.0122, 28.9760);
                                    constantinople.title = @"Constantinople";
-                                   constantinople.information = @"A.D. 381, 553 \r\rThe 2nd and 5th ecumenical councils confirmed the Nicene Council's creed and clarified the teaching on the nature of Christ, respectively.\r\rCoordinates: 41.0122, 28.9760";
+                                   constantinople.subtitle = @"Ecumenical Councils II, V";
+                                   constantinople.image = [UIImage imageNamed:@"constantinople"];
+                                   constantinople.information = @"A.D. 381, 553 \r\rThe 2nd and 5th ecumenical councils confirmed the Nicene Council's creed and clarified the teaching on the nature of Christ, respectively.\r\rCoordinates:\r41.0122, 28.9760";
                                    
                                    SocialPins *sierraLeone = [[SocialPins alloc] init];
                                    sierraLeone.coordinate = CLLocationCoordinate2DMake(8.4844, -13.2344);
@@ -861,6 +928,7 @@ MapDetailViewController.currentWordDetail = word;
                                    SocialPins *camden = [[SocialPins alloc] init];
                                    camden.coordinate = CLLocationCoordinate2DMake(39.9400, -75.1050);
                                    camden.title = @"Camden, NJ";
+                                   camden.subtitle = @"Issue: Systemic Poverty";
                                    camden.information = @"Coordinates: 39.9400, -75.1050";
                                    
                                    SocialPins *atlantic = [[SocialPins alloc] init];
@@ -881,25 +949,45 @@ MapDetailViewController.currentWordDetail = word;
                                    BiblicalPins *thessalonica = [[BiblicalPins alloc] init];
                                    thessalonica.coordinate = CLLocationCoordinate2DMake(40.6500, 22.9000);
                                    thessalonica.title = @"Thessalonica";
-                                   thessalonica.information = @"Coordinates: 40.6500, 22.9000";
+                                   thessalonica.subtitle = @"Greek Coastal City";
+                                   thessalonica.image = [UIImage imageNamed:@"thessalonica"]; 
+                                   thessalonica.information = @"Thessalonica was home to one of the earlier Christian communities founded by the Apostle Paul.\r\rCoordinates:\r40.6500, 22.9000";
                                    
                                    BiblicalPins *philippi = [[BiblicalPins alloc] init];
                                    philippi.coordinate = CLLocationCoordinate2DMake(41.0131, 24.2864);
                                    philippi.title = @"Philippi";
-                                   philippi.information = @"Coordinates: 41.0131, 24.2864";
+                                   philippi.subtitle = @"Major Greek City";
+                                   philippi.information = @"Philippi was...\r\rCoordinates:\r41.0131, 24.2864";
                                    
                                    BiblicalPins *antioch = [[BiblicalPins alloc] init];
                                    antioch.coordinate = CLLocationCoordinate2DMake(36.2000, 36.1500);
                                    antioch.title = @"Antioch";
-                                   antioch.information = @"Coordinates: 36.2000, 36.1500";
+                                   antioch.subtitle = @"Capital of Ancient Syria";
+                                   antioch.information = @"Coordinates:\r 36.2000, 36.1500";
                                    
                                    BiblicalPins *bethlehem = [[BiblicalPins alloc] init];
                                    bethlehem.coordinate = CLLocationCoordinate2DMake(31.7063, 35.2090);
                                    bethlehem.title = @"Bethlehem";
-                                   bethlehem.information = @"Coordinates: 31.7031, 35.1956";
-
+                                   bethlehem.image = [UIImage imageNamed:@"bethlehem"]; 
+                                   bethlehem.subtitle = @"Traditional Birthplace of Jesus";
+                                   bethlehem.information = @"Coordinates:\r31.7031, 35.1956";
+                                   
+                                   BiblicalPins *ramah = [[BiblicalPins alloc] init];
+                                   ramah.coordinate = CLLocationCoordinate2DMake(32.936389, 35.367222);
+                                   ramah.title = @"Ramah";
+                                   
+                                   BiblicalPins *hebron = [[BiblicalPins alloc] init];
+                                   hebron.coordinate = CLLocationCoordinate2DMake(31.5333, 35.0950);
+                                   hebron.title = @"Hebron";
+                                   hebron.subtitle = @"Capital of David's Judahite Territory";
+                                   
+                                   BiblicalPins *shiloh = [[BiblicalPins alloc] init];
+                                   shiloh.coordinate = CLLocationCoordinate2DMake(32.0556, 35.2895);
+                                   shiloh.title = @"Shiloh";
+                                   shiloh.subtitle = @"Shrine of the Ark of the Covenant";
                                    
                                    NSArray *annotations = [NSArray arrayWithObjects:jerusalem, bethEl, ephesus, corinth, dan, temple, hazor, nicea, greenland, rome, nazareth, sierraLeone, camden, atlantic, rome2, constantinople, palestine, israel, alexandria, antioch, bethlehem, thessalonica, philippi, nil];
+                                   
                                    [self.mapView addAnnotations:annotations];
                                    
                                    MKCoordinateSpan span = MKCoordinateSpanMake(100.0000f,100.0000f);

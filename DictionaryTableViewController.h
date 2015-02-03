@@ -12,6 +12,7 @@
 
 @interface DictionaryTableViewController : UITableViewController
 
-- (IBAction)typeButton:(id)sender;
+- (IBAction)termsButton:(id)sender;
+- (IBAction)savedButton:(id)sender;
 
 @end

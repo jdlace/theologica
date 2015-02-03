@@ -226,7 +226,7 @@
 }
 
 
-- (IBAction)typeButton:(id)sender
+- (IBAction)termsButton:(id)sender
 {
     
     UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Choose the category of Terms\rfor the Dictionary."
@@ -330,5 +330,10 @@
     
     
     
+}
+
+- (IBAction)savedButton:(id)sender
+{
+
 }
 @end

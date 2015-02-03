@@ -243,6 +243,12 @@
 	<array>
 		<dict>
 			<key>Name</key>
+			<string>Religion &amp; Science</string>
+			<key>URL</key>
+			<string>http://inters.org</string>
+		</dict>
+		<dict>
+			<key>Name</key>
 			<string>Communion and Stewardship</string>
 			<key>URL</key>
 			<string>http://www.vatican.va/roman_curia/congregations/cfaith/cti_documents/rc_con_cfaith_doc_20040723_communion-stewardship_en.html</string>

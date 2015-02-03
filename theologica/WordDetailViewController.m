@@ -29,6 +29,19 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
+    UIBarButtonItem *shareBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:self action:@selector(share:)];
+    
+    UIBarButtonItem *saveBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"bookmarklines"] style:UIBarButtonItemStylePlain target:self action:@selector(saveBookmark)];
+    
+    /*
+    if (saveBarButtonItem.target)
+        {
+        saveBarButtonItem.tintColor = [UIColor blueColor];
+        }
+     */
+    
+    self.navigationItem.rightBarButtonItems = [[NSArray alloc] initWithObjects:shareBarButtonItem, saveBarButtonItem, nil];
+
     //self.nameLabel.font = [UIFont preferredFontForTextStyle: UIFontTextStyleHeadline];
     self.descriptionTextView.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
     self.twitterLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
@@ -52,6 +65,32 @@
     self.twitterLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
 }
 
+-(NSString *) filePath
+{
+    NSArray *pathToPlist = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    
+    NSString *pathDirectory = [pathToPlist objectAtIndex:0];
+    
+    return [pathDirectory stringByAppendingPathComponent:@"Bookmarks.plist"];
+}
+
+-(void) saveToPlist
+{
+    NSMutableDictionary *myBookmarks = [NSMutableDictionary new];
+    NSString *value = _nameLabel.text;
+    [myBookmarks setValue:value forKey:@"Term"];
+    [myBookmarks writeToFile:[self filePath] atomically:YES];
+    
+    NSLog(@"Term saved!");
+}
+
+
+-(void) saveBookmark
+{
+    [self saveToPlist];
+    
+}
+ 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

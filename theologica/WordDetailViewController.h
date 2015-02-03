@@ -18,10 +18,12 @@
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
 @property (weak, nonatomic) IBOutlet UILabel *twitterLabel;
 @property (weak, nonatomic) IBOutlet UITextView *descriptionTextView;
-
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
+-(NSString *) filePath;
+
 
 - (IBAction)share:(UIBarButtonItem *)sender;
-
+-(void) saveToPlist;
+-(void) saveBookmark;
 
 @end
