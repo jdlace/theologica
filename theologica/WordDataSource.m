@@ -13,6 +13,8 @@
 
 @property (nonatomic, strong) NSArray *lettersArray;
 @property (nonatomic, strong) NSMutableArray *dataArray;
+
+
 @end
 
 @implementation WordDataSource
@@ -26,28 +28,74 @@
     return _lettersArray;
 }
 
-// build the array of words
-- (NSMutableArray *)dataArray
+-(NSMutableArray *)dataArray
 {
-    if (!_dataArray)
-    {
-        _dataArray = [NSMutableArray array];
-    
-        [self buildDictionaryWords];
-    
-    //this method sorts the arrray into alphabetical order!! - read up!!
-    
-        [_dataArray sortUsingComparator: ^NSComparisonResult(id obj1, id obj2)
+    if(!_dataArray)
         {
-            Word *word1 = (Word *) obj1;
-            Word *word2 = (Word *) obj2;
+            NSData *wordData = [[NSUserDefaults standardUserDefaults] objectForKey:@"Name"];
         
-            return [word1.name compare:word2.name options:NSCaseInsensitiveSearch];
-        }];
-    }
+        if (wordData)
+            {
+            _dataArray = [NSKeyedUnarchiver unarchiveObjectWithData:wordData];
+            
+            //this method sorts the arrray into alphabetical order!! - read up!!
+            }
+        
+        else
+            {
+            _dataArray = [self buildDictionaryWords];
+            }
 
+        
+        }
+    
     return _dataArray;
 }
+
+// build the array of words
+
+-(void) setDataArray: (NSArray *) array
+{
+    _dataArray = array;
+    
+    if (array)
+        {
+        NSData *wordData = [NSKeyedArchiver archivedDataWithRootObject:array];
+        [[NSUserDefaults standardUserDefaults] setObject:wordData forKey:@"Name"];
+        }
+    else
+        {
+        [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"Name"];
+        
+        }
+    
+    [[NSUserDefaults standardUserDefaults] synchronize];
+}
+
+
+
+
+/*
+-(void) setDataArray: (NSArray *) array
+{
+    _dataArray = array;
+    
+    if (array)
+        {
+        NSData *wordData = [NSKeyedArchiver archivedDataWithRootObject:array];
+        [[NSUserDefaults standardUserDefaults] setObject:wordData forKey:@"Name"];
+        }
+    else
+        {
+        [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"Name"];
+        
+        }
+    
+    [[NSUserDefaults standardUserDefaults] synchronize];
+}
+*/
+
+
 
 - (NSArray *)sectionArrayForSection:(NSInteger)section category:(NSString *)category
 {
@@ -110,9 +158,18 @@
     return [self.lettersArray indexOfObject:title];
 }
 
-
-- (void)buildDictionaryWords
+-(void) saveData
 {
+    
+}
+
+
+- (NSMutableArray *)buildDictionaryWords
+{
+    NSMutableArray *dataArray = [NSMutableArray new];
+    
+    
+    
     //A
     Word *abba = [[Word alloc] init];
     abba.name = @"Abba";
@@ -492,7 +549,7 @@
     apostolicFathers.definition = @"The Aposotolic Fathers are the earliest extra-biblical texts outside the Bible.\r\rFurther Reference:\rWikipedia, “Apostolic Fathers”\rhttp://tinyurl.com/56xymr";
     apostolicFathers.category = @"Historical";
     
-    [_dataArray addObjectsFromArray:@[aposteriori, apriori, abortion, absolution, abstinence, accident, act, adonai, adoption, adoptionism, adultery, advent, agape, aggiornomento, agnostic, angusDei, allegory, alleluia, altar, ambo, amen, analogy, analysis, anamnesis, anaphora, anathema, anawim, annulment, anointing, anthropology, antiphon, antisemitism, anthropocentrism, anthropomorphism, apocatastasis, apocalypse, apocrypha, apodictic, apologetics, apophatic, apostle, apostlesCreed, apostolicity, aqeda, aramaic, argument, arianism, asceticism, asherah, assumption, assyria, atheism, atonement, awareness, abba, acolyte, actOfContrition, apostolicFathers]];
+    [dataArray addObjectsFromArray:@[aposteriori, apriori, abortion, absolution, abstinence, accident, act, adonai, adoption, adoptionism, adultery, advent, agape, aggiornomento, agnostic, angusDei, allegory, alleluia, altar, ambo, amen, analogy, analysis, anamnesis, anaphora, anathema, anawim, annulment, anointing, anthropology, antiphon, antisemitism, anthropocentrism, anthropomorphism, apocatastasis, apocalypse, apocrypha, apodictic, apologetics, apophatic, apostle, apostlesCreed, apostolicity, aqeda, aramaic, argument, arianism, asceticism, asherah, assumption, assyria, atheism, atonement, awareness, abba, acolyte, actOfContrition, apostolicFathers]];
     
     //B
     
@@ -635,7 +692,7 @@
     //bethel.category = @"Biblical";
     
      
-     [_dataArray addObjectsFromArray:@[baal, babel, babylon, ban, baptism, baptistry, basillica, benedictus, beneficence, benefit, bible, bigbang, bioethics, bishop, blasphemy, breviary, buddhism, blessedSac, byzantine]];
+     [dataArray addObjectsFromArray:@[baal, babel, babylon, ban, baptism, baptistry, basillica, benedictus, beneficence, benefit, bible, bigbang, bioethics, bishop, blasphemy, breviary, buddhism, blessedSac, byzantine]];
     
     //C
     
@@ -837,7 +894,7 @@
     cybertheology.definition = @"According to Fr. Antonio Spadaro, S.J., the term “cybertheology” refers to the intelligence of faith in the era of the Internet and World Wide Web, which arises from the recognition that, as technology changes ways of thinking, theology necessarily changes as well.\r\rFurther Reference:\r";
     cybertheology.category = @"Systematic";
     
-    [_dataArray addObjectsFromArray:@[callNarrative, canon, casuistry, catholicity, catholicsocialteaching, circumcision, charism, christOfFaith, Christology, church, churchstate, codex, colonialism, commongood, communicatio, commutativejustice, compatibilism, confession, confirmation, contributivejustice, conversion, cosmological, council, covenant, creation, creationism, creed, cybertheology, chastity, cappadocian, celibacy]];
+    [dataArray addObjectsFromArray:@[callNarrative, canon, casuistry, catholicity, catholicsocialteaching, circumcision, charism, christOfFaith, Christology, church, churchstate, codex, colonialism, commongood, communicatio, commutativejustice, compatibilism, confession, confirmation, contributivejustice, conversion, cosmological, council, covenant, creation, creationism, creed, cybertheology, chastity, cappadocian, celibacy]];
     
     //D
     
@@ -998,7 +1055,7 @@
 
 
     
-    [_dataArray addObjectsFromArray:@[decalogue, dehumanization, deism, deiVerbum, determinism, deontology, deposit, development, deuteronomicHistory, deuteronomicSource, developmentDoc, devil, diachronic, dignity, distributive, doctrine, documentaryHypothesis, dogma, dualism, dynamic, divineOffice, donatism, docetism, doxology, deacon]];
+    [dataArray addObjectsFromArray:@[decalogue, dehumanization, deism, deiVerbum, determinism, deontology, deposit, development, deuteronomicHistory, deuteronomicSource, developmentDoc, devil, diachronic, dignity, distributive, doctrine, documentaryHypothesis, dogma, dualism, dynamic, divineOffice, donatism, docetism, doxology, deacon]];
     
     //E
     
@@ -1207,7 +1264,7 @@
     euAdoration.category = @"Liturgical";
 
     
-    [_dataArray addObjectsFromArray:@[ecumenism, economic, el, election, elementary, elohim, elohistSource, epistemology, epistle, eros, eschatology, essence, ethics, etiology, eucharist, evangelist, exclusivism,eisegesis, exegesis, exile, existential, exNihilo, explanandum, explanans, exodus, exOpere, environmentalism, euAdoration, ebionites, ephraim, epiphany]];
+    [dataArray addObjectsFromArray:@[ecumenism, economic, el, election, elementary, elohim, elohistSource, epistemology, epistle, eros, eschatology, essence, ethics, etiology, eucharist, evangelist, exclusivism,eisegesis, exegesis, exile, existential, exNihilo, explanandum, explanans, exodus, exOpere, environmentalism, euAdoration, ebionites, ephraim, epiphany]];
     
     //F
     
@@ -1284,7 +1341,7 @@
 
 
     
-    [_dataArray addObjectsFromArray:@[faith, fideism, fallibilism, feminism, folio, foreknowledge, formalEquivalence, formCriticism, freewill, fundamentalism, fundamentalOption, filioque]];
+    [dataArray addObjectsFromArray:@[faith, fideism, fallibilism, feminism, folio, foreknowledge, formalEquivalence, formCriticism, freewill, fundamentalism, fundamentalOption, filioque]];
     
     //G
     
@@ -1325,7 +1382,7 @@
     gospel.category = @"Biblical";
 
     
-    [_dataArray addObjectsFromArray:@[gehenna, genre, gospel, grace, greatSchism, gnosticism]];
+    [dataArray addObjectsFromArray:@[gehenna, genre, gospel, grace, greatSchism, gnosticism]];
     
     //H
     
@@ -1408,7 +1465,7 @@
     humanPerson.category = @"Systematic";
 
     
-    [_dataArray addObjectsFromArray:@[heaven, hell, henotheism, heresy, hermeneutics, hierarchy, historicalBooks, hcm, historicalCriticism, holyOfHolies, humanRights, humanEcology, humanPerson]];
+    [dataArray addObjectsFromArray:@[heaven, hell, henotheism, heresy, hermeneutics, hierarchy, historicalBooks, hcm, historicalCriticism, holyOfHolies, humanRights, humanEcology, humanPerson]];
     
     //I
     
@@ -1449,7 +1506,7 @@
     israel.category = @"Biblical";
 
     
-    [_dataArray addObjectsFromArray:@[idolatry, immanence, inclusivism, inspiration, interpretation, israel]];
+    [dataArray addObjectsFromArray:@[idolatry, immanence, inclusivism, inspiration, interpretation, israel]];
     
     //J
     
@@ -1510,7 +1567,7 @@
     judah.category = @"Biblical";
 
     
-    [_dataArray addObjectsFromArray:@[jesus, jew, judah, justice, jusAdBellum, jusImBello, justification, justWar]];
+    [dataArray addObjectsFromArray:@[jesus, jew, judah, justice, jusAdBellum, jusImBello, justification, justWar]];
     
     //K
     
@@ -1538,7 +1595,7 @@
     kosher.definition = @"often translated as “clean”, this refers to foods that are appropriate to eat or sacrifice to YHWH according to the Torah.\r\rFurther Reference:\rWikipedia, “Kosher Foods”\rhttp://tinyurl.com/druwv";
     kosher.category = @"Biblical";
     
-    [_dataArray addObjectsFromArray:@[kataphatic, kenosis, ketuvim, kosher]];
+    [dataArray addObjectsFromArray:@[kataphatic, kenosis, ketuvim, kosher]];
     
     //L
     
@@ -1595,7 +1652,7 @@
     logic.definition = @"The principles of logic are a necessary component of rationality itelf. They are so fundamental to human reasoning that, in order to deny them, one must make use of them.\r\rFurther Reference:\rUniversity of Oxford, “The Logic Web”\rhttp://tinyurl.com/y8lr2lh.\r\rWikipedia, “Logic”\rhttp://tinyurl.com/q2uqv3x";
     logic.category = @"Cultural";
 
-    [_dataArray addObjectsFromArray:@[law, lawNC, levite, liberation, literary, living, logic, lxx, liturgyH]];
+    [dataArray addObjectsFromArray:@[law, lawNC, levite, liberation, literary, living, logic, lxx, liturgyH]];
     
     //M
     
@@ -1654,7 +1711,7 @@
     metaphysics.category = @"Cultural";
 
     
-    [_dataArray addObjectsFromArray:@[manuscript, messiah, metaphysics, miracle, mishnah, monotheism, morality, mystery, myth]];
+    [dataArray addObjectsFromArray:@[manuscript, messiah, metaphysics, miracle, mishnah, monotheism, morality, mystery, myth]];
     
     //N
     
@@ -1701,7 +1758,7 @@
     naturalism.category = @"Cultural";
 
     
-    [_dataArray addObjectsFromArray:@[natural, naturalism, naturalTheo, neviim, newTestament, numinous, niceneCo]];
+    [dataArray addObjectsFromArray:@[natural, naturalism, naturalTheo, neviim, newTestament, numinous, niceneCo]];
     
     //O
     
@@ -1772,7 +1829,7 @@
     oral.category = @"Biblical";
 
     
-    [_dataArray addObjectsFromArray:@[oldTestament, omnibenevolence, omnipotence, omnipresence, omniscience, ontological, openTheism, oracle, oral, orthodox, orthopraxis]];
+    [dataArray addObjectsFromArray:@[oldTestament, omnibenevolence, omnipotence, omnipresence, omniscience, ontological, openTheism, oracle, oral, orthodox, orthopraxis]];
     
     //P
     
@@ -1896,7 +1953,7 @@
     problem.definition = @"The philosophical problem that results from belief in Divine omniscience, omnipotence, and omnibenevolence and the experience of suffering and evil in the world.\r\rFurther Reference:\r";
     problem.category = @"Cultural";
 
-    [_dataArray addObjectsFromArray:@[parable, papyrus, passover, pentateuch, pericope, person, pharisee, philosophy, physicalism, pluralism, polytheism, predestination, priestly, primeval, problem, processTheo, prophet, prophetic, protestant, principle]];
+    [dataArray addObjectsFromArray:@[parable, papyrus, passover, pentateuch, pericope, person, pharisee, philosophy, physicalism, pluralism, polytheism, predestination, priestly, primeval, problem, processTheo, prophet, prophetic, protestant, principle]];
     
     //Q
     
@@ -1912,7 +1969,7 @@
     quintessence.definition = @"A term meaning “fifth essence”; used by Aristotle to refer to a substance higher than the four on earth.\r\rFurther Reference:\r";
     quintessence.category = @"Cultural";
     
-    [_dataArray addObjectsFromArray:@[q, quintessence]];
+    [dataArray addObjectsFromArray:@[q, quintessence]];
     
     //R
     
@@ -1951,7 +2008,7 @@
     rerum.category = @"Moral";
 
     
-     [_dataArray addObjectsFromArray:@[redaction, redemption, religious, rerum, ressourcement, resurrection]];
+     [dataArray addObjectsFromArray:@[redaction, redemption, religious, rerum, ressourcement, resurrection]];
     
     //S
     
@@ -2059,7 +2116,7 @@
 
 
     
-    [_dataArray addObjectsFromArray:@[sadducees, salvation, Satan, semiotics, septuagint, social, sociology, solidarity, soteriology, source, spirituality, structuralism, supernormal, synagogue, synchronic, synoptic]];
+    [dataArray addObjectsFromArray:@[sadducees, salvation, Satan, semiotics, septuagint, social, sociology, solidarity, soteriology, source, spirituality, structuralism, supernormal, synagogue, synchronic, synoptic]];
 
     
     //T
@@ -2161,7 +2218,7 @@
     typology.category = @"Biblical";
 
     
-    [_dataArray addObjectsFromArray:@[tabernacle, tanak, taxCollector, temple, textual, theodicy, theologoumenon, theology, theophany, theosis, torah, transcendence, trinity, typology]];
+    [dataArray addObjectsFromArray:@[tabernacle, tanak, taxCollector, temple, textual, theodicy, theologoumenon, theology, theophany, theosis, torah, transcendence, trinity, typology]];
     
     //U
     Word *universal = [[Word alloc] init];
@@ -2176,7 +2233,7 @@
     universalism.definition = @"The belief that all of humanity will ultimately experience salvation.\r\rFurther Reference:\r";
     universalism.category = @"Systematic";
     
-    [_dataArray addObjectsFromArray:@[universal, universalism]];
+    [dataArray addObjectsFromArray:@[universal, universalism]];
     
     //V
     
@@ -2192,7 +2249,7 @@
     vocation.definition = @"The calling by God of someone to a particular way of life.\r\rFurther Reference:\r";
     vocation.category = @"Systematic";
     
-    [_dataArray addObjectsFromArray:@[virgin, vocation]];
+    [dataArray addObjectsFromArray:@[virgin, vocation]];
     
     //W
     
@@ -2221,7 +2278,7 @@
     will.definition = @"The ultimate desire of God for creation.\r\rFurther Reference:\r";
     will.category = @"Systematic";
     
-    [_dataArray addObjectsFromArray:@[will, wisdom, wisdomBooks, word]];
+    [dataArray addObjectsFromArray:@[will, wisdom, wisdomBooks, word]];
 
     
     //X
@@ -2232,7 +2289,7 @@
     xeno.definition = @"The fear of foreigners. The ministry of the historical Jesus can be seen, partly, as a movement against the xenophobic nationalism of the religious elite in Second Temple Judaism.\r\rFurther Reference:\r";
     xeno.category = @"Biblical";
     
-    [_dataArray addObjectsFromArray:@[xeno]];
+    [dataArray addObjectsFromArray:@[xeno]];
     
     
     //Y
@@ -2255,7 +2312,7 @@
     yomKippur.definition = @"According to Leviticus 16, Yom Kippur is a day set aside on the Jewish calendar dedicated to bringing about personal and national reconciliation with YHWH.\r\rFurther Reference:\r";
     yomKippur.category = @"Biblical";
     
-    [_dataArray addObjectsFromArray:@[yahwist, yhwh, yomKippur]];
+    [dataArray addObjectsFromArray:@[yahwist, yhwh, yomKippur]];
 
     
     //Z
@@ -2272,7 +2329,22 @@
     zion.definition = @"A synonym for the Temple mountain in Jerusalem or for the city of Jerusalem itself.\r\rFurther Reference:\r";
     zion.category = @"Biblical";
     
-      [_dataArray addObjectsFromArray:@[zealot, zion]];
+      [dataArray addObjectsFromArray:@[zealot, zion]];
+    
+    
+    [dataArray sortUsingComparator: ^NSComparisonResult(id obj1, id obj2)
+     {
+     Word *word1 = (Word *) obj1;
+     Word *word2 = (Word *) obj2;
+     
+     return [word1.name compare:word2.name options:NSCaseInsensitiveSearch];
+     
+     
+     }];
+    
+    [self setDataArray: dataArray];
+    
+    return dataArray;
 
 }
 

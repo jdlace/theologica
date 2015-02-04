@@ -40,7 +40,7 @@
         }
      */
     
-    self.navigationItem.rightBarButtonItems = [[NSArray alloc] initWithObjects:shareBarButtonItem, saveBarButtonItem, nil];
+    self.navigationItem.rightBarButtonItems = [[NSArray alloc] initWithObjects:saveBarButtonItem,shareBarButtonItem, nil];
 
     //self.nameLabel.font = [UIFont preferredFontForTextStyle: UIFontTextStyleHeadline];
     self.descriptionTextView.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
@@ -87,7 +87,9 @@
 
 -(void) saveBookmark
 {
-    [self saveToPlist];
+    //[self saveToPlist];
+    self.currentWordDetail.bookmarked = YES;
+    
     
 }
  

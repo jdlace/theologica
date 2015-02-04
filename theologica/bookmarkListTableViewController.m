@@ -39,16 +39,13 @@
 -(NSString *) filePath
 {
     NSArray *pathToPlist = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-    
     NSString *pathDirectory = [pathToPlist objectAtIndex:0];
-    
     return [pathDirectory stringByAppendingPathComponent:@"Bookmarks.plist"];
 }
 
 
 -(void)readFromPlist
 {
-
     NSString *pathToFile = [self filePath];
     
     if ([[NSFileManager defaultManager] fileExistsAtPath:pathToFile])

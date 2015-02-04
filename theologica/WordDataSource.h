@@ -24,4 +24,6 @@
 
 - (NSInteger)sectionForSectionIndexTitle:(NSString *)title forCategory:(NSString *)category;
 
+- (void) saveData; 
+
 @end
