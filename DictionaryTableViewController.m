@@ -14,9 +14,10 @@
 #import "TADataStore.h"
 #import "TAWord.h"
 
-@interface DictionaryTableViewController () <UISearchResultsUpdating, UISearchControllerDelegate, UISearchBarDelegate, NSFetchedResultsControllerDelegate>
+#define TITLE_ARRAY @[@"A", @"B", @"C", @"D", @"E", @"F", @"G", @"H", @"I", @"J", @"K", @"L", @"M", @"N", @"O", @"P", @"Q", @"R", @"S", @"T", @"U", @"V", @"W", @"X", @"Y", @"Z"]
 
-@property (nonatomic, strong) WordDataSource *wordDataSource;
+@interface DictionaryTableViewController () <NSFetchedResultsControllerDelegate/*,UISearchResultsUpdating, UISearchControllerDelegate, UISearchBarDelegate*/>
+
 @property (strong, nonatomic) UISearchController *searchController;
 @property (strong, nonatomic) NSMutableArray *searchResults; //filtered search
 @property (copy, nonatomic) NSString *category;
@@ -26,18 +27,6 @@
 @end
 
 @implementation DictionaryTableViewController
-
-//Getter method for wordDataSource object
-
-- (WordDataSource *)wordDataSource
-{
-    if (!_wordDataSource)
-    {
-        _wordDataSource = [[WordDataSource alloc] init];
-    }
-    
-    return _wordDataSource;
-}
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -76,16 +65,16 @@
     
     //Add a UISearchController with search bar (currently not in IB object library)
     
-    self.searchController = [[UISearchController alloc] initWithSearchResultsController:nil];
-    self.searchController.searchResultsUpdater = self;
-    self.searchController.searchBar.frame = CGRectMake(0.0, 0.0, 280.0, 40.0);
-    self.tableView.tableHeaderView = _searchController.searchBar;
-    //self.searchController.searchBar.
-    
-    self.searchController.dimsBackgroundDuringPresentation = YES;
-    self.searchController.searchBar.searchBarStyle = UISearchBarStyleProminent;
-    self.searchController.searchBar.tintColor = [UIColor whiteColor];
-    self.searchController.searchBar.returnKeyType = UIReturnKeySearch;
+//    self.searchController = [[UISearchController alloc] initWithSearchResultsController:nil];
+//    self.searchController.searchResultsUpdater = self;
+//    self.searchController.searchBar.frame = CGRectMake(0.0, 0.0, 280.0, 40.0);
+//    self.tableView.tableHeaderView = _searchController.searchBar;
+//    //self.searchController.searchBar.
+//    
+//    self.searchController.dimsBackgroundDuringPresentation = YES;
+//    self.searchController.searchBar.searchBarStyle = UISearchBarStyleProminent;
+//    self.searchController.searchBar.tintColor = [UIColor whiteColor];
+//    self.searchController.searchBar.returnKeyType = UIReturnKeySearch;
     
 }
 
@@ -99,45 +88,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-//
-
-//#pragma mark - Table view data source
-//
-//- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
-//{
-//    // Return the number of sections.
-//    return [self.wordDataSource numberOfSectionsInDataSourceCategory:self.category];
-//}
-//
-//- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
-//{
-//    return [self.wordDataSource numberOfRowsInSection:section forCategory:self.category];
-//    
-//}
-//
-//- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-//{
-//    static NSString *CellIdentifier = @"DictionaryCell";
-//    
-//    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
-//    
-//    // Configure the cell...
-//    Word *word = [self.wordDataSource wordForRowAtIndexPath:indexPath forCategory:self.category];
-//    cell.textLabel.text = word.name;
-//    cell.detailTextLabel.text = word.category;
-//    
-//    cell.textLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleHeadline];
-//    //need code for setting initial font on table view
-//    
-//    return cell;
-//}
-//
-//-(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
-//{
-//
-//    return [self.wordDataSource titleForHeaderInSection:section forCategory:self.category];
-//}
 
 /*
 // Override to support conditional editing of the table view.
@@ -218,16 +168,6 @@
         WordViewController.word = word;
     }
 }
-
-//- (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView
-//{
-//    return [self.wordDataSource sectionIndexTitlesForCategory:self.category];
-//}
-//
-//- (NSInteger)tableView:(UITableView *)tableView sectionForSectionIndexTitle:(NSString *)title atIndex:(NSInteger)index
-//{
-//    return [self.wordDataSource sectionForSectionIndexTitle:title forCategory:self.category];
-//}
 
 
 - (IBAction)termsButton:(id)sender
@@ -366,6 +306,21 @@
     cell.textLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleHeadline];
 }
 
+- (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView
+{
+    return [self.fetchedResultsController sectionIndexTitles];
+}
+
+- (NSInteger)tableView:(UITableView *)tableView sectionForSectionIndexTitle:(NSString *)title atIndex:(NSInteger)index
+{
+    return [self.fetchedResultsController sectionForSectionIndexTitle:title atIndex:index];
+}
+
+-(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    return TITLE_ARRAY[section];
+}
+
 
 #pragma mark - Fetched results controller
 
@@ -377,21 +332,21 @@
     
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
     // Edit the entity name as appropriate.
-    NSEntityDescription *entity = [NSEntityDescription entityForName:@"Word" inManagedObjectContext:[TADataStore sharedStore].managedObjectContext];
+    NSEntityDescription *entity = [NSEntityDescription entityForName:@"TAWord" inManagedObjectContext:[TADataStore sharedStore].managedObjectContext];
     [fetchRequest setEntity:entity];
     
     // Set the batch size to a suitable number.
     [fetchRequest setFetchBatchSize:20];
     
     // Edit the sort key as appropriate.
-    NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"name" ascending:NO];
+    NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"name" ascending:YES];
     NSArray *sortDescriptors = @[sortDescriptor];
     
     [fetchRequest setSortDescriptors:sortDescriptors];
     
     // Edit the section name key path and cache name if appropriate.
     // nil for section name key path means "no sections".
-    NSFetchedResultsController *aFetchedResultsController = [[NSFetchedResultsController alloc] initWithFetchRequest:fetchRequest managedObjectContext:[TADataStore sharedStore].managedObjectContext sectionNameKeyPath:@"name" cacheName:@"Master"];
+    NSFetchedResultsController *aFetchedResultsController = [[NSFetchedResultsController alloc] initWithFetchRequest:fetchRequest managedObjectContext:[TADataStore sharedStore].managedObjectContext sectionNameKeyPath:@"firstLetter" cacheName:nil];
     aFetchedResultsController.delegate = self;
     self.fetchedResultsController = aFetchedResultsController;
     

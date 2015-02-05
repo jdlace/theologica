@@ -25,7 +25,16 @@
     return _sharedClient;
 }
 
-- (TAWord *)searchForWord:(NSString *)name
+- (BOOL)hasWords
+{
+    NSFetchRequest *request = [[NSFetchRequest alloc] init];
+    request.entity = [NSEntityDescription entityForName:@"TAWord" inManagedObjectContext:self.managedObjectContext];
+    NSError *error;
+    NSUInteger count = [self.managedObjectContext countForFetchRequest:request error:&error];
+    return count > 0;
+}
+
+- (TAWord *)findWordWithName:(NSString *)name
 {
     NSFetchRequest *request = [[NSFetchRequest alloc] init];
     request.entity = [NSEntityDescription entityForName:@"TAWord" inManagedObjectContext:self.managedObjectContext];
@@ -144,6 +153,11 @@
 
 - (void)buildDictionaryWords
 {
+    if ([TADataStore sharedStore].hasWords) {
+        return;
+    }
+    
+    
     //A
     [TAWord wordWithDict:@{@"name":@"Abba",
                            @"twitterDef":@"the Aramaic word meaning\r“Daddy”",

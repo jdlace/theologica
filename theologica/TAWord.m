@@ -29,7 +29,7 @@
     if ([dict isKindOfClass:[NSDictionary class]]) {
         NSString *name = dict[@"name"];
         if (name) {
-            word = [[TADataStore sharedStore] searchForWord:name];
+            word = [[TADataStore sharedStore] findWordWithName:name];
             if (!word) {
                 word = [[self class] word];
             }
@@ -38,6 +38,11 @@
     }
     
     return word;
+}
+
+- (NSString *)firstLetter
+{
+    return [[self.name substringToIndex:1] uppercaseString];
 }
 
 - (void)updateWithDict:(NSDictionary *)dict

@@ -15,7 +15,9 @@
 
 + (TADataStore *)sharedStore;
 
-- (TAWord *)searchForWord:(NSString *)name;
+- (BOOL)hasWords;
+- (TAWord *)findWordWithName:(NSString *)name;
+- (void)buildDictionaryWords;
 
 #pragma mark - CORE DATA STACK
 @property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;

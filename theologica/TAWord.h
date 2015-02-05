@@ -18,6 +18,8 @@
 @property (nonatomic, retain) NSString * twitterDef;
 @property (nonatomic, retain) NSString * category;
 
+- (NSString *)firstLetter;
+
 + (instancetype)word;
 + (instancetype)wordWithDict:(NSDictionary *)dict;
 

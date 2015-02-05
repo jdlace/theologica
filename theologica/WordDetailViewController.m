@@ -7,6 +7,7 @@
 //
 
 #import "WordDetailViewController.h"
+#import "TADataStore.h"
 #import "TAWord.h"
 
 @interface WordDetailViewController () <UIActionSheetDelegate>
@@ -90,7 +91,7 @@
 {
     //[self saveToPlist];
     self.word.bookmarked = @YES;
-    
+    [[TADataStore sharedStore] saveContext];
     
 }
  
