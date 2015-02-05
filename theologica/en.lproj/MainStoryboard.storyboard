@@ -646,12 +646,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="keP-1u-mbO">
-                        <barButtonItem key="leftBarButtonItem" systemItem="edit" id="PzT-uf-PNg">
-                            <connections>
-                                <action selector="edit:" destination="qp7-Xs-UHE" id="5Df-8P-Xvd"/>
-                            </connections>
-                        </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="EOE-7X-gLX">
+                        <barButtonItem key="leftBarButtonItem" systemItem="done" id="EOE-7X-gLX">
                             <connections>
                                 <action selector="done:" destination="qp7-Xs-UHE" id="C3o-j8-Z8p"/>
                             </connections>

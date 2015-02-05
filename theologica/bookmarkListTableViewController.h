@@ -10,14 +10,7 @@
 
 @interface bookmarkListTableViewController : UITableViewController
 
-//@property  (weak, nonatomic) NSDictionary *termDict;
-//@property  (weak, nonatomic) NSArray *termsArray;
-
 - (IBAction)done:(id)sender;
-- (IBAction)edit:(id)sender;
-
-//-(NSString *) filePath; 
-//-(void) readFromPlist;
 
 
 @end

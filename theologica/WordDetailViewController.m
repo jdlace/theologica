@@ -67,30 +67,29 @@
     self.twitterLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
 }
 
--(NSString *) filePath
-{
-    NSArray *pathToPlist = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-    
-    NSString *pathDirectory = [pathToPlist objectAtIndex:0];
-    
-    return [pathDirectory stringByAppendingPathComponent:@"Bookmarks.plist"];
-}
-
--(void) saveToPlist
-{
-    NSMutableDictionary *myBookmarks = [NSMutableDictionary new];
-    NSString *value = _nameLabel.text;
-    [myBookmarks setValue:value forKey:@"Term"];
-    [myBookmarks writeToFile:[self filePath] atomically:YES];
-    
-    NSLog(@"Term saved!");
-}
+//-(NSString *) filePath
+//{
+//    NSArray *pathToPlist = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+//    
+//    NSString *pathDirectory = [pathToPlist objectAtIndex:0];
+//    
+//    return [pathDirectory stringByAppendingPathComponent:@"Bookmarks.plist"];
+//}
+//
+//-(void) saveToPlist
+//{
+//    NSMutableDictionary *myBookmarks = [NSMutableDictionary new];
+//    NSString *value = _nameLabel.text;
+//    [myBookmarks setValue:value forKey:@"Term"];
+//    [myBookmarks writeToFile:[self filePath] atomically:YES];
+//    
+//    NSLog(@"Term saved!");
+//}
 
 
 -(void) saveBookmark
 {
-    //[self saveToPlist];
-    self.word.bookmarked = @YES;
+    self.word.bookmarked = @(![self.word.bookmarked boolValue]);
     [[TADataStore sharedStore] saveContext];
     
 }
