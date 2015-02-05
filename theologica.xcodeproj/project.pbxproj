@@ -49,6 +49,10 @@
 		69D6284C1A47617B0073C157 /* HistoricalPins.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D6284B1A47617B0073C157 /* HistoricalPins.m */; };
 		69D6284F1A4762830073C157 /* SocialPins.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D6284E1A4762830073C157 /* SocialPins.m */; };
 		69FB18EB1A0051C500F1C9A4 /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = 69FB18EA1A0051C500F1C9A4 /* Word.m */; };
+		9BA06E2D1A833AD400A6A19E /* theologica.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9BA06E2B1A833AD400A6A19E /* theologica.xcdatamodeld */; };
+		9BA06E331A833B4800A6A19E /* TADataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA06E321A833B4800A6A19E /* TADataStore.m */; };
+		9BA06E6E1A833F9200A6A19E /* TAWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA06E6D1A833F9200A6A19E /* TAWord.m */; };
+		9BA06E701A83631900A6A19E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA06E6F1A83631900A6A19E /* CoreData.framework */; };
 		9BAC0B451A1C4BA1004C4867 /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BAC0B431A1C4BA1004C4867 /* appicon.png */; };
 		9BAC0B461A1C4BA1004C4867 /* appicon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BAC0B441A1C4BA1004C4867 /* appicon2.png */; };
 		FA0BAF781A4333DE00AF6DFB /* MapDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0BAF771A4333DE00AF6DFB /* MapDetailViewController.m */; };
@@ -148,6 +152,12 @@
 		69D6284E1A4762830073C157 /* SocialPins.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialPins.m; sourceTree = "<group>"; };
 		69FB18E91A0051C500F1C9A4 /* Word.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Word.h; sourceTree = "<group>"; };
 		69FB18EA1A0051C500F1C9A4 /* Word.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Word.m; sourceTree = "<group>"; };
+		9BA06E2C1A833AD400A6A19E /* theologica.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = theologica.xcdatamodel; sourceTree = "<group>"; };
+		9BA06E311A833B4800A6A19E /* TADataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADataStore.h; sourceTree = "<group>"; };
+		9BA06E321A833B4800A6A19E /* TADataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADataStore.m; sourceTree = "<group>"; };
+		9BA06E6C1A833F9200A6A19E /* TAWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAWord.h; sourceTree = "<group>"; };
+		9BA06E6D1A833F9200A6A19E /* TAWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAWord.m; sourceTree = "<group>"; };
+		9BA06E6F1A83631900A6A19E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		9BAC0B431A1C4BA1004C4867 /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon.png; sourceTree = "<group>"; };
 		9BAC0B441A1C4BA1004C4867 /* appicon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon2.png; sourceTree = "<group>"; };
 		FA0BAF761A4333DE00AF6DFB /* MapDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapDetailViewController.h; sourceTree = "<group>"; };
@@ -164,6 +174,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BA06E701A83631900A6A19E /* CoreData.framework in Frameworks */,
 				69B8D93A1A4138B600186EA2 /* CoreLocation.framework in Frameworks */,
 				FA9323091A1E6DE8008CF833 /* MapKit.framework in Frameworks */,
 				FA3683D31A1155AA00E9740F /* MobileCoreServices.framework in Frameworks */,
@@ -233,6 +244,7 @@
 		692ED2491796D552008554F9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9BA06E6F1A83631900A6A19E /* CoreData.framework */,
 				698F27AD1A6D85260065F8A6 /* CloudKit.framework */,
 				69B8D9391A4138B600186EA2 /* CoreLocation.framework */,
 				FA9323081A1E6DE8008CF833 /* MapKit.framework */,
@@ -378,12 +390,25 @@
 		69BB25461A130E8200B3F5B5 /* Data Model */ = {
 			isa = PBXGroup;
 			children = (
+				9BA06E2A1A833AB800A6A19E /* CoreData */,
 				694E879F1A564F6F00CE4A37 /* Sources */,
 				694E87A01A564F7C00CE4A37 /* Dictionary */,
 				694E87A11A564F8A00CE4A37 /* Map */,
 			);
 			name = "Data Model";
 			path = theologica;
+			sourceTree = "<group>";
+		};
+		9BA06E2A1A833AB800A6A19E /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				9BA06E2B1A833AD400A6A19E /* theologica.xcdatamodeld */,
+				9BA06E6C1A833F9200A6A19E /* TAWord.h */,
+				9BA06E6D1A833F9200A6A19E /* TAWord.m */,
+				9BA06E311A833B4800A6A19E /* TADataStore.h */,
+				9BA06E321A833B4800A6A19E /* TADataStore.m */,
+			);
+			name = CoreData;
 			sourceTree = "<group>";
 		};
 		FA4D5CB01A41BFD9002B40F2 /* Map */ = {
@@ -521,6 +546,7 @@
 			files = (
 				69B8D9381A4122B300186EA2 /* BiblicalPins.m in Sources */,
 				692ED2571796D552008554F9 /* main.m in Sources */,
+				9BA06E331A833B4800A6A19E /* TADataStore.m in Sources */,
 				6932282C1A5256AF00528421 /* SourcesViewController.m in Sources */,
 				692ED25B1796D552008554F9 /* AppDelegate.m in Sources */,
 				69D6284F1A4762830073C157 /* SocialPins.m in Sources */,
@@ -528,10 +554,12 @@
 				692ED2B21796F466008554F9 /* DictionaryTableViewController.m in Sources */,
 				69739B561A36897F008BAB06 /* SearchBarViewController.m in Sources */,
 				692ED2B51796F48B008554F9 /* WordDetailViewController.m in Sources */,
+				9BA06E2D1A833AD400A6A19E /* theologica.xcdatamodeld in Sources */,
 				69D6284C1A47617B0073C157 /* HistoricalPins.m in Sources */,
 				FA84505C1A129CA0007839D8 /* bookmarkListTableViewController.m in Sources */,
 				6907EB581A7E7AA300AE52A1 /* VerbatimViewController.m in Sources */,
 				691EAA2C1A49EE3900F98942 /* ViewButtonViewController.m in Sources */,
+				9BA06E6E1A833F9200A6A19E /* TAWord.m in Sources */,
 				694E87A41A56504F00CE4A37 /* Source.m in Sources */,
 				694E879A1A55C5AB00CE4A37 /* LinksTableViewController.m in Sources */,
 				694E879E1A55D52400CE4A37 /* WebViewController.m in Sources */,
@@ -755,6 +783,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9BA06E2B1A833AD400A6A19E /* theologica.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9BA06E2C1A833AD400A6A19E /* theologica.xcdatamodel */,
+			);
+			currentVersion = 9BA06E2C1A833AD400A6A19E /* theologica.xcdatamodel */;
+			path = theologica.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 692ED23F1796D552008554F9 /* Project object */;
 }

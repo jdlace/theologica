@@ -7,6 +7,8 @@
 //
 
 #import "WordDetailViewController.h"
+#import "TADataStore.h"
+#import "TAWord.h"
 
 @interface WordDetailViewController () <UIActionSheetDelegate>
 
@@ -46,9 +48,9 @@
     self.descriptionTextView.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
     self.twitterLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
     
-    _nameLabel.text = _currentWordDetail.name;
-    _twitterLabel.text = _currentWordDetail.twitterDef;
-    _descriptionTextView.text = _currentWordDetail.definition;
+    self.nameLabel.text = self.word.name;
+    self.twitterLabel.text = self.word.twitterDef;
+    self.descriptionTextView.text = self.word.definition;
     //_imageView.image = _currentWordDetail.image;
     //_systematicDescription.textColor = [UIColor blacColor];
     
@@ -65,31 +67,30 @@
     self.twitterLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
 }
 
--(NSString *) filePath
-{
-    NSArray *pathToPlist = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-    
-    NSString *pathDirectory = [pathToPlist objectAtIndex:0];
-    
-    return [pathDirectory stringByAppendingPathComponent:@"Bookmarks.plist"];
-}
-
--(void) saveToPlist
-{
-    NSMutableDictionary *myBookmarks = [NSMutableDictionary new];
-    NSString *value = _nameLabel.text;
-    [myBookmarks setValue:value forKey:@"Term"];
-    [myBookmarks writeToFile:[self filePath] atomically:YES];
-    
-    NSLog(@"Term saved!");
-}
+//-(NSString *) filePath
+//{
+//    NSArray *pathToPlist = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+//    
+//    NSString *pathDirectory = [pathToPlist objectAtIndex:0];
+//    
+//    return [pathDirectory stringByAppendingPathComponent:@"Bookmarks.plist"];
+//}
+//
+//-(void) saveToPlist
+//{
+//    NSMutableDictionary *myBookmarks = [NSMutableDictionary new];
+//    NSString *value = _nameLabel.text;
+//    [myBookmarks setValue:value forKey:@"Term"];
+//    [myBookmarks writeToFile:[self filePath] atomically:YES];
+//    
+//    NSLog(@"Term saved!");
+//}
 
 
 -(void) saveBookmark
 {
-    //[self saveToPlist];
-    self.currentWordDetail.bookmarked = YES;
-    
+    self.word.bookmarked = @(![self.word.bookmarked boolValue]);
+    [[TADataStore sharedStore] saveContext];
     
 }
  
@@ -105,7 +106,7 @@
 - (IBAction)share:(UIBarButtonItem *)sender
 {
     NSArray *activityItems;
-    activityItems = @[_currentWordDetail.name, _currentWordDetail.twitterDef];
+    activityItems = @[self.word.name, self.word.twitterDef];
     
     //NSArray *activityActions;
     

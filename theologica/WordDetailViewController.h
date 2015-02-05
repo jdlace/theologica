@@ -9,21 +9,18 @@
 #import <UIKit/UIKit.h>
 #import <Social/Social.h>
 #import <MobileCoreServices/MobileCoreServices.h>
-#import "Word.h"
 
-@interface WordDetailViewController : UIViewController <UIScrollViewDelegate >
+@class TAWord;
 
-@property (strong, nonatomic) Word *currentWordDetail;
+@interface WordDetailViewController : UIViewController <UIScrollViewDelegate>
+
+@property (strong, nonatomic) TAWord *word;
 
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
 @property (weak, nonatomic) IBOutlet UILabel *twitterLabel;
 @property (weak, nonatomic) IBOutlet UITextView *descriptionTextView;
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
--(NSString *) filePath;
-
 
 - (IBAction)share:(UIBarButtonItem *)sender;
--(void) saveToPlist;
--(void) saveBookmark;
 
 @end
