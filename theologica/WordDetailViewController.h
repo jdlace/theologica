@@ -9,11 +9,12 @@
 #import <UIKit/UIKit.h>
 #import <Social/Social.h>
 #import <MobileCoreServices/MobileCoreServices.h>
-#import "Word.h"
+
+@class TAWord;
 
 @interface WordDetailViewController : UIViewController <UIScrollViewDelegate >
 
-@property (strong, nonatomic) Word *currentWordDetail;
+@property (strong, nonatomic) TAWord *word;
 
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
 @property (weak, nonatomic) IBOutlet UILabel *twitterLabel;

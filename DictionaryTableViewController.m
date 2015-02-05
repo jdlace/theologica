@@ -11,13 +11,17 @@
 #import "WordDataSource.h"
 #import "Word.h"
 
-@interface DictionaryTableViewController () <UISearchResultsUpdating, UISearchControllerDelegate, UISearchBarDelegate>
+#import "TADataStore.h"
+#import "TAWord.h"
+
+@interface DictionaryTableViewController () <UISearchResultsUpdating, UISearchControllerDelegate, UISearchBarDelegate, NSFetchedResultsControllerDelegate>
 
 @property (nonatomic, strong) WordDataSource *wordDataSource;
 @property (strong, nonatomic) UISearchController *searchController;
 @property (strong, nonatomic) NSMutableArray *searchResults; //filtered search
 @property (copy, nonatomic) NSString *category;
 
+@property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
 
 @end
 
@@ -98,42 +102,42 @@
 
 //
 
-#pragma mark - Table view data source
-
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
-{
-    // Return the number of sections.
-    return [self.wordDataSource numberOfSectionsInDataSourceCategory:self.category];
-}
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
-{
-    return [self.wordDataSource numberOfRowsInSection:section forCategory:self.category];
-    
-}
-
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    static NSString *CellIdentifier = @"DictionaryCell";
-    
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
-    
-    // Configure the cell...
-    Word *word = [self.wordDataSource wordForRowAtIndexPath:indexPath forCategory:self.category];
-    cell.textLabel.text = word.name;
-    cell.detailTextLabel.text = word.category;
-    
-    cell.textLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleHeadline];
-    //need code for setting initial font on table view
-    
-    return cell;
-}
-
--(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
-{
-
-    return [self.wordDataSource titleForHeaderInSection:section forCategory:self.category];
-}
+//#pragma mark - Table view data source
+//
+//- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+//{
+//    // Return the number of sections.
+//    return [self.wordDataSource numberOfSectionsInDataSourceCategory:self.category];
+//}
+//
+//- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+//{
+//    return [self.wordDataSource numberOfRowsInSection:section forCategory:self.category];
+//    
+//}
+//
+//- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+//{
+//    static NSString *CellIdentifier = @"DictionaryCell";
+//    
+//    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+//    
+//    // Configure the cell...
+//    Word *word = [self.wordDataSource wordForRowAtIndexPath:indexPath forCategory:self.category];
+//    cell.textLabel.text = word.name;
+//    cell.detailTextLabel.text = word.category;
+//    
+//    cell.textLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleHeadline];
+//    //need code for setting initial font on table view
+//    
+//    return cell;
+//}
+//
+//-(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+//{
+//
+//    return [self.wordDataSource titleForHeaderInSection:section forCategory:self.category];
+//}
 
 /*
 // Override to support conditional editing of the table view.
@@ -176,54 +180,54 @@
 
 #pragma mark - Table view delegate
 
--(CGFloat) tableView: (UITableView *) tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    
-    static UILabel* label;
-    if (!label) {
-        label = [[UILabel alloc]
-                 initWithFrame:CGRectMake(0, 0, FLT_MAX, FLT_MAX)];
-        label.text = @"test";
-    }
-    
-    label.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
-    [label sizeToFit];
-    return label.frame.size.height * 2.75;
-    //return 50;
-}
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Navigation logic may go here. Create and push another view controller.
-    /*
-     DetailViewController *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
-     [self.navigationController pushViewController:detailViewController animated:YES];
-     */
-}
+//-(CGFloat) tableView: (UITableView *) tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+//{
+//    
+//    static UILabel* label;
+//    if (!label) {
+//        label = [[UILabel alloc]
+//                 initWithFrame:CGRectMake(0, 0, FLT_MAX, FLT_MAX)];
+//        label.text = @"test";
+//    }
+//    
+//    label.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
+//    [label sizeToFit];
+//    return label.frame.size.height * 2.75;
+//    //return 50;
+//}
+//
+//- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+//{
+//    // Navigation logic may go here. Create and push another view controller.
+//    /*
+//     DetailViewController *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
+//     // ...
+//     // Pass the selected object to the new view controller.
+//     [self.navigationController pushViewController:detailViewController animated:YES];
+//     */
+//}
 
 -(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([[segue identifier] isEqualToString:@"showWordDetail"])
     {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        Word *word = [self.wordDataSource wordForRowAtIndexPath:indexPath forCategory:self.category];
+        TAWord *word = [self.fetchedResultsController objectAtIndexPath:indexPath];
     
         WordDetailViewController *WordViewController = [segue destinationViewController];
-        WordViewController.currentWordDetail = word;
+        WordViewController.word = word;
     }
 }
 
-- (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView
-{
-    return [self.wordDataSource sectionIndexTitlesForCategory:self.category];
-}
-
-- (NSInteger)tableView:(UITableView *)tableView sectionForSectionIndexTitle:(NSString *)title atIndex:(NSInteger)index
-{
-    return [self.wordDataSource sectionForSectionIndexTitle:title forCategory:self.category];
-}
+//- (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView
+//{
+//    return [self.wordDataSource sectionIndexTitlesForCategory:self.category];
+//}
+//
+//- (NSInteger)tableView:(UITableView *)tableView sectionForSectionIndexTitle:(NSString *)title atIndex:(NSInteger)index
+//{
+//    return [self.wordDataSource sectionForSectionIndexTitle:title forCategory:self.category];
+//}
 
 
 - (IBAction)termsButton:(id)sender
@@ -336,4 +340,136 @@
 {
 
 }
+
+#pragma mark - Table View
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return [[self.fetchedResultsController sections] count];
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    id <NSFetchedResultsSectionInfo> sectionInfo = [self.fetchedResultsController sections][section];
+    return [sectionInfo numberOfObjects];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"DictionaryCell" forIndexPath:indexPath];
+    [self configureCell:cell atIndexPath:indexPath];
+    return cell;
+}
+
+- (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath {
+    TAWord *word = [self.fetchedResultsController objectAtIndexPath:indexPath];
+    
+    cell.textLabel.text = word.name;
+    cell.detailTextLabel.text = word.category;
+    cell.textLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleHeadline];
+}
+
+
+#pragma mark - Fetched results controller
+
+- (NSFetchedResultsController *)fetchedResultsController
+{
+    if (_fetchedResultsController != nil) {
+        return _fetchedResultsController;
+    }
+    
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+    // Edit the entity name as appropriate.
+    NSEntityDescription *entity = [NSEntityDescription entityForName:@"Word" inManagedObjectContext:[TADataStore sharedStore].managedObjectContext];
+    [fetchRequest setEntity:entity];
+    
+    // Set the batch size to a suitable number.
+    [fetchRequest setFetchBatchSize:20];
+    
+    // Edit the sort key as appropriate.
+    NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"name" ascending:NO];
+    NSArray *sortDescriptors = @[sortDescriptor];
+    
+    [fetchRequest setSortDescriptors:sortDescriptors];
+    
+    // Edit the section name key path and cache name if appropriate.
+    // nil for section name key path means "no sections".
+    NSFetchedResultsController *aFetchedResultsController = [[NSFetchedResultsController alloc] initWithFetchRequest:fetchRequest managedObjectContext:[TADataStore sharedStore].managedObjectContext sectionNameKeyPath:@"name" cacheName:@"Master"];
+    aFetchedResultsController.delegate = self;
+    self.fetchedResultsController = aFetchedResultsController;
+    
+    NSError *error = nil;
+    if (![self.fetchedResultsController performFetch:&error]) {
+        // Replace this implementation with code to handle the error appropriately.
+        // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
+        NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+#ifdef DEBUG
+        abort();
+#endif
+    }
+    
+    return _fetchedResultsController;
+}
+
+- (void)controllerWillChangeContent:(NSFetchedResultsController *)controller
+{
+    [self.tableView beginUpdates];
+}
+
+- (void)controller:(NSFetchedResultsController *)controller didChangeSection:(id <NSFetchedResultsSectionInfo>)sectionInfo
+           atIndex:(NSUInteger)sectionIndex forChangeType:(NSFetchedResultsChangeType)type
+{
+    switch(type) {
+        case NSFetchedResultsChangeInsert:
+            [self.tableView insertSections:[NSIndexSet indexSetWithIndex:sectionIndex] withRowAnimation:UITableViewRowAnimationFade];
+            break;
+            
+        case NSFetchedResultsChangeDelete:
+            [self.tableView deleteSections:[NSIndexSet indexSetWithIndex:sectionIndex] withRowAnimation:UITableViewRowAnimationFade];
+            break;
+            
+        default:
+            return;
+    }
+}
+
+- (void)controller:(NSFetchedResultsController *)controller didChangeObject:(id)anObject
+       atIndexPath:(NSIndexPath *)indexPath forChangeType:(NSFetchedResultsChangeType)type
+      newIndexPath:(NSIndexPath *)newIndexPath
+{
+    UITableView *tableView = self.tableView;
+    
+    switch(type) {
+        case NSFetchedResultsChangeInsert:
+            [tableView insertRowsAtIndexPaths:@[newIndexPath] withRowAnimation:UITableViewRowAnimationFade];
+            break;
+            
+        case NSFetchedResultsChangeDelete:
+            [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
+            break;
+            
+        case NSFetchedResultsChangeUpdate:
+            [self configureCell:[tableView cellForRowAtIndexPath:indexPath] atIndexPath:indexPath];
+            break;
+            
+        case NSFetchedResultsChangeMove:
+            [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
+            [tableView insertRowsAtIndexPaths:@[newIndexPath] withRowAnimation:UITableViewRowAnimationFade];
+            break;
+    }
+}
+
+- (void)controllerDidChangeContent:(NSFetchedResultsController *)controller
+{
+    [self.tableView endUpdates];
+}
+
+/*
+ // Implementing the above methods to update the table view in response to individual changes may have performance implications if a large number of changes are made simultaneously. If this proves to be an issue, you can instead just implement controllerDidChangeContent: which notifies the delegate that all section and object changes have been processed.
+ 
+ - (void)controllerDidChangeContent:(NSFetchedResultsController *)controller
+ {
+ // In the simplest, most efficient, case, reload the table view.
+ [self.tableView reloadData];
+ }
+ */
+
+
 @end

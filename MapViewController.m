@@ -433,7 +433,7 @@
     word.name = biblicalPin.title;
     word.definition = biblicalPin.information;
     word.twitterDef = biblicalPin.subtitle;
-    word.image = biblicalPin.image;
+    //word.image = biblicalPin.image;
     
     mapDetail.currentWordDetail = word; 
     /*

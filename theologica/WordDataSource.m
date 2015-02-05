@@ -13,8 +13,6 @@
 
 @property (nonatomic, strong) NSArray *lettersArray;
 @property (nonatomic, strong) NSMutableArray *dataArray;
-
-
 @end
 
 @implementation WordDataSource
@@ -28,73 +26,49 @@
     return _lettersArray;
 }
 
--(NSMutableArray *)dataArray
-{
-    if(!_dataArray)
-        {
-            NSData *wordData = [[NSUserDefaults standardUserDefaults] objectForKey:@"Name"];
-        
-        if (wordData)
-            {
-            _dataArray = [NSKeyedUnarchiver unarchiveObjectWithData:wordData];
-            
-            //this method sorts the arrray into alphabetical order!! - read up!!
-            }
-        
-        else
-            {
-            _dataArray = [self buildDictionaryWords];
-            }
-
-        
-        }
-    
-    return _dataArray;
-}
+//-(NSMutableArray *)dataArray
+//{
+//    if(!_dataArray)
+//        {
+//            NSData *wordData = [[NSUserDefaults standardUserDefaults] objectForKey:@"Name"];
+//        
+//        if (wordData)
+//            {
+//            _dataArray = [NSKeyedUnarchiver unarchiveObjectWithData:wordData];
+//            
+//            //this method sorts the arrray into alphabetical order!! - read up!!
+//            }
+//        
+//        else
+//            {
+//            _dataArray = [self buildDictionaryWords];
+//            }
+//
+//        
+//        }
+//    
+//    return _dataArray;
+//}
 
 // build the array of words
 
--(void) setDataArray: (NSArray *) array
-{
-    _dataArray = array;
-    
-    if (array)
-        {
-        NSData *wordData = [NSKeyedArchiver archivedDataWithRootObject:array];
-        [[NSUserDefaults standardUserDefaults] setObject:wordData forKey:@"Name"];
-        }
-    else
-        {
-        [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"Name"];
-        
-        }
-    
-    [[NSUserDefaults standardUserDefaults] synchronize];
-}
-
-
-
-
-/*
--(void) setDataArray: (NSArray *) array
-{
-    _dataArray = array;
-    
-    if (array)
-        {
-        NSData *wordData = [NSKeyedArchiver archivedDataWithRootObject:array];
-        [[NSUserDefaults standardUserDefaults] setObject:wordData forKey:@"Name"];
-        }
-    else
-        {
-        [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"Name"];
-        
-        }
-    
-    [[NSUserDefaults standardUserDefaults] synchronize];
-}
-*/
-
+//-(void) setDataArray: (NSArray *) array
+//{
+//    _dataArray = array;
+//    
+//    if (array)
+//        {
+//        NSData *wordData = [NSKeyedArchiver archivedDataWithRootObject:array];
+//        [[NSUserDefaults standardUserDefaults] setObject:wordData forKey:@"Name"];
+//        }
+//    else
+//        {
+//        [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"Name"];
+//        
+//        }
+//    
+//    [[NSUserDefaults standardUserDefaults] synchronize];
+//}
 
 
 - (NSArray *)sectionArrayForSection:(NSInteger)section category:(NSString *)category
@@ -2342,7 +2316,7 @@
      
      }];
     
-    [self setDataArray: dataArray];
+    //[self setDataArray: dataArray];
     
     return dataArray;
 

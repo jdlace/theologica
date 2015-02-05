@@ -7,6 +7,7 @@
 //
 
 #import "WordDetailViewController.h"
+#import "TAWord.h"
 
 @interface WordDetailViewController () <UIActionSheetDelegate>
 
@@ -46,9 +47,9 @@
     self.descriptionTextView.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
     self.twitterLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
     
-    _nameLabel.text = _currentWordDetail.name;
-    _twitterLabel.text = _currentWordDetail.twitterDef;
-    _descriptionTextView.text = _currentWordDetail.definition;
+    self.nameLabel.text = self.word.name;
+    self.twitterLabel.text = self.word.twitterDef;
+    self.descriptionTextView.text = self.word.definition;
     //_imageView.image = _currentWordDetail.image;
     //_systematicDescription.textColor = [UIColor blacColor];
     
@@ -88,7 +89,7 @@
 -(void) saveBookmark
 {
     //[self saveToPlist];
-    self.currentWordDetail.bookmarked = YES;
+    self.word.bookmarked = @YES;
     
     
 }
@@ -105,7 +106,7 @@
 - (IBAction)share:(UIBarButtonItem *)sender
 {
     NSArray *activityItems;
-    activityItems = @[_currentWordDetail.name, _currentWordDetail.twitterDef];
+    activityItems = @[self.word.name, self.word.twitterDef];
     
     //NSArray *activityActions;
     
