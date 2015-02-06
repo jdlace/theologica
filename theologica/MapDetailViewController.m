@@ -30,7 +30,7 @@
         _locationLabel.text = _currentWordDetail.name;
         _locationDescription.text = _currentWordDetail.definition;
         _locationSubtitle.text = _currentWordDetail.twitterDef; 
-        //_imageView.image = _currentWordDetail.image;
+        _imageView.image = _currentWordDetail.image;
 
         
         //_twitterLabel.text = _currentWordDetail.twitterDef;

@@ -87,21 +87,21 @@
 
 #pragma mark - Table view delegate
 
-//-(CGFloat) tableView: (UITableView *) tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
-//{
-//    
-//    static UILabel* label;
-//    if (!label) {
-//        label = [[UILabel alloc]
-//                 initWithFrame:CGRectMake(0, 0, FLT_MAX, FLT_MAX)];
-//        label.text = @"test";
-//    }
-//    
-//    label.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
-//    [label sizeToFit];
-//    return label.frame.size.height * 2.75;
-//    //return 50;
-//}
+-(CGFloat) tableView: (UITableView *) tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    
+    static UILabel* label;
+    if (!label) {
+        label = [[UILabel alloc]
+                initWithFrame:CGRectMake(0, 0, FLT_MAX, FLT_MAX)];
+        label.text = @"test";
+    }
+   
+    label.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
+    [label sizeToFit];
+    return label.frame.size.height * 2.75;
+    return 50;
+}
 
 -(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {

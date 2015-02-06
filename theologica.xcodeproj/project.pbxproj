@@ -32,7 +32,6 @@
 		694E879A1A55C5AB00CE4A37 /* LinksTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 694E87991A55C5AB00CE4A37 /* LinksTableViewController.m */; };
 		694E879E1A55D52400CE4A37 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 694E879D1A55D52400CE4A37 /* WebViewController.m */; };
 		694E87A41A56504F00CE4A37 /* Source.m in Sources */ = {isa = PBXBuildFile; fileRef = 694E87A31A56504F00CE4A37 /* Source.m */; };
-		6954E3DD1A7D54F0003FDBF2 /* Bookmarks.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6954E3DC1A7D54F0003FDBF2 /* Bookmarks.plist */; };
 		69739B561A36897F008BAB06 /* SearchBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69739B551A36897F008BAB06 /* SearchBarViewController.m */; };
 		6976E3021A6F3E8D0013A6D5 /* Links.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6976E3011A6F3E8D0013A6D5 /* Links.plist */; };
 		698893B81A5E24CE00D1AC74 /* SourcesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 698893B71A5E24CE00D1AC74 /* SourcesDetailViewController.m */; };
@@ -124,7 +123,6 @@
 		694E879D1A55D52400CE4A37 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		694E87A21A56504F00CE4A37 /* Source.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Source.h; sourceTree = "<group>"; };
 		694E87A31A56504F00CE4A37 /* Source.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Source.m; sourceTree = "<group>"; };
-		6954E3DC1A7D54F0003FDBF2 /* Bookmarks.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Bookmarks.plist; path = theologica/Bookmarks.plist; sourceTree = "<group>"; };
 		69739B541A36897F008BAB06 /* SearchBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchBarViewController.h; sourceTree = "<group>"; };
 		69739B551A36897F008BAB06 /* SearchBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchBarViewController.m; sourceTree = "<group>"; };
 		6976E3011A6F3E8D0013A6D5 /* Links.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Links.plist; sourceTree = "<group>"; };
@@ -220,7 +218,6 @@
 			isa = PBXGroup;
 			children = (
 				6976E3011A6F3E8D0013A6D5 /* Links.plist */,
-				6954E3DC1A7D54F0003FDBF2 /* Bookmarks.plist */,
 				698F27AC1A6D837F0065F8A6 /* theologica.entitlements */,
 				6907A2081A14525300EA7CF4 /* View */,
 				692ED2501796D552008554F9 /* Controllers */,
@@ -522,7 +519,6 @@
 				692ED2991796E709008554F9 /* equality@2x.png in Resources */,
 				692ED2A81796EF10008554F9 /* man-influence.png in Resources */,
 				692ED2A91796EF10008554F9 /* man-influence@2x.png in Resources */,
-				6954E3DD1A7D54F0003FDBF2 /* Bookmarks.plist in Resources */,
 				9BAC0B461A1C4BA1004C4867 /* appicon2.png in Resources */,
 				6976E3021A6F3E8D0013A6D5 /* Links.plist in Resources */,
 				9BAC0B451A1C4BA1004C4867 /* appicon.png in Resources */,

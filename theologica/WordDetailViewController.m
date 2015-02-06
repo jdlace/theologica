@@ -31,18 +31,11 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
+        UIBarButtonItem *saveBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"bookmarklines"] style:UIBarButtonItemStylePlain target:self action:@selector(saveBookmark)];
+    
     UIBarButtonItem *shareBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:self action:@selector(share:)];
     
-    UIBarButtonItem *saveBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"bookmarklines"] style:UIBarButtonItemStylePlain target:self action:@selector(saveBookmark)];
-    
-    /*
-    if (saveBarButtonItem.target)
-        {
-        saveBarButtonItem.tintColor = [UIColor blueColor];
-        }
-     */
-    
-    self.navigationItem.rightBarButtonItems = [[NSArray alloc] initWithObjects:saveBarButtonItem,shareBarButtonItem, nil];
+    self.navigationItem.rightBarButtonItems = [[NSArray alloc] initWithObjects:shareBarButtonItem,saveBarButtonItem, nil];
 
     //self.nameLabel.font = [UIFont preferredFontForTextStyle: UIFontTextStyleHeadline];
     self.descriptionTextView.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
@@ -52,7 +45,6 @@
     self.twitterLabel.text = self.word.twitterDef;
     self.descriptionTextView.text = self.word.definition;
     //_imageView.image = _currentWordDetail.image;
-    //_systematicDescription.textColor = [UIColor blacColor];
     
     [[NSNotificationCenter defaultCenter]
      addObserver:self
@@ -67,31 +59,27 @@
     self.twitterLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
 }
 
-//-(NSString *) filePath
-//{
-//    NSArray *pathToPlist = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-//    
-//    NSString *pathDirectory = [pathToPlist objectAtIndex:0];
-//    
-//    return [pathDirectory stringByAppendingPathComponent:@"Bookmarks.plist"];
-//}
-//
-//-(void) saveToPlist
-//{
-//    NSMutableDictionary *myBookmarks = [NSMutableDictionary new];
-//    NSString *value = _nameLabel.text;
-//    [myBookmarks setValue:value forKey:@"Term"];
-//    [myBookmarks writeToFile:[self filePath] atomically:YES];
-//    
-//    NSLog(@"Term saved!");
-//}
-
-
 -(void) saveBookmark
 {
     self.word.bookmarked = @(![self.word.bookmarked boolValue]);
     [[TADataStore sharedStore] saveContext];
+    [self bookmarkYES];
     
+}
+
+-(void) bookmarkYES;
+{
+    
+    if (_word.bookmarked)
+        {
+        UIBarButtonItem *savedBarButton = [[UIBarButtonItem alloc] init];
+        savedBarButton.image = [UIImage imageNamed:@"bookmarked"];
+        }
+    else
+        {
+        UIBarButtonItem *savedBarButton = [[UIBarButtonItem alloc] init];
+        savedBarButton.image = [UIImage imageNamed:@"bookmarklines"];
+        }
 }
  
 - (void)didReceiveMemoryWarning

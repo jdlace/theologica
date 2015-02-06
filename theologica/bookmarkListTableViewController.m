@@ -96,6 +96,9 @@
     TAWord *word = [self.fetchedResultsController objectAtIndexPath:indexPath];
     
     cell.textLabel.text = word.name;
+    cell.textLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleHeadline];
+
+
 }
 
 - (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView
@@ -240,6 +243,21 @@
  */
 
 
+-(CGFloat) tableView: (UITableView *) tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    
+    static UILabel* label;
+    if (!label) {
+        label = [[UILabel alloc]
+                 initWithFrame:CGRectMake(0, 0, FLT_MAX, FLT_MAX)];
+        label.text = @"test";
+    }
+    
+    label.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
+    [label sizeToFit];
+    return label.frame.size.height * 2.75;
+    return 50;
+}
 
 
 

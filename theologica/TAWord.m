@@ -47,21 +47,26 @@
 
 - (void)updateWithDict:(NSDictionary *)dict
 {
-    if ([dict isKindOfClass:[NSDictionary class]]) {
-        for (NSString *key in [dict allKeys]) {
+    if ([dict isKindOfClass:[NSDictionary class]])
+        {
+        for (NSString *key in [dict allKeys])
+            {
             id value = dict[key];
-            if (value != [NSNull null]) {
+            if (value != [NSNull null])
+                {
                 [self setValue:value forKey:key];
+                }
             }
         }
-    }
 }
 
-- (void)setValue:(id)value forUndefinedKey:(NSString *)key {
+- (void)setValue:(id)value forUndefinedKey:(NSString *)key
+{
     NSLog(@"CLASS: %@ KEY: %@ VALUE: %@", [self class], key, value);
 }
 
-- (void)setValue:(id)value forKey:(NSString *)key {
+- (void)setValue:(id)value forKey:(NSString *)key
+{
     [super setValue:value forKey:key];
 }
 

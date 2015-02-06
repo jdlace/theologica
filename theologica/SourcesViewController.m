@@ -376,6 +376,14 @@
 
 - (IBAction)startButton:(id)sender
 {
+    
+    /*
+    SourcesDetailViewController *aboutDetail = [[self storyboard]
+                                          instantiateViewControllerWithIdentifier:@"SourcesDetailViewController"];
+    [self.navigationController pushViewController:aboutDetail animated:YES];
+     */
+    
+    
     UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Start exploring Theologica"  message:@"Theology draws on its Sources (Magisterium, Scripture, Fathers, Councils, Creeds, Liturgy) to interpret the Signs of the Times; cultural trends that affect the worldview of human beings in any given time." preferredStyle:(UIAlertControllerStyleAlert)];
     
     UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"Start" style:UIAlertActionStyleDefault

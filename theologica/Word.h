@@ -14,6 +14,7 @@
 @property (copy, nonatomic) NSString *definition;
 @property (copy, nonatomic) NSString *twitterDef; 
 @property (copy, nonatomic) NSString *category;
+@property (copy, nonatomic) UIImage *image; 
 @property (nonatomic) BOOL bookmarked; 
 
 @end

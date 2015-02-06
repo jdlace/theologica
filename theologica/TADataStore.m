@@ -55,16 +55,18 @@
 {
     NSError *error = nil;
     NSManagedObjectContext *managedObjectContext = self.managedObjectContext;
-    if (managedObjectContext != nil) {
-        if ([managedObjectContext hasChanges] && ![managedObjectContext save:&error]) {
+    if (managedObjectContext != nil)
+        {
+        if ([managedObjectContext hasChanges] && ![managedObjectContext save:&error])
+            {
             // Replace this implementation with code to handle the error appropriately.
             // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
             NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
 #ifdef DEBUG
             abort();
 #endif
+            }
         }
-    }
 }
 
 // Returns the managed object context for the application.
@@ -170,7 +172,7 @@
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Anawim",
-                           @"twitterDef":@"the Hebrew word meaning\r“the poor”",
+                           @"twitterDef":@"the Hebrew word meaning\r“the oppressed”",
                            @"definition":@"This term is used in the Hebrew Bible to refer to those who are poor, destitue, and marginalized who trust completely in the mercy of God (Is. 10:2, Zeph 2:3); frequently used in the Psalms.\r\rFurther Reference:\rJohn Paul II, General Audience, 5/23/2001\rhttp://tinyurl.com/lyfphvo",
                            @"category":@"Biblical"}];
     
