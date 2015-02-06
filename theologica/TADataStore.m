@@ -155,7 +155,8 @@
 
 - (void)buildDictionaryWords
 {
-    if ([TADataStore sharedStore].hasWords) {
+    if ([TADataStore sharedStore].hasWords)
+    {
         return;
     }
     
@@ -170,6 +171,11 @@
                            @"twitterDef":@"the Hebrew word meaning\r“Ruler” or “Master”",
                            @"definition":@"This term is used as a synonym for YHWH in the Bible and in contemporary Judaism. See “YHWH”.\r\rFurther Reference:\rCatechism of the Catholic Church, 209\rhttp://tinyurl.com/bruqt9r",
                            @"category":@"Biblical"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Aseity",
+                           @"twitterDef":@"the necessary character of\rGod's existence",
+                           @"definition":@"Aesity is a term using in so called Perfect-Being theology in which God is described as being the most perfect Being in regard to several qualities.",
+                           @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Anawim",
                            @"twitterDef":@"the Hebrew word meaning\r“the oppressed”",
