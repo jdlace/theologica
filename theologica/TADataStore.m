@@ -167,6 +167,18 @@
                            @"definition":@"This term was by Jesus in prayer to God according to the gospels. Paul claims that Christians also use the term because of their filial adoption; “Because you are sons, God has sent the Spirit of his Son into our hearts, crying, “Abba! Father!” (Gal 4:6). See “Adoption”.\r\rFurther Reference:\rCatechism of the Catholic Church, 683\rhttp://tinyurl.com/pqxxm8l",
                            @"category":@"Biblical"}];
     
+    [TAWord wordWithDict:@{@"name":@"Ablution",
+                           @"twitterDef":@"the cleansing of the paten and chalice\rafter the Eucharist",
+                           @"definition":@"Ablution can be traces a distinct liturgical practice back to....",
+                           @"category":@"Liturgical"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Acclamation",
+                           @"twitterDef":@"a greeting or welcome at the beginning\rof the Liturgy of the Eucharist",
+                           @"definition":@"The Memorial Acclamation is....",
+                           @"category":@"Liturgical"}];
+
+
+    
     [TAWord wordWithDict:@{@"name":@"Adonai",
                            @"twitterDef":@"the Hebrew word meaning\r“Ruler” or “Master”",
                            @"definition":@"This term is used as a synonym for YHWH in the Bible and in contemporary Judaism. See “YHWH”.\r\rFurther Reference:\rCatechism of the Catholic Church, 209\rhttp://tinyurl.com/bruqt9r",
@@ -177,6 +189,12 @@
                            @"definition":@"Aesity is a term using in so called Perfect-Being theology in which God is described as being the most perfect Being in regard to several qualities.",
                            @"category":@"Systematic"}];
     
+    [TAWord wordWithDict:@{@"name":@"Angelus",
+                           @"twitterDef":@"a prayer based on the Annunciation",
+                           @"definition":@"See Annunciation",
+                           @"category":@"Moral"}];
+
+    
     [TAWord wordWithDict:@{@"name":@"Anawim",
                            @"twitterDef":@"the Hebrew word meaning\r“the oppressed”",
                            @"definition":@"This term is used in the Hebrew Bible to refer to those who are poor, destitue, and marginalized who trust completely in the mercy of God (Is. 10:2, Zeph 2:3); frequently used in the Psalms.\r\rFurther Reference:\rJohn Paul II, General Audience, 5/23/2001\rhttp://tinyurl.com/lyfphvo",
@@ -186,6 +204,12 @@
                            @"twitterDef":@"the process of attributing human characteristics to God",
                            @"definition":@"God is described in human terms throughout the Christian tradition, and especially within the Scriptures. The Yahwist Source uses anthropomorphism extensively in its portrayal of YHWH in the Torah. Such language is, however, ultimately, only analogous to God. See “Analogy”, “Yahwist Source”, “YHWH”.\r\rFurther Reference:\rWikipedia, “Anthropomorphism”\rhttp://tinyurl.com/ffpra",
                            @"category":@"Biblical"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Annunciation",
+                           @"twitterDef":@"the angelic declaration to Mary\that she would bear the Son of God",
+                           @"definition":@"The Annunciation is found in the Gospel of Luke...",
+                           @"category":@"Biblical"}];
+
     
     /*
      Word *antiochusWord = [[Word alloc]init];
@@ -276,8 +300,8 @@
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Adoptionism",
-                           @"twitterDef":@"the belief that Jesus was not\rdivine by nature",
-                           @"definition":@"Adoptionism is the belief that Jesus was not the Son of God by nature, but rather adopted by God at his baptism. It was held by the so-called Ebionites of the end of the first century.\r\rFurther Reference:\rWikipedia, “Adoptionism”\rhttp://tinyurl.com/25fgze",
+                           @"twitterDef":@"the belief that Jesus was a mere man\radopted as God's Son at his baptism ",
+                           @"definition":@"Adoptionism was held by the so-called Ebionites of the end of the first century.\r\rFurther Reference:\rWikipedia, “Adoptionism”\rhttp://tinyurl.com/25fgze",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Accident",
@@ -488,6 +512,22 @@
     
     //B
     
+    [TAWord wordWithDict:@{@"name":@"Beatific Vision",
+                           @"twitterDef":@"the destiny of those who are\rpure of heart",
+                           @"definition":@"The first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
+                           @"category":@"Systematic"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Beatitudes",
+                           @"twitterDef":@"a series of sayings in Matthew that begin\rwith the word blessed",
+                           @"definition":@"The Beatitudes are likely the most famous of Jesus' sayings from the Sermon on the Mount",
+                           @"category":@"Biblical"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Baldachino",
+                           @"twitterDef":@"a canopy use to cover a bishop's chair, the altar, or Eucharistic processions",
+                           @"definition":@"Baldachinos are regularly seen in St. Peter's Square...",
+                           @"category":@"Liturgical"}];
+
+
     [TAWord wordWithDict:@{@"name":@"Beneficence",
                            @"twitterDef":@"the first principle in medical ethics:\rdo no harm.",
                            @"definition":@"The first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
@@ -518,6 +558,12 @@
                            @"definition":@" form of religious slander.\r\rFurther Reference:\rCatechism of the Catholic Church, 2148\rhttp://tinyurl.com/bczm8h7",
                            @"category":@"Systematic"}];
     
+    [TAWord wordWithDict:@{@"name":@"Blessing",
+                           @"twitterDef":@"a pronouncement of Divine favor",
+                           @"definition":@"The concept of blessing has its origins in the Old Testament",
+                           @"category":@"Systematic"}];
+
+    
     [TAWord wordWithDict:@{@"name":@"Baptistry",
                            @"twitterDef":@"the place within a church used for baptism,\rusually referred to as a “font”",
                            @"definition":@"Baptistries are a later development in the Christian tradition. They are connected to the growth of the Church after its more definitive separation from Judaism after A.D. 70.\r\rFurther Reference:\rCatechism of the Catholic Church, 1185\rhttp://tinyurl.com/p9382z5",
@@ -532,6 +578,12 @@
                            @"twitterDef":@"the Canticle (Song) of Zechariah contained within the Gospel of Luke 1:68-79",
                            @"definition":@"This song is recorded as the extemporaneous prayer of Zechariah on the occassion of the birth of his son, John the Baptist. The Benedictus is a part of Morning Prayer in the Liturgy of the Hours.\r\rFurther Reference:\rWikipedia, “Benedictus”\rhttp://tinyurl.com/nvdk23a",
                            @"category":@"Liturgical"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Biretta",
+                           @"twitterDef":@"a cap worn by clergy for special celebrations",
+                           @"definition":@"The Biretta....",
+                           @"category":@"Liturgical"}];
+
     
     [TAWord wordWithDict:@{@"name":@"Bishop",
                            @"twitterDef":@"a successor to the Apostles who oversees a particular diocese",
@@ -578,6 +630,18 @@
                            @"definition":@"The Byzantine Rite can be traced back as early as the ... century",
                            @"category":@"Liturgical"}];
     
+    [TAWord wordWithDict:@{@"name":@"Breaking of the Bread",
+                           @"twitterDef":@"a biblical phrase used to\rdescribe the Agape-Eucharist meal",
+                           @"definition":@"This phrase first occurs in the Acts of the Apostles...",
+                           @"category":@"Biblical"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Blessed Virgin Mary",
+                           @"twitterDef":@"a liturgical title of the Virgin Mary",
+                           @"definition":@"The title Blessed Virgin Mary is based, in part, on the prediction of Mary in the Gospel of Luke: from now on, all generations will call me blessed.....",
+                           @"category":@"Systematic"}];
+
+
+    
     
     /*
      Word *bathshebaWord = 
@@ -608,14 +672,55 @@
     
     //C
     
+    [TAWord wordWithDict:@{@"name":@"Catechumen",
+                           @"twitterDef":@"a person training for Baptism",
+                           @"definition":@"Catechumens have been recognized as a distinct group since the earliest days of the Church...",
+                           @"category":@"Liturgical"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Candidates",
+                           @"twitterDef":@"those who have received Baptism\rin preparation for Confirmation and Eucharist",
+                           @"definition":@"Candidates are generally composes of those who convert to Catholicism from another Christian tradition...",
+                           @"category":@"Liturgical"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Cantor",
+                           @"twitterDef":@"the leader of liturgical singing during the Mass",
+                           @"definition":@"Cantors are an inheritance of the Church from Judaism..",
+                           @"category":@"Liturgical"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Cardinal Virtues",
+                           @"twitterDef":@"justice, prudence, temperance, and fortitude",
+                           @"definition":@"The four Cardinal Virtues are first mentioned by Plato...Thomas Aquinas...",
+                           @"category":@"Moral"}];
+
+
+    [TAWord wordWithDict:@{@"name":@"Cassock",
+                           @"twitterDef":@"a long garment work by clergy",
+                           @"definition":@"The cassock, like the Biretta, is usually reserved for special liturgical celebrations...",
+                           @"category":@"Liturgical"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Catechism",
+                           @"twitterDef":@"a systematized body of teaching",
+                           @"definition":@"The Catechism of the Catholic Church...",
+                           @"category":@"Systematic"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Catechist",
+                           @"twitterDef":@"a certified teacher of the faith",
+                           @"definition":@"Catechist are usually those who teach in religious education programs...",
+                           @"category":@"Systematic"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Censer",
+                           @"twitterDef":@"see Thurible",
+                           @"definition":@"",
+                           @"category":@"Liturgical"}];
+    
     [TAWord wordWithDict:@{@"name":@"Casuistic",
                            @"twitterDef":@"a type of law derived from individual cases rather than universal norms",
                            @"definition":@"Casuistic law is contrasted with apodictic law. The latter is exemplified by the 10 Commandments, while the former is found in the Covenant Code of Exodus 21-23.\r\rFurther Reference:\rWikipedia, “Casuistry”\rhttp://tinyurl.com/2pntmh",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Cappadocian Fathers",
-                           @"twitterDef":@"a group of Eastern Orthodox fathers",
-                           @"definition":@"The Cappadocian Fathers",
+                           @"twitterDef":@"Basil the Great, Gregory of Nyssa,\rand Gregory of Nazianzus",
+                           @"definition":@"These three fathers occupy a special place in the Eastern Orthodox tradition...",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Catholic Social Teaching",
@@ -673,6 +778,18 @@
                            @"definition":@"The community belonging to the Lord; the people of God; the community centered on the belief that Jesus of Nazraeth is the divine Savior of the world.\r\rFurther Reference:\rCatechism of the Catholic Church, 751\rhttp://tinyurl.com/ojrdr53",
                            @"category":@"Systematic"}];
     
+    [TAWord wordWithDict:@{@"name":@"College of Bishops",
+                           @"twitterDef":@"the aspect of bishops as a group of equals",
+                           @"definition":@"The College of Bishops is a concept emphasized by Vatican II...",
+                           @"category":@"Systematic"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Compline",
+                           @"twitterDef":@"the traditional word for Night Prayer",
+                           @"definition":@"Compline...",
+                           @"category":@"Liturgical"}];
+
+
+    
     [TAWord wordWithDict:@{@"name":@"Communicatio Idiomatum",
                            @"twitterDef":@"a Latin phrase describing the interexchange of Christ's divine and human natures",
                            @"definition":@"The idea of the Communicatio Idiomatum means that the properties of the human Jesus can also be predicated of the Logos and vice versa.\r\rFurther Reference:\rNew Advent, “Communicatio Idiomatum”\rhttp://tinyurl.com/nqusf6m",
@@ -702,6 +819,57 @@
                            @"twitterDef":@"an argument for God's existence, based on Aristotle's First Cause argument",
                            @"definition":@"One of the classical arguments for the existence of God, based on the First Cause argument.\r\rFurther Reference:\rSee Stanford Encyclopedia of Philosophy, “Cosmological Argument” http://tinyurl.com/8xkm72n\r\rThomas Aquinas, Summa Theologica, ST, Ia, q. 2 a. 3 co. http://tinyurl.com/my5bedq",
                            @"category":@"Systematic"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Contemplation",
+                           @"twitterDef":@"a form of silent and meditative prayer",
+                           @"definition":@"This form of prayer....",
+                           @"category":@"Systematic"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Chalice",
+                           @"twitterDef":@"the litugical name for a cup/used during the Eucharist",
+                           @"definition":@"The 2011 new translation of the Mass refers to the cup (still called such in the Memorial Acclamation) as a chalice...",
+                           @"category":@"Liturgical"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Cherubim",
+                           @"twitterDef":@"a class of angelic figures\rdepicted in the Bible",
+                           @"definition":@"Cherubim are found from as early as Genesis 3....; the plural form of the Hebrew     cherub...",
+                           @"category":@"Biblical"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Conscience",
+                           @"twitterDef":@"that which prompts us to\rdo good and avoid evil",
+                           @"definition":@"The conscience is inner-most place of the soul which determines....",
+                           @"category":@"Moral"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Consecration",
+                           @"twitterDef":@"the act of setting someone or something\rapart for special service",
+                           @"definition":@"Consecration usually takes the form of the consecration of the Eucharistic elements of bread and wine. It is also used to describe....",
+                           @"category":@"Liturgical"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Consubstantial",
+                           @"twitterDef":@"a word meaning\rof the same substance",
+                           @"definition":@"This term is derived from the Latin translation of homoousious...",
+                           @"category":@"Systematic"}];
+
+    [TAWord wordWithDict:@{@"name":@"Contrition",
+                           @"twitterDef":@"repentance from sin and intention for conversion",
+                           @"definition":@"Contrition is the natural result of sin. Psalm ...says A contrite heart, you will not despise....",
+                           @"category":@"Liturgical"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Concelebration",
+                           @"twitterDef":@"the celebration of the Mass\rby two or more priests",
+                           @"definition":@"Concelebration is....",
+                           @"category":@"Liturgical"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Corpus Christi",
+                           @"twitterDef":@"a Latin phrase meaning\rBody of Christ",
+                           @"definition":@"Corpus Christi is a feast day for the Church....",
+                           @"category":@"Liturgical"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Crucifixion",
+                           @"twitterDef":@"a form of death by hanging\that induces asphyxiation",
+                           @"definition":@"The Romans aquired the practice of crucifixion from the Carthaginians. It was reserved for Roman non-citizens...",
+                           @"category":@"Biblical"}];
+
     
     [TAWord wordWithDict:@{@"name":@"Creation",
                            @"twitterDef":@"the Universe...",
@@ -775,6 +943,18 @@
     
     //D
     
+    [TAWord wordWithDict:@{@"name":@"Day of Atonement",
+                           @"twitterDef":@"the holiest day in the Jewish calendar/ron which sin is atoned and forgiven",
+                           @"definition":@"...see Yom Kippur",
+                           @"category":@"Biblical"}];
+
+    
+    [TAWord wordWithDict:@{@"name":@"Deanery",
+                           @"twitterDef":@"a smaller geographical area within a diocese",
+                           @"definition":@"Deaneries are made up of both clergy and lay representatives from various parishes....",
+                           @"category":@"Liturgical"}];
+
+    
     [TAWord wordWithDict:@{@"name":@"Dehumanization",
                            @"twitterDef":@"the process of objectifying a human being, violating his or her dignity",
                            @"definition":@"One theory of dehumanization claims that it can take one of two forms: animalistic or mechanistic. The former denies uniqely human characteristics (such as civility, morality, rationality). The latter denies characteristics of human nature that are fundamental but not unique to humans (such as emotional responsiveness, individuality, interpersonalism).\r\rFurther Reference:\r“Dehumanization: An Integrative Review”\rhttp://tinyurl.com/okhuczt",
@@ -790,10 +970,22 @@
                            @"definition":@"Human dignity is based on the understanding that, being made in God's Image, humans are loved unconditionally and universally and called to be in loving relationship with the Creator. Human dignity is fulfilled in this vocation and is essential to human development. It is the first principle of Catholic Social Teaching in which all others are based. See “Catholic Social Teaching”, “Human Person”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1700\rhttp://tinyurl.com/kaz99um",
                            @"category":@"Moral"}];
     
+    [TAWord wordWithDict:@{@"name":@"Disciple",
+                           @"twitterDef":@"a follower of Jesus",
+                           @"definition":@"According to the Gospels, Jesus had numerous disciples; from the Latin  , student. ",
+                           @"category":@"Biblical"}];
+
+    
     [TAWord wordWithDict:@{@"name":@"Distributive Justice",
                            @"twitterDef":@"the type of justice which emphasizes society's responsibilities to the individual",
                            @"definition":@"Distributive justice is an essential aspect of social justice. It is fulfilled when society meets its obligations to the individual based on his or her contribution and need.\r\rFurther Reference:\rUSCCB, “Economic Justice For All”, II.b.1.b http://tinyurl.com/75hnlx3",
                            @"category":@"Moral"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Divine Liturgy",
+                           @"twitterDef":@"the name of the Eastern Orthodox Eucharistic liturgy",
+                           @"definition":@"The Divine Liturgy can be traced back to the time of John of Damascus...",
+                           @"category":@"Liturgical"}];
+
     
     [TAWord wordWithDict:@{@"name":@"Decaon",
                            @"twitterDef":@"an ordained servant of the Church",
@@ -835,6 +1027,23 @@
                            @"definition":@"Dei Verbum is the most definitive statement on the Church's belief in Divine revelation, the Scriptures and Tradition.\r\rFurther Reference:\rDogmatic Constitution on Divine Revelation\rhttp://tinyurl.com/3ecxu",
                            @"category":@"Biblical"}];
     
+    [TAWord wordWithDict:@{@"name":@"Demythologization",
+                           @"twitterDef":@"the process of separating time-conditioned myths\rfrom their underlying truths",
+                           @"definition":@"Rudolph Bultmann coined this term to refer to way of interpreting the New Testament in a way that....",
+                           @"category":@"Biblical"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Didache",
+                           @"twitterDef":@"the name of the earliest extra-biblical Christian document",
+                           @"definition":@"The Teaching of the Twelve Apostles...",
+                           @"category":@"Historical"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Diocese",
+                           @"twitterDef":@"the administrative area of a bishop",
+                           @"definition":@"The concept of a diocese dates to the time of the Emperor Diocletian...",
+                           @"category":@"Historical"}];
+
+
+
     [TAWord wordWithDict:@{@"name":@"Deuteronomic History",
                            @"twitterDef":@"the theologized history of Israel in Joshua, Judges, 1 & 2 Samuel, and 1 & 2 Kings",
                            @"definition":@"The term given to the books Joshua, Judges, 1 & 2 Samuel, and 1 & 2 Kings, based on the theology of the book of Deuteronomy, which detail the rise and fall of the Israelite monarchy, united and divided kingdom, and eventual downfall of the nation Israel.\r\rFurther Reference:\rOxford Biblical Studies, “Deuteronomic History”\rhttp://tinyurl.com/poqwjxo",
@@ -911,15 +1120,59 @@
                            @"definition":@"Easter has been celebrated since the earliest days of the Church. It is mentioned in the book of Acts..",
                            @"category":@"Liturgical"}];
     
+    [TAWord wordWithDict:@{@"name":@"Eastern Catholic Churches",
+                           @"twitterDef":@"Byzantine rite churches in full communion\rwith the Church of Rome",
+                           @"definition":@"Eastern Catholic Churches were brought into full communion....",
+                           @"category":@"Historical"}];
+
+    
     [TAWord wordWithDict:@{@"name":@"Ebionites",
                            @"twitterDef":@"a heretical group of 1st century Christians\rwho denied the divinity of Christ",
                            @"definition":@"The Ebionites are mentioned by Eusebius...",
                            @"category":@"Historical"}];
     
+    [TAWord wordWithDict:@{@"name":@"Ecclesia",
+                           @"twitterDef":@"a Greek term meaning\rcalled-out assembly",
+                           @"definition":@"The word ecclesia was originally a term used to desribe the legislature of the Athenian City-State....",
+                           @"category":@"Biblical"}];
+
+    
     [TAWord wordWithDict:@{@"name":@"Economic Justice",
                            @"twitterDef":@"the right relationship between human beings to a given economic system",
                            @"definition":@"Economic justice is based on the idea that the economy of any society should serve people, not vice versa.\r\rFurther Reference:\rUSCCB, “Economic Justice”\rhttp://tinyurl.com/l7a4kwo",
                            @"category":@"Moral"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Elevation",
+                           @"twitterDef":@"the raising up of the consecrated bread and wine\at the end of the Eucharistic prayer",
+                           @"definition":@"The Elevation can be traced back to....",
+                           @"category":@"Liturgical"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Emmanuel",
+                           @"twitterDef":@"a Hebrew word meaning\rGod is with us",
+                           @"definition":@"This word is used as a name for the child born as a sign to King Ahaz in Isaiah 7:14 that the northern alliance between Assyria and Israel will not defeat Judah. The author of the gospel of Matthew uses it as a prediction of the birth of Jesus",
+                           @"category":@"Biblical"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Enlightenment",
+                           @"twitterDef":@"the cultural movement which prioritized reason over religion",
+                           @"definition":@"The Enlightenment is generally dated to the late sixteenth and seventeenth centuries in Europe. ",
+                           @"category":@"Cultural"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Epiclesis",
+                           @"twitterDef":@"the invocation of the Holy Spirit\ron the Eucharistic elements",
+                           @"definition":@"The Epiclesis can be dated to the....century...",
+                           @"category":@"Liturgical"}];
+
+    [TAWord wordWithDict:@{@"name":@"Episcopacy",
+                           @"twitterDef":@"the order of bishops",
+                           @"definition":@"....;from the Greek    , episkopos, overseer.",
+                           @"category":@"Systematic"}];
+
+    [TAWord wordWithDict:@{@"name":@"Evolution",
+                           @"twitterDef":@"a process of biological descent with modification",
+                           @"definition":@"The modern theory of evolution is the result of the work of Charles Darwin...Its scientific acceptance was influential on Vatican II as seen in Gaudium et Spes....",
+                           @"category":@"Cultural"}];
+
+
     
     [TAWord wordWithDict:@{@"name":@"Ethics",
                            @"twitterDef":@"the study of moral systems",
@@ -975,6 +1228,24 @@
                            @"twitterDef":@"a Latin phrase meaning\r“from the work, worked”",
                            @"definition":@"The idea that a Sacrament's efficacy is not related to a celebrant's personal holiness.\r\rFurther Reference:\rCatechism of the Catholic Church, 1128\rhttp://tinyurl.com/cmes38",
                            @"category":@"Systematic"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Ex Opere Operantis",
+                           @"twitterDef":@"a Latin phrase meaning\rfrom the work of the worker",
+                           @"definition":@"This phrase refers to the emphasis on the subjective character of the celebrant. In the Catholic tradition, it does not affect the validity of the Sacraments. See Ex Opere Operato.",
+                           @"category":@"Systematic"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Excommunication",
+                           @"twitterDef":@"the state of being out of visible\rcommunion with the Church",
+                           @"definition":@"Excommunication is aluded to as early as the first century in the writings of Paul...",
+                           @"category":@"Systematic"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Exorcism",
+                           @"twitterDef":@"the expulsion of evil spirits\rby the authority of Jesus Christ",
+                           @"definition":@"During his ministry, Jesus is reported to have conducted exorcisms....",
+                           @"category":@"Systematic"}];
+
+
+
     
     [TAWord wordWithDict:@{@"name":@"Eisegesis",
                            @"twitterDef":@"intepreting a text by importing one's own presuppositions",
@@ -1137,6 +1408,27 @@
                            @"definition":@"Feminism was widely influential in the twentieth century.\r\rFurther Reference:\rWikipedia, Feminism\rhttp://tinyurl.com/mdu3o",
                            @"category":@"Cultural"}];
     
+    [TAWord wordWithDict:@{@"name":@"Fraction",
+                           @"twitterDef":@"the breaking of consecrated bread\rfor the distrubution of Holy Communion",
+                           @"definition":@"The Fraction symbolizes Christ's body given up for the salvation of the world",
+                           @"category":@"Liturgical"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Forgiveness of Sins",
+                           @"twitterDef":@"to leave behind a broken relationship",
+                           @"definition":@"Forgiveness has many nuances...",
+                           @"category":@"Systematic"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Form",
+                           @"twitterDef":@"the words and matter used in a Sacrament",
+                           @"definition":@"The form of the Sacraments is .....",
+                           @"category":@"Systematic"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Fransiscan",
+                           @"twitterDef":@"a member of the order of\rSt. Francis of Assisi",
+                           @"definition":@"The order of Franciscans was formally recognized by Pope....",
+                           @"category":@"Historical"}];
+
+    
     //G
     
     [TAWord wordWithDict:@{@"name":@"Grace",
@@ -1169,7 +1461,49 @@
                            @"definition":@"1. The message of the historical Jesus concerning the Kingdom of God; 2. The message about Jesus concerning the salvation of the world; 3. One of the four canonical accounts of the life and ministry of the historical Jesus (Matthew, Mark, Luke, and John); from the Greek word ευαγγελιον (evangelion) - “good news”.\r\rFurther Reference:\rCatechism of the Catholic Church, 75\rhttp://tinyurl.com/bx8mnlu",
                            @"category":@"Biblical"}];
     
+    [TAWord wordWithDict:@{@"name":@"Gloria Patri",
+                           @"twitterDef":@"a doxology to the Trinity",
+                           @"definition":@"Glory to the Father, and to the Son, and to the Holy Spirit.",
+                           @"category":@"Liturgical"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Glossolalia",
+                           @"twitterDef":@"a Greek word meaning\rspeaking in new languages",
+                           @"definition":@"According to Paul in 1 Corinthians, glossolalia was a spiritual gift manifested in liturgical worship...",
+                           @"category":@"Biblical"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Good Friday",
+                           @"twitterDef":@"the liturigcal memorial of\rthe crucifixion of Jesus",
+                           @"definition":@"Good Friday is part of the Triduum",
+                           @"category":@"Liturgical"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Great Litany",
+                           @"twitterDef":@"the first principle in medical ethics:\rdo no harm.",
+                           @"definition":@"The first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
+                           @"category":@"Liturgical"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Greek Orthodox",
+                           @"twitterDef":@"the first principle in medical ethics:\rdo no harm.",
+                           @"definition":@"The first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
+                           @"category":@"Historical"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Guardian Angel",
+                           @"twitterDef":@"an angel that looks after a given person",
+                           @"definition":@"Guardian angels are alluded to by Jesus himself in....",
+                           @"category":@"Systematic"}];
+
+
+
+
+
+
+    
     //H
+    
+    [TAWord wordWithDict:@{@"name":@"Hail Mary",
+                           @"twitterDef":@"the first principle in medical ethics:\rdo no harm.",
+                           @"definition":@"The first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
+                           @"category":@"Liturgical"}];
+
     
     [TAWord wordWithDict:@{@"name":@"Heaven",
                            @"twitterDef":@"the state of complete union with God",
@@ -1190,6 +1524,18 @@
                            @"twitterDef":@"the formal denial of revealed truth",
                            @"definition":@"The formal contradiction of orthodox belief.\r\rFurther Reference:\rCatechism of the Catholic Church, 2089\rhttp://tinyurl.com/lu75a9k",
                            @"category":@"Systematic"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Hesychasm",
+                           @"twitterDef":@"a silent form of prayer\rassociated with Eastern Orthodox monks",
+                           @"definition":@"This form of prayer....",
+                           @"category":@"Historical"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Historical Theology",
+                           @"twitterDef":@"the study of theology in light of historical periods, events, people, or trends",
+                           @"definition":@"Historical Theology has become a sub-discipline of Theology since..",
+                           @"category":@"Systematic"}];
+
+
     
     [TAWord wordWithDict:@{@"name":@"Hierarchy of Truths",
                            @"twitterDef":@"the idea that some truths are more essential to salvation than others",
@@ -1226,6 +1572,50 @@
                            @"definition":@"The innermmost area of the Temple in Jerusalem where the Ark of the Covenant was believed to reside from the monarchy of Solomon until the Exile in 587 BCE.\r\rFurther Reference:\rEncyclopedia Britannica, “Holy of Holies”\rhttp://tinyurl.com/lcagxrw",
                            @"category":@"Biblical"}];
     
+    [TAWord wordWithDict:@{@"name":@"Holy Orders",
+                           @"twitterDef":@"the first principle in medical ethics:\rdo no harm.",
+                           @"definition":@"The first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
+                           @"category":@"Systematic"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Holy Saturday",
+                           @"twitterDef":@"the first principle in medical ethics:\rdo no harm.",
+                           @"definition":@"The first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
+                           @"category":@"Liturgical"}];
+
+    
+    
+    [TAWord wordWithDict:@{@"name":@"Holy Spirit",
+                           @"twitterDef":@"the first principle in medical ethics:\rdo no harm.",
+                           @"definition":@"The first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
+                           @"category":@"Systematic"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Holy Water",
+                           @"twitterDef":@"the first principle in medical ethics:\rdo no harm.",
+                           @"definition":@"The first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
+                           @"category":@"Liturgical"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Homily",
+                           @"twitterDef":@"the first principle in medical ethics:\rdo no harm.",
+                           @"definition":@"The first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
+                           @"category":@"Liturgical"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Homoiousios",
+                           @"twitterDef":@"a Greek word meaning\rof similar substance",
+                           @"definition":@"The first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
+                           @"category":@"Historical"}];
+
+    
+    [TAWord wordWithDict:@{@"name":@"Homoousios",
+                           @"twitterDef":@"a Greek word meaning\rof the same substance",
+                           @"definition":@"The first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
+                           @"category":@"Historical"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Host",
+                           @"twitterDef":@"the first principle in medical ethics:\rdo no harm.",
+                           @"definition":@"The first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
+                           @"category":@"Liturgical"}];
+
+    
     [TAWord wordWithDict:@{@"name":@"Human Ecology",
                            @"twitterDef":@"the environmental context of the human person in light of the truths of Creation",
                            @"definition":@"The environmental context of the human person in light of the truths of Creation and the challenges posed by climate change and other developmental factors in which justice is neglected. Pope Francis has made the subject of human ecology a theme of his latest encyclical.\r\rFurther Reference:\rwww.vatican.va/....",
@@ -1237,6 +1627,48 @@
                            @"category":@"Systematic"}];
     
     //I
+    
+    [TAWord wordWithDict:@{@"name":@"Icon",
+                           @"twitterDef":@"the first principle in medical ethics:\rdo no harm.",
+                           @"definition":@"The first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
+                           @"category":@"Liturgical"}];
+
+    
+    
+    [TAWord wordWithDict:@{@"name":@"Iconoclasm",
+                           @"twitterDef":@"the first principle in medical ethics:\rdo no harm.",
+                           @"definition":@"The first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
+                           @"category":@"Historical"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Incarnation",
+                           @"twitterDef":@"the first principle in medical ethics:\rdo no harm.",
+                           @"definition":@"The first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
+                           @"category":@"Systematic"}];
+
+    [TAWord wordWithDict:@{@"name":@"Immaculate Conception",
+                           @"twitterDef":@"the first principle in medical ethics:\rdo no harm.",
+                           @"definition":@"The first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
+                           @"category":@"Systematic"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Infallibility",
+                           @"twitterDef":@"the first principle in medical ethics:\rdo no harm.",
+                           @"definition":@"The first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
+                           @"category":@"Systematic"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Intercession",
+                           @"twitterDef":@"the first principle in medical ethics:\rdo no harm.",
+                           @"definition":@"The first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
+                           @"category":@"Liturgical"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Invitatory Psalm",
+                           @"twitterDef":@"the first principle in medical ethics:\rdo no harm.",
+                           @"definition":@"The first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
+                           @"category":@"Liturgical"}];
+
+
+
+
+    
     
     [TAWord wordWithDict:@{@"name":@"Immanence",
                            @"twitterDef":@"the quality of being within human experience",

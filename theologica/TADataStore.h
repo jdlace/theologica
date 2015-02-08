@@ -13,6 +13,8 @@
 
 @class TAWord;
 
+
+//This is the class that will 
 @interface TADataStore : NSObject
 
 + (TADataStore *)sharedStore;
