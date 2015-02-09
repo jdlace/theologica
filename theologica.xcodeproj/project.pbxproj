@@ -10,7 +10,6 @@
 		690248B717F05294009D6811 /* bookmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 690248B617F05294009D6811 /* bookmark@2x.png */; };
 		6902FACE17F51D3E00299A50 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6902FACD17F51D3E00299A50 /* Images.xcassets */; };
 		6907EB581A7E7AA300AE52A1 /* VerbatimViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6907EB571A7E7AA300AE52A1 /* VerbatimViewController.m */; };
-		691EAA2C1A49EE3900F98942 /* ViewButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 691EAA2B1A49EE3900F98942 /* ViewButtonViewController.m */; };
 		692ED24B1796D552008554F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692ED24A1796D552008554F9 /* UIKit.framework */; };
 		692ED24D1796D552008554F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692ED24C1796D552008554F9 /* Foundation.framework */; };
 		692ED24F1796D552008554F9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692ED24E1796D552008554F9 /* CoreGraphics.framework */; };
@@ -32,6 +31,7 @@
 		694E879A1A55C5AB00CE4A37 /* LinksTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 694E87991A55C5AB00CE4A37 /* LinksTableViewController.m */; };
 		694E879E1A55D52400CE4A37 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 694E879D1A55D52400CE4A37 /* WebViewController.m */; };
 		694E87A41A56504F00CE4A37 /* Source.m in Sources */ = {isa = PBXBuildFile; fileRef = 694E87A31A56504F00CE4A37 /* Source.m */; };
+		6954D6FF1A884E17004374F0 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6954D6FE1A884E17004374F0 /* AboutViewController.m */; };
 		69739B561A36897F008BAB06 /* SearchBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69739B551A36897F008BAB06 /* SearchBarViewController.m */; };
 		6976E3021A6F3E8D0013A6D5 /* Links.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6976E3011A6F3E8D0013A6D5 /* Links.plist */; };
 		698893B81A5E24CE00D1AC74 /* SourcesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 698893B71A5E24CE00D1AC74 /* SourcesDetailViewController.m */; };
@@ -75,8 +75,6 @@
 		6902FACD17F51D3E00299A50 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = theologica/Images.xcassets; sourceTree = "<group>"; };
 		6907EB561A7E7AA300AE52A1 /* VerbatimViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VerbatimViewController.h; path = ../VerbatimViewController.h; sourceTree = "<group>"; };
 		6907EB571A7E7AA300AE52A1 /* VerbatimViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VerbatimViewController.m; path = ../VerbatimViewController.m; sourceTree = "<group>"; };
-		691EAA2A1A49EE3900F98942 /* ViewButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewButtonViewController.h; path = ../ViewButtonViewController.h; sourceTree = "<group>"; };
-		691EAA2B1A49EE3900F98942 /* ViewButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewButtonViewController.m; path = ../ViewButtonViewController.m; sourceTree = "<group>"; };
 		692ED2471796D552008554F9 /* theologica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = theologica.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		692ED24A1796D552008554F9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		692ED24C1796D552008554F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -108,6 +106,8 @@
 		694E879D1A55D52400CE4A37 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		694E87A21A56504F00CE4A37 /* Source.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Source.h; sourceTree = "<group>"; };
 		694E87A31A56504F00CE4A37 /* Source.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Source.m; sourceTree = "<group>"; };
+		6954D6FD1A884E17004374F0 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutViewController.h; path = ../AboutViewController.h; sourceTree = "<group>"; };
+		6954D6FE1A884E17004374F0 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutViewController.m; path = ../AboutViewController.m; sourceTree = "<group>"; };
 		69739B541A36897F008BAB06 /* SearchBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchBarViewController.h; sourceTree = "<group>"; };
 		69739B551A36897F008BAB06 /* SearchBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchBarViewController.m; sourceTree = "<group>"; };
 		6976E3011A6F3E8D0013A6D5 /* Links.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Links.plist; sourceTree = "<group>"; };
@@ -351,6 +351,8 @@
 		69B7DF641A2128480033465A /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				6954D6FD1A884E17004374F0 /* AboutViewController.h */,
+				6954D6FE1A884E17004374F0 /* AboutViewController.m */,
 				6932282A1A5256AF00528421 /* SourcesViewController.h */,
 				6932282B1A5256AF00528421 /* SourcesViewController.m */,
 				698893B61A5E24CE00D1AC74 /* SourcesDetailViewController.h */,
@@ -390,8 +392,6 @@
 				6988A9491A3E8DEB005A1B65 /* MapViewController.m */,
 				FA0BAF761A4333DE00AF6DFB /* MapDetailViewController.h */,
 				FA0BAF771A4333DE00AF6DFB /* MapDetailViewController.m */,
-				691EAA2A1A49EE3900F98942 /* ViewButtonViewController.h */,
-				691EAA2B1A49EE3900F98942 /* ViewButtonViewController.m */,
 			);
 			name = Map;
 			sourceTree = "<group>";
@@ -498,10 +498,10 @@
 				69D6284C1A47617B0073C157 /* HistoricalPins.m in Sources */,
 				FA84505C1A129CA0007839D8 /* bookmarkListTableViewController.m in Sources */,
 				6907EB581A7E7AA300AE52A1 /* VerbatimViewController.m in Sources */,
-				691EAA2C1A49EE3900F98942 /* ViewButtonViewController.m in Sources */,
 				9BA06E6E1A833F9200A6A19E /* TAWord.m in Sources */,
 				694E87A41A56504F00CE4A37 /* Source.m in Sources */,
 				694E879A1A55C5AB00CE4A37 /* LinksTableViewController.m in Sources */,
+				6954D6FF1A884E17004374F0 /* AboutViewController.m in Sources */,
 				694E879E1A55D52400CE4A37 /* WebViewController.m in Sources */,
 				FA0BAF781A4333DE00AF6DFB /* MapDetailViewController.m in Sources */,
 				698893B81A5E24CE00D1AC74 /* SourcesDetailViewController.m in Sources */,

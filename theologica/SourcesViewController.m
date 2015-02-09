@@ -33,92 +33,6 @@
     // Dispose of any resources that can be recreated.
 }
 
-#pragma mark - Table view data source
-/*
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Potentially incomplete method implementation.
-    // Return the number of sections.
-    return 0;
-}
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete method implementation.
-    // Return the number of rows in the section.
-    return 0;
-}
-*/
-
-/*
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"showSourceDetail" forIndexPath:indexPath];
-    
-    // Configure the cell...
-    
-    return cell;
-}
-*/
-
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
-
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    
-}
-/*
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    
-    if ([[segue identifier] isEqualToString:@"showSourceDetail"])
-        {
-        
-        SourcesWebViewController *detailVC = [segue destinationViewController];
-        detailVC.view = detailVC.webView;
-        
-        }
-    // Get the new view controller using [segue destinationViewController].
-  // Pass the selected object to the new view controller.
-
- }
-*/
-
-
 - (IBAction)scriptureButton:(id)sender
 {
     
@@ -250,7 +164,7 @@
     
     sourcesDetailViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
     
-    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Sources"
+    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Signs"
                                                                    style:UIBarButtonItemStylePlain target:nil action:nil];
     self.navigationItem.backBarButtonItem = backButton;
     
@@ -270,7 +184,7 @@
     
     sourcesDetailViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
     
-    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Sources"
+    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Signs"
                                                                    style:UIBarButtonItemStylePlain target:nil action:nil];
     self.navigationItem.backBarButtonItem = backButton;
     
@@ -293,7 +207,7 @@
     
     sourcesDetailViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
     
-    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Sources"
+    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Signs"
                                                                    style:UIBarButtonItemStylePlain target:nil action:nil];
     self.navigationItem.backBarButtonItem = backButton;
     
@@ -316,7 +230,7 @@
     
     sourcesDetailViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
     
-    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Sources"
+    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Signs"
                                                                    style:UIBarButtonItemStylePlain target:nil action:nil];
     self.navigationItem.backBarButtonItem = backButton;
     
@@ -330,8 +244,8 @@
 - (IBAction)philosophyButton:(id)sender
 {
     Source *philosophySource = [[Source alloc] init];
-    philosophySource.name = @"Philosophy";
-    philosophySource.twitterDef = @"The Love of Wisdom"; 
+    philosophySource.name = @"Environment";
+    philosophySource.twitterDef = @"The Stewardship of Creation";
     philosophySource.comment = @"Philosophy has an authentic independence from theology.";
     philosophySource.image = [UIImage imageNamed:@"appicon"];
     philosophySource.bigPic = [UIImage imageNamed:@"thinker"];
@@ -342,7 +256,7 @@
     
     sourcesDetailViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
     
-    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Sources"
+    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Signs"
                                                                    style:UIBarButtonItemStylePlain target:nil action:nil];
     self.navigationItem.backBarButtonItem = backButton;
     
@@ -364,7 +278,7 @@
     
     sourcesDetailViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
     
-    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Sources"
+    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Overview"
                                                                    style:UIBarButtonItemStylePlain target:nil action:nil];
     self.navigationItem.backBarButtonItem = backButton;
     
@@ -374,14 +288,30 @@
     [self.navigationController pushViewController:sourcesDetailViewController animated:YES];
 }
 
-- (IBAction)startButton:(id)sender
+- (IBAction)aboutButton:(id)sender
 {
+    
+        AboutViewController *aboutDetail = [[self storyboard]
+                                       instantiateViewControllerWithIdentifier:@"AboutViewController"];
+    
+        [aboutDetail view];
+    
+        aboutDetail.textView.text =  @"Theologica is the curated, Catholic theology app for the iPhone. Drawing from over 100 years of teaching experience in the classroom, it is designed as a simple, yet comprehensive resource for both students and teachers of Theology. It features 5 tabs: Overview, Links, Glossary, Map, and Verbatim.\r\rThe Overview tab presents a wide-angle view of both the traditional Sources of Theology (Magisterium, Scripture, Fathers, Councils, Creeds, and Liturgy) and the Signs of the Times (Environment, Science, Technology, Politics, Economics, and the Arts).\r\rThe Links tab features a table of live links for each category in the Overview tab along with those to sites that feature Theology in action.\r\rThe Glossary tab includes over 500 of the most commonly used theologial terms in both high school and college classrooms, along with relevant links to the Conciliar Documents, the Catechism of the Catholic Church, the Compendium of the Social Doctrine of the Church, Papal Encyclicals, Pontifical Commission Documents, and other curated links available online.\r\rThe Map tab includes custom pin annotations for the Old Testament, New Testament, Historical Sites, and Social Justice sites of concern.\r\rThe Verbatim tab features interviews with contemporary theologians who are actively engaged in making Theology relevant to the larger culture. ";
+    
+    aboutDetail.modalPresentationStyle = UIModalPresentationPopover;
+    
+    [self.navigationController presentViewController:aboutDetail animated:YES completion:nil];
+    
+    
+
+
+    
     
     /*
     SourcesDetailViewController *aboutDetail = [[self storyboard]
                                           instantiateViewControllerWithIdentifier:@"SourcesDetailViewController"];
     [self.navigationController pushViewController:aboutDetail animated:YES];
-     */
+     
     
     
     UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Start exploring Theologica"  message:@"Theology draws on its Sources (Magisterium, Scripture, Fathers, Councils, Creeds, Liturgy) to interpret the Signs of the Times; cultural trends that affect the worldview of human beings in any given time." preferredStyle:(UIAlertControllerStyleAlert)];
@@ -391,7 +321,29 @@
     
     [alert addAction:defaultAction];
     [self presentViewController:alert animated:YES completion:nil];
+     
+     */
+     
+     
 
+}
+
+- (IBAction)infoButton:(id)sender
+{
+    
+    AboutViewController *infoDetail = [[self storyboard]
+                                          instantiateViewControllerWithIdentifier:@"AboutViewController"];
+    
+    [infoDetail view];
+    
+    infoDetail.textView.text = @"Thank you for purchasing Theologica.\r\rThis app started out as an idea for a simple dictionary and slowly evolved (over 3 years) into what you hold in your hands. It was inspired by the sequence and scope of instruction in the Department of Theology at Seton Hall Preparatory School in West Orange, NJ. Every aspect of the app has been thoughtfully considered/obsessed over in order to create a tool for studying the various aspects of Theology.\r\rSpecial thanks to Melissa Lace, Jim Schultz, and the Theology Faculty at Seton Hall Prepraratory School.\r\rFor questions, concerns, or comments please email techrament@icloud.com";
+    
+    infoDetail.modalPresentationStyle = UIModalPresentationPopover;
+    
+    [self.navigationController presentViewController:infoDetail animated:YES completion:nil];
+    
+
+    
 }
 
 

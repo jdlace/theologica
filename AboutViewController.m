@@ -1,22 +1,24 @@
 //
-//  viewButtonViewController.m
+//  AboutViewController.m
 //  theologica
 //
-//  Created by Jonathan Lace on 12/23/14.
-//  Copyright (c) 2014 techrament. All rights reserved.
+//  Created by Jonathan Lace on 2/8/15.
+//  Copyright (c) 2015 techrament. All rights reserved.
 //
 
-#import "ViewButtonViewController.h"
+#import "AboutViewController.h"
 
-@interface ViewButtonViewController ()
+@interface AboutViewController ()
 
 @end
 
-@implementation ViewButtonViewController
+@implementation AboutViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -34,6 +36,8 @@
 }
 */
 
-
-
+- (IBAction)close:(id)sender
+{
+    [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
+}
 @end

@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "Source.h"
+#import "AboutViewController.h"
 
 @interface SourcesViewController : UIViewController <UIScrollViewDelegate>
 
@@ -30,7 +31,8 @@
 - (IBAction)theologicaButton:(id)sender;
 
 
-- (IBAction)startButton:(id)sender;
+- (IBAction)aboutButton:(id)sender;
+- (IBAction)infoButton:(id)sender;
 
 
 
