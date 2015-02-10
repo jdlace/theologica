@@ -23,9 +23,35 @@
     rect.origin = CGPointMake(self.sourceView.bounds.size.width, rect.origin.y);
     self.signView.frame = rect;
     
-    self.scrollView.contentSize = CGSizeMake(self.signView.frame.origin.x + self.sourceView.bounds.size.width, self.scrollView.contentSize.height); 
+    self.scrollView.contentSize = CGSizeMake(self.signView.frame.origin.x + self.sourceView.bounds.size.width, self.scrollView.contentSize.height);
+    
+    self.scrollView.delegate = self;
+    
+    [self updateCurrentPageDisplay];
 
 }
+
+
+- (void)updateCurrentPageDisplay
+{
+    /*
+    UIPageControl *pageControl = [UIPageControl new];
+    
+    if ((pageControl.currentPage == 0))
+        {
+            pageControl.
+        }
+     */
+}
+
+-(void) scrollViewDidScroll:(UIScrollView *)scrollView
+{
+    // Update the page when more than 50% of the previous/next page is visible
+    CGFloat pageWidth = self.scrollView.frame.size.width;
+    int page = floor((self.scrollView.contentOffset.x - pageWidth / 2) / pageWidth) + 1;
+    self.pageControl.currentPage = page;
+}
+
 
 - (void)didReceiveMemoryWarning
 {

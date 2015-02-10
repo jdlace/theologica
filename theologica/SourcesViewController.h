@@ -15,6 +15,7 @@
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 @property (weak, nonatomic) IBOutlet UIView *sourceView;
 @property (weak, nonatomic) IBOutlet UIView *signView;
+@property (weak, nonatomic) IBOutlet UIPageControl *pageControl; 
 
 
 - (IBAction)scriptureButton:(id)sender;
