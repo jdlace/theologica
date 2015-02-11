@@ -1213,6 +1213,11 @@
                            @"twitterDef":@"the sacred meal of bread and wine in which\rChristians celebrate the death and resurrection of Jesus",
                            @"definition":@"The word Eucharist came to be associated with the bread and wine of the Eucharist which early Christians believed to be directly related to the body and blood of Jesus. The belief that Jesus is present in the Eucharist predates to the earliest years of the Church. Paul claims that bread and wine of the Eucharist are a participation in the body and blood of Christ. This belief predates any theory (e.g. transubstantiation) as to how he is present; from the Greek ευχαριστος (eucharistos) “good thanksgiving”. See “Anamnesis”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1322\rhttp://tinyurl.com/q6gyoc7",
                            @"category":@"Liturgical"}];
+
+    [TAWord wordWithDict:@{@"name":@"Euthyphro Problem",
+                           @"twitterDef":@"does God love ... ",
+                           @"definition":@"Good Friday is part of the Triduum",
+                           @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Exclusivism",
                            @"twitterDef":@"the belief that only those who have explicit Christian faith will be saved",
@@ -1476,6 +1481,11 @@
                            @"definition":@"According to Paul in 1 Corinthians, glossolalia was a spiritual gift manifested in liturgical worship...",
                            @"category":@"Biblical"}];
     
+    [TAWord wordWithDict:@{@"name":@"God of the Gaps",
+                           @"twitterDef":@"the belief that any scientific unknowns\rare necessarily evidence of God's influence ",
+                           @"definition":@"This phrase is used to describe the beliefs of those who misunderstand the different domains, methods, and explanations of Theology and Science.",
+                           @"category":@"Cultural"}];
+    
     [TAWord wordWithDict:@{@"name":@"Good Friday",
                            @"twitterDef":@"the liturigcal memorial of\rthe crucifixion of Jesus",
                            @"definition":@"Good Friday is part of the Triduum",
@@ -1491,22 +1501,41 @@
                            @"definition":@"The first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
                            @"category":@"Historical"}];
     
+    [TAWord wordWithDict:@{@"name":@"Gregorian Chant",
+                           @"twitterDef":@"plainsong liturgical chant associated\rwith Pope Gregory I",
+                           @"definition":@"Gregorian Chant is characterized by a simply rhythm...",
+                           @"category":@"Liturgical"}];
+    
     [TAWord wordWithDict:@{@"name":@"Guardian Angel",
                            @"twitterDef":@"an angel that looks after a given person",
                            @"definition":@"Guardian angels are alluded to by Jesus himself in....",
                            @"category":@"Systematic"}];
-
-
-
-
-
-
     
-    //H
+    ///////////////////H
+    
+    [TAWord wordWithDict:@{@"name":@"Habit",
+                           @"twitterDef":@"the liturigcal memorial of\rthe crucifixion of Jesus",
+                           @"definition":@"Good Friday is part of the Triduum",
+                           @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Hail Mary",
                            @"twitterDef":@"the first principle in medical ethics:\rdo no harm.",
                            @"definition":@"The first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
+                           @"category":@"Liturgical"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Hebrew",
+                           @"twitterDef":@"the liturigcal memorial of\rthe crucifixion of Jesus",
+                           @"definition":@"Good Friday is part of the Triduum",
+                           @"category":@"Liturgical"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Heart",
+                           @"twitterDef":@"the biblical word for\relementary experience",
+                           @"definition":@"Good Friday is part of the Triduum",
+                           @"category":@"Systematic"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Hallelujah",
+                           @"twitterDef":@"a Hebrew word meaning\rpraise YHWH",
+                           @"definition":@"Hallelujah occurs frequently throughout the Old Testament, especially in the Psalms",
                            @"category":@"Liturgical"}];
 
     
@@ -1539,8 +1568,16 @@
                            @"twitterDef":@"the study of theology in light of historical periods, events, people, or trends",
                            @"definition":@"Historical Theology has become a sub-discipline of Theology since..",
                            @"category":@"Systematic"}];
-
-
+    
+    [TAWord wordWithDict:@{@"name":@"Hinduism",
+                           @"twitterDef":@"the dominant polytheistic religion of\that holds Brahman as the Divine Absolute",
+                           @"definition":@"Hinduism...",
+                           @"category":@"Cultural"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Historical Jesus",
+                           @"twitterDef":@"the historical figure of Jesus\ras reconstructed by historical methodology",
+                           @"definition":@"The historical Jesus is a term that emphasizes what can be known about Jesus of Nazareth from historical methodology apart from theological belief. ",
+                           @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Hierarchy of Truths",
                            @"twitterDef":@"the idea that some truths are more essential to salvation than others",
@@ -1555,6 +1592,16 @@
     [TAWord wordWithDict:@{@"name":@"Hermeneutics",
                            @"twitterDef":@"the science of interpretation",
                            @"definition":@"The science of interpretation and process of determining meaning, usually of a text - from the name of the Greek god “Hermes”, the messenger of the gods.\r\rFurther Reference:\r",
+                           @"category":@"Biblical"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Hermeneutical Circle",
+                           @"twitterDef":@"the dialectic relationship between\rtext and interpreter",
+                           @"definition":@"The hermeneutical circle begins with an interpreter and a text involved in a process of question, discovery, interpretation, which then challenges or changes the initial question.",
+                           @"category":@"Systematic"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Hesed",
+                           @"twitterDef":@"the Hebrew word meaning\rloving kindness",
+                           @"definition":@"Hesed occurs predominantly in the Psalms, where it is used to refer to YHWH's covenant faithfulness; from the Hebrew word    . ",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Historical Books",
@@ -1572,6 +1619,11 @@
                            @"definition":@"The type of exegetical criticism which deciphers and analyzes the historical context of a text.\r\rFurther Reference:\rPontifical Biblical Commission, “The Interpretation of the Bible in the Church, I.A.2”, http://tinyurl.com/2gb5dm",
                            @"category":@"Biblical"}];
     
+    [TAWord wordWithDict:@{@"name":@"Holy",
+                           @"twitterDef":@"set apart for Divine service",
+                           @"definition":@"One of the four marks of the Church...",
+                           @"category":@"Systematic"}];
+    
     [TAWord wordWithDict:@{@"name":@"Holy of Holies",
                            @"twitterDef":@"the innermmost chamber in the Temple\rthat housed the Ark of the Covenant",
                            @"definition":@"The innermmost area of the Temple in Jerusalem where the Ark of the Covenant was believed to reside from the monarchy of Solomon until the Exile in 587 BCE.\r\rFurther Reference:\rEncyclopedia Britannica, “Holy of Holies”\rhttp://tinyurl.com/lcagxrw",
@@ -1587,7 +1639,6 @@
                            @"definition":@"The first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
                            @"category":@"Liturgical"}];
 
-    
     
     [TAWord wordWithDict:@{@"name":@"Holy Spirit",
                            @"twitterDef":@"the first principle in medical ethics:\rdo no harm.",

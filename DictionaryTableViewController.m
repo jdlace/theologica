@@ -126,7 +126,8 @@
     UIAlertAction* systematicAction = [UIAlertAction actionWithTitle:@"Systematic" style:UIAlertActionStyleDefault
                                                             handler:^(UIAlertAction * action)
                                       {
-                                        self.category = @"Systematic";
+                                    self.category = @"Systematic";
+                                      self.fetchedResultsController = nil;
                                       [self.tableView reloadData];
                                       
                                       }];
@@ -135,6 +136,8 @@
                                                          handler:^(UIAlertAction * action)
                                    {
                                         self.category = @"Historical";
+                                   self.fetchedResultsController = nil;
+
                                         [self.tableView reloadData];
                                    
                                    }];
@@ -143,6 +146,8 @@
                                                            handler:^(UIAlertAction * action)
                                      {
                                         self.category = @"Moral";
+                                     self.fetchedResultsController = nil;
+
                                         [self.tableView reloadData];
                                      
                                      
@@ -152,6 +157,8 @@
                                                            handler:^(UIAlertAction *action)
                                     {
                                         self.category = @"Biblical";
+                                    self.fetchedResultsController = nil;
+
                                         [self.tableView reloadData];
                                     
                                     }];
@@ -160,6 +167,8 @@
                                                            handler:^(UIAlertAction *action)
                                      {
                                      self.category = @"Liturgical";
+                                     self.fetchedResultsController = nil;
+
                                      [self.tableView reloadData];
                                      
                                      }];
@@ -169,6 +178,8 @@
     
                                     {
                                         self.category = @"Cultural";
+                                    self.fetchedResultsController = nil;
+
                                         [self.tableView reloadData];
                                     
                                     }];
@@ -179,7 +190,9 @@
                                     {
                                     
                                         self.category = nil;
-                                        [self.tableView reloadData]; 
+                                        self.fetchedResultsController = nil;
+
+                                        [self.tableView reloadData];
                                     
                                     }];
 
@@ -264,7 +277,9 @@
 
 -(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
 {
-    return TITLE_ARRAY[section];
+    NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:section];
+    TAWord *word = [self.fetchedResultsController objectAtIndexPath:indexPath];
+    return [[word.name substringWithRange:NSMakeRange(0, 1)] uppercaseString]; 
 }
 
 
@@ -289,6 +304,15 @@
     NSArray *sortDescriptors = @[sortDescriptor];
     
     [fetchRequest setSortDescriptors:sortDescriptors];
+    
+    if (self.category)
+        {
+            NSPredicate *predicate = [NSPredicate predicateWithFormat:@"category MATCHES %@", self.category];
+        
+            [fetchRequest setPredicate:predicate];
+        }
+
+    
     
     // Edit the section name key path and cache name if appropriate.
     // nil for section name key path means "no sections".

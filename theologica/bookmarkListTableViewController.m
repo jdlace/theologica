@@ -113,7 +113,9 @@
 
 -(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
 {
-    return TITLE_ARRAY[section];
+    NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:section];
+    TAWord *word = [self.fetchedResultsController objectAtIndexPath:indexPath];
+    return [[word.name substringWithRange:NSMakeRange(0, 1)] uppercaseString];
 }
 
 // Override to support conditional editing of the table view.

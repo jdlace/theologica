@@ -23,27 +23,29 @@
     rect.origin = CGPointMake(self.sourceView.bounds.size.width, rect.origin.y);
     self.signView.frame = rect;
     
-    self.scrollView.contentSize = CGSizeMake(self.signView.frame.origin.x + self.sourceView.bounds.size.width, self.scrollView.contentSize.height);
+    self.scrollView.contentSize = CGSizeMake(self.signView.bounds.size.width + self.sourceView.bounds.size.width, self.scrollView.contentSize.height);
     
     self.scrollView.delegate = self;
     
-    [self updateCurrentPageDisplay];
-
+    //self.pageControl.defersCurrentPageDisplay = NO;
 }
 
 
-- (void)updateCurrentPageDisplay
+
+
+-(IBAction) pageControlTapped:(id)sender
 {
-    /*
-    UIPageControl *pageControl = [UIPageControl new];
+    CGRect rect = CGRectMake(self.scrollView.frame.size.width, 0, self.scrollView.bounds.size.width, self.scrollView.bounds.size.height);
+    [self.scrollView scrollRectToVisible:rect animated:YES];
     
-    if ((pageControl.currentPage == 0))
-        {
-            pageControl.
-        }
-     */
+    
+    
+    //self.pageControl.currentPage = 0;
+    //[self.pageControl updateCurrentPageDisplay];
+
 }
 
+//delegate method
 -(void) scrollViewDidScroll:(UIScrollView *)scrollView
 {
     // Update the page when more than 50% of the previous/next page is visible

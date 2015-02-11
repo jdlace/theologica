@@ -15,9 +15,11 @@
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 @property (weak, nonatomic) IBOutlet UIView *sourceView;
 @property (weak, nonatomic) IBOutlet UIView *signView;
-@property (weak, nonatomic) IBOutlet UIPageControl *pageControl; 
+@property (weak, nonatomic) IBOutlet UIPageControl *pageControl;
 
 
+
+-(IBAction) pageControlTapped:(id)sender; 
 - (IBAction)scriptureButton:(id)sender;
 - (IBAction)fathersButton:(id)sender;
 - (IBAction)catechismButton:(id)sender;

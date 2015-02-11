@@ -12,6 +12,9 @@
 
 @interface WordDetailViewController () <UIActionSheetDelegate>
 
+@property (strong, nonatomic) UIBarButtonItem *save;
+@property (strong, nonatomic) UIBarButtonItem *share;
+
 @end
 
 @implementation WordDetailViewController
@@ -31,11 +34,13 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-        UIBarButtonItem *saveBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"bookmarklines"] style:UIBarButtonItemStylePlain target:self action:@selector(saveBookmark)];
+        self.save = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"bookmarklines"] style:UIBarButtonItemStylePlain target:self action:@selector(saveBookmark)];
     
-    UIBarButtonItem *shareBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:self action:@selector(share:)];
+    self.share = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:self action:@selector(share:)];
     
-    self.navigationItem.rightBarButtonItems = [[NSArray alloc] initWithObjects:shareBarButtonItem,saveBarButtonItem, nil];
+    self.navigationItem.rightBarButtonItems = [[NSArray alloc] initWithObjects:_share, _save, nil];
+    
+    [self bookmarkYES];
 
     //self.nameLabel.font = [UIFont preferredFontForTextStyle: UIFontTextStyleHeadline];
     self.descriptionTextView.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
@@ -70,15 +75,13 @@
 -(void) bookmarkYES;
 {
     
-    if (_word.bookmarked)
+    if ([_word.bookmarked boolValue])
         {
-        UIBarButtonItem *savedBarButton = [[UIBarButtonItem alloc] init];
-        savedBarButton.image = [UIImage imageNamed:@"bookmarked"];
+        self.save.image = [UIImage imageNamed:@"bookmarked"];
         }
     else
         {
-        UIBarButtonItem *savedBarButton = [[UIBarButtonItem alloc] init];
-        savedBarButton.image = [UIImage imageNamed:@"bookmarklines"];
+        self.save.image = [UIImage imageNamed:@"bookmarklines"];
         }
 }
  
