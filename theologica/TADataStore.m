@@ -163,35 +163,29 @@
     
     //A
     [TAWord wordWithDict:@{@"name":@"Abba",
-                           @"twitterDef":@"“Papa” or “Daddy”",
-                           @"definition":@"This term was by Jesus in prayer to God according to the gospels. Paul claims that Christians also use the term because of their filial adoption; “Because you are sons, God has sent the Spirit of his Son into our hearts, crying, “Abba! Father!” (Gal 4:6); from the Aramaic, “Daddy”See “Adoption”.\r\rFurther Reference:\rCatechism of the Catholic Church, 683\rhttp://tinyurl.com/pqxxm8l",
+                           @"twitterDef":@"Papa or Daddy",
+                           @"definition":@"This Aramaic term was by Jesus in prayer to God according to the gospels. Paul claims that Christians also use the term because of their filial adoption; “Because you are sons, God has sent the Spirit of his Son into our hearts, crying, “Abba! Father!” (Gal 4:6); from the Aramaic, אבא (abba). See “Adoption”.\r\rFurther Reference:\rCatechism of the Catholic Church, 683\rhttp://tinyurl.com/pqxxm8l",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Ablution",
                            @"twitterDef":@"the cleansing of the paten and chalice\rafter the Eucharist",
-                           @"definition":@"Ablution can be traces a distinct liturgical practice back to....",
+                           @"definition":@"Ablution can be traces a distinct liturgical practice back to the mikvah in Judaism.\r\rFurther Reference:\rWikipedia, “Ablution in Christianity”\rhttp://tinyurl.com/mhg6d57",
                            @"category":@"Liturgical"}];
-    
-    [TAWord wordWithDict:@{@"name":@"Acclamation",
-                           @"twitterDef":@"a greeting or welcome at the beginning\rof the Liturgy of the Eucharist",
-                           @"definition":@"The Memorial Acclamation is....",
-                           @"category":@"Liturgical"}];
-
 
     
     [TAWord wordWithDict:@{@"name":@"Adonai",
-                           @"twitterDef":@"“Master” or “Ruler”",
-                           @"definition":@"This term is used as a synonym for YHWH in the Bible and in contemporary Judaism. See “YHWH”.\r\rFurther Reference:\rCatechism of the Catholic Church, 209\rhttp://tinyurl.com/bruqt9r",
+                           @"twitterDef":@"Master or Ruler",
+                           @"definition":@"This term is used as a synonym for YHWH in the Bible and in contemporary Judaism; from the Hebrew, אֲדֹנָי (adonai). See “YHWH”.\r\rFurther Reference:\rCatechism of the Catholic Church, 209\rhttp://tinyurl.com/bruqt9r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Aseity",
                            @"twitterDef":@"the necessary character of\rGod's existence",
-                           @"definition":@"Aesity is a term using in so called Perfect-Being theology in which God is described as being the most perfect Being in regard to several qualities.",
+                           @"definition":@"Aesity is a term using in so called Perfect-Being theology in which God is described as being the most perfect Being in regard to several qualities.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy, “Divine Simplicity”\rhttp://tinyurl.com/3ttzn3g",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Angelus",
-                           @"twitterDef":@"a prayer based on the Annunciation",
-                           @"definition":@"See Annunciation",
+                           @"twitterDef":@"a prayer based on the Annunciation\rthat celebrates the Incarnation",
+                           @"definition":@"The Angelus is prayed every Sunday at noon by the Pope in St. Peter's Square. See “Incarnation”, “Annunciation”.\r\rFurther Reference:\rWikipedia, “Angelus”\rhttp://tinyurl.com/nxzg53",
                            @"category":@"Moral"}];
 
     
@@ -207,7 +201,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Annunciation",
                            @"twitterDef":@"the angelic declaration to Mary\rthat she would bear the Son of God",
-                           @"definition":@"The Annunciation is found in the Gospel of Luke...",
+                           @"definition":@"The Annunciation is found in the Gospel of Luke 1:26-38. Further Reference:\rCatechism of the Catholic Church, 484\rhttp://tinyurl.com/3w9q9aw",
                            @"category":@"Biblical"}];
 
     
@@ -311,7 +305,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Asceticism",
                            @"twitterDef":@"the practice of self-discipline",
-                           @"definition":@"The practice of self-discipline for a higher purpose, often involving abstinence - from the Greek word ασκησις (askesis) - “training”. See “abstinence”.\r\rFurther Reference:\rWikipedia, “Asceticism”\rhttp://tinyurl.com/29eqh2",
+                           @"definition":@"The practice of self-discipline for a higher purpose, often involving abstinence - from the Greek word ασκησις (askesis) - “training”. See “Abstinence”.\r\rFurther Reference:\rWikipedia, “Asceticism”\rhttp://tinyurl.com/29eqh2",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Adoption",
@@ -325,7 +319,7 @@
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Aggiornomento",
-                           @"twitterDef":@"“to update”\rdescribing a theme of Vatican II",
+                           @"twitterDef":@"to bring up to date;\a theme of Vatican II",
                            @"definition":@"As a way to describe one of its emphases, it became popular during and synonymous with the reforms of the Second Vatican Council (1962-1965). The concept was used by Pope John XXIII to describe the agenda of Vatican II. John XXIII claimed:\r\r“The greatest concern of the Ecumenical Council is this: that he sacred deposit of Christian doctrine should be guarded and taught more efficaciously...In order, however, that this doctrine may influence the numerous fields of human activity, with reference to individuals, to families, and to socia life, it is necessary first of all that the Church should never depart from the sacred patrimony of truth received from the Fathers. But at the same time she must ever look to the present, to the new conditions and new forms of life introduced into the modern world, which have opened new avenues to the Catholic apostolate...which, however, should be studied and expounded through the methods of research and through the literary forms of modern thought. The substance of the ancient doctrine of the deposit of faith is one thing, and the way in which it is presented is another. And it is the latter that must be taken into great consideration with patience if necessary,everything being measured in the forms and proportions of a magisterium which is predominantly pastoral in character.”\r\rFurther Reference:\rWikipedia, “Aggiornomento”\rhttp://tinyurl.com/k6y4ylh",
                            @"category":@"Systematic"}];
     
@@ -386,7 +380,7 @@
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Advent",
-                           @"twitterDef":@"the first season of the liturgical year",
+                           @"twitterDef":@"the first season of the liturgical year\rthat prepares for the coming of Christ",
                            @"definition":@"Advent prepares the Church for the the celebration of the birth of Jesus; consists of 4 Sundays.\r\rFurther Reference:\rCatechism of the Catholic Church, 524\rhttp://tinyurl.com/mou9egj",
                            @"category":@"Ecclesial"}];
     
@@ -406,7 +400,7 @@
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Amen",
-                           @"twitterDef":@"a liturgical phrase meaning\r“May it be so”",
+                           @"twitterDef":@"may it be so;\rtruthfulness or certainty",
                            @"definition":@"The Amen is traditionally said after a prayer as a form of agreement. It derives from Jewish use in the synagogue and later in the New Testament where it is used to indicate the truthfulness of what is said.\r\rFurther Reference:\rCatechism of the Catholic Church, 1061\rhttp://tinyurl.com/k3f2f8p",
                            @"category":@"Liturgical"}];
     
@@ -422,7 +416,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Anathema",
                            @"twitterDef":@"the state of being excommunicated",
-                           @"definition":@"Over time, Anathema came to refer to those who were accursed or banished from the community; from the Greek, “placed off limits”\r\rFurther Reference:\rNew Advent, “Anathema”\rhttp://tinyurl.com/o5fl88l",
+                           @"definition":@"Over time, Anathema came to refer to those who were accursed or banished from the community; from the Greek, αναθεμα (anathema) “placed off limits”\r\rFurther Reference:\rNew Advent, “Anathema”\rhttp://tinyurl.com/o5fl88l",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Annulment",
@@ -482,7 +476,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Argument",
                            @"twitterDef":@"a series of statements that establishes a truth claim",
-                           @"definition":@"A series of statements that establishes a truth claim; made of two parts - premise and conclusion; the from can be deductive or inductive; deductive arguments can be valid or invalid.\r\rFurther Reference:\rInternet Encylopedia of Philosophy, “Argument”\r http://tinyurl.com/aruqml5",
+                           @"definition":@"A series of statements that establishes a truth claim; made of two parts - premise and conclusion; the from can be deductive or inductive; deductive arguments can be valid or invalid.\r\rFurther Reference:\rInternet Encylopedia of Philosophy, “Argument” http://tinyurl.com/aruqml5",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Atheism",
@@ -502,7 +496,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Act of Contrition",
                            @"twitterDef":@"a prayer said before the\rSacrament of Reonciliation",
-                           @"definition":@"While the Church does not canonize any one prayer for forgiveness, a popular one in current usage reads:\r\r“My God, I am sorry for my sins with all my heart. In choosing to do wrong and failing to do good, I have sinned against You whom I should love above all things. I firmly intend, with Your help, to do penance, to sin no more, and to avoid whatever leads me to sin. Our Saviour Jesus Christ, suffered and died for us. In His name, my God, have mercy.”\r\rFurther Reference:\rCatholic Online, Act of Contrition\rhttp://tinyurl.com/kcosvkv",
+                           @"definition":@"While the Church does not canonize any one prayer for forgiveness, a popular one in current usage reads:\r\r“My God, I am sorry for my sins with all my heart. In choosing to do wrong and failing to do good, I have sinned against You whom I should love above all things. I firmly intend, with Your help, to do penance, to sin no more, and to avoid whatever leads me to sin. Our Saviour Jesus Christ, suffered and died for us. In His name, my God, have mercy.”\r\rFurther Reference:\riBreviary, Act of Contrition\rhttp://tinyurl.com/m5vwvhc",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Apostolic Fathers",
@@ -596,7 +590,7 @@
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Babel",
-                           @"twitterDef":@"the name of the mythical tower\rin Genesis 11:1-9",
+                           @"twitterDef":@"confusion;\rthe name of the tower in Genesis 11:1-9",
                            @"definition":@"As an etiology, this story explains both how human language became divided as well as the geographic distribution of human populations.\r\rFurther Reference:\rCatechism of the Catholic Church, 57\rhttp://tinyurl.com/k6ljesq",
                            @"category":@"Biblical"}];
     
@@ -616,8 +610,8 @@
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Blessed Sacrament",
-                           @"twitterDef":@"a reference to the Eucharist as Christ's\rbody and blood, soul and divinity",
-                           @"definition":@"The term Blessed Sacrament dates from the ...century",
+                           @"twitterDef":@"a reference to the Eucharist as Christ's\rbody and blod, soul and divinity",
+                           @"definition":@"The term Blessed Sacrament dates from the ...century. \r\rFurther Reference:\rCatechism of Catholic Church, 1374\rhttp://tinyurl.com/q6gyoc7",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Buddhism",
@@ -627,17 +621,17 @@
     
     [TAWord wordWithDict:@{@"name":@"Byzantine Rite",
                            @"twitterDef":@"the liturgical rite of the Eastern Orthodox church",
-                           @"definition":@"The Byzantine Rite can be traced back as early as the ... century",
+                           @"definition":@"The Byzantine Rite can be traced back as early as the ... century.\r\rFurther Reference:\rCatechism of the Catholic Church, 1203\rhttp://tinyurl.com/ndllues",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Breaking of the Bread",
                            @"twitterDef":@"a biblical phrase used to\rdescribe the Agape-Eucharist meal",
-                           @"definition":@"This phrase first occurs in the Acts of the Apostles...",
+                           @"definition":@"This phrase first occurs in the Acts of the Apostles...\r\rFurther Reference:\rCatechism of Catholic Church, 1329\rhttp://tinyurl.com/q6gyoc7",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Blessed Virgin Mary",
                            @"twitterDef":@"a liturgical title of the Virgin Mary",
-                           @"definition":@"The title Blessed Virgin Mary is based, in part, on the prediction of Mary in the Gospel of Luke: from now on, all generations will call me blessed.....",
+                           @"definition":@"The title Blessed Virgin Mary is based, in part, on the prediction of Mary in the Gospel of Luke: from now on, all generations will call me blessed.....\r\rFurther Reference:\rCatechism of the Catholic Church, 971\rhttp://tinyurl.com/mtfzewa",
                            @"category":@"Systematic"}];
 
 
@@ -656,7 +650,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Breviary",
                            @"twitterDef":@"a book of the Liturgy of the Hours",
-                           @"definition":@"Breviaries were books...",
+                           @"definition":@"Breviaries were books. See “Liturgy of the Hours”.\r\rFurther Reference:\rWikipedia, “Breviary”\rhttp://tinyurl.com/yj4ycnd",
                            @"category":@"Liturgical"}];
     
     //Word *biblicalCriticism = 
@@ -674,38 +668,38 @@
     
     [TAWord wordWithDict:@{@"name":@"Catechumen",
                            @"twitterDef":@"a person training for Baptism",
-                           @"definition":@"Catechumens have been recognized as a distinct group since the earliest days of the Church...",
+                           @"definition":@"Catechumens have been recognized as a distinct group since the earliest days of the Church...\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Candidates",
                            @"twitterDef":@"those who have received Baptism\rin preparation for Confirmation and Eucharist",
-                           @"definition":@"Candidates are generally composes of those who convert to Catholicism from another Christian tradition...",
+                           @"definition":@"Candidates are generally composes of those who convert to Catholicism from another Christian tradition...\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Cantor",
                            @"twitterDef":@"the leader of liturgical singing during the Mass",
-                           @"definition":@"Cantors are an inheritance of the Church from Judaism..",
+                           @"definition":@"Cantors are an inheritance of the Church from Judaism..\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Cardinal Virtues",
                            @"twitterDef":@"justice, prudence, temperance, and fortitude",
-                           @"definition":@"The four Cardinal Virtues are first mentioned by Plato...Thomas Aquinas...",
+                           @"definition":@"The four Cardinal Virtues are first mentioned by Plato...Thomas Aquinas..\r\rFurther Reference:\r.",
                            @"category":@"Moral"}];
 
 
     [TAWord wordWithDict:@{@"name":@"Cassock",
                            @"twitterDef":@"a long garment work by clergy",
-                           @"definition":@"The cassock, like the Biretta, is usually reserved for special liturgical celebrations...",
+                           @"definition":@"The cassock, like the Biretta, is usually reserved for special liturgical celebrations...\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Catechism",
                            @"twitterDef":@"a systematized body of teaching",
-                           @"definition":@"The Catechism of the Catholic Church...",
+                           @"definition":@"The Catechism of the Catholic Church...\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Catechist",
                            @"twitterDef":@"a certified teacher of the faith",
-                           @"definition":@"Catechist are usually those who teach in religious education programs...",
+                           @"definition":@"Catechist are usually those who teach in religious education programs...\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Censer",
@@ -720,7 +714,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Cappadocian Fathers",
                            @"twitterDef":@"Basil the Great, Gregory of Nyssa,\rand Gregory of Nazianzus",
-                           @"definition":@"These three fathers occupy a special place in the Eastern Orthodox tradition...",
+                           @"definition":@"These three fathers occupy a special place in the Eastern Orthodox tradition...\r\rFurther Reference:\r",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Catholic Social Teaching",
@@ -750,12 +744,12 @@
     
     [TAWord wordWithDict:@{@"name":@"Celibacy",
                            @"twitterDef":@"a lifestyle of sexual abstinence",
-                           @"definition":@"Celibacy is a vocation that dates...",
+                           @"definition":@"Celibacy is a vocation that dates...\r\rFurther Reference:\r",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Chastity",
                            @"twitterDef":@"appropriate experience",
-                           @"definition":@"Chastity is a term that has to do with more than simply sexual purity.",
+                           @"definition":@"Chastity is a term that has to do with more than simply sexual purity.\r\rFurther Reference:\r",
                            @"definition":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Christ",
@@ -765,7 +759,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Christ of Faith",
                            @"twitterDef":@"the term for the risen Jesus that emphasizes his glorified existence",
-                           @"definition":@"The term Christ of Faith is often contrasted with the Jesus of History...",
+                           @"definition":@"The term Christ of Faith is often contrasted with the Jesus of History...\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Christology",
@@ -780,12 +774,12 @@
     
     [TAWord wordWithDict:@{@"name":@"College of Bishops",
                            @"twitterDef":@"the aspect of bishops as a group of equals",
-                           @"definition":@"The College of Bishops is a concept emphasized by Vatican II...",
+                           @"definition":@"The College of Bishops is a concept emphasized by Vatican II...\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Compline",
                            @"twitterDef":@"the traditional word for Night Prayer",
-                           @"definition":@"Compline...",
+                           @"definition":@"Compline...\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
 
 
@@ -822,52 +816,52 @@
     
     [TAWord wordWithDict:@{@"name":@"Contemplation",
                            @"twitterDef":@"a form of silent and meditative prayer",
-                           @"definition":@"This form of prayer....",
+                           @"definition":@"This form of prayer....\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Chalice",
                            @"twitterDef":@"the litugical name for a cup/used during the Eucharist",
-                           @"definition":@"The 2011 new translation of the Mass refers to the cup (still called such in the Memorial Acclamation) as a chalice...",
+                           @"definition":@"The 2011 new translation of the Mass refers to the cup (still called such in the Memorial Acclamation) as a chalice...\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Cherubim",
                            @"twitterDef":@"a class of angelic figures\rdepicted in the Bible",
-                           @"definition":@"Cherubim are found from as early as Genesis 3....; the plural form of the Hebrew     cherub...",
+                           @"definition":@"Cherubim are found from as early as Genesis 3....; the plural form of the Hebrew     cherub...\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Conscience",
                            @"twitterDef":@"that which prompts us to\rdo good and avoid evil",
-                           @"definition":@"The conscience is inner-most place of the soul which determines....",
+                           @"definition":@"The conscience is inner-most place of the soul which determines....\r\rFurther Reference:\r",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Consecration",
                            @"twitterDef":@"the act of setting someone or something\rapart for special service",
-                           @"definition":@"Consecration usually takes the form of the consecration of the Eucharistic elements of bread and wine. It is also used to describe....",
+                           @"definition":@"Consecration usually takes the form of the consecration of the Eucharistic elements of bread and wine. It is also used to describe....\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Consubstantial",
                            @"twitterDef":@"a word meaning\rof the same substance",
-                           @"definition":@"This term is derived from the Latin translation of homoousious...",
+                           @"definition":@"This term is derived from the Latin translation of homoousious...\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
 
     [TAWord wordWithDict:@{@"name":@"Contrition",
                            @"twitterDef":@"repentance from sin and intention for conversion",
-                           @"definition":@"Contrition is the natural result of sin. Psalm ...says A contrite heart, you will not despise....",
+                           @"definition":@"Contrition is the natural result of sin. Psalm ...says A contrite heart, you will not despise....\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Concelebration",
                            @"twitterDef":@"the celebration of the Mass\rby two or more priests",
-                           @"definition":@"Concelebration is....",
+                           @"definition":@"Concelebration is....\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Corpus Christi",
                            @"twitterDef":@"a Latin phrase meaning\rBody of Christ",
-                           @"definition":@"Corpus Christi is a feast day for the Church....",
+                           @"definition":@"Corpus Christi is a feast day for the Church....\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Crucifixion",
                            @"twitterDef":@"a form of death by hanging\that induces asphyxiation",
-                           @"definition":@"The Romans aquired the practice of crucifixion from the Carthaginians. It was reserved for Roman non-citizens...",
+                           @"definition":@"The Romans aquired the practice of crucifixion from the Carthaginians. It was reserved for Roman non-citizens...\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
 
     
@@ -945,13 +939,13 @@
     
     [TAWord wordWithDict:@{@"name":@"Day of Atonement",
                            @"twitterDef":@"the holiest day in the Jewish calendar/ron which sin is atoned and forgiven",
-                           @"definition":@"...see Yom Kippur",
+                           @"definition":@"...see Yom Kippur.\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
 
     
     [TAWord wordWithDict:@{@"name":@"Deanery",
                            @"twitterDef":@"a smaller geographical area within a diocese",
-                           @"definition":@"Deaneries are made up of both clergy and lay representatives from various parishes....",
+                           @"definition":@"Deaneries are made up of both clergy and lay representatives from various parishes....\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
 
     
@@ -972,7 +966,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Disciple",
                            @"twitterDef":@"a follower of Jesus",
-                           @"definition":@"According to the Gospels, Jesus had numerous disciples; from the Latin  , student. ",
+                           @"definition":@"According to the Gospels, Jesus had numerous disciples; from the Latin  , student.\r\rFurther Reference:\r ",
                            @"category":@"Biblical"}];
 
     
@@ -983,13 +977,13 @@
     
     [TAWord wordWithDict:@{@"name":@"Divine Liturgy",
                            @"twitterDef":@"the name of the Eastern Orthodox Eucharistic liturgy",
-                           @"definition":@"The Divine Liturgy can be traced back to the time of John of Damascus...",
+                           @"definition":@"The Divine Liturgy can be traced back to the time of John of Damascus...\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
 
     
     [TAWord wordWithDict:@{@"name":@"Decaon",
                            @"twitterDef":@"an ordained servant of the Church",
-                           @"definition":@"Decaons are referred to throughout the New Testament...",
+                           @"definition":@"Decaons are referred to throughout the New Testament...\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     
@@ -1029,17 +1023,17 @@
     
     [TAWord wordWithDict:@{@"name":@"Demythologization",
                            @"twitterDef":@"the process of separating time-conditioned myths\rfrom their underlying truths",
-                           @"definition":@"Rudolph Bultmann coined this term to refer to way of interpreting the New Testament in a way that....",
+                           @"definition":@"Rudolph Bultmann coined this term to refer to way of interpreting the New Testament in a way that....\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Didache",
                            @"twitterDef":@"the name of the earliest extra-biblical Christian document",
-                           @"definition":@"The Teaching of the Twelve Apostles...",
+                           @"definition":@"The Teaching of the Twelve Apostles...\r\rFurther Reference:\r",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Diocese",
                            @"twitterDef":@"the administrative area of a bishop",
-                           @"definition":@"The concept of a diocese dates to the time of the Emperor Diocletian...",
+                           @"definition":@"The concept of a diocese dates to the time of the Emperor Diocletian...\r\rFurther Reference:\r",
                            @"category":@"Historical"}];
 
 
@@ -1096,7 +1090,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Docetism",
                            @"twitterDef":@"the belief that Jesus was not fully human",
-                           @"definition":@"Docetism is alluded to in the Johonnine epistolary corpus...",
+                           @"definition":@"Docetism is alluded to in the Johonnine epistolary corpus...\r\rFurther Reference:\r",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Donatism",
@@ -1105,7 +1099,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Doxology",
                            @"twitterDef":@"a praise or blessing of God in prayer",
-                           @"definition":@"Doxologies are found throughout the Bible...",
+                           @"definition":@"Doxologies are found throughout the Bible...\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Dualism",
@@ -1115,30 +1109,30 @@
     
     [TAWord wordWithDict:@{@"name":@"Dulia",
                            @"twitterDef":@"veneration of the Saints",
-                           @"definition":@"In contrast to latria, dulia refers to veneration that is appropriate for the Saints; from the Greek “veneration”",
+                           @"definition":@"In contrast to latria, dulia refers to veneration that is appropriate for the Saints; from the Greek “veneration”.\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     //E
     
     [TAWord wordWithDict:@{@"name":@"Easter",
                            @"twitterDef":@"the liturgical celebration of\rthe resurrection of Jesus",
-                           @"definition":@"Easter has been celebrated since the earliest days of the Church. It is mentioned in the book of Acts..",
+                           @"definition":@"Easter has been celebrated since the earliest days of the Church. It is mentioned in the book of Acts..\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Eastern Catholic Churches",
                            @"twitterDef":@"Byzantine rite churches in full communion\rwith the Church of Rome",
-                           @"definition":@"Eastern Catholic Churches were brought into full communion....",
+                           @"definition":@"Eastern Catholic Churches were brought into full communion....\r\rFurther Reference:\r",
                            @"category":@"Historical"}];
 
     
     [TAWord wordWithDict:@{@"name":@"Ebionites",
                            @"twitterDef":@"a heretical group of 1st century Christians\rwho denied the divinity of Christ",
-                           @"definition":@"The Ebionites are mentioned by Eusebius...",
+                           @"definition":@"The Ebionites are mentioned by Eusebius...\r\rFurther Reference:\r",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Ecclesia",
                            @"twitterDef":@"those who have been called-out\rthe Church",
-                           @"definition":@"The word ecclesia was originally a term used to desribe the legislature of the Athenian City-State; from the Greek called-out assembly ",
+                           @"definition":@"The word ecclesia was originally a term used to desribe the legislature of the Athenian City-State; from the Greek called-out assembly.\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
 
     
@@ -1149,32 +1143,32 @@
     
     [TAWord wordWithDict:@{@"name":@"Elevation",
                            @"twitterDef":@"the raising up of the consecrated bread and wine\at the end of the Eucharistic prayer",
-                           @"definition":@"The Elevation can be traced back to....",
+                           @"definition":@"The Elevation can be traced back to....\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Emmanuel",
                            @"twitterDef":@"“God is with us”",
-                           @"definition":@"This word is used as a name for the child born as a sign to King Ahaz in Isaiah 7:14 that the northern alliance between Assyria and Israel will not defeat Judah. The author of the gospel of Matthew uses it as a prediction of the birth of Jesus",
+                           @"definition":@"This word is used as a name for the child born as a sign to King Ahaz in Isaiah 7:14 that the northern alliance between Assyria and Israel will not defeat Judah. The author of the gospel of Matthew uses it as a prediction of the birth of Jesus.\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Enlightenment",
                            @"twitterDef":@"the cultural movement which prioritized reason over religion",
-                           @"definition":@"The Enlightenment is generally dated to the late sixteenth and seventeenth centuries in Europe. ",
+                           @"definition":@"The Enlightenment is generally dated to the late sixteenth and seventeenth centuries in Europe..\r\rFurther Reference:\r",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Epiclesis",
                            @"twitterDef":@"the invocation of the Holy Spirit\ron the Eucharistic elements",
-                           @"definition":@"The Epiclesis can be dated to the....century...",
+                           @"definition":@"The Epiclesis can be dated to the....century...\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
 
     [TAWord wordWithDict:@{@"name":@"Episcopacy",
                            @"twitterDef":@"the order of bishops",
-                           @"definition":@"....;from the Greek    , episkopos, overseer.",
+                           @"definition":@"....;from the Greek    , episkopos, overseer.\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
 
     [TAWord wordWithDict:@{@"name":@"Evolution",
                            @"twitterDef":@"a process of biological descent with modification",
-                           @"definition":@"The modern theory of evolution is the result of the work of Charles Darwin...Its scientific acceptance was influential on Vatican II as seen in Gaudium et Spes....",
+                           @"definition":@"The modern theory of evolution is the result of the work of Charles Darwin...Its scientific acceptance was influential on Vatican II as seen in Gaudium et Spes....\r\rFurther Reference:\r",
                            @"category":@"Cultural"}];
 
 
@@ -1216,7 +1210,7 @@
 
     [TAWord wordWithDict:@{@"name":@"Euthyphro Problem",
                            @"twitterDef":@"does God love ... ",
-                           @"definition":@"Good Friday is part of the Triduum",
+                           @"definition":@"Good Friday is part of the Triduum.\r\rFurther Reference:\r",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Exclusivism",
@@ -1226,7 +1220,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Ex Cathedra",
                            @"twitterDef":@"a teaching from the chair of Peter",
-                           @"definition":@"When the Pope teaches ex cathedra, his teaching is considered binding",
+                           @"definition":@"When the Pope teaches ex cathedra, his teaching is considered binding.\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Ex Nihilo",
@@ -1241,17 +1235,17 @@
     
     [TAWord wordWithDict:@{@"name":@"Ex Opere Operantis",
                            @"twitterDef":@"the idea that a Sacrament's efficacy is related to the celebrant's personal holiness",
-                           @"definition":@"This phrase refers to the emphasis on the subjective character of the celebrant. In the Catholic tradition, it does not affect the validity of the Sacraments. a Latin phrase meaning\rfrom the work of the worker....See Ex Opere Operato.",
+                           @"definition":@"This phrase refers to the emphasis on the subjective character of the celebrant. In the Catholic tradition, it does not affect the validity of the Sacraments. a Latin phrase meaning\rfrom the work of the worker....See Ex Opere Operato.\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Excommunication",
                            @"twitterDef":@"the state of being out of visible\rcommunion with the Church",
-                           @"definition":@"Excommunication is aluded to as early as the first century in the writings of Paul...",
+                           @"definition":@"Excommunication is aluded to as early as the first century in the writings of Paul...\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Exorcism",
                            @"twitterDef":@"the expulsion of evil spirits\rby the authority of Jesus Christ",
-                           @"definition":@"During his ministry, Jesus is reported to have conducted exorcisms....",
+                           @"definition":@"During his ministry, Jesus is reported to have conducted exorcisms....\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
 
 
@@ -1317,12 +1311,12 @@
     
     [TAWord wordWithDict:@{@"name":@"Ephraim",
                            @"twitterDef":@"1. one of the two sons of Joseph\r2. a prominent northern tribe",
-                           @"definition":@"Ephraim is mentioned as being...",
+                           @"definition":@"Ephraim is mentioned as being...\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Epiphany",
                            @"twitterDef":@"the liturgical celebration of the\rappearance of Jesus to the world",
-                           @"definition":@"Epiphany is celebrated on the   of January in the Western church...",
+                           @"definition":@"Epiphany is celebrated on the   of January in the Western church...\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Epistemology",
@@ -1342,7 +1336,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Explanans",
                            @"twitterDef":@"that which explains something else",
-                           @"definition":@"In the study of Logic, the explanans always explains something else...",
+                           @"definition":@"In the study of Logic, the explanans always explains something else...\r\rFurther Reference:\r",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Environmentalism",
@@ -1364,7 +1358,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Fideism",
                            @"twitterDef":@"the belief that....",
-                           @"definition":@"The belief that..",
+                           @"definition":@"The belief that..\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Fallibilism",
@@ -1374,7 +1368,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Filioque",
                            @"twitterDef":@"“and the Son”",
-                           @"definition":@"The Filioque phrase became a source of contention between the Eastern and Western churches after ...",
+                           @"definition":@"The Filioque phrase became a source of contention between the Eastern and Western churches after ...\r\rFurther Reference:\r",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Foreknowledge",
@@ -1394,7 +1388,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Formal Eqivalence",
                            @"twitterDef":@"a translation philosophy that seeks to render the text word for word",
-                           @"definition":@"The 2011 English translation of the Mass is based on formal equivalence, sometimes resulting in odd sentence structure as Latin syntax works differently than that of English.",
+                           @"definition":@"The 2011 English translation of the Mass is based on formal equivalence, sometimes resulting in odd sentence structure as Latin syntax works differently than that of English.\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Form Criticism",
@@ -1418,22 +1412,22 @@
     
     [TAWord wordWithDict:@{@"name":@"Fraction",
                            @"twitterDef":@"the breaking of consecrated bread\rfor the distrubution of Holy Communion",
-                           @"definition":@"The Fraction symbolizes Christ's body given up for the salvation of the world",
+                           @"definition":@"The Fraction symbolizes Christ's body given up for the salvation of the world.\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Forgiveness of Sins",
                            @"twitterDef":@"to leave behind a broken relationship",
-                           @"definition":@"Forgiveness has many nuances...",
+                           @"definition":@"Forgiveness has many nuances...\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Form",
                            @"twitterDef":@"the words and matter used in a Sacrament",
-                           @"definition":@"The form of the Sacraments is .....",
+                           @"definition":@"The form of the Sacraments is .....\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Fransiscan",
                            @"twitterDef":@"a member of the order of\rSt. Francis of Assisi",
-                           @"definition":@"The order of Franciscans was formally recognized by Pope....",
+                           @"definition":@"The order of Franciscans was formally recognized by Pope....\r\rFurther Reference:\r",
                            @"category":@"Historical"}];
 
     
@@ -1446,7 +1440,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Great Schism",
                            @"twitterDef":@"the schism between the\rEastern and Western churches in A.D. 1056",
-                           @"definition":@"The Great Schism was the result of ....",
+                           @"definition":@"The Great Schism was the result of ....\r\rFurther Reference:\r",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Gehenna",
@@ -1461,7 +1455,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Gnosticism",
                            @"twitterDef":@"a heretical Christian sect that\rtaught salvation through esoteric knowledge",
-                           @"definition":@"Gnosticism flourished in the second and third centuries...",
+                           @"definition":@"Gnosticism flourished in the second and third centuries...\r\rFurther Reference:\r",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Gospel",
@@ -1471,22 +1465,22 @@
     
     [TAWord wordWithDict:@{@"name":@"Gloria Patri",
                            @"twitterDef":@"a doxology to the Trinity",
-                           @"definition":@"Glory to the Father, and to the Son, and to the Holy Spirit.",
+                           @"definition":@"Glory to the Father, and to the Son, and to the Holy Spirit.\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Glossolalia",
                            @"twitterDef":@"the act of speaking in new languages",
-                           @"definition":@"According to Paul in 1 Corinthians, glossolalia was a spiritual gift manifested in liturgical worship...",
+                           @"definition":@"According to Paul in 1 Corinthians, glossolalia was a spiritual gift manifested in liturgical worship...\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"God of the Gaps",
                            @"twitterDef":@"the belief that any scientific unknowns\rare necessarily evidence of God's influence ",
-                           @"definition":@"This phrase is used to describe the beliefs of those who misunderstand the different domains, methods, and explanations of Theology and Science.",
+                           @"definition":@"This phrase is used to describe the beliefs of those who misunderstand the different domains, methods, and explanations of Theology and Science.\r\rFurther Reference:\r",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Good Friday",
                            @"twitterDef":@"the liturigcal memorial of\rthe crucifixion of Jesus",
-                           @"definition":@"Good Friday is part of the Triduum",
+                           @"definition":@"Good Friday is part of the Triduum.\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Great Litany",
@@ -1501,19 +1495,19 @@
     
     [TAWord wordWithDict:@{@"name":@"Gregorian Chant",
                            @"twitterDef":@"plainsong liturgical chant associated\rwith Pope Gregory I",
-                           @"definition":@"Gregorian Chant is characterized by a simply rhythm...",
+                           @"definition":@"Gregorian Chant is characterized by a simply rhythm...\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Guardian Angel",
                            @"twitterDef":@"an angel that looks after a given person",
-                           @"definition":@"Guardian angels are alluded to by Jesus himself in....",
+                           @"definition":@"Guardian angels are alluded to by Jesus himself in....\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
     ///////////////////H
     
     [TAWord wordWithDict:@{@"name":@"Habit",
                            @"twitterDef":@"the liturigcal memorial of\rthe crucifixion of Jesus",
-                           @"definition":@"Good Friday is part of the Triduum",
+                           @"definition":@"Good Friday is part of the Triduum.\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Hail Mary",
@@ -1523,17 +1517,17 @@
     
     [TAWord wordWithDict:@{@"name":@"Hebrew",
                            @"twitterDef":@"the liturigcal memorial of\rthe crucifixion of Jesus",
-                           @"definition":@"Good Friday is part of the Triduum",
+                           @"definition":@"Good Friday is part of the Triduum.\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Heart",
                            @"twitterDef":@"the biblical word for\relementary experience",
-                           @"definition":@"Good Friday is part of the Triduum",
+                           @"definition":@"Good Friday is part of the Triduum.\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Hallelujah",
                            @"twitterDef":@"“Praise YHWH”",
-                           @"definition":@"Hallelujah occurs frequently throughout the Old Testament, especially in the Psalms",
+                           @"definition":@"Hallelujah occurs frequently throughout the Old Testament, especially in the Psalms.\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
 
     
@@ -1559,22 +1553,22 @@
     
     [TAWord wordWithDict:@{@"name":@"Hesychasm",
                            @"twitterDef":@"a silent form of prayer\rassociated with Eastern Orthodox monks",
-                           @"definition":@"This form of prayer....",
+                           @"definition":@"This form of prayer....\r\rFurther Reference:\r",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Historical Theology",
                            @"twitterDef":@"the study of theology in light of historical periods, events, people, or trends",
-                           @"definition":@"Historical Theology has become a sub-discipline of Theology since..",
+                           @"definition":@"Historical Theology has become a sub-discipline of Theology since..\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Hinduism",
                            @"twitterDef":@"the dominant polytheistic religion of\that holds Brahman as the Divine Absolute",
-                           @"definition":@"Hinduism...",
+                           @"definition":@"Hinduism...\r\rFurther Reference:\r",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Historical Jesus",
                            @"twitterDef":@"the historical figure of Jesus\ras reconstructed by historical methodology",
-                           @"definition":@"The historical Jesus is a term that emphasizes what can be known about Jesus of Nazareth from historical methodology apart from theological belief. ",
+                           @"definition":@"The historical Jesus is a term that emphasizes what can be known about Jesus of Nazareth from historical methodology apart from theological belief.\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Hierarchy of Truths",
@@ -1594,12 +1588,12 @@
     
     [TAWord wordWithDict:@{@"name":@"Hermeneutical Circle",
                            @"twitterDef":@"the dialectic relationship between\rtext and interpreter",
-                           @"definition":@"The hermeneutical circle begins with an interpreter and a text involved in a process of question, discovery, interpretation, which then challenges or changes the initial question.",
+                           @"definition":@"The hermeneutical circle begins with an interpreter and a text involved in a process of question, discovery, interpretation, which then challenges or changes the initial question.\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Hesed",
                            @"twitterDef":@"loving kindness\rand covenant faithfulness",
-                           @"definition":@"Hesed occurs predominantly in the Psalms, where it is used to refer to YHWH's covenant faithfulness; from the Hebrew word    . ",
+                           @"definition":@"Hesed occurs predominantly in the Psalms, where it is used to refer to YHWH's covenant faithfulness; from the Hebrew word   .\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Historical Books",
@@ -1619,7 +1613,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Holy",
                            @"twitterDef":@"set apart for Divine service",
-                           @"definition":@"One of the four marks of the Church...",
+                           @"definition":@"One of the four marks of the Church...\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Holy of Holies",
@@ -1801,7 +1795,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Jubilee",
                            @"twitterDef":@"the Old Testament practice of\rforgiving debts",
-                           @"definition":@"The biblical description of Jubilee is found in.....",
+                           @"definition":@"The biblical description of Jubilee is found in.....\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Judah",
@@ -1833,17 +1827,17 @@
     
     [TAWord wordWithDict:@{@"name":@"Kerygma",
                            @"twitterDef":@"the Apostolic proclamation of the Gospel",
-                           @"definition":@"The New Testament uses this word to describe the Apostolic proclamation of the the Gospel.",
+                           @"definition":@"The New Testament uses this word to describe the Apostolic proclamation of the the Gospel.\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Koinonia",
                            @"twitterDef":@"communion or participation",
-                           @"definition":@"The New Testament uses this word to describe the spiritual unity that exists between Christians and Christ...",
+                           @"definition":@"The New Testament uses this word to describe the spiritual unity that exists between Christians and Christ...\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Kyrie Eleison",
                            @"twitterDef":@"a liturgical phrase meaning\r“Lord, have mercy.”",
-                           @"definition":@"The Kyrie Eleison is used during the ",
+                           @"definition":@"The Kyrie Eleison is used during the \r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
 
     
@@ -1851,22 +1845,22 @@
     
     [TAWord wordWithDict:@{@"name":@"Last Rites",
                            @"twitterDef":@"the final Sacraments administered\rto a person near death",
-                           @"definition":@"Last Rites are mentioned as early as....",
+                           @"definition":@"Last Rites are mentioned as early as....\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Last Supper",
                            @"twitterDef":@"the final meal of Jesus with his\r disciples before his crucifixion",
-                           @"definition":@"All four Gospels portray Jesus sharing a last meal with his disciples. However, the Synoptics claim that it was a Passover seder meal, while the Gospel of John claims it was a regular meal before the beginning of Passover",
+                           @"definition":@"All four Gospels portray Jesus sharing a last meal with his disciples. However, the Synoptics claim that it was a Passover seder meal, while the Gospel of John claims it was a regular meal before the beginning of Passover.\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Laity",
                            @"twitterDef":@"non-ordained members of the Church",
-                           @"definition":@"The New Testament uses this word to describe the Apostolic proclamation of the the Gospel.",
+                           @"definition":@"The New Testament uses this word to describe the Apostolic proclamation of the the Gospel.\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Latria",
                            @"twitterDef":@"worship of God",
-                           @"definition":@"In contrast to dulia, latria refers to worship of God alone. See Dulia.",
+                           @"definition":@"In contrast to dulia, latria refers to worship of God alone. See Dulia.\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Law of Moses",
@@ -1876,27 +1870,27 @@
     
     [TAWord wordWithDict:@{@"name":@"Lector",
                            @"twitterDef":@"a member of the laity who leads\rthe congretation in reading or prayers",
-                           @"definition":@"The New Testament uses this word to describe the Apostolic proclamation of the the Gospel.",
+                           @"definition":@"The New Testament uses this word to describe the Apostolic proclamation of the the Gospel.\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Lecturn",
                            @"twitterDef":@"see Ambo",
-                           @"definition":@"",
+                           @"definition":@"\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Lectio Divina",
                            @"twitterDef":@"the prayerful reading of Sacred Scripture",
-                           @"definition":@"The New Testament uses this word to describe the Apostolic proclamation of the the Gospel.",
+                           @"definition":@"The New Testament uses this word to describe the Apostolic proclamation of the the Gospel.\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Lectionary",
                            @"twitterDef":@"the schedule of biblical passages\rread throughout the liturgical year",
-                           @"definition":@"The New Testament uses this word to describe the Apostolic proclamation of the the Gospel.",
+                           @"definition":@"The New Testament uses this word to describe the Apostolic proclamation of the the Gospel.\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Lent",
                            @"twitterDef":@"the 40 day period of repentance\before the celebration of Easter”",
-                           @"definition":@"The New Testament uses this word to describe the Apostolic proclamation of the the Gospel.",
+                           @"definition":@"The New Testament uses this word to describe the Apostolic proclamation of the the Gospel.\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Levite",
@@ -1911,7 +1905,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Litany",
                            @"twitterDef":@"an intercessory prayer led by a lector",
-                           @"definition":@"The Great Litany of the Easter Vigil includes...",
+                           @"definition":@"The Great Litany of the Easter Vigil includes...\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Literary Criticism",
@@ -1930,18 +1924,18 @@
     
     [TAWord wordWithDict:@{@"name":@"Liturgy",
                            @"twitterDef":@"the public worship of the Church",
-                           @"definition":@"The Liturgy of the Church....",
+                           @"definition":@"The Liturgy of the Church....\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     
     [TAWord wordWithDict:@{@"name":@"Liturgy of the Eucharist",
                            @"twitterDef":@"the portion of the Mass that celebrates the Eucharist",
-                           @"definition":@"The Liturgy of the Eucharist...",
+                           @"definition":@"The Liturgy of the Eucharist...\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Liturgy of the Word",
                            @"twitterDef":@"the portion of the Mass that proclaims the Scriputres...",
-                           @"definition":@"The Liturgy of the Word....",
+                           @"definition":@"The Liturgy of the Word....\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     
@@ -1967,29 +1961,29 @@
     
     [TAWord wordWithDict:@{@"name":@"Logos",
                            @"twitterDef":@"the Greek word meaning\rreason or word",
-                           @"definition":@"This term dates back the pre-Socratic Greek philosopher Heraclitus. It is used the Gospel of John to refer to the eternal Son of the Father who became incarnate in Jesus of Nazareth",
+                           @"definition":@"This term dates back the pre-Socratic Greek philosopher Heraclitus. It is used the Gospel of John to refer to the eternal Son of the Father who became incarnate in Jesus of Nazareth.\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"LORD",
                            @"twitterDef":@"a symbolic transliteration of\rthe Divine Name, יהוה‎",
-                           @"definition":@"Most contemporary English bibles render the Divine Name as the LORD....",
+                           @"definition":@"Most contemporary English bibles render the Divine Name as the LORD....\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Lord's Prayer",
                            @"twitterDef":@"the exemplary prayer that Jesus taught his disciples",
-                           @"definition":@"The Lord's Prayer occurs in only two places in Scripture, Matthew 6: and Luke 6:....",
+                           @"definition":@"The Lord's Prayer occurs in only two places in Scripture, Matthew 6: and Luke 6:....\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Lord's Supper",
                            @"twitterDef":@"see Last Supper",
-                           @"definition":@"",
+                           @"definition":@"\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
     //M
     
     [TAWord wordWithDict:@{@"name":@"Magnificat",
                            @"twitterDef":@"the prayer of the Virgin Mary\rin Luke 2:...",
-                           @"definition":@"The Magnificat is a part of Morning Prayer in the Liturgy of the Hours...",
+                           @"definition":@"The Magnificat is a part of Morning Prayer in the Liturgy of the Hours...\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Manicheism",
@@ -1999,22 +1993,22 @@
     
     [TAWord wordWithDict:@{@"name":@"Maranatha",
                            @"twitterDef":@"an Aramaic word meaning\rOur Lord, come.",
-                           @"definition":@"This word is referenced by Paul in 1 Corinthians 16:22 as a common expression used by early Christians...",
+                           @"definition":@"This word is referenced by Paul in 1 Corinthians 16:22 as a common expression used by early Christians...\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Marcionism",
                            @"twitterDef":@"a heresy taught by Marcion that\rrejects Israelite scritpures and theology",
-                           @"definition":@"Marcionism led to the creation of the first canon of Scripture during the time of Irenaeus...",
+                           @"definition":@"Marcionism led to the creation of the first canon of Scripture during the time of Irenaeus...\r\rFurther Reference:\r",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Marriage",
                            @"twitterDef":@"the Sacrament in which a\rman and woman become one flesh",
-                           @"definition":@"Marriage as human institution has evolved  from to...and faces new questions as ....",
+                           @"definition":@"Marriage as human institution has evolved  from to...and faces new questions as ....\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Martyr",
                            @"twitterDef":@"a witness to the faith\rto the point of death",
-                           @"definition":@"Martyrs...",
+                           @"definition":@"Martyrs...\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Mass",
@@ -2024,17 +2018,17 @@
     
     [TAWord wordWithDict:@{@"name":@"Matins",
                            @"twitterDef":@"the traditional term for morning prayer",
-                           @"definition":@"See Morning Prayer",
+                           @"definition":@"See Morning Prayer.\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Maundy Thursday",
                            @"twitterDef":@"the celebration of the institution\rof the Lord's Supper",
-                           @"definition":@"This term derives from the Latin mandatum, and John 13:34, in which Jesus says: a new commmandment I give you",
+                           @"definition":@"This term derives from the Latin mandatum, and John 13:34, in which Jesus says: a new commmandment I give you; that you love one another as I have loved you.\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Memorial Acclamation",
                            @"twitterDef":@"the acclamation of the congregation\rafter the Words of Institution",
-                           @"definition":@"...",
+                           @"definition":@"...\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     
@@ -2070,7 +2064,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Ministry",
                            @"twitterDef":@"service in the name of Christ",
-                           @"definition":@"Ministry derives from the Latin, ...",
+                           @"definition":@"Ministry derives from the Latin, ...\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Mishnah",
@@ -2080,42 +2074,42 @@
     
     [TAWord wordWithDict:@{@"name":@"Missal",
                            @"twitterDef":@"a book used to celebrate the Eucharist",
-                           @"definition":@"The 2011 new translation of the Mass was based on the Missal used in Rome",
+                           @"definition":@"The 2011 new translation of the Mass was based on the Missal used in Rome.\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Missionary",
                            @"twitterDef":@"one sent on a mission\rto proclaim the Gospel",
-                           @"definition":@"Missionaries date back to the earliest age of the Church.",
+                           @"definition":@"Missionaries date back to the earliest age of the Church.\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Mitre",
                            @"twitterDef":@"a liturgical hat worn by bishops",
-                           @"definition":@"Mitres appear as early as....",
+                           @"definition":@"Mitres appear as early as....\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Modernism",
                            @"twitterDef":@"the 19th century movement that embraced\r modern advances in science, history, and philosophy",
-                           @"definition":@"Modernism was initially condemned by Pope Leo XIII, but its affects reached into the twentieth century at Vatican II",
+                           @"definition":@"Modernism was initially condemned by Pope Leo XIII, but its affects reached into the twentieth century at Vatican II.\r\rFurther Reference:\r",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Monarchianism",
                            @"twitterDef":@"the belief that God is merely\rmanifested in three different forms",
-                           @"definition":@"Monarchianism was popular during hte second and third centuries. It denied that the Father, Son, and Holy Spirit were three distinct persons. Instead,...",
+                           @"definition":@"Monarchianism was popular during hte second and third centuries. It denied that the Father, Son, and Holy Spirit were three distinct persons. Instead,...\r\rFurther Reference:\r",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Monastic",
                            @"twitterDef":@"relating to a life of religious vows\rlived in community",
-                           @"definition":@"Monastics tace their origin to the third century with Abba Anthony of Egypt...",
+                           @"definition":@"Monastics tace their origin to the third century with Abba Anthony of Egypt...\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Monophysitism",
                            @"twitterDef":@"the teaching that Christ had a single, divine\rnature which absorbed his human nature",
-                           @"definition":@"Monophysitism can be traced back to... ",
+                           @"definition":@"Monophysitism can be traced back to... \r\rFurther Reference:\r",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Monothelitism",
                            @"twitterDef":@"the teaching that Christ had a single, divine\rwill which absorbed his human will",
-                           @"definition":@"Monothelitism flourished in the seventh century....",
+                           @"definition":@"Monothelitism flourished in the seventh century....\r\rFurther Reference:\r",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Myth",
@@ -2125,22 +2119,22 @@
     
     [TAWord wordWithDict:@{@"name":@"Monstrance",
                            @"twitterDef":@"a frame for displaying the consecrated\rbread of the Eucharist for adoration",
-                           @"definition":@"Monstrances were used as early as the ...and are still used today",
+                           @"definition":@"Monstrances were used as early as the ...and are still used today.\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Montanism",
                            @"twitterDef":@"a second-century charismatic heretical\r group based on the teachings of Montanus",
-                           @"definition":@"Montanus taught that the Holy Spirit, promised by Jesus, had incarnated himself in Montanus, who demanded his followers adopt a strict lifestyle...",
+                           @"definition":@"Montanus taught that the Holy Spirit, promised by Jesus, had incarnated himself in Montanus, who demanded his followers adopt a strict lifestyle...\r\rFurther Reference:\r",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Moral Theology",
                            @"twitterDef":@"the theology of moral norms and their application to human experience",
-                           @"definition":@"Moral theology has developed into a definite sub-discipline of Theology...",
+                           @"definition":@"Moral theology has developed into a definite sub-discipline of Theology...\r\rFurther Reference:\r",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Morning Prayer",
                            @"twitterDef":@"the first hour of the\rLiturgy of the Hours",
-                           @"definition":@"...also called Matins...",
+                           @"definition":@"...also called Matins...\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Metaphysics",
@@ -2155,7 +2149,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Mystagogy",
                            @"twitterDef":@"the catechetical intiation into\rthe sacramental mysteries",
-                           @"definition":@"Mystagogy is emphasized by apostolate groups such as the Neo-Catechumenical Way...",
+                           @"definition":@"Mystagogy is emphasized by apostolate groups such as the Neo-Catechumenical Way...\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     //N
@@ -2213,19 +2207,19 @@
     
     [TAWord wordWithDict:@{@"name":@"Nunc Dimittis",
                            @"twitterDef":@"the prayer of Simeon\rin Luke 2:29-32",
-                           @"definition":@"Luke portrays Simeon as offering this extemporaneous prayer after being led by the Holy Spirit to see the infant Jesus",
+                           @"definition":@"Luke portrays Simeon as offering this extemporaneous prayer after being led by the Holy Spirit to see the infant Jesus.\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     //O
     
     [TAWord wordWithDict:@{@"name":@"Octave",
                            @"twitterDef":@"the celebration of a feast over eight days",
-                           @"definition":@"Octaves are common...",
+                           @"definition":@"Octaves are common...\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Offertory",
                            @"twitterDef":@"the prayer said after the presentation of the Gifts to the celebrant...",
-                           @"definition":@"The Roman Missal includes several options for the Offertory...",
+                           @"definition":@"The Roman Missal includes several options for the Offertory...\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Omnibenevolence",
@@ -2255,7 +2249,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Ontology",
                            @"twitterDef":@"the study of Being",
-                           @"definition":@"Ontology is closely related to Metaphysics...",
+                           @"definition":@"Ontology is closely related to Metaphysics...\r\rFurther Reference:\r",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Open Theism",
@@ -2265,17 +2259,17 @@
     
     [TAWord wordWithDict:@{@"name":@"Ordinary",
                            @"twitterDef":@"the regular diocesan bishop",
-                           @"definition":@"The Ordinary is used to distinguish the diocesan bishop from an assistant or coadjutor.",
+                           @"definition":@"The Ordinary is used to distinguish the diocesan bishop from an assistant or coadjutor.\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Ordinary Time",
-                           @"twitterDef":@"the liturgical time between\rEaster and Advent",
+                           @"twitterDef":@"the liturgical time between\rEaster and Advent.\r\rFurther Reference:\r",
                            @"definition":@"....",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Ordination",
                            @"twitterDef":@"the reception of the Sacrament\rof Holy Orders",
-                           @"definition":@"Ordination dates from the earliest years of the Church",
+                           @"definition":@"Ordination dates from the earliest years of the Church.\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Original Sin",
@@ -2418,7 +2412,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Protestant",
                            @"twitterDef":@"the theological objection to the authority of the Pope in the Church; the Protestant Reformation",
-                           @"definition":@"the theological objection to the authority of the Pope in the Church; the Protestant Reformation.",
+                           @"definition":@"the theological objection to the authority of the Pope in the Church; the Protestant Reformation.\r\rFurther Reference:\r",
                            @"category":@"Ecclesial"}];
     
     [TAWord wordWithDict:@{@"name":@"Parable",
