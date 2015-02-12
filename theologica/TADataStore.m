@@ -163,8 +163,8 @@
     
     //A
     [TAWord wordWithDict:@{@"name":@"Abba",
-                           @"twitterDef":@"the Aramaic word meaning\r“Daddy”",
-                           @"definition":@"This term was by Jesus in prayer to God according to the gospels. Paul claims that Christians also use the term because of their filial adoption; “Because you are sons, God has sent the Spirit of his Son into our hearts, crying, “Abba! Father!” (Gal 4:6). See “Adoption”.\r\rFurther Reference:\rCatechism of the Catholic Church, 683\rhttp://tinyurl.com/pqxxm8l",
+                           @"twitterDef":@"“Papa” or “Daddy”",
+                           @"definition":@"This term was by Jesus in prayer to God according to the gospels. Paul claims that Christians also use the term because of their filial adoption; “Because you are sons, God has sent the Spirit of his Son into our hearts, crying, “Abba! Father!” (Gal 4:6); from the Aramaic, “Daddy”See “Adoption”.\r\rFurther Reference:\rCatechism of the Catholic Church, 683\rhttp://tinyurl.com/pqxxm8l",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Ablution",
@@ -180,7 +180,7 @@
 
     
     [TAWord wordWithDict:@{@"name":@"Adonai",
-                           @"twitterDef":@"the Hebrew word meaning\r“Ruler” or “Master”",
+                           @"twitterDef":@"“Master” or “Ruler”",
                            @"definition":@"This term is used as a synonym for YHWH in the Bible and in contemporary Judaism. See “YHWH”.\r\rFurther Reference:\rCatechism of the Catholic Church, 209\rhttp://tinyurl.com/bruqt9r",
                            @"category":@"Biblical"}];
     
@@ -196,7 +196,7 @@
 
     
     [TAWord wordWithDict:@{@"name":@"Anawim",
-                           @"twitterDef":@"the Hebrew word meaning\r“the oppressed”",
+                           @"twitterDef":@"the poor and marginalized\rin ancient Israel",
                            @"definition":@"This term is used in the Hebrew Bible to refer to those who are poor, destitue, and marginalized who trust completely in the mercy of God (Is. 10:2, Zeph 2:3); frequently used in the Psalms.\r\rFurther Reference:\rJohn Paul II, General Audience, 5/23/2001\rhttp://tinyurl.com/lyfphvo",
                            @"category":@"Biblical"}];
     
@@ -223,8 +223,8 @@
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Apocrypha",
-                           @"twitterDef":@"the Greek word meaning\r“hidden things”",
-                           @"definition":@"Apocrypha is the Protestant term for the 7 Old Testament books not found in the Protestant canon; Baruch, Judith, 1st and 2nd Maccabees, Sirach, Tobit, Wisdom - from the Greek word, αποκρυφα.\r\rWikipedia, “Apocrypha”\rhttp://tinyurl.com/bddlr",
+                           @"twitterDef":@"the 7 books excluded from the Protestant Bible",
+                           @"definition":@"Apocrypha is the Protestant term for the 7 Old Testament books not found in the Protestant canon; Baruch, Judith, 1st and 2nd Maccabees, Sirach, Tobit, Wisdom - from the Greek, αποκρυφος (apokryphos) “hidden”.\r\rWikipedia, “Apocrypha”\rhttp://tinyurl.com/bddlr",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Apodictic",
@@ -244,7 +244,7 @@
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Aqeda",
-                           @"twitterDef":@"the Hebrew word meaning\r“the binding of Isaac”",
+                           @"twitterDef":@"the binding and offering of\rIsaac by Abraham",
                            @"definition":@"The story of the binding and near-sacrifice of Isaac by Abraham - from Hebrew word for “binding”. According to Richard Elliot Freidman, the Aqedah is mostly an Elohist Source story with a very different original ending that was amended by the Redactor of the Torah.\r\rFurther Reference:\rWikipedia, “Aqeda”\rhttp://tinyurl.com/56dxyl",
                            @"category":@"Biblical"}];
     
@@ -297,7 +297,7 @@
     [TAWord wordWithDict:@{@"name":@"Absolution",
                            @"twitterDef":@"the declaration that sins are forgiven",
                            @"definition":@"The act by which a priest declares the forgiveness of sins.\r\rFurther Reference:\rCatechism of the Catholic Church, 1424\rhttp://tinyurl.com/l7xon9e",
-                           @"category":@"Systematic"}];
+                           @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Adoptionism",
                            @"twitterDef":@"the belief that Jesus was a mere man\radopted as God's Son at his baptism ",
@@ -320,12 +320,12 @@
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Agape",
-                           @"twitterDef":@"the Greek word meaning\r“universal and unconditional love”",
+                           @"twitterDef":@"universal & unconditional love\rof and for God and neighbor",
                            @"definition":@"The gospel writers use agape to describe Jesus' teaching on the love for God, neighbors and enemies (Matthew 5:44, 22:37, 39). It is used by later New Testament writers to describe the love of God towards humanity as seen in the sacrificial death of Jesus and even the very nature of God. The early Christians also used “agape” to refer to their communal meal after which the Eucharist was celebrated (Jude 1:12); from the Greek word, αγαπη.\r\rFurther Reference:\rPope Benedict XVI, “Deus Caritas Est”\rhttp://tinyurl.com/o6ucrd6\r\rWikipedia, “Agape”\rhttp://tinyurl.com/dbyn5s",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Aggiornomento",
-                           @"twitterDef":@"an Italian word meaning\r“to bring up to date”",
+                           @"twitterDef":@"“to update”\rdescribing a theme of Vatican II",
                            @"definition":@"As a way to describe one of its emphases, it became popular during and synonymous with the reforms of the Second Vatican Council (1962-1965). The concept was used by Pope John XXIII to describe the agenda of Vatican II. John XXIII claimed:\r\r“The greatest concern of the Ecumenical Council is this: that he sacred deposit of Christian doctrine should be guarded and taught more efficaciously...In order, however, that this doctrine may influence the numerous fields of human activity, with reference to individuals, to families, and to socia life, it is necessary first of all that the Church should never depart from the sacred patrimony of truth received from the Fathers. But at the same time she must ever look to the present, to the new conditions and new forms of life introduced into the modern world, which have opened new avenues to the Catholic apostolate...which, however, should be studied and expounded through the methods of research and through the literary forms of modern thought. The substance of the ancient doctrine of the deposit of faith is one thing, and the way in which it is presented is another. And it is the latter that must be taken into great consideration with patience if necessary,everything being measured in the forms and proportions of a magisterium which is predominantly pastoral in character.”\r\rFurther Reference:\rWikipedia, “Aggiornomento”\rhttp://tinyurl.com/k6y4ylh",
                            @"category":@"Systematic"}];
     
@@ -350,7 +350,7 @@
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Apocatastasis",
-                           @"twitterDef":@"the Greek word meaning\r“the restoration of all things”",
+                           @"twitterDef":@"the restoration of all things in Christ",
                            @"definition":@"This term only occurs in the New Testament in Acts 3:21, wherein Peter refers to the state of creation in the Messianic Age. Later in the Patristic era, Origen used it to the belief that, at the eschaton, God will restore all creation back into full Divine communion; from the Greek word αποκαταστασις.\r\rFurther Reference:\rWikipedia, “Apocatastasis”\rhttp://tinyurl.com/n8txupj",
                            @"category":@"Systematic"}];
     
@@ -381,7 +381,7 @@
     
     
     [TAWord wordWithDict:@{@"name":@"Agnus Dei",
-                           @"twitterDef":@"the sequence of Mass that begins\rwith the phrase “Lamb of God”",
+                           @"twitterDef":@"the sequence of Mass that begins\rwith the invocation, “Lamb of God”",
                            @"definition":@"The Agnus Dei is chanted 3 times before the distribution of the Eucharist.\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, “Liturgy of the Eucharist”\rhttp://tinyurl.com/lleofmh",
                            @"category":@"Liturgical"}];
     
@@ -406,23 +406,23 @@
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Amen",
-                           @"twitterDef":@"a Hebrew word meaning\r“may it be so”",
+                           @"twitterDef":@"a liturgical phrase meaning\r“May it be so”",
                            @"definition":@"The Amen is traditionally said after a prayer as a form of agreement. It derives from Jewish use in the synagogue and later in the New Testament where it is used to indicate the truthfulness of what is said.\r\rFurther Reference:\rCatechism of the Catholic Church, 1061\rhttp://tinyurl.com/k3f2f8p",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Anamnesis",
-                           @"twitterDef":@"the Greek word meaning\r“lived rememberance”",
-                           @"definition":@"The Anamnesis is used in the Words of Institution. It is a performative act used to re-present the salvific death and resurrection of Jesus; from the Greek word αναμνησις.\r\rFurther Reference:\rCatechism of the Catholic Church, 1103\rhttp://tinyurl.com/oqbzkx3",
+                           @"twitterDef":@"the lived rememberance in recalling\rthe saving acts of God in Christ",
+                           @"definition":@"The Anamnesis is used in the Words of Institution. It is a performative act used to re-present the salvific death and resurrection of Jesus; from the Greek word αναμνησις. See Real Presence.\r\rFurther Reference:\rCatechism of the Catholic Church, 1103\rhttp://tinyurl.com/oqbzkx3",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Anaphora",
-                           @"twitterDef":@"the Greek word meaning\r“offering”",
-                           @"definition":@"The Eucharistic prayer of the Mass was referred to as the “Anaphora” at an early stage of liturgical development; from the Greek word αναφορα.\r\rFurther Reference:\rCatechism of the Catholic Church, 1352\rhttp://tinyurl.com/m88dbjl",
+                           @"twitterDef":@"the offering of the Eucharistic Prayer",
+                           @"definition":@"The Eucharistic prayer of the Mass was referred to as the “Anaphora” at an early stage of liturgical development; from the Greek word αναφορα, “to lift up”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1352\rhttp://tinyurl.com/m88dbjl",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Anathema",
-                           @"twitterDef":@"the Greek word meaning\rplaced off limits",
-                           @"definition":@"Over time, Anathema came to refer to those who were accursed or banished from the community.\r\rFurther Reference:\rNew Advent, “Anathema”\rhttp://tinyurl.com/o5fl88l",
+                           @"twitterDef":@"the state of being excommunicated",
+                           @"definition":@"Over time, Anathema came to refer to those who were accursed or banished from the community; from the Greek, “placed off limits”\r\rFurther Reference:\rNew Advent, “Anathema”\rhttp://tinyurl.com/o5fl88l",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Annulment",
@@ -446,13 +446,13 @@
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"A Posteriori",
-                           @"twitterDef":@"a phrase meaning\r“after experience”",
-                           @"definition":@"A philosophical category which follows human experience. The statement “Water boils at 0 degrees Celsius” is an a posteriori truth.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy,\r“A Priori Justification and Knowledge”\rhttp://tinyurl.com/6tp7oyz",
+                           @"twitterDef":@"a philosophical category which follows human experience",
+                           @"definition":@"A philosophical category which follows human experience. The statement “Water boils at 0 degrees Celsius” is an a posteriori truth; Latin, “after experience”)\r\rFurther Reference:\rStanford Encyclopedia of Philosophy,\r“A Priori Justification and Knowledge”\rhttp://tinyurl.com/6tp7oyz",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"A Priori",
-                           @"twitterDef":@"a phrase meaning\r“before experience”",
-                           @"definition":@"A philosophical category which precedes human experience. The statement “All bachelors are unmarried' is an a priori truth.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy,\r“A Priori Justification and Knowledge”\rhttp://tinyurl.com/6tp7oyz",
+                           @"twitterDef":@"a philosophical category which precedes human experience",
+                           @"definition":@"A philosophical category which precedes human experience. The statement “All bachelors are unmarried' is an a priori truth; from the Latin, “before experience”\r\rFurther Reference:\rStanford Encyclopedia of Philosophy,\r“A Priori Justification and Knowledge”\rhttp://tinyurl.com/6tp7oyz",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Action",
@@ -551,7 +551,7 @@
     [TAWord wordWithDict:@{@"name":@"Baptism",
                            @"twitterDef":@"the Sacrament of Initiation into the Church\rby ritual cleansing with water",
                            @"definition":@"Baptism is a practice which Christianity inherited from the Jewish practice of the Mikvah, or ceremonial washing in Second Temple Period. John the Baptist practiced a derivation of this in his ministry, of which Jesus of Nazareth was a follower for some period of time. According to the book of Acts, John's baptism was still being practiced concurrently with Christian baptism.\r\rBaptism, along with Eucharist, is a Christian practice dating back to the earliest days of the Church. According to the consistent tradition of the Church, Baptism removes the stain of Original Sin, forgives actual sins, and brings about a spiritual rebirth.\r\rFurther Reference:\rCatechism of the Catholic Church, 1213\rhttp://tinyurl.com/ykqqof",
-                           @"category":@"Systematic"}];
+                           @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Blasphemy",
                            @"twitterDef":@"a form of religious slander",
@@ -596,8 +596,8 @@
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Babel",
-                           @"twitterDef":@"the Hebrew word meaning\r“confusion”",
-                           @"definition":@"This word is given to the mythical Tower in the eitiology of Gen. 11. That story explains both how human language became divided as well as the geographic distribution of human populations.\r\rFurther Reference:\rCatechism of the Catholic Church, 57\rhttp://tinyurl.com/k6ljesq",
+                           @"twitterDef":@"the name of the mythical tower\rin Genesis 11:1-9",
+                           @"definition":@"As an etiology, this story explains both how human language became divided as well as the geographic distribution of human populations.\r\rFurther Reference:\rCatechism of the Catholic Church, 57\rhttp://tinyurl.com/k6ljesq",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Babylon",
@@ -739,13 +739,13 @@
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Canon",
-                           @"twitterDef":@"the Greek word meaning\r“measuring stick”",
-                           @"definition":@"Canon is used metaphorically to refer to a standard or criterion regarded as authoritative within a community. Saints are canonized by the Church as standards by which Catholics may judge their lives. The Bible is referred to as the canon of the Scriptures that provide criteria for faith and practice; from the Greek κανον. See “Sacred Scripture” in the Overview tab.\r\rFurther Reference:\rCatechism of the Catholic Church, 120. http://tinyurl.com/kvc3tvq\r\rPontifical Biblical Commission, “The Interpretation of the Bible in the Church, III.B” http://tinyurl.com/2gb5dm ",
+                           @"twitterDef":@"an authoritative standard or criterion\r within a community",
+                           @"definition":@"Saints are canonized by the Church as standards by which Catholics may judge their lives. The Bible is referred to as the canon of the Scriptures that provide criteria for faith and practice; from the Greek κανον, “measuring stick”. See “Sacred Scripture” in the Overview tab.\r\rFurther Reference:\rCatechism of the Catholic Church, 120. http://tinyurl.com/kvc3tvq\r\rPontifical Biblical Commission, “The Interpretation of the Bible in the Church, III.B” http://tinyurl.com/2gb5dm ",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Catholic",
-                           @"twitterDef":@"the quality of being universal in scope",
-                           @"definition":@"The quality of being universal in scope; one of the four marks of the Church.\r\rFurther Reference:\rCatechism of the Catholic Church, 830\rhttp://tinyurl.com/c5m8w5j",
+                           @"twitterDef":@"the quality of being universal in nature",
+                           @"definition":@"The quality of being universal in scope; one of the four marks of the Church. “according to the whole”\r\rFurther Reference:\rCatechism of the Catholic Church, 830\rhttp://tinyurl.com/c5m8w5j",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Celibacy",
@@ -791,7 +791,7 @@
 
     
     [TAWord wordWithDict:@{@"name":@"Communicatio Idiomatum",
-                           @"twitterDef":@"a Latin phrase describing the interexchange of Christ's divine and human natures",
+                           @"twitterDef":@"the interexchange of Christ's\rdivine and human natures",
                            @"definition":@"The idea of the Communicatio Idiomatum means that the properties of the human Jesus can also be predicated of the Logos and vice versa.\r\rFurther Reference:\rNew Advent, “Communicatio Idiomatum”\rhttp://tinyurl.com/nqusf6m",
                            @"category":@"Systematic"}];
     
@@ -808,7 +808,7 @@
     [TAWord wordWithDict:@{@"name":@"Confirmation",
                            @"twitterDef":@"the sacrament of reception of the Holy Spirit in which..",
                            @"definition":@"The sacrament of reception of the Holy Spirit in which.... \r\rFurther Reference:\rCatechism of the Catholic Church, 1285\rhttp://tinyurl.com/lcgw5p7",
-                           @"category":@"Systematic"}];
+                           @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Conversion",
                            @"twitterDef":@"the process of spiritual transformation",
@@ -1013,18 +1013,18 @@
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Dogma",
-                           @"twitterDef":@"a Greek word meaning “opinion or belief”\rused to refer to infallible teaching",
-                           @"definition":@"A dogma in the Catholic tradition is a subset of Church doctrine. It refers to a divinely revealed truth that has been defined infallibly.\r\rFurther Reference:\rCatechism of the Catholic Church, 88\rhttp://tinyurl.com/bx8mnlu",
+                           @"twitterDef":@"a doctrine that has been infallibly defined",
+                           @"definition":@"A dogma in the Catholic tradition is a subset of Church doctrine. It refers to a divinely revealed truth that has been defined infallibly; from the Greek, “opinion or belief”\r\rFurther Reference:\rCatechism of the Catholic Church, 88\rhttp://tinyurl.com/bx8mnlu",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Decalogue",
-                           @"twitterDef":@"the Greek word referring to the 10 Commandments",
+                           @"twitterDef":@"the 10 Commandments",
                            @"definition":@"The Decalogue is found in both Exodus 20 and Deuteronomy 5. In Exodus, they are part of the Mosaic theophany; from the Greek words δεκα (deka) “ten” and λογος (logos) “word”\r\rFurther Reference:\rCatechism of the Catholic Church, 2056\rhttp://tinyurl.com/nc86ead",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Dei Verbum",
-                           @"twitterDef":@"a Latin phrase meaning “Word of God”; one of the four dogmatic constitutions from Vatican II",
-                           @"definition":@"Dei Verbum is the most definitive statement on the Church's belief in Divine revelation, the Scriptures and Tradition.\r\rFurther Reference:\rDogmatic Constitution on Divine Revelation\rhttp://tinyurl.com/3ecxu",
+                           @"twitterDef":@"one of the four dogmatic constitutions\rof Vatican II",
+                           @"definition":@"Dei Verbum is the most definitive statement on the Church's belief in Divine revelation, the Scriptures and Tradition. “Word of God”\\r\rFurther Reference:\rDogmatic Constitution on Divine Revelation\rhttp://tinyurl.com/3ecxu",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Demythologization",
@@ -1114,8 +1114,8 @@
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Dulia",
-                           @"twitterDef":@"a Greek word meaning\r“veneration”",
-                           @"definition":@"In contrast to latria, dulia refers to veneration that is appropriate for the Saints.",
+                           @"twitterDef":@"veneration of the Saints",
+                           @"definition":@"In contrast to latria, dulia refers to veneration that is appropriate for the Saints; from the Greek “veneration”",
                            @"category":@"Liturgical"}];
     
     //E
@@ -1137,8 +1137,8 @@
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Ecclesia",
-                           @"twitterDef":@"a Greek term meaning\rcalled-out assembly",
-                           @"definition":@"The word ecclesia was originally a term used to desribe the legislature of the Athenian City-State....",
+                           @"twitterDef":@"those who have been called-out\rthe Church",
+                           @"definition":@"The word ecclesia was originally a term used to desribe the legislature of the Athenian City-State; from the Greek called-out assembly ",
                            @"category":@"Biblical"}];
 
     
@@ -1153,7 +1153,7 @@
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Emmanuel",
-                           @"twitterDef":@"a Hebrew word meaning\rGod is with us",
+                           @"twitterDef":@"“God is with us”",
                            @"definition":@"This word is used as a name for the child born as a sign to King Ahaz in Isaiah 7:14 that the northern alliance between Assyria and Israel will not defeat Judah. The author of the gospel of Matthew uses it as a prediction of the birth of Jesus",
                            @"category":@"Biblical"}];
     
@@ -1225,23 +1225,23 @@
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Ex Cathedra",
-                           @"twitterDef":@"a Latin phrase meaning\rfrom the chair",
+                           @"twitterDef":@"a teaching from the chair of Peter",
                            @"definition":@"When the Pope teaches ex cathedra, his teaching is considered binding",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Ex Nihilo",
-                           @"twitterDef":@"a Latin phrase meaning\r“out of nothing”",
+                           @"twitterDef":@"“the act of God creating from nothing”",
                            @"definition":@"The phrase Ex Nihilo is used to express the belief that God created the Universe out of nothing.\r\rFurther Reference:\rCatechism of the Catholic Church, 296\rhttp://tinyurl.com/6kvj6.",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Ex Opere Operato",
-                           @"twitterDef":@"a Latin phrase meaning\r“from the work, worked”",
-                           @"definition":@"The idea that a Sacrament's efficacy is not related to a celebrant's personal holiness.\r\rFurther Reference:\rCatechism of the Catholic Church, 1128\rhttp://tinyurl.com/cmes38",
+                           @"twitterDef":@"the idea that a Sacrament's efficacy is not related to a celebrant's personal holiness",
+                           @"definition":@"a Latin phrase meaning\r“from the work, worked”\r\rFurther Reference:\rCatechism of the Catholic Church, 1128\rhttp://tinyurl.com/cmes38",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Ex Opere Operantis",
-                           @"twitterDef":@"a Latin phrase meaning\rfrom the work of the worker",
-                           @"definition":@"This phrase refers to the emphasis on the subjective character of the celebrant. In the Catholic tradition, it does not affect the validity of the Sacraments. See Ex Opere Operato.",
+                           @"twitterDef":@"the idea that a Sacrament's efficacy is related to the celebrant's personal holiness",
+                           @"definition":@"This phrase refers to the emphasis on the subjective character of the celebrant. In the Catholic tradition, it does not affect the validity of the Sacraments. a Latin phrase meaning\rfrom the work of the worker....See Ex Opere Operato.",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Excommunication",
@@ -1255,8 +1255,6 @@
                            @"category":@"Systematic"}];
 
 
-
-    
     [TAWord wordWithDict:@{@"name":@"Eisegesis",
                            @"twitterDef":@"intepreting a text by importing one's own presuppositions",
                            @"definition":@"Eisegesis is the opposite of exegesis; from the Greek εις (eis) - “into” and αγω (ago) - “to go”.\r\rFurther Reference:\rFelix Just S.J., “Biblical Exegeis”\rhttp://tinyurl.com/k3u6rma",
@@ -1268,7 +1266,7 @@
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Elohim",
-                           @"twitterDef":@"the Hebrew word for “gods”, “God”, or “angels”",
+                           @"twitterDef":@"“gods”, “God”, or “angels”",
                            @"definition":@"The plural of “El”, “Elohim” can refer to the gods of particular peoples, such as the “Elohim of Babylon”, but came to be used as a singular term referring to the God of Israel, with accompanying singular verbs and adjectives, seemingly accompanying the rise of monotheism among the Israelites. In later Biblical usage it can also refer to “heavenly beings” such as angels.\r\rFurther Reference:\rWikipedia, “Elohim”\rhttp://tinyurl.com/yv38ap",
                            @"category":@"Biblical"}];
     
@@ -1278,12 +1276,12 @@
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Epistle",
-                           @"twitterDef":@"a word meaning\r“letter”",
+                           @"twitterDef":@"a letter or note",
                            @"definition":@"The New Testament contains 21 letters written from apostles or apostolic associates, but mostly from Paul. The Apostolic Fathers contain various epistles as well from Ignatius of Antioch, Polycarp, Barnabas, and Diognetus.\r\rFurther Reference:\rWikipedia, “Epistle”\rhttp://tinyurl.com/6h68vhn",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Eros",
-                           @"twitterDef":@"the Greek word meaning\r“physical love”",
+                           @"twitterDef":@"physical & attractive love\ror the desire to possess",
                            @"definition":@"Eros is used to refer especially to physical love, or the love that passionately desires to possess; from the Greek, ερος.\r\rFurther Reference:\rWikipedia, “Eros”\rhttp://tinyurl.com/mw6ea3v",
                            @"category":@"Moral"}];
     
@@ -1338,12 +1336,12 @@
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Explanandum",
-                           @"twitterDef":@"a Latin word meaning\r“that which is explained by something else”",
+                           @"twitterDef":@"that which is explained by something else",
                            @"definition":@"In the study of Logic, the explanandum is always explained by something else.\r\rFurther Reference:\r",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Explanans",
-                           @"twitterDef":@"a Latin word meaning\r“that which explains something else”",
+                           @"twitterDef":@"that which explains something else",
                            @"definition":@"In the study of Logic, the explanans always explains something else...",
                            @"category":@"Cultural"}];
     
@@ -1375,7 +1373,7 @@
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Filioque",
-                           @"twitterDef":@"a Latin word meaning\r“and the Son”",
+                           @"twitterDef":@"“and the Son”",
                            @"definition":@"The Filioque phrase became a source of contention between the Eastern and Western churches after ...",
                            @"category":@"Historical"}];
     
@@ -1457,7 +1455,7 @@
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Genre",
-                           @"twitterDef":@"a french word meaning\r“the literary form of a text”",
+                           @"twitterDef":@"the literary form of a text",
                            @"definition":@"A French word referring to the literary form of a text.\r\rFurther Reference:\rWikipedia, Genre http://tinyurl.com/gsh83",
                            @"category":@"Biblical"}];
     
@@ -1477,7 +1475,7 @@
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Glossolalia",
-                           @"twitterDef":@"a Greek word meaning\rspeaking in new languages",
+                           @"twitterDef":@"the act of speaking in new languages",
                            @"definition":@"According to Paul in 1 Corinthians, glossolalia was a spiritual gift manifested in liturgical worship...",
                            @"category":@"Biblical"}];
     
@@ -1534,7 +1532,7 @@
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Hallelujah",
-                           @"twitterDef":@"a Hebrew word meaning\rpraise YHWH",
+                           @"twitterDef":@"“Praise YHWH”",
                            @"definition":@"Hallelujah occurs frequently throughout the Old Testament, especially in the Psalms",
                            @"category":@"Liturgical"}];
 
@@ -1600,7 +1598,7 @@
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Hesed",
-                           @"twitterDef":@"the Hebrew word meaning\rloving kindness",
+                           @"twitterDef":@"loving kindness\rand covenant faithfulness",
                            @"definition":@"Hesed occurs predominantly in the Psalms, where it is used to refer to YHWH's covenant faithfulness; from the Hebrew word    . ",
                            @"category":@"Biblical"}];
     
@@ -1656,13 +1654,13 @@
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Homoiousios",
-                           @"twitterDef":@"a Greek word meaning\rof similar substance",
+                           @"twitterDef":@"of similar substance",
                            @"definition":@"The first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
                            @"category":@"Historical"}];
 
     
     [TAWord wordWithDict:@{@"name":@"Homoousios",
-                           @"twitterDef":@"a Greek word meaning\rof the same substance",
+                           @"twitterDef":@"of the same substance",
                            @"definition":@"The first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
                            @"category":@"Historical"}];
     
@@ -1819,7 +1817,7 @@
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Kenosis",
-                           @"twitterDef":@"a Greek word meaning\r“the process of emptying”",
+                           @"twitterDef":@"the process of emptying",
                            @"definition":@"A form of the word “kenosis” is used by Paul in his letter to the Philippians to describe the self-emptying of Jesus.\r\rFurther Reference:\rWikipedia, “Kenosis”\rhttp://tinyurl.com/64v89e",
                            @"category":@"Systematic"}];
     
@@ -1834,17 +1832,17 @@
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Kerygma",
-                           @"twitterDef":@"a Greek word meaning\r“proclamation”",
+                           @"twitterDef":@"the Apostolic proclamation of the Gospel",
                            @"definition":@"The New Testament uses this word to describe the Apostolic proclamation of the the Gospel.",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Koinonia",
-                           @"twitterDef":@"a Greek word meaning\r“communion”",
+                           @"twitterDef":@"communion or participation",
                            @"definition":@"The New Testament uses this word to describe the spiritual unity that exists between Christians and Christ...",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Kyrie Eleison",
-                           @"twitterDef":@"a Greek phrase meaning\r“Lord, have mercy.”",
+                           @"twitterDef":@"a liturgical phrase meaning\r“Lord, have mercy.”",
                            @"definition":@"The Kyrie Eleison is used during the ",
                            @"category":@"Biblical"}];
 
@@ -1867,7 +1865,7 @@
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Latria",
-                           @"twitterDef":@"a Greek word meaning\r“worship”",
+                           @"twitterDef":@"worship of God",
                            @"definition":@"In contrast to dulia, latria refers to worship of God alone. See Dulia.",
                            @"category":@"Liturgical"}];
     
@@ -1887,12 +1885,12 @@
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Lectio Divina",
-                           @"twitterDef":@"a Latin phrase meaning\r“Divine reading”",
+                           @"twitterDef":@"the prayerful reading of Sacred Scripture",
                            @"definition":@"The New Testament uses this word to describe the Apostolic proclamation of the the Gospel.",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Lectionary",
-                           @"twitterDef":@"a Greek word meaning\r“proclamation”",
+                           @"twitterDef":@"the schedule of biblical passages\rread throughout the liturgical year",
                            @"definition":@"The New Testament uses this word to describe the Apostolic proclamation of the the Gospel.",
                            @"category":@"Liturgical"}];
     
@@ -2025,7 +2023,7 @@
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Matins",
-                           @"twitterDef":@"the Latin word for morning prayer",
+                           @"twitterDef":@"the traditional term for morning prayer",
                            @"definition":@"See Morning Prayer",
                            @"category":@"Liturgical"}];
     
@@ -2286,12 +2284,12 @@
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Orthodox",
-                           @"twitterDef":@"a Greek word meaning “straight belief”",
+                           @"twitterDef":@"straight or correct belief",
                            @"definition":@"A Greek word meaning 'straight belief.\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Orthopraxis",
-                           @"twitterDef":@"a Greek word meaning “straight practice”",
+                           @"twitterDef":@"straight or correct practice",
                            @"definition":@"a Greek word meaning 'straight practice.\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     

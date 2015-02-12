@@ -425,7 +425,7 @@
     MapDetailViewController *mapDetail = [[self storyboard]
     instantiateViewControllerWithIdentifier:@"MapDetailViewController"];
     
-    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Map"
+    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Maps"
                                                                    style:UIBarButtonItemStylePlain target:nil action:nil];
     self.navigationItem.backBarButtonItem = backButton;
     
@@ -603,6 +603,7 @@ MapDetailViewController.currentWordDetail = word;
                                       
                                       BiblicalPins *jericho = [[BiblicalPins alloc] init];
                                       jericho.coordinate = CLLocationCoordinate2DMake(31.8500, 35.4500);
+                                      jericho.image = [UIImage imageNamed:@"jericho"]; 
                                       jericho.title = @"Jericho";
                                       jericho.subtitle = @"Joshua 6";
                                       
