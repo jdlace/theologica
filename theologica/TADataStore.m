@@ -163,8 +163,8 @@
     
     //A
     [TAWord wordWithDict:@{@"name":@"Abba",
-                           @"twitterDef":@"Papa or Daddy",
-                           @"definition":@"This Aramaic term was by Jesus in prayer to God according to the gospels. Paul claims that Christians also use the term because of their filial adoption; “Because you are sons, God has sent the Spirit of his Son into our hearts, crying, “Abba! Father!” (Gal 4:6); from the Aramaic, אבא (abba). See “Adoption”.\r\rFurther Reference:\rCatechism of the Catholic Church, 683\rhttp://tinyurl.com/pqxxm8l",
+                           @"twitterDef":@"the Aramaic word for “Father”\rused by Jesus to refer to God in prayer",
+                           @"definition":@"This Aramaic term was by Jesus in prayer to God according to the gospels. Paul claims that Christians also use the term because of their filial adoption; “Because you are sons, God has sent the Spirit of his Son into our hearts, crying, “Abba! Father!” (Gal 4:6); from the Aramaic, אַבָּא (abba). See “Adoption”.\r\rFurther Reference:\rCatechism of the Catholic Church, 683\rhttp://tinyurl.com/pqxxm8l",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Ablution",
@@ -174,8 +174,8 @@
 
     
     [TAWord wordWithDict:@{@"name":@"Adonai",
-                           @"twitterDef":@"Master or Ruler",
-                           @"definition":@"This term is used as a synonym for YHWH in the Bible and in contemporary Judaism; from the Hebrew, אֲדֹנָי (adonai). See “YHWH”.\r\rFurther Reference:\rCatechism of the Catholic Church, 209\rhttp://tinyurl.com/bruqt9r",
+                           @"twitterDef":@"the Hebrew word for “Master” or “Ruler”\rsubstituted for YHWH in the Tanak",
+                           @"definition":@"This term is used as a synonym for YHWH in the Bible and in contemporary Judaism; from the Hebrew, אֲדֹנָי. See “YHWH”.\r\rFurther Reference:\rCatechism of the Catholic Church, 209\rhttp://tinyurl.com/bruqt9r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Aseity",
@@ -190,7 +190,7 @@
 
     
     [TAWord wordWithDict:@{@"name":@"Anawim",
-                           @"twitterDef":@"the poor and marginalized\rin ancient Israel",
+                           @"twitterDef":@"the Hebrew word for “the oppressed”\rused in the Tanak for the marginalized",
                            @"definition":@"This term is used in the Hebrew Bible to refer to those who are poor, destitue, and marginalized who trust completely in the mercy of God (Is. 10:2, Zeph 2:3); frequently used in the Psalms.\r\rFurther Reference:\rJohn Paul II, General Audience, 5/23/2001\rhttp://tinyurl.com/lyfphvo",
                            @"category":@"Biblical"}];
     
@@ -238,8 +238,8 @@
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Aqeda",
-                           @"twitterDef":@"the binding and offering of\rIsaac by Abraham",
-                           @"definition":@"The story of the binding and near-sacrifice of Isaac by Abraham - from Hebrew word for “binding”. According to Richard Elliot Freidman, the Aqedah is mostly an Elohist Source story with a very different original ending that was amended by the Redactor of the Torah.\r\rFurther Reference:\rWikipedia, “Aqeda”\rhttp://tinyurl.com/56dxyl",
+                           @"twitterDef":@"the Hebrew word for the “binding”\rof Isaac by Abraham",
+                           @"definition":@"The story of the binding and near-sacrifice of Isaac by Abraham. According to Richard Elliot Freidman, the Aqedah is mostly an Elohist Source story with a very different original ending that was amended by the Redactor of the Torah; from the Hebrew, עֲקֵידָה.\r\rFurther Reference:\rWikipedia, “Aqeda”\rhttp://tinyurl.com/56dxyl",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Aramaic",
@@ -314,12 +314,12 @@
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Agape",
-                           @"twitterDef":@"universal & unconditional love\rof and for God and neighbor",
-                           @"definition":@"The gospel writers use agape to describe Jesus' teaching on the love for God, neighbors and enemies (Matthew 5:44, 22:37, 39). It is used by later New Testament writers to describe the love of God towards humanity as seen in the sacrificial death of Jesus and even the very nature of God. The early Christians also used “agape” to refer to their communal meal after which the Eucharist was celebrated (Jude 1:12); from the Greek word, αγαπη.\r\rFurther Reference:\rPope Benedict XVI, “Deus Caritas Est”\rhttp://tinyurl.com/o6ucrd6\r\rWikipedia, “Agape”\rhttp://tinyurl.com/dbyn5s",
+                           @"twitterDef":@"the Greek word meaning “unconditional love”\rused to describe the nature of God",
+                           @"definition":@"The gospel writers use agape to describe Jesus' teaching on the love for God, neighbors and enemies (Matthew 5:44, 22:37, 39). It is used by later New Testament writers to describe the love of God towards humanity as seen in the sacrificial death of Jesus and even the very nature of God. The early Christians also used “agape” to refer to their communal meal after which the Eucharist was celebrated (Jude 1:12); from the Greek, αγαπη.\r\rFurther Reference:\rPope Benedict XVI, “Deus Caritas Est”\rhttp://tinyurl.com/o6ucrd6\r\rWikipedia, “Agape”\rhttp://tinyurl.com/dbyn5s",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Aggiornomento",
-                           @"twitterDef":@"to bring up to date;\a theme of Vatican II",
+                           @"twitterDef":@"the Italian word meaning “to update”\r used to describe a theme of Vatican II",
                            @"definition":@"As a way to describe one of its emphases, it became popular during and synonymous with the reforms of the Second Vatican Council (1962-1965). The concept was used by Pope John XXIII to describe the agenda of Vatican II. John XXIII claimed:\r\r“The greatest concern of the Ecumenical Council is this: that he sacred deposit of Christian doctrine should be guarded and taught more efficaciously...In order, however, that this doctrine may influence the numerous fields of human activity, with reference to individuals, to families, and to socia life, it is necessary first of all that the Church should never depart from the sacred patrimony of truth received from the Fathers. But at the same time she must ever look to the present, to the new conditions and new forms of life introduced into the modern world, which have opened new avenues to the Catholic apostolate...which, however, should be studied and expounded through the methods of research and through the literary forms of modern thought. The substance of the ancient doctrine of the deposit of faith is one thing, and the way in which it is presented is another. And it is the latter that must be taken into great consideration with patience if necessary,everything being measured in the forms and proportions of a magisterium which is predominantly pastoral in character.”\r\rFurther Reference:\rWikipedia, “Aggiornomento”\rhttp://tinyurl.com/k6y4ylh",
                            @"category":@"Systematic"}];
     
@@ -344,7 +344,7 @@
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Apocatastasis",
-                           @"twitterDef":@"the restoration of all things in Christ",
+                           @"twitterDef":@"the Greek word meaningthe restoration of all things in Christ",
                            @"definition":@"This term only occurs in the New Testament in Acts 3:21, wherein Peter refers to the state of creation in the Messianic Age. Later in the Patristic era, Origen used it to the belief that, at the eschaton, God will restore all creation back into full Divine communion; from the Greek word αποκαταστασις.\r\rFurther Reference:\rWikipedia, “Apocatastasis”\rhttp://tinyurl.com/n8txupj",
                            @"category":@"Systematic"}];
     
@@ -400,7 +400,7 @@
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Amen",
-                           @"twitterDef":@"may it be so;\rtruthfulness or certainty",
+                           @"twitterDef":@"the Hebrew word meaning “may it be so”;\rused to denote truthfulness or certainty",
                            @"definition":@"The Amen is traditionally said after a prayer as a form of agreement. It derives from Jewish use in the synagogue and later in the New Testament where it is used to indicate the truthfulness of what is said.\r\rFurther Reference:\rCatechism of the Catholic Church, 1061\rhttp://tinyurl.com/k3f2f8p",
                            @"category":@"Liturgical"}];
     
@@ -415,7 +415,7 @@
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Anathema",
-                           @"twitterDef":@"the state of being excommunicated",
+                           @"twitterDef":@"the Greek word meaning “off limits”;\rthe state of being excommunicated",
                            @"definition":@"Over time, Anathema came to refer to those who were accursed or banished from the community; from the Greek, αναθεμα (anathema) “placed off limits”\r\rFurther Reference:\rNew Advent, “Anathema”\rhttp://tinyurl.com/o5fl88l",
                            @"category":@"Systematic"}];
     
@@ -590,7 +590,7 @@
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Babel",
-                           @"twitterDef":@"confusion;\rthe name of the tower in Genesis 11:1-9",
+                           @"twitterDef":@"the Hebrew word meaning “confusion”;\rthe name of the tower in Genesis 11:1-9",
                            @"definition":@"As an etiology, this story explains both how human language became divided as well as the geographic distribution of human populations.\r\rFurther Reference:\rCatechism of the Catholic Church, 57\rhttp://tinyurl.com/k6ljesq",
                            @"category":@"Biblical"}];
     
@@ -733,8 +733,8 @@
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Canon",
-                           @"twitterDef":@"an authoritative standard or criterion\r within a community",
-                           @"definition":@"Saints are canonized by the Church as standards by which Catholics may judge their lives. The Bible is referred to as the canon of the Scriptures that provide criteria for faith and practice; from the Greek κανον, “measuring stick”. See “Sacred Scripture” in the Overview tab.\r\rFurther Reference:\rCatechism of the Catholic Church, 120. http://tinyurl.com/kvc3tvq\r\rPontifical Biblical Commission, “The Interpretation of the Bible in the Church, III.B” http://tinyurl.com/2gb5dm ",
+                           @"twitterDef":@"the Greek word for “measuring stick”\rused to refer to a criterion or standard",
+                           @"definition":@"Saints are canonized by the Church as standards by which Catholics may judge their lives. The Bible is referred to as the canon of the Scriptures that provide criteria for faith and practice; from the Greek, κανον. See “Sacred Scripture” in the Overview tab.\r\rFurther Reference:\rCatechism of the Catholic Church, 120. http://tinyurl.com/kvc3tvq\r\rPontifical Biblical Commission, “The Interpretation of the Bible in the Church, III.B” http://tinyurl.com/2gb5dm ",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Catholic",
@@ -892,7 +892,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Circumcision",
                            @"twitterDef":@"the ritual cutting of the male foreskin",
-                           @"definition":@"The ritual cutting of the male foreskin; the sign of the covenant according to the Priestly author, described in Genesis 17.\r\rFurther Reference:\r",
+                           @"definition":@"Circumcision is the essential sign of the covenant according to the Priestly Source in Genesis 17.\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Codex",
@@ -1007,8 +1007,8 @@
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Dogma",
-                           @"twitterDef":@"a doctrine that has been infallibly defined",
-                           @"definition":@"A dogma in the Catholic tradition is a subset of Church doctrine. It refers to a divinely revealed truth that has been defined infallibly; from the Greek, “opinion or belief”\r\rFurther Reference:\rCatechism of the Catholic Church, 88\rhttp://tinyurl.com/bx8mnlu",
+                           @"twitterDef":@"the Greek word for “opinion” used for\ra doctrine that has been infallibly defined",
+                           @"definition":@"A dogma in the Catholic tradition is a subset of Church doctrine. It refers to a divinely revealed truth that has been defined infallibly; from the Greek, δογμα.\r\rFurther Reference:\rCatechism of the Catholic Church, 88\rhttp://tinyurl.com/bx8mnlu",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Decalogue",
@@ -1017,7 +1017,7 @@
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Dei Verbum",
-                           @"twitterDef":@"one of the four dogmatic constitutions\rof Vatican II",
+                           @"twitterDef":@"the dogmatic constitution of Vatican II\rdescribing the Church's belief in Divine revelation ; ",
                            @"definition":@"Dei Verbum is the most definitive statement on the Church's belief in Divine revelation, the Scriptures and Tradition. “Word of God”\\r\rFurther Reference:\rDogmatic Constitution on Divine Revelation\rhttp://tinyurl.com/3ecxu",
                            @"category":@"Biblical"}];
     
@@ -1108,8 +1108,8 @@
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Dulia",
-                           @"twitterDef":@"veneration of the Saints",
-                           @"definition":@"In contrast to latria, dulia refers to veneration that is appropriate for the Saints; from the Greek “veneration”.\r\rFurther Reference:\r",
+                           @"twitterDef":@"the Greek word meaning “veneration”;\rusually of the Saints",
+                           @"definition":@"In contrast to latria, dulia refers to veneration that is appropriate for the Saints; from the Greek, δυλια.\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     //E
@@ -1131,7 +1131,7 @@
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Ecclesia",
-                           @"twitterDef":@"those who have been called-out\rthe Church",
+                           @"twitterDef":@"the Greek word meaning\r“those who have been called-out”; the Church",
                            @"definition":@"The word ecclesia was originally a term used to desribe the legislature of the Athenian City-State; from the Greek called-out assembly.\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
 
@@ -1147,8 +1147,8 @@
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Emmanuel",
-                           @"twitterDef":@"“God is with us”",
-                           @"definition":@"This word is used as a name for the child born as a sign to King Ahaz in Isaiah 7:14 that the northern alliance between Assyria and Israel will not defeat Judah. The author of the gospel of Matthew uses it as a prediction of the birth of Jesus.\r\rFurther Reference:\r",
+                           @"twitterDef":@"a Hebrew word meaning “God is with us”\rapplied to Jesus in the Gospel of Matthew",
+                           @"definition":@"This word is used as a name for the child (likely Hezekiah) born as a sign to King Ahaz in Isaiah 7:14 that the northern alliance between Assyria and Israel will not defeat Judah. The author of the gospel of Matthew uses it as a prediction of the birth of Jesus.\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Enlightenment",
