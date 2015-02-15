@@ -163,45 +163,45 @@
     
     //A
     [TAWord wordWithDict:@{@"name":@"Abba",
-                           @"twitterDef":@"the Aramaic word for “Father”\rused by Jesus to refer to God in prayer",
-                           @"definition":@"This Aramaic term was by Jesus in prayer to God according to the gospels. Paul claims that Christians also use the term because of their filial adoption; “Because you are sons, God has sent the Spirit of his Son into our hearts, crying, “Abba! Father!” (Gal 4:6); from the Aramaic, אַבָּא (abba). See “Adoption”.\r\rFurther Reference:\rCatechism of the Catholic Church, 683\rhttp://tinyurl.com/pqxxm8l",
+                           @"twitterDef":@"the Aramaic word meaning\r“Father” or “Daddy”",
+                           @"definition":@"\rAccording to all four Gospels, this term was by Jesus to refer to God in prayer. Paul claims that Christians also use the term because of their filial adoption; “Because you are sons, God has sent the Spirit of his Son into our hearts, crying, “Abba! Father!” (Gal 4:6). See “Adoption”.\r\rAramaic, אַבָּא (abba)\r\rFurther Reference:\rCatechism of the Catholic Church, 683\rhttp://tinyurl.com/pqxxm8l",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Ablution",
                            @"twitterDef":@"the cleansing of the paten and chalice\rafter the Eucharist",
-                           @"definition":@"Ablution can be traces a distinct liturgical practice back to the mikvah in Judaism.\r\rFurther Reference:\rWikipedia, “Ablution in Christianity”\rhttp://tinyurl.com/mhg6d57",
+                           @"definition":@"\rAblution can be traced as a distinct liturgical practice back to the mikvah in Judaism, which was a ceremonial washing required for ritual cleanliness.\r\rFurther Reference:\rWikipedia, “Ablution in Christianity”\rhttp://tinyurl.com/mhg6d57",
                            @"category":@"Liturgical"}];
 
     
     [TAWord wordWithDict:@{@"name":@"Adonai",
-                           @"twitterDef":@"the Hebrew word for “Master” or “Ruler”\rsubstituted for YHWH in the Tanak",
-                           @"definition":@"This term is used as a synonym for YHWH in the Bible and in contemporary Judaism; from the Hebrew, אֲדֹנָי. See “YHWH”.\r\rFurther Reference:\rCatechism of the Catholic Church, 209\rhttp://tinyurl.com/bruqt9r",
+                           @"twitterDef":@"the Hebrew word meaning\r“Master” or “Ruler”",
+                           @"definition":@"\rThis term is used as a substitute reference to YHWH in the Tanak and in contemporary Judaism out of respect for the Tetragrammaton. See “Tanak”, “YHWH”, “Tetragrammaton”.\r\rHebrew, אֲדֹנָי (adonai)\r\rFurther Reference:\rCatechism of the Catholic Church, 209\rhttp://tinyurl.com/bruqt9r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Aseity",
                            @"twitterDef":@"the necessary character of\rGod's existence",
-                           @"definition":@"Aesity is a term using in so called Perfect-Being theology in which God is described as being the most perfect Being in regard to several qualities.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy, “Divine Simplicity”\rhttp://tinyurl.com/3ttzn3g",
+                           @"definition":@"\rAesity is a term using in so called Perfect-Being theology in which God is described as being the most perfect Being in regard to several qualities.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy, “Divine Simplicity”\rhttp://tinyurl.com/3ttzn3g",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Angelus",
-                           @"twitterDef":@"a prayer based on the Annunciation\rthat celebrates the Incarnation",
-                           @"definition":@"The Angelus is prayed every Sunday at noon by the Pope in St. Peter's Square. See “Incarnation”, “Annunciation”.\r\rFurther Reference:\rWikipedia, “Angelus”\rhttp://tinyurl.com/nxzg53",
+                           @"twitterDef":@"an antiphonal prayer inspired\rby the story of the Annunciation",
+                           @"definition":@"\rThe Angelus is prayed every Sunday at noon by the Pope in St. Peter's Square.\r\rV. The angel of the Lord declared unto Mary,\rR. And she conceived of the Holy Spirit.\rV. Behold the handmaid of the Lord.\r\rR. Let it be unto me according to thy word.\rV. And the Word was made flesh.\rR. And dwelt among us.\rV. Hail Mary, full of grace; the Lord is with Thee: blessed art thou amongst women, and blessed is the fruit of thy womb, Jesus.\rR. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen.\rV. Pray for us, O Holy Mother of God.\rR. That we might be made worthy of the promises of Christ.\rV. Let us pray: Pour forth, we beseech Thee, Lord, Thy grace into our hearts; that, we, to whom the Incarnation of Christ, Thy Son, was known by the message of an angel, may, by His Passion and Cross, be brought to the glory of His Resurrection, through the same Christ our Lord,\rR. Amen.\r\rSee “Incarnation”, “Annunciation”.\r\rFurther Reference:\rWikipedia, “Angelus”\rhttp://tinyurl.com/nxzg53",
                            @"category":@"Moral"}];
 
     
     [TAWord wordWithDict:@{@"name":@"Anawim",
-                           @"twitterDef":@"the Hebrew word for “the oppressed”\rused in the Tanak for the marginalized",
-                           @"definition":@"This term is used in the Hebrew Bible to refer to those who are poor, destitue, and marginalized who trust completely in the mercy of God (Is. 10:2, Zeph 2:3); frequently used in the Psalms.\r\rFurther Reference:\rJohn Paul II, General Audience, 5/23/2001\rhttp://tinyurl.com/lyfphvo",
+                           @"twitterDef":@"the Hebrew word meaning\r“the oppressed”",
+                           @"definition":@"\rThis term is used in the Hebrew Bible to refer to those who are poor, destitue, and marginalized who trust completely in the mercy of God (Is. 10:2, Zeph 2:3); frequently used in the Psalms.\r\rHebrew, עֲנָוִים (anawim)\r\rFurther Reference:\rJohn Paul II, General Audience, 5/23/2001\rhttp://tinyurl.com/lyfphvo",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Anthropomorphism",
                            @"twitterDef":@"the process of attributing human characteristics to an object",
-                           @"definition":@"God is described in human terms throughout the Christian tradition, and especially within the Scriptures. The Yahwist Source uses anthropomorphism extensively in its portrayal of YHWH in the Torah. Such language is, however, ultimately, only analogous to God. See “Analogy”, “Yahwist Source”, “YHWH”.\r\rFurther Reference:\rWikipedia, “Anthropomorphism”\rhttp://tinyurl.com/ffpra",
+                           @"definition":@"\rGod is described in human terms throughout the Christian tradition, and especially within the Scriptures. The Yahwist Source uses anthropomorphism extensively in its portrayal of YHWH in the Torah. Such language is, however, ultimately, only analogous to God. See “Analogy”, “Yahwist Source”, “YHWH”.\r\rFurther Reference:\rWikipedia, “Anthropomorphism”\rhttp://tinyurl.com/ffpra",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Annunciation",
                            @"twitterDef":@"the angelic declaration to Mary\rthat she would bear the Son of God",
-                           @"definition":@"The Annunciation is found in the Gospel of Luke 1:26-38. Further Reference:\rCatechism of the Catholic Church, 484\rhttp://tinyurl.com/3w9q9aw",
+                           @"definition":@"\rThe Annunciation is found in the Gospel of Luke 1:26-38.\r\rFurther Reference:\rCatechism of the Catholic Church, 484\rhttp://tinyurl.com/3w9q9aw",
                            @"category":@"Biblical"}];
 
     
@@ -213,17 +213,17 @@
     
     [TAWord wordWithDict:@{@"name":@"Apocalypse",
                            @"twitterDef":@"1. the revelation of something hidden\r2. the last book of the New Testament",
-                           @"definition":@"Paul uses this word to refer to his experience of the risen Jesus. The Apocalypse (or Revelation) of John describes a vision of Jesus Christ about the end of the word, previously hidden from the Church's knowledge; from the Greek word, αποκαλυπσις (apokalypsis) “unveiling”.\r\rFurther Reference:\rCatechism of the Catholic Church, 120\rhttp://tinyurl.com/kvc3tvq",
+                           @"definition":@"\rPaul uses this word to refer to his experience of the risen Jesus. The Apocalypse (or Revelation) of John describes a vision of Jesus Christ about the end of the word, previously hidden from the Church's knowledge.\r\rGreek, ἀποκάλυψις (apokalypsis) “unveiling”\r\rFurther Reference:\rCatechism of the Catholic Church, 120\rhttp://tinyurl.com/kvc3tvq",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Apocrypha",
-                           @"twitterDef":@"the 7 books excluded from the Protestant Bible",
-                           @"definition":@"Apocrypha is the Protestant term for the 7 Old Testament books not found in the Protestant canon; Baruch, Judith, 1st and 2nd Maccabees, Sirach, Tobit, Wisdom - from the Greek, αποκρυφος (apokryphos) “hidden”.\r\rWikipedia, “Apocrypha”\rhttp://tinyurl.com/bddlr",
+                           @"twitterDef":@"the 7 books excluded from\rthe Protestant Bible",
+                           @"definition":@"\rApocrypha is the Protestant term for the 7 Old Testament books not found in the Protestant canon; Baruch, Judith, 1st and 2nd Maccabees, Sirach, Tobit, Wisdom. See “Canon”, “Old Testament”.\r\rGreek, ἀπόκρυφος (apokryphos) “hidden”\r\rFurther Reference:\rWikipedia, “Apocrypha”\rhttp://tinyurl.com/bddlr",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Apodictic",
-                           @"twitterDef":@"1. beyond dispute\r2. a type of law based on universal norms",
-                           @"definition":@"Apodictic law are those such as the 10 Commandments. It is universally binding at all times and places. See Exodus 20, “Decalogue”\r\rFurther Reference:\rWikipedia, “Apodicticity”\rhttp://tinyurl.com/k7u8mkr",
+                           @"twitterDef":@"a type of law based on universal norms",
+                           @"definition":@"\rApodictic law is that such as found in the 10 Commandments;universally binding at all times and places. It is contrasted with Casuistic law. See Exodus 20, “Decalogue”, “Casusitic”.\r\rFurther Reference:\rWikipedia, “Apodicticity”\rhttp://tinyurl.com/k7u8mkr",
                            @"category":@"Biblical"}];
     
     /*
@@ -233,18 +233,18 @@
      */
     
     [TAWord wordWithDict:@{@"name":@"Apostle",
-                           @"twitterDef":@"a disciple personally commissioned by Jesus",
-                           @"definition":@"The term Apostle is normally used to refer to the Twelve appointed from a larger group of disciples. It is also used by Paul to refer to anyone who had seen the risen Christ; from the Greek word αποστολος (apostolos) “delegate”.\r\rFurther Reference:\r“Disciples and Apostles in the New Testament” by Felix Just, S.J.\rhttp://tinyurl.com/mzcbt37",
+                           @"twitterDef":@"a disciple personally commissioned\rby Jesus",
+                           @"definition":@"\rThis term is normally used to refer to the Twelve appointed from a larger group of disciples. It is also used by Paul to refer to anyone who had seen the risen Christ.\r\rGreek, αποστολος (apostolos) “delegate”\r\rFurther Reference:\r“Disciples and Apostles in the New Testament” by Felix Just, S.J.\rhttp://tinyurl.com/mzcbt37",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Aqeda",
-                           @"twitterDef":@"the Hebrew word for the “binding”\rof Isaac by Abraham",
-                           @"definition":@"The story of the binding and near-sacrifice of Isaac by Abraham. According to Richard Elliot Freidman, the Aqedah is mostly an Elohist Source story with a very different original ending that was amended by the Redactor of the Torah; from the Hebrew, עֲקֵידָה.\r\rFurther Reference:\rWikipedia, “Aqeda”\rhttp://tinyurl.com/56dxyl",
+                           @"twitterDef":@"the Hebrew word meaning the “binding”\rof Isaac by Abraham",
+                           @"definition":@"\rThe story of the binding and near-sacrifice of Isaac by Abraham. According to Richard Elliot Freidman, the Aqedah is mostly an Elohist Source story with a very different original ending that was amended by the Redactor of the Torah.\r\rHebrew, עֲקֵידָה (aqeda)\r\rFurther Reference:\rWikipedia, “Aqeda”\rhttp://tinyurl.com/56dxyl",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Aramaic",
                            @"twitterDef":@"a Semitic language similar to Hebrew",
-                           @"definition":@"Aramaic was the native language of the historical Jesus.\r\rFurther Reference:\rWikipedia, “Aramaic”\rhttp://tinyurl.com/y2okx9",
+                           @"definition":@"\rAramaic was the native language of the historical Jesus.\r\rFurther Reference:\rWikipedia, “Aramaic”\rhttp://tinyurl.com/y2okx9",
                            @"category":@"Biblical"}];
     
     /*
@@ -259,38 +259,38 @@
     
     [TAWord wordWithDict:@{@"name":@"Asherah",
                            @"twitterDef":@"the Canaanite mother goddess\r& wife of El",
-                           @"definition":@"In Canaanite mythology, the wife of El and the goddess of fertility; mentioned numerous times throughout the Old Testament; according to 2 Kings 23:4 a large Asherah statue was housed in the Temple and dressed by her cult's prostitutes before Josiah's Deuteronomic reform.\r\rFurther Reference:\rWikipedia, “Asherah”\rhttp://tinyurl.com/6qf2tt",
+                           @"definition":@"\rIn Canaanite mythology, Asherah is the wife of El and the goddess of fertility. She is mentioned numerous times throughout the Old Testament. According to 2 Kings 23:4 a large Asherah statue was housed in the Temple and dressed by her cult's prostitutes before Josiah's Deuteronomic reform.\r\rFurther Reference:\rWikipedia, “Asherah”\rhttp://tinyurl.com/6qf2tt",
                            @"category":@"Biblical"}];
     
     
     [TAWord wordWithDict:@{@"name":@"Assyria",
-                           @"twitterDef":@"the empire that conquered the northen kingdom of Israel in 722 B.C.",
-                           @"definition":@"One of the numerous Mesopotamian empires in the ancient world which conquered the northern kindgom of Israel in 722 B.C.\r\rFurther Reference:\rWikipedia, “Assyria”\rhttp://tinyurl.com/2allao",
+                           @"twitterDef":@"the empire that conquered the northen kingdom\rof Israel in 722 B.C.",
+                           @"definition":@"\rOne of the numerous Mesopotamian empires in the ancient world which conquered the northern kindgom of Israel in 722 B.C.\r\rFurther Reference:\rWikipedia, “Assyria”\rhttp://tinyurl.com/2allao",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Abortion",
                            @"twitterDef":@"the willful killing of a human being in utero",
-                           @"definition":@"In the Catholic tradition, human beings are regarded as sacred from the moment of conception. The death of an unborn child as a consequence of other procedures deemed good in themselves is not considered an abortion per se but rather a consequence of the principle of double-effect.\r\rThe Catholic tradition is consistent in its classification of abortion as a grave sin, the willful commision of which incurs an automatic excommunication. Abortion was legalized in the United States in 1973 by the Supreme Court in Roe v. Wade. See “Principle of Double-Effect”, “Roe v. Wade”\r\rFurther Reference:\rCatechism of the Catholic Church, 2270\rhttp://tinyurl.com/dh7r\r\rWikipedia, “Roe v. Wade”\rhttp://tinyurl.com/aqq5j",
+                           @"definition":@"\rIn the Catholic tradition, human beings are regarded as sacred from the moment of conception. The death of an unborn child as a consequence of other procedures deemed good in themselves is not considered an abortion per se but rather a consequence of the principle of double-effect.\r\rThe Catholic tradition is consistent in its classification of abortion as a grave sin, the willful commision of which incurs an automatic excommunication. Abortion was legalized in the United States in 1973 by the Supreme Court in Roe v. Wade. See “Principle of Double-Effect”, “Roe v. Wade”\r\rFurther Reference:\rCatechism of the Catholic Church, 2270\rhttp://tinyurl.com/dh7r\r\rWikipedia, “Roe v. Wade”\rhttp://tinyurl.com/aqq5j",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Abstinence",
                            @"twitterDef":@"to purposely refrain from a given activity",
-                           @"definition":@"The restraining of oneself from a given activity for the purpose of spiritual edification; traditionally applied to food and sexual activity.\r\rFurther Reference:\rCatechism of the Catholic Church, 2043\rhttp://tinyurl.com/l56b6h4",
+                           @"definition":@"\rAbstinence is ultimately aimed at the higher purpose of spiritual edification. In the Catholic tradition, it is usually applied to food and sexual activity. Ash Wednesday and Good Friday are two Days of Abstinence in the Western Church.\r\rFurther Reference:\rCatechism of the Catholic Church, 2043\rhttp://tinyurl.com/l56b6h4",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Act",
                            @"twitterDef":@"a free act of the will",
-                           @"definition":@"In moral theology, an truly “human” act refers to actions made with freedom and will.\r\rFurther Reference:\rCatholic Moral Theology blog\rhttp://tinyurl.com/pyfcn3n",
+                           @"definition":@"\rIn moral theology, an truly “human” act refers to actions made with freedom and will.\r\rFurther Reference:\rCatholic Moral Theology blog\rhttp://tinyurl.com/pyfcn3n",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Adultery",
                            @"twitterDef":@"sexual relations with another person's spouse",
-                           @"definition":@"Marital infidelity or sexual relations between two people, one of which being married to another person.\r\rFurther Reference:\rCatechism of the Catholic Church, 2380\rhttp://tinyurl.com/cz1w ",
+                           @"definition":@"\rAdultery is prohibited by the sixth Commandment of the Decalogue. In Matthew 5:28, Jesus teaches that one should even avoid those actions that ultimately lead to adultery. See “Decalogue”.\r\rFurther Reference:\rCatechism of the Catholic Church, 2380\rhttp://tinyurl.com/cz1w ",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Absolution",
                            @"twitterDef":@"the declaration that sins are forgiven",
-                           @"definition":@"The act by which a priest declares the forgiveness of sins.\r\rFurther Reference:\rCatechism of the Catholic Church, 1424\rhttp://tinyurl.com/l7xon9e",
+                           @"definition":@"\rThe act by which a priest declares the forgiveness of sins. General absolution is not considered a Sacrament like that which is given in the Sacrament of Reconciliation.\r\rFurther Reference:\rCatechism of the Catholic Church, 1424\rhttp://tinyurl.com/l7xon9e",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Adoptionism",
@@ -300,37 +300,37 @@
     
     [TAWord wordWithDict:@{@"name":@"Accident",
                            @"twitterDef":@"a nonessential property of an object",
-                           @"definition":@"In Aristotelean philosophy, a nonessential property or quality of an object that is dependent upon the substance of the object for its existence. Thomas Aquinas used this concept to support his theory of “transubstantiation” of the Eucharist.\r\rFurther Reference:\rWikipedia, “Accident”\rhttp://tinyurl.com/88ojytv",
+                           @"definition":@"\rIn Aristotelean philosophy, a nonessential property or quality of an object that is dependent upon the substance of the object for its existence. Thomas Aquinas used this concept to support his explanation of the Real Presence in the Eucharist, called “transubstantiation”. See “Eucharist”, “Real Presence”, “Transubstantiation”.\r\rFurther Reference:\rWikipedia, “Accident”\rhttp://tinyurl.com/88ojytv",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Asceticism",
                            @"twitterDef":@"the practice of self-discipline",
-                           @"definition":@"The practice of self-discipline for a higher purpose, often involving abstinence - from the Greek word ασκησις (askesis) - “training”. See “Abstinence”.\r\rFurther Reference:\rWikipedia, “Asceticism”\rhttp://tinyurl.com/29eqh2",
+                           @"definition":@"\rThe practice of self-discipline for a higher purpose, often involving abstinence. See “Abstinence”.\r\rGreek, ασκησις (askesis) “training”\r\rFurther Reference:\rWikipedia, “Asceticism”\rhttp://tinyurl.com/29eqh2",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Adoption",
                            @"twitterDef":@"a biblical metaphor used to refer to the process of becoming a child of God",
-                           @"definition":@"In the New Testament, Paul uses this term to describe God's process of extending His family through Jesus Christ.\r\rFurther Reference:\rCatechism of the Catholic Church, 1\rhttp://tinyurl.com/o7udb4d",
+                           @"definition":@"\rIn the New Testament, Paul uses this metaphor to describe God's process of extending His family through Jesus Christ.\r\rFurther Reference:\rCatechism of the Catholic Church, 1\rhttp://tinyurl.com/o7udb4d",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Agape",
-                           @"twitterDef":@"the Greek word meaning “unconditional love”\rused to describe the nature of God",
-                           @"definition":@"The gospel writers use agape to describe Jesus' teaching on the love for God, neighbors and enemies (Matthew 5:44, 22:37, 39). It is used by later New Testament writers to describe the love of God towards humanity as seen in the sacrificial death of Jesus and even the very nature of God. The early Christians also used “agape” to refer to their communal meal after which the Eucharist was celebrated (Jude 1:12); from the Greek, αγαπη.\r\rFurther Reference:\rPope Benedict XVI, “Deus Caritas Est”\rhttp://tinyurl.com/o6ucrd6\r\rWikipedia, “Agape”\rhttp://tinyurl.com/dbyn5s",
+                           @"twitterDef":@"the Greek word meaning\r“universal & unconditional love”",
+                           @"definition":@"\rThe Gospel writers use this word to describe Jesus' teaching on the love for God, neighbors and enemies (Matthew 5:44, 22:37, 39). It is used by later New Testament writers to describe the love of God towards humanity as seen in the sacrificial death of Jesus and even the very nature of God. The early Christians also used “agape” to refer to their weekly communal meal (Jude 1:12).\r\rGreek, ἀγάπη (agape)\r\rFurther Reference:\rPope Benedict XVI, “Deus Caritas Est”\rhttp://tinyurl.com/o6ucrd6\r\rWikipedia, “Agape”\rhttp://tinyurl.com/dbyn5s",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Aggiornomento",
                            @"twitterDef":@"the Italian word meaning “to update”\r used to describe a theme of Vatican II",
-                           @"definition":@"As a way to describe one of its emphases, it became popular during and synonymous with the reforms of the Second Vatican Council (1962-1965). The concept was used by Pope John XXIII to describe the agenda of Vatican II. John XXIII claimed:\r\r“The greatest concern of the Ecumenical Council is this: that he sacred deposit of Christian doctrine should be guarded and taught more efficaciously...In order, however, that this doctrine may influence the numerous fields of human activity, with reference to individuals, to families, and to socia life, it is necessary first of all that the Church should never depart from the sacred patrimony of truth received from the Fathers. But at the same time she must ever look to the present, to the new conditions and new forms of life introduced into the modern world, which have opened new avenues to the Catholic apostolate...which, however, should be studied and expounded through the methods of research and through the literary forms of modern thought. The substance of the ancient doctrine of the deposit of faith is one thing, and the way in which it is presented is another. And it is the latter that must be taken into great consideration with patience if necessary,everything being measured in the forms and proportions of a magisterium which is predominantly pastoral in character.”\r\rFurther Reference:\rWikipedia, “Aggiornomento”\rhttp://tinyurl.com/k6y4ylh",
+                           @"definition":@"\rAs a way to describe one of its emphases, it became popular during and synonymous with the reforms of the Second Vatican Council (1962-1965). The concept was used by Pope John XXIII to describe the agenda of Vatican II. John XXIII claimed:\r\r“The greatest concern of the Ecumenical Council is this: that he sacred deposit of Christian doctrine should be guarded and taught more efficaciously...In order, however, that this doctrine may influence the numerous fields of human activity, with reference to individuals, to families, and to socia life, it is necessary first of all that the Church should never depart from the sacred patrimony of truth received from the Fathers. But at the same time she must ever look to the present, to the new conditions and new forms of life introduced into the modern world, which have opened new avenues to the Catholic apostolate...which, however, should be studied and expounded through the methods of research and through the literary forms of modern thought. The substance of the ancient doctrine of the deposit of faith is one thing, and the way in which it is presented is another. And it is the latter that must be taken into great consideration with patience if necessary,everything being measured in the forms and proportions of a magisterium which is predominantly pastoral in character.”\r\rFurther Reference:\rWikipedia, “Aggiornomento”\rhttp://tinyurl.com/k6y4ylh",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Allegory",
                            @"twitterDef":@"an interpretation that seeks\rhigher orders of meanining",
-                           @"definition":@"From the Greek word for “speaking by way of something else”, a reference to an interpretation of a text that goes beyond the literal meaning to find a deeper connection to a higher order of reality.\r\rFurther Reference:\rCatechism of the Catholic Church, 117\rhttp://tinyurl.com/kvc3tvq",
+                           @"definition":@"\rAn allegory is an interpretation of a text that goes beyond the literal meaning to find a deeper connection to a higher order of reality. In the New Testament, Paul claims that the story of Sarah and Hagar in Genesis is an allegory of those in Christ and those under the Law (Gal. 4:24).\r\rGreek, ἀλληγορία (allegoria)\r“speaking by way of something else”\r\rFurther Reference:\rCatechism of the Catholic Church, 117\rhttp://tinyurl.com/kvc3tvq",
                            @"category":@"Systematic"}];
     
-    [TAWord wordWithDict:@{@"name":@"Analogy",
-                           @"twitterDef":@"a way of comparing two kinds of things",
-                           @"definition":@"A way of probing eternal truths.\r\rFurther Reference:\rCatechism of the Catholic Church, 114\rhttp://tinyurl.com/kvc3tvq",
+    [TAWord wordWithDict:@{@"name":@"Analogy of Faith",
+                           @"twitterDef":@"the coherence of the truths of faith\ramong themselves and whole plan of Revelation",
+                           @"definition":@"\rThe Analogy of Faith is a phrase that occurs in Romans 12:6. It later becomes a way to refer to the consistency and interrelationship of Church teaching.\r\rGreek, ἀναλογία (analogia) “proportion”\r\rFurther Reference:\rCatechism of the Catholic Church, 114\rhttp://tinyurl.com/kvc3tvq",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Annointing of the Sick",
@@ -340,298 +340,298 @@
     
     [TAWord wordWithDict:@{@"name":@"Anthropocentrism",
                            @"twitterDef":@"centered on humanity",
-                           @"definition":@"A method of theological enquiry from the starting point and within the horizon of the human experience. All theological claims are claims made by human beings in human language. Theology is relevant to human beings in so far as they concern human experience.\r\rFurther Reference:\rWikipedia, “Anthropocentrism”\rhttp://tinyurl.com/8hj52d",
+                           @"definition":@"\rA method of theological enquiry from the starting point and within the horizon of the human experience. All theological claims are claims made by human beings in human language. Theology is relevant to human beings in so far as they concern human experience.\r\rFurther Reference:\rWikipedia, “Anthropocentrism”\rhttp://tinyurl.com/8hj52d",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Apocatastasis",
-                           @"twitterDef":@"the Greek word meaningthe restoration of all things in Christ",
-                           @"definition":@"This term only occurs in the New Testament in Acts 3:21, wherein Peter refers to the state of creation in the Messianic Age. Later in the Patristic era, Origen used it to the belief that, at the eschaton, God will restore all creation back into full Divine communion; from the Greek word αποκαταστασις.\r\rFurther Reference:\rWikipedia, “Apocatastasis”\rhttp://tinyurl.com/n8txupj",
+                           @"twitterDef":@"the Greek word meaning\r“the restoration of all things”",
+                           @"definition":@"\rThis term only occurs in the New Testament in Acts 3:21, wherein Peter refers to the state of creation in the Messianic Age. Later in the Patristic era, Origen used it to the belief that, at the eschaton, God will restore all creation back into full Divine communion.\r\rGreek, ἀποκατάστασις (apocatastasis)\r\rFurther Reference:\rWikipedia, “Apocatastasis”\rhttp://tinyurl.com/n8txupj",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Apologetics",
                            @"twitterDef":@"the rational defense of the Christian faith",
-                           @"definition":@"The early Christians were compelled to defend authentic Christian faith and practice from ; from the Greek word απολογια (apologia) “defense”.\r\rFurther Reference:\rWikipedia, “Apologetics”\rhttp://tinyurl.com/cxswly",
+                           @"definition":@"\rThe early Christians were compelled to defend authentic Christian faith and practice against false accusations and various suspicions. Notable Apologies include that of Justin Martyr and Tertullain.\r\rGreek, ἀπολογία (apologia)“defense”.\r\rFurther Reference:\rWikipedia, “Apologetics”\rhttp://tinyurl.com/cxswly",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Apophatic",
                            @"twitterDef":@"language that uses negation\rto describe God",
-                           @"definition":@"Apophatic language was popular with the early Greek fathers.",
+                           @"definition":@"\rApophatic language emphasizes the discontinuity of God with anything created. It was popular with the early Greek fathers.\r\rFurther Reference\rWikipedia, “Apophatic Theology”\rhttp://tinyurl.com/22pm86z",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Apostolic",
                            @"twitterDef":@"the quality of the Church as being based on the Apostolic tradition",
-                           @"definition":@"One of the four marks of the Church - One, Holy, Catholic, Apostolic.\r\rFurther Reference:\rCatechism of the Catholic Church, 857\rhttp://tinyurl.com/oupb5",
+                           @"definition":@"\rOne of the four marks of the Church - One, Holy, Catholic, Apostolic.\r\rFurther Reference:\rCatechism of the Catholic Church, 857\rhttp://tinyurl.com/oupb5",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Assumption of Mary",
                            @"twitterDef":@"the dogma that the Virgin Mary was assumed into heaven",
-                           @"definition":@"The dogma, defined by Pope Pius IX, which states that the Virgin Mary was assumed body and soul into heaven at the end of her earthly life.\r\rFurther Reference:\rCatechism of the Catholic Church, 966\rhttp://tinyurl.com/mtfzewa",
+                           @"definition":@"\rThe dogma, defined by Pope Pius IX, which states that the Virgin Mary was assumed body and soul into heaven at the end of her earthly life.\r\rFurther Reference:\rCatechism of the Catholic Church, 966\rhttp://tinyurl.com/mtfzewa",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Atonement",
                            @"twitterDef":@"the act of making restitution\rfor inflicted harm",
-                           @"definition":@"The act of making restitution for inflicted harm; a theological interpretation of the death of Jesus of Nazrareth.\r\rFurther Reference:\rCatechism of the Catholic Church, 616\rhttp://tinyurl.com/p3dfabj",
+                           @"definition":@"\rLiterally translated “at-one-ment”, mandated in requisite to forgiveness in the Priestly tradition of the Torah in Leviticus. Atonement became a dominant theological interpretation of the death of Jesus of Nazrareth in the early Church.\r\rFurther Reference:\rCatechism of the Catholic Church, 616\rhttp://tinyurl.com/p3dfabj",
                            @"category":@"Systematic"}];
     
     
     [TAWord wordWithDict:@{@"name":@"Agnus Dei",
-                           @"twitterDef":@"the sequence of Mass that begins\rwith the invocation, “Lamb of God”",
-                           @"definition":@"The Agnus Dei is chanted 3 times before the distribution of the Eucharist.\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, “Liturgy of the Eucharist”\rhttp://tinyurl.com/lleofmh",
+                           @"twitterDef":@"the invocation during the Fraction of the Eucharist\rthat begins, “Lamb of God”",
+                           @"definition":@"\rThe Agnus Dei is chanted 3 times before the distribution of the Eucharist.\r\r“Lamb of God, you who take away the sins of the world, have mercy upon us.\rLamb of God, you who take away the sins of the world, have mercy upon us.\rLamb of God, you who take away the sins of the world, grant us peace.\r\rSee “Eucharist”, “Fraction”.\r\rLatin, (agnus dei) “Lamb of God”.\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, “Liturgy of the Eucharist”\rhttp://tinyurl.com/lleofmh",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Advent",
                            @"twitterDef":@"the first season of the liturgical year\rthat prepares for the coming of Christ",
-                           @"definition":@"Advent prepares the Church for the the celebration of the birth of Jesus; consists of 4 Sundays.\r\rFurther Reference:\rCatechism of the Catholic Church, 524\rhttp://tinyurl.com/mou9egj",
+                           @"definition":@"\rAdvent prepares the Church for the the celebration of the birth of Jesus. It is observed over the course of four Sundays.\r\rFurther Reference:\rCatechism of the Catholic Church, 524\rhttp://tinyurl.com/mou9egj",
                            @"category":@"Ecclesial"}];
     
     [TAWord wordWithDict:@{@"name":@"Alleluia",
                            @"twitterDef":@"a Latinized form of the phrase meaning\r“Praise the LORD”",
-                           @"definition":@"The Alleluia is spoken before the reading of the Gospel during the Mass. It is not spoken during the season of Lent.\r\rFurther Reference:\rCatechism of the Catholic Church, 2589\rhttp://tinyurl.com/pynlg6a",
+                           @"definition":@"\rThe Alleluia is spoken before the reading of the Gospel during the Mass. It is not spoken during the season of Lent.\r\rFurther Reference:\rCatechism of the Catholic Church, 2589\rhttp://tinyurl.com/pynlg6a",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Altar",
-                           @"twitterDef":@"the table upon which the Eucharist is placed",
-                           @"definition":@"The table upon which the Eucharist is placed during the act of consecration due to the interpretation of the death of Jesus as an atoning sacrifice.\r\rFurther Reference:\rCatechism of the Catholic Church, 1182\rhttp://tinyurl.com/p9382z5",
+                           @"twitterDef":@"the table upon which\rthe Eucharist is placed",
+                           @"definition":@"\rThe development of dedicated altars in churches was a later development in early Christianity that coincided with its gradual acceptance into Roman society. The New Testament only speaks of the altar of Christ's body due to the interpretation of the death of Jesus as an atoning sacrifice (Heb. 13:10).\r\rFurther Reference:\rCatechism of the Catholic Church, 1182\rhttp://tinyurl.com/p9382z5",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Ambo",
                            @"twitterDef":@"the elevated platform behind which the lector, cantor, or homilist stands",
-                           @"definition":@"The Ambo (also called a lecturn) is usually placed beside the altar.\r\rFurther Reference:\rCatechism of the Catholic Church, 1184\rhttp://tinyurl.com/p9382z5",
+                           @"definition":@"\rThe Ambo (also called a “lecturn”) is usually placed beside the altar.\r\rFurther Reference:\rCatechism of the Catholic Church, 1184\rhttp://tinyurl.com/p9382z5",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Amen",
-                           @"twitterDef":@"the Hebrew word meaning “may it be so”;\rused to denote truthfulness or certainty",
-                           @"definition":@"The Amen is traditionally said after a prayer as a form of agreement. It derives from Jewish use in the synagogue and later in the New Testament where it is used to indicate the truthfulness of what is said.\r\rFurther Reference:\rCatechism of the Catholic Church, 1061\rhttp://tinyurl.com/k3f2f8p",
+                           @"twitterDef":@"the Hebrew word meaning\r“may it be so”",
+                           @"definition":@"\rThe Amen is traditionally said after a prayer as a form of agreement. It derives from Jewish use in the synagogue and later in the New Testament where it is used to indicate the truthfulness of what is said; “Amen, Amen, I say to you...”\r\rHebrew, אָמֵן (amen)\r\rFurther Reference:\rCatechism of the Catholic Church, 1061\rhttp://tinyurl.com/k3f2f8p",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Anamnesis",
-                           @"twitterDef":@"the lived rememberance in recalling\rthe saving acts of God in Christ",
-                           @"definition":@"The Anamnesis is used in the Words of Institution. It is a performative act used to re-present the salvific death and resurrection of Jesus; from the Greek word αναμνησις. See Real Presence.\r\rFurther Reference:\rCatechism of the Catholic Church, 1103\rhttp://tinyurl.com/oqbzkx3",
+                           @"twitterDef":@"the Greek word meaning\r“lived rememberance” used for the Liturgy",
+                           @"definition":@"\rThe Anamnesis is used in the Words of Institution, in which Jesus asks his disciples to “remember” him when they eat the bread and drink the cup. It is a performative act used to re-present the salvific death and resurrection of Jesus.  See “Real Presence”.\r\rGreek, ἀνάμνησις (anamnesis)\r\rFurther Reference:\rCatechism of the Catholic Church, 1103\rhttp://tinyurl.com/oqbzkx3",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Anaphora",
-                           @"twitterDef":@"the offering of the Eucharistic Prayer",
-                           @"definition":@"The Eucharistic prayer of the Mass was referred to as the “Anaphora” at an early stage of liturgical development; from the Greek word αναφορα, “to lift up”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1352\rhttp://tinyurl.com/m88dbjl",
+                           @"twitterDef":@"the offering of the Eucharistic Prayer\rin structured sequences",
+                           @"definition":@"\rThe Eucharistic prayer of the Mass was celebrated in structured sequences as early as possibly the first century (in the Didache) and certainly by third century, in the Apostolic Tradtion of Hippolytus of Rome. The term is based on the Septuagint reading of Leviticus 2:14 and other passages, in which the Israelite priest offers up the sacrifice.\r\rGreek, ἀναφορά (anaphora) “to lift up”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1352\rhttp://tinyurl.com/m88dbjl",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Anathema",
-                           @"twitterDef":@"the Greek word meaning “off limits”;\rthe state of being excommunicated",
-                           @"definition":@"Over time, Anathema came to refer to those who were accursed or banished from the community; from the Greek, αναθεμα (anathema) “placed off limits”\r\rFurther Reference:\rNew Advent, “Anathema”\rhttp://tinyurl.com/o5fl88l",
+                           @"twitterDef":@"the Greek word meaning “placed off limits”;\rthe state of being excommunicated",
+                           @"definition":@"\rOver time, Anathema came to refer to those who were accursed or banished from the community.\r\rGreek, ἀνάθεμα (anathema)\r\rFurther Reference:\rNew Advent, “Anathema”\rhttp://tinyurl.com/o5fl88l",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Annulment",
                            @"twitterDef":@"an ecclesial declaration that a valid marriage never exixted",
-                           @"definition":@"An ecclesial declaration that a valid marriage never existed.\r\rFurther Reference:\rCatechism of the Catholic Church, 1629\rhttp://tinyurl.com/ykptlg",
+                           @"definition":@"\rAn ecclesial declaration that a valid marriage never existed.\r\rFurther Reference:\rCatechism of the Catholic Church, 1629\rhttp://tinyurl.com/ykptlg",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Antiphon",
                            @"twitterDef":@"the choral response sung during\rthe entrace processional during Mass",
-                           @"definition":@"the choral response sung during the entrace processional.\r\rFurther Reference:\rGeneral Instruction on the Liturgy of the Hours, III.II\rhttp://tinyurl.com/ku23eyw",
+                           @"definition":@"\rThe choral response sung during the entrace processional.\r\rFurther Reference:\rGeneral Instruction on the Liturgy of the Hours, III.II http://tinyurl.com/ku23eyw",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Apostle's Creed",
                            @"twitterDef":@"the creed used in Rome circa A.D. 150",
-                           @"definition":@"The Apostle's Creed is the earliest known liturgical creed associated specifically with the Church of Rome.\r\r“I believe in God, the Father almighty, Creator of heaven and earth, and in Jesus Christ, his only Son, our Lord, who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died and was buried; he descended into hell; on the third day he rose again from the dead; he ascended into heaven, and is seated at the right hand of God the Father almighty; from there he will come to judge the living and the dead. I believe in the Holy Spirit, the holy catholic Church, the communion of saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen.”\r\rFurther Reference:\rCatechism of the Catholic Church, 194\rhttp://tinyurl.com/mo3f24x",
+                           @"definition":@"\rThe Apostle's Creed is the earliest known liturgical creed associated specifically with the Church of Rome.\r\r“I believe in God, the Father almighty, Creator of heaven and earth, and in Jesus Christ, his only Son, our Lord, who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died and was buried; he descended into hell; on the third day he rose again from the dead; he ascended into heaven, and is seated at the right hand of God the Father almighty; from there he will come to judge the living and the dead. I believe in the Holy Spirit, the holy catholic Church, the communion of saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen.”\r\rFurther Reference:\rCatechism of the Catholic Church, 194\rhttp://tinyurl.com/mo3f24x",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Arianism",
                            @"twitterDef":@"the teaching of Arius, that the Son\rwas not of the same substance as the Father",
-                           @"definition":@"The teaching of Arius that the Son was of a different substance than the Father (begotten vs. unbegotten) and thus, not fully divine. See “Homoiousios”.\r\rFurther Reference:\rCatechism of the Catholic Church, 465\rhttp://tinyurl.com/37wuaux",
+                           @"definition":@"\rThe teaching of Arius that the Son was of a different substance than the Father (begotten vs. unbegotten) and thus, not fully divine. See “Homoiousios”.\r\rFurther Reference:\rCatechism of the Catholic Church, 465\rhttp://tinyurl.com/37wuaux",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"A Posteriori",
                            @"twitterDef":@"a philosophical category which follows human experience",
-                           @"definition":@"A philosophical category which follows human experience. The statement “Water boils at 0 degrees Celsius” is an a posteriori truth; Latin, “after experience”)\r\rFurther Reference:\rStanford Encyclopedia of Philosophy,\r“A Priori Justification and Knowledge”\rhttp://tinyurl.com/6tp7oyz",
+                           @"definition":@"\rA posteriori truth claims are those that are not self-evident, but depend upon empirical data. The statement “Water boils at 0 degrees Celsius” is an a posteriori truth; Latin, “after experience”.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy,\r“A Priori Justification and Knowledge”\rhttp://tinyurl.com/6tp7oyz",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"A Priori",
                            @"twitterDef":@"a philosophical category which precedes human experience",
-                           @"definition":@"A philosophical category which precedes human experience. The statement “All bachelors are unmarried' is an a priori truth; from the Latin, “before experience”\r\rFurther Reference:\rStanford Encyclopedia of Philosophy,\r“A Priori Justification and Knowledge”\rhttp://tinyurl.com/6tp7oyz",
+                           @"definition":@"\rA priori truth claims are those that are self-evident, without requiring empirical data. The statement “All bachelors are unmarried' is an a priori truth; Latin, “before experience”\r\rFurther Reference:\rStanford Encyclopedia of Philosophy,\r“A Priori Justification and Knowledge”\rhttp://tinyurl.com/6tp7oyz",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Action",
-                           @"twitterDef":@"direct or indirect action taken to achieve justice",
-                           @"definition":@"The third of three steps in achieving justice.\r\rFurther Reference:\rCompendium of the Social Doctrine of the Church, 419\rhttp://tinyurl.com/qfo6bd7",
-                           @"category":@"Cultural"}];
+                           @"twitterDef":@"direct or indirect nonviolent action\r taken to achieve justice",
+                           @"definition":@"\rIn the context of social justice, both direct an indirect nonviolent action are appropriate responses to injustice.\r\rFurther Reference:\rCompendium of the Social Doctrine of the Church, 419 http://tinyurl.com/qfo6bd7",
+                           @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Agnostic",
                            @"twitterDef":@"the word used to describe uncertainty about the existence of God",
-                           @"definition":@"Agnostics are sometimes mistakenly confused with atheists. \r\rFurther Reference:\rCatechism of the Catholic Church, 2127\rhttp://tinyurl.com/lu75a9k.",
+                           @"definition":@"\rAgnostics are sometimes mistakenly confused with atheists.\r\rFurther Reference:\rCatechism of the Catholic Church, 2127\rhttp://tinyurl.com/lu75a9k.",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Analysis",
                            @"twitterDef":@"the process of discerning appropriate steps to achieving justice",
-                           @"definition":@"The second of the 3 steps in achieving justice.",
+                           @"definition":@"\rAnalysis is the second of the 3 steps in achieving justice. It begins with discernment of the partiuclar situation and how the princples of social justice would be prudently and appropriately applied.\r\rFurther Reference\rPaul VI, A Call To Action, 48\rhttp://tinyurl.com/llup47a",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Anthropology",
                            @"twitterDef":@"the science that studies human origins, development, and culture",
-                           @"definition":@"The science that studies human origins, development, and culture.\r\rFurther Reference:\rAmerican Anthropological Association\rhttp://tinyurl.com/28tcvt",
+                           @"definition":@"\rThe science that studies human origins, development, and culture.\r\rFurther Reference:\rAmerican Anthropological Association\rhttp://tinyurl.com/28tcvt",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Anti-Semitism",
                            @"twitterDef":@"prejudice, hatred, or racial bias against Jewish persons",
-                           @"definition":@"Prejudice, hatred, or racial bias against Jews. Some portions of the New Testament bear traces of anti-Semitism due to theological biases against the Jewish people for rejecting Christ. Thus, the Christian tradition has included anti-Semitic currents that have been rejected since the Second Vatican Council.\r\rFurther Reference:\rVatican II, Nostra Aetate\rhttp://tinyurl.com/k4dj",
+                           @"definition":@"\rPrejudice, hatred, or racial bias against Jews. Some portions of the New Testament bear traces of anti-Semitism due to theological biases against the Jewish people for rejecting Christ. Thus, the Christian tradition has included anti-Semitic currents that have been rejected since the Second Vatican Council.\r\rFurther Reference:\rVatican II, Nostra Aetate\rhttp://tinyurl.com/k4dj",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Argument",
                            @"twitterDef":@"a series of statements that establishes a truth claim",
-                           @"definition":@"A series of statements that establishes a truth claim; made of two parts - premise and conclusion; the from can be deductive or inductive; deductive arguments can be valid or invalid.\r\rFurther Reference:\rInternet Encylopedia of Philosophy, “Argument” http://tinyurl.com/aruqml5",
+                           @"definition":@"\rA series of statements that establishes a truth claim; made of two parts - premise and conclusion; the from can be deductive or inductive; deductive arguments can be valid or invalid.\r\rFurther Reference:\rInternet Encylopedia of Philosophy, “Argument” http://tinyurl.com/aruqml5",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Atheism",
                            @"twitterDef":@"the belief that no God exists",
-                           @"definition":@"The belief that no God exists.\r\rFurther Reference:\rCatechism of the Catholic Church, 2113\rhttp://tinyurl.com/lu75a9k",
+                           @"definition":@"\rAtheism is not a necessary worldview consequent to science.\r\rFurther Reference:\rCatechism of the Catholic Church, 2113\rhttp://tinyurl.com/lu75a9k",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Awareness",
                            @"twitterDef":@"the gathering of information about a given injustice",
-                           @"definition":@"The first of 3 steps in achieving justice.",
+                           @"definition":@"\rAwareness is first step in acheiving social justice. Without awareness of conditions in society, no change can be affected.\r\rFurther Reference\rPaul VI, A Call To Action, 48\rhttp://tinyurl.com/llup47a",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Acolyte",
                            @"twitterDef":@"a liturgical assistant to the\rcelebrant of Mass",
-                           @"definition":@"Acolytes occur as early as the   century.\r\rFurther Reference:\rCatechism of the Catholic Church, 903\rhttp://tinyurl.com/m65ttaf",
+                           @"definition":@"\rAcolytes are mentioned as early as the 4th century. Until 1972, it was one of the minor orders, which Pope Paul VI renamed as “ministries”. \r\rFurther Reference:\rCatechism of the Catholic Church, 903\rhttp://tinyurl.com/m65ttaf",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Act of Contrition",
                            @"twitterDef":@"a prayer said before the\rSacrament of Reonciliation",
-                           @"definition":@"While the Church does not canonize any one prayer for forgiveness, a popular one in current usage reads:\r\r“My God, I am sorry for my sins with all my heart. In choosing to do wrong and failing to do good, I have sinned against You whom I should love above all things. I firmly intend, with Your help, to do penance, to sin no more, and to avoid whatever leads me to sin. Our Saviour Jesus Christ, suffered and died for us. In His name, my God, have mercy.”\r\rFurther Reference:\riBreviary, Act of Contrition\rhttp://tinyurl.com/m5vwvhc",
+                           @"definition":@"\rWhile the Church does not canonize any one prayer for forgiveness, a popular one in current usage reads:\r\r“My God, I am sorry for my sins with all my heart. In choosing to do wrong and failing to do good, I have sinned against You whom I should love above all things. I firmly intend, with Your help, to do penance, to sin no more, and to avoid whatever leads me to sin. Our Saviour Jesus Christ, suffered and died for us. In His name, my God, have mercy.”\r\rSee “Reconcilation”.\r\rFurther Reference:\riBreviary, Act of Contrition\rhttp://tinyurl.com/m5vwvhc",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Apostolic Fathers",
                            @"twitterDef":@"the collection of Christian texts from the late first and early second centuries",
-                           @"definition":@"The Aposotolic Fathers are the earliest extra-biblical texts outside the Bible.\r\rFurther Reference:\rWikipedia, “Apostolic Fathers”\rhttp://tinyurl.com/56xymr",
+                           @"definition":@"\rThe Aposotolic Fathers are the earliest extra-biblical texts outside the Bible.\r\rFurther Reference:\rWikipedia, “Apostolic Fathers”\rhttp://tinyurl.com/56xymr",
                            @"category":@"Historical"}];
     
-    ///////////B
+    ///////////////////////B
     
     [TAWord wordWithDict:@{@"name":@"Beatific Vision",
                            @"twitterDef":@"the traditional destiny of those who are\rpure of heart",
-                           @"definition":@"The first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia,...\rhttp://tinyurl.com/lvw8sht",
+                           @"definition":@"\rThe first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia,...\rhttp://tinyurl.com/lvw8sht",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Beatitudes",
                            @"twitterDef":@"a series of sayings in Matthew that begin\rwith the word “Blessed”",
-                           @"definition":@"The Beatitudes are likely the most famous of Jesus' sayings from the Sermon on the Mount",
+                           @"definition":@"\rThe Beatitudes are likely the most famous of Jesus' sayings from the Sermon on the Mount",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Baldachino",
                            @"twitterDef":@"a canopy use to cover a bishop's chair, the altar, or Eucharistic processions",
-                           @"definition":@"Baldachinos are regularly seen in St. Peter's Square...",
+                           @"definition":@"\rBaldachinos are regularly seen in St. Peter's Square...",
                            @"category":@"Liturgical"}];
 
 
     [TAWord wordWithDict:@{@"name":@"Beneficence",
                            @"twitterDef":@"the first principle in medical ethics:\rdo no harm.",
-                           @"definition":@"The first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
+                           @"definition":@"\rThe first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Benediction",
                            @"twitterDef":@"a final blessing at the end of Mass",
-                           @"definition":@"The Benediction...;from the Latin    (good word).",
+                           @"definition":@"\rThe Benediction...;from the Latin    (good word).",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Benefit/Burden Ratio",
                            @"twitterDef":@"the ratio of benefits over the burdens of a particular medical treatment",
-                           @"definition":@"The Benefit/Burden Ratio is a variable in morality of certain medical procedures. It's use extends outside theology to the broader study of ethics.\r\rFurther Reference:\r",
+                           @"definition":@"\rThe Benefit/Burden Ratio is a variable in morality of certain medical procedures. It's use extends outside theology to the broader study of ethics.\r\rFurther Reference:\r",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Bioethics",
                            @"twitterDef":@"the study of ethics related to medical and life issues",
-                           @"definition":@"Bioethics has become a specialization in the field of ethics due, in part, to the tremendous technological advances that enable new forms of treatment but that also raise new ethical questions in the practice of medicine.\r\rFurther Reference:\rAmerican Bioethics Advisory Commission, “What is Bioethics?”\rhttp://tinyurl.com/k8sppee",
+                           @"definition":@"\rBioethics has become a specialization in the field of ethics due, in part, to the tremendous technological advances that enable new forms of treatment but that also raise new ethical questions in the practice of medicine.\r\rFurther Reference:\rAmerican Bioethics Advisory Commission, “What is Bioethics?”\rhttp://tinyurl.com/k8sppee",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Baptism",
                            @"twitterDef":@"the Sacrament of Initiation into the Church\rby ritual cleansing with water",
-                           @"definition":@"Baptism is a practice which Christianity inherited from the Jewish practice of the Mikvah, or ceremonial washing in Second Temple Period. John the Baptist practiced a derivation of this in his ministry, of which Jesus of Nazareth was a follower for some period of time. According to the book of Acts, John's baptism was still being practiced concurrently with Christian baptism.\r\rBaptism, along with Eucharist, is a Christian practice dating back to the earliest days of the Church. According to the consistent tradition of the Church, Baptism removes the stain of Original Sin, forgives actual sins, and brings about a spiritual rebirth.\r\rFurther Reference:\rCatechism of the Catholic Church, 1213\rhttp://tinyurl.com/ykqqof",
+                           @"definition":@"\rBaptism is a practice which Christianity inherited from the Jewish practice of the Mikvah, or ceremonial washing in Second Temple Period. John the Baptist practiced a derivation of this in his ministry, of which Jesus of Nazareth was a follower for some period of time. According to the book of Acts, John's baptism was still being practiced concurrently with Christian baptism.\r\rBaptism, along with Eucharist, is a Christian practice dating back to the earliest days of the Church. According to the consistent tradition of the Church, Baptism removes the stain of Original Sin, forgives actual sins, and brings about a spiritual rebirth.\r\rFurther Reference:\rCatechism of the Catholic Church, 1213\rhttp://tinyurl.com/ykqqof",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Blasphemy",
                            @"twitterDef":@"a form of religious slander",
-                           @"definition":@" form of religious slander.\r\rFurther Reference:\rCatechism of the Catholic Church, 2148\rhttp://tinyurl.com/bczm8h7",
+                           @"definition":@"\rform of religious slander.\r\rFurther Reference:\rCatechism of the Catholic Church, 2148\rhttp://tinyurl.com/bczm8h7",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Blessing",
                            @"twitterDef":@"a pronouncement of Divine favor",
-                           @"definition":@"The concept of blessing has its origins in the Old Testament",
+                           @"definition":@"\rThe concept of blessing has its origins in the Old Testament",
                            @"category":@"Systematic"}];
 
     
     [TAWord wordWithDict:@{@"name":@"Baptistry",
                            @"twitterDef":@"the place within a church used for baptism,\rusually referred to as a “font”",
-                           @"definition":@"Baptistries are a later development in the Christian tradition. They are connected to the growth of the Church after its more definitive separation from Judaism after A.D. 70.\r\rFurther Reference:\rCatechism of the Catholic Church, 1185\rhttp://tinyurl.com/p9382z5",
+                           @"definition":@"\rBaptistries are a later development in the Christian tradition. They are connected to the growth of the Church after its more definitive separation from Judaism after A.D. 70.\r\rFurther Reference:\rCatechism of the Catholic Church, 1185\rhttp://tinyurl.com/p9382z5",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Basilica",
                            @"twitterDef":@"a church in which the diocescan bishop presides",
-                           @"definition":@"The Church inherited basilicas from the Roman Imperial administrative system. Literally meaning “house of the king”, these buildings were essentially courthouses in which Roman administrators would hear cases.\r\rFurther Reference:\rWikipedia, “Basilica”",
+                           @"definition":@"\rThe Church inherited basilicas from the Roman Imperial administrative system. Literally meaning “house of the king”, these buildings were essentially courthouses in which Roman administrators would hear cases.\r\rFurther Reference:\rWikipedia, “Basilica”",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Benedictus",
                            @"twitterDef":@"the Canticle of Zechariah contained within the Gospel of Luke 1:68-79",
-                           @"definition":@"This song is recorded as the extemporaneous prayer of Zechariah on the occassion of the birth of his son, John the Baptist. The Benedictus is a part of Morning Prayer in the Liturgy of the Hours.\r\rFurther Reference:\rWikipedia, “Benedictus”\rhttp://tinyurl.com/nvdk23a",
+                           @"definition":@"\rThis song is recorded as the extemporaneous prayer of Zechariah on the occassion of the birth of his son, John the Baptist. The Benedictus is a part of Morning Prayer in the Liturgy of the Hours.\r\rFurther Reference:\rWikipedia, “Benedictus”\rhttp://tinyurl.com/nvdk23a",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Biretta",
                            @"twitterDef":@"a cap worn by clergy for special celebrations",
-                           @"definition":@"The Biretta....",
+                           @"definition":@"\rThe Biretta....",
                            @"category":@"Liturgical"}];
 
     
     [TAWord wordWithDict:@{@"name":@"Bishop",
                            @"twitterDef":@"a successor to the Apostles who oversees a particular diocese",
-                           @"definition":@"The office of Bishop is the third order of clerics in the Catholic tradition. In the New Testament, Paul speaks of bishops in the church at Philippi together with deacons. In the second century there seems to have been a further development of the office. Local presbyters elected one of their own to a leadership position. This is reflected in the letters of Ignatius of Antioch (ca. A.D. 110). This form of having one bishop presiding over a local church, (known as “monoepiscopacy”) became the norm in every church by the end of the third century.\r\rBishops were later attached to larger areas of churches known as dioceses, which were Roman Imperial adminstrative distrcts set up by the Emperor Diocletian. After the legalization of Christianity, the Church inherited these districts in its own administration; from the Greek επισκοπος (episcopos) “overseer”. See “Monoepiscopacy”.\r\rFurther Reference:\rCatechism of the Catholic Church\rhttp://tinyurl.com/m65ttaf",
+                           @"definition":@"\rThe office of Bishop is the third order of clerics in the Catholic tradition. In the New Testament, Paul speaks of bishops in the church at Philippi together with deacons. In the second century there seems to have been a further development of the office. Local presbyters elected one of their own to a leadership position. This is reflected in the letters of Ignatius of Antioch (ca. A.D. 110). This form of having one bishop presiding over a local church, (known as “monoepiscopacy”) became the norm in every church by the end of the third century.\r\rBishops were later attached to larger areas of churches known as dioceses, which were Roman Imperial adminstrative distrcts set up by the Emperor Diocletian. After the legalization of Christianity, the Church inherited these districts in its own administration; from the Greek επισκοπος (episcopos) “overseer”. See “Monoepiscopacy”.\r\rFurther Reference:\rCatechism of the Catholic Church\rhttp://tinyurl.com/m65ttaf",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Ba'al",
                            @"twitterDef":@"the son of El and most active of the gods in Canannite mythology",
-                           @"definition":@"Ba'al is a Semitic word for “Ruler”, “Husband”, or “Lord”. It became synonymous with a very popular Canaanite deity who was worshipped by ancient Israelites. According to to 2 Kings 23:4 an image of Ba'al was housed in the Temple before Josiah's Deuternomic reform.\r\rFurther Reference:\rWikipedia, Ba'al\rhttp://tinyurl.com/ljhlb",
+                           @"definition":@"\rBa'al is a Semitic word for “Ruler”, “Husband”, or “Lord”. It became synonymous with a very popular Canaanite deity who was worshipped by ancient Israelites. According to to 2 Kings 23:4 an image of Ba'al was housed in the Temple before Josiah's Deuternomic reform.\r\rFurther Reference:\rWikipedia, Ba'al\rhttp://tinyurl.com/ljhlb",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Babel",
                            @"twitterDef":@"the Hebrew word meaning “confusion”;\rthe name of the tower in Genesis 11:1-9",
-                           @"definition":@"As an etiology, this story explains both how human language became divided as well as the geographic distribution of human populations.\r\rFurther Reference:\rCatechism of the Catholic Church, 57\rhttp://tinyurl.com/k6ljesq",
+                           @"definition":@"\rAs an etiology, this story explains both how human language became divided as well as the geographic distribution of human populations.\r\rHebrew, בָּבֶל (babel)\r\rFurther Reference:\rCatechism of the Catholic Church, 57\rhttp://tinyurl.com/k6ljesq",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Babylon",
                            @"twitterDef":@"the empire that conquered the southern kingdom of Judah in 587 B.C.",
-                           @"definition":@"The Babylonians destroyed the Temple and took most of the residents of Jerusalem captive to Babylon, where they remained for 50 years.\r\rFurther Reference:\rOxford Biblical Studies, “Babylon” \rhttp://tinyurl.com/q7fujw5",
+                           @"definition":@"\rThe Babylonians destroyed the Temple and took most of the residents of Jerusalem captive to Babylon, where they remained for 50 years.\r\rFurther Reference:\rOxford Biblical Studies, “Babylon” \rhttp://tinyurl.com/q7fujw5",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Ban",
                            @"twitterDef":@"the ancient Israelite practice of destroying possessions dedicated to YHWH",
-                           @"definition":@"When victorious over its enemies, Israel was to place certain possessions, including people, under the Ban and completely destroy them in order to devote them anew to YHWH. Such is the case in Joshua 6 and 1 Samuel 15, which explicity command the death of women and children. See “YHWH”.\r\rFurther Reference:\rOxford Biblical Studies, “Ban”\rhttp://tinyurl.com/lhwe4mo",
+                           @"definition":@"\rWhen victorious over its enemies, Israel was to place certain possessions, including people, under the Ban and completely destroy them in order to devote them anew to YHWH. Such is the case in Joshua 6 and 1 Samuel 15, which explicity command the death of women and children. See “YHWH”.\r\rHebrew, חֵֽרֶם׃ (herem) “cursed”\r\rFurther Reference:\rWikipedia, “Ban”\rhttp://tinyurl.com/p7phypo",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Big Bang Theory",
                            @"twitterDef":@"the theory that the Universe expanded\rfrom an infinite singularity",
-                           @"definition":@"The cosmological theory, first developed by Fr. George Lemaitre, that claims that the Universe began at an infintely small and dense point of matter, energy, space, and time which then expanded over the course of time to become the observable cosmos we see today. See “Creation”\r\rFurther Reference:\rWikipedia, “Big Bang”\rhttp://tinyurl.com/9nq4k",
+                           @"definition":@"\rThe cosmological theory, first developed by Fr. George Lemaitre, that claims that the Universe began at an infintely small and dense point of matter, energy, space, and time which then expanded over the course of time to become the observable cosmos we see today. See “Creation”\r\rFurther Reference:\rWikipedia, “Big Bang”\rhttp://tinyurl.com/9nq4k",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Blessed Sacrament",
-                           @"twitterDef":@"a reference to the Eucharist as Christ's\rbody and blod, soul and divinity",
-                           @"definition":@"The term Blessed Sacrament dates from the ...century. \r\rFurther Reference:\rCatechism of Catholic Church, 1374\rhttp://tinyurl.com/q6gyoc7",
+                           @"twitterDef":@"a reference to the Eucharist as Christ's\rbody and blood, soul and divinity",
+                           @"definition":@"\rThe Blessed Sacrament is...\r\rFurther Reference:\rCatechism of Catholic Church, 1374\rhttp://tinyurl.com/q6gyoc7",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Buddhism",
                            @"twitterDef":@"the philosophy and religion based on the teachings of Siddartha Gotama",
-                           @"definition":@"Buddhism is based on the teachings after Siddartha's awakening, (ca. 500 B.C.). He taught the Four Noble Truths:\r\r1. Life is Suffering.\r2. Attachement is the root of suffering.\r3. Suffering can be overcome.\r4. The Eightfold Path.\r\rBuddhism has had increasing contact with Christianity over the last 100 years. Perhaps the most famous point of intersection was between the Trappist monk, Thomas Merton and the Dalai Lama in 1968. Buddhism claims to be offer a lifestyle that can be adapted to anu religion, although this is contested due to some of its claims.\r\rFurther Reference:\rBuddhnet, “Basic Buddhism”\rhttp://tinyurl.com/69cl",
+                           @"definition":@"\rBuddhism is based on the teachings after Siddartha's claim to enlightenmnet, (ca. 500 B.C.). He taught the Four Noble Truths:\r\r1. Life is Suffering.\r2. Attachement is the root of suffering.\r3. Suffering can be overcome.\r4. The Eightfold Path.\r\rBuddhism has had increasing contact with Christianity over the last 100 years. Perhaps the most famous point of intersection was between the Trappist monk, Thomas Merton and the Dalai Lama in 1968. Buddhism claims to be offer a lifestyle that can be adapted to anu religion, although this is contested due to some of its claims.\r\rFurther Reference:\rBuddhnet, “Basic Buddhism”\rhttp://tinyurl.com/69cl",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Byzantine Rite",
                            @"twitterDef":@"the liturgical rite of the Eastern Orthodox church",
-                           @"definition":@"The Byzantine Rite can be traced back as early as the ... century.\r\rFurther Reference:\rCatechism of the Catholic Church, 1203\rhttp://tinyurl.com/ndllues",
+                           @"definition":@"\rThe Byzantine Rite can be traced back as early as the ... century.\r\rFurther Reference:\rCatechism of the Catholic Church, 1203\rhttp://tinyurl.com/ndllues",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Breaking of the Bread",
                            @"twitterDef":@"a biblical phrase used to\rdescribe the Agape-Eucharist meal",
-                           @"definition":@"This phrase first occurs in the Acts of the Apostles...\r\rFurther Reference:\rCatechism of Catholic Church, 1329\rhttp://tinyurl.com/q6gyoc7",
+                           @"definition":@"\rThis phrase first occurs in the Acts of the Apostles...\r\rFurther Reference:\rCatechism of Catholic Church, 1329\rhttp://tinyurl.com/q6gyoc7",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Blessed Virgin Mary",
                            @"twitterDef":@"a liturgical title of the Virgin Mary",
-                           @"definition":@"The title Blessed Virgin Mary is based, in part, on the prediction of Mary in the Gospel of Luke: from now on, all generations will call me blessed.....\r\rFurther Reference:\rCatechism of the Catholic Church, 971\rhttp://tinyurl.com/mtfzewa",
+                           @"definition":@"\rThe title Blessed Virgin Mary is based, in part, on the prediction of Mary in the Gospel of Luke: from now on, all generations will call me blessed.....\r\rFurther Reference:\rCatechism of the Catholic Church, 971\rhttp://tinyurl.com/mtfzewa",
                            @"category":@"Systematic"}];
 
 
@@ -645,12 +645,12 @@
     
     [TAWord wordWithDict:@{@"name":@"Bible",
                            @"twitterDef":@"the collection of the\rOld and New Testaments",
-                           @"definition":@"The collection of the Old and New Testaments regarded as canonical and inspired within Catholicism. From the Greek word βιβλος (biblos) - “scroll”. Historically, the Catholic canon of Scripture has included the Deuterocanonical books while Protestant bibles have excluded them. See ”Sacred Scripture” in the Overview tab.\r\rFurther Reference:\rWikipedia, “Catholic Bible”\r",
+                           @"definition":@"\rThe collection of the Old and New Testaments regarded as canonical and inspired within Catholicism. From the Greek, βιβλος (biblos) “scroll”. Historically, the Catholic canon of Scripture has included the Deuterocanonical books while Protestant bibles have excluded them. See ”Sacred Scripture” in the Overview tab.\r\rFurther Reference:\rWikipedia, “Catholic Bible”\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Breviary",
                            @"twitterDef":@"a book of the Liturgy of the Hours",
-                           @"definition":@"Breviaries were books. See “Liturgy of the Hours”.\r\rFurther Reference:\rWikipedia, “Breviary”\rhttp://tinyurl.com/yj4ycnd",
+                           @"definition":@"\rBreviaries were books. See “Liturgy of the Hours”.\r\rFurther Reference:\rWikipedia, “Breviary”\rhttp://tinyurl.com/yj4ycnd",
                            @"category":@"Liturgical"}];
     
     //Word *biblicalCriticism = 
@@ -668,231 +668,231 @@
     
     [TAWord wordWithDict:@{@"name":@"Catechumen",
                            @"twitterDef":@"a person training for Baptism",
-                           @"definition":@"Catechumens have been recognized as a distinct group since the earliest days of the Church...\r\rFurther Reference:\r",
+                           @"definition":@"\rCatechumens have been recognized as a distinct group since the earliest days of the Church...\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Candidates",
                            @"twitterDef":@"those who have received Baptism\rin preparation for Confirmation and Eucharist",
-                           @"definition":@"Candidates are generally composes of those who convert to Catholicism from another Christian tradition...\r\rFurther Reference:\r",
+                           @"definition":@"\rCandidates are generally composes of those who convert to Catholicism from another Christian tradition...\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Cantor",
                            @"twitterDef":@"the leader of liturgical singing during the Mass",
-                           @"definition":@"Cantors are an inheritance of the Church from Judaism..\r\rFurther Reference:\r",
+                           @"definition":@"\rCantors are an inheritance of the Church from Judaism..\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Cardinal Virtues",
                            @"twitterDef":@"justice, prudence, temperance, and fortitude",
-                           @"definition":@"The four Cardinal Virtues are first mentioned by Plato...Thomas Aquinas..\r\rFurther Reference:\r.",
+                           @"definition":@"\rThe four Cardinal Virtues are first mentioned by Plato...Thomas Aquinas..\r\rFurther Reference:\r.",
                            @"category":@"Moral"}];
 
 
     [TAWord wordWithDict:@{@"name":@"Cassock",
                            @"twitterDef":@"a long garment work by clergy",
-                           @"definition":@"The cassock, like the Biretta, is usually reserved for special liturgical celebrations...\r\rFurther Reference:\r",
+                           @"definition":@"\rThe cassock, like the Biretta, is usually reserved for special liturgical celebrations...\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Catechism",
                            @"twitterDef":@"a systematized body of teaching",
-                           @"definition":@"The Catechism of the Catholic Church...\r\rFurther Reference:\r",
+                           @"definition":@"\rThe Catechism of the Catholic Church...\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Catechist",
                            @"twitterDef":@"a certified teacher of the faith",
-                           @"definition":@"Catechist are usually those who teach in religious education programs...\r\rFurther Reference:\r",
+                           @"definition":@"\rCatechist are usually those who teach in religious education programs...\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Censer",
                            @"twitterDef":@"see Thurible",
-                           @"definition":@"",
+                           @"definition":@"\r",
                            @"category":@"Liturgical"}];
     
-    [TAWord wordWithDict:@{@"name":@"Casuistic",
+    [TAWord wordWithDict:@{@"name":@"Casuistic Law",
                            @"twitterDef":@"a type of law derived from individual cases rather than universal norms",
-                           @"definition":@"Casuistic law is contrasted with apodictic law. The latter is exemplified by the 10 Commandments, while the former is found in the Covenant Code of Exodus 21-23.\r\rFurther Reference:\rWikipedia, “Casuistry”\rhttp://tinyurl.com/2pntmh",
+                           @"definition":@"\rCasuistic law is contrasted with apodictic law. The latter is exemplified by the 10 Commandments, while the former is found in the Covenant Code of Exodus 21-23.\r\rFurther Reference:\rWikipedia, “Casuistry”\rhttp://tinyurl.com/2pntmh",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Cappadocian Fathers",
                            @"twitterDef":@"Basil the Great, Gregory of Nyssa,\rand Gregory of Nazianzus",
-                           @"definition":@"These three fathers occupy a special place in the Eastern Orthodox tradition...\r\rFurther Reference:\r",
+                           @"definition":@"\rThese three fathers occupy a special place in the Eastern Orthodox tradition...\r\rFurther Reference:\r",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Catholic Social Teaching",
                            @"twitterDef":@"the teaching of the Church which applies the\r principles of justice to society",
-                           @"definition":@"According to Pope Paul VI's encyclical, Populorum Progressio, social teaching is essential to authentic evangelization. It consists of principles of reflection, criteria of judgment, and directives for action. See “Social Justice”, “Signs of the Times”.\r\rFurther Reference:\rCompendium of the Social Doctrine of the Church, 85 http://tinyurl.com/kn6q5wm ",
+                           @"definition":@"\rAccording to Pope Paul VI's encyclical, Populorum Progressio, social teaching is essential to authentic evangelization. It consists of principles of reflection, criteria of judgment, and directives for action. See “Social Justice”, “Signs of the Times”.\r\rFurther Reference:\rCompendium of the Social Doctrine of the Church, 85 http://tinyurl.com/kn6q5wm ",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Commutative Justice",
-                           @"twitterDef":@"one of the three aspects of justice which emphasizes obligations between individuals",
-                           @"definition":@"the type of justice which emphasizes obligations between individuals\r\rFurther Reference:\rCatechism of the Catholic Church, 2411\rhttp://tinyurl.com/6y3q4",
+                           @"twitterDef":@"the aspect of justice which emphasizes\r obligations between individuals",
+                           @"definition":@"\rThe type of justice which emphasizes obligations between individuals\r\rFurther Reference:\rCatechism of the Catholic Church, 2411\rhttp://tinyurl.com/6y3q4",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Contributive Justice",
-                           @"twitterDef":@"the aspect of justice that emphasizes the obligation of individuals toward society",
-                           @"definition":@"Contributive justice is met when the individual fulfills his responsbilities to the larger society.\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, “Economic Justice For All”, II.b.1.b http://tinyurl.com/75hnlx3",
+                           @"twitterDef":@"the aspect of justice that emphasizes\rthe obligation of individuals toward society",
+                           @"definition":@"\rContributive justice is met when the individual fulfills his responsbilities to the larger society.\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, “Economic Justice For All”, II.b.1.b http://tinyurl.com/75hnlx3",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Canon",
                            @"twitterDef":@"the Greek word for “measuring stick”\rused to refer to a criterion or standard",
-                           @"definition":@"Saints are canonized by the Church as standards by which Catholics may judge their lives. The Bible is referred to as the canon of the Scriptures that provide criteria for faith and practice; from the Greek, κανον. See “Sacred Scripture” in the Overview tab.\r\rFurther Reference:\rCatechism of the Catholic Church, 120. http://tinyurl.com/kvc3tvq\r\rPontifical Biblical Commission, “The Interpretation of the Bible in the Church, III.B” http://tinyurl.com/2gb5dm ",
+                           @"definition":@"\rSaints are canonized by the Church as standards by which Catholics may judge their lives. The Bible is referred to as the canon of the Scriptures that provide criteria for faith and practice; from the Greek, κανον. See “Sacred Scripture” in the Overview tab.\r\rFurther Reference:\rCatechism of the Catholic Church, 120. http://tinyurl.com/kvc3tvq\r\rPontifical Biblical Commission, “The Interpretation of the Bible in the Church, III.B” http://tinyurl.com/2gb5dm ",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Catholic",
                            @"twitterDef":@"the quality of being universal in nature",
-                           @"definition":@"The quality of being universal in scope; one of the four marks of the Church. “according to the whole”\r\rFurther Reference:\rCatechism of the Catholic Church, 830\rhttp://tinyurl.com/c5m8w5j",
+                           @"definition":@"\rThe quality of being universal in scope; one of the four marks of the Church. “according to the whole”\r\rFurther Reference:\rCatechism of the Catholic Church, 830\rhttp://tinyurl.com/c5m8w5j",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Celibacy",
                            @"twitterDef":@"a lifestyle of sexual abstinence",
-                           @"definition":@"Celibacy is a vocation that dates...\r\rFurther Reference:\r",
+                           @"definition":@"\rCelibacy is a vocation that dates...\r\rFurther Reference:\r",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Chastity",
                            @"twitterDef":@"appropriate experience",
-                           @"definition":@"Chastity is a term that has to do with more than simply sexual purity.\r\rFurther Reference:\r",
+                           @"definition":@"\rChastity is a term that has to do with more than simply sexual purity.\r\rFurther Reference:\r",
                            @"definition":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Christ",
                            @"twitterDef":@"a title of Jesus meaning “annointed one”",
-                           @"definition":@"The title given to Jesus of Nazareth by early Christians; from the Greek χριστος (christos) “annointed one”.\r\rFurther Reference:\rCatechism of the Catholic Church, 436\rhttp://tinyurl.com/neqlbg7",
+                           @"definition":@"\rThe title given to Jesus of Nazareth by early Christians; from the Greek, χριστος (christos) “annointed one”.\r\rFurther Reference:\rCatechism of the Catholic Church, 436\rhttp://tinyurl.com/neqlbg7",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Christ of Faith",
                            @"twitterDef":@"the term for the risen Jesus that emphasizes his glorified existence",
-                           @"definition":@"The term Christ of Faith is often contrasted with the Jesus of History...\r\rFurther Reference:\r",
+                           @"definition":@"\rThe term Christ of Faith is often contrasted with the Jesus of History...\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Christology",
                            @"twitterDef":@"the study of the person and nature of Christ",
-                           @"definition":@"Christology is a subset of Systematics and takes as its point of departure the Chalcedonian definition of the two natures and hypostatic union in Jesus.\r\rFurther Reference:\rWikipedia, “Christology”\rhttp://tinyurl.com/2b79fj",
+                           @"definition":@"\rChristology is a subset of Systematics and takes as its point of departure the Chalcedonian definition of the two natures and hypostatic union in Jesus.\r\rFurther Reference:\rWikipedia, “Christology”\rhttp://tinyurl.com/2b79fj",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Church",
                            @"twitterDef":@"the community that believes that Jesus of Nazraeth\ris the divine Savior of the world",
-                           @"definition":@"The community belonging to the Lord; the people of God; the community centered on the belief that Jesus of Nazraeth is the divine Savior of the world.\r\rFurther Reference:\rCatechism of the Catholic Church, 751\rhttp://tinyurl.com/ojrdr53",
+                           @"definition":@"\rThe community belonging to the Lord; the people of God; the community centered on the belief that Jesus of Nazraeth is the divine Savior of the world.\r\rFurther Reference:\rCatechism of the Catholic Church, 751\rhttp://tinyurl.com/ojrdr53",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"College of Bishops",
                            @"twitterDef":@"the aspect of bishops as a group of equals",
-                           @"definition":@"The College of Bishops is a concept emphasized by Vatican II...\r\rFurther Reference:\r",
+                           @"definition":@"\rThe College of Bishops is a concept emphasized by Vatican II...\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Compline",
                            @"twitterDef":@"the traditional word for Night Prayer",
-                           @"definition":@"Compline...\r\rFurther Reference:\r",
+                           @"definition":@"\rCompline...\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
 
 
     
     [TAWord wordWithDict:@{@"name":@"Communicatio Idiomatum",
                            @"twitterDef":@"the interexchange of Christ's\rdivine and human natures",
-                           @"definition":@"The idea of the Communicatio Idiomatum means that the properties of the human Jesus can also be predicated of the Logos and vice versa.\r\rFurther Reference:\rNew Advent, “Communicatio Idiomatum”\rhttp://tinyurl.com/nqusf6m",
+                           @"definition":@"\rThe idea of the Communicatio Idiomatum means that the properties of the human Jesus can also be predicated of the Logos and vice versa.\r\rFurther Reference:\rNew Advent, “Communicatio Idiomatum”\rhttp://tinyurl.com/nqusf6m",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Communion of Saints",
                            @"twitterDef":@"the unity among believers that exists in Christ",
-                           @"definition":@"The unity among believers that exists in Christ.\r\rFurther Reference:\rCatechism of the Catholic Church, 946\rhttp://tinyurl.com/pkxuudx",
+                           @"definition":@"\rThe unity among believers that exists in Christ.\r\rFurther Reference:\rCatechism of the Catholic Church, 946\rhttp://tinyurl.com/pkxuudx",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Confession",
                            @"twitterDef":@"the Sacrament of Reconciliation with God through the Church",
-                           @"definition":@"The sacrament of reconciliation\r\rFurther Reference:\rCatechism of the Catholic Church, 1424\r http://tinyurl.com/l7xon9e",
+                           @"definition":@"\rThe sacrament of reconciliation\r\rFurther Reference:\rCatechism of the Catholic Church, 1424\r http://tinyurl.com/l7xon9e",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Confirmation",
                            @"twitterDef":@"the sacrament of reception of the Holy Spirit in which..",
-                           @"definition":@"The sacrament of reception of the Holy Spirit in which.... \r\rFurther Reference:\rCatechism of the Catholic Church, 1285\rhttp://tinyurl.com/lcgw5p7",
+                           @"definition":@"\rThe sacrament of reception of the Holy Spirit in which.... \r\rFurther Reference:\rCatechism of the Catholic Church, 1285\rhttp://tinyurl.com/lcgw5p7",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Conversion",
                            @"twitterDef":@"the process of spiritual transformation",
-                           @"definition":@"The process of changing one's direction in life.\r\rFurther Reference:\rCatechism of the Catholic Church, 1989\rhttp://tinyurl.com/yaua7cc",
+                           @"definition":@"\rThe process of changing one's direction in life.\r\rFurther Reference:\rCatechism of the Catholic Church, 1989\rhttp://tinyurl.com/yaua7cc",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Cosmological Argument",
                            @"twitterDef":@"an argument for God's existence, based on Aristotle's First Cause argument",
-                           @"definition":@"One of the classical arguments for the existence of God, based on the First Cause argument.\r\rFurther Reference:\rSee Stanford Encyclopedia of Philosophy, “Cosmological Argument” http://tinyurl.com/8xkm72n\r\rThomas Aquinas, Summa Theologica, ST, Ia, q. 2 a. 3 co. http://tinyurl.com/my5bedq",
+                           @"definition":@"\rOne of the classical arguments for the existence of God, based on the First Cause argument.\r\rFurther Reference:\rSee Stanford Encyclopedia of Philosophy, “Cosmological Argument” http://tinyurl.com/8xkm72n\r\rThomas Aquinas, Summa Theologica, ST, Ia, q. 2 a. 3 co. http://tinyurl.com/my5bedq",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Contemplation",
                            @"twitterDef":@"a form of silent and meditative prayer",
-                           @"definition":@"This form of prayer....\r\rFurther Reference:\r",
+                           @"definition":@"\rThis form of prayer....\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Chalice",
                            @"twitterDef":@"the litugical name for a cup/used during the Eucharist",
-                           @"definition":@"The 2011 new translation of the Mass refers to the cup (still called such in the Memorial Acclamation) as a chalice...\r\rFurther Reference:\r",
+                           @"definition":@"\rThe 2011 new translation of the Mass refers to the cup (still called such in the Memorial Acclamation) as a chalice...\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Cherubim",
                            @"twitterDef":@"a class of angelic figures\rdepicted in the Bible",
-                           @"definition":@"Cherubim are found from as early as Genesis 3....; the plural form of the Hebrew     cherub...\r\rFurther Reference:\r",
+                           @"definition":@"\rCherubim are found from as early as Genesis 3....; the plural form of the Hebrew     cherub...\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Conscience",
                            @"twitterDef":@"that which prompts us to\rdo good and avoid evil",
-                           @"definition":@"The conscience is inner-most place of the soul which determines....\r\rFurther Reference:\r",
+                           @"definition":@"\rThe conscience is inner-most place of the soul which determines....\r\rFurther Reference:\r",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Consecration",
                            @"twitterDef":@"the act of setting someone or something\rapart for special service",
-                           @"definition":@"Consecration usually takes the form of the consecration of the Eucharistic elements of bread and wine. It is also used to describe....\r\rFurther Reference:\r",
+                           @"definition":@"\rConsecration usually takes the form of the consecration of the Eucharistic elements of bread and wine. It is also used to describe....\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Consubstantial",
-                           @"twitterDef":@"a word meaning\rof the same substance",
-                           @"definition":@"This term is derived from the Latin translation of homoousious...\r\rFurther Reference:\r",
+                           @"twitterDef":@"having the same substance",
+                           @"definition":@"\rThis term is derived from the Latin translation of homoousious...\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
 
     [TAWord wordWithDict:@{@"name":@"Contrition",
                            @"twitterDef":@"repentance from sin and intention for conversion",
-                           @"definition":@"Contrition is the natural result of sin. Psalm ...says A contrite heart, you will not despise....\r\rFurther Reference:\r",
+                           @"definition":@"\rContrition is the natural result of sin. Psalm ...says A contrite heart, you will not despise....\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Concelebration",
                            @"twitterDef":@"the celebration of the Mass\rby two or more priests",
-                           @"definition":@"Concelebration is....\r\rFurther Reference:\r",
+                           @"definition":@"\rConcelebration is....\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Corpus Christi",
-                           @"twitterDef":@"a Latin phrase meaning\rBody of Christ",
-                           @"definition":@"Corpus Christi is a feast day for the Church....\r\rFurther Reference:\r",
+                           @"twitterDef":@"the liturgical feast that celebrates\rthe Eucharist",
+                           @"definition":@"\rCorpus Christi is a feast day for the Church....\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Crucifixion",
                            @"twitterDef":@"a form of death by hanging\that induces asphyxiation",
-                           @"definition":@"The Romans aquired the practice of crucifixion from the Carthaginians. It was reserved for Roman non-citizens...\r\rFurther Reference:\r",
+                           @"definition":@"\rThe Romans aquired the practice of crucifixion from the Carthaginians. It was reserved for Roman non-citizens...\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
 
     
     [TAWord wordWithDict:@{@"name":@"Creation",
                            @"twitterDef":@"the Universe...",
-                           @"definition":@"The universe.\r\rFurther Reference:\rCatechism of the Catholic Church, 280\rhttp://tinyurl.com/6kvj6",
+                           @"definition":@"\rThe universe.\r\rFurther Reference:\rCatechism of the Catholic Church, 280\rhttp://tinyurl.com/6kvj6",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Creationism",
                            @"twitterDef":@"the belief that God created the earth & humanity as described in the book of Genesis",
-                           @"definition":@"The belief that God created the earth and human beings directly, with no biological predecessors as described in the book of Genesis.\r\rFurther Reference:\rSee “evolution” in the Cultural cateogry",
+                           @"definition":@"\rThe belief that God created the earth and human beings directly, with no biological predecessors as described in the book of Genesis.\r\rFurther Reference:\rSee “evolution” in the Cultural cateogry",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Creed",
                            @"twitterDef":@"a statement of faith or belief",
-                           @"definition":@"The Latin word (credo) meaning “I believe” - a statement of belief; used to refer to the historical creeds of the Church, most notably the Apostle's and Nicene creed.\r\rFurther Reference:\rCatechism of the Catholic Church, 187\rhttp://tinyurl.com/mo3f24x",
+                           @"definition":@"\rThe Latin word (credo) meaning “I believe” - a statement of belief; used to refer to the historical creeds of the Church, most notably the Apostle's and Nicene creed.\r\rFurther Reference:\rCatechism of the Catholic Church, 187\rhttp://tinyurl.com/mo3f24x",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Call Narrative",
                            @"twitterDef":@"a literary form used throughout the Bible in which a person is called by God for a specific task",
-                           @"definition":@"Call Narratives consist of three parts: call, concern, commission. The stories of Moses, Jeremiah, and Isaiah all involve a call narrative.\r\rFurther Reference:\r",
+                           @"definition":@"\rCall Narratives consist of three parts: call, concern, commission. The stories of Moses, Jeremiah, and Isaiah all involve a call narrative.\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Charism",
                            @"twitterDef":@"the spiritual gifts that result from the experience of the Holy Spirit",
-                           @"definition":@"According to the Apostle Paul, the spiritual gifts that come with Christian experience of the Holy Spirit - from the Greek word χαρισμα (charisma) - “gift”. See 1 Corinthians 12.\r\rFurther Reference:\r",
+                           @"definition":@"\rAccording to the Apostle Paul, the spiritual gifts that come with Christian experience of the Holy Spirit. See 1 Corinthians 12.\r\rGreek, χαρισμα (charisma) “gift”.\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Circumcision",
                            @"twitterDef":@"the ritual cutting of the male foreskin",
-                           @"definition":@"Circumcision is the essential sign of the covenant according to the Priestly Source in Genesis 17.\r\rFurther Reference:\r",
+                           @"definition":@"\rCircumcision is the essential sign of the covenant according to the Priestly Source in Genesis 17.\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Codex",
@@ -902,37 +902,37 @@
     
     [TAWord wordWithDict:@{@"name":@"Covenant",
                            @"twitterDef":@"a sacred contract or agreement",
-                           @"definition":@"Covenants are used throughout the Bible. They refer to the relationship between YHWH and Noah and all living creatures in Genesis 9; between God and Abraham in Genesis 15 and 17; between YHWH and all Israel in Exodus 25; and between God and humanity in the Gospels.\r\rFurther Reference:\rCatechism of the Catholic Church, 56, 59, 62, 73 http://tinyurl.com/pesbbq3",
+                           @"definition":@"\rCovenants are used throughout the Bible. They refer to the relationship between YHWH and Noah and all living creatures in Genesis 9; between God and Abraham in Genesis 15 and 17; between YHWH and all Israel in Exodus 25; and between God and humanity in the Gospels.\r\rFurther Reference:\rCatechism of the Catholic Church, 56, 59, 62, 73 http://tinyurl.com/pesbbq3",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Church/State",
                            @"twitterDef":@"a philosophical, theological, and legal dichotomy of religious and political entities",
-                           @"definition":@"The dichotomy used to express philosophical, theological, and legal differences in religious and political entities.\r\rFurther Reference:\r",
+                           @"definition":@"\rThe dichotomy used to express philosophical, theological, and legal differences in religious and political entities.\r\rFurther Reference:\r",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Colonialism",
                            @"twitterDef":@"the practice of a country claiming foreign lands\ras its own",
-                           @"definition":@"The practice of settling foreign lands.\r\rFurther Reference:\r",
+                           @"definition":@"\rThe practice of settling foreign lands.\r\rFurther Reference:\r",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Common Good",
-                           @"twitterDef":@"the social condition in which all people are allowed to reach their full development",
-                           @"definition":@"the social condition in which all people are allowed to reach their full development.\r\rFurther Reference:\r",
+                           @"twitterDef":@"the social condition in which all people\r are allowed to reach their full development",
+                           @"definition":@"\rthe social condition in which all people are allowed to reach their full development.\r\rFurther Reference:\r",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Compatiblism",
                            @"twitterDef":@"the belief that human freedom is compatible with determinism",
-                           @"definition":@"The belief that human freedom is compatible with deterministic elements of human experience.\r\rFurther Reference:\rStandford Encyclopedia of Philosophy, “Compatibilism”\rhttp://tinyurl.com/l3aj5j.",
+                           @"definition":@"\rThe belief that human freedom is compatible with deterministic elements of human experience.\r\rFurther Reference:\rStandford Encyclopedia of Philosophy, “Compatibilism”\rhttp://tinyurl.com/l3aj5j.",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Council",
                            @"twitterDef":@"a gathering of the Church to settle disputed matters of Christian teaching",
-                           @"definition":@"A gathering of the Church to settle disputed matters of Christian teaching; the prototypical council is depicted in Acts 15 in which the Church determines the requirements for Gentile membership. Later councils were local or regional; ecumenical councils, or councils of the whole Church, began in A.D. 325 at the behest of the Emperor Constantine in the city of Nicea. Seven such ecumenical councils are recognized by both the Eastern and Western Church.\r\rFurther Reference:\r",
+                           @"definition":@"\rA gathering of the Church to settle disputed matters of Christian teaching; the prototypical council is depicted in Acts 15 in which the Church determines the requirements for Gentile membership. Later councils were local or regional; ecumenical councils, or councils of the whole Church, began in A.D. 325 at the behest of the Emperor Constantine in the city of Nicea. Seven such ecumenical councils are recognized by both the Eastern and Western Church.\r\rFurther Reference:\r",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Cybertheology",
                            @"twitterDef":@"the intelligence of faith in the era of the Internet and World Wide Web",
-                           @"definition":@"According to Fr. Antonio Spadaro, S.J., the term “cybertheology” refers to the intelligence of faith in the era of the Internet and World Wide Web, which arises from the recognition that, as technology changes ways of thinking, theology necessarily changes as well.\r\rFurther Reference:\r",
+                           @"definition":@"\rAccording to Fr. Antonio Spadaro, S.J., the term “cybertheology” refers to the intelligence of faith in the era of the Internet and World Wide Web, which arises from the recognition that, as technology changes ways of thinking, theology necessarily changes as well.\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
     //D
@@ -1205,12 +1205,12 @@
     
     [TAWord wordWithDict:@{@"name":@"Eucharist",
                            @"twitterDef":@"the sacred meal of bread and wine in which\rChristians celebrate the death and resurrection of Jesus",
-                           @"definition":@"The word Eucharist came to be associated with the bread and wine of the Eucharist which early Christians believed to be directly related to the body and blood of Jesus. The belief that Jesus is present in the Eucharist predates to the earliest years of the Church. Paul claims that bread and wine of the Eucharist are a participation in the body and blood of Christ. This belief predates any theory (e.g. transubstantiation) as to how he is present; from the Greek ευχαριστος (eucharistos) “good thanksgiving”. See “Anamnesis”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1322\rhttp://tinyurl.com/q6gyoc7",
+                           @"definition":@"The word Eucharist came to be associated with the bread and wine of the Eucharist which early Christians believed to be directly related to the body and blood of Jesus. The belief that Jesus is present in the Eucharist predates to the earliest years of the Church. Paul claims that bread and wine of the Eucharist are a participation in the body and blood of Christ. This belief predates any theory (e.g. transubstantiation) as to how he is present; from the Greek ευχαριστος (eucharistos) “good thanksgiving”. See “Anamnesis”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1322\rhttp://tinyurl.com/q6gyoc7\r\rPost-Synodal Exhortation on the Eucharist, http://tinyurl.com/nt7jj3z",
                            @"category":@"Liturgical"}];
 
     [TAWord wordWithDict:@{@"name":@"Euthyphro Problem",
-                           @"twitterDef":@"does God love ... ",
-                           @"definition":@"Good Friday is part of the Triduum.\r\rFurther Reference:\r",
+                           @"twitterDef":@"a philosophical problem in ethics dealing\rwith the relation of God to the Commandments",
+                           @"definition":@"Does God give the Commandments because they are good, or are the Commandments good because God gives them?\r\rFurther Reference:\r",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Exclusivism",
@@ -1275,7 +1275,7 @@
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Eros",
-                           @"twitterDef":@"physical & attractive love\ror the desire to possess",
+                           @"twitterDef":@"the Greek word meaning\r“physical love”",
                            @"definition":@"Eros is used to refer especially to physical love, or the love that passionately desires to possess; from the Greek, ερος.\r\rFurther Reference:\rWikipedia, “Eros”\rhttp://tinyurl.com/mw6ea3v",
                            @"category":@"Moral"}];
     
@@ -1367,7 +1367,7 @@
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Filioque",
-                           @"twitterDef":@"“and the Son”",
+                           @"twitterDef":@"a Western addition to the Nicene Creed meaning\r“and the Son”",
                            @"definition":@"The Filioque phrase became a source of contention between the Eastern and Western churches after ...\r\rFurther Reference:\r",
                            @"category":@"Historical"}];
     
@@ -1516,9 +1516,9 @@
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Hebrew",
-                           @"twitterDef":@"the liturigcal memorial of\rthe crucifixion of Jesus",
+                           @"twitterDef":@"the Semitic language of ancient Israel",
                            @"definition":@"Good Friday is part of the Triduum.\r\rFurther Reference:\r",
-                           @"category":@"Liturgical"}];
+                           @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Heart",
                            @"twitterDef":@"the biblical word for\relementary experience",
@@ -1526,7 +1526,7 @@
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Hallelujah",
-                           @"twitterDef":@"“Praise YHWH”",
+                           @"twitterDef":@"a Hebrew word meaning\r“Praise YHWH”",
                            @"definition":@"Hallelujah occurs frequently throughout the Old Testament, especially in the Psalms.\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
 
@@ -1592,7 +1592,7 @@
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Hesed",
-                           @"twitterDef":@"loving kindness\rand covenant faithfulness",
+                           @"twitterDef":@"a Hebrew word meaning\r“loving kindness” or “covenant faithfulness”",
                            @"definition":@"Hesed occurs predominantly in the Psalms, where it is used to refer to YHWH's covenant faithfulness; from the Hebrew word   .\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
@@ -1643,18 +1643,18 @@
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Homily",
-                           @"twitterDef":@"the first principle in medical ethics:\rdo no harm.",
+                           @"twitterDef":@"a sermon based on the Mass readings\rfrom the Lectionary",
                            @"definition":@"The first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Homoiousios",
-                           @"twitterDef":@"of similar substance",
-                           @"definition":@"The first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
+                           @"twitterDef":@"the Greek word meaning\r“of similar substance”",
+                           @"definition":@"This word was used by Arius to describe the relationship of the Son to the Father.\r\rFurther Reference:\rWikipedia, “Homoiousios”\rhttp://tinyurl.com/lvw8sht",
                            @"category":@"Historical"}];
 
     
     [TAWord wordWithDict:@{@"name":@"Homoousios",
-                           @"twitterDef":@"of the same substance",
+                           @"twitterDef":@"the Greek word meaning\r“of the same substance”",
                            @"definition":@"The first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
                            @"category":@"Historical"}];
     
@@ -1674,10 +1674,10 @@
                            @"definition":@"According to the teaching of the Church, human beings are also human persons from the moment of conception. Disputed questions include the pheneomenon of twinning and the problems associated with dualism.\r\rFurther Reference:\rCatechism of the Catholic Church, 2270\rhttp://tinyurl.com/dh7r",
                            @"category":@"Systematic"}];
     
-    //I
+    ////////////////////////////////I
     
     [TAWord wordWithDict:@{@"name":@"Icon",
-                           @"twitterDef":@"the first principle in medical ethics:\rdo no harm.",
+                           @"twitterDef":@"a religious image used for veneration",
                            @"definition":@"The first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
                            @"category":@"Liturgical"}];
 
@@ -1689,13 +1689,13 @@
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Incarnation",
-                           @"twitterDef":@"the first principle in medical ethics:\rdo no harm.",
+                           @"twitterDef":@"the uniting of the eternal Son of God to a human person; the Word made flesh",
                            @"definition":@"The first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
                            @"category":@"Systematic"}];
 
     [TAWord wordWithDict:@{@"name":@"Immaculate Conception",
-                           @"twitterDef":@"the first principle in medical ethics:\rdo no harm.",
-                           @"definition":@"The first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
+                           @"twitterDef":@"the dogma that the Virgin Mary was\r conceived without the effects of Original Sin",
+                           @"definition":@"The first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, \rhttp://tinyurl.com/lvw8sht",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Infallibility",
@@ -1714,8 +1714,10 @@
                            @"category":@"Liturgical"}];
 
 
-
-
+    [TAWord wordWithDict:@{@"name":@"Impediment",
+                           @"twitterDef":@"a hiderance to a free choice;\reither virtual or actual",
+                           @"definition":@"\rVirtual impediments...Actual impediments..\r\rFurther Reference:\rCatholic Moral Theology blog\rhttp://tinyurl.com/pyfcn3n",
+                           @"category":@"Moral"}];
     
     
     [TAWord wordWithDict:@{@"name":@"Immanence",

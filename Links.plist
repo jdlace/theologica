@@ -210,7 +210,7 @@
 	<array>
 		<dict>
 			<key>Name</key>
-			<string>Mass Readings</string>
+			<string>Lectionary</string>
 			<key>URL</key>
 			<string>http://www.universalis.com/mass.htm</string>
 		</dict>
@@ -243,7 +243,7 @@
 	<array>
 		<dict>
 			<key>Name</key>
-			<string>Religion &amp; Science</string>
+			<string>Religion &amp; Science Encyclopedia</string>
 			<key>URL</key>
 			<string>http://inters.org</string>
 		</dict>
