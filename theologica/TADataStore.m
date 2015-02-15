@@ -329,7 +329,7 @@
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Analogy of Faith",
-                           @"twitterDef":@"the coherence of the truths of faith\ramong themselves and whole plan of Revelation",
+                           @"twitterDef":@"the coherence of the truths of faith\ramong themselves",
                            @"definition":@"\rThe Analogy of Faith is a phrase that occurs in Romans 12:6. It later becomes a way to refer to the consistency and interrelationship of Church teaching.\r\rGreek, ἀναλογία (analogia) “proportion”\r\rFurther Reference:\rCatechism of the Catholic Church, 114\rhttp://tinyurl.com/kvc3tvq",
                            @"category":@"Systematic"}];
     
