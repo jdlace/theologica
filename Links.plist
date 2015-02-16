@@ -48,7 +48,7 @@
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>World Resources Institutie</string>
+			<string>World Resources Institute</string>
 			<key>URL</key>
 			<string>http://www.wri.org</string>
 		</dict>
@@ -249,7 +249,7 @@
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>Communion and Stewardship</string>
+			<string>Vatican Theological Commission</string>
 			<key>URL</key>
 			<string>http://www.vatican.va/roman_curia/congregations/cfaith/cti_documents/rc_con_cfaith_doc_20040723_communion-stewardship_en.html</string>
 		</dict>
@@ -270,6 +270,12 @@
 			<string>Catholic Climate Covenant</string>
 			<key>URL</key>
 			<string>http://catholicclimatecovenant.org</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>National Catholic Bioethics Center</string>
+			<key>URL</key>
+			<string>http://ncbcenter.org</string>
 		</dict>
 		<dict>
 			<key>Name</key>
