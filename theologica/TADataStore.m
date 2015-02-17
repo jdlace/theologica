@@ -1015,7 +1015,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Dogma",
                            @"twitterDef":@"the Greek word for “opinion” used for\ra doctrine that has been infallibly defined",
-                           @"definition":@"\rA dogma in the Catholic tradition is a subset of Church doctrine. It refers to a divinely revealed truth that has been defined infallibly. All dogmas are doctrines, but not all doctrines are dogmas.\r\rGreek, δογμα (dogma)\r\rFurther Reference:\rCatechism of the Catholic Church, 88\rhttp://tinyurl.com/bx8mnlu",
+                           @"definition":@"\rA dogma in the Catholic tradition is a subset of Church doctrine. It refers to a divinely revealed truth that has been defined infallibly. All dogmas are doctrines, but not all doctrines are dogmas.\r\rGreek, δόγμα (dogma)\r\rFurther Reference:\rCatechism of the Catholic Church, 88\rhttp://tinyurl.com/bx8mnlu",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Decalogue",
@@ -1069,7 +1069,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Divine Office",
                            @"twitterDef":@"the traditional word for the\rLiturgy of the Hours",
-                           @"definition":@"\rThe meaning of the phrase Divine Office (Service of God)",
+                           @"definition":@"\rSee “Liturgy of the Hours”.",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Documentary Hypothesis",
@@ -1079,7 +1079,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Dynamic Equivalence",
                            @"twitterDef":@"a translation philosophy that seeks to render the text idea for idea",
-                           @"definition":@"\rThe pre-2011 translation of the Mass and New American Bible were both based on a dynamic equivalence philosophy.\r\rFurther Reference:\r",
+                           @"definition":@"\rThe pre-2011 translation of the Mass and New American Bible were both based on a dynamic equivalence philosophy.\r\rFurther Reference:\rFelix Just, S.J., “English Translations of the Bible” http://tinyurl.com/qhfucxz\r\rWikipedia, “Dynamic and Formal Equivalence” http://tinyurl.com/lwylgtu",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Deism",
@@ -1099,12 +1099,12 @@
     
     [TAWord wordWithDict:@{@"name":@"Docetism",
                            @"twitterDef":@"the belief that Jesus was not fully human",
-                           @"definition":@"\rDocetism is alluded to in the Johonnine epistolary corpus...\r\rFurther Reference:\r",
+                           @"definition":@"\rDocetism is a form of Gnosticism, and as such, denied the full humanity of Jesus Christ. It is alluded to in the Johonnine epistolary corpus.\r\rGreek, δοκεῖν (dokein) “to seem”\r\rFurther Reference:\rCatechism of the Catholic Church, 465\r\rWikipedia, “Docetism”\rhttp://tinyurl.com/yoalfv",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Donatism",
                            @"twitterDef":@"a schismatic Christian group that denied\rthe principle of ex opere operato",
-                           @"definition":@"\rThe Donatist schism began in A.D. 311 in North Africa and flourished for about one hundred years. It began when Donatus, a bishop in the church of Carthage, was elected as a reaction against the election of Caecilian to the episcopacy. The latter had been consecrated by a traitor under the Diocletian persecution. In 313, a local council ruled against the rigorism of Donatus.\r\rFurther Reference:\r"}];
+                           @"definition":@"\rThe Donatist schism began in A.D. 311 in North Africa and flourished for about one hundred years. It began when Donatus, a bishop in the church of Carthage, was elected as a reaction against the election of Caecilian to the episcopacy. The latter had been consecrated by a traitor under the Diocletian persecution. Donatus declared all sacraments and ordinations by Caecilian to be invalid and caused a schism in Northern Africa. In 313, a local council ruled against the rigorism of Donatus.\r\rFurther Reference:\rWikipedia, “Donatism”\rhttp://tinyurl.com/o73ocyf"}];
     
     [TAWord wordWithDict:@{@"name":@"Doxology",
                            @"twitterDef":@"a praise or blessing of God in prayer",
@@ -1117,8 +1117,8 @@
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Dulia",
-                           @"twitterDef":@"the Greek word meaning “veneration”;\rusually of the Saints",
-                           @"definition":@"\rIn contrast to latria, dulia refers to veneration that is appropriate for the Saints; from the Greek, δυλια.\r\rFurther Reference:\r",
+                           @"twitterDef":@"the Greek word meaning\r“veneration”",
+                           @"definition":@"\rIn contrast to latria, dulia refers to veneration that is appropriate for the Saints or other sources of inspiration for Christian living. The Virgin Mary is the object of hyperdulia, the highest veneration one can give to anything created.\r\rGreek, δουλεία (douleia)\r\rFurther Reference:\rNew Advent, “Dulia”\rhttp://tinyurl.com/la9btgm",
                            @"category":@"Liturgical"}];
     
     ////////////////////////////////E
@@ -2555,6 +2555,11 @@
     [TAWord wordWithDict:@{@"name":@"Salvation",
                            @"twitterDef":@"the experience of being saved from sin and eventually death",
                            @"definition":@"\rThe experience of being saved from sin and eventually death.\r\rFurther Reference:\r",
+                           @"category":@"Systematic"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Schism",
+                           @"twitterDef":@"the Greek word meaning “division”; a split in visible unity of the Church",
+                           @"definition":@"\rSchisms are not necessarily heresies; they are the result of a failure in discipline, which may include matters of belief. Schisms may result from non-doctrinal matters. Paul mentions a local schism in the church at Corinth. While every heresy necessarily involvesa schism, not every schism necessarily involves a heresy. See “Heresy”.\r\rFurther Reference:\rCatechism of the Catholic Church, 2089\rhttp://tinyurl.com/lu75a9k",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Selucid",
