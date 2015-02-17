@@ -138,9 +138,9 @@
 	<array>
 		<dict>
 			<key>Name</key>
-			<string>Oxford Biblical Studies</string>
+			<string>Ancient Greek and Latin Texts</string>
 			<key>URL</key>
-			<string>http://www.oxfordbiblicalstudies.com</string>
+			<string>http://www.perseus.tufts.edu/hopper/collection?collection=Perseus:collection:Greco-Roman</string>
 		</dict>
 		<dict>
 			<key>Name</key>
