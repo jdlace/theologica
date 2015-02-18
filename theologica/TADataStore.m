@@ -1121,7 +1121,18 @@
                            @"definition":@"\rIn contrast to latria, dulia refers to veneration that is appropriate for the Saints or other sources of inspiration for Christian living. The Virgin Mary is the object of hyperdulia, the highest veneration one can give to anything created.\r\rGreek, δουλεία (douleia)\r\rFurther Reference:\rNew Advent, “Dulia”\rhttp://tinyurl.com/la9btgm",
                            @"category":@"Liturgical"}];
     
-    ////////////////////////////////E
+    
+    
+    
+    
+    
+    /////////////////////////////////////E
+    
+    
+    
+    
+    
+    
     
     [TAWord wordWithDict:@{@"name":@"Easter",
                            @"twitterDef":@"the liturgical celebration of\rthe resurrection of Jesus",
@@ -1129,19 +1140,19 @@
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Eastern Catholic Churches",
-                           @"twitterDef":@"Byzantine rite churches in full communion\rwith the Church of Rome",
-                           @"definition":@"\rEastern Catholic Churches were brought into full communion....\r\rFurther Reference:\r",
+                           @"twitterDef":@"autonomous non-Western churches in full communion\rwith the Church of Rome",
+                           @"definition":@"\rEastern Catholic Churches include Alexandrian, Antiochian, Armenian, Byzantine, and Syrian churches. They are represented in the Congregation for the Oriental Chuches.\r\rFurther Reference:\rCongregation for Oriental Churches, http://tinyurl.com/oqrrpmy",
                            @"category":@"Historical"}];
 
     
     [TAWord wordWithDict:@{@"name":@"Ebionites",
-                           @"twitterDef":@"a heretical group of 1st century Christians\rwho denied the divinity of Christ",
-                           @"definition":@"\rThe Ebionites are mentioned by Eusebius...\r\rFurther Reference:\r",
+                           @"twitterDef":@"a sect of 1st century Jewish Christians\rwho denied the divinity of Christ",
+                           @"definition":@"\rThe Ebionites are mentioned by Irenaeus. Other Church Fathers (such as Origen and Tertullian) mention them as well. They seem to have had similar characteristics as the Essenes. They respected James the Just and believed Paul of Tarsus to be a heretic.\r\rFurther Reference:\rWikipedia, Ebionites\rhttp://tinyurl.com/yjrqt9y",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Ecclesia",
-                           @"twitterDef":@"the Greek word meaning\r“those who have been called-out”; the Church",
-                           @"definition":@"\rThe word ecclesia was originally a term used to desribe the legislature of the Athenian City-State; from the Greek called-out assembly.\r\rFurther Reference:\r",
+                           @"twitterDef":@"the Greek word meaning “those who have been called-out”\r; the Church",
+                           @"definition":@"\rThe word ecclesia was originally a term used to desribe the legislature of the Athenian City-State.\r\rGreek, ἐκκλησία    (ecclesia)\r\rFurther Reference:\rCatechism of the Catholic Church, 751\rhttp://tinyurl.com/oy6txqx",
                            @"category":@"Biblical"}];
 
     
@@ -1152,32 +1163,28 @@
     
     [TAWord wordWithDict:@{@"name":@"Elevation",
                            @"twitterDef":@"the raising up of the consecrated bread and wine\at the end of the Eucharistic prayer",
-                           @"definition":@"\rThe Elevation can be traced back to....\r\rFurther Reference:\r",
+                           @"definition":@"\rThe Host is elevated so that it can be venerated by the congregation. The practice can be traced back to Eudes de Sully, Bishop of Paris (1198-12-08).\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, General Instruction of the Roman Missal\rhttp://tinyurl.com/pe365cl",
                            @"category":@"Liturgical"}];
     
-    [TAWord wordWithDict:@{@"name":@"Emmanuel",
-                           @"twitterDef":@"a Hebrew word meaning “God is with us”\rapplied to Jesus in the Gospel of Matthew",
-                           @"definition":@"\rThis word is used as a name for the child (likely Hezekiah) born as a sign to King Ahaz in Isaiah 7:14 that the northern alliance between Assyria and Israel will not defeat Judah. The author of the gospel of Matthew uses it as a prediction of the birth of Jesus.\r\rFurther Reference:\r",
-                           @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Enlightenment",
-                           @"twitterDef":@"the cultural movement which prioritized reason over religion",
-                           @"definition":@"\rThe Enlightenment is generally dated to the late sixteenth and seventeenth centuries in Europe..\r\rFurther Reference:\r",
+                           @"twitterDef":@"the 17th-18th century cultural movement\rwhich prioritized reason over religion",
+                           @"definition":@"\rThe Enlightenment was essential to the development of modern nation states, economics, and science.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy, “Enlightenment”\rhttp://tinyurl.com/cqvbd37",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Epiclesis",
-                           @"twitterDef":@"the invocation of the Holy Spirit\ron the Eucharistic elements",
-                           @"definition":@"\rThe Epiclesis can be dated to the....century...\r\rFurther Reference:\r",
+                           @"twitterDef":@"the Greek word meaning “invocation”;\rof the Holy Spirit upon the Eucharist",
+                           @"definition":@"\rThe Epiclesis invites the Holy Spirit to transform the gifts of bread and wine into the body and blood of Christ.\r\rGreek, ἐπίκλησις (epiklesis)\r\rFurther Reference:\rCatechism of the Catholic Church, 1105\rhttp://tinyurl.com/oqbzkx3",
                            @"category":@"Liturgical"}];
 
     [TAWord wordWithDict:@{@"name":@"Episcopacy",
-                           @"twitterDef":@"the order of bishops",
-                           @"definition":@"\r....;from the Greek    , episkopos, overseer.\r\rFurther Reference:\r",
+                           @"twitterDef":@"the third degree of Holy Orders",
+                           @"definition":@"\rSee “Bishop”\r\rGreek, ἐπίσκοπος (episkopos), episkopos, overseer.\r\rFurther Reference:\rCatechism of the Catholic Church, 1555\rhttp://tinyurl.com/4hs6lso",
                            @"category":@"Systematic"}];
 
     [TAWord wordWithDict:@{@"name":@"Evolution",
                            @"twitterDef":@"a process of biological descent with modification",
-                           @"definition":@"\rThe modern theory of evolution is the result of the work of Charles Darwin...Its scientific acceptance was influential on Vatican II as seen in Gaudium et Spes....\r\rFurther Reference:\r",
+                           @"definition":@"\rThe modern theory of evolution is the result of over 100 years of rigorous testing of Charles Darwin's theory of biological decent with modification. Its scientific and cultural acceptance was influential on Vatican II as seen in Gaudium et Spes, 5:\r\r“...the human race has passed from a rather static concept of reality to a more dynamic, evolutionary one. In consequence there has arisen a new series of problems, a series as numerous as can be, calling for efforts of analysis and synthesis.”\r\rFurther Reference:\rNational Center for Science Education, “Evolution”\rhttp://tinyurl.com/mbx353a",
                            @"category":@"Cultural"}];
 
 
@@ -1683,13 +1690,24 @@
                            @"definition":@"\rAccording to the teaching of the Church, human beings are also human persons from the moment of conception. Disputed questions include the pheneomenon of twinning and the problems associated with dualism.\r\rFurther Reference:\rCatechism of the Catholic Church, 2270\rhttp://tinyurl.com/dh7r",
                            @"category":@"Systematic"}];
     
+    
+    
+    
     ////////////////////////////////I
+    
+    
+    
+    
     
     [TAWord wordWithDict:@{@"name":@"Icon",
                            @"twitterDef":@"a religious image used for veneration",
                            @"definition":@"\rThe first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
                            @"category":@"Liturgical"}];
-
+    
+    [TAWord wordWithDict:@{@"name":@"Immanuel",
+                           @"twitterDef":@"a Hebrew word meaning “God is with us”\rapplied to Jesus in the Gospel of Matthew",
+                           @"definition":@"\rThis word is used as a name for the child (likely Hezekiah) born as a sign to King Ahaz in Isaiah 7:14 that the northern alliance between Assyria and Israel will not defeat Judah. The author of the gospel of Matthew uses it as a typology of the birth of Jesus.\r\rHebrew, עִמָּנוּאֵל (immanuel)\r\rFurther Reference:\rWikipedia, “Immanuel”\rhttp://tinyurl.com/lebacy",
+                           @"category":@"Biblical"}];
     
     
     [TAWord wordWithDict:@{@"name":@"Iconoclasm",
