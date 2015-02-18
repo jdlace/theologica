@@ -623,7 +623,7 @@
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Byzantine Rite",
-                           @"twitterDef":@"the liturgical rite of\rthe Eastern Orthodox Church",
+                           @"twitterDef":@"the liturgical rite of\rEastern Orthodox and Catholic Churches",
                            @"definition":@"\rThe Byzantine Rite can be traced back as early as the 3rd century in Constantinople. Two of the more popular liturgies are the Liturgy of St. John Chrysostom and St. Basil the Great.\r\rFurther Reference:\rCatechism of the Catholic Church, 1203\rhttp://tinyurl.com/ndllues",
                            @"category":@"Liturgical"}];
     
@@ -1108,7 +1108,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Doxology",
                            @"twitterDef":@"a praise or blessing of God in prayer",
-                           @"definition":@"\rDoxologies are found throughout the Bible...\r\rFurther Reference:\r",
+                           @"definition":@"\rDoxologies are found throughout the Bible, and are very prevalent in the Psalms. In the New Testament, Paul's letters contain numerous doxologies that center around the revelation of God's Mystery in Christ.\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Dualism",
@@ -1125,7 +1125,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Easter",
                            @"twitterDef":@"the liturgical celebration of\rthe resurrection of Jesus",
-                           @"definition":@"\rEaster has been celebrated since the earliest days of the Church. It is mentioned in the book of Acts..\r\rFurther Reference:\r",
+                           @"definition":@"\rEaster is the Feast of feasts for the Church; the holiest day of the year. The resurrection of Jesus has been celebrated from the earliest days of the Church either the actual day of week or on the first Sunday after Passover. The Quartodeciman Controversy in the 2nd century illustrated that Catholicity did not necessitate uniformity. See “Quartodeciman Controversy”.\r\rFurther Reference:\rCatechism of the Catholic Church, ",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Eastern Catholic Churches",
@@ -2518,6 +2518,11 @@
                            @"twitterDef":@"a term meaning “fifth essence”; used by Aristotle to refer to a substance higher than the four of earth, wind, water, and fire",
                            @"definition":@"\rA term meaning “fifth essence”; used by Aristotle to refer to a substance higher than the four on earth.\r\rFurther Reference:\r",
                            @"category":@"Cultural"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Quartodeciman Controversy",
+                           @"twitterDef":@"a 2nd century liturgical dispute\rover the celebration of Easter",
+                           @"definition":@"\rLeviticus 23:5 regulates the celebration of Passover to the fourteenth day of Nisan. Asiatic Christians celebrated the Resurrection of Jesus on that exact day, while Roman Christians celebrated Easter on the first Sunday after the Nisan 14. Irenaeus of Lyons persuaded Anicetus, the Bishop of Rome at the time, not to excommunicate the Asiatic churches over such a difference.\r\rFurther Reference:\r",
+                           @"category":@"Historical"}];
     
     //R
     

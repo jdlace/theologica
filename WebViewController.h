@@ -16,8 +16,11 @@
 
 @property (weak, nonatomic) IBOutlet UIProgressView *progressBar;
 @property (strong, nonatomic) NSTimer *timer;
+@property (strong, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
 
 @property(nonatomic) BOOL theBool;
+
+-(void) loadWebViewRequest;
 
 //-(void) timerCallBack;
 
