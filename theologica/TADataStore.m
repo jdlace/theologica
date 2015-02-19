@@ -1220,7 +1220,7 @@
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Eucharist",
-                           @"twitterDef":@"the sacred meal of bread and wine in which\rChristians celebrate the death and resurrection of Jesus",
+                           @"twitterDef":@"the Sacramental meal in which\rChristians celebrate the Pashcal Mystery",
                            @"definition":@"\rThe word Eucharist came to be associated with the bread and wine of the Eucharist which early Christians believed to be directly related to the body and blood of Jesus. The belief that Jesus is present in the Eucharist predates to the earliest years of the Church. Paul claims that bread and wine of the Eucharist are a participation in the body and blood of Christ. This belief predates any explanation (e.g. transubstantiation) as to how he is present. See “Anamnesis”.\r\rGreek εὐχαριστία (eucharistia) “good thanksgiving”\r\rFurther Reference:\rCatechism of the Catholic Church, 1322\rhttp://tinyurl.com/q6gyoc7\r\rPost-Synodal Exhortation on the Eucharist, http://tinyurl.com/nt7jj3z",
                            @"category":@"Liturgical"}];
 
@@ -1307,7 +1307,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Exegesis",
                            @"twitterDef":@"the process of determining the meaning of a text in its original context",
-                           @"definition":@"\rExegesis is a necessary element of hermeneutics. The present meaning of a text cannot be known if its past meaning is not properly understood. Exegesis uses the Historical-Critical Method to perform its essential task. See “Hermeneutics”, “Historical-Critical Method”\r\rGreek, ἐξήγησις (exegesis) “leading out”\r\rFurther Reference:\rFelix Just S.J., “Biblical Exegeis”\rhttp://tinyurl.com/k3u6rma\r\rInterpretation of the Bible in the Church, III\rhttp://tinyurl.com/ymsltv",
+                           @"definition":@"\rExegesis is a necessary element of hermeneutics. The present meaning of a text cannot be known if its past meaning is not properly understood. Exegesis uses the Historical-Critical Method to perform its essential task. See “Hermeneutics”, “Historical-Critical Method”\r\rGreek, ἐξήγησις (exegesis) “leading out”\r\rFurther Reference:\rFelix Just S.J., “Biblical Exegeis”\rhttp://tinyurl.com/k3u6rma\r\rInterpretation of the Bible in the Church, III http://tinyurl.com/ymsltv",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Exile",
