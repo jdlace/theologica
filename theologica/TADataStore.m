@@ -1136,11 +1136,11 @@
     
     [TAWord wordWithDict:@{@"name":@"Easter",
                            @"twitterDef":@"the liturgical celebration of\rthe resurrection of Jesus",
-                           @"definition":@"\rEaster is the Feast of feasts for the Church; the holiest day of the year. The resurrection of Jesus has been celebrated from the earliest days of the Church either the actual day of week or on the first Sunday after Passover. The Quartodeciman Controversy in the 2nd century illustrated that Catholicity did not necessitate uniformity. See “Quartodeciman Controversy”.\r\rFurther Reference:\rCatechism of the Catholic Church, ",
+                           @"definition":@"\rEaster is the Feast of feasts for the Church; the holiest day of the year. The resurrection of Jesus has been celebrated from the earliest days of the Church either the actual day of week or on the first Sunday after Passover. The Quartodeciman Controversy in the 2nd century illustrated that Catholicity did not necessitate uniformity. See “Quartodeciman Controversy”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1169-1170\rhttp://tinyurl.com/l7cbxu5",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Eastern Catholic Churches",
-                           @"twitterDef":@"autonomous non-Western churches in full communion\rwith the Church of Rome",
+                           @"twitterDef":@"autonomous non-Western churches in full communion with the Church of Rome",
                            @"definition":@"\rEastern Catholic Churches include Alexandrian, Antiochian, Armenian, Byzantine, and Syrian churches. They are represented in the Congregation for the Oriental Chuches.\r\rFurther Reference:\rCongregation for Oriental Churches, http://tinyurl.com/oqrrpmy",
                            @"category":@"Historical"}];
 
@@ -1151,8 +1151,8 @@
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Ecclesia",
-                           @"twitterDef":@"the Greek word meaning “those who have been called-out”\r; the Church",
-                           @"definition":@"\rThe word ecclesia was originally a term used to desribe the legislature of the Athenian City-State.\r\rGreek, ἐκκλησία    (ecclesia)\r\rFurther Reference:\rCatechism of the Catholic Church, 751\rhttp://tinyurl.com/oy6txqx",
+                           @"twitterDef":@"the Greek word meaning\r“those who have been called-out”",
+                           @"definition":@"\rThe word ecclesia was originally a term used to desribe the legislature of the Athenian City-State. The Greek translators of the Septuagint and writers of the New Testament use it to refer to the Church. See “Septuagint”, “Church”.\r\rGreek, ἐκκλησία (ecclesia)\r\rFurther Reference:\rCatechism of the Catholic Church, 751\rhttp://tinyurl.com/oy6txqx",
                            @"category":@"Biblical"}];
 
     
@@ -1191,62 +1191,62 @@
     
     [TAWord wordWithDict:@{@"name":@"Ethics",
                            @"twitterDef":@"the study of moral systems",
-                           @"definition":@"\rEthics - from the Greek word ηθικος (ethikos) “custom” - is the traditional third branch of Philosophy.\r\rFurther Reference:\rWikipedia, “Ethics”\rhttp://tinyurl.com/oqptk",
+                           @"definition":@"\rEthics is one of the three traditional branches of Philosophy. Christian ethics is the study of morality in the Christian tradition.\r\rGreek, ἠθικός (ethikos) “custom”\r\rFurther Reference:\rWikipedia, “Ethics”\rhttp://tinyurl.com/oqptk",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Ecclesiology",
                            @"twitterDef":@"the study of the Church",
-                           @"definition":@"\rEcclesiology is a subset of Systematic Theology. It examines various aspects of the Church (authority, structure, sacraments, worship, etc.). While the pre-Conciliar model of the Church was that of the Communitas Perfecta (perfect community), Vatican II, in the Dogmatic Constitution on the Church “Lumen Gentium”, chose to define the Church as the People of God and as a Mystical Communion. See “Lumen Gentium”.\r\rFurther Reference:\rWikipedia, “Ecclesiology”\rhttp://tinyurl.com/5e4obj",
+                           @"definition":@"\rEcclesiology examines various aspects of the Church (authority, structure, sacraments, worship, etc.). While the pre-Conciliar model of the Church was that of the Communitas Perfecta (perfect community), Vatican II, in the Dogmatic Constitution on the Church “Lumen Gentium”, chose to define the Church as the People of God and as a Mystical Communion. See “Lumen Gentium”.\r\rFurther Reference:\rWikipedia, “Ecclesiology”\rhttp://tinyurl.com/5e4obj",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Ecumenism",
                            @"twitterDef":@"a movement that emphasizes similarities over differences",
-                           @"definition":@"\rA movement which gained popularity in the 20th century that emphasized shared beliefs among various Christian churches over and against differences.\r\rFurther Reference:\rVatican II, “Decree on Ecumenism”\rhttp://tinyurl.com/3xnyh",
+                           @"definition":@"\rA movement which gained popularity in the 20th century that emphasized shared beliefs among various Christian churches over and against differences.\r\rFurther Reference:\rVatican II, “Unitatis Redintegratio”\rhttp://tinyurl.com/3xnyh",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Election",
-                           @"twitterDef":@"the concept that Israel and the Church were chosen by God to be in a covenant",
+                           @"twitterDef":@"the concept that Israel and the Church\rwere chosen by God to be in a covenant",
                            @"definition":@"\rElection is a concept that runs throughout both the Old and New Testaments. In the Old Testament, Israel is a nation chosen by YHWH from among other nations to be in covenant relationship. In the New Testament, Christ is referred to as the “Chosen One” and believers in him are referred to as being chosen in him.\r\rFurther Reference:\rCatechism of the Catholic Church, 762, 769 http://tinyurl.com/oy6txqx",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Eschatology",
-                           @"twitterDef":@"the belief that evil and injustice will have an end brought about by Divine intervention",
-                           @"definition":@"\rEschatology - from the Greek εσχατον (eschaton) “last thing” - is a subject examined by Systematic Theology. It examines the Church doctrine on the destiny of the human race.\r\rFurther Reference:\rCatechism of the Catholic Church, 673\rhttp://tinyurl.com/n85jnew.",
+                           @"twitterDef":@"the belief that evil and injustice will have\ran end brought about by Divine intervention",
+                           @"definition":@"\rEschatology is traditionally known as the Last Things. It examines the Church doctrine on the destiny of the human race. The historic Creeds of the Church state that Christ will return to judge the living and dead at the end of time.\r\rFurther Reference:\rCatechism of the Catholic Church, 673\rhttp://tinyurl.com/n85jnew.",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Essence",
                            @"twitterDef":@"a property that makes an object what it is",
-                           @"definition":@"\rA property that makes an object what it is.\r\rFurther Reference:\rStandford Encyclopedia of Philosophy, “Essential vs. Accidental Properties”\rhttp://tinyurl.com/olc9dv8.",
+                           @"definition":@"\rEssence (or substance) is contrasted with accidents.\r\rFurther Reference:\rStandford Encyclopedia of Philosophy, “Essential vs. Accidental Properties”\rhttp://tinyurl.com/olc9dv8.",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Eucharist",
                            @"twitterDef":@"the sacred meal of bread and wine in which\rChristians celebrate the death and resurrection of Jesus",
-                           @"definition":@"\rThe word Eucharist came to be associated with the bread and wine of the Eucharist which early Christians believed to be directly related to the body and blood of Jesus. The belief that Jesus is present in the Eucharist predates to the earliest years of the Church. Paul claims that bread and wine of the Eucharist are a participation in the body and blood of Christ. This belief predates any theory (e.g. transubstantiation) as to how he is present; from the Greek ευχαριστος (eucharistos) “good thanksgiving”. See “Anamnesis”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1322\rhttp://tinyurl.com/q6gyoc7\r\rPost-Synodal Exhortation on the Eucharist, http://tinyurl.com/nt7jj3z",
+                           @"definition":@"\rThe word Eucharist came to be associated with the bread and wine of the Eucharist which early Christians believed to be directly related to the body and blood of Jesus. The belief that Jesus is present in the Eucharist predates to the earliest years of the Church. Paul claims that bread and wine of the Eucharist are a participation in the body and blood of Christ. This belief predates any explanation (e.g. transubstantiation) as to how he is present. See “Anamnesis”.\r\rGreek εὐχαριστία (eucharistia) “good thanksgiving”\r\rFurther Reference:\rCatechism of the Catholic Church, 1322\rhttp://tinyurl.com/q6gyoc7\r\rPost-Synodal Exhortation on the Eucharist, http://tinyurl.com/nt7jj3z",
                            @"category":@"Liturgical"}];
 
-    [TAWord wordWithDict:@{@"name":@"Euthyphro Problem",
-                           @"twitterDef":@"a philosophical problem in ethics dealing\rwith the relation of God to the Commandments",
-                           @"definition":@"\rDoes God give the Commandments because they are good, or are the Commandments good because God gives them?\r\rFurther Reference:\r",
+    [TAWord wordWithDict:@{@"name":@"Euthyphro Dilemma",
+                           @"twitterDef":@"does God give commands because they are good? or are they good because God commands them?",
+                           @"definition":@"\rThe Euthphro Problem takes its name from Plato's Dialogue, Euthyphro, in which Socrates asks Euthyphro: Is the pious loved by the gods because it is pious, or is it pious because it is loved by the gods? In contemporary Moral Theology, the question can be framed: Does God give the Commandments because they are good, or are the Commandments good because God gives them?\r\rFurther Reference:\rStanford Encyclopedia of Philosophy, “Religion and Morality”\rhttp://tinyurl.com/6wc2qkg",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Exclusivism",
-                           @"twitterDef":@"the belief that only those who have explicit Christian faith will be saved",
-                           @"definition":@"The soteriological belief that only those people who have a made an explicit Christian confession will experience salvation.\r\rFurther Reference:\r",
+                           @"twitterDef":@"the belief that outside the Church there is no salvation",
+                           @"definition":@"The ancient phrase “extra ecclesium nulla sallus” (outside the Church there is no salvation) has been traditionally interpreted to mean that only Catholics will be saved. The Anonymous Christian notion of Karl Rahner was influential on Vatican II and was the catalyst for a development of this teaching. See “Anonymous Christian”.\r\rFurther Reference:\rCatechism of the Catholic Church, 846\rhttp://tinyurl.com/oupb5",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Ex Cathedra",
                            @"twitterDef":@"a teaching from the chair of Peter",
-                           @"definition":@"\rWhen the Pope teaches ex cathedra, his teaching is considered binding.\r\rFurther Reference:\r",
+                           @"definition":@"\rWhen the Pope explicitly teaches from the chair (ex cathedra) of Peter, his teaching is considered infallible.\r\rFurther Reference:\rNew Advent, “Ex Cathedra”\rhttp://tinyurl.com/z24ta",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Ex Nihilo",
-                           @"twitterDef":@"“the act of God creating from nothing”",
-                           @"definition":@"\rThe phrase Ex Nihilo is used to express the belief that God created the Universe out of nothing.\r\rFurther Reference:\rCatechism of the Catholic Church, 296\rhttp://tinyurl.com/6kvj6.",
+                           @"twitterDef":@"the act of God creating from nothing",
+                           @"definition":@"\rThe phrase ex nihilo is used to express the belief that God created the Universe out of nothing.\r\rLatin (ex nihilo) “from nothing”\r\rFurther Reference:\rCatechism of the Catholic Church, 296\rhttp://tinyurl.com/6kvj6.",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Ex Opere Operato",
                            @"twitterDef":@"the idea that a Sacrament's efficacy is not related to a celebrant's personal holiness",
-                           @"definition":@"\ra Latin phrase meaning\r“from the work, worked”\r\rFurther Reference:\rCatechism of the Catholic Church, 1128\rhttp://tinyurl.com/cmes38",
+                           @"definition":@"\rThe Donatist Schism was initiated by a refusal of Donatus and his followers to adhere to this teaching. a Latin phrase meaning\r“from the work, worked”\r\rFurther Reference:\rCatechism of the Catholic Church, 1128\rhttp://tinyurl.com/cmes38",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Ex Opere Operantis",
@@ -1256,18 +1256,18 @@
     
     [TAWord wordWithDict:@{@"name":@"Excommunication",
                            @"twitterDef":@"the state of being out of visible\rcommunion with the Church",
-                           @"definition":@"\rExcommunication is aluded to as early as the first century in the writings of Paul...\r\rFurther Reference:\r",
+                           @"definition":@"\rExcommunication is aluded to as early as the first century in the writings of Paul, who taught the Corinthian exclude an unrepentant member from communion. In the current Code of Canon Law, only a Pope or authorized representative can lift an excommunication\r\rFurther Reference:\rCatechism of the Catholic Church, 1463\rhttp://tinyurl.com/l7xon9e",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Exorcism",
                            @"twitterDef":@"the expulsion of evil spirits\rby the authority of Jesus Christ",
-                           @"definition":@"\rDuring his ministry, Jesus is reported to have conducted exorcisms....\r\rFurther Reference:\r",
+                           @"definition":@"\rDuring his ministry, Jesus is reported to have conducted exorcisms. The Acts of the Apostles also portrays the Apostles as conducting exorcisms.\r\rFurther Reference:\rCatechism of the Catholic Church, 1673\rhttp://tinyurl.com/oo3cp5p",
                            @"category":@"Systematic"}];
 
 
     [TAWord wordWithDict:@{@"name":@"Eisegesis",
                            @"twitterDef":@"intepreting a text by importing one's own presuppositions",
-                           @"definition":@"\rEisegesis is the opposite of exegesis; from the Greek εις (eis) - “into” and αγω (ago) - “to go”.\r\rFurther Reference:\rFelix Just S.J., “Biblical Exegeis”\rhttp://tinyurl.com/k3u6rma",
+                           @"definition":@"\rEisegesis is the opposite of exegesis. See “Exegesis”.\r\rFurther Reference:\rFelix Just S.J., “Biblical Exegeis”\rhttp://tinyurl.com/k3u6rma",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"El",
@@ -1276,13 +1276,13 @@
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Elohim",
-                           @"twitterDef":@"“gods”, “God”, or “angels”",
-                           @"definition":@"\rThe plural of “El”, “Elohim” can refer to the gods of particular peoples, such as the “Elohim of Babylon”, but came to be used as a singular term referring to the God of Israel, with accompanying singular verbs and adjectives, seemingly accompanying the rise of monotheism among the Israelites. In later Biblical usage it can also refer to “heavenly beings” such as angels.\r\rFurther Reference:\rWikipedia, “Elohim”\rhttp://tinyurl.com/yv38ap",
+                           @"twitterDef":@"the Hebrew word meaning\r“gods”, “God”, or “angels”",
+                           @"definition":@"\rThe plural of “El”, “Elohim” can refer to the gods of particular peoples, such as the “Elohim of Babylon”, but came to be used as a singular term referring to the God of Israel, with accompanying singular verbs and adjectives, seemingly accompanying the rise of monotheism among the Israelites. In later Biblical usage it can also refer to “heavenly beings” such as angels.\r\rHebrew, אֱלֹהִים (elohim)\r\rFurther Reference:\rWikipedia, “Elohim”\rhttp://tinyurl.com/yv38ap",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Elohist Source",
                            @"twitterDef":@"the literary source (E) in the Torah\rthat favors the northern traditions of Israel",
-                           @"definition":@"\rThe “E” source uses “Elohim” as primary reference for God; reflects a preference for the northern kingdom of Israel; written ca. 900 BCE; favors Moses over Aaron and southern kingdom as well as northern tribes of Ephraim and Joseph; related to the same school of priests responsible for the Deuteronomic Source.\r\rFurther Reference:\rWikipedia, “Elohist Source”\rhttp://tinyurl.com/2axcpau",
+                           @"definition":@"\rThe “E” source uses “Elohim” as primary reference for God; reflects a preference for the northern kingdom of Israel; written ca. 900 BCE; favors Moses over Aaron and southern kingdom as well as northern tribes of Ephraim and Joseph. It is likely related to the same school of priests responsible for the Deuteronomic Source.\r\rFurther Reference:\rWikipedia, “Elohist Source”\rhttp://tinyurl.com/2axcpau",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Epistle",
@@ -1292,72 +1292,72 @@
     
     [TAWord wordWithDict:@{@"name":@"Eros",
                            @"twitterDef":@"the Greek word meaning\r“physical love”",
-                           @"definition":@"\rEros is used to refer especially to physical love, or the love that passionately desires to possess; from the Greek, ερος.\r\rFurther Reference:\rWikipedia, “Eros”\rhttp://tinyurl.com/mw6ea3v",
+                           @"definition":@"\rEros is used to refer especially to physical love, or the love that passionately desires to possess.\r\rGreek, ἔρως (eros)\r\rFurther Reference:\rWikipedia, “Eros”\rhttp://tinyurl.com/mw6ea3v",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Etiology",
                            @"twitterDef":@"a traditional story that explains a contemporary situation",
-                           @"definition":@"\rThe Old Testament contains numerous etiologies\r\rFurther Reference:\rWikipedia, “Etiology“\rhttp://tinyurl.com/yg6hn9",
+                           @"definition":@"\rThe Old Testament contains numerous etiologies that explain relationships or conditions widely known by the authors' audiences. Genesis 1 contains an etiology of the Sabbath as being rooted in God's resting from creation.\r\rFurther Reference:\rWikipedia, “Etiology“\rhttp://tinyurl.com/yg6hn9",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Evangelist",
                            @"twitterDef":@"a person who spreads good news",
-                           @"definition":@"\rThe word Evangelist can be applied to any person who spreads good news. In Theology, it is usually reserved for one of the authors of the four gospels.\r\rFurther Reference:\r",
+                           @"definition":@"\rThe word “evangelist” can be applied to any person who spreads the good news of Jesus Christ. It is usually reserved for one of the authors of the four Gospels. See Gospel\r\rFurther Reference:\rWikipedia, “Four Evangelists”\rhttp://tinyurl.com/ozctv2",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Exegesis",
                            @"twitterDef":@"the process of determining the meaning of a text in its original context",
-                           @"definition":@"\rExegesis is a necessary element of hermeneutics. It is an essential component of the Historical-Critical Method; from the Greek εξ (ex) “out” and αγω (ago) “to go”. See “Hermeneutics”, “Historical-Critical Method”\r\rFurther Reference:\rFelix Just S.J., “Biblical Exegeis”\rhttp://tinyurl.com/k3u6rma",
+                           @"definition":@"\rExegesis is a necessary element of hermeneutics. The present meaning of a text cannot be known if its past meaning is not properly understood. Exegesis uses the Historical-Critical Method to perform its essential task. See “Hermeneutics”, “Historical-Critical Method”\r\rGreek, ἐξήγησις (exegesis) “leading out”\r\rFurther Reference:\rFelix Just S.J., “Biblical Exegeis”\rhttp://tinyurl.com/k3u6rma\r\rInterpretation of the Bible in the Church, III\rhttp://tinyurl.com/ymsltv",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Exile",
                            @"twitterDef":@"the banishment of the southern kingdom of Judah to Babylon in 587 B.C.",
-                           @"definition":@"\rThe Exile was the most traumatic experience in the life of ancient Israel.\r\rFurther Reference:\r",
+                           @"definition":@"\rThe Exile was the most traumatic experience in the life of ancient Israel. The prophetic literature and the revised Deuteronomic History claims that it was the result of idolatry and failure to practice social justice. Three major theological developments occured as a result of it - true Monotheism, the character of Satan, and the Resurrection of the Dead. See “Monotheism”, “Satan”, “Resurrection”.\r\rFurther Reference:\rWikipedia, “Babylonian Captivity”\rhttp://tinyurl.com/256xlc",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Exodus",
-                           @"twitterDef":@"the liberation of the Israelite slaves from Egypt through the obedience of Moses",
-                           @"definition":@"\rThe Exodus is traditionally dated to ca. 1275 BCE in the reign of Ramases II. It is the foundational event of the Israelite nation; current biblical research supports the idea of a small group of slaves leaving Egypt, having a Divine revelation in Midian, and traveling to Canaan. 2. The second book of the Torah.\r\rFurther Reference:\rRichard Elliot Friedman, “The Exodus Based on the Sources”\rhttp://tinyurl.com/ncovf49",
+                           @"twitterDef":@"the liberation of the Israelite slaves from Egypt\runder Moses",
+                           @"definition":@"\rThe Exodus is traditionally dated to ca. 1275 BCE in the reign of Ramases II. It is the foundational event of the Israelite nation; current biblical research supports the idea of a small group of slaves leaving Egypt, having a Divine revelation in Midian, and traveling to Canaan. Exodus is also the name of the second book of the Torah.\r\rFurther Reference:\rRichard Elliot Friedman, “The Exodus Based on the Sources”\rhttp://tinyurl.com/ncovf49",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Elementary Experience",
-                           @"twitterDef":@"the complex of needs and evidences that humans have for truth, justice, beauty, and goodness",
-                           @"definition":@"\rAccording to Fr. Luigi Giussani, the complex of needs and evidences that humans have for truth, justice, beauty, and goodness.\r\rFurther Reference:\r",
+                           @"twitterDef":@"the complex of needs and evidences that humans\rhave for truth, justice, beauty, and goodness",
+                           @"definition":@"\rAccording to Fr. Luigi Giussani, the founder of the Communion and Liberation Movement, elementary experience is what drives human civilization and development It is what the Bible describes as the “heart”.\r\rFurther Reference:\rCommunion and Liberation, http://tinyurl.com/q82fzzv",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Ephraim",
-                           @"twitterDef":@"1. one of the two sons of Joseph\r2. a prominent northern tribe",
-                           @"definition":@"\rEphraim is mentioned as being...\r\rFurther Reference:\r",
+                           @"twitterDef":@"a prominent northern Israelite tribe\rdescended from a son of Joseph",
+                           @"definition":@"\rEphraim is mentioned in the Bible as being one of the two sons of Joseph. His descendents were alloted a northern central territory in Joshua 16. Its important religious shrines included Shechem, Shiloh, and Bethel. Ephraim became representative of the entire northern kingdom after the divided monarchy.\r\rFurther Reference:\rWikipedia, “Tribe of Ephraim”\rhttp://tinyurl.com/48drdr",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Epiphany",
                            @"twitterDef":@"the liturgical celebration of the\rappearance of Jesus to the world",
-                           @"definition":@"\rEpiphany is celebrated on the   of January in the Western church...\r\rFurther Reference:\r",
+                           @"definition":@"\rEpiphany is celebrated on January 6 in the Western church.\r\rFurther Reference:\rWikipedia, “Epiphany”\rhttp://tinyurl.com/8rjlf6",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Epistemology",
                            @"twitterDef":@"the study of the origin, nature, and limits of human knowledge",
-                           @"definition":@"\rEpistemology is one of the three traditional subjects of Western philosophy.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy, “Epistemology” http://tinyurl.com/pj7qp",
+                           @"definition":@"\rEpistemology is one of the three traditional subjects of Western philosophy. See “Philosophy”\r\rFurther Reference:\rStanford Encyclopedia of Philosophy, “Epistemology” http://tinyurl.com/pj7qp",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Existentialism",
                            @"twitterDef":@"a philosophical movement centered upon the nature of human existence",
-                           @"definition":@"\rOf or relating to existence. 2. A philosophical movement which gained popularity in the late 19th century.\r\rFurther Reference:\r",
+                           @"definition":@"\rAs a philosophical movement which gained popularity in the late 19th century, Existentialism emphasizes the virtue of authenticity as understanding the human situation.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy, “Existentialism”\rhttp://tinyurl.com/2669u6",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Explanandum",
                            @"twitterDef":@"that which is explained by something else",
-                           @"definition":@"\rIn the study of Logic, the explanandum is always explained by something else.\r\rFurther Reference:\r",
+                           @"definition":@"\rIn the study of Logic, the explanandum is a given phenomenon that can always be explained by something else. It is often the conclusion of a deductive argument, the premises of which, constitute the explanans. See “Explanans”.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy, “Scientific Explanation”\rhttp://tinyurl.com/nrkj5bd",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Explanans",
                            @"twitterDef":@"that which explains something else",
-                           @"definition":@"\rIn the study of Logic, the explanans always explains something else...\r\rFurther Reference:\r",
+                           @"definition":@"\rIn the study of Logic, the explanans always explains a given phenomenon. It is often antecedent to the explanandum in the form of premises, which, when taken in sequence, deductively establishes the explanandum. See “Explanandum”.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy, “Scientific Explanation”\rhttp://tinyurl.com/nrkj5bd",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Environmentalism",
                            @"twitterDef":@"the concern for the environment as a matter of social justice",
-                           @"definition":@"\rThe movement, which gained popularity in the 1960s in the United States, that emphasizes concern for the environment as a matter of public policy and social justice.\r\rFurther Reference:\r",
+                           @"definition":@"\rThe movement, which gained popularity in the 1960s in the United States, that emphasizes concern for the environment as a matter of public policy and social justice.\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, “Global Climate Change: A Plea for Dialogue, Prudence, and the Common Good”\rhttp://tinyurl.com/3smna5c",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Eucharistic Adoration",
