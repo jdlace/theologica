@@ -1282,7 +1282,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Elohist Source",
                            @"twitterDef":@"the literary source (E) in the Torah\rthat favors the northern traditions of Israel",
-                           @"definition":@"\rThe “E” source uses “Elohim” as primary reference for God; reflects a preference for the northern kingdom of Israel; written ca. 900 BCE; favors Moses over Aaron and southern kingdom as well as northern tribes of Ephraim and Joseph. It is likely related to the same school of priests responsible for the Deuteronomic Source.\r\rFurther Reference:\rWikipedia, “Elohist Source”\rhttp://tinyurl.com/2axcpau",
+                           @"definition":@"\rThe “E” source uses “Elohim” as primary reference for God before the Theophany in Exodus 3. It was likely written ca. 900 BCE and favors Moses and the northern tribes of Ephraim and Joseph over Aaron and the southern tribes. It is likely related to the same school of priests responsible for the Deuteronomic Source.\r\rFurther Reference:\rWikipedia, “Elohist Source”\rhttp://tinyurl.com/2axcpau",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Epistle",
@@ -1302,12 +1302,12 @@
     
     [TAWord wordWithDict:@{@"name":@"Evangelist",
                            @"twitterDef":@"a person who spreads good news",
-                           @"definition":@"\rThe word “evangelist” can be applied to any person who spreads the good news of Jesus Christ. It is usually reserved for one of the authors of the four Gospels. See Gospel\r\rFurther Reference:\rWikipedia, “Four Evangelists”\rhttp://tinyurl.com/ozctv2",
+                           @"definition":@"\rThe word “evangelist” can be applied to any person who spreads the good news of Jesus Christ. It is usually reserved for one of the authors of the four Gospels. See “Gospel”.\r\rFurther Reference:\rWikipedia, “Four Evangelists”\rhttp://tinyurl.com/ozctv2",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Exegesis",
                            @"twitterDef":@"the process of determining the meaning of a text in its original context",
-                           @"definition":@"\rExegesis is a necessary element of hermeneutics. The present meaning of a text cannot be known if its past meaning is not properly understood. Exegesis uses the Historical-Critical Method to perform its essential task. See “Hermeneutics”, “Historical-Critical Method”\r\rGreek, ἐξήγησις (exegesis) “leading out”\r\rFurther Reference:\rFelix Just S.J., “Biblical Exegeis”\rhttp://tinyurl.com/k3u6rma\r\rInterpretation of the Bible in the Church, III http://tinyurl.com/ymsltv",
+                           @"definition":@"\rExegesis is a necessary element of hermeneutics. The present meaning of a text cannot be known if its past meaning is not properly understood. Exegesis uses the Historical-Critical Method to perform its essential task. See “Hermeneutics”, “Historical-Critical Method”.\r\rGreek, ἐξήγησις (exegesis) “leading out”\r\rFurther Reference:\rFelix Just S.J., “Biblical Exegeis”\rhttp://tinyurl.com/k3u6rma\r\rInterpretation of the Bible in the Church, III http://tinyurl.com/ymsltv",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Exile",
@@ -1365,21 +1365,26 @@
                            @"definition":@"\rThe act of adoring Christ present in the Eucharist.\r\rFurther Reference:\rCatechism of the Catholic Church, 1378\rhttp://tinyurl.com/q6gyoc7",
                            @"category":@"Liturgical"}];
     
-    //F
+    
+    
+   //////////////////////////////////////////F
+    
+    
+    
     
     [TAWord wordWithDict:@{@"name":@"Faith",
-                           @"twitterDef":@"1. trust or confidence\r2. the content of a religious tradition",
+                           @"twitterDef":@"trust or confidence;\rthe content of a religious tradition",
                            @"definition":@"\rIn Catholicism, both uses of faith are very common.\r\rFurther Reference:\rCatechism of the Catholic Church, 1814\rhttp://tinyurl.com/pd2yc32",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Fideism",
-                           @"twitterDef":@"the belief that....",
-                           @"definition":@"\rThe belief that..\r\rFurther Reference:\r",
+                           @"twitterDef":@"the reliance of faith rather than reason\rin the search for truth",
+                           @"definition":@"\rThe most famous proponent of Tertullian, who famously asked: What has Athens to do with Jerusalem?\r\r...\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Fallibilism",
                            @"twitterDef":@"the idea that humans can have inaccurate, yet justified beliefs about the world",
-                           @"definition":@"\rThe idea that humans can have inaccurate, yet justified beliefs about the world. \r\rFurther Reference:\rInternet Ecyclopedia of Philosophy,“Fallibilism”\rhttp://tinyurl.com/q6we5fk",
+                           @"definition":@"\rFallibilism is evidenced in theology when new scientific discoveries mandate a new interpretation of the Biblical text, even though the previous interpretation was justified based on the available data.\r\rFurther Reference:\rInternet Ecyclopedia of Philosophy, “Fallibilism”\rhttp://tinyurl.com/q6we5fk",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Filioque",
@@ -1399,17 +1404,17 @@
     
     [TAWord wordWithDict:@{@"name":@"Folio",
                            @"twitterDef":@"a page within a manuscript",
-                           @"definition":@"\rIn textual criticism, folios are sometimes all that remains of a larger manuscript.\r\rFurther Reference:\rWikipedia, “Folio”\rhttp://tinyurl.com/37amz3t",
+                           @"definition":@"\rIn textual criticism, folios are sometimes all that remains of a larger manuscript. See “Textual Criticism”.\r\rFurther Reference:\rWikipedia, “Folio”\rhttp://tinyurl.com/37amz3t",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Formal Eqivalence",
                            @"twitterDef":@"a translation philosophy that seeks to render the text word for word",
-                           @"definition":@"\rThe 2011 English translation of the Mass is based on formal equivalence, sometimes resulting in odd sentence structure as Latin syntax works differently than that of English.\r\rFurther Reference:\r",
+                           @"definition":@"\rThe New American Bible Revised Edition is a translation based on Formal Equivalence. The 2011 English translation of the Mass is also based on formal equivalence, sometimes resulting in odd sentence structure as Latin syntax works differently than that of English.\r\rFurther Reference:\r\rFelix Just, S.J., “English Translations of the Bible” http://tinyurl.com/qhfucxz\r\rWikipedia, “Dynamic and Formal Equivalence” http://tinyurl.com/lwylgtu",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Form Criticism",
                            @"twitterDef":@"a type of criticism which deciphers and analyzes a text's genre or literary form",
-                           @"definition":@"\rForm Criticism is mentioned as necessary to proper exegesis in Vatican II's Dogmatic Constitution on Divine Revelation, “Dei Verbum”:\r\r“To search out the intention of the sacred writers, attention should be given, among other things, to 'literary forms'. For truth is set forth and expressed differently in texts which are variously historical, prophetic, poetic, or of other forms of discourse.”\r\rForm Criticism is one of the criticisms used by the Historical-Critical Method. See “Exegesis”, “Historical-Critical Method”.\r\rFurther Reference:\rVatican II, “Dei Verbum”, III.12\rhttp://tinyurl.com/3ecxu",
+                           @"definition":@"\rForm Criticism is mentioned as necessary to proper exegesis in Vatican II's Dogmatic Constitution on Divine Revelation, “Dei Verbum”:\r\r“To search out the intention of the sacred writers, attention should be given, among other things, to 'literary forms'. For truth is set forth and expressed differently in texts which are variously historical, prophetic, poetic, or of other forms of discourse.”\r\rForm Criticism is one of the criticisms used by the Historical-Critical Method. See “Dei Verbum”, “Exegesis”, “Historical-Critical Method”.\r\rFurther Reference:\rVatican II, “Dei Verbum”, III.12\rhttp://tinyurl.com/3ecxu",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Fundamentalism",
@@ -1423,7 +1428,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Feminism",
                            @"twitterDef":@"the movement that seeks female liberation from patriarchal structures and norms",
-                           @"definition":@"\rFeminism was widely influential in the twentieth century.\r\rFurther Reference:\rWikipedia, Feminism\rhttp://tinyurl.com/mdu3o",
+                           @"definition":@"\rFeminism was widely influential in the twentieth century, and has raised a new awareness of women's concerns in hermeneutics.\r\rFurther Reference:\rWikipedia, “Feminism”\rhttp://tinyurl.com/mdu3o",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Fraction",
