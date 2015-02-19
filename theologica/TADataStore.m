@@ -1147,23 +1147,23 @@
     
     [TAWord wordWithDict:@{@"name":@"Ebionites",
                            @"twitterDef":@"a sect of 1st century Jewish Christians\rwho denied the divinity of Christ",
-                           @"definition":@"\rThe Ebionites are mentioned by Irenaeus. Other Church Fathers (such as Origen and Tertullian) mention them as well. They seem to have had similar characteristics as the Essenes. They respected James the Just and believed Paul of Tarsus to be a heretic.\r\rFurther Reference:\rWikipedia, Ebionites\rhttp://tinyurl.com/yjrqt9y",
+                           @"definition":@"\rThe Ebionites are mentioned by Irenaeus. Other Church Fathers (such as Origen and Tertullian) mention them as well. They seem to have had similar characteristics as the Essenes. They respected James the Just and believed Paul of Tarsus to be a heretic.\r\rFurther Reference:\rWikipedia, “Ebionites”\rhttp://tinyurl.com/yjrqt9y",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Ecclesia",
-                           @"twitterDef":@"the Greek word meaning\r“those who have been called-out”",
+                           @"twitterDef":@"the Greek word meaning\r“those who have been called out”",
                            @"definition":@"\rThe word ecclesia was originally a term used to desribe the legislature of the Athenian City-State. The Greek translators of the Septuagint and writers of the New Testament use it to refer to the Church. See “Septuagint”, “Church”.\r\rGreek, ἐκκλησία (ecclesia)\r\rFurther Reference:\rCatechism of the Catholic Church, 751\rhttp://tinyurl.com/oy6txqx",
                            @"category":@"Biblical"}];
 
     
     [TAWord wordWithDict:@{@"name":@"Economic Justice",
                            @"twitterDef":@"the right relationship between human beings to a given economic system",
-                           @"definition":@"\rEconomic justice is based on the idea that the economy of any society should serve people, not vice versa.\r\rFurther Reference:\rUSCCB, “Economic Justice”\rhttp://tinyurl.com/l7a4kwo",
+                           @"definition":@"\rEconomic justice is based on the idea that the economy of any society should serve people, not vice versa.\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, “Economic Justice”\rhttp://tinyurl.com/l7a4kwo",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Elevation",
                            @"twitterDef":@"the raising up of the consecrated bread and wine\at the end of the Eucharistic prayer",
-                           @"definition":@"\rThe Host is elevated so that it can be venerated by the congregation. The practice can be traced back to Eudes de Sully, Bishop of Paris (1198-12-08).\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, General Instruction of the Roman Missal\rhttp://tinyurl.com/pe365cl",
+                           @"definition":@"\rThe Host is elevated so that it can be venerated by the congregation. The practice can be traced back to Eudes de Sully, Bishop of Paris (1198-1208).\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, “General Instruction of the Roman Missal”\rhttp://tinyurl.com/pe365cl",
                            @"category":@"Liturgical"}];
     
     
@@ -1196,7 +1196,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Ecclesiology",
                            @"twitterDef":@"the study of the Church",
-                           @"definition":@"\rEcclesiology examines various aspects of the Church (authority, structure, sacraments, worship, etc.). While the pre-Conciliar model of the Church was that of the Communitas Perfecta (perfect community), Vatican II, in the Dogmatic Constitution on the Church “Lumen Gentium”, chose to define the Church as the People of God and as a Mystical Communion. See “Lumen Gentium”.\r\rFurther Reference:\rWikipedia, “Ecclesiology”\rhttp://tinyurl.com/5e4obj",
+                           @"definition":@"\rEcclesiology examines various aspects of the Church (authority, structure, sacraments, worship, etc.). While the pre-Conciliar model of the Church was that of the perfect community (communitas perfecta), Vatican II, in the Dogmatic Constitution on the Church “Lumen Gentium”, chose to define the Church as the People of God united in a Mystical Communion. See “Lumen Gentium”.\r\rFurther Reference:\rWikipedia, “Ecclesiology”\rhttp://tinyurl.com/5e4obj",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Ecumenism",
@@ -1267,12 +1267,12 @@
 
     [TAWord wordWithDict:@{@"name":@"Eisegesis",
                            @"twitterDef":@"intepreting a text by importing one's own presuppositions",
-                           @"definition":@"\rEisegesis is the opposite of exegesis. See “Exegesis”.\r\rFurther Reference:\rFelix Just S.J., “Biblical Exegeis”\rhttp://tinyurl.com/k3u6rma",
+                           @"definition":@"\rEisegesis occurs when exegesis is neglected. See “Exegesis”.\r\rFurther Reference:\rFelix Just S.J., “Biblical Exegeis”\rhttp://tinyurl.com/k3u6rma",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"El",
                            @"twitterDef":@"the father of all the gods and husband of Asherah in Canaanite mythology",
-                           @"definition":@"\rIn the Old Testament, El is referred to throughout the patriarchal sagas. See “Beth-El” in the Old Testament category of Pins in the Map tab.\r\rFurther Reference:\rWikipedia, “El”\rhttp://tinyurl.com/3r98q89",
+                           @"definition":@"\rIn the Old Testament, El is referred to throughout the patriarchal sagas. See “Beth-El” in the Old Testament category of Pins on the Maps tab.\r\rFurther Reference:\rWikipedia, “El”\rhttp://tinyurl.com/3r98q89",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Elohim",
@@ -1321,7 +1321,7 @@
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Elementary Experience",
-                           @"twitterDef":@"the complex of needs and evidences that humans\rhave for truth, justice, beauty, and goodness",
+                           @"twitterDef":@"the existential set of needs and evidences\rfor truth, justice, beauty, and goodness",
                            @"definition":@"\rAccording to Fr. Luigi Giussani, the founder of the Communion and Liberation Movement, elementary experience is what drives human civilization and development It is what the Bible describes as the “heart”.\r\rFurther Reference:\rCommunion and Liberation, http://tinyurl.com/q82fzzv",
                            @"category":@"Cultural"}];
     
