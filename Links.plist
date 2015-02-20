@@ -243,6 +243,12 @@
 	<array>
 		<dict>
 			<key>Name</key>
+			<string>La Nouvelle Theologie</string>
+			<key>URL</key>
+			<string>http://ressourcement.blogspot.com</string>
+		</dict>
+		<dict>
+			<key>Name</key>
 			<string>Religion &amp; Science Encyclopedia</string>
 			<key>URL</key>
 			<string>http://inters.org</string>
@@ -270,6 +276,12 @@
 			<string>Catholic Climate Covenant</string>
 			<key>URL</key>
 			<string>http://catholicclimatecovenant.org</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Center for Theology and Sciences</string>
+			<key>URL</key>
+			<string>http://www.ctns.org/index.html</string>
 		</dict>
 		<dict>
 			<key>Name</key>

@@ -996,7 +996,8 @@
     
     [TAWord wordWithDict:@{@"name":@"Deposit of Faith",
                            @"twitterDef":@"the content of the Christian faith given by God\rto the Church through the Apostolic tradition",
-                           @"definition":@"\rThe Depsit of Faith is regarded as delievered once for all to the Saints by the author of the Epistle of Jude.\r\rFurther Reference:\rCatechism of the Catholic Church, 84\rhttp://tinyurl.com/bx8mnlu"}];
+                           @"definition":@"\rThe Depsit of Faith is regarded as delievered once for all to the Saints by the author of the Epistle of Jude.\r\rFurther Reference:\rCatechism of the Catholic Church, 84\rhttp://tinyurl.com/bx8mnlu",
+                           @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Development of Doctrine",
                            @"twitterDef":@"the idea that the teaching of the Church can faithfully develop over time",
@@ -1104,7 +1105,8 @@
     
     [TAWord wordWithDict:@{@"name":@"Donatism",
                            @"twitterDef":@"a schismatic Christian group that denied\rthe principle of ex opere operato",
-                           @"definition":@"\rThe Donatist schism began in A.D. 311 in North Africa and flourished for about one hundred years. It began when Donatus, a bishop in the church of Carthage, was elected as a reaction against the election of Caecilian to the episcopacy. The latter had been consecrated by a traitor under the Diocletian persecution. Donatus declared all sacraments and ordinations by Caecilian to be invalid and caused a schism in Northern Africa. In 313, a local council ruled against the rigorism of Donatus.\r\rFurther Reference:\rWikipedia, “Donatism”\rhttp://tinyurl.com/o73ocyf"}];
+                           @"definition":@"\rThe Donatist schism began in A.D. 311 in North Africa and flourished for about one hundred years. It began when Donatus, a bishop in the church of Carthage, was elected as a reaction against the election of Caecilian to the episcopacy. The latter had been consecrated by a traitor under the Diocletian persecution. Donatus declared all sacraments and ordinations by Caecilian to be invalid and caused a schism in Northern Africa. In 313, a local council ruled against the rigorism of Donatus.\r\rFurther Reference:\rWikipedia, “Donatism”\rhttp://tinyurl.com/o73ocyf",
+                           @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Doxology",
                            @"twitterDef":@"a praise or blessing of God in prayer",
@@ -1179,7 +1181,7 @@
 
     [TAWord wordWithDict:@{@"name":@"Episcopacy",
                            @"twitterDef":@"the third degree of Holy Orders",
-                           @"definition":@"\rSee “Bishop”\r\rGreek, ἐπίσκοπος (episkopos), episkopos, overseer.\r\rFurther Reference:\rCatechism of the Catholic Church, 1555\rhttp://tinyurl.com/4hs6lso",
+                           @"definition":@"\rSee “Bishop”\r\rFurther Reference:\rCatechism of the Catholic Church, 1555\rhttp://tinyurl.com/4hs6lso",
                            @"category":@"Systematic"}];
 
     [TAWord wordWithDict:@{@"name":@"Evolution",
@@ -1413,7 +1415,7 @@
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Form Criticism",
-                           @"twitterDef":@"a type of criticism which deciphers and analyzes a text's genre or literary form",
+                           @"twitterDef":@"the analysis of the\rgenre or literary form of a text",
                            @"definition":@"\rForm Criticism is mentioned as necessary to proper exegesis in Vatican II's Dogmatic Constitution on Divine Revelation, “Dei Verbum”:\r\r“To search out the intention of the sacred writers, attention should be given, among other things, to 'literary forms'. For truth is set forth and expressed differently in texts which are variously historical, prophetic, poetic, or of other forms of discourse.”\r\rForm Criticism is one of the criticisms used by the Historical-Critical Method. See “Dei Verbum”, “Exegesis”, “Historical-Critical Method”.\r\rFurther Reference:\rVatican II, “Dei Verbum”, III.12\rhttp://tinyurl.com/3ecxu",
                            @"category":@"Biblical"}];
     
@@ -1424,7 +1426,8 @@
     
     [TAWord wordWithDict:@{@"name":@"Fundamental Option",
                            @"twitterDef":@"a person's basic, spiritual orientation",
-                           @"definition":@"\rThe German theologian Karl Rahner was the first to develop this concept. He taught that what the Catholic tradition has termed “mortal sin” can be understood as setting one's Fundamental Option against God. Pope John Paul II taught, in his encyclical “Veritatis Splendor”, that the Fundamental Option is always incarnated in particular human acts. Thus, one cannot commit grave sin without simultaneously engaging his Fundamental Option against God.\r\rFurther Reference:\rCatechism of the Catholic Church, 847\rhttp://tinyurl.com/oupb5"}];
+                           @"definition":@"\rThe German theologian Karl Rahner was the first to develop this concept. He taught that what the Catholic tradition has termed “mortal sin” can be understood as setting one's Fundamental Option against God. Pope John Paul II taught, in his encyclical “Veritatis Splendor”, that the Fundamental Option is always incarnated in particular human acts. Thus, one cannot commit grave sin without simultaneously engaging his Fundamental Option against God.\r\rFurther Reference:\rCatechism of the Catholic Church, 847\rhttp://tinyurl.com/oupb5",
+                           @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Feminism",
                            @"twitterDef":@"the movement that seeks female liberation from patriarchal structures and norms",
@@ -1461,7 +1464,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Great Schism",
                            @"twitterDef":@"the schism between the\rEastern and Western churches in A.D. 1056",
-                           @"definition":@"\rThe Great Schism was the result of ....\r\rFurther Reference:\r",
+                           @"definition":@"\rThe Great Schism was the result of a long period of estrangement between the Latin West and Greek East. Amongst the causes of the formal schism was the Filioque convtroversy. See “Filioque”.\r\rFurther Reference:\rWikipedia, “East-West Schism”\rhttp://tinyurl.com/8tyom4d",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Gehenna",
@@ -1476,7 +1479,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Gnosticism",
                            @"twitterDef":@"a heretical Christian sect that\rtaught salvation through esoteric knowledge",
-                           @"definition":@"\rGnosticism flourished in the second and third centuries...\r\rFurther Reference:\r",
+                           @"definition":@"\rGnosticism flourished in the second and third centuries. As a dualistic philosophy, it claimed that the material world was evil and the spirit was the only good. Various versions of Gnosticism were prevalent during the Ante-Nicene era. Irenaeus of Lyons directed his work, Against Heresies, to the Gnosticism of his day. See “Ante-Nicene Fathers” in the Fathers section of the Links tab.\r\rGreek, γνῶσις (gnosis) “knowledge”.\r\rFurther Reference:\rInternet Encyclopedia of Philosophy, “Gnosticism”\rhttp://tinyurl.com/7fw4t3w",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Gospel",
@@ -1485,13 +1488,13 @@
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Gloria Patri",
-                           @"twitterDef":@"a doxology to the Trinity",
-                           @"definition":@"\rGlory to the Father, and to the Son, and to the Holy Spirit.\r\rFurther Reference:\r",
+                           @"twitterDef":@"a doxology to the Trinity in Latin",
+                           @"definition":@"\r“Glory to the Father, and to the Son, and to the Holy Spirit, as it was in the beginning, is now, and ever shall be world without end. Amen.”\r\rFurther Reference:\rAdoremus, Latin Prayers\rhttp://tinyurl.com/pv5cjvr",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Glossolalia",
-                           @"twitterDef":@"the act of speaking in new languages",
-                           @"definition":@"\rAccording to Paul in 1 Corinthians, glossolalia was a spiritual gift manifested in liturgical worship...\r\rFurther Reference:\r",
+                           @"twitterDef":@"the speaking in new languages\rinspired by the Holy Spirit",
+                           @"definition":@"\rAccording to Paul in 1 Corinthians, glossolalia was a spiritual gift manifested in liturgical worship...\r\rFurther Reference:\rWikipedia, Glossolalia\rhttp://tinyurl.com/c2f7g",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"God of the Gaps",
@@ -1628,7 +1631,7 @@
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Historical Criticism",
-                           @"twitterDef":@"the type of criticism which deciphers and analyzes the historical context of a text",
+                           @"twitterDef":@"the analysis of the\rhistorical context of a text",
                            @"definition":@"\rThe type of exegetical criticism which deciphers and analyzes the historical context of a text.\r\rFurther Reference:\rPontifical Biblical Commission, “The Interpretation of the Bible in the Church, I.A.2”, http://tinyurl.com/2gb5dm",
                            @"category":@"Biblical"}];
     
@@ -1948,7 +1951,7 @@
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Literary Criticism",
-                           @"twitterDef":@"the type of criticism that deciphers and analyzes the literary characteristics of a text",
+                           @"twitterDef":@"the analysis of the\rliterary characteristics of a text",
                            @"definition":@"\rthe type of exegetical criticism that deciphers and analyzes the literary characteristics of a text, including form, setting, plot, characterization, denouement, theme, and climax.\r\rFurther Reference:\rWikipedia, “Literary Criticism”\rhttp://tinyurl.com/kw5x5",
                            @"category":@"Biblical"}];
     
@@ -2320,7 +2323,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Original Sin",
                            @"twitterDef":@"1. the sin of the first humans\r2. the corruptible condition of humanity",
-                           @"definition":@"\rOriginal Sin, while not named as such, is alluded to by Paul in Romans 5:12...In the traditional teaching of the Church, Original Sin can be understood as both the explanans and explanandum... ",
+                           @"definition":@"\rOriginal Sin, while not named as such, is alluded to by Paul in Romans 5:12...In the traditional teaching of the Church, Original Sin can be understood as both the explanans and explanandum.\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Orthodox",
@@ -2550,7 +2553,7 @@
     //R
     
     [TAWord wordWithDict:@{@"name":@"Redaction Criticism",
-                           @"twitterDef":@"the type of criticism that seeks to decipher and analyze\rthe various stages of redaction of a text\r\rFurther Reference:\r",
+                           @"twitterDef":@"the analysis of the various stages\rof the redaction of a text",
                            @"definition":@"\rthe type of criticism that seeks to decipher and analyze\rthe various stages of redaction of a text\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
@@ -2558,14 +2561,19 @@
                            @"definition":@"\rthe process of exchanging the economic value of an object.\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
+    [TAWord wordWithDict:@{@"name":@"Repentance",
+                           @"twitterDef":@"the changing of one's thinking or spiritual orientation",
+                           @"definition":@"\rRepentance is necessary when one's relationship with God is impaired by sin. It is a theme of the Hebrew prophets in the Old Testament. In the New Testament, repentance is linked to the forgiveness of sins in Baptism. See “Baptism”.\r\rGreek, μετάνοια (metanoia) “after thought”\r\rFurther Reference:\rCatechism of the Catholic Church, 1431\rhttp://tinyurl.com/l7xon9e",
+                           @"category":@"Systematic"}];
+    
     [TAWord wordWithDict:@{@"name":@"Ressourcement",
                            @"twitterDef":@"a French term meaning “to return to the sources”",
-                           @"definition":@"\ra French term meaning “to return to the sources”; used by some theologians as the preferred interpretation of the purpose of Vatican II...\r\rSee “Aggiornomento”.",
+                           @"definition":@"\rtThis term is used by some theologians as the preferred interpretation of the purpose of Vatican II; that being a return to the Patristic sources of the Church. It was given the French designation, La Nouvelle Theologie (The New Theology) by its critics who accused the movement of being, instead of true return to the sources, the invention of a new theology which was too accommodating to the errors of Modernism.\r\rSee “Aggiornomento”, “Modernism”.\r\rFurther Reference:\rLa Nouvelle Theologie, Ressourcement\rhttp://tinyurl.com/lt3ph7g",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Resurrection",
-                           @"twitterDef":@"the belief that God will raise the righteous dead to eternal life",
-                           @"definition":@"\rthe belief which developed in post-Exilic Judaism, that God would raise the righteous to eternal life; the belief of the early Christians that Jesus of Nazareth was raised from the dead.\r\rFurther Reference:\r",
+                           @"twitterDef":@"God's raising the righteous dead into eternal life",
+                           @"definition":@"\rThe belief in resurrection developed in post-Exilic Judaism, in part, as an answer the question of the persecution of the righteous. The early Christians believed that Jesus of Nazareth was raised from the dead and thus, demonstrated to be the Messiah and Lord. Paul claims that the resurrection of Jesus was the “firstfruits” of the general resurrection that inaugurated the eschaton. Pierre Teilhard de Chardin interpreted the Resurrection as a pre-figuring of the endpoint of human evolution, which he termed the “Omega Point”. See 1 Corinthians 15.\r\rFurther Reference:\rCatechism of the Catholic Church, 638-655\rhttp://tinyurl.com/nrt2f6g",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Religious Naturalism",
@@ -2621,7 +2629,7 @@
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Source Criticism",
-                           @"twitterDef":@"the type of criticism that seeks to decipher and analyze the underlying source of a text",
+                           @"twitterDef":@"the analysis of the\runderlying source of a text",
                            @"definition":@"\rthe exegetical criticism that seeks to decipher and analyze the underlying source of a text.\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
@@ -2702,7 +2710,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Transcendence",
                            @"twitterDef":@"the quality of going beyond human experience",
-                           @"definition":@"\rthe quality of going beyond human experience.",
+                           @"definition":@"\rthe quality of going beyond human experience.\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Transubstantiation",
@@ -2736,7 +2744,7 @@
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Textual Criticism",
-                           @"twitterDef":@"the criticism that deciphers and analyzes the original language of a text",
+                           @"twitterDef":@"the analysis of the\roriginal language of a text",
                            @"definition":@"\rThe exegetical criticism that deciphers and analyzes the original language of a text.\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
@@ -2817,7 +2825,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Yahwist Source",
                            @"twitterDef":@"the “J” Source...",
-                           @"definition":@"\rThe “J” Source...",
+                           @"definition":@"\rThe “J” Source...\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"YHWH",
