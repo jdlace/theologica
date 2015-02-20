@@ -1231,7 +1231,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Exclusivism",
                            @"twitterDef":@"the belief that outside the Church there is no salvation",
-                           @"definition":@"The ancient phrase “extra ecclesium nulla sallus” (outside the Church there is no salvation) has been traditionally interpreted to mean that only Catholics will be saved. The Anonymous Christian notion of Karl Rahner was influential on Vatican II and was the catalyst for a development of this teaching. See “Anonymous Christian”.\r\rFurther Reference:\rCatechism of the Catholic Church, 846\rhttp://tinyurl.com/oupb5",
+                           @"definition":@"\rThe ancient phrase “extra ecclesium nulla sallus” (outside the Church there is no salvation) has been traditionally interpreted to mean that only Catholics will be saved. The Anonymous Christian notion of Karl Rahner was influential on Vatican II and was the catalyst for a development of this teaching. See “Anonymous Christian”.\r\rFurther Reference:\rCatechism of the Catholic Church, 846\rhttp://tinyurl.com/oupb5",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Ex Cathedra",
@@ -1374,12 +1374,12 @@
     
     [TAWord wordWithDict:@{@"name":@"Faith",
                            @"twitterDef":@"trust or confidence;\rthe content of a religious tradition",
-                           @"definition":@"\rIn Catholicism, both uses of faith are very common.\r\rFurther Reference:\rCatechism of the Catholic Church, 1814\rhttp://tinyurl.com/pd2yc32",
+                           @"definition":@"\rThe importance of faith is first illustrated in Genesis 15. According to the text, after YHWH promised Abram that he would father many nations, “Abram put his faith in the LORD who attributed it to him as an act of righteousness. Habbakuk 2:4 claims “the righteous will live by faith. Paul uses both of these references in his letter to the Romans, in which he claims that salvation is by “grace through faith”. Jude 1:3 refers to the Faith as “once for all delivered to the Saints”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1814\rhttp://tinyurl.com/pd2yc32",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Fideism",
                            @"twitterDef":@"the reliance of faith rather than reason\rin the search for truth",
-                           @"definition":@"\rThe most famous proponent of Tertullian, who famously asked: What has Athens to do with Jerusalem?\r\r...\r\rFurther Reference:\r",
+                           @"definition":@"\rAn early proponent of Fideism was Tertullian, who famously asked: “What has Athens to do with Jerusalem?” Other early Christian thinkers (such as Origen and Augustine) took a more integrative approach to the Church's use of Philosophy. The Catholic tradition has consistently held that both faith and reason are necessary for human flourishing. Pope John Paul II taught in his encyclical, “Fides et Ratio”:\r\r“Faith and reason are like two wings on which the human spirit rises to the contemplation of truth”.\r\rFideism is popular among certain Protestant churches that are Fundamentalist in belief. See “Faith”, “Fundamentalism”, “Philosophy”.\r\rFurther Reference:\rPope John Paul II, “Fides et Ratio”\rhttp://tinyurl.com/lelwry2",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Fallibilism",
@@ -1388,18 +1388,18 @@
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Filioque",
-                           @"twitterDef":@"a Western addition to the Nicene Creed meaning\r“and the Son”",
-                           @"definition":@"\rThe Filioque phrase became a source of contention between the Eastern and Western churches after ...\r\rFurther Reference:\r",
+                           @"twitterDef":@"a Latin phrase added to the Nicene Creed meaning “and the Son”",
+                           @"definition":@"\rThe Filioque phrase dates to the Patristic era. It is found in the writings of Augustine of Hippo, Leo the Great, and others. It gradually became a source of contention between the Eastern and Western churches as seen in the Photian and Great Schism. See “Photian Schism”, “Great Schism”.\r\rFurther Reference:\rWikipedia, “Filioque”\rhttp://tinyurl.com/kdzp5pc",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Foreknowledge",
-                           @"twitterDef":@"the belief that God knows future events",
-                           @"definition":@"\rForeknowledge features prominently in post-Exilic Hebrew literature and in the New Testament. It reflects a more developed period in Israelite theology of YHWH. Associated philosophical problems include constraints on human freedom and the problem of evil. \r\rFurther Reference:\rCatechism of the Catholic Church, 600\rhttp://tinyurl.com/p3dfabj\r\rStanford Encylopedia of Philosophy, “Foreknowledge and Free Will”\r http://tinyurl.com/g8eze",
+                           @"twitterDef":@"the knowledge future events",
+                           @"definition":@"\rAs a characteristic of God, foreknowledge features prominently in post-Exilic Hebrew literature and in the New Testament. It reflects a more developed period in Israelite theology from that of the Yahwist Source, which presents a highly anthropomorphic portrayal of God. Associated philosophical problems include constraints on Free Will and the Problem of Evil. See “Free Will”, “Problem of Evil”.\r\rFurther Reference:\rCatechism of the Catholic Church, 600\rhttp://tinyurl.com/p3dfabj\r\rStanford Encylopedia of Philosophy, “Foreknowledge and Free Will”\r http://tinyurl.com/g8eze",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Free Will",
                            @"twitterDef":@"the ability to freely make a rational choice",
-                           @"definition":@"\rThe ability to choose.\r\rFurther Reference:\rCatechism of the Catholic Church, 1731\rhttp://tinyurl.com/qzj6nl9",
+                           @"definition":@"\rFree will has traditionally been interpreted as a characteristic of human nature being made in the Image of God. The degree of freedom of the will is a factor in analyzing the morality of certain acts. Impediments (both virtual and habitual) can mitigate both responsibility and morality of human actions.\r\rFurther Reference:\rCatechism of the Catholic Church, 1731\rhttp://tinyurl.com/qzj6nl9",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Folio",
@@ -1424,7 +1424,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Fundamental Option",
                            @"twitterDef":@"a person's basic, spiritual orientation",
-                           @"definition":@"\rKarl Rahner was the first to develop this concept.\r\rFurther Reference:\rCatechism of the Catholic Church, 847\rhttp://tinyurl.com/oupb5"}];
+                           @"definition":@"\rThe German theologian Karl Rahner was the first to develop this concept. He taught that what the Catholic tradition has termed “mortal sin” can be understood as setting one's Fundamental Option against God. Pope John Paul II taught, in his encyclical “Veritatis Splendor”, that the Fundamental Option is always incarnated in particular human acts. Thus, one cannot commit grave sin without simultaneously engaging his Fundamental Option against God.\r\rFurther Reference:\rCatechism of the Catholic Church, 847\rhttp://tinyurl.com/oupb5"}];
     
     [TAWord wordWithDict:@{@"name":@"Feminism",
                            @"twitterDef":@"the movement that seeks female liberation from patriarchal structures and norms",
@@ -1433,24 +1433,24 @@
     
     [TAWord wordWithDict:@{@"name":@"Fraction",
                            @"twitterDef":@"the breaking of consecrated bread\rfor the distrubution of Holy Communion",
-                           @"definition":@"\rThe Fraction symbolizes Christ's body given up for the salvation of the world.\r\rFurther Reference:\r",
+                           @"definition":@"\rThe Fraction symbolizes Christ's body given up for the salvation of the world.\r\rFurther Reference:\rCongregation for Divine Worship and Discipline of the Sacraments, “General Instruction of the Roman Missal”, 83\rhttp://tinyurl.com/kmepha",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Forgiveness of Sins",
-                           @"twitterDef":@"to leave behind a broken relationship",
-                           @"definition":@"\rForgiveness has many nuances...\r\rFurther Reference:\r",
+                           @"twitterDef":@"the nullification of offence or injury;\rthe primary effect of Baptism",
+                           @"definition":@"\rForgiveness has many nuances. The Greek root ἄφεσις (aphesis) means “leave behind” and is also used to describe Jesus' exit from a town. In the Gospel of Luke, Jesus makes forgiveness of a brother conditional upon repentance, while he asks God to forgive those responsible for his crucifixion since they “know not what they do”. In the Nicene-Constantinopolitan Creed, Baptism is linked to the Forgiveness of Sins. See “Baptism”, “Nicene-Constantiopolitan Creed”.\r\rFurther Reference:\rCatechism of the Catholic Church, 977\rhttp://tinyurl.com/kd44r5d",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Form",
-                           @"twitterDef":@"the words and matter used in a Sacrament",
-                           @"definition":@"\rThe form of the Sacraments is .....\r\rFurther Reference:\r",
+                           @"twitterDef":@"the words used in a Sacrament",
+                           @"definition":@"\rAccording to the Catechism of the Council of Trent, the form of a Sacrament is one of its constituent parts. The form of a Sacrament is the word, which, when joined to the matter and intention, constitute a valid sacrament.\r\rFurther Reference:\rCatechism of the Council of Trent, Part II\rhttp://tinyurl.com/lcfwkhy",
                            @"category":@"Systematic"}];
-    
-    [TAWord wordWithDict:@{@"name":@"Fransiscan",
-                           @"twitterDef":@"a member of the order of\rSt. Francis of Assisi",
-                           @"definition":@"\rThe order of Franciscans was formally recognized by Pope....\r\rFurther Reference:\r",
+    /*
+    [TAWord wordWithDict:@{@"name":@"Franciscan",
+                           @"twitterDef":@"a member of the order\rfounded by St. Francis of Assisi",
+                           @"definition":@"\rThe order of Franciscans was formally recognized by Pope Honorius III\r\rFurther Reference:\r",
                            @"category":@"Historical"}];
-
+     */
     
     //G
     
@@ -1471,7 +1471,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Genre",
                            @"twitterDef":@"the literary form of a text",
-                           @"definition":@"\rA French word referring to the literary form of a text.\r\rFurther Reference:\rWikipedia, Genre http://tinyurl.com/gsh83",
+                           @"definition":@"\rA French word referring to the literary form of a text. According to Dei Verbum, examination of the literary form of the text is essential for a proper interpretation. See “Form Critcism”.\r\rFurther Reference:\rWikipedia, “Genre” http://tinyurl.com/gsh83",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Gnosticism",
@@ -1481,7 +1481,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Gospel",
                            @"twitterDef":@"the message of and about Jesus of Narareth\rconcerning God, Israel, and the world",
-                           @"definition":@"\r1. The message of the historical Jesus concerning the Kingdom of God; 2. The message about Jesus concerning the salvation of the world; 3. One of the four canonical accounts of the life and ministry of the historical Jesus (Matthew, Mark, Luke, and John); from the Greek word ευαγγελιον (evangelion) - “good news”.\r\rFurther Reference:\rCatechism of the Catholic Church, 75\rhttp://tinyurl.com/bx8mnlu",
+                           @"definition":@"\r1. The message of the historical Jesus concerning the Kingdom of God; 2. The message about Jesus concerning the salvation of the world; 3. One of the four canonical accounts of the life and ministry of the historical Jesus (Matthew, Mark, Luke, and John).\r\rGreek, εὐαγγέλιον (evangelion) “good news”\r\rFurther Reference:\rCatechism of the Catholic Church, 75\rhttp://tinyurl.com/bx8mnlu",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Gloria Patri",
