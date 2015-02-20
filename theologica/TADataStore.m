@@ -1455,8 +1455,8 @@
     //G
     
     [TAWord wordWithDict:@{@"name":@"Grace",
-                           @"twitterDef":@"unmerited favor",
-                           @"definition":@"\runmerited favor.\r\rFurther Reference:\rCatechism of the Catholic Church, 1996\rhttp://tinyurl.com/yaua7cc",
+                           @"twitterDef":@"unmerited Divine help to fulfill the Christian vocation",
+                           @"definition":@"\rSacraments are the ordinary means of Grace. According to Thomas Aquinas, Grace can be either sanctifying or habitual.\r\rFurther Reference:\rCatechism of the Catholic Church, 1996\rhttp://tinyurl.com/yaua7cc",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Great Schism",
