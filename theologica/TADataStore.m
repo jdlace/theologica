@@ -424,6 +424,11 @@
                            @"definition":@"\rOver time, Anathema came to refer to those who were accursed or banished from the community.\r\rGreek, ἀνάθεμα (anathema)\r\rFurther Reference:\rNew Advent, “Anathema”\rhttp://tinyurl.com/o5fl88l",
                            @"category":@"Systematic"}];
     
+    [TAWord wordWithDict:@{@"name":@"Angel",
+                           @"twitterDef":@"a spiritual being that communicates\rDivine messages",
+                           @"definition":@"\rAngels are found througout the Scriptures, and their existence is affirmed by the Church as a truth of the faith. Post-Exilic Judaism developed a Jesus alludes to the idea that some angels have been assigned responsibility for the care of specific individuals. The Bible mentions different classes of angels, with Cherubim being the highest.\r\rGreek, ἄγγελος (angelos) “messenger”\r\rFurther Reference:\r327",
+                           @"category":@"Systematic"}];
+    
     [TAWord wordWithDict:@{@"name":@"Annulment",
                            @"twitterDef":@"an ecclesial declaration that a valid marriage never existed",
                            @"definition":@"\rAnnulments are not divorces in that they do not dissolve an existing marriage but rather recognize mitigating factors that invalidate a marriage, such as lack of consent or the withholding of critical information.\r\rFurther Reference:\rCatechism of the Catholic Church, 1629\rhttp://tinyurl.com/ykptlg",
@@ -1458,12 +1463,12 @@
     //G
     
     [TAWord wordWithDict:@{@"name":@"Grace",
-                           @"twitterDef":@"unmerited Divine help to fulfill the Christian vocation",
+                           @"twitterDef":@"unmerited Divine help\rto fulfill the Christian vocation",
                            @"definition":@"\rSacraments are the ordinary means of Grace. According to Thomas Aquinas, Grace can be either sanctifying or habitual.\r\rFurther Reference:\rCatechism of the Catholic Church, 1996\rhttp://tinyurl.com/yaua7cc",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Great Schism",
-                           @"twitterDef":@"the schism between the\rEastern and Western churches in A.D. 1056",
+                           @"twitterDef":@"the schism between the\rEastern and Western churches in A.D. 1054",
                            @"definition":@"\rThe Great Schism was the result of a long period of estrangement between the Latin West and Greek East. Amongst the causes of the formal schism was the Filioque convtroversy. See “Filioque”.\r\rFurther Reference:\rWikipedia, “East-West Schism”\rhttp://tinyurl.com/8tyom4d",
                            @"category":@"Historical"}];
     
@@ -1483,8 +1488,8 @@
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Gospel",
-                           @"twitterDef":@"the message of and about Jesus of Narareth\rconcerning God, Israel, and the world",
-                           @"definition":@"\r1. The message of the historical Jesus concerning the Kingdom of God; 2. The message about Jesus concerning the salvation of the world; 3. One of the four canonical accounts of the life and ministry of the historical Jesus (Matthew, Mark, Luke, and John).\r\rGreek, εὐαγγέλιον (evangelion) “good news”\r\rFurther Reference:\rCatechism of the Catholic Church, 75\rhttp://tinyurl.com/bx8mnlu",
+                           @"twitterDef":@"the good news of and about Jesus of Narareth\rconcerning God, Israel, and the world",
+                           @"definition":@"\rThe concept of the gospel first appears Isaiah 52:7, where it is connected to the good news that Israel's God is King:\r\r“How beautiful upon the mountains are the feet of the one bringing good news, announcing peace, bearing good news, announcing salvation, saying to Zion, 'Your God is King!'”\r\rNew Testament writers such as Paul use it to refer to the message about Jesus as Messiah. Later, it became a term for one of the four canonical written accounts of the life and ministry of Jesus (Matthew, Mark, Luke, and John). The synoptic gospels of Matthew, Mark, and Luke use it to refer to Jesus' message about the Kingdom of God. It was also used by Roman authors to describe the events surrounding the Emperor of Rome.\r\rGreek, εὐαγγέλιον (evangelion) “good news”\r\rFurther Reference:\rCatechism of the Catholic Church, 75\rhttp://tinyurl.com/bx8mnlu",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Gloria Patri",
@@ -1494,49 +1499,41 @@
     
     [TAWord wordWithDict:@{@"name":@"Glossolalia",
                            @"twitterDef":@"the speaking in new languages\rinspired by the Holy Spirit",
-                           @"definition":@"\rAccording to Paul in 1 Corinthians, glossolalia was a spiritual gift manifested in liturgical worship...\r\rFurther Reference:\rWikipedia, Glossolalia\rhttp://tinyurl.com/c2f7g",
+                           @"definition":@"\rAccording to Paul in 1 Corinthians 14, glossolalia was a spiritual gift manifested in liturgical worship. While not denying its validity, he encouraged a disciplined practice only if accompanied by a translation.\r\rFurther Reference:\rWikipedia, “Glossolalia”\rhttp://tinyurl.com/c2f7g",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"God of the Gaps",
                            @"twitterDef":@"the belief that any scientific unknowns\rare necessarily evidence of God's influence ",
-                           @"definition":@"\rThis phrase is used to describe the beliefs of those who misunderstand the different domains, methods, and explanations of Theology and Science.\r\rFurther Reference:\r",
+                           @"definition":@"\rThis phrase is used to describe the beliefs of those who misunderstand the different domains, methods, and explanations of Theology and Science. They mistake the absence of scientific explanation for proof of a theological claim.\r\rFurther Reference:\rWikipedia, “God of the Gaps”\rhttp://tinyurl.com/7nv36",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Good Friday",
                            @"twitterDef":@"the liturigcal memorial of\rthe crucifixion of Jesus",
-                           @"definition":@"\rGood Friday is part of the Triduum.\r\rFurther Reference:\r",
+                           @"definition":@"\rGood Friday is the day of the Crucifixion and is part of the Triduum. See “Triduum”.\r\rFurther Reference:\rWikipedia, Good Friday”\rhttp://tinyurl.com/blzzm",
                            @"category":@"Liturgical"}];
-    
-    [TAWord wordWithDict:@{@"name":@"Great Litany",
-                           @"twitterDef":@"the first principle in medical ethics:\rdo no harm.",
-                           @"definition":@"\rThe first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
-                           @"category":@"Liturgical"}];
+
     
     [TAWord wordWithDict:@{@"name":@"Greek Orthodox",
-                           @"twitterDef":@"the first principle in medical ethics:\rdo no harm.",
-                           @"definition":@"\rThe first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
+                           @"twitterDef":@"the Eastern churches in communion with\rthe Patriarch of Constantinople",
+                           @"definition":@"\rThe Greek Orthodox Church is the communion of churches under the authority of the Patriarch of Constantinople which split from the Catholic Church in 1054. Pope John Paul II called it the “second lung” of the Universal Church. Throughout history, various efforts have been made at reunion with the East. See “Great Schism”.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Gregorian Chant",
                            @"twitterDef":@"plainsong liturgical chant associated\rwith Pope Gregory I",
-                           @"definition":@"\rGregorian Chant is characterized by a simply rhythm...\r\rFurther Reference:\r",
+                           @"definition":@"\rGregorian Chant is characterized by a simple rhythm. The bishops of Vatican II taught that it should be given priority in liturgical services.\r\rFurther Reference:\rVatican II, “Sacrosanctum Concilium”, 116\rhttp://tinyurl.com/ay8y",
                            @"category":@"Liturgical"}];
     
-    [TAWord wordWithDict:@{@"name":@"Guardian Angel",
-                           @"twitterDef":@"an angel that looks after a given person",
-                           @"definition":@"\rGuardian angels are alluded to by Jesus himself in....\r\rFurther Reference:\r",
-                           @"category":@"Systematic"}];
     
     /////////////////////////H
     
     [TAWord wordWithDict:@{@"name":@"Habit",
-                           @"twitterDef":@"the liturigcal memorial of\rthe crucifixion of Jesus",
-                           @"definition":@"\rGood Friday is part of the Triduum.\r\rFurther Reference:\r",
+                           @"twitterDef":@"a pattern of action acquired through repetition",
+                           @"definition":@"\rAncient Greek philosophers identified the phenomenon and influence of habits on human behavior. Habits can mitigate the moral culpability of human acts. St. Thomas Aquinas described theological habits as being necessary for authentic theology. The British theologian, Aidan Nichols, has identified three characteristics of intellectual habits: argumentation, retention, and imagination. These three, in addition to the dimension of faith, are necessary for the study of theology.\rFurther Reference:\rWikipedia, “Habit”\rhttp://tinyurl.com/ygop72e",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Hail Mary",
-                           @"twitterDef":@"the first principle in medical ethics:\rdo no harm.",
-                           @"definition":@"\rThe first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
+                           @"twitterDef":@"an invocation to the Blessed Virgin Mary\rfor her intercession",
+                           @"definition":@"\rThe Haily Mary is a prayer based on the angel Gabriel's message to Mary in the Gospel of Luke:\r“Hail Mary, full of grace, the Lord is with thee! Blessed art thou among women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen.”\r\rFurther Reference:\rCatechism of the Catholic Church, 2676\rhttp://tinyurl.com/k5r7clc",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Hebrew",
@@ -1546,12 +1543,12 @@
     
     [TAWord wordWithDict:@{@"name":@"Heart",
                            @"twitterDef":@"the biblical word for\relementary experience",
-                           @"definition":@"\rGood Friday is part of the Triduum.\r\rFurther Reference:\r",
+                           @"definition":@"\rAccording to the late Luigi Guissani, what the Bible calls the heart, is a shorthand reference to a more detailed set of characteristics of human nature. See “Elementary Experience”.\r\rFurther Reference:\rA Jorge Mario Bergolgio, “For Man”\rhttp://tinyurl.com/pkk5k6m",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Hallelujah",
                            @"twitterDef":@"a Hebrew word meaning\r“Praise YHWH”",
-                           @"definition":@"\rHallelujah occurs frequently throughout the Old Testament, especially in the Psalms.\r\rFurther Reference:\r",
+                           @"definition":@"\rHallelujah occurs frequently throughout the Old Testament, especially in the Psalms. Hebrew, הַלְּלוּיָהּ (halleluya)\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
 
     
@@ -1577,22 +1574,22 @@
     
     [TAWord wordWithDict:@{@"name":@"Hesychasm",
                            @"twitterDef":@"a silent form of prayer\rassociated with Eastern Orthodox monks",
-                           @"definition":@"\rThis form of prayer....\r\rFurther Reference:\r",
+                           @"definition":@"\rHesychasm is a mystical form of prayer.\r\rGreek, ἡσυχία (hesychia) “silence”\r\rFurther Reference:\rWikipedia, “Hesychasm”\rhttp://tinyurl.com/5s5joa",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Historical Theology",
                            @"twitterDef":@"the study of theology in light of historical periods, events, people, or trends",
-                           @"definition":@"\rHistorical Theology has become a sub-discipline of Theology since..\r\rFurther Reference:\r",
+                           @"definition":@"\rOver the last 100 years, Historical Theology has become a sub-discipline of Theology. It is usually divided into various periods in Church history:\r\rPatristic\rMedieval\rByzantine\rReformation\rModern\r\rFurther Reference:\rHistorical Theology Online\rhttp://tinyurl.com/pdverjl",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Hinduism",
-                           @"twitterDef":@"the dominant polytheistic religion of\that holds Brahman as the Divine Absolute",
-                           @"definition":@"\rHinduism...\r\rFurther Reference:\r",
+                           @"twitterDef":@"the dominant polytheistic religion of India\rthat holds Brahman as the Divine Absolute",
+                           @"definition":@"\rHinduism is the world's oldest recognized and third largest religion. It is characterized by a belief in the inspiration of the Vedas, reincarnation, and a Supreme Being known as Brahman.\r\rFurther Reference:\rWikipedia, “Hinduism”\rhttp://tinyurl.com/6ufnx",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Historical Jesus",
                            @"twitterDef":@"the historical figure of Jesus\ras reconstructed by historical methodology",
-                           @"definition":@"\rThe historical Jesus is a term that emphasizes what can be known about Jesus of Nazareth from historical methodology apart from theological belief.\r\rFurther Reference:\r",
+                           @"definition":@"\rThe historical Jesus is a term that emphasizes what can be known about Jesus of Nazareth from historical methodology apart from theological belief. The so-called Quest for the Historical Jesus is a phrase invented by Albert Schweitzer, based on his book of the same name. There have been 3 quests over the last 200 years, with each period producing successive consensus claims.\r\rFurther Reference:\rRobert Funk, “Milestones in the Quest for the Historical Jesus”\rhttp://tinyurl.com/npp6tfr",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Hierarchy of Truths",
@@ -1607,17 +1604,17 @@
     
     [TAWord wordWithDict:@{@"name":@"Hermeneutics",
                            @"twitterDef":@"the science of interpretation",
-                           @"definition":@"\rThe science of interpretation and process of determining meaning, usually of a text - from the name of the Greek god “Hermes”, the messenger of the gods.\r\rFurther Reference:\r",
+                           @"definition":@"\rProper understanding of the meaning of a text it the present (hermeneutics) requires proper understanding of the meaning of a text in its original context (exegesis). According to the Pontifical Biblical Commission, the Historical-Critical Method is the exegetical method that is essential for proper interpretation. The Greek root of “hermeneutics” is named after Heremes, the messenger of the gods in Greek mythology. See “Exegesis”, “Historical-Critical Method”.\r\rGreek ἑρμηνεία (hermeneia) “interpretation”\r\rFurther Reference:\rInterpretation of the Bible in the Church, III http://tinyurl.com/ymsltv",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Hermeneutical Circle",
                            @"twitterDef":@"the dialectic relationship between\rtext and interpreter",
-                           @"definition":@"\rThe hermeneutical circle begins with an interpreter and a text involved in a process of question, discovery, interpretation, which then challenges or changes the initial question.\r\rFurther Reference:\r",
+                           @"definition":@"\rThe hermeneutical circle begins with an interpreter and a text involved in a process of question, discovery, interpretation, which then challenges or changes the initial question.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy, “Hermeneutics”\rhttp://tinyurl.com/mylef6",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Hesed",
                            @"twitterDef":@"a Hebrew word meaning\r“loving kindness” or “covenant faithfulness”",
-                           @"definition":@"\rHesed occurs predominantly in the Psalms, where it is used to refer to YHWH's covenant faithfulness; from the Hebrew word   .\r\rFurther Reference:\r",
+                           @"definition":@"\rHesed occurs predominantly in the Psalms, where it is used to refer to YHWH's covenant faithfulness. Hebrew, חֶסֶד (hesed)\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Historical Books",
@@ -2585,6 +2582,11 @@
                            @"twitterDef":@"the encyclical of Pope Leo XIII that laid the foundations of modern Catholic Social Teaching",
                            @"definition":@"\rThe encyclical of Pope Leo XIII in 1891 which responded to the after effects of the Industrial Revolution in Europe by teaching that private property is relative to the Common Good and that workers have a right to unionized and to a living wage.\r\rFurther Reference:\r",
                            @"category":@"Moral"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Rosary",
+                           @"twitterDef":@"a movement within naturalism that emphasizes scientific knowledge as a foundational mythos",
+                           @"definition":@"\rA movement within naturalism which emphasizes the scientific history of the universe as a core mythos around which revolve interpretive, spiritual, and moral axes.\r\rFurther Reference:\r",
+                           @"category":@"Cultural"}];
     
     //S
     

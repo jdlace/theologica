@@ -67,6 +67,7 @@
     NSDictionary *dict = link[indexPath.row];
     
     cell.textLabel.text = dict[@"Name"];
+    cell.textLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
     return cell; 
    
 

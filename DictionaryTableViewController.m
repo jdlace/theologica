@@ -97,10 +97,10 @@
         label.text = @"test";
     }
    
-    label.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
+    label.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
     [label sizeToFit];
-    return label.frame.size.height * 2.75;
-    return 50;
+    return label.frame.size.height * 3.00;
+    return 60;
 }
 
 -(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
@@ -261,8 +261,10 @@
     TAWord *word = [self.fetchedResultsController objectAtIndexPath:indexPath];
     
     cell.textLabel.text = word.name;
-    cell.detailTextLabel.text = word.category;
-    cell.textLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleHeadline];
+    //cell.detailTextLabel.text = word.category;
+    cell.textLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
+    //cell.textLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:20];
+    
 }
 
 - (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView
