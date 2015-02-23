@@ -557,7 +557,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Baptism",
                            @"twitterDef":@"the Sacrament of Initiation into the Church\rby ritual cleansing with water",
-                           @"definition":@"\rBaptism is a practice which Christianity inherited from the Jewish practice of the Mikvah, or ceremonial washing in Second Temple Period. John the Baptist practiced a derivation of this in his ministry, of which Jesus of Nazareth was a follower for some period of time. According to the book of Acts, John's baptism was still being practiced concurrently with Christian baptism.\r\rBaptism, along with Eucharist, is a Christian practice dating back to the earliest days of the Church. According to the consistent tradition of the Church, Baptism removes the stain of Original Sin, forgives actual sins, and brings about a spiritual rebirth. See “Original Sin”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1213\rhttp://tinyurl.com/ykqqof",
+                           @"definition":@"\rBaptism is a practice which Christianity inherited from the Jewish practice of the Mikvah, or ceremonial washing in Second Temple Period. John the Baptist practiced a derivation of this in his ministry, of which Jesus of Nazareth was a follower for some period of time. According to the book of Acts, John's baptism was still being practiced concurrently with Christian baptism.\r\rBaptism, along with Eucharist, is a Christian practice dating back to the earliest days of the Church. According to the consistent tradition of the Church, Baptism removes the stain of Original Sin, forgives actual sins, and brings about a spiritual rebirth. See “Forgiveness of Sins”, “Original Sin”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1213\rhttp://tinyurl.com/ykqqof",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Blasphemy",
@@ -619,7 +619,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Blessed Sacrament",
                            @"twitterDef":@"a reference to the Eucharist as Christ's\rbody and blood, soul and divinity",
-                           @"definition":@"\rThe Blessed Sacrament is a term most often associated with Eucharistic Adoration.\r\rFurther Reference:\rCatechism of Catholic Church, 1374\rhttp://tinyurl.com/q6gyoc7",
+                           @"definition":@"\rThe Blessed Sacrament is a term most often associated with Eucharistic Adoration. See “Eucharist”.\r\rFurther Reference:\rCatechism of Catholic Church, 1374\rhttp://tinyurl.com/q6gyoc7",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Buddhism",
@@ -901,6 +901,11 @@
     [TAWord wordWithDict:@{@"name":@"Charism",
                            @"twitterDef":@"a spiritual gift that results from the experience of the Holy Spirit",
                            @"definition":@"\rAccording to the Apostle Paul, spiritual gifts accompany the Christian experience of the Holy Spirit. See 1 Corinthians 12.\r\rGreek, χαρίσμa (charisma) “gifts”.\r\rFurther Reference:\r",
+                           @"category":@"Biblical"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Chesed",
+                           @"twitterDef":@"a Hebrew word meaning\r“loving kindness”",
+                           @"definition":@"\rChesed occurs predominantly in the Psalms, where it is used to refer to YHWH's covenant faithfulness.\r\rHebrew, חֶסֶד (chesed)\r\rFurther Reference:\rWikipedia, “Chesed”\rhttp://tinyurl.com/9b59jr",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Circumcision",
@@ -1533,17 +1538,17 @@
     
     [TAWord wordWithDict:@{@"name":@"Hail Mary",
                            @"twitterDef":@"an invocation to the Blessed Virgin Mary\rfor her intercession",
-                           @"definition":@"\rThe Haily Mary is a prayer based on the angel Gabriel's message to Mary in the Gospel of Luke:\r“Hail Mary, full of grace, the Lord is with thee! Blessed art thou among women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen.”\r\rFurther Reference:\rCatechism of the Catholic Church, 2676\rhttp://tinyurl.com/k5r7clc",
+                           @"definition":@"\rThe Haily Mary is a prayer based on the angel Gabriel's message to Mary in the Gospel of Luke:\r\r“Hail Mary, full of grace, the Lord is with thee! Blessed art thou among women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen.”\r\rFurther Reference:\rCatechism of the Catholic Church, 2676\rhttp://tinyurl.com/k5r7clc",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Hebrew",
                            @"twitterDef":@"the Semitic language of ancient Israel",
-                           @"definition":@"\rGood Friday is part of the Triduum.\r\rFurther Reference:\r",
+                           @"definition":@"\rThe original language of the Old Testament, with a few portions written in Aramaic.\r\rFurther Reference:\rWikipedia, “Hebrew”\rhttp://tinyurl.com/m9y9d",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Heart",
-                           @"twitterDef":@"the biblical word for\relementary experience",
-                           @"definition":@"\rAccording to the late Luigi Guissani, what the Bible calls the heart, is a shorthand reference to a more detailed set of characteristics of human nature. See “Elementary Experience”.\r\rFurther Reference:\rA Jorge Mario Bergolgio, “For Man”\rhttp://tinyurl.com/pkk5k6m",
+                           @"twitterDef":@"the biblical word for the needs and desires\rof human nature",
+                           @"definition":@"\rAccording to the late Msgr. Luigi Guissani, what the Bible calls the “heart”, is a shorthand reference to the larger set of needs and desires of human nature; truth, goodness, beauty, and justice. Before being elected Pope, Cardinal Bergoglio claimed that most urgent task for faith today is uncovering the true desires and needs of the heart. See “Elementary Experience”.\r\rFurther Reference:\rJorge Mario Bergolgio, “For Man” in “A Generative Thought: An Introduction to the Works of Luigi Giussani”\rhttp://tinyurl.com/pkk5k6m",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Hallelujah",
@@ -1554,12 +1559,12 @@
     
     [TAWord wordWithDict:@{@"name":@"Heaven",
                            @"twitterDef":@"the state of complete union with God",
-                           @"definition":@"\rHeaven is the state of those who enter eternal life in God's grace and friendship.\r\rFurther Reference:\rCatechism of the Catholic Church, 1021\rhttp://tinyurl.com/k3f2f8p",
+                           @"definition":@"\rHeaven is the state of those who willingly accept God's love for eternity.\r\rFurther Reference:\rCatechism of the Catholic Church, 1021\rhttp://tinyurl.com/k3f2f8p",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Hell",
                            @"twitterDef":@"the state of complete separation from God",
-                           @"definition":@"\rHell is the state of those who willingly refuse God's love and enter eternal life with the inablity to repent.\r\rFurther Reference:\rCatechism of the Catholic Church, 1033\rhttp://tinyurl.com/k3f2f8p",
+                           @"definition":@"\rHell is the state of those who willingly refuse God's love for eternity.\r\rFurther Reference:\rCatechism of the Catholic Church, 1033\rhttp://tinyurl.com/k3f2f8p",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Henotheism",
@@ -1574,7 +1579,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Hesychasm",
                            @"twitterDef":@"a silent form of prayer\rassociated with Eastern Orthodox monks",
-                           @"definition":@"\rHesychasm is a mystical form of prayer.\r\rGreek, ἡσυχία (hesychia) “silence”\r\rFurther Reference:\rWikipedia, “Hesychasm”\rhttp://tinyurl.com/5s5joa",
+                           @"definition":@"\rHesychasm is a mystical form of prayer with an emphasis on silence and the quieting of the physical senses in order to focus on the sense of the soul.\r\rGreek, ἡσυχία (hesychia) “silence”\r\rFurther Reference:\rWikipedia, “Hesychasm”\rhttp://tinyurl.com/5s5joa",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Historical Theology",
@@ -1593,18 +1598,18 @@
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Hierarchy of Truths",
-                           @"twitterDef":@"the idea that some truths are more essential to salvation than others",
-                           @"definition":@"\rThe idea that some truths are more essential to salvation than others.\r\rFurther Reference:\rCatechism of the Catholic Church, 873\rhttp://tinyurl.com/m65ttaf",
+                           @"twitterDef":@"the relative degrees of importance\rbetween various truths of the fatih",
+                           @"definition":@"\rThe notion of the Hierarchy of Truths is a recognition that some doctrines are more foundational to Christian identity than others.\r\rFurther Reference:\rVatican II, Decree on Ecumenism, 11\rhttp://tinyurl.com/3xnyh",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Human Rights",
                            @"twitterDef":@"the rights due to a person by virtue of his or her being a human being",
-                           @"definition":@"\rA list of thirty human rights are enumerated in the United Nations Universal Declaration of Human Rights.\r\rFurther Reference:\rCompendium of the Social Doctrine of the Church, 152 http://tinyurl.com/qfo6bd7",
+                           @"definition":@"\rA list of thirty human rights are enumerated in the United Nations Universal Declaration of Human Rights. Pope John XXIII was the first Pope to give them ecclesial sanction.\r\rFurther Reference:\rCompendium of the Social Doctrine of the Church, 152 http://tinyurl.com/qfo6bd7",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Hermeneutics",
                            @"twitterDef":@"the science of interpretation",
-                           @"definition":@"\rProper understanding of the meaning of a text it the present (hermeneutics) requires proper understanding of the meaning of a text in its original context (exegesis). According to the Pontifical Biblical Commission, the Historical-Critical Method is the exegetical method that is essential for proper interpretation. The Greek root of “hermeneutics” is named after Heremes, the messenger of the gods in Greek mythology. See “Exegesis”, “Historical-Critical Method”.\r\rGreek ἑρμηνεία (hermeneia) “interpretation”\r\rFurther Reference:\rInterpretation of the Bible in the Church, III http://tinyurl.com/ymsltv",
+                           @"definition":@"\rProper understanding of the meaning of a text it the present (hermeneutics) requires proper understanding of the meaning of a text in its original context (exegesis). According to the Pontifical Biblical Commission, the Historical-Critical Method is the exegetical method that is essential for proper interpretation. The Greek root of “hermeneutics” is named after Heremes, the messenger of the gods in Greek mythology. See “Exegesis”, “Historical-Critical Method”.\r\rGreek, ἑρμηνεία (hermeneia) “interpretation”\r\rFurther Reference:\rInterpretation of the Bible in the Church, III http://tinyurl.com/ymsltv",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Hermeneutical Circle",
@@ -1612,10 +1617,7 @@
                            @"definition":@"\rThe hermeneutical circle begins with an interpreter and a text involved in a process of question, discovery, interpretation, which then challenges or changes the initial question.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy, “Hermeneutics”\rhttp://tinyurl.com/mylef6",
                            @"category":@"Systematic"}];
     
-    [TAWord wordWithDict:@{@"name":@"Hesed",
-                           @"twitterDef":@"a Hebrew word meaning\r“loving kindness” or “covenant faithfulness”",
-                           @"definition":@"\rHesed occurs predominantly in the Psalms, where it is used to refer to YHWH's covenant faithfulness. Hebrew, חֶסֶד (hesed)\r\rFurther Reference:\r",
-                           @"category":@"Biblical"}];
+
     
     [TAWord wordWithDict:@{@"name":@"Historical Books",
                            @"twitterDef":@"the second of four divisions within the Old Testament",
@@ -2662,7 +2664,7 @@
     
     
     [TAWord wordWithDict:@{@"name":@"Solidarity",
-                           @"twitterDef":@"the idea that human beings share a fundamental unity which should be a criteria for determining justice",
+                           @"twitterDef":@"the fundamental unity of human beings which should be a criteria for determining justice",
                            @"definition":@"\rSolidarity is a basic principle of Catholic Social Teaching.\r\rFurther Reference:\r",
                            @"category":@"Cultural"}];
     

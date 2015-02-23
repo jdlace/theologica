@@ -46,6 +46,8 @@
      name:UIContentSizeCategoryDidChangeNotification
      object:nil];
     
+    //self.navigationItem.title.
+    
    /*
     // Create a mutable array to contain products for the search results table.
     self.searchResults = [NSMutableArray arrayWithCapacity:[self.systematicTerms count]];
@@ -89,7 +91,7 @@
 
 -(CGFloat) tableView: (UITableView *) tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    
+   /*
     static UILabel* label;
     if (!label) {
         label = [[UILabel alloc]
@@ -97,10 +99,11 @@
         label.text = @"test";
     }
    
-    label.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
+    //label.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
     [label sizeToFit];
-    return label.frame.size.height * 3.00;
-    return 60;
+    //return label.frame.size.height * 3.00;
+    */
+    return 70;
 }
 
 -(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender

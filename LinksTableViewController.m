@@ -24,10 +24,21 @@
     NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:path];
     self.links = dict;
     
-    NSArray *array = @[@"Magisterium", @"Scripture", @"Fathers", @"Councils", @"Creeds", @"Liturgy", @"Theology", @"Environment", @"Science", @"Technology", @"Politics", @"Economy", @"Arts"];
-    self.linkKeys = array; 
+    NSArray *array = @[@"Magisterium", @"Scripture", @"Fathers", @"Councils", @"Creeds", @"Liturgy", @"Theology", @"Philosophy", @"Science", @"Technology", @"Politics", @"Economy", @"Arts"];
+    self.linkKeys = array;
+    
+    [[NSNotificationCenter defaultCenter]
+     addObserver:self
+     selector:@selector(preferredContentSizeChanged:)
+     name:UIContentSizeCategoryDidChangeNotification
+     object:nil];
     
 
+}
+
+- (void)preferredContentSizeChanged:(NSNotification *)notification
+{
+    [self.tableView reloadData];
 }
 
 - (void)didReceiveMemoryWarning
@@ -68,6 +79,7 @@
     
     cell.textLabel.text = dict[@"Name"];
     cell.textLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
+    cell.textLabel.numberOfLines = 4;
     return cell; 
    
 
@@ -78,6 +90,23 @@
     
     NSString *key = [_linkKeys objectAtIndex:section];
     return key; 
+}
+
+-(CGFloat) tableView: (UITableView *) tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    /*
+     static UILabel* label;
+     if (!label) {
+     label = [[UILabel alloc]
+     initWithFrame:CGRectMake(0, 0, FLT_MAX, FLT_MAX)];
+     label.text = @"test";
+     }
+     
+     //label.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
+     [label sizeToFit];
+     //return label.frame.size.height * 3.00;
+     */
+    return 70;
 }
 
 

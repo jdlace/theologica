@@ -32,37 +32,19 @@
 			<string>http://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II</string>
 		</dict>
 	</array>
-	<key>Environment</key>
+	<key>Philosophy</key>
 	<array>
 		<dict>
 			<key>Name</key>
-			<string>U.N. Environment Program</string>
+			<string>Stanford Encyclopedia of Philosophy</string>
 			<key>URL</key>
 			<string>http://www.unep.org</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>E.P.A.</string>
+			<string>Internet Encyclopedia of Philosophy</string>
 			<key>URL</key>
 			<string>http://m.epa.gov</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>World Resources Institute</string>
-			<key>URL</key>
-			<string>http://www.wri.org</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>National Snow/Ice Data Center</string>
-			<key>URL</key>
-			<string>http://nsidc.org</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>NYT Environmental News</string>
-			<key>URL</key>
-			<string>http://www.nytimes.com/pages/science/earth/index.html</string>
 		</dict>
 	</array>
 	<key>Economy</key>
@@ -111,7 +93,7 @@
 	<array>
 		<dict>
 			<key>Name</key>
-			<string>Vatican</string>
+			<string>The Holy See</string>
 			<key>URL</key>
 			<string>http://www.vatican.va</string>
 		</dict>
@@ -249,13 +231,13 @@
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>Religion &amp; Science Encyclopedia</string>
+			<string>Interdisciplinary Encyclopedia of Religion and Science</string>
 			<key>URL</key>
 			<string>http://inters.org</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>Vatican Theological Commission</string>
+			<string>International Theological Commission</string>
 			<key>URL</key>
 			<string>http://www.vatican.va/roman_curia/congregations/cfaith/cti_documents/rc_con_cfaith_doc_20040723_communion-stewardship_en.html</string>
 		</dict>
@@ -279,7 +261,7 @@
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>Center for Theology and Sciences</string>
+			<string>The Center for Theology and Natural Sciences</string>
 			<key>URL</key>
 			<string>http://www.ctns.org/index.html</string>
 		</dict>
@@ -300,9 +282,39 @@
 	<array>
 		<dict>
 			<key>Name</key>
+			<string>NYT Environmental News</string>
+			<key>URL</key>
+			<string>http://www.nytimes.com/pages/science/earth/index.html</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>National Snow &amp; Ice Data Center</string>
+			<key>URL</key>
+			<string>http://nsidc.org</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>World Resources Institute</string>
+			<key>URL</key>
+			<string>http://www.wri.org</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>U.S. Environmental Protection Agency</string>
+			<key>URL</key>
+			<string>http://m.epa.gov</string>
+		</dict>
+		<dict>
+			<key>Name</key>
 			<string>National Science Foundation</string>
 			<key>URL</key>
 			<string>http://www.nsf.gov</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>U.N. Environment Program</string>
+			<key>URL</key>
+			<string>http://www.unep.org</string>
 		</dict>
 		<dict>
 			<key>Name</key>
