@@ -45,34 +45,8 @@
      selector:@selector(preferredContentSizeChanged:)
      name:UIContentSizeCategoryDidChangeNotification
      object:nil];
+
     
-    //self.navigationItem.title.
-    
-   /*
-    // Create a mutable array to contain products for the search results table.
-    self.searchResults = [NSMutableArray arrayWithCapacity:[self.systematicTerms count]];
-    
-    // The table view controller is in a nav controller, and so the containing nav controller is the 'search results controller'
-    UINavigationController *searchResultsController = [[self storyboard] instantiateViewControllerWithIdentifier:@"SystematicNavController"];
-    
-    
-    */
-    
-    
-    
-    
-    //Add a UISearchController with search bar (currently not in IB object library)
-    
-//    self.searchController = [[UISearchController alloc] initWithSearchResultsController:nil];
-//    self.searchController.searchResultsUpdater = self;
-//    self.searchController.searchBar.frame = CGRectMake(0.0, 0.0, 280.0, 40.0);
-//    self.tableView.tableHeaderView = _searchController.searchBar;
-//    //self.searchController.searchBar.
-//    
-//    self.searchController.dimsBackgroundDuringPresentation = YES;
-//    self.searchController.searchBar.searchBarStyle = UISearchBarStyleProminent;
-//    self.searchController.searchBar.tintColor = [UIColor whiteColor];
-//    self.searchController.searchBar.returnKeyType = UIReturnKeySearch;
     
 }
 
@@ -103,7 +77,7 @@
     [label sizeToFit];
     //return label.frame.size.height * 3.00;
     */
-    return 70;
+    return 60;
 }
 
 -(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
@@ -264,7 +238,7 @@
     TAWord *word = [self.fetchedResultsController objectAtIndexPath:indexPath];
     
     cell.textLabel.text = word.name;
-    //cell.detailTextLabel.text = word.category;
+    cell.detailTextLabel.text = word.category;
     cell.textLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
     //cell.textLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:20];
     

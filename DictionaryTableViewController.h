@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface DictionaryTableViewController : UITableViewController
+@interface DictionaryTableViewController : UITableViewController <UISearchDisplayDelegate>
 
 - (IBAction)termsButton:(id)sender;
 - (IBAction)savedButton:(id)sender;

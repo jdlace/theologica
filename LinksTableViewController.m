@@ -106,7 +106,7 @@
      [label sizeToFit];
      //return label.frame.size.height * 3.00;
      */
-    return 70;
+    return 60;
 }
 
 

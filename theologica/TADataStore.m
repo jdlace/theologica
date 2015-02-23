@@ -300,7 +300,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Adoptionism",
                            @"twitterDef":@"the belief that Jesus was a mere man\radopted as God's Son at his baptism ",
-                           @"definition":@"Adoptionism was held by the so-called Ebionites of the end of the first century, who denied the pre-existence and incarnation of the Son.\r\rFurther Reference:\rWikipedia, “Adoptionism”\rhttp://tinyurl.com/25fgze",
+                           @"definition":@"\rAdoptionism was held by the so-called Ebionites of the end of the first century, who denied the pre-existence and incarnation of the Son.\r\rFurther Reference:\rWikipedia, “Adoptionism”\rhttp://tinyurl.com/25fgze",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Accident",
@@ -1635,7 +1635,7 @@
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Holy",
-                           @"twitterDef":@"set apart for Divine service",
+                           @"twitterDef":@"set apart",
                            @"definition":@"\rOne of the four marks of the Church...\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
@@ -2428,7 +2428,7 @@
                            @"definition":@"\rPalm Sunday was celebrated as early as....\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
-    [TAWord wordWithDict:@{@"name":@"Person",
+    [TAWord wordWithDict:@{@"name":@"Personhood",
                            @"twitterDef":@"a human being capable of self-transcendence",
                            @"definition":@"\ra human being capable of self-transcendence.\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];

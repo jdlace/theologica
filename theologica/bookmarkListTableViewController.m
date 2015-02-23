@@ -96,7 +96,7 @@
     TAWord *word = [self.fetchedResultsController objectAtIndexPath:indexPath];
     
     cell.textLabel.text = word.name;
-    cell.textLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleHeadline];
+    cell.textLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
 
 
 }
