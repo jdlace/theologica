@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="4">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
         <!--Tab Bar Controller-->
@@ -496,7 +496,7 @@
                             <state key="normal" title="Glossary">
                                 <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </state>
-                            <state key="highlighted" image="0CE058CE-F3D1-421F-A22E-6C5E3709CB35"/>
+                            <state key="highlighted" image="4948688B-C542-4556-B53F-168889F1C49A"/>
                         </button>
                         <barButtonItem key="rightBarButtonItem" title="Saved" id="RxI-0F-zKf">
                             <connections>
@@ -822,7 +822,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell multipleTouchEnabled="YES" contentMode="scaleAspectFill" restorationIdentifier="linksCell" selectionStyle="blue" indentationWidth="10" reuseIdentifier="linksCell" textLabel="Mcs-1e-0iW" style="IBUITableViewCellStyleDefault" id="bm2-Fa-HZg">
+                            <tableViewCell multipleTouchEnabled="YES" contentMode="scaleAspectFill" restorationIdentifier="linksCell" selectionStyle="blue" indentationWidth="10" reuseIdentifier="linksCell" textLabel="Mcs-1e-0iW" detailTextLabel="022-ZP-QaQ" style="IBUITableViewCellStyleSubtitle" id="bm2-Fa-HZg">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bm2-Fa-HZg" id="C63-Wm-KIG">
                                     <autoresizingMask key="autoresizingMask"/>
@@ -831,6 +831,12 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" id="022-ZP-QaQ">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                            <color key="textColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -880,10 +886,6 @@
                                     <outlet property="delegate" destination="Zuk-WO-xRs" id="QXX-Od-F5l"/>
                                 </connections>
                             </webView>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" progress="0.5" id="xag-FS-2mi">
-                                <rect key="frame" x="0.0" y="65" width="320" height="3"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </progressView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -903,7 +905,6 @@
                     </navigationItem>
                     <connections>
                         <outlet property="activityIndicator" destination="XUR-UL-iam" id="Nzn-ef-nkf"/>
-                        <outlet property="progressBar" destination="xag-FS-2mi" id="EHH-4a-Q7m"/>
                         <outlet property="webView" destination="bfX-fn-Gr1" id="Q31-H5-PIK"/>
                     </connections>
                 </viewController>
@@ -990,7 +991,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="0CE058CE-F3D1-421F-A22E-6C5E3709CB35" width="80" height="80">
+        <image name="4948688B-C542-4556-B53F-168889F1C49A" width="80" height="80">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGOzxYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK0HCBEW
 GxwgISksLzU4VSRudWxs1AkKCwwNDg8QViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNSZXBzV05TQ29sb3KA

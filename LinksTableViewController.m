@@ -78,6 +78,7 @@
     NSDictionary *dict = link[indexPath.row];
     
     cell.textLabel.text = dict[@"Name"];
+    cell.detailTextLabel.text = dict[@"URL"]; 
     cell.textLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
     cell.textLabel.numberOfLines = 4;
     return cell; 
@@ -106,7 +107,7 @@
      [label sizeToFit];
      //return label.frame.size.height * 3.00;
      */
-    return 60;
+    return 68;
 }
 
 

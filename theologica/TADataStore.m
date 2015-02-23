@@ -1078,6 +1078,11 @@
                            @"definition":@"\rThe type of truth within a text which transcends time and culture.\r\rFurther Reference:\r“The Interpretation of the Bible in the Church, A” http://tinyurl.com/ymsltv",
                            @"category":@"Biblical"}];
     
+    [TAWord wordWithDict:@{@"name":@"Diaspora",
+                           @"twitterDef":@"the dispersion of Jews to surrounding regions\rafter the Exile",
+                           @"definition":@"\rThe type of truth within a text which transcends time and culture.\r\rFurther Reference:\r“The Interpretation of the Bible in the Church, A” http://tinyurl.com/ymsltv",
+                           @"category":@"Biblical"}];
+    
     [TAWord wordWithDict:@{@"name":@"Divine Office",
                            @"twitterDef":@"the traditional word for the\rLiturgy of the Hours",
                            @"definition":@"\rSee “Liturgy of the Hours”.",
@@ -1635,33 +1640,33 @@
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Holy",
-                           @"twitterDef":@"set apart",
-                           @"definition":@"\rOne of the four marks of the Church...\r\rFurther Reference:\r",
+                           @"twitterDef":@"set apart from the ordinary;\rsacred",
+                           @"definition":@"\rGod is characterized as holy throughout the Catholic tradition. In the Scriptures, YHWH declares himself to be worshipped with the refrain “Holy, Holy, Holy” (Isaiah 6:3). Jesus is referred to as the Holy One (Acts 3:14). The Blessed Virgin Mary is referred to as the panhagia (all-holy). Holiness is one of the four marks of the Church.\r\rFurther Reference:\rWikipedia, “Sacred”\rhttp://en.wikipedia.org/wiki/“Sacred”",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Holy of Holies",
                            @"twitterDef":@"the innermmost chamber in the Temple\rthat housed the Ark of the Covenant",
-                           @"definition":@"\rThe innermmost area of the Temple in Jerusalem where the Ark of the Covenant was believed to reside from the monarchy of Solomon until the Exile in 587 BCE.\r\rFurther Reference:\rEncyclopedia Britannica, “Holy of Holies”\rhttp://tinyurl.com/lcagxrw",
+                           @"definition":@"\rThe Holy of Holies was the permanent resting place for the Ark of the Covenant, believed to reside in the Temple from the monarchy of Solomon until the Exile in 587 BCE. Only the High Priest was allowed to enter it once a year on the Day of Atonement. See “Day of Atonement”.\r\rFurther Reference:\rEncyclopedia Britannica, “Holy of Holies”\rhttp://tinyurl.com/lcagxrw",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Holy Orders",
-                           @"twitterDef":@"the first principle in medical ethics:\rdo no harm.",
-                           @"definition":@"\rThe first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
+                           @"twitterDef":@"the Sacrament of Ordination\rto Apostolic ministry",
+                           @"definition":@"\rThere are three degrees of Holy Orders: episcopate, presbyterate, and diaconate. See “Bishop”, “Priest”, “Deacon”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1536\rhttp://tinyurl.com/4hs6lso",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Holy Saturday",
-                           @"twitterDef":@"the first principle in medical ethics:\rdo no harm.",
-                           @"definition":@"\rThe first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
+                           @"twitterDef":@"the liturgical memorial of\rChrist's descent into the underworld",
+                           @"definition":@"\rThe Apostle's Creed states that Christ descended into “hell”. The Latin edition of the Creed uses infero (“those below”), while the original Greek of the Creed uses the word κατώτατα (“the lowest”) to refer to the place where Christ descended.\r\rFurther Reference:\rWikipedia, “Holy Saturday”\rhttp://tinyurl.com/56wj2x",
                            @"category":@"Liturgical"}];
 
     
     [TAWord wordWithDict:@{@"name":@"Holy Spirit",
-                           @"twitterDef":@"the first principle in medical ethics:\rdo no harm.",
-                           @"definition":@"\rThe first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
+                           @"twitterDef":@"the third person of the Trinity",
+                           @"definition":@"\rThe Spirit (or breath) of God is the animating principle of creation in the Genesis creation accounts (Gen 1:1, 2:7). The Spirit of God is that which causes Moses and other prophets to utter divine oracles (Num. 11:29). The Spirit of God descends upon Jesus at his Baptism (Mark 1:10) and enables him to preform exorcisms ( Matt. 12:28). It is the promised advocate (John 14:6) given as a gift (Acts 2:38) to those who confess Jesus as Lord (1 Cor. 12:3).\r\rFurther Reference:\rCatechism of the Catholic Church, 691\rhttp://tinyurl.com/nhrp9uj",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Holy Water",
-                           @"twitterDef":@"the first principle in medical ethics:\rdo no harm.",
+                           @"twitterDef":@"",
                            @"definition":@"\rThe first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
                            @"category":@"Liturgical"}];
     
@@ -1672,13 +1677,13 @@
     
     [TAWord wordWithDict:@{@"name":@"Homoiousios",
                            @"twitterDef":@"the Greek word meaning\r“of similar substance”",
-                           @"definition":@"\rThis word was used by Arius to describe the relationship of the Son to the Father.\r\rFurther Reference:\rWikipedia, “Homoiousios”\rhttp://tinyurl.com/lvw8sht",
+                           @"definition":@"\rThis word was used by Arius and pro-Arian bishops at Nicea to describe the relationship of the Son to the Father.\r\rFurther Reference:\rWikipedia, “Homoiousios”\rhttp://tinyurl.com/lvw8sht",
                            @"category":@"Historical"}];
 
     
     [TAWord wordWithDict:@{@"name":@"Homoousios",
                            @"twitterDef":@"the Greek word meaning\r“of the same substance”",
-                           @"definition":@"\rThe first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
+                           @"definition":@"\rHomoousios was one of the terms used by Athanasius and other like-minded bishops at Nicea to explain the relationship of the Son to the Father.\r\rGreek, ὁμοούσιος (homoousios)\r\rFurther Reference:\rCatechism of the Catholic Church, 465\rhttp://tinyurl.com/37wuaux",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Host",

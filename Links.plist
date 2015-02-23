@@ -38,13 +38,13 @@
 			<key>Name</key>
 			<string>Stanford Encyclopedia of Philosophy</string>
 			<key>URL</key>
-			<string>http://www.unep.org</string>
+			<string>http://plato.stanford.edu</string>
 		</dict>
 		<dict>
 			<key>Name</key>
 			<string>Internet Encyclopedia of Philosophy</string>
 			<key>URL</key>
-			<string>http://m.epa.gov</string>
+			<string>http://www.iep.utm.edu</string>
 		</dict>
 	</array>
 	<key>Economy</key>
@@ -122,7 +122,7 @@
 			<key>Name</key>
 			<string>Ancient Greek and Latin Texts</string>
 			<key>URL</key>
-			<string>http://www.perseus.tufts.edu/hopper/collection?collection=Perseus:collection:Greco-Roman</string>
+			<string>http://www.perseus.tufts.edu/hopper/</string>
 		</dict>
 		<dict>
 			<key>Name</key>
@@ -239,7 +239,7 @@
 			<key>Name</key>
 			<string>International Theological Commission</string>
 			<key>URL</key>
-			<string>http://www.vatican.va/roman_curia/congregations/cfaith/cti_documents/rc_con_cfaith_doc_20040723_communion-stewardship_en.html</string>
+			<string>http://www.vatican.va/roman_curia/congregations/cfaith/cti_index.htm</string>
 		</dict>
 		<dict>
 			<key>Name</key>
