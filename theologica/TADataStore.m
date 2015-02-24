@@ -1641,7 +1641,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Holy",
                            @"twitterDef":@"set apart from the ordinary;\rsacred",
-                           @"definition":@"\rGod is characterized as holy throughout the Catholic tradition. In the Scriptures, YHWH declares himself to be worshipped with the refrain “Holy, Holy, Holy” (Isaiah 6:3). Jesus is referred to as the Holy One (Acts 3:14). The Blessed Virgin Mary is referred to as the panhagia (all-holy). Holiness is one of the four marks of the Church.\r\rFurther Reference:\rWikipedia, “Sacred”\rhttp://en.wikipedia.org/wiki/“Sacred”",
+                           @"definition":@"\rGod is characterized as holy throughout the Catholic tradition. In the Scriptures, YHWH declares himself to be worshipped with the refrain “Holy, Holy, Holy” (Isaiah 6:3). Jesus is referred to as the Holy One (Acts 3:14). The Blessed Virgin Mary is referred to as the panhagia (all-holy). Holiness is one of the four marks of the Church.\r\rFurther Reference:\rWikipedia, “Sacred”\rhttp://tinyurl.com/pl9q2zh",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Holy of Holies",
@@ -1666,18 +1666,18 @@
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Holy Water",
-                           @"twitterDef":@"",
-                           @"definition":@"\rThe first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
+                           @"twitterDef":@"the Sacramental of water\rthat signifies Baptism",
+                           @"definition":@"\rHoly Water is sprinkled on worshippers during the Easter Vigil and usually available at various stations in a church building. See “Baptism”, “Sacramental”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1668\rhttp://tinyurl.com/oo3cp5p",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Homily",
-                           @"twitterDef":@"a sermon based on the Mass readings\rfrom the Lectionary",
-                           @"definition":@"\rThe first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
+                           @"twitterDef":@"a discourse based on the mysteries of faith\rand Christian life suited to the congregation",
+                           @"definition":@"\rHomilies are present with Scripture itself (Luke 6, Acts 4) and always serve to build up the Church. The Homily should be based on the readings and the prayers from Lectionary.\r\rFurther Reference:\rCongregation for Divine Worship and Discipline of the Sacraments, “Homiletic Directory”\rhttp://tinyurl.com/oreb9lc",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Homoiousios",
                            @"twitterDef":@"the Greek word meaning\r“of similar substance”",
-                           @"definition":@"\rThis word was used by Arius and pro-Arian bishops at Nicea to describe the relationship of the Son to the Father.\r\rFurther Reference:\rWikipedia, “Homoiousios”\rhttp://tinyurl.com/lvw8sht",
+                           @"definition":@"\rThis word was used by Arius and pro-Arian bishops at Nicea to describe the relationship of the Son to the Father.\r\rGreek, ὁμοιούσιος (homoiousios)\r\rFurther Reference:\rWikipedia, “Homoiousios”\rhttp://tinyurl.com/lvw8sht",
                            @"category":@"Historical"}];
 
     
@@ -1687,8 +1687,8 @@
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Host",
-                           @"twitterDef":@"the first principle in medical ethics:\rdo no harm.",
-                           @"definition":@"\rThe first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
+                           @"twitterDef":@"the bread reserved for Eucharistic consecration",
+                           @"definition":@"\rThe Host is made of unleavened bread in the Western liturgical tradtion, while the East has historically used leavened bread. It is placed on a Paten when on the Altar. See “Altar”, “Eucharist”, “Paten”.\r\rFurther Reference:\rNew Advent, “Host”\rhttp://tinyurl.com/7p5tg75",
                            @"category":@"Liturgical"}];
 
     
@@ -2595,7 +2595,16 @@
                            @"definition":@"\rA movement within naturalism which emphasizes the scientific history of the universe as a core mythos around which revolve interpretive, spiritual, and moral axes.\r\rFurther Reference:\r",
                            @"category":@"Cultural"}];
     
-    //S
+    
+    
+    //////////////////////////////////////S
+    
+    
+    
+    [TAWord wordWithDict:@{@"name":@"Sacramental",
+                           @"twitterDef":@"sacred signs that signify\rthe effects of Sacraments",
+                           @"definition":@"\rSacramentals dispose the Faithful to receive the grace of the Sacraments. They are instituted for the sanctification of various circumstances in the Christian vocation.\r\rFurther Reference:\rCatechism of the Catholic Church, 1667-1676\rhttp://tinyurl.com/oo3cp5p",
+                           @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Salvation",
                            @"twitterDef":@"the experience of being saved from sin and eventually death",
