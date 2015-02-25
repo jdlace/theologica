@@ -1738,17 +1738,17 @@
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Infallibility",
-                           @"twitterDef":@"the first principle in medical ethics:\rdo no harm.",
-                           @"definition":@"\rThe first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
+                           @"twitterDef":@"the supernatural guarantee that the Church\rcannot err in teaching revealed truth",
+                           @"definition":@"\rInfallibility is exercised in three ways:\r\r-by the consent of the Faithful\r-by the Bishops together with the Pope\r-by the Pope ex cathedra\r\rFurther Reference:\rWikipedia, “Infallibility of the Church”\rhttp://tinyurl.com/n58unch",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Intercession",
-                           @"twitterDef":@"the first principle in medical ethics:\rdo no harm.",
+                           @"twitterDef":@"the first principle in medical ethics:\rdo no harm...",
                            @"definition":@"\rThe first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Invitatory Psalm",
-                           @"twitterDef":@"the first principle in medical ethics:\rdo no harm.",
+                           @"twitterDef":@"the first principle in medical ethics:\rdo no harm....",
                            @"definition":@"\rThe first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
                            @"category":@"Liturgical"}];
 
