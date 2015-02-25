@@ -99,15 +99,15 @@
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>Vatican News</string>
+			<string>Catechism of the Catholic Church</string>
 			<key>URL</key>
-			<string>https://www.youtube.com/user/vatican</string>
+			<string>http://www.vatican.va/archive/ENG0015/_INDEX.HTM</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>U.S. Bishops</string>
+			<string>Vatican News</string>
 			<key>URL</key>
-			<string>http://www.usccb.org</string>
+			<string>https://www.youtube.com/user/vatican</string>
 		</dict>
 		<dict>
 			<key>Name</key>
@@ -225,6 +225,12 @@
 	<array>
 		<dict>
 			<key>Name</key>
+			<string>International Theological Commission</string>
+			<key>URL</key>
+			<string>http://www.vatican.va/roman_curia/congregations/cfaith/cti_index.htm</string>
+		</dict>
+		<dict>
+			<key>Name</key>
 			<string>La Nouvelle Theologie</string>
 			<key>URL</key>
 			<string>http://ressourcement.blogspot.com</string>
@@ -237,33 +243,27 @@
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>International Theological Commission</string>
+			<string>The Center for Theology and Natural Sciences</string>
 			<key>URL</key>
-			<string>http://www.vatican.va/roman_curia/congregations/cfaith/cti_index.htm</string>
+			<string>http://www.ctns.org/index.html</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>Modern Physics and Creation</string>
+			<string>Atom + Eve Project</string>
 			<key>URL</key>
-			<string>http://vimeo.com/35972542</string>
+			<string>http://washtheocon.org/resources/using-science-pastoral-ministry/</string>
 		</dict>
 		<dict>
-			<key>URL</key>
-			<string>http://vimeo.com/35718571</string>
 			<key>Name</key>
-			<string>Theology and the Big Bang </string>
+			<string>Evolution and Original Sin</string>
+			<key>URL</key>
+			<string>http://washtheocon.org/wp-content/uploads/2012/10/EvolutionOriginalSin1-corrected.pdf</string>
 		</dict>
 		<dict>
 			<key>Name</key>
 			<string>Catholic Climate Covenant</string>
 			<key>URL</key>
 			<string>http://catholicclimatecovenant.org</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>The Center for Theology and Natural Sciences</string>
-			<key>URL</key>
-			<string>http://www.ctns.org/index.html</string>
 		</dict>
 		<dict>
 			<key>Name</key>

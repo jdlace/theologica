@@ -1713,7 +1713,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Icon",
                            @"twitterDef":@"a religious image used for veneration",
-                           @"definition":@"\rThe first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
+                           @"definition":@"\rIcons were approved for use in worship after the Iconoclasm controversy, settled at Nicea II, the seventh ecumenical council, in A.D. 787. See “Iconoclasm”. See “Nicea” in the Historical section of the Maps tab.\r\rFurther Reference:\rCatechism of the Catholic Church, 1159\rhttp://tinyurl.com/oa9lfkj",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Immanuel",
@@ -1723,18 +1723,18 @@
     
     
     [TAWord wordWithDict:@{@"name":@"Iconoclasm",
-                           @"twitterDef":@"the first principle in medical ethics:\rdo no harm.",
-                           @"definition":@"\rThe first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
+                           @"twitterDef":@"the prohibition against the veneration of Icons",
+                           @"definition":@"\rIconoclasm was based on the injunction given in the first Commandment:\r\r“You shall not make for yourself a graven image.”\r\rProponents of icons argued that the Incarnation had introduced a new economy of images, since the Image of God Himself, had become visible. Iconoclasm was anathematized at Nicea II, the seventh ecumenical council, in A.D. 787.\r\rFurther Reference:\rCatechism of the Catholic Church, 2131\rhttp://tinyurl.com/lu75a9k",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Incarnation",
-                           @"twitterDef":@"the uniting of the eternal Son of God to a human person; the Word made flesh",
-                           @"definition":@"\rThe first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
+                           @"twitterDef":@"the uniting of the eternal Son of God\rto a human nature",
+                           @"definition":@"\rThe Incarnation is described directly in the prologue to the Gospel of John:\r\r“And the Word was made flesh and dwelt among us.”\r\rThe Church teaches that in the Incarnation, God became human so that humanity could become divinized. See “Chalcedonian Definition”, “Theosis”.\r\rFurther Reference:\rCatechism of the Catholic Church, 461\rhttp://tinyurl.com/37wuaux",
                            @"category":@"Systematic"}];
 
     [TAWord wordWithDict:@{@"name":@"Immaculate Conception",
                            @"twitterDef":@"the dogma that the Virgin Mary was\r conceived without the effects of Original Sin",
-                           @"definition":@"\rThe first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, \rhttp://tinyurl.com/lvw8sht",
+                           @"definition":@"\rThe dogma of the Immaculate Conception emaphsizes the pre-eminent role of the Blessed Virgin Mary in Salvation History. See “Dogma”, “Original Sin”, “Salvation History”.\r\rFurther Reference:\rCatechism of the Catholic Church, 491\rhttp://tinyurl.com/3w9q9aw",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Infallibility",
@@ -1785,8 +1785,8 @@
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Israel",
-                           @"twitterDef":@"the name given to Jacob meaning\r“struggles with God”",
-                           @"definition":@"\rAccording to the stories in Genesis, Jacob was the son of Isaac and father of twelve sons whose decendants became the twelve tribes of Israel.\r\rFurther Reference:\rCatechism of the Catholic Church, 62\rhttp://tinyurl.com/pesbbq3",
+                           @"twitterDef":@"the Hebrew name given to Jacob meaning\r“struggles with God”",
+                           @"definition":@"\rAccording to the stories in Genesis, Jacob was the son of Isaac and father of twelve sons whose decendants became the twelve tribes of Israel.\r\rHebrew, יִשְׂרָאֵל (yisrael)\r\rFurther Reference:\rCatechism of the Catholic Church, 62\rhttp://tinyurl.com/pesbbq3",
                            @"category":@"Biblical"}];
     
     
