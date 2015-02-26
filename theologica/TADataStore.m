@@ -1743,13 +1743,13 @@
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Intercession",
-                           @"twitterDef":@"the first principle in medical ethics:\rdo no harm...",
-                           @"definition":@"\rThe first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
+                           @"twitterDef":@"a type of prayer on behalf of others",
+                           @"definition":@"\rIntercessory prayers are mentioned specifically in 1 Tim. 2:1. Jesus interceded for his enemies on the Cross.\r\rFurther Reference:\rCatechism of the Catholic Church, 2634\rhttp://tinyurl.com/jwoavzg",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Invitatory Psalm",
-                           @"twitterDef":@"the first principle in medical ethics:\rdo no harm....",
-                           @"definition":@"\rThe first principle in medical ethics; do no harm.\r\rFurther Reference:\rWikipedia, Beneficence\rhttp://tinyurl.com/lvw8sht",
+                           @"twitterDef":@"the psalm said either before the\rOffice of Readings or Morning Prayer",
+                           @"definition":@"\rthe Invitatory Psalm is often said as an antiphon. See Morning Prayer.\r\rFurther Reference:\rWikipedia, Invitatory\rhttp://tinyurl.com/lvw8sht",
                            @"category":@"Liturgical"}];
 
 
