@@ -301,12 +301,13 @@
     theologicaSource.twitterDef = @"Faith Seeking Understanding";
     theologicaSource.image = [UIImage imageNamed:@"appicon"];
     theologicaSource.comment = @"\rTheology has been called faith seeking understanding and the intelligence of faith.";
+    theologicaSource.bigPic = [UIImage imageNamed:@"defdetail-1"]; 
     
     SourcesDetailViewController *sourcesDetailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"SourcesDetailViewController"];
     
     sourcesDetailViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
     
-    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Overview"
+    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Home"
                                                                    style:UIBarButtonItemStylePlain target:nil action:nil];
     self.navigationItem.backBarButtonItem = backButton;
     

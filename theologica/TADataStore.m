@@ -186,7 +186,7 @@
     [TAWord wordWithDict:@{@"name":@"Angelus",
                            @"twitterDef":@"an antiphonal prayer inspired\rby the story of the Annunciation",
                            @"definition":@"\rThe Angelus is prayed every Sunday at noon by the Pope in St. Peter's Square.\r\rV. The angel of the Lord declared unto Mary,\rR. And she conceived of the Holy Spirit.\rV. Behold the handmaid of the Lord.\r\rR. Let it be unto me according to thy word.\rV. And the Word was made flesh.\rR. And dwelt among us.\rV. Hail Mary, full of grace; the Lord is with Thee: blessed art thou amongst women, and blessed is the fruit of thy womb, Jesus.\rR. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen.\rV. Pray for us, O Holy Mother of God.\rR. That we might be made worthy of the promises of Christ.\rV. Let us pray: Pour forth, we beseech Thee, Lord, Thy grace into our hearts; that, we, to whom the Incarnation of Christ, Thy Son, was known by the message of an angel, may, by His Passion and Cross, be brought to the glory of His Resurrection, through the same Christ our Lord,\rR. Amen.\r\rSee “Incarnation”, “Annunciation”.\r\rFurther Reference:\rWikipedia, “Angelus”\rhttp://tinyurl.com/nxzg53",
-                           @"category":@"Moral"}];
+                           @"category":@"Liturgical"}];
 
     
     [TAWord wordWithDict:@{@"name":@"Anawim",
@@ -719,7 +719,7 @@
     [TAWord wordWithDict:@{@"name":@"Casuistic Law",
                            @"twitterDef":@"a type of law derived from individual cases rather than universal norms",
                            @"definition":@"\rCasuistic law is contrasted with apodictic law. The latter is exemplified by the 10 Commandments, while the former is found in the Covenant Code of Exodus 21-23. See “Apodictic Law”.\r\rFurther Reference:\rWikipedia, “Casuistry”\rhttp://tinyurl.com/2pntmh",
-                           @"category":@"Moral"}];
+                           @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Cappadocian Fathers",
                            @"twitterDef":@"Basil the Great, Gregory of Nyssa,\rand Gregory of Nazianzus",
@@ -1405,7 +1405,7 @@
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Filioque",
-                           @"twitterDef":@"a Latin phrase added to the Nicene Creed meaning “and the Son”",
+                           @"twitterDef":@"a Latin phrase added to the Nicene Creed meaning\r“and the Son”",
                            @"definition":@"\rThe Filioque phrase dates to the Patristic era. It is found in the writings of Augustine of Hippo, Leo the Great, and others. It gradually became a source of contention between the Eastern and Western churches as seen in the Photian and Great Schism. See “Photian Schism”, “Great Schism”.\r\rFurther Reference:\rWikipedia, “Filioque”\rhttp://tinyurl.com/kdzp5pc",
                            @"category":@"Historical"}];
     
@@ -1558,7 +1558,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Hallelujah",
                            @"twitterDef":@"a Hebrew word meaning\r“Praise YHWH”",
-                           @"definition":@"\rHallelujah occurs frequently throughout the Old Testament, especially in the Psalms. Hebrew, הַלְּלוּיָהּ (halleluya)\r\rFurther Reference:\r",
+                           @"definition":@"\rHallelujah occurs frequently throughout the Old Testament, especially in the Psalms.\r\rHebrew, הַלְּלוּיָהּ (halleluya)\r\rFurther Reference:\rWikipedia, “Hallelujah”\rhttp://tinyurl.com/5gctqe",
                            @"category":@"Liturgical"}];
 
     
@@ -1603,7 +1603,7 @@
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Hierarchy of Truths",
-                           @"twitterDef":@"the relative degrees of importance\rbetween various truths of the fatih",
+                           @"twitterDef":@"the relative degrees of importance\rbetween various truths of the faith",
                            @"definition":@"\rThe notion of the Hierarchy of Truths is a recognition that some doctrines are more foundational to Christian identity than others.\r\rFurther Reference:\rVatican II, Decree on Ecumenism, 11\rhttp://tinyurl.com/3xnyh",
                            @"category":@"Systematic"}];
     
@@ -1729,7 +1729,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Incarnation",
                            @"twitterDef":@"the uniting of the eternal Son of God\rto a human nature",
-                           @"definition":@"\rThe Incarnation is described directly in the prologue to the Gospel of John:\r\r“And the Word was made flesh and dwelt among us.”\r\rThe Church teaches that in the Incarnation, God became human so that humanity could become divinized. See “Chalcedonian Definition”, “Theosis”.\r\rFurther Reference:\rCatechism of the Catholic Church, 461\rhttp://tinyurl.com/37wuaux",
+                           @"definition":@"\rThe Incarnation is described directly in John 1:14:\r\r“And the Word was made flesh and dwelt among us.”\r\rThe Church teaches that in the Incarnation, God became human so that humanity could become divinized. See “Chalcedonian Definition”, “Theosis”.\r\rFurther Reference:\rCatechism of the Catholic Church, 461\rhttp://tinyurl.com/37wuaux",
                            @"category":@"Systematic"}];
 
     [TAWord wordWithDict:@{@"name":@"Immaculate Conception",
@@ -1749,29 +1749,29 @@
     
     [TAWord wordWithDict:@{@"name":@"Invitatory Psalm",
                            @"twitterDef":@"the psalm said either before the\rOffice of Readings or Morning Prayer",
-                           @"definition":@"\rthe Invitatory Psalm is often said as an antiphon. See Morning Prayer.\r\rFurther Reference:\rWikipedia, Invitatory\rhttp://tinyurl.com/lvw8sht",
+                           @"definition":@"\rthe Invitatory Psalm is often said as an antiphon. See Morning Prayer.\r\rFurther Reference:\rWikipedia, “Invitatory”\rhttp://tinyurl.com/lvw8sht",
                            @"category":@"Liturgical"}];
 
 
     [TAWord wordWithDict:@{@"name":@"Impediment",
-                           @"twitterDef":@"a hiderance to a free choice;\reither virtual or actual",
-                           @"definition":@"\rVirtual impediments...Actual impediments..\r\rFurther Reference:\rCatholic Moral Theology blog\rhttp://tinyurl.com/pyfcn3n",
+                           @"twitterDef":@"a hiderance to humna freedom;\ractual or habitual",
+                           @"definition":@"\rActual impediments are those found in the situation of the subject. Virtual impediments are those found within the character of the subject.\r\rFurther Reference:\rJames P. Hannigan, “As I Have Loved You: The Challenge of Christian Ethics”, 54-55 http://tinyurl.com/npm2vvg",
                            @"category":@"Moral"}];
     
     
     [TAWord wordWithDict:@{@"name":@"Immanence",
                            @"twitterDef":@"the quality of being within human experience",
-                           @"definition":@"\rThe quality of being within human experience.\r\rFurther Reference:\r\rCatechism of the Catholic Church, 239\rhttp://tinyurl.com/4tymjt",
+                           @"definition":@"\rThe Yahwist Source, more than any other literary source in the Torah, portrays God as immanent due to its prevalent use of anthropomorphism. See “Yahwist Source”, “Anthropomorphism”.\r\rFurther Reference:\rCatechism of the Catholic Church, 239\rhttp://tinyurl.com/4tymjt",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Idolatry",
                            @"twitterDef":@"the bestowal of ultimate value on that which is not ultimate",
-                           @"definition":@"\rThe bestowal of ultimate value on that which is not ultimate.\r\rFurther Reference:\rCatechism of the Catholic Church, 2113\rhttp://tinyurl.com/lu75a9k",
+                           @"definition":@"\rPope Francis has repeatedly condemned the idolatry of money, prevalent in wealthy nations.\r\rFurther Reference:\rCatechism of the Catholic Church, 2113\rhttp://tinyurl.com/lu75a9k",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Inclusivism",
                            @"twitterDef":@"the belief that those who respond to the truth they have receieved will experience salvation",
-                           @"definition":@"\rInclusivism is a soteriology developed by Karl Rahner in the mid-twentieth century. He claimed that all people possess a fundamental option for or against God.\r\rFurther Reference:\rCatechism of the Catholic Church, 847\rhttp://tinyurl.com/oupb5",
+                           @"definition":@"\rInclusivism is a soteriology developed by Karl Rahner in the mid-twentieth century. He claimed that all people possess a fundamental option for or against God. See “Fundamental Option”.\r\rFurther Reference:\rCatechism of the Catholic Church, 847\rhttp://tinyurl.com/oupb5",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Inspiration",
@@ -1781,7 +1781,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Interpretation",
                            @"twitterDef":@"the process of determining the meaning,\rsignificance, and relevance of a text",
-                           @"definition":@"\rThe explanation of the meaning, significance, and relevance of a text.\r\rFurther Reference:\rPontifical Biblical Commission, “The Interpretation of the Bible in the Church”\rhttp://tinyurl.com/2gb5dm",
+                           @"definition":@"\rInterpretation of any text, especially the Bible, requires knowing the context of the writing. This, in turn, requires efforts to know the author's intent, which is partly discerned by studying the text's literary form. See “Exegesis”, “Hermeneutics”, “Sitz Em Laben“.\r\rFurther Reference:\rPontifical Biblical Commission, “The Interpretation of the Bible in the Church”\rhttp://tinyurl.com/2gb5dm",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Israel",
@@ -1803,12 +1803,12 @@
     
     [TAWord wordWithDict:@{@"name":@"Justification",
                            @"twitterDef":@"the act of being put into a just relationship",
-                           @"definition":@"\rPaul uses this word to describe those who believe in Jesus as the Christ.\r\rFurther Reference:\rCatechism of the Catholic Church, 1990\rhttp://tinyurl.com/yaua7cc",
+                           @"definition":@"\rPaul uses this legal term to describe those who have faith in Jesus Christ.\r\rFurther Reference:\rCatechism of the Catholic Church, 1990\rhttp://tinyurl.com/yaua7cc",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Justice",
                            @"twitterDef":@"the state of right relationships between individuals and groups in society",
-                           @"definition":@"\rthe state of right relationships between individuals and groups in society.\r\rFurther Reference:\rCatechism of the Catholic Church, 1807\rhttp://tinyurl.com/pd2yc32",
+                           @"definition":@"\rAccording the Social Doctrine of the Church, there are three aspects to Justice: Commutatitve, Contributive, and Distributive.\r\rFurther Reference:\rCatechism of the Catholic Church, 1807\rhttp://tinyurl.com/pd2yc32",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Jus Ad Bellum",
@@ -1836,7 +1836,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Jew",
                            @"twitterDef":@"a member of the tribe of Judah used to refer to any Israelite after the return from the Exile in 515 B.C.",
-                           @"definition":@"\ra member of the tribe of Judah used to refer to any Israelite after the return from the Exile in 515 B.C.\r\rFurther Reference:\rWikipedia, “Jew”\rhttp://tinyurl.com/dh7r",
+                           @"definition":@"\rThe term “Jew” became synonymous with “Israelite” after the Exile, in part, because most of the captives from the southern kingdom were from the tribe of Judah.\r\rFurther Reference:\rWikipedia, “Jew”\rhttp://tinyurl.com/dh7r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Jubilee",
@@ -2240,7 +2240,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Nicene-Constantiopolitan Creed",
                            @"twitterDef":@"the creed from Constantinople in A.D. 381,\rbased on the Nicene Creed in A.D. 325",
-                           @"definition":@"\r“We believe in one God, the Father, the Almighty, maker of heaven and earth, of all that is, seen and unseen.\r\rWe believe one Lord, Jesus Christ, the only Son of God, eternally begotten of the Father, God from God, Light from Light, true God from true God, begotten, not made, one in Being with the Father. Through Him all things were made. For us men and for our salvation, He came down from heaven: by the power of the Holy Spirit He was born of the Virgin Mary, and became Man. For our sake He was crucified under Pontius Pilate. He suffered, died, and was buried. On the third day He rose again in fulfillment of the Scriptures; He ascended into heaven, and is seated at the right hand of the Father. He will come again in glory to judge the living and the dead, and His kingdom will have no end. \r\rWe believe in the Holy Spirit, the Lord, the Giver of life, Who proceeds from the Father and the Son. With the Father and the Son He is worshiped and glorified. He has spoken through the prophets.\r\rWe believe in one, holy, catholic, and apostolic Church. We acknowledge one Baptism for the forgiveness of sins. We look for the resurrection of the dead, and the life of the world to come. Amen.”\r\rSee “Nicea” in the Historical section of the Map tab.\r\rFurther Reference:\rCatechism of the Catholic Church, Sec. II\rhttp://tinyurl.com/2dszf5",
+                           @"definition":@"\r“We believe in one God, the Father, the Almighty, maker of heaven and earth, of all that is, seen and unseen.\r\rWe believe one Lord, Jesus Christ, the only Son of God, eternally begotten of the Father, God from God, Light from Light, true God from true God, begotten, not made, one in Being with the Father. Through Him all things were made. For us men and for our salvation, He came down from heaven: by the power of the Holy Spirit He was born of the Virgin Mary, and became Man. For our sake He was crucified under Pontius Pilate. He suffered, died, and was buried. On the third day He rose again in fulfillment of the Scriptures; He ascended into heaven, and is seated at the right hand of the Father. He will come again in glory to judge the living and the dead, and His kingdom will have no end. \r\rWe believe in the Holy Spirit, the Lord, the Giver of life, Who proceeds from the Father and the Son. With the Father and the Son He is worshiped and glorified. He has spoken through the prophets.\r\rWe believe in one, holy, catholic, and apostolic Church. We acknowledge one Baptism for the forgiveness of sins. We look for the resurrection of the dead, and the life of the world to come. Amen.”\r\rSee “Nicea” in the Historical section of the Maps tab.\r\rFurther Reference:\rCatechism of the Catholic Church, Sec. II\rhttp://tinyurl.com/2dszf5",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Numinous",
