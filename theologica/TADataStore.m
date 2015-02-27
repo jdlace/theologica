@@ -1705,7 +1705,7 @@
     
     
     
-    ////////////////////////////////I
+    ////////////////////////////////////////////////////////////I
     
     
     
@@ -1813,12 +1813,12 @@
     
     [TAWord wordWithDict:@{@"name":@"Jus Ad Bellum",
                            @"twitterDef":@"a set of criteria used to determine if war is justified in a given situation",
-                           @"definition":@"\rLatin for “justice to war” - a set of criteria used to determine if war is justified in a given situation: just cause, comparative justice, competent authority, right intention, probability of success, last resort, proportionality. See “Just War Theory”.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy, “War” http://tinyurl.com/84c2ppg",
+                           @"definition":@"\rJus Ad Bellum criteria include: just cause, comparative justice, competent authority, right intention, probability of success, last resort, proportionality. See “Just War Theory”.\r\rLatin, “justice to war” \r\rFurther Reference:\rStanford Encyclopedia of Philosophy, “War” http://tinyurl.com/84c2ppg",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Jus Im Bello",
                            @"twitterDef":@"a set of criteria used to determine if the methods of war are justified",
-                           @"definition":@"\rLatin for “justice in war” - a set of criteria used to determine if the methods of war are justified: distinction, proportionality, military necessity; see “Just War Theory”.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy, “War” http://tinyurl.com/84c2ppg",
+                           @"definition":@"\rJus Im Bello criteria include: distinction, proportionality, military necessity; see “Just War Theory”.\r\rLatin, “justice in war”\r\rFurther Reference:\rStanford Encyclopedia of Philosophy, “War” http://tinyurl.com/84c2ppg",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Just War Theory",

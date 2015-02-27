@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "Source.h"
 #import "AboutViewController.h"
+#import "TwitterViewController.h"
 
 @interface SourcesViewController : UIViewController <UIScrollViewDelegate>
 

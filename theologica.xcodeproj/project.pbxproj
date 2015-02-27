@@ -55,6 +55,7 @@
 		FA3683D31A1155AA00E9740F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3683D21A1155AA00E9740F /* MobileCoreServices.framework */; };
 		FA84505C1A129CA0007839D8 /* bookmarkListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA84505B1A129CA0007839D8 /* bookmarkListTableViewController.m */; };
 		FA9323091A1E6DE8008CF833 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9323081A1E6DE8008CF833 /* MapKit.framework */; };
+		FAD94F5A1AA0AC5500BBFE86 /* TwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD94F591AA0AC5500BBFE86 /* TwitterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -149,6 +150,8 @@
 		FA84505A1A129CA0007839D8 /* bookmarkListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bookmarkListTableViewController.h; sourceTree = "<group>"; };
 		FA84505B1A129CA0007839D8 /* bookmarkListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bookmarkListTableViewController.m; sourceTree = "<group>"; };
 		FA9323081A1E6DE8008CF833 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FAD94F581AA0AC5500BBFE86 /* TwitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TwitterViewController.h; path = ../TwitterViewController.h; sourceTree = "<group>"; };
+		FAD94F591AA0AC5500BBFE86 /* TwitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TwitterViewController.m; path = ../TwitterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -353,6 +356,8 @@
 			children = (
 				6954D6FD1A884E17004374F0 /* AboutViewController.h */,
 				6954D6FE1A884E17004374F0 /* AboutViewController.m */,
+				FAD94F581AA0AC5500BBFE86 /* TwitterViewController.h */,
+				FAD94F591AA0AC5500BBFE86 /* TwitterViewController.m */,
 				6932282A1A5256AF00528421 /* SourcesViewController.h */,
 				6932282B1A5256AF00528421 /* SourcesViewController.m */,
 				698893B61A5E24CE00D1AC74 /* SourcesDetailViewController.h */,
@@ -488,6 +493,7 @@
 				692ED2571796D552008554F9 /* main.m in Sources */,
 				9BA06E331A833B4800A6A19E /* TADataStore.m in Sources */,
 				6932282C1A5256AF00528421 /* SourcesViewController.m in Sources */,
+				FAD94F5A1AA0AC5500BBFE86 /* TwitterViewController.m in Sources */,
 				692ED25B1796D552008554F9 /* AppDelegate.m in Sources */,
 				69D6284F1A4762830073C157 /* SocialPins.m in Sources */,
 				69BB25491A130F2E00B3F5B5 /* WordDataSource.m in Sources */,
