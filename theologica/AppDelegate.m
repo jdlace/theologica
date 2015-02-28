@@ -8,15 +8,18 @@
 
 #import "AppDelegate.h"
 #import "TADataStore.h"
-//#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 00))/122.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    //UIColor *ios7BlueColor = [UIColor colorWithRed:0.0 green:110.0/180.0 blue:1.0 alpha:1.0];
+    [[UINavigationBar appearance] setBarTintColor:[UIColor groupTableViewBackgroundColor]];
+    //[[UINavigationBar appearance] setTintColor: [UIColor whiteColor]];
     
-    //[[UINavigationBar appearance] setBarTintColor:[UIColor blueColor]];
     //[[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0x067AB5)];
+    
     
     [[TADataStore sharedStore] buildDictionaryWords];
 
