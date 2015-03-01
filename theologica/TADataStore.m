@@ -759,7 +759,7 @@
     [TAWord wordWithDict:@{@"name":@"Chastity",
                            @"twitterDef":@"the respectful integration of sexuality\rwithin relationships",
                            @"definition":@"\rChastity is a term that has to do with more than simply virginity. It is the appropriate expression of sexuality within one's station in life (e.g. marriages are called to be chaste). It is the expression of sexuality in the recognition that all persons possess dignity. Chastity is the opposite of the objectification of sexuality. See “Dignity of the Human Person”, “Sexuality”.\r\rFurther Reference:\rCatechism of the Catholic Church, 2337\rhttp://tinyurl.com/cz1w",
-                           @"definition":@"Moral"}];
+                           @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Christ",
                            @"twitterDef":@"an eschatological title of Jesus meaning\r“annointed one”",
@@ -1835,8 +1835,8 @@
      */
     
     [TAWord wordWithDict:@{@"name":@"Jew",
-                           @"twitterDef":@"a member of the tribe of Judah used to refer to any Israelite after the return from the Exile in 515 B.C.",
-                           @"definition":@"\rThe term “Jew” became synonymous with “Israelite” after the Exile, in part, because most of the captives from the southern kingdom were from the tribe of Judah.\r\rFurther Reference:\rWikipedia, “Jew”\rhttp://tinyurl.com/dh7r",
+                           @"twitterDef":@"a post-Exilic word for an Israelite",
+                           @"definition":@"\rThe term “Jew” became synonymous with “Israelite” after the Exile, in part, because most of the captives from the southern kingdom were from the tribe of Judah. See “Exile”.\r\rFurther Reference:\rWikipedia, “Jew”\rhttp://tinyurl.com/dh7r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Jubilee",

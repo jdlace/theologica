@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface VerbatimViewController : UIViewController
+@interface VerbatimViewController : UIViewController <UIWebViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
 

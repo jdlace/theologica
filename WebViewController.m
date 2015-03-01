@@ -49,7 +49,7 @@
     
     
 }
-
+/*
 -(void) viewWillAppear:(BOOL)animated
 {
     self.progressBar.progress = 0;
@@ -85,7 +85,7 @@
             }
         }
 }
-
+*/
 -(void) backButton
 {
     [self.webView goBack];

@@ -24,7 +24,6 @@
     
     [self.webView loadRequest:request];
     
-    self.theBool = false;
 }
 
 - (void)didReceiveMemoryWarning
@@ -39,6 +38,26 @@
 
 -(void) timerCallBack
 {
+}
+
+-(BOOL) webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType
+{
+    [self.activityIndicator startAnimating];
+    
+    return YES;
+}
+
+-(void) webViewDidFinishLoad:(UIWebView *)webView
+{
+    
+    [self.activityIndicator stopAnimating];
+}
+
+-(void) webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error
+{
+    
+    [self.activityIndicator stopAnimating];
+    NSLog(@"Whoops");
 }
 
 

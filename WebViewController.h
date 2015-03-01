@@ -14,7 +14,6 @@
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
 @property (nonatomic, copy) NSString *urlString;
 
-@property (weak, nonatomic) IBOutlet UIProgressView *progressBar;
 @property (strong, nonatomic) NSTimer *timer;
 @property (strong, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
 
