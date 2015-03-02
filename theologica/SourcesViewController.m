@@ -301,6 +301,24 @@
 
 - (IBAction)theologicaButton:(id)sender
 {
+    
+    
+    //SourcesDetailViewController *aboutDetail = [[self storyboard]
+                                                //instantiateViewControllerWithIdentifier:@"SourcesDetailViewController"];
+    //[self.navigationController pushViewController:aboutDetail animated:YES];
+    
+
+    
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"The Sources of Theology"  message:@"Theology draws on its Sources (Magisterium, Scripture, Fathers, Councils, Creeds, Liturgy) to interpret the Signs of the Times; cultural trends that affect the worldview of human beings in any given time." preferredStyle:(UIAlertControllerStyleAlert)];
+    
+    UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"Amen" style:UIAlertActionStyleDefault
+                                                          handler:^(UIAlertAction * action) {}];
+    
+    [alert addAction:defaultAction];
+    [self presentViewController:alert animated:YES completion:nil];
+    
+    
+    /*
     Source *theologicaSource = [[Source alloc] init];
     theologicaSource.name = @"Theology";
     theologicaSource.twitterDef = @"Faith Seeking Understanding";
@@ -320,6 +338,7 @@
 
     
     [self.navigationController pushViewController:sourcesDetailViewController animated:YES];
+     */
 }
 
 - (IBAction)aboutButton:(id)sender
@@ -335,28 +354,9 @@
     aboutDetail.modalPresentationStyle = UIModalPresentationPopover;
     
     [self.navigationController presentViewController:aboutDetail animated:YES completion:nil];
-    
-    
 
-
-    
-    
-    /*
-    SourcesDetailViewController *aboutDetail = [[self storyboard]
-                                          instantiateViewControllerWithIdentifier:@"SourcesDetailViewController"];
-    [self.navigationController pushViewController:aboutDetail animated:YES];
      
     
-    
-    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Start exploring Theologica"  message:@"Theology draws on its Sources (Magisterium, Scripture, Fathers, Councils, Creeds, Liturgy) to interpret the Signs of the Times; cultural trends that affect the worldview of human beings in any given time." preferredStyle:(UIAlertControllerStyleAlert)];
-    
-    UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"Start" style:UIAlertActionStyleDefault
-    handler:^(UIAlertAction * action) {}];
-    
-    [alert addAction:defaultAction];
-    [self presentViewController:alert animated:YES completion:nil];
-     
-     */
      
      
 

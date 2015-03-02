@@ -1835,25 +1835,25 @@
      */
     
     [TAWord wordWithDict:@{@"name":@"Jew",
-                           @"twitterDef":@"a post-Exilic word for an Israelite",
+                           @"twitterDef":@"a post-Exilic term for an Israelite",
                            @"definition":@"\rThe term “Jew” became synonymous with “Israelite” after the Exile, in part, because most of the captives from the southern kingdom were from the tribe of Judah. See “Exile”.\r\rFurther Reference:\rWikipedia, “Jew”\rhttp://tinyurl.com/dh7r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Jubilee",
-                           @"twitterDef":@"the Old Testament practice of\rforgiving debts",
-                           @"definition":@"\rThe biblical description of Jubilee is found in.....\r\rFurther Reference:\rVatican, What Is A Holy Year?\rhttp://tinyurl.com/4urhj",
+                           @"twitterDef":@"a year dedicated to the\rforgiveness of debts and liberation of property",
+                           @"definition":@"\rThe biblical description of Jubilee is found in Levicticus 25:8-13. Every 50th year was to be a Jubilee year in which slaves were freed, debts were forgiven, and land was not sowed or plowed in order to replenish the soil.\r\rFurther Reference:\rVatican, “What Is A Holy Year?”\rhttp://tinyurl.com/4urhj",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Judah",
-                           @"twitterDef":@"1. the fourth son and tribe of Israel\r2. the southern Israelite kingdom",
-                           @"definition":@"\rThe tribe of Judah enjoyed a priviledged status during the monarchy.\r\rFurther Reference:\rWikipedia, “Judah”\rhttp://tinyurl.com/k7mdc7y",
+                           @"twitterDef":@"the fourth son and tribe of Israel;\rthe southern Israelite kingdom",
+                           @"definition":@"\rThe tribe of Judah enjoyed a priviledged status during the united monarchy, especially under Solomon. Judah was exempt from his policies of taxation and forced labor. Captives from the kingdom of Judah were taken to Babylon during the Exile in 587 B.C. See “Jew”, “Exile”.\r\rFurther Reference:\rWikipedia, “Judah”\rhttp://tinyurl.com/k7mdc7y",
                            @"category":@"Biblical"}];
     
     /////////////////////////////////K
     
     [TAWord wordWithDict:@{@"name":@"Kataphatic",
                            @"twitterDef":@"language which makes postiive claims about God",
-                           @"definition":@"\rlanguage which makes postiive claims about God.\r\rFurther Reference:\rWikipedia, “Kataphatic”\rhttp://tinyurl.com/lghxwjd",
+                           @"definition":@"\rKataphatic theology emphasizes the \r\rFurther Reference:\rWikipedia, “Kataphatic”\rhttp://tinyurl.com/lghxwjd",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Kenosis",
