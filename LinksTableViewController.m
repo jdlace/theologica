@@ -27,6 +27,8 @@
     NSArray *array = @[@"Magisterium", @"Scripture", @"Fathers", @"Councils", @"Creeds", @"Liturgy", @"Theology", @"Philosophy", @"Science", @"Technology", @"Politics", @"Economy", @"Arts"];
     self.linkKeys = array;
     
+
+    
     [[NSNotificationCenter defaultCenter]
      addObserver:self
      selector:@selector(preferredContentSizeChanged:)
@@ -81,7 +83,22 @@
     cell.detailTextLabel.text = dict[@"URL"]; 
     cell.textLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
     cell.textLabel.numberOfLines = 4;
-    return cell; 
+    
+    /*
+    UIFont* font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
+    
+    UIColor* textColor = [UIColor blackColor]; //colorWithRed:0.175f green:0.458f blue:0.831f alpha:1.0f];
+    NSDictionary *attrs = @{ NSForegroundColorAttributeName : textColor,
+                             NSFontAttributeName : font,
+                             NSTextEffectAttributeName : NSTextEffectLetterpressStyle};
+    
+    NSAttributedString* attrString = [[NSAttributedString alloc]
+                                      initWithString:cell.textLabel.text
+                                      attributes:attrs];
+    
+    cell.textLabel.attributedText = attrString;
+     */
+    return cell;
    
 
 }
@@ -95,7 +112,7 @@
 
 -(CGFloat) tableView: (UITableView *) tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    /*
+    
      static UILabel* label;
      if (!label) {
      label = [[UILabel alloc]
@@ -103,11 +120,11 @@
      label.text = @"test";
      }
      
-     //label.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
+     label.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
      [label sizeToFit];
-     //return label.frame.size.height * 3.00;
-     */
-    return 60;
+     return label.frame.size.height * 3.00;
+     
+    //return 60;
 }
 
 

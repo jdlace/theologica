@@ -22,12 +22,25 @@
     _sourceName.text = _currentSourceDetail.name;
     _sourceSubtitle.text = _currentSourceDetail.twitterDef;
     _sourceInformation.text = _currentSourceDetail.comment;
-    _imageView.image = _currentSourceDetail.image;
+    //_imageView.image = _currentSourceDetail.image;
     _sourcesPic.image = _currentSourceDetail.bigPic;
+    _scrollPic.image = _currentSourceDetail.scrollPic; 
     
     self.sourceSubtitle.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
     
-    self.sourceInformation.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline]; 
+    self.sourceInformation.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
+ /*
+    [self.sourceInformation addSubview:self.scrollPic];
+    [self.sourceInformation addSubview:self.sourceName];
+    
+    CGRect convertedFrame = [_sourceInformation convertRect:_scrollPic.frame fromView:self.sourceInformation];
+    [[self.sourceInformation textContainer] setExclusionPaths:@[[UIBezierPath bezierPathWithRect:convertedFrame]]];
+    
+    CGRect convertedFrame2 = [_sourceInformation convertRect:_sourceName.frame fromView:self.sourceInformation];
+    [[self.sourceInformation textContainer] setExclusionPaths:@[[UIBezierPath bezierPathWithRect:convertedFrame2]]];
+    
+   */ 
+    
 }
 
 - (void)didReceiveMemoryWarning

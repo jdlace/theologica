@@ -1841,7 +1841,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Jubilee",
                            @"twitterDef":@"the Old Testament practice of\rforgiving debts",
-                           @"definition":@"\rThe biblical description of Jubilee is found in.....\r\rFurther Reference:\r",
+                           @"definition":@"\rThe biblical description of Jubilee is found in.....\r\rFurther Reference:\rVatican, What Is A Holy Year?\rhttp://tinyurl.com/4urhj",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Judah",

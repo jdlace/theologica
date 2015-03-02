@@ -20,5 +20,6 @@
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @property (weak, nonatomic) IBOutlet UITextView *sourceInformation;
 @property (weak, nonatomic) IBOutlet UIImageView *sourcesPic;
+@property (strong, nonatomic) IBOutlet UIImageView *scrollPic;
 
 @end

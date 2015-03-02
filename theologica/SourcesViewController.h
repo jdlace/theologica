@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "Source.h"
 #import "AboutViewController.h"
-#import "TwitterViewController.h"
 
 @interface SourcesViewController : UIViewController <UIScrollViewDelegate>
 
@@ -17,6 +16,7 @@
 @property (weak, nonatomic) IBOutlet UIView *sourceView;
 @property (weak, nonatomic) IBOutlet UIView *signView;
 @property (weak, nonatomic) IBOutlet UIPageControl *pageControl;
+
 
 
 
