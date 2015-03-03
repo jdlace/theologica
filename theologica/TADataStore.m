@@ -1883,11 +1883,11 @@
     
     [TAWord wordWithDict:@{@"name":@"Kyrie Eleison",
                            @"twitterDef":@"a Greek phrase used in the Liturgy\rmeaning “Lord, have mercy.”",
-                           @"definition":@"\rThe Kyrie dates back to the Old Testament as it appears in many of Psalms. It is mentioned explicitly as being part of the Liturgy in the Apostolic Constitutions of the 4th century. It is part of the Penetential Rite of the Roman Liturgy. See “Penitential Rite”.\r\rFurther Reference:\rWikipedia, “Kyrie”\rhttp://tinyurl.com/2do63jo",
+                           @"definition":@"\rThe Kyrie dates back to the Old Testament as it appears in many of Psalms. It is mentioned explicitly as being part of the Liturgy in the Apostolic Constitutions of the 4th century. It is part of the Penetential Rite of the Roman Liturgy. See “Penitential Rite”.\r\rGreek, Κύριε, ἐλέησον (kyrie eleison)\r\rFurther Reference:\rWikipedia, “Kyrie”\rhttp://tinyurl.com/2do63jo",
                            @"category":@"Biblical"}];
 
     
-    //L
+    ///////////////////////////////////////////////////////L
     
     [TAWord wordWithDict:@{@"name":@"Last Rites",
                            @"twitterDef":@"Penance, Annointing of the Sick, Eucharist\radministered to a person near death",
@@ -1906,7 +1906,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Latria",
                            @"twitterDef":@"a Greek word meaning\r“worship of God”",
-                           @"definition":@"\rIn contrast to dulia, latria refers to worship of God alone. See “Dulia”.\r\rFurther Reference:\rWikipedia, “Latria”\rhttp://tinyurl.com/mv9sqf",
+                           @"definition":@"\rIn contrast to dulia (veneration) given to creation, latria refers to worship of God alone. See “Dulia”.\r\rFurther Reference:\rWikipedia, “Latria”\rhttp://tinyurl.com/mv9sqf",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Law of Moses",
@@ -1936,17 +1936,17 @@
     
     [TAWord wordWithDict:@{@"name":@"Lent",
                            @"twitterDef":@"the 40 day period of repentance\before the celebration of Easter”",
-                           @"definition":@"\rLent developed gradually in the Church. Irenaeus evidences its various observances. It later became standardized....\r\rFurther Reference:\rCongregation for Divine Worship and the Discipline of the Sacraments, “Paschalis Sollemnitatis”, 1\rhttp://tinyurl.com/mw2jk6h",
+                           @"definition":@"\rLent developed gradually in the Church. Irenaeus evidences its various observances. Gregory the Great it was seen as a tithe of days at 36. The later practice of 40 days became standardized throughout the Church\r\rFurther Reference:\rCongregation for Divine Worship and the Discipline of the Sacraments, “Paschalis Sollemnitatis”, 1\rhttp://tinyurl.com/mw2jk6h",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Levite",
                            @"twitterDef":@"a member of the Israelite tribe of Levi",
-                           @"definition":@"\rAccording to the Elohist Source in Exodus 32:29, the Levites were set apart to serve YHWH as a reward for their faithfulness after rallying with Moses. Later in Deuteronomy 18:1-8, the Levites were specifically chosen as being the priests of YHWH....\r\rFurther Reference:\r\rWikipedia, “Levite”\rhttp://tinyurl.com/2boql2c",
+                           @"definition":@"\rAccording to the Elohist Source in Exodus 32:29, the Levites were set apart to serve YHWH as a reward for their faithfulness after rallying with Moses. Later in Deuteronomy 18:1-8, the Levites were specifically chosen as being the priests of YHWH. This view is in contrast to that of the Priestly Source, which only allows the sons of Aaron to serve as priests. See “Priestly Source”.\r\rFurther Reference:\r\rWikipedia, “Levite”\rhttp://tinyurl.com/2boql2c",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Lex Orandi, Lex Credendi",
                            @"twitterDef":@"a Latin phrase meaning\r“law of prayer is the law of belief”",
-                           @"definition":@"\rThe New Testament uses this word to describe the Apostolic proclamation of the the Gospel.",
+                           @"definition":@"\rThis idea makes the connection between belief and practice explicit.\r\rLatin, (lex orandi, lex credendi) “law of prayer, law of belief”\r\rFurther Reference:\rCatechism of the Catholic Church, 1124\rhttp://tinyurl.com/cmes38",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Litany",
