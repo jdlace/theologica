@@ -171,10 +171,10 @@
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" alpha="0.84999999999999987" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="4nk-S1-u8i">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="4nk-S1-u8i">
                                                 <rect key="frame" x="17" y="277" width="85" height="85"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" image="churchbluelinesno">
+                                                <state key="normal" image="churchlinesno2">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
@@ -211,39 +211,39 @@
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" alpha="0.84999999999999987" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="IKW-8z-kd6">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="IKW-8z-kd6">
                                                 <rect key="frame" x="115" y="106" width="85" height="85"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <inset key="contentEdgeInsets" minX="0.0" minY="-6" maxX="0.0" maxY="0.0"/>
-                                                <state key="normal" image="papallinesno-1">
+                                                <state key="normal" image="papalinesno2">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
                                                     <action selector="catechismButton:" destination="3cO-3O-ueC" eventType="touchUpInside" id="bHL-Df-wQ6"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" alpha="0.84999999999999987" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="8EL-7U-mgi">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="8EL-7U-mgi">
                                                 <rect key="frame" x="17" y="177" width="85" height="85"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                <state key="normal" image="biblelinesno">
+                                                <state key="normal" image="biblelinesno2-1">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
                                                     <action selector="scriptureButton:" destination="3cO-3O-ueC" eventType="touchUpInside" id="u8s-v0-zXr"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" alpha="0.84999999999999987" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="wuU-IQ-wpE">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="wuU-IQ-wpE">
                                                 <rect key="frame" x="214" y="277" width="85" height="85"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" image="chirhono">
+                                                <state key="normal" image="chirholinesno2">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                             </button>
-                                            <button opaque="NO" alpha="0.84999999999999987" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="NHs-B1-LwM">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="NHs-B1-LwM">
                                                 <rect key="frame" x="214" y="177" width="85" height="85"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" image="menlinesno">
+                                                <state key="normal" image="menslinesno4">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
@@ -269,11 +269,11 @@
                                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" alpha="0.84999999999999987" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="x5k-ou-pEn">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="x5k-ou-pEn">
                                                 <rect key="frame" x="118" y="355" width="85" height="85"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                <state key="normal" image="winelinesno">
+                                                <state key="normal" image="winelinesno2">
                                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -520,7 +520,7 @@
                             <state key="normal" title="Dictionary">
                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
-                            <state key="highlighted" image="25E9B9AD-D6C5-401B-ABF2-F5C71CC066AD"/>
+                            <state key="highlighted" image="FFA05913-7654-4EF7-BE7F-DEEDBB96385C"/>
                         </button>
                         <barButtonItem key="rightBarButtonItem" title="Saved" id="RxI-0F-zKf">
                             <connections>
@@ -1043,7 +1043,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="25E9B9AD-D6C5-401B-ABF2-F5C71CC066AD" width="80" height="80">
+        <image name="525px-fresco_of_a_dominican_by_fra_angelico_001" width="175" height="200"/>
+        <image name="FFA05913-7654-4EF7-BE7F-DEEDBB96385C" width="80" height="80">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGOzxYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK0HCBEW
 GxwgISksLzU4VSRudWxs1AkKCwwNDg8QViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNSZXBzV05TQ29sb3KA
@@ -1603,18 +1604,17 @@ gO2A+IEBgQaBDoERgRaBJYEpgTCBOIFFgUqBTIFOgVOBW4FegWOBa4FugYCBg4GIAAAAAAAAAgEAAAAA
 AAAAPwAAAAAAAAAAAAAAAAAAgYo
 </mutableData>
         </image>
-        <image name="525px-fresco_of_a_dominican_by_fra_angelico_001" width="175" height="200"/>
         <image name="appIconGradient3" width="40" height="40"/>
         <image name="biblelines" width="29" height="30"/>
-        <image name="biblelinesno" width="83" height="83"/>
+        <image name="biblelinesno2-1" width="83" height="83"/>
         <image name="bluebook" width="29" height="30"/>
         <image name="blueearth" width="30" height="30"/>
         <image name="bluehouse" width="30" height="30"/>
         <image name="bluemen" width="29" height="30"/>
         <image name="blueshelf" width="30" height="30"/>
         <image name="book-arrange-7" width="30" height="30"/>
-        <image name="chirhono" width="83" height="83"/>
-        <image name="churchbluelinesno" width="83" height="83"/>
+        <image name="chirholinesno2" width="83" height="83"/>
+        <image name="churchlinesno2" width="83" height="83"/>
         <image name="clockBlue" width="30" height="30"/>
         <image name="defdetail-1" width="106" height="49"/>
         <image name="earthlines" width="30" height="30"/>
@@ -1622,14 +1622,14 @@ AAAAPwAAAAAAAAAAAAAAAAAAgYo
         <image name="home" width="30" height="30"/>
         <image name="iphone-1" width="70" height="70"/>
         <image name="men" width="29" height="30"/>
-        <image name="menlinesno" width="83" height="83"/>
+        <image name="menslinesno4" width="83" height="83"/>
         <image name="money2" width="70" height="70"/>
-        <image name="papallinesno-1" width="83" height="83"/>
+        <image name="papalinesno2" width="83" height="83"/>
         <image name="plusBlue" width="30" height="30"/>
         <image name="science-2" width="70" height="70"/>
         <image name="statueLib-1" width="70" height="70"/>
         <image name="thinker2-2" width="70" height="70"/>
-        <image name="winelinesno" width="83" height="83"/>
+        <image name="winelinesno2" width="83" height="83"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
