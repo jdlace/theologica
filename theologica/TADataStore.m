@@ -1853,60 +1853,60 @@
     
     [TAWord wordWithDict:@{@"name":@"Kataphatic",
                            @"twitterDef":@"language which makes postiive claims about God",
-                           @"definition":@"\rKataphatic theology emphasizes the \r\rFurther Reference:\rWikipedia, “Kataphatic”\rhttp://tinyurl.com/lghxwjd",
+                           @"definition":@"\rKataphatic theology emphasizes the idea that God can be known through Revelation. See “Revelation”.\r\rFurther Reference:\rWikipedia, “Kataphatic”\rhttp://tinyurl.com/lghxwjd",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Kenosis",
-                           @"twitterDef":@"the process of emptying",
-                           @"definition":@"\rA form of the word “kenosis” is used by Paul in his letter to the Philippians to describe the self-emptying of Jesus.\r\rFurther Reference:\rWikipedia, “Kenosis”\rhttp://tinyurl.com/64v89e",
+                           @"twitterDef":@"a Greek word meaning\r“the process of emptying”",
+                           @"definition":@"\rPaul uses the root of this word in his letter to the Philippians to describe the self-sacrifice of Jesus.\r\rFurther Reference:\rCatechism of the Catholic Church, 472\rhttp://tinyurl.com/37wuaux",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Ketuv'im",
                            @"twitterDef":@"the Hebrew word meaning\r“writings”",
-                           @"definition":@"\rThe Ketuv'im is the third of three sections in the Tanak; from the Hebrew, כְּתוּבִים. See “Tanak”.\r\rFurther Reference:\rWikipedia, “Ketuv'im”\rhttp://tinyurl.com/6os5ny",
+                           @"definition":@"\rThe Ketuv'im is the third of three sections in the Tanak. See “Tanak”.\r\rHebrew, כְּתוּבִים (tanak)\r\rFurther Reference:\rWikipedia, “Ketuv'im”\rhttp://tinyurl.com/6os5ny",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Kosher",
                            @"twitterDef":@"foods that are appropriate to eat or sacrifice to YHWH",
-                           @"definition":@"\roften translated as “clean”, this refers to foods that are appropriate to eat or sacrifice to YHWH according to the Torah.\r\rFurther Reference:\rWikipedia, “Kosher Foods”\rhttp://tinyurl.com/druwv",
+                           @"definition":@"\rThe classification of some foods as “kosher” is unique to the Priestly Source. Leviticus 11 gives a detailed list of foods that are considered by the P author to be unclean. See “Priestly Source”.\r\rFurther Reference:\rWikipedia, “Kosher Foods”\rhttp://tinyurl.com/druwv",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Kerygma",
-                           @"twitterDef":@"the Apostolic proclamation of the Gospel",
-                           @"definition":@"\rThe New Testament uses this word to describe the Apostolic proclamation of the the Gospel.\r\rFurther Reference:\r",
+                           @"twitterDef":@"a Greek word meaning “proclamation”;\rthe Apostolic proclamation of the Gospel",
+                           @"definition":@"\rThe New Testament uses this word to describe the Apostolic proclamation of the the Gospel.\r\rGreek, κήρυγμα (kerygma)\r\rFurther Reference:\rWikipedia, “Kerygma”\rhttp://tinyurl.com/llks24m",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Koinonia",
-                           @"twitterDef":@"communion or participation",
-                           @"definition":@"\rThe New Testament uses this word to describe the spiritual unity that exists between Christians and Christ...\r\rFurther Reference:\r",
+                           @"twitterDef":@"a Greek word meaning\r“communion” or “participation”",
+                           @"definition":@"\rSt. Paul uses this word to describe the spiritual unity that exists between Christians and Christ as well as the spiritual nature of Jesus body and blood made present during the Eucharist. See “Body of Christ”, “Eucharist”.\r\rFurther Reference:\rCatechism of the Catholic Church, 948\rhttp://tinyurl.com/pkxuudx\r\rWikipedia, “Koinonia”\rhttp://tinyurl.com/yl32y6a",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Kyrie Eleison",
-                           @"twitterDef":@"a liturgical phrase meaning\r“Lord, have mercy.”",
-                           @"definition":@"\rThe Kyrie Eleison is used during the \r\rFurther Reference:\r",
+                           @"twitterDef":@"a Greek phrase used in the Liturgy\rmeaning “Lord, have mercy.”",
+                           @"definition":@"\rThe Kyrie dates back to the Old Testament as it appears in many of Psalms. It is mentioned explicitly as being part of the Liturgy in the Apostolic Constitutions of the 4th century. It is part of the Penetential Rite of the Roman Liturgy. See “Penitential Rite”.\r\rFurther Reference:\rWikipedia, “Kyrie”\rhttp://tinyurl.com/2do63jo",
                            @"category":@"Biblical"}];
 
     
     //L
     
     [TAWord wordWithDict:@{@"name":@"Last Rites",
-                           @"twitterDef":@"the final Sacraments administered\rto a person near death",
-                           @"definition":@"\rLast Rites are mentioned as early as....\r\rFurther Reference:\r",
+                           @"twitterDef":@"Penance, Annointing of the Sick, Eucharist\radministered to a person near death",
+                           @"definition":@"\rLast Rites are given in preparation for the final journey of the believer into eternal life.\r\rFurther Reference:\rCatechism of the Catholic Church, 1524-1525\rhttp://tinyurl.com/n3lyve9",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Last Supper",
                            @"twitterDef":@"the final meal of Jesus with his\r disciples before his crucifixion",
-                           @"definition":@"\rAll four Gospels portray Jesus sharing a last meal with his disciples. However, the Synoptics claim that it was a Passover seder meal, while the Gospel of John claims it was a regular meal before the beginning of Passover.\r\rFurther Reference:\r",
+                           @"definition":@"\rAll four Gospels portray Jesus sharing a last meal with his disciples. However, the Synoptics claim that it was a Passover seder meal, while the Gospel of John claims it was a regular meal before the beginning of Passover. See “Eucharist”, “Lord's Supper”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1323.\rhttp://tinyurl.com/m88dbjl",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Laity",
                            @"twitterDef":@"non-ordained members of the Church",
-                           @"definition":@"\rThe New Testament uses this word to describe the Apostolic proclamation of the the Gospel.\r\rFurther Reference:\r",
+                           @"definition":@"\rThe Laity are called to share in the kingly, prophetic, and priestly office of Christ. They manifest the Sensus Fidei (sense of the faith), which has at times, according to Cardinal John Henry Newman, preserved the faith of the Church and prevented the Magisterium from teaching error. See “Three-fold Ministry”, “Sensus Fidelium”.\r\rFurther Reference:\rCatechism of the Catholic Church, 897\rhttp://tinyurl.com/m65ttaf",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Latria",
-                           @"twitterDef":@"worship of God",
-                           @"definition":@"\rIn contrast to dulia, latria refers to worship of God alone. See Dulia.\r\rFurther Reference:\r",
+                           @"twitterDef":@"a Greek word meaning\r“worship of God”",
+                           @"definition":@"\rIn contrast to dulia, latria refers to worship of God alone. See “Dulia”.\r\rFurther Reference:\rWikipedia, “Latria”\rhttp://tinyurl.com/mv9sqf",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Law of Moses",
@@ -1916,7 +1916,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Lector",
                            @"twitterDef":@"a member of the laity who leads\rthe congretation in reading or prayers",
-                           @"definition":@"\rThe New Testament uses this word to describe the Apostolic proclamation of the the Gospel.\r\rFurther Reference:\r",
+                           @"definition":@"\rThe ministry of Lector is a service in the Liturgy through the reading of the Scriptures and and the Prayer of the Faithful. It is open to qualified members of the Laity. See “Prayer of the Faithful”, “Laity”.\r\rFurther Reference:\rCatechism of the Catholic Church, 903\rhttp://tinyurl.com/m65ttaf",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Lecturn",
@@ -1926,22 +1926,22 @@
     
     [TAWord wordWithDict:@{@"name":@"Lectio Divina",
                            @"twitterDef":@"the prayerful reading of Sacred Scripture",
-                           @"definition":@"\rThe New Testament uses this word to describe the Apostolic proclamation of the the Gospel.\r\rFurther Reference:\r",
+                           @"definition":@"\rLectio Divina is part of the larger practice of Meditation, which the Church encourages on a regular basis. Lectio Divina increases attentiveness to ibrethe Word of God, which is active the life of the believer.\r\rLatin, (lectio divina) “Divine reading”\r\rFurther Reference:\rCatechism of the Catholic Church, 2708",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Lectionary",
                            @"twitterDef":@"the schedule of biblical passages\rread throughout the liturgical year",
-                           @"definition":@"\rThe New Testament uses this word to describe the Apostolic proclamation of the the Gospel.\r\rFurther Reference:\r",
+                           @"definition":@"\rThe Church's Lectionary for Sundays is a three-year cycle of Scripture readings; the first reading from the Old Testament, a responsorial Psalm, a second reading from the New Testament (often an epistle), and a third reading from the Gospel. The weekday cycle is the first reading and Psalm every two years with the Gospel every year. See “Lector”, “Liturgy”\r\rFurther Reference:\rWikipedia, “Lectionary”\rhttp://tinyurl.com/2wrttu",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Lent",
                            @"twitterDef":@"the 40 day period of repentance\before the celebration of Easter”",
-                           @"definition":@"\rThe New Testament uses this word to describe the Apostolic proclamation of the the Gospel.\r\rFurther Reference:\r",
+                           @"definition":@"\rLent developed gradually in the Church. Irenaeus evidences its various observances. It later became standardized....\r\rFurther Reference:\rCongregation for Divine Worship and the Discipline of the Sacraments, “Paschalis Sollemnitatis”, 1\rhttp://tinyurl.com/mw2jk6h",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Levite",
                            @"twitterDef":@"a member of the Israelite tribe of Levi",
-                           @"definition":@"\rAccording to the Elohist source, the Levites were all designated as priests of YHWH after rallying with Moses in Exodus 32.\r\rFurther Reference:\r\rWikipedia, “Levite”\rhttp://tinyurl.com/2boql2c",
+                           @"definition":@"\rAccording to the Elohist Source in Exodus 32:29, the Levites were set apart to serve YHWH as a reward for their faithfulness after rallying with Moses. Later in Deuteronomy 18:1-8, the Levites were specifically chosen as being the priests of YHWH....\r\rFurther Reference:\r\rWikipedia, “Levite”\rhttp://tinyurl.com/2boql2c",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Lex Orandi, Lex Credendi",

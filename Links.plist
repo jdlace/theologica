@@ -206,7 +206,7 @@
 			<key>Name</key>
 			<string>Morning Prayer</string>
 			<key>URL</key>
-			<string>http://www.universalis.com/lauds.htm</string>
+			<string>http://www.universalis.com/-500/lauds.htm</string>
 		</dict>
 		<dict>
 			<key>Name</key>
@@ -218,7 +218,7 @@
 			<key>Name</key>
 			<string>Liturgical Calendar</string>
 			<key>URL</key>
-			<string>http://www.universalis.com/calendar.htm</string>
+			<string>http://www.universalis.com/-500/calendar.htm</string>
 		</dict>
 	</array>
 	<key>Theology</key>
