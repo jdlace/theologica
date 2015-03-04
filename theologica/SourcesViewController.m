@@ -59,15 +59,45 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
+}
+
+-(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:@"scriptureDetail"])
+        {
+        Source *scriptureSource = [[Source alloc] init];
+        scriptureSource.name = @"Sacred Scripture";
+        scriptureSource.twitterDef = @"The Word of God in Human Language";
+        scriptureSource.comment = @"\rThroughout the history of the Catholic tradition, the canon of Scripture has always played a central and dialectic role in the community life of the Church. The Hebrew Bible is the foundation of the Biblical tradition.<img>\r\rThe Old Testament\r\rConsisting of the Hebrew canon plus seven additional books of the Apocrypha, the Old Testament contains the story of the people of Israel. It is divided into the Pentateuch, Historical Books, Prophets, and Wisdom Books.\r\rThe New Testament\r\rThe gospels of Matthew, Mark, Luke, and John narrate the life of Jesus through the perspective of faith in his divine sonship.klajsdflakjdlkajsflkdajfdl;akjdfsl;kajdflkajsdl;ajdslkfjal;dsfjdlakfjla;kfdjalk;fjlk;afjdlk;ajsldkjfdlkjalk;jfd;lkajs";
+        scriptureSource.image = [UIImage imageNamed:@"appicon"];
+        scriptureSource.bigPic = [UIImage imageNamed:@"codex"];
+        
+        ((SourcesDetailViewController *)segue.destinationViewController).currentSourceDetail = scriptureSource;
+
+        }
+    else if ([segue.identifier isEqualToString:@"magisteriumDetail"])
+        {
+        Source *catechismSource = [[Source alloc] init];
+        catechismSource.name = @"Magisterium";
+        catechismSource.twitterDef = @"The Teaching Authority of the Church";
+        catechismSource.comment = @"The Magisterium represents the teaching authority of the Church.";
+        catechismSource.image = [UIImage imageNamed:@"appicon"];
+        catechismSource.bigPic = [UIImage imageNamed:@"peter"];
+        //catechismSource.scrollPic = [UIImage imageNamed:@"peter"];
+        
+        ((SourcesDetailViewController *)segue.destinationViewController).currentSourceDetail = catechismSource;
+
+        }
 }
 
 - (IBAction)scriptureButton:(id)sender
 {
-    
+    /*
     Source *scriptureSource = [[Source alloc] init];
     scriptureSource.name = @"Sacred Scripture";
     scriptureSource.twitterDef = @"The Word of God in Human Language";
-    scriptureSource.comment = @"\rThroughout the history of the Catholic tradition, the canon of Scripture has always played a central and dialectic role in the community life of the Church. The Hebrew Bible is the foundation of the Biblical tradition.\r\rThe Old Testament\r\rConsisting of the Hebrew canon plus seven additional books of the Apocrypha, the Old Testament contains the story of the people of Israel. It is divided into the Pentateuch, Historical Books, Prophets, and Wisdom Books.\r\rThe New Testament\r\rThe gospels of Matthew, Mark, Luke, and John narrate the life of Jesus through the perspective of faith in his divine sonship.";
+    scriptureSource.comment = @"\rThroughout the history of the Catholic tradition, the canon of Scripture has always played a central and dialectic role in the community life of the Church. The Hebrew Bible is the foundation of the Biblical tradition.<img>\r\rThe Old Testament\r\rConsisting of the Hebrew canon plus seven additional books of the Apocrypha, the Old Testament contains the story of the people of Israel. It is divided into the Pentateuch, Historical Books, Prophets, and Wisdom Books.\r\rThe New Testament\r\rThe gospels of Matthew, Mark, Luke, and John narrate the life of Jesus through the perspective of faith in his divine sonship.";
     scriptureSource.image = [UIImage imageNamed:@"appicon"];
     scriptureSource.bigPic = [UIImage imageNamed:@"codex"];
     //scriptureSource.scrollPic = [UIImage imageNamed:@"codex"];
@@ -83,7 +113,8 @@
     
     sourcesDetailViewController.currentSourceDetail = scriptureSource;
     
-    [self.navigationController pushViewController:sourcesDetailViewController animated:YES];
+   // [self.navigationController pushViewController:sourcesDetailViewController animated:YES];
+     */
 }
 
 - (IBAction)fathersButton:(id)sender
@@ -110,6 +141,7 @@
 
 - (IBAction)catechismButton:(id)sender
 {
+    /*
     Source *catechismSource = [[Source alloc] init];
     catechismSource.name = @"Magisterium";
     catechismSource.twitterDef = @"The Teaching Authority of the Church";
@@ -129,8 +161,8 @@
     sourcesDetailViewController.currentSourceDetail = catechismSource;
 
     
-    [self.navigationController pushViewController:sourcesDetailViewController animated:YES];
-
+    //[self.navigationController pushViewController:sourcesDetailViewController animated:YES];
+*/
     
 }
 
