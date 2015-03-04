@@ -514,7 +514,7 @@
                             <state key="normal" title="Dictionary">
                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
-                            <state key="highlighted" image="F39BE16C-DAD6-4455-89BA-73C3FD21568F"/>
+                            <state key="highlighted" image="B3EE33C7-DD59-475E-AEE4-9B412F320E89"/>
                         </button>
                         <barButtonItem key="rightBarButtonItem" title="Saved" id="RxI-0F-zKf">
                             <connections>
@@ -1039,7 +1039,7 @@
     <resources>
         <image name="3menCircle" width="66" height="66"/>
         <image name="525px-fresco_of_a_dominican_by_fra_angelico_001" width="175" height="200"/>
-        <image name="F39BE16C-DAD6-4455-89BA-73C3FD21568F" width="80" height="80">
+        <image name="B3EE33C7-DD59-475E-AEE4-9B412F320E89" width="80" height="80">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGOzxYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK0HCBEW
 GxwgISksLzU4VSRudWxs1AkKCwwNDg8QViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNSZXBzV05TQ29sb3KA

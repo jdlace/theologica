@@ -70,7 +70,7 @@
         scriptureSource.name = @"Sacred Scripture";
         scriptureSource.twitterDef = @"The Word of God in Human Language";
         scriptureSource.comment = @"\rThroughout the history of the Catholic tradition, the canon of Scripture has always played a central and dialectic role in the community life of the Church. The Hebrew Bible is the foundation of the Biblical tradition.<img>\r\rThe Old Testament\r\rConsisting of the Hebrew canon plus seven additional books of the Apocrypha, the Old Testament contains the story of the people of Israel. It is divided into the Pentateuch, Historical Books, Prophets, and Wisdom Books.\r\rThe New Testament\r\rThe gospels of Matthew, Mark, Luke, and John narrate the life of Jesus through the perspective of faith in his divine sonship.klajsdflakjdlkajsflkdajfdl;akjdfsl;kajdflkajsdl;ajdslkfjal;dsfjdlakfjla;kfdjalk;fjlk;afjdlk;ajsldkjfdlkjalk;jfd;lkajs";
-        scriptureSource.image = [UIImage imageNamed:@"appicon"];
+        scriptureSource.image = [UIImage imageNamed:@"biblelines2"];
         scriptureSource.bigPic = [UIImage imageNamed:@"codex"];
         
         ((SourcesDetailViewController *)segue.destinationViewController).currentSourceDetail = scriptureSource;
