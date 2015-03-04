@@ -263,7 +263,7 @@
                                                     <action selector="liturgyButton:" destination="3cO-3O-ueC" eventType="touchUpInside" id="PsC-oU-LLU"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="IKW-8z-kd6">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="IKW-8z-kd6">
                                                 <rect key="frame" x="117" y="108" width="85" height="85"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <inset key="contentEdgeInsets" minX="0.0" minY="-6" maxX="0.0" maxY="0.0"/>
@@ -271,7 +271,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="WgE-D5-S3e" kind="push" identifier="magisteriumDetail" id="GKr-1x-1I2"/>
+                                                    <segue destination="WgE-D5-S3e" kind="push" identifier="magisteriumDetail" id="lUx-rQ-gMF"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -514,7 +514,7 @@
                             <state key="normal" title="Dictionary">
                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
-                            <state key="highlighted" image="F3193EA7-3993-4C61-A6FD-930D22ABC139"/>
+                            <state key="highlighted" image="F39BE16C-DAD6-4455-89BA-73C3FD21568F"/>
                         </button>
                         <barButtonItem key="rightBarButtonItem" title="Saved" id="RxI-0F-zKf">
                             <connections>
@@ -1039,7 +1039,7 @@
     <resources>
         <image name="3menCircle" width="66" height="66"/>
         <image name="525px-fresco_of_a_dominican_by_fra_angelico_001" width="175" height="200"/>
-        <image name="F3193EA7-3993-4C61-A6FD-930D22ABC139" width="80" height="80">
+        <image name="F39BE16C-DAD6-4455-89BA-73C3FD21568F" width="80" height="80">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGOzxYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK0HCBEW
 GxwgISksLzU4VSRudWxs1AkKCwwNDg8QViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNSZXBzV05TQ29sb3KA
@@ -1631,7 +1631,7 @@ AAAAPwAAAAAAAAAAAAAAAAAAgYo
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="GKr-1x-1I2"/>
+        <segue reference="Rr6-EI-HEf"/>
         <segue reference="D2d-iF-b5c"/>
     </inferredMetricsTieBreakers>
 </document>
