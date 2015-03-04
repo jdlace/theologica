@@ -1950,8 +1950,8 @@
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Litany",
-                           @"twitterDef":@"an intercessory prayer led by a lector",
-                           @"definition":@"\rThe Great Litany of the Easter Vigil includes...\r\rFurther Reference:\r",
+                           @"twitterDef":@"a petitionary prayer led by a lector",
+                           @"definition":@"\rThe Litany of Saints of the Easter Vigil includes is an invocation of various Saints of the Church for their intercession.\r\rGreek, λιτανεία (litaneia) “supplication”\r\rFurther Reference:\rWikipedia, “Litany”\rhttp://tinyurl.com/l92sqgg",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Literary Criticism",
@@ -1961,7 +1961,7 @@
     
     [TAWord wordWithDict:@{@"name":@"LXX",
                            @"twitterDef":@"the numerical symbol for the Septuagint",
-                           @"definition":@"\rThe LXX is named for the supposed 70 translators of the Tanak into Greek at the request of Alexander the Great.\r\rFurther Reference:\r",
+                           @"definition":@"\rSee “Septuagint”.",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Liberation Theology",
@@ -1969,19 +1969,19 @@
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Liturgy",
-                           @"twitterDef":@"the public worship of the Church",
-                           @"definition":@"\rThe Liturgy of the Church....\r\rFurther Reference:\r",
+                           @"twitterDef":@"the participation of the Church\rin the Paschal Mystery",
+                           @"definition":@"\rThe Liturgy of the Church is not limited to its public worship. Rather, it includes works of charity as well as the proclamation of the Gospel. It is an “exercise of the priestly office of Jesus Christ”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1069\rhttp://tinyurl.com/opjnz9x",
                            @"category":@"Liturgical"}];
     
     
     [TAWord wordWithDict:@{@"name":@"Liturgy of the Eucharist",
-                           @"twitterDef":@"the portion of the Mass that celebrates the Eucharist",
-                           @"definition":@"\rThe Liturgy of the Eucharist...\r\rFurther Reference:\r",
+                           @"twitterDef":@"the central celebration of the Mass",
+                           @"definition":@"\rThe Liturgy of the Eucharist, preceded by the Liturgy of the Word, includes the following elements:\r\r-Thanksgiving\r-Acclamation\r-Epiclesis\r-Words of Institution\r-Anamnesis\r-Oblation\r-Intercessions\r-Doxology\r\rSee “Liturgy of the Word”, “Epiclesis”, “Anamnesis”, “Words of Institution”, “Doxology”.\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, “Liturgy of the Eucharist”\rhttp://tinyurl.com/lleofmh",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Liturgy of the Word",
-                           @"twitterDef":@"the portion of the Mass that proclaims the Scripturew...",
-                           @"definition":@"\rThe Liturgy of the Word....\r\rFurther Reference:\r",
+                           @"twitterDef":@"the public reading and hearing of\rSacred Scripture at Mass",
+                           @"definition":@"\rThe Liturgy of the Word, the Church listens to the Word of God from the Scriptures and is exhorted to Christian living in the homily. It concludes with the Prayer of the Faithful. See “Homily”, “Prayer of the Faithful”.\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, “Liturgy of the Word”\rhttp://tinyurl.com/lzxk5e8",
                            @"category":@"Liturgical"}];
     
     
@@ -2006,18 +2006,18 @@
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Logos",
-                           @"twitterDef":@"the Greek word meaning\rreason or word",
-                           @"definition":@"\rThis term dates back the pre-Socratic Greek philosopher Heraclitus. It is used the Gospel of John to refer to the eternal Son of the Father who became incarnate in Jesus of Nazareth.\r\rFurther Reference:\r",
+                           @"twitterDef":@"the Greek word meaning\r“reason” or “word”",
+                           @"definition":@"\rThis term dates back the pre-Socratic Greek philosopher Heraclitus. It is used the Gospel of John to refer to the eternal Son of the Father who became incarnate in Jesus of Nazareth. See “Incarnation”.\r\rGreek, λόγος (logos)\r\rFurther Reference:\rWikipedia, “Logos”\rhttp://tinyurl.com/om4rp",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"LORD",
-                           @"twitterDef":@"a symbolic transliteration of\rthe Divine Name, יהוה‎",
-                           @"definition":@"\rMost contemporary English bibles render the Divine Name as the LORD....\r\rFurther Reference:\r",
+                           @"twitterDef":@"a symbolic transliteration of the Tetragrammaton\rיהוה‎",
+                           @"definition":@"\rMost contemporary English bibles render the Divine Name as the LORD to indicate that the underlying Hebrew name of God. See “Tetragrammaton”",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Lord's Prayer",
                            @"twitterDef":@"the exemplary prayer that Jesus taught his disciples",
-                           @"definition":@"\rThe Lord's Prayer occurs in only two places in Scripture, Matthew 6: and Luke 6:....\r\rFurther Reference:\r",
+                           @"definition":@"\rThe Lord's Prayer occurs in only two places in the New Testament, Matthew 6:9-13 and Luke 11:2-4. Luke's version was likely given as rubric, allowing for contextual customization, while Matthew's version was used in early Christian liturgies. The Matthean version also reflects that found in the Didache. See “Our Father”, “Didache”.\r\rCatechism of the Catholic Church, 2759\rhttp://tinyurl.com/m8f77wr",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Lord's Supper",

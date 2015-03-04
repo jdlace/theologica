@@ -82,7 +82,7 @@
         catechismSource.name = @"Magisterium";
         catechismSource.twitterDef = @"The Teaching Authority of the Church";
         catechismSource.comment = @"The Magisterium represents the teaching authority of the Church.<img>";
-        catechismSource.image = [UIImage imageNamed:@"appicon"];
+        catechismSource.image = [UIImage imageNamed:@"papalCircle-2"];
         catechismSource.bigPic = [UIImage imageNamed:@"peter"];
         //catechismSource.scrollPic = [UIImage imageNamed:@"peter"];
         
