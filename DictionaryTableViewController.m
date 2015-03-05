@@ -9,6 +9,7 @@
 #import "DictionaryTableViewController.h"
 #import "WordDetailViewController.h"
 
+
 #import "TADataStore.h"
 #import "TAWord.h"
 
@@ -90,6 +91,7 @@
     
         WordDetailViewController *WordViewController = [segue destinationViewController];
         WordViewController.word = word;
+    
     }
 }
 

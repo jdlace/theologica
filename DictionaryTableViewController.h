@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SourcesDetailViewController.h" 
 
 
 @interface DictionaryTableViewController : UITableViewController <UISearchDisplayDelegate>

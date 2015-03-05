@@ -2032,38 +2032,38 @@
     
     
     [TAWord wordWithDict:@{@"name":@"Magnificat",
-                           @"twitterDef":@"the prayer of the Virgin Mary\rin Luke 2:...",
-                           @"definition":@"\rThe Magnificat is a part of Morning Prayer in the Liturgy of the Hours...\r\rFurther Reference:\r",
+                           @"twitterDef":@"the prayer of the Virgin Mary\rat the Annunciation",
+                           @"definition":@"\rThe Magnificat is a part of Morning Prayer in the Liturgy of the Hours. It is based on the prayer of Hannah in 1 Samuel. See “Annunciation”.\r\rFurther Reference:\rWikipedia, “Magnificat”\rhttp://tinyurl.com/yljmjjd",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Manicheism",
                            @"twitterDef":@"a heresy taught by Manes that\rmatter is evil and the spirit is the only good",
-                           @"definition":@"\rthe belief in only one God.\r\rFurther Reference:\rWikipedia, “Monotheism”\rhttp://tinyurl.com/neuju",
+                           @"definition":@"\rSt. Augustine of Hippo was a follower of Manicheism until his conversion.\r\rFurther Reference:\rWikipedia, “Manicheism”\rhttp://tinyurl.com/ysvrjs",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Maranatha",
-                           @"twitterDef":@"an Aramaic word meaning\rOur Lord, come.",
-                           @"definition":@"\rThis word is referenced by Paul in 1 Corinthians 16:22 as a common expression used by early Christians...\r\rFurther Reference:\r",
+                           @"twitterDef":@"an Aramaic phrase meaning\r“Our Lord, come.",
+                           @"definition":@"\rThis word is referenced by Paul in 1 Corinthians 16:22 as a common expression used by early Christians to invoke the return of the Lord Jesus. An alternative translation renders this phrase as a declarative statement: “Our Lord has come”.\r\rFurther Reference:\rWikipedia, “Maranatha”\rhttp://tinyurl.com/yv4vcj",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Marcionism",
-                           @"twitterDef":@"a heresy taught by Marcion that\rrejects Israelite scritpures and theology",
-                           @"definition":@"\rMarcionism led to the creation of the first canon of Scripture during the time of Irenaeus...\r\rFurther Reference:\r",
+                           @"twitterDef":@"the teaching of Marcion that\rrejects Israelite scritpures and theology",
+                           @"definition":@"\rMarcionism led to the creation of the first canon of Scripture during the time of Irenaeus, who identified 4 authentic gospels. See “Canon”.\r\rFurther Reference:\rWikipedia, “Marcionism”\rhttp://tinyurl.com/yo3bp6",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Marriage",
                            @"twitterDef":@"the Sacrament in which a\rman and woman become one flesh",
-                           @"definition":@"\rMarriage as human institution has evolved  from to...and faces new questions as ....\r\rFurther Reference:\r",
+                           @"definition":@"\rMarriage as human institution has evolved in conjunction with human society. As a sacrament, Marriage reflects the nuptial identity of the human person.to...and faces new questions as .\r\rFurther Reference:\rCatechism of the Catholic Church, 1601\rhttp://tinyurl.com/ykptlg",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Martyr",
                            @"twitterDef":@"a witness to the faith\rto the point of death",
-                           @"definition":@"\rMartyrs...\r\rFurther Reference:\r",
+                           @"definition":@"\rA famous quote from Tertullian sums up the importance of Martyrs for evangelization:\r\r“The blood of the Marytrs is the seed of the Church”.\r\rFurther Reference:\rCatechism of the Catholic Church, 2473\rhttp://tinyurl.com/3bfbm27",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Mass",
                            @"twitterDef":@"the liturgy of the weekly Christian gathering",
-                           @"definition":@"\rthe belief in only one God.\r\rFurther Reference:\rWikipedia, “Monotheism”\rhttp://tinyurl.com/neuju",
+                           @"definition":@"\rMass is so-termed because the command to dismiss is missio.\r\rFurther Reference:\rCatechism of the Catholic Church, 1332\rhttp://tinyurl.com/m88dbjl",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Matins",
@@ -2499,7 +2499,7 @@
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Priestly Source",
-                           @"twitterDef":@"The Torah literary tradition that is concerned with priestly categories of meaning",
+                           @"twitterDef":@"The literary source in the Torah\r that is concerned with priestly categories",
                            @"definition":@"\rThe Priestly, or “P” tradition in the Torah can be dated to the time of Hezekiah (ca. 700 B.C.) and shows a major concern for order, numbers, and categories of holiness and cleanliness, especially in the book of Leviticus. The Priestly material is centered on the sacrificial cult in Jerusalem and regards all other sacrifices as improper or “profane”; this source, along with the Elohist and Deuteronomic Sources, does not accept the revelation of the name YHWH before the Mosaic epiphany in Exodus 3.\r\rThe Hebrew of the Priestly author reflects a later stage in its development but earlier than that of the Deuteronomic author. Notably, the P source never uses the word “compassionate” to describe God and forgiveness requires atonement (e.g. the Day of Atonement is a ritual exclusive to the Priestly author).\r\rFurther Reference:\rWikipeida, “Priestly Source”\rhttp://tinyurl.com/yq83pf",
                            @"category":@"Biblical"}];
     
