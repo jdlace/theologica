@@ -120,9 +120,9 @@
 	<array>
 		<dict>
 			<key>Name</key>
-			<string>Ancient Greek and Latin Texts</string>
+			<string>Codex Sinaiticus</string>
 			<key>URL</key>
-			<string>http://www.perseus.tufts.edu/hopper/</string>
+			<string>http://www.codexsinaiticus.org/en/</string>
 		</dict>
 		<dict>
 			<key>Name</key>

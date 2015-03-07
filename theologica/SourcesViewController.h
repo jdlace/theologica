@@ -13,7 +13,6 @@
 
 @interface SourcesViewController : UIViewController <UIScrollViewDelegate>
 
-@property (weak, nonatomic) TAWord *word;
 
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 @property (weak, nonatomic) IBOutlet UIView *sourceView;

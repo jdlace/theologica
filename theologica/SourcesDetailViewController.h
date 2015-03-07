@@ -8,11 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import "Source.h"
+#import "TAWord.h"
 
 
 @interface SourcesDetailViewController : UIViewController
 
 @property (strong, nonatomic) Source *currentSourceDetail;
+@property (weak, nonatomic) TAWord *word;
+
 
 
 @property (weak, nonatomic) IBOutlet UILabel *sourceName;

@@ -49,16 +49,28 @@
     //[[self.sourceInformation textContainer] setExclusionPaths:@[[UIBezierPath bezierPathWithRect:convertedFrame2]]];
     
    
+    //images in detail view
+    NSTextAttachment *scriptureAttachment1 = [[NSTextAttachment alloc] init];
+    scriptureAttachment1.image = [UIImage imageNamed:@"dss"];
+    scriptureAttachment1.bounds = CGRectMake(0, -25, scriptureAttachment1.image.size.width, scriptureAttachment1.image.size.height);
     
-    NSTextAttachment *textAttachmentOne = [[NSTextAttachment alloc] init];textAttachmentOne.image = [UIImage imageNamed:@"dss"];textAttachmentOne.bounds = CGRectMake(0, -3, textAttachmentOne.image.size.width, textAttachmentOne.image.size.height);
+    //NSTextAttachment *scriptureAttachment2 = [[NSTextAttachment alloc] init];
+    //scriptureAttachment2.image = [UIImage imageNamed:@"codex"];
+    //scriptureAttachment2.bounds = CGRectMake(0, -45, scriptureAttachment2.image.size.width, scriptureAttachment2.image.size.height);
     
-        NSAttributedString *statOneAttribWithImage = [NSAttributedString attributedStringWithAttachment:textAttachmentOne];
+    NSAttributedString *scriptureString1 = [NSAttributedString attributedStringWithAttachment:scriptureAttachment1];
+    //NSAttributedString *scriptureString2 = [NSAttributedString attributedStringWithAttachment:scriptureAttachment2];
+
     
     NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:_currentSourceDetail.comment];
     
-    NSRange imgTag = [_currentSourceDetail.comment rangeOfString:@"<img>"];
+    NSRange scriptureImgTag1 = [_currentSourceDetail.comment rangeOfString:@"<scriptureImg1>"];
+    //NSRange scriptureImgTag2 = [_currentSourceDetail.comment rangeOfString:@"<scriptureImg2>"];
+
     
-    [attributedString replaceCharactersInRange:imgTag  withAttributedString:statOneAttribWithImage];
+    [attributedString replaceCharactersInRange:scriptureImgTag1  withAttributedString:scriptureString1];
+    //[attributedString replaceCharactersInRange:scriptureImgTag2  withAttributedString:scriptureString2];
+
     
     _sourceInformation.attributedText = attributedString;
     

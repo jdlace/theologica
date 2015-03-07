@@ -2063,33 +2063,33 @@
     
     [TAWord wordWithDict:@{@"name":@"Mass",
                            @"twitterDef":@"the liturgy of the weekly Christian gathering",
-                           @"definition":@"\rMass is so-termed because the command to dismiss is missio.\r\rFurther Reference:\rCatechism of the Catholic Church, 1332\rhttp://tinyurl.com/m88dbjl",
+                           @"definition":@"\rThe Mass is composed of two parts: the Liturgy of the Word and Liturgy of the Eucharist. See Liturgy of the Word, Liturgy of the Eucharist.\r\rFurther Reference:\rCatechism of the Catholic Church, 1332\rhttp://tinyurl.com/m88dbjl",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Matins",
                            @"twitterDef":@"the traditional term for morning prayer",
-                           @"definition":@"\rSee Morning Prayer.\r\rFurther Reference:\r",
+                           @"definition":@"\rSee “Morning Prayer”.",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Maundy Thursday",
                            @"twitterDef":@"the celebration of the institution\rof the Lord's Supper",
-                           @"definition":@"\rThis term derives from the Latin mandatum, and John 13:34, in which Jesus says: a new commmandment I give you; that you love one another as I have loved you.\r\rFurther Reference:\r",
+                           @"definition":@"\rThis term derives from the Latin “mandatum”, and John 13:34, in which Jesus says: a new commmandment I give you; that you love one another as I have loved you.\r\rFurther Reference:\rWikipedia, Maundy Thursday\rhttp://tinyurl.com/37sy85",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Memorial Acclamation",
-                           @"twitterDef":@"the acclamation of the congregation\rafter the Words of Institution",
-                           @"definition":@"\r...\r\rFurther Reference:\r",
+                           @"twitterDef":@"the response of the congregation\rafter the Words of Institution",
+                           @"definition":@"\rThe Memorial Acclamation is introduced with the phrase chanted by the celebrant: “the mystery of faith”. See “Words of Institution”.\r\rFurther Reference:\rWikipedia, “Memorial Acclamation”\rhttp://tinyurl.com/mjgllzr",
                            @"category":@"Liturgical"}];
     
     
     [TAWord wordWithDict:@{@"name":@"Miracle",
                            @"twitterDef":@"a supernatural event which defies scientific explanation",
-                           @"definition":@"\r common parlance, miracles are events which violate the laws of nature.\r\rFurther Reference:\rInterdisciplinary Encyclopedia of Religion and Science, “Miracle”\rhttp://tinyurl.com/mmev2qy",
+                           @"definition":@"\rIn common parlance, miracles are events which violate the laws of nature. While biblical authors did not share that perspective, the Bible is nevertheless full of claims about God's “mighty deeds” of power.\r\rFurther Reference:\rInterdisciplinary Encyclopedia of Religion and Science, “Miracle”\rhttp://tinyurl.com/mmev2qy",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Monotheism",
                            @"twitterDef":@"the belief in only one God",
-                           @"definition":@"\rthe belief in only one God.\r\rFurther Reference:\rWikipedia, “Monotheism”\rhttp://tinyurl.com/neuju",
+                           @"definition":@"\rMonotheism was slow to develop in ancient Israel. After the Exile, the belief in only one God becomes a defining characteristic of the Jews, whereas in pre-Exilic times, Israel accepted the existence of other gods. See “Henotheism”.\r\rFurther Reference:\rWikipedia, “Monotheism”\rhttp://tinyurl.com/neuju",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Morality",
@@ -2099,12 +2099,12 @@
     
     [TAWord wordWithDict:@{@"name":@"Mystery",
                            @"twitterDef":@"that which transcends human comprehension and explanation",
-                           @"definition":@"\rthat which transcends human comprehension and explanation.\r\rFurther Reference:\rNew Advent, “Mystery”\rhttp://tinyurl.com/35fsmo",
+                           @"definition":@"\rIn the Catholic tradition, God is ultimately Mystery and can only be partially known through Divine Revelation. See “Revelation”.\r\rFurther Reference:\rNew Advent, “Mystery”\rhttp://tinyurl.com/35fsmo",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Manuscript",
                            @"twitterDef":@"a hand-written copy of a text",
-                           @"definition":@"\rNo original writings of the Bible survive. Throughout history, scribes have made copies of the originals, which themselves were the basis for further copies, and so on. The earliest manuscript of the complete New Testament that exists is Codex Sinaiticus....\r\rFurther Reference:\rWikipedia, “Manuscript”\rhttp://tinyurl.com/jwb5dhp",
+                           @"definition":@"\rNo original writings of the Bible survive. Throughout history, scribes have made copies of the originals, which themselves were the basis for further copies, and so on. The earliest manuscript of the complete New Testament that exists is Codex Sinaiticus, which dates to the 4th century A.D.\r\rFurther Reference:\rCodex Sinaiticus\rhttp://tinyurl.com/5fg98l\r\rWikipedia, “Manuscript”\rhttp://tinyurl.com/jwb5dhp",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Messiah",
@@ -2114,77 +2114,77 @@
     
     [TAWord wordWithDict:@{@"name":@"Ministry",
                            @"twitterDef":@"service in the name of Christ",
-                           @"definition":@"\rMinistry derives from the Latin, ...\r\rFurther Reference:\r",
+                           @"definition":@"\rMinistry derives from the Latin, ...\r\rFurther Reference:\rCatechism of the Catholic Church, 874\rhttp://tinyurl.com/m65ttaf",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Mishnah",
                            @"twitterDef":@"the written redaction of the\roral commentary on the Torah",
-                           @"definition":@"\ran oral commentary on the Torah.\r\rFurther Reference:\rWikipedia, “Mishnah”\rhttp://tinyurl.com/zdndh",
+                           @"definition":@"\rThe Mishnah was the first major work of Rabbinic Judaism which contains oral commentary on the Torah that dates back to the Second Temple Period. It is arranged topically, rather than canonically.\r\rFurther Reference:\rWikipedia, “Mishnah”\rhttp://tinyurl.com/zdndh",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Missal",
                            @"twitterDef":@"a book used to celebrate the Eucharist",
-                           @"definition":@"\rThe 2011 new translation of the Mass was based on the Missal used in Rome.\r\rFurther Reference:\r",
+                           @"definition":@"\rThe 2011 new translation of the Mass was based on the Missal used in Rome.\r\rFurther Reference:\rCongregation for Divine Worship and Discipline of the Sacraments, “General Instruction on the Roman Missal”\rhttp://tinyurl.com/kmepha",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Missionary",
                            @"twitterDef":@"one sent on a mission\rto proclaim the Gospel",
-                           @"definition":@"\rMissionaries date back to the earliest age of the Church.\r\rFurther Reference:\r",
+                           @"definition":@"\rMissionaries date back to the earliest age of the Church. The Apostles were all missionaries. Missionary bishops were those sent to help evangelize a unchurched region. Today, certain Catholic apostolates send missionaries to aid in evangelization.\r\rFurther Reference:\rWikipedia, “Missionary”\rhttp://tinyurl.com/kkyzo",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Mitre",
                            @"twitterDef":@"a liturgical hat worn by bishops",
-                           @"definition":@"\rMitres appear as early as....\r\rFurther Reference:\r",
+                           @"definition":@"\rMitres are worn by bishops and other prelates of the Church and symbolize the flame of the Holy Spirit.\rFurther Reference:\rNew Advent, “Mitre”\rhttp://tinyurl.com/5fdro",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Modernism",
                            @"twitterDef":@"the 19th century movement that embraced\r modern advances in science, history, and philosophy",
-                           @"definition":@"\rModernism was initially condemned by Pope Leo XIII, but its affects reached into the twentieth century at Vatican II.\r\rFurther Reference:\r",
+                           @"definition":@"\rModernism was initially condemned by Pope Leo XIII, but its affects reached into the twentieth century at Vatican II.\r\rFurther Reference:\rWikipedia, “Modernism”\rhttp://tinyurl.com/mafqt",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Monarchianism",
                            @"twitterDef":@"the belief that God is merely\rmanifested in three different forms",
-                           @"definition":@"\rMonarchianism was popular during hte second and third centuries. It denied that the Father, Son, and Holy Spirit were three distinct persons. Instead,...\r\rFurther Reference:\r",
+                           @"definition":@"\rMonarchianism was popular during the second and third centuries. It denied that the Father, Son, and Holy Spirit were three distinct persons. Instead, it claimed that God was one person manifested in three forms. See “Sabellianism”.\r\rFurther Reference:\rWikipedia, “Monarchianism”\rhttp://tinyurl.com/28a82l",
                            @"category":@"Historical"}];
     
-    [TAWord wordWithDict:@{@"name":@"Monastic",
-                           @"twitterDef":@"relating to a life of religious vows\rlived in community",
-                           @"definition":@"\rMonastics tace their origin to the third century with Abba Anthony of Egypt...\r\rFurther Reference:\r",
+    [TAWord wordWithDict:@{@"name":@"Monasticism",
+                           @"twitterDef":@"the practice of religious vows\rlived in community",
+                           @"definition":@"\rMonastics tace their origin to the third century with Abba Anthony of Egypt.\r\rFurther Reference:\rWikipedia, “Monasticism”\rhttp://tinyurl.com/n7kl2y",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Monophysitism",
                            @"twitterDef":@"the teaching that Christ had a single, divine\rnature which absorbed his human nature",
-                           @"definition":@"\rMonophysitism can be traced back to... \r\rFurther Reference:\r",
+                           @"definition":@"\rMonophysitism was rejected at the Council of Ephesus in 451 A.D.\r\rFurther Reference:\rWikipedia, “Monophysitism”\rhttp://tinyurl.com/2ve4jf7",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Monothelitism",
                            @"twitterDef":@"the teaching that Christ had a single, divine\rwill which absorbed his human will",
-                           @"definition":@"\rMonothelitism flourished in the seventh century....\r\rFurther Reference:\r",
+                           @"definition":@"\rMonothelitism flourished in the seventh century....\r\rFurther Reference:\rWikipedia, “Monothelitism”\rhttp://tinyurl.com/ojzevrh",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Myth",
                            @"twitterDef":@"a story that cannot be historically verified",
-                           @"definition":@"\ra story that cannot be historically verified.\r\rFurther Reference:\rWikipedia, Creation Myth\rhttp://tinyurl.com/33adt4",
+                           @"definition":@"\ra story that cannot be historically verified.\r\rFurther Reference:\rWikipedia, “Creation Myth”\rhttp://tinyurl.com/33adt4",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Monstrance",
                            @"twitterDef":@"a frame for displaying the consecrated\rbread of the Eucharist for adoration",
-                           @"definition":@"\rMonstrances were used as early as the ...and are still used today.\r\rFurther Reference:\r",
+                           @"definition":@"\rMonstrances were used as early as the 13th century and are still used today. They are usually reserved for Eucharstic Adoration.\r\rFurther Reference:\rWikipedia, “Monstrance”\rhttp://tinyurl.com/2evkwxg",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Montanism",
                            @"twitterDef":@"a second-century charismatic heretical\r group based on the teachings of Montanus",
-                           @"definition":@"\rMontanus taught that the Holy Spirit, promised by Jesus, had incarnated himself in Montanus, who demanded his followers adopt a strict lifestyle...\r\rFurther Reference:\r",
+                           @"definition":@"\rMontanus taught that the Holy Spirit, promised by Jesus, had incarnated himself in Montanus, who demanded his followers adopt a strict lifestyle...\r\rFurther Reference:\rWikipedia, “Montanism”\rhttp://tinyurl.com/dnms5r",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Moral Theology",
                            @"twitterDef":@"the theology of moral norms and their application to human experience",
-                           @"definition":@"Moral theology has developed into a definite sub-discipline of Theology...\r\rFurther Reference:\r",
+                           @"definition":@"Moral theology was identified by St. Thomas Aquinas as ...has developed into a definite sub-discipline of Theology.\r\rFurther Reference:\rNew Advent, “Moral Theology”\rhttp://tinyurl.com/bwhw6lf",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Morning Prayer",
                            @"twitterDef":@"the first hour of the\rLiturgy of the Hours",
-                           @"definition":@"\r...also called Matins...\r\rFurther Reference:\r",
+                           @"definition":@"\rMorning prayer is the beginning of the Divine Office.See “Liturgy of the Hours”.\r\rFurther Reference:\rWikipedia, “Liturgy of the Hours”\rhttp://tinyurl.com/c8tnn5",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Metaphysics",
@@ -2192,34 +2192,34 @@
                            @"definition":@"\rMetaphysics is a highly contested area of inquiry that has including a variation of topics throughout history since the time of Aristotle. More generally, it is teh study of being as such. Theology is a metaphysical discipline insofar as theology makes claims about the fundamental nature of reality, which, in the Catholic Tradition, is known as God.\r\rFurther Reference:\rRoutledge Encyclopedia of Philosophy, “Metaphysics” http://tinyurl.com/mydu3hx",
                            @"category":@"Cultural"}];
     
-    [TAWord wordWithDict:@{@"name":@"Muratorian Canon",
-                           @"twitterDef":@"the earliest extant canonical\rindex of Scritpures",
-                           @"definition":@"\rthe belief in only one God.\r\rFurther Reference:\rWikipedia, “Monotheism”\rhttp://tinyurl.com/neuju",
+    [TAWord wordWithDict:@{@"name":@"Muratorian Fragment",
+                           @"twitterDef":@"the earliest extant canonical\rindex of Scriptures",
+                           @"definition":@"\rThe Muratorian Canon dates to as early as A.D. 170. The formation of the canon of Scripture was occassioned by the Marcionism heresy. The Muratorian Fragment was discovered and published in 1740 by Fr. Ludavico Muratori in the Ambrosian Library. See “Canon”, “Marcionism”.\r\rFurther Reference:\rWikipedia, “Muratorian Fragment”\rhttp://tinyurl.com/ampawp",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Mystagogy",
                            @"twitterDef":@"the catechetical intiation into\rthe sacramental mysteries",
-                           @"definition":@"\rMystagogy is emphasized by apostolate groups such as the Neo-Catechumenical Way...\r\rFurther Reference:\r",
+                           @"definition":@"\rMystagogy was renewed and emphasized as part of the adult baptismal initiation rite based on the practice of the early Church. It is emphasized by apostolate groups such as the Neo-Catechumenical Way.\r\rFurther Reference:\rPope Benedict XVI, Sacramentum Caritatis, 64\rhttp://tinyurl.com/nn8bpbh",
                            @"category":@"Liturgical"}];
     
     
-    /////////////////////////N
+    /////////////////////////////////N
     
     
     
     [TAWord wordWithDict:@{@"name":@"Natural Law",
-                           @"twitterDef":@"the universal moral norm, accessible by human reason",
-                           @"definition":@"\rThe concept of natural law dates back to the early Greek philosophers. It is alluded to in Paul's epistle to the Romans 1:21.\r\rFurther Reference:\rCatechism of the Catholic Church, 1954\rhttp://tinyurl.com/yla3tgm",
+                           @"twitterDef":@"the universal moral standard, accessible by human reason",
+                           @"definition":@"\rThe concept of natural law dates back to the early Greek philosophers. It is alluded to in St. Paul's epistle to the Romans 1:21. It is treated extensively by St. Thomas Aquinas in the Summa Theologica.\r\rFurther Reference:\rCatechism of the Catholic Church, 1954\rhttp://tinyurl.com/yla3tgm",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Natural Theology",
                            @"twitterDef":@"the study of God by inference from the facts of the physical world",
-                           @"definition":@"\rNatural Theology is the attempt to examine the concept of God from the natural world, apart from any special revelation.\r\rFurther Reference:\rInternet Encyclopedia of Philosophy, “Natural Law”\rhttp://tinyurl.com/7ckb5tz",
+                           @"definition":@"\rNatural Theology is the attempt to examine the concept of God from the natural world, apart from any special revelation. See Revelation.\r\rFurther Reference:\rInternet Encyclopedia of Philosophy, “Natural Theology”\rhttp://tinyurl.com/7ckb5tz",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Nevi'im",
                            @"twitterDef":@"the Hebrew word meaning\r“prophets”",
-                           @"definition":@"\rThe Nevi'im is the second of the three sections of the Tanak; from the Hebrew, נְבִיאִים. See “Tanak”.\r\rFurther Reference:\rWikipedia, “Nevi'im”\rhttp://tinyurl.com/qyks6kh",
+                           @"definition":@"\rThe Nevi'im is the second of the three sections of the Tanak. Isaiah, Jeremiah, and Ezekiel are the major prophets, while others are considered minor prophets, due to the length of their books. See “Tanak”.\r\rHebrew, נְבִיאִים (neviim).\r\rFurther Reference:\rWikipedia, “Nevi'im”\rhttp://tinyurl.com/qyks6kh",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"New Testament",
@@ -2229,13 +2229,13 @@
     
     [TAWord wordWithDict:@{@"name":@"Nestorianism",
                            @"twitterDef":@"the heresy that Christ was two persons joined together... ",
-                           @"definition":@"\rthe belief in only one God.\r\rFurther Reference:\rWikipedia, “Monotheism”\rhttp://tinyurl.com/neuju",
+                           @"definition":@"\rThe teaching of Nestorius was condemned at the Council of Ephesus 431. St. Cyril argued persuasively against his teaching.\r\rFurther Reference:\rCatechism of the Catholic Church, 466\rhttp://tinyurl.com/37wuaux",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"New Covenant",
                            @"twitterDef":@"the Christian covenant based on the life, death, and resurrection of Jesus",
-                           @"definition":@"\rthe belief in only one God.\r\rFurther Reference:\rWikipedia, “Monotheism”\rhttp://tinyurl.com/neuju",
-                           @"category":@"Systematic"}];
+                           @"definition":@"\rThe concept of a new covenant occurs for the first time in Jeremiah 31:31-34:\r\r“Behold, the days are coming, declares the Lord, when I will make a new covenant with the house of Israel and the house of Judah, not like the covenant that I made with their fathers on the day when I took them by the hand to bring them out of the land of Egypt, my covenant that they broke, though I was their husband, declares the Lord. For this is the covenant that I will make with the house of Israel after those days, declares the Lord: I will put my law within them, and I will write it on their hearts. And I will be their God, and they shall be my people. And no longer shall each one teach his neighbor and each his brother, saying, ‘Know the Lord,’ for they shall all know me, from the least of them to the greatest, declares the Lord. For I will forgive their iniquity, and I will remember their sin no more.”\r\rJesus of Nazareth alluded to this passage during the Last Supper in which he declared the cup to be the cup of the New Covenant.\r\rFurther Reference:\rWikipedia, “New Covenant”\rhttp://http://tinyurl.com/6klzmk",
+                           @"category":@"Biblical"}];
     
     
     [TAWord wordWithDict:@{@"name":@"Nicene-Constantiopolitan Creed",
@@ -2245,89 +2245,86 @@
     
     [TAWord wordWithDict:@{@"name":@"Numinous",
                            @"twitterDef":@"experience of the Holy that includes\rboth terrifying and fascinating aspects",
-                           @"definition":@"\rAccording to Otto, in his seminal work, “The Idea of the Holy”, religious experience is an encounter with the Holy this is totally Other and numinous. Such experiences are mysteriously terrifying (mysterium tremendum) and mysteriously fascinating (mysterium fascinans).\r\rFurther Reference:\rWikipedia, “Numinous”\rhttp://tinyurl.com/q2nys8u",
+                           @"definition":@"\rAccording to Rudolf Otto, in his seminal work, “The Idea of the Holy”, religious experience is an encounter with the Holy this is totally Other and numinous. Such experiences are mysteriously terrifying (mysterium tremendum) and mysteriously fascinating (mysterium fascinans).\r\rFurther Reference:\rWikipedia, “Numinous”\rhttp://tinyurl.com/q2nys8u",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Naturalism",
-                           @"twitterDef":@"the belief that nature is all that exists and denies a supernatural order",
-                           @"definition":@"\r...\rFurther Reference:\r",
+                           @"twitterDef":@"the belief that the visible world\rof nature is all that exists",
+                           @"definition":@"\rNaturalism can be traced to the writings of the pre-Socratic philosopher Thales. It experienced a surge during the Enlightenment, being promoted by thinkers such as Voltaire. In the 20th century, naturalism was held by such thinkers as John Dewey. Understood in an ontological sense, Naturalism denies the existence of a supernatural Creator, distinct from the natural world.\rFurther Reference:\rWikipedia, “Naturalism”\rhttp://tinyurl.com/ynzpwh",
                            @"category":@"Cultural"}];
     
-    [TAWord wordWithDict:@{@"name":@"Notes of the Church",
-                           @"twitterDef":@"the belief in only one God",
-                           @"definition":@"\rthe belief in only one God.\r\rFurther Reference:\rWikipedia, “Monotheism”\rhttp://tinyurl.com/neuju",
-                           @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Nunc Dimittis",
                            @"twitterDef":@"the prayer of Simeon\rin Luke 2:29-32",
-                           @"definition":@"\rLuke portrays Simeon as offering this extemporaneous prayer after being led by the Holy Spirit to see the infant Jesus.\r\rFurther Reference:\r",
+                           @"definition":@"\rLuke portrays Simeon as offering this extemporaneous prayer after being led by the Holy Spirit to see the infant Jesus.\r\rFurther Reference:\rWikipedia, “Nunc Dimittis”\rhttp://tinyurl.com/o7mejxw",
                            @"category":@"Liturgical"}];
     
     //////////////////////////O
     
     [TAWord wordWithDict:@{@"name":@"Octave",
                            @"twitterDef":@"the celebration of a feast over eight days",
-                           @"definition":@"\rOctaves are common...\r\rFurther Reference:\r",
+                           @"definition":@"\rThe Catholic Church only celebrates two Octaves: Christmas and Easter.\r\rFurther Reference:\rWikipedia, “Octave”\rhttp://tinyurl.com/d5u8q5v",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Offertory",
                            @"twitterDef":@"the prayer said after the presentation of the Gifts to the celebrant...",
-                           @"definition":@"\rThe Roman Missal includes several options for the Offertory...\r\rFurther Reference:\r",
+                           @"definition":@"\rThe Roman Missal includes several options for the Offertory...\r\rFurther Reference:\rCatechism of the Catholic Church, 1350\rhttp://tinyurl.com/m88dbjl",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Omnibenevolence",
                            @"twitterDef":@"the quality of being all-loving",
-                           @"definition":@"\rThe quality of being all-loving.\r\rFurther Reference:\r",
+                           @"definition":@"\rOmnibenevolence is a traditional characteristic of God that is emphasized in the New Testament and throughout the Catholic tradition. Together with Omnipotence and Omniscience, it is a consideration in the Problem of Evil.\r\rFurther Reference:\rWikipedia, “Omnibenevolence”\rhttp://tinyurl.com/qhrwnk3",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Omnipotence",
                            @"twitterDef":@"the quality of being all-powerful",
-                           @"definition":@"\rThe quality of being all-powerful.\r\rFurther Reference:\r",
+                           @"definition":@"\rOmnipotence is a traditional characteristic of God that is emphasized throughout the Scriptures. Together with Omnibenevolence and Omniscience, it is a consideration in the Problem of Evil. See “Problem of Evil”.\r\rFurther Reference:\rInternet Encyclopedia of Philosophy, “Omnipotence”\rhttp://tinyurl.com/p7h67uq",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Omnipresence",
                            @"twitterDef":@"the quality of being all-present",
-                           @"definition":@"\rThe quality of being all-present.\r\rFurther Reference:\r",
+                           @"definition":@"\rOmnipresence was a development from the teaching that God is Spirit.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy, “Omnipresence”\rhttp://tinyurl.com/3s7r2sz",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Omniscience",
                            @"twitterDef":@"the quality of being all-knowing",
-                           @"definition":@"vThe quality of being all-knowing.\r\rFurther Reference:\r",
+                           @"definition":@"\rOmniscience poses a philosophical obstacle to the concept of free-will. Together with Omnibenevolence and Omniscience, it is a consideration in the Problem of Evil. See “Problem of Evil”.\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Ontological Argument",
-                           @"twitterDef":@"the argument that states God, as the greatest possible Being, is a necessary Being",
-                           @"definition":@"\rThe argument, first formulated by Anselm of Canterburry, that states God, as the greatest possible Being, is a necessary Being.\r\rFurther Reference:\r",
+                           @"twitterDef":@"the argument that states God, as the greatest possible Being, is necessary",
+                           @"definition":@"\rThe argument, first formulated by Anselm of Canterburry, that states God, as the greatest possible Being, is a necessary Being:\r\r1. By definition, God is a being than which none greater can be imagined.\r2. A being that necessarily exists in reality is greater than a being that does not necessarily exist.\r3. Thus, by definition, if God exists as an idea in the mind but does not necessarily exist in reality, then we can imagine something that is greater than God.\r4. But we cannot imagine something that is greater than God.\r5. Thus, if God exists in the mind as an idea, then God necessarily exists in reality.\r6. God exists in the mind as an idea.\r7. Therefore, God necessarily exists in reality.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy, “Ontological Arguments”\rhttp://tinyurl.com/5z59lw",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Ontology",
                            @"twitterDef":@"the study of Being",
-                           @"definition":@"\rOntology is closely related to Metaphysics...\r\rFurther Reference:\r",
+                           @"definition":@"\rOntology is closely related to Metaphysics and concerns the question of the categories of existence.\r\rFurther Reference:\rWikipedia, Ontology\rhttp://tinyurl.com/fg4zh",
                            @"category":@"Cultural"}];
-    
+    /*
     [TAWord wordWithDict:@{@"name":@"Open Theism",
                            @"twitterDef":@"a theological movement characterized by the belief that there are logical limits on God's power and knowledge",
                            @"definition":@"\ra theological movement characterized by the belief that there are logical limits on God's power and knowledge.\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
+    */
     
     [TAWord wordWithDict:@{@"name":@"Ordinary",
-                           @"twitterDef":@"the regular diocesan bishop",
+                           @"twitterDef":@"bishop or other prelate\who has authority to govern",
                            @"definition":@"\rThe Ordinary is used to distinguish the diocesan bishop from an assistant or coadjutor.\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Ordinary Time",
-                           @"twitterDef":@"the liturgical time between\rEaster and Advent.\r\rFurther Reference:\r",
-                           @"definition":@"\r....",
+                           @"twitterDef":@"the liturgical time between\rEaster and Advent",
+                           @"definition":@"\rOrdinary Time is divided into two segments; from the Baptism of the Lord to Ash Wednesday and from Pentecost to Advent. During the Ordinary Time, the readings in the Lectionary are not chosen topically.\rFurther Reference:\rWikipedia, “Ordinary Time”\rhttp://tinyurl.com/6xzoaj",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Ordination",
                            @"twitterDef":@"the reception of the Sacrament\rof Holy Orders",
-                           @"definition":@"\rOrdination dates from the earliest years of the Church.\r\rFurther Reference:\r",
+                           @"definition":@"\rOrdination dates from the earliest years of the Church. It involves the laying on of hands and initiation into an ordo or society. There are three such ordos in the Church; Bishops, Priests, and Deacons.\r\rFurther Reference:\rCatechism of the Catholic Church, 1357\rhttp://tinyurl.com/4hs6lso",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Original Sin",
-                           @"twitterDef":@"1. the sin of the first humans\r2. the corruptible condition of humanity",
-                           @"definition":@"\rOriginal Sin, while not named as such, is alluded to by Paul in Romans 5:12...In the traditional teaching of the Church, Original Sin can be understood as both the explanans and explanandum.\r\rFurther Reference:\r",
+                           @"twitterDef":@"the sin of the first humans;\rthe corruptible condition of humanity",
+                           @"definition":@"\rOriginal Sin, while not named as such, is alluded to by Paul in Romans 5:12...In the traditional teaching of the Church, Original Sin can be understood as both the explanans and explanandum. As explananas it explains the human condition of evil, suffering, and death. As explanandum, it is the human condition which requires explanation.\r\rFurther Reference:\rCatechism of the Catholic Church, Article I, Paragraph 7\rhttp://tinyurl.com/llux3he",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Orthodox",
@@ -2499,7 +2496,7 @@
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Priestly Source",
-                           @"twitterDef":@"The literary source in the Torah\r that is concerned with priestly categories",
+                           @"twitterDef":@"the literary source in the Torah\r that is concerned with priestly categories",
                            @"definition":@"\rThe Priestly, or “P” tradition in the Torah can be dated to the time of Hezekiah (ca. 700 B.C.) and shows a major concern for order, numbers, and categories of holiness and cleanliness, especially in the book of Leviticus. The Priestly material is centered on the sacrificial cult in Jerusalem and regards all other sacrifices as improper or “profane”; this source, along with the Elohist and Deuteronomic Sources, does not accept the revelation of the name YHWH before the Mosaic epiphany in Exodus 3.\r\rThe Hebrew of the Priestly author reflects a later stage in its development but earlier than that of the Deuteronomic author. Notably, the P source never uses the word “compassionate” to describe God and forgiveness requires atonement (e.g. the Day of Atonement is a ritual exclusive to the Priestly author).\r\rFurther Reference:\rWikipeida, “Priestly Source”\rhttp://tinyurl.com/yq83pf",
                            @"category":@"Biblical"}];
     
@@ -2704,6 +2701,11 @@
     [TAWord wordWithDict:@{@"name":@"Theodicy",
                            @"twitterDef":@"the question of God's justice in the face of suffering and evil",
                            @"definition":@"\rThe question of God's justice in the face of suffering and evil.\r\rFurther Reference:\r",
+                           @"category":@"Systematic"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Theological Notes",
+                           @"twitterDef":@"qualifications of different Church teachings\ras having different levels of authority",
+                           @"definition":@"\rTheological Notes are given to clarify the level of authority of a particular doctrine. Not every doctrine is, of itself, infallible. Noninfallible teaching, while believed to be definitive, is nevertheless subject to revision. The International Theological Commission distinguished between common doctrines of the Church and faith of the Church:\r\r“The fact that tradition is a really live reality explains why there are so many declarations by the Magisterium of varying importance and varying degrees of obligation. To gauge these exactly and to interpret them, theology has worked out the doctrine of theological qualifications or notes, which, to some extent, the Magisterium has adopted. In recent times, this approach has unfortunately been more or less forgotten. But it is useful in the interpretation of dogma and should therefore be repristinated and developed further.”\r\rTo illustrate this point, the doctrine of Limbo, even though taught by Popes and the Magisterium as part of the common doctrine of the Church, nevertheless was never infallibly defined as being a part of Divine Revelation. As such, it was qualified as being theological opinion and not of the Faith in 2007 by the International Theological Commission.\r\rFurther Reference:\rInternational Theological Commission, “The Interpretation of Dogma”\rhttp://tinyurl.com/md9yco5",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Theologoumenon",
