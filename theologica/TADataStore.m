@@ -2042,8 +2042,8 @@
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Maranatha",
-                           @"twitterDef":@"an Aramaic phrase meaning\r“Our Lord, come.",
-                           @"definition":@"\rThis word is referenced by Paul in 1 Corinthians 16:22 as a common expression used by early Christians to invoke the return of the Lord Jesus. An alternative translation renders this phrase as a declarative statement: “Our Lord has come”.\r\rFurther Reference:\rWikipedia, “Maranatha”\rhttp://tinyurl.com/yv4vcj",
+                           @"twitterDef":@"an Aramaic phrase meaning\r“Our Lord, come.”",
+                           @"definition":@"\rThis word is referenced by Paul in 1 Corinthians 16:22 as a common expression used by early Christians to invoke the return of the Lord Jesus. An alternative translation renders this phrase as a declarative statement: “Our Lord has come”.\r\rAramaic, מרנא תא (marana tha)\r\rFurther Reference:\rWikipedia, “Maranatha”\rhttp://tinyurl.com/yv4vcj",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Marcionism",
@@ -2288,7 +2288,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Omniscience",
                            @"twitterDef":@"the quality of being all-knowing",
-                           @"definition":@"\rOmniscience poses a philosophical obstacle to the concept of free-will. Together with Omnibenevolence and Omniscience, it is a consideration in the Problem of Evil. See “Problem of Evil”.\rFurther Reference:\r",
+                           @"definition":@"\rOmniscience poses a philosophical obstacle to the concept of free-will. Together with Omnibenevolence and Omniscience, it is a consideration in the Problem of Evil. See “Foreknowledge”, “Problem of Evil”.\rFurther Reference:\rStanford Encyclopedia of Philosophy, “Omniscience”\rhttp://tinyurl.com/o3qhjr2",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Ontological Argument",
@@ -2298,7 +2298,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Ontology",
                            @"twitterDef":@"the study of Being",
-                           @"definition":@"\rOntology is closely related to Metaphysics and concerns the question of the categories of existence.\r\rFurther Reference:\rWikipedia, Ontology\rhttp://tinyurl.com/fg4zh",
+                           @"definition":@"\rOntology is closely related to Metaphysics and concerns the question of the categories of existence.\r\rFurther Reference:\rWikipedia, “Ontology”\rhttp://tinyurl.com/fg4zh",
                            @"category":@"Cultural"}];
     /*
     [TAWord wordWithDict:@{@"name":@"Open Theism",
@@ -2308,7 +2308,7 @@
     */
     
     [TAWord wordWithDict:@{@"name":@"Ordinary",
-                           @"twitterDef":@"bishop or other prelate\who has authority to govern",
+                           @"twitterDef":@"bishop or other prelate\rwho has authority to govern",
                            @"definition":@"\rThe Ordinary is used to distinguish the diocesan bishop from an assistant or coadjutor.\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
@@ -2324,12 +2324,12 @@
     
     [TAWord wordWithDict:@{@"name":@"Original Sin",
                            @"twitterDef":@"the sin of the first humans;\rthe corruptible condition of humanity",
-                           @"definition":@"\rOriginal Sin, while not named as such, is alluded to by Paul in Romans 5:12...In the traditional teaching of the Church, Original Sin can be understood as both the explanans and explanandum. As explananas it explains the human condition of evil, suffering, and death. As explanandum, it is the human condition which requires explanation.\r\rFurther Reference:\rCatechism of the Catholic Church, Article I, Paragraph 7\rhttp://tinyurl.com/llux3he",
+                           @"definition":@"\rOriginal Sin, while not named as such, is alluded to by St. Paul in Romans 5:12. St. Augustine coined the term in his dispute with the Pelagians. In the traditional teaching of the Church, Original Sin can be understood as both the explanans and explanandum. As explananas it explains the human condition of evil, suffering, and death. As explanandum, it is the human condition which requires explanation.\r\rFurther Reference:\rCatechism of the Catholic Church, Article I, Paragraph 7\rhttp://tinyurl.com/llux3he",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Orthodox",
                            @"twitterDef":@"straight or correct belief",
-                           @"definition":@"\rA Greek word meaning 'straight belief.\r\rFurther Reference:\r",
+                           @"definition":@"\r\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Orthopraxis",
@@ -2339,54 +2339,54 @@
     
     [TAWord wordWithDict:@{@"name":@"Old Testament",
                            @"twitterDef":@"the 46 books dealing with the people of Israel",
-                           @"definition":@"\rthe 46 books dealing with the people of Israel; contains the Pentateuch, Historical Books, Wisdom Books, and Prophetic Books.\r\rFurther Reference:\r",
+                           @"definition":@"\rthe 46 books dealing with the people of Israel; contains the Pentateuch, Historical Books, Wisdom Books, and Prophetic Books. The Church teaches that the Old Testament prefigures the New Testament through Typology. The Old Testament is based on the Hebrew Bible, which only includes 39 books. See “Tanak”, “Typology”.\r\rFurther Reference:\rWikipedia, “Old Testament”\rhttp://en.wikipedia.org/wiki/Old_Testament",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Oracle",
-                           @"definition":@"a prophetic medium...",
-                           @"twitterDef":@"\ra prophetic medium.\r\rFurther Reference:\r",
+                           @"twitterDef":@"\a Divine utterance\ror location of Divine utterances",
+                           @"definition":@"The phenomenon of oracles as was widespread in the ancient world. The Oracle at Delphi was Pythia, who was associated with the Greek god Apollo. In the biblical tradition, oracles were messages of God spoken by humans. St. Paul speaks of the nation of Israel as having been entrusted with the Oracles of God (Rom. 3:2).\r\rFurther Reference:\rNew Advent, “Oracle”\rhttp://tinyurl.com/nfok5xv",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Oral Tradition",
                            @"twitterDef":@"the transmission of stories and beliefs by word of mouth",
-                           @"definition":@"\rthe transmission of stories and beliefs by word of mouth.\r\rFurther Reference:\r",
+                           @"definition":@"\rBefore the writing of any biblical text, their stories were transmitted orally. The book of Deuteronomy dictates that the commandments of the Torah be passed down orally from parents to children. Eventually, written sources were made in order to establish an official record of the beginnings of the Israelite nation (most likely during the Davidic or Solomonic monarchies). Variations on a common story indicate an oral narrative core around which various authors tailored their writing. For example, in the Old Testament there was an oral tradition that circulated about the patriarch Abraham and his covenant with YHWH. This tradition was retold with different details based on the narrator's audience, as evidenced in its Yahwist, Elohist, and Priestly accounts. In the New Testament, the words of Jesus were passed down orally before the composition of any of the 4 gospels, which were occassioned by the destruction of the Temple and consequent delay of the Parousia. Oral traditions that were recorded but not contained in the gospels illustrate the predominance of the oral tradition in 1st century Palestine. The oral commentary on the Torah (Mishnah) is regarded as equally authortative as the written Torah in modern Judaism. See “Mishnah”, “Parousia”.\r\rFurther Reference:\rWikipedia, “Oral Gospel Traditions”\rhttp://tinyurl.com/nqnawkg",
                            @"category":@"Biblical"}];
     
-    ////////////////////////P
+    //////////////////////////////////////////P
     
     [TAWord wordWithDict:@{@"name":@"Pacifism",
                            @"twitterDef":@"the total rejection of violence\rin any form",
-                           @"definition":@"\rPacifism has its roots in the early Christian intepretation of the words of Jesus in the Sermon on the Mount. ....\r\rFurther Reference:\r",
+                           @"definition":@"\rPacifism has its roots in the early Christian intepretation of the words of Jesus in the Sermon on the Mount. Early Christian writers such as Justin Martyr, Origen, Clement of Alexandria, Irenaeus, and Tertullian claimed that Christians did not shed blood in war. While the limited reach of Christianity to army-eligible Romans is somewhat a factor in this, it remains the case that pacifism was the earliest response of the Church to war. Origen grounds the pacifism of all Christians in their participation in the priestly office of Christ. As Christianity developed and expanded, and after its legalization by Constantine in A.D. 313, the Church faced a new situation as it slowly acquired the same political power that was used to crucify its Founder. St. Augustine was instrumental in the development of the Just War Theory, which begins with a presumption against violence that can only be overriden if specific criteria are met. Vatican II praised pacifist objection to war so long as additional rights are not violated. See “Just War Theory”.\r\rFurther Reference:\rVatican II, Gaudium et Spes, 78\rhttp://tinyurl.com/34xrhq\r\rWikipedia, “Pacifism”\rhttp://tinyurl.com/yo2ulo",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Pantheism",
                            @"twitterDef":@"the belief that everything is God",
-                           @"definition":@"\rPantheism is popular in ....\r\rFurther Reference:\r",
+                           @"definition":@"\rPantheism is popular in New Age forms of spirituality and in some Eastern religious traditions.\r\rFurther Reference:\rWikipedia, “Pantheism”\rhttp://tinyurl.com/yrkp3c",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Panentheism",
                            @"twitterDef":@"the belief that everything exists within God",
-                           @"definition":@"\rPanentheism is based on the reference to the Hymn of Cleanthes in the Book of Acts...\r\rFurther Reference:\r",
+                           @"definition":@"\rPanentheism is examplified in Acts 17:28 in which St. Paul claims that God gives everything life; “in him we live, move, and have our being”. Both modern theologians and philosophers have claimed a panentheistic model of the God-World relationship. According to Alfred North Whitehead, in a panentheistic worldview, God has both necessary and contigent properties. See “Process Theology”.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy, “Panentheism”\rhttp://tinyurl.com/5e8c62",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Parousia",
-                           @"twitterDef":@"a Greek word meaning\rpresence",
-                           @"definition":@"\rParousia is a term used by Paul to refer to the second coming of Jesus.\r\rFurther Reference:\r",
+                           @"twitterDef":@"a Greek word meaning “presence”;\rthe presence of the glorified Christ",
+                           @"definition":@"\rParousia is a term used by St. Paul in the New Testament to refer to the second coming of Christ.\r\rGreek, παρουσία (parousia)\r\rFurther Reference:\rWikipedia, “Parousia”\rhttp://tinyurl.com/6rwp6r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Paschal Mystery",
-                           @"twitterDef":@"the mystery of salvation\rthrough, with, and in Jesus Christ",
-                           @"definition":@"\rThe Paschal Mystery is a phrase that dates to...\r\rFurther Reference:\r",
+                           @"twitterDef":@"the experience of salvation\rthrough, with, and in Jesus Christ",
+                           @"definition":@"\rThe Paschal Mystery is based in the the death and resurrection of Jesus. It is a transcendent event that participates in the Divine, and, as such, its affects are not limited to the constraints of time and space.\r\rFurther Reference:\rCatechism of the Catholic Church, 1085\rhttp://tinyurl.com/oqbzkx3",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Passion of the Lord",
                            @"twitterDef":@"the salvific suffering of Jesus\rin the hours before his death",
-                           @"definition":@"\ra human being capable of self-transcendence.\r\rFurther Reference:\r",
+                           @"definition":@"\rAccording to the teaching of the Church, the Passion of Christ merits salvation for the human race according to the plan and foreknowledge of God.\r\rFurther Reference:\rCatechism of the Catholic Church, 607\rhttp://tinyurl.com/p3dfabj",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Pastor",
-                           @"twitterDef":@"the leader of a local church",
-                           @"definition":@"\ra human being capable of self-transcendence.\r\rFurther Reference:\r",
+                           @"twitterDef":@"a priest or bishop responsible\r for the Christian Faithful",
+                           @"definition":@"\rPastors are tasked with the administration of the Sacraments and care of the Christian congregation. The Petrine Ministry has always been viewed as the pastoral role par excellence in the Catholic Tradition. See “Petrine Ministry”.\r\rFurther Reference:\rCongregation for the Doctrine of the Faith, “The Primacy of the Successor of Peter in the Mystery of the Church”\rhttp://tinyurl.com/ms5hgvj",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Paten",

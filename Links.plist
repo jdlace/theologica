@@ -261,6 +261,12 @@
 		</dict>
 		<dict>
 			<key>Name</key>
+			<string>Communion and Liberation</string>
+			<key>URL</key>
+			<string>http://english.clonline.org</string>
+		</dict>
+		<dict>
+			<key>Name</key>
 			<string>Catholic Climate Covenant</string>
 			<key>URL</key>
 			<string>http://catholicclimatecovenant.org</string>
