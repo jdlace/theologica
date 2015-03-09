@@ -72,23 +72,34 @@
         scriptureSource.comment = @"\rThroughout the history of the Catholic tradition, the canon of Scripture has always played a central and dialectic role in the community life of the Church. The Hebrew Bible is the foundation of the Biblical tradition.<scriptureImg1>\r\rThe Old Testament\r\rConsisting of the Hebrew canon plus seven additional books of the Apocrypha, the Old Testament contains the story of the people of Israel. It is divided into the Pentateuch, Historical Books, Prophets, and Wisdom Books.\r\rThe New Testament\r\rThe gospels of Matthew, Mark, Luke, and John narrate the life of Jesus through the perspective of faith in his divine sonship.<scriptureImg2>Throughout the history of the Catholic tradition, the canon of Scripture has always played a central and dialectic role in the community life of the Church. The Hebrew Bible is the foundation of the Biblical tradition.<scriptureImg1>\r\rThe Old Testament\r\rConsisting of the Hebrew canon plus seven additional books of the Apocrypha, the Old Testament contains the story of the people of Israel. It is divided into the Pentateuch, Historical Books, Prophets, and Wisdom Books.\r\rThe New Testament\r\rThe gospels of Matthew, Mark, Luke, and John narrate the life of Jesus through the perspective of faith in his divine sonship.";
         scriptureSource.image = [UIImage imageNamed:@"appIconGradient3"];
         scriptureSource.bigPic = [UIImage imageNamed:@"codex"];
-        
+        UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Sources" style:UIBarButtonItemStylePlain target:nil action:nil];
+        self.navigationItem.backBarButtonItem = backButton;
         ((SourcesDetailViewController *)segue.destinationViewController).currentSourceDetail = scriptureSource;
-
         }
     else if ([segue.identifier isEqualToString:@"magisteriumDetail"])
         {
         Source *catechismSource = [[Source alloc] init];
         catechismSource.name = @"Magisterium";
         catechismSource.twitterDef = @"The Teaching Authority of the Church";
-        catechismSource.comment = @"The Magisterium represents the teaching authority of the Church.<img>";
-        catechismSource.image = [UIImage imageNamed:@"papalCircle-2"];
+        catechismSource.comment = @"The Magisterium represents the teaching authority of the Church.<scriptureImg1>";
+        catechismSource.image = [UIImage imageNamed:@"appIconGradient3"];
         catechismSource.bigPic = [UIImage imageNamed:@"peter"];
-        //catechismSource.scrollPic = [UIImage imageNamed:@"peter"];
-        
+        UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Sources" style:UIBarButtonItemStylePlain target:nil action:nil];
+        self.navigationItem.backBarButtonItem = backButton;
         ((SourcesDetailViewController *)segue.destinationViewController).currentSourceDetail = catechismSource;
-
         }
+    else if ([segue.identifier isEqualToString:@"fathersDetail"])
+    {
+        Source *fathersSource = [[Source alloc] init];
+        fathersSource.name = @"Fathers of the Church";
+        fathersSource.twitterDef = @"Stewards of the Faith";
+        fathersSource.comment = @"\fThe Fathers of the Church occupy a special place in the Catholic Tradition.<scriptureImg1>";
+        fathersSource.image = [UIImage imageNamed:@"appicon"];
+        fathersSource.bigPic = [UIImage imageNamed:@"fathers"];
+        UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Sources" style:UIBarButtonItemStylePlain target:nil action:nil];
+        self.navigationItem.backBarButtonItem = backButton;
+        ((SourcesDetailViewController *)segue.destinationViewController).currentSourceDetail = fathersSource;
+    }
 }
 
 - (IBAction)scriptureButton:(id)sender

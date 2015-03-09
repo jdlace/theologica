@@ -2352,6 +2352,11 @@
                            @"definition":@"\rBefore the writing of any biblical text, their stories were transmitted orally. The book of Deuteronomy dictates that the commandments of the Torah be passed down orally from parents to children. Eventually, written sources were made in order to establish an official record of the beginnings of the Israelite nation (most likely during the Davidic or Solomonic monarchies). Variations on a common story indicate an oral narrative core around which various authors tailored their writing. For example, in the Old Testament there was an oral tradition that circulated about the patriarch Abraham and his covenant with YHWH. This tradition was retold with different details based on the narrator's audience, as evidenced in its Yahwist, Elohist, and Priestly accounts. In the New Testament, the words of Jesus were passed down orally before the composition of any of the 4 gospels, which were occassioned by the destruction of the Temple and consequent delay of the Parousia. Oral traditions that were recorded but not contained in the gospels illustrate the predominance of the oral tradition in 1st century Palestine. The oral commentary on the Torah (Mishnah) is regarded as equally authortative as the written Torah in modern Judaism. See “Mishnah”, “Parousia”.\r\rFurther Reference:\rWikipedia, “Oral Gospel Traditions”\rhttp://tinyurl.com/nqnawkg",
                            @"category":@"Biblical"}];
     
+    [TAWord wordWithDict:@{@"name":@"Our Father",
+                           @"twitterDef":@"\the first phrase of the Lord's Prayer\rthat addresses God as Father",
+                           @"definition":@"The “Our Father” is prayed during the Liturgy of the Eucharist as part of the Anaphora. See “Lord's Prayer”.",
+                           @"category":@"Biblical"}];
+    
     //////////////////////////////////////////P
     
     [TAWord wordWithDict:@{@"name":@"Pacifism",
@@ -2391,38 +2396,38 @@
     
     [TAWord wordWithDict:@{@"name":@"Paten",
                            @"twitterDef":@"a small plate used to hold the Eucharist",
-                           @"definition":@"\ra human being capable of self-transcendence.\r\rFurther Reference:\r",
+                           @"definition":@"\rThe Paten is set on the Altar, and is usually made of gold or silver. See “Altar”, “Eucharist”.\r\rFurther Reference:\rCongregation for Divine Worship and Discipline of the Sacraments, “General Instruction of the Roman Missal”\rhttp://tinyurl.com/lgdqh94",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Pater Noster",
-                           @"twitterDef":@"a Latin phrase meaning\rOur Father",
-                           @"definition":@"\rSee Lord's Prayer.\r\rFurther Reference:\r",
+                           @"twitterDef":@"a Latin phrase meaning\r“Our Father”",
+                           @"definition":@"\rSee “Lord's Prayer”.",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Patripassianism",
                            @"twitterDef":@"the belief that the Father suffered\rin the Son",
-                           @"definition":@"\rPatripassianism was a heresy that was consequent to Modalism.\r\rFurther Reference:\r",
+                           @"definition":@"\rPatripassianism was a heresy that was consequent to Monarchianism and was based on the Greek philosophical concept that God could not suffer. See “Monarchianism”.\r\rFurther Reference:\rWikipedia, “Patripassianism”\rhttp://tinyurl.com/26r7xj2",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Patristics",
                            @"twitterDef":@"the study of the Church Fathers",
-                           @"definition":@"\rPatristics is essential for the study of theology....\r\rFurther Reference:\r",
+                           @"definition":@"\rPatristics is essential for the study of theology. The period of the Church Fathers usually extends from the sub-Apostolic Age to the 8th century, ending with the 7th Ecumenical Council at Nicea and the life of St. John of Damascus.\r\rFurther Reference:\rWikipedia, “Patristics”\rhttp://tinyurl.com/qy8fxhj",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Pelagianism",
                            @"twitterDef":@"the heresy of Pelagius\rthat salvation is possible without grace",
-                           @"definition":@"\ra human being capable of self-transcendence.\r\rFurther Reference:\r",
+                           @"definition":@"\rPelagius was likely a British monk who came to Rome around the year A.D. 400. He later had contact with St. Augustine in Carthage around A.D. 411. Among the supposed tenets of Pelagius were the following:\r\r-Even if Adam had not sinned, he would have died.\r-Adam's sin injured only himself, not humanity\r-Children are born in the same state as Adam before the Fall\r-Salvation is possible without special grace\r\rAgainst Pelagian ideas, St. Augustine wrote works in which he articulated the concept of Original Sin and the necessity of Baptism for salvation. See “Baptism”, “Original Sin”.\r\rFurther Reference:\rNew Advent, “Pelagianism”\rhttp://tinyurl.com/p688ht5",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Penance",
                            @"twitterDef":@"the act of making restitution\rfor one's sins",
-                           @"definition":@"\ra human being capable of self-transcendence.\r\rFurther Reference:\r",
+                           @"definition":@"\rPenance is offered in the Sacrament of Reconciliation in order to repair the harm caused by sin. Also known as the “second conversion”, it is the means through which post-Baptismal sins are forgiven. See “Sacrament of Reconciliation”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1422.\rhttp://tinyurl.com/l7xon9e",
                            @"category":@"Systematic"}];
 
     
     [TAWord wordWithDict:@{@"name":@"Petrine Ministry",
                            @"twitterDef":@"the ministry of service to the Church\rexercised by the Bishop of Rome",
-                           @"definition":@"\ra human being capable of self-transcendence.\r\rFurther Reference:\r",
+                           @"definition":@"\rThe Petrine ministry \r\rFurther Reference:\rCatechism of the Catholic Church, 881\rhttp://tinyurl.com/m65ttaf",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Palm Sunday",
