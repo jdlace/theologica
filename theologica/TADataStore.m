@@ -2491,13 +2491,13 @@
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Pericope",
-                           @"twitterDef":@"a given section of a larger text...",
-                           @"definition":@"\ra given section of a larger text.\r\rFurther Reference:\r",
+                           @"twitterDef":@"a given section of a larger text",
+                           @"definition":@"\rPericopes are sections of a larget text that form coherent, self-contained units. They are most frequently referred to in the context of the Gospels.\r\rGreek, περικοπή (pericope) “a cutting around”\r\rFurther Reference:\rWikipedia, “Pericope”\rhttp://tinyurl.com/ptoqwnn",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Pharisees",
                            @"twitterDef":@"a Jewish group of laymen in the first century devoted to Torah-observance",
-                           @"definition":@"\rA Jewish group of laymen in the first century.\r\rFurther Reference:\r",
+                           @"definition":@"\rThe Pharisees are portrayed as the opponents of Jesus in the Synoptic Gospels. The book of Acts reports that many Pharisees became members of the nacent Christian community. See “Synoptic Gospels”.\r\rFurther Reference:\rWikipedia, “Pharisees”\rhttp://tinyurl.com/5kgenf",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Priestly Source",
@@ -2506,65 +2506,69 @@
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Primeval History",
-                           @"twitterDef":@"\rThe mythological stories of Genesis 1 - 11",
-                           @"definition":@"Genesis chapters 1 - 11.\r\rFurther Reference:\r",
+                           @"twitterDef":@"\rthe mythological stories of Genesis 1 - 11\rdealing with Creation, the Flood, and Babel",
+                           @"definition":@"The Primeval History has a different literary quality than the later chapters of Genesis which are associated with known historical locations. Genesis 1-11 is composed mostly of the Yahwist and Priestly Sources with additions from the final Redactor.\r\rFurther Reference:\rWikipedia, “Book of Genesis”\rhttp://tinyurl.com/2yeugf",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Prophet",
                            @"twitterDef":@"one who speaks in the place of God",
-                           @"definition":@"\rThis term is used in the Old Testament to refer to either a court prophet (such as Nathan) or an independent prophet (such as Amos).\r\rFurther Reference:\r",
+                           @"definition":@"\rThis term is used in the Old Testament to refer to either a court prophet (such as Nathan) or an independent prophet (such as Amos).\r\rFurther Reference:\rFelix Just, S.J., “What is Biblical Prophecy?”\rhttp://tinyurl.com/82n9ezg",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Prophetic Books",
-                           @"twitterDef":@"the fourth of four sections in the Old Testament",
-                           @"definition":@"\rThe fourth of four sections in the Old Testament.\r\rFurther Reference:\r",
+                           @"twitterDef":@"the fourth of four sections of the Old Testament",
+                           @"definition":@"\rThe Prophetic Books are usually divided into the categories of Major and Minor, based on the length of the book. Isaiah, Jeremiah, and Ezekiel are the major prophetic books, while the remaining books are considered minor.\r\rFurther Reference:\rFelix Just, S.J., “What is Biblical Prophecy?”\rhttp://tinyurl.com/82n9ezg",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Philosophy",
                            @"twitterDef":@"the critical examination of human thought;\rthe love of wisdom",
-                           @"definition":@"rthe critical examination of human thought; the love of wisdom.\r\rFurther Reference:\r",
+                           @"definition":@"rPhilosophy in the Western tradition originated in ancient Greece. As a discipline, Philosophy has an authentic independence from Theology. Fr. Thomas Guarino has explored the relationship between the two.\r\rFurther Reference:\rWikipedia, “Philosophy”\rhttp://tinyurl.com/e5h6u",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Physicalism",
                            @"twitterDef":@"The belief that phenemena traditionally attributed to the soul can be more simply explained by the functioning of a brain",
-                           @"definition":@"\rPhysicalism has received from support from modern neuroscience. Various Christian philosophers, such as Nancy Murphy, are advocates of a non-reductive, physicalist anthropology.\r\rFurther Reference:\r",
+                           @"definition":@"\rPhysicalism has received from support from modern neuroscience. Various Christian philosophers, such as Nancy Murphy, are advocates of a non-reductive, physicalist anthropology.\r\rFurther Reference:\rNancey Murphy, “Is Non-Reductive Physicalism an Oxymoron?”\rhttp://tinyurl.com/po8oo85",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Problem of Evil",
                            @"twitterDef":@"the philosophical problem of belief in God and the experience of evil",
-                           @"definition":@"\rThe philosophical problem that results from belief in Divine omniscience, omnipotence, and omnibenevolence and the experience of suffering and evil in the world.\r\rFurther Reference:\r",
+                           @"definition":@"\rThe Problem of Evil can be traced to the writings of the Greek philosopher Epicurus. It takes two forms: logical and evidential. The former results from belief in Divine omniscience, omnipotence, and omnibenevolence and the experience of suffering and evil in the world producing a logical inconsistency. It proposes the question: if God is all-loving, all-knowing, and all-powerful, why does evil (particularly so-called natural evil) exist? If not seen as logically incompatible, the evidential form of the Problem of Evil claims that such evil severely lowers the probability of the truth of Theism. See “Omnibenevolence”, “Omniscience”, “Omnipotence”, “Theism”, “Theodicy”.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy, “The Problem of Evil”\rhttp://tinyurl.com/mvkoe4",
                            @"category":@"Cultural"}];
     
     
-    ///////////////////////////Q
+    ////////////////////////////////////////////////////////////////////Q
     
     
     
     
     [TAWord wordWithDict:@{@"name":@"Q Source",
                            @"twitterDef":@"the hypothetical written source that lies behind similar passages in Matthew and Luke",
-                           @"definition":@"\rThe hypothetical written source that lies behind the similar passages, exclusive to Matthew and Luke, which contain various teachings of Jesus. See “Two-Source” Theory.\r\rGerman, (quelle) “source”.\r\rFurther Reference:\r",
+                           @"definition":@"\rThe Q Source is believed to lie behind similar passages, exclusive to Matthew and Luke, which contain various teachings of Jesus. See “Two-Source Theory”.\r\rGerman, (quelle) “source”.\r\rFurther Reference:\rWikipedia, “Q Source”\rhttp://tinyurl.com/46hamlg",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Quintessence",
-                           @"twitterDef":@"a term meaning “fifth essence”; used by Aristotle to refer to a substance higher than the four of earth, wind, water, and fire",
-                           @"definition":@"\rA term meaning “fifth essence”; used by Aristotle to refer to a substance higher than the four on earth.\r\rFurther Reference:\r",
+                           @"twitterDef":@"an Aristotelean word for a substance higher than\rthe elements of earth, wind, water, and fire",
+                           @"definition":@"\rAs part of his metaphysics, Aristotle posited a 5th essence or element that permeated the Divine realm; also known as “aether”.\r\rFurther Reference:\rWikipedia, “Aether”\rhttp://tinyurl.com/olx6j",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Quartodeciman Controversy",
                            @"twitterDef":@"a 2nd century liturgical dispute\rover the celebration of Easter",
-                           @"definition":@"\rLeviticus 23:5 regulates the celebration of Passover to the fourteenth day of Nisan. Asiatic Christians celebrated the Resurrection of Jesus on that exact day, while Roman Christians celebrated Easter on the first Sunday after the Nisan 14. Irenaeus of Lyons persuaded Anicetus, the Bishop of Rome at the time, not to excommunicate the Asiatic churches over such a difference.\r\rFurther Reference:\r",
+                           @"definition":@"\rLeviticus 23:5 regulates the celebration of Passover to the fourteenth day of Nisan. Asiatic Christians celebrated the Resurrection of Jesus on that exact day, while Roman Christians celebrated Easter on the first Sunday after the Nisan 14. Irenaeus of Lyons persuaded Anicetus, the Bishop of Rome at the time, not to excommunicate the Asiatic churches over such a difference.\r\rFurther Reference:\rNew Advent, “Easter Controversy”\rhttp://tinyurl.com/qc77tbq",
                            @"category":@"Historical"}];
     
-    //R
+    
+    ///////////////////////////////////////////////////////////////////////////////R
+    
+    
     
     [TAWord wordWithDict:@{@"name":@"Redaction Criticism",
-                           @"twitterDef":@"the analysis of the various stages\rof the redaction of a text",
-                           @"definition":@"\rthe type of criticism that seeks to decipher and analyze\rthe various stages of redaction of a text\r\rFurther Reference:\r",
+                           @"twitterDef":@"the analysis of the various stages\rof the editing of a text",
+                           @"definition":@"\rRedaction Criticism is primarily used in studies of the Gospels. It is specifically mentioned as a criticsm used as part of the larger Historical-Critical Method by the Pontifical Biblical Commission.\r\rFurther Reference:\rPontifical Biblical Commission, “The Interpretation of the Bible in the Church, I.A.2.”\rhttp://tinyurl.com/ymsltv",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Redemption",
-                           @"definition":@"\rthe process of exchanging the economic value of an object.\r\rFurther Reference:\r",
+                           @"twitterDef": @"an economic metaphor used to describe\rthe experience of salvation in Christ",
+                           @"definition":@"\an economic metaphor used to describe\rthe experience of salvation in Christ\r\rFurther Reference:\rNew Advent, “Redemption”\rhttp://tinyurl.com/blqm4x3",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Repentance",
