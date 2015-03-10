@@ -2427,67 +2427,67 @@
     
     [TAWord wordWithDict:@{@"name":@"Petrine Ministry",
                            @"twitterDef":@"the ministry of service to the Church\rexercised by the Bishop of Rome",
-                           @"definition":@"\rThe Petrine ministry \r\rFurther Reference:\rCatechism of the Catholic Church, 881\rhttp://tinyurl.com/m65ttaf",
+                           @"definition":@"\rThe Petrine ministry is based on the role of Peter among the 12 Apostles as spokesman and leader, which is continued analogously in the person of the Pope, the Bishop of Rome.\r\rFurther Reference:\rCatechism of the Catholic Church, 881\rhttp://tinyurl.com/m65ttaf",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Palm Sunday",
-                           @"twitterDef":@"the Sunday before Easter that commemorates\rthe final entry of Jesus into Jerusalem",
-                           @"definition":@"\rPalm Sunday was celebrated as early as....\r\rFurther Reference:\r",
+                           @"twitterDef":@"the Sunday before Easter that commemorates the final entry of Jesus into Jerusalem",
+                           @"definition":@"\rAccording to Letter XX of St. Ambrose of Milan, Palm Sunday was the day on which the Creed was taught to Catechumens. The current practice of congregants waving palm branches dates to the 9th century in France.\r\rFurther Reference:\rNew Advent, “Palm Sunday”\rhttp://tinyurl.com/42rz76z",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Personhood",
-                           @"twitterDef":@"a human being capable of self-transcendence",
-                           @"definition":@"\ra human being capable of self-transcendence.\r\rFurther Reference:\r",
+                           @"twitterDef":@"the capacity for self-awareness\rand rational moral agency",
+                           @"definition":@"\rRecent trends in contemporary philosophy have raised the question of non-human persons, such as dolphins, elephants, and other higher mamals. In the biblical tradition, angels are viewed as having personhood, while being non-human. Some theologians posit the existence of extra-terrestrial persons.\r\rFurther Reference:\rWikipedia, “Personhood”\rhttp://tinyurl.com/7dvvved",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Pluralism",
                            @"twitterDef":@"the belief that all religous claims are equally valid",
-                           @"definition":@"\rthe belief that all religous claims are equally valid.\r\rFurther Reference:\r",
+                           @"definition":@"\rReligious Pluralism is distinct from Inclusivism or Ecumenism. The former retains an exclusive claim to truth and the latter promotes similarity of shared belief. Religious Pluralism entails that no single religion may lay claim to the truth to the exclusion of others.\r\rFurther Reference:\rWikipedia, “Religious Pluralism”\rhttp://tinyurl.com/3dzu8e",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Polytheism",
                            @"twitterDef":@"the belief that many gods exist",
-                           @"definition":@"\rthe belief that many gods exist.\r\rFurther Reference:\r",
+                           @"definition":@"\rPolytheism was common in the ancient world. Pre-Exilic Israelites believed that many gods existed, as evidenced in the Decalogue and multiple references to foreign deities such as El, Asherah, Molech, and Ba'al. However, they had entered into a covenant with and only served one of them, YHWH. After the Exile, monotheism becomes the dominant and distinguishing feature of the Israelites. See “Henotheism”.\r\rFurther Reference:\rWikipeida, “Polytheism”\rhttp://tinyurl.com/33v9dl",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Predestination",
                            @"twitterDef":@"the belief that God has fixed the destiny of certain nations or peoples",
-                           @"definition":@"\rthe belief that God has fixed the destiny of certain individuals.\r\rFurther Reference:\r",
+                           @"definition":@"\rAccording to the teaching of the Church, God's predestination of human events is based on the foreknowledge of each person's free response. See “Foreknowledge”.\r\rFurther Reference:\rCatechism of the Catholic Church 600\rhttp://tinyurl.com/p3dfabj",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Principle of Double Effect",
-                           @"twitterDef":@"the principle which states...",
-                           @"definition":@"\rthe principle which states.\r\rFurther Reference:\r",
+                           @"twitterDef":@"the moral acceptance of an unintended evil caused by an intended good",
+                           @"definition":@"\rThe Principle of Double Effect (PDE) was developed by St. Thomas Aquinas. When considering a given act and its effect, the PDE may be employed if 4 traditional criteria are satisfied:\r\r1. The act must be morally good.\r2. The agent may not will the evil affect.\r3. The good must directly result from the act.\r4. The good must be proportional.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy, “Doctrine of Double Effect”\rhttp://tinyurl.com/2zz6sg",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Process Theology",
-                           @"twitterDef":@"the theological school of thought that views the basic structure of the Universe as process instead of substance",
-                           @"definition":@"\rProcess theology is named after the thought of Alfred North Whitehead.\r\rFurther Reference:\r",
+                           @"twitterDef":@"the belief that God is in process \rwith Creation",
+                           @"definition":@"\rProcess theology is named after the philosophical thought of Alfred North Whitehead, who argued for a metaphysics that saw the basic element of the Universe not in terms of substance, but one of process. His work was applied to Theology primarily by Charles Hartshorne. Process thought sees God as having necessary aspect of essence that does not change, but a contingent aspect of experience that is subject to change. As such, Process Theology is a reaction against and contradicts some aspects of classical Theism.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy, “Process Theism”\rhttp://tinyurl.com/eg2qc",
                            @"category":@"Systematic"}];
     
-    [TAWord wordWithDict:@{@"name":@"Protestant",
-                           @"twitterDef":@"the theological objection to the authority of the Pope in the Church; the Protestant Reformation",
-                           @"definition":@"\rthe theological objection to the authority of the Pope in the Church; the Protestant Reformation.\r\rFurther Reference:\r",
-                           @"category":@"Ecclesial"}];
+    [TAWord wordWithDict:@{@"name":@"Protestant Reformation",
+                           @"twitterDef":@"the 16th century schism in the  Church\roccassioned by Martin Luther",
+                           @"definition":@"\rMartin Luther's objections to the ecclesial abuses of his day were detailed in the 95 Theses.\r\rFurther Reference:\rWikipedia, “Protestant Reformation”\rhttp://tinyurl.com/ltwnf",
+                           @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Parable",
-                           @"twitterDef":@"a fable-like story that makes a theological claim",
-                           @"definition":@"\ra fable-like story that makes a theological claim; used frequently by Jesus in the synoptic gospels.\r\rFurther Reference:\r",
+                           @"twitterDef":@"a fable-like story that makes\ra theological claim",
+                           @"definition":@"\rParables are used frequently by Jesus in the synoptic gospels. They occur infrequently in the Old Testament (Nathan's parable to David of the rich and poor men's lambs is an example). Jesus' use of parables illustrate various aspects about the Kingdom of God.\r\rFurther Reference:\rWikipedia, “Parable”\rhttp://tinyurl.com/34bvho",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Papyrus",
-                           @"twitterDef":@"a type of paper in the ancient world used for writing created from a plant",
-                           @"definition":@"\ra type of paper used for writing created from a plant.\r\rFurther Reference:\r",
+                           @"twitterDef":@"a type of plant-based paper used for writing",
+                           @"definition":@"\rPapyrus was used for the writing of both the Old and New Testaments. No original manuscripts exist due to the short lifespan of Papyrus.\r\rFurther Reference:\rWikipedia, “Papyrus”\rhttp://tinyurl.com/5ta7h4",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Passover",
-                           @"twitterDef":@"the feast that commemorates the Exodus of the Israelites from slavery in Egypt",
-                           @"definition":@"\rthe feast that commemorates the exodus of the Israelites from slavery in Egypt.\r\rFurther Reference:\r",
+                           @"twitterDef":@"the feast that commemorates the Exodus of Israel from slavery in Egypt",
+                           @"definition":@"\rThe Passover is found in both the Yahwist and Priestly sources. It apparently fell into disuse by the time of Hezekiah, who reinstituted it around 700 B.C. It nevertheless waned in importance until the time of Josiah, who also reinstituted Passover. Jesus of Nazareth was crucified by Pontius Pilate during Passover, likely around A.D. 30.\r\rFurther Reference:\rWikipedia, “Passover”\rhttp://tinyurl.com/pol8o",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Pentateuch",
                            @"twitterDef":@"another term for the first five books of the Old Testament, the Torah",
-                           @"definition":@"\ranother term for the first five books of the Old Testament, the Torah - from the Greek for “five scrolls”.\r\rFurther Reference:\r",
+                           @"definition":@"\rSee “Torah”.\r\rGreek, πεντάτευχος (pentateuchos) “five scrolls”",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Pericope",
@@ -2501,7 +2501,7 @@
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Priestly Source",
-                           @"twitterDef":@"the literary source in the Torah\r that is concerned with priestly categories",
+                           @"twitterDef":@"the literary source in the Torah\rthat is concerned with priestly categories",
                            @"definition":@"\rThe Priestly, or “P” tradition in the Torah can be dated to the time of Hezekiah (ca. 700 B.C.) and shows a major concern for order, numbers, and categories of holiness and cleanliness, especially in the book of Leviticus. The Priestly material is centered on the sacrificial cult in Jerusalem and regards all other sacrifices as improper or “profane”; this source, along with the Elohist and Deuteronomic Sources, does not accept the revelation of the name YHWH before the Mosaic epiphany in Exodus 3.\r\rThe Hebrew of the Priestly author reflects a later stage in its development but earlier than that of the Deuteronomic author. Notably, the P source never uses the word “compassionate” to describe God and forgiveness requires atonement (e.g. the Day of Atonement is a ritual exclusive to the Priestly author).\r\rFurther Reference:\rWikipeida, “Priestly Source”\rhttp://tinyurl.com/yq83pf",
                            @"category":@"Biblical"}];
     
@@ -2543,7 +2543,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Q Source",
                            @"twitterDef":@"the hypothetical written source that lies behind similar passages in Matthew and Luke",
-                           @"definition":@"\rThe hypothetical written source that lies behind the similar passages, exclusive to Matthew and Luke, which contain various teachings of Jesus; from the German word “quelle' - “source”.\r\rFurther Reference:\r",
+                           @"definition":@"\rThe hypothetical written source that lies behind the similar passages, exclusive to Matthew and Luke, which contain various teachings of Jesus. See “Two-Source” Theory.\r\rGerman, (quelle) “source”.\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Quintessence",
@@ -2573,7 +2573,7 @@
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Ressourcement",
-                           @"twitterDef":@"a French term meaning “to return to the sources”",
+                           @"twitterDef":@"a French term meaning\r“to return to the sources”",
                            @"definition":@"\rtThis term is used by some theologians as the preferred interpretation of the purpose of Vatican II; that being a return to the Patristic sources of the Church. It was given the French designation, La Nouvelle Theologie (The New Theology) by its critics who accused the movement of being, instead of true return to the sources, the invention of a new theology which was too accommodating to the errors of Modernism.\r\rSee “Aggiornomento”, “Modernism”.\r\rFurther Reference:\rLa Nouvelle Theologie, Ressourcement\rhttp://tinyurl.com/lt3ph7g",
                            @"category":@"Systematic"}];
     

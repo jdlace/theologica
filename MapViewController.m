@@ -222,10 +222,45 @@
     shiloh.coordinate = CLLocationCoordinate2DMake(32.0556, 35.2895);
     shiloh.title = @"Shiloh";
     shiloh.subtitle = @"Shrine of the Ark of the Covenant";
-
+    
+    HistoricalPins *lyon = [[HistoricalPins alloc] init];
+    lyon.coordinate = CLLocationCoordinate2DMake(45.7600, 4.8400);
+    lyon.title = @"Lyon";
+    lyon.subtitle = @"Ecumenical Council XIII";
+    lyon.information = @"\rCoordinates:\r45.7600, 4.8400";
+    
+    HistoricalPins *vienne = [[HistoricalPins alloc] init];
+    vienne.coordinate = CLLocationCoordinate2DMake(46.5000, 0.5000);
+    vienne.title = @"Vienne";
+    vienne.subtitle = @"Ecumenical Council XV";
+    vienne.information = @"\rCoordinates:\r46.5000, 0.5000";
+    
+    HistoricalPins *chalcedon = [[HistoricalPins alloc] init];
+    chalcedon.coordinate = CLLocationCoordinate2DMake(40.9833, 29.0333);
+    chalcedon.title = @"Chalcedon";
+    chalcedon.subtitle = @"Ecumencial Council IV";
+    chalcedon.information = @"Coordinates:\r40.9833, 29.0333";
+    
+    HistoricalPins *constance = [[HistoricalPins alloc] init];
+    constance.coordinate = CLLocationCoordinate2DMake(47.6633, 9.1769);
+    constance.title = @"Constance";
+    constance.subtitle = @"Ecumenical Council XVI";
+    constance.information = @"Coordinates:\r47.6633° N, 9.1769° E";
+    
+    HistoricalPins *trent = [[HistoricalPins alloc] init];
+    trent.coordinate = CLLocationCoordinate2DMake(46.0667, 11.1167);
+    trent.title = @"Trent";
+    trent.subtitle = @"Ecumenical Council XIX";
+    trent.information = @"Coordinates:\r46.0667° N, 11.1167° E";
+    
+    HistoricalPins *florence = [[HistoricalPins alloc] init];
+    florence.coordinate = CLLocationCoordinate2DMake(43.7833, 11.2500);
+    florence.title = @"Florence";
+    florence.subtitle = @"Ecumenical Council XVII";
+    florence.information = @"Coordinates:\r43.7833° N, 11.2500° E";
 
     
-    NSArray *annotations = [NSArray arrayWithObjects:jerusalem, bethEl, ephesus, corinth, dan, temple, hazor, nicea, greenland, rome, nazareth, sierraLeone, camden, atlantic, rome2, constantinople, palestine, israel, alexandria, thessalonica, philippi, antioch, bethlehem, ramah, hebron, shiloh, nil];
+    NSArray *annotations = [NSArray arrayWithObjects:jerusalem, bethEl, ephesus, corinth, dan, temple, hazor, nicea, greenland, rome, nazareth, sierraLeone, camden, atlantic, rome2, constantinople, palestine, israel, alexandria, thessalonica, philippi, antioch, bethlehem, ramah, hebron, shiloh, lyon, vienne, chalcedon, constance, trent, florence, nil];
     
     [self.mapView addAnnotations:annotations];
 
@@ -756,11 +791,51 @@ MapDetailViewController.currentWordDetail = word;
                                    
                                    HistoricalPins *constantinople = [[HistoricalPins alloc] init];
                                    constantinople.coordinate = CLLocationCoordinate2DMake(41.0122, 28.9760);
-                                   constantinople.title = @"Constantinople, Councils II, V";
-                                   constantinople.subtitle = @"A.D. 381, 553 \r\rThe 2nd and 5th ecumenical councils confirmed the Nicene Council's creed and clarified the teaching on the nature of Christ, respectively.";    
+                                   constantinople.title = @"Constantinople";
+                                   constantinople.subtitle = @"Ecumenical Councils II, V";
+                                   constantinople.information = @"\rIn A.D. 381 and 553, the 2nd and 5th ecumenical councils, respectively, confirmed the Nicene Council's creed and clarified the teaching on the nature of Christ.";
+                                   
+                                   HistoricalPins *lyon = [[HistoricalPins alloc] init];
+                                   lyon.coordinate = CLLocationCoordinate2DMake(45.7600, 4.8400);
+                                   lyon.title = @"Lyon";
+                                   lyon.subtitle = @"Ecumenical Council XIII";
+                                   lyon.information = @"\rCoordinates:\r45.7600, 4.8400";
+                                   
+                                   HistoricalPins *vienne = [[HistoricalPins alloc] init];
+                                   vienne.coordinate = CLLocationCoordinate2DMake(46.5000, 0.5000);
+                                   vienne.title = @"Vienne";
+                                   vienne.subtitle = @"Ecumenical Council XV";
+                                   vienne.information = @"\rCoordinates:\r46.5000, 0.5000";
+                                   
+                                   HistoricalPins *chalcedon = [[HistoricalPins alloc] init];
+                                   chalcedon.coordinate = CLLocationCoordinate2DMake(40.9833, 29.0333);
+                                   chalcedon.title = @"Chalcedon";
+                                   chalcedon.subtitle = @"Ecumencial Council IV";
+                                   chalcedon.information = @"Coordinates:\r40.9833, 29.0333";
+                                   
+                                   HistoricalPins *constance = [[HistoricalPins alloc] init];
+                                   constance.coordinate = CLLocationCoordinate2DMake(47.6633, 9.1769);
+                                   constance.title = @"Constance";
+                                   constance.subtitle = @"Ecumenical Council XVI";
+                                   constance.information = @"Coordinates:\r47.6633° N, 9.1769° E";
+                                   
+                                   HistoricalPins *trent = [[HistoricalPins alloc] init];
+                                   trent.coordinate = CLLocationCoordinate2DMake(46.0667, 11.1167);
+                                   trent.title = @"Trent";
+                                   trent.subtitle = @"Ecumenical Council XIX";
+                                   trent.information = @"Coordinates:\r46.0667° N, 11.1167° E";
+                                   
+                                   HistoricalPins *florence = [[HistoricalPins alloc] init];
+                                   florence.coordinate = CLLocationCoordinate2DMake(43.7833, 11.2500);
+                                   florence.title = @"Florence";
+                                   florence.subtitle = @"Ecumenical Council XVII";
+                                   florence.information = @"Coordinates:\r43.7833° N, 11.2500° E";
+
                                    
                                    
-                                   NSArray *annotations = [NSArray arrayWithObjects:nicea, alexandria, rome2, constantinople,  nil];
+                                   
+                                   
+                                   NSArray *annotations = [NSArray arrayWithObjects:nicea, alexandria, rome2, constantinople, lyon, vienne, chalcedon, constance, trent, florence, nil];
                                    [self.mapView addAnnotations:annotations];
                                    
                                    }];
@@ -987,7 +1062,44 @@ MapDetailViewController.currentWordDetail = word;
                                    shiloh.title = @"Shiloh";
                                    shiloh.subtitle = @"Shrine of the Ark of the Covenant";
                                    
-                                   NSArray *annotations = [NSArray arrayWithObjects:jerusalem, bethEl, ephesus, corinth, dan, temple, hazor, nicea, greenland, rome, nazareth, sierraLeone, camden, atlantic, rome2, constantinople, palestine, israel, alexandria, antioch, bethlehem, thessalonica, philippi, nil];
+                                   HistoricalPins *lyon = [[HistoricalPins alloc] init];
+                                   lyon.coordinate = CLLocationCoordinate2DMake(45.7600, 4.8400);
+                                   lyon.title = @"Lyon";
+                                   lyon.subtitle = @"Ecumenical Council XIII";
+                                   lyon.information = @"\rCoordinates:\r45.7600, 4.8400";
+                                   
+                                   HistoricalPins *vienne = [[HistoricalPins alloc] init];
+                                   vienne.coordinate = CLLocationCoordinate2DMake(46.5000, 0.5000);
+                                   vienne.title = @"Vienne";
+                                   vienne.subtitle = @"Ecumenical Council XV";
+                                   vienne.information = @"\rCoordinates:\r46.5000, 0.5000";
+                                   
+                                   HistoricalPins *chalcedon = [[HistoricalPins alloc] init];
+                                   chalcedon.coordinate = CLLocationCoordinate2DMake(40.9833, 29.0333);
+                                   chalcedon.title = @"Chalcedon";
+                                   chalcedon.subtitle = @"Ecumencial Council IV";
+                                   chalcedon.information = @"Coordinates:\r40.9833, 29.0333";
+                                   
+                                   HistoricalPins *constance = [[HistoricalPins alloc] init];
+                                   constance.coordinate = CLLocationCoordinate2DMake(47.6633, 9.1769);
+                                   constance.title = @"Constance";
+                                   constance.subtitle = @"Ecumenical Council XVI";
+                                   constance.information = @"Coordinates:\r47.6633° N, 9.1769° E";
+                                   
+                                   HistoricalPins *trent = [[HistoricalPins alloc] init];
+                                   trent.coordinate = CLLocationCoordinate2DMake(46.0667, 11.1167);
+                                   trent.title = @"Trent";
+                                   trent.subtitle = @"Ecumenical Council XIX";
+                                   trent.information = @"Coordinates:\r46.0667° N, 11.1167° E";
+                                   
+                                   HistoricalPins *florence = [[HistoricalPins alloc] init];
+                                   florence.coordinate = CLLocationCoordinate2DMake(43.7833, 11.2500);
+                                   florence.title = @"Florence";
+                                   florence.subtitle = @"Ecumenical Council XVII";
+                                   florence.information = @"Coordinates:\r43.7833° N, 11.2500° E";
+
+                                   
+                                   NSArray *annotations = [NSArray arrayWithObjects:jerusalem, bethEl, ephesus, corinth, dan, temple, hazor, nicea, greenland, rome, nazareth, sierraLeone, camden, atlantic, rome2, constantinople, palestine, israel, alexandria, antioch, bethlehem, thessalonica, philippi, vienne, lyon, chalcedon, constance, trent, florence, nil];
                                    
                                    [self.mapView addAnnotations:annotations];
                                    
