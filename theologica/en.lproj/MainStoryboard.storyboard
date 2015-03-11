@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14D87h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="4">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
         <!--Tab Bar Controller-->
@@ -397,7 +397,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Foc-UI-olS">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" id="Foc-UI-olS">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
@@ -424,12 +424,14 @@
                                         <rect key="frame" x="145" y="56" width="32" height="32"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="justified" id="zEE-sf-0Ob">
-                                        <rect key="frame" x="8" y="119" width="304" height="399"/>
+                                    <textView autoresizesSubviews="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="justified" selectable="NO" id="ccI-OC-gVd">
+                                        <rect key="frame" x="8" y="123" width="304" height="393"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <dataDetectorType key="dataDetectorTypes" link="YES"/>
                                     </textView>
                                 </subviews>
                             </scrollView>
@@ -440,7 +442,7 @@
                     <connections>
                         <outlet property="imageView" destination="KFZ-gu-gga" id="JrP-h8-a2R"/>
                         <outlet property="scrollView" destination="Foc-UI-olS" id="F23-OH-thX"/>
-                        <outlet property="sourceInformation" destination="zEE-sf-0Ob" id="FX9-bv-xwH"/>
+                        <outlet property="sourceInformation" destination="ccI-OC-gVd" id="upQ-cS-7ke"/>
                         <outlet property="sourceName" destination="4gF-gh-o1Z" id="RuW-FL-akB"/>
                         <outlet property="sourceSubtitle" destination="JTp-ch-Whd" id="BfM-FR-2m1"/>
                         <outlet property="sourcesPic" destination="B9P-9X-77s" id="C2Y-aJ-suP"/>
@@ -506,7 +508,7 @@
                             <state key="normal" title="Dictionary">
                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
-                            <state key="highlighted" image="E7D78466-DC63-421E-AE38-8598935821C4"/>
+                            <state key="highlighted" image="C76E23FF-0E71-41B1-8B92-F7A01A8576EC"/>
                         </button>
                         <barButtonItem key="rightBarButtonItem" title="Saved" id="RxI-0F-zKf">
                             <connections>
@@ -1032,7 +1034,7 @@
     <resources>
         <image name="3menCircle" width="66" height="66"/>
         <image name="525px-fresco_of_a_dominican_by_fra_angelico_001" width="175" height="200"/>
-        <image name="E7D78466-DC63-421E-AE38-8598935821C4" width="80" height="80">
+        <image name="C76E23FF-0E71-41B1-8B92-F7A01A8576EC" width="80" height="80">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGOzxYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK0HCBEW
 GxwgISksLzU4VSRudWxs1AkKCwwNDg8QViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNSZXBzV05TQ29sb3KA

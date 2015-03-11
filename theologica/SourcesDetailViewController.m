@@ -29,6 +29,8 @@
     self.sourceSubtitle.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
     
     self.sourceInformation.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
+    
+    [self.sourceInformation setTextColor:[UIColor darkGrayColor]];
 /*
     CGRect frame = self.sourcesPic.frame;
     frame.origin = CGPointMake(0,0);
@@ -50,6 +52,7 @@
     
    
     //images in detail view
+    /*
     NSTextAttachment *scriptureAttachment1 = [[NSTextAttachment alloc] init];
     scriptureAttachment1.image = [UIImage imageNamed:@"dss"];
     scriptureAttachment1.bounds = CGRectMake(0, -25, scriptureAttachment1.image.size.width, scriptureAttachment1.image.size.height);
@@ -64,22 +67,26 @@
     
     NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:_currentSourceDetail.comment];
     
-    NSRange scriptureImgTag1 = [_currentSourceDetail.comment rangeOfString:@"<scriptureImg1>"];
+    NSRange scriptureImgTag1 = [attributedString.string rangeOfString:@"<scriptureImg1>"];
     //NSRange scriptureImgTag2 = [_currentSourceDetail.comment rangeOfString:@"<scriptureImg2>"];
 
     
-    [attributedString replaceCharactersInRange:scriptureImgTag1  withAttributedString:scriptureString1];
+    //[attributedString replaceCharactersInRange:scriptureImgTag1  withAttributedString:scriptureString1];
+    
+    //NSRange scriptureImgTag2 = [attributedString.string rangeOfString:@"<scriptureImg2>"];
+    
     //[attributedString replaceCharactersInRange:scriptureImgTag2  withAttributedString:scriptureString2];
 
     
     _sourceInformation.attributedText = attributedString;
+    */
     
     CGSize size = _sourceInformation.contentSize;
     CGRect frame = _sourceInformation.frame;
     frame.size.height = size.height;
     
     _sourceInformation.frame = frame;
-    _scrollView.contentSize = CGSizeMake(_scrollView.contentSize.width, size.height + 120); 
+    _scrollView.contentSize = CGSizeMake(_sourceInformation.contentSize.width, size.height + 120);
     
     
 }

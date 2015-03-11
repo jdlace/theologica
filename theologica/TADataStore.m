@@ -213,7 +213,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Apocalypse",
                            @"twitterDef":@"the revelation of something hidden;\rthe last book of the New Testament",
-                           @"definition":@"\rPaul uses this word to refer to his experience of the risen Jesus. The Apocalypse (or Revelation) of John describes a vision of Jesus Christ about the end of the word, previously hidden from the Church's knowledge.\r\rGreek, ἀποκάλυψις (apokalypsis) “unveiling”\r\rFurther Reference:\rCatechism of the Catholic Church, 120\rhttp://tinyurl.com/kvc3tvq",
+                           @"definition":@"\rSt. Paul uses this word to refer to his experience of the risen Jesus in Gal. 1:12. The Apocalypse (or Revelation) of John describes a vision of Jesus Christ about the end of the word, previously hidden from the Church's knowledge.\r\rGreek, ἀποκάλυψις (apokalypsis) “unveiling”\r\rFurther Reference:\rCatechism of the Catholic Church, 120\rhttp://tinyurl.com/kvc3tvq",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Apocrypha",
@@ -315,7 +315,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Adoption",
                            @"twitterDef":@"a biblical metaphor used to refer to the process of becoming a child of God",
-                           @"definition":@"\rIn the New Testament, Paul uses this metaphor to describe God's process of extending His family through Jesus Christ.\r\rFurther Reference:\rCatechism of the Catholic Church, 1\rhttp://tinyurl.com/o7udb4d",
+                           @"definition":@"\rIn the New Testament, St. Paul uses this metaphor to describe God's process of extending His family through Jesus Christ.\r\rFurther Reference:\rCatechism of the Catholic Church, 1\rhttp://tinyurl.com/o7udb4d",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Agape",
@@ -330,12 +330,12 @@
     
     [TAWord wordWithDict:@{@"name":@"Allegory",
                            @"twitterDef":@"an interpretation that seeks\rhigher orders of meanining",
-                           @"definition":@"\rAn allegory is an interpretation of a text that goes beyond the literal meaning to find a deeper connection to a higher order of reality. In the New Testament, Paul claims that the story of Sarah and Hagar in Genesis is an allegory of those in Christ and those under the Law (Gal. 4:24).\r\rGreek, ἀλληγορία (allegoria)\r“speaking by way of something else”\r\rFurther Reference:\rCatechism of the Catholic Church, 117\rhttp://tinyurl.com/kvc3tvq",
+                           @"definition":@"\rAn allegory is an interpretation of a text that goes beyond the literal meaning to find a deeper connection to a higher order of reality. In the New Testament, St. Paul claims that the story of Sarah and Hagar in Genesis is an allegory of those in Christ and those under the Law (Gal. 4:24).\r\rGreek, ἀλληγορία (allegoria)\r“speaking by way of something else”\r\rFurther Reference:\rCatechism of the Catholic Church, 117\rhttp://tinyurl.com/kvc3tvq",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Analogy of Faith",
                            @"twitterDef":@"the coherence of the truths of faith\ramong themselves",
-                           @"definition":@"\rThe Analogy of Faith is a phrase that occurs in Romans 12:6. It later becomes a way to refer to the consistency and interrelationship of Church teaching.\r\rGreek, ἀναλογία (analogia) “proportion”\r\rFurther Reference:\rCatechism of the Catholic Church, 114\rhttp://tinyurl.com/kvc3tvq",
+                           @"definition":@"\rThe Analogy of Faith is a concept that St. Paul uses in Romans 12:6. It later becomes a way to refer to the consistency and interrelationship of Church teaching.\r\rGreek, ἀναλογία (analogia) “proportion”\r\rFurther Reference:\rCatechism of the Catholic Church, 114\rhttp://tinyurl.com/kvc3tvq",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Annointing of the Sick",
@@ -370,7 +370,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Assumption of Mary",
                            @"twitterDef":@"the dogma that the Virgin Mary was assumed into heaven",
-                           @"definition":@"\rThe dogma, defined by Pope Pius XII in 1950 in the Apostolic Constitution, Munificentissimus Deus, is based on a tradition that Mary's tomb was found empty, which dates back to the 4th century.\r\rFurther Reference:\rCatechism of the Catholic Church, 966\rhttp://tinyurl.com/mtfzewa",
+                           @"definition":@"\rThe dogma, defined by Pope Pius XII in 1950 in the Apostolic Constitution, “Munificentissimus Deus”, is based on a tradition that Mary's tomb was found empty, which dates back to the 4th century.\r\rFurther Reference:\rCatechism of the Catholic Church, 966\rhttp://tinyurl.com/mtfzewa",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Atonement",
@@ -2588,17 +2588,17 @@
     
     [TAWord wordWithDict:@{@"name":@"Religious Naturalism",
                            @"twitterDef":@"a movement within naturalism that emphasizes scientific knowledge as a foundational mythos",
-                           @"definition":@"\rA movement within naturalism which emphasizes the scientific history of the universe as a core mythos around which revolve interpretive, spiritual, and moral axes.\r\rFurther Reference:\r",
+                           @"definition":@"\rReligious Naturalism views the scientific history of the universe as a core mythos around which revolve interpretive, spiritual, and moral axes.\r\rFurther Reference:\rReligious Naturalist Association\rhttp://tinyurl.com/oero7mx",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Rerum Novarum",
                            @"twitterDef":@"the encyclical of Pope Leo XIII that laid the foundations of modern Catholic Social Teaching",
-                           @"definition":@"\rThe encyclical of Pope Leo XIII in 1891 which responded to the after effects of the Industrial Revolution in Europe by teaching that private property is relative to the Common Good and that workers have a right to unionized and to a living wage.\r\rFurther Reference:\r",
+                           @"definition":@"\rThe encyclical of Pope Leo XIII in 1891 which responded to the after effects of the Industrial Revolution in Europe by teaching that private property is relative to the Common Good and that workers have a right to unionized and to a living wage.\r\rFurther Reference:\rPope Leo XIII, “Rerum Novarum”\rhttp://tinyurl.com/lv5y76v",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Rosary",
-                           @"twitterDef":@"a movement within naturalism that emphasizes scientific knowledge as a foundational mythos",
-                           @"definition":@"\rA movement within naturalism which emphasizes the scientific history of the universe as a core mythos around which revolve interpretive, spiritual, and moral axes.\r\rFurther Reference:\r",
+                           @"twitterDef":@"the prayer based on the Hail Mary\rand Our Father",
+                           @"definition":@"\rThe Rosary dates back to the time of St. Dominic in which the praying of 50 Hail Marys was popular.\r\rFurther Reference:\rWikipedia, “Rosary”\rhttp://tinyurl.com/55f737",
                            @"category":@"Cultural"}];
     
     
