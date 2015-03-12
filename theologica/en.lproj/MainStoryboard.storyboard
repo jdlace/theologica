@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14D87h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14D87h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="4">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
     <scenes>
         <!--Tab Bar Controller-->
@@ -424,11 +424,11 @@
                                         <rect key="frame" x="145" y="56" width="32" height="32"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <textView autoresizesSubviews="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="justified" selectable="NO" id="ccI-OC-gVd">
-                                        <rect key="frame" x="8" y="123" width="304" height="393"/>
+                                    <textView autoresizesSubviews="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" scrollEnabled="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="justified" id="ccI-OC-gVd">
+                                        <rect key="frame" x="8" y="123" width="304" height="378"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                         <dataDetectorType key="dataDetectorTypes" link="YES"/>
@@ -508,7 +508,7 @@
                             <state key="normal" title="Dictionary">
                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
-                            <state key="highlighted" image="C76E23FF-0E71-41B1-8B92-F7A01A8576EC"/>
+                            <state key="highlighted" image="EB1C2378-8296-4DD2-9D30-CAB48CA9C731"/>
                         </button>
                         <barButtonItem key="rightBarButtonItem" title="Saved" id="RxI-0F-zKf">
                             <connections>
@@ -1034,7 +1034,7 @@
     <resources>
         <image name="3menCircle" width="66" height="66"/>
         <image name="525px-fresco_of_a_dominican_by_fra_angelico_001" width="175" height="200"/>
-        <image name="C76E23FF-0E71-41B1-8B92-F7A01A8576EC" width="80" height="80">
+        <image name="EB1C2378-8296-4DD2-9D30-CAB48CA9C731" width="80" height="80">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGOzxYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK0HCBEW
 GxwgISksLzU4VSRudWxs1AkKCwwNDg8QViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNSZXBzV05TQ29sb3KA

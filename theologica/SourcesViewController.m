@@ -130,10 +130,11 @@
 
 - (IBAction)fathersButton:(id)sender
 {
+    /*
     Source *fathersSource = [[Source alloc] init];
     fathersSource.name = @"Fathers of the Church";
     fathersSource.twitterDef = @"Stewards of the Faith";
-    fathersSource.comment = @"\fThe Fathers of the Church occupy a special place in the Catholic Tradition.";
+    fathersSource.comment = @"\rThe Fathers of the Church occupy a special place in the Catholic Tradition.";
     fathersSource.image = [UIImage imageNamed:@"appicon"];
     fathersSource.bigPic = [UIImage imageNamed:@"fathers"];
     //fathersSource.scrollPic = [UIImage imageNamed:@"fathersColor"];
@@ -149,6 +150,8 @@
     sourcesDetailViewController.currentSourceDetail = fathersSource;
     
     [self.navigationController pushViewController:sourcesDetailViewController animated:YES];}
+     */
+}
 
 - (IBAction)catechismButton:(id)sender
 {

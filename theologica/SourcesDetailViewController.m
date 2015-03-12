@@ -86,7 +86,9 @@
     frame.size.height = size.height;
     
     _sourceInformation.frame = frame;
-    _scrollView.contentSize = CGSizeMake(_sourceInformation.contentSize.width, size.height + 120);
+    [_sourceInformation sizeToFit];
+
+    _scrollView.contentSize = CGSizeMake(_sourceInformation.contentSize.width, _sourceInformation.frame.size.height + 120);
     
     
 }
