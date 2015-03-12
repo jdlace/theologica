@@ -52,7 +52,7 @@
     
    
     //images in detail view
-    /*
+    
     NSTextAttachment *scriptureAttachment1 = [[NSTextAttachment alloc] init];
     scriptureAttachment1.image = [UIImage imageNamed:@"dss"];
     scriptureAttachment1.bounds = CGRectMake(0, -25, scriptureAttachment1.image.size.width, scriptureAttachment1.image.size.height);
@@ -71,15 +71,17 @@
     //NSRange scriptureImgTag2 = [_currentSourceDetail.comment rangeOfString:@"<scriptureImg2>"];
 
     
-    //[attributedString replaceCharactersInRange:scriptureImgTag1  withAttributedString:scriptureString1];
+    [attributedString replaceCharactersInRange:scriptureImgTag1  withAttributedString:scriptureString1];
     
-    //NSRange scriptureImgTag2 = [attributedString.string rangeOfString:@"<scriptureImg2>"];
+    //[attributedString
+
     
     //[attributedString replaceCharactersInRange:scriptureImgTag2  withAttributedString:scriptureString2];
 
     
-    _sourceInformation.attributedText = attributedString;
-    */
+    
+  
+    
     
     CGSize size = _sourceInformation.contentSize;
     CGRect frame = _sourceInformation.frame;
@@ -90,6 +92,18 @@
 
     _scrollView.contentSize = CGSizeMake(_sourceInformation.contentSize.width, _sourceInformation.frame.size.height + 120);
     
+    //added for Dynamic Type
+    [[NSNotificationCenter defaultCenter]
+     addObserver:self
+     selector:@selector(preferredContentSizeChanged:)
+     name:UIContentSizeCategoryDidChangeNotification
+     object:nil];
+    
+    [attributedString addAttribute:NSFontAttributeName value:[UIFont systemFontOfSize:14] range:NSMakeRange(0, attributedString.length)];
+    [attributedString addAttribute:NSForegroundColorAttributeName value:[UIColor darkGrayColor] range:NSMakeRange(0, attributedString.length)]; 
+
+    
+    _sourceInformation.attributedText = attributedString;
     
 }
 
@@ -97,6 +111,12 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)preferredContentSizeChanged:(NSNotification *)notification
+{
+    self.sourceInformation.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
+    self.sourceSubtitle.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
 }
 
 /*
