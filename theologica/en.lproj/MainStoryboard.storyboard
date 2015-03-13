@@ -295,7 +295,7 @@
                             <rect key="frame" x="83" y="-2" width="154" height="48"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="22"/>
-                            <state key="normal" title="Home">
+                            <state key="normal" title="Theologica">
                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
@@ -501,7 +501,7 @@
                             <state key="normal" title="Dictionary">
                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
-                            <state key="highlighted" image="0C3A37DF-5960-4830-9F5B-8FB04B9B20CC"/>
+                            <state key="highlighted" image="08C289C6-E836-47A2-ACCD-0DA3148276DD"/>
                         </button>
                         <barButtonItem key="rightBarButtonItem" title="Saved" id="RxI-0F-zKf">
                             <connections>
@@ -736,11 +736,11 @@
             </objects>
             <point key="canvasLocation" x="-202" y="-457"/>
         </scene>
-        <!--Dictionary-->
+        <!--Navigation Controller-->
         <scene sceneID="fAn-dN-fqo">
             <objects>
                 <navigationController definesPresentationContext="YES" id="3ZE-jz-AIY" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Dictionary" image="biblelines" id="ADP-i6-dTj">
+                    <tabBarItem key="tabBarItem" title="" image="biblelines" id="ADP-i6-dTj">
                         <inset key="imageInsets" minX="0.0" minY="2" maxX="0.0" maxY="-2"/>
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
                         <userDefinedRuntimeAttributes>
@@ -922,11 +922,11 @@
             </objects>
             <point key="canvasLocation" x="-1069" y="523"/>
         </scene>
-        <!--Maps-->
+        <!--Navigation Controller-->
         <scene sceneID="jRQ-oP-mln">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Z0P-od-vVe" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Maps" image="earthlines" id="vUG-tr-5Lj">
+                    <tabBarItem key="tabBarItem" title="" image="earthlines" id="vUG-tr-5Lj">
                         <inset key="imageInsets" minX="0.0" minY="2" maxX="0.0" maxY="-2"/>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="blueearth"/>
@@ -947,11 +947,11 @@
             </objects>
             <point key="canvasLocation" x="-1870" y="-141"/>
         </scene>
-        <!--Reference-->
+        <!--Navigation Controller-->
         <scene sceneID="DXf-Dc-5sq">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FNM-Aj-5h7" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Reference" image="book-arrange-7" id="PJ4-hc-nQh">
+                    <tabBarItem key="tabBarItem" title="" image="book-arrange-7" id="PJ4-hc-nQh">
                         <inset key="imageInsets" minX="0.0" minY="3" maxX="0.0" maxY="-3"/>
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
                         <userDefinedRuntimeAttributes>
@@ -973,11 +973,11 @@
             </objects>
             <point key="canvasLocation" x="-1883" y="519"/>
         </scene>
-        <!--People-->
+        <!--Navigation Controller-->
         <scene sceneID="kUP-yg-iC5">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3kh-FI-uIe" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="People" image="men" id="jIN-Bk-txF">
+                    <tabBarItem key="tabBarItem" title="" image="men" id="jIN-Bk-txF">
                         <inset key="imageInsets" minX="0.0" minY="2" maxX="0.0" maxY="-2"/>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="bluemen"/>
@@ -998,11 +998,11 @@
             </objects>
             <point key="canvasLocation" x="-2236" y="1145"/>
         </scene>
-        <!--Home-->
+        <!--Navigation Controller-->
         <scene sceneID="LjN-ji-VcW">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gNN-7E-KYP" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" image="home" id="zvm-r6-5ad">
+                    <tabBarItem key="tabBarItem" title="" image="home" id="zvm-r6-5ad">
                         <inset key="imageInsets" minX="0.0" minY="4" maxX="0.0" maxY="-4"/>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="bluehouse"/>
@@ -1025,7 +1025,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="0C3A37DF-5960-4830-9F5B-8FB04B9B20CC" width="80" height="80">
+        <image name="08C289C6-E836-47A2-ACCD-0DA3148276DD" width="80" height="80">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGOzxYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK0HCBEW
 GxwgISksLzU4VSRudWxs1AkKCwwNDg8QViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNSZXBzV05TQ29sb3KA
