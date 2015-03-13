@@ -2623,13 +2623,13 @@
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Seleucid",
-                           @"twitterDef":@"the descendants of Alexander the Great that ruled in Syria",
-                           @"definition":@"\rThe Sadducees were descendants of the Seleucid. See “Sadducess”.\r\rFurther Reference:\r",
+                           @"twitterDef":@"the Greek dynasty that ruled in Syria",
+                           @"definition":@"\rThe Seleucids were descendants of Seleucus, a general of Alexander the Great. See “Sadducess”.\r\rFurther Reference:\rWikipedia, “Seleucid Empire”\rhttp://tinyurl.com/pq4w6z7",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Social Justice",
-                           @"twitterDef":@"the type of justice which prioritizes the common good with a preferential option for the poor and marginalized",
-                           @"definition":@"\rAccording to Pope Paul VI, social justice is an essential aspect to the proclamation of the gospel.\r\rFurther Reference:\r",
+                           @"twitterDef":@"the just structuring of society that prioritizes the common good with a preferential option for the poor",
+                           @"definition":@"\rAccording to Pope Paul VI, social justice is an essential aspect to the proclamation of the gospel.\r\rFurther Reference:\rCatechism of the Catholic Church, 1928\rhttp://tinyurl.com/cu6e64y\r\r\rCompendium of the Social Doctrine of the Church, 85 http://tinyurl.com/kn6q5wm",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Soteriology",

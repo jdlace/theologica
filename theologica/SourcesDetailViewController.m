@@ -81,8 +81,8 @@
     
     
   
+
     
-    /*
     CGSize size = _sourceInformation.contentSize;
     CGRect frame = _sourceInformation.frame;
     frame.size.height = size.height;
@@ -91,7 +91,7 @@
     [_sourceInformation sizeToFit];
 
     _scrollView.contentSize = CGSizeMake(_sourceInformation.contentSize.width, _sourceInformation.frame.size.height + 120);
-    */
+    
     //added for Dynamic Type
     [[NSNotificationCenter defaultCenter]
      addObserver:self

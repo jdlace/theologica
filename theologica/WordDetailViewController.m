@@ -56,6 +56,27 @@
      selector:@selector(preferredContentSizeChanged:)
      name:UIContentSizeCategoryDidChangeNotification
      object:nil];
+    
+    
+    
+    CGSize size = _descriptionTextView.contentSize;
+    CGRect frame = _descriptionTextView.frame;
+    frame.size.height = size.height;
+    
+    _descriptionTextView.frame = frame;
+    [_descriptionTextView sizeToFit];
+    
+    _scrollView.contentSize = CGSizeMake(_descriptionTextView.contentSize.width, _descriptionTextView.frame.size.height + 135);
+    
+    //added for Dynamic Type
+    [[NSNotificationCenter defaultCenter]
+     addObserver:self
+     selector:@selector(preferredContentSizeChanged:)
+     name:UIContentSizeCategoryDidChangeNotification
+     object:nil];
+    
+ 
+
 }
 
 - (void)preferredContentSizeChanged:(NSNotification *)notification
