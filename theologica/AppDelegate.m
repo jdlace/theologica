@@ -14,11 +14,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    //UIColor *ios7BlueColor = [UIColor colorWithRed:0.0 green:130.0/200.0 blue:1.0 alpha:1.0];
+    //UIColor *ios7BlueColor = [UIColor colorWithRed:89/255.0f green:174/255.0f blue:235/255.0f alpha:1.0f];
     //[[UINavigationBar appearance] setBarTintColor: ios7BlueColor];
     //[[UINavigationBar appearance] setTintColor: [UIColor whiteColor]];
     
-    //[[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0x067AB5)];
+    
     
     
     [[TADataStore sharedStore] buildDictionaryWords];

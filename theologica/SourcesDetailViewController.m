@@ -24,7 +24,7 @@
     _sourceInformation.text = _currentSourceDetail.comment;
     _imageView.image = _currentSourceDetail.image;
     _sourcesPic.image = _currentSourceDetail.bigPic;
-    _scrollPic.image = _currentSourceDetail.scrollPic; 
+    //_scrollPic.image = _currentSourceDetail.scrollPic;
     
     self.sourceSubtitle.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
     
@@ -82,7 +82,7 @@
     
   
     
-    
+    /*
     CGSize size = _sourceInformation.contentSize;
     CGRect frame = _sourceInformation.frame;
     frame.size.height = size.height;
@@ -91,7 +91,7 @@
     [_sourceInformation sizeToFit];
 
     _scrollView.contentSize = CGSizeMake(_sourceInformation.contentSize.width, _sourceInformation.frame.size.height + 120);
-    
+    */
     //added for Dynamic Type
     [[NSNotificationCenter defaultCenter]
      addObserver:self
@@ -99,7 +99,7 @@
      name:UIContentSizeCategoryDidChangeNotification
      object:nil];
     
-    [attributedString addAttribute:NSFontAttributeName value:[UIFont systemFontOfSize:14] range:NSMakeRange(0, attributedString.length)];
+    [attributedString addAttribute:NSFontAttributeName value:[UIFont systemFontOfSize:15] range:NSMakeRange(0, attributedString.length)];
     [attributedString addAttribute:NSForegroundColorAttributeName value:[UIColor darkGrayColor] range:NSMakeRange(0, attributedString.length)]; 
 
     

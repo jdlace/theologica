@@ -28,6 +28,7 @@
     self.scrollView.delegate = self;
     
     //self.pageControl.defersCurrentPageDisplay = NO;
+    //[self.navigationController.navigationBar setBarStyle:UIStatusBarStyleLightContent];
 }
 
 

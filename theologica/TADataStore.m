@@ -2607,24 +2607,24 @@
     
     
     
-    [TAWord wordWithDict:@{@"name":@"Sacramental",
+    [TAWord wordWithDict:@{@"name":@"Sacramentals",
                            @"twitterDef":@"sacred signs that signify\rthe effects of Sacraments",
-                           @"definition":@"\rSacramentals dispose the Faithful to receive the grace of the Sacraments. They are instituted for the sanctification of various circumstances in the Christian vocation.\r\rFurther Reference:\rCatechism of the Catholic Church, 1667-1676\rhttp://tinyurl.com/oo3cp5p",
+                           @"definition":@"\rSacramentals dispose the Faithful to receive the grace of the Sacraments. They are instituted for the sanctification of various circumstances in the Christian vocation.\r\rFurther Reference:\rCatechism of the Catholic Church, 1667-1676 http://tinyurl.com/oo3cp5p",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Salvation",
-                           @"twitterDef":@"the experience of being saved from sin and eventually death",
-                           @"definition":@"\rThe experience of being saved from sin and eventually death.\r\rFurther Reference:\r",
+                           @"twitterDef":@"deliverance from sin and death",
+                           @"definition":@"\rSalvation is a theme that runs throughout the Scriptures. YHWH is referred to as a Savior in the Old Testament, and the New Testament refers to Jesus as the Savior of the world and the name by which all must be saved. The ancient dictum: Extra Ecclesium Nulla Salus (“Outside the Church there is no salvation.”) has been positively interpreted by the Fathers of the Second Vatican Council as meaning that non-Christians relate to the Church in various ways. Those who have never experienced the particular grace of the Holy Spirit may nevertheless be saved. See “Inclusivism”.\r\rFurther Reference:\rCatechism of the Catholic Church, 847\rhttp://tinyurl.com/oupb5",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Schism",
-                           @"twitterDef":@"the Greek word meaning “division”; a split in visible unity of the Church",
-                           @"definition":@"\rSchisms are not necessarily heresies; they are the result of a failure in discipline, which may include matters of belief. Schisms may result from non-doctrinal matters. Paul mentions a local schism in the church at Corinth. While every heresy necessarily involvesa schism, not every schism necessarily involves a heresy. See “Heresy”.\r\rFurther Reference:\rCatechism of the Catholic Church, 2089\rhttp://tinyurl.com/lu75a9k",
+                           @"twitterDef":@"the Greek word meaning “division”;\ra split in visible unity of the Church",
+                           @"definition":@"\rSchisms are not necessarily heresies; they are the result of a failure in discipline, which may include matters of belief. Schisms may result from non-doctrinal matters. St. Paul mentions a local schism in the church at Corinth. While every heresy necessarily involvesa schism, not every schism necessarily involves a heresy. See “Heresy”.\r\rFurther Reference:\rCatechism of the Catholic Church, 2089\rhttp://tinyurl.com/lu75a9k",
                            @"category":@"Systematic"}];
     
-    [TAWord wordWithDict:@{@"name":@"Selucid",
+    [TAWord wordWithDict:@{@"name":@"Seleucid",
                            @"twitterDef":@"the descendants of Alexander the Great that ruled in Syria",
-                           @"definition":@"\rthe descendants of Alexander the Great.\r\rFurther Reference:\r",
+                           @"definition":@"\rThe Sadducees were descendants of the Seleucid. See “Sadducess”.\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Social Justice",
@@ -2638,50 +2638,50 @@
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Sadducees",
-                           @"twitterDef":@"the elite class of Jerusalem-based Temple scribes that mediated with the Roman occupation",
-                           @"definition":@"\rthe elite class of Jerusalem-based Temple scribes.\r\rFurther Reference:\r",
+                           @"twitterDef":@"the elite class of Temple\r priests and scribes",
+                           @"definition":@"\rThe Sadducees were the group of priests that served at the Temple in Jerusalem. They mediated between the authority of Rome and the will of Israel. They were descendants of the Seleucids. See “Seleucids”.\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Satan",
-                           @"twitterDef":@"the adversarial being found in post-Exilic Hebrew literature that serves to represent evil events...",
+                           @"twitterDef":@"the adversarial, spiritual being\rfound in post-Exilic Hebrew literature",
                            @"definition":@"\rthe adversarial being found in post-Exilic Hebrew literature that serves to represent evil events.\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Septuagint",
-                           @"twitterDef":@"the Greek translation of the Old Testament made at the request of Alexander the Great",
+                           @"twitterDef":@"the Greek translation of\rthe Old Testament",
                            @"definition":@"\rthe Greek translation of the Old Testament made at the request of Alexander the Great.\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Source Criticism",
                            @"twitterDef":@"the analysis of the\runderlying source of a text",
-                           @"definition":@"\rthe exegetical criticism that seeks to decipher and analyze the underlying source of a text.\r\rFurther Reference:\r",
+                           @"definition":@"\rSource Criticism led to the formulation of the Documentary Hypothesis of the Torah and the Two-Source Theory of the Gospels. See “Documentary Hypothesis“, “Two-Source Theory“.\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Synagogue",
-                           @"twitterDef":@"The local place of weekly assembly for Jews during the Exile in Babylon",
-                           @"definition":@"\rThe local place of weekly assembly for Jews during the Exile in Babylon; carried over into post-Exilic Judaism - from the Greek “to go together“.\r\rFurther Reference:\r",
+                           @"twitterDef":@"the local gathering place of Jews for the Sabbath",
+                           @"definition":@"\rSynagogues developed during the Exile in Babylon as a means of preserving national and religious identity. They were carried over into post-Exilic, Second Temple Judaism. Jesus of Nazareth is portrayed as teaching in the synagogues of the Galilee in the Gospels. See “Second Temple Judaism“.\r\rGreek, συναγωγή (synagoge) “gathering“.\r\rFurther Reference:\rWikipedia, “Synagogue“\rhttp://tinyurl.com/yjbh2z",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Synchronic",
                            @"twitterDef":@"the type of truth that is relative to the time of a text's composition",
-                           @"definition":@"\rthe type of truth that is relative to the time of a text's composition, usually relating to the worldview of the author.\r\rFurther Reference:\r",
+                           @"definition":@"\rSynchronic truth relates to the worldview of the author. The Pontifical Biblical Commission \r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Synoptic",
-                           @"twitterDef":@"a Greek term meaning “to see together”; used to refer to the gospels of Matthew, Mark, and Luke due to their similarity",
-                           @"definition":@"\ra term meaning “to see together”; used to refer to the gospels of Matthew, Mark, and Luke due to their similarity of narrative and Christology contrasted with the gospel of John; from the Greek word συν (syn) - “together” and οπσις (opsis) - “appearance”.\r\rFurther Reference:\r",
+                           @"twitterDef":@"the gospels of Matthew, Mark, and Luke",
+                           @"definition":@"\ra term meaning “to see together”; used to refer to the gospels of Matthew, Mark, and Luke due to their similarity of narrative and Christology contrasted with the gospel of John.\r\rGreek, συν (syn) “together” and οπσις (opsis) “appearance”.\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Semiotics",
                            @"twitterDef":@"the study of signs and symbols used as elements of communication",
                            @"definition":@"\rthe study of signs and symbols used as elements of communication.\r\rFurther Reference:\r",
                            @"category":@"Cultural"}];
-    
+    /*
     [TAWord wordWithDict:@{@"name":@"Sociology",
                            @"twitterDef":@"The study of society",
                            @"definition":@"\rThe study of society.\r\rFurther Reference:\r",
                            @"category":@"Cultural"}];
-    
+    */
     
     [TAWord wordWithDict:@{@"name":@"Solidarity",
                            @"twitterDef":@"the fundamental unity of human beings which should be a criteria for determining justice",
@@ -2698,8 +2698,8 @@
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Supernormal Allurements",
-                           @"twitterDef":@"the attraction to concentrated quantities of substances that allowed hu;manity to evolve and flourish, such as sugar, salt, and sex",
-                           @"definition":@"\rthe attraction to concentrated quantities of substances that allowed hu;manity to evolve and flourish, such as sugar, salt, and sex.\r\rFurther Reference:\r",
+                           @"twitterDef":@"the attraction to concentrated quantities of substances that allowed humanity to evolve",
+                           @"definition":@"\rThese substances, such as sugar, salt, and fats, allowed the human species to become dominant on the earth.\r\rFurther Reference:\r",
                            @"category":@"Cultural"}];
     
     
