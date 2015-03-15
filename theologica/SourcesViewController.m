@@ -92,7 +92,7 @@
     else if ([segue.identifier isEqualToString:@"fathersDetail"])
     {
         Source *fathersSource = [[Source alloc] init];
-        fathersSource.name = @"Fathers of the Church";
+        fathersSource.name = @"Church Fathers";
         fathersSource.twitterDef = @"Stewards of the Faith";
         fathersSource.comment = @"\rThe Fathers of the Church occupy a special place in the Catholic Tradition.<scriptureImg1>Throughout the history of the Catholic tradition, the canon of Scripture has always played a central and dialectic role in the community life of the Church. The Hebrew Bible is the foundation of the Biblical tradition.\r\rThe Old Testament\r\rConsisting of the Hebrew canon plus seven additional books of the Apocrypha, the Old Testament contains the story of the people of Israel. It is divided into the Pentateuch, Historical Books, Prophets, and Wisdom Books.\r\rThe New Testament\r\rThe gospels of Matthew, Mark, Luke, and John narrate the life of Jesus through the perspective of faith in his divine sonship.<scriptureImg2>The manuscript tradition of the New Testament contains over 3,000 extant fragments and complete copies of the canonical 27 books. Codex Siniaiticus is the oldest extant complete copy of the New Testament (dating back to the 4th century) and papyrus fragment 52 is the oldest piece of the New Testament (dating back as early as A.D. 120).";
         fathersSource.image = [UIImage imageNamed:@"appicon"];

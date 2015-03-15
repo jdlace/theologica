@@ -54,7 +54,7 @@
     //images in detail view
     
     NSTextAttachment *scriptureAttachment1 = [[NSTextAttachment alloc] init];
-    scriptureAttachment1.image = [UIImage imageNamed:@"dss"];
+    scriptureAttachment1.image = [UIImage imageNamed:@"codex"];
     scriptureAttachment1.bounds = CGRectMake(0, -25, scriptureAttachment1.image.size.width, scriptureAttachment1.image.size.height);
     
     //NSTextAttachment *scriptureAttachment2 = [[NSTextAttachment alloc] init];
@@ -65,13 +65,13 @@
     //NSAttributedString *scriptureString2 = [NSAttributedString attributedStringWithAttachment:scriptureAttachment2];
 
     
-    NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:_currentSourceDetail.comment];
+    //NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:_currentSourceDetail.comment];
     
-    NSRange scriptureImgTag1 = [attributedString.string rangeOfString:@"<scriptureImg1>"];
+    //NSRange scriptureImgTag1 = [attributedString.string rangeOfString:@"<scriptureImg1>"];
     //NSRange scriptureImgTag2 = [_currentSourceDetail.comment rangeOfString:@"<scriptureImg2>"];
 
     
-    [attributedString replaceCharactersInRange:scriptureImgTag1  withAttributedString:scriptureString1];
+    //[attributedString replaceCharactersInRange:scriptureImgTag1  withAttributedString:scriptureString1];
     
     //[attributedString
 
@@ -99,11 +99,11 @@
      name:UIContentSizeCategoryDidChangeNotification
      object:nil];
     
-    [attributedString addAttribute:NSFontAttributeName value:[UIFont systemFontOfSize:15] range:NSMakeRange(0, attributedString.length)];
-    [attributedString addAttribute:NSForegroundColorAttributeName value:[UIColor darkGrayColor] range:NSMakeRange(0, attributedString.length)]; 
+    //[attributedString addAttribute:NSFontAttributeName value:[UIFont systemFontOfSize:15] range:NSMakeRange(0, attributedString.length)];
+    //[attributedString addAttribute:NSForegroundColorAttributeName value:[UIColor darkGrayColor] range:NSMakeRange(0, attributedString.length)];
 
     
-    _sourceInformation.attributedText = attributedString;
+    //_sourceInformation.attributedText = attributedString;
     
 }
 

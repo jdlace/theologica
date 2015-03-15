@@ -34,7 +34,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-        self.save = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"bookmarklines"] style:UIBarButtonItemStylePlain target:self action:@selector(saveBookmark)];
+    self.save = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"bookmarklines"] style:UIBarButtonItemStylePlain target:self action:@selector(saveBookmark)];
     
     self.share = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:self action:@selector(share:)];
     
@@ -50,6 +50,7 @@
     self.twitterLabel.text = self.word.twitterDef;
     self.descriptionTextView.text = self.word.definition;
     //_imageView.image = _currentWordDetail.image;
+    //self.title = self.nameLabel.text;
     
     [[NSNotificationCenter defaultCenter]
      addObserver:self
@@ -66,7 +67,7 @@
     _descriptionTextView.frame = frame;
     [_descriptionTextView sizeToFit];
     
-    _scrollView.contentSize = CGSizeMake(_descriptionTextView.contentSize.width, _descriptionTextView.frame.size.height + 135);
+    _scrollView.contentSize = CGSizeMake(_descriptionTextView.contentSize.width, _descriptionTextView.frame.size.height + 148);
     
     //added for Dynamic Type
     [[NSNotificationCenter defaultCenter]
