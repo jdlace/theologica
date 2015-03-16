@@ -90,7 +90,7 @@
     _sourceInformation.frame = frame;
     [_sourceInformation sizeToFit];
 
-    _scrollView.contentSize = CGSizeMake(_sourceInformation.contentSize.width, _sourceInformation.frame.size.height + 120);
+    _scrollView.contentSize = CGSizeMake(_sourceInformation.contentSize.width, _sourceInformation.frame.size.height + 135);
     
     //added for Dynamic Type
     [[NSNotificationCenter defaultCenter]

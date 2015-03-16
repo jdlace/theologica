@@ -52,7 +52,7 @@
         _locationDescription.frame = frame;
         [_locationDescription sizeToFit];
         
-        _scrollView.contentSize = CGSizeMake(_locationDescription.contentSize.width, _locationDescription.frame.size.height + 120);
+        _scrollView.contentSize = CGSizeMake(_locationDescription.contentSize.width, _locationDescription.frame.size.height + 135);
     /*
         // fit the our popover size to match our image size
         UIImageView *imageView = (UIImageView *)self.view;

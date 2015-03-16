@@ -28,10 +28,19 @@
 		692ED2B21796F466008554F9 /* DictionaryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2B11796F466008554F9 /* DictionaryTableViewController.m */; };
 		692ED2B51796F48B008554F9 /* WordDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2B41796F48B008554F9 /* WordDetailViewController.m */; };
 		6932282C1A5256AF00528421 /* SourcesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6932282B1A5256AF00528421 /* SourcesViewController.m */; };
+		6939B7D11AB5BF8100DBA0E6 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6939B7C91AB5BF8100DBA0E6 /* TwitterKit.framework */; };
+		6939B7D21AB5BF8100DBA0E6 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6939B7CA1AB5BF8100DBA0E6 /* TwitterKitResources.bundle */; };
+		6939B7D31AB5BF8100DBA0E6 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6939B7CB1AB5BF8100DBA0E6 /* Fabric.framework */; };
+		6939B7D41AB5BF8100DBA0E6 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6939B7CC1AB5BF8100DBA0E6 /* Accounts.framework */; };
+		6939B7D51AB5BF8100DBA0E6 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6939B7CD1AB5BF8100DBA0E6 /* AddressBook.framework */; };
+		6939B7D61AB5BF8100DBA0E6 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6939B7CE1AB5BF8100DBA0E6 /* CoreText.framework */; };
+		6939B7D71AB5BF8100DBA0E6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6939B7CF1AB5BF8100DBA0E6 /* Security.framework */; };
+		6939B7D81AB5BF8100DBA0E6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6939B7D01AB5BF8100DBA0E6 /* QuartzCore.framework */; };
 		694E879A1A55C5AB00CE4A37 /* LinksTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 694E87991A55C5AB00CE4A37 /* LinksTableViewController.m */; };
 		694E879E1A55D52400CE4A37 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 694E879D1A55D52400CE4A37 /* WebViewController.m */; };
 		694E87A41A56504F00CE4A37 /* Source.m in Sources */ = {isa = PBXBuildFile; fileRef = 694E87A31A56504F00CE4A37 /* Source.m */; };
 		6954D6FF1A884E17004374F0 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6954D6FE1A884E17004374F0 /* AboutViewController.m */; };
+		695847CE1AB5C9B90085251C /* TwitterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 695847CD1AB5C9B90085251C /* TwitterTableViewController.m */; };
 		69739B561A36897F008BAB06 /* SearchBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69739B551A36897F008BAB06 /* SearchBarViewController.m */; };
 		6976E3021A6F3E8D0013A6D5 /* Links.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6976E3011A6F3E8D0013A6D5 /* Links.plist */; };
 		698893B81A5E24CE00D1AC74 /* SourcesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 698893B71A5E24CE00D1AC74 /* SourcesDetailViewController.m */; };
@@ -100,6 +109,14 @@
 		692ED2B41796F48B008554F9 /* WordDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordDetailViewController.m; sourceTree = "<group>"; };
 		6932282A1A5256AF00528421 /* SourcesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourcesViewController.h; sourceTree = "<group>"; };
 		6932282B1A5256AF00528421 /* SourcesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SourcesViewController.m; sourceTree = "<group>"; };
+		6939B7C91AB5BF8100DBA0E6 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		6939B7CA1AB5BF8100DBA0E6 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		6939B7CB1AB5BF8100DBA0E6 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		6939B7CC1AB5BF8100DBA0E6 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		6939B7CD1AB5BF8100DBA0E6 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		6939B7CE1AB5BF8100DBA0E6 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		6939B7CF1AB5BF8100DBA0E6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		6939B7D01AB5BF8100DBA0E6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		694E87981A55C5AB00CE4A37 /* LinksTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinksTableViewController.h; sourceTree = "<group>"; };
 		694E87991A55C5AB00CE4A37 /* LinksTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinksTableViewController.m; sourceTree = "<group>"; };
 		694E879C1A55D52400CE4A37 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
@@ -108,6 +125,8 @@
 		694E87A31A56504F00CE4A37 /* Source.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Source.m; sourceTree = "<group>"; };
 		6954D6FD1A884E17004374F0 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutViewController.h; path = ../AboutViewController.h; sourceTree = "<group>"; };
 		6954D6FE1A884E17004374F0 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutViewController.m; path = ../AboutViewController.m; sourceTree = "<group>"; };
+		695847CC1AB5C9B90085251C /* TwitterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TwitterTableViewController.h; path = ../TwitterTableViewController.h; sourceTree = "<group>"; };
+		695847CD1AB5C9B90085251C /* TwitterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TwitterTableViewController.m; path = ../TwitterTableViewController.m; sourceTree = "<group>"; };
 		69739B541A36897F008BAB06 /* SearchBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchBarViewController.h; sourceTree = "<group>"; };
 		69739B551A36897F008BAB06 /* SearchBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchBarViewController.m; sourceTree = "<group>"; };
 		6976E3011A6F3E8D0013A6D5 /* Links.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Links.plist; sourceTree = "<group>"; };
@@ -156,15 +175,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6939B7D81AB5BF8100DBA0E6 /* QuartzCore.framework in Frameworks */,
 				9BA06E701A83631900A6A19E /* CoreData.framework in Frameworks */,
+				6939B7D71AB5BF8100DBA0E6 /* Security.framework in Frameworks */,
+				6939B7D11AB5BF8100DBA0E6 /* TwitterKit.framework in Frameworks */,
+				6939B7D41AB5BF8100DBA0E6 /* Accounts.framework in Frameworks */,
 				69B8D93A1A4138B600186EA2 /* CoreLocation.framework in Frameworks */,
+				6939B7D61AB5BF8100DBA0E6 /* CoreText.framework in Frameworks */,
 				FA9323091A1E6DE8008CF833 /* MapKit.framework in Frameworks */,
 				FA3683D31A1155AA00E9740F /* MobileCoreServices.framework in Frameworks */,
 				FA3683CD1A1144F300E9740F /* Social.framework in Frameworks */,
 				692ED24B1796D552008554F9 /* UIKit.framework in Frameworks */,
 				698F27AE1A6D85260065F8A6 /* CloudKit.framework in Frameworks */,
 				692ED24D1796D552008554F9 /* Foundation.framework in Frameworks */,
+				6939B7D51AB5BF8100DBA0E6 /* AddressBook.framework in Frameworks */,
 				692ED24F1796D552008554F9 /* CoreGraphics.framework in Frameworks */,
+				6939B7D31AB5BF8100DBA0E6 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +221,14 @@
 			children = (
 				6976E3011A6F3E8D0013A6D5 /* Links.plist */,
 				698F27AC1A6D837F0065F8A6 /* theologica.entitlements */,
+				6939B7C91AB5BF8100DBA0E6 /* TwitterKit.framework */,
+				6939B7CA1AB5BF8100DBA0E6 /* TwitterKitResources.bundle */,
+				6939B7CB1AB5BF8100DBA0E6 /* Fabric.framework */,
+				6939B7CC1AB5BF8100DBA0E6 /* Accounts.framework */,
+				6939B7CD1AB5BF8100DBA0E6 /* AddressBook.framework */,
+				6939B7CE1AB5BF8100DBA0E6 /* CoreText.framework */,
+				6939B7CF1AB5BF8100DBA0E6 /* Security.framework */,
+				6939B7D01AB5BF8100DBA0E6 /* QuartzCore.framework */,
 				6907A2081A14525300EA7CF4 /* View */,
 				692ED2501796D552008554F9 /* Controllers */,
 				69BB25461A130E8200B3F5B5 /* Data Model */,
@@ -353,6 +387,8 @@
 			children = (
 				6954D6FD1A884E17004374F0 /* AboutViewController.h */,
 				6954D6FE1A884E17004374F0 /* AboutViewController.m */,
+				695847CC1AB5C9B90085251C /* TwitterTableViewController.h */,
+				695847CD1AB5C9B90085251C /* TwitterTableViewController.m */,
 				6932282A1A5256AF00528421 /* SourcesViewController.h */,
 				6932282B1A5256AF00528421 /* SourcesViewController.m */,
 				698893B61A5E24CE00D1AC74 /* SourcesDetailViewController.h */,
@@ -407,6 +443,7 @@
 				692ED2441796D552008554F9 /* Frameworks */,
 				692ED2451796D552008554F9 /* Resources */,
 				69989AD519FF2D5D0009ABAE /* Embed App Extensions */,
+				6939B7C81AB5BF4600DBA0E6 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -462,6 +499,7 @@
 				690248B717F05294009D6811 /* bookmark@2x.png in Resources */,
 				692ED2641796D552008554F9 /* MainStoryboard.storyboard in Resources */,
 				69B52BAB1A0EF6C100C23B47 /* Launch Screen.xib in Resources */,
+				6939B7D21AB5BF8100DBA0E6 /* TwitterKitResources.bundle in Resources */,
 				692ED2841796E04B008554F9 /* bible@2x.png in Resources */,
 				692ED2861796E04B008554F9 /* church.png in Resources */,
 				692ED2871796E04B008554F9 /* church@2x.png in Resources */,
@@ -479,12 +517,29 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6939B7C81AB5BF4600DBA0E6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run b7cd02ca1403c5d3fa11e3bf454efa27752215ed 4cd45286540a9b2a4fe485af26e38503cc8e5b1306c7d408e6cdc8f46c9743d8\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		692ED2431796D552008554F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				69B8D9381A4122B300186EA2 /* BiblicalPins.m in Sources */,
+				695847CE1AB5C9B90085251C /* TwitterTableViewController.m in Sources */,
 				692ED2571796D552008554F9 /* main.m in Sources */,
 				9BA06E331A833B4800A6A19E /* TADataStore.m in Sources */,
 				6932282C1A5256AF00528421 /* SourcesViewController.m in Sources */,
@@ -597,6 +652,10 @@
 				CODE_SIGN_ENTITLEMENTS = theologica/theologica.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "theologica/theologica-Prefix.pch";
 				INFOPLIST_FILE = "theologica/theologica-Info.plist";
@@ -615,6 +674,10 @@
 				CODE_SIGN_ENTITLEMENTS = theologica/theologica.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "theologica/theologica-Prefix.pch";
 				INFOPLIST_FILE = "theologica/theologica-Info.plist";

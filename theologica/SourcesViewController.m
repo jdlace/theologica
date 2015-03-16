@@ -8,6 +8,9 @@
 
 #import "SourcesViewController.h"
 #import "SourcesDetailViewController.h"
+#import "TwitterTableViewController.h"
+#import <TwitterKit/TwitterKit.h>
+
 
 @interface SourcesViewController ()
 
@@ -29,6 +32,16 @@
     
     //self.pageControl.defersCurrentPageDisplay = NO;
     //[self.navigationController.navigationBar setBarStyle:UIStatusBarStyleLightContent];
+/*
+    [[Twitter sharedInstance] logInGuestWithCompletion:^(TWTRGuestSession *guestSession, NSError *error)
+    {
+        [[[Twitter sharedInstance] APIClient] loadTweetWithID:@"20" completion:^(TWTRTweet *tweet, NSError *error)
+         {
+            TWTRTweetView *tweetView = [[TWTRTweetView alloc] initWithTweet:tweet style:TWTRTweetViewStyleRegular];
+            [self.view addSubview:tweetView];
+        }];
+    }];
+*/
 }
 
 
@@ -82,7 +95,7 @@
         Source *catechismSource = [[Source alloc] init];
         catechismSource.name = @"Magisterium";
         catechismSource.twitterDef = @"The Teaching Authority of the Church";
-        catechismSource.comment = @"The Magisterium represents the teaching authority of the Church.<scriptureImg1>";
+        catechismSource.comment = @"\rThe Magisterium represents the teaching authority of the Church which derives from the prophetic office of Christ. The Church formulates its teaching from the Deposit of Faith, which it received from the Apostles. In the hierarchy of the Church, the Bishops are the successors of the Apostles and the primary responsibles for teaching the Faith. The Magisterium shares in the Infallibility of the Church when it teaches in communion with the Bishop of Rome, the Pope.<scriptureImg1>";
         catechismSource.image = [UIImage imageNamed:@"appIconGradient3"];
         catechismSource.bigPic = [UIImage imageNamed:@"peter"];
         UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Sources" style:UIBarButtonItemStylePlain target:nil action:nil];
@@ -94,13 +107,163 @@
         Source *fathersSource = [[Source alloc] init];
         fathersSource.name = @"Church Fathers";
         fathersSource.twitterDef = @"Stewards of the Faith";
-        fathersSource.comment = @"\rThe Fathers of the Church occupy a special place in the Catholic Tradition.<scriptureImg1>Throughout the history of the Catholic tradition, the canon of Scripture has always played a central and dialectic role in the community life of the Church. The Hebrew Bible is the foundation of the Biblical tradition.\r\rThe Old Testament\r\rConsisting of the Hebrew canon plus seven additional books of the Apocrypha, the Old Testament contains the story of the people of Israel. It is divided into the Pentateuch, Historical Books, Prophets, and Wisdom Books.\r\rThe New Testament\r\rThe gospels of Matthew, Mark, Luke, and John narrate the life of Jesus through the perspective of faith in his divine sonship.<scriptureImg2>The manuscript tradition of the New Testament contains over 3,000 extant fragments and complete copies of the canonical 27 books. Codex Siniaiticus is the oldest extant complete copy of the New Testament (dating back to the 4th century) and papyrus fragment 52 is the oldest piece of the New Testament (dating back as early as A.D. 120).";
+        fathersSource.comment = @"\rThe Fathers of the Church occupy a special place in the Catholic Tradition. They were the earliest intepreters of the Faith against heresies and controversies through the first eight centuries of the Church. The age of the Fathers ususally is dated from the end of the 2nd century through the the end of the 8th century.The most frequently used organization of the Fathers is made in reference to the Nicene Council:\r\r-Ante-Nicene\r-Nicene\r-Post-Nicene\r\rAnte-Nicene Fathers\r\rThe Ante-Nicene fathers include writers such as St. Clement of Rome, St. Justin Martyr, St. Irenaeus of Lyon, Origen of Alexandria, St. Clement of Alexandria, Tertullian of Carthage, St. Hippolytus of Rome, St. Polycarp of Smyrna, and St. Ignatius of Antioch.\r\rNicene Fathers\r\rThe Nicene Fathers include writers such as St. Athanasius, .....\r\rPost-Nicene Fathers\r\rThe Post-Nicene Fathers include the largest range of writers...";
         fathersSource.image = [UIImage imageNamed:@"appicon"];
         fathersSource.bigPic = [UIImage imageNamed:@"fathers"];
         UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Sources" style:UIBarButtonItemStylePlain target:nil action:nil];
         self.navigationItem.backBarButtonItem = backButton;
         ((SourcesDetailViewController *)segue.destinationViewController).currentSourceDetail = fathersSource;
     }
+    
+    else if ([segue.identifier isEqualToString:@"liturgyDetail"])
+        {
+        Source *liturgySource = [[Source alloc] init];
+        liturgySource.name = @"Liturgy";
+        liturgySource.twitterDef = @"The Worship of the Church";
+        liturgySource.comment = @"\fThe liturgy of the Church expresses what it believes. Lex Orandi-Lex Credendi.";
+        liturgySource.image = [UIImage imageNamed:@"appicon"];
+        liturgySource.bigPic = [UIImage imageNamed:@"stained"];
+        //liturgySource.scrollPic = [UIImage imageNamed:@"stainedColor"];
+        UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Sources"
+                    style:UIBarButtonItemStylePlain
+                   target:nil
+                   action:nil];
+        self.navigationItem.backBarButtonItem = backButton;
+        ((SourcesDetailViewController *)segue.destinationViewController).currentSourceDetail = liturgySource;
+
+        }
+    
+    else if ([segue.identifier isEqualToString:@"councilsDetail"])
+        {
+        Source *councilsSource = [[Source alloc] init];
+        councilsSource.name = @"Ecumenical Councils";
+        councilsSource.twitterDef = @"The Church Seeking Discernment";
+        councilsSource.comment = @"\rEcumenical Councils are called to settle matters of faith and practice.";
+        councilsSource.image = [UIImage imageNamed:@"appicon"];
+        UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Sources"
+                    style:UIBarButtonItemStylePlain
+                   target:nil
+                  action:nil];
+        self.navigationItem.backBarButtonItem = backButton;
+         ((SourcesDetailViewController *)segue.destinationViewController).currentSourceDetail = councilsSource;
+        
+        }
+    
+    else if ([segue.identifier isEqualToString:@"creedsDetail"])
+        {
+        Source *creedsSource = [[Source alloc] init];
+        creedsSource.name = @"Creeds";
+        creedsSource.twitterDef = @"Statements of Faith";
+        creedsSource.comment = @"\rThe Creeds of the Church give expression to the Faith of the Church.";
+        creedsSource.image = [UIImage imageNamed:@"appicon"];
+        UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Sources"
+                    style:UIBarButtonItemStylePlain
+                   target:nil
+                   action:nil];
+        self.navigationItem.backBarButtonItem = backButton;
+        ((SourcesDetailViewController *)segue.destinationViewController).currentSourceDetail = creedsSource;
+        }
+    
+    else if ([segue.identifier isEqualToString:@"scienceDetail"])
+        {
+        Source *scienceSource = [[Source alloc] init];
+        scienceSource.name = @"Science";
+        scienceSource.twitterDef = @"Knowlege of the Physical World";
+        scienceSource.comment = @"\rAs a separate but related domain of knowledge, science is akin to theology in that it involves a specific methodology designed to answer a specific set of questions about human experience.";
+        scienceSource.image = [UIImage imageNamed:@"appicon"];
+        scienceSource.bigPic = [UIImage imageNamed:@"station"];
+    //scienceSource.scrollPic = [UIImage imageNamed:@"station"];
+        UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Signs"
+                    style:UIBarButtonItemStylePlain
+                   target:nil
+                  action:nil];
+        self.navigationItem.backBarButtonItem = backButton;
+        ((SourcesDetailViewController *)segue.destinationViewController).currentSourceDetail = scienceSource;
+        }
+    
+    else if ([segue.identifier isEqualToString:@"philosophyDetail"])
+        {
+        Source *philosophySource = [[Source alloc] init];
+        philosophySource.name = @"Philosophy";
+        philosophySource.twitterDef = @"The Love of Wisdom";
+        philosophySource.comment = @"\rPhilosophy has an authentic independence from theology.";
+        philosophySource.image = [UIImage imageNamed:@"appicon"];
+        philosophySource.bigPic = [UIImage imageNamed:@"thinker"];
+        //scienceSource.scrollPic = [UIImage imageNamed:@"station"];
+        UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Signs"
+                    style:UIBarButtonItemStylePlain
+                   target:nil
+                  action:nil];
+        self.navigationItem.backBarButtonItem = backButton;
+        ((SourcesDetailViewController *)segue.destinationViewController).currentSourceDetail = philosophySource;
+        }
+    
+    else if ([segue.identifier isEqualToString:@"technologyDetail"])
+        {
+        
+        Source *technologySource = [[Source alloc] init];
+        technologySource.name = @"Technology";
+        technologySource.twitterDef = @"Tools From and For Human Development";
+        technologySource.comment = @"\rSince it coincided with and enabled the evolution of homo sapiens, technology has always influenced and been an expression of human creativity.";
+        technologySource.image = [UIImage imageNamed:@"appicon"];
+        UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Signs"
+                                                                       style:UIBarButtonItemStylePlain
+                                                                      target:nil
+                                                                      action:nil];
+        self.navigationItem.backBarButtonItem = backButton;
+        ((SourcesDetailViewController *)segue.destinationViewController).currentSourceDetail = technologySource;
+
+        }
+    
+    else if ([segue.identifier isEqualToString:@"economicsDetail"])
+        {
+        Source *economicsSource = [[Source alloc] init];
+        economicsSource.name = @"Economics";
+        economicsSource.twitterDef = @"Material Goods and Services";
+        economicsSource.comment = @"\rHuman development is includes an economic aspect.";
+        economicsSource.image = [UIImage imageNamed:@"appicon"];
+        UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Signs"
+                                                                       style:UIBarButtonItemStylePlain
+                                                                      target:nil
+                                                                      action:nil];
+        self.navigationItem.backBarButtonItem = backButton;
+        ((SourcesDetailViewController *)segue.destinationViewController).currentSourceDetail = economicsSource;
+        
+        }
+    else if ([segue.identifier isEqualToString:@"artsDetail"])
+        {
+        Source *artsSource = [[Source alloc] init];
+        artsSource.name = @"Politics";
+        artsSource.twitterDef = @"The Affairs of the People";
+        artsSource.comment = @"\rThe regulation of human society is essential to its survival and development.";
+        artsSource.image = [UIImage imageNamed:@"appicon"];
+        
+        UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Signs"
+                                                                       style:UIBarButtonItemStylePlain
+                                                                      target:nil
+                                                                      action:nil];
+        self.navigationItem.backBarButtonItem = backButton;
+        ((SourcesDetailViewController *)segue.destinationViewController).currentSourceDetail = artsSource;
+        }
+    else if ([segue.identifier isEqualToString:@"politicsDetail"])
+        {
+        Source *politicsSource = [[Source alloc] init];
+        politicsSource.name = @"Politics";
+        politicsSource.twitterDef = @"The Affairs of the People";
+        politicsSource.comment = @"\rThe regulation of human society is essential to its survival and development.";
+        politicsSource.image = [UIImage imageNamed:@"appicon"];
+        
+        SourcesDetailViewController *sourcesDetailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"SourcesDetailViewController"];
+        
+        sourcesDetailViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+        
+        UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Signs"
+                                                                       style:UIBarButtonItemStylePlain target:nil action:nil];
+        self.navigationItem.backBarButtonItem = backButton;
+        ((SourcesDetailViewController *)segue.destinationViewController).currentSourceDetail = politicsSource;
+
+        }
+
 }
 
 - (IBAction)scriptureButton:(id)sender
@@ -183,6 +346,7 @@
 
 - (IBAction)liturgyButton:(id)sender
 {
+/*
     Source *liturgySource = [[Source alloc] init];
     liturgySource.name = @"Liturgy";
     liturgySource.twitterDef = @"The Worship of the Church";
@@ -204,14 +368,15 @@
     
     
     [self.navigationController pushViewController:sourcesDetailViewController animated:YES];
-    
+*/
 }
 
 - (IBAction)councilsButton:(id)sender
 {
+    /*
     Source *councilsSource = [[Source alloc] init];
     councilsSource.name = @"Ecumenical Councils";
-    councilsSource.twitterDef = @"The Church Seeking Discernment";
+    councilsSource.twitterDef = @"\rThe Church Seeking Discernment";
     councilsSource.comment = @"\rEcumenical Councils are called to settle matters of faith and practice.";
     councilsSource.image = [UIImage imageNamed:@"appicon"];
     
@@ -227,10 +392,12 @@
 
     
     [self.navigationController pushViewController:sourcesDetailViewController animated:YES];
+     */
 }
 
 - (IBAction)scienceButton:(id)sender
 {
+    /*
     Source *scienceSource = [[Source alloc] init];
     scienceSource.name = @"Science";
     scienceSource.twitterDef = @"Knowlege of the Physical World";
@@ -251,13 +418,16 @@
     sourcesDetailViewController.currentSourceDetail = scienceSource;
     
     [self.navigationController pushViewController:sourcesDetailViewController animated:YES];}
-
+*/
+}
 - (IBAction)artsButton:(id)sender
 {
+    
+    /*
     Source *artsSource = [[Source alloc] init];
     artsSource.name = @"The Arts";
     artsSource.twitterDef = @"The Heart in Motion";
-    artsSource.comment = @"The Arts express the existential situation of the human person.";
+    artsSource.comment = @"\rThe Arts express the existential situation of the human person.";
     artsSource.image = [UIImage imageNamed:@"appicon"];
     
     SourcesDetailViewController *sourcesDetailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"SourcesDetailViewController"];
@@ -273,10 +443,12 @@
     
     
     [self.navigationController pushViewController:sourcesDetailViewController animated:YES];
+     */
 }
 
 - (IBAction)mediaButton:(id)sender
 {
+    /*
     Source *mediaSource = [[Source alloc] init];
     mediaSource.name = @"Technology";
     mediaSource.twitterDef = @"Tools From and For Human Development";
@@ -296,10 +468,12 @@
     
     
     [self.navigationController pushViewController:sourcesDetailViewController animated:YES];
+     */
 }
 
 - (IBAction)politicsButton:(id)sender
 {
+    /*
     Source *politicsSource = [[Source alloc] init];
     politicsSource.name = @"Politics";
     politicsSource.twitterDef = @"The Affairs of the People";
@@ -319,10 +493,12 @@
     
     
     [self.navigationController pushViewController:sourcesDetailViewController animated:YES];
+     */
 }
 
 - (IBAction)philosophyButton:(id)sender
 {
+    /*
     Source *philosophySource = [[Source alloc] init];
     philosophySource.name = @"Philosophy";
     philosophySource.twitterDef = @"The Love of Wisdom";
@@ -344,6 +520,7 @@
 
     
     [self.navigationController pushViewController:sourcesDetailViewController animated:YES];
+     */
 }
 
 - (IBAction)theologicaButton:(id)sender
@@ -412,16 +589,16 @@
 - (IBAction)infoButton:(id)sender
 {
     
-    AboutViewController *infoDetail = [[self storyboard]
-                                          instantiateViewControllerWithIdentifier:@"AboutViewController"];
+    TwitterTableViewController *tweets = [[self storyboard]
+                                          instantiateViewControllerWithIdentifier:@"TwitterTableViewController"];
     
-    [infoDetail view];
-    
+    [tweets view];
+    /*
     infoDetail.textView.text = @"\rThank you for purchasing Theologica; the simple, yet comprehensive, Catholic theological resource for the iPhone. Drawing from the rich treasures of the intellectual tradition of the Church, from the 1st to the 21st century, this is app is designed to be an essential study tool for both students and teachers of Theology as well as anyone who is called to “think faith”.\r\rFollow @theologica_ on Twitter\rhttps://twitter.com/theologica_\r\rFor questions, concerns, or comments please email techrament@icloud.com";
+    */
+    tweets.modalPresentationStyle = UIModalPresentationPopover;
     
-    infoDetail.modalPresentationStyle = UIModalPresentationPopover;
-    
-    [self.navigationController presentViewController:infoDetail animated:YES completion:nil];
+    [self.navigationController presentViewController:tweets animated:YES completion:nil];
     
 
     

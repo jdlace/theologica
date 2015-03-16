@@ -2531,6 +2531,11 @@
                            @"definition":@"\rPhysicalism has received from support from modern neuroscience. Various Christian philosophers, such as Nancy Murphy, are advocates of a non-reductive, physicalist anthropology.\r\rFurther Reference:\rNancey Murphy, “Is Non-Reductive Physicalism an Oxymoron?”\rhttp://tinyurl.com/po8oo85",
                            @"category":@"Cultural"}];
     
+    [TAWord wordWithDict:@{@"name":@"Poetic Books",
+                           @"twitterDef":@"the third of four sections in the\rOld Testament",
+                           @"definition":@"\rThe third of four sections in the Old Testament; it consists mainly of various writings; contains Job, Psalms, Proverbs, Ecclesiastes, Song of Songs, Wisdom, and Sirach.\r\rFurther Reference:\r",
+                           @"category":@"Biblical"}];
+    
     [TAWord wordWithDict:@{@"name":@"Problem of Evil",
                            @"twitterDef":@"the philosophical problem of belief in God and the experience of evil",
                            @"definition":@"\rThe Problem of Evil can be traced to the writings of the Greek philosopher Epicurus. It takes two forms: logical and evidential. The former results from belief in Divine omniscience, omnipotence, and omnibenevolence and the experience of suffering and evil in the world producing a logical inconsistency. It proposes the question: if God is all-loving, all-knowing, and all-powerful, why does evil (particularly so-called natural evil) exist? If not seen as logically incompatible, the evidential form of the Problem of Evil claims that such evil severely lowers the probability of the truth of Theism. See “Omnibenevolence”, “Omniscience”, “Omnipotence”, “Theism”, “Theodicy”.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy, “The Problem of Evil”\rhttp://tinyurl.com/mvkoe4",
@@ -2578,7 +2583,7 @@
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Ressourcement",
-                           @"twitterDef":@"a French term meaning “to return to the sources”",
+                           @"twitterDef":@"a French term meaning\r“to return to the sources”",
                            @"definition":@"\rtThis term is used by some theologians as the preferred interpretation of the purpose of Vatican II; that being a return to the Patristic sources of the Church. It was given the French designation, La Nouvelle Theologie (The New Theology) by its critics who accused the movement of being, instead of true return to the sources, the invention of a new theology which was too accommodating to the errors of Modernism.\r\rSee “Aggiornomento”, “Modernism”.\r\rFurther Reference:\rLa Nouvelle Theologie, Ressourcement\rhttp://tinyurl.com/lt3ph7g",
                            @"category":@"Systematic"}];
     
@@ -2716,42 +2721,42 @@
     
     [TAWord wordWithDict:@{@"name":@"Theological Notes",
                            @"twitterDef":@"qualifications of different Church teachings\ras having different levels of authority",
-                           @"definition":@"\rTheological Notes are given to clarify the level of authority of a particular doctrine. Not every doctrine is, of itself, infallible. Noninfallible teaching, while believed to be definitive, is nevertheless subject to revision. The International Theological Commission distinguished between common doctrines of the Church and faith of the Church:\r\r“The fact that tradition is a really live reality explains why there are so many declarations by the Magisterium of varying importance and varying degrees of obligation. To gauge these exactly and to interpret them, theology has worked out the doctrine of theological qualifications or notes, which, to some extent, the Magisterium has adopted. In recent times, this approach has unfortunately been more or less forgotten. But it is useful in the interpretation of dogma and should therefore be repristinated and developed further.”\r\rTo illustrate this point, the doctrine of Limbo, even though taught by Popes and the Magisterium as part of the common doctrine of the Church, nevertheless was never infallibly defined as being a part of Divine Revelation. As such, it was qualified as being theological opinion and not of the Faith in 2007 by the International Theological Commission.\r\rFurther Reference:\rInternational Theological Commission, “The Interpretation of Dogma”\rhttp://tinyurl.com/md9yco5",
+                           @"definition":@"\rTheological Notes are given to clarify the level of authority of a particular doctrine. Not every doctrine is, of itself, infallible. Noninfallible teaching, while believed to be definitive, is nevertheless subject to revision. The International Theological Commission distinguished between common doctrines of the Church and faith of the Church:\r\r“The fact that tradition is a really live reality explains why there are so many declarations by the Magisterium of varying importance and varying degrees of obligation. To gauge these exactly and to interpret them, theology has worked out the doctrine of theological qualifications or notes, which, to some extent, the Magisterium has adopted. In recent times, this approach has unfortunately been more or less forgotten. But it is useful in the interpretation of dogma and should therefore be repristinated and developed further.”\r\rTo illustrate this point, the doctrine of Limbo, even though taught by Popes and the Magisterium as part of the common doctrine of the Church, was never infallibly defined as being a part of Divine Revelation. As such, it was qualified as being theological opinion and not of the Faith in 2007 by the International Theological Commission.\r\rFurther Reference:\rInternational Theological Commission, “The Interpretation of Dogma”\rhttp://tinyurl.com/md9yco5",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Theologoumenon",
                            @"twitterDef":@"a theological opinion on a disputable matter that has not been defined in Church teaching",
-                           @"definition":@"\rThe belief in Limbo was an example of a theologoumenon. The International Theological Commission clarified the Church's teaching on the fate un unbaptized infants in 2007. See “Theological Notes”.\r\rFurther Reference:\r",
+                           @"definition":@"\rThe belief in Limbo was an example of a theologoumenon. The International Theological Commission clarified the Church's teaching on the Limbo in 2007. See “Theological Notes”.\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Theology",
                            @"twitterDef":@"faith seeking understanding",
-                           @"definition":@"\rTheology has been traditionally understood to be... \r\rFurther Reference:\r",
+                           @"definition":@"\rTheology has been traditionally understood as the intelligence of faith. Theology uses philosophical tools in its quest to better understand the content of Revelation, which it takes as its point of departure. The International Theological Commission has identified several criteria for authentic Catholic theology.\r\rTheology..\r\r-recognizes the primacy of the Word of God\r\r-understands the Faith of the Church as its source, context, and norm\r\r-seeks to understand the rationality of faith\r\r-draws upon and promotes the Scriptural witness of the Faith\r\r-stands in fidelity to the Apostolic Tradition\r\r-is attentive to the sensus fidelium\r\r-adheres respsonsibly to the Magisterium in its various gradations\r\r-is practiced in prayerful collaboration within the theological community and larger communion of the Church\r\r-is in constant dialogue with the world\r\r-strives to rationally articulate the truths of the Christian Faith\r\r-attempts to integrate diverse methods and enquiries into a unified project\r\r-seeks and delights in the wisdom of God\r\rFurther Reference:\rInternational Theological Commission, “Theology Today: Perspectives, Principles, and Criteria” http://tinyurl.com/brdt29m",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Theosis",
-                           @"twitterDef":@"the process of becoming like God, emphasized in the Easter Orthodox tradition",
-                           @"definition":@"\rThe process of becoming like God, emphasized in the Easter Orthodox tradition.\r\rFurther Reference:\r",
+                           @"twitterDef":@"the process of becoming like God",
+                           @"definition":@"\rTheosis is referred to in 2 Peter 1:4 when it refers to Christians as “partakers in the Divine Nature” of God. St. Irenaeus of Lyon claimed that God was made man so that man might become God. It heavily emphasized in Eastern Orthodox churches.\r\rFurther Reference:\rWikipedia, “Divinization”\rhttp://tinyurl.com/lxhcwgk",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Tradition",
                            @"twitterDef":@"the process of handing over beliefs and practices",
-                           @"definition":@"\rthe process of handing over beliefs and practices.\r\rFurther Reference:\r\r\rFurther Reference:\r",
+                           @"definition":@"\rThe Catholic Tradition encompasses the entire process of the transmission of Divine Revelation, including the composition of Sacred Scripture. Following the injunction of St. Paul to hold fast to the Apostolic traditions by word of mouth or letter (2 Thess. 2:15), the fathers of the Second Vatican Council taught that Tradition and Scripture form a single sacred deposit of Faith and that each should equally revered. See “Bible”. \r\rFurther Reference:\rVatican II, “Dei Verbum”, 9\rhttp://tinyurl.com/3ecxu",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Transcendence",
-                           @"twitterDef":@"the quality of going beyond human experience",
-                           @"definition":@"\rthe quality of going beyond human experience.\r\rFurther Reference:\r",
+                           @"twitterDef":@"the quality of exceeding human experience",
+                           @"definition":@"\rTranscendence is often contrasted with Immanence. In the Catholic Tradition, God is seen as both transcendent and immanent, ultimately in the Incarnation. See “Immanent”, “Incarnation”.\r\rFurther Reference:\rWikipedia, “Transcendence”\rhttp://tinyurl.com/47wzzm",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Transubstantiation",
-                           @"twitterDef":@"the Thomistic concept that the substance of the bread and wine change into the substance of the body and blood of Christ in the Eucharist",
-                           @"definition":@"\rthe belief, formulated by Thomas Aquinas, that the substance of the bread and wine change into the substance of the body and blood of Christ in the Eucharist.\r\rFurther Reference:\r",
+                           @"twitterDef":@"the substance of Eucharistic bread and wine becoming that of the body and blood of Christ",
+                           @"definition":@"\rIn the midst of a long tradition of attempts to explain how the Real Presence is possible, St. Thomas Aquinas, using Aristotelean metaphysics, taught that the substance of the bread and wine change into the substance of the body and blood of Christ in the Eucharist. His idea of transubstantiation was recognized by the Council of Trent as being a “fitting” description of the change in the Eucharistic elements.\r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Trinity",
                            @"twitterDef":@"the existence of God in three persons; Father, Son, and Holy Spirit",
-                           @"definition":@"\rThe belief that God exists in three persons.\r\rFurther Reference:\r",
+                           @"definition":@"\rThe doctrine of the Trinity was slow to develop in its present form. \r\rFurther Reference:\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Tabernacle",
@@ -2826,11 +2831,6 @@
     [TAWord wordWithDict:@{@"name":@"Wisdom Literature",
                            @"twitterDef":@"a genre of literature in the Old Testament that contains wise sayings and philosophical reflections on life",
                            @"definition":@"\ra type of literature that contains wise sayings and philosophical reflections on life.\r\rFurther Reference:\r",
-                           @"category":@"Biblical"}];
-    
-    [TAWord wordWithDict:@{@"name":@"Poetic",
-                           @"twitterDef":@"the third of four sections in the Old Testament",
-                           @"definition":@"\rThe third of four sections in the Old Testament; it consists mainly of various writings; contains Job, Psalms, Proverbs, Ecclesiastes, Song of Songs, Wisdom, and Sirach.\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
     

@@ -51,6 +51,7 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="philosophyButton:" destination="3cO-3O-ueC" eventType="touchUpInside" id="apr-kU-6nn"/>
+                                                    <segue destination="WgE-D5-S3e" kind="push" identifier="philosophyDetail" id="jwp-JI-abH"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="R9S-3h-N0C">
@@ -62,6 +63,7 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="scienceButton:" destination="3cO-3O-ueC" eventType="touchUpInside" id="mjO-lk-TY1"/>
+                                                    <segue destination="WgE-D5-S3e" kind="push" identifier="scienceDetail" id="ZMB-Tr-RyB"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="aai-3d-hCu">
@@ -73,6 +75,7 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="mediaButton:" destination="3cO-3O-ueC" eventType="touchUpInside" id="hed-nX-HxP"/>
+                                                    <segue destination="WgE-D5-S3e" kind="push" identifier="technologyDetail" id="bQ2-DD-yTc"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Technology" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="IwF-Ur-YwR">
@@ -94,6 +97,9 @@
                                                 <state key="normal" image="dollarblue">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="WgE-D5-S3e" kind="push" identifier="economicsDetail" id="8pl-UY-rNK"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Economics" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vgR-zR-B7B">
                                                 <rect key="frame" x="112" y="434" width="96" height="21"/>
@@ -110,6 +116,7 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="artsButton:" destination="3cO-3O-ueC" eventType="touchUpInside" id="OZb-gl-9Ax"/>
+                                                    <segue destination="WgE-D5-S3e" kind="push" identifier="artsDetail" id="4Qf-FJ-LXA"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="VyT-pE-FdZ">
@@ -119,16 +126,17 @@
                                                 <state key="normal" image="cityblue"/>
                                                 <connections>
                                                     <action selector="politicsButton:" destination="3cO-3O-ueC" eventType="touchUpInside" id="oy2-ia-Orx"/>
+                                                    <segue destination="WgE-D5-S3e" kind="push" identifier="politicsDetail" id="JJm-YG-HEa"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Politics" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cqK-5y-gaP">
-                                                <rect key="frame" x="232" y="254" width="52" height="21"/>
+                                                <rect key="frame" x="235" y="254" width="52" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Arts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="iS8-eQ-OS8">
-                                                <rect key="frame" x="229" y="355" width="58" height="21"/>
+                                                <rect key="frame" x="232" y="355" width="58" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
                                                 <nil key="highlightedColor"/>
@@ -152,14 +160,14 @@
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
-                                    <view alpha="0.74999999999999978" contentMode="scaleToFill" id="XJL-Mg-148">
+                                    <view contentMode="scaleToFill" id="XJL-Mg-148">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Magisterium" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="C5a-Yr-lEw">
-                                                <rect key="frame" x="103" y="180" width="114" height="20"/>
+                                                <rect key="frame" x="105" y="180" width="114" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="4nk-S1-u8i">
@@ -170,36 +178,37 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="councilsButton:" destination="3cO-3O-ueC" eventType="touchUpInside" id="paX-fI-pN2"/>
+                                                    <segue destination="WgE-D5-S3e" kind="push" identifier="councilsDetail" id="6O8-jG-BTn"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fathers" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7oh-tL-TCg">
-                                                <rect key="frame" x="223" y="254" width="70" height="20"/>
+                                                <rect key="frame" x="226" y="254" width="70" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Liturgy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ant-bx-IVT">
-                                                <rect key="frame" x="125" y="435" width="70" height="20"/>
+                                                <rect key="frame" x="127" y="435" width="70" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Councils" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wch-rj-a40">
-                                                <rect key="frame" x="27" y="355" width="70" height="20"/>
+                                                <rect key="frame" x="23" y="355" width="70" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scripture" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SkH-je-0Ti">
-                                                <rect key="frame" x="20" y="254" width="84" height="20"/>
+                                                <rect key="frame" x="16" y="254" width="84" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Creeds" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="X2V-8S-HJ3">
-                                                <rect key="frame" x="222" y="355" width="72" height="23"/>
+                                                <rect key="frame" x="225" y="355" width="72" height="23"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="8EL-7U-mgi">
@@ -219,6 +228,9 @@
                                                 <state key="normal" image="chirhopurple-1">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="WgE-D5-S3e" kind="push" identifier="creedsDetail" id="3oN-xR-N2Y"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="NHs-B1-LwM">
                                                 <rect key="frame" x="219" y="177" width="85" height="85"/>
@@ -252,6 +264,7 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="liturgyButton:" destination="3cO-3O-ueC" eventType="touchUpInside" id="PsC-oU-LLU"/>
+                                                    <segue destination="WgE-D5-S3e" kind="push" identifier="liturgyDetail" id="SEP-mi-oms"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="IKW-8z-kd6">
@@ -292,18 +305,19 @@
                             </connections>
                         </barButtonItem>
                         <button key="titleView" opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="zcJ-tZ-nEQ">
-                            <rect key="frame" x="83" y="-2" width="154" height="48"/>
+                            <rect key="frame" x="92" y="-2" width="136" height="48"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                             <state key="normal" title="Theologica">
                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                         </button>
-                        <barButtonItem key="rightBarButtonItem" title="Contact" id="wfI-Yr-SgG">
+                        <barButtonItem key="rightBarButtonItem" title="Twitter" id="wfI-Yr-SgG">
                             <color key="tintColor" red="0.25098039220000001" green="0.59999999999999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <action selector="infoButton:" destination="3cO-3O-ueC" id="mnl-nU-ZyY"/>
+                                <segue destination="7FE-So-nGp" kind="modal" id="gO5-Kp-FLM"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -362,16 +376,16 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Theologica" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wz8-WY-Yfj">
                                 <rect key="frame" x="56" y="64" width="209" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="25"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="32"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appIconGradient3" id="EAj-eD-b8G">
-                                <rect key="frame" x="145" y="103" width="30" height="30"/>
+                                <rect key="frame" x="145" y="109" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Think Faith" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FQ0-oX-QgC">
-                                <rect key="frame" x="97" y="132" width="126" height="23"/>
+                                <rect key="frame" x="97" y="144" width="126" height="23"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -389,6 +403,39 @@
             </objects>
             <point key="canvasLocation" x="-1501" y="-1990"/>
         </scene>
+        <!--TwitterTableViewController-->
+        <scene sceneID="y2d-ln-8B8">
+            <objects>
+                <tableViewController storyboardIdentifier="TwitterTableViewController" title="TwitterTableViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="lrA-ga-ZiG" customClass="TwitterTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="NK6-ge-3SZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" restorationIdentifier="TweetCell" selectionStyle="default" indentationWidth="10" id="JPx-dJ-BxO">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JPx-dJ-BxO" id="Gq4-8Y-Xbh">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="lrA-ga-ZiG" id="mlf-GP-Koz"/>
+                            <outlet property="delegate" destination="lrA-ga-ZiG" id="1sI-J3-D5O"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="RmC-dA-nOE">
+                        <barButtonItem key="leftBarButtonItem" title="Close" id="rM1-Iv-TBU">
+                            <connections>
+                                <action selector="close:" destination="lrA-ga-ZiG" id="e0v-Q7-jpt"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gxX-tp-G23" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-403" y="-1963"/>
+        </scene>
         <!--Sources Detail View Controller-->
         <scene sceneID="FZi-bx-iWx">
             <objects>
@@ -402,18 +449,18 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" alpha="0.14999999999999969" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3menCircle" id="B9P-9X-77s">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="135"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="JTp-ch-Whd">
-                                        <rect key="frame" x="13" y="81" width="294" height="37"/>
+                                        <rect key="frame" x="13" y="76" width="294" height="37"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" id="4gF-gh-o1Z">
-                                        <rect key="frame" x="13" y="0.0" width="294" height="82"/>
+                                        <rect key="frame" x="13" y="0.0" width="294" height="96"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="32"/>
@@ -425,7 +472,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <textView autoresizesSubviews="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="justified" id="ccI-OC-gVd">
-                                        <rect key="frame" x="8" y="119" width="304" height="335"/>
+                                        <rect key="frame" x="8" y="134" width="304" height="320"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -504,11 +551,11 @@
                         <button key="titleView" opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="4M3-HD-6Fw">
                             <rect key="frame" x="82" y="5" width="157" height="35"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                             <state key="normal" title="Dictionary">
                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
-                            <state key="highlighted" image="1D33E26B-51F1-4DA2-A86E-9FA7453B3B05"/>
+                            <state key="highlighted" image="FC028F6B-DD5E-4254-88BC-3948EC69DA4A"/>
                         </button>
                         <barButtonItem key="rightBarButtonItem" title="Saved" id="RxI-0F-zKf">
                             <connections>
@@ -562,7 +609,7 @@
                                         <dataDetectorType key="dataDetectorTypes" link="YES"/>
                                     </textView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="8" adjustsLetterSpacingToFitWidth="YES" id="8Cv-Rb-2Ws">
-                                        <rect key="frame" x="14" y="95" width="293" height="49"/>
+                                        <rect key="frame" x="14" y="95" width="293" height="45"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
                                         <nil key="highlightedColor"/>
@@ -627,7 +674,7 @@
                         <button key="titleView" opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="65R-9r-2pr">
                             <rect key="frame" x="87" y="4" width="146" height="37"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                             <state key="normal" title="Maps">
                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -662,18 +709,18 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="uYn-82-MBb">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="135"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" id="Hde-WV-U5e">
-                                        <rect key="frame" x="16" y="0.0" width="288" height="83"/>
+                                        <rect key="frame" x="16" y="0.0" width="288" height="96"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="32"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5Nf-x1-pid">
-                                        <rect key="frame" x="16" y="82" width="288" height="29"/>
+                                        <rect key="frame" x="16" y="75" width="288" height="37"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -684,7 +731,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <textView autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="center" scrollEnabled="NO" keyboardDismissMode="onDrag" editable="NO" textAlignment="justified" id="g3V-nP-idE">
-                                        <rect key="frame" x="10" y="118" width="300" height="334"/>
+                                        <rect key="frame" x="10" y="134" width="300" height="318"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -830,7 +877,7 @@
                             <rect key="frame" x="90" y="-2" width="141" height="48"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <rect key="contentStretch" x="0.0" y="0.050000000000000003" width="1" height="1"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                             <state key="normal" title="People">
                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -888,7 +935,7 @@
                         <button key="titleView" opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Yzj-zZ-QCp">
                             <rect key="frame" x="88" y="-2" width="144" height="48"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                             <state key="normal" title="Reference">
                                 <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -1044,9 +1091,29 @@
             </objects>
             <point key="canvasLocation" x="-1883" y="-1361"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="sdb-ac-dT4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7FE-So-nGp" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="KWt-FF-6zl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="lrA-ga-ZiG" kind="relationship" relationship="rootViewController" id="6Lx-jM-Cpb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I1p-dc-Fde" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-935" y="-1963"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="1D33E26B-51F1-4DA2-A86E-9FA7453B3B05" width="80" height="80">
+        <image name="3menCircle" width="66" height="66"/>
+        <image name="525px-fresco_of_a_dominican_by_fra_angelico_001" width="175" height="200"/>
+        <image name="FC028F6B-DD5E-4254-88BC-3948EC69DA4A" width="80" height="80">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGOzxYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK0HCBEW
 GxwgISksLzU4VSRudWxs1AkKCwwNDg8QViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNSZXBzV05TQ29sb3KA
@@ -1606,8 +1673,6 @@ gO2A+IEBgQaBDoERgRaBJYEpgTCBOIFFgUqBTIFOgVOBW4FegWOBa4FugYCBg4GIAAAAAAAAAgEAAAAA
 AAAAPwAAAAAAAAAAAAAAAAAAgYo
 </mutableData>
         </image>
-        <image name="3menCircle" width="66" height="66"/>
-        <image name="525px-fresco_of_a_dominican_by_fra_angelico_001" width="175" height="200"/>
         <image name="appIconGradient3" width="40" height="40"/>
         <image name="appiconnew" width="66" height="66"/>
         <image name="atomblue-1" width="83" height="83"/>
@@ -1640,7 +1705,7 @@ AAAAPwAAAAAAAAAAAAAAAAAAgYo
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="z88-YU-nMu"/>
-        <segue reference="HTD-hv-yca"/>
+        <segue reference="JJm-YG-HEa"/>
+        <segue reference="D2d-iF-b5c"/>
     </inferredMetricsTieBreakers>
 </document>
