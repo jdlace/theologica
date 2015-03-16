@@ -152,7 +152,7 @@
     HistoricalPins *constantinople = [[HistoricalPins alloc] init];
     constantinople.coordinate = CLLocationCoordinate2DMake(41.0122, 28.9760);
     constantinople.title = @"Constantinople";
-    constantinople.subtitle = @"Ecumenical Councils II, V";
+    constantinople.subtitle = @"Ecumenical Councils II, V, VI, VIII";
     constantinople.image = [UIImage imageNamed:@"constantinople"];
     constantinople.information = @"\rA.D. 381, 553 \r\rThe 2nd and 5th ecumenical councils confirmed the Nicene Council's creed and clarified the teaching on the nature of Christ, respectively.\r\rCoordinates:\r41.0122, 28.9760";
     
@@ -258,6 +258,12 @@
     florence.title = @"Florence";
     florence.subtitle = @"Ecumenical Council XVII";
     florence.information = @"Coordinates:\r43.7833° N, 11.2500° E";
+    
+    HistoricalPins *lateran = [[HistoricalPins alloc] init];
+    lateran.coordinate = CLLocationCoordinate2DMake(43.7833, 11.2500);
+    lateran.title = @"Florence";
+    lateran.subtitle = @"Ecumenical Council IX, X, XI, XII";
+    lateran.information = @"Coordinates:\r43.7833° N, 11.2500° E";
 
     
     NSArray *annotations = [NSArray arrayWithObjects:jerusalem, bethEl, ephesus, corinth, dan, temple, hazor, nicea, greenland, rome, nazareth, sierraLeone, camden, atlantic, rome2, constantinople, palestine, israel, alexandria, thessalonica, philippi, antioch, bethlehem, ramah, hebron, shiloh, lyon, vienne, chalcedon, constance, trent, florence, nil];

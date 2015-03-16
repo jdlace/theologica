@@ -8,8 +8,8 @@
 
 #import "AppDelegate.h"
 #import "TADataStore.h"
-#import <Fabric/Fabric.h>
-#import <TwitterKit/TwitterKit.h>
+//#import <Fabric/Fabric.h>
+//#import <TwitterKit/TwitterKit.h>
 
 #define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 00))/122.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
@@ -20,7 +20,7 @@
     //UIColor *ios7BlueColor = [UIColor colorWithRed:89/255.0f green:174/255.0f blue:235/255.0f alpha:1.0f];
     //[[UINavigationBar appearance] setBarTintColor: ios7BlueColor];
     //[[UINavigationBar appearance] setTintColor: [UIColor whiteColor]];
-    [Fabric with:@[TwitterKit]];
+    //[Fabric with:@[TwitterKit]];
 
     
     

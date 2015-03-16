@@ -8,8 +8,8 @@
 
 #import "SourcesViewController.h"
 #import "SourcesDetailViewController.h"
-#import "TwitterTableViewController.h"
-#import <TwitterKit/TwitterKit.h>
+//#import "TwitterTableViewController.h"
+//#import <TwitterKit/TwitterKit.h>
 
 
 @interface SourcesViewController ()
@@ -107,7 +107,7 @@
         Source *fathersSource = [[Source alloc] init];
         fathersSource.name = @"Church Fathers";
         fathersSource.twitterDef = @"Stewards of the Faith";
-        fathersSource.comment = @"\rThe Fathers of the Church occupy a special place in the Catholic Tradition. They were the earliest intepreters of the Faith against heresies and controversies through the first eight centuries of the Church. The age of the Fathers ususally is dated from the end of the 2nd century through the the end of the 8th century.The most frequently used organization of the Fathers is made in reference to the Nicene Council:\r\r-Ante-Nicene\r-Nicene\r-Post-Nicene\r\rAnte-Nicene Fathers\r\rThe Ante-Nicene fathers include writers such as St. Clement of Rome, St. Justin Martyr, St. Irenaeus of Lyon, Origen of Alexandria, St. Clement of Alexandria, Tertullian of Carthage, St. Hippolytus of Rome, St. Polycarp of Smyrna, and St. Ignatius of Antioch.\r\rNicene Fathers\r\rThe Nicene Fathers include writers such as St. Athanasius, .....\r\rPost-Nicene Fathers\r\rThe Post-Nicene Fathers include the largest range of writers...";
+        fathersSource.comment = @"\rThe Fathers of the Church occupy a special place in the Catholic Tradition. They were the earliest intepreters of the Faith against heresies and controversies through the first eight centuries of the Church. The age of the Fathers ususally is dated from the end of the 2nd century through the the end of the 8th century.The most frequently used organization of the Fathers is made in reference to the Nicene Council:\r\r-Ante-Nicene\r-Nicene\r-Post-Nicene\r\rAnte-Nicene Fathers\r\rThe Ante-Nicene fathers include writers such as St. Clement of Rome, St. Justin Martyr, St. Irenaeus of Lyon, Origen of Alexandria, St. Clement of Alexandria, Tertullian of Carthage, St. Hippolytus of Rome, St. Polycarp of Smyrna, and St. Ignatius of Antioch.\r\rNicene Fathers\r\rThe Nicene Fathers include writers such as St. Athanasius, ....\r\rPost-Nicene Fathers\r\rThe Post-Nicene Fathers include the largest range of writers...\r\r\r\r";
         fathersSource.image = [UIImage imageNamed:@"appicon"];
         fathersSource.bigPic = [UIImage imageNamed:@"fathers"];
         UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Sources" style:UIBarButtonItemStylePlain target:nil action:nil];
@@ -588,34 +588,31 @@
 
 - (IBAction)infoButton:(id)sender
 {
-    
+    /*
     TwitterTableViewController *tweets = [[self storyboard]
                                           instantiateViewControllerWithIdentifier:@"TwitterTableViewController"];
     
     [tweets view];
-    /*
     infoDetail.textView.text = @"\rThank you for purchasing Theologica; the simple, yet comprehensive, Catholic theological resource for the iPhone. Drawing from the rich treasures of the intellectual tradition of the Church, from the 1st to the 21st century, this is app is designed to be an essential study tool for both students and teachers of Theology as well as anyone who is called to “think faith”.\r\rFollow @theologica_ on Twitter\rhttps://twitter.com/theologica_\r\rFor questions, concerns, or comments please email techrament@icloud.com";
-    */
+    
+    
     tweets.modalPresentationStyle = UIModalPresentationPopover;
     
     [self.navigationController presentViewController:tweets animated:YES completion:nil];
+    */
     
 
+
+    AboutViewController *infoDetail = [[self storyboard] instantiateViewControllerWithIdentifier: @"AboutViewController"];
+    
+    [infoDetail view];
+    
+     infoDetail.textView.text = @"\rThank you for purchasing Theologica; the simple, yet comprehensive, Catholic theological resource for the iPhone. Drawing from the rich treasures of the intellectual tradition of the Church, from the 1st to the 21st century, this is app is designed to be an essential study tool for both students and teachers of Theology as well as anyone who is called to “think faith”.\r\rFollow @theologica_ on Twitter\rhttps://twitter.com/theologica_\r\rFor questions, concerns, or comments please email techrament@icloud.com";
+    infoDetail.modalPresentationStyle = UIModalPresentationPopover;
+    
+    [self.navigationController presentViewController:infoDetail animated:YES completion:nil];
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @end

@@ -55,7 +55,7 @@
     
     NSTextAttachment *scriptureAttachment1 = [[NSTextAttachment alloc] init];
     scriptureAttachment1.image = [UIImage imageNamed:@"codex"];
-    scriptureAttachment1.bounds = CGRectMake(0, -25, scriptureAttachment1.image.size.width, scriptureAttachment1.image.size.height);
+    scriptureAttachment1.bounds = CGRectMake(0, 0, scriptureAttachment1.image.size.width, scriptureAttachment1.image.size.height);
     
     //NSTextAttachment *scriptureAttachment2 = [[NSTextAttachment alloc] init];
     //scriptureAttachment2.image = [UIImage imageNamed:@"codex"];

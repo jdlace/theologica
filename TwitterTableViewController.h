@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <TwitterKit/TwitterKit.h>
+//#import <TwitterKit/TwitterKit.h>
 
-@interface TwitterTableViewController : UITableViewController <TWTRTweetViewDelegate>
+@interface TwitterTableViewController : UITableViewController //<TWTRTweetViewDelegate>
 
 -(IBAction)close:(id)sender;
 

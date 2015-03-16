@@ -2751,22 +2751,22 @@
     
     [TAWord wordWithDict:@{@"name":@"Transubstantiation",
                            @"twitterDef":@"the substance of Eucharistic bread and wine becoming that of the body and blood of Christ",
-                           @"definition":@"\rIn the midst of a long tradition of attempts to explain how the Real Presence is possible, St. Thomas Aquinas, using Aristotelean metaphysics, taught that the substance of the bread and wine change into the substance of the body and blood of Christ in the Eucharist. His idea of transubstantiation was recognized by the Council of Trent as being a “fitting” description of the change in the Eucharistic elements.\r\rFurther Reference:\r",
+                           @"definition":@"\rIn the midst of a long tradition of attempts to explain how the Real Presence is possible, St. Thomas Aquinas, using Aristotelean metaphysics, taught that the substance of the bread and wine change into the substance of the body and blood of Christ in the Eucharist. His idea of transubstantiation was recognized by the Council of Trent as being a “fitting” description of the change in the Eucharistic elements. See “Real Presence”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1376\rhttp://tinyurl.com/q6gyoc7",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Trinity",
                            @"twitterDef":@"the existence of God in three persons; Father, Son, and Holy Spirit",
-                           @"definition":@"\rThe doctrine of the Trinity was slow to develop in its present form. \r\rFurther Reference:\r",
+                           @"definition":@"\rThe doctrine of the Trinity is the most important in the Hierarchy of Truths of the Catholic Faith. Like other doctrines, it developed over a period of 400 years, from the Apostolic Age to the Council of Constantinople in A.D. 381. Theophilus of Antioch is the first Christian writer to use the Greek term Τριάδος (triados) in A.D. 170 and Tertullian is the first Christian writer to use the Latin term Trinitas circa A.D. 200. as well as the classical formulation states that God is one in substance in three persons.\r\rFurther Reference:\rCatechism of the Catholic Church, 232-260\rhttp://tinyurl.com/4tymjt\r\rWikipedia, Trinity\rhttp://tinyurl.com/lbxfb",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Tabernacle",
                            @"twitterDef":@"the pre-Solomonic temporary dwelling place of YHWH in Israel",
-                           @"definition":@"\rThe Tabernacle was initially housed at Shiloh.\r\rFurther Reference:\r",
+                           @"definition":@"\rThe Tabernacle was initially housed at Shiloh. It is described in detail in the Priestly Source texts of Exodus 25-30 and the Elohist Source text of Exodus 33. It is never mentioned by the Yahwist or Deuteronomic Sources. Richard Elliot Freidman claims that the Tabernacle was housed in the Temple.\r\rFurther Reference:\rWikipedia, “Tabernacle”\rhttp://tinyurl.com/gwcu2",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Tanak",
-                           @"twitterDef":@"an acronymic term to describe the Hebrew Bible: T = Torah, N = Nevi'im, K = Ketuv'im",
-                           @"definition":@"\rAcronymic term to describe the Hebrew Bible: T = Torah, N = Nevi'im, K = Ketuv'im. Since Hebrew has no vowels, those are added.\r\rFurther Reference:\r",
+                           @"twitterDef":@"the Hebrew Bible",
+                           @"definition":@"\rThe Hebrew Bible, or “Tanak”, consists of 39 books grouped into three sections:\r\r-Torah\r-Nevi'im\r-Ketuv'im\r\r.The Tanak is the foundation of the Old Testament. “Tanak” is an acronymic term: T = Torah, N = Nevi'im, K = Ketuv'im. Since Hebrew has no vowels, two vowels are added to the consonants. See “Torah”, “Nevi'im”, “Ketuv'im”.\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Tax Collectors",
@@ -2790,7 +2790,7 @@
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Torah",
-                           @"twitterDef":@"the first five books and first section of the Tanak; Genesis, Exodus, Leviticus, Numbers, and Deuteronomy",
+                           @"twitterDef":@"the Hebrew word meaning “instruction” or “law”",
                            @"definition":@"\rThe first five books and first section of the Tanak; Genesis, Exodus, Leviticus, Numbers, and Deuteronomy.\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
