@@ -2764,39 +2764,39 @@
                            @"definition":@"\rThe Tabernacle was initially housed at Shiloh. It is described in detail in the Priestly Source texts of Exodus 25-30 and the Elohist Source text of Exodus 33. It is never mentioned by the Yahwist or Deuteronomic Sources. Richard Elliot Freidman claims that the Tabernacle was housed in the Temple.\r\rFurther Reference:\rWikipedia, “Tabernacle”\rhttp://tinyurl.com/gwcu2",
                            @"category":@"Biblical"}];
     
-    [TAWord wordWithDict:@{@"name":@"Tanak",
+    [TAWord wordWithDict:@{@"name":@"Tanakh",
                            @"twitterDef":@"the Hebrew Bible",
-                           @"definition":@"\rThe Hebrew Bible, or “Tanak”, consists of 39 books grouped into three sections:\r\r-Torah\r-Nevi'im\r-Ketuv'im\r\r.The Tanak is the foundation of the Old Testament. “Tanak” is an acronymic term: T = Torah, N = Nevi'im, K = Ketuv'im. Since Hebrew has no vowels, two vowels are added to the consonants. See “Torah”, “Nevi'im”, “Ketuv'im”.\r\rFurther Reference:\r",
+                           @"definition":@"\rThe Hebrew Bible, or “Tanakh”, consists of 39 books grouped into three sections:\r\r-Torah\r-Nevi'im\r-Ketuv'im\r\r.The Tanak is the foundation of the Old Testament. “Tanakh” is an acronymic term: T = Torah, N = Nevi'im, K = Ketuv'im, with the addition of vowels. See “Torah”, “Nevi'im”, “Ketuv'im”.\r\rFurther Reference:\rWikipedia, “Kethuv'im”\rhttp://tinyurl.com/2vxgml",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Tax Collectors",
-                           @"twitterDef":@"a class of Jews who collected provincial taxes for the Roman Empire",
-                           @"definition":@"\rJews who collected provincial taxes for the Roman Empire; frequently referenced in the gospels due to their presence at numerous border crossings throughout Israel. They were reviled as traitors, likely cheats, and possible idolators. Jesus includes one such person (Matthew) in his inner circle of disciples.\r\rFurther Reference:\r",
+                           @"twitterDef":@"local residents who collected provincial taxes for the Roman Empire",
+                           @"definition":@"\rTax Collectors are frequently referenced in the gospels due to their presence at numerous border crossings throughout Israel. As Jews in the service of Rome, hey were reviled as traitors, likely cheats, and sinners. Jesus includes one such person (Levi/Matthew) in his inner circle of disciples.\r\rFurther Reference:\rWikipedia, “Publican”\rhttp://tinyurl.com/m637gxw",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Temple",
                            @"twitterDef":@"the permanent dwelling place of YHWH in Israel",
-                           @"definition":@"\rThe dwelling place of YHWH.\r\rFurther Reference:\r",
+                           @"definition":@"\rAccording to the Priestly and Deuteronomic Sources, YHWH told King David that his son would build a house for His Name to dwell in forever. 1 Kings 6, details the construction of the Temple. It was destroyed in 586 B.C. by the Babylonians and rebuilt in 515 B.C. after the return from Exile. Herod the Great rennovated the Temple at the beginning of the 1st century A.D., and it was destroyed by the Roman army under Titus in A.D. 70. The New Testament uses Temple imagery and metaphors in describing the experience of the Holy Spirit in the Church.\r\rFurther Reference:\rWikipedia, “Temple in Jerusalem”\rhttp://tinyurl.com/ja9hh",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Textual Criticism",
-                           @"twitterDef":@"the analysis of the original language of a text",
-                           @"definition":@"\rThe exegetical criticism that deciphers and analyzes the original language of a text.\r\rFurther Reference:\r",
+                           @"twitterDef":@"the analysis of the original\rlanguage of a text",
+                           @"definition":@"\rTextual criticism is the first exegetical analysis in using the Historical-Critical Method to interpret a text. It consists of three steps: Eclecticism (collation of diverse copies of a particular tradition), Stemmatics (analysis of related errors), and Copy-Text Editing (correction of errors in the base text). Textual critics dicipher the original language of the biblical text as it appears in Manuscripts and Papyrus fragments. See “Manuscript”. See “Codex Sinaiticus” in the Reference tab.\r\rFurther Reference:\rWikipedia, “Textual Criticism”\rhttp://tinyurl.com/2g7ol8",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Theophany",
                            @"twitterDef":@"an appearance of God to a human being in which Divine communication occurs",
-                           @"definition":@"\rAn appearance of God to a human being. Numerous theophanies are recorded throughout the Bible with the account of Moses being paradigmatic.\r\rFurther Reference:\r",
+                           @"definition":@"\rNumerous theophanies are recorded throughout the Bible with the account of Moses and the Burning Bush in Exodus 3 becoming paradigmatic as a literary form. The New Testament considers the Incarnation to be the ultimate Theophany. Early Christian writers, such as St. Justin Martyr, will interpret the Angel of the LORD, described in the Burning Bush story, to be a Theophany of the pre-Incarnate Christ.\r\rFurther Reference:\rWikipedia, “Theophany”\rhttp://tinyurl.com/yt4guu",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Torah",
                            @"twitterDef":@"the Hebrew word meaning “instruction” or “law”",
-                           @"definition":@"\rThe first five books and first section of the Tanak; Genesis, Exodus, Leviticus, Numbers, and Deuteronomy.\r\rFurther Reference:\r",
+                           @"definition":@"\rThe Torah is the first section of the Tanak and composed of five books; Genesis, Exodus, Leviticus, Numbers, and Deuteronomy. It is the foundation of the Hebrew Bible. In the Gospels, Jesus quotes from the Torah more than any other section of the Tanakh.\r\rFurther Reference:\rWikipedia, “Torah”\rhttp://tinyurl.com/7rwcf",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Typology",
                            @"twitterDef":@"a way of interpreting the Old Testament through a Christological hermeneutic",
-                           @"definition":@"\rA way of reading the Old Testament.\r\rFurther Reference:\r",
+                           @"definition":@"\rTypology has its roots in the Bible itself. St. Paul claims that rock from which the Israelites drank water was Christ. Origen of Alexandria was the most erudite Church Father....\r\rFurther Reference:\rCatechism of the Catholic Church, 130\rhttp://tinyurl.com/kvc3tvq\r\rWikipedia, Typology\rhttp://tinyurl.com/kl5rr6c",
                            @"category":@"Biblical"}];
     
 

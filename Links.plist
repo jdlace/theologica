@@ -354,6 +354,12 @@
 		</dict>
 		<dict>
 			<key>Name</key>
+			<string>Apple Insider</string>
+			<key>URL</key>
+			<string>http://www.appleinsider.com</string>
+		</dict>
+		<dict>
+			<key>Name</key>
 			<string>NYT Technology News</string>
 			<key>URL</key>
 			<string>http://www.nytimes.com/pages/technology/index.html</string>
