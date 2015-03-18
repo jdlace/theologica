@@ -22,7 +22,7 @@
     //[[UINavigationBar appearance] setTintColor: [UIColor whiteColor]];
     //[Fabric with:@[TwitterKit]];
 
-    
+        [[UINavigationBar appearance] setTitleTextAttributes: @{ NSFontAttributeName: [UIFont boldSystemFontOfSize:20]}];
     
     
     [[TADataStore sharedStore] buildDictionaryWords];

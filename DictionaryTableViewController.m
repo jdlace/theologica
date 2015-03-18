@@ -47,7 +47,6 @@
      name:UIContentSizeCategoryDidChangeNotification
      object:nil];
 
-
     
     
 }
