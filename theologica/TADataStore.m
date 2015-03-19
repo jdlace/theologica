@@ -2878,31 +2878,32 @@
                            @"definition":@"\rThe Vulgate was initially translated by St. Jerome. It was adopted as the official bible of the Roman Catholic Church at the Council of Trent. See “Trent” in the Historical section of the Maps tab. See “Bible”.\r\rFurther Reference:\rWikipedia, “Vulgate” http://tinyurl.com/ywebum",
                            @"category":@"Biblical"}];
     
-    //W
     
-    [TAWord wordWithDict:@{@"name":@"Wisdom Literature",
-                           @"twitterDef":@"a genre of literature in the Old Testament that contains wise sayings and philosophical reflections on life",
-                           @"definition":@"\ra type of literature that contains wise sayings and philosophical reflections on life.\r\rFurther Reference:\r",
-                           @"category":@"Biblical"}];
+    
+    
+    /////////////////////////////////////////////////////////////////W
+    
+    
+    
     
     [TAWord wordWithDict:@{@"name":@"Wisdom Books",
                            @"twitterDef":@"the fourth of five sections in the\rOld Testament",
-                           @"definition":@"\rThe section of Wisdom Books consist mainly of various writings that offer moral instruction in the form of axioms and parallelisms. It contains Job, Psalms, Proverbs, Ecclesiastes, Song of Songs, Wisdom, and Sirach.\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, “Wisdom Books”\rhttp://tinyurl.com/mfxvmaz",
+                           @"definition":@"\rThe section of Wisdom Books consist mainly of various writings that offer moral instruction in the form of axioms and parallelisms. It contains Job, Psalms, Proverbs, Ecclesiastes, Song of Songs, Wisdom, and Sirach. They all fall into a similar genre, commonly referred to as “wisdom literature”. See “Genre”, “Form Criticism”.\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, “Wisdom Books”\rhttp://tinyurl.com/mfxvmaz",
                            @"category":@"Biblical"}];
     
     
     [TAWord wordWithDict:@{@"name":@"Word of God",
                            @"twitterDef":@"the saving message of God in which humans trust for salvation",
-                           @"definition":@"\rThe saving message of God in which humans trust.\r\rFurther Reference:\r",
+                           @"definition":@"\rThe Word of God is a result of God's self-revelation. In the Old Testament, this often is often described as a Theophany. In the New Testament, Incarnation of the Logos is viewed as the ultimate disclosure of the Divine Word. See “Incarnation”, “Logos”, “Revelation”.\r\rFurther Reference:\rVatican II, “Dei Verbum”\rhttp://tinyurl.com/3ecxu",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Will of God",
                            @"twitterDef":@"The ultimate desire of God for creation",
-                           @"definition":@"\rThe ultimate desire of God for creation.\r\rFurther Reference:\r",
+                           @"definition":@"\rGod's will is spoken of a mystery by St. Paul, who also claims that it has been revealed to the Church in Christ. Jesus is portrayed in the New Testament as the new Adam who perfectly fulfills the will of his Father. In prayer, Christians seek the discernment and accomplishment of God's will. One of the petitions of Lord's Prayer is that the will of the Father may be done “on earth as it is in heaven”.\r\rFurther Reference:\rCatechism of the Catholic Church, 2822-2827\rhttp://tinyurl.com/o7fztj6",
                            @"category":@"Systematic"}];
     
     
-    //X
+    //////////////////////////////////////////////////////////////////////////////X
     
     [TAWord wordWithDict:@{@"name":@"Xenophobia",
                            @"twitterDef":@"the fear of foreigners",
