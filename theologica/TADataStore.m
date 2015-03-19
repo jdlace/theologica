@@ -2757,7 +2757,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Theologoumenon",
                            @"twitterDef":@"a theological opinion on a disputable matter that has not been defined in Church teaching",
-                           @"definition":@"\rThe belief in Limbo was an example of a theologoumenon. The International Theological Commission clarified the Church's teaching on the Limbo in 2007. See “Theological Notes”.\r\rFurther Reference:\r",
+                           @"definition":@"\rThe belief in Limbo was an example of a theologoumenon. The International Theological Commission clarified the Church's teaching on the Limbo in 2007. See “Theological Notes”.\r\rFurther Reference:\rInternational Theological Commission, “The Hope Of Salvation For Infants Who Die Without Being Baptized“, 34\rhttp://tinyurl.com/3x7puy",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Theology",
@@ -2857,25 +2857,25 @@
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Universalism",
-                           @"twitterDef":@"the belief that all of humanity will ultimately experience salvation",
-                           @"definition":@"\rThe belief that all of humanity will ultimately experience salvation.\r\rFurther Reference:\r",
+                           @"twitterDef":@"the belief that all of humanity will ultimately be saved",
+                           @"definition":@"\rThe belief that all of humanity will ultimately experience salvation. See “Apocatastasis”.\r\rFurther Reference:\rWikipedia, “Universal Reconciliation”\rhttp://tinyurl.com/yc3tt7h",
                            @"category":@"Systematic"}];
     
     //V
     
     [TAWord wordWithDict:@{@"name":@"Virginal Conception",
                            @"twitterDef":@"the belief that Jesus of Nazareth was conceived by the Holy Spirit",
-                           @"definition":@"\rBoth the gospels of Matthew and Luke claim that Jesus was concieved by a virgin mother. Later tradition would develop the idea of Mary's perpetual viriginity although this idea was not univerally accepted.\r\rFurther Reference:\r",
+                           @"definition":@"\rBoth the gospels of Matthew and Luke claim that Jesus was concieved by a virgin mother. Later tradition would develop the idea of Mary's perpetual viriginity although this idea was not univerally accepted. Virginal Conception is differentiated from the idea of Virgin Birth. The former is explicitly stated in Scripture, while the latter refers to the Patristic interpretation of Mary's virginity before, during, and after the birth of Christ; virginitas ante partum, virginitas in partu, virginitas post partum. Both senses, however, are part of the larger Catholic Tradition. See “Incarnation”.\r\rFurther Reference:\rCatechism of the Catholic Church, 484\rhttp://tinyurl.com/3w9q9aw",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Vocation",
-                           @"twitterDef":@"the calling by God of someone to a particular way of life",
-                           @"definition":@"\rThe calling by God of someone to a particular way of life.\r\rFurther Reference:\r",
+                           @"twitterDef":@"the calling to a particular lifestyle of Christian holiness",
+                           @"definition":@"\rAccording to the bishops of the Second Vatican Council, every baptized Christian is called to holiness, regardless of in which particular state he or she lives; married, single, or ordained. The vocation to holiness is rooted in the Sacrament of Baptism which precedes both Marriage and Holy Orders. Thus, all the Baptized are called to share in the same degree of holiness. See “Baptism”, “Holy”.\r\rFurther Reference:\rVatican II, “Lumen Gentium”, 11\rhttp://tinyurl.com/3wxff",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Vulgate",
                            @"twitterDef":@"the Latin translation of the Bible",
-                           @"definition":@"\rThe Vulgate was initially translated by St. Jerome. See “Bible”.\r\rFurther Reference:\rWikipedia, “Vulgate” http://tinyurl.com/ywebum",
+                           @"definition":@"\rThe Vulgate was initially translated by St. Jerome. It was adopted as the official bible of the Roman Catholic Church at the Council of Trent. See “Trent” in the Historical section of the Maps tab. See “Bible”.\r\rFurther Reference:\rWikipedia, “Vulgate” http://tinyurl.com/ywebum",
                            @"category":@"Biblical"}];
     
     //W
