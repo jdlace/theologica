@@ -2903,6 +2903,9 @@
                            @"category":@"Systematic"}];
     
     
+    
+    
+    
     //////////////////////////////////////////////////////////////////////////////X
     
     [TAWord wordWithDict:@{@"name":@"Xenophobia",
@@ -2910,11 +2913,13 @@
                            @"definition":@"\rThe ministry of Jesus can be seen, partly, as a movement against the xenophobic nationalism of the religious elite in Second Temple Judaism. See “Jesus of Nazareth”, “Second Temple Judaism”.\r\rFurther Reference:\rWikipedia, “Xenophobia”\rhttp://tinyurl.com/q3l46",
                            @"category":@"Biblical"}];
     
-    //Y
+    
+    
+    ////////////////////////////////////////////////////////////////////////////////Y
     
     [TAWord wordWithDict:@{@"name":@"Yahwist Source",
-                           @"twitterDef":@"the “J” Source...",
-                           @"definition":@"\rThe “J” Source...\r\rFurther Reference:\r",
+                           @"twitterDef":@"the literary source in the Torah\rthat uses the Divine Name before Exodus 3",
+                           @"definition":@"\rAccording to the Documentary Hypothesis, the Yahwist Source (also called J - due to its German origin) is the earliest of the four written sources that comprise most of the Torah.\r\rFurther Reference:\rWikipedia, “Yahwist Source”\rhttp://tinyurl.com/ye7axpa",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"YHWH",
