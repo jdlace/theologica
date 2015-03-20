@@ -2907,7 +2907,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Xenophobia",
                            @"twitterDef":@"the fear of foreigners",
-                           @"definition":@"\rThe fear of foreigners. The ministry of the historical Jesus can be seen, partly, as a movement against the xenophobic nationalism of the religious elite in Second Temple Judaism.\r\rFurther Reference:\r",
+                           @"definition":@"\rThe ministry of Jesus can be seen, partly, as a movement against the xenophobic nationalism of the religious elite in Second Temple Judaism. See “Jesus of Nazareth”, “Second Temple Judaism”.\r\rFurther Reference:\rWikipedia, “Xenophobia”\rhttp://tinyurl.com/q3l46",
                            @"category":@"Biblical"}];
     
     //Y
