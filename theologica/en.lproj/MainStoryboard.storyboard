@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14D105g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="4">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -163,6 +163,7 @@
                                                 <state key="normal" image="churchpurple">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <state key="highlighted" image="vaticanbw2"/>
                                                 <connections>
                                                     <action selector="councilsButton:" destination="3cO-3O-ueC" eventType="touchUpInside" id="paX-fI-pN2"/>
                                                     <segue destination="WgE-D5-S3e" kind="show" identifier="councilsDetail" id="6O8-jG-BTn"/>
@@ -199,6 +200,7 @@
                                                 <state key="normal" image="biblepurple">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <state key="highlighted" image="codex2-1"/>
                                                 <connections>
                                                     <segue destination="WgE-D5-S3e" kind="show" identifier="scriptureDetail" id="Rr6-EI-HEf"/>
                                                 </connections>
@@ -217,6 +219,7 @@
                                                 <state key="normal" image="fatherspurple">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <state key="highlighted" image="fathersButton-2"/>
                                                 <connections>
                                                     <action selector="fathersButton:" destination="3cO-3O-ueC" eventType="touchUpInside" id="rbR-MQ-bp8"/>
                                                     <segue destination="WgE-D5-S3e" kind="show" identifier="fathersDetail" id="HTD-hv-yca"/>
@@ -225,7 +228,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N0K-DL-wZq">
                                                 <rect key="frame" x="121" y="243" width="82" height="72"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                                <state key="normal" image="appiconnew">
+                                                <state key="normal" image="viewIcon">
                                                     <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <connections>
@@ -247,9 +250,10 @@
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IKW-8z-kd6">
                                                 <rect key="frame" x="118" y="107" width="85" height="85"/>
                                                 <inset key="contentEdgeInsets" minX="0.0" minY="-6" maxX="0.0" maxY="0.0"/>
-                                                <state key="normal" image="papalbutton">
+                                                <state key="normal" image="papalbutton-1">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <state key="highlighted" image="peter3"/>
                                                 <connections>
                                                     <segue destination="WgE-D5-S3e" kind="show" identifier="magisteriumDetail" id="lUx-rQ-gMF"/>
                                                 </connections>
@@ -1052,16 +1056,21 @@
         <image name="chirhopurple-1" width="83" height="83"/>
         <image name="churchpurple" width="83" height="83"/>
         <image name="cityblue" width="83" height="83"/>
+        <image name="codex2-1" width="70" height="70"/>
         <image name="defdetail-1" width="106" height="49"/>
         <image name="dollarblue" width="83" height="83"/>
         <image name="earthlines" width="30" height="30"/>
+        <image name="fathersButton-2" width="70" height="70"/>
         <image name="fatherspurple" width="83" height="83"/>
         <image name="headphonesblue" width="83" height="83"/>
         <image name="home" width="30" height="30"/>
         <image name="men" width="29" height="30"/>
-        <image name="papalbutton" width="70" height="70"/>
+        <image name="papalbutton-1" width="83" height="83"/>
+        <image name="peter3" width="70" height="70"/>
         <image name="philosophyblue" width="83" height="83"/>
         <image name="phoneblue" width="83" height="83"/>
+        <image name="vaticanbw2" width="70" height="70"/>
+        <image name="viewIcon" width="66" height="66"/>
         <image name="winelinespurple" width="83" height="83"/>
     </resources>
     <inferredMetricsTieBreakers>

@@ -22,7 +22,7 @@
     _sourceName.text = _currentSourceDetail.name;
     _sourceSubtitle.text = _currentSourceDetail.twitterDef;
     _sourceInformation.text = _currentSourceDetail.comment;
-    _imageView.image = _currentSourceDetail.image;
+    //_imageView.image = _currentSourceDetail.image;
     _sourcesPic.image = _currentSourceDetail.bigPic;
     //_scrollPic.image = _currentSourceDetail.scrollPic;
     

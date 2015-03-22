@@ -84,7 +84,6 @@
         scriptureSource.name = @"Sacred Scripture";
         scriptureSource.twitterDef = @"The Word of God in Human Language";
         scriptureSource.comment = @"\rThroughout the history of the Catholic tradition, the canon of Scripture has always played a central and dialectic role in the community life of the Church. The Hebrew Bible is the foundation of the Biblical tradition.\r\rThe Old Testament\r\rConsisting of the Hebrew canon plus seven additional books of the Apocrypha, the Old Testament contains the story of the people of Israel. It is divided into the Pentateuch, Historical Books, Prophets, and Wisdom Books.\r\r                 <scriptureImg1>\r\rThe New Testament\r\rThe gospels of Matthew, Mark, Luke, and John narrate the life of Jesus through the perspective of faith in his divine sonship. The manuscript tradition of the New Testament contains over 3,000 extant fragments and complete copies of the canonical 27 books. Codex Siniaiticus is the oldest extant complete copy of the New Testament (dating back to the 4th century) and papyrus fragment 52 is the oldest piece of the New Testament (dating back as early as A.D. 120).\r\r                 \r\r";
-        scriptureSource.image = [UIImage imageNamed:@"appIconGradient3"];
         scriptureSource.bigPic = [UIImage imageNamed:@"codex"];
         UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Sources" style:UIBarButtonItemStylePlain target:nil action:nil];
         self.navigationItem.backBarButtonItem = backButton;
@@ -96,11 +95,11 @@
         catechismSource.name = @"Magisterium";
         catechismSource.twitterDef = @"The Teaching Authority of the Church";
         catechismSource.comment = @"\rThe Magisterium represents the teaching authority of the Church which derives from the prophetic office of Christ. The Church formulates its teaching from the Deposit of Faith, which it received from the Apostles. In the hierarchy of the Church, the Bishops are the successors of the Apostles and the primary responsibles for teaching the Faith. The Magisterium shares in the Infallibility of the Church when it teaches in communion with the Bishop of Rome, the Pope.<scriptureImg1>";
-        catechismSource.image = [UIImage imageNamed:@"appIconGradient3"];
         catechismSource.bigPic = [UIImage imageNamed:@"peter"];
         UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Sources" style:UIBarButtonItemStylePlain target:nil action:nil];
         self.navigationItem.backBarButtonItem = backButton;
         ((SourcesDetailViewController *)segue.destinationViewController).currentSourceDetail = catechismSource;
+        //[((SourcesDetailViewController *)segue.destinationViewController) p
         }
     else if ([segue.identifier isEqualToString:@"fathersDetail"])
     {
@@ -108,7 +107,6 @@
         fathersSource.name = @"Church Fathers";
         fathersSource.twitterDef = @"Stewards of the Faith";
         fathersSource.comment = @"\rThe Fathers of the Church occupy a special place in the Catholic Tradition. They were the earliest intepreters of the Faith against heresies and controversies through the first eight centuries of the Church. The age of the Fathers ususally is dated from the end of the 2nd century through the the end of the 8th century.The most frequently used organization of the Fathers is made in reference to the Nicene Council:\r\r-Ante-Nicene\r-Nicene\r-Post-Nicene\r\rAnte-Nicene Fathers\r\rThe Ante-Nicene fathers include writers such as St. Clement of Rome, St. Justin Martyr, St. Irenaeus of Lyon, Origen of Alexandria, St. Clement of Alexandria, Tertullian of Carthage, St. Hippolytus of Rome, St. Polycarp of Smyrna, and St. Ignatius of Antioch.\r\rNicene Fathers\r\rThe Nicene Fathers include writers such as St. Athanasius, ....\r\rPost-Nicene Fathers\r\rThe Post-Nicene Fathers include the largest range of writers...\r\r\r\r";
-        fathersSource.image = [UIImage imageNamed:@"appicon"];
         fathersSource.bigPic = [UIImage imageNamed:@"fathers"];
         UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Sources" style:UIBarButtonItemStylePlain target:nil action:nil];
         self.navigationItem.backBarButtonItem = backButton;
@@ -120,9 +118,8 @@
         Source *liturgySource = [[Source alloc] init];
         liturgySource.name = @"Liturgy";
         liturgySource.twitterDef = @"The Worship of the Church";
-        liturgySource.comment = @"\fThe liturgy of the Church expresses what it believes. Lex Orandi-Lex Credendi.";
-        liturgySource.image = [UIImage imageNamed:@"appicon"];
-        liturgySource.bigPic = [UIImage imageNamed:@"stained"];
+        liturgySource.comment = @"\rThe Liturgy of the Church expresses what it believes. This is known as the principle of Lex Orandi-Lex Credendi (“the law of prayer is the law of belief”). Liturgy is a source for Theology precisely because of this. In its broadest sense, Liturgy is the participation of the Church in the Paschal Mystery. More colloquially, the public worship of the Church is commonly referred to as Liturgy. The daily worship of the Church is known as the Liturgy of the Hours. The Sunday Mass is composed of the Liturgy of the Word and the Liturgy of the Eucharist.";
+        liturgySource.bigPic = [UIImage imageNamed:@"liturgy7"];
         //liturgySource.scrollPic = [UIImage imageNamed:@"stainedColor"];
         UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Sources"
                     style:UIBarButtonItemStylePlain
@@ -139,7 +136,7 @@
         councilsSource.name = @"Ecumenical Councils";
         councilsSource.twitterDef = @"The Church Seeking Discernment";
         councilsSource.comment = @"\rEcumenical Councils are called to settle matters of faith and practice.";
-        councilsSource.image = [UIImage imageNamed:@"appicon"];
+        councilsSource.bigPic = [UIImage imageNamed:@"vaticanII"];
         UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Sources"
                     style:UIBarButtonItemStylePlain
                    target:nil
@@ -155,7 +152,8 @@
         creedsSource.name = @"Creeds";
         creedsSource.twitterDef = @"Statements of Faith";
         creedsSource.comment = @"\rThe Creeds of the Church give expression to the Faith of the Church.";
-        creedsSource.image = [UIImage imageNamed:@"appicon"];
+        creedsSource.bigPic = [UIImage imageNamed:@"creed2"];
+
         UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Sources"
                     style:UIBarButtonItemStylePlain
                    target:nil
@@ -170,9 +168,7 @@
         scienceSource.name = @"Science";
         scienceSource.twitterDef = @"Knowlege of the Physical World";
         scienceSource.comment = @"\rAs a separate but related domain of knowledge, science is akin to theology in that it involves a specific methodology designed to answer a specific set of questions about human experience. Science is a specific and limited discipline that posits natural explanations for physical phenomena using empirical methods of analysis. Science originated as part of the broader quest for wisdom in the form of ancient Philosophy. In relation to Aristotle's Four Types of Causation, Science would be equivalent to efficient causation. Science necessarily limits its explanations to natural causes in order to ensure testability by using the Scientific Method.\r\rScience is one of the major Signs of the Times because it provides ever-increasing knowledge about the created order, and this knowledge directly affects how Theology understands the God-World relationship. Pope John Paul II claimed that in order to be authentic and relevant Theology must incorporate the findings of Science:\r\r“Theology will have to call on the findings of science to one degree or another as it pursues its primary concern for the human person, the reaches of freedom, the possibilities of Christian community, the nature of belief and the intelligibility of nature and history. The vitality and significance of theology for humanity will in a profound way be reflected in its ability to incorporate these findings.”\r\rSince Vatican II, the Church has recognized the impact of scientific findings on Theology. In Gaudium et Spes, Dogmatic Constitution on the Church in the Modern World, the Council fathers specifically mentioned that scientific findings had been among recent challenges in the larger context of the Signs of the Times:\r\r“...the human race has passed from a rather static concept of reality to a more dynamic, evolutionary one. In consequence there has arisen a new series of problems, a series as numerous as can be, calling for efforts of analysis and synthesis...The recent studies and findings of science, history and philosophy raise new questions which effect life and which demand new theological investigations.”\r\rThat acknowledgement launched over half a century of renewed theological engagement with the sciences. While science has its own autonomy, the proper incorporation of Science into Theology contextualizes scientific findings in the larger perspective of the work of the Creator. The International Theological Commission published Communion and Stewardship: Human Persons Created in the Image of God. In paragraph 62, the Commission stated that:\r\r“...Christians have the responsibility to locate the modern scientific understanding of the universe within the context of the theology of creation. The place of human beings in the history of this evolving universe, as it has been charted by modern sciences, can only be seen in its complete reality in the light of faith.”\r\rSee ";
-        scienceSource.image = [UIImage imageNamed:@"appicon"];
         scienceSource.bigPic = [UIImage imageNamed:@"station"];
-    //scienceSource.scrollPic = [UIImage imageNamed:@"station"];
         UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Signs"
                     style:UIBarButtonItemStylePlain
                    target:nil
@@ -187,9 +183,7 @@
         philosophySource.name = @"Philosophy";
         philosophySource.twitterDef = @"The Love of Wisdom";
         philosophySource.comment = @"\rPhilosophy is a product of the human quest to know reality. As such, it has a unique relation to Theology among other Signs of the Times in that it offers a set of rational tools that Theology uses to better understand the Faith. However, apart from its theological appropriation, Philosophy also has an authentic independence which is exercised in the search for truth. The most extensive Magisterial treatment of the relationship between Theology and Philosophy was Pope John Paul II's 1998 encyclical, Fides Et Ratio (Faith and Reason). ";
-        philosophySource.image = [UIImage imageNamed:@"appicon"];
         philosophySource.bigPic = [UIImage imageNamed:@"thinker"];
-        //scienceSource.scrollPic = [UIImage imageNamed:@"station"];
         UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Signs"
                     style:UIBarButtonItemStylePlain
                    target:nil
@@ -205,7 +199,7 @@
         technologySource.name = @"Technology";
         technologySource.twitterDef = @"Tools From and For Human Development";
         technologySource.comment = @"\rSince it coincided with and enabled the evolution of homo sapiens, technology has always influenced and been an expression of human creativity.";
-        technologySource.image = [UIImage imageNamed:@"appicon"];
+        technologySource.bigPic = [UIImage imageNamed:@"tech1"]; 
         UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Signs"
                                                                        style:UIBarButtonItemStylePlain
                                                                       target:nil
@@ -221,7 +215,6 @@
         economicsSource.name = @"Economics";
         economicsSource.twitterDef = @"Material Goods and Services";
         economicsSource.comment = @"\rHuman development is includes an economic aspect.";
-        economicsSource.image = [UIImage imageNamed:@"appicon"];
         UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Signs"
                                                                        style:UIBarButtonItemStylePlain
                                                                       target:nil
@@ -236,7 +229,6 @@
         artsSource.name = @"Politics";
         artsSource.twitterDef = @"The Affairs of the People";
         artsSource.comment = @"\rThe regulation of human society is essential to its survival and development.";
-        artsSource.image = [UIImage imageNamed:@"appicon"];
         
         UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Signs"
                                                                        style:UIBarButtonItemStylePlain
@@ -251,7 +243,6 @@
         politicsSource.name = @"Politics";
         politicsSource.twitterDef = @"The Affairs of the People";
         politicsSource.comment = @"\rThe regulation of human society is essential to its survival and development.";
-        politicsSource.image = [UIImage imageNamed:@"appicon"];
         
         SourcesDetailViewController *sourcesDetailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"SourcesDetailViewController"];
         
