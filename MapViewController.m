@@ -79,12 +79,15 @@
     BiblicalPins *capernaum = [[BiblicalPins alloc] init];
     capernaum.coordinate = CLLocationCoordinate2DMake(32.8811, 35.5750);
     capernaum.title = @"Capernaum";
-    capernaum.subtitle = @"Fishing village on the Sea of Galilee";
+    capernaum.subtitle = @"Galilean Fishing Village";
+    capernaum.image = [UIImage imageNamed:@"synagogue"];
+    capernaum.information = @"\rAccording to the Gospel of Matthew, at the beginning of his public ministry, Jesus made his home in and conducting most of his preaching in the neighboring villages around Capernaum. The Synoptic Gospels Peter, Andrew, James, and John as being fisherman from this northern coastal city on the Sea of Galilee.";
     
     BiblicalPins *ephesus = [[BiblicalPins alloc] init];
     ephesus.coordinate = CLLocationCoordinate2DMake(37.9411, 27.3419);
     ephesus.title = @"Ephesus";
     ephesus.subtitle = @"Roman Provincial Captial of Asia";
+    ephesus.image = [UIImage imageNamed:@"ephesus"];
     ephesus.information = @"\rEphesus was the base for Paul's European missionary journeys.\r\rCoordinates:\r37.9411, 27.3419";
     
     BiblicalPins *corinth = [[BiblicalPins alloc] init];
@@ -93,6 +96,12 @@
     corinth.subtitle = @"Major Greek Port City";
     corinth.image = [UIImage imageNamed:@"corinth"];
     corinth.information = @"\rCoordinates: 37.9333, 22.9333";
+    
+    BiblicalPins *colossae = [[BiblicalPins alloc] init];
+    colossae.coordinate = CLLocationCoordinate2DMake(37.7878, 29.2615);
+    colossae.title = @"Colossae";
+    colossae.subtitle = @"Colossians 1:4";
+    colossae.image = [UIImage imageNamed:@"colossae"];
     
     BiblicalPins *dan = [[BiblicalPins alloc] init];
     dan.coordinate = CLLocationCoordinate2DMake(33.2490, 35.6520);
@@ -132,8 +141,9 @@
     SocialPins *greenland = [[SocialPins alloc] init];
     greenland.coordinate = CLLocationCoordinate2DMake(61.2950, -45.0000);
     greenland.title = @"Greenland";
-    greenland.subtitle = @"Issue: Accelerated Glacial Melt";
-    greenland.information = @"\rGreenland is an examplar of the effects of climate change.\r\rCoordinates: 50.0000, -40.0000";
+    greenland.subtitle = @"Accelerated Glacial Melting";
+    greenland.image = [UIImage imageNamed:@"greenland"];
+    greenland.information = @"\rGreenland is an examplar of the effects of climate change.\r\rFurther Reference:\rNational Snow & Ice Data Center, “Greenland Ice Sheet Today”\rhttp://tinyurl.com/a422blp\r\rCoordinates: 50.0000, -40.0000";
     
     HistoricalPins *alexandria = [[HistoricalPins alloc] init];
     alexandria.coordinate = CLLocationCoordinate2DMake(31.1980, 29.9192);
@@ -160,6 +170,7 @@
     sierraLeone.coordinate = CLLocationCoordinate2DMake(8.4844, -13.2344);
     sierraLeone.title = @"Freetown";
     sierraLeone.subtitle = @"Insufficient Health Care";
+    sierraLeone.image = [UIImage imageNamed:@"sierra"];
     sierraLeone.information = @"\rFreetown in Sierra Leone was the locus of an Ebola epidemic in 2014.\r\rCoordinates: 8.4844, -13.2344";
     
     SocialPins *camden = [[SocialPins alloc] init];
@@ -171,16 +182,21 @@
     SocialPins *atlantic = [[SocialPins alloc] init];
     atlantic.coordinate = CLLocationCoordinate2DMake(38.4667, -28.4000);
     atlantic.title = @"The Atlantic Ocean";
+    atlantic.subtitle = @"Rising Water Levels";
     atlantic.information = @"Coordinates: 38.4667, -28.4000";
     
     SocialPins *palestine = [[SocialPins alloc] init];
     palestine.coordinate = CLLocationCoordinate2DMake(31.6253, 35.1453);
     palestine.title = @"Palestine";
+    palestine.image = [UIImage imageNamed:@"palestine"];
+    palestine.subtitle = @"Occupied Territory";
     palestine.information = @"\rCoordinates: 31.6253, 35.1453";
     
     SocialPins *israel = [[SocialPins alloc] init];
     israel.coordinate = CLLocationCoordinate2DMake(31.0000, 35.0000);
     israel.title = @"Israel";
+    israel.subtitle = @"A Contested Homeland";
+    israel.image = [UIImage imageNamed:@"israel"];
     israel.information = @"Coordinates: 31.6253, 35.1453";
     
     BiblicalPins *thessalonica = [[BiblicalPins alloc] init];
@@ -194,12 +210,14 @@
     philippi.coordinate = CLLocationCoordinate2DMake(41.0131, 24.2864);
     philippi.title = @"Philippi";
     philippi.subtitle = @"Major Greek City";
+    philippi.image = [UIImage imageNamed:@"philippi"];
     philippi.information = @"\rPhilippi was...\r\rCoordinates:\r41.0131, 24.2864";
     
     BiblicalPins *antioch = [[BiblicalPins alloc] init];
     antioch.coordinate = CLLocationCoordinate2DMake(36.2000, 36.1500);
     antioch.title = @"Antioch";
     antioch.subtitle = @"Capital of Ancient Syria";
+    antioch.image = [UIImage imageNamed:@"antioch"];
     antioch.information = @"\rCoordinates:\r 36.2000, 36.1500";
     
     BiblicalPins *bethlehem = [[BiblicalPins alloc] init];
@@ -216,57 +234,74 @@
     BiblicalPins *hebron = [[BiblicalPins alloc] init];
     hebron.coordinate = CLLocationCoordinate2DMake(31.5333, 35.0950);
     hebron.title = @"Hebron";
-    hebron.subtitle = @"Capital of David's Judahite Territory";
+    hebron.subtitle = @"David's Judahite Capital";
+    hebron.image = [UIImage imageNamed:@"hebron"];
     
     BiblicalPins *shiloh = [[BiblicalPins alloc] init];
     shiloh.coordinate = CLLocationCoordinate2DMake(32.0556, 35.2895);
     shiloh.title = @"Shiloh";
     shiloh.subtitle = @"Shrine of the Ark of the Covenant";
+    shiloh.image = [UIImage imageNamed:@"shiloh"];
     
     HistoricalPins *lyon = [[HistoricalPins alloc] init];
     lyon.coordinate = CLLocationCoordinate2DMake(45.7600, 4.8400);
     lyon.title = @"Lyon";
     lyon.subtitle = @"Ecumenical Council XIII";
+    lyon.image = [UIImage imageNamed:@"lyon"]; 
     lyon.information = @"\rCoordinates:\r45.7600, 4.8400";
     
     HistoricalPins *vienne = [[HistoricalPins alloc] init];
     vienne.coordinate = CLLocationCoordinate2DMake(46.5000, 0.5000);
     vienne.title = @"Vienne";
     vienne.subtitle = @"Ecumenical Council XV";
+    vienne.image = [UIImage imageNamed:@"vienne"]; 
     vienne.information = @"\rCoordinates:\r46.5000, 0.5000";
     
     HistoricalPins *chalcedon = [[HistoricalPins alloc] init];
     chalcedon.coordinate = CLLocationCoordinate2DMake(40.9833, 29.0333);
     chalcedon.title = @"Chalcedon";
     chalcedon.subtitle = @"Ecumencial Council IV";
+    chalcedon.image = [UIImage imageNamed:@"chalcedon"];
     chalcedon.information = @"Coordinates:\r40.9833, 29.0333";
     
     HistoricalPins *constance = [[HistoricalPins alloc] init];
     constance.coordinate = CLLocationCoordinate2DMake(47.6633, 9.1769);
     constance.title = @"Constance";
     constance.subtitle = @"Ecumenical Council XVI";
+    constance.image = [UIImage imageNamed:@"constance"];
     constance.information = @"Coordinates:\r47.6633° N, 9.1769° E";
     
     HistoricalPins *trent = [[HistoricalPins alloc] init];
     trent.coordinate = CLLocationCoordinate2DMake(46.0667, 11.1167);
     trent.title = @"Trent";
     trent.subtitle = @"Ecumenical Council XIX";
+    trent.image = [UIImage imageNamed:@"trent"];
     trent.information = @"Coordinates:\r46.0667° N, 11.1167° E";
     
     HistoricalPins *florence = [[HistoricalPins alloc] init];
     florence.coordinate = CLLocationCoordinate2DMake(43.7833, 11.2500);
     florence.title = @"Florence";
     florence.subtitle = @"Ecumenical Council XVII";
+    florence.image = [UIImage imageNamed:@"florence"]; 
     florence.information = @"Coordinates:\r43.7833° N, 11.2500° E";
     
     HistoricalPins *lateran = [[HistoricalPins alloc] init];
-    lateran.coordinate = CLLocationCoordinate2DMake(43.7833, 11.2500);
-    lateran.title = @"Florence";
-    lateran.subtitle = @"Ecumenical Council IX, X, XI, XII";
+    lateran.coordinate = CLLocationCoordinate2DMake(41.885906, 12.506156);
+    lateran.title = @"St. John Lateran";
+    lateran.subtitle = @"Ecumenical Councils IX, X, XI, XII";
+    lateran.image = [UIImage imageNamed:@"lateran"]; 
     lateran.information = @"Coordinates:\r43.7833° N, 11.2500° E";
+    
+    SocialPins *uganda = [[SocialPins alloc] init];
+    uganda.coordinate = CLLocationCoordinate2DMake(1.0667, 31.8833);
+    uganda.title = @"Uganda";
+    uganda.subtitle = @"Tribal Warfare & Water Scarcity";
+    uganda.image = [UIImage imageNamed:@"uganda"];
+    uganda.information = @"\rAs part of Sub-Saharan Africa, Uganda has been the location of severe Water Scarcity. This situation has only been compounded by the various political crises since the country gained independence from \r\rCoordinates: 1.0667, 31.8833\r\rFurther Reference:\rUNDP, Uganda http://tinyurl.com/kqrstkw\r\rWikipedia, “Uganda” http://tinyurl.com/jmaev";
+
 
     
-    NSArray *annotations = [NSArray arrayWithObjects:jerusalem, bethEl, ephesus, corinth, dan, temple, hazor, nicea, greenland, rome, nazareth, sierraLeone, camden, atlantic, rome2, constantinople, palestine, israel, alexandria, thessalonica, philippi, antioch, bethlehem, ramah, hebron, shiloh, lyon, vienne, chalcedon, constance, trent, florence, nil];
+    NSArray *annotations = [NSArray arrayWithObjects:jerusalem, bethEl, ephesus, corinth, dan, temple, hazor, nicea, greenland, rome, nazareth, capernaum, sierraLeone, camden, atlantic, rome2, constantinople, palestine, israel, alexandria, thessalonica, philippi, antioch, bethlehem, ramah, hebron, shiloh, lyon, vienne, chalcedon, constance, trent, florence, lateran, uganda, colossae, nil];
     
     [self.mapView addAnnotations:annotations];
 
@@ -652,11 +687,15 @@ MapDetailViewController.currentWordDetail = word;
                                       shiloh.coordinate = CLLocationCoordinate2DMake(32.0556, 35.2895);
                                       shiloh.title = @"Shiloh";
                                       shiloh.subtitle = @"Shrine of the Ark of the Covenant";
+                                      shiloh.image = [UIImage imageNamed:@"shiloh"];
+
                                       
                                       BiblicalPins *hebron = [[BiblicalPins alloc] init];
                                       hebron.coordinate = CLLocationCoordinate2DMake(31.5333, 35.0950);
                                       hebron.title = @"Hebron";
-                                      hebron.subtitle = @"Ancient Canaanite Site";
+                                      hebron.subtitle = @"David's Judahite Capital";
+                                      hebron.image = [UIImage imageNamed:@"hebron"];
+
                                       
                                       
                                       
@@ -690,12 +729,17 @@ MapDetailViewController.currentWordDetail = word;
                                    BiblicalPins *capernaum = [[BiblicalPins alloc] init];
                                    capernaum.coordinate = CLLocationCoordinate2DMake(32.8811, 35.5750);
                                    capernaum.title = @"Capernaum";
-                                   capernaum.subtitle = @"Fishing village on the Sea of Galilee";
+                                   capernaum.subtitle = @"Galilean Fishing Village";
+                                   capernaum.image = [UIImage imageNamed:@"synagogue"];
+
+                                       capernaum.information = @"\rAccording to the Gospel of Matthew, at the beginning of his public ministry, Jesus made his home in and conducting most of his preaching in the neighboring villages around Capernaum. The Synoptic Gospels Peter, Andrew, James, and John as being fisherman from this northern coastal city on the Sea of Galilee.";
                                    
                                    BiblicalPins *ephesus = [[BiblicalPins alloc] init];
                                    ephesus.coordinate = CLLocationCoordinate2DMake(37.9411, 27.3419);
                                    ephesus.title = @"Ephesus";
-                                   ephesus.subtitle = @"Ephesians 1:4";
+                                   ephesus.subtitle = @"Roman Provincial Capital of Asia";
+                                   ephesus.image = [UIImage imageNamed:@"ephesus"];
+
                                    
                                    BiblicalPins *corinth = [[BiblicalPins alloc] init];
                                    corinth.coordinate = CLLocationCoordinate2DMake(37.9333, 22.9333);
@@ -713,8 +757,10 @@ MapDetailViewController.currentWordDetail = word;
                                    
                                    BiblicalPins *philippi = [[BiblicalPins alloc] init];
                                    philippi.coordinate = CLLocationCoordinate2DMake(41.0131, 24.2864);
-                                   philippi.title = @"Philippians";
-                                   philippi.subtitle = @"Philippians 1:2";
+                                   philippi.title = @"Philippi";
+                                   philippi.subtitle = @"Major Greek City";
+                                   philippi.image = [UIImage imageNamed:@"philippi"];
+
                                    
                                    BiblicalPins *rome = [[BiblicalPins alloc] init];
                                    rome.coordinate = CLLocationCoordinate2DMake(41.8900, 12.4938);
@@ -735,6 +781,8 @@ MapDetailViewController.currentWordDetail = word;
                                    colossae.coordinate = CLLocationCoordinate2DMake(37.7878, 29.2615);
                                    colossae.title = @"Colossae";
                                    colossae.subtitle = @"Colossians 1:4";
+                                   colossae.image = [UIImage imageNamed:@"colossae"];
+
                                    
                                    BiblicalPins *temple = [[BiblicalPins alloc] init];
                                    temple.coordinate = CLLocationCoordinate2DMake(31.7780, 35.2354);
@@ -747,6 +795,8 @@ MapDetailViewController.currentWordDetail = word;
                                    antioch.coordinate = CLLocationCoordinate2DMake(36.2000, 36.1500);
                                    antioch.title = @"Antioch";
                                    antioch.subtitle = @"Center of Paul's Missions";
+                                   antioch.image = [UIImage imageNamed:@"antioch"];
+
                                    
                                    BiblicalPins *bethlehem = [[BiblicalPins alloc] init];
                                    bethlehem.coordinate = CLLocationCoordinate2DMake(31.7063, 35.2090);
@@ -799,49 +849,67 @@ MapDetailViewController.currentWordDetail = word;
                                    constantinople.coordinate = CLLocationCoordinate2DMake(41.0122, 28.9760);
                                    constantinople.title = @"Constantinople";
                                    constantinople.subtitle = @"Ecumenical Councils II, V";
-                                   constantinople.information = @"\rIn A.D. 381 and 553, the 2nd and 5th ecumenical councils, respectively, confirmed the Nicene Council's creed and clarified the teaching on the nature of Christ.";
+                                   constantinople.image = [UIImage imageNamed:@"constantinople"];
+                                   constantinople.information = @"\rA.D. 381, 553 \r\rThe 2nd and 5th ecumenical councils confirmed the Nicene Council's creed and clarified the teaching on the nature of Christ, respectively.\r\rCoordinates:\r41.0122, 28.9760";
+                             
                                    
                                    HistoricalPins *lyon = [[HistoricalPins alloc] init];
                                    lyon.coordinate = CLLocationCoordinate2DMake(45.7600, 4.8400);
                                    lyon.title = @"Lyon";
                                    lyon.subtitle = @"Ecumenical Council XIII";
+                                   lyon.image = [UIImage imageNamed:@"lyon"];
                                    lyon.information = @"\rCoordinates:\r45.7600, 4.8400";
                                    
                                    HistoricalPins *vienne = [[HistoricalPins alloc] init];
                                    vienne.coordinate = CLLocationCoordinate2DMake(46.5000, 0.5000);
                                    vienne.title = @"Vienne";
                                    vienne.subtitle = @"Ecumenical Council XV";
+                                   vienne.image = [UIImage imageNamed:@"vienne"];
                                    vienne.information = @"\rCoordinates:\r46.5000, 0.5000";
                                    
                                    HistoricalPins *chalcedon = [[HistoricalPins alloc] init];
                                    chalcedon.coordinate = CLLocationCoordinate2DMake(40.9833, 29.0333);
                                    chalcedon.title = @"Chalcedon";
                                    chalcedon.subtitle = @"Ecumencial Council IV";
+                                   chalcedon.image = [UIImage imageNamed:@"chalcedon"];
+
                                    chalcedon.information = @"Coordinates:\r40.9833, 29.0333";
                                    
                                    HistoricalPins *constance = [[HistoricalPins alloc] init];
                                    constance.coordinate = CLLocationCoordinate2DMake(47.6633, 9.1769);
                                    constance.title = @"Constance";
                                    constance.subtitle = @"Ecumenical Council XVI";
+                                   constance.image = [UIImage imageNamed:@"constance"];
+
                                    constance.information = @"Coordinates:\r47.6633° N, 9.1769° E";
                                    
                                    HistoricalPins *trent = [[HistoricalPins alloc] init];
                                    trent.coordinate = CLLocationCoordinate2DMake(46.0667, 11.1167);
                                    trent.title = @"Trent";
                                    trent.subtitle = @"Ecumenical Council XIX";
+                                   trent.image = [UIImage imageNamed:@"trent"];
                                    trent.information = @"Coordinates:\r46.0667° N, 11.1167° E";
                                    
                                    HistoricalPins *florence = [[HistoricalPins alloc] init];
                                    florence.coordinate = CLLocationCoordinate2DMake(43.7833, 11.2500);
                                    florence.title = @"Florence";
                                    florence.subtitle = @"Ecumenical Council XVII";
+                                   florence.image = [UIImage imageNamed:@"florence"]; 
                                    florence.information = @"Coordinates:\r43.7833° N, 11.2500° E";
+                                   
+                                   HistoricalPins *lateran = [[HistoricalPins alloc] init];
+                                   lateran.coordinate = CLLocationCoordinate2DMake(41.885906, 12.506156);
+                                   lateran.title = @"St. John Lateran";
+                                   lateran.subtitle = @"Ecumenical Councils IX, X, XI, XII";
+                                   lateran.image = [UIImage imageNamed:@"lateran"];
+                                   lateran.information = @"Coordinates:\r43.7833° N, 11.2500° E";
+
 
                                    
                                    
                                    
                                    
-                                   NSArray *annotations = [NSArray arrayWithObjects:nicea, alexandria, rome2, constantinople, lyon, vienne, chalcedon, constance, trent, florence, nil];
+                                   NSArray *annotations = [NSArray arrayWithObjects:nicea, alexandria, rome2, constantinople, lyon, vienne, chalcedon, constance, trent, florence,lateran, nil];
                                    [self.mapView addAnnotations:annotations];
                                    
                                    }];
@@ -852,14 +920,19 @@ MapDetailViewController.currentWordDetail = word;
                                      [self.mapView removeAnnotations:self.mapView.annotations];
                                      
                                      SocialPins *greenland = [[SocialPins alloc] init];
-                                     greenland.coordinate = CLLocationCoordinate2DMake(72.0000, -40.0000);
+                                     greenland.coordinate = CLLocationCoordinate2DMake(61.2950, -45.0000);
                                      greenland.title = @"Greenland";
-                                     greenland.subtitle = @"Issue: Accelerated Glacial Melting";
+                                     greenland.subtitle = @"Accelerated Glacial Melting";
+                                     greenland.image = [UIImage imageNamed:@"greenland"];
+                                         greenland.information = @"\rGreenland is an examplar of the effects of climate change.\r\rFurther Reference:\rNational Snow & Ice Data Center, Greenland Ice Sheet Today\rhttp://tinyurl.com/a422blp\r\rCoordinates: 50.0000, -40.0000";
+
                                      
                                      SocialPins *sierraLeone = [[SocialPins alloc] init];
                                      sierraLeone.coordinate = CLLocationCoordinate2DMake(8.4844, -13.2344);
                                      sierraLeone.title = @"Sierra Leone";
                                      sierraLeone.subtitle = @"Issue: Health Care";
+                                     sierraLeone.image = [UIImage imageNamed:@"sierra"];
+
                                      
                                      SocialPins *camden = [[SocialPins alloc] init];
                                      camden.coordinate = CLLocationCoordinate2DMake(39.9400, -75.1050);
@@ -874,15 +947,25 @@ MapDetailViewController.currentWordDetail = word;
                                      SocialPins *palestine = [[SocialPins alloc] init];
                                      palestine.coordinate = CLLocationCoordinate2DMake(31.6253, 35.1453);
                                      palestine.title = @"Palestine";
-                                     palestine.subtitle = @"Issue: Israeli Occupation";
+                                     palestine.image = [UIImage imageNamed:@"palestine"];
+                                     palestine.subtitle = @"Occupied Territory";
                                      
                                      SocialPins *israel = [[SocialPins alloc] init];
                                      israel.coordinate = CLLocationCoordinate2DMake(31.0000, 35.0000);
                                      israel.title = @"Israel";
-                                     israel.subtitle = @"Issue: Regional Terrorism";
+                                     israel.subtitle = @"A Contested Homeland";
+                                     israel.image = [UIImage imageNamed:@"israel"];
+
+                                     
+                                     SocialPins *uganda = [[SocialPins alloc] init];
+                                     uganda.coordinate = CLLocationCoordinate2DMake(1.0667, 31.8833);
+                                     uganda.title = @"Uganda";
+                                     uganda.subtitle = @"Tribal Warfare & Water Scarcity";
+                                     uganda.image = [UIImage imageNamed:@"uganda"];
+                                     uganda.information = @"\rAs part of Sub-Saharan Africa, Uganda has been the location of severe Water Scarcity. This situation has only been compounded by the various political crises since the country gained independence from \r\rCoordinates: 1.0667, 31.8833\r\rFurther Reference:\rUNDP, Uganda http://tinyurl.com/kqrstkw\r\rWikipedia, “Uganda” http://tinyurl.com/jmaev";
                                      
                                      
-                                     NSArray *annotations = [NSArray arrayWithObjects:greenland, sierraLeone, camden, atlantic, palestine, israel, nil];
+                                     NSArray *annotations = [NSArray arrayWithObjects:greenland, sierraLeone, camden, atlantic, palestine, israel, uganda, nil];
                                      [self.mapView addAnnotations:annotations];
 
                                      
@@ -924,12 +1007,16 @@ MapDetailViewController.currentWordDetail = word;
                                    BiblicalPins *capernaum = [[BiblicalPins alloc] init];
                                    capernaum.coordinate = CLLocationCoordinate2DMake(32.8811, 35.5750);
                                    capernaum.title = @"Capernaum";
-                                   capernaum.subtitle = @"Fishing village on the Sea of Galilee";
+                                   capernaum.subtitle = @"Galilean Fishing Village";
+                                   capernaum.image = [UIImage imageNamed:@"synagogue"];
+
+                                       capernaum.information = @"\rAccording to the Gospel of Matthew, at the beginning of his public ministry, Jesus made his home in and conducting most of his preaching in the neighboring villages around Capernaum. The Synoptic Gospels Peter, Andrew, James, and John as being fisherman from this northern coastal city on the Sea of Galilee.";
                                    
                                    BiblicalPins *ephesus = [[BiblicalPins alloc] init];
                                    ephesus.coordinate = CLLocationCoordinate2DMake(37.9411, 27.3419);
                                    ephesus.title = @"Ephesus";
                                    ephesus.subtitle = @"Roman Provincial Captial of Asia";
+                                   ephesus.image = [UIImage imageNamed:@"ephesus"];
                                    ephesus.information = @"\rEphesus was the base for Paul's European missionary journeys.\r\rCoordinates:\r37.9411, 27.3419";
                                    
                                    BiblicalPins *corinth = [[BiblicalPins alloc] init];
@@ -977,8 +1064,9 @@ MapDetailViewController.currentWordDetail = word;
                                    SocialPins *greenland = [[SocialPins alloc] init];
                                    greenland.coordinate = CLLocationCoordinate2DMake(61.2950, -45.0000);
                                    greenland.title = @"Greenland";
-                                   greenland.subtitle = @"Issue: Accelerated Glacial Melt";
-                                   greenland.information = @"\rGreenland is an examplar of the effects of climate change.\r\rCoordinates: 50.0000, -40.0000";
+                                   greenland.subtitle = @"Accelerated Glacial Melting";
+                                   greenland.image = [UIImage imageNamed:@"greenland"];
+                                   greenland.information = @"\rGreenland is an examplar of the effects of climate change.\r\rFurther Reference:\rNational Snow & Ice Data Center, Greenland Ice Sheet Today\rhttp://tinyurl.com/a422blp\r\rCoordinates: 50.0000, -40.0000";
                                    
                                    HistoricalPins *alexandria = [[HistoricalPins alloc] init];
                                    alexandria.coordinate = CLLocationCoordinate2DMake(31.1980, 29.9192);
@@ -999,12 +1087,16 @@ MapDetailViewController.currentWordDetail = word;
                                    constantinople.title = @"Constantinople";
                                    constantinople.subtitle = @"Ecumenical Councils II, V";
                                    constantinople.image = [UIImage imageNamed:@"constantinople"];
+                                   constantinople.image = [UIImage imageNamed:@"constantinople"];
                                    constantinople.information = @"\rA.D. 381, 553 \r\rThe 2nd and 5th ecumenical councils confirmed the Nicene Council's creed and clarified the teaching on the nature of Christ, respectively.\r\rCoordinates:\r41.0122, 28.9760";
+
                                    
                                    SocialPins *sierraLeone = [[SocialPins alloc] init];
                                    sierraLeone.coordinate = CLLocationCoordinate2DMake(8.4844, -13.2344);
                                    sierraLeone.title = @"Freetown";
                                    sierraLeone.subtitle = @"Insufficient Health Care";
+                                   sierraLeone.image = [UIImage imageNamed:@"sierra"];
+
                                    sierraLeone.information = @"\rFreetown in Sierra Leone was the locus of an Ebola epidemic in 2014.\r\rCoordinates: 8.4844, -13.2344";
                                    
                                    SocialPins *camden = [[SocialPins alloc] init];
@@ -1021,11 +1113,15 @@ MapDetailViewController.currentWordDetail = word;
                                    SocialPins *palestine = [[SocialPins alloc] init];
                                    palestine.coordinate = CLLocationCoordinate2DMake(31.6253, 35.1453);
                                    palestine.title = @"Palestine";
+                                   palestine.subtitle = @"Occupied Territory";
+                                   palestine.image = [UIImage imageNamed:@"palestine"];
                                    palestine.information = @"\rCoordinates: 31.6253, 35.1453";
                                    
                                    SocialPins *israel = [[SocialPins alloc] init];
                                    israel.coordinate = CLLocationCoordinate2DMake(31.0000, 35.0000);
                                    israel.title = @"Israel";
+                                   israel.subtitle = @"A Contested Homeland";
+                                   israel.image = [UIImage imageNamed:@"israel"];
                                    israel.information = @"\rCoordinates: 31.6253, 35.1453";
                                    
                                    BiblicalPins *thessalonica = [[BiblicalPins alloc] init];
@@ -1039,13 +1135,23 @@ MapDetailViewController.currentWordDetail = word;
                                    philippi.coordinate = CLLocationCoordinate2DMake(41.0131, 24.2864);
                                    philippi.title = @"Philippi";
                                    philippi.subtitle = @"Major Greek City";
+                                   philippi.image = [UIImage imageNamed:@"philippi"];
+
                                    philippi.information = @"\rPhilippi was...\r\rCoordinates:\r41.0131, 24.2864";
                                    
                                    BiblicalPins *antioch = [[BiblicalPins alloc] init];
                                    antioch.coordinate = CLLocationCoordinate2DMake(36.2000, 36.1500);
                                    antioch.title = @"Antioch";
                                    antioch.subtitle = @"Capital of Ancient Syria";
+                                   antioch.image = [UIImage imageNamed:@"antioch"];
+
                                    antioch.information = @"\rCoordinates:\r 36.2000, 36.1500";
+                                   
+                                   BiblicalPins *colossae = [[BiblicalPins alloc] init];
+                                   colossae.coordinate = CLLocationCoordinate2DMake(37.7878, 29.2615);
+                                   colossae.title = @"Colossae";
+                                   colossae.subtitle = @"Colossians 1:4";
+                                   colossae.image = [UIImage imageNamed:@"colossae"];
                                    
                                    BiblicalPins *bethlehem = [[BiblicalPins alloc] init];
                                    bethlehem.coordinate = CLLocationCoordinate2DMake(31.7063, 35.2090);
@@ -1061,51 +1167,77 @@ MapDetailViewController.currentWordDetail = word;
                                    BiblicalPins *hebron = [[BiblicalPins alloc] init];
                                    hebron.coordinate = CLLocationCoordinate2DMake(31.5333, 35.0950);
                                    hebron.title = @"Hebron";
-                                   hebron.subtitle = @"Capital of David's Judahite Territory";
+                                   hebron.subtitle = @"David's Judahite Capital";
+                                   hebron.image = [UIImage imageNamed:@"hebron"];
+
                                    
                                    BiblicalPins *shiloh = [[BiblicalPins alloc] init];
                                    shiloh.coordinate = CLLocationCoordinate2DMake(32.0556, 35.2895);
                                    shiloh.title = @"Shiloh";
                                    shiloh.subtitle = @"Shrine of the Ark of the Covenant";
+                                   shiloh.image = [UIImage imageNamed:@"shiloh"];
+
                                    
                                    HistoricalPins *lyon = [[HistoricalPins alloc] init];
                                    lyon.coordinate = CLLocationCoordinate2DMake(45.7600, 4.8400);
                                    lyon.title = @"Lyon";
                                    lyon.subtitle = @"Ecumenical Council XIII";
+                                   lyon.image = [UIImage imageNamed:@"lyon"];
                                    lyon.information = @"\rCoordinates:\r45.7600, 4.8400";
                                    
                                    HistoricalPins *vienne = [[HistoricalPins alloc] init];
                                    vienne.coordinate = CLLocationCoordinate2DMake(46.5000, 0.5000);
                                    vienne.title = @"Vienne";
                                    vienne.subtitle = @"Ecumenical Council XV";
+                                   vienne.image = [UIImage imageNamed:@"vienne"];
                                    vienne.information = @"\rCoordinates:\r46.5000, 0.5000";
                                    
                                    HistoricalPins *chalcedon = [[HistoricalPins alloc] init];
                                    chalcedon.coordinate = CLLocationCoordinate2DMake(40.9833, 29.0333);
                                    chalcedon.title = @"Chalcedon";
                                    chalcedon.subtitle = @"Ecumencial Council IV";
+                                   chalcedon.image = [UIImage imageNamed:@"chalcedon"];
                                    chalcedon.information = @"Coordinates:\r40.9833, 29.0333";
                                    
                                    HistoricalPins *constance = [[HistoricalPins alloc] init];
                                    constance.coordinate = CLLocationCoordinate2DMake(47.6633, 9.1769);
                                    constance.title = @"Constance";
                                    constance.subtitle = @"Ecumenical Council XVI";
+                                   constance.image = [UIImage imageNamed:@"constance"];
                                    constance.information = @"Coordinates:\r47.6633° N, 9.1769° E";
                                    
                                    HistoricalPins *trent = [[HistoricalPins alloc] init];
                                    trent.coordinate = CLLocationCoordinate2DMake(46.0667, 11.1167);
                                    trent.title = @"Trent";
                                    trent.subtitle = @"Ecumenical Council XIX";
+                                   trent.image = [UIImage imageNamed:@"trent"];
                                    trent.information = @"Coordinates:\r46.0667° N, 11.1167° E";
                                    
                                    HistoricalPins *florence = [[HistoricalPins alloc] init];
                                    florence.coordinate = CLLocationCoordinate2DMake(43.7833, 11.2500);
                                    florence.title = @"Florence";
                                    florence.subtitle = @"Ecumenical Council XVII";
+                                   florence.image = [UIImage imageNamed:@"florence"];
                                    florence.information = @"Coordinates:\r43.7833° N, 11.2500° E";
+                                   
+                                   HistoricalPins *lateran = [[HistoricalPins alloc] init];
+                                   lateran.coordinate = CLLocationCoordinate2DMake(41.885906, 12.506156);
+                                   lateran.title = @"St. John Lateran";
+                                   lateran.subtitle = @"Ecumenical Councils IX, X, XI, XII";
+                                   lateran.image = [UIImage imageNamed:@"lateran"];
+                                   lateran.information = @"Coordinates:\r43.7833° N, 11.2500° E";
+                                   
+                                   SocialPins *uganda = [[SocialPins alloc] init];
+                                   uganda.coordinate = CLLocationCoordinate2DMake(1.0667, 31.8833);
+                                   uganda.title = @"Uganda";
+                                   uganda.subtitle = @"Tribal Warfare & Water Scarcity";
+                                   uganda.image = [UIImage imageNamed:@"uganda"];
+                                   uganda.information = @"\rAs part of Sub-Saharan Africa, Uganda has been the location of severe Water Scarcity. This situation has only been compounded by the various political crises since the country gained independence from \r\rCoordinates: 1.0667, 31.8833\r\rFurther Reference:\rUNDP, Uganda http://tinyurl.com/kqrstkw\r\rWikipedia, “Uganda” http://tinyurl.com/jmaev";
+                                   
+
 
                                    
-                                   NSArray *annotations = [NSArray arrayWithObjects:jerusalem, bethEl, ephesus, corinth, dan, temple, hazor, nicea, greenland, rome, nazareth, sierraLeone, camden, atlantic, rome2, constantinople, palestine, israel, alexandria, antioch, bethlehem, thessalonica, philippi, vienne, lyon, chalcedon, constance, trent, florence, nil];
+                                   NSArray *annotations = [NSArray arrayWithObjects:jerusalem, bethEl, ephesus, corinth, dan, temple, hazor, nicea, greenland, rome, nazareth, sierraLeone, camden, atlantic, rome2, constantinople, palestine, israel, alexandria, antioch, bethlehem, thessalonica, philippi, vienne, lyon, chalcedon, constance, trent, florence, uganda, lateran, colossae, nil];
                                    
                                    [self.mapView addAnnotations:annotations];
                                    
