@@ -14,6 +14,7 @@
 @property (strong, nonatomic) UIBarButtonItem *back;
 @property (strong, nonatomic) UIBarButtonItem *forward;
 @property (strong, nonatomic) UIBarButtonItem *refresh;
+@property (strong, nonatomic) UIBarButtonItem *share;
 
 
 @end
@@ -33,8 +34,9 @@
     self.forward = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"forwardButton"] style:UIBarButtonItemStylePlain target:self action:@selector(forwardButton)];
 
         //self.refresh = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"repeat"] style:UIBarButtonItemStylePlain target:self action:@selector(refreshButton)];
+    //self.share = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:self action:@selector(selector)];
     
-    self.navigationItem.rightBarButtonItems = [[NSArray alloc] initWithObjects:_forward, _back,  nil];
+    self.navigationItem.rightBarButtonItems = [[NSArray alloc] initWithObjects:_forward, _back,   nil];
     
 
     
@@ -168,6 +170,25 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+}
+*/
+
+/*
+- (IBAction)share:(UIBarButtonItem *)sender
+{
+    
+    
+  
+    NSArray *activityItems;
+    activityItems = @[self.urlString];
+
+    
+    //NSArray *activityActions;
+    
+    
+    UIActivityViewController *activityController = [[UIActivityViewController alloc] initWithActivityItems: activityItems applicationActivities:nil];
+    [self presentViewController:activityController
+                       animated:YES completion:nil];
 }
 */
 

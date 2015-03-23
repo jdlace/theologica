@@ -965,6 +965,12 @@
     ///////////////////////////D
 
     
+    
+    [TAWord wordWithDict:@{@"name":@"Day of Atonement",
+                           @"twitterDef":@"the annual day in Judaism on which\rsins are forgiven",
+                           @"definition":@"\rSee “Yom Kippur”.",
+                           @"category":@"Biblical"}];
+    
     [TAWord wordWithDict:@{@"name":@"Deanery",
                            @"twitterDef":@"a smaller geographical area within a diocese",
                            @"definition":@"\rDeaneries are made up of both clergy and lay representatives from various parishes....\r\rFurther Reference:\r",
@@ -2929,20 +2935,27 @@
     
     [TAWord wordWithDict:@{@"name":@"Yahwist Source",
                            @"twitterDef":@"the literary source (J) in the Torah that uses\rthe Divine Name before Exodus 3",
-                           @"definition":@"\rAccording to the Documentary Hypothesis, the Yahwist Source (also called “J” due to its German origin) is the earliest of the four written sources that comprise most of the Torah.\r\rFurther Reference:\rWikipedia, “Yahwist Source”\rhttp://tinyurl.com/ye7axpa",
+                           @"definition":@"\rAccording to the Documentary Hypothesis, the Yahwist Source (also called “J” due to its German origin) is the earliest of the four written sources that comprise most of the Torah. In contrast to the other sources of the Documentary Hypothesis, the Yahwist Source is highly anthroporphic and knows the Tetragrammaton before Exodus 3. It, along with the Elohist Source, were likely combined to form a single narrative (the JE Epic) to which the Priestly author added his own material in addition to Deuteronomy and the Deuteronomic History. See “Documentary Hypothesis”, “Elohist Source”, “Tetragrammaton”\r\rFurther Reference:\rWikipedia, “Yahwist Source”\rhttp://tinyurl.com/ye7axpa",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"YHWH",
                            @"twitterDef":@"the personal name\rof the God of the Israelites",
-                           @"definition":@"\rThe four letter personal name of the God of the Israelites, also called the 'Tetragrammaton'; it was likely pronounced 'Yah-WEY”; according to the E and P sources, this name was not known before it was revealed to Moses in Exodus chapter 3, the J source, however, uses it throughout Genesis, which is one argument for the Documentary Hypothesis.\r\rHebrew, יְהוָ֨ה (YHWH) ?\r\rFurther Reference:\r",
+                           @"definition":@"\rThe four letter personal name of the God of the Israelites, also called the “Tetragrammaton”. According to the Elohist and Priestly sources, this name was not known before it was revealed to Moses in Exodus chapter 3. The Yahwhist Source, however, knows of it and uses it throughout Genesis as the personal name of God, which is one argument for multiple authorship of the Torah; the essence of the Documentary Hypothesis. See “Tetragrammaton”, “Documentary Hypothesis”.\r\rHebrew, יְהוָ֨ה (YHWH) “yahweh”\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Yom Kippur",
                            @"twitterDef":@"a Hebrew phrase meaning “Day of Atonement”",
-                           @"definition":@"\rAccording to Leviticus 16, Yom Kippur is a day set aside on the Jewish calendar dedicated to bringing about personal and national reconciliation with YHWH.\r\rFurther Reference:\r",
+                           @"definition":@"\rAccording to Leviticus 16, Yom Kippur is a day set aside on the Jewish calendar dedicated to bringing about personal and national reconciliation with YHWH through the forgiveness of sins. See “Forgiveness”.\r\rFurther Reference:\rWikipedia, “Yom Kippur”\rhttp://tinyurl.com/ja2uz",
                            @"category":@"Biblical"}];
     
-    //Z
+    
+    
+    
+    ///////////////////////////////////////////////////////////////////////////////Z
+    
+    
+    
+    
     
     [TAWord wordWithDict:@{@"name":@"Zealots",
                            @"twitterDef":@"a Jewish revolutionary group that used violence in an effort to repel Roman Imperial forces",
