@@ -1022,7 +1022,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Deposit of Faith",
                            @"twitterDef":@"the content of the Christian faith given by God\rto the Church through the Apostolic tradition",
-                           @"definition":@"\rThe Depsit of Faith is regarded as delievered once for all to the Saints by the author of the Epistle of Jude.\r\rFurther Reference:\rCatechism of the Catholic Church, 84\rhttp://tinyurl.com/bx8mnlu",
+                           @"definition":@"\rThe Depsit of Faith is regarded as delievered once for all to the Saints by the author of the Epistle of Jude. See “Divine Revelation”, “Tradition”.\r\rFurther Reference:\rCatechism of the Catholic Church, 84\rhttp://tinyurl.com/bx8mnlu",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Development of Doctrine",
@@ -1032,12 +1032,12 @@
     
     [TAWord wordWithDict:@{@"name":@"Devil",
                            @"twitterDef":@"a personal, malevolent spiritual being\roppposed to the will of God",
-                           @"definition":@"\rThe Devil became synonymous with the Hebrew figure of Satan in the inter-testamental years. By the writing of the Gospels, Jesus' ministry was interpreted as a spiritual conflict with the Devil.\r\rFurther Reference:\rCatechism of the Catholic Church, 391\rhttp://tinyurl.com/llux3he",
+                           @"definition":@"\rThe Devil became synonymous with the Hebrew figure of Satan in the inter-testamental years. By the writing of the Gospels, Jesus' ministry was interpreted as a spiritual conflict with the Devil. See “Satan”.\r\rFurther Reference:\rCatechism of the Catholic Church, 391\rhttp://tinyurl.com/llux3he",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Doctrine",
                            @"twitterDef":@"a systemized body of teaching",
-                           @"definition":@"\rThe word doctrine is used in Catholicism to refer to the teaching of Church in a general sense. In this regard, it is synonymous with catechesis. See “Catechesis”.\r\rFurther Reference:\rCatechism of the Catholic Church, 18\rhttp://tinyurl.com/nxgcz89",
+                           @"definition":@"\rThe word doctrine is used in Catholicism to refer to the teaching of Church in a general sense. In this regard, it is synonymous with catechesis. See “Catechesis”, “Dogma”.\r\rFurther Reference:\rCatechism of the Catholic Church, 18\rhttp://tinyurl.com/nxgcz89",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Dogma",
@@ -1051,30 +1051,30 @@
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Dei Verbum",
-                           @"twitterDef":@"the dogmatic constitution of Vatican II\rconcerning Divine Revelation",
+                           @"twitterDef":@"the Dogmatic Constitution of Vatican II\rconcerning Divine Revelation",
                            @"definition":@"\rDei Verbum is the most definitive statement on the Church's belief in Divine Revelation, the Scriptures and Tradition. See “Divine Revelation”, “Bible”, “Tradition”.\r\rLatin, (dei verbum) “Word of God”\r\rFurther Reference:\rVatican II, “Dogmatic Constitution on Divine Revelation”\rhttp://tinyurl.com/3ecxu",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Demythologization",
                            @"twitterDef":@"the process of separating time-conditioned myths from their underlying truths",
-                           @"definition":@"\rFollowing a similar line of thought as Spinoza, Rudolph Bultmann coined this term to refer to way of interpreting the New Testament within a post-scientific worldview:\r\r“We cannot use electric lights and radios and, in the event of illness, avail ourselves of modern medical and clinical means and at the same time believe in the spirit and wonder world of the New Testament.”\r\rIn reflecting on the impact of Bultmann's thesis, Karl Rahner stated:\r\r“[Catholic theology] can share Bultmann's preoccupation to the extent that this consists simply in seeking out and expressing as adequately as possible and in the most effective way the data of faith contained in the Scripture. From this point of view, one could say that all theology embodies what is authentic in Bultmann's project.”\r\rFurther Reference:\rSacramentum Mundi, “Demythologization”\rhttp://tinyurl.com/kqj9ng5",
+                           @"definition":@"\rFollowing a similar line of thought as Spinoza, Rudolph Bultmann coined this term to refer to way of interpreting the New Testament within a post-scientific worldview:\r\r“We cannot use electric lights and radios and, in the event of illness, avail ourselves of modern medical and clinical means and at the same time believe in the spirit and wonder world of the New Testament.”\r\rIn reflecting on the impact of Bultmann's thesis, Karl Rahner stated:\r\r“[Catholic theology] can share Bultmann's preoccupation to the extent that this consists simply in seeking out and expressing as adequately as possible and in the most effective way the data of faith contained in the Scripture. From this point of view, one could say that all theology embodies what is authentic in Bultmann's project.” See “New Testament”.\r\rFurther Reference:\rSacramentum Mundi, “Demythologization”\rhttp://tinyurl.com/kqj9ng5",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Didache",
                            @"twitterDef":@"the name of the earliest extra-biblical Christian document",
-                           @"definition":@"\rThe Teaching of the Twelve Apostles is the first so-called “church order”; manuals for Christian living as well as public worship that would become popular in the 3rd and 4th centuries. It contains the earliest complete Christian liturgy, whose Eucharistic prayers show close similarity to the Jewish synagogue prayers.\r\rGreek, διδαχή (didache) “teaching”\r\rFurther Reference:\rChris Thomas, “The Didache: Its Origin and Significance”\rhttp://tinyurl.com/ppeydnh",
+                           @"definition":@"\rThe Teaching of the Twelve Apostles is the first so-called “church order”; manuals for Christian living as well as public worship that would become popular in the 3rd and 4th centuries. It contains the earliest complete Christian liturgy, whose Eucharistic prayers show close similarity to the Jewish synagogue prayers. See “Eucharist”. See “Church Fathers” section of the Home tab.\r\rGreek, διδαχή (didache) “teaching”\r\rFurther Reference:\rChris Thomas, “The Didache: Its Origin and Significance”\rhttp://tinyurl.com/ppeydnh",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Diocese",
-                           @"twitterDef":@"the administrative area of a bishop",
-                           @"definition":@"\rThe concept of a diocese dates to the time of the Emperor Diocletian...\r\rFurther Reference:\r",
+                           @"twitterDef":@"the administrative area of a Bishop",
+                           @"definition":@"\rThe concept of a diocese derives from the practice of household management. The Emperor Diocletian, in the fourth century A.D., divided up the Roman Empire into smaller administrative districts. As the Church assumed more civil responsibility, this districting system was adopted for ecclesial administration. See “Bishop”.\r\rFurther Reference:\rNew Advent, “Diocese”\rhttp://tinyurl.com/p7mkbna",
                            @"category":@"Historical"}];
 
 
 
     [TAWord wordWithDict:@{@"name":@"Deuteronomic History",
                            @"twitterDef":@"the theologized history of Israel in Joshua, Judges, 1 & 2 Samuel, and 1 & 2 Kings",
-                           @"definition":@"\rThe term given to the books Joshua, Judges, 1 & 2 Samuel, and 1 & 2 Kings, based on the theology of the book of Deuteronomy, which detail the rise and fall of the Israelite monarchy, united and divided kingdom, and eventual downfall of the nation Israel.\r\rFurther Reference:\rWikipedia, “Deuteronomic History”\rhttp://tinyurl.com/poqwjxo",
+                           @"definition":@"\rThe term given to the books Joshua, Judges, 1 & 2 Samuel, and 1 & 2 Kings, based on the theology of the book of Deuteronomy, which detail the rise and fall of the Israelite monarchy, united and divided kingdom, and eventual downfall of the nation Israel. See “Israel”.\r\rFurther Reference:\rWikipedia, “Deuteronomic History”\rhttp://tinyurl.com/poqwjxo",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Deuteronomic Source",
@@ -1096,7 +1096,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Diaspora",
                            @"twitterDef":@"the dispersion of Jews to surrounding regions after the Exile",
-                           @"definition":@"\rThe type of truth within a text which transcends time and culture.\r\rFurther Reference:\r“The Interpretation of the Bible in the Church, A” http://tinyurl.com/ymsltv",
+                           @"definition":@"\rThe type of truth within a text which transcends time and culture. See “Exile”.\r\rFurther Reference:\r“The Interpretation of the Bible in the Church, A” http://tinyurl.com/ymsltv",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Divine Office",
@@ -1111,47 +1111,47 @@
     
     [TAWord wordWithDict:@{@"name":@"Dynamic Equivalence",
                            @"twitterDef":@"a translation philosophy that seeks to render the text idea for idea",
-                           @"definition":@"\rThe pre-2011 translation of the Mass and New American Bible were both based on a dynamic equivalence philosophy.\r\rFurther Reference:\rFelix Just, S.J., “English Translations of the Bible” http://tinyurl.com/qhfucxz\r\rWikipedia, “Dynamic and Formal Equivalence” http://tinyurl.com/lwylgtu",
+                           @"definition":@"\rThe pre-2011 translation of the Mass and New American Bible were both based on a dynamic equivalence philosophy. See “Mass”.\r\rFurther Reference:\rFelix Just, S.J., “English Translations of the Bible” http://tinyurl.com/qhfucxz\r\rWikipedia, “Dynamic and Formal Equivalence” http://tinyurl.com/lwylgtu",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Deism",
                            @"twitterDef":@"the belief that God created the world but does not intervene in it",
-                           @"definition":@"\rThe belief that God created the world but does not intervene in the natural course of the world.\r\rFurther Reference:\rWikipedia, “Deism”\rhttp://tinyurl.com/oc6xh",
+                           @"definition":@"\rDeism became popular during the Enlightenment and rise of science primarily in Europe during the 16th and 17th centuries. It is most famously displayed in the works of Voltaire. See “Creation”.\r\rFurther Reference:\rWikipedia, “Deism”\rhttp://tinyurl.com/oc6xh",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Determinism",
                            @"twitterDef":@"the belief that all events are determined by physical phenomena",
-                           @"definition":@"\rThe belief that all events, including human actions, are determined by physical phenomena, negating the concept of free-will.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy, “Causal Determinism”\rhttp://tinyurl.com/ew8c.",
+                           @"definition":@"\rThe belief that all events, including human actions, are determined by physical phenomena, negating the concept of free-will. See “Free Will”.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy, “Causal Determinism”\rhttp://tinyurl.com/ew8c.",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Development",
                            @"twitterDef":@"the process of enhancing the freedom and opportunity of all people to improve their lives",
-                           @"definition":@"\rHuman development is a central theme in Catholic Social Teaching as it applies to the Life and Dignity of the Human Person. It has been measured by the United Nations since 1990 with the first Human Development Report.\r\rFurther Reference:\rUnited Nations Development Programme\rhttp://tinyurl.com/khsqbzk",
+                           @"definition":@"\rHuman development is a central theme in Catholic Social Teaching as it applies to the Life and Dignity of the Human Person. It has been measured by the United Nations since 1990 with the first Human Development Report. See “Dignity of the Human Person”, “Catholic Social Teaching”.\r\rFurther Reference:\rUnited Nations Development Programme\rhttp://tinyurl.com/khsqbzk",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Docetism",
-                           @"twitterDef":@"the belief that Jesus was not fully human",
-                           @"definition":@"\rDocetism is a form of Gnosticism, and as such, denied the full humanity of Jesus Christ. It is alluded to in the Johonnine epistolary corpus.\r\rGreek, δοκεῖν (dokein) “to seem”\r\rFurther Reference:\rCatechism of the Catholic Church, 465\r\rWikipedia, “Docetism”\rhttp://tinyurl.com/yoalfv",
+                           @"twitterDef":@"the heresy that Jesus was not fully human",
+                           @"definition":@"\rDocetism is a form of Gnosticism, and as such, denied the full humanity of Jesus Christ. It is alluded to in the Johonnine epistolary corpus. See “Heresy”.\r\rGreek, δοκεῖν (dokein) “to seem”\r\rFurther Reference:\rCatechism of the Catholic Church, 465\r\rWikipedia, “Docetism”\rhttp://tinyurl.com/yoalfv",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Donatism",
                            @"twitterDef":@"a schismatic Christian group that denied\rthe principle of ex opere operato",
-                           @"definition":@"\rThe Donatist schism began in A.D. 311 in North Africa and flourished for about one hundred years. It began when Donatus, a bishop in the church of Carthage, was elected as a reaction against the election of Caecilian to the episcopacy. The latter had been consecrated by a traitor under the Diocletian persecution. Donatus declared all sacraments and ordinations by Caecilian to be invalid and caused a schism in Northern Africa. In 313, a local council ruled against the rigorism of Donatus.\r\rFurther Reference:\rWikipedia, “Donatism”\rhttp://tinyurl.com/o73ocyf",
+                           @"definition":@"\rThe Donatist schism began in A.D. 311 in North Africa and flourished for about one hundred years. It began when Donatus, a bishop in the church of Carthage, was elected as a reaction against the election of Caecilian to the episcopacy. The latter had been consecrated by a traitor under the Diocletian persecution. Donatus declared all sacraments and ordinations by Caecilian to be invalid and caused a schism in Northern Africa. In 313, a local council ruled against the rigorism of Donatus. See “Schism”.\r\rFurther Reference:\rWikipedia, “Donatism”\rhttp://tinyurl.com/o73ocyf",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Doxology",
                            @"twitterDef":@"a praise or blessing of God in prayer",
-                           @"definition":@"\rDoxologies are found throughout the Bible, and are very prevalent in the Psalms. In the New Testament, Paul's letters contain numerous doxologies that center around the revelation of God's Mystery in Christ.\r\rFurther Reference:\r",
+                           @"definition":@"\rDoxologies are found throughout the Bible, and are very prevalent in the Psalms. In the New Testament, St. Paul's letters contain numerous doxologies that center around the revelation of God's Mystery in Christ. See “Mystery”, “Prayer”.\r\rFurther Reference:\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Dualism",
                            @"twitterDef":@"the belief that humans are composed of two substances, body and soul/mind",
-                           @"definition":@"\rAlso known as substance dualism; found in the Platonic influence on Christianity and later in the writings of Descartes. Associated problems include the problem of causation and the seeming violation of the scientific law of the conservation of energy.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy, “Dualism” http://tinyurl.com/85cdhc3",
+                           @"definition":@"\rAlso known as substance dualism, dualism is found in the Platonic philosophical influence on Christianity and later in the writings of Descartes. Associated problems include the problem of causation and the seeming violation of the scientific law of the conservation of energy. See “Philosophy”.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy, “Dualism” http://tinyurl.com/85cdhc3",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Dulia",
                            @"twitterDef":@"the Greek word meaning “veneration”",
-                           @"definition":@"\rIn contrast to latria, dulia refers to veneration that is appropriate for the Saints or other sources of inspiration for Christian living. The Virgin Mary is the object of hyperdulia, the highest veneration one can give to anything created.\r\rGreek, δουλεία (douleia)\r\rFurther Reference:\rNew Advent, “Dulia”\rhttp://tinyurl.com/la9btgm",
+                           @"definition":@"\rIn contrast to latria, dulia refers to veneration that is appropriate for the Saints or other sources of inspiration for Christian living. The Virgin Mary is the object of hyperdulia, the highest veneration one can give to anything created. See “Latria”.\r\rGreek, δουλεία (douleia)\r\rFurther Reference:\rNew Advent, “Dulia”\rhttp://tinyurl.com/la9btgm",
                            @"category":@"Liturgical"}];
     
     
@@ -1174,13 +1174,13 @@
     
     [TAWord wordWithDict:@{@"name":@"Eastern Catholic Churches",
                            @"twitterDef":@"autonomous non-Western churches in full communion with the Church of Rome",
-                           @"definition":@"\rEastern Catholic Churches include Alexandrian, Antiochian, Armenian, Byzantine, and Syrian churches. They are represented in the Congregation for the Oriental Chuches.\r\rFurther Reference:\rCongregation for Oriental Churches, http://tinyurl.com/oqrrpmy",
+                           @"definition":@"\rEastern Catholic Churches include Alexandrian, Antiochian, Armenian, Byzantine, and Syrian churches. They are represented in the Congregation for the Oriental Chuches. See “Catholic”.\r\rFurther Reference:\rCongregation for Oriental Churches, http://tinyurl.com/oqrrpmy",
                            @"category":@"Historical"}];
 
     
     [TAWord wordWithDict:@{@"name":@"Ebionites",
                            @"twitterDef":@"a sect of 1st century Jewish Christians\rwho denied the divinity of Christ",
-                           @"definition":@"\rThe Ebionites are mentioned by Irenaeus. Other Church Fathers (such as Origen and Tertullian) mention them as well. They seem to have had similar characteristics as the Essenes. They respected James the Just and believed Paul of Tarsus to be a heretic.\r\rFurther Reference:\rWikipedia, “Ebionites”\rhttp://tinyurl.com/yjrqt9y",
+                           @"definition":@"\rThe Ebionites are mentioned by Irenaeus. Other Church Fathers (such as Origen and Tertullian) mention them as well. They seem to have had similar characteristics as the Essenes. They respected James the Just and believed St. Paul of Tarsus to be a heretic. Ebionite beliefs are considred heretical by the Church. See “Heresy”.\r\rFurther Reference:\rWikipedia, “Ebionites”\rhttp://tinyurl.com/yjrqt9y",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Ecclesia",
@@ -1191,23 +1191,23 @@
     
     [TAWord wordWithDict:@{@"name":@"Economic Justice",
                            @"twitterDef":@"the right relationship between human beings to a given economic system",
-                           @"definition":@"\rEconomic justice is based on the idea that the economy of any society should serve people, not vice versa.\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, “Economic Justice”\rhttp://tinyurl.com/l7a4kwo",
+                           @"definition":@"\rEconomic justice is based on the idea that the economy of any society should serve people, not vice versa. See “Justice”.\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, “Economic Justice”\rhttp://tinyurl.com/l7a4kwo",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Elevation",
                            @"twitterDef":@"the raising up of the consecrated bread and wine\at the end of the Eucharistic prayer",
-                           @"definition":@"\rThe Host is elevated so that it can be venerated by the congregation. The practice can be traced back to Eudes de Sully, Bishop of Paris (1198-1208).\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, “General Instruction of the Roman Missal”\rhttp://tinyurl.com/pe365cl",
+                           @"definition":@"\rThe Host is elevated so that it can be venerated by the congregation. The practice can be traced back to Eudes de Sully, Bishop of Paris (1198-1208). See “Liturgy of the Eucharist”.\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, “General Instruction of the Roman Missal”\rhttp://tinyurl.com/pe365cl",
                            @"category":@"Liturgical"}];
     
     
     [TAWord wordWithDict:@{@"name":@"Enlightenment",
                            @"twitterDef":@"the 17th-18th century cultural movement\rwhich prioritized reason over religion",
-                           @"definition":@"\rThe Enlightenment was essential to the development of modern nation states, economics, and science.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy, “Enlightenment”\rhttp://tinyurl.com/cqvbd37",
+                           @"definition":@"\rThe Enlightenment was essential to the development of modern nation states, economics, and science. See “Philosophy”.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy, “Enlightenment”\rhttp://tinyurl.com/cqvbd37",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Epiclesis",
                            @"twitterDef":@"the Greek word meaning “invocation”;\rof the Holy Spirit upon the Eucharist",
-                           @"definition":@"\rThe Epiclesis invites the Holy Spirit to transform the gifts of bread and wine into the body and blood of Christ.\r\rGreek, ἐπίκλησις (epiklesis)\r\rFurther Reference:\rCatechism of the Catholic Church, 1105\rhttp://tinyurl.com/oqbzkx3",
+                           @"definition":@"\rThe Epiclesis invites the Holy Spirit to transform the gifts of bread and wine into the body and blood of Christ. See “Liturgy of the Eucharist”.\r\rGreek, ἐπίκλησις (epiklesis)\r\rFurther Reference:\rCatechism of the Catholic Church, 1105\rhttp://tinyurl.com/oqbzkx3",
                            @"category":@"Liturgical"}];
 
     [TAWord wordWithDict:@{@"name":@"Episcopacy",
@@ -1217,19 +1217,19 @@
 
     [TAWord wordWithDict:@{@"name":@"Evolution",
                            @"twitterDef":@"a process of biological descent with modification",
-                           @"definition":@"\rThe modern theory of evolution is the result of over 100 years of rigorous testing of Charles Darwin's theory of biological decent with modification. Its scientific and cultural acceptance was influential on Vatican II as seen in Gaudium et Spes, 5:\r\r“...the human race has passed from a rather static concept of reality to a more dynamic, evolutionary one. In consequence there has arisen a new series of problems, a series as numerous as can be, calling for efforts of analysis and synthesis.”\r\rFurther Reference:\rNational Center for Science Education, “Evolution”\rhttp://tinyurl.com/mbx353a",
+                           @"definition":@"\rThe modern theory of evolution is the result of over 100 years of rigorous testing of Charles Darwin's theory of biological decent with modification. Its scientific and cultural acceptance was influential on Vatican II as seen in Gaudium et Spes, 5:\r\r“...the human race has passed from a rather static concept of reality to a more dynamic, evolutionary one. In consequence there has arisen a new series of problems, a series as numerous as can be, calling for efforts of analysis and synthesis.”\r\rSee the “Science” section of the Home tab.Further Reference:\rNational Center for Science Education, “Evolution”\rhttp://tinyurl.com/mbx353a",
                            @"category":@"Cultural"}];
 
 
     
     [TAWord wordWithDict:@{@"name":@"Ethics",
                            @"twitterDef":@"the study of moral systems",
-                           @"definition":@"\rEthics is one of the three traditional branches of Philosophy. Christian ethics is the study of morality in the Christian tradition.\r\rGreek, ἠθικός (ethikos) “custom”\r\rFurther Reference:\rWikipedia, “Ethics”\rhttp://tinyurl.com/oqptk",
+                           @"definition":@"\rEthics is one of the three traditional branches of Philosophy. Christian ethics is the study of morality in the Christian tradition. See “Moral Theology”.\r\rGreek, ἠθικός (ethikos) “custom”\r\rFurther Reference:\rWikipedia, “Ethics”\rhttp://tinyurl.com/oqptk",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Ecclesiology",
                            @"twitterDef":@"the study of the Church",
-                           @"definition":@"\rEcclesiology examines various aspects of the Church (authority, structure, sacraments, worship, etc.). While the pre-Conciliar model of the Church was that of the perfect community (communitas perfecta), Vatican II, in the Dogmatic Constitution on the Church “Lumen Gentium”, chose to define the Church as the People of God united in a Mystical Communion. See “Lumen Gentium”.\r\rFurther Reference:\rWikipedia, “Ecclesiology”\rhttp://tinyurl.com/5e4obj",
+                           @"definition":@"\rEcclesiology examines various aspects of the Church (authority, structure, sacraments, worship, etc.). While the pre-Conciliar model of the Church was that of the perfect community (communitas perfecta), Vatican II, in the Dogmatic Constitution on the Church “Lumen Gentium”, chose to define the Church as the People of God united in a Mystical Communion. See “Lumen Gentium”.\r\rFurther Reference:\rWikipedia, “Ecclesiology”\rhttp://tinyurl.com/5e4obj\rVatican II, “Lumen Gentium”\rhttp://tinyurl.com/3wxff",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Ecumenism",
@@ -1412,7 +1412,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Faith",
                            @"twitterDef":@"trust or confidence;\rthe content of a religious tradition",
-                           @"definition":@"\rThe importance of faith is first illustrated in Genesis 15. According to the text, after YHWH promised Abram that he would father many nations, “Abram put his faith in the LORD who attributed it to him as an act of righteousness. Habbakuk 2:4 claims “the righteous will live by faith. Paul uses both of these references in his letter to the Romans, in which he claims that salvation is by “grace through faith”. Jude 1:3 refers to the Faith as “once for all delivered to the Saints”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1814\rhttp://tinyurl.com/pd2yc32",
+                           @"definition":@"\rThe importance of faith is first illustrated in Genesis 15. According to the text, after YHWH promised Abram that he would father many nations, “Abram put his faith in the LORD who attributed it to him as an act of righteousness. Habbakuk 2:4 claims “the righteous will live by faith. Paul uses both of these references in his letter to the Romans, in which he claims that salvation is by “grace through faith”. Jude 1:3 refers to the Faith as “once for all delivered to the Saints”. See “Justification”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1814\rhttp://tinyurl.com/pd2yc32",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Fideism",
@@ -1763,11 +1763,11 @@
     
     [TAWord wordWithDict:@{@"name":@"Intercession",
                            @"twitterDef":@"a type of prayer on behalf of others",
-                           @"definition":@"\rIntercessory prayers are mentioned specifically in 1 Tim. 2:1. The Gospel of Luke portrays Jesus interceding for his enemies on the Cross.\r\rFurther Reference:\rCatechism of the Catholic Church, 2634\rhttp://tinyurl.com/jwoavzg",
+                           @"definition":@"\rIntercessory prayers are mentioned specifically in 1 Tim. 2:1. The Gospel of Luke portrays Jesus interceding for his enemies on the Cross. See “Prayer”.\r\rFurther Reference:\rCatechism of the Catholic Church, 2634\rhttp://tinyurl.com/jwoavzg",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Invitatory Psalm",
-                           @"twitterDef":@"the psalm said either before the\rOffice of Readings or Morning Prayer",
+                           @"twitterDef":@"the Psalm said either before the\rOffice of Readings or Morning Prayer",
                            @"definition":@"\rThe Invitatory Psalm usually has the theme of praise to God for the newness of the day. It is often said as an antiphon. See “Antiphon”, “Morning Prayer”, “Office of Readings”.\r\rFurther Reference:\rWikipedia, “Invitatory”\rhttp://tinyurl.com/lvw8sht",
                            @"category":@"Liturgical"}];
 
@@ -1842,7 +1842,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Just War Theory",
                            @"twitterDef":@"the set of criteria for determining the justice of both the conditions and methods of war",
-                           @"definition":@"\rThe theory first developed by Augustine and later refined by Aquinas which consists of criteria for determining the justice of both the conditions and methods of war; see “Jus Ad Bellum” and “Jus Im Bello”.\r\rFurther Reference:\rCatechism of the Catholic Church, 2309\rhttp://tinyurl.com/dh7r\r\rStanford Encyclopedia of Philosophy, “War” http://tinyurl.com/84c2ppg",
+                           @"definition":@"\rThe theory first developed by Augustine and later refined by Aquinas which consists of criteria for determining the justice of both the conditions and methods of war. See “Jus Ad Bellum”, “Jus Im Bello”.\r\rFurther Reference:\rCatechism of the Catholic Church, 2309\rhttp://tinyurl.com/dh7r\r\rStanford Encyclopedia of Philosophy, “War” http://tinyurl.com/84c2ppg",
                            @"category":@"Moral"}];
     
     /*
@@ -1979,7 +1979,7 @@
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"LXX",
-                           @"twitterDef":@"the numerical symbol for the Septuagint",
+                           @"twitterDef":@"the Roman numerical symbol for the Septuagint",
                            @"definition":@"\rSee “Septuagint”.",
                            @"category":@"Biblical"}];
     
@@ -2046,6 +2046,10 @@
                            @"category":@"Biblical"}];
     
     
+    [TAWord wordWithDict:@{@"name":@"Lumen Gentium",
+                           @"twitterDef":@"the Dogmatic Constitution of Vatican II concerning the Church",
+                           @"definition":@"\rLumen Gentium is the most authoritative Church teaching on the nature, structure, and mission of the Church. See “Ecclesiology”, “Church”\r\rLatin (lumen gentium) “light of the nations”\r\rFurther Reference:\rVatican II, “Lumen Gentium” http://tinyurl.com/3wxff",
+                           @"category":@"Biblical"}];
     
     /////////////////////////////M
     
@@ -2561,6 +2565,11 @@
                            @"definition":@"\rPhysicalism has received from support from modern neuroscience. Various Christian philosophers, such as Nancy Murphy, are advocates of a non-reductive, physicalist anthropology.\r\rFurther Reference:\rNancey Murphy, “Is Non-Reductive Physicalism an Oxymoron?”\rhttp://tinyurl.com/po8oo85",
                            @"category":@"Cultural"}];
     
+    [TAWord wordWithDict:@{@"name":@"Prayer",
+                           @"twitterDef":@"communication with God",
+                           @"definition":@"\rPrayer is referred to throughout Sacred Scripture. It developed in pre-Exilic Judaism with stories of the Patriarchs and was intricately connected to the practice of sacrifice by the Priestly author. In the New Testament, Jesus is portrayed numerous times as praying in solitary places and before significant events in his ministry. St. Paul claims that prayer in the Holy Spirit expresses the Christian's adoptive sonship. See “Abba”, “Intercession”.\r\rFurther Reference:\rCatechism of the Catholic Church, 2559\rhttp://tinyurl.com/letv3vp",
+                           @"category":@"Systematic"}];
+    
     
     [TAWord wordWithDict:@{@"name":@"Problem of Evil",
                            @"twitterDef":@"the philosophical problem of belief in God with the experience of evil",
@@ -2637,6 +2646,11 @@
                            @"twitterDef":@"the encyclical of Pope Leo XIII that initiated modern Catholic Social Teaching",
                            @"definition":@"\rThe encyclical of Pope Leo XIII in 1891 which responded to the after effects of the Industrial Revolution in Europe by teaching that private property is relative to the Common Good and that workers have a right to unionized and to a living wage. See “Catholic Social Teaching”, “Living Wage”.\r\rLatin, (rerum novarum), “of new things”\r\rFurther Reference:\rPope Leo XIII, “Rerum Novarum”\rhttp://tinyurl.com/lv5y76v",
                            @"category":@"Moral"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Righteousness",
+                           @"twitterDef":@"a right or just relationship",
+                           @"definition":@"\rRigheousness is first spoken of in the Bible in reference to Abaham. After hearing the promise of YHWH that he would be the father of many nations, he “put his faith in the LORD, who credited it to him as an act of righteousness” (Gen 15:6). St. Paul uses this same example to claim that those who have faith in (or of) Jesus Christ are put into a right relationship with God. The word “Justification” derives from the same cognate. See “Justification”, “Justice”.\r\rGreek, δικαιοσύνη (dikaisune) “righteousness/justice”\r\rFurther Reference:\rCatechism of the Catholic Church, 1992\rhttp://tinyurl.com/yaua7cc",
+                           @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Rosary",
                            @"twitterDef":@"the prayer based on the Hail Mary\rand the Our Father",
@@ -2939,7 +2953,7 @@
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"YHWH",
-                           @"twitterDef":@"the personal name\rof the God of the Israelites",
+                           @"twitterDef":@"the personal name of the God\rof the Israelites",
                            @"definition":@"\rThe four letter personal name of the God of the Israelites, also called the “Tetragrammaton”. According to the Elohist and Priestly sources, this name was not known before it was revealed to Moses in Exodus chapter 3. The Yahwhist Source, however, knows of it and uses it throughout Genesis as the personal name of God, which is one argument for multiple authorship of the Torah; the essence of the Documentary Hypothesis. See “Tetragrammaton”, “Documentary Hypothesis”.\r\rHebrew, יְהוָ֨ה (YHWH) “yahweh”\r\rFurther Reference:\r",
                            @"category":@"Biblical"}];
     
