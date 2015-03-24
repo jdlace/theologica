@@ -2959,12 +2959,12 @@
     
     [TAWord wordWithDict:@{@"name":@"Zealots",
                            @"twitterDef":@"a Jewish revolutionary group that used violence in an effort to repel Roman Imperial forces",
-                           @"definition":@"\rA Jewish revolutionary group that used violence in an effort to repel Roman Imperial forces.\r\rFurther Reference:\r",
+                           @"definition":@"\rA Jewish revolutionary group that used violence in an effort to repel Roman Imperial forces. Jesus is portrayed as having at least one Zealot, Simon, among his Apostles. See “Apostle”.\r\rFurther Reference:\rWikipedia, “Zealots”\rhttp://tinyurl.com/p96dtu6",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Zion",
                            @"twitterDef":@"a synonym for the Temple Mount in Jerusalem or for the city of Jerusalem itself",
-                           @"definition":@"\rA synonym for the Temple mountain in Jerusalem or for the city of Jerusalem itself.\r\rFurther Reference:\r",
+                           @"definition":@"\rZion is referred to numerous times in the Psalms as being representative for the nation of Israel. See “Israel”.\r\rFurther Reference:\rWikipedia, “Zion”\rhttp://tinyurl.com/27zh84",
                            @"category":@"Biblical"}];
     
     [[TADataStore sharedStore] saveContext];
