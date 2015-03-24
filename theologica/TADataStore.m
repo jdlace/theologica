@@ -2958,7 +2958,7 @@
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Yom Kippur",
-                           @"twitterDef":@"a Hebrew phrase meaning “Day of Atonement”",
+                           @"twitterDef":@"a Hebrew phrase meaning\r“Day of Atonement”",
                            @"definition":@"\rAccording to Leviticus 16, Yom Kippur is a day set aside on the Jewish calendar dedicated to bringing about personal and national reconciliation with YHWH through the forgiveness of sins. See “Forgiveness”.\r\rFurther Reference:\rWikipedia, “Yom Kippur”\rhttp://tinyurl.com/ja2uz",
                            @"category":@"Biblical"}];
     
