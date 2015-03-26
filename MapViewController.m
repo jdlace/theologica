@@ -135,7 +135,7 @@
     sepphoris.coordinate = CLLocationCoordinate2DMake(32.7529, 35.2795);
     sepphoris.title = @"Sepphoris";
     sepphoris.subtitle = @"Capital of Herod Antipas";
-    sepphoris.image = [UIImage imageNamed:@"nazareth"];
+    sepphoris.image = [UIImage imageNamed:@"sepphoris"];
     sepphoris.information = @"\rAlthough it is not mentioned in Scripture, Sepphoris was a major city in Galilee and the captial city of Herod Antipas.\r\rCoordinates:\r32.7529, 35.2795";
     
     HistoricalPins *nicea = [[HistoricalPins alloc] init];
@@ -816,7 +816,7 @@ MapDetailViewController.currentWordDetail = word;
                                        sepphoris.coordinate = CLLocationCoordinate2DMake(32.7529, 35.2795);
                                        sepphoris.title = @"Sepphoris";
                                        sepphoris.subtitle = @"Capital of Herod Antipas";
-                                       sepphoris.image = [UIImage imageNamed:@"nazareth"];
+                                       sepphoris.image = [UIImage imageNamed:@"sepphoris"];
                                        sepphoris.information = @"\rAlthough it is not mentioned in Scripture, Sepphoris was a major city in Galilee and the captial city of Herod Antipas.\r\rCoordinates:\r32.7529, 35.2795";
                                    
                                    NSArray *annotations = [NSArray arrayWithObjects: nazareth, ephesus, corinth, rome, thessalonica, philippi, capernaum, colossae, temple, jerusalem, antioch, bethlehem, sepphoris, nil];
@@ -1149,7 +1149,7 @@ MapDetailViewController.currentWordDetail = word;
                                        sepphoris.coordinate = CLLocationCoordinate2DMake(32.7529, 35.2795);
                                        sepphoris.title = @"Sepphoris";
                                        sepphoris.subtitle = @"Capital of Herod Antipas";
-                                       sepphoris.image = [UIImage imageNamed:@"nazareth"];
+                                       sepphoris.image = [UIImage imageNamed:@"sepphoris"];
                                        sepphoris.information = @"\rAlthough it is not mentioned in Scripture, Sepphoris was a major city in Galilee and the captial city of Herod Antipas.\r\rCoordinates:\r32.7529, 35.2795";
                                    
                                    BiblicalPins *philippi = [[BiblicalPins alloc] init];
