@@ -131,6 +131,13 @@
     hazor.subtitle = @"Major Ancient Canaanite City";
     hazor.information = @"\rHazor was a major city in ancient Canaan. It was described as being destroyed in Joshua.\r\rCoordinates:\r33.0167, 35.5669";
     
+    BiblicalPins *sepphoris = [[BiblicalPins alloc] init];
+    sepphoris.coordinate = CLLocationCoordinate2DMake(32.7529, 35.2795);
+    sepphoris.title = @"Sepphoris";
+    sepphoris.subtitle = @"Capital of Herod Antipas";
+    sepphoris.image = [UIImage imageNamed:@"nazareth"];
+    sepphoris.information = @"\rAlthough it is not mentioned in Scripture, Sepphoris was a major city in Galilee and the captial city of Herod Antipas.\r\rCoordinates:\r32.7529, 35.2795";
+    
     HistoricalPins *nicea = [[HistoricalPins alloc] init];
     nicea.coordinate = CLLocationCoordinate2DMake(40.4292, 29.7211);
     nicea.title = @"Nicea";
@@ -301,7 +308,7 @@
 
 
     
-    NSArray *annotations = [NSArray arrayWithObjects:jerusalem, bethEl, ephesus, corinth, dan, temple, hazor, nicea, greenland, rome, nazareth, capernaum, sierraLeone, camden, atlantic, rome2, constantinople, palestine, israel, alexandria, thessalonica, philippi, antioch, bethlehem, ramah, hebron, shiloh, lyon, vienne, chalcedon, constance, trent, florence, lateran, uganda, colossae, nil];
+    NSArray *annotations = [NSArray arrayWithObjects:jerusalem, bethEl, ephesus, corinth, dan, temple, hazor, nicea, greenland, rome, nazareth, capernaum, sierraLeone, camden, atlantic, rome2, constantinople, palestine, israel, alexandria, thessalonica, philippi, antioch, bethlehem, ramah, hebron, shiloh, lyon, vienne, chalcedon, constance, trent, florence, lateran, uganda, colossae, sepphoris, nil];
     
     [self.mapView addAnnotations:annotations];
 
@@ -804,8 +811,15 @@ MapDetailViewController.currentWordDetail = word;
                                    bethlehem.image = [UIImage imageNamed:@"bethlehem"];
                                    bethlehem.subtitle = @"Traditional Birthplace of Jesus";
                                    bethlehem.information = @"\rCoordinates:\r31.7031, 35.1956";
+                                       
+                                       BiblicalPins *sepphoris = [[BiblicalPins alloc] init];
+                                       sepphoris.coordinate = CLLocationCoordinate2DMake(32.7529, 35.2795);
+                                       sepphoris.title = @"Sepphoris";
+                                       sepphoris.subtitle = @"Capital of Herod Antipas";
+                                       sepphoris.image = [UIImage imageNamed:@"nazareth"];
+                                       sepphoris.information = @"\rAlthough it is not mentioned in Scripture, Sepphoris was a major city in Galilee and the captial city of Herod Antipas.\r\rCoordinates:\r32.7529, 35.2795";
                                    
-                                   NSArray *annotations = [NSArray arrayWithObjects: nazareth, ephesus, corinth, rome, thessalonica, philippi, capernaum, colossae, temple, jerusalem, antioch, bethlehem, nil];
+                                   NSArray *annotations = [NSArray arrayWithObjects: nazareth, ephesus, corinth, rome, thessalonica, philippi, capernaum, colossae, temple, jerusalem, antioch, bethlehem, sepphoris, nil];
                                    [self.mapView addAnnotations:annotations];
                                    
                                    MKCoordinateSpan span = MKCoordinateSpanMake(40.0000f,40.0000f);
@@ -1130,6 +1144,13 @@ MapDetailViewController.currentWordDetail = word;
                                    thessalonica.subtitle = @"Greek Coastal City";
                                    thessalonica.image = [UIImage imageNamed:@"thessalonica"]; 
                                    thessalonica.information = @"\rThessalonica was home to one of the earlier Christian communities founded by the Apostle Paul.\r\rCoordinates:\r40.6500, 22.9000";
+                                       
+                                       BiblicalPins *sepphoris = [[BiblicalPins alloc] init];
+                                       sepphoris.coordinate = CLLocationCoordinate2DMake(32.7529, 35.2795);
+                                       sepphoris.title = @"Sepphoris";
+                                       sepphoris.subtitle = @"Capital of Herod Antipas";
+                                       sepphoris.image = [UIImage imageNamed:@"nazareth"];
+                                       sepphoris.information = @"\rAlthough it is not mentioned in Scripture, Sepphoris was a major city in Galilee and the captial city of Herod Antipas.\r\rCoordinates:\r32.7529, 35.2795";
                                    
                                    BiblicalPins *philippi = [[BiblicalPins alloc] init];
                                    philippi.coordinate = CLLocationCoordinate2DMake(41.0131, 24.2864);
@@ -1237,7 +1258,7 @@ MapDetailViewController.currentWordDetail = word;
 
 
                                    
-                                   NSArray *annotations = [NSArray arrayWithObjects:jerusalem, bethEl, ephesus, corinth, dan, temple, hazor, nicea, greenland, rome, nazareth, sierraLeone, camden, atlantic, rome2, constantinople, palestine, israel, alexandria, antioch, bethlehem, thessalonica, philippi, vienne, lyon, chalcedon, constance, trent, florence, uganda, lateran, colossae, nil];
+                                   NSArray *annotations = [NSArray arrayWithObjects:jerusalem, bethEl, ephesus, corinth, dan, temple, hazor, nicea, greenland, rome, nazareth, sierraLeone, camden, atlantic, rome2, constantinople, palestine, israel, alexandria, antioch, bethlehem, thessalonica, philippi, vienne, lyon, chalcedon, constance, trent, florence, uganda, lateran, colossae, sepphoris, nil];
                                    
                                    [self.mapView addAnnotations:annotations];
                                    

@@ -599,17 +599,17 @@
     
     [TAWord wordWithDict:@{@"name":@"Ba'al",
                            @"twitterDef":@"the son of El and most active of the gods in Canannite mythology",
-                           @"definition":@"\rBa'al is a Semitic word for “Ruler”, “Husband”, or “Lord”. It became synonymous with a very popular Canaanite deity who was worshipped by ancient Israelites. According to to 2 Kings 23:4 an image of Ba'al was housed in the Temple before Josiah's Deuternomic reform.\r\rFurther Reference:\rWikipedia, “Ba'al”\rhttp://tinyurl.com/ljhlb",
+                           @"definition":@"\rBa'al is a Semitic word for “Ruler”, “Husband”, or “Lord”. It became synonymous with a very popular Canaanite deity who was worshipped by ancient Israelites. According to to 2 Kings 23:4 an image of Ba'al was housed in the Temple before Josiah's Deuternomic reform. See “Deuteronomic History”.\r\rFurther Reference:\rWikipedia, “Ba'al”\rhttp://tinyurl.com/ljhlb",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Babel",
                            @"twitterDef":@"the Hebrew word meaning “confusion”;\rthe name of the tower in Genesis 11:1-9",
-                           @"definition":@"\rAs an etiology, this story explains both how human language became divided as well as the geographic distribution of human populations.\r\rHebrew, בָּבֶל (babel)\r\rFurther Reference:\rCatechism of the Catholic Church, 57\rhttp://tinyurl.com/k6ljesq",
+                           @"definition":@"\rAs an etiology, this story explains both how human language became divided as well as the geographic distribution of human populations. See “Etiology”.\r\rHebrew, בָּבֶל (babel)\r\rFurther Reference:\rCatechism of the Catholic Church, 57\rhttp://tinyurl.com/k6ljesq",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Babylon",
                            @"twitterDef":@"the empire that conquered the southern kingdom of Judah in 587 B.C.",
-                           @"definition":@"\rThe Babylonians destroyed the Temple and took most of the residents of Jerusalem captive to Babylon, where they remained for 50 years.\r\rFurther Reference:\rWikipedia, “Babylon” \rhttp://tinyurl.com/q7fujw5",
+                           @"definition":@"\rThe Babylonians destroyed the Temple and took most of the residents of Jerusalem captive to Babylon, where they remained for 50 years. See “Exile”.\r\rFurther Reference:\rWikipedia, “Babylon” \rhttp://tinyurl.com/q7fujw5",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Ban",
@@ -634,7 +634,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Byzantine Rite",
                            @"twitterDef":@"the liturgical rite of Eastern Orthodox and Catholic Churches",
-                           @"definition":@"\rThe Byzantine Rite can be traced back as early as the 3rd century in Constantinople. Two of the more popular liturgies are the Liturgy of St. John Chrysostom and St. Basil the Great.\r\rFurther Reference:\rCatechism of the Catholic Church, 1203\rhttp://tinyurl.com/ndllues",
+                           @"definition":@"\rThe Byzantine Rite can be traced back as early as the 3rd century in Constantinople. Two of the more popular liturgies are the Liturgy of St. John Chrysostom and St. Basil the Great. See “Eastern Orthodox”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1203\rhttp://tinyurl.com/ndllues",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Breaking of the Bread",
@@ -1175,6 +1175,11 @@
     [TAWord wordWithDict:@{@"name":@"Eastern Catholic Churches",
                            @"twitterDef":@"autonomous non-Western churches in full communion with the Church of Rome",
                            @"definition":@"\rEastern Catholic Churches include Alexandrian, Antiochian, Armenian, Byzantine, and Syrian churches. They are represented in the Congregation for the Oriental Chuches. See “Catholic”.\r\rFurther Reference:\rCongregation for Oriental Churches, http://tinyurl.com/oqrrpmy",
+                           @"category":@"Historical"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Eastern Orthodox",
+                           @"twitterDef":@"autocephalous churches in Apostolic Succession in communion with the Bishop of Constantinople",
+                           @"definition":@"\rEastern Orthodox churches are those historic churches of the Greek East. In A.D. 1054 the Bishop of Constantinople and delegates from the Bishop of Rome excommunicated each other. See “Catholic”.\r\rFurther Reference:\rCongregation for Oriental Churches, http://tinyurl.com/oqrrpmy",
                            @"category":@"Historical"}];
 
     
