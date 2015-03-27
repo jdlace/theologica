@@ -53,7 +53,7 @@
     jerusalem.title = @"Jerusalem";
     jerusalem.subtitle = @"Capital of the Davidic Dynasty";
     jerusalem.image = [UIImage imageNamed:@"jerusalem"];
-    jerusalem.information = @"\rAccording to 2 Samuel 24:24, King David purchased Jerusalem from the Jebusites and designated it the capital of his united kingdom. Solomon built the Temple on Mount Moriah in Jerusalem along with his palace. The city was destroyed by the Babylonians in 587 B.C. and re-established in 538 after the return of the Jews from the Exile. It served as the religious center of Palestine during the Roman occupation from 63 B.C. to its destruction in A.D. 70 by the Romans.\r\rThe city was rebuilt successively throughout the period of the Ottoman Empire. It is currently divided between Palestine and Israel.\r\rCoordinates:\r31.7883, 35.2167";
+    jerusalem.information = @"\rAccording to 2 Samuel 24:24, King David purchased Jerusalem from the Jebusites and designated it the capital of his united kingdom. Solomon built the Temple on Mount Moriah in Jerusalem along with his palace. The city was destroyed by the Babylonians in 587 B.C. and re-established in 538 after the return of the Jews from the Exile. It served as the religious center of Palestine during the Roman occupation from 63 B.C. to its destruction in A.D. 70 by the Romans.\r\rThe city was rebuilt successively throughout the period of the Ottoman Empire. It is currently divided between Palestine and Israel.\r\rFurther Reference:\rWikipedia, “Jerusalem”\rhttp://tinyurl.com/2f662p\r\rCoordinates:\r31.7883, 35.2167";
     
     BiblicalPins *rome = [[BiblicalPins alloc] init];
     rome.coordinate = CLLocationCoordinate2DMake(41.8900, 12.4938);
@@ -136,14 +136,14 @@
     sepphoris.title = @"Sepphoris";
     sepphoris.subtitle = @"Capital of Herod Antipas";
     sepphoris.image = [UIImage imageNamed:@"sepphoris"];
-    sepphoris.information = @"\rAlthough it is not mentioned in Scripture, Sepphoris was a major city in Galilee and the captial city of Herod Antipas.\r\rCoordinates:\r32.7529, 35.2795";
+    sepphoris.information = @"\rAlthough it is not mentioned in Scripture, Sepphoris was a major city in Galilee and the captial city of Herod Antipas. It is likely that Jesus of Nazareth worked in or around this city before beginning his prophetic ministry.\r\rFurther Reference:\rWikipedia, “Sepphoris”\rhttp://tinyurl.com/p38eyob\r\rCoordinates:\r32.7529, 35.2795";
     
     HistoricalPins *nicea = [[HistoricalPins alloc] init];
     nicea.coordinate = CLLocationCoordinate2DMake(40.4292, 29.7211);
     nicea.title = @"Nicea";
     nicea.image = [UIImage imageNamed:@"nicea"];
     nicea.subtitle = @"Ecumenical Councils I, VII";
-    nicea.information = @"\rThe first Council of Nicea was called by the Emperor Constantine in A.D. 325. It condemned the teaching of Arius and declared that Christ is ομοουσιους (homoousious) - 'of the same substance' as God. \r\rThe second Council of Nicea in A.D. 787 brought an end to the iconoclasm controversy by approving the veneration of icons.\r\rCoordinates:\r40.2574, 29.4317";
+    nicea.information = @"\rThe first Council of Nicea was called by the Emperor Constantine in A.D. 325. It condemned the teaching of Arius and declared that Christ is ὁμοούσιος (homoousious) “of the same substance” as God. \r\rThe second Council of Nicea in A.D. 787 brought an end to the iconoclasm controversy by approving the veneration of icons.\r\rFurther Reference:\rWikipedia, “First Council of Nicea”\rhttp://tinyurl.com/hd8cm\r“Second Council of Nicea”\rhttp://tinyurl.com/yf66az\r\rCoordinates:\r40.2574, 29.4317";
     
     SocialPins *greenland = [[SocialPins alloc] init];
     greenland.coordinate = CLLocationCoordinate2DMake(61.2950, -45.0000);
