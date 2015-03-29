@@ -67,35 +67,35 @@
     nazareth.title = @"Nazareth";
     nazareth.subtitle = @"Traditional Hometown of Jesus";
     nazareth.image = [UIImage imageNamed:@"nazareth"];
-    nazareth.information = @"\rThe town of Nazareth is not mentioned in the Hebrew Scriptures. It was a small village only 4 miles from Sepphoris, the captial city of Herod Antipas.\r\rCoordinates:\r32.7000, 35.3040";
+    nazareth.information = @"\rThe town of Nazareth is not mentioned in the Hebrew Scriptures. It was a small village only 4 miles from Sepphoris, the captial city of Herod Antipas. All of the Gospels claim that Jesus was from Nazareth. One of the terms used to describe the early Christians was “Nazarenes” after the same term was applied to Jesus.\r\rFurther Reference:\rWikipedia, “Nazareth”\r\rCoordinates:\r32.7000, 35.3040";
     
     BiblicalPins *bethEl = [[BiblicalPins alloc] init];
     bethEl.coordinate = CLLocationCoordinate2DMake(31.9390, 35.2260);
     bethEl.title = @"Beth-El";
     bethEl.subtitle = @"Canaanite cultic site of El";
     bethEl.image = [UIImage imageNamed:@"bethel"];
-    bethEl.information = @"\rBeth-El was a popular cultic site devoted to the Canaanite god El, the father of the Canaanite pantheon. In Genesis 32 and 35 it is associated with the Hebrew patriarch Jacob.\r\rCoordinates:\r31.9390, 35.2260";
+    bethEl.information = @"\rBeth-El was a popular cultic site devoted to the Canaanite god El, the father of the Canaanite pantheon. In Genesis 32 and 35 it is associated with the Hebrew patriarch Jacob.\r\rFurther Reference:\rWikipeida, “Bethel”\rhttp://tinyurl.com/b5fpuc\r\rCoordinates:\r31.9390, 35.2260";
     
     BiblicalPins *capernaum = [[BiblicalPins alloc] init];
     capernaum.coordinate = CLLocationCoordinate2DMake(32.8811, 35.5750);
     capernaum.title = @"Capernaum";
     capernaum.subtitle = @"Galilean Fishing Village";
     capernaum.image = [UIImage imageNamed:@"synagogue"];
-    capernaum.information = @"\rAccording to the Gospel of Matthew, at the beginning of his public ministry, Jesus made his home in and conducting most of his preaching in the neighboring villages around Capernaum. The Synoptic Gospels Peter, Andrew, James, and John as being fisherman from this northern coastal city on the Sea of Galilee.";
+    capernaum.information = @"\rAccording to the Gospel of Matthew, at the beginning of his public ministry, Jesus made his home in and conducting most of his preaching in the neighboring villages around Capernaum. The Synoptic Gospels Peter, Andrew, James, and John as being fisherman from this northern coastal city on the Sea of Galilee.\r\rFurther Reference:\rWikipedia, “Capernaum”\rhttp://tinyurl.com/oldmhj2\r\rCoordinates:\r32.8811, 35.5750";
     
     BiblicalPins *ephesus = [[BiblicalPins alloc] init];
     ephesus.coordinate = CLLocationCoordinate2DMake(37.9411, 27.3419);
     ephesus.title = @"Ephesus";
     ephesus.subtitle = @"Roman Provincial Captial of Asia";
     ephesus.image = [UIImage imageNamed:@"ephesus"];
-    ephesus.information = @"\rEphesus was the base for Paul's European missionary journeys.\r\rCoordinates:\r37.9411, 27.3419";
+    ephesus.information = @"\rEphesus was the base for Paul's European missionary journeys.\r\rFurther Reference:\rWikipedia, “Ephesus”\rhttp://tinyurl.com/olvyv\r\rCoordinates:\r37.9411, 27.3419";
     
     BiblicalPins *corinth = [[BiblicalPins alloc] init];
     corinth.coordinate = CLLocationCoordinate2DMake(37.9333, 22.9333);
     corinth.title = @"Corinth";
     corinth.subtitle = @"Major Greek Port City";
     corinth.image = [UIImage imageNamed:@"corinth"];
-    corinth.information = @"\rCoordinates: 37.9333, 22.9333";
+    corinth.information = @"\rCorinth was famous for its moral corruption.\r\rFurther Reference:\rWikipedia, “Ancient Corinth”\rhttp://tinyurl.com/26hqoex\r\rCoordinates: 37.9333, 22.9333";
     
     BiblicalPins *colossae = [[BiblicalPins alloc] init];
     colossae.coordinate = CLLocationCoordinate2DMake(37.7878, 29.2615);
