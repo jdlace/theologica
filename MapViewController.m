@@ -109,7 +109,7 @@
     dan.title = @"Dan";
     dan.image = [UIImage imageNamed:@"dan"];
     dan.subtitle = @"Northern Israelite Cultic Site";
-    dan.information = @"\rDan was one of the two sites at which Jeroboam established alternative worship sites for the newly established northern kingdom as described in 1 Kings 12.\r\rFurther Reference:\rhttp://tinyurl.com/mxyh5wrWikipedia, “Dan”\rhttp://tinyurl.com/mxyh5wr\r\rCoordinates: 33.2490, 35.6520";
+    dan.information = @"\rDan was one of the two sites at which Jeroboam established alternative worship sites for the newly established northern kingdom as described in 1 Kings 12.\r\rFurther Reference:\rWikipedia, “Dan”\rhttp://tinyurl.com/mxyh5wr\r\rCoordinates: 33.2490, 35.6520";
     
     BiblicalPins *jericho = [[BiblicalPins alloc] init];
     jericho.coordinate = CLLocationCoordinate2DMake(31.8500, 35.4500);
@@ -153,35 +153,34 @@
     greenland.image = [UIImage imageNamed:@"greenland"];
     greenland.information = @"\rGreenland is an examplar of the effects of climate change. The glacial sheet is melting at a rate that climatologists warn could adversely affect millions living in coastal regions. \r\rFurther Reference:\rNational Snow & Ice Data Center, “Greenland Ice Sheet Today”\rhttp://tinyurl.com/a422blp\r\rCoordinates: 50.0000, -40.0000";
     
-    ///stopped copying here
     
     HistoricalPins *alexandria = [[HistoricalPins alloc] init];
     alexandria.coordinate = CLLocationCoordinate2DMake(31.1980, 29.9192);
     alexandria.title = @"Alexandria";
     alexandria.subtitle = @"Eastern Patriarchate";
     alexandria.image = [UIImage imageNamed:@"alexandria"]; 
-    alexandria.information = @"\rEastern Patriarchate \r\rMajor catechumenical center in early Christianity. \r\rAlexandria contained the largest library in the ancient world as well as the famous Catechetical School, which produced such minds as Origen.\r\rCoordinates:\r31.1980, 29.9192";
+    alexandria.information = @"\rEastern Patriarchate \r\rMajor catechumenical center in early Christianity. \r\rAlexandria contained the largest library in the ancient world as well as the famous Catechetical School, which produced such minds as Origen.\r\rFurther Reference:\rWikipedia, “Alexandria”\rhttp://tinyurl.com/mwgrl\r\rCoordinates:\r31.1980, 29.9192";
     
     HistoricalPins *rome2 = [[HistoricalPins alloc] init];
     rome2.coordinate = CLLocationCoordinate2DMake(41.9022, 12.4533);
     rome2.title = @"Church of Rome";
     rome2.subtitle = @"The Apostolic See";
     rome2.image = [UIImage imageNamed:@"vatican"];
-    rome2.information = @"\rThe Church of Rome was established in the first century and quickly acquired a reputation for generosity. According to tradition, both Peter and Paul were martyred there during the persecution under Nero.\r\rCoordinates:\r41.9022, 12.4533";
+    rome2.information = @"\rThe Church of Rome acquired a prominence in the earliest years of the Church, thanks in part, to the martyrdoms of both Peter and Paul in A.D. 64.  The earliest Christian writers testify to its importance. Ignatius of Antioch, Clement of Rome, Irenaeus of Lyon, and others all bear witness to the fact that the Roman church was regarded as a source of unity among all churches. Over time, this view developed into the idea that Peter was the first Bishop of Rome, (the Pope), and subsequent bishops of Rome inherited his Apostolic authority. Later Church teaching would declare that the Bishop of Rome held authority over the whole Church, and his approval was necessary to confirm the proceedings of an Ecumenical Council. The Apostolic See is also the head of Vatican City, the smallest nation on Earth, which was created in 1929 as part of the Lateran Treaty between the Italian government and the Holy See. The Pope is thus also formally recognized as a head of state.\r\rFurther Reference:\rWikipedia, “Holy See”\rhttp://tinyurl.com/fdy54\r\rCoordinates:\r41.9022, 12.4533";
     
     HistoricalPins *constantinople = [[HistoricalPins alloc] init];
     constantinople.coordinate = CLLocationCoordinate2DMake(41.0122, 28.9760);
     constantinople.title = @"Constantinople";
     constantinople.subtitle = @"Ecumenical Councils II, V, VI, VIII";
     constantinople.image = [UIImage imageNamed:@"constantinople"];
-    constantinople.information = @"\rA.D. 381, 553 \r\rThe 2nd and 5th Ecumenical Councils of Constantinople confirmed the Nicene Council's creed and clarified the teaching on the nature of Christ, respectively. See “Councils” section in the Home tab.\r\rFurther Reference:\rWikipedia, “First Council of Constantinople”\rhttp://tinyurl.com/4yrb2sp\r“Second Council of Constantinople”\rhttp://tinyurl.com/3tmetan\r\rCoordinates:\r41.0122, 28.9760";
+    constantinople.information = @"\rThe 2nd and 5th Ecumenical Councils of Constantinople, in A.D. 381 and 553, respectively, confirmed the Nicene Council's creed and clarified the teaching on the nature of Christ, respectively. See “Councils” section in the Home tab.\r\rFurther Reference:\rWikipedia, “First Council of Constantinople”\rhttp://tinyurl.com/4yrb2sp\r“Second Council of Constantinople”\rhttp://tinyurl.com/3tmetan\r\rCoordinates:\r41.0122, 28.9760";
     
     SocialPins *sierraLeone = [[SocialPins alloc] init];
     sierraLeone.coordinate = CLLocationCoordinate2DMake(8.4844, -13.2344);
     sierraLeone.title = @"Freetown";
     sierraLeone.subtitle = @"Insufficient Health Care";
     sierraLeone.image = [UIImage imageNamed:@"sierra"];
-    sierraLeone.information = @"\rFreetown in Sierra Leone was the locus of an Ebola epidemic in 2014.\r\rCoordinates: 8.4844, -13.2344";
+    sierraLeone.information = @"\rFreetown in Sierra Leone was the locus of an Ebola epidemic in 2014. The city's and larger country's health care infrastructure was devastated by the civil war from 1991-2002.\r\rWikipedia, “Sierra Leone”\rhttp://tinyurl.com/m7ql8\r\rCoordinates: 8.4844, -13.2344";
     
     SocialPins *camden = [[SocialPins alloc] init];
     camden.coordinate = CLLocationCoordinate2DMake(39.9400, -75.1050);
@@ -193,7 +192,8 @@
     atlantic.coordinate = CLLocationCoordinate2DMake(38.4667, -28.4000);
     atlantic.title = @"The Atlantic Ocean";
     atlantic.subtitle = @"Rising Water Levels";
-    atlantic.information = @"Coordinates: 38.4667, -28.4000";
+    atlantic.image = [UIImage imageNamed:@"ocean"]; 
+    atlantic.information = @"\rThe Atlantic Ocean is the 2nd largest ocean in the world, after the Pacific Ocean. It includes the Gulf Stream and North Atlantic Drift currents. These waterways could be adversely affected by increasing levels of fresh water, causing acccelerated sea level rise, hypoxia, and desalinization.\r\rFurther Reference:\rWikipedia, “Atlantic Ocean”\rhttp://tinyurl.com/sea3p\r\rCoordinates: 38.4667, -28.4000";
     
     SocialPins *palestine = [[SocialPins alloc] init];
     palestine.coordinate = CLLocationCoordinate2DMake(31.6253, 35.1453);
@@ -666,12 +666,12 @@ MapDetailViewController.currentWordDetail = word;
                                       bethEl.image = [UIImage imageNamed:@"bethel"];
                                       bethEl.information = @"\rBeth-El was a popular cultic site devoted to the Canaanite god El, the father of the Canaanite pantheon. In Genesis 32 and 35 it is associated with the Hebrew patriarch Jacob.\r\rFurther Reference:\rWikipeida, “Bethel”\rhttp://tinyurl.com/b5fpuc\r\rCoordinates:\r31.9390, 35.2260";
                                       
-                                      BiblicalPins *dan = [[BiblicalPins alloc] init];
-                                      dan.coordinate = CLLocationCoordinate2DMake(33.2490, 35.6520);
-                                      dan.title = @"Dan";
-                                      dan.image = [UIImage imageNamed:@"dan"];
-                                      dan.subtitle = @"Northern Israelite Cultic Site";
-                                      dan.information = @"\rDan was one of the two sites at which Jeroboam established alternative worship sites for the newly established northern kingdom as described in 1 Kings 12.\r\rFurther Reference:\rhttp://tinyurl.com/mxyh5wrWikipedia, “Dan”\rhttp://tinyurl.com/mxyh5wr\r\rCoordinates: 33.2490, 35.6520";
+                                          BiblicalPins *dan = [[BiblicalPins alloc] init];
+                                          dan.coordinate = CLLocationCoordinate2DMake(33.2490, 35.6520);
+                                          dan.title = @"Dan";
+                                          dan.image = [UIImage imageNamed:@"dan"];
+                                          dan.subtitle = @"Northern Israelite Cultic Site";
+                                          dan.information = @"\rDan was one of the two sites at which Jeroboam established alternative worship sites for the newly established northern kingdom as described in 1 Kings 12.\r\rFurther Reference:\rWikipedia, “Dan”\rhttp://tinyurl.com/mxyh5wr\r\rCoordinates: 33.2490, 35.6520";
                                       
                                       BiblicalPins *temple = [[BiblicalPins alloc] init];
                                       temple.coordinate = CLLocationCoordinate2DMake(31.7780, 35.2354);
@@ -787,11 +787,12 @@ MapDetailViewController.currentWordDetail = word;
                                    jerusalem.information = @"\rAccording to 2 Samuel 24:24, King David purchased Jerusalem from the Jebusites and designated it the capital of his united kingdom. Solomon built the Temple on Mount Moriah in Jerusalem along with his palace. The city was destroyed by the Babylonians in 587 B.C. and re-established in 538 after the return of the Jews from the Exile. It served as the religious center of Palestine during the Roman occupation from 63 B.C. to its destruction in A.D. 70 by the Romans.\r\rThe city was rebuilt successively throughout the period of the Ottoman Empire. It is currently divided between Palestine and Israel.\r\rCoordinates:\r31.7883, 35.2167";
 
                                    
-                                   BiblicalPins *colossae = [[BiblicalPins alloc] init];
-                                   colossae.coordinate = CLLocationCoordinate2DMake(37.7878, 29.2615);
-                                   colossae.title = @"Colossae";
-                                   colossae.subtitle = @"Colossians 1:4";
-                                   colossae.image = [UIImage imageNamed:@"colossae"];
+                                       BiblicalPins *colossae = [[BiblicalPins alloc] init];
+                                       colossae.coordinate = CLLocationCoordinate2DMake(37.7878, 29.2615);
+                                       colossae.title = @"Colossae";
+                                       colossae.subtitle = @"Greek City in the Lycus Valley";
+                                       colossae.image = [UIImage imageNamed:@"colossae"];
+                                       colossae.information = @"\rThe town of Colossae was located in the Lycus valley near Ephesus and Laodicea. There is one letter to the Colossians written in the name of St. Paul that is classified among the disputed letters.\r\rFurther Refernce:\rWikipedia, “Colossae”\rhttp://tinyurl.com/pyz559n\r\rCoordinates:\r37.7878, 29.2615";
 
                                    
                                    BiblicalPins *temple = [[BiblicalPins alloc] init];
@@ -820,7 +821,7 @@ MapDetailViewController.currentWordDetail = word;
                                        sepphoris.title = @"Sepphoris";
                                        sepphoris.subtitle = @"Capital of Herod Antipas";
                                        sepphoris.image = [UIImage imageNamed:@"sepphoris"];
-                                       sepphoris.information = @"\rAlthough it is not mentioned in Scripture, Sepphoris was a major city in Galilee and the captial city of Herod Antipas.\r\rCoordinates:\r32.7529, 35.2795";
+                                       sepphoris.information = @"\rAlthough it is not mentioned in Scripture, Sepphoris was a major city in Galilee and the captial city of Herod Antipas. It is likely that Jesus of Nazareth worked in or around this city before beginning his prophetic ministry.\r\rFurther Reference:\rWikipedia, “Sepphoris”\rhttp://tinyurl.com/p38eyob\r\rCoordinates:\r32.7529, 35.2795";
                                    
                                    NSArray *annotations = [NSArray arrayWithObjects: nazareth, ephesus, corinth, rome, thessalonica, philippi, capernaum, colossae, temple, jerusalem, antioch, bethlehem, sepphoris, nil];
                                    [self.mapView addAnnotations:annotations];
@@ -851,15 +852,19 @@ MapDetailViewController.currentWordDetail = word;
                                    nicea.subtitle = @"Ecumenical Councils I, VII";
                                    nicea.information = @"\rThe first Council of Nicea was called by the Emperor Constantine in A.D. 325. It condemned the teaching of Arius and declared that Christ is “of the same substance” (homoousious) as God.\r\rThe second Council of Nicea in A.D. 787 brought an end to the iconoclasm controversy by approving the veneration of icons. See “Homoousios” in the Historical category of the Dictionary tab.\r\rFurther Reference:\rWikipedia\r“First Council of Nicea” http://tinyurl.com/hd8cm\r“Second Council of Nicea” http://tinyurl.com/yf66az\r\rCoordinates:\r40.2574, 29.4317";
                                    
-                                   HistoricalPins *alexandria = [[HistoricalPins alloc] init];
-                                   alexandria.coordinate = CLLocationCoordinate2DMake(31.1980, 29.9192);
-                                   alexandria.title = @"Alexandria, Egypt";
-                                   alexandria.subtitle = @"\rEastern Patriarchate \r\rMajor catechemenical center in early Christianity. \r\rAlexandria contained the largest library in the ancient world as well as the famous Catechetical School, which produced such minds as Origen.";
+                                       HistoricalPins *alexandria = [[HistoricalPins alloc] init];
+                                       alexandria.coordinate = CLLocationCoordinate2DMake(31.1980, 29.9192);
+                                       alexandria.title = @"Alexandria";
+                                       alexandria.subtitle = @"Eastern Patriarchate";
+                                       alexandria.image = [UIImage imageNamed:@"alexandria"];
+                                       alexandria.information = @"\rEastern Patriarchate \r\rMajor catechumenical center in early Christianity. \r\rAlexandria contained the largest library in the ancient world as well as the famous Catechetical School, which produced such minds as Origen.\r\rFurther Reference:\rWikipedia, “Alexandria”\rhttp://tinyurl.com/mwgrl\r\rCoordinates:\r31.1980, 29.9192";
                                    
-                                   HistoricalPins *rome2 = [[HistoricalPins alloc] init];
-                                   rome2.coordinate = CLLocationCoordinate2DMake(41.9022, 12.4533);
-                                   rome2.title = @"Rome";
-                                   rome2.subtitle = @"The Church that 'Presides in Love'.\r\rThe Church of Rome was established in the first century and quickly acquired a reputation for generosity. According to tradition, both Peter and Paul were martyred there during the persecution under Nero.";
+                                       HistoricalPins *rome2 = [[HistoricalPins alloc] init];
+                                       rome2.coordinate = CLLocationCoordinate2DMake(41.9022, 12.4533);
+                                       rome2.title = @"Church of Rome";
+                                       rome2.subtitle = @"The Apostolic See";
+                                       rome2.image = [UIImage imageNamed:@"vatican"];
+                                       rome2.information = @"\rThe Church of Rome acquired a prominence in the earliest years of the Church, thanks in part, to the martyrdoms of both Peter and Paul in A.D. 64.  The earliest Christian writers testify to its importance. Ignatius of Antioch, Clement of Rome, Irenaeus of Lyon, and others all bear witness to the fact that the Roman church was regarded as a source of unity among all churches. Over time, this view developed into the idea that Peter was the first Bishop of Rome, (the Pope), and subsequent bishops of Rome inherited his Apostolic authority. Later Church teaching would declare that the Bishop of Rome held authority over the whole Church, and his approval was necessary to confirm the proceedings of an Ecumenical Council. The Apostolic See is also the head of Vatican City, the smallest nation on Earth, which was created in 1929 as part of the Lateran Treaty between the Italian government and the Holy See. The Pope is thus also formally recognized as a head of state.\r\rFurther Reference:\rWikipedia, “Holy See”\rhttp://tinyurl.com/fdy54\r\rCoordinates:\r41.9022, 12.4533";
                                    
                                    HistoricalPins *constantinople = [[HistoricalPins alloc] init];
                                    constantinople.coordinate = CLLocationCoordinate2DMake(41.0122, 28.9760);
@@ -943,11 +948,12 @@ MapDetailViewController.currentWordDetail = word;
                                      greenland.information = @"\rGreenland is an examplar of the effects of climate change. The glacial sheet is melting at a rate that climatologists warn could adversely affect millions living in coastal regions. \r\rFurther Reference:\rNational Snow & Ice Data Center, “Greenland Ice Sheet Today”\rhttp://tinyurl.com/a422blp\r\rCoordinates: 50.0000, -40.0000";
 
                                      
-                                     SocialPins *sierraLeone = [[SocialPins alloc] init];
-                                     sierraLeone.coordinate = CLLocationCoordinate2DMake(8.4844, -13.2344);
-                                     sierraLeone.title = @"Sierra Leone";
-                                     sierraLeone.subtitle = @"Issue: Health Care";
-                                     sierraLeone.image = [UIImage imageNamed:@"sierra"];
+                                         SocialPins *sierraLeone = [[SocialPins alloc] init];
+                                         sierraLeone.coordinate = CLLocationCoordinate2DMake(8.4844, -13.2344);
+                                         sierraLeone.title = @"Freetown";
+                                         sierraLeone.subtitle = @"Insufficient Health Care";
+                                         sierraLeone.image = [UIImage imageNamed:@"sierra"];
+                                         sierraLeone.information = @"\rFreetown in Sierra Leone was the locus of an Ebola epidemic in 2014. The city's and larger country's health care infrastructure was devastated by the civil war from 1991-2002.\r\rWikipedia, “Sierra Leone”\rhttp://tinyurl.com/m7ql8\r\rCoordinates: 8.4844, -13.2344";
 
                                      
                                      SocialPins *camden = [[SocialPins alloc] init];
@@ -955,10 +961,12 @@ MapDetailViewController.currentWordDetail = word;
                                      camden.title = @"Camden, NJ";
                                      camden.subtitle = @"Issue: Systemic Poverty";
                                      
-                                     SocialPins *atlantic = [[SocialPins alloc] init];
-                                     atlantic.coordinate = CLLocationCoordinate2DMake(38.4667, -28.4000);
-                                     atlantic.title = @"The Atlantic Ocean";
-                                     atlantic.subtitle = @"Issue: Overfishing, Sea Level Rise";
+                                         SocialPins *atlantic = [[SocialPins alloc] init];
+                                         atlantic.coordinate = CLLocationCoordinate2DMake(38.4667, -28.4000);
+                                         atlantic.title = @"The Atlantic Ocean";
+                                         atlantic.subtitle = @"Rising Water Levels";
+                                         atlantic.image = [UIImage imageNamed:@"ocean"];
+                                         atlantic.information = @"\rThe Atlantic Ocean is the 2nd largest ocean in the world, after the Pacific Ocean. It includes the Gulf Stream and North Atlantic Drift currents. These waterways could be adversely affected by increasing levels of fresh water, causing acccelerated sea level rise, hypoxia, and desalinization.\r\rFurther Reference:\rWikipedia, “Atlantic Ocean”\rhttp://tinyurl.com/sea3p\r\rCoordinates: 38.4667, -28.4000";
                                      
                                      SocialPins *palestine = [[SocialPins alloc] init];
                                      palestine.coordinate = CLLocationCoordinate2DMake(31.6253, 35.1453);
@@ -1041,12 +1049,12 @@ MapDetailViewController.currentWordDetail = word;
                                    corinth.image = [UIImage imageNamed:@"corinth"];
                                    corinth.information = @"\rAs a bustling port city, Corinth was famous for its moral corruption. St. Paul founded the church in Corinth and wrote several letters to this congregation, only 2 of which are extant. Those letters alone can account for about 70% of known facts about early Christianity in the Pauline tradition.\r\rFurther Reference:\rWikipedia, “Ancient Corinth”\rhttp://tinyurl.com/26hqoex\r\rCoordinates: 37.9333, 22.9333";
                                    
-                                   BiblicalPins *dan = [[BiblicalPins alloc] init];
-                                   dan.coordinate = CLLocationCoordinate2DMake(33.2490, 35.6520);
-                                   dan.title = @"Dan";
-                                   dan.image = [UIImage imageNamed:@"dan"];
-                                   dan.subtitle = @"Northern Israelite Cultic Site";
-                                   dan.information = @"\rDan was one of the two sites at which Jeroboam established alternative worship sites for the newly established northern kingdom as described in 1 Kings 12.\r\rFurther Reference:\rhttp://tinyurl.com/mxyh5wrWikipedia, “Dan”\rhttp://tinyurl.com/mxyh5wr\r\rCoordinates: 33.2490, 35.6520";
+                                       BiblicalPins *dan = [[BiblicalPins alloc] init];
+                                       dan.coordinate = CLLocationCoordinate2DMake(33.2490, 35.6520);
+                                       dan.title = @"Dan";
+                                       dan.image = [UIImage imageNamed:@"dan"];
+                                       dan.subtitle = @"Northern Israelite Cultic Site";
+                                       dan.information = @"\rDan was one of the two sites at which Jeroboam established alternative worship sites for the newly established northern kingdom as described in 1 Kings 12.\r\rFurther Reference:\rWikipedia, “Dan”\rhttp://tinyurl.com/mxyh5wr\r\rCoordinates: 33.2490, 35.6520";
                                    
                                    BiblicalPins *jericho = [[BiblicalPins alloc] init];
                                    jericho.coordinate = CLLocationCoordinate2DMake(31.8500, 35.4500);
@@ -1083,19 +1091,19 @@ MapDetailViewController.currentWordDetail = word;
                                    greenland.image = [UIImage imageNamed:@"greenland"];
                                    greenland.information = @"\rGreenland is an examplar of the effects of climate change. The glacial sheet is melting at a rate that climatologists warn could adversely affect millions living in coastal regions. \r\rFurther Reference:\rNational Snow & Ice Data Center, “Greenland Ice Sheet Today”\rhttp://tinyurl.com/a422blp\r\rCoordinates: 50.0000, -40.0000";
                                    
-                                   HistoricalPins *alexandria = [[HistoricalPins alloc] init];
-                                   alexandria.coordinate = CLLocationCoordinate2DMake(31.1980, 29.9192);
-                                   alexandria.title = @"Alexandria";
-                                   alexandria.subtitle = @"Eastern Patriarchate";
-                                   alexandria.image = [UIImage imageNamed:@"alexandria"];
-                                   alexandria.information = @"\rEastern Patriarchate \r\rMajor catechumenical center in early Christianity. \r\rAlexandria contained the largest library in the ancient world as well as the famous Catechetical School, which produced such minds as Origen.\r\rCoordinates:\r31.1980, 29.9192";
+                                       HistoricalPins *alexandria = [[HistoricalPins alloc] init];
+                                       alexandria.coordinate = CLLocationCoordinate2DMake(31.1980, 29.9192);
+                                       alexandria.title = @"Alexandria";
+                                       alexandria.subtitle = @"Eastern Patriarchate";
+                                       alexandria.image = [UIImage imageNamed:@"alexandria"];
+                                       alexandria.information = @"\rEastern Patriarchate \r\rMajor catechumenical center in early Christianity. \r\rAlexandria contained the largest library in the ancient world as well as the famous Catechetical School, which produced such minds as Origen.\r\rFurther Reference:\rWikipedia, “Alexandria”\rhttp://tinyurl.com/mwgrl\r\rCoordinates:\r31.1980, 29.9192";
                                    
-                                   HistoricalPins *rome2 = [[HistoricalPins alloc] init];
-                                   rome2.coordinate = CLLocationCoordinate2DMake(41.9022, 12.4533);
-                                   rome2.title = @"Church of Rome";
-                                   rome2.subtitle = @"The Apostolic See";
-                                   rome2.image = [UIImage imageNamed:@"vatican"];
-                                   rome2.information = @"\rThe Church of Rome was established in the first century and quickly acquired a reputation for generosity. According to tradition, both Peter and Paul were martyred there during the persecution under Nero.\r\rCoordinates:\r41.9022, 12.4533";
+                                       HistoricalPins *rome2 = [[HistoricalPins alloc] init];
+                                       rome2.coordinate = CLLocationCoordinate2DMake(41.9022, 12.4533);
+                                       rome2.title = @"Church of Rome";
+                                       rome2.subtitle = @"The Apostolic See";
+                                       rome2.image = [UIImage imageNamed:@"vatican"];
+                                       rome2.information = @"\rThe Church of Rome acquired a prominence in the earliest years of the Church, thanks in part, to the martyrdoms of both Peter and Paul in A.D. 64.  The earliest Christian writers testify to its importance. Ignatius of Antioch, Clement of Rome, Irenaeus of Lyon, and others all bear witness to the fact that the Roman church was regarded as a source of unity among all churches. Over time, this view developed into the idea that Peter was the first Bishop of Rome, (the Pope), and subsequent bishops of Rome inherited his Apostolic authority. Later Church teaching would declare that the Bishop of Rome held authority over the whole Church, and his approval was necessary to confirm the proceedings of an Ecumenical Council. The Apostolic See is also the head of Vatican City, the smallest nation on Earth, which was created in 1929 as part of the Lateran Treaty between the Italian government and the Holy See. The Pope is thus also formally recognized as a head of state.\r\rFurther Reference:\rWikipedia, “Holy See”\rhttp://tinyurl.com/fdy54\r\rCoordinates:\r41.9022, 12.4533";
                                    
                                    HistoricalPins *constantinople = [[HistoricalPins alloc] init];
                                    constantinople.coordinate = CLLocationCoordinate2DMake(41.0122, 28.9760);
@@ -1119,10 +1127,12 @@ MapDetailViewController.currentWordDetail = word;
                                    camden.subtitle = @"Issue: Systemic Poverty";
                                    camden.information = @"\rCoordinates: 39.9400, -75.1050";
                                    
-                                   SocialPins *atlantic = [[SocialPins alloc] init];
-                                   atlantic.coordinate = CLLocationCoordinate2DMake(38.4667, -28.4000);
-                                   atlantic.title = @"The Atlantic Ocean";
-                                   atlantic.information = @"\rCoordinates: 38.4667, -28.4000";
+                                       SocialPins *atlantic = [[SocialPins alloc] init];
+                                       atlantic.coordinate = CLLocationCoordinate2DMake(38.4667, -28.4000);
+                                       atlantic.title = @"The Atlantic Ocean";
+                                       atlantic.subtitle = @"Rising Water Levels";
+                                       atlantic.image = [UIImage imageNamed:@"ocean"];
+                                       atlantic.information = @"\rThe Atlantic Ocean is the 2nd largest ocean in the world, after the Pacific Ocean. It includes the Gulf Stream and North Atlantic Drift currents. These waterways could be adversely affected by increasing levels of fresh water, causing acccelerated sea level rise, hypoxia, and desalinization.\r\rFurther Reference:\rWikipedia, “Atlantic Ocean”\rhttp://tinyurl.com/sea3p\r\rCoordinates: 38.4667, -28.4000";
                                    
                                    SocialPins *palestine = [[SocialPins alloc] init];
                                    palestine.coordinate = CLLocationCoordinate2DMake(31.6253, 35.1453);
@@ -1150,7 +1160,7 @@ MapDetailViewController.currentWordDetail = word;
                                        sepphoris.title = @"Sepphoris";
                                        sepphoris.subtitle = @"Capital of Herod Antipas";
                                        sepphoris.image = [UIImage imageNamed:@"sepphoris"];
-                                       sepphoris.information = @"\rAlthough it is not mentioned in Scripture, Sepphoris was a major city in Galilee and the captial city of Herod Antipas.\r\rCoordinates:\r32.7529, 35.2795";
+                                       sepphoris.information = @"\rAlthough it is not mentioned in Scripture, Sepphoris was a major city in Galilee and the captial city of Herod Antipas. It is likely that Jesus of Nazareth worked in or around this city before beginning his prophetic ministry.\r\rFurther Reference:\rWikipedia, “Sepphoris”\rhttp://tinyurl.com/p38eyob\r\rCoordinates:\r32.7529, 35.2795";
                                    
                                    BiblicalPins *philippi = [[BiblicalPins alloc] init];
                                    philippi.coordinate = CLLocationCoordinate2DMake(41.0131, 24.2864);
@@ -1168,11 +1178,12 @@ MapDetailViewController.currentWordDetail = word;
 
                                    antioch.information = @"\rCoordinates:\r 36.2000, 36.1500";
                                    
-                                   BiblicalPins *colossae = [[BiblicalPins alloc] init];
-                                   colossae.coordinate = CLLocationCoordinate2DMake(37.7878, 29.2615);
-                                   colossae.title = @"Colossae";
-                                   colossae.subtitle = @"Colossians 1:4";
-                                   colossae.image = [UIImage imageNamed:@"colossae"];
+                                       BiblicalPins *colossae = [[BiblicalPins alloc] init];
+                                       colossae.coordinate = CLLocationCoordinate2DMake(37.7878, 29.2615);
+                                       colossae.title = @"Colossae";
+                                       colossae.subtitle = @"Greek City in the Lycus Valley";
+                                       colossae.image = [UIImage imageNamed:@"colossae"];
+                                       colossae.information = @"\rThe town of Colossae was located in the Lycus valley near Ephesus and Laodicea. There is one letter to the Colossians written in the name of St. Paul that is classified among the disputed letters.\r\rFurther Refernce:\rWikipedia, “Colossae”\rhttp://tinyurl.com/pyz559n\r\rCoordinates:\r37.7878, 29.2615";
                                    
                                    BiblicalPins *bethlehem = [[BiblicalPins alloc] init];
                                    bethlehem.coordinate = CLLocationCoordinate2DMake(31.7063, 35.2090);

@@ -1000,7 +1000,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Distributive Justice",
                            @"twitterDef":@"the type of justice which emphasizes society's responsibilities to the individual",
-                           @"definition":@"\rDistributive justice is an essential aspect of social justice. It is fulfilled when society meets its obligations to the individual based on his or her contribution and need. See “Justice”.\r\rFurther Reference:\rUSCCB, “Economic Justice For All”, II.b.1.b http://tinyurl.com/75hnlx3",
+                           @"definition":@"\rDistributive justice is an essential aspect of social justice. It is fulfilled when society meets its obligations to the individual based on his or her contribution and need. See “Justice”.\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, “Economic Justice For All”, II.b.1.b http://tinyurl.com/75hnlx3",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Divine Liturgy",
@@ -1268,7 +1268,7 @@
                            @"category":@"Liturgical"}];
 
     [TAWord wordWithDict:@{@"name":@"Euthyphro Dilemma",
-                           @"twitterDef":@"does God give the law because it is good? or is it good because God gives it?",
+                           @"twitterDef":@"does God give the Law because it is good? or is the Law good because God gives it?",
                            @"definition":@"\rThe Euthphro Problem takes its name from Plato's Dialogue, Euthyphro, in which Socrates asks Euthyphro: Is the pious loved by the gods because it is pious, or is it pious because it is loved by the gods? In contemporary Moral Theology, the question can be framed: Does God give the Commandments because they are good, or are the Commandments good because God gives them?\r\rFurther Reference:\rStanford Encyclopedia of Philosophy, “Religion and Morality”\rhttp://tinyurl.com/6wc2qkg",
                            @"category":@"Cultural"}];
     
