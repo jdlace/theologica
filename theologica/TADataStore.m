@@ -2724,6 +2724,11 @@
                            @"definition":@"\rForm Criticism determines the literary form of a text. This form is intrinsically connected to its setting in life. The German biblical scholar Hermann Gunkel coined the phrase to refer to this context.\r\rGerman, (sitz em laben)\r\rFurther Reference:\rWikipedia, “Sitz Em Laben”\rhttp://tinyurl.com/cj4hy7",
                            @"category":@"Biblical"}];
     
+    [TAWord wordWithDict:@{@"name":@"Social Revolution Model",
+                           @"twitterDef":@"the theory which claims that Israelites were mostly native Canaanites",
+                           @"definition":@"\rA number of facts render the traditional Conquest (based on Joshua) and Immigration (based on Judges) models of Settlement problematic, such as:\r\r-signs of internal revolt in certain Canaanite sites\r-exponential population increase in the Canaanite highlands between 1200-1000 B.C.\r-narrative discrepancies between Joshua and Judges\r-the dimishment of Egyptian power over Canaanite city-states\r-the prevalence of idolatry throughout ancient Israel\r\rSee “Documentary Hypothesis”, “Two-Source Theory”.\r\rFurther Reference:\rWikipedia, “Source Criticism”\rhttp://tinyurl.com/ngey4az",
+                           @"category":@"Biblical"}];
+    
     [TAWord wordWithDict:@{@"name":@"Source Criticism",
                            @"twitterDef":@"the analysis of the underlying sources\rof a text",
                            @"definition":@"\rSource Criticism was developed in the 19th century by German biblical scholars and eventually led to the formulation of the Documentary Hypothesis of the Torah and the Two-Source Theory of the Gospels. See “Documentary Hypothesis”, “Two-Source Theory”.\r\rFurther Reference:\rWikipedia, “Source Criticism”\rhttp://tinyurl.com/ngey4az",
