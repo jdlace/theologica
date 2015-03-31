@@ -504,7 +504,7 @@
                         <sections/>
                     </tableView>
                     <navigationItem key="navigationItem" title="Dictionary" id="puP-se-oj8">
-                        <barButtonItem key="backBarButtonItem" title="Dictionary" id="TeJ-ib-7ab"/>
+                        <barButtonItem key="backBarButtonItem" title=" " id="TeJ-ib-7ab"/>
                         <barButtonItem key="leftBarButtonItem" title="Terms" style="plain" id="LEf-Yw-Fka">
                             <connections>
                                 <action selector="termsButton:" destination="oZ5-nE-rQe" id="w9s-2l-WOC"/>
@@ -1074,7 +1074,7 @@
         <image name="winelinespurple" width="83" height="83"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="D2d-iF-b5c"/>
         <segue reference="lUx-rQ-gMF"/>
-        <segue reference="z88-YU-nMu"/>
     </inferredMetricsTieBreakers>
 </document>

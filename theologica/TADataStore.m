@@ -421,7 +421,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Anathema",
                            @"twitterDef":@"the Greek word meaning “placed off limits”;\rthe state of being excommunicated",
-                           @"definition":@"\rOver time, Anathema came to refer to those who were accursed or banished from the community.\r\rGreek, ἀνάθεμα (anathema)\r\rFurther Reference:\rNew Advent, “Anathema”\rhttp://tinyurl.com/o5fl88l",
+                           @"definition":@"\rOver time, Anathema came to refer to those who were accursed or banished from the community.\r\rGreek, ἀνάθεμα (anathema)\r\rFurther Reference:\rWikipedia, “Anathema”\rhttp://tinyurl.com/ndppmdt",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Angel",
@@ -804,7 +804,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Communicatio Idiomatum",
                            @"twitterDef":@"the interexchange of Christ's divine and human natures",
-                           @"definition":@"\rThe idea of the Communicatio Idiomatum means that the properties of the human Jesus can also be predicated of the Logos and vice versa. See “Chalcedonian Definition”.\r\rFurther Reference:\rNew Advent, “Communicatio Idiomatum”\rhttp://tinyurl.com/nqusf6m",
+                           @"definition":@"\rThe idea of the Communicatio Idiomatum means that the properties of the human Jesus can also be predicated of the Logos and vice versa. See “Chalcedonian Definition”.\r\rFurther Reference:\rWikipedia, “Communicatio Idiomatum”\rhttp://tinyurl.com/nn83smb",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Communion of Saints",
@@ -1067,7 +1067,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Diocese",
                            @"twitterDef":@"the administrative area of a Bishop",
-                           @"definition":@"\rThe concept of a diocese derives from the practice of household management. The Emperor Diocletian, in the fourth century A.D., divided up the Roman Empire into smaller administrative districts. As the Church assumed more civil responsibility, this districting system was adopted for ecclesial administration. See “Bishop”.\r\rFurther Reference:\rNew Advent, “Diocese”\rhttp://tinyurl.com/p7mkbna",
+                           @"definition":@"\rThe concept of a diocese derives from the practice of household management. The Emperor Diocletian, in the fourth century A.D., divided up the Roman Empire into smaller administrative districts. As the Church assumed more civil responsibility, this districting system was adopted for ecclesial administration. See “Bishop”.\r\rFurther Reference:\rWikipedia, “Roman Diocese”\rhttp://tinyurl.com/qynktwj",
                            @"category":@"Historical"}];
 
 
@@ -1151,7 +1151,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Dulia",
                            @"twitterDef":@"the Greek word meaning “veneration”",
-                           @"definition":@"\rIn contrast to latria, dulia refers to veneration that is appropriate for the Saints or other sources of inspiration for Christian living. The Virgin Mary is the object of hyperdulia, the highest veneration one can give to anything created. See “Latria”.\r\rGreek, δουλεία (douleia)\r\rFurther Reference:\rNew Advent, “Dulia”\rhttp://tinyurl.com/la9btgm",
+                           @"definition":@"\rIn contrast to latria, dulia refers to veneration that is appropriate for the Saints or other sources of inspiration for Christian living. The Virgin Mary is the object of hyperdulia, the highest veneration one can give to anything created. See “Latria”.\r\rGreek, δουλεία (douleia)\r\rFurther Reference:\rWikipedia, “Dulia”\rhttp://tinyurl.com/pp6olmr",
                            @"category":@"Liturgical"}];
     
     
@@ -1278,8 +1278,8 @@
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Ex Cathedra",
-                           @"twitterDef":@"a teaching from the chair of Peter",
-                           @"definition":@"\rWhen the Pope explicitly teaches from the chair (ex cathedra) of Peter, his teaching is considered infallible.\r\rFurther Reference:\rNew Advent, “Ex Cathedra”\rhttp://tinyurl.com/z24ta",
+                           @"twitterDef":@"an infallible teaching from the chair of Peter",
+                           @"definition":@"\rWhen the Pope explicitly teaches from the chair (ex cathedra) of Peter, his teaching is considered infallible.\r\rFurther Reference:\rWikipedia, “Papal Infallibility”\rhttp://tinyurl.com/ntrobem",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Ex Nihilo",
@@ -1712,7 +1712,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Host",
                            @"twitterDef":@"the unleavened bread reserved for Eucharistic consecration",
-                           @"definition":@"\rThe Host is made of unleavened bread in the Western liturgical tradtion, while the East has historically used leavened bread. It is placed on a Paten when on the Altar. See “Altar”, “Eucharist”, “Paten”.\r\rFurther Reference:\rNew Advent, “Host”\rhttp://tinyurl.com/7p5tg75",
+                           @"definition":@"\rThe Host is made of unleavened bread in the Western liturgical tradtion, while the East has historically used leavened bread. It is placed on a Paten when on the Altar. See “Altar”, “Eucharist”, “Paten”.\r\rFurther Reference:\rWikipedia, “Sacramental Bread”\rhttp://tinyurl.com/lho5vze",
                            @"category":@"Liturgical"}];
 
     
@@ -2128,7 +2128,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Mystery",
                            @"twitterDef":@"that which transcends human comprehension and explanation",
-                           @"definition":@"\rIn the Catholic tradition, God is ultimately Mystery and can only be partially known through Divine Revelation. See “Divine Revelation”.\r\rFurther Reference:\rNew Advent, “Mystery”\rhttp://tinyurl.com/35fsmo",
+                           @"definition":@"\rIn the Catholic tradition, God is ultimately Mystery and can only be partially known through Divine Revelation. See “Divine Revelation”.\r\rFurther Reference:\rWikipedia, “Absolute”\rhttp://tinyurl.com/q9atwcx",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Manuscript",
@@ -2163,7 +2163,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Mitre",
                            @"twitterDef":@"a liturgical hat worn by bishops",
-                           @"definition":@"\rMitres are worn by bishops and other prelates of the Church and symbolize the flame of the Holy Spirit.\r\rFurther Reference:\rNew Advent, “Mitre”\rhttp://tinyurl.com/5fdro",
+                           @"definition":@"\rMitres are worn by bishops and other prelates of the Church and symbolize the flame of the Holy Spirit.\r\rFurther Reference:\rWikipedia, “Mitre”\rhttp://tinyurl.com/p995yt8",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Modernism",
@@ -2208,7 +2208,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Moral Theology",
                            @"twitterDef":@"the theology of moral norms and their application to human experience",
-                           @"definition":@"\rMoral theology was identified by St. Thomas Aquinas as early as the 14 century and has developed into a definite sub-discipline of Theology.\r\rFurther Reference:\rNew Advent, “Moral Theology”\rhttp://tinyurl.com/bwhw6lf",
+                           @"definition":@"\rMoral theology was identified by St. Thomas Aquinas as early as the 14 century and has developed into a definite sub-discipline of Theology.\r\rFurther Reference:\rWikipedia, “Catholic Moral Theology”\rhttp://tinyurl.com/ohgghsw",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Morning Prayer",
@@ -2378,7 +2378,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Oracle",
                            @"twitterDef":@"a Divine utterance;\ra location of Divine utterances",
-                           @"definition":@"The phenomenon of oracles as was widespread in the ancient world. The Oracle at Delphi was Pythia, who was associated with the Greek god Apollo. In the biblical tradition, oracles were messages of God spoken by humans. St. Paul speaks of the nation of Israel as having been entrusted with the Oracles of God (Rom. 3:2).\r\rFurther Reference:\rNew Advent, “Oracle”\rhttp://tinyurl.com/nfok5xv",
+                           @"definition":@"The phenomenon of oracles as was widespread in the ancient world. The Oracle at Delphi was Pythia, who was associated with the Greek god Apollo. In the biblical tradition, oracles were messages of God spoken by humans. St. Paul speaks of the nation of Israel as having been entrusted with the Oracles of God (Rom. 3:2).\r\rFurther Reference:\rWikipedia, “Oracle”\rhttp://tinyurl.com/pjmt2c9",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Oral Tradition",
@@ -2450,7 +2450,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Pelagianism",
                            @"twitterDef":@"the heresy of Pelagius that salvation is possible without grace",
-                           @"definition":@"\rPelagius was likely a British monk who came to Rome around the year A.D. 400. He later had contact with St. Augustine in Carthage around A.D. 411. Among the supposed tenets of Pelagius were the following:\r\r-Even if Adam had not sinned, he would have died.\r-Adam's sin injured only himself, not humanity\r-Children are born in the same state as Adam before the Fall\r-Salvation is possible without special grace\r\rAgainst Pelagian ideas, St. Augustine wrote works in which he articulated the concept of Original Sin and the necessity of Baptism for salvation. See “Baptism”, “Original Sin”.\r\rFurther Reference:\rNew Advent, “Pelagianism”\rhttp://tinyurl.com/p688ht5",
+                           @"definition":@"\rPelagius was likely a British monk who came to Rome around the year A.D. 400. He later had contact with St. Augustine in Carthage around A.D. 411. Among the supposed tenets of Pelagius were the following:\r\r-Even if Adam had not sinned, he would have died.\r-Adam's sin injured only himself, not humanity\r-Children are born in the same state as Adam before the Fall\r-Salvation is possible without special grace\r\rAgainst Pelagian ideas, St. Augustine wrote works in which he articulated the concept of Original Sin and the necessity of Baptism for salvation. See “Baptism”, “Original Sin”.\r\rFurther Reference:\rWikipedia, “Pelagianism”\rhttp://tinyurl.com/nnqdgvz",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Penance",
@@ -2466,7 +2466,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Palm Sunday",
                            @"twitterDef":@"the Sunday before Easter that commemorates the final entry of Jesus into Jerusalem",
-                           @"definition":@"\rAccording to Letter XX of St. Ambrose of Milan, Palm Sunday was the day on which the Creed was taught to Catechumens. The current practice of congregants waving palm branches dates to the 9th century in France.\r\rFurther Reference:\rNew Advent, “Palm Sunday”\rhttp://tinyurl.com/42rz76z",
+                           @"definition":@"\rAccording to Letter XX of St. Ambrose of Milan, Palm Sunday was the day on which the Creed was taught to Catechumens. The current practice of congregants waving palm branches dates to the 9th century in France.\r\rFurther Reference:\rWikipedia, “Palm Sunday”\rhttp://tinyurl.com/owdpgsc",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Personhood",
@@ -2604,7 +2604,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Quartodeciman Controversy",
                            @"twitterDef":@"a 2nd century liturgical dispute over the celebration of Easter",
-                           @"definition":@"\rLeviticus 23:5 regulates the celebration of Passover to the fourteenth day of Nisan. Asiatic Christians celebrated the Resurrection of Jesus on that exact day, while Roman Christians celebrated Easter on the first Sunday after the Nisan 14. Irenaeus of Lyons persuaded Anicetus, the Bishop of Rome at the time, not to excommunicate the Asiatic churches over such a difference.\r\rFurther Reference:\rNew Advent, “Easter Controversy”\rhttp://tinyurl.com/qc77tbq",
+                           @"definition":@"\rLeviticus 23:5 regulates the celebration of Passover to the fourteenth day of Nisan. Asiatic Christians celebrated the Resurrection of Jesus on that exact day, while Roman Christians celebrated Easter on the first Sunday after the Nisan 14. Irenaeus of Lyons persuaded Anicetus, the Bishop of Rome at the time, not to excommunicate the Asiatic churches over such a difference.\r\rFurther Reference:\rWikipedia, “Quartodecimanism”\rhttp://tinyurl.com/nl3pd8p",
                            @"category":@"Historical"}];
     
     
@@ -2619,7 +2619,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Redemption",
                            @"twitterDef": @"an economic metaphor used to describe\rthe experience of salvation in Christ",
-                           @"definition":@"\rThe biblical tradition is replete with the metaphor of redemption being applied to God's salvation of Israel and the Church.\r\rFurther Reference:\rNew Advent, “Redemption”\rhttp://tinyurl.com/blqm4x3",
+                           @"definition":@"\rThe biblical tradition is replete with the metaphor of redemption being applied to God's salvation of Israel and the Church.\r\rFurther Reference:\rWikipedia, “Redemption”\rhttp://tinyurl.com/pdfdqtt",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Repentance",
