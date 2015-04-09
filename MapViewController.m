@@ -40,9 +40,10 @@
 
     
     //Create a region and zoom level for the intial view of the map. 
-    MKCoordinateSpan span = MKCoordinateSpanMake(100.0000f,100.0000f);
+  //  MKCoordinateSpan span = MKCoordinateSpanMake(180.0000f, 180.0000f);
     CLLocationCoordinate2D coordinate = {38.4667, -28.4000};
-    MKCoordinateRegion region = {coordinate, span};
+    MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(coordinate, 19900000, 19900000);
+    //MKCoordinateRegion region = {coordinate, span};
     
     MKCoordinateRegion regionThatFits = [self.mapView regionThatFits:region];
     
@@ -151,7 +152,14 @@
     greenland.title = @"Greenland";
     greenland.subtitle = @"Accelerated Glacial Melting";
     greenland.image = [UIImage imageNamed:@"greenland"];
-    greenland.information = @"\rGreenland is an examplar of the effects of climate change. The glacial sheet is melting at a rate that climatologists warn could adversely affect millions living in coastal regions. \r\rFurther Reference:\rNational Snow & Ice Data Center, “Greenland Ice Sheet Today”\rhttp://tinyurl.com/a422blp\r\rCoordinates: 50.0000, -40.0000";
+    greenland.information = @"\rGreenland is an examplar of the effects of climate change. The glacial sheet is melting at a rate that climatologists warn could adversely affect millions living in coastal regions. \r\rFurther Reference:\rCatholic Climate Movement\rhttp://tinyurl.com/lxe52t7\r\rNational Snow & Ice Data Center, “Greenland Ice Sheet Today”\rhttp://tinyurl.com/a422blp\r\rCoordinates: 50.0000, -40.0000";
+    
+    SocialPins *greatbr = [[SocialPins alloc] init];
+    greatbr.coordinate = CLLocationCoordinate2DMake(-18.2861, 147.7000);
+    greatbr.title = @"Great Barrier Reef";
+    greatbr.subtitle = @"Threatened Coral Ecosystem";
+    greatbr.image = [UIImage imageNamed:@"barrier"];
+    greatbr.information = @"\rAustralia's Great Barrier Reef is the world's largest coral ecosystem. Climate change is putting many elements of the reef under threat.\r\rFurther Reference:\rCatholic Bishops of Queensland, “Pastoral Letter on the Great Barrier Reef”\rhttp://tinyurl.com/one2fma\r\rCatholic Care Australia\rhttp://catholicearthcare.org.au\r\rCoordinates:\r18.2861, 147.7000";
     
     
     HistoricalPins *alexandria = [[HistoricalPins alloc] init];
@@ -194,6 +202,13 @@
     atlantic.subtitle = @"Rising Water Levels";
     atlantic.image = [UIImage imageNamed:@"ocean"]; 
     atlantic.information = @"\rThe Atlantic Ocean is the 2nd largest ocean in the world, after the Pacific Ocean. It includes the Gulf Stream and North Atlantic Drift currents. These waterways could be adversely affected by increasing levels of fresh water, causing acccelerated sea level rise, hypoxia, and desalinization.\r\rFurther Reference:\rWikipedia, “Atlantic Ocean”\rhttp://tinyurl.com/sea3p\r\rCoordinates: 38.4667, -28.4000";
+    
+    SocialPins *philippines = [[SocialPins alloc] init];
+    philippines.coordinate = CLLocationCoordinate2DMake(13.1333, 123.7333);
+    philippines.title = @"Legazpi City";
+    philippines.subtitle = @"Carbon Mining Coastal Destruction";
+    philippines.image = [UIImage imageNamed:@"legazpi"];
+    philippines.information = @"The coast of Legazpi City, Philippines, is suffering from the effects of carbon mining.";
     
     SocialPins *palestine = [[SocialPins alloc] init];
     palestine.coordinate = CLLocationCoordinate2DMake(31.6253, 35.1453);
@@ -308,10 +323,18 @@
     uganda.subtitle = @"Tribal Warfare & Water Scarcity";
     uganda.image = [UIImage imageNamed:@"uganda"];
     uganda.information = @"\rAs part of Sub-Saharan Africa, Uganda has been the location of severe Water Scarcity. This situation has only been compounded by the various political crises since the country gained independence from \r\rCoordinates: 1.0667, 31.8833\r\rFurther Reference:\rUNDP, Uganda http://tinyurl.com/kqrstkw\r\rWikipedia, “Uganda” http://tinyurl.com/jmaev";
+    
+    SocialPins *asheville = [[SocialPins alloc] init];
+    asheville.coordinate = CLLocationCoordinate2DMake(35.5800, -82.5558);
+    asheville.title = @"St. Eugene Church";
+    asheville.subtitle = @"Renewable Energy Exemplar";
+    asheville.image = [UIImage imageNamed:@"StEugene"];
+    asheville.image = [UIImage imageNamed:@"StEugene"];
+    asheville.information = @"\rSt. Eugene Church in Asheville, North Carolina, recently commited to using 100% renewable energy in the form of solar panels. These will sigificantly reduce its monthly energy bill.";
 
 
     
-    NSArray *annotations = [NSArray arrayWithObjects:jerusalem, bethEl, ephesus, corinth, dan, temple, hazor, nicea, greenland, rome, nazareth, capernaum, sierraLeone, camden, atlantic, rome2, constantinople, palestine, israel, alexandria, thessalonica, philippi, antioch, bethlehem, ramah, hebron, shiloh, lyon, vienne, chalcedon, constance, trent, florence, lateran, uganda, colossae, sepphoris, nil];
+    NSArray *annotations = [NSArray arrayWithObjects:jerusalem, bethEl, ephesus, corinth, dan, temple, hazor, nicea, greenland, greatbr, philippines, rome, nazareth, capernaum, sierraLeone, camden, atlantic, rome2, constantinople, palestine, israel, alexandria, thessalonica, philippi, antioch, bethlehem, ramah, hebron, shiloh, lyon, vienne, chalcedon, constance, trent, florence, lateran, uganda, colossae, sepphoris, asheville, nil];
     
     [self.mapView addAnnotations:annotations];
 
@@ -945,7 +968,21 @@ MapDetailViewController.currentWordDetail = word;
                                      greenland.title = @"Greenland";
                                      greenland.subtitle = @"Accelerated Glacial Melting";
                                      greenland.image = [UIImage imageNamed:@"greenland"];
-                                     greenland.information = @"\rGreenland is an examplar of the effects of climate change. The glacial sheet is melting at a rate that climatologists warn could adversely affect millions living in coastal regions. \r\rFurther Reference:\rNational Snow & Ice Data Center, “Greenland Ice Sheet Today”\rhttp://tinyurl.com/a422blp\r\rCoordinates: 50.0000, -40.0000";
+                                     greenland.information = @"\rGreenland is an examplar of the effects of climate change. The glacial sheet is melting at a rate that climatologists warn could adversely affect millions living in coastal regions. \r\rFurther Reference:\rCatholic Climate Movement\rhttp://tinyurl.com/lxe52t7\r\rNational Snow & Ice Data Center, “Greenland Ice Sheet Today”\rhttp://tinyurl.com/a422blp\r\rCoordinates: 50.0000, -40.0000";
+                                     
+                                     SocialPins *greatbr = [[SocialPins alloc] init];
+                                     greatbr.coordinate = CLLocationCoordinate2DMake(-18.2861, 147.7000);
+                                     greatbr.title = @"Great Barrier Reef";
+                                     greatbr.subtitle = @"Threatened Coral Ecosystem";
+                                     greatbr.image = [UIImage imageNamed:@"barrier"];
+                                     greatbr.information = @"\rAustralia's Great Barrier Reef is the world's largest coral ecosystem. Climate change is putting many elements of the reef under threat.\r\rFurther Reference:\rCatholic Bishops of Queensland, “Pastoral Letter on the Great Barrier Reef”\rhttp://tinyurl.com/one2fma\r\rCatholic Care Australia\rhttp://catholicearthcare.org.au\r\rCoordinates:\r18.2861, 147.7000";
+                                     
+                                     SocialPins *philippines = [[SocialPins alloc] init];
+                                     philippines.coordinate = CLLocationCoordinate2DMake(13.1333, 123.7333);
+                                     philippines.title = @"Legazpi City";
+                                     philippines.image = [UIImage imageNamed:@"legazpi"];
+                                     philippines.subtitle = @"Carbon Mining Coastal Destruction";
+                                     philippines.information = @"The coast of Legazpi City, Philippines, is suffering from the effects of carbon mining.";
 
                                      
                                          SocialPins *sierraLeone = [[SocialPins alloc] init];
@@ -988,8 +1025,15 @@ MapDetailViewController.currentWordDetail = word;
                                      uganda.image = [UIImage imageNamed:@"uganda"];
                                      uganda.information = @"\rAs part of Sub-Saharan Africa, Uganda has been the location of severe Water Scarcity. This situation has only been compounded by the various political crises since the country gained independence from \r\rCoordinates: 1.0667, 31.8833\r\rFurther Reference:\rUNDP, Uganda http://tinyurl.com/kqrstkw\r\rWikipedia, “Uganda” http://tinyurl.com/jmaev";
                                      
+                                     SocialPins *asheville = [[SocialPins alloc] init];
+                                     asheville.coordinate = CLLocationCoordinate2DMake(35.5800, -82.5558);
+                                     asheville.title = @"St. Eugene Church";
+                                     asheville.subtitle = @"Renewable Energy Exemplar";
+                                     asheville.image = [UIImage imageNamed:@"StEugene"];
+                                     asheville.information = @"\rSt. Eugene Church in Asheville, North Carolina, recently commited to using 100% renewable energy in the form of solar panels. These will sigificantly reduce its monthly energy bill.";
                                      
-                                     NSArray *annotations = [NSArray arrayWithObjects:greenland, sierraLeone, camden, atlantic, palestine, israel, uganda, nil];
+                                     
+                                     NSArray *annotations = [NSArray arrayWithObjects:greenland, greatbr, philippines, sierraLeone, camden, atlantic, palestine, israel, uganda, asheville, nil];
                                      [self.mapView addAnnotations:annotations];
 
                                      
@@ -1089,7 +1133,14 @@ MapDetailViewController.currentWordDetail = word;
                                    greenland.title = @"Greenland";
                                    greenland.subtitle = @"Accelerated Glacial Melting";
                                    greenland.image = [UIImage imageNamed:@"greenland"];
-                                   greenland.information = @"\rGreenland is an examplar of the effects of climate change. The glacial sheet is melting at a rate that climatologists warn could adversely affect millions living in coastal regions. \r\rFurther Reference:\rNational Snow & Ice Data Center, “Greenland Ice Sheet Today”\rhttp://tinyurl.com/a422blp\r\rCoordinates: 50.0000, -40.0000";
+                                   greenland.information = @"\rGreenland is an examplar of the effects of climate change. The glacial sheet is melting at a rate that climatologists warn could adversely affect millions living in coastal regions. \r\rFurther Reference:\rCatholic Climate Movement\rhttp://tinyurl.com/lxe52t7\r\rNational Snow & Ice Data Center, “Greenland Ice Sheet Today”\rhttp://tinyurl.com/a422blp\r\rCoordinates: 50.0000, -40.0000";
+                                   
+                                   SocialPins *greatbr = [[SocialPins alloc] init];
+                                   greatbr.coordinate = CLLocationCoordinate2DMake(-18.2861, 147.7000);
+                                   greatbr.title = @"Great Barrier Reef";
+                                   greatbr.subtitle = @"Threatened Coral Ecosystem";
+                                   greatbr.image = [UIImage imageNamed:@"barrier"];
+                                   greatbr.information = @"\rAustralia's Great Barrier Reef is the world's largest coral ecosystem. Climate change is putting many elements of the reef under threat.\r\rFurther Reference:\rCatholic Bishops of Queensland, “Pastoral Letter on the Great Barrier Reef”\rhttp://tinyurl.com/one2fma\r\rCatholic Care Australia\rhttp://catholicearthcare.org.au\r\rCoordinates:\r18.2861, 147.7000";
                                    
                                        HistoricalPins *alexandria = [[HistoricalPins alloc] init];
                                        alexandria.coordinate = CLLocationCoordinate2DMake(31.1980, 29.9192);
@@ -1266,10 +1317,24 @@ MapDetailViewController.currentWordDetail = word;
                                    uganda.image = [UIImage imageNamed:@"uganda"];
                                    uganda.information = @"\rAs part of Sub-Saharan Africa, Uganda has been the location of severe Water Scarcity. This situation has only been compounded by the various political crises since the country gained independence from \r\rCoordinates: 1.0667, 31.8833\r\rFurther Reference:\rUNDP, Uganda http://tinyurl.com/kqrstkw\r\rWikipedia, “Uganda” http://tinyurl.com/jmaev";
                                    
+                                   SocialPins *philippines = [[SocialPins alloc] init];
+                                   philippines.coordinate = CLLocationCoordinate2DMake(13.1333, 123.7333);
+                                   philippines.title = @"Legazpi City";
+                                   philippines.subtitle = @"Carbon Mining Coastal Destruction";
+                                   philippines.image = [UIImage imageNamed:@"legazpi"];
+                                   philippines.information = @"The coast of Legazpi City, Philippines, is suffering from the effects of carbon mining.";
+                                   
+                                   SocialPins *asheville = [[SocialPins alloc] init];
+                                   asheville.coordinate = CLLocationCoordinate2DMake(35.5800, -82.5558);
+                                   asheville.title = @"St. Eugene Church";
+                                   asheville.subtitle = @"Renewable Energy Exemplar";
+                                   asheville.image = [UIImage imageNamed:@"StEugene"];
+                                   asheville.information = @"\rSt. Eugene Church in Asheville, North Carolina, recently commited to using 100% renewable energy in the form of solar panels. These will sigificantly reduce its monthly energy bill.";
+                                   
 
 
                                    
-                                   NSArray *annotations = [NSArray arrayWithObjects:jerusalem, bethEl, ephesus, corinth, dan, temple, hazor, nicea, greenland, rome, nazareth, sierraLeone, camden, atlantic, rome2, constantinople, palestine, israel, alexandria, antioch, bethlehem, thessalonica, philippi, vienne, lyon, chalcedon, constance, trent, florence, uganda, lateran, colossae, sepphoris, nil];
+                                   NSArray *annotations = [NSArray arrayWithObjects:jerusalem, bethEl, ephesus, corinth, dan, temple, hazor, nicea, greenland, greatbr, rome, nazareth, sierraLeone, camden, atlantic, rome2, constantinople, palestine, israel, alexandria, antioch, bethlehem, thessalonica, philippi, vienne, lyon, chalcedon, constance, trent, florence, uganda, lateran, colossae, sepphoris, philippines, asheville, nil];
                                    
                                    [self.mapView addAnnotations:annotations];
                                    

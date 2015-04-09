@@ -1008,9 +1008,10 @@
                            @"definition":@"\rThe Liturgy of St. John Chrysostom is the litugry used most often in the Byzantine tradition, while other liturgies are used on various special occassions.\r\rFurther Reference:\rGreek Orthodox Archdiocese in America, The Divine Liturgy of Saint John Chrysostom http://tinyurl.com/nmkpnt8",
                            @"category":@"Liturgical"}];
     
+    
     [TAWord wordWithDict:@{@"name":@"Divine Revelation",
                            @"twitterDef":@"the act of God's Self-Communication",
-                           @"definition":@"\rSince God is ultimately Mystery, God must reveal God's Self to human beings. In the Old Testament, Revelation usually occurs in the context of a Theophany. Divine Revelation was treated extensively at Vatican II in the Dogmatic Constitution on Divine Revelation, Dei Verbum. See “Theophany”, “Dei Verbum”.\r\rFurther Reference:\rCatechism of the Catholic Church, 638-655\rhttp://tinyurl.com/nrt2f6g",
+                           @"definition":@"\rSince God is ultimately Mystery, God must reveal God's Self to human beings. In the Old Testament, Revelation usually occurs in the context of a Theophany. Divine Revelation was treated extensively at Vatican II in the Dogmatic Constitution on Divine Revelation, Dei Verbum. Increasingly, theology is being invited to discern what contribution that Divine Revelation makes to a scientifically-informed worldview.\r\rSee “Theophany”, “Dei Verbum”.\r\rFurther Reference:\rCatechism of the Catholic Church, 638-655\rhttp://tinyurl.com/nrt2f6g\rDr. John Haught, Mystery and Promise: A Theology of Revelation\rhttp://tinyurl.com/m95ucez",
                            @"category":@"Systematic"}];
 
     
@@ -2636,11 +2637,7 @@
                            @"twitterDef":@"God's raising the righteous dead into eternal life",
                            @"definition":@"\rThe belief in resurrection developed in post-Exilic Judaism, in part, as an answer the question of the persecution of the righteous. The early Christians believed that Jesus of Nazareth was raised from the dead and thus, demonstrated to be the Messiah and Lord. St. Paul claims that the resurrection of Jesus was the “firstfruits” of the general resurrection that inaugurated the eschaton. Pierre Teilhard de Chardin interpreted the Resurrection as a pre-figuring of the endpoint of human evolution, which he termed the “Omega Point”. See “Jesus of Nazareth”, “Omega Point”.\r\rFurther Reference:\rCatechism of the Catholic Church, 638-655\rhttp://tinyurl.com/nrt2f6g",
                            @"category":@"Systematic"}];
-    
-    [TAWord wordWithDict:@{@"name":@"Divine Revelation",
-                           @"twitterDef":@"the act of God's\rSelf-Communication",
-                           @"definition":@"\rSince God is ultimately Mystery, God must reveal God's Self to human beings. In the Old Testament, Revelation usually occurs in the context of a Theophany. Divine Revelation was treated extensively at Vatican II in the Dogmatic Constitution on Divine Revelation, Dei Verbum. See “Theophany”, “Dei Verbum”.\r\rFurther Reference:\rCatechism of the Catholic Church, 638-655\rhttp://tinyurl.com/nrt2f6g",
-                           @"category":@"Systematic"}];
+
     
     [TAWord wordWithDict:@{@"name":@"Religious Naturalism",
                            @"twitterDef":@"a movement that emphasizes scientific knowledge as a foundational mythos",

@@ -122,7 +122,7 @@
      
      label.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
      [label sizeToFit];
-     return label.frame.size.height * 3.00;
+     return label.frame.size.height * 4.00;
      
     //return 60;
 }
