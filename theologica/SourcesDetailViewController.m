@@ -18,6 +18,25 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+   /*
+    UIScrollView *scroll = self.scrollView;
+    UIImageView *image = self.sourcesPic;
+    scroll.translatesAutoresizingMaskIntoConstraints  = NO;
+    image.translatesAutoresizingMaskIntoConstraints = NO;
+    _sourceName.translatesAutoresizingMaskIntoConstraints = NO;
+    _sourceInformation.translatesAutoresizingMaskIntoConstraints = NO;
+    _sourcesPic.translatesAutoresizingMaskIntoConstraints = NO;
+    _sourceSubtitle.translatesAutoresizingMaskIntoConstraints = NO;
+    
+   
+    NSDictionary *viewsDictionary = NSDictionaryOfVariableBindings(scroll, image);
+    
+    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|[scroll]|" options:0 metrics: 0 views:viewsDictionary]];
+    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|[scroll]|" options:0 metrics: 0 views:viewsDictionary]];
+    
+    [self.scrollView addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|[image]|" options:0 metrics: 0 views:viewsDictionary]];
+    [self.scrollView addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|[image]|" options:0 metrics: 0 views:viewsDictionary]];
+*/
     
     _sourceName.text = _currentSourceDetail.name;
     _sourceSubtitle.text = _currentSourceDetail.twitterDef;
@@ -31,6 +50,9 @@
     self.sourceInformation.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
     
     [self.sourceInformation setTextColor:[UIColor darkGrayColor]];
+   
+    
+    
 /*
     CGRect frame = self.sourcesPic.frame;
     frame.origin = CGPointMake(0,0);
@@ -61,7 +83,7 @@
     //scriptureAttachment2.image = [UIImage imageNamed:@"codex"];
     //scriptureAttachment2.bounds = CGRectMake(0, -45, scriptureAttachment2.image.size.width, scriptureAttachment2.image.size.height);
     
-    NSAttributedString *scriptureString1 = [NSAttributedString attributedStringWithAttachment:scriptureAttachment1];
+    //NSAttributedString *scriptureString1 = [NSAttributedString attributedStringWithAttachment:scriptureAttachment1];
     //NSAttributedString *scriptureString2 = [NSAttributedString attributedStringWithAttachment:scriptureAttachment2];
 
     
