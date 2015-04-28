@@ -188,7 +188,7 @@
     sierraLeone.title = @"Freetown";
     sierraLeone.subtitle = @"Insufficient Health Care";
     sierraLeone.image = [UIImage imageNamed:@"sierra"];
-    sierraLeone.information = @"\rFreetown in Sierra Leone was the locus of an Ebola epidemic in 2014. The city's and larger country's health care infrastructure was devastated by the civil war from 1991-2002.\r\rWikipedia, “Sierra Leone”\rhttp://tinyurl.com/m7ql8\r\rCoordinates: 8.4844, -13.2344";
+    sierraLeone.information = @"\rFreetown in Sierra Leone was the locus of an Ebola epidemic in 2014. The city's and larger country's health care infrastructure was devastated by the civil war from 1991-2002.\r\rWikipedia, “Sierra Leone”\rhttp://tinyurl.com/m7ql8\r\rDonate to Catholic Relief Services\rhttp://www.crs.org/donate/\r\rCoordinates: 8.4844, -13.2344";
     
     SocialPins *camden = [[SocialPins alloc] init];
     camden.coordinate = CLLocationCoordinate2DMake(39.9400, -75.1050);
@@ -201,21 +201,21 @@
     atlantic.title = @"The Atlantic Ocean";
     atlantic.subtitle = @"Rising Water Levels";
     atlantic.image = [UIImage imageNamed:@"ocean"]; 
-    atlantic.information = @"\rThe Atlantic Ocean is the 2nd largest ocean in the world, after the Pacific Ocean. It includes the Gulf Stream and North Atlantic Drift currents. These waterways could be adversely affected by increasing levels of fresh water, causing acccelerated sea level rise, hypoxia, and desalinization.\r\rFurther Reference:\rWikipedia, “Atlantic Ocean”\rhttp://tinyurl.com/sea3p\r\rCoordinates: 38.4667, -28.4000";
+    atlantic.information = @"\rThe Atlantic Ocean is the 2nd largest ocean in the world, after the Pacific Ocean. It includes the Gulf Stream and North Atlantic Drift currents. These waterways could be adversely affected by increasing levels of fresh water, causing acccelerated sea level rise, hypoxia, and desalinization.\r\rFurther Reference:\rWikipedia, “Atlantic Ocean”\rhttp://tinyurl.com/sea3p\r\rDonate to Catholic Relief Services\rhttp://www.crs.org/donate/\r\rCoordinates: 38.4667, -28.4000";
     
     SocialPins *philippines = [[SocialPins alloc] init];
     philippines.coordinate = CLLocationCoordinate2DMake(13.1333, 123.7333);
     philippines.title = @"Legazpi City";
     philippines.subtitle = @"Carbon Mining Coastal Destruction";
     philippines.image = [UIImage imageNamed:@"legazpi"];
-    philippines.information = @"The coast of Legazpi City, Philippines, is suffering from the effects of carbon mining.";
+    philippines.information = @"\rThe coast of Legazpi City, Philippines, is suffering from the effects of carbon mining.\r\rDonate to Catholic Relief Services\rhttp://www.crs.org/donate/\r\rCoordinates: 13.1333, 123.7333";
     
     SocialPins *palestine = [[SocialPins alloc] init];
     palestine.coordinate = CLLocationCoordinate2DMake(31.6253, 35.1453);
     palestine.title = @"Palestine";
     palestine.image = [UIImage imageNamed:@"palestine"];
     palestine.subtitle = @"Occupied Territory";
-    palestine.information = @"\rCoordinates: 31.6253, 35.1453";
+    palestine.information = @"\rDonate to Catholic Relief Services\rhttp://www.crs.org/donate/\r\rCoordinates: 31.6253, 35.1453";
     
     SocialPins *israel = [[SocialPins alloc] init];
     israel.coordinate = CLLocationCoordinate2DMake(31.0000, 35.0000);
@@ -322,7 +322,7 @@
     uganda.title = @"Uganda";
     uganda.subtitle = @"Tribal Warfare & Water Scarcity";
     uganda.image = [UIImage imageNamed:@"uganda"];
-    uganda.information = @"\rAs part of Sub-Saharan Africa, Uganda has been the location of severe Water Scarcity. This situation has only been compounded by the various political crises since the country gained independence from \r\rCoordinates: 1.0667, 31.8833\r\rFurther Reference:\rUNDP, Uganda http://tinyurl.com/kqrstkw\r\rWikipedia, “Uganda” http://tinyurl.com/jmaev";
+    uganda.information = @"\rAs part of Sub-Saharan Africa, Uganda has been the location of severe Water Scarcity. This situation has only been compounded by the various political crises since the country gained independence from \r\rCoordinates: 1.0667, 31.8833\r\rFurther Reference:\rUNDP, Uganda http://tinyurl.com/kqrstkw\r\rWikipedia, “Uganda” http://tinyurl.com/jmaev\r\rDonate to Catholic Relief Services\rhttp://www.crs.org/donate/\r\rCoordinates: 1.0667, 31.8833";
     
     SocialPins *asheville = [[SocialPins alloc] init];
     asheville.coordinate = CLLocationCoordinate2DMake(35.5800, -82.5558);
@@ -990,7 +990,7 @@ MapDetailViewController.currentWordDetail = word;
                                          sierraLeone.title = @"Freetown";
                                          sierraLeone.subtitle = @"Insufficient Health Care";
                                          sierraLeone.image = [UIImage imageNamed:@"sierra"];
-                                         sierraLeone.information = @"\rFreetown in Sierra Leone was the locus of an Ebola epidemic in 2014. The city's and larger country's health care infrastructure was devastated by the civil war from 1991-2002.\r\rWikipedia, “Sierra Leone”\rhttp://tinyurl.com/m7ql8\r\rCoordinates: 8.4844, -13.2344";
+                                         sierraLeone.information = @"\rFreetown in Sierra Leone was the locus of an Ebola epidemic in 2014. The city's and larger country's health care infrastructure was devastated by the civil war from 1991-2002.\r\rWikipedia, “Sierra Leone”\rhttp://tinyurl.com/m7ql8\r\rDonate to Catholic Relief Services\rhttp://www.crs.org/donate/\r\rCoordinates: 8.4844, -13.2344";
 
                                      
                                      SocialPins *camden = [[SocialPins alloc] init];
@@ -1010,6 +1010,7 @@ MapDetailViewController.currentWordDetail = word;
                                      palestine.title = @"Palestine";
                                      palestine.image = [UIImage imageNamed:@"palestine"];
                                      palestine.subtitle = @"Occupied Territory";
+                                     palestine.information = @"Donate to Catholic Relief Services\rhttp://www.crs.org/donate/\r\rCoordinates: 31.6253, 35.1453";
                                      
                                      SocialPins *israel = [[SocialPins alloc] init];
                                      israel.coordinate = CLLocationCoordinate2DMake(31.0000, 35.0000);
@@ -1023,7 +1024,7 @@ MapDetailViewController.currentWordDetail = word;
                                      uganda.title = @"Uganda";
                                      uganda.subtitle = @"Tribal Warfare & Water Scarcity";
                                      uganda.image = [UIImage imageNamed:@"uganda"];
-                                     uganda.information = @"\rAs part of Sub-Saharan Africa, Uganda has been the location of severe Water Scarcity. This situation has only been compounded by the various political crises since the country gained independence from \r\rCoordinates: 1.0667, 31.8833\r\rFurther Reference:\rUNDP, Uganda http://tinyurl.com/kqrstkw\r\rWikipedia, “Uganda” http://tinyurl.com/jmaev";
+                                     uganda.information = @"\rAs part of Sub-Saharan Africa, Uganda has been the location of severe Water Scarcity. This situation has only been compounded by the various political crises since the country gained independence from \r\rCoordinates: 1.0667, 31.8833\r\rFurther Reference:\rUNDP, Uganda http://tinyurl.com/kqrstkw\r\rWikipedia, “Uganda” http://tinyurl.com/jmaev\r\rDonate to Catholic Relief Services\rhttp://www.crs.org/donate/\r\rCoordinates: 1.0667, 31.8833";
                                      
                                      SocialPins *asheville = [[SocialPins alloc] init];
                                      asheville.coordinate = CLLocationCoordinate2DMake(35.5800, -82.5558);
@@ -1315,14 +1316,14 @@ MapDetailViewController.currentWordDetail = word;
                                    uganda.title = @"Uganda";
                                    uganda.subtitle = @"Tribal Warfare & Water Scarcity";
                                    uganda.image = [UIImage imageNamed:@"uganda"];
-                                   uganda.information = @"\rAs part of Sub-Saharan Africa, Uganda has been the location of severe Water Scarcity. This situation has only been compounded by the various political crises since the country gained independence from \r\rCoordinates: 1.0667, 31.8833\r\rFurther Reference:\rUNDP, Uganda http://tinyurl.com/kqrstkw\r\rWikipedia, “Uganda” http://tinyurl.com/jmaev";
+                                   uganda.information = @"\rAs part of Sub-Saharan Africa, Uganda has been the location of severe Water Scarcity. This situation has only been compounded by the various political crises since the country gained independence from \r\rCoordinates: 1.0667, 31.8833\r\rFurther Reference:\rUNDP, Uganda http://tinyurl.com/kqrstkw\r\rWikipedia, “Uganda” http://tinyurl.com/jmaev\r\rDonate to Catholic Relief Services\rhttp://www.crs.org/donate/\r\rCoordinates: 1.0667, 31.8833";
                                    
                                    SocialPins *philippines = [[SocialPins alloc] init];
                                    philippines.coordinate = CLLocationCoordinate2DMake(13.1333, 123.7333);
                                    philippines.title = @"Legazpi City";
                                    philippines.subtitle = @"Carbon Mining Coastal Destruction";
                                    philippines.image = [UIImage imageNamed:@"legazpi"];
-                                   philippines.information = @"The coast of Legazpi City, Philippines, is suffering from the effects of carbon mining.";
+                                   philippines.information = @"\rThe coast of Legazpi City, Philippines, is suffering from the effects of carbon mining.\r\rDonate to Catholic Relief Services\rhttp://www.crs.org/donate/\r\rCoordinates:13.1333.123.7333";
                                    
                                    SocialPins *asheville = [[SocialPins alloc] init];
                                    asheville.coordinate = CLLocationCoordinate2DMake(35.5800, -82.5558);
