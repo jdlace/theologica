@@ -419,8 +419,11 @@
                                     <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="edO-tb-A2K" userLabel="Content View">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="700"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" alpha="0.14999999999999969" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="3menCircle" translatesAutoresizingMaskIntoConstraints="NO" id="B9P-9X-77s">
+                                            <imageView userInteractionEnabled="NO" alpha="0.14999999999999969" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3menCircle" translatesAutoresizingMaskIntoConstraints="NO" id="B9P-9X-77s">
                                                 <rect key="frame" x="0.0" y="64" width="320" height="125"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="125" id="pdX-b8-L6o"/>
+                                                </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JTp-ch-Whd">
                                                 <rect key="frame" x="13" y="149" width="308" height="21"/>
@@ -458,7 +461,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="edO-tb-A2K" secondAttribute="width" id="ARf-sw-rze"/>
                                     <constraint firstAttribute="width" constant="320" id="HdL-hu-fbv"/>
-                                    <constraint firstItem="edO-tb-A2K" firstAttribute="height" secondItem="njt-xU-EuX" secondAttribute="height" id="pf7-CR-Bxt"/>
+                                    <constraint firstItem="edO-tb-A2K" firstAttribute="height" secondItem="njt-xU-EuX" secondAttribute="height" constant="132" id="pf7-CR-Bxt"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
