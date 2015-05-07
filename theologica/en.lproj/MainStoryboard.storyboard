@@ -575,13 +575,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="njt-xU-EuX">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="njt-xU-EuX">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="edO-tb-A2K" userLabel="Content View">
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="edO-tb-A2K" userLabel="Content View">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="732"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" alpha="0.14999999999999969" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="3menCircle" translatesAutoresizingMaskIntoConstraints="NO" id="B9P-9X-77s">
+                                            <imageView userInteractionEnabled="NO" alpha="0.14999999999999969" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="3menCircle" translatesAutoresizingMaskIntoConstraints="NO" id="B9P-9X-77s">
                                                 <rect key="frame" x="0.0" y="64" width="320" height="125"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JTp-ch-Whd">
@@ -590,7 +590,7 @@
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textView autoresizesSubviews="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" scrollEnabled="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="ccI-OC-gVd">
+                                            <textView autoresizesSubviews="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="ccI-OC-gVd">
                                                 <rect key="frame" x="13" y="197" width="304" height="353"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -610,6 +610,7 @@
                                         <constraints>
                                             <constraint firstItem="ccI-OC-gVd" firstAttribute="leading" secondItem="edO-tb-A2K" secondAttribute="leading" constant="13" id="2e5-kX-JSe"/>
                                             <constraint firstAttribute="trailing" secondItem="ccI-OC-gVd" secondAttribute="trailing" constant="3" id="Cl5-jg-OMo"/>
+                                            <constraint firstItem="ccI-OC-gVd" firstAttribute="top" secondItem="edO-tb-A2K" secondAttribute="top" constant="197" id="ci7-7w-u0L"/>
                                             <constraint firstItem="B9P-9X-77s" firstAttribute="top" secondItem="edO-tb-A2K" secondAttribute="top" constant="64" id="fWE-e9-h9k"/>
                                             <constraint firstAttribute="centerX" secondItem="B9P-9X-77s" secondAttribute="centerX" id="gRd-p7-Qx2"/>
                                             <constraint firstAttribute="width" secondItem="B9P-9X-77s" secondAttribute="width" id="l2c-XV-CtO"/>
