@@ -591,7 +591,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView autoresizesSubviews="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" scrollEnabled="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="ccI-OC-gVd">
-                                                <rect key="frame" x="13" y="197" width="304" height="353"/>
+                                                <rect key="frame" x="8" y="197" width="304" height="353"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -608,11 +608,11 @@
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstItem="ccI-OC-gVd" firstAttribute="leading" secondItem="edO-tb-A2K" secondAttribute="leading" constant="13" id="2e5-kX-JSe"/>
-                                            <constraint firstAttribute="trailing" secondItem="ccI-OC-gVd" secondAttribute="trailing" constant="3" id="Cl5-jg-OMo"/>
-                                            <constraint firstItem="ccI-OC-gVd" firstAttribute="top" secondItem="edO-tb-A2K" secondAttribute="top" constant="197" id="ci7-7w-u0L"/>
+                                            <constraint firstItem="ccI-OC-gVd" firstAttribute="leading" secondItem="edO-tb-A2K" secondAttribute="leading" constant="8" id="2e5-kX-JSe"/>
+                                            <constraint firstAttribute="trailing" secondItem="ccI-OC-gVd" secondAttribute="trailing" constant="8" id="Cl5-jg-OMo"/>
                                             <constraint firstItem="B9P-9X-77s" firstAttribute="top" secondItem="edO-tb-A2K" secondAttribute="top" constant="64" id="fWE-e9-h9k"/>
                                             <constraint firstAttribute="centerX" secondItem="B9P-9X-77s" secondAttribute="centerX" id="gRd-p7-Qx2"/>
+                                            <constraint firstItem="ccI-OC-gVd" firstAttribute="top" secondItem="edO-tb-A2K" secondAttribute="top" constant="197" id="iDz-Oq-Oxy"/>
                                             <constraint firstAttribute="width" secondItem="B9P-9X-77s" secondAttribute="width" id="l2c-XV-CtO"/>
                                         </constraints>
                                     </view>
@@ -928,7 +928,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J46-eX-ikX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-998" y="-148.99999999999994"/>
+            <point key="canvasLocation" x="-1005" y="-150"/>
         </scene>
         <!--Saved-->
         <scene sceneID="F4P-2m-AMn">
