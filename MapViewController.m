@@ -20,14 +20,6 @@
 
 @implementation MapViewController
 
-/*
--(void) viewWillAppear:(BOOL)animated
-{
-    self.originalCamera.altitude = self.mapView.camera.altitude;
-    //BiblicalPins *biblicalPin = (BiblicalPins *) self.mapView.annotations;
-    [self.mapView setCamera:self.originalCamera animated:YES];
-}
-*/
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -280,7 +272,7 @@
     vienne.title = @"Vienne";
     vienne.subtitle = @"Ecumenical Council XV";
     vienne.image = [UIImage imageNamed:@"vienne"]; 
-    vienne.information = @"\rCoordinates:\r46.5000, 0.5000";
+    vienne.information = @"\rThe Council of Vienne was held from 1311 to 1312 and is counted as the fifteenth ecumenical council by the Catholic Church. It was created by the papal bull of Clement V, Faciens Misericordiam, which called for an ecumenical council to create a new Crusade. The bull also established papal commissions to deal with charges against the Knights Templar. The Council also created Chairs of Hebrew, Aramaic, and Greek at the University of Paris. See “Councils” section in the Home tab.\r\rFurther Reference:\rWikipedia, “Council of Vienne”\rhttp://tinyurl.com/ldrffc7\r\rCoordinates:\r46.5000, 0.5000";
     
     HistoricalPins *chalcedon = [[HistoricalPins alloc] init];
     chalcedon.coordinate = CLLocationCoordinate2DMake(40.9833, 29.0333);
@@ -338,29 +330,6 @@
     
     [self.mapView addAnnotations:annotations];
 
-    
-    /*
-    //Array to store multiple annotations
-    //Create one instance of Bible Pins to use for other annotations - from Lynda.com
-    
-    NSMutableArray *annotations = [[NSMutableArray alloc] init];
-    CLLocationCoordinate2D location;
-    BiblicalPins *biblicalPin;
-    
-    //Annotations
-    location.latitude = 41.9000;
-    location.longitude = 12.5000;
-    biblicalPin = [[BiblicalPins alloc] init];
-    [biblicalPin setCoordinate: location];
-    biblicalPin.title = @"Jerusalem";
-    biblicalPin.subtitle = @"The City of David. According to 2 Samuel 24:24, David purchased this city from the Jebusites and then moved his captial from Hebron to here.";
-    [annotations addObject:biblicalPin];
-    
-    
-    [self.mapView addAnnotations:annotations];
-
-    */
-
 }
 
 
@@ -383,8 +352,6 @@
 
 - (MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id <MKAnnotation>)annotation
 {
-    //MKAnnotationView  *returnedAnnotationView = nil; //from MapCallouts
-    
     // If it's the user location, just return nil.
     if ([annotation isKindOfClass:[MKUserLocation class]])
         {
@@ -396,8 +363,6 @@
     if ([annotation isKindOfClass:[BiblicalPins class]])
         {
         // Try to dequeue an existing pin view first.
-        
-        //from MapCallouts sample - returnedAnnotationView = [BiblicalPins createViewAnnotationForMapView: self.mapView annotation:annotation];
         
         MKPinAnnotationView *pinView = (MKPinAnnotationView*)[mapView dequeueReusableAnnotationViewWithIdentifier:@"CustomPinAnnotationView"];
         if (!pinView)
@@ -461,71 +426,16 @@
             
             pinView.annotation = annotation;
             return pinView;
-            
-        }
-   
-
-    
+            }
     return nil;
     
 }
 
 
+//Creates a custom callout with the pin's detailed information
 
-
-//This method creates a custom alert callout with the pin's detailed information - need to work on this.
 -(void)mapView:(MKMapView *)mapView annotationView:(MKAnnotationView *)view calloutAccessoryControlTapped:(UIControl *)control
 {
-    
-    //id <MKAnnotation> annotation = [view annotation];
-
-    
-    //annotation - works
-    //BiblicalPins *biblicalPin = (BiblicalPins *) view.annotation;
-    
-    //deselect button selected - works
-    //[self.mapView deselectAnnotation:biblicalPin animated:YES];
-        
-  
-    
-    //UIAlertController *alert = [UIAlertController alertControllerWithTitle: biblicalPin.title message:biblicalPin.subtitle preferredStyle:(UIAlertControllerStyleAlert)];
-    
-    //UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
-                                                          //handler:^(UIAlertAction * action) {}];
-    
-    //[alert addAction:defaultAction];
-    //[self presentViewController:alert animated:YES completion:nil];
-    
-    
-    //--------------------This was Jim's original solution for a Map detail view----------------------------
-/*
-    BiblicalPins *biblicalPin = (BiblicalPins *) view.annotation;
-    
-    [self.mapView deselectAnnotation:biblicalPin animated:YES];
-
-    
-    
-        WordDetailViewController *detailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"WordDetailViewController"];
-    
-    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Map"
-                                                                   style:UIBarButtonItemStylePlain target:nil action:nil];
-    self.navigationItem.backBarButtonItem = backButton;
-    
-    Word *word = [[Word alloc] init];
-    word.name = biblicalPin.title;
-    word.definition = biblicalPin.information;
-    word.twitterDef = biblicalPin.subtitle; 
-    
-    detailViewController.currentWordDetail = word;
-
-    
-    [self.navigationController pushViewController:detailViewController animated:YES];
-*/
-
- 
-
-    //----------------------  This implementation uses MKMapSnapshotter--------------------------------------------------
- 
     BiblicalPins *biblicalPin = (BiblicalPins *) view.annotation;
     
     [self.mapView deselectAnnotation:biblicalPin animated:YES];
@@ -545,75 +455,10 @@
     word.image = biblicalPin.image;
     
     mapDetail.currentWordDetail = word; 
-    /*
-    MKMapCamera  *myCamera = [MKMapCamera
-                              cameraLookingAtCenterCoordinate:biblicalPin.coordinate
-                                            fromEyeCoordinate:biblicalPin.coordinate
-                                            eyeAltitude:2000];
-    
-    mapView.camera = myCamera;
-    
-    MKMapSnapshotOptions *options = [[MKMapSnapshotOptions alloc] init];
-    options.size = CGSizeMake(320, 90);
-    //options.camera = myCamera;
-    options.scale = [[UIScreen mainScreen] scale]; // iOS only
-    options.region = self.mapView.region;
-    options.mapType = MKMapTypeStandard;
-    
-    MKMapSnapshotter *snapshotter =
-    [[MKMapSnapshotter alloc] initWithOptions:options];
-    [snapshotter startWithCompletionHandler:^(MKMapSnapshot *snapshot, NSError *e)
-     {
-     //if (e) ...;// Handle errors
-     
-     UIImage *image = snapshot.image;
-     
-     mapDetail.imageView.image = image;
-     mapDetail.currentWordDetail = word;
-     mapDetail.locationLabel.text = biblicalPin.title;
-     mapDetail.locationDescription.text = biblicalPin.information;
-    
-     }];
-     */
-    //mapDetail.imageView.image = biblicalPin.image;
-    //mapDetail.currentWordDetail = word;
-    //mapDetail.locationLabel.text = biblicalPin.title;
-    //mapDetail.locationDescription.text = biblicalPin.information;
+   
     
     [self.navigationController pushViewController:mapDetail animated:YES];
 }
-
-    //------------------A solution without a MKMapSnapShotter that just sets the label and textView properties on the MapDetailVC goes here-------------------------------------
-
-/*
-BiblicalPins *biblicalPin = (BiblicalPins *) view.annotation;
-
-[self.mapView deselectAnnotation:biblicalPin animated:YES];
-
-
-
-WordDetailViewController *MapDetailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"MapDetailViewController"];
-
-UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Map"
-                                                               style:UIBarButtonItemStylePlain target:nil action:nil];
-self.navigationItem.backBarButtonItem = backButton;
-
-Word *word = [[Word alloc] init];
-word.name = biblicalPin.title;
-word.definition = biblicalPin.information;
-word.twitterDef = biblicalPin.subtitle;
-
-MapDetailViewController.currentWordDetail = word;
-
-
-[self.navigationController pushViewController:MapDetailViewController animated:YES];
-
-
-*/
-
-
-
-  //
 
 
 
@@ -909,7 +754,7 @@ MapDetailViewController.currentWordDetail = word;
                                    vienne.title = @"Vienne";
                                    vienne.subtitle = @"Ecumenical Council XV";
                                    vienne.image = [UIImage imageNamed:@"vienne"];
-                                   vienne.information = @"\rCoordinates:\r46.5000, 0.5000";
+                                   vienne.information = @"\rThe Council of Vienne was held from 1311 to 1312 and is counted as the fifteenth ecumenical council by the Catholic Church. It was created by the papal bull of Clement V, Faciens Misericordiam, which called for an ecumenical council to create a new Crusade. The bull also established papal commissions to deal with charges against the Knights Templar. The Council also created Chairs of Hebrew, Aramaic, and Greek at the University of Paris. See “Councils” section in the Home tab.\r\rFurther Reference:\rWikipedia, “Council of Vienne”\rhttp://tinyurl.com/ldrffc7\r\rCoordinates:\r46.5000, 0.5000";
                                    
                                    HistoricalPins *chalcedon = [[HistoricalPins alloc] init];
                                    chalcedon.coordinate = CLLocationCoordinate2DMake(40.9833, 29.0333);
@@ -1273,7 +1118,7 @@ MapDetailViewController.currentWordDetail = word;
                                    vienne.title = @"Vienne";
                                    vienne.subtitle = @"Ecumenical Council XV";
                                    vienne.image = [UIImage imageNamed:@"vienne"];
-                                   vienne.information = @"\rCoordinates:\r46.5000, 0.5000";
+                                   vienne.information = @"\rThe Council of Vienne was held from 1311 to 1312 and is counted as the fifteenth ecumenical council by the Catholic Church. It was created by the papal bull of Clement V, Faciens Misericordiam, which called for an ecumenical council to create a new Crusade. The bull also established papal commissions to deal with charges against the Knights Templar. The Council also created Chairs of Hebrew, Aramaic, and Greek at the University of Paris. See “Councils” section in the Home tab.\r\rFurther Reference:\rWikipedia, “Council of Vienne”\rhttp://tinyurl.com/ldrffc7\r\rCoordinates:\r46.5000, 0.5000";
                                    
                                    HistoricalPins *chalcedon = [[HistoricalPins alloc] init];
                                    chalcedon.coordinate = CLLocationCoordinate2DMake(40.9833, 29.0333);
