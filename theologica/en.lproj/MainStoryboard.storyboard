@@ -4,6 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -578,10 +579,10 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="njt-xU-EuX">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="edO-tb-A2K" userLabel="Content View">
+                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="edO-tb-A2K" userLabel="Content View">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="732"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" alpha="0.14999999999999969" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="3menCircle" translatesAutoresizingMaskIntoConstraints="NO" id="B9P-9X-77s">
+                                            <imageView userInteractionEnabled="NO" alpha="0.14999999999999969" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="3menCircle" translatesAutoresizingMaskIntoConstraints="NO" id="B9P-9X-77s">
                                                 <rect key="frame" x="0.0" y="64" width="320" height="125"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JTp-ch-Whd">
@@ -591,7 +592,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView autoresizesSubviews="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" scrollEnabled="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="ccI-OC-gVd">
-                                                <rect key="frame" x="8" y="197" width="304" height="353"/>
+                                                <rect key="frame" x="8" y="210" width="304" height="307"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -609,10 +610,11 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="ccI-OC-gVd" firstAttribute="leading" secondItem="edO-tb-A2K" secondAttribute="leading" constant="8" id="2e5-kX-JSe"/>
+                                            <constraint firstItem="B9P-9X-77s" firstAttribute="top" secondItem="edO-tb-A2K" secondAttribute="top" constant="64" id="6ak-vL-Ivo"/>
                                             <constraint firstAttribute="trailing" secondItem="ccI-OC-gVd" secondAttribute="trailing" constant="8" id="Cl5-jg-OMo"/>
-                                            <constraint firstItem="B9P-9X-77s" firstAttribute="top" secondItem="edO-tb-A2K" secondAttribute="top" constant="64" id="fWE-e9-h9k"/>
+                                            <constraint firstAttribute="width" secondItem="B9P-9X-77s" secondAttribute="height" multiplier="64:25" id="eGP-Lp-wkH"/>
                                             <constraint firstAttribute="centerX" secondItem="B9P-9X-77s" secondAttribute="centerX" id="gRd-p7-Qx2"/>
-                                            <constraint firstItem="ccI-OC-gVd" firstAttribute="top" secondItem="edO-tb-A2K" secondAttribute="top" constant="197" id="iDz-Oq-Oxy"/>
+                                            <constraint firstItem="ccI-OC-gVd" firstAttribute="top" secondItem="edO-tb-A2K" secondAttribute="top" constant="210" id="iDz-Oq-Oxy"/>
                                             <constraint firstAttribute="width" secondItem="B9P-9X-77s" secondAttribute="width" id="l2c-XV-CtO"/>
                                         </constraints>
                                     </view>
