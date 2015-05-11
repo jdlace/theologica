@@ -576,30 +576,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="njt-xU-EuX">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="njt-xU-EuX">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="edO-tb-A2K" userLabel="Content View">
+                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="edO-tb-A2K" userLabel="Content View">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="732"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" alpha="0.14999999999999969" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="3menCircle" translatesAutoresizingMaskIntoConstraints="NO" id="B9P-9X-77s">
                                                 <rect key="frame" x="0.0" y="64" width="320" height="125"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JTp-ch-Whd">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JTp-ch-Whd">
                                                 <rect key="frame" x="17" y="149" width="303" height="21"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView autoresizesSubviews="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" scrollEnabled="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="ccI-OC-gVd">
-                                                <rect key="frame" x="8" y="196" width="304" height="346"/>
+                                                <rect key="frame" x="8" y="188" width="304" height="332"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                                             </textView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4gF-gh-o1Z">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4gF-gh-o1Z">
                                                 <rect key="frame" x="17" y="103" width="303" height="38"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="32"/>
@@ -611,13 +611,27 @@
                                         <constraints>
                                             <constraint firstItem="ccI-OC-gVd" firstAttribute="leading" secondItem="edO-tb-A2K" secondAttribute="leading" constant="8" id="2e5-kX-JSe"/>
                                             <constraint firstItem="B9P-9X-77s" firstAttribute="top" secondItem="edO-tb-A2K" secondAttribute="top" constant="64" id="6ak-vL-Ivo"/>
+                                            <constraint firstItem="JTp-ch-Whd" firstAttribute="centerX" secondItem="4gF-gh-o1Z" secondAttribute="centerX" id="BGW-6V-28T"/>
                                             <constraint firstAttribute="trailing" secondItem="ccI-OC-gVd" secondAttribute="trailing" constant="8" id="Cl5-jg-OMo"/>
                                             <constraint firstItem="JTp-ch-Whd" firstAttribute="top" secondItem="4gF-gh-o1Z" secondAttribute="bottom" constant="8" id="GYE-1x-Pvz"/>
-                                            <constraint firstItem="ccI-OC-gVd" firstAttribute="top" secondItem="B9P-9X-77s" secondAttribute="bottom" constant="7" id="c68-Oi-ihf"/>
+                                            <constraint firstItem="JTp-ch-Whd" firstAttribute="leading" secondItem="edO-tb-A2K" secondAttribute="leading" constant="17" id="JIt-Tw-WZ1"/>
+                                            <constraint firstItem="JTp-ch-Whd" firstAttribute="top" secondItem="edO-tb-A2K" secondAttribute="top" constant="149" id="Kbf-bm-xrF"/>
+                                            <constraint firstItem="JTp-ch-Whd" firstAttribute="top" secondItem="4gF-gh-o1Z" secondAttribute="bottom" constant="8" symbolic="YES" id="LlY-Td-7Q1"/>
+                                            <constraint firstItem="JTp-ch-Whd" firstAttribute="top" secondItem="4gF-gh-o1Z" secondAttribute="bottom" constant="8" id="QoZ-eq-0hJ"/>
+                                            <constraint firstItem="JTp-ch-Whd" firstAttribute="trailing" secondItem="B9P-9X-77s" secondAttribute="trailing" id="S42-xP-2vL"/>
+                                            <constraint firstItem="JTp-ch-Whd" firstAttribute="trailing" secondItem="4gF-gh-o1Z" secondAttribute="trailing" id="U1Q-Hp-94y"/>
+                                            <constraint firstItem="JTp-ch-Whd" firstAttribute="leading" secondItem="edO-tb-A2K" secondAttribute="leading" constant="17" id="VtD-QP-pIV"/>
+                                            <constraint firstAttribute="trailing" secondItem="JTp-ch-Whd" secondAttribute="trailing" id="Y0L-Pl-MG7"/>
+                                            <constraint firstItem="ccI-OC-gVd" firstAttribute="top" secondItem="B9P-9X-77s" secondAttribute="bottom" constant="-1" id="c68-Oi-ihf"/>
+                                            <constraint firstItem="JTp-ch-Whd" firstAttribute="leading" secondItem="edO-tb-A2K" secondAttribute="leading" constant="17" id="cSc-AP-2zP"/>
                                             <constraint firstAttribute="width" secondItem="B9P-9X-77s" secondAttribute="height" multiplier="64:25" id="eGP-Lp-wkH"/>
                                             <constraint firstAttribute="centerX" secondItem="B9P-9X-77s" secondAttribute="centerX" id="gRd-p7-Qx2"/>
+                                            <constraint firstItem="JTp-ch-Whd" firstAttribute="top" secondItem="edO-tb-A2K" secondAttribute="top" constant="149" id="gi0-EW-Ia4"/>
                                             <constraint firstAttribute="width" secondItem="B9P-9X-77s" secondAttribute="width" id="l2c-XV-CtO"/>
+                                            <constraint firstAttribute="trailing" secondItem="JTp-ch-Whd" secondAttribute="trailing" id="psI-BW-ive"/>
                                             <constraint firstItem="B9P-9X-77s" firstAttribute="top" secondItem="4gF-gh-o1Z" secondAttribute="bottom" constant="-77" id="pup-7t-xTq"/>
+                                            <constraint firstItem="JTp-ch-Whd" firstAttribute="leading" secondItem="4gF-gh-o1Z" secondAttribute="leading" id="uMB-Cj-nsc"/>
+                                            <constraint firstItem="ccI-OC-gVd" firstAttribute="top" secondItem="JTp-ch-Whd" secondAttribute="bottom" constant="18" id="xrL-fC-Utv"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -633,7 +647,7 @@
                             <constraint firstItem="njt-xU-EuX" firstAttribute="top" secondItem="G7i-Tq-RLb" secondAttribute="bottom" constant="-64" id="3LL-Su-Gbb"/>
                             <constraint firstItem="njt-xU-EuX" firstAttribute="leading" secondItem="pW6-Qw-YOG" secondAttribute="leading" id="CR7-ao-H68"/>
                             <constraint firstAttribute="trailing" secondItem="njt-xU-EuX" secondAttribute="trailing" id="K8d-tO-k6t"/>
-                            <constraint firstItem="GKV-Bb-coK" firstAttribute="top" secondItem="njt-xU-EuX" secondAttribute="bottom" constant="-49" id="cdu-Y1-uQO"/>
+                            <constraint firstItem="GKV-Bb-coK" firstAttribute="top" secondItem="njt-xU-EuX" secondAttribute="bottom" constant="8" symbolic="YES" id="cdu-Y1-uQO"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="7IG-X7-kdi"/>
@@ -723,13 +737,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zig-5D-WeL">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zig-5D-WeL">
                                 <rect key="frame" x="0.0" y="65" width="320" height="453"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dJw-hN-JR5">
+                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dJw-hN-JR5">
                                         <rect key="frame" x="0.0" y="-65" width="320" height="518"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" alpha="0.14999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defdetail-1" translatesAutoresizingMaskIntoConstraints="NO" id="uNV-2X-cOG">
+                                            <imageView userInteractionEnabled="NO" alpha="0.14999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="defdetail-1" translatesAutoresizingMaskIntoConstraints="NO" id="uNV-2X-cOG">
                                                 <rect key="frame" x="0.0" y="64" width="320" height="148"/>
                                             </imageView>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="5" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zrc-9h-0bq">
@@ -740,7 +754,7 @@
                                                 <nil key="highlightedColor"/>
                                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                                             </label>
-                                            <textView autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="center" misplaced="YES" scrollEnabled="NO" keyboardDismissMode="onDrag" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="RCD-3l-VQc">
+                                            <textView autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" misplaced="YES" scrollEnabled="NO" keyboardDismissMode="onDrag" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="RCD-3l-VQc">
                                                 <rect key="frame" x="10" y="223" width="300" height="299"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
