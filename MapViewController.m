@@ -279,7 +279,7 @@
     chalcedon.title = @"Chalcedon";
     chalcedon.subtitle = @"Ecumencial Council IV";
     chalcedon.image = [UIImage imageNamed:@"chalcedon"];
-    chalcedon.information = @"Coordinates:\r40.9833, 29.0333";
+    chalcedon.information = @"The Council of Chalcedon was held in A.D. 451 and promulgated what would become the classical Christological definition of Jesus Christ as one person in two natures:\r\r“We, then, following the holy Fathers, all with one consent, teach people to confess one and the same Son, our Lord Jesus Christ, the same perfect in Godhead and also perfect in manhood; truly God and truly man, of a rational soul and body; consubstantial with the Father according to the Godhead, and consubstantial with us according to the Manhood; in all things like unto us, without sin; begotten before all ages of the Father according to the Godhead, and in these latter days, for us and for our salvation, born of the Virgin Mary, the Mother of God, according to the Manhood; one and the same Christ, Son, Lord, only begotten, to be acknowledged in two natures, inconfusedly, unchangeably, indivisibly, inseparably; (ἐν δύο φύσεσιν ἀσυγχύτως, ἀτρέπτως, ἀδιαιρέτως, ἀχωρίστως) the distinction of natures being by no means taken away by the union, but rather the property of each nature being preserved, and concurring in one Person (prosopon) and one Subsistence, not parted or divided into two persons, but one and the same Son, and only begotten God, the Word, the Lord Jesus Christ; as the prophets from the beginning [have declared] concerning Him, and the Lord Jesus Christ Himself has taught us, and the Creed of the holy Fathers has handed down to us.”\r\rCoordinates:\r40.9833, 29.0333";
     
     HistoricalPins *constance = [[HistoricalPins alloc] init];
     constance.coordinate = CLLocationCoordinate2DMake(47.6633, 9.1769);
@@ -293,7 +293,7 @@
     trent.title = @"Trent";
     trent.subtitle = @"Ecumenical Council XIX";
     trent.image = [UIImage imageNamed:@"trent"];
-    trent.information = @"Coordinates:\r46.0667° N, 11.1167° E";
+    trent.information = @"\nThe Council of Trent was in session from 1545 to 1563 in Trento, Italy. It was the most signficant Church Council since Nicea until Vatican II. It was called by Pope Paul III as a response to the Protestant Reformation, and consolidated many elements of Catholic teaching, including Sacraments, Latin as the official language of the Church, and the Breviary. The Tridentine Mass became the ordinary form of the Mass until the developments of Vatican II. See “Councils” section in the Home tab.\r\rFurther Reference:\rWikipedia, “Council of Trent”\rhttp://tinyurl.com/5t586h\r\rCoordinates:\r46.0667° N, 11.1167° E\r\r";
     
     HistoricalPins *florence = [[HistoricalPins alloc] init];
     florence.coordinate = CLLocationCoordinate2DMake(43.7833, 11.2500);
@@ -761,8 +761,7 @@
                                    chalcedon.title = @"Chalcedon";
                                    chalcedon.subtitle = @"Ecumencial Council IV";
                                    chalcedon.image = [UIImage imageNamed:@"chalcedon"];
-
-                                   chalcedon.information = @"Coordinates:\r40.9833, 29.0333";
+                                   chalcedon.information = @"The Council of Chalcedon was held in A.D. 451 and promulgated what would become the classical Christological definition of Jesus Christ as one person in two natures:\r\r“We, then, following the holy Fathers, all with one consent, teach people to confess one and the same Son, our Lord Jesus Christ, the same perfect in Godhead and also perfect in manhood; truly God and truly man, of a rational soul and body; consubstantial with the Father according to the Godhead, and consubstantial with us according to the Manhood; in all things like unto us, without sin; begotten before all ages of the Father according to the Godhead, and in these latter days, for us and for our salvation, born of the Virgin Mary, the Mother of God, according to the Manhood; one and the same Christ, Son, Lord, only begotten, to be acknowledged in two natures, inconfusedly, unchangeably, indivisibly, inseparably; (ἐν δύο φύσεσιν ἀσυγχύτως, ἀτρέπτως, ἀδιαιρέτως, ἀχωρίστως) the distinction of natures being by no means taken away by the union, but rather the property of each nature being preserved, and concurring in one Person (prosopon) and one Subsistence, not parted or divided into two persons, but one and the same Son, and only begotten God, the Word, the Lord Jesus Christ; as the prophets from the beginning [have declared] concerning Him, and the Lord Jesus Christ Himself has taught us, and the Creed of the holy Fathers has handed down to us.”\r\rCoordinates:\r40.9833, 29.0333";
                                    
                                    HistoricalPins *constance = [[HistoricalPins alloc] init];
                                    constance.coordinate = CLLocationCoordinate2DMake(47.6633, 9.1769);
@@ -777,7 +776,7 @@
                                    trent.title = @"Trent";
                                    trent.subtitle = @"Ecumenical Council XIX";
                                    trent.image = [UIImage imageNamed:@"trent"];
-                                   trent.information = @"Coordinates:\r46.0667° N, 11.1167° E";
+                                   trent.information = @"\nThe Council of Trent was in session from 1545 to 1563 in Trento, Italy. It was the most signficant Church Council since Nicea until Vatican II. It was called by Pope Paul III as a response to the Protestant Reformation, and consolidated many elements of Catholic teaching, including Sacraments, Latin as the official language of the Church, and the Breviary. The Tridentine Mass became the ordinary form of the Mass until the developments of Vatican II. See “Councils” section in the Home tab.\r\rFurther Reference:\rWikipedia, “Council of Trent”\rhttp://tinyurl.com/5t586h\r\rCoordinates:\r46.0667° N, 11.1167° E\r\r";
                                    
                                    HistoricalPins *florence = [[HistoricalPins alloc] init];
                                    florence.coordinate = CLLocationCoordinate2DMake(43.7833, 11.2500);
@@ -1126,7 +1125,7 @@
                                    chalcedon.title = @"Chalcedon";
                                    chalcedon.subtitle = @"Ecumencial Council IV";
                                    chalcedon.image = [UIImage imageNamed:@"chalcedon"];
-                                   chalcedon.information = @"Coordinates:\r40.9833, 29.0333";
+                                   chalcedon.information = @"The Council of Chalcedon was held in A.D. 451 and promulgated what would become the classical Christological definition of Jesus Christ as one person in two natures:\r\r“We, then, following the holy Fathers, all with one consent, teach people to confess one and the same Son, our Lord Jesus Christ, the same perfect in Godhead and also perfect in manhood; truly God and truly man, of a rational soul and body; consubstantial with the Father according to the Godhead, and consubstantial with us according to the Manhood; in all things like unto us, without sin; begotten before all ages of the Father according to the Godhead, and in these latter days, for us and for our salvation, born of the Virgin Mary, the Mother of God, according to the Manhood; one and the same Christ, Son, Lord, only begotten, to be acknowledged in two natures, inconfusedly, unchangeably, indivisibly, inseparably; (ἐν δύο φύσεσιν ἀσυγχύτως, ἀτρέπτως, ἀδιαιρέτως, ἀχωρίστως) the distinction of natures being by no means taken away by the union, but rather the property of each nature being preserved, and concurring in one Person (prosopon) and one Subsistence, not parted or divided into two persons, but one and the same Son, and only begotten God, the Word, the Lord Jesus Christ; as the prophets from the beginning [have declared] concerning Him, and the Lord Jesus Christ Himself has taught us, and the Creed of the holy Fathers has handed down to us.”\r\rCoordinates:\r40.9833, 29.0333";
                                    
                                    HistoricalPins *constance = [[HistoricalPins alloc] init];
                                    constance.coordinate = CLLocationCoordinate2DMake(47.6633, 9.1769);
@@ -1140,7 +1139,7 @@
                                    trent.title = @"Trent";
                                    trent.subtitle = @"Ecumenical Council XIX";
                                    trent.image = [UIImage imageNamed:@"trent"];
-                                   trent.information = @"Coordinates:\r46.0667° N, 11.1167° E";
+                                   trent.information = @"\nThe Council of Trent was in session from 1545 to 1563 in Trento, Italy. It was the most signficant Church Council since Nicea until Vatican II. It was called by Pope Paul III as a response to the Protestant Reformation, and consolidated many elements of Catholic teaching, including Sacraments, Latin as the official language of the Church, and the Breviary. The Tridentine Mass became the ordinary form of the Mass until the developments of Vatican II. See “Councils” section in the Home tab.\r\rFurther Reference:\rWikipedia, “Council of Trent”\rhttp://tinyurl.com/5t586h\r\rCoordinates:\r46.0667° N, 11.1167° E\r\r";
                                    
                                    HistoricalPins *florence = [[HistoricalPins alloc] init];
                                    florence.coordinate = CLLocationCoordinate2DMake(43.7833, 11.2500);
