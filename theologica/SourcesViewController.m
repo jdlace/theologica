@@ -197,7 +197,7 @@
         
         Source *technologySource = [[Source alloc] init];
         technologySource.name = @"Technology";
-        technologySource.twitterDef = @"Tools From and For Human Development";
+        technologySource.twitterDef = @"Tools of Human Development";
         technologySource.comment = @"\rSince it coincided with and enabled the evolution of homo sapiens, technology has always influenced and been an expression of human creativity.";
         technologySource.bigPic = [UIImage imageNamed:@"tech1"]; 
         UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Signs"
@@ -226,9 +226,9 @@
     else if ([segue.identifier isEqualToString:@"artsDetail"])
         {
         Source *artsSource = [[Source alloc] init];
-        artsSource.name = @"Politics";
-        artsSource.twitterDef = @"The Affairs of the People";
-        artsSource.comment = @"\rThe regulation of human society is essential to its survival and development.";
+        artsSource.name = @"Arts";
+        artsSource.twitterDef = @"The Heart in Motion";
+        artsSource.comment = @"\rHumans have always expressed their hopes, dreams, fears, frustrations, and questions through the Arts.";
         
         UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Signs"
                                                                        style:UIBarButtonItemStylePlain

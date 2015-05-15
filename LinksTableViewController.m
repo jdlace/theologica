@@ -27,6 +27,8 @@
     NSArray *array = @[@"Magisterium", @"Scripture", @"Fathers", @"Councils", @"Creeds", @"Liturgy", @"Theology", @"Philosophy", @"Science", @"Technology", @"Politics", @"Economy", @"Arts"];
     self.linkKeys = array;
     
+    self.navigationController.navigationBar.backItem.title = @"Reference";
+    
 
     
     [[NSNotificationCenter defaultCenter]
@@ -35,6 +37,9 @@
      name:UIContentSizeCategoryDidChangeNotification
      object:nil];
     
+
+    
+
 
 }
 
@@ -122,7 +127,7 @@
      
      label.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
      [label sizeToFit];
-     return label.frame.size.height * 4.00;
+     return label.frame.size.height * 3.00;
      
     //return 60;
 }
@@ -187,9 +192,7 @@
         NSDictionary *dict = link[indexPath.row];
         webViewController.urlString = dict[@"URL"];
         
-        NSLog(@"dict is %@", dict); 
-                
-        
+        NSLog(@"dict is %@", dict);
         }
 }
 

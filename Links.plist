@@ -105,7 +105,7 @@
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>Vatican News</string>
+			<string>Vatican YouTube</string>
 			<key>URL</key>
 			<string>https://www.youtube.com/user/vatican</string>
 		</dict>
@@ -135,18 +135,6 @@
 			<string>NT Gateway</string>
 			<key>URL</key>
 			<string>http://www.ntgateway.com</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>Hebrew Interlinear OT</string>
-			<key>URL</key>
-			<string>http://biblehub.com/interlinear/genesis/1.htm</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>Greek Interlinear NT</string>
-			<key>URL</key>
-			<string>http://biblehub.com/interlinear/john/1.htm</string>
 		</dict>
 		<dict>
 			<key>Name</key>
@@ -237,13 +225,13 @@
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>Interdisciplinary Encyclopedia of Religion and Science</string>
+			<string>Encyclopedia of Religion and Science</string>
 			<key>URL</key>
 			<string>http://inters.org</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>The Center for Theology and Natural Sciences</string>
+			<string>The Center for Theology and Science</string>
 			<key>URL</key>
 			<string>http://www.ctns.org/index.html</string>
 		</dict>

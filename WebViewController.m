@@ -38,6 +38,12 @@
     
     self.navigationItem.rightBarButtonItems = [[NSArray alloc] initWithObjects:_forward, _back,   nil];
     
+  
+    
+     
+   
+   
+    
 
     
     self.forward.enabled = NO;
