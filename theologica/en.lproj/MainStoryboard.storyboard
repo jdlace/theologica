@@ -267,7 +267,7 @@
                                                     <constraint firstAttribute="height" constant="21" id="G7O-xw-m60"/>
                                                     <constraint firstAttribute="width" constant="85" id="ToB-IT-kHA"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Science" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iNe-0x-IGx">
@@ -275,8 +275,11 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="66" id="9ms-d6-bA4"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                 <nil key="highlightedColor"/>
+                                                <variation key="heightClass=regular" misplaced="YES">
+                                                    <rect key="frame" x="-132" y="220" width="66" height="21"/>
+                                                </variation>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2tC-x0-QIF">
                                                 <rect key="frame" x="119" y="321" width="85" height="85"/>
@@ -481,9 +484,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" alpha="0.099999999999999686" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="525px-fresco_of_a_dominican_by_fra_angelico_001" translatesAutoresizingMaskIntoConstraints="NO" id="vIM-GM-KYg">
-                                <rect key="frame" x="0.0" y="64" width="600" height="545"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Theologica" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wz8-WY-Yfj">
                                 <rect key="frame" x="225" y="72" width="151" height="38"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="32"/>
@@ -516,11 +516,16 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" alpha="0.099999999999999686" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="525px-fresco_of_a_dominican_by_fra_angelico_001" translatesAutoresizingMaskIntoConstraints="NO" id="vIM-GM-KYg">
+                                <rect key="frame" x="0.0" y="64" width="600" height="545"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="EAn-jF-dkG" firstAttribute="top" secondItem="KCd-cx-e4J" secondAttribute="bottom" constant="32" id="3sh-N0-4RA"/>
-                            <constraint firstItem="wz8-WY-Yfj" firstAttribute="top" secondItem="cYF-8e-WUs" secondAttribute="bottom" constant="8" id="5Jb-gl-ct5"/>
+                            <constraint firstItem="wz8-WY-Yfj" firstAttribute="top" secondItem="cYF-8e-WUs" secondAttribute="bottom" constant="8" id="5Jb-gl-ct5">
+                                <variation key="heightClass=regular" constant="20"/>
+                            </constraint>
                             <constraint firstItem="EAj-eD-b8G" firstAttribute="top" secondItem="wz8-WY-Yfj" secondAttribute="bottom" constant="-1" id="E3Z-Vj-exc"/>
                             <constraint firstItem="FQ0-oX-QgC" firstAttribute="top" secondItem="EAj-eD-b8G" secondAttribute="bottom" constant="-1" id="EIh-fe-HBY"/>
                             <constraint firstItem="EAj-eD-b8G" firstAttribute="centerX" secondItem="FQ0-oX-QgC" secondAttribute="centerX" constant="-0.5" id="Ftb-O6-p5e"/>
@@ -781,15 +786,12 @@
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
-                                                <variation key="heightClass=regular" ambiguous="YES" misplaced="YES">
+                                                <variation key="heightClass=regular" misplaced="YES">
                                                     <rect key="frame" x="10" y="220" width="300" height="320"/>
                                                 </variation>
                                             </textView>
                                             <imageView userInteractionEnabled="NO" alpha="0.14999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="defdetail-1" translatesAutoresizingMaskIntoConstraints="NO" id="uNV-2X-cOG">
                                                 <rect key="frame" x="0.0" y="65" width="320" height="148"/>
-                                                <variation key="heightClass=regular" ambiguous="YES">
-                                                    <rect key="frame" x="0.0" y="64" width="320" height="148"/>
-                                                </variation>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -813,7 +815,7 @@
                                             </constraint>
                                             <constraint firstAttribute="width" secondItem="uNV-2X-cOG" secondAttribute="height" multiplier="80:37" id="tnj-fl-Ehs"/>
                                         </constraints>
-                                        <variation key="heightClass=regular" ambiguous="YES" misplaced="YES">
+                                        <variation key="heightClass=regular" misplaced="YES">
                                             <rect key="frame" x="0.0" y="-63" width="320" height="586"/>
                                         </variation>
                                     </view>
@@ -826,7 +828,7 @@
                                         <variation key="heightClass=regular" constant="63"/>
                                     </constraint>
                                 </constraints>
-                                <variation key="heightClass=regular" ambiguous="YES" misplaced="YES">
+                                <variation key="heightClass=regular" misplaced="YES">
                                     <rect key="frame" x="0.0" y="65" width="320" height="523"/>
                                 </variation>
                             </scrollView>

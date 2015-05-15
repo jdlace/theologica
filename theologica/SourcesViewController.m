@@ -226,7 +226,7 @@
     else if ([segue.identifier isEqualToString:@"artsDetail"])
         {
         Source *artsSource = [[Source alloc] init];
-        artsSource.name = @"Arts";
+        artsSource.name = @"The Arts";
         artsSource.twitterDef = @"The Heart in Motion";
         artsSource.comment = @"\rHumans have always expressed their hopes, dreams, fears, frustrations, and questions through the Arts.";
         

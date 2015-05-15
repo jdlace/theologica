@@ -272,7 +272,7 @@
     vienne.title = @"Vienne";
     vienne.subtitle = @"Ecumenical Council XV";
     vienne.image = [UIImage imageNamed:@"vienne"]; 
-    vienne.information = @"\rThe Council of Vienne was held from 1311 to 1312 and is counted as the fifteenth ecumenical council by the Catholic Church. It was created by the papal bull of Clement V, Faciens Misericordiam, which called for an ecumenical council to create a new Crusade. The bull also established papal commissions to deal with charges against the Knights Templar. The Council also created Chairs of Hebrew, Aramaic, and Greek at the University of Paris. See “Councils” section in the Home tab.\r\rFurther Reference:\rWikipedia, “Council of Vienne”\rhttp://tinyurl.com/ldrffc7\r\rCoordinates:\r46.5000, 0.5000";
+    vienne.information = @"\rThe Council of Vienne was held from 1311 to 1312 and is counted as the fifteenth ecumenical council by the Catholic Church. It was created by the papal bull of Clement V, “Faciens Misericordiam”, which called for an ecumenical council to create a new Crusade. The bull also established papal commissions to deal with charges against the Knights Templar. The Council also created Chairs of Hebrew, Aramaic, and Greek at the University of Paris. See “Councils” section in the Home tab.\r\rFurther Reference:\rWikipedia, “Council of Vienne”\rhttp://tinyurl.com/ldrffc7\r\rCoordinates:\r46.5000, 0.5000";
     
     HistoricalPins *chalcedon = [[HistoricalPins alloc] init];
     chalcedon.coordinate = CLLocationCoordinate2DMake(40.9833, 29.0333);
@@ -323,10 +323,17 @@
     asheville.image = [UIImage imageNamed:@"StEugene"];
     asheville.image = [UIImage imageNamed:@"StEugene"];
     asheville.information = @"\rSt. Eugene Church in Asheville, North Carolina, recently commited to using 100% renewable energy in the form of solar panels. These will sigificantly reduce its monthly energy bill.";
+    
+    SocialPins *burma = [[SocialPins alloc] init];
+    burma.coordinate = CLLocationCoordinate2DMake(22.0000,  96.0000);
+    burma.title = @"Burma";
+    burma.subtitle = @"Religous Freedom Violations";
+    burma.image = [UIImage imageNamed:@"Burma"];
+    burma.information = @"\rBurma was categorized as a Tier 1 violator of religious freedom by the United States Commission on International Religious Freedom in 2015.\r\rFurther Reference:\rUSCIRF, Annual Report 2015\rhttp://tinyurl.com/m34ndev";
 
 
     
-    NSArray *annotations = [NSArray arrayWithObjects:jerusalem, bethEl, ephesus, corinth, dan, temple, hazor, nicea, greenland, greatbr, philippines, rome, nazareth, capernaum, sierraLeone, camden, atlantic, rome2, constantinople, palestine, israel, alexandria, thessalonica, philippi, antioch, bethlehem, ramah, hebron, shiloh, lyon, vienne, chalcedon, constance, trent, florence, lateran, uganda, colossae, sepphoris, asheville, nil];
+    NSArray *annotations = [NSArray arrayWithObjects:jerusalem, bethEl, ephesus, corinth, dan, temple, hazor, nicea, greenland, greatbr, philippines, rome, nazareth, capernaum, sierraLeone, camden, atlantic, rome2, constantinople, palestine, israel, alexandria, thessalonica, philippi, antioch, bethlehem, ramah, hebron, shiloh, lyon, vienne, chalcedon, constance, trent, florence, lateran, uganda, colossae, sepphoris, asheville, burma, nil];
     
     [self.mapView addAnnotations:annotations];
 
@@ -875,9 +882,16 @@
                                      asheville.subtitle = @"Renewable Energy Exemplar";
                                      asheville.image = [UIImage imageNamed:@"StEugene"];
                                      asheville.information = @"\rSt. Eugene Church in Asheville, North Carolina, recently commited to using 100% renewable energy in the form of solar panels. These will sigificantly reduce its monthly energy bill.";
+                                         
+                                         SocialPins *burma = [[SocialPins alloc] init];
+                                         burma.coordinate = CLLocationCoordinate2DMake(22.0000,  96.0000);
+                                         burma.title = @"Burma";
+                                         burma.subtitle = @"Religous Freedom Violations";
+                                         burma.image = [UIImage imageNamed:@"Burma"];
+                                         burma.information = @"\rBurma was categorized as a Tier 1 violator of religious freedom by the United States Commission on International Religious Freedom in 2015.\r\rFurther Reference:\rUSCIRF, Annual Report 2015\rhttp://tinyurl.com/m34ndev";
                                      
                                      
-                                     NSArray *annotations = [NSArray arrayWithObjects:greenland, greatbr, philippines, sierraLeone, camden, atlantic, palestine, israel, uganda, asheville, nil];
+                                     NSArray *annotations = [NSArray arrayWithObjects:greenland, greatbr, philippines, sierraLeone, camden, atlantic, palestine, israel, uganda, asheville, burma, nil];
                                      [self.mapView addAnnotations:annotations];
 
                                      
@@ -1174,11 +1188,16 @@
                                    asheville.subtitle = @"Renewable Energy Exemplar";
                                    asheville.image = [UIImage imageNamed:@"StEugene"];
                                    asheville.information = @"\rSt. Eugene Church in Asheville, North Carolina, recently commited to using 100% renewable energy in the form of solar panels. These will sigificantly reduce its monthly energy bill.";
-                                   
+                                       
+                                       SocialPins *burma = [[SocialPins alloc] init];
+                                       burma.coordinate = CLLocationCoordinate2DMake(22.0000,  96.0000);
+                                       burma.title = @"Burma";
+                                       burma.subtitle = @"Religous Freedom Violations";
+                                       burma.image = [UIImage imageNamed:@"Burma"];
+                                       burma.information = @"\rBurma was categorized as a Tier 1 violator of religious freedom by the United States Commission on International Religious Freedom in 2015.\r\rFurther Reference:\rUSCIRF, Annual Report 2015\rhttp://tinyurl.com/m34ndev";
 
-
                                    
-                                   NSArray *annotations = [NSArray arrayWithObjects:jerusalem, bethEl, ephesus, corinth, dan, temple, hazor, nicea, greenland, greatbr, rome, nazareth, sierraLeone, camden, atlantic, rome2, constantinople, palestine, israel, alexandria, antioch, bethlehem, thessalonica, philippi, vienne, lyon, chalcedon, constance, trent, florence, uganda, lateran, colossae, sepphoris, philippines, asheville, nil];
+                                   NSArray *annotations = [NSArray arrayWithObjects:jerusalem, bethEl, ephesus, corinth, dan, temple, hazor, nicea, greenland, greatbr, rome, nazareth, sierraLeone, camden, atlantic, rome2, constantinople, palestine, israel, alexandria, antioch, bethlehem, thessalonica, philippi, vienne, lyon, chalcedon, constance, trent, florence, uganda, lateran, colossae, sepphoris, philippines, asheville, burma, nil];
                                    
                                    [self.mapView addAnnotations:annotations];
                                    
