@@ -263,9 +263,10 @@
     HistoricalPins *lyon = [[HistoricalPins alloc] init];
     lyon.coordinate = CLLocationCoordinate2DMake(45.7600, 4.8400);
     lyon.title = @"Lyon";
-    lyon.subtitle = @"Ecumenical Council XIII";
-    lyon.image = [UIImage imageNamed:@"lyon"]; 
-    lyon.information = @"\rCoordinates:\r45.7600, 4.8400";
+    lyon.subtitle = @"Ecumenical Councils XIII, XIV";
+    lyon.image = [UIImage imageNamed:@"lyon"];
+    lyon.information = @"\rThe first Council of Lyon was held in 1245 and was the thirteenth Ecumneical Council of the Church. It was called by Pope Innocent IV to excommunicate Frederick II and call for the 7th Crusade to reconquer the Holy Land. It also dealt with various disciplinary matters.\r\rThe second Council of Lyon was held from 1272-1274 and was the fourteenth Ecumenical Council of the Church. It was called by Pope Gregory X in order to fund the reconquest of the Holy Land and end the Great Schism with the Eastern Orthodox churches. See the “Councils” section in the Home tab.\r\rFurther Reference:Wikipedia, First Council of Lyon\rhttp://tinyurl.com/msp95mv\rSecond Council of Lyon\rhttp://tinyurl.com/my3aqa6\r\rCoordinates:\r45.7600, 4.8400";
+
     
     HistoricalPins *vienne = [[HistoricalPins alloc] init];
     vienne.coordinate = CLLocationCoordinate2DMake(46.5000, 0.5000);
@@ -752,10 +753,9 @@
                                    HistoricalPins *lyon = [[HistoricalPins alloc] init];
                                    lyon.coordinate = CLLocationCoordinate2DMake(45.7600, 4.8400);
                                    lyon.title = @"Lyon";
-                                   lyon.subtitle = @"Ecumenical Council XIII";
+                                   lyon.subtitle = @"Ecumenical Councils XIII, XIV";
                                    lyon.image = [UIImage imageNamed:@"lyon"];
-                                   lyon.information = @"\rCoordinates:\r45.7600, 4.8400";
-                                   
+                                   lyon.information = @"\rThe first Council of Lyon was held in 1245 and was the thirteenth Ecumneical Council of the Church. It was called by Pope Innocent IV to excommunicate Frederick II and call for the 7th Crusade to reconquer the Holy Land. It also dealt with various disciplinary matters.\r\rThe second Council of Lyon was held from 1272-1274 and was the fourteenth Ecumenical Council of the Church. It was called by Pope Gregory X in order to fund the reconquest of the Holy Land and end the Great Schism with the Eastern Orthodox churches. See the “Councils” section in the Home tab.\r\rFurther Reference:Wikipedia, First Council of Lyon\rhttp://tinyurl.com/msp95mv\rSecond Council of Lyon\rhttp://tinyurl.com/my3aqa6\r\rCoordinates:\r45.7600, 4.8400";
                                    HistoricalPins *vienne = [[HistoricalPins alloc] init];
                                    vienne.coordinate = CLLocationCoordinate2DMake(46.5000, 0.5000);
                                    vienne.title = @"Vienne";
@@ -1122,9 +1122,10 @@
                                    HistoricalPins *lyon = [[HistoricalPins alloc] init];
                                    lyon.coordinate = CLLocationCoordinate2DMake(45.7600, 4.8400);
                                    lyon.title = @"Lyon";
-                                   lyon.subtitle = @"Ecumenical Council XIII";
+                                   lyon.subtitle = @"Ecumenical Councils XIII, XIV";
                                    lyon.image = [UIImage imageNamed:@"lyon"];
-                                   lyon.information = @"\rCoordinates:\r45.7600, 4.8400";
+                                   lyon.information = @"\rThe first Council of Lyon was held in 1245 and was the thirteenth Ecumneical Council of the Church. It was called by Pope Innocent IV to excommunicate Frederick II and call for the 7th Crusade to reconquer the Holy Land. It also dealt with various disciplinary matters.\r\rThe second Council of Lyon was held from 1272-1274 and was the fourteenth Ecumenical Council of the Church. It was called by Pope Gregory X in order to fund the reconquest of the Holy Land and end the Great Schism with the Eastern Orthodox churches. See the “Councils” section in the Home tab.\r\rFurther Reference:Wikipedia, First Council of Lyon\rhttp://tinyurl.com/msp95mv\rSecond Council of Lyon\rhttp://tinyurl.com/my3aqa6\r\rCoordinates:\r45.7600, 4.8400";
+
                                    
                                    HistoricalPins *vienne = [[HistoricalPins alloc] init];
                                    vienne.coordinate = CLLocationCoordinate2DMake(46.5000, 0.5000);
