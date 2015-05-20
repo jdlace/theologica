@@ -242,6 +242,7 @@
         Source *politicsSource = [[Source alloc] init];
         politicsSource.name = @"Politics";
         politicsSource.twitterDef = @"The Affairs of the People";
+            politicsSource.bigPic = [UIImage imageNamed:@"capitol2"]; 
         politicsSource.comment = @"\rThe regulation of human society is essential to its survival and development.";
         
         SourcesDetailViewController *sourcesDetailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"SourcesDetailViewController"];

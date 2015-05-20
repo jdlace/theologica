@@ -12,8 +12,9 @@
         <scene sceneID="15">
             <objects>
                 <tabBarController id="4" sceneMemberID="viewController">
-                    <nil key="simulatedBottomBarMetrics"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="5">
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="5">
                         <rect key="frame" x="0.0" y="431" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -294,7 +295,7 @@
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                 <nil key="highlightedColor"/>
-                                                <variation key="heightClass=regular" misplaced="YES">
+                                                <variation key="heightClass=regular" ambiguous="YES" misplaced="YES">
                                                     <rect key="frame" x="-132" y="220" width="66" height="21"/>
                                                 </variation>
                                             </label>
@@ -322,7 +323,7 @@
                                                 <state key="normal" image="headphonesblue">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
-                                                <variation key="heightClass=regular" misplaced="YES">
+                                                <variation key="heightClass=regular" ambiguous="YES" misplaced="YES">
                                                     <rect key="frame" x="59" y="244" width="85" height="85"/>
                                                 </variation>
                                                 <connections>
@@ -334,7 +335,7 @@
                                                 <rect key="frame" x="219" y="143" width="85" height="85"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <state key="normal" image="cityblue"/>
-                                                <variation key="heightClass=regular" misplaced="YES">
+                                                <variation key="heightClass=regular" ambiguous="YES" misplaced="YES">
                                                     <rect key="frame" x="59" y="143" width="85" height="85"/>
                                                 </variation>
                                                 <connections>
@@ -346,7 +347,7 @@
                                                 <rect key="frame" x="235" y="220" width="52" height="21"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
                                                 <nil key="highlightedColor"/>
-                                                <variation key="heightClass=regular" misplaced="YES">
+                                                <variation key="heightClass=regular" ambiguous="YES" misplaced="YES">
                                                     <rect key="frame" x="75" y="220" width="52" height="21"/>
                                                 </variation>
                                             </label>
@@ -354,7 +355,7 @@
                                                 <rect key="frame" x="232" y="321" width="58" height="21"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
                                                 <nil key="highlightedColor"/>
-                                                <variation key="heightClass=regular" misplaced="YES">
+                                                <variation key="heightClass=regular" ambiguous="YES" misplaced="YES">
                                                     <rect key="frame" x="72" y="321" width="58" height="21"/>
                                                 </variation>
                                             </label>
@@ -362,7 +363,7 @@
                                                 <rect key="frame" x="113" y="151" width="95" height="21"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                 <nil key="highlightedColor"/>
-                                                <variation key="heightClass=regular" misplaced="YES">
+                                                <variation key="heightClass=regular" ambiguous="YES" misplaced="YES">
                                                     <rect key="frame" x="-47" y="151" width="95" height="21"/>
                                                 </variation>
                                             </label>
@@ -775,7 +776,7 @@
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <size key="shadowOffset" width="0.0" height="0.0"/>
-                                                <variation key="heightClass=regular" fixedFrame="YES">
+                                                <variation key="heightClass=regular" ambiguous="YES" misplaced="YES">
                                                     <rect key="frame" x="13" y="64" width="307" height="96"/>
                                                 </variation>
                                             </label>
@@ -783,7 +784,7 @@
                                                 <rect key="frame" x="11" y="165" width="308" height="35"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
                                                 <nil key="highlightedColor"/>
-                                                <variation key="heightClass=regular" fixedFrame="YES">
+                                                <variation key="heightClass=regular" ambiguous="YES" misplaced="YES">
                                                     <rect key="frame" x="14" y="161" width="306" height="45"/>
                                                 </variation>
                                             </label>
@@ -794,7 +795,7 @@
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
-                                                <variation key="heightClass=regular" misplaced="YES">
+                                                <variation key="heightClass=regular" ambiguous="YES" misplaced="YES">
                                                     <rect key="frame" x="10" y="220" width="300" height="320"/>
                                                 </variation>
                                             </textView>
@@ -829,7 +830,7 @@
                                             <constraint firstAttribute="width" secondItem="uNV-2X-cOG" secondAttribute="height" multiplier="80:37" constant="10.810810810810779" id="tnj-fl-Ehs"/>
                                             <constraint firstItem="uNV-2X-cOG" firstAttribute="bottom" secondItem="8Cv-Rb-2Ws" secondAttribute="bottom" constant="13" id="yNx-US-IxM"/>
                                         </constraints>
-                                        <variation key="heightClass=regular" misplaced="YES">
+                                        <variation key="heightClass=regular" ambiguous="YES" misplaced="YES">
                                             <rect key="frame" x="0.0" y="-63" width="320" height="586"/>
                                         </variation>
                                     </view>
@@ -843,7 +844,7 @@
                                         <variation key="heightClass=regular" constant="63"/>
                                     </constraint>
                                 </constraints>
-                                <variation key="heightClass=regular" misplaced="YES">
+                                <variation key="heightClass=regular" ambiguous="YES" misplaced="YES">
                                     <rect key="frame" x="0.0" y="65" width="320" height="523"/>
                                 </variation>
                             </scrollView>
