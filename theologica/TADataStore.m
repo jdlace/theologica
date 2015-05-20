@@ -324,7 +324,7 @@
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Aggiornomento",
-                           @"twitterDef":@"the Italian word meaning “to update”\rused to describe a theme of Vatican II",
+                           @"twitterDef":@"the Italian word meaning “to update” used to describe a theme of Vatican II",
                            @"definition":@"\rAs a way to describe one of its emphases, it became popular during and synonymous with the reforms of the Second Vatican Council (1962-1965). The concept was used by Pope John XXIII to describe the agenda of Vatican II. John XXIII claimed:\r\r“The greatest concern of the Ecumenical Council is this: that he sacred deposit of Christian doctrine should be guarded and taught more efficaciously...In order, however, that this doctrine may influence the numerous fields of human activity, with reference to individuals, to families, and to socia life, it is necessary first of all that the Church should never depart from the sacred patrimony of truth received from the Fathers. But at the same time she must ever look to the present, to the new conditions and new forms of life introduced into the modern world, which have opened new avenues to the Catholic apostolate...which, however, should be studied and expounded through the methods of research and through the literary forms of modern thought. The substance of the ancient doctrine of the deposit of faith is one thing, and the way in which it is presented is another. And it is the latter that must be taken into great consideration with patience if necessary,everything being measured in the forms and proportions of a magisterium which is predominantly pastoral in character.”\r\rFurther Reference:\rWikipedia, “Aggiornomento”\rhttp://tinyurl.com/k6y4ylh",
                            @"category":@"Systematic"}];
     
@@ -390,7 +390,7 @@
                            @"category":@"Ecclesial"}];
     
     [TAWord wordWithDict:@{@"name":@"Alleluia",
-                           @"twitterDef":@"a Latinized form of the phrase meaning\r“Praise the LORD”",
+                           @"twitterDef":@"a Latinized form of the phrase meaning “Praise the LORD”",
                            @"definition":@"\rThe Alleluia is spoken before the reading of the Gospel during the Mass. It is not spoken during the season of Lent.\r\rFurther Reference:\rCatechism of the Catholic Church, 2589\rhttp://tinyurl.com/pynlg6a",
                            @"category":@"Liturgical"}];
     

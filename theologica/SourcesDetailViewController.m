@@ -74,34 +74,32 @@
     
    
     //images in detail view
-    
+   /*
     NSTextAttachment *scriptureAttachment1 = [[NSTextAttachment alloc] init];
     scriptureAttachment1.image = [UIImage imageNamed:@"codex"];
     scriptureAttachment1.bounds = CGRectMake(0, 0, scriptureAttachment1.image.size.width, scriptureAttachment1.image.size.height);
     
-    //NSTextAttachment *scriptureAttachment2 = [[NSTextAttachment alloc] init];
-    //scriptureAttachment2.image = [UIImage imageNamed:@"codex"];
-    //scriptureAttachment2.bounds = CGRectMake(0, -45, scriptureAttachment2.image.size.width, scriptureAttachment2.image.size.height);
+    NSTextAttachment *scriptureAttachment2 = [[NSTextAttachment alloc] init];
+    scriptureAttachment2.image = [UIImage imageNamed:@"codex"];
+    scriptureAttachment2.bounds = CGRectMake(0, -45, scriptureAttachment2.image.size.width, scriptureAttachment2.image.size.height);
     
-    //NSAttributedString *scriptureString1 = [NSAttributedString attributedStringWithAttachment:scriptureAttachment1];
-    //NSAttributedString *scriptureString2 = [NSAttributedString attributedStringWithAttachment:scriptureAttachment2];
+    NSAttributedString *scriptureString1 = [NSAttributedString attributedStringWithAttachment:scriptureAttachment1];
+    NSAttributedString *scriptureString2 = [NSAttributedString attributedStringWithAttachment:scriptureAttachment2];
 
     
-    //NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:_currentSourceDetail.comment];
+    NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:_currentSourceDetail.comment];
     
-    //NSRange scriptureImgTag1 = [attributedString.string rangeOfString:@"<scriptureImg1>"];
-    //NSRange scriptureImgTag2 = [_currentSourceDetail.comment rangeOfString:@"<scriptureImg2>"];
+    NSRange scriptureImgTag1 = [ rangeOfString:@"<scriptureImg1>"];
+    NSRange scriptureImgTag2 = [ rangeOfString:@"<scriptureImg2>"];
 
     
-    //[attributedString replaceCharactersInRange:scriptureImgTag1  withAttributedString:scriptureString1];
-    
-    //[attributedString
+    [attributedString replaceCharactersInRange:scriptureImgTag1  withAttributedString:scriptureString1];
 
     
-    //[attributedString replaceCharactersInRange:scriptureImgTag2  withAttributedString:scriptureString2];
+    [attributedString replaceCharactersInRange:scriptureImgTag2  withAttributedString:scriptureString2];
 
     
-    
+    */
   
 
     

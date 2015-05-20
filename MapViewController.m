@@ -266,6 +266,13 @@
     lyon.subtitle = @"Ecumenical Councils XIII, XIV";
     lyon.image = [UIImage imageNamed:@"lyon"];
     lyon.information = @"\rThe first Council of Lyon was held in 1245 and was the thirteenth Ecumneical Council of the Church. It was called by Pope Innocent IV to excommunicate Frederick II and call for the 7th Crusade to reconquer the Holy Land. It also dealt with various disciplinary matters.\r\rThe second Council of Lyon was held from 1272-1274 and was the fourteenth Ecumenical Council of the Church. It was called by Pope Gregory X in order to fund the reconquest of the Holy Land and end the Great Schism with the Eastern Orthodox churches. See the “Councils” section in the Home tab.\r\rFurther Reference:Wikipedia, First Council of Lyon\rhttp://tinyurl.com/msp95mv\rSecond Council of Lyon\rhttp://tinyurl.com/my3aqa6\r\rCoordinates:\r45.7600, 4.8400";
+    
+    HistoricalPins *ephesus2 = [[HistoricalPins alloc] init];
+    ephesus2.coordinate = CLLocationCoordinate2DMake(37.9411, 27.3500);
+    ephesus2.title = @"Ephesus";
+    ephesus2.subtitle = @"Ecumencial Council III";
+    ephesus2.image = [UIImage imageNamed:@"ephesus2"];
+    ephesus2.information = @"\rThe Council of Ephesus was called in A.D. 431 by the Roman Emperor Theodosius II. It condemned the teaching of Nestorius, who denied the principle of Communicatio Idiomatum by claiming that the Virgin Mary was the mother of Christ but not of God. The Council taught that the Virgin Mary was “Theotokos”: God-bearer. \r\rFurther Reference:\rWikipedia, “Council of Ephesus”\rhttp://tinyurl.com/mrmvuaw\r\rCoordinates:\r37.9411, 27.3500";
 
     
     HistoricalPins *vienne = [[HistoricalPins alloc] init];
@@ -334,7 +341,7 @@
 
 
     
-    NSArray *annotations = [NSArray arrayWithObjects:jerusalem, bethEl, ephesus, corinth, dan, temple, hazor, nicea, greenland, greatbr, philippines, rome, nazareth, capernaum, sierraLeone, camden, atlantic, rome2, constantinople, palestine, israel, alexandria, thessalonica, philippi, antioch, bethlehem, ramah, hebron, shiloh, lyon, vienne, chalcedon, constance, trent, florence, lateran, uganda, colossae, sepphoris, asheville, burma, nil];
+    NSArray *annotations = [NSArray arrayWithObjects:jerusalem, bethEl, ephesus, corinth, dan, temple, hazor, nicea, greenland, greatbr, philippines, rome, nazareth, capernaum, sierraLeone, camden, atlantic, rome2, constantinople, palestine, israel, alexandria, thessalonica, philippi, antioch, bethlehem, ramah, hebron, shiloh, lyon, vienne, chalcedon, constance, trent, florence, lateran, uganda, colossae, sepphoris, asheville, burma, ephesus2, nil];
     
     [self.mapView addAnnotations:annotations];
 
@@ -797,13 +804,20 @@
                                    lateran.subtitle = @"Ecumenical Councils IX, X, XI, XII";
                                    lateran.image = [UIImage imageNamed:@"lateran"];
                                    lateran.information = @"Coordinates:\r43.7833° N, 11.2500° E";
+                                   
+                                   HistoricalPins *ephesus2 = [[HistoricalPins alloc] init];
+                                   ephesus2.coordinate = CLLocationCoordinate2DMake(37.9411, 27.3500);
+                                   ephesus2.title = @"Ephesus";
+                                   ephesus2.subtitle = @"Ecumencial Council III";
+                                   ephesus2.image = [UIImage imageNamed:@"ephesus2"];
+                                   ephesus2.information = @"\rThe Council of Ephesus was called in A.D. 431 by the Roman Emperor Theodosius II. It condemned the teaching of Nestorius, who denied the principle of Communicatio Idiomatum by claiming that the Virgin Mary was the mother of Christ but not of God. The Council taught that the Virgin Mary was “Theotokos”: God-bearer. \r\rFurther Reference:\rWikipedia, “Council of Ephesus”\rhttp://tinyurl.com/mrmvuaw\r\rCoordinates:\r37.9411, 27.3500";
 
 
                                    
                                    
                                    
                                    
-                                   NSArray *annotations = [NSArray arrayWithObjects:nicea, alexandria, rome2, constantinople, lyon, vienne, chalcedon, constance, trent, florence,lateran, nil];
+                                   NSArray *annotations = [NSArray arrayWithObjects:nicea, alexandria, rome2, constantinople, lyon, vienne, chalcedon, constance, trent, florence,lateran, ephesus2, nil];
                                    [self.mapView addAnnotations:annotations];
                                    
                                    }];
@@ -1196,9 +1210,16 @@
                                        burma.subtitle = @"Religous Freedom Violations";
                                        burma.image = [UIImage imageNamed:@"Burma"];
                                        burma.information = @"\rBurma was categorized as a Tier 1 violator of religious freedom by the United States Commission on International Religious Freedom in 2015.\r\rFurther Reference:\rUSCIRF, Annual Report 2015\rhttp://tinyurl.com/m34ndev";
+                                   
+                                   HistoricalPins *ephesus2 = [[HistoricalPins alloc] init];
+                                   ephesus2.coordinate = CLLocationCoordinate2DMake(37.9411, 27.3500);
+                                   ephesus2.title = @"Ephesus";
+                                   ephesus2.subtitle = @"Ecumencial Council III";
+                                   ephesus2.image = [UIImage imageNamed:@"ephesus2"];
+                                   ephesus2.information = @"\rThe Council of Ephesus was called in A.D. 431 by the Roman Emperor Theodosius II. It condemned the teaching of Nestorius, who denied the principle of Communicatio Idiomatum by claiming that the Virgin Mary was the mother of Christ but not of God. The Council taught that the Virgin Mary was “Theotokos”: God-bearer. \r\rFurther Reference:\rWikipedia, “Council of Ephesus”\rhttp://tinyurl.com/mrmvuaw\r\rCoordinates:\r37.9411, 27.3500";
 
                                    
-                                   NSArray *annotations = [NSArray arrayWithObjects:jerusalem, bethEl, ephesus, corinth, dan, temple, hazor, nicea, greenland, greatbr, rome, nazareth, sierraLeone, camden, atlantic, rome2, constantinople, palestine, israel, alexandria, antioch, bethlehem, thessalonica, philippi, vienne, lyon, chalcedon, constance, trent, florence, uganda, lateran, colossae, sepphoris, philippines, asheville, burma, nil];
+                                   NSArray *annotations = [NSArray arrayWithObjects:jerusalem, bethEl, ephesus, corinth, dan, temple, hazor, nicea, greenland, greatbr, rome, nazareth, sierraLeone, camden, atlantic, rome2, constantinople, palestine, israel, alexandria, antioch, bethlehem, thessalonica, philippi, vienne, lyon, chalcedon, constance, trent, florence, uganda, lateran, colossae, sepphoris, philippines, asheville, burma, ephesus2, nil];
                                    
                                    [self.mapView addAnnotations:annotations];
                                    
