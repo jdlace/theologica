@@ -214,7 +214,7 @@
         Source *economicsSource = [[Source alloc] init];
         economicsSource.name = @"Economics";
         economicsSource.twitterDef = @"Material Goods and Services";
-        economicsSource.bigPic = [UIImage imageNamed:@"dollar"]; 
+        economicsSource.bigPic = [UIImage imageNamed:@"stock"]; 
         economicsSource.comment = @"\rHuman development is includes an economic aspect.";
         UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Signs"
                                                                        style:UIBarButtonItemStylePlain
@@ -227,10 +227,10 @@
     else if ([segue.identifier isEqualToString:@"artsDetail"])
         {
         Source *artsSource = [[Source alloc] init];
-        artsSource.name = @"Aesthetics";
+        artsSource.name = @"Arts";
         artsSource.twitterDef = @"The Heart in Motion";
         artsSource.bigPic = [UIImage imageNamed:@"arts"];
-        artsSource.comment = @"\rHumans have always expressed their hopes, dreams, fears, frustrations, and questions through Aesthetics. The arts are as old as humanity itself. They are traditionally divided between literary, performing, culinary, media, and visual arts.\r\rThe earliest recorded art was paintings on cave walls. Early humans depicted those phenomena that provoked reflection, from their fears of and conquests over animals to the wonder at the natural world and night sky. The development of agrarian societies brought about the development of song, dance, and drama. ";
+        artsSource.comment = @"\rHumans have always expressed their hopes, dreams, fears, frustrations, and questions through the Arts; they are as old as humanity itself. The Arts are traditionally categoriezed as literary, performing, culinary, media, and visual.\r\rThe earliest recorded art was paintings on cave walls. Early humans depicted those phenomena that provoked reflection, from their fears of and conquests over animals to the wonder at the natural world and night sky. The development of agrarian societies brought about the development of song, dance, and drama. ";
         
         UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Signs"
                                                                        style:UIBarButtonItemStylePlain
