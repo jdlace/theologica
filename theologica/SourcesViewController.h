@@ -22,21 +22,8 @@
 
 
 
--(IBAction) pageControlTapped:(id)sender; 
-- (IBAction)scriptureButton:(id)sender;
-- (IBAction)fathersButton:(id)sender;
-- (IBAction)catechismButton:(id)sender;
-- (IBAction)liturgyButton:(id)sender;
-- (IBAction)councilsButton:(id)sender;
 
-- (IBAction)scienceButton:(id)sender;
-- (IBAction)artsButton:(id)sender;
-- (IBAction)mediaButton:(id)sender;
-- (IBAction)politicsButton:(id)sender;
-- (IBAction)philosophyButton:(id)sender;
 - (IBAction)theologicaButton:(id)sender;
-
-
 - (IBAction)aboutButton:(id)sender;
 - (IBAction)infoButton:(id)sender;
 
