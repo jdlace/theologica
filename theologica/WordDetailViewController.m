@@ -67,7 +67,7 @@
     _descriptionTextView.frame = frame;
     [_descriptionTextView sizeToFit];
     
-    _scrollView.contentSize = CGSizeMake(_descriptionTextView.contentSize.width, _descriptionTextView.frame.size.height + 148);
+    _scrollView.contentSize = CGSizeMake(_descriptionTextView.contentSize.width, _descriptionTextView.frame.size.height + 145);
     
     //added for Dynamic Type
     [[NSNotificationCenter defaultCenter]
