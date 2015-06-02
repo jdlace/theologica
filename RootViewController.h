@@ -16,5 +16,8 @@
 @property (strong, nonatomic) UIPageViewController *pageViewController;
 @property (strong, nonatomic) IBOutlet UIPageControl *pageControl;
 
+- (IBAction)aboutButton:(id)sender;
+- (IBAction)infoButton:(id)sender;
+
 
 @end

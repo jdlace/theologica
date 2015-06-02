@@ -28,7 +28,6 @@
 		692ED2A91796EF10008554F9 /* man-influence@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 692ED29F1796EF10008554F9 /* man-influence@2x.png */; };
 		692ED2B21796F466008554F9 /* DictionaryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2B11796F466008554F9 /* DictionaryTableViewController.m */; };
 		692ED2B51796F48B008554F9 /* WordDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2B41796F48B008554F9 /* WordDetailViewController.m */; };
-		6932282C1A5256AF00528421 /* SourcesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6932282B1A5256AF00528421 /* SourcesViewController.m */; };
 		6939B7D41AB5BF8100DBA0E6 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6939B7CC1AB5BF8100DBA0E6 /* Accounts.framework */; };
 		6939B7D51AB5BF8100DBA0E6 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6939B7CD1AB5BF8100DBA0E6 /* AddressBook.framework */; };
 		6939B7D61AB5BF8100DBA0E6 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6939B7CE1AB5BF8100DBA0E6 /* CoreText.framework */; };
@@ -109,8 +108,6 @@
 		692ED2B11796F466008554F9 /* DictionaryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DictionaryTableViewController.m; path = ../DictionaryTableViewController.m; sourceTree = "<group>"; };
 		692ED2B31796F48B008554F9 /* WordDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordDetailViewController.h; sourceTree = "<group>"; };
 		692ED2B41796F48B008554F9 /* WordDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordDetailViewController.m; sourceTree = "<group>"; };
-		6932282A1A5256AF00528421 /* SourcesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourcesViewController.h; sourceTree = "<group>"; };
-		6932282B1A5256AF00528421 /* SourcesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SourcesViewController.m; sourceTree = "<group>"; };
 		6939B7CC1AB5BF8100DBA0E6 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		6939B7CD1AB5BF8100DBA0E6 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		6939B7CE1AB5BF8100DBA0E6 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
@@ -393,8 +390,6 @@
 				6954D6FE1A884E17004374F0 /* AboutViewController.m */,
 				695847CC1AB5C9B90085251C /* TwitterTableViewController.h */,
 				695847CD1AB5C9B90085251C /* TwitterTableViewController.m */,
-				6932282A1A5256AF00528421 /* SourcesViewController.h */,
-				6932282B1A5256AF00528421 /* SourcesViewController.m */,
 				698893B61A5E24CE00D1AC74 /* SourcesDetailViewController.h */,
 				698893B71A5E24CE00D1AC74 /* SourcesDetailViewController.m */,
 			);
@@ -546,7 +541,6 @@
 				695847CE1AB5C9B90085251C /* TwitterTableViewController.m in Sources */,
 				692ED2571796D552008554F9 /* main.m in Sources */,
 				9BA06E331A833B4800A6A19E /* TADataStore.m in Sources */,
-				6932282C1A5256AF00528421 /* SourcesViewController.m in Sources */,
 				69D4C4BB1B117D1E009B5FE0 /* SignContentViewController.m in Sources */,
 				692ED25B1796D552008554F9 /* AppDelegate.m in Sources */,
 				69D6284F1A4762830073C157 /* SocialPins.m in Sources */,

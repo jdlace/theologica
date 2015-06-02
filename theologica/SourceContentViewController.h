@@ -17,13 +17,6 @@
 @property NSUInteger pageIndex;
 
 
--(IBAction)magisteriumButton:(id)sender;
--(IBAction)scriptureButton:(id)sender;
--(IBAction)fathersButton:(id)sender;
--(IBAction)creedsButton:(id)sender;
--(IBAction)liturgyButton:(id)sender;
--(IBAction)councilsButton:(id)sender;
-
 - (IBAction)theologicaButton:(id)sender;
 
 

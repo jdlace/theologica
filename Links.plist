@@ -213,6 +213,12 @@
 	<array>
 		<dict>
 			<key>Name</key>
+			<string>Thinking Faith</string>
+			<key>URL</key>
+			<string>http://www.thinkingfaith.org</string>
+		</dict>
+		<dict>
+			<key>Name</key>
 			<string>International Theological Commission</string>
 			<key>URL</key>
 			<string>http://www.vatican.va/roman_curia/congregations/cfaith/cti_index.htm</string>
@@ -240,12 +246,6 @@
 			<string>Atom + Eve Project</string>
 			<key>URL</key>
 			<string>http://washtheocon.org/resources/using-science-pastoral-ministry/</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>Evolution and Original Sin</string>
-			<key>URL</key>
-			<string>http://washtheocon.org/wp-content/uploads/2012/10/EvolutionOriginalSin1-corrected.pdf</string>
 		</dict>
 		<dict>
 			<key>Name</key>

@@ -726,6 +726,15 @@
     UIAlertAction* historicalAction = [UIAlertAction actionWithTitle:@"Historical" style:UIAlertActionStyleDefault
                                                          handler:^(UIAlertAction * action)
                                    {
+                                   
+                                   CLLocationCoordinate2D coordinate = {41.9022, 12.4533};
+                                   MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(coordinate, 5000000, 5000000);
+                                   //MKCoordinateRegion region = {coordinate, span};
+                                   
+                                   MKCoordinateRegion regionThatFits = [self.mapView regionThatFits:region];
+                                   
+                                   [self.mapView setRegion:regionThatFits animated:YES];
+                                   
                                    [self.mapView removeAnnotations:self.mapView.annotations];
                                    
                                    HistoricalPins *nicea = [[HistoricalPins alloc] init];
@@ -825,6 +834,15 @@
     UIAlertAction* socialAction = [UIAlertAction actionWithTitle:@"Social" style:UIAlertActionStyleDefault
                                                            handler:^(UIAlertAction * action)
                                      {
+                                     
+                                     CLLocationCoordinate2D coordinate = {38.4667, -28.4000};
+                                     MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(coordinate, 19900000, 19900000);
+                                     //MKCoordinateRegion region = {coordinate, span};
+                                     
+                                     MKCoordinateRegion regionThatFits = [self.mapView regionThatFits:region];
+                                     
+                                     [self.mapView setRegion:regionThatFits animated:YES];
+
                                      [self.mapView removeAnnotations:self.mapView.annotations];
                                      
                                      SocialPins *greenland = [[SocialPins alloc] init];
