@@ -53,7 +53,7 @@
         Source *scriptureSource = [[Source alloc] init];
         scriptureSource.name = @"Sacred Scripture";
         scriptureSource.twitterDef = @"The Word of God in Human Language";
-        scriptureSource.comment = @"\rThroughout the history of the Catholic tradition, the canon of Scripture has always played a central and dialectic role in the community life of the Church. The Dogmatic Constitution on Divine Revelation (Dei Verbum) from Vatican II contains the most authoritative statement on the Church's belief about Sacred Scripture:\r\r“Those divinely revealed realities which are contained and presented in Sacred Scripture have been committed to writing under the inspiration of the Holy Spirit. For holy mother Church, relying on the belief of the Apostles (see John 20:31; 2 Tim. 3:16; 2 Peter 1:19-20, 3:15-16), holds that the books of both the Old and New Testaments in their entirety, with all their parts, are sacred and canonical because written under the inspiration of the Holy Spirit, they have God as their author and have been handed on as such to the Church herself. In composing the sacred books, God chose men and while employed by Him they made use of their powers and abilities, so that with Him acting in them and through them, they, as true authors, consigned to writing everything and only those things which He wanted.” (Dei Verbum, 11).\r\rThe Hebrew Bible is the foundation of the Biblical tradition.\r\rThe Old Testament\r\rConsisting of the Hebrew canon plus seven additional books of the Apocrypha, the Old Testament contains the story of the people of Israel. It is divided into the Pentateuch, Historical Books, Novellas, Prophetic Books, and Wisdom Books.\r\rThe Pentateuch contains the 5 books of the Torah: Genesis, Exodus, Leviticus, Numbers, and Deuteronomy. The Historical Books contain Joshua, Judges, Ruth, 1 & 2 Samuel, 1 & 2 Kings, 1 & 2 Chronicles, Ezra, and Nehemiah. The Novellas are Tobit, Judith, Esther, and 1 & 2 Maccabees. The Prophetic Books consist of Isaiah, Jeremiah, Lamentations, Baruch, Ezekiel, Daniel, Hosea, Joel, Amos, Obadiah, Jonah, Micah, Nahum, Habakkuk, Zephaniah, Haggai, Zechariah, and Malachi. The Wisdom Books contain Job, Psalms, Proverbs, Ecclesiastes, Song of Songs, Wisdom, and Sirach.\r\rThe New Testament\r\rThe gospels of Matthew, Mark, Luke, and John narrate the life of Jesus through the perspective of faith in his divine sonship. These are followed by the Acts of the Apostles, which describes the birth and growth of the nacent Church “...in Jerusalem, throughout all Judea and Samaria, and the uttermost parts of the world” (Acts 1:8). The letters of St. Paul follow next with Romans, 1 & 2 Corinthians, Galatians, Ephesians, Philippians, Colossians, and 1 & 2 Thessalonians, 1 & 2 Timothy, Titus, and Philemon. Then follow the so-called General letters - Hebrews, James, 1 & 2 Peter, 1 - 3 John, and Jude. The book of Revelation concludes the New Testament.\r\rManuscripts\r\rThe manuscript tradition of the New Testament contains over 3,000 extant fragments and complete copies of the canonical 27 books. Codex Siniaiticus is the oldest extant complete copy of the New Testament (dating back to the 4th century) and papyrus fragment 52 is the oldest piece of the New Testament (dating back as early as A.D. 120).\r\rFurther Reference:\rWikipedia, “New Testament”\rhttp://tinyurl.com/sxnv4";
+        scriptureSource.comment = @"\rThroughout the history of the Catholic tradition, the canon of Scripture has always played a central and dialectic role in the community life of the Church. The Dogmatic Constitution on Divine Revelation (Dei Verbum) from Vatican II contains the most authoritative statement on the Church's belief about Sacred Scripture:\r\r“Those divinely revealed realities which are contained and presented in Sacred Scripture have been committed to writing under the inspiration of the Holy Spirit. For holy mother Church, relying on the belief of the Apostles (see John 20:31; 2 Tim. 3:16; 2 Peter 1:19-20, 3:15-16), holds that the books of both the Old and New Testaments in their entirety, with all their parts, are sacred and canonical because written under the inspiration of the Holy Spirit, they have God as their author and have been handed on as such to the Church herself. In composing the sacred books, God chose men and while employed by Him they made use of their powers and abilities, so that with Him acting in them and through them, they, as true authors, consigned to writing everything and only those things which He wanted.” (Dei Verbum, 11).\r\rThe Hebrew Bible is the foundation of the Biblical tradition.\r\rThe Old Testament\r\rConsisting of the Hebrew canon plus seven additional books of the Apocrypha, the Old Testament contains the story of the people of Israel. It is divided into the Pentateuch, Historical Books, Novellas, Prophetic Books, and Wisdom Books.\r\rThe Pentateuch contains the 5 books of the Torah: Genesis, Exodus, Leviticus, Numbers, and Deuteronomy. The Historical Books contain Joshua, Judges, Ruth, 1 & 2 Samuel, 1 & 2 Kings, 1 & 2 Chronicles, Ezra, and Nehemiah. The Novellas are Tobit, Judith, Esther, and 1 & 2 Maccabees. The Prophetic Books consist of Isaiah, Jeremiah, Lamentations, Baruch, Ezekiel, Daniel, Hosea, Joel, Amos, Obadiah, Jonah, Micah, Nahum, Habakkuk, Zephaniah, Haggai, Zechariah, and Malachi. The Wisdom Books contain Job, Psalms, Proverbs, Ecclesiastes, Song of Songs, Wisdom, and Sirach.\r\rThe New Testament\r\rThe gospels of Matthew, Mark, Luke, and John narrate the life of Jesus through the perspective of faith in his divine sonship. These are followed by the Acts of the Apostles, which describes the birth and growth of the nacent Church “...in Jerusalem, throughout all Judea and Samaria, and the uttermost parts of the world” (Acts 1:8). The letters of St. Paul follow next with Romans, 1 & 2 Corinthians, Galatians, Ephesians, Philippians, Colossians, and 1 & 2 Thessalonians, 1 & 2 Timothy, Titus, and Philemon. Then follow the so-called General letters - Hebrews, James, 1 & 2 Peter, 1 - 3 John, and Jude. The book of Revelation concludes the New Testament.\r\rManuscripts\r\rThe manuscript tradition of the New Testament contains over 3,000 extant fragments and complete copies of the canonical 27 books. Codex Siniaiticus is the oldest extant complete copy of the New Testament (dating back to the 4th century) and papyrus fragment 52 is the oldest piece of the New Testament (dating back as early as A.D. 120).\r\rFurther Reference:\rWikipedia, “New Testament”\rhttp://tinyurl.com/sxnv4\r\r\r\r";
         scriptureSource.bigPic = [UIImage imageNamed:@"codex"];
         UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Sources" style:UIBarButtonItemStylePlain target:nil action:nil];
         self.navigationItem.backBarButtonItem = backButton;
@@ -76,7 +76,7 @@
         Source *fathersSource = [[Source alloc] init];
         fathersSource.name = @"Church Fathers";
         fathersSource.twitterDef = @"Stewards of the Faith";
-        fathersSource.comment = @"\rThe Fathers of the Church occupy a special place in the Catholic Tradition. The Fathers were the earliest intepreters of the Faith against heresies and controversies through the first eight centuries of the Church. As such, they are an essential source for Theology. The age of the Fathers ususally is dated from the end of the 2nd century through the the end of the 8th century.The most frequently used organization of the Fathers is made in reference to the Nicene Council:\r\r-Ante-Nicene\r-Nicene\r-Post-Nicene\r\rAnte-Nicene Fathers\r\rThe Ante-Nicene fathers include writers such as St. Clement of Rome, St. Ignatius of Antioch, St. Justin Martyr, St. Irenaeus of Lyon, Origen of Alexandria, St. Clement of Alexandria, Tertullian of Carthage, St. Hippolytus of Rome, and St. Polycarp of Smyrna.\r\rNicene & Post-Nicne Fathers\r\rThe Nicene & Post-Nicene Fathers include writers such as St. Athanasius, St. Gregory of Nazianzus, Basil of Caesarea, St. Gregory of Nyssa, St. Jerome, St. Augustine of Hippo, St. Vincent of Lerins, St. Cyril of Alexandria, and St. Maximus the Confessor.\r\rThe Second Vatican Council drew heavily upon Patristic thought as seen in the French term “ressourcement” (a return to the sources) which was one of two major emphases at Vatican II. See the “Fathers” section of the Reference tab.\r\rFurther Reference:\rWikipedia, “Church Fathers”\rhttp://tinyurl.com/2efb7l";
+        fathersSource.comment = @"\rThe Fathers of the Church occupy a special place in the Catholic Tradition. The Fathers were the earliest intepreters of the Faith against heresies and controversies through the first eight centuries of the Church. As such, they are an essential source for Theology. The age of the Fathers ususally is dated from the end of the 2nd century through the the end of the 8th century.The most frequently used organization of the Fathers is made in reference to the Nicene Council:\r\r-Ante-Nicene\r-Nicene\r-Post-Nicene\r\rAnte-Nicene Fathers\r\rThe Ante-Nicene fathers include writers such as St. Clement of Rome, St. Ignatius of Antioch, St. Justin Martyr, St. Irenaeus of Lyon, Origen of Alexandria, St. Clement of Alexandria, Tertullian of Carthage, St. Hippolytus of Rome, and St. Polycarp of Smyrna.\r\rNicene & Post-Nicne Fathers\r\rThe Nicene & Post-Nicene Fathers include writers such as St. Athanasius, St. Gregory of Nazianzus, Basil of Caesarea, St. Gregory of Nyssa, St. Jerome, St. Augustine of Hippo, St. Vincent of Lerins, St. Cyril of Alexandria, and St. Maximus the Confessor.\r\rThe Second Vatican Council drew heavily upon Patristic thought as seen in the French term “ressourcement” (a return to the sources) which was one of two major emphases at Vatican II. See the “Fathers” section of the Reference tab.\r\rFurther Reference:\rWikipedia, “Church Fathers”\rhttp://tinyurl.com/2efb7l\r\r\r\r";
         fathersSource.bigPic = [UIImage imageNamed:@"fathers"];
         UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Sources" style:UIBarButtonItemStylePlain target:nil action:nil];
         self.navigationItem.backBarButtonItem = backButton;
@@ -88,7 +88,7 @@
         Source *liturgySource = [[Source alloc] init];
         liturgySource.name = @"Liturgy";
         liturgySource.twitterDef = @"The Worship of the Church";
-        liturgySource.comment = @"\rIn its broadest sense, Liturgy is the participation of the Church in the Paschal Mystery. More colloquially, the public worship of the Church is commonly referred to as Liturgy. The Sunday Mass is composed of the Liturgy of the Word and the Liturgy of the Eucharist. The former celebrates the Word of God and the latter celebrates the mystery of Christ's death and resurrection. The daily worship of the Church is known as the Liturgy of the Hours. In each of these, the Church expresses what it believes. This is known as the principle of Lex Orandi-Lex Credendi (“the law of prayer is the law of belief”). Liturgy is a source for Theology for precisely this reason.\r\rThe Dogmatic Constitution on the Sacred Liturgy, promulgated by the Second Vatican Council, is the most authoritative teaching by the Church on the Liturgy. Paragraph 2 states that the Liturgy,:\r\r“...through which the work of our redemption is accomplished, most of all in the divine sacrifice of the Eucharist, is the outstanding means whereby the faithful may express in their lives, and manifest to others, the mystery of Christ and the real nature of the true Church.”\r\rOne of the major reforms of Vatican II was the inclusion of the Liturgy in the vernacular, as opposed to Latin exclusively. The 1970 Novus Ordo was the basis of subsequent vernacular translations. Most recently, in 2011, the U.S. Bishops published a revised version of the Roman Missal, based on a formal correspondence translation philosophy.\r\rFurther Reference:\rCatechism of the Catholic Church, 1136-1199\rhttp://tinyurl.com/oa9lfkj\r\r";
+        liturgySource.comment = @"\rIn its broadest sense, Liturgy is the participation of the Church in the Paschal Mystery. More colloquially, the public worship of the Church is commonly referred to as Liturgy. The Sunday Mass is composed of the Liturgy of the Word and the Liturgy of the Eucharist. The former celebrates the Word of God and the latter celebrates the mystery of Christ's death and resurrection. The daily worship of the Church is known as the Liturgy of the Hours. In each of these, the Church expresses what it believes. This is known as the principle of Lex Orandi-Lex Credendi (“the law of prayer is the law of belief”). Liturgy is a source for Theology for precisely this reason.\r\rThe Dogmatic Constitution on the Sacred Liturgy, promulgated by the Second Vatican Council, is the most authoritative teaching by the Church on the Liturgy. Paragraph 2 states that the Liturgy,:\r\r“...through which the work of our redemption is accomplished, most of all in the divine sacrifice of the Eucharist, is the outstanding means whereby the faithful may express in their lives, and manifest to others, the mystery of Christ and the real nature of the true Church.”\r\rOne of the major reforms of Vatican II was the inclusion of the Liturgy in the vernacular, as opposed to Latin exclusively. The 1970 Novus Ordo was the basis of subsequent vernacular translations. Most recently, in 2011, the U.S. Bishops published a revised version of the Roman Missal, based on a formal correspondence translation philosophy.\r\rFurther Reference:\rCatechism of the Catholic Church, 1136-1199\rhttp://tinyurl.com/oa9lfkj\r\r\r\r";
         liturgySource.bigPic = [UIImage imageNamed:@"liturgy7"];
         //liturgySource.scrollPic = [UIImage imageNamed:@"stainedColor"];
         UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Sources"
@@ -105,7 +105,7 @@
         Source *councilsSource = [[Source alloc] init];
         councilsSource.name = @"Ecumenical Councils";
         councilsSource.twitterDef = @"The Church Seeking Discernment";
-        councilsSource.comment = @"\rEcumenical Councils are called to settle matters of faith and practice. In the Catholic Tradition, there have been 21 such Councils. They are:\r\r-Nicea, A.D. 325\r-Constantionople, A.D. 381\r-Ephesus, A.D. 431\r\rThe most recent Council, Vatican, II, was called by Pope John XXIII in 1962 and held session until 1965. Its procedings were approved by Pope Paul VI. Vatican II produced four Dogmatic Constitutions, which are teachings that carry the highest authority within Magisterial statements.\r\r";
+        councilsSource.comment = @"\rEcumenical Councils are called to settle matters of faith and practice. In the Catholic Tradition, there have been 21 such Councils. They are:\r\r-Nicea, A.D. 325\r-Constantionople, A.D. 381\r-Ephesus, A.D. 431\r\rThe most recent Council, Vatican, II, was called by Pope John XXIII in 1962 and held session until 1965. Its procedings were approved by Pope Paul VI. Vatican II produced four Dogmatic Constitutions, which are teachings that carry the highest authority within Magisterial statements.\r\r\r\r";
         councilsSource.bigPic = [UIImage imageNamed:@"vaticanII"];
         UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Sources"
                                                                        style:UIBarButtonItemStylePlain
@@ -145,87 +145,6 @@
                                                                       action:nil];
         self.navigationItem.backBarButtonItem = backButton;
         ((SourcesDetailViewController *)segue.destinationViewController).currentSourceDetail = scienceSource;
-        }
-    
-    else if ([segue.identifier isEqualToString:@"philosophyDetail"])
-        {
-        Source *philosophySource = [[Source alloc] init];
-        philosophySource.name = @"Philosophy";
-        philosophySource.twitterDef = @"The Love of Wisdom";
-        philosophySource.comment = @"\rPhilosophy is a product of the human quest to know reality. As such, it has a unique relation to Theology among other Signs of the Times in that it offers a set of rational tools that Theology uses to better understand the Faith. However, apart from its theological appropriation, Philosophy also has an authentic independence which is exercised in the search for truth. The most extensive Magisterial treatment of the relationship between Theology and Philosophy was Pope John Paul II's 1998 encyclical, Fides Et Ratio (Faith and Reason).\r\r";
-        philosophySource.bigPic = [UIImage imageNamed:@"thinker"];
-        UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Signs"
-                                                                       style:UIBarButtonItemStylePlain
-                                                                      target:nil
-                                                                      action:nil];
-        self.navigationItem.backBarButtonItem = backButton;
-        ((SourcesDetailViewController *)segue.destinationViewController).currentSourceDetail = philosophySource;
-        }
-    
-    else if ([segue.identifier isEqualToString:@"technologyDetail"])
-        {
-        
-        Source *technologySource = [[Source alloc] init];
-        technologySource.name = @"Technology";
-        technologySource.twitterDef = @"Tools of Human Development";
-        technologySource.comment = @"\rSince it coincided with and enabled the evolution of homo sapiens, technology has always influenced and been an expression of human creativity.";
-        technologySource.bigPic = [UIImage imageNamed:@"tech1"];
-        UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Signs"
-                                                                       style:UIBarButtonItemStylePlain
-                                                                      target:nil
-                                                                      action:nil];
-        self.navigationItem.backBarButtonItem = backButton;
-        ((SourcesDetailViewController *)segue.destinationViewController).currentSourceDetail = technologySource;
-        
-        }
-    
-    else if ([segue.identifier isEqualToString:@"economicsDetail"])
-        {
-        Source *economicsSource = [[Source alloc] init];
-        economicsSource.name = @"Economics";
-        economicsSource.twitterDef = @"Material Goods and Services";
-        economicsSource.bigPic = [UIImage imageNamed:@"stock"];
-        economicsSource.comment = @"\rHuman development is includes an economic aspect.";
-        UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Signs"
-                                                                       style:UIBarButtonItemStylePlain
-                                                                      target:nil
-                                                                      action:nil];
-        self.navigationItem.backBarButtonItem = backButton;
-        ((SourcesDetailViewController *)segue.destinationViewController).currentSourceDetail = economicsSource;
-        
-        }
-    else if ([segue.identifier isEqualToString:@"artsDetail"])
-        {
-        Source *artsSource = [[Source alloc] init];
-        artsSource.name = @"Arts";
-        artsSource.twitterDef = @"The Heart in Motion";
-        artsSource.bigPic = [UIImage imageNamed:@"arts"];
-        artsSource.comment = @"\rHumans have always expressed their hopes, dreams, fears, frustrations, and questions through the Arts; they are as old as humanity itself. The Arts are traditionally categoriezed as literary, performing, culinary, media, and visual.\r\rThe earliest recorded art was paintings on cave walls. Early humans depicted those phenomena that provoked reflection, from their fears of and conquests over animals to the wonder at the natural world and night sky. The development of agrarian societies brought about the development of song, dance, and drama. ";
-        
-        UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Signs"
-                                                                       style:UIBarButtonItemStylePlain
-                                                                      target:nil
-                                                                      action:nil];
-        self.navigationItem.backBarButtonItem = backButton;
-        ((SourcesDetailViewController *)segue.destinationViewController).currentSourceDetail = artsSource;
-        }
-    else if ([segue.identifier isEqualToString:@"politicsDetail"])
-        {
-        Source *politicsSource = [[Source alloc] init];
-        politicsSource.name = @"Politics";
-        politicsSource.twitterDef = @"The Affairs of the People";
-        politicsSource.bigPic = [UIImage imageNamed:@"capitol2"];
-        politicsSource.comment = @"\rThe regulation of human society is essential to its survival and development.";
-        
-        SourcesDetailViewController *sourcesDetailViewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"SourcesDetailViewController"];
-        
-        sourcesDetailViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
-        
-        UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Signs"
-                                                                       style:UIBarButtonItemStylePlain target:nil action:nil];
-        self.navigationItem.backBarButtonItem = backButton;
-        ((SourcesDetailViewController *)segue.destinationViewController).currentSourceDetail = politicsSource;
-        
         }
     
 }

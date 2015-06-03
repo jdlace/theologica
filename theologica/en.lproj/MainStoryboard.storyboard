@@ -240,7 +240,7 @@
                                 <color key="currentPageIndicatorTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </pageControl>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="csq-Y7-Xuc" firstAttribute="top" secondItem="Qri-dU-Pqc" secondAttribute="bottom" constant="35" id="EbO-TG-kUj">
                                 <variation key="widthClass=compact" constant="24"/>
@@ -254,7 +254,7 @@
                                 <action selector="aboutButton:" destination="eI4-6J-SyD" id="OZB-69-hkR"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Info" id="oVD-Rs-JKi">
+                        <barButtonItem key="rightBarButtonItem" title="Contact" id="oVD-Rs-JKi">
                             <connections>
                                 <action selector="infoButton:" destination="eI4-6J-SyD" id="AHY-Vr-9D9"/>
                             </connections>
@@ -635,8 +635,11 @@
                                                 <variation key="heightClass=regular" ambiguous="YES" misplaced="YES">
                                                     <rect key="frame" x="13" y="64" width="307" height="96"/>
                                                 </variation>
+                                                <variation key="widthClass=compact" misplaced="YES">
+                                                    <rect key="frame" x="14" y="86" width="379" height="38"/>
+                                                </variation>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" lineBreakMode="wordWrap" numberOfLines="2" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Cv-Rb-2Ws">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" minimumFontSize="9" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Cv-Rb-2Ws">
                                                 <rect key="frame" x="11" y="165" width="308" height="35"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                                 <nil key="highlightedColor"/>
@@ -655,7 +658,7 @@
                                                     <rect key="frame" x="10" y="220" width="300" height="320"/>
                                                 </variation>
                                                 <variation key="widthClass=compact" misplaced="YES">
-                                                    <rect key="frame" x="8" y="229" width="384" height="318"/>
+                                                    <rect key="frame" x="8" y="244" width="384" height="303"/>
                                                 </variation>
                                             </textView>
                                             <imageView userInteractionEnabled="NO" alpha="0.14999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="defdetail-1" translatesAutoresizingMaskIntoConstraints="NO" id="uNV-2X-cOG">
@@ -706,6 +709,7 @@
                                                 <variation key="widthClass=compact" constant="8"/>
                                             </constraint>
                                             <constraint firstAttribute="trailing" secondItem="8Cv-Rb-2Ws" secondAttribute="trailing" constant="8" id="mHI-Vp-NeC"/>
+                                            <constraint firstItem="zrc-9h-0bq" firstAttribute="top" secondItem="uNV-2X-cOG" secondAttribute="top" constant="25" id="prP-62-YxE"/>
                                             <constraint firstItem="8Cv-Rb-2Ws" firstAttribute="leading" secondItem="dJw-hN-JR5" secondAttribute="leading" constant="11" id="psg-WD-z3d">
                                                 <variation key="widthClass=compact" constant="14"/>
                                             </constraint>
@@ -716,11 +720,12 @@
                                                 <variation key="widthClass=compact" constant="-3"/>
                                             </constraint>
                                             <constraint firstAttribute="width" secondItem="uNV-2X-cOG" secondAttribute="height" multiplier="80:37" constant="10.810810810810779" id="tnj-fl-Ehs">
-                                                <variation key="widthClass=compact" constant="43.243243243243228"/>
+                                                <variation key="widthClass=compact" constant="10.810810810810779"/>
                                             </constraint>
                                             <constraint firstAttribute="trailing" secondItem="8Cv-Rb-2Ws" secondAttribute="trailing" constant="5" id="u9y-BC-cam">
                                                 <variation key="widthClass=compact" constant="8"/>
                                             </constraint>
+                                            <constraint firstItem="zrc-9h-0bq" firstAttribute="top" secondItem="8Cv-Rb-2Ws" secondAttribute="top" constant="-79" id="wAt-UA-HHv"/>
                                             <constraint firstItem="zrc-9h-0bq" firstAttribute="centerX" secondItem="8Cv-Rb-2Ws" secondAttribute="centerX" id="we4-7A-zoH"/>
                                             <constraint firstItem="8Cv-Rb-2Ws" firstAttribute="top" secondItem="zrc-9h-0bq" secondAttribute="bottom" constant="8" id="xAc-3W-mbf">
                                                 <variation key="widthClass=compact" constant="63"/>
@@ -741,8 +746,10 @@
                                                 <exclude reference="Oa1-oT-B2W"/>
                                                 <exclude reference="dWT-Gc-9lv"/>
                                                 <exclude reference="gUD-Bh-436"/>
+                                                <exclude reference="prP-62-YxE"/>
                                                 <exclude reference="s2A-GS-kW7"/>
                                                 <exclude reference="tPG-1c-uaV"/>
+                                                <exclude reference="wAt-UA-HHv"/>
                                                 <exclude reference="we4-7A-zoH"/>
                                                 <exclude reference="yAH-dY-kQR"/>
                                                 <exclude reference="G6A-oR-saC"/>
@@ -773,9 +780,11 @@
                                                 <include reference="Oa1-oT-B2W"/>
                                                 <exclude reference="Sy6-sQ-FQ4"/>
                                                 <exclude reference="dWT-Gc-9lv"/>
-                                                <include reference="gUD-Bh-436"/>
+                                                <exclude reference="gUD-Bh-436"/>
+                                                <include reference="prP-62-YxE"/>
                                                 <exclude reference="s2A-GS-kW7"/>
                                                 <exclude reference="tPG-1c-uaV"/>
+                                                <include reference="wAt-UA-HHv"/>
                                                 <exclude reference="we4-7A-zoH"/>
                                                 <include reference="yAH-dY-kQR"/>
                                                 <exclude reference="G6A-oR-saC"/>
@@ -783,7 +792,7 @@
                                                 <exclude reference="PDF-iO-EdA"/>
                                                 <exclude reference="TX9-A7-GVs"/>
                                                 <exclude reference="UhM-ee-CvG"/>
-                                                <include reference="eDf-cY-xhR"/>
+                                                <exclude reference="eDf-cY-xhR"/>
                                                 <exclude reference="fle-Uw-eWf"/>
                                                 <exclude reference="hKK-17-f2Q"/>
                                                 <include reference="mHI-Vp-NeC"/>

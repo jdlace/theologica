@@ -111,9 +111,33 @@
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>Whispers in the Loggia</string>
+			<string>Bishops: France</string>
 			<key>URL</key>
-			<string>http://whispersintheloggia.blogspot.com</string>
+			<string>http://www.eglise.catholique.fr</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Bishops: England &amp; Wales</string>
+			<key>URL</key>
+			<string>http://www.cbcew.org.uk</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Bishops: Canada</string>
+			<key>URL</key>
+			<string>http://www.cccb.ca/site/eng/</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Bishops: Australia</string>
+			<key>URL</key>
+			<string>https://www.catholic.org.au</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Bishops: United States</string>
+			<key>URL</key>
+			<string>http://www.usccb.org</string>
 		</dict>
 	</array>
 	<key>Scripture</key>
@@ -180,9 +204,9 @@
 	<array>
 		<dict>
 			<key>Name</key>
-			<string>Lectionary</string>
+			<string>Universalis</string>
 			<key>URL</key>
-			<string>http://www.universalis.com/mass.htm</string>
+			<string>http://www.universalis.com</string>
 		</dict>
 		<dict>
 			<key>Name</key>
@@ -222,12 +246,6 @@
 			<string>International Theological Commission</string>
 			<key>URL</key>
 			<string>http://www.vatican.va/roman_curia/congregations/cfaith/cti_index.htm</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>La Nouvelle Theologie</string>
-			<key>URL</key>
-			<string>http://ressourcement.blogspot.com</string>
 		</dict>
 		<dict>
 			<key>Name</key>
