@@ -635,9 +635,6 @@
                                                 <variation key="heightClass=regular" ambiguous="YES" misplaced="YES">
                                                     <rect key="frame" x="13" y="64" width="307" height="96"/>
                                                 </variation>
-                                                <variation key="widthClass=compact" misplaced="YES">
-                                                    <rect key="frame" x="14" y="86" width="379" height="38"/>
-                                                </variation>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" minimumFontSize="9" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Cv-Rb-2Ws">
                                                 <rect key="frame" x="11" y="165" width="308" height="35"/>
@@ -656,9 +653,6 @@
                                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                                                 <variation key="heightClass=regular" ambiguous="YES" misplaced="YES">
                                                     <rect key="frame" x="10" y="220" width="300" height="320"/>
-                                                </variation>
-                                                <variation key="widthClass=compact" misplaced="YES">
-                                                    <rect key="frame" x="8" y="244" width="384" height="303"/>
                                                 </variation>
                                             </textView>
                                             <imageView userInteractionEnabled="NO" alpha="0.14999999999999999" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="defdetail-1" translatesAutoresizingMaskIntoConstraints="NO" id="uNV-2X-cOG">
@@ -702,14 +696,16 @@
                                             </constraint>
                                             <constraint firstItem="8Cv-Rb-2Ws" firstAttribute="top" secondItem="zrc-9h-0bq" secondAttribute="bottom" constant="1" id="hKK-17-f2Q"/>
                                             <constraint firstItem="RCD-3l-VQc" firstAttribute="top" secondItem="uNV-2X-cOG" secondAttribute="bottom" constant="6" id="kWX-kh-120">
-                                                <variation key="widthClass=compact" constant="-1"/>
+                                                <variation key="widthClass=compact" constant="8" symbolic="YES"/>
                                             </constraint>
                                             <constraint firstAttribute="trailing" secondItem="RCD-3l-VQc" secondAttribute="trailing" constant="11" id="kfo-b2-m7A">
                                                 <variation key="heightClass=regular" constant="11"/>
                                                 <variation key="widthClass=compact" constant="8"/>
                                             </constraint>
                                             <constraint firstAttribute="trailing" secondItem="8Cv-Rb-2Ws" secondAttribute="trailing" constant="8" id="mHI-Vp-NeC"/>
-                                            <constraint firstItem="zrc-9h-0bq" firstAttribute="top" secondItem="uNV-2X-cOG" secondAttribute="top" constant="25" id="prP-62-YxE"/>
+                                            <constraint firstItem="zrc-9h-0bq" firstAttribute="top" secondItem="uNV-2X-cOG" secondAttribute="top" constant="25" id="prP-62-YxE">
+                                                <variation key="widthClass=compact" constant="21"/>
+                                            </constraint>
                                             <constraint firstItem="8Cv-Rb-2Ws" firstAttribute="leading" secondItem="dJw-hN-JR5" secondAttribute="leading" constant="11" id="psg-WD-z3d">
                                                 <variation key="widthClass=compact" constant="14"/>
                                             </constraint>
@@ -725,7 +721,9 @@
                                             <constraint firstAttribute="trailing" secondItem="8Cv-Rb-2Ws" secondAttribute="trailing" constant="5" id="u9y-BC-cam">
                                                 <variation key="widthClass=compact" constant="8"/>
                                             </constraint>
-                                            <constraint firstItem="zrc-9h-0bq" firstAttribute="top" secondItem="8Cv-Rb-2Ws" secondAttribute="top" constant="-79" id="wAt-UA-HHv"/>
+                                            <constraint firstItem="zrc-9h-0bq" firstAttribute="top" secondItem="8Cv-Rb-2Ws" secondAttribute="top" constant="-79" id="wAt-UA-HHv">
+                                                <variation key="widthClass=compact" constant="-75"/>
+                                            </constraint>
                                             <constraint firstItem="zrc-9h-0bq" firstAttribute="centerX" secondItem="8Cv-Rb-2Ws" secondAttribute="centerX" id="we4-7A-zoH"/>
                                             <constraint firstItem="8Cv-Rb-2Ws" firstAttribute="top" secondItem="zrc-9h-0bq" secondAttribute="bottom" constant="8" id="xAc-3W-mbf">
                                                 <variation key="widthClass=compact" constant="63"/>
