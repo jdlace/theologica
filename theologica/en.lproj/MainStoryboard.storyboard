@@ -240,7 +240,7 @@
                                 <color key="currentPageIndicatorTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </pageControl>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="csq-Y7-Xuc" firstAttribute="top" secondItem="Qri-dU-Pqc" secondAttribute="bottom" constant="35" id="EbO-TG-kUj">
                                 <variation key="widthClass=compact" constant="24"/>
@@ -661,7 +661,7 @@
                                                     <rect key="frame" x="8" y="244" width="384" height="303"/>
                                                 </variation>
                                             </textView>
-                                            <imageView userInteractionEnabled="NO" alpha="0.14999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="defdetail-1" translatesAutoresizingMaskIntoConstraints="NO" id="uNV-2X-cOG">
+                                            <imageView userInteractionEnabled="NO" alpha="0.14999999999999999" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="defdetail-1" translatesAutoresizingMaskIntoConstraints="NO" id="uNV-2X-cOG">
                                                 <rect key="frame" x="0.0" y="70" width="320" height="143"/>
                                             </imageView>
                                         </subviews>
@@ -720,7 +720,7 @@
                                                 <variation key="widthClass=compact" constant="-3"/>
                                             </constraint>
                                             <constraint firstAttribute="width" secondItem="uNV-2X-cOG" secondAttribute="height" multiplier="80:37" constant="10.810810810810779" id="tnj-fl-Ehs">
-                                                <variation key="widthClass=compact" constant="10.810810810810779"/>
+                                                <variation key="widthClass=compact" constant="11"/>
                                             </constraint>
                                             <constraint firstAttribute="trailing" secondItem="8Cv-Rb-2Ws" secondAttribute="trailing" constant="5" id="u9y-BC-cam">
                                                 <variation key="widthClass=compact" constant="8"/>

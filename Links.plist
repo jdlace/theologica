@@ -111,12 +111,6 @@
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>Bishops: France</string>
-			<key>URL</key>
-			<string>http://www.eglise.catholique.fr</string>
-		</dict>
-		<dict>
-			<key>Name</key>
 			<string>Bishops: England &amp; Wales</string>
 			<key>URL</key>
 			<string>http://www.cbcew.org.uk</string>

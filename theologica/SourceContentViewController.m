@@ -105,7 +105,7 @@
         Source *councilsSource = [[Source alloc] init];
         councilsSource.name = @"Ecumenical Councils";
         councilsSource.twitterDef = @"The Church Seeking Discernment";
-        councilsSource.comment = @"\rEcumenical Councils are called to settle matters of faith and practice. In the Catholic Tradition, there have been 21 such Councils. They are:\r\r-Nicea, A.D. 325\r-Constantionople, A.D. 381\r-Ephesus, A.D. 431\r\rThe most recent Council, Vatican, II, was called by Pope John XXIII in 1962 and held session until 1965. Its procedings were approved by Pope Paul VI. Vatican II produced four Dogmatic Constitutions, which are teachings that carry the highest authority within Magisterial statements.\r\r\r\r";
+        councilsSource.comment = @"\rEcumenical Councils are called to settle matters of faith and practice. In the Catholic Tradition, there have been 21 such Councils. They are:\r\r1. Nicea, 325\r2. Constantionople, 381\r3. Ephesus, 431\r4. Chalcedon, 451\r5. Constantinople II, 553\r6. Constantinople III, 680-681\r7. Nicea II, 787\r8. Constantinople IV, 869-870\r9. Lateran I, 1123\r10. Lateran II, 1139\r11. Lateran III, 1179\r12. Lateran IV, 1215\r13. Lyon I, 1245\r14. Lyon II, 1274\r15. Vienne, 1311-1312\r16. Constance, 1414-1418\r17. Florence, 1431-1445\r18. Lateran V, 1512-1517\r19. Trent, 1545-1563\r20. Vatican I, 1870\r21. Vatican II, 1962-1965\r\rThe most recent Council, Vatican, II, was called by Pope John XXIII in 1962 and held session until 1965. Its procedings were approved by Pope Paul VI. Vatican II produced four Dogmatic Constitutions, which are teachings that carry the highest authority within Magisterial statements. See the Historical category of pins in the Maps tab.\r\r\r\r";
         councilsSource.bigPic = [UIImage imageNamed:@"vaticanII"];
         UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Sources"
                                                                        style:UIBarButtonItemStylePlain
@@ -121,7 +121,7 @@
         Source *creedsSource = [[Source alloc] init];
         creedsSource.name = @"Creeds";
         creedsSource.twitterDef = @"Statements of Faith";
-        creedsSource.comment = @"\rThe Creeds of the Church give expression to the Faith of the Church.";
+        creedsSource.comment = @"\rThe Creeds of the Church give expression to the Faith of the Church. ";
         creedsSource.bigPic = [UIImage imageNamed:@"creed2"];
         
         UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Sources"
