@@ -153,7 +153,7 @@
 
 - (IBAction)theologicaButton:(id)sender {
     
-    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"The Sources of Theology"  message:@"Theology draws on its Sources (Magisterium, Scripture, Fathers, Councils, Creeds, Liturgy) to interpret the Signs of the Times; cultural trends that affect the worldview of human beings in any given time." preferredStyle:(UIAlertControllerStyleAlert)];
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"The Sources of Theology"  message:@"The Sources of Theology are those elements of the Christian Tradition which are essential to the life of the Church and to reflection upon the Faith. They are all inter-related as expressions of the human attempt to interpret Divine Revelation in all aspects of human experience." preferredStyle:(UIAlertControllerStyleAlert)];
     
     UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"Amen" style:UIAlertActionStyleDefault
                                                           handler:^(UIAlertAction * action) {}];

@@ -48,12 +48,19 @@
     jerusalem.image = [UIImage imageNamed:@"jerusalem"];
     jerusalem.information = @"\rAccording to 2 Samuel 24:24, King David purchased Jerusalem from the Jebusites and designated it the capital of his united kingdom. Solomon built the Temple on Mount Moriah in Jerusalem along with his palace. The city was destroyed by the Babylonians in 587 B.C. and re-established in 538 after the return of the Jews from the Exile. It served as the religious center of Palestine during the Roman occupation from 63 B.C. to its destruction in A.D. 70 by the Romans.\r\rThe city was rebuilt successively throughout the period of the Ottoman Empire. It is currently divided between Palestine and Israel.\r\rFurther Reference:\rWikipedia, “Jerusalem”\rhttp://tinyurl.com/2f662p\r\rCoordinates:\r31.7883, 35.2167\r\r\r";
     
+    BiblicalPins *gehenna = [[BiblicalPins alloc] init];
+    gehenna.coordinate = CLLocationCoordinate2DMake(31.768406, 35.230439);
+    gehenna.title = @"Gehenna";
+    gehenna.subtitle = @"The Valley of Ben-Hinnom";
+    gehenna.image = [UIImage imageNamed:@"gehenna"];
+    gehenna.information = @"\rGehenna was a valley, south of Jerusalem, where apostate Israelites would sacrifice their infants by burning them alive to worship the god Molech. It is mentioned several times in the Hebrew Scriptures. In Second Temple Judaism, it came to regarded as representative and a shorthand for everything evil and worthy of YHWH's punishment. This is the location that Jesus is portrayed as alluding to when he mentions Gehenna, which was later translated as “hell”.\r\rFurther Reference:\rWikipedia, “Gehenna”\rhttp://tinyurl.com/ymbj2d\r\r\rCoordinates: 31.768406, 35.230439";
+    
     BiblicalPins *rome = [[BiblicalPins alloc] init];
     rome.coordinate = CLLocationCoordinate2DMake(41.8900, 12.4938);
     rome.title = @"Rome";
     rome.subtitle = @"Capital of the Roman Empire";
     rome.image = [UIImage imageNamed:@"rome-1"];
-    rome.information = @"\rRome was the capital of the Roman Republic and Empire. It was the longest lasting dominant civilization in the Western hemisphere. The Church of Rome was established in the first century and quickly acquired a reputation for generosity. Ignatius of Antioch refers to the Roman church as that which “presides in love”. According to tradition, both Peter and Paul were martyred there during the persecution under Nero in A.D. 64.\r\rFurther Reference:\rWikipedia, “Ancient Rome”\rhttp://tinyurl.com/8wskrCoordinates:\r41.8900, 12.4938\r\r\r";
+    rome.information = @"\rRome was the capital of the Roman Republic and Empire. It was the longest lasting dominant civilization in the Western hemisphere. The Church of Rome was established in the first century and quickly acquired a reputation for generosity. Ignatius of Antioch refers to the Roman church as that which “presides in love”. According to tradition, both Peter and Paul were martyred there during the persecution under Nero in A.D. 64.\r\rFurther Reference:\rWikipedia, “Ancient Rome”\rhttp://tinyurl.com/8wskr\r\rCoordinates:\r41.8900, 12.4938\r\r\r";
     
     BiblicalPins *nazareth = [[BiblicalPins alloc] init];
     nazareth.coordinate = CLLocationCoordinate2DMake(32.7000, 35.3040);
@@ -341,7 +348,7 @@
 
 
     
-    NSArray *annotations = [NSArray arrayWithObjects:jerusalem, bethEl, ephesus, corinth, dan, temple, hazor, nicea, greenland, greatbr, philippines, rome, nazareth, capernaum, sierraLeone, camden, atlantic, rome2, constantinople, palestine, israel, alexandria, thessalonica, philippi, antioch, bethlehem, ramah, hebron, shiloh, lyon, vienne, chalcedon, constance, trent, florence, lateran, uganda, colossae, sepphoris, asheville, burma, ephesus2, nil];
+    NSArray *annotations = [NSArray arrayWithObjects:jerusalem, gehenna, bethEl, ephesus, corinth, dan, temple, hazor, nicea, greenland, greatbr, philippines, rome, nazareth, capernaum, sierraLeone, camden, atlantic, rome2, constantinople, palestine, israel, alexandria, thessalonica, philippi, antioch, bethlehem, ramah, hebron, shiloh, lyon, vienne, chalcedon, constance, trent, florence, lateran, uganda, colossae, sepphoris, asheville, burma, ephesus2, nil];
     
     [self.mapView addAnnotations:annotations];
 
@@ -542,6 +549,13 @@
                                       jerusalem.image = [UIImage imageNamed:@"jerusalem"];
                                       jerusalem.information = @"\rAccording to 2 Samuel 24:24, King David purchased Jerusalem from the Jebusites and designated it the capital of his united kingdom. Solomon built the Temple on Mount Moriah in Jerusalem along with his palace. The city was destroyed by the Babylonians in 587 B.C. and re-established in 538 after the return of the Jews from the Exile. It served as the religious center of Palestine during the Roman occupation from 63 B.C. to its destruction in A.D. 70 by the Romans.\r\rThe city was rebuilt successively throughout the period of the Ottoman Empire. It is currently divided between Palestine and Israel.\r\rCoordinates:\r31.7883, 35.2167\r\r\r";
                                       
+                                      BiblicalPins *gehenna = [[BiblicalPins alloc] init];
+                                      gehenna.coordinate = CLLocationCoordinate2DMake(31.768406, 35.230439);
+                                      gehenna.title = @"Gehenna";
+                                      gehenna.subtitle = @"The Valley of Ben-Hinnom";
+                                      gehenna.image = [UIImage imageNamed:@"gehenna"];
+                                      gehenna.information = @"\rGehenna was a valley, south of Jerusalem, where apostate Israelites would sacrifice their infants by burning them alive to worship the god Molech. It is mentioned several times in the Hebrew Scriptures. In Second Temple Judaism, it came to regarded as representative and a shorthand for everything evil and worthy of YHWH's punishment. This is the location that Jesus is portrayed as alluding to when he mentions Gehenna, which was later translated as “hell”.\r\rFurther Reference:\rWikipedia, “Gehenna”\rhttp://tinyurl.com/ymbj2d\r\r\rCoordinates: 31.768406, 35.230439";
+                                      
                                       BiblicalPins *bethEl = [[BiblicalPins alloc] init];
                                       bethEl.coordinate = CLLocationCoordinate2DMake(31.9390, 35.2260);
                                       bethEl.title = @"Beth-El";
@@ -593,7 +607,7 @@
                                       
                                       
                                       
-                                      NSArray *annotations = [NSArray arrayWithObjects:jerusalem, dan, bethEl, temple, hazor,jericho, shiloh, hebron, nil];
+                                      NSArray *annotations = [NSArray arrayWithObjects:jerusalem, gehenna, dan, bethEl, temple, hazor,jericho, shiloh, hebron, nil];
                                       [self.mapView addAnnotations:annotations];
                                       
                                       MKCoordinateSpan span = MKCoordinateSpanMake(03.0000f,03.0000f);
@@ -618,6 +632,13 @@
                                    nazareth.subtitle = @"Traditional Hometown of Jesus";
                                    nazareth.image = [UIImage imageNamed:@"nazareth"];
                                    nazareth.information = @"\rThe town of Nazareth is not mentioned in the Hebrew Scriptures. It was a small village only 4 miles from Sepphoris, the captial city of Herod Antipas. All of the Gospels claim that Jesus was from Nazareth. One of the terms used to describe the early Christians was “Nazarenes” after the same term was applied to Jesus.\r\rFurther Reference:\rWikipedia, “Nazareth”\r\rCoordinates:\r32.7000, 35.3040\r\r\r";
+                                   
+                                   BiblicalPins *gehenna = [[BiblicalPins alloc] init];
+                                   gehenna.coordinate = CLLocationCoordinate2DMake(31.768406, 35.230439);
+                                   gehenna.title = @"Gehenna";
+                                   gehenna.subtitle = @"The Valley of Ben-Hinnom";
+                                   gehenna.image = [UIImage imageNamed:@"gehenna"];
+                                   gehenna.information = @"\rGehenna was a valley, south of Jerusalem, where apostate Israelites would sacrifice their infants by burning them alive to worship the god Molech. It is mentioned several times in the Hebrew Scriptures. In Second Temple Judaism, it came to regarded as representative and a shorthand for everything evil and worthy of YHWH's punishment. This is the location that Jesus is portrayed as alluding to when he mentions Gehenna, which was later translated as “hell”.\r\rFurther Reference:\rWikipedia, “Gehenna”\rhttp://tinyurl.com/ymbj2d\r\r\rCoordinates: 31.768406, 35.230439";
                                    
                                    BiblicalPins *capernaum = [[BiblicalPins alloc] init];
                                    capernaum.coordinate = CLLocationCoordinate2DMake(32.8811, 35.5750);
@@ -706,7 +727,7 @@
                                        sepphoris.image = [UIImage imageNamed:@"sepphoris"];
                                        sepphoris.information = @"\rAlthough it is not mentioned in Scripture, Sepphoris was a major city in Galilee and the captial city of Herod Antipas. It is likely that Jesus of Nazareth worked in or around this city before beginning his prophetic ministry.\r\rFurther Reference:\rWikipedia, “Sepphoris”\rhttp://tinyurl.com/p38eyob\r\rCoordinates:\r32.7529, 35.2795\r\r\r";
                                    
-                                   NSArray *annotations = [NSArray arrayWithObjects: nazareth, ephesus, corinth, rome, thessalonica, philippi, capernaum, colossae, temple, jerusalem, antioch, bethlehem, sepphoris, nil];
+                                   NSArray *annotations = [NSArray arrayWithObjects: nazareth, ephesus, corinth, rome, thessalonica, philippi, capernaum, colossae, temple, jerusalem, antioch, bethlehem, sepphoris, gehenna, nil];
                                    [self.mapView addAnnotations:annotations];
                                    
                                    MKCoordinateSpan span = MKCoordinateSpanMake(40.0000f,40.0000f);
@@ -940,6 +961,13 @@
                                    jerusalem.subtitle = @"Capital of the Davidic Dynasty";
                                    jerusalem.image = [UIImage imageNamed:@"jerusalem"];
                                    jerusalem.information = @"\rAccording to 2 Samuel 24:24, King David purchased Jerusalem from the Jebusites and designated it the capital of his united kingdom. Solomon built the Temple on Mount Moriah in Jerusalem along with his palace. The city was destroyed by the Babylonians in 587 B.C. and re-established in 538 after the return of the Jews from the Exile. It served as the religious center of Palestine during the Roman occupation from 63 B.C. to its destruction in A.D. 70 by the Romans.\r\rThe city was rebuilt successively throughout the period of the Ottoman Empire. It is currently divided between Palestine and Israel.\r\rFurther Reference:\rWikipedia, “Jerusalem”\rhttp://tinyurl.com/2f662p\r\rCoordinates:\r31.7883, 35.2167\r\r\r";
+                                   
+                                   BiblicalPins *gehenna = [[BiblicalPins alloc] init];
+                                   gehenna.coordinate = CLLocationCoordinate2DMake(31.768406, 35.230439);
+                                   gehenna.title = @"Gehenna";
+                                   gehenna.subtitle = @"The Valley of Ben-Hinnom";
+                                   gehenna.image = [UIImage imageNamed:@"gehenna"];
+                                   gehenna.information = @"\rGehenna was a valley, south of Jerusalem, where apostate Israelites would sacrifice their infants by burning them alive to worship the god Molech. It is mentioned several times in the Hebrew Scriptures. In Second Temple Judaism, it came to regarded as representative and a shorthand for everything evil and worthy of YHWH's punishment. This is the location that Jesus is portrayed as alluding to when he mentions Gehenna, which was later translated as “hell”.\r\rFurther Reference:\rWikipedia, “Gehenna”\rhttp://tinyurl.com/ymbj2d\r\r\rCoordinates: 31.768406, 35.230439";
                                    
                                    BiblicalPins *rome = [[BiblicalPins alloc] init];
                                    rome.coordinate = CLLocationCoordinate2DMake(41.8900, 12.4938);
@@ -1234,7 +1262,7 @@
                                    
                                    
                                    
-                                   NSArray *annotations = [NSArray arrayWithObjects:jerusalem, bethEl, ephesus, corinth, dan, temple, hazor, nicea, greenland, greatbr, philippines, rome, nazareth, capernaum, sierraLeone, camden, atlantic, rome2, constantinople, palestine, israel, alexandria, thessalonica, philippi, antioch, bethlehem, ramah, hebron, shiloh, lyon, vienne, chalcedon, constance, trent, florence, lateran, uganda, colossae, sepphoris, asheville, burma, ephesus2, nil];
+                                   NSArray *annotations = [NSArray arrayWithObjects:jerusalem, bethEl, ephesus, corinth, dan, temple, hazor, nicea, greenland, greatbr, philippines, rome, nazareth, capernaum, sierraLeone, camden, atlantic, rome2, constantinople, palestine, israel, alexandria, thessalonica, philippi, antioch, bethlehem, ramah, hebron, shiloh, lyon, vienne, chalcedon, constance, trent, florence, lateran, uganda, colossae, sepphoris, asheville, burma, ephesus2, gehenna, nil];
                                    
                                    [self.mapView addAnnotations:annotations];
                                    

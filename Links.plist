@@ -204,27 +204,21 @@
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>Office of Readings</string>
+			<string>North American Academy of Liturgy</string>
 			<key>URL</key>
-			<string>http://www.universalis.com/readings.htm</string>
+			<string>http://www.naal-liturgy.org</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>Morning Prayer</string>
+			<string>Notre Dame Center for Liturgy</string>
 			<key>URL</key>
-			<string>http://www.universalis.com/-500/lauds.htm</string>
+			<string>http://liturgy.nd.edu</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>Evening Prayer</string>
+			<string>Cantus</string>
 			<key>URL</key>
-			<string>http://www.universalis.com/vespers.htm</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>Liturgical Calendar</string>
-			<key>URL</key>
-			<string>http://www.universalis.com/-500/calendar.htm</string>
+			<string>http://cantus.uwaterloo.ca</string>
 		</dict>
 	</array>
 	<key>Theology</key>

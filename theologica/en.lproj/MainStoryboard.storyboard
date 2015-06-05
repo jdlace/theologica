@@ -159,9 +159,12 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0e8-fc-qmC" userLabel="CenterButton">
                                 <rect key="frame" x="268" y="260" width="66" height="66"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <state key="normal" image="viewIcon">
-                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="theologicaButton:" destination="dvU-0B-EFX" eventType="touchUpInside" id="dPd-88-kyQ"/>
@@ -817,8 +820,7 @@
                                         <variation key="widthClass=compact" constant="-64"/>
                                     </constraint>
                                     <constraint firstItem="dJw-hN-JR5" firstAttribute="height" secondItem="zig-5D-WeL" secondAttribute="height" constant="20" id="pFG-60-INe">
-                                        <variation key="heightClass=regular" constant="63"/>
-                                        <variation key="widthClass=compact" constant="67"/>
+                                        <variation key="widthClass=compact" constant="63"/>
                                     </constraint>
                                 </constraints>
                                 <variation key="default">
@@ -833,7 +835,6 @@
                                 <variation key="widthClass=compact" ambiguous="YES">
                                     <rect key="frame" x="0.0" y="64" width="400" height="484"/>
                                     <mask key="constraints">
-                                        <exclude reference="PHh-Xs-sGo"/>
                                         <include reference="bVM-8E-WWV"/>
                                     </mask>
                                 </variation>
@@ -929,7 +930,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J0z-Jr-lHg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2630" y="-157.99999999999994"/>
+            <point key="canvasLocation" x="-2970" y="-159"/>
         </scene>
         <!--Map Detail View Controller-->
         <scene sceneID="KGy-XG-vXI">
@@ -1109,6 +1110,13 @@
                         </variation>
                     </view>
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" id="ZVa-wM-E4N">
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="TdA-rH-R5o">
+                            <connections>
+                                <action selector="share:" destination="L03-W3-WIw" id="bSU-Ck-CkM"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
@@ -1121,7 +1129,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J46-eX-ikX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1885" y="-159"/>
+            <point key="canvasLocation" x="-1371" y="-159"/>
         </scene>
         <!--Saved-->
         <scene sceneID="F4P-2m-AMn">
@@ -1157,7 +1165,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5jB-c8-fcU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-378.75" y="-482.74647887323943"/>
+            <point key="canvasLocation" x="538.5" y="-483"/>
         </scene>
         <!--Dictionary-->
         <scene sceneID="fAn-dN-fqo">
@@ -1203,7 +1211,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="quW-83-Xja" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1190.625" y="-482.74647887323943"/>
+            <point key="canvasLocation" x="-273" y="-483"/>
         </scene>
         <!--People-->
         <scene sceneID="zJW-Gp-0B7">
@@ -1626,9 +1634,15 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="efC-oT-svg" userLabel="CenterButton">
                                 <rect key="frame" x="268" y="267" width="66" height="66"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <state key="normal" image="viewIcon">
-                                    <color key="titleColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="theologicaButton:" destination="Df7-Os-W1j" eventType="touchUpInside" id="8d0-ie-gmq"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Philosophy" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ylo-a9-T8M">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -1843,6 +1857,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I1p-dc-Fde" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-403.5" y="-1035.75"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="JDv-EU-3ix">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1b7-DV-AZ2" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="qPS-89-uJY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="L03-W3-WIw" kind="relationship" relationship="rootViewController" id="Z94-iT-WEf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZdT-vd-YHc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2127" y="-149"/>
         </scene>
     </scenes>
     <resources>

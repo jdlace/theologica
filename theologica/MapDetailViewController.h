@@ -21,6 +21,7 @@
 
 
 @property (strong, nonatomic) Word *currentWordDetail;
+- (IBAction)share:(UIBarButtonItem *)sender;
 
 
 

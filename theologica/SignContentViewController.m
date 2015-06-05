@@ -131,5 +131,16 @@
         }
 }
 
+- (IBAction)theologicaButton:(id)sender {
+    
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"The Signs of the Times"  message:@"The Signs of the Times are those aspects of modern culture that affect the worldview of human beings in any given time, and therefore, affect the manner in which Theology communicates the Christian message. While not exhaustive, these 6 cultural indicators are essential to any coherent and relevant persentation of the Gospel." preferredStyle:(UIAlertControllerStyleAlert)];
+    
+    UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"Amen" style:UIAlertActionStyleDefault
+                                                          handler:^(UIAlertAction * action) {}];
+    
+    [alert addAction:defaultAction];
+    [self presentViewController:alert animated:YES completion:nil];
+}
+
 
 @end

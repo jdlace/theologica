@@ -73,10 +73,26 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+
 - (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView
 {
     return self.imageView;
 }
+
+-(IBAction)share:(UIBarButtonItem *)sender
+{
+    NSArray *activityItems;
+    activityItems = @[self.currentWordDetail.image, self.currentWordDetail.definition];
+    
+    //NSArray *activityActions;
+    
+    
+    UIActivityViewController *activityController = [[UIActivityViewController alloc] initWithActivityItems: activityItems applicationActivities:nil];
+    [self presentViewController:activityController
+                       animated:YES completion:nil];
+    }
+
 
 /*
 - (void) backButtonTapped:(id)sender

@@ -12,6 +12,8 @@
 
 @interface SignContentViewController : UIViewController
 
-@property NSUInteger pageIndex; 
+@property NSUInteger pageIndex;
+
+-(IBAction)theologicaButton:(id)sender;
 
 @end
