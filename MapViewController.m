@@ -336,8 +336,7 @@
     asheville.title = @"St. Eugene Church";
     asheville.subtitle = @"Renewable Energy Exemplar";
     asheville.image = [UIImage imageNamed:@"StEugene"];
-    asheville.image = [UIImage imageNamed:@"StEugene"];
-    asheville.information = @"\rSt. Eugene Church in Asheville, North Carolina, recently commited to using 100% renewable energy in the form of solar panels. These will sigificantly reduce its monthly energy bill.\r\r\r";
+    asheville.information = @"\rSt. Eugene Church in Asheville, North Carolina, recently commited to using 100% renewable energy in the form of solar panels. These will sigificantly reduce its monthly energy bill.\r\rFurther Reference:\rSt. Eugene Church, www.steugene.org\rhttp://tinyurl.com/ofblbtf\r\r\r";
     
     SocialPins *burma = [[SocialPins alloc] init];
     burma.coordinate = CLLocationCoordinate2DMake(22.0000,  96.0000);
@@ -345,10 +344,25 @@
     burma.subtitle = @"Religous Freedom Violations";
     burma.image = [UIImage imageNamed:@"Burma"];
     burma.information = @"\rBurma was categorized as a Tier 1 violator of religious freedom by the United States Commission on International Religious Freedom in 2015.\r\rFurther Reference:\rUSCIRF, Annual Report 2015\rhttp://tinyurl.com/m34ndev\r\r\r";
+    
+    SocialPins *cali = [[SocialPins alloc] init];
+    cali.coordinate = CLLocationCoordinate2DMake(37.0000, -120.0000);
+    cali.title = @"California";
+    cali.subtitle = @"Catastrophic Drought";
+    cali.image = [UIImage imageNamed:@"drought"];
+    cali.information = @"\rIn 2015, California experienced an unprecedented drought which caused the state to implement mandatory water restrictions. Scientists attribute the severtity of the drought to the effects of climate change.\r\rFurther Reference:\rState of California, “Drought”\rhttp://tinyurl.com/prczpha\r\rCoordinates:\r37.0000, 120.0000\r\r\r";
+    
+    SocialPins *amazon = [[SocialPins alloc] init];
+    amazon.coordinate = CLLocationCoordinate2DMake(-3.1600, -60.0300);
+    amazon.title = @"Amazon Rain Forest";
+    amazon.subtitle = @"Increasing Deforestation";
+    amazon.image = [UIImage imageNamed:@"amazon"];
+    amazon.information = @"\rThe Amazon Rain Forest is a vital eco-system of the South American continent.\r\rCoordinates:\r-3.1600, 60.0300\r\r\r";
+
 
 
     
-    NSArray *annotations = [NSArray arrayWithObjects:jerusalem, gehenna, bethEl, ephesus, corinth, dan, temple, hazor, nicea, greenland, greatbr, philippines, rome, nazareth, capernaum, sierraLeone, camden, atlantic, rome2, constantinople, palestine, israel, alexandria, thessalonica, philippi, antioch, bethlehem, ramah, hebron, shiloh, lyon, vienne, chalcedon, constance, trent, florence, lateran, uganda, colossae, sepphoris, asheville, burma, ephesus2, nil];
+    NSArray *annotations = [NSArray arrayWithObjects:jerusalem, gehenna, bethEl, ephesus, corinth, dan, temple, hazor, nicea, greenland, greatbr, philippines, rome, nazareth, capernaum, sierraLeone, camden, atlantic, rome2, constantinople, palestine, israel, alexandria, thessalonica, philippi, antioch, bethlehem, ramah, hebron, shiloh, lyon, vienne, chalcedon, constance, trent, florence, lateran, uganda, colossae, sepphoris, asheville, burma, ephesus2, cali, amazon, nil];
     
     [self.mapView addAnnotations:annotations];
 
@@ -934,7 +948,8 @@
                                      asheville.title = @"St. Eugene Church";
                                      asheville.subtitle = @"Renewable Energy Exemplar";
                                      asheville.image = [UIImage imageNamed:@"StEugene"];
-                                     asheville.information = @"\rSt. Eugene Church in Asheville, North Carolina, recently commited to using 100% renewable energy in the form of solar panels. These will sigificantly reduce its monthly energy bill.\r\r\r";
+                                     asheville.image = [UIImage imageNamed:@"StEugene"];
+                                     asheville.information = @"\rSt. Eugene Church in Asheville, North Carolina, recently commited to using 100% renewable energy in the form of solar panels. These will sigificantly reduce its monthly energy bill.\r\rFurther Reference:\rSt. Eugene Church, www.steugene.org\rhttp://tinyurl.com/ofblbtf\r\r\r";
                                          
                                          SocialPins *burma = [[SocialPins alloc] init];
                                          burma.coordinate = CLLocationCoordinate2DMake(22.0000,  96.0000);
@@ -943,8 +958,22 @@
                                          burma.image = [UIImage imageNamed:@"Burma"];
                                          burma.information = @"\rBurma was categorized as a Tier 1 violator of religious freedom by the United States Commission on International Religious Freedom in 2015.\r\rFurther Reference:\rUSCIRF, Annual Report 2015\rhttp://tinyurl.com/m34ndev\r\r\r";
                                      
+                                     SocialPins *cali = [[SocialPins alloc] init];
+                                     cali.coordinate = CLLocationCoordinate2DMake(37.0000, -120.0000);
+                                     cali.title = @"California";
+                                     cali.subtitle = @"Catastrophic Drought";
+                                     cali.image = [UIImage imageNamed:@"drought"];
+                                     cali.information = @"\rIn 2015, California experienced an unprecedented drought which caused the state to implement mandatory water restrictions. Scientists attribute the severtity of the drought to the effects of climate change.\r\rFurther Reference:\rState of California, “Drought”\rhttp://tinyurl.com/prczpha\r\rCoordinates:\r37.0000, 120.0000\r\r\r";
                                      
-                                     NSArray *annotations = [NSArray arrayWithObjects:greenland, greatbr, philippines, sierraLeone, camden, atlantic, palestine, israel, uganda, asheville, burma, nil];
+                                     SocialPins *amazon = [[SocialPins alloc] init];
+                                     amazon.coordinate = CLLocationCoordinate2DMake(-3.1600, -60.0300);
+                                     amazon.title = @"Amazon Rain Forest";
+                                     amazon.subtitle = @"Increasing Deforestation";
+                                     amazon.image = [UIImage imageNamed:@"amazon"];
+                                     amazon.information = @"\rThe Amazon Rain Forest is a vital eco-system of the South American continent.\r\rFurther Reference:\r\rCoordinates:\r-3.1600, 60.0300\r\r\r";
+                                     
+                                     
+                                     NSArray *annotations = [NSArray arrayWithObjects:greenland, greatbr, philippines, sierraLeone, camden, atlantic, palestine, israel, uganda, asheville, burma, cali, amazon, nil];
                                      [self.mapView addAnnotations:annotations];
 
                                      
@@ -1251,7 +1280,7 @@
                                    asheville.subtitle = @"Renewable Energy Exemplar";
                                    asheville.image = [UIImage imageNamed:@"StEugene"];
                                    asheville.image = [UIImage imageNamed:@"StEugene"];
-                                   asheville.information = @"\rSt. Eugene Church in Asheville, North Carolina, recently commited to using 100% renewable energy in the form of solar panels. These will sigificantly reduce its monthly energy bill.\r\r\r";
+                                   asheville.information = @"\rSt. Eugene Church in Asheville, North Carolina, recently commited to using 100% renewable energy in the form of solar panels. These will sigificantly reduce its monthly energy bill.\r\rFurther Reference:\rSt. Eugene Church, www.steugene.org\rhttp://tinyurl.com/ofblbtf\r\r\r";
                                    
                                    SocialPins *burma = [[SocialPins alloc] init];
                                    burma.coordinate = CLLocationCoordinate2DMake(22.0000,  96.0000);
@@ -1260,9 +1289,23 @@
                                    burma.image = [UIImage imageNamed:@"Burma"];
                                    burma.information = @"\rBurma was categorized as a Tier 1 violator of religious freedom by the United States Commission on International Religious Freedom in 2015.\r\rFurther Reference:\rUSCIRF, Annual Report 2015\rhttp://tinyurl.com/m34ndev\r\r\r";
                                    
+                                   SocialPins *cali = [[SocialPins alloc] init];
+                                   cali.coordinate = CLLocationCoordinate2DMake(37.0000, -120.0000);
+                                   cali.title = @"California";
+                                   cali.subtitle = @"Catastrophic Drought";
+                                   cali.image = [UIImage imageNamed:@"drought"];
+                                   cali.information = @"\rIn 2015, California experienced an unprecedented drought which caused the state to implement mandatory water restrictions. Scientists attribute the severtity of the drought to the effects of climate change.\r\rFurther Reference:\rState of California, “Drought”\rhttp://tinyurl.com/prczpha\r\rCoordinates:\r37.0000, 120.0000\r\r\r";
+                                   
+                                   SocialPins *amazon = [[SocialPins alloc] init];
+                                   amazon.coordinate = CLLocationCoordinate2DMake(-3.1600, -60.0300);
+                                   amazon.title = @"Amazon Rain Forest";
+                                   amazon.subtitle = @"Increasing Deforestation";
+                                   amazon.image = [UIImage imageNamed:@"amazon"];
+                                   amazon.information = @"\rThe Amazon Rain Forest is a vital eco-system of the South American continent.\r\rCoordinates:\r-3.1600, 60.0300\r\r\r";
                                    
                                    
-                                   NSArray *annotations = [NSArray arrayWithObjects:jerusalem, bethEl, ephesus, corinth, dan, temple, hazor, nicea, greenland, greatbr, philippines, rome, nazareth, capernaum, sierraLeone, camden, atlantic, rome2, constantinople, palestine, israel, alexandria, thessalonica, philippi, antioch, bethlehem, ramah, hebron, shiloh, lyon, vienne, chalcedon, constance, trent, florence, lateran, uganda, colossae, sepphoris, asheville, burma, ephesus2, gehenna, nil];
+                                   
+                                   NSArray *annotations = [NSArray arrayWithObjects:jerusalem, bethEl, ephesus, corinth, dan, temple, hazor, nicea, greenland, greatbr, philippines, rome, nazareth, capernaum, sierraLeone, camden, atlantic, rome2, constantinople, palestine, israel, alexandria, thessalonica, philippi, antioch, bethlehem, ramah, hebron, shiloh, lyon, vienne, chalcedon, constance, trent, florence, lateran, uganda, colossae, sepphoris, asheville, burma, ephesus2, gehenna, cali, amazon, nil];
                                    
                                    [self.mapView addAnnotations:annotations];
                                    
