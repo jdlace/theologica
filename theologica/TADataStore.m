@@ -2611,6 +2611,10 @@
     
     ///////////////////////////////////////////////////////////////////////////////R
     
+    [TAWord wordWithDict:@{@"name":@"Real Presence",
+                           @"twitterDef":@"the Eucharistic presence of Christ",
+                           @"definition":@"\rFrom the earliest days of the Church, Christians have believed that Christ is present in the Eucharist. The belief in the Real Presence precedes later attempts to explain Christ is present. See “Transubstantiation”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1374\rhttp://tinyurl.com/m88dbjl\r\r\r",
+                           @"category":@"Systematic"}];
     
     
     [TAWord wordWithDict:@{@"name":@"Redaction Criticism",
@@ -2653,6 +2657,12 @@
                            @"twitterDef":@"a right or just relationship",
                            @"definition":@"\rRigheousness is first spoken of in the Bible in reference to Abaham. After hearing the promise of YHWH that he would be the father of many nations, he “put his faith in the LORD, who credited it to him as an act of righteousness” (Gen 15:6). St. Paul uses this same example to claim that those who have faith in (or of) Jesus Christ are put into a right relationship with God. The word “Justification” derives from the same cognate. See “Justification”, “Justice”.\r\rGreek, δικαιοσύνη (dikaisune) “righteousness/justice”\r\rFurther Reference:\rCatechism of the Catholic Church, 1992\rhttp://tinyurl.com/yaua7cc\r\r\r",
                            @"category":@"Biblical"}];
+    
+    
+    [TAWord wordWithDict:@{@"name":@"Roe v. Wade",
+                           @"twitterDef":@"the landmark, 1973 U.S. Supreme Court case legalizing abortion",
+                           @"definition":@"\rRoe v. Wade ruled that state laws criminalizing abortion were unconstitutional due to an inherent right to privacy. The ruling stated that before the age of viability, no state may restrict abortion. In the 2nd and 3rd trimesters, however, states may restrict the practice. See “Abortion”.\r\rFurther Reference:\rWikipedia, “Roe v. Wade”\rhttp://tinyurl.com/aqq5j\r\r\r",
+                           @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Rosary",
                            @"twitterDef":@"the prayer based on the Hail Mary and the Our Father",
@@ -2708,7 +2718,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Satan",
                            @"twitterDef":@"a Hebrew word meaning “adversary” used for a malevolent spiritual being",
-                           @"definition":@"\rThe development of the character of Satan is linked to the larger shift in Israelite theology after the Exile. Monotheism replaced Henotheism and no longer allowed the possibility that YHWH was responsible for evil (such as indicated by various passages in pre-Exilic Hebrew writings). Thus, a character developed which was seen as an adversarial member of YHWH's heavenly court, the Satan. For a clear example of this theological shift, see 2 Sam. 24:1 and 1 Chronicles 21:1.\r\rA later tradition interprets references to the Kings of Babylon and Tyre in Isaiah 14 and Ezekiel 38, respectively, to refer to Satan as a fallen angel who was expelled from Heaven after a failed attempt to dethrone the Almighty. The New Testament uses this later interpretation of Satan to refer to a malevolent spiritual being opposed to the will of God and seeking to destroy human welfare.\r\rHebrew, שָּׂטָן (satan)\r\rSee Exile, Monotheism, Henotheism, YHWH. w\r\rFurther Reference:\rWikipedia, “Satan”\rhttp://tinyurl.com/czesk\r\r\r",
+                           @"definition":@"\rThe development of the character of Satan is linked to the larger shift in Israelite theology after the Exile. Monotheism replaced Henotheism and no longer allowed the possibility that YHWH was responsible for evil (such as indicated by various passages in pre-Exilic Hebrew writings). Thus, a character developed which was seen as an adversarial member of YHWH's heavenly court, the Satan. For a clear example of this theological shift, see 2 Sam. 24:1 and 1 Chronicles 21:1.\r\rA later tradition interprets references to the Kings of Babylon and Tyre in Isaiah 14 and Ezekiel 38, respectively, to refer to Satan as a fallen angel who was expelled from Heaven after a failed attempt to dethrone the Almighty. The New Testament uses this later interpretation of Satan to refer to a malevolent spiritual being opposed to the will of God and seeking to destroy human welfare.\r\rHebrew, שָּׂטָן (satan)\r\rSee Exile, Monotheism, Henotheism, YHWH.\r\rFurther Reference:\rWikipedia, “Satan”\rhttp://tinyurl.com/czesk\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Septuagint",

@@ -53,7 +53,7 @@
     gehenna.title = @"Gehenna";
     gehenna.subtitle = @"The Valley of Ben-Hinnom";
     gehenna.image = [UIImage imageNamed:@"gehenna"];
-    gehenna.information = @"\rGehenna was a valley, south of Jerusalem, where apostate Israelites would sacrifice their infants by burning them alive to worship the god Molech. It is mentioned several times in the Hebrew Scriptures. In Second Temple Judaism, it came to regarded as representative and a shorthand for everything evil and worthy of YHWH's punishment. This is the location that Jesus is portrayed as alluding to when he mentions Gehenna, which was later translated as “hell”.\r\rFurther Reference:\rWikipedia, “Gehenna”\rhttp://tinyurl.com/ymbj2d\r\r\rCoordinates: 31.768406, 35.230439";
+    gehenna.information = @"\rGehenna was a valley, south of Jerusalem, where apostate Israelites would sacrifice their infants by burning them alive to worship the god Molech. It is mentioned several times in the Hebrew Scriptures. In Second Temple Judaism, it came to regarded as representative and a shorthand for everything evil and worthy of YHWH's punishment. This is the location that Jesus is portrayed as alluding to when he mentions Gehenna, which was later translated as “hell”.\r\rFurther Reference:\rWikipedia, “Gehenna”\rhttp://tinyurl.com/ymbj2d\r\rCoordinates: 31.768406, 35.230439\r\r\r";
     
     BiblicalPins *rome = [[BiblicalPins alloc] init];
     rome.coordinate = CLLocationCoordinate2DMake(41.8900, 12.4938);
@@ -207,21 +207,21 @@
     philippines.title = @"Legazpi City";
     philippines.subtitle = @"Carbon Mining Coastal Destruction";
     philippines.image = [UIImage imageNamed:@"legazpi"];
-    philippines.information = @"\rThe coast of Legazpi City, Philippines, is suffering from the effects of carbon mining.\r\rDonate to Catholic Relief Services\rhttp://www.crs.org/donate/\r\rCoordinates: 13.1333, 123.7333\r\r\r";
+    philippines.information = @"\rThe coast of Legazpi City, Philippines, is suffering from the effects of carbon mining.\r\rDonate to Catholic Relief Services\rhttp://www.crs.org/donate/\r\rCoordinates:\r13.1333, 123.7333\r\r\r";
     
     SocialPins *palestine = [[SocialPins alloc] init];
     palestine.coordinate = CLLocationCoordinate2DMake(31.6253, 35.1453);
     palestine.title = @"Palestine";
     palestine.image = [UIImage imageNamed:@"palestine"];
     palestine.subtitle = @"Occupied Territory";
-    palestine.information = @"\rDonate to Catholic Relief Services\rhttp://www.crs.org/donate/\r\rCoordinates: 31.6253, 35.1453\r\r\r";
+    palestine.information = @"\rSince the creation of the state of Israel in 1948, Palestinians have been without statehood.\r\rFurther Reference:\rCoordinates:\r31.6253, 35.1453\r\r\r";
     
     SocialPins *israel = [[SocialPins alloc] init];
     israel.coordinate = CLLocationCoordinate2DMake(31.0000, 35.0000);
     israel.title = @"Israel";
     israel.subtitle = @"A Contested Homeland";
     israel.image = [UIImage imageNamed:@"israel"];
-    israel.information = @"Coordinates: 31.6253, 35.1453\r\r\r";
+    israel.information = @"\rThe modern state of Israel was created in 1948 by United Nations resolution    . After the Holocaust of World War II\r\rFurther Reference:\rCoordinates:\r31.6253, 35.1453\r\r\r";
     
     BiblicalPins *thessalonica = [[BiblicalPins alloc] init];
     thessalonica.coordinate = CLLocationCoordinate2DMake(40.6500, 22.9000);
@@ -242,14 +242,14 @@
     antioch.title = @"Antioch";
     antioch.subtitle = @"Capital of Ancient Syria";
     antioch.image = [UIImage imageNamed:@"antioch"];
-    antioch.information = @"\rCoordinates:\r 36.2000, 36.1500\r\r\r";
+    antioch.information = @"\rCoordinates:\r36.2000, 36.1500\r\r\r";
     
     BiblicalPins *bethlehem = [[BiblicalPins alloc] init];
     bethlehem.coordinate = CLLocationCoordinate2DMake(31.7063, 35.2090);
     bethlehem.title = @"Bethlehem";
     bethlehem.image = [UIImage imageNamed:@"bethlehem"]; 
     bethlehem.subtitle = @"Traditional Birthplace of Jesus";
-    bethlehem.information = @"\rCoordinates:\r31.7031, 35.1956\r\r\r";
+    bethlehem.information = @"\rBethlehem is mentioned in the Hebrew Bible in Micah...There was a Bethlehem in Galilee, which may explain   qualification...Coordinates:\r31.7031, 35.1956\r\r\r";
     
     BiblicalPins *ramah = [[BiblicalPins alloc] init];
     ramah.coordinate = CLLocationCoordinate2DMake(32.936389, 35.367222);
@@ -260,12 +260,14 @@
     hebron.title = @"Hebron";
     hebron.subtitle = @"David's Judahite Capital";
     hebron.image = [UIImage imageNamed:@"hebron"];
+    hebron.information = @"Hebron is first mentioned in Genesis in the story of Abraham..";
     
     BiblicalPins *shiloh = [[BiblicalPins alloc] init];
     shiloh.coordinate = CLLocationCoordinate2DMake(32.0556, 35.2895);
     shiloh.title = @"Shiloh";
     shiloh.subtitle = @"Shrine of the Ark of the Covenant";
     shiloh.image = [UIImage imageNamed:@"shiloh"];
+    shiloh.information = @"Shiloh was a major cultic site asociated with the Ark of the Covenant and the tribe of Levi.\r\rFurther Reference:\r   \r\r\r";
     
     HistoricalPins *lyon = [[HistoricalPins alloc] init];
     lyon.coordinate = CLLocationCoordinate2DMake(45.7600, 4.8400);
@@ -315,14 +317,14 @@
     florence.title = @"Florence";
     florence.subtitle = @"Ecumenical Council XVII";
     florence.image = [UIImage imageNamed:@"florence"]; 
-    florence.information = @"See “Councils” section in the Home tab.Coordinates:\r43.7833, 11.2500\r\r\r";
+    florence.information = @"See “Councils” section in the Overview tab.\r\rFurther Reference:\r\rCoordinates:\r43.7833, 11.2500\r\r\r";
     
     HistoricalPins *lateran = [[HistoricalPins alloc] init];
     lateran.coordinate = CLLocationCoordinate2DMake(41.885906, 12.506156);
     lateran.title = @"St. John Lateran";
     lateran.subtitle = @"Ecumenical Councils IX, X, XI, XII";
     lateran.image = [UIImage imageNamed:@"lateran"]; 
-    lateran.information = @"See “Councils” section in the Home tab.Coordinates:\r43.7833, 11.2500\r\r\r";
+    lateran.information = @"See “Councils” section in the Overview tab.Coordinates:\r43.7833, 11.2500\r\r\r";
     
     SocialPins *uganda = [[SocialPins alloc] init];
     uganda.coordinate = CLLocationCoordinate2DMake(1.0667, 31.8833);
