@@ -99,24 +99,6 @@
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>John XXIII</string>
-			<key>URL</key>
-			<string>http://w2.vatican.va/content/john-xxiii/en.html</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>Paul VI</string>
-			<key>URL</key>
-			<string>http://w2.vatican.va/content/paul-vi/en.html</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>John Paul I</string>
-			<key>URL</key>
-			<string>http://w2.vatican.va/content/john-paul-i/en.html</string>
-		</dict>
-		<dict>
-			<key>Name</key>
 			<string>Benedict XVI</string>
 			<key>URL</key>
 			<string>http://w2.vatican.va/content/benedict-xvi/en.html</string>
@@ -126,6 +108,54 @@
 			<string>John Paul II</string>
 			<key>URL</key>
 			<string>http://w2.vatican.va/content/john-paul-ii/en.html</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>John Paul I</string>
+			<key>URL</key>
+			<string>http://w2.vatican.va/content/john-paul-i/en.html</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Paul VI</string>
+			<key>URL</key>
+			<string>http://w2.vatican.va/content/paul-vi/en.html</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>John XXIII</string>
+			<key>URL</key>
+			<string>http://w2.vatican.va/content/john-xxiii/en.html</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Pius XII</string>
+			<key>URL</key>
+			<string>http://w2.vatican.va/content/pius-xii/en.html</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Pius XI</string>
+			<key>URL</key>
+			<string>http://w2.vatican.va/content/pius-xi/en.html</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Benedict XV</string>
+			<key>URL</key>
+			<string>http://w2.vatican.va/content/benedict-xv/en.html</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Pius X</string>
+			<key>URL</key>
+			<string>http://w2.vatican.va/content/pius-x/en.html</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Leo XIII</string>
+			<key>URL</key>
+			<string>http://w2.vatican.va/content/leo-xiii/en.html</string>
 		</dict>
 		<dict>
 			<key>Name</key>
