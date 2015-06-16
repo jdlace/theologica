@@ -52,6 +52,8 @@
     [self.sourceInformation setTextColor:[UIColor darkGrayColor]];
    
     
+    self.textViewHeightConstraint.constant = [self.sourceInformation sizeThatFits:CGSizeMake(self.sourceInformation.frame.size.width, CGFLOAT_MAX)].height;
+    
     
 /*
     CGRect frame = self.sourcesPic.frame;
@@ -99,7 +101,7 @@
     [attributedString replaceCharactersInRange:scriptureImgTag2  withAttributedString:scriptureString2];
 
     
-    */
+    
   
 
     
@@ -109,8 +111,12 @@
     
     _sourceInformation.frame = frame;
     [_sourceInformation sizeToFit];
+    
+    _scrollView.translatesAutoresizingMaskIntoConstraints = NO;
 
-    _scrollView.contentSize = CGSizeMake(_sourceInformation.contentSize.width, _sourceInformation.frame.size.height + 145);
+    
+    //_scrollView.contentSize = CGSizeMake(_sourceInformation.contentSize.width, height);
+    */
     
     //added for Dynamic Type
     [[NSNotificationCenter defaultCenter]

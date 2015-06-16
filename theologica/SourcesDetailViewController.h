@@ -23,6 +23,7 @@
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @property (weak, nonatomic) IBOutlet UITextView *sourceInformation;
 @property (weak, nonatomic) IBOutlet UIImageView *sourcesPic;
-@property (strong, nonatomic) IBOutlet UIScrollView *scrollView; 
+@property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint *textViewHeightConstraint;
 
 @end

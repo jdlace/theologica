@@ -21,6 +21,8 @@
 @property (weak, nonatomic) IBOutlet UITextView *descriptionTextView;
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint *textViewHeightConstraint;
+
 
 - (IBAction)share:(UIBarButtonItem *)sender;
 

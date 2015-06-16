@@ -59,7 +59,7 @@
      object:nil];
     
     
-    
+    /*
     CGSize size = _descriptionTextView.contentSize;
     CGRect frame = _descriptionTextView.frame;
     frame.size.height = size.height;
@@ -68,6 +68,8 @@
     [_descriptionTextView sizeToFit];
     
     _scrollView.contentSize = CGSizeMake(_descriptionTextView.contentSize.width, _descriptionTextView.frame.size.height + 145);
+    */
+    
     
     //added for Dynamic Type
     [[NSNotificationCenter defaultCenter]
@@ -75,6 +77,8 @@
      selector:@selector(preferredContentSizeChanged:)
      name:UIContentSizeCategoryDidChangeNotification
      object:nil];
+    
+    self.textViewHeightConstraint.constant = [self.scrollView sizeThatFits:CGSizeMake(self.scrollView.frame.size.width, CGFLOAT_MAX)].height;
     
  
 
