@@ -371,12 +371,12 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Overview" id="Hmz-io-8te">
-                        <barButtonItem key="leftBarButtonItem" title="About" style="done" id="m9t-Uh-3Du">
+                        <barButtonItem key="leftBarButtonItem" title="About" style="plain" id="m9t-Uh-3Du">
                             <connections>
                                 <action selector="aboutButton:" destination="eI4-6J-SyD" id="OZB-69-hkR"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Contact" style="done" id="oVD-Rs-JKi">
+                        <barButtonItem key="rightBarButtonItem" title="Contact" style="plain" id="oVD-Rs-JKi">
                             <connections>
                                 <action selector="infoButton:" destination="eI4-6J-SyD" id="AHY-Vr-9D9"/>
                             </connections>
@@ -402,20 +402,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Theologica" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wz8-WY-Yfj">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Theologica" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wz8-WY-Yfj">
                                 <rect key="frame" x="226" y="72" width="151" height="38"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="32"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="KCd-cx-e4J">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="KCd-cx-e4J">
                                 <rect key="frame" x="10" y="183" width="580" height="385"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES" address="YES"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Think Faith" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FQ0-oX-QgC">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Think Faith" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FQ0-oX-QgC">
                                 <rect key="frame" x="266" y="148" width="71" height="18"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -428,17 +428,16 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Close">
                                             <attributes>
-                                                <font key="NSFont" size="17" name="HelveticaNeue-Medium"/>
+                                                <font key="NSFont" size="17" name="HelveticaNeue"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
                                 </state>
-                                <variation key="widthClass=compact"/>
                                 <connections>
                                     <action selector="close:" destination="oem-Lx-p8B" eventType="touchUpInside" id="5bu-hi-dmm"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" misplaced="YES" image="appIconGradient3" translatesAutoresizingMaskIntoConstraints="NO" id="EAj-eD-b8G">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" ambiguous="YES" misplaced="YES" image="appIconGradient3" translatesAutoresizingMaskIntoConstraints="NO" id="EAj-eD-b8G">
                                 <rect key="frame" x="280" y="109" width="40" height="40"/>
                             </imageView>
                         </subviews>
@@ -474,12 +473,12 @@
                             <mask key="constraints">
                                 <exclude reference="92v-2i-bL8"/>
                                 <exclude reference="DjD-lh-XP0"/>
-                                <exclude reference="zwV-gM-u3c"/>
                                 <exclude reference="V7V-tr-k8O"/>
+                                <exclude reference="zwV-gM-u3c"/>
+                                <exclude reference="Iqg-mI-ToU"/>
                                 <exclude reference="6sg-Ku-no8"/>
                                 <exclude reference="eHY-kD-2Tb"/>
                                 <exclude reference="raA-jp-cju"/>
-                                <exclude reference="Iqg-mI-ToU"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -489,12 +488,12 @@
                             <mask key="constraints">
                                 <include reference="92v-2i-bL8"/>
                                 <include reference="DjD-lh-XP0"/>
-                                <include reference="zwV-gM-u3c"/>
                                 <include reference="V7V-tr-k8O"/>
+                                <include reference="zwV-gM-u3c"/>
+                                <include reference="Iqg-mI-ToU"/>
                                 <include reference="6sg-Ku-no8"/>
                                 <include reference="eHY-kD-2Tb"/>
                                 <include reference="raA-jp-cju"/>
-                                <include reference="Iqg-mI-ToU"/>
                             </mask>
                         </variation>
                     </view>
@@ -771,12 +770,12 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Dictionary" id="puP-se-oj8">
                         <barButtonItem key="backBarButtonItem" title="Dictionary" id="TeJ-ib-7ab"/>
-                        <barButtonItem key="leftBarButtonItem" title="Terms" style="done" id="LEf-Yw-Fka">
+                        <barButtonItem key="leftBarButtonItem" title="Terms" style="plain" id="LEf-Yw-Fka">
                             <connections>
                                 <action selector="termsButton:" destination="oZ5-nE-rQe" id="w9s-2l-WOC"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Saved" style="done" id="RxI-0F-zKf">
+                        <barButtonItem key="rightBarButtonItem" title="Saved" style="plain" id="RxI-0F-zKf">
                             <connections>
                                 <action selector="savedButton:" destination="oZ5-nE-rQe" id="3zh-9D-7Mc"/>
                                 <segue destination="715-iu-iCs" kind="presentation" identifier="showBookmark" id="zED-tK-w8O"/>
@@ -890,7 +889,7 @@
                                                 <variation key="widthClass=compact" constant="11"/>
                                             </constraint>
                                             <constraint firstItem="zrc-9h-0bq" firstAttribute="top" secondItem="8Cv-Rb-2Ws" secondAttribute="top" constant="-79" id="wAt-UA-HHv">
-                                                <variation key="widthClass=compact" constant="-90"/>
+                                                <variation key="widthClass=compact" constant="-75"/>
                                             </constraint>
                                             <constraint firstAttribute="trailing" secondItem="zrc-9h-0bq" secondAttribute="trailing" constant="8" id="yAH-dY-kQR">
                                                 <variation key="widthClass=compact" constant="7"/>
@@ -1048,12 +1047,12 @@
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Maps" id="hHU-5l-E9P">
-                        <barButtonItem key="leftBarButtonItem" title="Pins" style="done" id="2Eo-RM-VsP">
+                        <barButtonItem key="leftBarButtonItem" title="Pins" style="plain" id="2Eo-RM-VsP">
                             <connections>
                                 <action selector="mapsButton:" destination="qJM-Uc-9hJ" id="lWr-wp-OrF"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="View" style="done" id="EqF-AC-zGd">
+                        <barButtonItem key="rightBarButtonItem" title="View" style="plain" id="EqF-AC-zGd">
                             <connections>
                                 <action selector="viewButton:" destination="qJM-Uc-9hJ" id="O8l-dZ-rpQ"/>
                             </connections>
@@ -1227,20 +1226,20 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="mAd-zb-zjc"/>
                                 <exclude reference="A9y-LP-5oy"/>
                                 <exclude reference="Fyf-w3-fta"/>
                                 <exclude reference="pqg-5P-MR5"/>
                                 <exclude reference="sAN-it-S4D"/>
+                                <exclude reference="mAd-zb-zjc"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="constraints">
-                                <include reference="mAd-zb-zjc"/>
                                 <include reference="A9y-LP-5oy"/>
                                 <include reference="Fyf-w3-fta"/>
                                 <include reference="pqg-5P-MR5"/>
                                 <include reference="sAN-it-S4D"/>
+                                <include reference="mAd-zb-zjc"/>
                             </mask>
                         </variation>
                     </view>
@@ -1291,7 +1290,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Saved" id="keP-1u-mbO">
-                        <barButtonItem key="leftBarButtonItem" title="Close" style="done" id="EOE-7X-gLX">
+                        <barButtonItem key="leftBarButtonItem" title="Close" style="plain" id="EOE-7X-gLX">
                             <connections>
                                 <action selector="done:" destination="qp7-Xs-UHE" id="C3o-j8-Z8p"/>
                             </connections>
