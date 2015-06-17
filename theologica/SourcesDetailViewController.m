@@ -52,7 +52,9 @@
     [self.sourceInformation setTextColor:[UIColor darkGrayColor]];
    
     
-    self.textViewHeightConstraint.constant = [self.sourceInformation sizeThatFits:CGSizeMake(self.sourceInformation.frame.size.width, CGFLOAT_MAX)].height;
+    self.textViewHeightConstraint.constant = [self.sourceInformation sizeThatFits:CGSizeMake(self.sourceInformation.frame.size.width, self.sourceInformation.frame.size.height)].height;
+    
+    
     
     
 /*

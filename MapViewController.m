@@ -317,14 +317,14 @@
     florence.title = @"Florence";
     florence.subtitle = @"Ecumenical Council XVII";
     florence.image = [UIImage imageNamed:@"florence"]; 
-    florence.information = @"See “Councils” section in the Overview tab.\r\rFurther Reference:\r\rCoordinates:\r43.7833, 11.2500\r\r\r";
+    florence.information = @"\rSee “Councils” section in the Overview tab.\r\rFurther Reference:\r\rCoordinates:\r43.7833, 11.2500\r\r\r";
     
     HistoricalPins *lateran = [[HistoricalPins alloc] init];
     lateran.coordinate = CLLocationCoordinate2DMake(41.885906, 12.506156);
     lateran.title = @"St. John Lateran";
     lateran.subtitle = @"Ecumenical Councils IX, X, XI, XII";
     lateran.image = [UIImage imageNamed:@"lateran"]; 
-    lateran.information = @"See “Councils” section in the Overview tab.Coordinates:\r43.7833, 11.2500\r\r\r";
+    lateran.information = @"\rSee “Councils” section in the Overview tab.Coordinates:\r43.7833, 11.2500\r\r\r";
     
     SocialPins *uganda = [[SocialPins alloc] init];
     uganda.coordinate = CLLocationCoordinate2DMake(1.0667, 31.8833);
@@ -760,7 +760,7 @@
     
     
     
-    UIAlertAction* historicalAction = [UIAlertAction actionWithTitle:@"Historical" style:UIAlertActionStyleDefault
+    UIAlertAction* historicalAction = [UIAlertAction actionWithTitle:@" Church History" style:UIAlertActionStyleDefault
                                                          handler:^(UIAlertAction * action)
                                    {
                                    
@@ -842,12 +842,12 @@
                                    florence.title = @"Florence";
                                    florence.subtitle = @"Ecumenical Council XVII";
                                    florence.image = [UIImage imageNamed:@"florence"]; 
-                                   florence.information = @"Coordinates:\r43.7833, 11.2500\r\r\r";
+                                   florence.information = @"\rCoordinates:\r43.7833, 11.2500\r\r\r";
                                    
                                    HistoricalPins *lateran = [[HistoricalPins alloc] init];
                                    lateran.coordinate = CLLocationCoordinate2DMake(41.885906, 12.506156);
                                    lateran.title = @"St. John Lateran";
-                                   lateran.subtitle = @"Ecumenical Councils IX, X, XI, XII";
+                                   lateran.subtitle = @"\rEcumenical Councils IX, X, XI, XII";
                                    lateran.image = [UIImage imageNamed:@"lateran"];
                                    lateran.information = @"Coordinates:\r43.7833, 11.2500\r\r\r";
                                    
@@ -868,7 +868,7 @@
                                    
                                    }];
     
-    UIAlertAction* socialAction = [UIAlertAction actionWithTitle:@"Social" style:UIAlertActionStyleDefault
+    UIAlertAction* socialAction = [UIAlertAction actionWithTitle:@"Social Justice" style:UIAlertActionStyleDefault
                                                            handler:^(UIAlertAction * action)
                                      {
                                      
@@ -1260,14 +1260,14 @@
                                    florence.title = @"Florence";
                                    florence.subtitle = @"Ecumenical Council XVII";
                                    florence.image = [UIImage imageNamed:@"florence"]; 
-                                   florence.information = @"See “Councils” section in the Home tab.Coordinates:\r43.7833, 11.2500\r\r\r";
+                                   florence.information = @"\rSee “Councils” section in the Home tab.Coordinates:\r43.7833, 11.2500\r\r\r";
                                    
                                    HistoricalPins *lateran = [[HistoricalPins alloc] init];
                                    lateran.coordinate = CLLocationCoordinate2DMake(41.885906, 12.506156);
                                    lateran.title = @"St. John Lateran";
                                    lateran.subtitle = @"Ecumenical Councils IX, X, XI, XII";
                                    lateran.image = [UIImage imageNamed:@"lateran"]; 
-                                   lateran.information = @"See “Councils” section in the Home tab.Coordinates:\r43.7833, 11.2500\r\r\r";
+                                   lateran.information = @"\rSee “Councils” section in the Home tab.Coordinates:\r43.7833, 11.2500\r\r\r";
                                    
                                    SocialPins *uganda = [[SocialPins alloc] init];
                                    uganda.coordinate = CLLocationCoordinate2DMake(1.0667, 31.8833);

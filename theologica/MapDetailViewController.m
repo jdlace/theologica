@@ -44,7 +44,7 @@
 
     
     self.locationDescription.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
-        
+        /*
         CGSize size = _locationDescription.contentSize;
         CGRect frame = _locationDescription.frame;
         frame.size.height = size.height;
@@ -53,6 +53,8 @@
         [_locationDescription sizeToFit];
         
         _scrollView.contentSize = CGSizeMake(_locationDescription.contentSize.width, _locationDescription.frame.size.height + 135);
+    */
+    self.textViewHeightConstraint.constant = [self.scrollView sizeThatFits:CGSizeMake(self.scrollView.frame.size.width, CGFLOAT_MAX)].height;
     /*
         // fit the our popover size to match our image size
         UIImageView *imageView = (UIImageView *)self.view;

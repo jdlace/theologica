@@ -778,7 +778,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Christology",
                            @"twitterDef":@"the study of the person and nature of Christ",
-                           @"definition":@"\rChristology takes as its point of departure the Chalcedonian Definition of the two natures and hypostatic union in Jesus. Biblical criticism of the New Testament has distinguished between “High” and “Low” Christology, based on an emphasis on the divinity and humanity of Christ, respectively. See “Hypostesis”, “Chalcedonian Definition”.\r\rFurther Reference:\rWikipedia, “Christology”\rhttp://tinyurl.com/2b79fj\r\r\r",
+                           @"definition":@"\rChristology takes as its point of departure the Chalcedonian Definition of the two natures and hypostatic union in Jesus. Biblical criticism of the New Testament has distinguished between “High” and “Low” Christology, based on an emphasis on the divinity and humanity of Christ, respectively. See “Hypostesis”, “Chalcedonian Definition”.\r\rFurther Reference:\rInternational Theological Commission\r“The Consciousness of Christ”\rhttp://tinyurl.com/nl6bhyf\r\rWikipedia, “Christology”\rhttp://tinyurl.com/2b79fj\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Chalcedonian Definition",
@@ -1048,7 +1048,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Dogma",
                            @"twitterDef":@"the Greek word for “opinion” used for a doctrine that has been infallibly defined",
-                           @"definition":@"\rA dogma in the Catholic tradition is a subset of Church doctrine. It refers to a divinely revealed truth that has been defined infallibly. All dogmas are doctrines, but not all doctrines are dogmas.\r\rGreek, δόγμα (dogma)\r\rFurther Reference:\rCatechism of the Catholic Church, 88\rhttp://tinyurl.com/bx8mnlu\r\r\r",
+                           @"definition":@"\rA dogma in the Catholic tradition is a subset of Church doctrine. It refers to a divinely revealed truth that has been defined infallibly. All dogmas are doctrines, but not all doctrines are dogmas.\r\rGreek, δόγμα (dogma)\r\rFurther Reference:\rInternational Theological Commission\r“The Interpretation of Dogma”, http://tinyurl.com/md9yco5\r\rCatechism of the Catholic Church, 88\rhttp://tinyurl.com/bx8mnlu\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Decalogue",
@@ -1228,14 +1228,14 @@
 
     [TAWord wordWithDict:@{@"name":@"Evolution",
                            @"twitterDef":@"a process of biological descent with modification",
-                           @"definition":@"\rThe modern theory of evolution is the result of over 100 years of rigorous testing of Charles Darwin's theory of biological decent with modification. Its scientific and cultural acceptance was influential on Vatican II as seen in Gaudium et Spes, 5:\r\r“...the human race has passed from a rather static concept of reality to a more dynamic, evolutionary one. In consequence there has arisen a new series of problems, a series as numerous as can be, calling for efforts of analysis and synthesis.”\r\rSee the Science section of the Overview tab. Further Reference:\rNational Center for Science Education, “Evolution”\rhttp://tinyurl.com/mbx353a\r\r\r",
+                           @"definition":@"\rThe modern theory of evolution is the result of over 100 years of rigorous testing of Charles Darwin's theory of biological decent with modification. Its scientific and cultural acceptance was influential on Vatican II as seen in Gaudium et Spes, 5:\r\r“...the human race has passed from a rather static concept of reality to a more dynamic, evolutionary one. In consequence there has arisen a new series of problems, a series as numerous as can be, calling for efforts of analysis and synthesis.”\r\rSee the Science section of the Overview tab. Further Reference:\rInternational Theological Commission\r“Communion & Stewardshp: Human Persons Created in the Image of God” http://tinyurl.com/c37p5\r\rNational Center for Science Education, “Evolution”\rhttp://tinyurl.com/mbx353a\r\r\r",
                            @"category":@"Cultural"}];
 
 
     
     [TAWord wordWithDict:@{@"name":@"Ethics",
                            @"twitterDef":@"the study of moral systems",
-                           @"definition":@"\rEthics is one of the three traditional branches of Philosophy. Christian ethics is the study of morality in the Christian tradition. See “Moral Theology”.\r\rGreek, ἠθικός (ethikos) “custom”\r\rFurther Reference:\rWikipedia, “Ethics”\rhttp://tinyurl.com/oqptk\r\r\r",
+                           @"definition":@"\rEthics is one of the three traditional branches of Philosophy. Christian ethics is the study of morality in the Christian tradition. See “Moral Theology”.\r\rGreek, ἠθικός (ethikos) “custom”\r\rFurther Reference:\rInternational Theological Commission\r“In Search of a Universal Ethic”\rhttp://tinyurl.com/pxcjasx\r\rWikipedia, “Ethics”\rhttp://tinyurl.com/oqptk\r\r\r",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Ecclesiology",
@@ -1801,7 +1801,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Inclusivism",
                            @"twitterDef":@"the belief that those who respond to the truth they have receieved may be saved",
-                           @"definition":@"\rInclusivism is a soteriology developed by Karl Rahner in the mid-twentieth century. He developed the concept that all people possess a fundamental option for or against God. Those who have not experienced the particular grace of the Holy Spirit may nevertheless be saved if they have responded faithfully to the whatever light they have received. See “Fundamental Option”.\r\rFurther Reference:\rCatechism of the Catholic Church, 847\rhttp://tinyurl.com/oupb5\r\r\r",
+                           @"definition":@"\rInclusivism is a soteriology developed by Karl Rahner in the mid-twentieth century. He developed the concept that all people possess a fundamental option for or against God. Those who have not experienced the particular grace of the Holy Spirit may nevertheless be saved if they have responded faithfully to the whatever light they have received. See “Fundamental Option”.\r\rFurther Reference:\rInternational Theological Commission\r“Christianity and the World Religions”\rhttp://tinyurl.com/psjvt8z\r\rCatechism of the Catholic Church, 847\rhttp://tinyurl.com/oupb5\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Inspiration",
@@ -2655,7 +2655,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Rerum Novarum",
                            @"twitterDef":@"the encyclical of Pope Leo XIII that initiated modern Catholic Social Teaching",
-                           @"definition":@"\rThe encyclical of Pope Leo XIII in 1891 which responded to the after effects of the Industrial Revolution in Europe by teaching that private property is relative to the Common Good and that workers have a right to unionized and to a living wage. See “Catholic Social Teaching”, “Living Wage”.\r\rLatin, (rerum novarum), “of new things”\r\rFurther Reference:\rPope Leo XIII, “Rerum Novarum”\rhttp://tinyurl.com/lv5y76v\r\\r",
+                           @"definition":@"\rThe encyclical of Pope Leo XIII in 1891 which responded to the after effects of the Industrial Revolution in Europe by teaching that private property is relative to the Common Good and that workers have a right to unionized and to a living wage. See “Catholic Social Teaching”, “Living Wage”.\r\rLatin, (rerum novarum), “of new things”\r\rFurther Reference:\rPope Leo XIII, “Rerum Novarum”\rhttp://tinyurl.com/lv5y76v\r\r\r",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Righteousness",
@@ -2770,7 +2770,14 @@
                            @"twitterDef":@"The study of society",
                            @"definition":@"\rThe study of society.\r\rFurther Reference:\r",
                            @"category":@"Cultural"}];
+     
+     
     */
+    
+    [TAWord wordWithDict:@{@"name":@"Sensus Fidelium",
+                           @"twitterDef":@"the sense of the Faith within the Church",
+                           @"definition":@"\rThe Sensus Fidelium is manifested in the Church among the Faithful. In particular, the Laity manifest this supernatural sense when they express universal consent in faith and morals. According to the International Theological Commission, the Sensus Fidelium as manifested by the Laity has preserved the  Church from heresy.\r\r“In some cases, as Blessed John Henry Newman (1801-90) remarked, the faith of the laity, in particular, played a crucial role. The most striking example was in the famous controversy in the fourth century with the Arians, who were condemned at the Council of Nicaea (325 AD), where the divinity of Jesus Christ was defined. From then until the Council of Constantinople (381 AD), however, there continued to be uncertainty among the bishops. During that period, ‘the divine tradition committed to the infallible Church was proclaimed and maintained far more by the faithful than by the Episcopate’. There was a temporary suspense of the functions of the ‘Ecclesia docens’. The body of Bishops failed in their confession of the faith. They spoke variously, one against another; there was nothing, after Nicaea, of firm, unvarying, consistent testimony, for nearly sixty years.’...The whole Church, laity and hierarchy together, bears responsibility for and mediates in history the revelation which is contained in the holy Scriptures and in the living apostolic Tradition. The Second Vatican Council stated that the latter form ‘a single sacred deposit of the word of God’ which is ‘entrusted to the Church’, that is, ‘the entire holy people, united to its pastors’. The Council clearly taught that the faithful are not merely passive recipients of what the hierarchy teaches and theologians explain; rather, they are living and active subjects within the Church.”\r\rSee “Laity”, “Heresy”.\r\rFurther Reference:\rInternational Theological Commission\r“Sensus Fidei in the life of the Church”\rhttp://tinyurl.com/phjf7sf\r\rCatechism of the Catholic Church, 897\rhttp://tinyurl.com/m65ttaf\r\r\r",
+                           @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Solidarity",
                            @"twitterDef":@"the fundamental unity of human beings as a criteria for determining justice",
@@ -2839,7 +2846,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Trinity",
                            @"twitterDef":@"the existence of God in three persons; Father, Son, and Holy Spirit",
-                           @"definition":@"\rThe doctrine of the Trinity is the most important in the Hierarchy of Truths of the Catholic Faith. Like other doctrines, it developed over a period of 400 years, from the Apostolic Age to the Council of Constantinople in A.D. 381. Theophilus of Antioch is the first Christian writer to use the Greek term Τριάδος (triados) in A.D. 170 and Tertullian is the first Christian writer to use the Latin term Trinitas circa A.D. 200. as well as the classical formulation states that God is one in substance in three persons.\r\rFurther Reference:\rCatechism of the Catholic Church, 232-260\rhttp://tinyurl.com/4tymjt\r\rWikipedia, Trinity\rhttp://tinyurl.com/lbxfb\r\r\r",
+                           @"definition":@"\rThe doctrine of the Trinity is the most important in the Hierarchy of Truths of the Catholic Faith. Like other doctrines, it developed over a period of 400 years, from the Apostolic Age to the Council of Constantinople in A.D. 381. Theophilus of Antioch is the first Christian writer to use the Greek term Τριάδος (triados) in A.D. 170 and Tertullian is the first Christian writer to use the Latin term Trinitas circa A.D. 200. as well as the classical formulation states that God is one in substance in three persons.\r\rFurther Reference:\rInternational Theological Commission\r“God the Trinity and the Opposition to Violence”\rhttp://tinyurl.com/px7ummk\r\rCatechism of the Catholic Church, 232-260\rhttp://tinyurl.com/4tymjt\r\rWikipedia, “Trinity”\rhttp://tinyurl.com/lbxfb\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Tabernacle",
@@ -2849,7 +2856,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Tanak",
                            @"twitterDef":@"the Hebrew Bible",
-                           @"definition":@"\rThe Hebrew Bible, or “Tanak”, consists of 39 books grouped into three sections:\r\r-Torah\r-Nevi'im\r-Ketuv'im\r\r.The Tanak is the foundation of the Old Testament. “Tanak” is an acronymic term: T = Torah, N = Nevi'im, K = Ketuv'im, with the addition of vowels. See “Torah”, “Nevi'im”, “Ketuv'im”.\r\rFurther Reference:\rWikipedia, “Tanak”\rhttp://tinyurl.com/2vxgml\r\r\r",
+                           @"definition":@"\rThe Hebrew Bible, or “Tanak”, consists of 39 books grouped into three sections:\r\r-Torah\r-Nevi'im\r-Ketuv'im\r\r.The Tanak is the foundation of the Old Testament. “Tanak” is an acronymic term: T = Torah, N = Nevi'im, K = Ketuv'im, with the addition of vowels. See “Torah”, “Nevi'im”, “Ketuv'im”.\r\rFurther Reference:\rInternational Theological Commission\r“The Jewish People and their Sacred Scriptures in the Christian Bible” http://tinyurl.com/mt3e\r\rWikipedia, “Tanak”\rhttp://tinyurl.com/2vxgml\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Tax Collectors",
