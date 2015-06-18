@@ -880,7 +880,7 @@
                                             </constraint>
                                             <constraint firstAttribute="trailing" secondItem="8Cv-Rb-2Ws" secondAttribute="trailing" constant="8" id="mHI-Vp-NeC"/>
                                             <constraint firstItem="zrc-9h-0bq" firstAttribute="top" secondItem="uNV-2X-cOG" secondAttribute="top" constant="25" id="prP-62-YxE">
-                                                <variation key="widthClass=compact" constant="30"/>
+                                                <variation key="widthClass=compact" constant="20"/>
                                             </constraint>
                                             <constraint firstItem="8Cv-Rb-2Ws" firstAttribute="leading" secondItem="dJw-hN-JR5" secondAttribute="leading" constant="11" id="psg-WD-z3d">
                                                 <variation key="widthClass=compact" constant="14"/>
@@ -1347,7 +1347,7 @@
             </objects>
             <point key="canvasLocation" x="-273" y="-483"/>
         </scene>
-        <!--People-->
+        <!--Focus-->
         <scene sceneID="zJW-Gp-0B7">
             <objects>
                 <viewController id="AhB-vL-tFP" customClass="VerbatimViewController" sceneMemberID="viewController">
@@ -1372,7 +1372,7 @@
                             <constraint firstItem="eBx-7V-8BJ" firstAttribute="bottom" secondItem="DDN-AM-gb5" secondAttribute="bottomMargin" id="tFg-LI-R4u"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="People" id="pWq-ph-Bdt">
+                    <navigationItem key="navigationItem" title="Focus" id="pWq-ph-Bdt">
                         <barButtonItem key="leftBarButtonItem" title="Item" id="Q3K-53-0EU"/>
                         <barButtonItem key="rightBarButtonItem" title="Item" id="sRP-WL-tkX"/>
                     </navigationItem>
@@ -1530,11 +1530,11 @@
             </objects>
             <point key="canvasLocation" x="-3530.625" y="548.23943661971828"/>
         </scene>
-        <!--People-->
+        <!--Focus-->
         <scene sceneID="kUP-yg-iC5">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3kh-FI-uIe" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="People" image="men" id="jIN-Bk-txF">
+                    <tabBarItem key="tabBarItem" title="Focus" image="compass" selectedImage="bluemen" id="jIN-Bk-txF">
                         <inset key="imageInsets" minX="0.0" minY="2" maxX="0.0" maxY="-2"/>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="bluemen"/>
@@ -2133,13 +2133,14 @@
         <image name="bluebook" width="29" height="30"/>
         <image name="blueearth" width="30" height="30"/>
         <image name="bluehouse" width="30" height="30"/>
-        <image name="bluemen" width="29" height="30"/>
+        <image name="bluemen" width="30" height="30"/>
         <image name="blueshelf" width="30" height="30"/>
         <image name="book-arrange-7" width="30" height="30"/>
         <image name="chirhopurple-1" width="83" height="83"/>
         <image name="churchpurple" width="83" height="83"/>
         <image name="cityblue" width="83" height="83"/>
         <image name="codex2-1" width="70" height="70"/>
+        <image name="compass" width="30" height="30"/>
         <image name="councillines" width="30" height="30"/>
         <image name="defdetail-1" width="106" height="49"/>
         <image name="dollarblue" width="83" height="83"/>
@@ -2148,7 +2149,6 @@
         <image name="fatherspurple" width="83" height="83"/>
         <image name="headphonesblue" width="83" height="83"/>
         <image name="jerusalem" width="657" height="133"/>
-        <image name="men" width="29" height="30"/>
         <image name="papalbutton-1" width="83" height="83"/>
         <image name="peter3" width="70" height="70"/>
         <image name="philosophyblue" width="83" height="83"/>

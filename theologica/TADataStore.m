@@ -1531,8 +1531,8 @@
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Gospel",
-                           @"twitterDef":@"the good news of and about Jesus of Narareth concerning God, Israel, and the world",
-                           @"definition":@"\rThe concept of the gospel first appears Isaiah 52:7, where it is connected to the good news that Israel's God is King:\r\r“How beautiful upon the mountains are the feet of the one bringing good news, announcing peace, bearing good news, announcing salvation, saying to Zion, 'Your God is King!'”\r\rNew Testament writers such as Paul use it to refer to the message about Jesus as Messiah. Later, it became a term for one of the four canonical written accounts of the life and ministry of Jesus (Matthew, Mark, Luke, and John). The synoptic gospels of Matthew, Mark, and Luke use it to refer to Jesus' message about the Kingdom of God. It was also used by Roman authors to describe the events surrounding the Emperor of Rome.\r\rGreek, εὐαγγέλιον (evangelion) “good news”\r\rFurther Reference:\rCatechism of the Catholic Church, 75\rhttp://tinyurl.com/bx8mnlu\r\r\r",
+                           @"twitterDef":@"the good news of and about Jesus of Narareth;\rone of the four biblical accounts of his life",
+                           @"definition":@"\rThe concept of the gospel first appears Isaiah 52:7, where it is connected to the good news that Israel's God is King:\r\r“How beautiful upon the mountains are the feet of the one bringing good news, announcing peace, bearing good news, announcing salvation, saying to Zion, 'Your God is King!'”\r\rNew Testament writers such as Paul use it to refer to the message about Jesus as Messiah. Later, it became a term for one of the four canonical written accounts of the life and ministry of Jesus (Matthew, Mark, Luke, and John). The synoptic gospels of Matthew, Mark, and Luke use it to refer to Jesus' message about the Kingdom of God. It was also used by Roman authors to describe the events surrounding the Emperor of Rome.\r\rAs a literary genrè, the Gospels are theological interpretations of the life of Jesus. The Church has identified three distinct stages of Gospel formation:\r\r1. the ministry of the historical Jesus\r2. the preaching of the Apostles\r3. the composition of the Gospels\r\rSee “Synoptic Gospels”.\r\rGreek, εὐαγγέλιον (evangelion) “good news”\r\rFurther Reference:\rPontifical Biblical Commission\r“Instruction on the Historical Truth of the Gospels”.http://tinyurl.com/pbazegx\r\rCatechism of the Catholic Church, 75\rhttp://tinyurl.com/bx8mnlu\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Gloria Patri",
@@ -1661,9 +1661,9 @@
                            @"definition":@"\rThe Historical Books deal primarily with the beginning of the Israelite nation, subsequent downfall, and eventual restoration. They include Joshua, Judges, Ruth, 1 & 2 Samuel, 1 & 2 Kings, 1 & 2 Chronicles, Ezra, and Nehemiah.\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, “Historical Books”. http://tinyurl.com/l2bx9te\r\r\r",
                            @"category":@"Biblical"}];
     
-    [TAWord wordWithDict:@{@"name":@"Historical Critical Method",
+    [TAWord wordWithDict:@{@"name":@"Historical-Critical Method",
                            @"twitterDef":@"the hermeneutical method which examines an author's intent through exegesis",
-                           @"definition":@"\rThe hermeneutical method which seeks to uncover the intention of the author through exegetical analysis of history, language, literature, sources, and culture. According to the Pontifical Biblical Commission, it is the one essential method for Catholic hermeneutics.\r\rFurther Reference:\rPontifical Biblical Commission\r“The Interpretation of the Bible in the Church, I.A”\rhttp://tinyurl.com/2gb5dm\r\r\r",
+                           @"definition":@"\rThe hermeneutical method which seeks to uncover the intention of the author through exegetical analysis of history, language, literature, sources, and culture. According to the Pontifical Biblical Commission, it is the one essential method for Catholic hermeneutics.\r\rFurther Reference:\rPontifical Biblical Commission\r“The Interpretation of the Bible in the Church”\rhttp://tinyurl.com/2gb5dm\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Historical Criticism",
@@ -1775,7 +1775,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Infallibility",
                            @"twitterDef":@"the supernatural guarantee that the Church cannot err in teaching revealed truth",
-                           @"definition":@"\rInfallibility is exercised in three ways:\r\r-by the consent of the Faithful\r-by the Bishops together with the Pope\r-by the Pope ex cathedra\r\rFurther Reference:\rWikipedia, “Infallibility of the Church”\rhttp://tinyurl.com/n58unch\r\r\r",
+                           @"definition":@"\rInfallibility is exercised in three ways:\r\r-by the consent of the Faithful\r-by the Bishops together with the Pope\r-by the Pope ex cathedra\r\rFurther Reference:\rCatechism of the Catholic Church, 888-892\rhttp://tinyurl.com/m65ttaf\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Intercession",
@@ -1791,7 +1791,7 @@
 
     [TAWord wordWithDict:@{@"name":@"Impediment",
                            @"twitterDef":@"a hiderance to human freedom;\ractual or habitual",
-                           @"definition":@"\rActual impediments are those found in the situation of the subject. Virtual impediments are those found within the character of the subject.\r\rFurther Reference:\rJames P. Hannigan, “As I Have Loved You: The Challenge of Christian Ethics”, 54-55 http://tinyurl.com/npm2vvg\r\r\r",
+                           @"definition":@"\rActual impediments are those found in the situation of the subject. Virtual impediments are those found within the character of the subject.\r\rFurther Reference:\rJames P. Hannigan, “As I Have Loved You: The Challenge of Christian Ethics”, 54-55\rhttp://tinyurl.com/npm2vvg\r\r\r",
                            @"category":@"Moral"}];
     
     
@@ -1802,7 +1802,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Idolatry",
                            @"twitterDef":@"the bestowal of ultimate value on that which is not ultimate",
-                           @"definition":@"\rThe post-Exilic Hebrew prophets repeatedly condemn the worship of other gods by the Israelites as idolatry. Pope Francis has repeatedly condemned the idolatry of money, prevalent in wealthy nations. See “Exile”.\r\rFurther Reference:\rCatechism of the Catholic Church, 2113\rhttp://tinyurl.com/lu75a9k\r\r\r",
+                           @"definition":@"\rThe post-Exilic Hebrew prophets repeatedly condemn the worship of other gods by the Israelites as idolatry. Pope Francis has repeatedly condemned the idolatry of money, prevalent in wealthy nations, as a driving force of social injustice:\r\r“We have created new idols. The worship of the ancient golden calf (cf. Ex 32:1-35) has returned in a new and ruthless guise in the idolatry of money and the dictatorship of an impersonal economy lacking a truly human purpose. The worldwide crisis affecting finance and the economy lays bare their imbalances and, above all, their lack of real concern for human beings; man is reduced to one of his needs alone: consumption.” -Evangelii Gaudium, 55\r\rFurther Reference:\rPope Francis, “Evangelii Gaudium”\rhttp://tinyurl.com/ojdpva4\r\rFurther Reference:\rCatechism of the Catholic Church, 2113\rhttp://tinyurl.com/lu75a9k\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Inclusivism",
@@ -1817,7 +1817,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Interpretation",
                            @"twitterDef":@"the process of determining the meaning, significance, and relevance of a text",
-                           @"definition":@"\rInterpretation of any text, especially the Bible, requires knowing the context of the writing. This, in turn, requires efforts to know the author's intent, which is partly discerned by studying the text's literary form. See “Exegesis”, “Hermeneutics”, “Sitz Em Laben”.\r\rFurther Reference:\rPontifical Biblical Commission, “The Interpretation of the Bible in the Church”\rhttp://tinyurl.com/2gb5dm\r\r\r",
+                           @"definition":@"\rInterpretation of any text, especially the Bible, requires knowing the context of the writing. This, in turn, requires efforts to know the author's intent, which is partly discerned by studying the text's literary form. See “Exegesis”, “Hermeneutics”, “Sitz im Laben”.\r\rFurther Reference:\rPontifical Biblical Commission\r“The Interpretation of the Bible in the Church”\rhttp://tinyurl.com/2gb5dm\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Israel",
@@ -1839,27 +1839,27 @@
     
     [TAWord wordWithDict:@{@"name":@"Justification",
                            @"twitterDef":@"the act of being put into a just relationship",
-                           @"definition":@"\rSt. Paul uses this legal term in his letter to the Romans to describe those who have faith in Jesus Christ (or the faith of Jesus Christ).\r\rFurther Reference:\rCatechism of the Catholic Church, 1990\rhttp://tinyurl.com/yaua7cc\r\r\r",
+                           @"definition":@"\rSt. Paul uses this legal term in his letter to the Romans to describe those who have faith in Jesus Christ. The genetive case of the Greek phrase πίστις Χριστοῦ (pistis Christou) can be translated “faith about Christ” or “faith of Christ”. The former is the more traditional translation. The latter lends itself to an interpretation of Paul that emphasizes trust in God like that of Jesus himself being that which justifies. In both interpretations, however, Jesus is the exemplar of the human response to God.\r\rFurther Reference:\rCatechism of the Catholic Church, 1990\rhttp://tinyurl.com/yaua7cc\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Justice",
                            @"twitterDef":@"the state of right relationships between individuals and groups in society",
-                           @"definition":@"\rThe biblical authors use the concept of Justice a metaphor to describe the proper relationship between God and human beings. Abraham was justified because of his faith. St. Paul claims that believers in Jesus are justified through their faith in the same way. According the Social Doctrine of the Church, there are three aspects to Justice:\r-Commutatitve\r- Contributive\r-Distributive\r\rSee “Commutative Justice”, “Contributive Justice”, “Distributive Justice”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1807\rhttp://tinyurl.com/pd2yc32\r\r\r",
+                           @"definition":@"\rThe biblical authors use the concept of Justice a metaphor to describe the proper relationship between God and human beings. Abraham was justified because of his faith. St. Paul claims that believers in Jesus are justified through their faith in the same way. According the Social Doctrine of the Church, there are three aspects to Social Justice:\r\r-Commutatitve\r-Contributive\r-Distributive\r\rSee “Commutative Justice”, “Contributive Justice”, “Distributive Justice”.\r\rSee “Social Justice”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1807\rhttp://tinyurl.com/pd2yc32\r\r\r",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Jus Ad Bellum",
                            @"twitterDef":@"a set of criteria used to determine if war is justified in a given situation",
-                           @"definition":@"\rJus Ad Bellum criteria include: just cause, comparative justice, competent authority, right intention, probability of success, last resort, proportionality. See “Just War Theory”.\r\rLatin, (jus ad bellum) “justice to war”\r\rFurther Reference:\rStanford Encyclopedia of Philosophy, “War” http://tinyurl.com/84c2ppg\r\r\r",
+                           @"definition":@"\rJus Ad Bellum criteria include: just cause, comparative justice, competent authority, right intention, probability of success, last resort, proportionality. See “Just War Theory”.\r\rLatin, (jus ad bellum) “justice to war”\r\rFurther Reference:\rStanford Encyclopedia of Philosophy, “War”\rhttp://tinyurl.com/84c2ppg\r\r\r",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Jus Im Bello",
                            @"twitterDef":@"a set of criteria used to determine if the methods of war are justified",
-                           @"definition":@"\rJus Im Bello criteria include: distinction, proportionality, military necessity. See “Just War Theory”.\r\rLatin, (jus im bello) “justice in war”\r\rFurther Reference:\rStanford Encyclopedia of Philosophy, “War” http://tinyurl.com/84c2ppg\r\r\r",
+                           @"definition":@"\rJus Im Bello criteria include: distinction, proportionality, military necessity. See “Just War Theory”.\r\rLatin, (jus im bello) “justice in war”\r\rFurther Reference:\rStanford Encyclopedia of Philosophy, “War”\rhttp://tinyurl.com/84c2ppg\r\r\r",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Just War Theory",
                            @"twitterDef":@"the set of criteria for determining the justice of both the conditions and methods of war",
-                           @"definition":@"\rThe theory first developed by Augustine and later refined by Aquinas which consists of criteria for determining the justice of both the conditions and methods of war. See “Jus Ad Bellum”, “Jus Im Bello”.\r\rFurther Reference:\rCatechism of the Catholic Church, 2309\rhttp://tinyurl.com/dh7r\r\rStanford Encyclopedia of Philosophy, “War” http://tinyurl.com/84c2ppg\r\r\r",
+                           @"definition":@"\rThe theory first developed by Augustine and later refined by Aquinas which consists of criteria for determining the justice of both the conditions and methods of war. See “Jus Ad Bellum”, “Jus Im Bello”.\r\rFurther Reference:\rCatechism of the Catholic Church, 2309\rhttp://tinyurl.com/dh7r\r\rStanford Encyclopedia of Philosophy, “War”\rhttp://tinyurl.com/84c2ppg\r\r\r",
                            @"category":@"Moral"}];
     
     /*
@@ -1904,7 +1904,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Kosher",
                            @"twitterDef":@"foods that are appropriate to eat or sacrifice to YHWH",
-                           @"definition":@"\rThe classification of some foods as “kosher” is unique to the Priestly Source. Leviticus 11 gives a detailed list of foods that are considered by the P author to be unclean. See “Priestly Source”.\r\rFurther Reference:\rWikipedia, “Kosher Foods”\rhttp://tinyurl.com/druwv\r\r\r",
+                           @"definition":@"\rThe classification of some foods as “kosher” is unique to the Priestly Source. Leviticus 11 gives a detailed list of foods that are considered by the Priestly author to be unclean. See “Priestly Source”.\r\rFurther Reference:\rWikipedia, “Kosher Foods”\rhttp://tinyurl.com/druwv\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Kerygma",
@@ -1937,7 +1937,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Laity",
                            @"twitterDef":@"non-ordained members of the Church",
-                           @"definition":@"\rThe Laity are called to share in the kingly, prophetic, and priestly office of Christ. They manifest the “sensus fidei” (sense of the faith), which has at times, according to Cardinal John Henry Newman, preserved the faith of the Church and prevented the Magisterium from teaching error. See “Three-fold Ministry”, “Sensus Fidelium”.\r\rFurther Reference:\rCatechism of the Catholic Church, 897\rhttp://tinyurl.com/m65ttaf\r\r\r",
+                           @"definition":@"\rThe Laity are called to share in the kingly, prophetic, and priestly office of Christ. They manifest the “sensus fidei” (sense of the faith), which has at times, according to Cardinal John Henry Newman, preserved the faith of the Church and prevented the Magisterium from teaching error. See “Sensus Fidelium”.\r\rFurther Reference:\rCatechism of the Catholic Church, 897\rhttp://tinyurl.com/m65ttaf\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Latria",
@@ -1952,7 +1952,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Lector",
                            @"twitterDef":@"a member of the laity who leads the congretation in reading or prayers",
-                           @"definition":@"\rThe ministry of Lector is a service in the Liturgy through the reading of the Scriptures and and the Prayer of the Faithful. It is open to qualified members of the Laity. See “Prayer of the Faithful”, “Laity”.\r\rFurther Reference:\rCatechism of the Catholic Church, 903\rhttp://tinyurl.com/m65ttaf\r\r\r",
+                           @"definition":@"\rThe ministry of Lector is a service in the Liturgy through the reading of the Scriptures and and the Prayer of the Faithful. It is open to qualified members of the Laity. See “Laity”.\r\rFurther Reference:\rCatechism of the Catholic Church, 903\rhttp://tinyurl.com/m65ttaf\r\r\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Lecturn",
@@ -1987,7 +1987,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Lex Orandi, Lex Credendi",
                            @"twitterDef":@"a Latin phrase meaning the “law of prayer is the law of belief”",
-                           @"definition":@"\rThis idea makes the connection between belief and practice explicit.\r\rLatin, (lex orandi, lex credendi) “law of prayer, law of belief”\r\rFurther Reference:\rCatechism of the Catholic Church, 1124\rhttp://tinyurl.com/cmes38\r\r\r",
+                           @"definition":@"\rThis phrases stems from the Patristic era. idea makes the connection between belief and practice explicit.\r\rLatin, (lex orandi, lex credendi) “law of prayer, law of belief”\r\rFurther Reference:\rCatechism of the Catholic Church, 1124\rhttp://tinyurl.com/cmes38\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Litany",
@@ -1997,7 +1997,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Literary Criticism",
                            @"twitterDef":@"the analysis of the literary characteristics of a text",
-                           @"definition":@"\rLiterary Criticism is a synchronic form of analysis of a text used by the Historical-Critical Method. It examines the form, setting, plot, characterization, denouement, theme, and climax. See “Historical-Critical Method”, “Synchronic Analysis”.\r\rFurther Reference:\rWikipedia, “Literary Criticism”\rhttp://tinyurl.com/kw5x5\r\r\r",
+                           @"definition":@"\rLiterary Criticism is a synchronic form of analysis of a text used by the Historical-Critical Method. It examines the form, setting, plot, characterization, denouement, theme, and climax. See “Historical-Critical Method”, “Synchronic Analysis”.\r\rFurther Reference:\rPontifical Biblical Commission\r“The Interpretation of the Bible in the Church”\rhttp://tinyurl.com/2gb5dm\r\rWikipedia, “Literary Criticism”\rhttp://tinyurl.com/kw5x5\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"LXX",
@@ -2007,7 +2007,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Liberation Theology",
                             @"twitterDef":@"the belief that the gospel is only authentic in the face of radical poverty",
-                           @"definition":@"\rLiberation Theology was developed by Fr. Gustavo Gutierrez in the early 1970's through his major work “A Theology of Liberation”. See “Catholic Social Teaching“, “Social Justice“.\r\rFurther Reference:\rCongregation For The Doctrine Of The Faith, “Instruction On Certain Aspects Of The Theology Of Liberation\rhttp://tinyurl.com/27d23\r\r\r",
+                           @"definition":@"\rLiberation Theology was developed by Fr. Gustavo Gutierrez in the early 1970's through his major work “A Theology of Liberation”. See “Catholic Social Teaching“, “Social Justice“.\r\rFurther Reference:\rCongregation For The Doctrine Of The Faith, “Instruction On Certain Aspects Of The Theology Of Liberation”. http://tinyurl.com/27d23\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Liturgy",
@@ -2023,7 +2023,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Liturgy of the Word",
                            @"twitterDef":@"the public reading and hearing of\rSacred Scripture at Mass",
-                           @"definition":@"\rThe Liturgy of the Word, the Church listens to the Word of God from the Scriptures and is exhorted to Christian living in the homily. It concludes with the Prayer of the Faithful. See “Homily”, “Prayer of the Faithful”.\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, “Liturgy of the Word”\rhttp://tinyurl.com/lzxk5e8\r\r\r",
+                           @"definition":@"\rThe Liturgy of the Word, the Church listens to the Word of God from the Scriptures and is exhorted to Christian living in the homily. It concludes with the Prayer of the Faithful. See “Homily”, “Prayer of the Faithful”.\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, “Liturgy of the Word”. http://tinyurl.com/lzxk5e8\r\r\r",
                            @"category":@"Liturgical"}];
     
     
@@ -2034,7 +2034,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Law of Non-Contradiction",
                            @"twitterDef":@"A and ~A cannot be true at the same time in the same way",
-                           @"definition":@"\rThis principle is first found in the writings of Aristotle, in his fourth book on Metaphysics. There he claims that without this principle, no learning could be possible.\r\rStanford Encyclopedia of Philosophy, “Aristotle on Non-Contradiction”\rhttp://tinyurl.com/yvzfdk\r\r\r",
+                           @"definition":@"\rThis principle is first found in the writings of Aristotle, in his fourth book on Metaphysics. There he claims that without this principle, no learning could be possible.\r\rStanford Encyclopedia of Philosophy\r“Aristotle on Non-Contradiction”\rhttp://tinyurl.com/yvzfdk\r\r\r",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Living Wage",
@@ -2054,7 +2054,7 @@
     
     [TAWord wordWithDict:@{@"name":@"LORD",
                            @"twitterDef":@"a symbolic transliteration of the Tetragrammaton",
-                           @"definition":@"\rMost contemporary English bibles render the Divine Name as the LORD to indicate that the underlying Hebrew name of God. See “Tetragrammaton”\r\rFurther Reference:\rWikipedia, Tetragrammaton\r\r\r",
+                           @"definition":@"\rMost contemporary English bibles render the Divine Name as the LORD to indicate that the underlying Hebrew name of God. See “Tetragrammaton”\r\rFurther Reference:\rWikipedia, “Tetragrammaton”\rhttp://tinyurl.com/ps7gk9f\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Lord's Prayer",
@@ -2070,7 +2070,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Lumen Gentium",
                            @"twitterDef":@"the Dogmatic Constitution of Vatican II concerning the Church",
-                           @"definition":@"\rLumen Gentium is the most authoritative Church teaching on the nature, structure, and mission of the Church. See “Ecclesiology”, “Church”\r\rLatin (lumen gentium) “light of the nations”\r\rFurther Reference:\rVatican II, “Lumen Gentium” http://tinyurl.com/3wxff\r\r\r",
+                           @"definition":@"\rLumen Gentium is the most authoritative Church teaching on the nature, structure, and mission of the Church. See “Ecclesiology”, “Church”\r\rLatin (lumen gentium) “light of the nations”\r\rFurther Reference:\rVatican II, “Lumen Gentium”\rhttp://tinyurl.com/3wxff\r\r\r",
                            @"category":@"Biblical"}];
     
     /////////////////////////////M
@@ -2099,7 +2099,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Marriage",
                            @"twitterDef":@"the Sacrament in which a man and woman become one flesh",
-                           @"definition":@"\rMarriage as human institution has evolved in conjunction with human society. As a Sacrament, Marriage reflects the nuptial identity of the human person and is intrinsically connected to the creation of families. It faces new challenges in the face of the growing numbers of divorce, dysfunctional households, and acceptance of same-sex unions.\r\rFurther Reference:\rCatechism of the Catholic Church, 1601\rhttp://tinyurl.com/ykptlg\r\r\r",
+                           @"definition":@"\rMarriage as human institution has evolved in conjunction with human society. As a Sacrament, Marriage reflects the nuptial identity of the human person and is intrinsically connected to the creation of families. It faces new questions in the face of increasing recognition of same-sex marriage and new challenges in the growing numbers of divorce and dysfunctional households.\r\rFurther Reference:\rCatechism of the Catholic Church, 1601\rhttp://tinyurl.com/ykptlg\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Martyr",
@@ -2130,7 +2130,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Miracle",
                            @"twitterDef":@"a supernatural event which defies scientific explanation",
-                           @"definition":@"\rIn common parlance, miracles are events which violate the laws of nature. While biblical authors did not share that perspective, the Bible is nevertheless full of claims about God's “mighty deeds” of power.\r\rFurther Reference:\rInterdisciplinary Encyclopedia of Religion and Science, “Miracle”\rhttp://tinyurl.com/mmev2qy\r\r\r",
+                           @"definition":@"\rIn common parlance, miracles are events which violate the laws of nature. While biblical authors did not share that perspective, the Bible is nevertheless full of claims about God's “mighty deeds” of power.\r\rFurther Reference:\rInterdisciplinary Encyclopedia of Religion and Science, “Miracle”. http://tinyurl.com/mmev2qy\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Monotheism",
@@ -2140,7 +2140,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Morality",
                            @"twitterDef":@"customary norms of behavior considered good or evil",
-                           @"definition":@"\rcustomary norms of behavior considered good or evil, right or wrong in a given system.\r\rFurther Reference:\rCatechism of the Catholic Church, 1749-1756 http://tinyurl.com/lxslc7r\r\r\r",
+                           @"definition":@"\rMorality has been the subject of various analyses throughtout the history of Philosophy. One of the more famous treatments were those of Aristotle and Immanuel Kant. In the Catholic Tradition, morality is based on both Natural Law and Divine Revelation. See the Philosophy section in the Overview tab. See “Natural Law”, “Divine Revelation”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1749-1756 http://tinyurl.com/lxslc7r\r\r\r",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Mystery",
@@ -2160,7 +2160,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Ministry",
                            @"twitterDef":@"service in the name of Christ",
-                           @"definition":@"\rMinistry in the Church takes many different forms. The two primary categories are ordained and lay ministry.\r\rFurther Reference:\rCatechism of the Catholic Church, 874\rhttp://tinyurl.com/m65ttaf\r\r\r",
+                           @"definition":@"\rMinistry in the Church takes many different forms. The two primary categories are ordained and lay ministry. See “Laity”, “Holy Orders”.\r\rFurther Reference:\rCatechism of the Catholic Church, 874\rhttp://tinyurl.com/m65ttaf\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Mishnah",
@@ -2170,7 +2170,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Missal",
                            @"twitterDef":@"a guidebook used to celebrate the Eucharist",
-                           @"definition":@"\rThe 2011 new translation of the Mass was based on the Roman Missal. See “Liturgy”.\r\rFurther Reference:\rCongregation for Divine Worship and Discipline of the Sacraments, “General Instruction on the Roman Missal”\rhttp://tinyurl.com/kmepha\r\r\r",
+                           @"definition":@"\rThe 2011 new translation of the Mass was based on the Roman Missal. See “Liturgy”.\r\rFurther Reference:\rCongregation for Divine Worship and Discipline of the Sacraments, “General Instruction on the Roman Missal”. http://tinyurl.com/kmepha\r\r\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Missionary",
@@ -2195,7 +2195,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Monasticism",
                            @"twitterDef":@"the practice of religious vows lived in community",
-                           @"definition":@"\rMonastics tace their origin to the third century with Abba Anthony of Egypt.\r\rFurther Reference:\rWikipedia, “Monasticism”\rhttp://tinyurl.com/n7kl2y\r\r\r",
+                           @"definition":@"\rMonastics tace their origin to the third century with Abba Anthony of Egypt. It quickly spread around the Mediterranean basin where it flourished. Many monks were responsible for the creation of copies of early manuscripts. See “Manuscript”.\r\rFurther Reference:\rWikipedia, “Monasticism”\rhttp://tinyurl.com/n7kl2y\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Monophysitism",
@@ -2210,7 +2210,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Myth",
                            @"twitterDef":@"a story that cannot be historically verified",
-                           @"definition":@"\rMyths may express truths that are not subject to historical verification. The Primeval History contained in Genesis 1-11 is widely regarded as myth that communicates theological truth about the Creator and the created order, the effects of sin, and the Divine quest for reunion with humanity.\r\rFurther Reference:\rPontifical Biblical Commission, “The Interpretation of the Bible in the Church, III.C.4”, http://tinyurl.com/2gb5dm\r\rWikipedia, “Creation Myth”\rhttp://tinyurl.com/33adt4\r\r\r",
+                           @"definition":@"\rMyths may express truths that are not subject to historical verification. The Primeval History contained in Genesis 1-11 is widely regarded as myth that communicates theological truth about the Creator and the created order, the effects of sin, and the Divine quest for reunion with humanity.\r\rFurther Reference:\rPontifical Biblical Commission, “The Interpretation of the Bible in the Church, III.C.4”\rhttp://tinyurl.com/2gb5dm\r\rWikipedia, “Creation Myth”\rhttp://tinyurl.com/33adt4\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Monstrance",
@@ -2219,8 +2219,8 @@
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Montanism",
-                           @"twitterDef":@"a second-century charismatic heretical group based on the teachings of Montanus",
-                           @"definition":@"\rMontanus taught that the Holy Spirit, promised by Jesus, had incarnated itself in him, who demanded his followers adopt a strict lifestyle. The Church Father Tertullian eventually converted to Montanism\r\rFurther Reference:\rWikipedia, “Montanism”\rhttp://tinyurl.com/dnms5r\r\r\r",
+                           @"twitterDef":@"a second-century charismatic, heretical group based on the teachings of Montanus",
+                           @"definition":@"\rMontanus taught that the Holy Spirit, promised by Jesus, had incarnated itself in him, who demanded his followers adopt a strict lifestyle. The Church Father Tertullian eventually converted to Montanism.\r\rFurther Reference:\rWikipedia, “Montanism”\rhttp://tinyurl.com/dnms5r\r\r\r",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Moral Theology",
@@ -2235,7 +2235,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Metaphysics",
                            @"twitterDef":@"the study of the fundamental nature of reality",
-                           @"definition":@"\rMetaphysics is a highly contested area of inquiry that has including a variation of topics throughout history since the time of Aristotle. More generally, it is the study of being as such. Theology is a metaphysical discipline insofar as theology makes claims about the fundamental nature of reality, which, in the Catholic Tradition, is known as God.\r\rFurther Reference:\rRoutledge Encyclopedia of Philosophy, “Metaphysics” http://tinyurl.com/mydu3hx\r\r\r",
+                           @"definition":@"\rMetaphysics is a highly contested area of inquiry that has including a variation of topics throughout history since the time of Aristotle. More generally, it is the study of being as such. Theology is a metaphysical discipline insofar as theology makes claims about the fundamental nature of reality, which, in the Catholic Tradition, is known as God.\r\rFurther Reference:\rRoutledge Encyclopedia of Philosophy, “Metaphysics”. http://tinyurl.com/mydu3hx\r\r\r",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Muratorian Fragment",
@@ -2255,12 +2255,12 @@
     
     [TAWord wordWithDict:@{@"name":@"Natural Law",
                            @"twitterDef":@"the universal moral standard, accessible by human reason",
-                           @"definition":@"\rThe concept of natural law dates back to the early Greek philosophers. It is alluded to in St. Paul's epistle to the Romans 1:21. It is treated extensively by St. Thomas Aquinas in the Summa Theologica.\r\rFurther Reference:\rInternational Theological Commission\r“In Search of a Universal Ethic”\rhttp://tinyurl.com/pxcjasx\r\rCatechism of the Catholic Church, 1954\rhttp://tinyurl.com/yla3tgm\r\r\r",
+                           @"definition":@"\rThe concept of natural law dates back to the early Greek philosophers. It is alluded to in St. Paul's epistle to the Romans 1:21. It is treated extensively by St. Thomas Aquinas in the “Summa Theologica”.\r\rFurther Reference:\rInternational Theological Commission\r“In Search of a Universal Ethic”\rhttp://tinyurl.com/pxcjasx\r\rCatechism of the Catholic Church, 1954\rhttp://tinyurl.com/yla3tgm\r\r\r",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Natural Theology",
                            @"twitterDef":@"the study of God by inference from the facts of the physical world",
-                           @"definition":@"\rNatural Theology is the attempt to examine the concept of God from the natural world, apart from any special revelation. See “Divine Revelation”.\r\rFurther Reference:\rInternet Encyclopedia of Philosophy, “Natural Theology”\rhttp://tinyurl.com/7ckb5tz\r\r\r",
+                           @"definition":@"\rNatural Theology is the attempt to examine the concept of God from the natural world, apart from any special revelation. See “Divine Revelation”.\r\rFurther Reference:\rInternet Encyclopedia of Philosophy\r“Natural Theology”. http://tinyurl.com/7ckb5tz\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Nevi'im",
@@ -2275,16 +2275,16 @@
     
     [TAWord wordWithDict:@{@"name":@"Nestorianism",
                            @"twitterDef":@"the heresy Christ's human and divine nature were radically divided",
-                           @"definition":@"\rThe teaching of Nestorius was condemned at the Council of Ephesus in A.D. 431. St. Cyril argued persuasively against his teaching. See “Ephesus” in the Historical section of the Maps Tab\r\rFurther Reference:\rCatechism of the Catholic Church, 466\rhttp://tinyurl.com/37wuaux\r\r\r",
+                           @"definition":@"\rThe teaching of Nestorius was condemned at the Council of Ephesus in A.D. 431. St. Cyril argued persuasively against his teaching. See “Ephesus” in the Historical section of the Maps Tab.\r\rFurther Reference:\rCatechism of the Catholic Church, 466\rhttp://tinyurl.com/37wuaux\r\r\r",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"New Covenant",
                            @"twitterDef":@"the Christian covenant based on the life, death, and resurrection of Jesus",
-                           @"definition":@"\rThe concept of a new covenant occurs for the first time in Jeremiah 31:31-34:\r\r“Behold, the days are coming, declares the Lord, when I will make a new covenant with the house of Israel and the house of Judah, not like the covenant that I made with their fathers on the day when I took them by the hand to bring them out of the land of Egypt, my covenant that they broke, though I was their husband, declares the Lord. For this is the covenant that I will make with the house of Israel after those days...I will forgive their iniquity, and I will remember their sin no more.”\r\rJesus of Nazareth likely alluded to this passage during the Last Supper in which he declared the cup to be the cup of the New Covenant in his blood. See “Last Supper”.\r\rFurther Reference:\rWikipedia, “New Covenant”\rhttp://http://tinyurl.com/6klzmk\r\r\r",
+                           @"definition":@"\rThe concept of a new covenant occurs for the first time in Jeremiah 31:31-34:\r\r“Behold, the days are coming, declares the Lord, when I will make a new covenant with the house of Israel and the house of Judah, not like the covenant that I made with their fathers on the day when I took them by the hand to bring them out of the land of Egypt, my covenant that they broke, though I was their husband, declares the Lord. For this is the covenant that I will make with the house of Israel after those days...I will forgive their iniquity, and I will remember their sin no more.”\r\rJesus of Nazareth likely alluded to this passage during the Last Supper in which he declared the cup to be the cup of the New Covenant in his blood. See “Last Supper”.\r\rFurther Reference:\rCatechism of the Catholic Church, 613\rhttp://tinyurl.com/o3pwxjn\r\rWikipedia, “New Covenant”\rhttp://http://tinyurl.com/6klzmk\r\r\r",
                            @"category":@"Biblical"}];
     
     
-    [TAWord wordWithDict:@{@"name":@"Nicene-Constantinopolitan Creed",
+    [TAWord wordWithDict:@{@"name":@"Nicene Creed",
                            @"twitterDef":@"the creed from Constantinople in A.D. 381, based on the Nicene Creed in A.D. 325",
                            @"definition":@"\rThe Nicene Creed is also referred to as the Nicene-Constantinopolitan Creed:\r\r“We believe in one God, the Father, the Almighty, maker of heaven and earth, of all that is, seen and unseen.\r\rWe believe one Lord, Jesus Christ, the only Son of God, eternally begotten of the Father, God from God, Light from Light, true God from true God, begotten, not made, one in Being with the Father. Through Him all things were made. For us men and for our salvation, He came down from heaven: by the power of the Holy Spirit He was born of the Virgin Mary, and became Man. For our sake He was crucified under Pontius Pilate. He suffered, died, and was buried. On the third day He rose again in fulfillment of the Scriptures; He ascended into heaven, and is seated at the right hand of the Father. He will come again in glory to judge the living and the dead, and His kingdom will have no end. \r\rWe believe in the Holy Spirit, the Lord, the Giver of life, Who proceeds from the Father and the Son. With the Father and the Son He is worshiped and glorified. He has spoken through the prophets.\r\rWe believe in one, holy, catholic, and apostolic Church. We acknowledge one Baptism for the forgiveness of sins. We look for the resurrection of the dead, and the life of the world to come. Amen.”\r\rSee “Nicea” in the Historical section of the Maps tab.\r\rFurther Reference:\rCatechism of the Catholic Church, Sec. II\rhttp://tinyurl.com/2dszf5\r\r\r",
                            @"category":@"Historical"}];
@@ -2344,7 +2344,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Ontological Argument",
                            @"twitterDef":@"the argument that states God, as the greatest possible Being, is necessary",
-                           @"definition":@"\rThe argument, first formulated by Anselm of Canterburry, that states God, as the greatest possible Being, is a necessary Being:\r\r1. By definition, God is a being than which none greater can be imagined.\r\r2. A being that necessarily exists in reality is greater than a being that does not necessarily exist.\r\r3. Thus, by definition, if God exists as an idea in the mind but does not necessarily exist in reality, then we can imagine something that is greater than God.\r\r4. But we cannot imagine something that is greater than God.\r\r5. Thus, if God exists in the mind as an idea, then God necessarily exists in reality.\r\r6. God exists in the mind as an idea.\r\r7. Therefore, God necessarily exists in reality.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy, “Ontological Arguments”\rhttp://tinyurl.com/5z59lw\r\r\r",
+                           @"definition":@"\rThe argument, first formulated by St. Anselm of Canterbury, that states God, as the greatest possible Being, is a necessary Being:\r\r1. By definition, God is a being than which none greater can be imagined.\r\r2. A being that necessarily exists in reality is greater than a being that does not necessarily exist.\r\r3. Thus, by definition, if God exists as an idea in the mind but does not necessarily exist in reality, then we can imagine something that is greater than God.\r\r4. But we cannot imagine something that is greater than God.\r\r5. Thus, if God exists in the mind as an idea, then God necessarily exists in reality.\r\r6. God exists in the mind as an idea.\r\r7. Therefore, God necessarily exists in reality.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy, “Ontological Arguments”. http://tinyurl.com/5z59lw\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Ontology",
@@ -2365,7 +2365,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Ordinary Time",
                            @"twitterDef":@"the liturgical time between Easter and Advent",
-                           @"definition":@"\rOrdinary Time is divided into two segments; from the Baptism of the Lord to Ash Wednesday and from Pentecost to Advent. During the Ordinary Time, the readings in the Lectionary are not chosen topically.\rFurther Reference:\rWikipedia, “Ordinary Time”\rhttp://tinyurl.com/6xzoaj\r\r\r",
+                           @"definition":@"\rOrdinary Time is divided into two segments; from the Baptism of the Lord to Ash Wednesday and from Pentecost to Advent. During the Ordinary Time, the readings in the Lectionary are not chosen topically.\r\rFurther Reference:\rWikipedia, “Ordinary Time”\rhttp://tinyurl.com/6xzoaj\r\r\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Ordination",
@@ -2375,7 +2375,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Original Sin",
                            @"twitterDef":@"the sin of the first humans;\rthe corruptible condition of humanity",
-                           @"definition":@"\rOriginal Sin, while not named as such, is alluded to by St. Paul in Romans 5:12. St. Augustine coined the term in his dispute with the Pelagians. In the traditional teaching of the Church, Original Sin can be understood as both the explanans and explanandum. As explananas it explains the human condition of evil, suffering, and death. As explanandum, it is the human condition which requires explanation.\r\rFurther Reference:\rCatechism of the Catholic Church, Article I, Paragraph 7\rhttp://tinyurl.com/llux3he\r\r\r",
+                           @"definition":@"\rOriginal Sin, while not named as such, is alluded to by St. Paul in Romans 5:12. St. Augustine coined the term in his dispute with the Pelagians. In the traditional teaching of the Church, Original Sin can be understood as both the explanans and explanandum. As explananas it explains the human condition of evil, suffering, and death. As explanandum, it is the human condition which requires explanation.\r\rFurther Reference:\rCatechism of the Catholic Church, Article I, Paragraph 7. http://tinyurl.com/llux3he\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Orthodox",
@@ -2390,7 +2390,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Old Testament",
                            @"twitterDef":@"the 46 books dealing with the people of Israel",
-                           @"definition":@"\rThe books of the Old Testament are grouped into five categories:\r\r-rPentateuch\r-Historical Books\r-Biblical Novellas\r-Wisdom Books\r-Prophetic Books\r\rThe Church teaches that the Old Testament prefigures the life of Christ through Typology. The Old Testament is based on the Hebrew Bible, which only includes 39 books. See “Tanak”, “Typology”.\r\rFurther Reference:\rWikipedia, “Old Testament”\rhttp://tinyurl.com/fvz4q\r\r\r",
+                           @"definition":@"\rThe books of the Old Testament are grouped into five categories:\r\r-Pentateuch\r-Historical Books\r-Biblical Novellas\r-Wisdom Books\r-Prophetic Books\r\rThe Church teaches that the Old Testament prefigures the life of Christ through Typology. The Old Testament is based on the Hebrew Bible, which only includes 39 books. See “Tanak”, “Typology”.\r\rFurther Reference:\rWikipedia, “Old Testament”\rhttp://tinyurl.com/fvz4q\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Oracle",
@@ -2422,7 +2422,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Panentheism",
                            @"twitterDef":@"the belief that everything exists within God",
-                           @"definition":@"\rPanentheism is examplified in Acts 17:28 in which St. Paul claims that God gives everything life; “in him we live, move, and have our being”. Both modern theologians and philosophers have claimed a panentheistic model of the God-World relationship. According to Alfred North Whitehead, in a panentheistic worldview, God has both necessary and contigent properties. See “Process Theology”.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy, “Panentheism” http://tinyurl.com/5e8c62\r\r\r",
+                           @"definition":@"\rPanentheism is examplified in Acts 17:28 in which St. Paul claims that God gives everything life; “in him we live, move, and have our being”. Both modern theologians and philosophers have claimed a panentheistic model of the God-World relationship. According to Alfred North Whitehead, in a panentheistic worldview, God has both necessary and contigent properties. See “Process Theology”.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy, “Panentheism”. http://tinyurl.com/5e8c62\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Parousia",
@@ -2432,7 +2432,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Paschal Mystery",
                            @"twitterDef":@"the experience of salvation through, with, and in Jesus Christ",
-                           @"definition":@"\rThe Paschal Mystery is based in the the death and resurrection of Jesus. It is a transcendent event that participates in the Divine, and, as such, its affects are not limited to the constraints of time and space.\r\rFurther Reference:\rCatechism of the Catholic Church, 1085\rhttp://tinyurl.com/oqbzkx3\r\r\r",
+                           @"definition":@"\rThe Paschal Mystery is based in the the death and resurrection of Jesus. It is a transcendent event that participates in the Divine, and, as such, its effects are not limited to the constraints of time and space.\r\rFurther Reference:\rCatechism of the Catholic Church, 1085\rhttp://tinyurl.com/oqbzkx3\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Passion of the Lord",
@@ -2442,12 +2442,12 @@
     
     [TAWord wordWithDict:@{@"name":@"Pastor",
                            @"twitterDef":@"a priest or bishop responsible for the Christian Faithful",
-                           @"definition":@"\rPastors are tasked with the administration of the Sacraments and care of the Christian congregation. The Petrine Ministry has always been viewed as the pastoral role par excellence in the Catholic Tradition. See “Petrine Ministry”.\r\rFurther Reference:\rCongregation for the Doctrine of the Faith, “The Primacy of the Successor of Peter in the Mystery of the Church”\rhttp://tinyurl.com/ms5hgvj\r\r\r",
+                           @"definition":@"\rPastors are tasked with the administration of the Sacraments and care of the Christian congregation. The Petrine Ministry has always been viewed as the pastoral role par excellence in the Catholic Tradition. See “Petrine Ministry”.\r\rFurther Reference:\rCongregation for the Doctrine of the Faith, “The Primacy of the Successor of Peter in the Mystery of the Church”. http://tinyurl.com/ms5hgvj\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Paten",
                            @"twitterDef":@"a small plate used to hold the Eucharist",
-                           @"definition":@"\rThe Paten is set on the Altar, and is usually made of gold or silver. See “Altar”, “Eucharist”.\r\rFurther Reference:\rCongregation for Divine Worship and Discipline of the Sacraments, “General Instruction of the Roman Missal”\rhttp://tinyurl.com/lgdqh94\r\r\r",
+                           @"definition":@"\rThe Paten is set on the Altar, and is usually made of gold or silver. See “Altar”, “Eucharist”.\r\rFurther Reference:\rCongregation for Divine Worship and Discipline of the Sacraments, “General Instruction of the Roman Missal”. http://tinyurl.com/lgdqh94\r\r\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Pater Noster",
@@ -2462,7 +2462,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Patristics",
                            @"twitterDef":@"the study of the Church Fathers",
-                           @"definition":@"\rPatristics is essential for the study of theology. The period of the Church Fathers usually extends from the sub-Apostolic Age to the 8th century, ending with the 7th Ecumenical Council at Nicea and the life of St. John of Damascus.\r\rFurther Reference:\rWikipedia, “Patristics”\rhttp://tinyurl.com/qy8fxhj\r\r\r",
+                           @"definition":@"\rPatristics is essential for the study of theology. The period of the Church Fathers usually extends from the sub-Apostolic Age to the 8th century, ending with the 7th Ecumenical Council at Nicea and the life of St. John of Damascus. See the Fathers section of the Overview tab.\r\rFurther Reference:\rWikipedia, “Patristics”\rhttp://tinyurl.com/qy8fxhj\r\r\r",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Pelagianism",
@@ -2508,12 +2508,12 @@
     
     [TAWord wordWithDict:@{@"name":@"Principle of Double Effect",
                            @"twitterDef":@"the moral acceptance of an unintended evil caused by an intended good",
-                           @"definition":@"\rThe Principle of Double Effect (PDE) was developed by St. Thomas Aquinas. When considering a given act and its effect, the PDE may be employed if 4 traditional criteria are satisfied:\r\r1. The act must be morally good.\r2. The agent may not will the evil affect.\r3. The good must result from the act.\r4. The good must be proportional.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy, “Doctrine of Double Effect”\rhttp://tinyurl.com/2zz6sg\r\r\r",
+                           @"definition":@"\rThe Principle of Double Effect (PDE) was developed by St. Thomas Aquinas. When considering a given act and its effect, the PDE may be employed if 4 traditional criteria are satisfied:\r\r1. The act must be morally good.\r2. The agent may not will the evil affect.\r3. The good must result from the act.\r4. The good must be proportional.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy\r“Doctrine of Double Effect”\rhttp://tinyurl.com/2zz6sg\r\r\r",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Process Theology",
                            @"twitterDef":@"the belief that God is in process with Creation",
-                           @"definition":@"\rProcess theology is named after the philosophical thought of Alfred North Whitehead, who argued for a metaphysics that saw the basic element of the Universe not in terms of substance, but one of process. His work was applied to Theology primarily by Charles Hartshorne. Process thought sees God as having necessary aspect of essence that does not change, but a contingent aspect of experience that is subject to change. As such, Process Theology is a reaction against and contradicts some aspects of classical Theism. See “Theism”.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy, “Process Theism”\rhttp://tinyurl.com/eg2qc\r\r\r",
+                           @"definition":@"\rProcess theology is named after the philosophical thought of Alfred North Whitehead, who argued for a metaphysics that saw the basic element of the Universe not in terms of substance, but one of process. His work was applied to Theology primarily by Charles Hartshorne. Process thought sees God as having necessary aspect of essence that does not change, but a contingent aspect of experience that is subject to change. As such, Process Theology is a reaction against and contradicts some aspects of classical Theism. See “Theism”.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy\r“Process Theism”. http://tinyurl.com/eg2qc\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Protestant Reformation",
@@ -2542,8 +2542,8 @@
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Pericope",
-                           @"twitterDef":@"a smaller section of a larger text",
-                           @"definition":@"\rPericopes are sections of a larget text that form coherent, self-contained units. They are most frequently mentioned in the context of stories or sayings from the Gospels.\r\rGreek, περικοπή (pericope) “a cutting around”\r\rFurther Reference:\rWikipedia, “Pericope”\rhttp://tinyurl.com/ptoqwnn\r\r\r",
+                           @"twitterDef":@"a coherent, self-contained section of a larger text",
+                           @"definition":@"\rPericopes are most frequently mentioned in the context of stories or sayings from the Gospels. They also figure prominently the Prophetic Writings.\r\rGreek, περικοπή (pericope) “a cutting around”\r\rFurther Reference:\rWikipedia, “Pericope”\rhttp://tinyurl.com/ptoqwnn\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Perichoresis",
@@ -2554,7 +2554,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Pharisees",
                            @"twitterDef":@"a Jewish group of laymen in the first century devoted to Torah-observance",
-                           @"definition":@"\rThe Pharisees are portrayed as the opponents of Jesus in the Synoptic Gospels. The book of Acts reports that many Pharisees became members of the nacent Christian community. See “Synoptic Gospels”.\r\rFurther Reference:\rWikipedia, “Pharisees”\rhttp://tinyurl.com/5kgenf\r\r\r",
+                           @"definition":@"\rThe Pharisees are portrayed as the opponents of Jesus in the Synoptic Gospels. The book of Acts reports that many Pharisees became members of the nacent Christian community. See “Second Temple Judaism”, “Synoptic Gospels”.\r\rFurther Reference:\rWikipedia, “Pharisees”\rhttp://tinyurl.com/5kgenf\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Priestly Source",
@@ -2574,17 +2574,17 @@
     
     [TAWord wordWithDict:@{@"name":@"Prophetic Books",
                            @"twitterDef":@"the fifth of five sections of the Old Testament",
-                           @"definition":@"\rThe Prophetic Books are usually divided into the categories of Major and Minor, based on the length of the book. Isaiah, Jeremiah, and Ezekiel are the major prophetic books, while the remaining books are considered minor.\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, “Prophetic Books”\rhttp://tinyurl.com/nfwu9w9\r\r\r",
+                           @"definition":@"\rThe Prophetic Books are usually divided into the categories of Major and Minor, based on the length of the book. Isaiah, Jeremiah, and Ezekiel are the major prophetic books, while the remaining books are considered minor.\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, “Prophetic Books”. http://tinyurl.com/nfwu9w9\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Philosophy",
                            @"twitterDef":@"the critical examination of human thought;\rthe love of wisdom",
-                           @"definition":@"\rPhilosophy in the Western tradition originated in ancient Greece. As a discipline, Philosophy has an authentic independence from Theology. Among contemporary Catholic theologians, Fr. Thomas Guarino has explored the relationship between the two.\r\rFurther Reference:\rWikipedia, “Philosophy”\rhttp://tinyurl.com/e5h6u\r\r\r",
+                           @"definition":@"\rPhilosophy in the Western tradition originated in ancient Greece. As a discipline, Philosophy has an authentic independence from Theology. Among contemporary Catholic theologians, Fr. Thomas Guarino has explored the relationship between the two in the following theses:\r\r1. Theology legitimately assimilates Philosophy.\r2. Theology must performatively discipline Philosophy.\r3. Philosophy has a relative autonomy.\r4.Theological Pluralism is necessary.\r5. Theology requires Metaphysics.\r\rFurther Reference:\rThomas Guarino, “Philosophia Obscurans?”\rhttp://tinyurl.com/owasw9n\r\rWikipedia, “Philosophy”\rhttp://tinyurl.com/e5h6u\r\r\r",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Physicalism",
                            @"twitterDef":@"the belief traditional properties of the soul are emergent properties of the brain",
-                           @"definition":@"\rPhysicalism has received from support from modern neuroscience. Various Christian philosophers, such as Nancy Murphy, are advocates of a non-reductive, physicalist anthropology.\r\rFurther Reference:\rNancey Murphy, “Is Non-Reductive Physicalism an Oxymoron?”\rhttp://tinyurl.com/po8oo85\r\r\r",
+                           @"definition":@"\rPhysicalism has received from support from modern neuroscience. Various Christian philosophers, such as Nancy Murphy, are advocates of a non-reductive, physicalist anthropology.\r\rFurther Reference:\rNancey Murphy, “Is Non-Reductive Physicalism an Oxymoron?”. http://tinyurl.com/po8oo85\r\r\r",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Prayer",
@@ -2595,12 +2595,12 @@
     
     [TAWord wordWithDict:@{@"name":@"Problem of Evil",
                            @"twitterDef":@"the philosophical problem of belief in God with the experience of evil",
-                           @"definition":@"\rThe Problem of Evil can be traced to the writings of the Greek philosopher Epicurus. It takes two forms: logical and evidential. The former results from belief in Divine omniscience, omnipotence, and omnibenevolence and the experience of suffering and evil in the world producing a logical inconsistency. It proposes the question: if God is all-loving, all-knowing, and all-powerful, why does evil (particularly so-called natural evil) exist? If not seen as logically incompatible, the evidential form of the Problem of Evil claims that such evil severely lowers the probability of the truth of Theism. See “Omnibenevolence”, “Omniscience”, “Omnipotence”, “Theism”, “Theodicy”.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy, “The Problem of Evil”\rhttp://tinyurl.com/mvkoe4\r\r\r",
+                           @"definition":@"\rThe Problem of Evil can be traced to the writings of the Greek philosopher Epicurus. It takes two forms: logical and evidential. The former results from belief in Divine omniscience, omnipotence, and omnibenevolence and the experience of suffering and evil in the world producing a logical inconsistency. It proposes the question: if God is all-loving, all-knowing, and all-powerful, why does evil (particularly so-called natural evil) exist? If not seen as logically incompatible, the evidential form of the Problem of Evil claims that such evil severely lowers the probability of the truth of Theism. See “Omnibenevolence”, “Omniscience”, “Omnipotence”, “Theism”, “Theodicy”.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy\r“The Problem of Evil”. http://tinyurl.com/mvkoe4\r\r\r",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Pseudepigrapha",
                            @"twitterDef":@"texts falsely attributed to others",
-                           @"definition":@"\rThe process of falsely attriubting authorship of texts was common in the ancient world. There are pseudepigraphical texts from both the Old and New Testament eras. Old Testament pseudepigrapha include texts such as 1 Enoch, while New Testament pseudepigrapha include texts such as The Infancy Gospel and Gospel of Thomas.\r\rFurther Reference:\rWikipedia, “Pseudepigrapha”\rhttp://tinyurl.com/35mxyk\r\r\r",
+                           @"definition":@"\rThe process of falsely attriubting authorship of texts was common in the ancient world. There are pseudepigraphical texts from both the Old and New Testament eras. Old Testament pseudepigrapha include texts such as 1 Enoch, while New Testament pseudepigrapha include texts such as “The Infancy Gospel” and “Gospel of Thomas”.\r\rFurther Reference:\rWikipedia, “Pseudepigrapha”\rhttp://tinyurl.com/35mxyk\r\r\r",
                            @"category":@"Biblical"}];
     
     
@@ -2640,7 +2640,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Redaction Criticism",
                            @"twitterDef":@"the analysis of the various stages of the editing of a text",
-                           @"definition":@"\rRedaction Criticism is primarily used in studies of the Gospels. It is specifically mentioned as a criticsm used as part of the larger Historical-Critical Method by the Pontifical Biblical Commission.\r\rFurther Reference:\rPontifical Biblical Commission, “The Interpretation of the Bible in the Church, I.A.2.” http://tinyurl.com/ymsltv\r\r\r",
+                           @"definition":@"\rRedaction Criticism is primarily used in studies of the Gospels. It is specifically mentioned as a criticsm used as part of the larger Historical-Critical Method by the Pontifical Biblical Commission.\r\rFurther Reference:\rPontifical Biblical Commission\r“The Interpretation of the Bible in the Church, I.A.2.”\rhttp://tinyurl.com/ymsltv\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Redemption",
@@ -2655,12 +2655,12 @@
     
     [TAWord wordWithDict:@{@"name":@"Ressourcement",
                            @"twitterDef":@"a French term meaning “to return to the sources”",
-                           @"definition":@"\rThis term is used by some theologians as the preferred interpretation of the purpose of Vatican II; that being a return to the Patristic sources of the Church. It was given the French designation, La Nouvelle Theologie (“The New Theology”) by its critics who accused the movement of being, instead of true return to the sources, the invention of a new theology which was too accommodating to the errors of Modernism. See “Aggiornomento”, “Modernism”.\r\rFurther Reference:\rLa Nouvelle Theologie, Ressourcement\rhttp://tinyurl.com/lt3ph7g\r\r\r",
+                           @"definition":@"\rThis term is used by some theologians as the preferred interpretation of the purpose of Vatican II; that being a return to the Patristic sources of the Church. It was given the French designation, La Nouvelle Theologie (“The New Theology”) by its critics who accused the movement of being, instead of true return to the sources, the invention of a new theology which was too accommodating to the errors of Modernism. See “Aggiornomento”, “Modernism”.\r\rFurther Reference:\rWikipedia, “Nouvelle Theologie”,\rhttp://tinyurl.com/qg2nljj\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Resurrection",
                            @"twitterDef":@"God's raising the righteous dead into eternal life",
-                           @"definition":@"\rThe belief in resurrection developed in post-Exilic Judaism, in part, as an answer the question of the continued misfortune of the Covenant-faithful. The early Christians believed that Jesus of Nazareth was raised from the dead and thus, demonstrated to be the Messiah and Lord. St. Paul claims that the resurrection of Jesus was the “firstfruits” of the general resurrection that inaugurated the eschaton. Pierre Teilhard de Chardin interpreted the Resurrection as a pre-figuring of the endpoint of human evolution, which he termed the “Omega Point”. See “Second Temple Judaism”, “Jesus of Nazareth”, “Omega Point”.\r\rFurther Reference:\rCatechism of the Catholic Church, 638-655\rhttp://tinyurl.com/nrt2f6g\r\r\r",
+                           @"definition":@"\rThe belief in resurrection developed in post-Exilic Judaism, in part, as an answer the question of the continued misfortune of the Covenant-faithful. The early Christians believed that Jesus of Nazareth was raised from the dead and thus, demonstrated to be the Messiah and Lord. St. Paul claims that the resurrection of Jesus was the “firstfruits” of the general resurrection that inaugurated the eschaton. Pierre Teilhard de Chardin interpreted the Resurrection as a pre-figuring of the endpoint of human evolution, which he termed the “Omega Point”. See “Second Temple Judaism”, “Jesus of Nazareth”.\r\rFurther Reference:\rCatechism of the Catholic Church, 638-655\rhttp://tinyurl.com/nrt2f6g\r\r\r",
                            @"category":@"Systematic"}];
 
     
@@ -2676,7 +2676,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Righteousness",
                            @"twitterDef":@"a right or just relationship",
-                           @"definition":@"\rRigheousness is first spoken of in the Bible in reference to Abaham. After hearing the promise of YHWH that he would be the father of many nations, he “put his faith in the LORD, who credited it to him as an act of righteousness” (Gen 15:6). St. Paul uses this same example to claim that those who have faith in (or of) Jesus Christ are put into a right relationship with God. The word “Justification” derives from the same cognate. See “Justification”, “Justice”.\r\rGreek, δικαιοσύνη (dikaisune) “righteousness/justice”\r\rFurther Reference:\rCatechism of the Catholic Church, 1992\rhttp://tinyurl.com/yaua7cc\r\r\r",
+                           @"definition":@"\rRigheousness is first spoken of in the Bible in reference to Abaham. After hearing the promise of YHWH that he would be the father of many nations, he “put his faith in the LORD, who credited it to him as an act of righteousness” (Gen 15:6). St. Paul uses this same example to claim that those who have faith in (or of) Jesus Christ are put into a right relationship with God. The word “Justification” derives from the same cognate. See “Justification”, “Justice”.\r\rGreek, δικαιοσύνη (dikaisune) “righteousness”\r\rFurther Reference:\rCatechism of the Catholic Church, 1992\rhttp://tinyurl.com/yaua7cc\r\r\r",
                            @"category":@"Biblical"}];
     
     
@@ -2687,7 +2687,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Rosary",
                            @"twitterDef":@"the prayer based on the Hail Mary and the Our Father",
-                           @"definition":@"\rThe Rosary dates back to the time of St. Dominic in which the praying of 50 Hail Marys was popular.\r\rFurther Reference:\rWikipedia, “Rosary”\rhttp://tinyurl.com/55f737\r\r\r",
+                           @"definition":@"\rThe Rosary dates back to the time of St. Dominic in which the praying of 50 Hail Marys was popular.\r\rFurther Reference:\rCatechism of the Catholic Church, 971\rhttp://tinyurl.com/mtfzewa\r\r\r",
                            @"category":@"Cultural"}];
     
     
@@ -2697,7 +2697,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Sacrament",
                            @"twitterDef":@"an efficacious sign of the Paschal Mystery that confers the grace it signifies",
-                           @"definition":@"\rAccording to the teaching of the Church, it is Christ who acts in the Sacraments, independent of the personal virtue of the celebrant. Sacraments are valid if they possess the appropriate matter and form and if they are administered with the right intention. The effects of the Sacraments are still dependent upon the disposition of the recipient. The Council of Trent defined the Sacraments as being seven in number:\r\r-Bapstism\r-Confirmation\r-Eucharist\r-Reconcilation\r-Annointing of the Sick\r-Holy Orders\r-Marriage\r\rThe Sacraments of Initiation include Baptism, Confirmation, and Eucharist. See “Paschal Mystery”, “Ex Opere Operato”. See “Trent” in the Historical section of the Maps tab. Further Reference:\rCatechism of the Catholic Church, 113-130 http://tinyurl.com/cmes38\r\r\r",
+                           @"definition":@"\rAccording to the teaching of the Church, it is Christ who acts in the Sacraments, independent of the personal virtue of the celebrant. Sacraments are valid if they possess the appropriate matter and form and if they are administered with the right intention. The effects of the Sacraments are still dependent upon the disposition of the recipient. The Council of Trent defined the Sacraments as being seven in number:\r\r-Bapstism\r-Confirmation\r-Eucharist\r-Reconcilation\r-Annointing of the Sick\r-Holy Orders\r-Marriage\r\rThe Sacraments of Initiation include Baptism, Confirmation, and Eucharist. See “Paschal Mystery”, “Ex Opere Operato”. See “Trent” in the Historical section of the Maps tab.\r\rFurther Reference:\rCatechism of the Catholic Church, 113-130\rhttp://tinyurl.com/cmes38\r\r\r",
                            @"category":@"Systematic"}];
     
     
@@ -2729,7 +2729,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Soteriology",
                            @"twitterDef":@"the study of salvation;\ra particular framework of salvation",
-                           @"definition":@"\rSoteriology examines the nature of salvation using various .\r\rFurther Reference:\rWikipedia, “Soteriology”\rhttp://tinyurl.com/m3ysznn\r\r\r",
+                           @"definition":@"\rSoteriology examines the nature of salvation and its relationship with the larger subject of Ecclesiology. See “Ecclesiology”, “Salvation”.\r\rFurther Reference:\rWikipedia, “Soteriology”\rhttp://tinyurl.com/m3ysznn\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Sadducees",
@@ -2739,7 +2739,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Satan",
                            @"twitterDef":@"a Hebrew word meaning “adversary” used for a malevolent spiritual being",
-                           @"definition":@"\rThe development of the character of Satan is linked to the larger shift in Israelite theology after the Exile. Monotheism replaced Henotheism and no longer allowed the possibility that YHWH was responsible for evil (such as indicated by various passages in pre-Exilic Hebrew writings). Thus, a character developed which was seen as an adversarial member of YHWH's heavenly court, the Satan. For a clear example of this theological shift, see 2 Sam. 24:1 and 1 Chronicles 21:1.\r\rA later tradition interprets references to the Kings of Babylon and Tyre in Isaiah 14 and Ezekiel 38, respectively, to refer to Satan as a fallen angel who was expelled from Heaven after a failed attempt to dethrone the Almighty. The New Testament uses this later interpretation of Satan to refer to a malevolent spiritual being opposed to the will of God and seeking to destroy human welfare. See “Second Temple Judaism”\r\rHebrew, שָּׂטָן (satan)\r\rSee Exile, Monotheism, Henotheism, YHWH.\r\rFurther Reference:\rWikipedia, “Satan”\rhttp://tinyurl.com/czesk\r\r\r",
+                           @"definition":@"\rThe development of the character of Satan is linked to the larger shift in Israelite theology after the Exile. Monotheism replaced Henotheism and no longer allowed the possibility that YHWH was responsible for evil (such as indicated by various passages in pre-Exilic Hebrew writings). Thus, a character developed which was seen as an adversarial member of YHWH's heavenly court, the Satan. For a clear example of this theological shift, see 2 Sam. 24:1 and 1 Chronicles 21:1.\r\rA later tradition interprets references to the Kings of Babylon and Tyre in Isaiah 14 and Ezekiel 38, respectively, to refer to Satan as a fallen angel who was expelled from Heaven after a failed attempt to dethrone the Almighty. The New Testament uses this later interpretation of Satan to refer to a malevolent spiritual being opposed to the will of God and seeking to destroy human welfare. See “Exile”, “Henotheism”, “Monotheism”, “Second Temple Judaism”, “YHWH”.\r\rHebrew, שָּׂטָן (satan)\r\rFurther Reference:\rWikipedia, “Satan”\rhttp://tinyurl.com/czesk\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Septuagint",
@@ -2747,14 +2747,14 @@
                            @"definition":@"\rAccording to legend, the Septuagint was made at the request of Alexander the Great by 70 Jewish scribes.\r\rFurther Reference:\rWikipedia, “Septuagint”\rhttp://tinyurl.com/ysxfhh\r\r\r",
                            @"category":@"Biblical"}];
     
-    [TAWord wordWithDict:@{@"name":@"Sitz Em Laben",
+    [TAWord wordWithDict:@{@"name":@"Sitz im Laben",
                            @"twitterDef":@"a German word meaning “setting in life” referring to the context of a text",
-                           @"definition":@"\rForm Criticism determines the literary form of a text. This form is intrinsically connected to its setting in life. The German biblical scholar Hermann Gunkel coined the phrase to refer to this context.\r\rGerman, (sitz em laben)\r\rFurther Reference:\rWikipedia, “Sitz Em Laben”\rhttp://tinyurl.com/cj4hy7\r\r\r",
+                           @"definition":@"\rForm Criticism determines the literary form of a text. This form is intrinsically connected to its setting in life. The German biblical scholar Hermann Gunkel coined the phrase to refer to this context.\r\rGerman, (sitz em laben)\r\rFurther Reference:\rWikipedia, “Sitz im Laben”\rhttp://tinyurl.com/cj4hy7\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Social Revolution Model",
                            @"twitterDef":@"the theory which claims that Israelites were mostly native Canaanites",
-                           @"definition":@"\rA number of facts render the traditional Conquest (based on Joshua) and Immigration (based on Judges) models of Settlement problematic, such as:\r\r-signs of internal revolt in certain Canaanite sites\r-exponential population increase in the Canaanite highlands between 1200-1000 B.C.\r-narrative discrepancies between Joshua and Judges\r-the dimishment of Egyptian power over Canaanite city-states\r-the prevalence of idolatry throughout ancient Israel\r\rSee “Documentary Hypothesis”.\r\rFurther Reference:\rWikipedia, “Source Criticism”\rhttp://tinyurl.com/ngey4az\r\r\r",
+                           @"definition":@"\rA number of facts render the traditional Conquest (based on Joshua) and Immigration (based on Judges) models of Settlement problematic, such as:\r\r-signs of internal revolt in certain Canaanite sites\r-exponential population increase in the Canaanite highlands between 1200-1000 B.C.\r-narrative discrepancies between Joshua and Judges\r-the dimishment of Egyptian power over Canaanite city-states\r-the prevalence of idolatry throughout ancient Israel\r\rSee “Documentary Hypothesis”.\r\rFurther Reference:\rNOVA, “Moses and the Exodus”\rhttp://tinyurl.com/b5lmmy9\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Source Criticism",
@@ -2769,24 +2769,24 @@
     
     [TAWord wordWithDict:@{@"name":@"Synchronic Analysis",
                            @"twitterDef":@"the analysis of a text which considers various aspects of its present form",
-                           @"definition":@"\rSynchronic Analysis studies the present form a text. It uses methods of Literary Criticism that include Rhetorical, Narrative, and Semiotic Analysis. See “Diachronic Analysis”, “Literary Criticism”.\r\rFurther Reference:\rPontifical Biblical Commission, “The Interpretation of the Bible in the Church”, I.B\rhttp://tinyurl.com/ymsltv\r\r\r",
+                           @"definition":@"\rSynchronic Analysis studies the present form a text. It uses methods of Literary Criticism that include Rhetorical, Narrative, and Semiotic Analysis. See “Diachronic Analysis”, “Literary Criticism”.\r\rFurther Reference:\rPontifical Biblical Commission\e“The Interpretation of the Bible in the Church”, I.B\rhttp://tinyurl.com/ymsltv\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Synoptic Gospels",
                            @"twitterDef":@"the gospels of Matthew, Mark, and Luke",
-                           @"definition":@"\rThe gospels of Matthew, Mark, and Luke are grouped together due to their similarity of narrative and low Christology contrasted with that of the gospel of John. The Two-Source Theory explains their relationship. See “Christology”, “Two-Source Theory”.\r\rGreek, σύνοψις (synopsis) “seeing together”\r\rFurther Reference:\rWikipedia, “Synoptic Gospels”\rhttp://tinyurl.com/aofv2x\r\r\r",
+                           @"definition":@"\rThe gospels of Matthew, Mark, and Luke are grouped together due to their similarity of narrative and low Christology contrasted with that of the gospel of John. The Two-Source Theory explains their relationship. See “Christology”, “Gospel”, “Two-Source Theory”.\r\rGreek, σύνοψις (synopsis) “seeing together”\r\rFurther Reference:\rWikipedia, “Synoptic Gospels”\rhttp://tinyurl.com/aofv2x\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Semiotics",
                            @"twitterDef":@"the study of signs and symbols used as elements of communication",
                            @"definition":@"\rSemiotic analysis is a synchronic aspect of Literary Criticism as applied to the biblical texts. See “Synchronic Analysis”, “Literary Criticism”.\r\rFurther Reference:\rWikipedia, “Semiotics”\rhttp://tinyurl.com/25kpos\r\r\r",
                            @"category":@"Cultural"}];
+    
     /*
     [TAWord wordWithDict:@{@"name":@"Sociology",
                            @"twitterDef":@"The study of society",
                            @"definition":@"\rThe study of society.\r\rFurther Reference:\r",
                            @"category":@"Cultural"}];
-     
      
     */
     
@@ -2802,7 +2802,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Solidarity",
                            @"twitterDef":@"the fundamental unity of human beings as a criteria for determining justice",
-                           @"definition":@"\rSolidarity is a basic principle of Catholic Social Teaching.\r\rFurther Reference:\rCatechism of the Catholic Church, 1939\rhttp://tinyurl.com/cu6e64y\r\r\r",
+                           @"definition":@"\rSolidarity is a basic principle of Catholic Social Teaching. The Compendium of the Social Doctrine of the Church states:\r\r“Solidarity highlights in a particular way the intrinsic social nature of the human person, the equality of all in dignity and rights and the common path of individuals and peoples towards an ever more committed unity. Never before has there been such a widespread awareness of the bond of interdependence between individuals and peoples, which is found at every level[413]. The very rapid expansion in ways and means of communication “in real time”, such as those offered by information technology, the extraordinary advances in computer technology, the increased volume of commerce and information exchange all bear witness to the fact that, for the first time since the beginning of human history, it is now possible — at least technically — to establish relationships between people who are separated by great distances and are unknown to each other.” -Compendium of the Social Doctrine of the Church, 192\r\rFurther Reference:\rCompendium of the Social Doctrine of the Church\rhttp://tinyurl.com/ow79m3t\r\rCatechism of the Catholic Church, 1939\rhttp://tinyurl.com/cu6e64y\r\r\r",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Spirituality",
@@ -2832,17 +2832,17 @@
     
     [TAWord wordWithDict:@{@"name":@"Theological Notes",
                            @"twitterDef":@"qualifications of different Church teachings as having different levels of authority",
-                           @"definition":@"\rTheological Notes are given to clarify the level of authority of a particular doctrine. Not every doctrine is, of itself, infallible. Noninfallible teaching, while believed to be definitive, is nevertheless subject to revision. The International Theological Commission distinguished between common doctrines of the Church and faith of the Church:\r\r“The fact that tradition is a really live reality explains why there are so many declarations by the Magisterium of varying importance and varying degrees of obligation. To gauge these exactly and to interpret them, theology has worked out the doctrine of theological qualifications or notes, which, to some extent, the Magisterium has adopted. In recent times, this approach has unfortunately been more or less forgotten. But it is useful in the interpretation of dogma and should therefore be repristinated and developed further.”\r\rTo illustrate this point, the doctrine of Limbo, even though taught by Popes and the Magisterium as part of the common doctrine of the Church, was never infallibly defined as being a part of Divine Revelation. As such, it was qualified as being theological opinion and not of the Faith in 2007 by the International Theological Commission.\r\rFurther Reference:\rInternational Theological Commission, “The Interpretation of Dogma”\rhttp://tinyurl.com/md9yco5\r\r\r",
+                           @"definition":@"\rTheological Notes are given to clarify the level of authority of a particular doctrine. Not every doctrine is, of itself, infallible. Noninfallible teaching, while believed to be definitive, is nevertheless subject to revision. The International Theological Commission distinguished between common doctrines of the Church and faith of the Church:\r\r“The fact that tradition is a really live reality explains why there are so many declarations by the Magisterium of varying importance and varying degrees of obligation. To gauge these exactly and to interpret them, theology has worked out the doctrine of theological qualifications or notes, which, to some extent, the Magisterium has adopted. In recent times, this approach has unfortunately been more or less forgotten. But it is useful in the interpretation of dogma and should therefore be repristinated and developed further.”\r\rTo illustrate this point, the doctrine of Limbo, even though taught by Popes and the Magisterium as part of the common doctrine of the Church, was never infallibly defined as being a part of Divine Revelation. As such, it was qualified as being theological opinion and not of the Faith in 2007 by the International Theological Commission.\r\rFurther Reference:\rInternational Theological Commission\r“The Interpretation of Dogma”\rhttp://tinyurl.com/md9yco5\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Theologoumenon",
                            @"twitterDef":@"a theological opinion on a disputable matter that has not been defined in Church teaching",
-                           @"definition":@"\rThe belief in Limbo was an example of a theologoumenon. The International Theological Commission clarified the Church's teaching on the Limbo in 2007. See “Theological Notes”.\r\rFurther Reference:\rInternational Theological Commission, “The Hope Of Salvation For Infants Who Die Without Being Baptized“, 34\rhttp://tinyurl.com/3x7puy\r\r\r",
+                           @"definition":@"\rThe belief in Limbo was an example of a theologoumenon. The International Theological Commission clarified the Church's teaching on the Limbo in 2007. See “Theological Notes”.\r\rFurther Reference:\rInternational Theological Commission\r“The Hope Of Salvation For Infants Who Die Without Being Baptized“. http://tinyurl.com/3x7puy\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Theology",
                            @"twitterDef":@"faith seeking understanding",
-                           @"definition":@"\rTheology has been traditionally understood as the intelligence of faith. Theology uses philosophical tools in its quest to better understand the content of Divine Revelation, which it takes as its point of departure. The International Theological Commission has identified several criteria for authentic Catholic theology.\r\rTheology..\r\r-recognizes the primacy of the Word of God\r\r-understands the Faith of the Church as its source, context, and norm\r\r-seeks to understand the rationality of faith\r\r-draws upon and promotes the Scriptural witness of the Faith\r\r-stands in fidelity to the Apostolic Tradition\r\r-is attentive to the sensus fidelium\r\r-adheres respsonsibly to the Magisterium in its various gradations\r\r-is practiced in prayerful collaboration within the theological community and larger communion of the Church\r\r-is in constant dialogue with the world\r\r-strives to rationally articulate the truths of the Christian Faith\r\r-attempts to integrate diverse methods and enquiries into a unified project\r\r-seeks and delights in the wisdom of God\r\rFurther Reference:\rInternational Theological Commission, “Theology Today: Perspectives, Principles, and Criteria” http://tinyurl.com/brdt29m\r\r\r",
+                           @"definition":@"\rTheology has been traditionally understood as the intelligence of faith. Theology uses philosophical tools in its quest to better understand the content of Divine Revelation, which it takes as its point of departure. The International Theological Commission has identified several criteria for authentic Catholic theology.\r\rTheology..\r\r-recognizes the primacy of the Word of God\r\r-understands the Faith of the Church as its source, context, and norm\r\r-seeks to understand the rationality of faith\r\r-draws upon and promotes the Scriptural witness of the Faith\r\r-stands in fidelity to the Apostolic Tradition\r\r-is attentive to the sensus fidelium\r\r-adheres respsonsibly to the Magisterium in its various gradations\r\r-is practiced in prayerful collaboration within the theological community and larger communion of the Church\r\r-is in constant dialogue with the world\r\r-strives to rationally articulate the truths of the Christian Faith\r\r-attempts to integrate diverse methods and enquiries into a unified project\r\r-seeks and delights in the wisdom of God\r\rFurther Reference:\rInternational Theological Commission\r“Theology Today: Perspectives, Principles, and Criteria”. http://tinyurl.com/brdt29m\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Theosis",
@@ -2877,7 +2877,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Tanak",
                            @"twitterDef":@"the Hebrew Bible",
-                           @"definition":@"\rThe Hebrew Bible, or “Tanak”, consists of 39 books grouped into three sections:\r\r-Torah\r-Nevi'im\r-Ketuv'im\r\r.The Tanak is the foundation of the Old Testament. “Tanak” is an acronymic term: T = Torah, N = Nevi'im, K = Ketuv'im, with the addition of vowels. See “Torah”, “Nevi'im”, “Ketuv'im”.\r\rFurther Reference:\rInternational Theological Commission\r“The Jewish People and their Sacred Scriptures in the Christian Bible” http://tinyurl.com/mt3e\r\rWikipedia, “Tanak”\rhttp://tinyurl.com/2vxgml\r\r\r",
+                           @"definition":@"\rThe Hebrew Bible, or “Tanak”, consists of 39 books grouped into three sections:\r\r-Torah\r-Nevi'im\r-Ketuv'im\r\rThe Tanak is the foundation of the Old Testament. “Tanak” is an acronymic term: T = Torah, N = Nevi'im, K = Ketuv'im, with the addition of vowels. See “Torah”, “Nevi'im”, “Ketuv'im”.\r\rFurther Reference:\rInternational Theological Commission\r“The Jewish People and their Sacred Scriptures in the Christian Bible” http://tinyurl.com/mt3e\r\rWikipedia, “Tanak”\rhttp://tinyurl.com/2vxgml\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Tax Collectors",
@@ -2897,7 +2897,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Textual Criticism",
                            @"twitterDef":@"the analysis of the original language of a text",
-                           @"definition":@"\rTextual criticism is the first exegetical analysis in using the Historical-Critical Method to interpret a text. It consists of three steps: Eclecticism (collation of diverse copies of a particular tradition), Stemmatics (analysis of related errors), and Copy-Text Editing (correction of errors in the base text). Textual critics dicipher the original language of the biblical text as it appears in Manuscripts and Papyrus fragments. See “Manuscript”. See “Codex Sinaiticus” in the Reference tab.\r\rFurther Reference:\rWikipedia, “Textual Criticism”\rhttp://tinyurl.com/2g7ol8\r\r\r",
+                           @"definition":@"\rTextual criticism is the first exegetical analysis in using the Historical-Critical Method to interpret a text. It consists of three steps: Eclecticism (collation of diverse copies of a particular tradition), Stemmatics (analysis of related errors), and Copy-Text Editing (correction of errors in the base text). Textual critics dicipher the original language of the biblical text as it appears in Manuscripts and Papyrus fragments. See “Manuscript”. See “Codex Sinaiticus” in the Reference tab.\r\rFurther Reference:\r“The Interpretation of the Bible in the Church”, I.A”\rhttp://tinyurl.com/2gb5dm\r\rWikipedia, “Textual Criticism”\rhttp://tinyurl.com/2g7ol8\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Theophany",
@@ -2907,7 +2907,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Torah",
                            @"twitterDef":@"the Hebrew word meaning “instruction” or “law”",
-                           @"definition":@"\rThe Torah is the first section of the Tanak and composed of five books; Genesis, Exodus, Leviticus, Numbers, and Deuteronomy. It is the foundation of the Hebrew Bible. In the Gospels, Jesus quotes from the Torah more than any other section of the Tanakh. See “Second Temple Judaism”.\r\rFurther Reference:\rWikipedia, “Torah”\rhttp://tinyurl.com/7rwcf\r\r\r",
+                           @"definition":@"\rThe Torah is the first section of the Tanak and composed of five books; Genesis, Exodus, Leviticus, Numbers, and Deuteronomy. It is the foundation of the Hebrew Bible. In the Gospels, Jesus quotes from the Torah more than any other section of the Tanakh. See “Second Temple Judaism”, “Tanak”.\r\rFurther Reference:\rWikipedia, “Torah”\rhttp://tinyurl.com/7rwcf\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Triduum",
@@ -2955,7 +2955,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Vulgate",
                            @"twitterDef":@"the Latin translation of the Bible",
-                           @"definition":@"\rThe Vulgate was initially translated by St. Jerome. It was adopted as the official bible of the Roman Catholic Church at the Council of Trent. See “Trent” in the Historical section of the Maps tab. See “Bible”.\r\rFurther Reference:\rWikipedia, “Vulgate” http://tinyurl.com/ywebum\r\r\r",
+                           @"definition":@"\rThe Vulgate was initially translated by St. Jerome. It was adopted as the official bible of the Roman Catholic Church at the Council of Trent. See “Trent” in the Historical section of the Maps tab. See “Bible”.\r\rFurther Reference:\rWikipedia, “Vulgate”\rhttp://tinyurl.com/ywebum\r\r\r",
                            @"category":@"Biblical"}];
     
     
@@ -2968,7 +2968,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Wisdom Books",
                            @"twitterDef":@"the fourth of five sections in the\rOld Testament",
-                           @"definition":@"\rThe section of Wisdom Books consist mainly of various writings that offer moral instruction in the form of axioms and parallelisms. It contains Job, Psalms, Proverbs, Ecclesiastes, Song of Songs, Wisdom, and Sirach. They all fall into a similar genre, commonly referred to as “wisdom literature”. See “Genre”, “Form Criticism”.\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, “Wisdom Books”\rhttp://tinyurl.com/mfxvmaz\r\r\r",
+                           @"definition":@"\rThe section of Wisdom Books consist mainly of various writings that offer moral instruction in the form of axioms and parallelisms. It contains Job, Psalms, Proverbs, Ecclesiastes, Song of Songs, Wisdom, and Sirach. They all fall into a similar genre, commonly referred to as “wisdom literature”. See “Genre”, “Form Criticism”.\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, “Wisdom Books”. http://tinyurl.com/mfxvmaz\r\r\r",
                            @"category":@"Biblical"}];
     
     
@@ -3004,7 +3004,7 @@
     
     [TAWord wordWithDict:@{@"name":@"YHWH",
                            @"twitterDef":@"the personal name of the God of the Israelites",
-                           @"definition":@"\rThe four letter personal name of the God of the Israelites, also called the “Tetragrammaton”. According to the Elohist and Priestly sources, this name was not known before it was revealed to Moses in Exodus chapter 3. The Yahwhist Source, however, knows of it and uses it throughout Genesis as the personal name of God, which is one argument for multiple authorship of the Torah; the essence of the Documentary Hypothesis. See “Tetragrammaton”, “Documentary Hypothesis”.\r\rHebrew, יְהוָ֨ה (YHWH) “yahweh”\r\rFurther Reference:\rWikipedia, “Yahweh” http://tinyurl.com/y4vmqc\r\r\r",
+                           @"definition":@"\rThe four letter personal name of the God of the Israelites, also called the “Tetragrammaton”. According to the Elohist and Priestly sources, this name was not known before it was revealed to Moses in Exodus chapter 3. The Yahwhist Source, however, knows of it and uses it throughout Genesis as the personal name of God, which is one argument for multiple authorship of the Torah; the essence of the Documentary Hypothesis. See “Tetragrammaton”, “Documentary Hypothesis”.\r\rHebrew, יְהוָ֨ה (YHWH) “yahweh”\r\rFurther Reference:\rWikipedia, “Yahweh”\rhttp://tinyurl.com/y4vmqc\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Yom Kippur",
