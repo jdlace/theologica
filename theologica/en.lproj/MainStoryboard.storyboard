@@ -807,7 +807,7 @@
                                     <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dJw-hN-JR5" userLabel="ContentView">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="571"/>
                                         <subviews>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" misplaced="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="5" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zrc-9h-0bq">
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" misplaced="YES" text="Label" lineBreakMode="wordWrap" numberOfLines="5" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zrc-9h-0bq">
                                                 <rect key="frame" x="11" y="70" width="309" height="89"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="32"/>
@@ -872,7 +872,7 @@
                                                 <variation key="widthClass=compact" constant="0.0"/>
                                             </constraint>
                                             <constraint firstItem="RCD-3l-VQc" firstAttribute="top" secondItem="uNV-2X-cOG" secondAttribute="bottom" constant="6" id="kWX-kh-120">
-                                                <variation key="widthClass=compact" constant="0.0"/>
+                                                <variation key="widthClass=compact" constant="-1"/>
                                             </constraint>
                                             <constraint firstAttribute="trailing" secondItem="RCD-3l-VQc" secondAttribute="trailing" constant="11" id="kfo-b2-m7A">
                                                 <variation key="heightClass=regular" constant="11"/>
@@ -886,10 +886,10 @@
                                                 <variation key="widthClass=compact" constant="14"/>
                                             </constraint>
                                             <constraint firstAttribute="width" secondItem="uNV-2X-cOG" secondAttribute="height" multiplier="80:37" constant="10.810810810810779" id="tnj-fl-Ehs">
-                                                <variation key="widthClass=compact" constant="11"/>
+                                                <variation key="widthClass=compact" constant="-10.810810810810835"/>
                                             </constraint>
                                             <constraint firstItem="zrc-9h-0bq" firstAttribute="top" secondItem="8Cv-Rb-2Ws" secondAttribute="top" constant="-79" id="wAt-UA-HHv">
-                                                <variation key="widthClass=compact" constant="-75"/>
+                                                <variation key="widthClass=compact" constant="-82"/>
                                             </constraint>
                                             <constraint firstAttribute="trailing" secondItem="zrc-9h-0bq" secondAttribute="trailing" constant="8" id="yAH-dY-kQR">
                                                 <variation key="widthClass=compact" constant="7"/>
