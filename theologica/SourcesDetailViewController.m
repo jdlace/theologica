@@ -147,14 +147,18 @@
     self.sourceSubtitle.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (IBAction)shareButton:(id)sender {
+
+    NSArray *activityItems;
+    activityItems = @[self.currentSourceDetail.name, self.currentSourceDetail.twitterDef, self.currentSourceDetail.comment, self.currentSourceDetail.bigPic];
+    
+    //NSArray *activityActions;
+    
+    
+    UIActivityViewController *activityController = [[UIActivityViewController alloc] initWithActivityItems: activityItems applicationActivities:nil];
+    [self presentViewController:activityController
+                       animated:YES completion:nil];
+    
 }
-*/
-
 @end

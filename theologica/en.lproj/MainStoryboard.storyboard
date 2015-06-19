@@ -710,7 +710,6 @@
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" id="7IG-X7-kdi"/>
                     <connections>
                         <outlet property="scrollView" destination="njt-xU-EuX" id="vMo-Xb-jRM"/>
                         <outlet property="sourceInformation" destination="ccI-OC-gVd" id="upQ-cS-7ke"/>
@@ -2159,6 +2158,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="z88-YU-nMu"/>
-        <segue reference="zLY-YZ-JXK"/>
+        <segue reference="pbe-ii-vwi"/>
     </inferredMetricsTieBreakers>
 </document>

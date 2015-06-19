@@ -439,9 +439,9 @@
                            @"definition":@"\rThe choral response sung during the entrace processional of Mass is antiphonal. See “Mass”.\r\rFurther Reference:\rGeneral Instruction on the Liturgy of the Hours, III.II http://tinyurl.com/ku23eyw\r\r\r",
                            @"category":@"Liturgical"}];
     
-    [TAWord wordWithDict:@{@"name":@"Apostle's Creed",
+    [TAWord wordWithDict:@{@"name":@"Apostles' Creed",
                            @"twitterDef":@"the creed used in Rome circa A.D. 150",
-                           @"definition":@"\rThe Apostle's Creed is the earliest known liturgical creed associated specifically with the Church of Rome.\r\r“I believe in God, the Father almighty, Creator of heaven and earth, and in Jesus Christ, his only Son, our Lord, who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died and was buried; he descended into hell; on the third day he rose again from the dead; he ascended into heaven, and is seated at the right hand of God the Father almighty; from there he will come to judge the living and the dead. I believe in the Holy Spirit, the holy catholic Church, the communion of saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen.”\r\rFurther Reference:\rCatechism of the Catholic Church, 194\rhttp://tinyurl.com/mo3f24x\r\r\r",
+                           @"definition":@"\rThe Apostles' Creed is the earliest known liturgical creed associated specifically with the Church of Rome.\r\r“I believe in God, the Father almighty, Creator of heaven and earth, and in Jesus Christ, his only Son, our Lord, who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died and was buried; he descended into hell; on the third day he rose again from the dead; he ascended into heaven, and is seated at the right hand of God the Father almighty; from there he will come to judge the living and the dead. I believe in the Holy Spirit, the holy catholic Church, the communion of saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen.”\r\rSee the Creeds section of the Overview tab.\r\rFurther Reference:\rCatechism of the Catholic Church, 194\rhttp://tinyurl.com/mo3f24x\r\r\r",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Arianism",
@@ -513,7 +513,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Apostolic Fathers",
                            @"twitterDef":@"the collection of Christian texts from the late first and early second centuries",
-                           @"definition":@"\rThe Aposotolic Fathers are the earliest extra-biblical texts outside the Bible. See the Church Fathers section of the Overview tab.\r\rFurther Reference:\rWikipedia, “Apostolic Fathers”\rhttp://tinyurl.com/56xymr\r\r\r",
+                           @"definition":@"\rThe Aposotolic Fathers are the earliest extra-biblical texts outside the Bible. See the Fathers section of the Overview tab.\r\rFurther Reference:\rWikipedia, “Apostolic Fathers”\rhttp://tinyurl.com/56xymr\r\r\r",
                            @"category":@"Historical"}];
     
     ///////////////////////B
@@ -562,7 +562,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Biblical Novellas",
                            @"twitterDef":@"the third of five sections in the Old Testament",
-                           @"definition":@"\rNovellas in the Old Testament include short stories that encourage the Israelites during times of persecution. Though it is included in the book of Genesis, the story of Joseph is recognized as being a Novella. These stories likely contain embelishments of historical events.\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, “Biblical Novellas”. http://tinyurl.com/nnqtv7b\r\r\r",
+                           @"definition":@"\rNovellas in the Old Testament include short stories that encourage the Israelites during times of persecution. Though it is included in the book of Genesis, the story of Joseph is recognized as being a Novella. These stories likely contain embelishments of historical events. See the Scripture section in the Overview tab.\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, “Biblical Novellas”. http://tinyurl.com/nnqtv7b\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Blasphemy",
@@ -885,7 +885,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Creation",
                            @"twitterDef":@"that which exists contingently;\rthe Universe",
-                           @"definition":@"\rCreation has been traditionally understood as ocurring out of nothing (ex nihilo). Recent scientific discoveries have led theologians such as John Haught to emphasize the perpetual aspect of the unfolding of an evolutionary universe (creatio continua). From a metaphysical perspective, Creation is contingent upon the creative act of God, Who is not contingent but necessary.\r\rFurther Reference:\rCatechism of the Catholic Church, 280\rhttp://tinyurl.com/6kvj6\r\r\r",
+                           @"definition":@"\rCreation has been traditionally understood as ocurring out of nothing (ex nihilo). Recent scientific discoveries have led theologians such as John Haught to emphasize the perpetual aspect of the unfolding of an evolutionary universe (creatio continua). From a metaphysical perspective, Creation is contingent upon the creative act of God, Who is not contingent but necessary. Pope Francis has stated that the concept of Creation is one that implies an act of love:\r\rIn the Judaeo-Christian tradition, the word “creation” has a broader meaning than “nature”, for it has to do with God’s loving plan in which every creature has its own value and significance. Nature is usually seen as a system which can be studied, understood and controlled, whereas creation can only be understood as a gift from the outstretched hand of the Father of all, and as a reality illuminated by the love which calls us together into universal communion. -Laudito Si, 76\r\rFurther Reference:\rPope Francis, Laudito Si\rhttp://tinyurl.com/o6sowft\r\rCatechism of the Catholic Church, 280\rhttp://tinyurl.com/6kvj6\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Creationism",
@@ -895,7 +895,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Creed",
                            @"twitterDef":@"a statement of faith or belief",
-                           @"definition":@"\rThis word is traditionally used to refer to the historical creeds of the Church, most notably the Apostle's and Nicene creed. It may also indicate a personal belief. See “Apostle's Creed”, “Nicene Creed”.\r\rFurther Reference:\rCatechism of the Catholic Church, 187\rhttp://tinyurl.com/mo3f24x\r\r\r",
+                           @"definition":@"\rThis word is traditionally used to refer to the historical creeds of the Church, most notably the Apostle's and Nicene creed. It may also indicate a personal belief. See “Apostle's Creed”, “Nicene Creed”. See the Creeds section of the Overview tab.\r\rFurther Reference:\rCatechism of the Catholic Church, 187\rhttp://tinyurl.com/mo3f24x\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Call Narrative",
@@ -1658,7 +1658,7 @@
 
     [TAWord wordWithDict:@{@"name":@"Historical Books",
                            @"twitterDef":@"the second of five sections in the Old Testament",
-                           @"definition":@"\rThe Historical Books deal primarily with the beginning of the Israelite nation, subsequent downfall, and eventual restoration. They include Joshua, Judges, Ruth, 1 & 2 Samuel, 1 & 2 Kings, 1 & 2 Chronicles, Ezra, and Nehemiah.\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, “Historical Books”. http://tinyurl.com/l2bx9te\r\r\r",
+                           @"definition":@"\rThe Historical Books deal primarily with the beginning of the Israelite nation, subsequent downfall, and eventual restoration. They include Joshua, Judges, Ruth, 1 & 2 Samuel, 1 & 2 Kings, 1 & 2 Chronicles, Ezra, and Nehemiah. See the Scripture section of the Overview tab.\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, “Historical Books”. http://tinyurl.com/l2bx9te\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Historical-Critical Method",
@@ -1835,6 +1835,11 @@
     [TAWord wordWithDict:@{@"name":@"Jesus of Nazareth",
                            @"twitterDef":@"the first-century Jewish prophet who proclaimed the Kingdom of God",
                            @"definition":@"\rAccording to the teaching of the Church, the historical Jesus of Nazareth was the subject of the Incarnation. He proclaimed and manifested the Kingdom of God during his public ministry. He was executed by the Roman govenor Pontius Pilate according to the set purpose of God, and was raised from dead as the Christ and Son of God. See “Christ”, Historical Jesus”, “Incarnation”.\r\rFurther Reference:\rCatechism of the Catholic Church, 423\rhttp://tinyurl.com/m2a65kl\r\r\r",
+                           @"category":@"Biblical"}];
+    
+    [TAWord wordWithDict:@{@"name":@"JE Epic",
+                           @"twitterDef":@"the combined work of the Yahwisht and Elohist authors into a single theological history of Israel",
+                           @"definition":@"\rBefore or soon after the fall of the Northern Kingdom of Israel to the Assyrians in 722 B.C., an unknown scribe brought the Elohist Source material south to Jerusalem for safe keeping. At a later date, another scribe (likely from the tribe of Judah) combined these two narratives into a single work with the resulting story being dominated by the Yahwist account. See “Elohist Source”, Yahwist Source”, “Documentary Hypothesis”.\r\rFurther Reference:\rUnited States Conference of Catholic Bishops\rNew American Bible Revised Edition, “Pentateuch”\rhttp://tinyurl.com/pg8nvov\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Justification",
@@ -2286,7 +2291,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Nicene Creed",
                            @"twitterDef":@"the creed from Constantinople in A.D. 381, based on the Nicene Creed in A.D. 325",
-                           @"definition":@"\rThe Nicene Creed is also referred to as the Nicene-Constantinopolitan Creed:\r\r“We believe in one God, the Father, the Almighty, maker of heaven and earth, of all that is, seen and unseen.\r\rWe believe one Lord, Jesus Christ, the only Son of God, eternally begotten of the Father, God from God, Light from Light, true God from true God, begotten, not made, one in Being with the Father. Through Him all things were made. For us men and for our salvation, He came down from heaven: by the power of the Holy Spirit He was born of the Virgin Mary, and became Man. For our sake He was crucified under Pontius Pilate. He suffered, died, and was buried. On the third day He rose again in fulfillment of the Scriptures; He ascended into heaven, and is seated at the right hand of the Father. He will come again in glory to judge the living and the dead, and His kingdom will have no end. \r\rWe believe in the Holy Spirit, the Lord, the Giver of life, Who proceeds from the Father and the Son. With the Father and the Son He is worshiped and glorified. He has spoken through the prophets.\r\rWe believe in one, holy, catholic, and apostolic Church. We acknowledge one Baptism for the forgiveness of sins. We look for the resurrection of the dead, and the life of the world to come. Amen.”\r\rSee “Nicea” in the Historical section of the Maps tab.\r\rFurther Reference:\rCatechism of the Catholic Church, Sec. II\rhttp://tinyurl.com/2dszf5\r\r\r",
+                           @"definition":@"\rThe Nicene Creed is also referred to as the Nicene-Constantinopolitan Creed:\r\r“We believe in one God, the Father, the Almighty, maker of heaven and earth, of all that is, seen and unseen.\r\rWe believe one Lord, Jesus Christ, the only Son of God, eternally begotten of the Father, God from God, Light from Light, true God from true God, begotten, not made, one in Being with the Father. Through Him all things were made. For us men and for our salvation, He came down from heaven: by the power of the Holy Spirit He was born of the Virgin Mary, and became Man. For our sake He was crucified under Pontius Pilate. He suffered, died, and was buried. On the third day He rose again in fulfillment of the Scriptures; He ascended into heaven, and is seated at the right hand of the Father. He will come again in glory to judge the living and the dead, and His kingdom will have no end. \r\rWe believe in the Holy Spirit, the Lord, the Giver of life, Who proceeds from the Father and the Son. With the Father and the Son He is worshiped and glorified. He has spoken through the prophets.\r\rWe believe in one, holy, catholic, and apostolic Church. We acknowledge one Baptism for the forgiveness of sins. We look for the resurrection of the dead, and the life of the world to come. Amen.”\r\rSee the Creeds section of the Overview tab. See “Nicea” in the Historical section of the Maps tab.\r\rFurther Reference:\rCatechism of the Catholic Church, Sec. II\rhttp://tinyurl.com/2dszf5\r\r\r",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Numinous",
@@ -2537,8 +2542,8 @@
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Pentateuch",
-                           @"twitterDef":@"the first of five sections in the Old Testament",
-                           @"definition":@"\rThe Pentateuch includes the books of the Torah: Genesis, Exodus, Leviticus, Numbers, and Deuteronomy. See “Torah”.\r\rGreek, πεντάτευχος (pentateuchos) “five scrolls”\r\r\r",
+                           @"twitterDef":@"the first of five books in the Old Testament;\rthe Torah",
+                           @"definition":@"\rThe Pentateuch includes the books of the Torah: Genesis, Exodus, Leviticus, Numbers, and Deuteronomy. The recent acceptance of the Documentary Hypothesis has led to a better understanding of the history of the Pentateuch's composition.\r\r“Who wrote the Pentateuch, and when? Up to the seventeenth century, the virtually unanimous answer of Jews and Christians was 'Moses'. Moses wrote the Pentateuch as David wrote the Psalter and Solomon wrote the wisdom literature. Though scholars had noted inconsistencies (compare Ishmael’s age in Gn 16:16 and 21:5, 14) and duplications (Gn 12, 20, and 26), they assumed Mosaic authorship because of the prevalent theory of inspiration: God inspired authors while they wrote. With the rise of historical criticism, scholars began to use the doublets and inconsistencies as clues to different authors and traditions.\r\rBy the late nineteenth century, one theory of the sources of the Pentateuch had been worked out that proved acceptable in its main lines to the majority of scholars (apart from Christian and Jewish conservatives) then and now. It can be quickly sketched. In the premonarchic period of the Judges (ca. 1220–1020 B.C.), the twelve tribes had an oral form of their story from creation to the taking of the land. With the beginnings of monarchy in the late eleventh and tenth centuries, the oral material was written down, being known as the Yahwist account (from its use of the divine name YHWH). Its abbreviation, “J,” comes from the German spelling of the divine name. In the following century, another account took shape in the Northern Kingdom (called E after its use of Elohim as a divine name); some believe the E source is simply a supplement to J. After the fall of the Northern Kingdom in 722/721 B.C., the E version was taken to Jerusalem where it was combined with the J version to produce J-E. During the exile (conventionally dated 587–539 B.C.) or thereafter, an editor recast J-E to make it relevant for the exiled population. This editor is conventionally known as P (=Priestly) because of the chronological and ritual interests apparent in the work. P can also designate archival material and chronological notices. The audience for the Priestly edition no longer lived in the land and was deeply concerned about its survival and its claim on the land.\r\rDeuteronomy (=D) stands alone in style, genre (preaching rather than narrative), and content. How did it come to be the fifth book of the Pentateuch? The J-E narrative actually ends in Numbers, when Israel arrives at the plains of Moab. Many scholars believe that Deuteronomy was secondarily attached to Numbers by moving the account of Moses’ death from its original place in the J-E version in Numbers to the end of Deuteronomy (chap. 34). Deuteronomy was attached to Genesis–Numbers to link it to another great work, the Deuteronomistic History (Joshua to Kings). Deuteronomy is now the fifth book of the Pentateuch and the first book of the Deuteronomistic History”.\r-New American Bible Revised Edition, “Pentateuch”\r\rSee “Documentary Hypothesis”, “Torah”. See the Scripture section of the Overview tab.\r\rGreek, πεντάτευχος (pentateuchos) “five scrolls”\r\rFurther Reference:\rUnited States Conference of Catholic Bishops\rNew American Bible Revised Edition, “Pentateuch”\rhttp://tinyurl.com/pg8nvov\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Pericope",
@@ -2574,7 +2579,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Prophetic Books",
                            @"twitterDef":@"the fifth of five sections of the Old Testament",
-                           @"definition":@"\rThe Prophetic Books are usually divided into the categories of Major and Minor, based on the length of the book. Isaiah, Jeremiah, and Ezekiel are the major prophetic books, while the remaining books are considered minor.\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, “Prophetic Books”. http://tinyurl.com/nfwu9w9\r\r\r",
+                           @"definition":@"\rThe Prophetic Books are usually divided into the categories of Major and Minor, based on the length of the book. Isaiah, Jeremiah, and Ezekiel are the major prophetic books, while the remaining books are considered minor. See the Scripture section of the Overview tab.\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, “Prophetic Books”. http://tinyurl.com/nfwu9w9\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Philosophy",
@@ -2652,6 +2657,11 @@
                            @"twitterDef":@"the contrite changing of one's thinking",
                            @"definition":@"\rRepentance is necessary when one's relationship with God is impaired by sin. It is a theme of the Hebrew prophets in the Old Testament. In the New Testament, repentance is linked to the forgiveness of sins in Baptism. The question of post-Baptismal sin became significant in the early Church. Penance came to be seen as a “second repentance”. See “Baptism”, “Penance”.\r\rGreek, μετάνοια (metanoia) “after thought”\r\rFurther Reference:\rCatechism of the Catholic Church, 1431\rhttp://tinyurl.com/l7xon9e\r\r\r",
                            @"category":@"Systematic"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Relativism",
+                           @"twitterDef":@"the belief that there are no universal truths",
+                           @"definition":@"\rRelativism can be traced to various thinkers in the ancient Greek philosophical tradition. Modern relativism often takes the form of moral relativism. Before his electction to the Papacy, Cardinal Joseph Ratzinger emphasized the dangers of such a worldview:\r\r“Today, having a clear faith based on the Creed of the Church is often labeled as fundamentalism. Whereas relativism, that is, letting oneself be 'tossed here and there, carried about by every wind of doctrine', seems the only attitude that can cope with modern times. We are building a dictatorship of relativism that does not recognize anything as definitive and whose ultimate goal consists solely of one's own ego and desires.” -Homily.\r\rSee “Philosophy”, “Logic”.\r\rFurther Reference:\rCardinal Joseph Ratzinger\r“Homily, 4.18.2005”. http://tinyurl.com/7nlhk\r\r\r",
+                           @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Ressourcement",
                            @"twitterDef":@"a French term meaning “to return to the sources”",
@@ -2968,7 +2978,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Wisdom Books",
                            @"twitterDef":@"the fourth of five sections in the\rOld Testament",
-                           @"definition":@"\rThe section of Wisdom Books consist mainly of various writings that offer moral instruction in the form of axioms and parallelisms. It contains Job, Psalms, Proverbs, Ecclesiastes, Song of Songs, Wisdom, and Sirach. They all fall into a similar genre, commonly referred to as “wisdom literature”. See “Genre”, “Form Criticism”.\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, “Wisdom Books”. http://tinyurl.com/mfxvmaz\r\r\r",
+                           @"definition":@"\rThe section of Wisdom Books consist mainly of various writings that offer moral instruction in the form of axioms and parallelisms. It contains Job, Psalms, Proverbs, Ecclesiastes, Song of Songs, Wisdom, and Sirach. They all fall into a similar genre, commonly referred to as “wisdom literature”. See “Genre”, “Form Criticism”. See the Scripture section in the Overview tab.\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, “Wisdom Books”. http://tinyurl.com/mfxvmaz\r\r\r",
                            @"category":@"Biblical"}];
     
     
@@ -2999,7 +3009,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Yahwist Source",
                            @"twitterDef":@"the literary source (J) in the Torah that uses the Divine Name before Exodus 3",
-                           @"definition":@"\rAccording to the Documentary Hypothesis, the Yahwist Source (also called “J” due to its German origin) is the earliest of the four written sources that comprise most of the Torah. In contrast to the other sources of the Documentary Hypothesis, the Yahwist Source is highly anthroporphic and knows the Tetragrammaton before Exodus 3. It, along with the Elohist Source, were likely combined to form a single narrative (the JE Epic) to which the Priestly author added his own material in addition to Deuteronomy and the Deuteronomic History. See “Documentary Hypothesis”, “Deuteronomic History”, “Elohist Source”, “Tetragrammaton”\r\rFurther Reference:\rWikipedia, “Yahwist Source”\rhttp://tinyurl.com/ye7axpa\r\r\r",
+                           @"definition":@"\rAccording to the Documentary Hypothesis, the Yahwist Source (also called “J” due to its German origin) is the earliest of the four written sources that comprise most of the Torah. In contrast to the other sources of the Documentary Hypothesis, the Yahwist Source is highly anthroporphic and knows the Tetragrammaton before Exodus 3. It, along with the Elohist Source, were likely combined to form a single narrative (the JE Epic) to which the Priestly author added his own material in addition to Deuteronomy and the Deuteronomic History. See “Documentary Hypothesis”, “Deuteronomic History”, “Elohist Source”, “JE Epic”, “Tetragrammaton”\r\rFurther Reference:\rWikipedia, “Yahwist Source”\rhttp://tinyurl.com/ye7axpa\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"YHWH",

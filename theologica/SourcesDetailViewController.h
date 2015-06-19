@@ -26,4 +26,6 @@
 @property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint *textViewHeightConstraint;
 
+- (IBAction)shareButton:(id)sender;
+
 @end
