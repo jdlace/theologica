@@ -958,7 +958,7 @@
                                         <variation key="widthClass=compact" constant="0.0"/>
                                     </constraint>
                                     <constraint firstAttribute="bottom" secondItem="dJw-hN-JR5" secondAttribute="bottom" id="NGf-Mk-bLN">
-                                        <variation key="widthClass=compact" constant="302"/>
+                                        <variation key="widthClass=compact" constant="0.0"/>
                                     </constraint>
                                     <constraint firstItem="dJw-hN-JR5" firstAttribute="leading" secondItem="zig-5D-WeL" secondAttribute="leading" id="bVM-8E-WWV"/>
                                 </constraints>

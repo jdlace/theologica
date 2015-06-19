@@ -2584,7 +2584,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Philosophy",
                            @"twitterDef":@"the critical examination of human thought;\rthe love of wisdom",
-                           @"definition":@"\rPhilosophy in the Western tradition originated in ancient Greece. As a discipline, Philosophy has an authentic independence from Theology. Among contemporary Catholic theologians, Fr. Thomas Guarino has explored the relationship between the two in the following theses:\r\r1. Theology legitimately assimilates Philosophy.\r2. Theology must performatively discipline Philosophy.\r3. Philosophy has a relative autonomy.\r4.Theological Pluralism is necessary.\r5. Theology requires Metaphysics.\r\rFurther Reference:\rThomas Guarino, “Philosophia Obscurans?”\rhttp://tinyurl.com/owasw9n\r\rWikipedia, “Philosophy”\rhttp://tinyurl.com/e5h6u\r\r\r",
+                           @"definition":@"\rPhilosophy in the Western tradition originated in ancient Greece. As a discipline, Philosophy has an authentic independence from Theology. Among contemporary Catholic theologians, Fr. Thomas Guarino has explored the relationship between the two in the following theses:\r\r1. Theology legitimately assimilates Philosophy.\r2. Theology must discipline Philosophy.\r3. Philosophy has a relative autonomy.\r4. Theological Pluralism is necessary.\r5. Theology requires Metaphysics.\r\rFurther Reference:\rThomas Guarino, “Philosophia Obscurans?”\rhttp://tinyurl.com/owasw9n\r\rWikipedia, “Philosophy”\rhttp://tinyurl.com/e5h6u\r\r\r",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Physicalism",
