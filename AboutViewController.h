@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Social/Social.h>
 
 @interface AboutViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UITextView *textView;
 
 - (IBAction)close:(id)sender;
+- (IBAction)tweetTapped:(id)sender;
 @end

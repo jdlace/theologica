@@ -15,6 +15,12 @@
 	<array>
 		<dict>
 			<key>Name</key>
+			<string>The Church Fathers</string>
+			<key>URL</key>
+			<string>http://www.churchfathers.org</string>
+		</dict>
+		<dict>
+			<key>Name</key>
 			<string>Ante-Nicene Fathers</string>
 			<key>URL</key>
 			<string>http://en.wikisource.org/wiki/Ante-Nicene_Fathers</string>

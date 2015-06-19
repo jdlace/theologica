@@ -40,4 +40,24 @@
 {
     [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
 }
+
+- (IBAction)tweetTapped:(id)sender {
+    
+        if ([SLComposeViewController isAvailableForServiceType:SLServiceTypeTwitter])
+            {
+            SLComposeViewController *tweetSheet = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
+            [tweetSheet setInitialText:@"@theologica_"];
+            [self presentViewController:tweetSheet animated:YES completion:nil];
+            }
+        else
+            {
+            UIAlertView *alertView = [[UIAlertView alloc]
+                                      initWithTitle:@"Truly, truly I say unto you..."
+                                      message:@"If anyone would tweet from Theologica, let him verify his data connection, have a Twitter account registered in Settings, and try again."
+                                      delegate:self
+                                      cancelButtonTitle:@"Amen"
+                                      otherButtonTitles:nil];
+            [alertView show];
+            }
+}
 @end
