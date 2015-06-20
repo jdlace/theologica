@@ -885,7 +885,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Creation",
                            @"twitterDef":@"that which exists contingently;\rthe Universe",
-                           @"definition":@"\rCreation has been traditionally understood as ocurring out of nothing (ex nihilo). Recent scientific discoveries have led theologians such as John Haught to emphasize the perpetual aspect of the unfolding of an evolutionary universe (creatio continua). From a metaphysical perspective, Creation is contingent upon the creative act of God, Who is not contingent but necessary. Pope Francis has stated that the concept of Creation is one that implies an act of love:\r\rIn the Judaeo-Christian tradition, the word “creation” has a broader meaning than “nature”, for it has to do with God’s loving plan in which every creature has its own value and significance. Nature is usually seen as a system which can be studied, understood and controlled, whereas creation can only be understood as a gift from the outstretched hand of the Father of all, and as a reality illuminated by the love which calls us together into universal communion. -Laudito Si, 76\r\rFurther Reference:\rPope Francis, Laudito Si\rhttp://tinyurl.com/o6sowft\r\rCatechism of the Catholic Church, 280\rhttp://tinyurl.com/6kvj6\r\r\r",
+                           @"definition":@"\rCreation has been traditionally understood as ocurring out of nothing (ex nihilo). Recent scientific discoveries have led theologians such as John Haught to emphasize the perpetual aspect of the unfolding of an evolutionary universe (creatio continua). From a metaphysical perspective, Creation is contingent upon the creative act of God, Who is not contingent but necessary. Pope Francis has stated that the concept of Creation is one that implies an act of love:\r\r“In the Judaeo-Christian tradition, the word 'creation' has a broader meaning than 'nature', for it has to do with God’s loving plan in which every creature has its own value and significance. Nature is usually seen as a system which can be studied, understood and controlled, whereas creation can only be understood as a gift from the outstretched hand of the Father of all, and as a reality illuminated by the love which calls us together into universal communion.” -Laudito Si, 76\r\rFurther Reference:\rPope Francis, “Laudito Si”\rhttp://tinyurl.com/o6sowft\r\rCatechism of the Catholic Church, 280\rhttp://tinyurl.com/6kvj6\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Creationism",
@@ -1016,7 +1016,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Divine Revelation",
                            @"twitterDef":@"the act of God's Self-Communication",
-                           @"definition":@"\rSince God is ultimately Mystery, God must reveal God's Self to human beings. In the Old Testament, Revelation usually occurs in the context of a Theophany. Divine Revelation was treated extensively at Vatican II in the Dogmatic Constitution on Divine Revelation, Dei Verbum. Increasingly, theology is being invited to discern what contribution that Divine Revelation makes to a scientifically-informed worldview.\r\rSee “Theophany”, “Dei Verbum”.\r\rFurther Reference:\rCatechism of the Catholic Church, 638-655\rhttp://tinyurl.com/nrt2f6g\r\rDr. John Haught\r “Mystery and Promise: A Theology of Revelation”\rhttp://tinyurl.com/m95ucez\r\r\r",
+                           @"definition":@"\rSince God is ultimately Mystery, God must reveal God's Self to human beings. In the Old Testament, Revelation usually occurs in the context of a Theophany. Divine Revelation was treated extensively at Vatican II in the Dogmatic Constitution on Divine Revelation, Dei Verbum. Increasingly, theology is being invited to discern what contribution that Divine Revelation makes to a scientifically-informed worldview.\r\rSee “Theophany”, “Dei Verbum”. See the Scripture section in the Overview tab.\r\rFurther Reference:\rCatechism of the Catholic Church, 638-655\rhttp://tinyurl.com/nrt2f6g\r\rDr. John Haught\r “Mystery and Promise: A Theology of Revelation”\rhttp://tinyurl.com/m95ucez\r\r\r",
                            @"category":@"Systematic"}];
 
     
@@ -1058,7 +1058,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Dei Verbum",
                            @"twitterDef":@"the Dogmatic Constitution of Vatican II concerning Divine Revelation",
-                           @"definition":@"\rDei Verbum is the most definitive statement on the Church's belief in Divine Revelation, the Scriptures and Tradition. See “Divine Revelation”, “Bible”, “Tradition”.\r\rLatin, (dei verbum) “Word of God”\r\rFurther Reference:\rVatican II, “Dogmatic Constitution on Divine Revelation”. http://tinyurl.com/3ecxu\r\r\r",
+                           @"definition":@"\rDei Verbum is the most definitive statement on the Church's belief in Divine Revelation, the Scriptures and Tradition. See “Divine Revelation”, “Bible”, “Tradition”. See the Scripture tab in the Overview section.\r\rLatin, (dei verbum) “Word of God”\r\rFurther Reference:\rVatican II, “Dogmatic Constitution on Divine Revelation”. http://tinyurl.com/3ecxu\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Demythologization",
@@ -1367,7 +1367,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Exodus",
                            @"twitterDef":@"the liberation of the Israelite slaves from Egypt under Moses",
-                           @"definition":@"\rThe Exodus is traditionally dated to ca. 1275 BCE in the reign of Ramases II. It is the foundational event of the Israelite nation; current biblical research supports the idea of a small group of slaves leaving Egypt, having a Divine Revelation in Midian, and traveling to Canaan. Exodus is also the name of the second book of the Torah.\r\rFurther Reference:\rRichard Elliot Friedman,\r“The Exodus Based on the Sources”\rhttp://tinyurl.com/ncovf49\r\r\r",
+                           @"definition":@"\rThe Exodus is traditionally dated to ca. 1275 BCE in the reign of Ramases II. It is the foundational event of the Israelite nation; current biblical research supports the idea of a small group of slaves leaving Egypt, having a Divine Revelation in Midian, and traveling to Canaan, where they met newly liberated Canaanite slaves. Exodus is also the name of the second book of the Torah. Dr. Richard Elliot Friedman argues that the Levites were the Israelites who left Egypt based on the following facts:\r\r1. Moses is identified as a Levite.\r2. Only Levites had Egyptian names.\r3. Levites had no alloted territory.\r4. Israel is absent from the Song of the Sea.\r5. Levites are absent from the Song of Debrah.\r6. Only Levite authors require circumcision, an Egyptian practice.\r7. Levite authors claim God was known by “El” until “YHWH” was revealed to Moses, a Levite.\r8. Only Levite authors include the Plagues.\r9. The Tabernacle & Temple are strikingly similar to Egyptian archeology.\r10. Levites murder those opposed to Moses.\r\rFurther Reference:\rRichard Elliot Friedman,\r“The Exodus Based on the Sources”\rhttp://tinyurl.com/ncovf49\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Elementary Experience",
@@ -1668,7 +1668,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Historical Criticism",
                            @"twitterDef":@"the analysis of the historical context of a text",
-                           @"definition":@"\rThe type of exegetical criticism which deciphers and analyzes the historical context of a text.\r\rFurther Reference:\rPontifical Biblical Commission\r“The Interpretation of the Bible in the Church”\rhttp://tinyurl.com/2gb5dm\r\r\r",
+                           @"definition":@"\rThe type of exegetical criticism which deciphers and analyzes the historical context of a text. See “Historical -Critical Method”\r\rFurther Reference:\rPontifical Biblical Commission\r“The Interpretation of the Bible in the Church”\rhttp://tinyurl.com/2gb5dm\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Holy",

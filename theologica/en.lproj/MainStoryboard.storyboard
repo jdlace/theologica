@@ -375,7 +375,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Overview" id="Hmz-io-8te">
-                        <barButtonItem key="backBarButtonItem" title="Overview" id="DqS-o1-c1c"/>
+                        <barButtonItem key="backBarButtonItem" title="Back" id="DqS-o1-c1c"/>
                         <barButtonItem key="leftBarButtonItem" title="About" style="plain" id="m9t-Uh-3Du">
                             <connections>
                                 <action selector="aboutButton:" destination="eI4-6J-SyD" id="OZB-69-hkR"/>
@@ -791,7 +791,7 @@
                         <sections/>
                     </tableView>
                     <navigationItem key="navigationItem" title="Dictionary" id="puP-se-oj8">
-                        <barButtonItem key="backBarButtonItem" title="Dictionary" id="TeJ-ib-7ab"/>
+                        <barButtonItem key="backBarButtonItem" title="Back" id="TeJ-ib-7ab"/>
                         <barButtonItem key="leftBarButtonItem" title="Terms" style="plain" id="LEf-Yw-Fka">
                             <connections>
                                 <action selector="termsButton:" destination="oZ5-nE-rQe" id="w9s-2l-WOC"/>
@@ -2181,6 +2181,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="D2d-iF-b5c"/>
-        <segue reference="zLY-YZ-JXK"/>
+        <segue reference="pbe-ii-vwi"/>
     </inferredMetricsTieBreakers>
 </document>
