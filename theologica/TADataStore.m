@@ -1681,6 +1681,11 @@
                            @"definition":@"\rThe Holy of Holies was the permanent resting place for the Ark of the Covenant, believed to reside in the Temple from the monarchy of Solomon until the Exile in 587 BCE. Only the High Priest was allowed to enter it once a year on the Day of Atonement. See “Day of Atonement”.\r\rFurther Reference:\rEncyclopedia Britannica, “Holy of Holies”\rhttp://tinyurl.com/lcagxrw\r\r\r",
                            @"category":@"Biblical"}];
     
+    [TAWord wordWithDict:@{@"name":@"Holiness Code",
+                           @"twitterDef":@"the legal code found in Leviticus 17-26",
+                           @"definition":@"\r.The Holiness Code is one of three distinct legal codes found within the Torah. Like the Covenant and Deuteronomic Codes, the Holines Code includes various casuistic laws dealing with altar sacrifices, sexual immorality, and series of laws also found in the Decalogue. See “Covenant Code”, “Decalogue, “Deuternomic Code”, “Priestly Source”.\r\rFurther Reference:\rWikipedia, “Holiness Code”\rhttp://tinyurl.com/o4jbyw3\r\r\r",
+                           @"category":@"Biblical"}];
+    
     [TAWord wordWithDict:@{@"name":@"Holy Orders",
                            @"twitterDef":@"the Sacrament of Ordination to Apostolic ministry",
                            @"definition":@"\rThere are three degrees of Holy Orders: episcopate, presbyterate, and diaconate. See “Bishop”, “Priest”, “Deacon”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1536\rhttp://tinyurl.com/4hs6lso\r\r\r",

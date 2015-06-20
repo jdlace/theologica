@@ -88,7 +88,7 @@
     ephesus.title = @"Ephesus";
     ephesus.subtitle = @"Roman Provincial Captial of Asia";
     ephesus.image = [UIImage imageNamed:@"ephesus"];
-    ephesus.information = @"\rEphesus was the base for Paul's European missionary journeys.\r\rFurther Reference:\rWikipedia, “Ephesus”\rhttp://tinyurl.com/olvyv\r\rCoordinates:\r37.9411, 27.3419\r\r\r";
+    ephesus.information = @"\rEphesus was the base for St. Paul's European missionary journeys. A letter in his name is addressed to the Ephesians, although many scholars believe it was originally intended as a general letter since some early manuscripts omit the phrase “who are in Ephesus”. It is counted among the so-called disputed letters of St. Paul.\r\rFurther Reference:\rWikipedia, “Ephesus”\rhttp://tinyurl.com/olvyv\r\rCoordinates:\r37.9411, 27.3419\r\r\r";
     
     BiblicalPins *corinth = [[BiblicalPins alloc] init];
     corinth.coordinate = CLLocationCoordinate2DMake(37.9333, 22.9333);
@@ -216,42 +216,42 @@
     palestine.title = @"Palestine";
     palestine.image = [UIImage imageNamed:@"palestine"];
     palestine.subtitle = @"Occupied Territory";
-    palestine.information = @"\rSince the creation of the state of Israel in 1948, Palestinians have been without statehood.\r\rFurther Reference:\rCoordinates:\r31.6253, 35.1453\r\r\r";
+    palestine.information = @"\rSince the creation of the state of Israel in 1948, Palestinians have been without statehood. The Vatican recently officially recognized the State of Palestine even though such recognition is absent in the United Nations and other governments.\r\rFurther Reference:\rCoordinates:\r31.6253, 35.1453\r\r\r";
     
     SocialPins *israel = [[SocialPins alloc] init];
     israel.coordinate = CLLocationCoordinate2DMake(31.0000, 35.0000);
     israel.title = @"Israel";
     israel.subtitle = @"A Contested Homeland";
     israel.image = [UIImage imageNamed:@"israel"];
-    israel.information = @"\rThe modern state of Israel was created in 1948 by United Nations resolution    . After the Holocaust of World War II\r\rFurther Reference:\rCoordinates:\r31.6253, 35.1453\r\r\r";
+    israel.information = @"\rThe modern state of Israel was created in 1948 by United Nations resolution. After the Holocaust of World War II\r\rFurther Reference:\rCoordinates:\r31.6253, 35.1453\r\r\r";
     
     BiblicalPins *thessalonica = [[BiblicalPins alloc] init];
     thessalonica.coordinate = CLLocationCoordinate2DMake(40.6500, 22.9000);
     thessalonica.title = @"Thessalonica";
     thessalonica.subtitle = @"Greek Coastal City";
     thessalonica.image = [UIImage imageNamed:@"thessalonica"]; 
-    thessalonica.information = @"\rThessalonica was home to one of the earlier Christian communities founded by the Apostle Paul.\r\rCoordinates:\r40.6500, 22.9000\r\r\r";
+    thessalonica.information = @"\rThessalonica was home to one of the earlier Christian communities founded by the St. Paul. There are two New Testament letters addressed to this community, however only one of them (1 Thessalonians) is counted as authentically Pauline. The other (2 Thessalonians) is among the so-called disputed letters.\r\rCoordinates:\r40.6500, 22.9000\r\r\r";
     
     BiblicalPins *philippi = [[BiblicalPins alloc] init];
     philippi.coordinate = CLLocationCoordinate2DMake(41.0131, 24.2864);
     philippi.title = @"Philippi";
     philippi.subtitle = @"Major Greek City";
     philippi.image = [UIImage imageNamed:@"philippi"];
-    philippi.information = @"\rPhilippi was...\r\rCoordinates:\r41.0131, 24.2864\r\r\r";
+    philippi.information = @"\rAccording to Acts 16: 11-40, Philippi was a Roman colony in which both St. Paul and St. Barnabas conducted missionary work. It was here that a woman named Lydia became one of the earlier converts to Christianity in Europe. , who was a merchant of scarlet clothing. She was one of the earlier converts to Christianity in Europe.\r\rCoordinates:\r41.0131, 24.2864\r\r\r";
     
     BiblicalPins *antioch = [[BiblicalPins alloc] init];
     antioch.coordinate = CLLocationCoordinate2DMake(36.2000, 36.1500);
     antioch.title = @"Antioch";
     antioch.subtitle = @"Capital of Ancient Syria";
     antioch.image = [UIImage imageNamed:@"antioch"];
-    antioch.information = @"\rCoordinates:\r36.2000, 36.1500\r\r\r";
+    antioch.information = @"\rAntioch was a major center for Gentile Christianity in the first century as recorded in the Acts of the Apostles. St. Paul and St. Barnabas launched their missionary journeys from this city. The disciples of Jesus were first called Christians in Antioch (Acts 11:26).\r\rFurther Reference:\rWikipedia, “Antioch”\rhttp://tinyurl.com/oec7o85\r\rCoordinates:\r36.2000, 36.1500\r\r\r";
     
     BiblicalPins *bethlehem = [[BiblicalPins alloc] init];
     bethlehem.coordinate = CLLocationCoordinate2DMake(31.7063, 35.2090);
     bethlehem.title = @"Bethlehem";
     bethlehem.image = [UIImage imageNamed:@"bethlehem"]; 
     bethlehem.subtitle = @"Traditional Birthplace of Jesus";
-    bethlehem.information = @"\rBethlehem is mentioned in the Hebrew Bible in Micah...There was a Bethlehem in Galilee, which may explain   qualification...Coordinates:\r31.7031, 35.1956\r\r\r";
+    bethlehem.information = @"\rBethlehem is mentioned in the Hebrew Bible in Micah...There was a Bethlehem in Galilee, which may explain   qualification...\r\rFurther Reference:\rCoordinates:\r31.7031, 35.1956\r\r\r";
     
     BiblicalPins *ramah = [[BiblicalPins alloc] init];
     ramah.coordinate = CLLocationCoordinate2DMake(32.936389, 35.367222);
