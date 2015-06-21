@@ -78,9 +78,9 @@
 	<array>
 		<dict>
 			<key>Name</key>
-			<string>United States Government</string>
+			<string>Church in the Modern World</string>
 			<key>URL</key>
-			<string>http://www.usa.gov</string>
+			<string>http://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651207_gaudium-et-spes_en.html</string>
 		</dict>
 		<dict>
 			<key>Name</key>
@@ -210,6 +210,12 @@
 	<array>
 		<dict>
 			<key>Name</key>
+			<string>Constitution on Divine Revelation</string>
+			<key>URL</key>
+			<string>http://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_en.html</string>
+		</dict>
+		<dict>
+			<key>Name</key>
 			<string>Pontifical Biblical Commission</string>
 			<key>URL</key>
 			<string>http://www.vatican.va/roman_curia/congregations/cfaith/pcb_index.htm</string>
@@ -274,6 +280,12 @@
 	</array>
 	<key>Liturgy</key>
 	<array>
+		<dict>
+			<key>Name</key>
+			<string>Constitution on Divine Liturgy</string>
+			<key>URL</key>
+			<string>http://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_en.html</string>
+		</dict>
 		<dict>
 			<key>Name</key>
 			<string>Universalis</string>
