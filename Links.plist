@@ -210,6 +210,12 @@
 	<array>
 		<dict>
 			<key>Name</key>
+			<string>Pontifical Biblical Commission</string>
+			<key>URL</key>
+			<string>http://www.vatican.va/roman_curia/congregations/cfaith/pcb_index.htm</string>
+		</dict>
+		<dict>
+			<key>Name</key>
 			<string>Codex Sinaiticus</string>
 			<key>URL</key>
 			<string>http://www.codexsinaiticus.org/en/</string>
@@ -295,17 +301,18 @@
 	</array>
 	<key>Theology</key>
 	<array>
-		<dict>
-			<key>Name</key>
-			<string>Thinking Faith</string>
-			<key>URL</key>
-			<string>http://www.thinkingfaith.org</string>
-		</dict>
+		<string></string>
 		<dict>
 			<key>Name</key>
 			<string>International Theological Commission</string>
 			<key>URL</key>
 			<string>http://www.vatican.va/roman_curia/congregations/cfaith/cti_index.htm</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Thinking Faith</string>
+			<key>URL</key>
+			<string>http://www.thinkingfaith.org</string>
 		</dict>
 		<dict>
 			<key>Name</key>
@@ -354,6 +361,12 @@
 	<array>
 		<dict>
 			<key>Name</key>
+			<string>Pontifical Academy of Sciences</string>
+			<key>URL</key>
+			<string>http://www.casinapioiv.va/content/accademia/en.html</string>
+		</dict>
+		<dict>
+			<key>Name</key>
 			<string>National Snow &amp; Ice Data Center</string>
 			<key>URL</key>
 			<string>http://nsidc.org</string>
@@ -391,6 +404,12 @@
 	</array>
 	<key>Arts</key>
 	<array>
+		<dict>
+			<key>Name</key>
+			<string>Pontifical Council for Culture</string>
+			<key>URL</key>
+			<string>http://www.cultura.va/content/cultura/en.html</string>
+		</dict>
 		<dict>
 			<key>Name</key>
 			<string>Vatican Museum</string>
