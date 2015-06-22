@@ -52,6 +52,7 @@
     //_imageView.image = _currentWordDetail.image;
     //self.title = self.nameLabel.text;
     
+        
     [[NSNotificationCenter defaultCenter]
      addObserver:self
      selector:@selector(preferredContentSizeChanged:)

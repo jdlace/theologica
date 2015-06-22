@@ -541,8 +541,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" restorationIdentifier="TweetCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="TweetCell" id="JPx-dJ-BxO">
+                                <rect key="frame" x="0.0" y="86" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="TweetCel" tableViewCell="JPx-dJ-BxO" id="Gq4-8Y-Xbh">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -760,19 +762,21 @@
                         <color key="sectionIndexBackgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DictionaryCell" textLabel="Lcz-SW-DNN" detailTextLabel="sVF-e4-cMF" style="IBUITableViewCellStyleSubtitle" id="kDs-46-kxp">
-                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="86" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kDs-46-kxp" id="OzY-oY-4FK">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="567" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" id="Lcz-SW-DNN">
+                                            <rect key="frame" x="15" y="4" width="32" height="20"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sVF-e4-cMF">
+                                            <rect key="frame" x="15" y="24" width="44" height="15"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -1299,8 +1303,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" showsReorderControl="YES" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="bookmarkCell" id="mpF-K4-Oa9">
+                                <rect key="frame" x="0.0" y="86" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mpF-K4-Oa9" id="0TR-4j-f2D">
+                                    <rect key="frame" x="0.0" y="0.0" width="567" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
@@ -1371,7 +1377,7 @@
             </objects>
             <point key="canvasLocation" x="-273" y="-483"/>
         </scene>
-        <!--Focus-->
+        <!--Explorations-->
         <scene sceneID="zJW-Gp-0B7">
             <objects>
                 <viewController id="AhB-vL-tFP" customClass="VerbatimViewController" sceneMemberID="viewController">
@@ -1396,10 +1402,7 @@
                             <constraint firstItem="eBx-7V-8BJ" firstAttribute="bottom" secondItem="DDN-AM-gb5" secondAttribute="bottomMargin" id="tFg-LI-R4u"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Focus" id="pWq-ph-Bdt">
-                        <barButtonItem key="leftBarButtonItem" title="Item" id="Q3K-53-0EU"/>
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="sRP-WL-tkX"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Explorations" id="pWq-ph-Bdt"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="webView" destination="eBx-7V-8BJ" id="dUy-SW-u7s"/>
@@ -1420,11 +1423,14 @@
                         <color key="separatorColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell multipleTouchEnabled="YES" contentMode="scaleAspectFill" restorationIdentifier="linksCell" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="linksCell" textLabel="Mcs-1e-0iW" style="IBUITableViewCellStyleDefault" id="bm2-Fa-HZg">
+                                <rect key="frame" x="0.0" y="114" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bm2-Fa-HZg" id="C63-Wm-KIG">
+                                    <rect key="frame" x="0.0" y="0.0" width="567" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" id="Mcs-1e-0iW">
+                                            <rect key="frame" x="15" y="0.0" width="550" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -1507,7 +1513,7 @@
         <scene sceneID="jRQ-oP-mln">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Z0P-od-vVe" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Maps" image="earthlines" id="vUG-tr-5Lj">
+                    <tabBarItem key="tabBarItem" title="Maps" image="earthlines 3" selectedImage="earth-wireframe-7@3x copy" id="vUG-tr-5Lj">
                         <inset key="imageInsets" minX="0.0" minY="2" maxX="0.0" maxY="-2"/>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="blueearth"/>
@@ -1554,11 +1560,11 @@
             </objects>
             <point key="canvasLocation" x="-3530.625" y="548.23943661971828"/>
         </scene>
-        <!--Focus-->
+        <!--Explorations-->
         <scene sceneID="kUP-yg-iC5">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3kh-FI-uIe" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Focus" image="compass" selectedImage="bluemen" id="jIN-Bk-txF">
+                    <tabBarItem key="tabBarItem" title="Explorations" image="videocamera" selectedImage="bluemen" id="jIN-Bk-txF">
                         <inset key="imageInsets" minX="0.0" minY="2" maxX="0.0" maxY="-2"/>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="bluemen"/>
@@ -2164,11 +2170,11 @@
         <image name="churchpurple" width="83" height="83"/>
         <image name="cityblue" width="83" height="83"/>
         <image name="codex2-1" width="70" height="70"/>
-        <image name="compass" width="30" height="30"/>
         <image name="councillines" width="30" height="30"/>
         <image name="defdetail-1" width="106" height="49"/>
         <image name="dollarblue" width="83" height="83"/>
-        <image name="earthlines" width="30" height="30"/>
+        <image name="earth-wireframe-7@3x copy" width="30" height="30"/>
+        <image name="earthlines 3" width="33" height="33"/>
         <image name="fathersButton-2" width="70" height="70"/>
         <image name="fatherspurple" width="83" height="83"/>
         <image name="headphonesblue" width="83" height="83"/>
@@ -2178,6 +2184,7 @@
         <image name="philosophyblue" width="83" height="83"/>
         <image name="phoneblue" width="83" height="83"/>
         <image name="vaticanbw2" width="70" height="70"/>
+        <image name="videocamera" width="30" height="30"/>
         <image name="viewIcon" width="66" height="66"/>
         <image name="winelinespurple" width="83" height="83"/>
     </resources>

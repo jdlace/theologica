@@ -18,7 +18,7 @@
 {
     [super viewDidLoad];
   
-    NSURL *url = [[NSURL alloc] initWithString:@"https://vimeo.com/119703749"];
+    NSURL *url = [[NSURL alloc] initWithString:@"https://player.vimeo.com/external/131384793.mobile.mp4?s=451547939ae44a1c6c1332c1e8fdb410&profile_id=116"];
     
     NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
     
