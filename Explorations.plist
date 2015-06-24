@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Interviews</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>1. Dr. Charles Camosy</string>
+			<key>URL</key>
+			<string>https://vimeo.com/user36977984/videos</string>
+		</dict>
+	</array>
+	<key>Presentations</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>1. Introduction to Biblical Interpretation</string>
+			<key>URL</key>
+			<string>https://player.vimeo.com/external/131384793.mobile.mp4?s=451547939ae44a1c6c1332c1e8fdb410&amp;profile_id=116</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>2. Science and Theology</string>
+			<key>URL</key>
+			<string>https://vimeo.com/user36977984/videos</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -14,8 +14,13 @@
 
 @property (strong, nonatomic) NSTimer *timer;
 @property (strong, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
+@property (nonatomic, copy) NSString *urlString;
+
 
 @property(nonatomic) BOOL theBool;
+
+-(void) loadWebViewRequest;
+
 
 
 

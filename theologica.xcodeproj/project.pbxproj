@@ -56,6 +56,8 @@
 		69D4C4BB1B117D1E009B5FE0 /* SignContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D4C4BA1B117D1E009B5FE0 /* SignContentViewController.m */; };
 		69D6284C1A47617B0073C157 /* HistoricalPins.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D6284B1A47617B0073C157 /* HistoricalPins.m */; };
 		69D6284F1A4762830073C157 /* SocialPins.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D6284E1A4762830073C157 /* SocialPins.m */; };
+		69F802BA1B3A4F8E002A5C8C /* Explorations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 69F802B91B3A4F8E002A5C8C /* Explorations.plist */; };
+		69F802BD1B3A50AE002A5C8C /* ExplorationsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F802BC1B3A50AE002A5C8C /* ExplorationsTableViewController.m */; };
 		69FB18EB1A0051C500F1C9A4 /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = 69FB18EA1A0051C500F1C9A4 /* Word.m */; };
 		9BA06E2D1A833AD400A6A19E /* theologica.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9BA06E2B1A833AD400A6A19E /* theologica.xcdatamodeld */; };
 		9BA06E331A833B4800A6A19E /* TADataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA06E321A833B4800A6A19E /* TADataStore.m */; };
@@ -161,6 +163,9 @@
 		69D6284B1A47617B0073C157 /* HistoricalPins.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoricalPins.m; sourceTree = "<group>"; };
 		69D6284D1A4762830073C157 /* SocialPins.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialPins.h; sourceTree = "<group>"; };
 		69D6284E1A4762830073C157 /* SocialPins.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialPins.m; sourceTree = "<group>"; };
+		69F802B91B3A4F8E002A5C8C /* Explorations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Explorations.plist; sourceTree = "<group>"; };
+		69F802BB1B3A50AE002A5C8C /* ExplorationsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExplorationsTableViewController.h; path = ../ExplorationsTableViewController.h; sourceTree = "<group>"; };
+		69F802BC1B3A50AE002A5C8C /* ExplorationsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExplorationsTableViewController.m; path = ../ExplorationsTableViewController.m; sourceTree = "<group>"; };
 		69FB18E91A0051C500F1C9A4 /* Word.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Word.h; sourceTree = "<group>"; };
 		69FB18EA1A0051C500F1C9A4 /* Word.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Word.m; sourceTree = "<group>"; };
 		9BA06E2C1A833AD400A6A19E /* theologica.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = theologica.xcdatamodel; sourceTree = "<group>"; };
@@ -223,6 +228,8 @@
 		6907EB591A7E7ABC00AE52A1 /* Verbatim */ = {
 			isa = PBXGroup;
 			children = (
+				69F802BB1B3A50AE002A5C8C /* ExplorationsTableViewController.h */,
+				69F802BC1B3A50AE002A5C8C /* ExplorationsTableViewController.m */,
 				6907EB561A7E7AA300AE52A1 /* VerbatimViewController.h */,
 				6907EB571A7E7AA300AE52A1 /* VerbatimViewController.m */,
 			);
@@ -233,6 +240,7 @@
 			isa = PBXGroup;
 			children = (
 				6976E3011A6F3E8D0013A6D5 /* Links.plist */,
+				69F802B91B3A4F8E002A5C8C /* Explorations.plist */,
 				698F27AC1A6D837F0065F8A6 /* theologica.entitlements */,
 				6946C91B1B2EF7AF00631421 /* SystemConfiguration.framework */,
 				6946C91C1B2EF7AF00631421 /* libc++.dylib */,
@@ -530,6 +538,7 @@
 				692ED2A91796EF10008554F9 /* man-influence@2x.png in Resources */,
 				9BAC0B461A1C4BA1004C4867 /* appicon2.png in Resources */,
 				6976E3021A6F3E8D0013A6D5 /* Links.plist in Resources */,
+				69F802BA1B3A4F8E002A5C8C /* Explorations.plist in Resources */,
 				9BAC0B451A1C4BA1004C4867 /* appicon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -584,6 +593,7 @@
 				692ED2B51796F48B008554F9 /* WordDetailViewController.m in Sources */,
 				9BA06E2D1A833AD400A6A19E /* theologica.xcdatamodeld in Sources */,
 				69D6284C1A47617B0073C157 /* HistoricalPins.m in Sources */,
+				69F802BD1B3A50AE002A5C8C /* ExplorationsTableViewController.m in Sources */,
 				FA84505C1A129CA0007839D8 /* bookmarkListTableViewController.m in Sources */,
 				6907EB581A7E7AA300AE52A1 /* VerbatimViewController.m in Sources */,
 				9BA06E6E1A833F9200A6A19E /* TAWord.m in Sources */,
