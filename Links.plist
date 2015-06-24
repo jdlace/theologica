@@ -78,6 +78,12 @@
 	<array>
 		<dict>
 			<key>Name</key>
+			<string>Pontifical Council for Justice and Peace</string>
+			<key>URL</key>
+			<string>http://www.vatican.va/roman_curia/pontifical_councils/justpeace/index.htm</string>
+		</dict>
+		<dict>
+			<key>Name</key>
 			<string>Church in the Modern World</string>
 			<key>URL</key>
 			<string>http://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651207_gaudium-et-spes_en.html</string>

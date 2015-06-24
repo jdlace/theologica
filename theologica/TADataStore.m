@@ -738,12 +738,12 @@
     
     [TAWord wordWithDict:@{@"name":@"Commutative Justice",
                            @"twitterDef":@"the aspect of justice which emphasizes obligations between individuals",
-                           @"definition":@"\rCommutative Justice is identified in Catholic teaching as being the foundational aspect of justice that is essential for its contributive and distributive aspects.\r\rFurther Reference:\rCatechism of the Catholic Church, 2411\rhttp://tinyurl.com/6y3q4\r\r\r",
+                           @"definition":@"\rCommutative Justice is identified in Catholic teaching as being the foundational aspect of justice that is essential for its contributive and distributive aspects.\r\r“Commutative justice calls for fundamental fairness in all agreements and exchanges between individuals or private social groups. It demands respect for the equal human dignity of all persons in economic transactions, contracts, or promises. For example, workers owe their employers diligent work in exchange for their wages. Employers are obligated to treat their employees as persons, paying them fair wages in exchange for the work done and establishing conditions and patterns of work that are truly human.”\r-Economic Justice For All, 69\r\rSee “Justice”\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, “Economic Justice For All”\rhttp://tinyurl.com/75hnlx3\r\rCatechism of the Catholic Church, 2411\rhttp://tinyurl.com/6y3q4\r\r\r",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Contributive Justice",
                            @"twitterDef":@"the aspect of justice that emphasizes the obligation of individuals toward society",
-                           @"definition":@"\rContributive justice is met when the individual fulfills his responsbilities to the larger society. See “Justice”.\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, “Economic Justice For All”, II.b.1.b\rhttp://tinyurl.com/75hnlx3\r\r\r",
+                           @"definition":@"\rContributive justice is met when the individual fulfills his responsbilities to the larger society.\r\r“Social justice implies that persons have an obligation to be active and productive participants in the life of society and that society has a duty to enable them to participate in this way. This form of justice can also be called 'contributive', for it stresses the duty of all who are able to help create the goods, services, and other nonmaterial or spiritual values necessary for the welfare of the whole community. In the words of Pius XI, 'It is of the very essence of social justice to demand from each individual all that is necessary for the common good.' Productivity is essential if the community is to have the resources to serve the well-being of all.”\rEconomic Justice For All, 71\r\rSee “Justice”.\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, “Economic Justice For All”\rhttp://tinyurl.com/75hnlx3\r\r\r",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Canon",
@@ -1005,7 +1005,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Distributive Justice",
                            @"twitterDef":@"the type of justice which emphasizes society's responsibilities to the individual",
-                           @"definition":@"\rDistributive justice is an essential aspect of social justice. It is fulfilled when society meets its obligations to the individual based on his or her contribution and need. See “Justice”.\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, “Economic Justice For All”, II.b.1.b http://tinyurl.com/75hnlx3\r\r\r",
+                           @"definition":@"\rDistributive justice is an essential aspect of social justice. It is fulfilled when society meets its obligations to the individual based on his or her contribution and need.\r\r“Distributive justice requires that the allocation of income, wealth, and power in society be evaluated in light of its effects on persons whose basic material needs are unmet. The Second Vatican Council stated: 'The right to have a share of earthly goods sufficient for oneself and one's family belongs to everyone. The fathers and doctors of the Church held this view, teaching that we are obliged to come to the relief of the poor and to do so not merely out of our superfluous goods.' Minimum material resources are an absolute necessity for human life. If persons are to be recognized as members of the human community, then the community has an obligation to help fulfill these basic needs unless an absolute scarcity of resources makes this strictly impossible. No such scarcity exists in the United States today.”\r-Economic Justice For All, 70.\r\rSee “Justice”.\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, “Economic Justice For All”\rhttp://tinyurl.com/75hnlx3\r\r\r",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Divine Liturgy",
@@ -1759,7 +1759,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Immanuel",
                            @"twitterDef":@"a Hebrew word meaning “God is with us” applied to Jesus in the Gospel of Matthew",
-                           @"definition":@"\rThis word is used as a name for the child (likely Hezekiah) born as a sign to King Ahaz in Isaiah 7:14 that the northern alliance between Assyria and Israel will not defeat Judah. The author of the gospel of Matthew uses it as a typology of the birth of Jesus.\r\rHebrew, עִמָּנוּאֵל (immanuel)\r\rFurther Reference:\rWikipedia, “Immanuel”\rhttp://tinyurl.com/lebacy\r\r\r",
+                           @"definition":@"\rThis word is used as a name for the child (likely Hezekiah) born as a sign to King Ahaz in Isaiah 7:14 that the northern alliance between Assyria and Israel will not defeat Judah. The author of the gospel of Matthew uses it as a typology of the birth of Jesus. See “Typology”.\r\rHebrew, עִמָּנוּאֵל (immanuel)\r\rFurther Reference:\rWikipedia, “Immanuel”\rhttp://tinyurl.com/lebacy\r\r\r",
                            @"category":@"Biblical"}];
     
     
@@ -1822,7 +1822,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Interpretation",
                            @"twitterDef":@"the process of determining the meaning, significance, and relevance of a text",
-                           @"definition":@"\rInterpretation of any text, especially the Bible, requires knowing the context of the writing. This, in turn, requires efforts to know the author's intent, which is partly discerned by studying the text's literary form. See “Exegesis”, “Hermeneutics”, “Sitz im Laben”.\r\rFurther Reference:\rPontifical Biblical Commission\r“The Interpretation of the Bible in the Church”\rhttp://tinyurl.com/2gb5dm\r\r\r",
+                           @"definition":@"\rInterpretation of any text, especially the Bible, requires knowing the context of the writing. This, in turn, requires efforts to know the author's intent, which is partly discerned by studying the text's literary form. See “Exegesis”, “Hermeneutics”, “Sitz im Leben”.\r\rFurther Reference:\rPontifical Biblical Commission\r“The Interpretation of the Bible in the Church”\rhttp://tinyurl.com/2gb5dm\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Israel",
@@ -2762,9 +2762,9 @@
                            @"definition":@"\rAccording to legend, the Septuagint was made at the request of Alexander the Great by 70 Jewish scribes.\r\rFurther Reference:\rWikipedia, “Septuagint”\rhttp://tinyurl.com/ysxfhh\r\r\r",
                            @"category":@"Biblical"}];
     
-    [TAWord wordWithDict:@{@"name":@"Sitz im Laben",
+    [TAWord wordWithDict:@{@"name":@"Sitz im Leben",
                            @"twitterDef":@"a German word meaning “setting in life” referring to the context of a text",
-                           @"definition":@"\rForm Criticism determines the literary form of a text. This form is intrinsically connected to its setting in life. The German biblical scholar Hermann Gunkel coined the phrase to refer to this context.\r\rGerman, (sitz em laben)\r\rFurther Reference:\rWikipedia, “Sitz im Laben”\rhttp://tinyurl.com/cj4hy7\r\r\r",
+                           @"definition":@"\rForm Criticism determines the literary form of a text. This form is intrinsically connected to its setting in life. The German biblical scholar Hermann Gunkel coined the phrase to refer to this context.\r\rGerman, (sitz em leben)\r\rFurther Reference:\rWikipedia, “Sitz im Leben”\rhttp://tinyurl.com/cj4hy7\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Social Revolution Model",

@@ -2189,7 +2189,7 @@
         <image name="winelinespurple" width="83" height="83"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="zLY-YZ-JXK"/>
         <segue reference="D2d-iF-b5c"/>
+        <segue reference="pbe-ii-vwi"/>
     </inferredMetricsTieBreakers>
 </document>

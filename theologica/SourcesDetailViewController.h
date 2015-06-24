@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreText/CoreText.h>
 #import "Source.h"
 #import "TAWord.h"
 
@@ -25,6 +26,7 @@
 @property (weak, nonatomic) IBOutlet UIImageView *sourcesPic;
 @property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint *textViewHeightConstraint;
+
 
 - (IBAction)shareButton:(id)sender;
 
