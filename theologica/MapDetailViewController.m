@@ -67,6 +67,9 @@
         self.navigationController.navigationBar.barStyle = UIBarStyleDefault;
     */
     }
+    
+    self.locationDescription.delegate = self;
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -85,7 +88,7 @@
 -(IBAction)share:(UIBarButtonItem *)sender
 {
     NSArray *activityItems;
-    activityItems = @[self.currentWordDetail.image, self.currentWordDetail.definition];
+    activityItems = @[self.currentWordDetail.name, self.currentWordDetail.definition];
     
     //NSArray *activityActions;
     
@@ -93,7 +96,21 @@
     UIActivityViewController *activityController = [[UIActivityViewController alloc] initWithActivityItems: activityItems applicationActivities:nil];
     [self presentViewController:activityController
                        animated:YES completion:nil];
-    }
+}
+
+-(BOOL)textView:(UITextView *)textView shouldInteractWithURL:(NSURL *)URL inRange:(NSRange)characterRange{
+    
+    //Do something with the URL
+    SourcesWebViewController *sourcesWebViewController = [[self storyboard]instantiateViewControllerWithIdentifier:@"SourcesWebViewController"];
+    
+    NSString *webString = [URL absoluteString];
+    
+    sourcesWebViewController.urlString = webString;
+    
+    [self presentViewController:sourcesWebViewController animated:YES completion:nil];
+    
+    return NO;
+}
 
 
 /*

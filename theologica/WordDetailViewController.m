@@ -81,6 +81,9 @@
     
     self.textViewHeightConstraint.constant = [self.scrollView sizeThatFits:CGSizeMake(self.scrollView.frame.size.width, CGFLOAT_MAX)].height;
     
+    self.descriptionTextView.delegate = self;
+
+    
  
 
 }
@@ -132,6 +135,20 @@
     UIActivityViewController *activityController = [[UIActivityViewController alloc] initWithActivityItems: activityItems applicationActivities:nil];
     [self presentViewController:activityController
                        animated:YES completion:nil];
+}
+
+-(BOOL)textView:(UITextView *)textView shouldInteractWithURL:(NSURL *)URL inRange:(NSRange)characterRange{
+    
+    //Do something with the URL
+    SourcesWebViewController *sourcesWebViewController = [[self storyboard]instantiateViewControllerWithIdentifier:@"SourcesWebViewController"];
+    
+    NSString *webString = [URL absoluteString];
+    
+    sourcesWebViewController.urlString = webString;
+    
+    [self presentViewController:sourcesWebViewController animated:YES completion:nil];
+    
+    return NO;
 }
 
 @end

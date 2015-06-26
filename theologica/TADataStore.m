@@ -733,7 +733,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Catholic Social Teaching",
                            @"twitterDef":@"the teaching of the Church which applies the principles of justice to society",
-                           @"definition":@"\rAccording to Pope Paul VI's encyclical, “Populorum Progressio”, Catholic Social Teaching is essential to authentic evangelization. It consists of principles of reflection, criteria of judgment, and directives for action. See “Social Justice”, “Signs of the Times”.\r\rFurther Reference:\rCompendium of the Social Doctrine of the Church, 85http://tinyurl.com/kn6q5wm\r\r\r",
+                           @"definition":@"\rAccording to Pope Paul VI's encyclical, “Populorum Progressio”, Catholic Social Teaching is essential to authentic evangelization. It consists of principles of reflection, criteria of judgment, and directives for action. See “Social Justice”, “Signs of the Times”.\r\rFurther Reference:\rCompendium of the Social Doctrine of the Church, 85. http://tinyurl.com/o6scpuy\r\r\r",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Commutative Justice",
@@ -1733,9 +1733,9 @@
                            @"category":@"Cultural"}];
 
     
-    [TAWord wordWithDict:@{@"name":@"Human Ecology",
+    [TAWord wordWithDict:@{@"name":@"Integral Ecology",
                            @"twitterDef":@"the environmental context of the human person in light of the truths of Creation",
-                           @"definition":@"\rThe environmental context of the human person in light of the truths of Creation and the challenges posed by climate change and other developmental factors in which justice is neglected. Pope Francis has reportedly made the subject of human ecology a theme of his latest encyclical.\r\rFurther Reference:\rUnited States Conference of Catholic Bishops, “Renewing The Earth”. http://tinyurl.com/88p92au\r\r\r",
+                           @"definition":@"\rPope Francis has made the subject of integral ecology a theme of his latest encyclical.\r\r“Since everything is closely interrelated, and today’s problems call for a vision capable of taking into account every aspect of the global crisis, I suggest that we now consider some elements of an integral ecology, one which clearly respects its human and social dimensions...When we speak of the “environment”, what we really mean is a relationship existing between nature and the society which lives in it. Nature cannot be regarded as something separate from ourselves or as a mere setting in which we live. We are part of nature, included in it and thus in constant interaction with it...An integral ecology is marked by this broader vision.”\r-Laudito Si, 137, 139, 159\r\rFurther Reference:\rPope Francis, “Laudito Si”. http://tinyurl.com/o6sowft\r\rUnited States Conference of Catholic Bishops, “Renewing The Earth”. http://tinyurl.com/88p92au\r\r\r",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Human Person",

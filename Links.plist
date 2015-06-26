@@ -15,6 +15,12 @@
 	<array>
 		<dict>
 			<key>Name</key>
+			<string>North American Patristics Society</string>
+			<key>URL</key>
+			<string>http://patristics.org</string>
+		</dict>
+		<dict>
+			<key>Name</key>
 			<string>The Church Fathers</string>
 			<key>URL</key>
 			<string>http://www.churchfathers.org</string>
@@ -225,6 +231,12 @@
 			<string>Pontifical Biblical Commission</string>
 			<key>URL</key>
 			<string>http://www.vatican.va/roman_curia/congregations/cfaith/pcb_index.htm</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Society of Biblical Literature</string>
+			<key>URL</key>
+			<string>http://www.sbl-site.org</string>
 		</dict>
 		<dict>
 			<key>Name</key>

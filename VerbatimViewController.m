@@ -28,13 +28,6 @@
     // Dispose of any resources that can be recreated.
 }
 
--(void) viewWillAppear:(BOOL)animated
-{
-}
-
--(void) timerCallBack
-{
-}
 
 -(BOOL) webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType
 {

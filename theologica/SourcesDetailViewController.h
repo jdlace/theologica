@@ -10,18 +10,22 @@
 #import <CoreText/CoreText.h>
 #import "Source.h"
 #import "TAWord.h"
+#import "SourcesWebViewController.h"
+#import "WebViewController.h"
 
 
-@interface SourcesDetailViewController : UIViewController
+@interface SourcesDetailViewController : UIViewController <UITextViewDelegate>
 
 @property (strong, nonatomic) Source *currentSourceDetail;
 @property (weak, nonatomic) TAWord *word;
+@property (nonatomic, copy) NSString *urlString;
+
 
 
 
 @property (weak, nonatomic) IBOutlet UILabel *sourceName;
 @property (weak, nonatomic) IBOutlet UILabel *sourceSubtitle;
-@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (weak, nonatomic) IBOutlet UIImageView *scrollPic;
 @property (weak, nonatomic) IBOutlet UITextView *sourceInformation;
 @property (weak, nonatomic) IBOutlet UIImageView *sourcesPic;
 @property (strong, nonatomic) IBOutlet UIScrollView *scrollView;

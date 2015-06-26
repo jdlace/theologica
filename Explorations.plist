@@ -21,7 +21,19 @@
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>2. Science and Theology</string>
+			<string>2. The Documentary Hypothesis</string>
+			<key>URL</key>
+			<string>https://vimeo.com/user36977984/videos</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>3. Science and Theology (TBD)</string>
+			<key>URL</key>
+			<string>https://vimeo.com/user36977984/videos</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>4. Catholic Social Teaching (TBD)</string>
 			<key>URL</key>
 			<string>https://vimeo.com/user36977984/videos</string>
 		</dict>

@@ -26,9 +26,7 @@
     self.explorationKeys = array;
     
     self.navigationController.navigationBar.backItem.title = @"Explorations";
-    
-    self.tabBarItem.selectedImage = [UIImage imageNamed:@"bluecamera"]; 
-    
+        
     
     
     [[NSNotificationCenter defaultCenter]

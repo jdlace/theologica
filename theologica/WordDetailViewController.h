@@ -9,11 +9,14 @@
 #import <UIKit/UIKit.h>
 #import <Social/Social.h>
 #import <MobileCoreServices/MobileCoreServices.h>
+#import "SourcesWebViewController.h"
+
 
 @class TAWord;
 
-@interface WordDetailViewController : UIViewController <UIScrollViewDelegate>
+@interface WordDetailViewController : UIViewController <UIScrollViewDelegate, UITextViewDelegate>
 
+@property (nonatomic, copy) NSString *urlString;
 @property (strong, nonatomic) TAWord *word;
 
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;

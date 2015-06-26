@@ -43,6 +43,7 @@
 		694E87A41A56504F00CE4A37 /* Source.m in Sources */ = {isa = PBXBuildFile; fileRef = 694E87A31A56504F00CE4A37 /* Source.m */; };
 		6954D6FF1A884E17004374F0 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6954D6FE1A884E17004374F0 /* AboutViewController.m */; };
 		695847CE1AB5C9B90085251C /* TwitterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 695847CD1AB5C9B90085251C /* TwitterTableViewController.m */; };
+		6960659C1B3C8D77003B500D /* SourcesWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6960659B1B3C8D77003B500D /* SourcesWebViewController.m */; };
 		69739B561A36897F008BAB06 /* SearchBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69739B551A36897F008BAB06 /* SearchBarViewController.m */; };
 		6976E3021A6F3E8D0013A6D5 /* Links.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6976E3011A6F3E8D0013A6D5 /* Links.plist */; };
 		698893B81A5E24CE00D1AC74 /* SourcesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 698893B71A5E24CE00D1AC74 /* SourcesDetailViewController.m */; };
@@ -135,6 +136,8 @@
 		6954D6FE1A884E17004374F0 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutViewController.m; path = ../AboutViewController.m; sourceTree = "<group>"; };
 		695847CC1AB5C9B90085251C /* TwitterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TwitterTableViewController.h; path = ../TwitterTableViewController.h; sourceTree = "<group>"; };
 		695847CD1AB5C9B90085251C /* TwitterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TwitterTableViewController.m; path = ../TwitterTableViewController.m; sourceTree = "<group>"; };
+		6960659A1B3C8D77003B500D /* SourcesWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SourcesWebViewController.h; path = ../SourcesWebViewController.h; sourceTree = "<group>"; };
+		6960659B1B3C8D77003B500D /* SourcesWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SourcesWebViewController.m; path = ../SourcesWebViewController.m; sourceTree = "<group>"; };
 		69739B541A36897F008BAB06 /* SearchBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchBarViewController.h; sourceTree = "<group>"; };
 		69739B551A36897F008BAB06 /* SearchBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchBarViewController.m; sourceTree = "<group>"; };
 		6976E3011A6F3E8D0013A6D5 /* Links.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Links.plist; sourceTree = "<group>"; };
@@ -420,6 +423,8 @@
 				695847CD1AB5C9B90085251C /* TwitterTableViewController.m */,
 				698893B61A5E24CE00D1AC74 /* SourcesDetailViewController.h */,
 				698893B71A5E24CE00D1AC74 /* SourcesDetailViewController.m */,
+				6960659A1B3C8D77003B500D /* SourcesWebViewController.h */,
+				6960659B1B3C8D77003B500D /* SourcesWebViewController.m */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -582,6 +587,7 @@
 			files = (
 				69B8D9381A4122B300186EA2 /* BiblicalPins.m in Sources */,
 				695847CE1AB5C9B90085251C /* TwitterTableViewController.m in Sources */,
+				6960659C1B3C8D77003B500D /* SourcesWebViewController.m in Sources */,
 				692ED2571796D552008554F9 /* main.m in Sources */,
 				9BA06E331A833B4800A6A19E /* TADataStore.m in Sources */,
 				69D4C4BB1B117D1E009B5FE0 /* SignContentViewController.m in Sources */,

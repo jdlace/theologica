@@ -34,7 +34,9 @@
     
     self.textViewHeightConstraint.constant = [self.sourceInformation sizeThatFits:CGSizeMake(self.sourceInformation.frame.size.width, self.sourceInformation.frame.size.height)].height;
     
-   
+    self.sourceInformation.delegate = self;
+    
+  
     //images in detail view
    /*
     NSTextAttachment *scriptureAttachment1 = [[NSTextAttachment alloc] init];
@@ -93,7 +95,7 @@
 - (IBAction)shareButton:(id)sender {
 
     NSArray *activityItems;
-    activityItems = @[self.currentSourceDetail.name, self.currentSourceDetail.twitterDef, self.currentSourceDetail.comment, self.currentSourceDetail.bigPic];
+    activityItems = @[self.currentSourceDetail.name, self.currentSourceDetail.twitterDef, self.currentSourceDetail.comment];
     
     //NSArray *activityActions;
     
@@ -102,5 +104,19 @@
     [self presentViewController:activityController
                        animated:YES completion:nil];
     
+}
+
+-(BOOL)textView:(UITextView *)textView shouldInteractWithURL:(NSURL *)URL inRange:(NSRange)characterRange{
+    
+    //Do something with the URL
+    SourcesWebViewController *sourcesWebViewController = [[self storyboard]instantiateViewControllerWithIdentifier:@"SourcesWebViewController"];
+    
+    NSString *webString = [URL absoluteString];
+    
+    sourcesWebViewController.urlString = webString;
+    
+    [self presentViewController:sourcesWebViewController animated:YES completion:nil];
+    
+    return NO;
 }
 @end

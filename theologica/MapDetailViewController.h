@@ -8,10 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import "Word.h"
+#import "SourcesWebViewController.h"
 
 
-@interface MapDetailViewController : UIViewController <UIScrollViewDelegate>
 
+@interface MapDetailViewController : UIViewController <UIScrollViewDelegate, UITextViewDelegate>
+
+@property (nonatomic, copy) NSString *urlString;
 @property (weak, nonatomic) IBOutlet UILabel *locationLabel;
 @property (weak, nonatomic) IBOutlet UILabel *locationSubtitle;
 @property (weak, nonatomic) IBOutlet UITextView *locationDescription;

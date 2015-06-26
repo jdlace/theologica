@@ -12,9 +12,10 @@
 #import "AboutViewController.h"
 #import "TAWord.h"
 
-@interface SourceContentViewController : UIViewController
+@interface SourceContentViewController : UIViewController 
 
 @property NSUInteger pageIndex;
+
 
 
 - (IBAction)theologicaButton:(id)sender;

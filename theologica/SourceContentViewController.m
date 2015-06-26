@@ -18,6 +18,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    
    
 
 }
@@ -46,8 +48,6 @@
         UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Sources" style:UIBarButtonItemStylePlain target:nil action:nil];
         self.navigationItem.backBarButtonItem = backButton;
         ((SourcesDetailViewController *)segue.destinationViewController).currentSourceDetail = scriptureSource;
-        
-        
         
         }
     else if ([segue.identifier isEqualToString:@"magisteriumDetail"])
@@ -139,7 +139,6 @@
     
     UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"Amen" style:UIAlertActionStyleDefault
                                                           handler:^(UIAlertAction * action) {}];
-    
     [alert addAction:defaultAction];
     [self presentViewController:alert animated:YES completion:nil];
 }//
