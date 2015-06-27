@@ -631,11 +631,15 @@
                                             <constraint firstItem="4gF-gh-o1Z" firstAttribute="trailing" secondItem="B9P-9X-77s" secondAttribute="trailing" constant="-8" id="GMt-N6-dXI"/>
                                             <constraint firstAttribute="width" secondItem="B9P-9X-77s" secondAttribute="height" multiplier="400:173" id="SSn-4C-ORh"/>
                                             <constraint firstItem="B9P-9X-77s" firstAttribute="top" secondItem="4gF-gh-o1Z" secondAttribute="bottom" constant="-89" id="SpR-U7-WcJ"/>
-                                            <constraint firstItem="ccI-OC-gVd" firstAttribute="leading" secondItem="edO-tb-A2K" secondAttribute="leading" constant="8" id="TT3-qv-2Cb"/>
+                                            <constraint firstItem="ccI-OC-gVd" firstAttribute="leading" secondItem="edO-tb-A2K" secondAttribute="leading" constant="8" id="TT3-qv-2Cb">
+                                                <variation key="widthClass=compact" constant="8"/>
+                                            </constraint>
                                             <constraint firstAttribute="bottom" secondItem="ccI-OC-gVd" secondAttribute="bottom" constant="20" symbolic="YES" id="Ti1-ke-qAl">
                                                 <variation key="widthClass=compact" constant="0.0"/>
                                             </constraint>
-                                            <constraint firstAttribute="trailing" secondItem="ccI-OC-gVd" secondAttribute="trailing" constant="8" id="ZiN-EO-7Y0"/>
+                                            <constraint firstAttribute="trailing" secondItem="ccI-OC-gVd" secondAttribute="trailing" constant="8" id="ZiN-EO-7Y0">
+                                                <variation key="widthClass=compact" constant="8"/>
+                                            </constraint>
                                             <constraint firstItem="JTp-ch-Whd" firstAttribute="top" secondItem="4gF-gh-o1Z" secondAttribute="bottom" constant="17" id="iU7-5p-ZMD"/>
                                             <constraint firstItem="B9P-9X-77s" firstAttribute="top" secondItem="edO-tb-A2K" secondAttribute="top" id="kQP-u0-HGA"/>
                                             <constraint firstItem="B9P-9X-77s" firstAttribute="leading" secondItem="edO-tb-A2K" secondAttribute="leading" id="oJd-cx-ei7"/>
