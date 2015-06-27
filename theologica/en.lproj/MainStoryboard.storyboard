@@ -762,7 +762,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="POz-oZ-uab">
+                            <webView contentMode="scaleToFill" ambiguous="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="POz-oZ-uab">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
@@ -1523,11 +1523,11 @@
                     </view>
                     <navigationItem key="navigationItem" id="pWq-ph-Bdt">
                         <nil key="title"/>
-                        <view key="titleView" contentMode="scaleToFill" id="p1n-Ky-Vex">
+                        <view key="titleView" contentMode="scaleToFill" id="NAV-Mk-OZH">
                             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="EoQ-yF-XI8">
+                                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Tl4-RH-8Py">
                                     <rect key="frame" x="-10" y="-10" width="20" height="20"/>
                                     <variation key="widthClass=compact" fixedFrame="YES">
                                         <rect key="frame" x="70" y="7" width="20" height="20"/>
@@ -1535,10 +1535,20 @@
                                 </activityIndicatorView>
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <variation key="default">
+                                <mask key="subviews">
+                                    <exclude reference="Tl4-RH-8Py"/>
+                                </mask>
+                            </variation>
+                            <variation key="widthClass=compact">
+                                <mask key="subviews">
+                                    <include reference="Tl4-RH-8Py"/>
+                                </mask>
+                            </variation>
                         </view>
                     </navigationItem>
                     <connections>
-                        <outlet property="activityIndicator" destination="EoQ-yF-XI8" id="gW9-v2-oOu"/>
+                        <outlet property="activityIndicator" destination="Tl4-RH-8Py" id="JeC-VV-cqt"/>
                         <outlet property="webView" destination="eBx-7V-8BJ" id="dUy-SW-u7s"/>
                     </connections>
                 </viewController>
@@ -1591,7 +1601,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dgA-gS-tMu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2769.375" y="548.23943661971828"/>
+            <point key="canvasLocation" x="-2916" y="548"/>
         </scene>
         <!--Web View Controller-->
         <scene sceneID="4XV-Iq-wlQ">
@@ -1641,7 +1651,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H0G-kW-ZiT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2004.9999999999998" y="551.99999999999977"/>
+            <point key="canvasLocation" x="-2133" y="548"/>
         </scene>
         <!--Maps-->
         <scene sceneID="jRQ-oP-mln">
@@ -2325,6 +2335,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="D2d-iF-b5c"/>
-        <segue reference="pbe-ii-vwi"/>
+        <segue reference="fpz-cw-V81"/>
     </inferredMetricsTieBreakers>
 </document>

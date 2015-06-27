@@ -189,6 +189,7 @@
         
         NSDictionary *dict = link[indexPath.row];
         webViewController.urlString = dict[@"URL"];
+    
         
         NSLog(@"dict is %@", dict);
         }

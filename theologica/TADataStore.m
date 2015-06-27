@@ -169,7 +169,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Ablution",
                            @"twitterDef":@"the cleansing of the paten and chalice after the Eucharist",
-                           @"definition":@"\rAblution can be traced as a distinct liturgical practice back to the mikvah in Judaism, which was a ceremonial washing required for ritual cleanliness. See “Eucharist”.\r\rFurther Reference:\rWikipedia, “Ablution in Christianity”\rhttp://tinyurl.com/mhg6d57\r\r\r",
+                           @"definition":@"\rAblution can be traced as a distinct liturgical practice back to the mikvah in Judaism, which was a ceremonial washing required for ritual cleanliness. See “Eucharist”.\r\rFurther Reference:\rGeneral Instruction of the Roman Missal, 278\rhttp://tinyurl.com/yvd7md\r\r\r",
                            @"category":@"Liturgical"}];
 
     
@@ -185,18 +185,18 @@
     
     [TAWord wordWithDict:@{@"name":@"Angelus",
                            @"twitterDef":@"an antiphonal prayer inspired by the story of the Annunciation",
-                           @"definition":@"\rThe Angelus is prayed every Sunday at noon by the Pope in St. Peter's Square.\r\rV. The angel of the Lord declared unto Mary,\rR. And she conceived of the Holy Spirit.\rV. Behold the handmaid of the Lord.\rR. Let it be unto me according to thy word.\rV. And the Word was made flesh.\rR. And dwelt among us.\rV. Hail Mary, full of grace; the Lord is with Thee: blessed art thou amongst women, and blessed is the fruit of thy womb, Jesus.\rR. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen.\rV. Pray for us, O Holy Mother of God.\rR. That we might be made worthy of the promises of Christ.\rV. Let us pray: Pour forth, we beseech Thee, Lord, Thy grace into our hearts; that, we, to whom the Incarnation of Christ, Thy Son, was known by the message of an angel, may, by His Passion and Cross, be brought to the glory of His Resurrection, through the same Christ our Lord,\rR. Amen.\r\rSee “Incarnation”, “Annunciation”.\r\rFurther Reference:\rVatican, Angelus 2015\rhttp://tinyurl.com/nt2ymkt\r\rWikipedia, “Angelus”\rhttp://tinyurl.com/nxzg53\r\r\r",
+                           @"definition":@"\rThe Angelus is prayed every Sunday at noon by the Pope in St. Peter's Square.\r\rV. The angel of the Lord declared unto Mary,\rR. And she conceived of the Holy Spirit.\rV. Behold the handmaid of the Lord.\rR. Let it be unto me according to thy word.\rV. And the Word was made flesh.\rR. And dwelt among us.\rV. Hail Mary, full of grace; the Lord is with Thee: blessed art thou amongst women, and blessed is the fruit of thy womb, Jesus.\rR. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen.\rV. Pray for us, O Holy Mother of God.\rR. That we might be made worthy of the promises of Christ.\rV. Let us pray: Pour forth, we beseech Thee, Lord, Thy grace into our hearts; that, we, to whom the Incarnation of Christ, Thy Son, was known by the message of an angel, may, by His Passion and Cross, be brought to the glory of His Resurrection, through the same Christ our Lord,\rR. Amen.\r\rPope Paul VI encouraged the Angelus as a form of Marian devotion:\r\r“What we have to say about the Angelus is meant to be only a simple but earnest exhortation to continue its traditional recitation wherever and whenever possible. The Angelus does not need to be revised, because of its simple structure, its biblical character, its historical origin which links it to the prayer for peace and safety, and its quasi-liturgical rhythm which sanctifies different moments during the day, and because it reminds us of the Paschal Mystery, in which recalling the Incarnation of the Son of God we pray that we may be led 'through his passion and cross to the glory of his resurrection. These factors ensure that the Angelus despite the passing of centuries retains an unaltered value and an intact freshness. It is true that certain customs traditionally linked with the recitation of the Angelus have disappeared or can continue only with difficulty in modern life. But these are marginal elements. The value of contemplation on the mystery of the Incarnation of the Word, of the greeting to the Virgin, and of recourse to her merciful intercession remains unchanged. And despite the changed conditions of the times, for the majority of people there remain unaltered the characteristic periods of the day-morning, noon and evening-which mark the periods of their activity and constitute an invitation to pause in prayer.”\r-Marialus Cultus, 41\r\rSee “Incarnation”, “Annunciation”.\r\rFurther Reference:\rPaul VI, “Marialus Cultus”\rhttp://tinyurl.com/nd7l59g\r\rCompendium of the Catechism of the Catholic Church, Appendix A\rhttp://tinyurl.com/jfuwl\r\r\r",
                            @"category":@"Liturgical"}];
 
     
     [TAWord wordWithDict:@{@"name":@"Anawim",
                            @"twitterDef":@"the Hebrew word meaning “the oppressed”",
-                           @"definition":@"\rThis term is used in the Hebrew Bible to refer to those who are poor, destitue, and marginalized who trust completely in the mercy of God (Is. 10:2, Zeph 2:3); frequently used in the Psalms.\r\rHebrew, עֲנָוִים (anawim)\r\rFurther Reference:\rPope John Paul II, General Audience, 5/23/2001 http://tinyurl.com/lyfphvo\r\r\r",
+                           @"definition":@"\rThis term is used in the Hebrew Bible to refer to those who are poor, destitue, and marginalized who trust completely in the mercy of God (Is. 10:2, Zeph 2:3); frequently used in the Psalms.\r\rHebrew, עֲנָוִים (anawim)\r\rFurther Reference:\rPope John Paul II, General Audience, 5/23/2001. http://tinyurl.com/npgshqn\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Anthropomorphism",
                            @"twitterDef":@"the process of attributing human characteristics to an object",
-                           @"definition":@"\rGod is described in human terms throughout the Christian tradition, and especially within the Scriptures. The Yahwist Source uses anthropomorphism extensively in its portrayal of YHWH in the Torah. Such language is, however, ultimately, only analogous to God. Pius XII claimed that various modes of expression are used within the Scriptures:\r\r“...no one, who has a correct idea of biblical inspiration, will be surprised to find, even in the Sacred Writers, as in other ancient authors, certain fixed ways of expounding and narrating, certain definite idioms, especially of a kind peculiar to the Semitic tongues, so-called approximations, and certain hyperbolical modes of expression, nay, at times, even paradoxical, which even help to impress the ideas more deeply on the mind. For of the modes of expression which, among ancient peoples, and especially those of the East, human language used to express its thought, none is excluded from the Sacred Books, provided the way of speaking adopted in no wise contradicts the holiness and truth of God.”-Divino Afflante Spiritu, 37\r\rSee “Analogy”, “Yahwist Source”, “YHWH”.\r\rFurther Reference:\rPius XII, Divino Afflante Spiritu\rhttp://tinyurl.com/q7txm82\r\rWikipedia, “Anthropomorphism”\rhttp://tinyurl.com/ffpra\r\r\r",
+                           @"definition":@"\rGod is described in human terms throughout the Christian tradition, and especially within the Scriptures. The Yahwist Source uses anthropomorphism extensively in its portrayal of YHWH in the Torah. Such language is, however, ultimately, only analogous to God. Pius XII claimed that various modes of expression are used within the Scriptures:\r\r“Speaking about himself, whether through the prophets, or through the Son' (cf. Heb 1:1, 2) who became man, God speaks in human language, using human concepts and images. If this manner of expressing himself is characterized by a certain anthropomorphism, the reason is that man is 'like' God: created in his image and likeness. But then, God too is in some measure 'like man', and precisely because of this likeness, he can be humanly known.”-Mulierus Dignatatum, 8\r\rSee “Analogy”, “Yahwist Source”, “YHWH”.\r\rFurther Reference:\rPope John Paul II, “Mulierus Dignatatem”\rhttp://tinyurl.com/nphq2r6\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Annunciation",
@@ -218,12 +218,12 @@
     
     [TAWord wordWithDict:@{@"name":@"Apocrypha",
                            @"twitterDef":@"the 7 books excluded from the Protestant Bible",
-                           @"definition":@"\rApocrypha is the Protestant term for the 7 Old Testament books not found in the Protestant canon; Baruch, Judith, 1st and 2nd Maccabees, Sirach, Tobit, Wisdom. See “Canon”, “Old Testament”.\r\rGreek, ἀπόκρυφος (apokryphos) “hidden”\r\rFurther Reference:\rWikipedia, “Apocrypha”\rhttp://tinyurl.com/bddlr\r\r\r",
+                           @"definition":@"\rSee “Deuterocanonical Books”.",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Apodictic Law",
                            @"twitterDef":@"a type of law based on universal norms",
-                           @"definition":@"\rApodictic law is that such as found in the 10 Commandments;universally binding at all times and places. It is contrasted with casuistic law. See Exodus 20, “Decalogue”, “Casusitic Law”.\r\rFurther Reference:\rWikipedia, “Apodicticity”\rhttp://tinyurl.com/k7u8mkr\r\r\r",
+                           @"definition":@"\rApodictic law is that such as found in the Decalogue. It is contrasted with Casuistic Law, being universally binding at all times and places\r\r“The Decalogue contains all the elements necessary to provide a foundation for a balanced moral reflection suitable for our times. It is however not sufficient to translate it from the original Hebrew into a modern language. In its canonical formulation it has the form of apodictic laws detailing a morality of duties...”\r-The Bible and Morality, 30\r\rSee Exodus 20, “Decalogue”, “Casusitic Law”.\r\rFurther Reference:\rPontifical Biblical Commission\r“The Bible and Morality”\rhttp://tinyurl.com/pgzpjov\r\r\r",
                            @"category":@"Biblical"}];
     
     /*
@@ -239,12 +239,12 @@
     
     [TAWord wordWithDict:@{@"name":@"Aqeda",
                            @"twitterDef":@"the Hebrew word meaning the “binding” of Isaac by Abraham",
-                           @"definition":@"\rThe story of the binding and near-sacrifice of Isaac by Abraham. According to Richard Elliot Freidman, the Aqedah is mostly an Elohist Source story with a very different original ending that was amended by the Redactor of the Torah. See “Elohist Source”, “Torah”.\r\rHebrew, עֲקֵידָה (aqeda)\r\rFurther Reference:\rWikipedia, “Aqeda”\rhttp://tinyurl.com/56dxyl\r\r\r",
+                           @"definition":@"\rThe story of the binding and near-sacrifice of Isaac by Abraham occurs in Genesis 22. According to Richard Elliot Freidman, the Aqedah is mostly an Elohist Source story with a very different original ending that was amended by the Redactor of the Torah. See “Elohist Source”, “Torah”.\r\rHebrew, עֲקֵידָה (aqeda)\r\rFurther Reference:\rNew American Standard Bible, Genesis 22\rhttp://tinyurl.com/p2hg7n4\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Aramaic",
                            @"twitterDef":@"a Semitic language similar to Hebrew",
-                           @"definition":@"\rAramaic was the native language of the historical Jesus. See “Hebrew”, “Historical Jesus”.\r\rFurther Reference:\rWikipedia, “Aramaic”\rhttp://tinyurl.com/y2okx9\r\r\r",
+                           @"definition":@"\rAramaic was the native language of the historical Jesus. See “Hebrew”, “Historical Jesus”.\r\rFurther Reference:\rComprehensive Aramaic Lexicon\rhttp://tinyurl.com/oc8t2zy\r\r\r",
                            @"category":@"Biblical"}];
     
     /*
@@ -275,7 +275,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Abortion",
                            @"twitterDef":@"the willful killing of a human being in utero",
-                           @"definition":@"\rIn the Catholic tradition, human beings are regarded as sacred from the moment of conception. The death of an unborn child as a consequence of other procedures deemed good in themselves is not considered an abortion per se but rather a consequence of the principle of double-effect.\r\rThe Catholic tradition is consistent in its classification of abortion as a grave sin, the willful commision of which incurs an automatic excommunication. Abortion was legalized in the United States in 1973 by the Supreme Court in Roe v. Wade. See “Principle of Double-Effect”, “Roe v. Wade”\r\rFurther Reference:\rCatechism of the Catholic Church, 2270\rhttp://tinyurl.com/dh7r\r\rWikipedia, “Roe v. Wade”\rhttp://tinyurl.com/aqq5j\r\r\r",
+                           @"definition":@"\rIn the Catholic tradition, human beings are regarded as sacred from the moment of conception. The death of an unborn child as a consequence of other procedures deemed good in themselves is not considered an abortion per se but rather a consequence of the principle of double-effect.\r\rThe Catholic tradition is consistent in its classification of abortion as a grave sin, the willful commision of which incurs an automatic excommunication. Abortion was legalized in the United States in 1973 by the Supreme Court in Roe v. Wade. See “Principle of Double-Effect”, “Roe v. Wade”\r\rFurther Reference:\rCatechism of the Catholic Church, 2270\rhttp://tinyurl.com/dh7r\r\rU.S. Supreme Court, “Roe v. Wade”\rhttp://tinyurl.com/qhpdzo3\r\r\r",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Abstinence",
@@ -300,17 +300,17 @@
     
     [TAWord wordWithDict:@{@"name":@"Adoptionism",
                            @"twitterDef":@"the belief that Jesus was a mere man adopted as God's Son at his baptism ",
-                           @"definition":@"\rAdoptionism was held by the so-called Ebionites of the end of the first century, who denied the pre-existence and incarnation of the Son.\r\rFurther Reference:\rWikipedia, “Adoptionism”\rhttp://tinyurl.com/25fgze\r\r\r",
+                           @"definition":@"\rAdoptionism was held by the so-called Ebionites of the end of the first century, who denied the pre-existence and incarnation of the Son.\r\rFurther Reference:\rPhillip Schaff\r History of the Christian Church, 117\rhttp://tinyurl.com/op64y6s\r\r\r",
                            @"category":@"Historical"}];
     
     [TAWord wordWithDict:@{@"name":@"Accident",
                            @"twitterDef":@"a nonessential property of an object in Aristotelean metaphysics",
-                           @"definition":@"\rThomas Aquinas used this concept from Aristotle to support his explanation of the Real Presence in the Eucharist, called “transubstantiation”. Thomas claimed the accidents of bread and wine remain after the substance of the elements change into the substance of the body and blood of Christ. See “Eucharist”, “Metaphysics”, “Real Presence”, “Transubstantiation”.\r\rFurther Reference:\rWikipedia, “Accident”\rhttp://tinyurl.com/88ojytv\r\r\r",
+                           @"definition":@"\rThomas Aquinas used this concept from Aristotle to support his explanation of the Real Presence in the Eucharist, called “transubstantiation”. Thomas claimed the accidents of bread and wine remain after the substance of the elements change into the substance of the body and blood of Christ. See “Eucharist”, “Metaphysics”, “Real Presence”, “Transubstantiation”.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy\r“Essential vs. Accidental Properties”\rhttp://tinyurl.com/olc9dv8\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Asceticism",
                            @"twitterDef":@"the practice of self-discipline",
-                           @"definition":@"\rThe practice of self-discipline for a higher purpose, often involving abstinence. See “Abstinence”.\r\rGreek, ἄσκησις (askesis) “training”\r\rFurther Reference:\rWikipedia, “Asceticism”\rhttp://tinyurl.com/29eqh2\r\r\r",
+                           @"definition":@"\rAsceticism often involves abstinence. See “Abstinence”.\r\rGreek, ἄσκησις (askesis) “training”\r\rFurther Reference:\rPope Paul VI, “Paenitemini”\rhttp://tinyurl.com/o3pbtq8",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Adoption",
@@ -320,12 +320,12 @@
     
     [TAWord wordWithDict:@{@"name":@"Agape",
                            @"twitterDef":@"the Greek word meaning “universal & unconditional love”",
-                           @"definition":@"\rThe Gospel writers use this word to describe Jesus' teaching on the love for God, neighbors and enemies (Matthew 5:44, 22:37, 39). It is used by later New Testament writers to describe the love of God towards humanity as seen in the sacrificial death of Jesus and even the very nature of God. The early Christians also used “agape” to refer to their weekly communal meal (Jude 1:12).\r\rGreek, ἀγάπη (agape)\r\rFurther Reference:\rPope Benedict XVI, “Deus Caritas Est”\rhttp://tinyurl.com/o6ucrd6\r\rWikipedia, “Agape”\rhttp://tinyurl.com/dbyn5s\r\r\r",
+                           @"definition":@"\rThe Gospel writers use this word to describe Jesus' teaching on the love for God, neighbors and enemies (Matthew 5:44, 22:37, 39). It is used by later New Testament writers to describe the love of God towards humanity as seen in the sacrificial death of Jesus and even the very nature of God. The early Christians also used “agape” to refer to their weekly communal meal (Jude 1:12). The Latin equivalent is caritas (charity).\r\rGreek, ἀγάπη (agape)\r\rFurther Reference:\rPope Benedict XVI, “Deus Caritas Est”\rhttp://tinyurl.com/o6ucrd6\r\rCatechism of the Catholic Church, 1822\rhttp://tinyurl.com/pd2yc32\r\r\r",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Aggiornomento",
                            @"twitterDef":@"the Italian word meaning “to update” used to describe a theme of Vatican II",
-                           @"definition":@"\rAs a way to describe one of its emphases, it became popular during and synonymous with the reforms of the Second Vatican Council (1962-1965). The concept was used by various theologians to describe the purpose of Vatican II. John XXIII claimed:\r\r“The greatest concern of the Ecumenical Council is this: that he sacred deposit of Christian doctrine should be guarded and taught more efficaciously...In order, however, that this doctrine may influence the numerous fields of human activity, with reference to individuals, to families, and to socia life, it is necessary first of all that the Church should never depart from the sacred patrimony of truth received from the Fathers. But at the same time she must ever look to the present, to the new conditions and new forms of life introduced into the modern world, which have opened new avenues to the Catholic apostolate...which, however, should be studied and expounded through the methods of research and through the literary forms of modern thought. The substance of the ancient doctrine of the deposit of faith is one thing, and the way in which it is presented is another. And it is the latter that must be taken into great consideration with patience if necessary,everything being measured in the forms and proportions of a magisterium which is predominantly pastoral in character.”\r\rFurther Reference:\rWikipedia, “Aggiornomento”\rhttp://tinyurl.com/k6y4ylh\r\r\r",
+                           @"definition":@"\rAs a way to describe one of its emphases, it became popular during and synonymous with the reforms of the Second Vatican Council (1962-1965). The concept was used by various theologians to describe the purpose of Vatican II. Benedict XVI claimed:\r\r“...Christianity is always new. We must never look at it as though it were a tree, fully developed from the mustard seed of the Gospel, that grew, gave its fruit, and one fine day grows old as the sun sets on its life force. Christianity is a tree that is, so to speak, ever “timely”, ever young. And this trend, this aggiornamento does not mean a break with tradition, but expresses its ongoing vitality; it does not mean reducing the faith, debasing it to the fashion of the times, measured by what pleases us, by what pleases public opinion, but it is the contrary: exactly as the Council Fathers did, we must bring the “today” that we live to the standard of the Christian event, we must bring the “today” of our time to the “today” of God.”\r\rFurther Reference:\rBenedict XVI, Address To Vatican II Bishops, 10.12.2012\rhttp://tinyurl.com/p9t3a5d\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Allegory",
@@ -350,17 +350,17 @@
     
     [TAWord wordWithDict:@{@"name":@"Apocatastasis",
                            @"twitterDef":@"the Greek word meaning\r“the restoration of all things”",
-                           @"definition":@"\rThis term only occurs in the New Testament in Acts 3:21, wherein Peter refers to the state of creation in the Messianic Age. Later in the Patristic era, Origen and St. Gregory of Nyssa used it to the belief that, at the Eschaton, God will restore all creation back into full Divine communion. See “Eschatology”.\r\rGreek, ἀποκατάστασις (apocatastasis)\r\rFurther Reference:\rWikipedia, “Apocatastasis”\rhttp://tinyurl.com/n8txupj\r\r\r",
+                           @"definition":@"\rThis term only occurs in the New Testament in Acts 3:21, wherein Peter refers to the state of creation in the Messianic Age. Later in the Patristic era, Clement of Alexandria, Origen, and St. Gregory of Nyssa used it to the belief that, at the Eschaton, God will restore all creation back into full Divine communion. See “Eschatology”.\r\rGreek, ἀποκατάστασις (apocatastasis)\r\rFurther Reference:\rNew Schaff-Herzog Encyclopedia of Religious Knowledge, “Apocatastasis”\rhttp://tinyurl.com/ocw8zgg\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Apologetics",
                            @"twitterDef":@"the rational defense of the Christian faith",
-                           @"definition":@"\rThe early Christians were compelled to defend authentic Christian faith and practice against false accusations and various suspicions. Notable ancient Apologies include that of Justin Martyr and Tertullian. Modern apologetics seeks to explain the rationality of Christian belief in a post-scientific age of critical methodologies used across various academic disciplines, including Theology itself.\r\rGreek, ἀπολογία (apologia) “defense”\r\rFurther Reference:\rWikipedia, “Apologetics”\rhttp://tinyurl.com/cxswly\r\r\r",
+                           @"definition":@"\rThe early Christians were compelled to defend authentic Christian faith and practice against false accusations and various suspicions. Notable ancient Apologies include that of Justin Martyr and Tertullian. Modern apologetics seeks to explain the rationality of Christian belief in a post-scientific age of critical methodologies used across various academic disciplines, including Theology itself.\r\rGreek, ἀπολογία (apologia) “defense”\r\rFurther Reference:\rCardinal William Levada, “The Urgency Of A New Apologetics”\rhttp://tinyurl.com/q2chgg5\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Apophatic",
                            @"twitterDef":@"language that uses negation to describe God",
-                           @"definition":@"\rApophatic language emphasizes the discontinuity of God with anything created. It was especially popular with the certain early Greek fathers. It is the opposite of Kataphatic language. See “Kataphatic”.\r\rFurther Reference:\rWikipedia, “Apophatic Theology”\rhttp://tinyurl.com/22pm86z\r\r\r",
+                           @"definition":@"\rApophatic language emphasizes the discontinuity of God with anything created. It was especially popular with the certain early Greek fathers. It is the opposite of Kataphatic language.\r\r“The sense of mystery which properly characterises theology leads to a ready acknowledgement of the limits of theological knowledge, contrary to all rationalist pretensions to exhaust the Mystery of God. The teaching of Lateran IV is fundamental: ‘between creator and creature no similarity can be noted without noting a greater dissimilarity’.[160] Reason enlightened by faith and guided by revelation is always aware of the intrinsic limits of its activity. That is why Christian theology can take the form of ‘negative’ or ‘apophatic’ theology.”\r-Theology Today, 96\r\rSee “Kataphatic”.\r\rFurther Reference:\rInternational Theological Commission, “Theology Today”\rhttp://tinyurl.com/22pm86z\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Apostolic",
@@ -406,7 +406,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Amen",
                            @"twitterDef":@"the Hebrew word meaning “may it be so” or “truthfulness“",
-                           @"definition":@"\rThe Amen is traditionally said after a prayer as a form of agreement. It derives from Jewish use in the synagogue and later in the New Testament where it is used to indicate the truthfulness of what is said; “Amen, I say to you...” is a sayings formula used throughout the Gospels used to emphasize one of Jesus' teachings.\r\rHebrew, אָמֵן (amen)\r\rFurther Reference:\rCatechism of the Catholic Church, 1061\rhttp://tinyurl.com/k3f2f8p\r\rFelix Just, S.J., “Amen Amen Sayings in the Fourth Gospel” http://tinyurl.com/k545gaq\r\r\r",
+                           @"definition":@"\rThe Amen is traditionally said after a prayer as a form of agreement. It derives from Jewish use in the synagogue and later in the New Testament where it is used to indicate the truthfulness of what is said; “Amen, I say to you...” is a sayings formula used throughout the Gospels used to emphasize one of Jesus' teachings.\r\rHebrew, אָמֵן (amen)\r\rFurther Reference:\rCatechism of the Catholic Church, 1061\rhttp://tinyurl.com/k3f2f8p\r\rFelix Just, S.J., “Amen, Amen Sayings in the Fourth Gospel”. http://tinyurl.com/k545gaq\r\r\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Anamnesis",
@@ -416,12 +416,12 @@
     
     [TAWord wordWithDict:@{@"name":@"Anaphora",
                            @"twitterDef":@"the offering of the Eucharistic Prayer in structured sequences",
-                           @"definition":@"\rThe Eucharistic prayer of the Mass was celebrated in structured sequences as early as possibly the first century (as evidenced in the Didache) and certainly by third century, in the Apostolic Tradtion of Hippolytus of Rome. The term is based on the Septuagint reading of Leviticus 2:14 and other passages, in which the Israelite priest offers up the sacrifice. See “Didache”, “Septuagint”.\r\rGreek, ἀναφορά (anaphora) “to lift up”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1352\rhttp://tinyurl.com/m88dbjl\r\r\r",
+                           @"definition":@"\rThe Eucharistic prayer of the Mass was celebrated in structured sequences as early as possibly the first century (as evidenced in the Didache) and certainly by third century, in the Apostolic Tradtion of Hippolytus of Rome. The term is based on the Septuagint reading of Leviticus 2:14 and other passages, in which the Israelite priest offers up the sacrifice. See “Didache”, “Septuagint”.\r\rGreek, ἀναφορά (anaphora) “to lift up”\r\rFurther Reference:\rCatechism of the Catholic Church, 1352\rhttp://tinyurl.com/m88dbjl\r\r\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Anathema",
                            @"twitterDef":@"the Greek word meaning “placed off limits”;\rthe state of being excommunicated",
-                           @"definition":@"\rWhile it originally referred to objects that were placed off limits, over time, “anathema” came to refer to those who were accursed or banished from the community. In contrast to previous conciliar decrees from Vatican I and other councils, Vatican II did not contain any anathemas.\r\rGreek, ἀνάθεμα (anathema)\r\rFurther Reference:\rPapal Encyclicals Online\rhttp://tinyurl.com/pvacoow\r\rWikipedia, “Anathema”\rhttp://tinyurl.com/ndppmdt\r\r\r",
+                           @"definition":@"\rWhile it originally referred to objects that were placed off limits, over time, “anathema” came to refer to those who were accursed or banished from the community. In contrast to previous conciliar decrees from Vatican I and other councils, Vatican II did not contain any anathemas.\r\rGreek, ἀνάθεμα (anathema)\r\rFurther Reference:\rDecrees of Vatican I\rhttp://tinyurl.com/pvacoow\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Angel",
@@ -461,7 +461,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Action",
                            @"twitterDef":@"direct or indirect nonviolent action taken to achieve justice",
-                           @"definition":@"\rIn the context of social justice, both direct an indirect nonviolent action are appropriate responses to injustice.\r\rFurther Reference:\rPaul VI, “A Call To Action“, 48\rhttp://tinyurl.com/llup47a\r\rCompendium of the Social Doctrine of the Church, 419 http://tinyurl.com/qfo6bd7\r\r\r",
+                           @"definition":@"\rIn the context of social justice, both direct an indirect nonviolent action are appropriate responses to injustice.\r\rFurther Reference:\rPaul VI, “Octogesima Adveniens“, 48\rhttp://tinyurl.com/llup47a\r\rCompendium of the Social Doctrine of the Church, 419 http://tinyurl.com/qfo6bd7\r\r\r",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Agnostic",
@@ -471,7 +471,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Analysis",
                            @"twitterDef":@"the process of discerning appropriate steps to achieving justice",
-                           @"definition":@"\rAnalysis is the second of the 3 steps in achieving justice. It begins with discernment of the partiuclar situation and how the princples of social justice would be prudently and appropriately applied.\r\rFurther Reference:\rPope Paul VI, A Call To Action, 48\rhttp://tinyurl.com/llup47a\r\r\r",
+                           @"definition":@"\rAnalysis is the second of the 3 steps in achieving justice. It begins with discernment of the partiuclar situation and how the princples of social justice would be prudently and appropriately applied.\r\rFurther Reference:\rPope Paul VI,“Octogesima Adveniens“, 48\rhttp://tinyurl.com/llup47a\r\r\r",
                            @"category":@"Cultural"}];
     
     /*
@@ -508,12 +508,12 @@
     
     [TAWord wordWithDict:@{@"name":@"Act of Contrition",
                            @"twitterDef":@"a prayer said before the Sacrament of Penance",
-                           @"definition":@"\rWhile the Church does not canonize any one prayer for forgiveness, a popular one in current usage reads:\r\r“My God, I am sorry for my sins with all my heart. In choosing to do wrong and failing to do good, I have sinned against You whom I should love above all things. I firmly intend, with Your help, to do penance, to sin no more, and to avoid whatever leads me to sin. Our Saviour Jesus Christ, suffered and died for us. In His name, my God, have mercy.”\r\rSee “Reconcilation”.\r\rFurther Reference:\riBreviary, Act of Contrition\rhttp://tinyurl.com/m5vwvhc\r\r\r",
+                           @"definition":@"\rWhile the Church does not canonize any one prayer for forgiveness, a popular one in current usage reads:\r\r“My God, I am sorry for my sins with all my heart. In choosing to do wrong and failing to do good, I have sinned against You whom I should love above all things. I firmly intend, with Your help, to do penance, to sin no more, and to avoid whatever leads me to sin. Our Saviour Jesus Christ, suffered and died for us. In His name, my God, have mercy.”\r\rSee “Reconcilation”.\r\rFurther Reference:\rCongregation for Divine Worship and Discipline of the Sacraments, “Rite for Reconciliation of Individual Penitents”\rhttp://tinyurl.com/o84cvfx\r\r\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Apostolic Fathers",
                            @"twitterDef":@"the collection of Christian texts from the late first and early second centuries",
-                           @"definition":@"\rThe Aposotolic Fathers are the earliest extra-biblical texts outside the Bible. See the Fathers section of the Overview tab.\r\rFurther Reference:\rWikipedia, “Apostolic Fathers”\rhttp://tinyurl.com/56xymr\r\r\r",
+                           @"definition":@"\rThe Aposotolic Fathers are the earliest extra-biblical texts outside the Bible. See the Fathers section of the Overview tab.\r\rFurther Reference:\rPhillip Schaff\rHistory of the Church, “Apostolic Fathers”\rhttp://tinyurl.com/oycgu83\r\r\r",
                            @"category":@"Historical"}];
     
     ///////////////////////B
@@ -1075,6 +1075,11 @@
                            @"twitterDef":@"the administrative area of a Bishop",
                            @"definition":@"\rThe concept of a diocese derives from the practice of household management. The Emperor Diocletian, in the fourth century A.D., divided up the Roman Empire into smaller administrative districts. As the Church assumed more civil responsibility, this districting system was adopted for ecclesial administration. See “Bishop”.\r\rFurther Reference:\rWikipedia, “Roman Diocese”\rhttp://tinyurl.com/qynktwj\r\r\r",
                            @"category":@"Historical"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Deuterocanonical Books",
+                           @"twitterDef":@"the 7 books excluded from the Protestant Bible",
+                           @"definition":@"\rAlso known as the “Apocrypha”, these books were defined as being canonical in the Church at the Council of Trent: Baruch, Judith, 1st and 2nd Maccabees, Sirach, Tobit, Wisdom. See “Apocrypha”, “Canon”, “Old Testament”.\r\rGreek, ἀπόκρυφος (apokryphos) “hidden”\r\rFurther Reference:\rWikipedia, Council of Trent, Session IV\rhttp://tinyurl.com/5uugstm\r\r\r",
+                           @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Deuteronomic Code",
                            @"twitterDef":@"a legal code found in Deuteronomy 4:44-26:19",

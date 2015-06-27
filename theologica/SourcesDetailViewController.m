@@ -37,39 +37,34 @@
     self.sourceInformation.delegate = self;
     
   
-    //images in detail view
-   /*
-    NSTextAttachment *scriptureAttachment1 = [[NSTextAttachment alloc] init];
-    scriptureAttachment1.image = [UIImage imageNamed:@"dss-1"];
-    //scriptureAttachment1.bounds = CGRectMake(0, 0, scriptureAttachment1.image.size.width, scriptureAttachment1.image.size.height);
+    ////////////////////////images in detail view
     
-    NSTextAttachment *scriptureAttachment2 = [[NSTextAttachment alloc] init];
-    scriptureAttachment2.image = [UIImage imageNamed:@"codex"];
-    //scriptureAttachment2.bounds = CGRectMake(0, -45, scriptureAttachment2.image.size.width, scriptureAttachment2.image.size.height);
+    NSTextAttachment *imageAttachment = [[NSTextAttachment alloc] init];
+    imageAttachment.image = self.currentSourceDetail.scrollPic;
     
-    NSTextAttachment *magisteriumAttachment = [[NSTextAttachment alloc] init];
-    magisteriumAttachment.image = [UIImage imageNamed:@"vatican"];
+    //NSTextAttachment *imageAttachment2 = [[NSTextAttachment alloc] init];
+    //imageAttachment.image = self.currentSourceDetail.scrollPic2;
+
     
-    NSAttributedString *scriptureString1 = [NSAttributedString attributedStringWithAttachment:scriptureAttachment1];
-    NSAttributedString *scriptureString2 = [NSAttributedString attributedStringWithAttachment:scriptureAttachment2];
-    //NSAttributedString *magisteriumString = [NSAttributedString attributedStringWithAttachment:magisteriumAttachment];
+    NSAttributedString *imageString = [NSAttributedString attributedStringWithAttachment:imageAttachment];
+    //NSAttributedString *imageString2 = [NSAttributedString attributedStringWithAttachment:imageAttachment2];
+    
 
     
     NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:_currentSourceDetail.comment];
     
-    NSRange scriptureImgTag1 = [_sourceInformation.text rangeOfString:@"<scriptureImg1>"];
-    NSRange scriptureImgTag2 = [_sourceInformation.text rangeOfString:@"<scriptureImg2>"];
-    //NSRange magisteriumImgTag = [_sourceInformation.text rangeOfString:@"<magisteriumImgTag>"];
+    NSRange imgTag = [_sourceInformation.text rangeOfString:@"<img>"];
+    //NSRange imgTag2 = [_sourceInformation.text rangeOfString:@"<pic>"];
 
-    [attributedString replaceCharactersInRange:scriptureImgTag1  withAttributedString:scriptureString1];
-    [attributedString replaceCharactersInRange:scriptureImgTag2  withAttributedString:scriptureString2];
-    //[attributedString replaceCharactersInRange:magisteriumImgTag withAttributedString:magisteriumString];
-
+    [attributedString replaceCharactersInRange:imgTag  withAttributedString:imageString];
+    //[attributedString replaceCharactersInRange:imgTag2 withAttributedString:imageString2];
+    
     [attributedString addAttribute:NSFontAttributeName value:[UIFont systemFontOfSize:15] range:NSMakeRange(0, attributedString.length)];
+     
     [attributedString addAttribute:NSForegroundColorAttributeName value:[UIColor darkGrayColor] range:NSMakeRange(0, attributedString.length)];
 
     _sourceInformation.attributedText = attributedString;
-    */
+    
     //added for Dynamic Type
     [[NSNotificationCenter defaultCenter]
      addObserver:self
@@ -109,13 +104,17 @@
 -(BOOL)textView:(UITextView *)textView shouldInteractWithURL:(NSURL *)URL inRange:(NSRange)characterRange{
     
     //Do something with the URL
-    SourcesWebViewController *sourcesWebViewController = [[self storyboard]instantiateViewControllerWithIdentifier:@"SourcesWebViewController"];
+    WebViewController *sourcesWebViewController = [[self storyboard]instantiateViewControllerWithIdentifier:@"WebViewController"];
     
     NSString *webString = [URL absoluteString];
     
     sourcesWebViewController.urlString = webString;
     
-    [self presentViewController:sourcesWebViewController animated:YES completion:nil];
+    [self.navigationController pushViewController:sourcesWebViewController animated:YES];
+    
+    //UINavigationController *sourcesWebNavController = [[UINavigationController alloc] initWithRootViewController:sourcesWebViewController];
+    
+    //[self presentViewController:sourcesWebNavController animated:YES completion:nil];
     
     return NO;
 }

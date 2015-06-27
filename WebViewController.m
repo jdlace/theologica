@@ -43,7 +43,19 @@
     
     self.theBool = false;
     
+    
+    
+    
 }
+/*
+-(void) viewWillAppear:(BOOL)animated
+{
+    if (self.presentingViewController != nil) {
+        
+        self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(close:)];
+        }
+}
+ */
 -(void) backButton
 {
     [self.webView goBack];
@@ -109,6 +121,11 @@
     NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
     
     [self.webView loadRequest:request];
+}
+
+- (IBAction)close:(id)sender {
+    
+    [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning

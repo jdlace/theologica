@@ -15,11 +15,13 @@
 @property (nonatomic, copy) NSString *urlString;
 
 @property (strong, nonatomic) NSTimer *timer;
-@property (strong, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *close;
 
 @property(nonatomic) BOOL theBool;
 
 -(void) loadWebViewRequest;
+- (IBAction)close:(id)sender;
 
 //-(void) timerCallBack;
 

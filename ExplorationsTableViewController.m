@@ -8,6 +8,7 @@
 
 #import "ExplorationsTableViewController.h"
 #import "VerbatimViewController.h"
+#import "WebViewController.h"
 
 @interface ExplorationsTableViewController ()
 
@@ -104,7 +105,20 @@
     //return 60;
 }
 
-
+/*
+-(void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    WebViewController *webViewController = [[WebViewController alloc] init];
+    
+    NSString *key = [_explorationKeys objectAtIndex:indexPath.section];
+    NSArray *explorations = [_explorations objectForKey:key];
+    
+    NSDictionary *dict = explorations[indexPath.row];
+    webViewController.urlString = dict[@"URL"];
+    
+    [self.navigationController pushViewController:webViewController animated:YES];
+}
+*/
 /*
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -154,15 +168,15 @@
     if ([[segue identifier] isEqualToString:@"explorationsDetail"])
         {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        VerbatimViewController *verbatimViewController = [segue destinationViewController];
+        WebViewController *webViewController = [segue destinationViewController];
         //webViewController.urlString = [self.linkKeys objectAtIndex:indexPath.row];
         
         NSString *key = [_explorationKeys objectAtIndex:indexPath.section];
         NSArray *explorations = [_explorations objectForKey:key];
         
         NSDictionary *dict = explorations[indexPath.row];
-        verbatimViewController.urlString = dict[@"URL"];
-        
+        webViewController.urlString = dict[@"URL"];
+                
         NSLog(@"dict is %@", dict);
         }
 

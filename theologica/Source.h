@@ -16,6 +16,7 @@
 @property (copy, nonatomic) NSString *comment;
 @property (copy, nonatomic) NSString *twitterDef;
 @property (strong, nonatomic) UIImage *bigPic;
-@property (strong, nonatomic) UIImage *scrollPic; 
+@property (strong, nonatomic) UIImage *scrollPic;
+@property (strong, nonatomic) UIImage *scrollPic2; 
 
 @end
