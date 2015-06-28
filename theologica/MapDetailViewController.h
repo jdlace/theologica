@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "Word.h"
 #import "SourcesWebViewController.h"
+#import "WebViewController.h"   
 
 
 

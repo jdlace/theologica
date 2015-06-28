@@ -101,13 +101,13 @@
 -(BOOL)textView:(UITextView *)textView shouldInteractWithURL:(NSURL *)URL inRange:(NSRange)characterRange{
     
     //Do something with the URL
-    SourcesWebViewController *sourcesWebViewController = [[self storyboard]instantiateViewControllerWithIdentifier:@"SourcesWebViewController"];
+    WebViewController *mapWebViewController = [[self storyboard]instantiateViewControllerWithIdentifier:@"WebViewController"];
     
     NSString *webString = [URL absoluteString];
     
-    sourcesWebViewController.urlString = webString;
+    mapWebViewController.urlString = webString;
     
-    [self presentViewController:sourcesWebViewController animated:YES completion:nil];
+     [self.navigationController pushViewController:mapWebViewController animated:YES];
     
     return NO;
 }
