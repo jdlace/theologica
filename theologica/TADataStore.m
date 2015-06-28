@@ -164,7 +164,7 @@
     //A
     [TAWord wordWithDict:@{@"name":@"Abba",
                            @"twitterDef":@"the Aramaic word meaning “Father” or “Daddy”",
-                           @"definition":@"\rAccording to all four Gospels, this term was by Jesus to refer to God in prayer. Paul claims that Christians also use the term because of their filial adoption; “Because you are sons, God has sent the Spirit of his Son into our hearts, crying, “Abba! Father!” (Gal 4:6). See “Adoption”.\r\rAramaic, אַבָּא (abba)\r\rFurther Reference:\rCatechism of the Catholic Church, 683\rhttp://tinyurl.com/pqxxm8l\r\r\r",
+                           @"definition":@"\rAccording to all four Gospels, this term was by Jesus to refer to God in prayer. Paul claims that Christians also use the term because of their filial adoption; “Because you are sons, God has sent the Spirit of his Son into our hearts, crying, “Abba! Father!” (Gal 4:6). See “Adoption”.\r\rAramaic, אַבָּא (abba)\r\rFurther Reference:\rCatechism of the Catholic Church, 2779\rhttp://tinyurl.com/qzz5b2e\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Ablution",
@@ -2090,6 +2090,11 @@
     
     /////////////////////////////M
     
+    
+    [TAWord wordWithDict:@{@"name":@"Magisterium",
+                           @"twitterDef":@"the teaching authority of the Church",
+                           @"definition":@"\rAccording to the teaching of the Church, the Magisterium has its origin in God's providential plan for the Church. See the Magisterium section in the Overview tab.\r\rFurther Reference:\rCatechism of the Catholic Church, 85-95\rhttp://tinyurl.com/bx8mnlu\r\r\r",
+                           @"category":@"Biblical"}];
     
     
     [TAWord wordWithDict:@{@"name":@"Magnificat",

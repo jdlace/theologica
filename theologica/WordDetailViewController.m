@@ -52,8 +52,10 @@
     self.descriptionTextView.text = self.word.definition;
     //_imageView.image = _currentWordDetail.image;
     //self.title = self.nameLabel.text;
+
     
-        
+    
+    //dynamic type
     [[NSNotificationCenter defaultCenter]
      addObserver:self
      selector:@selector(preferredContentSizeChanged:)

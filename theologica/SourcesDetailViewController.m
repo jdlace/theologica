@@ -62,8 +62,15 @@
     [attributedString addAttribute:NSFontAttributeName value:[UIFont systemFontOfSize:15] range:NSMakeRange(0, attributedString.length)];
      
     [attributedString addAttribute:NSForegroundColorAttributeName value:[UIColor darkGrayColor] range:NSMakeRange(0, attributedString.length)];
+    
+    //center justify the text
+    NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc]init] ;
+    [paragraphStyle setAlignment:NSTextAlignmentJustified];
+    [paragraphStyle setLineSpacing:2.0];
+    [attributedString addAttribute:NSParagraphStyleAttributeName value:paragraphStyle range:NSMakeRange(0, [attributedString length])];
 
     _sourceInformation.attributedText = attributedString;
+
     
     //added for Dynamic Type
     [[NSNotificationCenter defaultCenter]

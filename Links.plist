@@ -15,33 +15,27 @@
 	<array>
 		<dict>
 			<key>Name</key>
+			<string>Apostolic Fathers (Greek)</string>
+			<key>URL</key>
+			<string>http://www.ccel.org/l/lake/fathers/toc.htm</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Early Church Fathers</string>
+			<key>URL</key>
+			<string>http://www.tertullian.org/fathers2/</string>
+		</dict>
+		<dict>
+			<key>Name</key>
 			<string>North American Patristics Society</string>
 			<key>URL</key>
 			<string>http://patristics.org</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>The Church Fathers</string>
+			<string>Church Fathers (topical)</string>
 			<key>URL</key>
 			<string>http://www.churchfathers.org</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>Ante-Nicene Fathers</string>
-			<key>URL</key>
-			<string>http://en.wikisource.org/wiki/Ante-Nicene_Fathers</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>Post-Nicene Fathers I</string>
-			<key>URL</key>
-			<string>http://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>Post-Nicene Fathers II</string>
-			<key>URL</key>
-			<string>http://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II</string>
 		</dict>
 	</array>
 	<key>Philosophy</key>

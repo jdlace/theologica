@@ -741,6 +741,7 @@
                             </mask>
                         </variation>
                     </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <connections>
                         <outlet property="scrollView" destination="njt-xU-EuX" id="vMo-Xb-jRM"/>
                         <outlet property="sourceInformation" destination="ccI-OC-gVd" id="upQ-cS-7ke"/>
