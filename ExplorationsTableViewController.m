@@ -26,8 +26,8 @@
     NSArray *array = @[@"Presentations", @"Interviews"];
     self.explorationKeys = array;
     
-    self.navigationController.navigationBar.backItem.title = @"Explorations";
-        
+    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Explorations" style:UIBarButtonItemStylePlain target:nil action:nil];
+    self.navigationItem.backBarButtonItem = backButton;
     
     
     [[NSNotificationCenter defaultCenter]

@@ -21,7 +21,7 @@
 @property(nonatomic) BOOL theBool;
 
 -(void) loadWebViewRequest;
-- (IBAction)close:(id)sender;
+- (IBAction)done:(id)sender;
 
 //-(void) timerCallBack;
 

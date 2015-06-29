@@ -389,7 +389,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Overview" id="Hmz-io-8te">
-                        <barButtonItem key="backBarButtonItem" title="Back" id="DqS-o1-c1c"/>
+                        <barButtonItem key="backBarButtonItem" title="Overview" id="DqS-o1-c1c"/>
                         <barButtonItem key="leftBarButtonItem" title="About" style="plain" id="m9t-Uh-3Du">
                             <connections>
                                 <action selector="aboutButton:" destination="eI4-6J-SyD" id="OZB-69-hkR"/>
@@ -888,7 +888,7 @@
                         <sections/>
                     </tableView>
                     <navigationItem key="navigationItem" title="Dictionary" id="puP-se-oj8">
-                        <barButtonItem key="backBarButtonItem" title="Back" id="TeJ-ib-7ab"/>
+                        <barButtonItem key="backBarButtonItem" title="Dictionary" id="TeJ-ib-7ab"/>
                         <barButtonItem key="leftBarButtonItem" title="Terms" style="plain" id="LEf-Yw-Fka">
                             <connections>
                                 <action selector="termsButton:" destination="oZ5-nE-rQe" id="w9s-2l-WOC"/>
@@ -1166,6 +1166,7 @@
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Maps" id="hHU-5l-E9P">
+                        <barButtonItem key="backBarButtonItem" title="Maps" id="gyj-dk-SAY"/>
                         <barButtonItem key="leftBarButtonItem" title="Pins" style="plain" id="2Eo-RM-VsP">
                             <connections>
                                 <action selector="mapsButton:" destination="qJM-Uc-9hJ" id="lWr-wp-OrF"/>
@@ -1576,7 +1577,7 @@
         <!--Reference-->
         <scene sceneID="Rty-yM-YnI">
             <objects>
-                <tableViewController extendedLayoutIncludesOpaqueBars="YES" id="gNa-q2-hvn" customClass="LinksTableViewController" sceneMemberID="viewController">
+                <tableViewController title="Reference" extendedLayoutIncludesOpaqueBars="YES" id="gNa-q2-hvn" customClass="LinksTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="TlT-UO-d94">
                         <rect key="frame" x="0.0" y="64" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1610,9 +1611,7 @@
                             <outlet property="delegate" destination="gNa-q2-hvn" id="aD7-aW-R46"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Reference" id="pib-Cj-1Ka">
-                        <barButtonItem key="backBarButtonItem" title="Back" id="e6Q-Vn-jXg"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Reference" id="pib-Cj-1Ka"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
                 </tableViewController>
@@ -1620,10 +1619,10 @@
             </objects>
             <point key="canvasLocation" x="-2916" y="548"/>
         </scene>
-        <!--Web View Controller-->
+        <!--WebViewController-->
         <scene sceneID="4XV-Iq-wlQ">
             <objects>
-                <viewController storyboardIdentifier="WebViewController" id="Zuk-WO-xRs" customClass="WebViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WebViewController" title="WebViewController" extendedLayoutIncludesOpaqueBars="YES" id="Zuk-WO-xRs" customClass="WebViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mEp-21-gbz"/>
                         <viewControllerLayoutGuide type="bottom" id="tzg-vf-5wh"/>
@@ -1639,28 +1638,65 @@
                                     <outlet property="delegate" destination="Zuk-WO-xRs" id="QXX-Od-F5l"/>
                                 </connections>
                             </webView>
+                            <activityIndicatorView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="XUR-UL-iam">
+                                <rect key="frame" x="70" y="132" width="20" height="20"/>
+                                <color key="color" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="bfX-fn-Gr1" firstAttribute="bottom" secondItem="nMF-86-Zrh" secondAttribute="bottomMargin" id="1FY-s6-eob"/>
-                            <constraint firstItem="bfX-fn-Gr1" firstAttribute="leading" secondItem="nMF-86-Zrh" secondAttribute="leadingMargin" constant="-16" id="24X-L0-Kza"/>
-                            <constraint firstItem="bfX-fn-Gr1" firstAttribute="top" secondItem="nMF-86-Zrh" secondAttribute="topMargin" id="E6X-o9-Ccv"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="bfX-fn-Gr1" secondAttribute="trailing" constant="-16" id="XEm-bd-KvI"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bfX-fn-Gr1" secondAttribute="trailing" constant="-16" id="7LL-KA-4bh"/>
+                            <constraint firstItem="XUR-UL-iam" firstAttribute="top" secondItem="mEp-21-gbz" secondAttribute="bottom" constant="225" id="Iwq-4c-lDw">
+                                <variation key="widthClass=compact" constant="217"/>
+                            </constraint>
+                            <constraint firstItem="bfX-fn-Gr1" firstAttribute="top" secondItem="mEp-21-gbz" secondAttribute="bottom" id="R1M-yp-fhY">
+                                <variation key="widthClass=compact" constant="-64"/>
+                            </constraint>
+                            <constraint firstAttribute="trailingMargin" secondItem="XUR-UL-iam" secondAttribute="trailing" constant="165" id="RHL-A4-FHa"/>
+                            <constraint firstItem="XUR-UL-iam" firstAttribute="leading" secondItem="nMF-86-Zrh" secondAttribute="leadingMargin" constant="166" id="dxH-Jp-sHO"/>
+                            <constraint firstItem="tzg-vf-5wh" firstAttribute="top" secondItem="XUR-UL-iam" secondAttribute="bottom" constant="225" id="e8Y-7c-F2s">
+                                <variation key="widthClass=compact" constant="233"/>
+                            </constraint>
+                            <constraint firstItem="bfX-fn-Gr1" firstAttribute="leading" secondItem="nMF-86-Zrh" secondAttribute="leadingMargin" constant="-16" id="ez4-DV-dyN"/>
+                            <constraint firstItem="tzg-vf-5wh" firstAttribute="top" secondItem="bfX-fn-Gr1" secondAttribute="bottom" id="r7k-v5-hmd">
+                                <variation key="widthClass=compact" constant="0.0"/>
+                            </constraint>
                         </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="XUR-UL-iam"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="7LL-KA-4bh"/>
+                                <exclude reference="R1M-yp-fhY"/>
+                                <exclude reference="ez4-DV-dyN"/>
+                                <exclude reference="Iwq-4c-lDw"/>
+                                <exclude reference="RHL-A4-FHa"/>
+                                <exclude reference="dxH-Jp-sHO"/>
+                                <exclude reference="e8Y-7c-F2s"/>
+                                <exclude reference="r7k-v5-hmd"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="XUR-UL-iam"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="7LL-KA-4bh"/>
+                                <include reference="R1M-yp-fhY"/>
+                                <include reference="ez4-DV-dyN"/>
+                                <include reference="Iwq-4c-lDw"/>
+                                <include reference="RHL-A4-FHa"/>
+                                <include reference="dxH-Jp-sHO"/>
+                                <include reference="e8Y-7c-F2s"/>
+                                <include reference="r7k-v5-hmd"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="mtE-nY-8u5">
                         <nil key="title"/>
-                        <view key="titleView" contentMode="scaleToFill" id="c0L-QA-RJp">
-                            <rect key="frame" x="220" y="-120" width="160" height="284"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <subviews>
-                                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="XUR-UL-iam">
-                                    <rect key="frame" x="70" y="132" width="20" height="20"/>
-                                </activityIndicatorView>
-                            </subviews>
-                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                        </view>
                     </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <connections>
                         <outlet property="activityIndicator" destination="XUR-UL-iam" id="Nzn-ef-nkf"/>
                         <outlet property="webView" destination="bfX-fn-Gr1" id="Q31-H5-PIK"/>

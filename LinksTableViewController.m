@@ -11,7 +11,6 @@
 
 @interface LinksTableViewController ()
 
-
 @end
 
 @implementation LinksTableViewController
@@ -27,25 +26,23 @@
     NSArray *array = @[@"Magisterium", @"Scripture", @"Fathers", @"Councils", @"Creeds", @"Liturgy", @"Theology", @"Philosophy", @"Science", @"Technology", @"Politics", @"Economy", @"Arts"];
     self.linkKeys = array;
     
-    self.navigationController.navigationBar.backItem.title = @"Reference";
-    
-
+    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Reference" style:UIBarButtonItemStylePlain target:nil action:nil];
+    self.navigationItem.backBarButtonItem = backButton;
     
     [[NSNotificationCenter defaultCenter]
      addObserver:self
      selector:@selector(preferredContentSizeChanged:)
      name:UIContentSizeCategoryDidChangeNotification
      object:nil];
-    
 
     
-
-
 }
+
 
 - (void)preferredContentSizeChanged:(NSNotification *)notification
 {
     [self.tableView reloadData];
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -87,23 +84,7 @@
     cell.textLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
     cell.textLabel.numberOfLines = 4;
     
-    /*
-    UIFont* font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
-    
-    UIColor* textColor = [UIColor blackColor]; //colorWithRed:0.175f green:0.458f blue:0.831f alpha:1.0f];
-    NSDictionary *attrs = @{ NSForegroundColorAttributeName : textColor,
-                             NSFontAttributeName : font,
-                             NSTextEffectAttributeName : NSTextEffectLetterpressStyle};
-    
-    NSAttributedString* attrString = [[NSAttributedString alloc]
-                                      initWithString:cell.textLabel.text
-                                      attributes:attrs];
-    
-    cell.textLabel.attributedText = attrString;
-     */
     return cell;
-   
-
 }
 
 -(NSString *) tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
@@ -194,6 +175,4 @@
         NSLog(@"dict is %@", dict);
         }
 }
-
-
 @end

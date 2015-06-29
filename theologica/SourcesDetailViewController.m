@@ -29,7 +29,7 @@
     
     self.sourceInformation.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
     
-    [self.sourceInformation setTextColor:[UIColor darkGrayColor]];
+    [self.sourceInformation setTextColor:[UIColor blackColor]];
    
     
     self.textViewHeightConstraint.constant = [self.sourceInformation sizeThatFits:CGSizeMake(self.sourceInformation.frame.size.width, self.sourceInformation.frame.size.height)].height;
@@ -117,9 +117,11 @@
     
     sourcesWebViewController.urlString = webString;
     
-    [self.navigationController pushViewController:sourcesWebViewController animated:YES];
+    //[self.navigationController pushViewController:sourcesWebViewController animated:YES];
     
     //UINavigationController *sourcesWebNavController = [[UINavigationController alloc] initWithRootViewController:sourcesWebViewController];
+    
+    [self.navigationController pushViewController:sourcesWebViewController animated:YES];
     
     //[self presentViewController:sourcesWebNavController animated:YES completion:nil];
     
