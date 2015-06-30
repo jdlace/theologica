@@ -6,12 +6,12 @@
     },
     {
       "idiom" : "universal",
-      "scale" : "2x"
+      "scale" : "2x",
+      "filename" : "wage.png"
     },
     {
       "idiom" : "universal",
-      "scale" : "3x",
-      "filename" : "3menlines copy 3.png"
+      "scale" : "3x"
     }
   ],
   "info" : {

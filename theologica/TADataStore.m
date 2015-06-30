@@ -2521,6 +2521,11 @@
                            @"definition":@"\rPolytheism was common in the ancient world. Pre-Exilic Israelites believed that many gods existed, as evidenced in the Decalogue and multiple references to foreign deities such as El, Asherah, Molech, and Ba'al. However, they had entered into a covenant with and only served one of them, YHWH. After the Exile, monotheism becomes the dominant and distinguishing feature of the Israelites. See “Henotheism”, “Monotheism”.\r\rFurther Reference:\rWikipeida, “Polytheism”\rhttp://tinyurl.com/33v9dl\r\r\r",
                            @"category":@"Systematic"}];
     
+    [TAWord wordWithDict:@{@"name":@"Postmodernism",
+                           @"twitterDef":@"the belief that there are no universally accesible truths or determinite meaning",
+                           @"definition":@"\rPostmoderism arose in the late 19th century as a critique of the philosophical foundations of the Enlightenment and Modernism. Leading propnents included Frederick Nietzsche, Karl Marx, and Sigmund Freud. See “Hermeneutics”, “Philosophy”, “Relativism”.\r\rFurther Reference:\rGarret Green\r“Theology, Hermeneutics, and Imagination”\rhttp://tinyurl.com/p9ozt9c\r\r\r",
+                           @"category":@"Cultural"}];
+    
     [TAWord wordWithDict:@{@"name":@"Predestination",
                            @"twitterDef":@"the belief that God has fixed the destiny of certain nations or peoples",
                            @"definition":@"\rAccording to the teaching of the Church, God's predestination of human events is based on the foreknowledge of each person's free response. See “Foreknowledge”.\r\rFurther Reference:\rCatechism of the Catholic Church 600\rhttp://tinyurl.com/p3dfabj\r\r\r",

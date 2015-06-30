@@ -6,34 +6,34 @@
 	<array>
 		<dict>
 			<key>Name</key>
-			<string>1. Dr. Charles Camosy</string>
+			<string>1. Dr. Charles Camosy (pending)</string>
 			<key>URL</key>
 			<string>https://vimeo.com/user36977984/videos</string>
 		</dict>
 	</array>
-	<key>Presentations</key>
+	<key>Lectures</key>
 	<array>
 		<dict>
 			<key>Name</key>
-			<string>1. Introduction to Biblical Interpretation</string>
+			<string>1. Introduction to Biblical Interpretation (22:03)</string>
 			<key>URL</key>
-			<string>https://player.vimeo.com/external/131384793.mobile.mp4?s=451547939ae44a1c6c1332c1e8fdb410&amp;profile_id=116</string>
+			<string>https://player.vimeo.com/external/132173314.hd.mp4?s=4db058080243fb8aa61a88b9774f8ebf&amp;profile_id=119</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>2. The Documentary Hypothesis</string>
-			<key>URL</key>
-			<string>https://vimeo.com/user36977984/videos</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>3. Science and Theology (TBD)</string>
+			<string>2. The Documentary Hypothesis (pending)</string>
 			<key>URL</key>
 			<string>https://vimeo.com/user36977984/videos</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>4. Catholic Social Teaching (TBD)</string>
+			<string>3. Science and Theology (pending)</string>
+			<key>URL</key>
+			<string>https://vimeo.com/user36977984/videos</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>4. Catholic Social Teaching (pending)</string>
 			<key>URL</key>
 			<string>https://vimeo.com/user36977984/videos</string>
 		</dict>
