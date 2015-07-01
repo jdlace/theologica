@@ -336,6 +336,12 @@
 		</dict>
 		<dict>
 			<key>Name</key>
+			<string>Vatican Observatory</string>
+			<key>URL</key>
+			<string>http://www.vaticanobservatory.va/content/specolavaticana/en.html</string>
+		</dict>
+		<dict>
+			<key>Name</key>
 			<string>National Snow &amp; Ice Data Center</string>
 			<key>URL</key>
 			<string>http://nsidc.org</string>
