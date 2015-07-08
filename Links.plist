@@ -162,6 +162,24 @@
 	<array>
 		<dict>
 			<key>Name</key>
+			<string>Fr. Michael Fallon, MSC</string>
+			<key>URL</key>
+			<string>http://tinyurl.com/oefpuf6</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Fr. Felix Just, S.J.</string>
+			<key>URL</key>
+			<string>http://catholic-resources.org</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Biblica (Journal of PBC)</string>
+			<key>URL</key>
+			<string>http://www.bsw.org/project/biblica</string>
+		</dict>
+		<dict>
+			<key>Name</key>
 			<string>Constitution on Divine Revelation</string>
 			<key>URL</key>
 			<string>http://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_en.html</string>
