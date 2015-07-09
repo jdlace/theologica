@@ -32,9 +32,6 @@
     self.back = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"backButton"] style:UIBarButtonItemStylePlain target:self action:@selector(backButton)];
     
     self.forward = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"forwardButton"] style:UIBarButtonItemStylePlain target:self action:@selector(forwardButton)];
-
-        //self.refresh = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"repeat"] style:UIBarButtonItemStylePlain target:self action:@selector(refreshButton)];
-    //self.share = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:self action:@selector(selector)];
     
     self.navigationItem.rightBarButtonItems = [[NSArray alloc] initWithObjects:_forward, _back,   nil];
     
@@ -42,6 +39,9 @@
     self.back.enabled = NO; 
     
     self.theBool = false;
+    
+    
+    
     
       
 }
@@ -57,9 +57,9 @@
 }
 
 
--(void) refreshButton
+-(void) webViewDidStartLoad:(UIWebView *)webView
 {
-    [self loadWebViewRequest];
+    [self.activityIndicator startAnimating]; 
 }
 
 -(void) webViewDidFinishLoad:(UIWebView *)webView
@@ -91,7 +91,7 @@
 -(BOOL) webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType
 {
     self.refresh.enabled = NO;
-    [self.activityIndicator startAnimating];
+    //[self.activityIndicator startAnimating];
     UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Reference" style:UIBarButtonItemStylePlain target:nil action:nil];
     self.navigationItem.backBarButtonItem = backButton;
     
@@ -113,6 +113,7 @@
     NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
     
     [self.webView loadRequest:request];
+    
 }
 
 - (IBAction)done:(id)sender {

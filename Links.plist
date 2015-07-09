@@ -162,57 +162,21 @@
 	<array>
 		<dict>
 			<key>Name</key>
-			<string>Fr. Michael Fallon, MSC</string>
-			<key>URL</key>
-			<string>http://tinyurl.com/oefpuf6</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>Fr. Felix Just, S.J.</string>
-			<key>URL</key>
-			<string>http://catholic-resources.org</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>Biblica (Journal of PBC)</string>
-			<key>URL</key>
-			<string>http://www.bsw.org/project/biblica</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>Constitution on Divine Revelation</string>
-			<key>URL</key>
-			<string>http://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_en.html</string>
-		</dict>
-		<dict>
-			<key>Name</key>
 			<string>Pontifical Biblical Commission</string>
 			<key>URL</key>
 			<string>http://www.vatican.va/roman_curia/congregations/cfaith/pcb_index.htm</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>Society of Biblical Literature</string>
+			<string>Biblica </string>
 			<key>URL</key>
-			<string>http://www.sbl-site.org</string>
+			<string>http://www.bsw.org/project/biblica</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>Codex Sinaiticus</string>
+			<string>English Bibles</string>
 			<key>URL</key>
-			<string>http://www.codexsinaiticus.org/en/</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>BibleHub</string>
-			<key>URL</key>
-			<string>http://biblehub.com</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>NT Gateway</string>
-			<key>URL</key>
-			<string>http://www.ntgateway.com</string>
+			<string>https://www.bible.com/bible/463/gen.1.nabre</string>
 		</dict>
 		<dict>
 			<key>Name</key>
@@ -222,9 +186,39 @@
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>English Bibles</string>
+			<string>NT Gateway</string>
 			<key>URL</key>
-			<string>https://www.bible.com/bible/463/gen.1.nabre</string>
+			<string>http://www.ntgateway.com</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Codex Sinaiticus</string>
+			<key>URL</key>
+			<string>http://www.codexsinaiticus.org/en/</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Society of Biblical Literature</string>
+			<key>URL</key>
+			<string>http://www.sbl-site.org</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Michael Fallon Resource Site</string>
+			<key>URL</key>
+			<string>http://tinyurl.com/oefpuf6</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Felix Just Resource Site</string>
+			<key>URL</key>
+			<string>http://catholic-resources.org</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>BibleHub</string>
+			<key>URL</key>
+			<string>http://biblehub.com</string>
 		</dict>
 		<dict>
 			<key>URL</key>
@@ -258,12 +252,6 @@
 	<array>
 		<dict>
 			<key>Name</key>
-			<string>Constitution on Divine Liturgy</string>
-			<key>URL</key>
-			<string>http://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_en.html</string>
-		</dict>
-		<dict>
-			<key>Name</key>
 			<string>Universalis</string>
 			<key>URL</key>
 			<string>http://www.universalis.com</string>
@@ -294,6 +282,18 @@
 			<string>International Theological Commission</string>
 			<key>URL</key>
 			<string>http://www.vatican.va/roman_curia/congregations/cfaith/cti_index.htm</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Summa Theologica</string>
+			<key>URL</key>
+			<string>http://www.summatheologica.info</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Theological Studies</string>
+			<key>URL</key>
+			<string>http://theologicalstudies.net/readers/download-past-articles/</string>
 		</dict>
 		<dict>
 			<key>Name</key>
@@ -426,7 +426,7 @@
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>Apple Insider</string>
+			<string>AppleInsider</string>
 			<key>URL</key>
 			<string>http://www.appleinsider.com</string>
 		</dict>
