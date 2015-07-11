@@ -67,12 +67,6 @@
 			<key>URL</key>
 			<string>http://www.bea.gov</string>
 		</dict>
-		<dict>
-			<key>Name</key>
-			<string>NYT Economics News</string>
-			<key>URL</key>
-			<string>http://www.nytimes.com/pages/business/economy/index.html</string>
-		</dict>
 	</array>
 	<key>Politics</key>
 	<array>
@@ -87,12 +81,6 @@
 			<string>United Nations</string>
 			<key>URL</key>
 			<string>http://www.un.org/en/</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>NYT Politics News</string>
-			<key>URL</key>
-			<string>http://www.nytimes.com/pages/politics/index.html</string>
 		</dict>
 	</array>
 	<key>Magisterium</key>
@@ -388,15 +376,15 @@
 			<key>URL</key>
 			<string>http://www.unep.org</string>
 		</dict>
-		<dict>
-			<key>Name</key>
-			<string>NYT Science News</string>
-			<key>URL</key>
-			<string>http://www.nytimes.com/pages/science/index.html</string>
-		</dict>
 	</array>
 	<key>Arts</key>
 	<array>
+		<dict>
+			<key>Name</key>
+			<string>National Endowment for the Arts</string>
+			<key>URL</key>
+			<string>http://arts.gov</string>
+		</dict>
 		<dict>
 			<key>Name</key>
 			<string>Pontifical Council for Culture</string>
@@ -429,12 +417,6 @@
 			<string>AppleInsider</string>
 			<key>URL</key>
 			<string>http://www.appleinsider.com</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>NYT Technology News</string>
-			<key>URL</key>
-			<string>http://www.nytimes.com/pages/technology/index.html</string>
 		</dict>
 	</array>
 </dict>

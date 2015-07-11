@@ -1147,7 +1147,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsPointsOfInterest="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ad6-SE-eqa">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" mapType="standard" showsPointsOfInterest="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ad6-SE-eqa">
                                 <rect key="frame" x="0.0" y="0.0" width="680" height="600"/>
                                 <connections>
                                     <outlet property="delegate" destination="qJM-Uc-9hJ" id="7Tc-vi-mCK"/>
@@ -1157,12 +1157,20 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="ad6-SE-eqa" firstAttribute="top" secondItem="PEG-V7-Pcc" secondAttribute="top" id="d7N-vT-kGX"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="ad6-SE-eqa" secondAttribute="trailing" constant="-96" id="iT2-sK-tiT">
-                                <variation key="widthClass=compact" constant="-16"/>
-                            </constraint>
+                            <constraint firstAttribute="trailing" secondItem="ad6-SE-eqa" secondAttribute="trailing" id="i0h-At-Ido"/>
                             <constraint firstItem="ad6-SE-eqa" firstAttribute="leading" secondItem="PEG-V7-Pcc" secondAttribute="leading" id="tGr-ye-QI6"/>
                             <constraint firstAttribute="bottom" secondItem="ad6-SE-eqa" secondAttribute="bottom" id="wjK-WR-C9Q"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="i0h-At-Ido"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="i0h-At-Ido"/>
+                            </mask>
+                        </variation>
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Maps" id="hHU-5l-E9P">
@@ -1186,7 +1194,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J0z-Jr-lHg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2970" y="-159"/>
+            <point key="canvasLocation" x="-2928" y="-169.5"/>
         </scene>
         <!--Map Detail View Controller-->
         <scene sceneID="KGy-XG-vXI">
@@ -1655,6 +1663,7 @@
                             </webView>
                             <activityIndicatorView hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="XUR-UL-iam">
                                 <rect key="frame" x="70" y="132" width="20" height="20"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="color" red="0.0" green="0.50196081399917603" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </activityIndicatorView>
                         </subviews>
