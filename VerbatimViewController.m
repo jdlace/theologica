@@ -7,6 +7,7 @@
 //
 
 #import "VerbatimViewController.h"
+#import "AppDelegate.h"
 
 @interface VerbatimViewController ()
 
@@ -18,7 +19,7 @@
 {
     [super viewDidLoad];
   
-    [self loadWebViewRequest]; 
+    [self loadWebViewRequest];
     
 }
 
@@ -57,7 +58,6 @@
     
     [self.webView loadRequest:request];
 }
-
 
 /*
 #pragma mark - Navigation

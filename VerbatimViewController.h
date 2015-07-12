@@ -15,6 +15,8 @@
 @property (strong, nonatomic) NSTimer *timer;
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
 @property (nonatomic, copy) NSString *urlString;
+@property (nonatomic, assign) BOOL canAutoRotate;
+
 
 
 @property(nonatomic) BOOL theBool;

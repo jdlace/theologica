@@ -7,6 +7,7 @@
 //
 
 #import "SourceContentViewController.h"
+#import "AppDelegate.h"
 
 @interface SourceContentViewController ()
 
@@ -18,9 +19,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    
-   
+    //AppDelegate *appDelegate = [UIApplication sharedApplication].delegate;
+    //[appDelegate setShouldRotate:NO];
 
 }
 
@@ -147,5 +147,11 @@
                                                           handler:^(UIAlertAction * action) {}];
     [alert addAction:defaultAction];
     [self presentViewController:alert animated:YES completion:nil];
-}//
+}
+
+
+
+
+
+
 @end

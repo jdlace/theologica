@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		690248B717F05294009D6811 /* bookmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 690248B617F05294009D6811 /* bookmark@2x.png */; };
 		6902FACE17F51D3E00299A50 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6902FACD17F51D3E00299A50 /* Images.xcassets */; };
 		6907EB581A7E7AA300AE52A1 /* VerbatimViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6907EB571A7E7AA300AE52A1 /* VerbatimViewController.m */; };
 		690D0B9F1B13A57800A1F327 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 690D0B9E1B13A57800A1F327 /* RootViewController.m */; };
@@ -18,14 +17,6 @@
 		692ED2571796D552008554F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2561796D552008554F9 /* main.m */; };
 		692ED25B1796D552008554F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED25A1796D552008554F9 /* AppDelegate.m */; };
 		692ED2641796D552008554F9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 692ED2621796D552008554F9 /* MainStoryboard.storyboard */; };
-		692ED2841796E04B008554F9 /* bible@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 692ED27F1796E04B008554F9 /* bible@2x.png */; };
-		692ED2861796E04B008554F9 /* church.png in Resources */ = {isa = PBXBuildFile; fileRef = 692ED2811796E04B008554F9 /* church.png */; };
-		692ED2871796E04B008554F9 /* church@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 692ED2821796E04B008554F9 /* church@2x.png */; };
-		692ED28B1796E511008554F9 /* bible.png in Resources */ = {isa = PBXBuildFile; fileRef = 692ED28A1796E511008554F9 /* bible.png */; };
-		692ED2981796E709008554F9 /* equality.png in Resources */ = {isa = PBXBuildFile; fileRef = 692ED2921796E709008554F9 /* equality.png */; };
-		692ED2991796E709008554F9 /* equality@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 692ED2931796E709008554F9 /* equality@2x.png */; };
-		692ED2A81796EF10008554F9 /* man-influence.png in Resources */ = {isa = PBXBuildFile; fileRef = 692ED29E1796EF10008554F9 /* man-influence.png */; };
-		692ED2A91796EF10008554F9 /* man-influence@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 692ED29F1796EF10008554F9 /* man-influence@2x.png */; };
 		692ED2B21796F466008554F9 /* DictionaryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2B11796F466008554F9 /* DictionaryTableViewController.m */; };
 		692ED2B51796F48B008554F9 /* WordDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692ED2B41796F48B008554F9 /* WordDetailViewController.m */; };
 		6939B7D41AB5BF8100DBA0E6 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6939B7CC1AB5BF8100DBA0E6 /* Accounts.framework */; };
@@ -64,8 +55,6 @@
 		9BA06E331A833B4800A6A19E /* TADataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA06E321A833B4800A6A19E /* TADataStore.m */; };
 		9BA06E6E1A833F9200A6A19E /* TAWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA06E6D1A833F9200A6A19E /* TAWord.m */; };
 		9BA06E701A83631900A6A19E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA06E6F1A83631900A6A19E /* CoreData.framework */; };
-		9BAC0B451A1C4BA1004C4867 /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BAC0B431A1C4BA1004C4867 /* appicon.png */; };
-		9BAC0B461A1C4BA1004C4867 /* appicon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BAC0B441A1C4BA1004C4867 /* appicon2.png */; };
 		FA0BAF781A4333DE00AF6DFB /* MapDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0BAF771A4333DE00AF6DFB /* MapDetailViewController.m */; };
 		FA3683CD1A1144F300E9740F /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3683CC1A1144F300E9740F /* Social.framework */; };
 		FA3683D31A1155AA00E9740F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3683D21A1155AA00E9740F /* MobileCoreServices.framework */; };
@@ -87,7 +76,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		690248B617F05294009D6811 /* bookmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bookmark@2x.png"; path = "../bookmark@2x.png"; sourceTree = "<group>"; };
 		6902FACD17F51D3E00299A50 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = theologica/Images.xcassets; sourceTree = "<group>"; };
 		6907EB561A7E7AA300AE52A1 /* VerbatimViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VerbatimViewController.h; path = ../VerbatimViewController.h; sourceTree = "<group>"; };
 		6907EB571A7E7AA300AE52A1 /* VerbatimViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VerbatimViewController.m; path = ../VerbatimViewController.m; sourceTree = "<group>"; };
@@ -104,14 +92,6 @@
 		692ED2591796D552008554F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		692ED25A1796D552008554F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		692ED2631796D552008554F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		692ED27F1796E04B008554F9 /* bible@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bible@2x.png"; path = "../bible@2x.png"; sourceTree = "<group>"; };
-		692ED2811796E04B008554F9 /* church.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = church.png; path = ../church.png; sourceTree = "<group>"; };
-		692ED2821796E04B008554F9 /* church@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "church@2x.png"; path = "../church@2x.png"; sourceTree = "<group>"; };
-		692ED28A1796E511008554F9 /* bible.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bible.png; sourceTree = "<group>"; };
-		692ED2921796E709008554F9 /* equality.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = equality.png; sourceTree = "<group>"; };
-		692ED2931796E709008554F9 /* equality@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "equality@2x.png"; sourceTree = "<group>"; };
-		692ED29E1796EF10008554F9 /* man-influence.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "man-influence.png"; path = "../man-influence.png"; sourceTree = "<group>"; };
-		692ED29F1796EF10008554F9 /* man-influence@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "man-influence@2x.png"; path = "../man-influence@2x.png"; sourceTree = "<group>"; };
 		692ED2B01796F466008554F9 /* DictionaryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DictionaryTableViewController.h; path = ../DictionaryTableViewController.h; sourceTree = "<group>"; };
 		692ED2B11796F466008554F9 /* DictionaryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DictionaryTableViewController.m; path = ../DictionaryTableViewController.m; sourceTree = "<group>"; };
 		692ED2B31796F48B008554F9 /* WordDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordDetailViewController.h; sourceTree = "<group>"; };
@@ -177,8 +157,6 @@
 		9BA06E6C1A833F9200A6A19E /* TAWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAWord.h; sourceTree = "<group>"; };
 		9BA06E6D1A833F9200A6A19E /* TAWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAWord.m; sourceTree = "<group>"; };
 		9BA06E6F1A83631900A6A19E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		9BAC0B431A1C4BA1004C4867 /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon.png; sourceTree = "<group>"; };
-		9BAC0B441A1C4BA1004C4867 /* appicon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon2.png; sourceTree = "<group>"; };
 		FA0BAF761A4333DE00AF6DFB /* MapDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapDetailViewController.h; sourceTree = "<group>"; };
 		FA0BAF771A4333DE00AF6DFB /* MapDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapDetailViewController.m; sourceTree = "<group>"; };
 		FA3683CC1A1144F300E9740F /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
@@ -308,17 +286,6 @@
 			children = (
 				692ED2591796D552008554F9 /* AppDelegate.h */,
 				692ED25A1796D552008554F9 /* AppDelegate.m */,
-				690248B617F05294009D6811 /* bookmark@2x.png */,
-				692ED29E1796EF10008554F9 /* man-influence.png */,
-				692ED29F1796EF10008554F9 /* man-influence@2x.png */,
-				9BAC0B431A1C4BA1004C4867 /* appicon.png */,
-				9BAC0B441A1C4BA1004C4867 /* appicon2.png */,
-				692ED2921796E709008554F9 /* equality.png */,
-				692ED2931796E709008554F9 /* equality@2x.png */,
-				692ED27F1796E04B008554F9 /* bible@2x.png */,
-				692ED28A1796E511008554F9 /* bible.png */,
-				692ED2811796E04B008554F9 /* church.png */,
-				692ED2821796E04B008554F9 /* church@2x.png */,
 				692ED2521796D552008554F9 /* theologica-Info.plist */,
 				692ED2531796D552008554F9 /* InfoPlist.strings */,
 				692ED2561796D552008554F9 /* main.m */,
@@ -529,22 +496,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				692ED2551796D552008554F9 /* InfoPlist.strings in Resources */,
-				690248B717F05294009D6811 /* bookmark@2x.png in Resources */,
 				692ED2641796D552008554F9 /* MainStoryboard.storyboard in Resources */,
 				69B52BAB1A0EF6C100C23B47 /* Launch Screen.xib in Resources */,
-				692ED2841796E04B008554F9 /* bible@2x.png in Resources */,
-				692ED2861796E04B008554F9 /* church.png in Resources */,
-				692ED2871796E04B008554F9 /* church@2x.png in Resources */,
-				692ED28B1796E511008554F9 /* bible.png in Resources */,
 				6902FACE17F51D3E00299A50 /* Images.xcassets in Resources */,
-				692ED2981796E709008554F9 /* equality.png in Resources */,
-				692ED2991796E709008554F9 /* equality@2x.png in Resources */,
-				692ED2A81796EF10008554F9 /* man-influence.png in Resources */,
-				692ED2A91796EF10008554F9 /* man-influence@2x.png in Resources */,
-				9BAC0B461A1C4BA1004C4867 /* appicon2.png in Resources */,
 				6976E3021A6F3E8D0013A6D5 /* Links.plist in Resources */,
 				69F802BA1B3A4F8E002A5C8C /* Explorations.plist in Resources */,
-				9BAC0B451A1C4BA1004C4867 /* appicon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

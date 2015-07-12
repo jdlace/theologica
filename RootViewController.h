@@ -15,6 +15,8 @@
 
 @property (strong, nonatomic) UIPageViewController *pageViewController;
 @property (strong, nonatomic) IBOutlet UIPageControl *pageControl;
+@property (nonatomic, assign) BOOL canAutoRotate;
+
 
 - (IBAction)aboutButton:(id)sender;
 - (IBAction)infoButton:(id)sender;

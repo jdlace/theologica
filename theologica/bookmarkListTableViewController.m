@@ -262,7 +262,9 @@
     return 50;
 }
 
-
+- (BOOL)shouldAutorotate {
+    return NO;
+}
 
 
 

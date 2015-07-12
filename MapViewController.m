@@ -1380,7 +1380,6 @@
     
     [self presentViewController:alert animated:YES completion:nil];
     
-    
-    
 }
+
 @end

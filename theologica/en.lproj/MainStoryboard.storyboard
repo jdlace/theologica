@@ -43,8 +43,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bUE-2r-lLZ">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bUE-2r-lLZ">
                                 <rect key="frame" x="158" y="306" width="85" height="85"/>
+                                <accessibility key="accessibilityConfiguration" label="Councils Button"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="85" id="Qii-nX-s0s"/>
                                     <constraint firstAttribute="height" constant="85" id="tC4-71-HL1"/>
@@ -52,13 +53,13 @@
                                 <state key="normal" image="churchpurple">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <state key="highlighted" image="vaticanbw2"/>
                                 <connections>
                                     <segue destination="WgE-D5-S3e" kind="show" identifier="councilsDetail" id="SUZ-7F-Wrv"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mZp-wZ-9Kb">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mZp-wZ-9Kb">
                                 <rect key="frame" x="361" y="192" width="85" height="85"/>
+                                <accessibility key="accessibilityConfiguration" label="Fathers Button"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="85" id="1w3-Du-evt"/>
                                     <constraint firstAttribute="height" constant="85" id="yKC-HX-nQh"/>
@@ -66,13 +67,13 @@
                                 <state key="normal" image="fatherspurple">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <state key="highlighted" image="fathersButton-2"/>
                                 <connections>
                                     <segue destination="WgE-D5-S3e" kind="show" identifier="fathersDetail" id="75L-6c-1rN"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1RP-UI-qPu">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1RP-UI-qPu">
                                 <rect key="frame" x="158" y="192" width="85" height="85"/>
+                                <accessibility key="accessibilityConfiguration" label="Scripture Button"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="85" id="DED-mq-Bpp"/>
                                     <constraint firstAttribute="width" constant="85" id="lnz-Mb-YAc"/>
@@ -81,7 +82,6 @@
                                 <state key="normal" image="biblepurple">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <state key="highlighted" image="codex2-1"/>
                                 <connections>
                                     <segue destination="WgE-D5-S3e" kind="show" identifier="scriptureDetail" id="pbe-ii-vwi"/>
                                 </connections>
@@ -89,8 +89,9 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rAu-Jx-sxp">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="25X-ue-pyB">
+                                    <button opaque="NO" contentMode="scaleToFill" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="25X-ue-pyB">
                                         <rect key="frame" x="259" y="104" width="85" height="85"/>
+                                        <accessibility key="accessibilityConfiguration" label="Magisterium Button"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="85" id="tRR-fd-52c"/>
                                             <constraint firstAttribute="width" constant="85" id="zeK-gt-Fhp"/>
@@ -99,7 +100,6 @@
                                         <state key="normal" image="papalbutton-1">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
-                                        <state key="highlighted" image="peter3"/>
                                         <connections>
                                             <segue destination="WgE-D5-S3e" kind="show" identifier="magisteriumDetail" id="fpz-cw-V81"/>
                                         </connections>
@@ -164,8 +164,9 @@
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eTd-xN-B1n">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eTd-xN-B1n">
                                 <rect key="frame" x="361" y="306" width="85" height="85"/>
+                                <accessibility key="accessibilityConfiguration" label="Creeds Button"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="85" id="Rep-5k-EHj"/>
                                     <constraint firstAttribute="height" constant="85" id="mAe-MO-rfA"/>
@@ -190,15 +191,15 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SAW-pB-QkJ" userLabel="LiturgyButton">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SAW-pB-QkJ" userLabel="LiturgyButton">
                                         <rect key="frame" x="259" y="392" width="85" height="85"/>
+                                        <accessibility key="accessibilityConfiguration" label="Liturgy Button"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="85" id="Myw-Sy-M4Q"/>
                                             <constraint firstAttribute="height" constant="85" id="Rfl-eG-p22"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <state key="normal" image="winelinespurple">
-                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
@@ -596,7 +597,7 @@
                                     <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="edO-tb-A2K" userLabel="Content View">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" alpha="0.14999999999999969" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="3menCircle" translatesAutoresizingMaskIntoConstraints="NO" id="B9P-9X-77s">
+                                            <imageView userInteractionEnabled="NO" alpha="0.14999999999999969" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B9P-9X-77s">
                                                 <rect key="frame" x="0.0" y="64" width="320" height="125"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JTp-ch-Whd">
@@ -1823,9 +1824,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iYw-OI-EIU">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iYw-OI-EIU">
                                 <rect key="frame" x="156" y="201" width="85" height="85"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration" label="Science Button"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="85" id="MjL-7L-k9D"/>
                                     <constraint firstAttribute="height" constant="85" id="W0V-tn-jAe"/>
@@ -1853,9 +1855,10 @@
                                     <segue destination="WgE-D5-S3e" kind="show" identifier="scienceDetail" id="WdI-Af-beV"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EQW-dT-Yxw">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EQW-dT-Yxw">
                                 <rect key="frame" x="156" y="311" width="85" height="85"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration" label="Technology Button"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="85" id="7f2-BH-XOL"/>
                                     <constraint firstAttribute="height" constant="85" id="StJ-L5-8S7"/>
@@ -1883,9 +1886,10 @@
                                     <segue destination="WgE-D5-S3e" kind="show" identifier="technologyDetail" id="2dh-Va-pIy"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="32O-Hh-C6Q">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="32O-Hh-C6Q">
                                 <rect key="frame" x="363" y="311" width="85" height="85"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration" label="The Arts Button"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="85" id="0DY-37-1jw"/>
                                     <constraint firstAttribute="height" constant="85" id="OIa-bv-LgY"/>
@@ -1916,9 +1920,10 @@
                                     <segue destination="WgE-D5-S3e" kind="show" identifier="artsDetail" id="kHj-Nj-fNs"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fgt-aM-Ded">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fgt-aM-Ded">
                                 <rect key="frame" x="363" y="201" width="85" height="85"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration" label="Politics Button"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="85" id="5Pd-2W-2mg"/>
                                     <constraint firstAttribute="width" constant="85" id="Xdd-ed-R2s"/>
@@ -1986,9 +1991,10 @@
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CZW-n7-4SV" userLabel="PhilosophyButton">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CZW-n7-4SV" userLabel="PhilosophyButton">
                                         <rect key="frame" x="259" y="118" width="85" height="85"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <accessibility key="accessibilityConfiguration" label="Philosophy Button"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="85" id="mli-AR-Iy5"/>
                                             <constraint firstAttribute="height" constant="85" id="zDK-mb-Szi"/>
@@ -2051,9 +2057,10 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kjy-Qn-oSl">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AUR-r2-Gm5" userLabel="EconomicsButton">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AUR-r2-Gm5" userLabel="EconomicsButton">
                                         <rect key="frame" x="259" y="395" width="85" height="85"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <accessibility key="accessibilityConfiguration" label="Economics Button"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="85" id="QIo-En-mZY"/>
                                             <constraint firstAttribute="height" constant="85" id="boz-D0-jHG"/>
@@ -2383,7 +2390,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="3menCircle" width="66" height="66"/>
         <image name="appIconGradient3" width="40" height="40"/>
         <image name="atomblue-1" width="83" height="83"/>
         <image name="biblelines" width="29" height="30"/>
@@ -2396,28 +2402,24 @@
         <image name="chirhopurple-1" width="83" height="83"/>
         <image name="churchpurple" width="83" height="83"/>
         <image name="cityblue" width="83" height="83"/>
-        <image name="codex2-1" width="70" height="70"/>
         <image name="councillines" width="30" height="30"/>
         <image name="defdetail-1" width="106" height="49"/>
         <image name="dollarblue" width="83" height="83"/>
         <image name="earth-wireframe-7@3x copy" width="30" height="30"/>
         <image name="earthlines 3" width="30" height="30"/>
-        <image name="fathersButton-2" width="70" height="70"/>
         <image name="fatherspurple" width="83" height="83"/>
         <image name="headphonesblue" width="83" height="83"/>
         <image name="jerusalem" width="657" height="133"/>
         <image name="papalbutton-1" width="83" height="83"/>
-        <image name="peter3" width="70" height="70"/>
         <image name="philosophyblue" width="83" height="83"/>
         <image name="phoneblue" width="83" height="83"/>
         <image name="radarblue" width="30" height="30"/>
         <image name="radargrey" width="30" height="30"/>
-        <image name="vaticanbw2" width="70" height="70"/>
         <image name="viewIcon" width="66" height="66"/>
         <image name="winelinespurple" width="83" height="83"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="D2d-iF-b5c"/>
-        <segue reference="zLY-YZ-JXK"/>
+        <segue reference="pbe-ii-vwi"/>
     </inferredMetricsTieBreakers>
 </document>
