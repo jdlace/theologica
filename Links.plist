@@ -285,15 +285,21 @@
 		</dict>
 		<dict>
 			<key>Name</key>
+			<string>Thinking Faith</string>
+			<key>URL</key>
+			<string>http://www.thinkingfaith.org</string>
+		</dict>
+		<dict>
+			<key>Name</key>
 			<string>Journal of Moral Theology</string>
 			<key>URL</key>
 			<string>http://cdm.msmary.edu:2011/cdm/search/collection/JMT/searchterm/*/order/nosort</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>Thinking Faith</string>
+			<string>Metanexus Institute</string>
 			<key>URL</key>
-			<string>http://www.thinkingfaith.org</string>
+			<string>http://www.metanexus.net</string>
 		</dict>
 		<dict>
 			<key>Name</key>
