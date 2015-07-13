@@ -23,6 +23,7 @@
     
 }
 
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -68,5 +69,27 @@
     // Pass the selected object to the new view controller.
 }
 */
+-(BOOL)shouldAutorotate{
+    return YES;
+}
+
+-(NSUInteger)supportedInterfaceOrientations{
+    
+    //    UIInterfaceOrientationMaskLandscape;
+    //    24
+    //
+    //    UIInterfaceOrientationMaskLandscapeLeft;
+    //    16
+    //
+    //    UIInterfaceOrientationMaskLandscapeRight;
+    //    8
+    //
+    //    UIInterfaceOrientationMaskPortrait;
+    //    2
+    
+    //    return UIInterfaceOrientationMaskPortrait;
+    //    or
+    return 24;
+}
 
 @end

@@ -36,6 +36,12 @@
 		695847CE1AB5C9B90085251C /* TwitterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 695847CD1AB5C9B90085251C /* TwitterTableViewController.m */; };
 		6960659C1B3C8D77003B500D /* SourcesWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6960659B1B3C8D77003B500D /* SourcesWebViewController.m */; };
 		69739B561A36897F008BAB06 /* SearchBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69739B551A36897F008BAB06 /* SearchBarViewController.m */; };
+		6975A2231B53413100BCB4B7 /* CustomTabsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6975A2221B53413100BCB4B7 /* CustomTabsViewController.m */; };
+		6975A2261B53437300BCB4B7 /* SourcesNavCon.m in Sources */ = {isa = PBXBuildFile; fileRef = 6975A2251B53437300BCB4B7 /* SourcesNavCon.m */; };
+		6975A2291B53442200BCB4B7 /* ReferenceNavCon.m in Sources */ = {isa = PBXBuildFile; fileRef = 6975A2281B53442200BCB4B7 /* ReferenceNavCon.m */; };
+		6975A22C1B5344ED00BCB4B7 /* DictionaryNavCon.m in Sources */ = {isa = PBXBuildFile; fileRef = 6975A22B1B5344ED00BCB4B7 /* DictionaryNavCon.m */; };
+		6975A22F1B53458700BCB4B7 /* MapsNavCon.m in Sources */ = {isa = PBXBuildFile; fileRef = 6975A22E1B53458700BCB4B7 /* MapsNavCon.m */; };
+		6975A2321B53460500BCB4B7 /* ExplorationsNavCon.m in Sources */ = {isa = PBXBuildFile; fileRef = 6975A2311B53460500BCB4B7 /* ExplorationsNavCon.m */; };
 		6976E3021A6F3E8D0013A6D5 /* Links.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6976E3011A6F3E8D0013A6D5 /* Links.plist */; };
 		698893B81A5E24CE00D1AC74 /* SourcesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 698893B71A5E24CE00D1AC74 /* SourcesDetailViewController.m */; };
 		6988A94A1A3E8DEB005A1B65 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6988A9491A3E8DEB005A1B65 /* MapViewController.m */; };
@@ -120,6 +126,18 @@
 		6960659B1B3C8D77003B500D /* SourcesWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SourcesWebViewController.m; path = ../SourcesWebViewController.m; sourceTree = "<group>"; };
 		69739B541A36897F008BAB06 /* SearchBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchBarViewController.h; sourceTree = "<group>"; };
 		69739B551A36897F008BAB06 /* SearchBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchBarViewController.m; sourceTree = "<group>"; };
+		6975A2211B53413100BCB4B7 /* CustomTabsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabsViewController.h; sourceTree = "<group>"; };
+		6975A2221B53413100BCB4B7 /* CustomTabsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabsViewController.m; sourceTree = "<group>"; };
+		6975A2241B53437300BCB4B7 /* SourcesNavCon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourcesNavCon.h; sourceTree = "<group>"; };
+		6975A2251B53437300BCB4B7 /* SourcesNavCon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SourcesNavCon.m; sourceTree = "<group>"; };
+		6975A2271B53442200BCB4B7 /* ReferenceNavCon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReferenceNavCon.h; path = theologica/ReferenceNavCon.h; sourceTree = "<group>"; };
+		6975A2281B53442200BCB4B7 /* ReferenceNavCon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReferenceNavCon.m; path = theologica/ReferenceNavCon.m; sourceTree = "<group>"; };
+		6975A22A1B5344ED00BCB4B7 /* DictionaryNavCon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DictionaryNavCon.h; path = ../DictionaryNavCon.h; sourceTree = "<group>"; };
+		6975A22B1B5344ED00BCB4B7 /* DictionaryNavCon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DictionaryNavCon.m; path = ../DictionaryNavCon.m; sourceTree = "<group>"; };
+		6975A22D1B53458700BCB4B7 /* MapsNavCon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapsNavCon.h; sourceTree = "<group>"; };
+		6975A22E1B53458700BCB4B7 /* MapsNavCon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapsNavCon.m; sourceTree = "<group>"; };
+		6975A2301B53460500BCB4B7 /* ExplorationsNavCon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExplorationsNavCon.h; sourceTree = "<group>"; };
+		6975A2311B53460500BCB4B7 /* ExplorationsNavCon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExplorationsNavCon.m; sourceTree = "<group>"; };
 		6976E3011A6F3E8D0013A6D5 /* Links.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Links.plist; sourceTree = "<group>"; };
 		698893B61A5E24CE00D1AC74 /* SourcesDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourcesDetailViewController.h; sourceTree = "<group>"; };
 		698893B71A5E24CE00D1AC74 /* SourcesDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SourcesDetailViewController.m; sourceTree = "<group>"; };
@@ -209,6 +227,8 @@
 		6907EB591A7E7ABC00AE52A1 /* Verbatim */ = {
 			isa = PBXGroup;
 			children = (
+				6975A2301B53460500BCB4B7 /* ExplorationsNavCon.h */,
+				6975A2311B53460500BCB4B7 /* ExplorationsNavCon.m */,
 				69F802BB1B3A50AE002A5C8C /* ExplorationsTableViewController.h */,
 				69F802BC1B3A50AE002A5C8C /* ExplorationsTableViewController.m */,
 				6907EB561A7E7AA300AE52A1 /* VerbatimViewController.h */,
@@ -298,6 +318,8 @@
 		694E879B1A55C5B700CE4A37 /* Links */ = {
 			isa = PBXGroup;
 			children = (
+				6975A2271B53442200BCB4B7 /* ReferenceNavCon.h */,
+				6975A2281B53442200BCB4B7 /* ReferenceNavCon.m */,
 				694E87981A55C5AB00CE4A37 /* LinksTableViewController.h */,
 				694E87991A55C5AB00CE4A37 /* LinksTableViewController.m */,
 				694E879C1A55D52400CE4A37 /* WebViewController.h */,
@@ -363,6 +385,8 @@
 		69B7DF611A2127EA0033465A /* Dictionary */ = {
 			isa = PBXGroup;
 			children = (
+				6975A22A1B5344ED00BCB4B7 /* DictionaryNavCon.h */,
+				6975A22B1B5344ED00BCB4B7 /* DictionaryNavCon.m */,
 				FA84505A1A129CA0007839D8 /* bookmarkListTableViewController.h */,
 				FA84505B1A129CA0007839D8 /* bookmarkListTableViewController.m */,
 				692ED2B01796F466008554F9 /* DictionaryTableViewController.h */,
@@ -378,6 +402,10 @@
 		69B7DF641A2128480033465A /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				6975A2211B53413100BCB4B7 /* CustomTabsViewController.h */,
+				6975A2221B53413100BCB4B7 /* CustomTabsViewController.m */,
+				6975A2241B53437300BCB4B7 /* SourcesNavCon.h */,
+				6975A2251B53437300BCB4B7 /* SourcesNavCon.m */,
 				690D0B9D1B13A57800A1F327 /* RootViewController.h */,
 				690D0B9E1B13A57800A1F327 /* RootViewController.m */,
 				69D4C4B61B117D07009B5FE0 /* SourceContentViewController.h */,
@@ -423,6 +451,8 @@
 		FA4D5CB01A41BFD9002B40F2 /* Map */ = {
 			isa = PBXGroup;
 			children = (
+				6975A22D1B53458700BCB4B7 /* MapsNavCon.h */,
+				6975A22E1B53458700BCB4B7 /* MapsNavCon.m */,
 				6988A9481A3E8DEB005A1B65 /* MapViewController.h */,
 				6988A9491A3E8DEB005A1B65 /* MapViewController.m */,
 				FA0BAF761A4333DE00AF6DFB /* MapDetailViewController.h */,
@@ -549,12 +579,15 @@
 				69D4C4BB1B117D1E009B5FE0 /* SignContentViewController.m in Sources */,
 				692ED25B1796D552008554F9 /* AppDelegate.m in Sources */,
 				69D6284F1A4762830073C157 /* SocialPins.m in Sources */,
+				6975A22C1B5344ED00BCB4B7 /* DictionaryNavCon.m in Sources */,
 				69BB25491A130F2E00B3F5B5 /* WordDataSource.m in Sources */,
 				692ED2B21796F466008554F9 /* DictionaryTableViewController.m in Sources */,
+				6975A2291B53442200BCB4B7 /* ReferenceNavCon.m in Sources */,
 				69739B561A36897F008BAB06 /* SearchBarViewController.m in Sources */,
 				692ED2B51796F48B008554F9 /* WordDetailViewController.m in Sources */,
 				9BA06E2D1A833AD400A6A19E /* theologica.xcdatamodeld in Sources */,
 				69D6284C1A47617B0073C157 /* HistoricalPins.m in Sources */,
+				6975A2321B53460500BCB4B7 /* ExplorationsNavCon.m in Sources */,
 				69F802BD1B3A50AE002A5C8C /* ExplorationsTableViewController.m in Sources */,
 				FA84505C1A129CA0007839D8 /* bookmarkListTableViewController.m in Sources */,
 				6907EB581A7E7AA300AE52A1 /* VerbatimViewController.m in Sources */,
@@ -562,13 +595,16 @@
 				694E87A41A56504F00CE4A37 /* Source.m in Sources */,
 				694E879A1A55C5AB00CE4A37 /* LinksTableViewController.m in Sources */,
 				6954D6FF1A884E17004374F0 /* AboutViewController.m in Sources */,
+				6975A2261B53437300BCB4B7 /* SourcesNavCon.m in Sources */,
 				694E879E1A55D52400CE4A37 /* WebViewController.m in Sources */,
 				690D0B9F1B13A57800A1F327 /* RootViewController.m in Sources */,
+				6975A22F1B53458700BCB4B7 /* MapsNavCon.m in Sources */,
 				FA0BAF781A4333DE00AF6DFB /* MapDetailViewController.m in Sources */,
 				698893B81A5E24CE00D1AC74 /* SourcesDetailViewController.m in Sources */,
 				69FB18EB1A0051C500F1C9A4 /* Word.m in Sources */,
 				6988A94A1A3E8DEB005A1B65 /* MapViewController.m in Sources */,
 				69D4C4B81B117D07009B5FE0 /* SourceContentViewController.m in Sources */,
+				6975A2231B53413100BCB4B7 /* CustomTabsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

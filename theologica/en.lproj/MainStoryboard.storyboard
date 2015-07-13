@@ -8,10 +8,10 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Tab Bar Controller-->
+        <!--Custom Tabs View Controller-->
         <scene sceneID="15">
             <objects>
-                <tabBarController id="4" sceneMemberID="viewController">
+                <tabBarController id="4" customClass="CustomTabsViewController" sceneMemberID="viewController">
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="5">
@@ -1435,7 +1435,7 @@
         <!--Dictionary-->
         <scene sceneID="fAn-dN-fqo">
             <objects>
-                <navigationController definesPresentationContext="YES" id="3ZE-jz-AIY" sceneMemberID="viewController">
+                <navigationController definesPresentationContext="YES" id="3ZE-jz-AIY" customClass="DictionaryNavCon" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Dictionary" image="biblelines" id="ADP-i6-dTj">
                         <inset key="imageInsets" minX="0.0" minY="2" maxX="0.0" maxY="-2"/>
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
@@ -1738,7 +1738,7 @@
         <!--Maps-->
         <scene sceneID="jRQ-oP-mln">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Z0P-od-vVe" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Z0P-od-vVe" customClass="MapsNavCon" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Maps" image="earthlines 3" selectedImage="earth-wireframe-7@3x copy" id="vUG-tr-5Lj">
                         <inset key="imageInsets" minX="0.0" minY="2" maxX="0.0" maxY="-2"/>
                         <userDefinedRuntimeAttributes>
@@ -1763,7 +1763,7 @@
         <!--Reference-->
         <scene sceneID="DXf-Dc-5sq">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FNM-Aj-5h7" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FNM-Aj-5h7" customClass="ReferenceNavCon" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Reference" image="book-arrange-7" id="PJ4-hc-nQh">
                         <inset key="imageInsets" minX="0.0" minY="3" maxX="0.0" maxY="-3"/>
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
@@ -1789,7 +1789,7 @@
         <!--Overview-->
         <scene sceneID="LjN-ji-VcW">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gNN-7E-KYP" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gNN-7E-KYP" customClass="SourcesNavCon" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Overview" image="councillines" selectedImage="bluehouse" id="zvm-r6-5ad">
                         <inset key="imageInsets" minX="0.0" minY="4" maxX="0.0" maxY="-4"/>
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="1"/>
@@ -2366,7 +2366,7 @@
         <!--Explorations-->
         <scene sceneID="uUL-Kf-MgO">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fal-fR-YTQ" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fal-fR-YTQ" customClass="ExplorationsNavCon" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Explorations" image="radargrey" selectedImage="radarblue" id="3ig-PY-xuj">
                         <inset key="imageInsets" minX="0.0" minY="2" maxX="0.0" maxY="-2"/>
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
