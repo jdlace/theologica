@@ -175,7 +175,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Adonai",
                            @"twitterDef":@"the Hebrew word meaning “Master” or “Ruler”",
-                           @"definition":@"\rThis term is used as a substitute reference to YHWH in the Tanak and in contemporary Judaism out of respect for the Tetragrammaton. See “Tanak”, “YHWH”, “Tetragrammaton”.\r\rHebrew, אֲדֹנָי (adonai)\r\rFurther Reference:\rCatechism of the Catholic Church, 209\rhttp://tinyurl.com/bruqt9r\r\r\r",
+                           @"definition":@"\rThis term is used as a substitute reference to Yahweh in the Tanak and in contemporary Judaism out of respect for the Tetragrammaton. See “Tanak”, “Yahweh”, “Tetragrammaton”.\r\rHebrew, אֲדֹנָי (adonai)\r\rFurther Reference:\rCatechism of the Catholic Church, 209\rhttp://tinyurl.com/bruqt9r\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Aseity",
@@ -196,7 +196,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Anthropomorphism",
                            @"twitterDef":@"the process of attributing human characteristics to an object",
-                           @"definition":@"\rGod is described in human terms throughout the Christian tradition, and especially within the Scriptures. The Yahwist Source uses anthropomorphism extensively in its portrayal of YHWH in the Torah. Such language is, however, ultimately, only analogous to God. Pope John Paul II claimed that various modes of expression are used within the Scriptures:\r\r“Speaking about himself, whether through the prophets, or through the Son' (cf. Heb 1:1, 2) who became man, God speaks in human language, using human concepts and images. If this manner of expressing himself is characterized by a certain anthropomorphism, the reason is that man is 'like' God: created in his image and likeness. But then, God too is in some measure 'like man', and precisely because of this likeness, he can be humanly known.”-Mulierus Dignatatum, 8\r\rSee “Analogy”, “Yahwist Source”, “YHWH”.\r\rFurther Reference:\rPope John Paul II, “Mulierus Dignatatem”\rhttp://tinyurl.com/nphq2r6\r\r\r",
+                           @"definition":@"\rGod is described in human terms throughout the Christian tradition, and especially within the Scriptures. The Yahwist Source uses anthropomorphism extensively in its portrayal of Yahweh in the Torah. Such language is, however, ultimately, only analogous to God. Pope John Paul II claimed that various modes of expression are used within the Scriptures:\r\r“Speaking about himself, whether through the prophets, or through the Son' (cf. Heb 1:1, 2) who became man, God speaks in human language, using human concepts and images. If this manner of expressing himself is characterized by a certain anthropomorphism, the reason is that man is 'like' God: created in his image and likeness. But then, God too is in some measure 'like man', and precisely because of this likeness, he can be humanly known.”-Mulierus Dignatatum, 8\r\rSee “Analogy”, “Yahwist Source”, “Yahweh”.\r\rFurther Reference:\rPope John Paul II, “Mulierus Dignatatem”\rhttp://tinyurl.com/nphq2r6\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Annunciation",
@@ -275,7 +275,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Abortion",
                            @"twitterDef":@"the willful killing of a human being in utero",
-                           @"definition":@"\rIn the Catholic tradition, human beings are regarded as sacred from the moment of conception. The death of an unborn child as a consequence of other procedures deemed good in themselves is not considered an abortion per se but rather a consequence of the principle of double-effect.\r\rThe Catholic tradition is consistent in its classification of abortion as a grave sin, the willful commision of which incurs an automatic excommunication. Abortion was legalized in the United States in 1973 by the Supreme Court in Roe v. Wade. See “Principle of Double-Effect”, “Roe v. Wade”\r\rFurther Reference:\rCatechism of the Catholic Church, 2270\rhttp://tinyurl.com/dh7r\r\rU.S. Supreme Court, “Roe v. Wade”\rhttp://tinyurl.com/qhpdzo3\r\r\r",
+                           @"definition":@"\rIn the Catholic tradition, human beings are regarded as sacred from the moment of conception. The death of an unborn child as a consequence of other procedures deemed good in themselves is not considered an abortion per se but rather a consequence of the principle of double-effect.\r\rThe Catholic tradition is consistent in its classification of abortion as a grave sin, the willful commision of which incurs an automatic excommunication. Abortion was legalized in the United States in 1973 by the Supreme Court in Roe v. Wade. See “Principle of Double-Effect”, “Roe v. Wade”\r\rFurther Reference:\rCatechism of the Catholic Church, 2270\rhttp://tinyurl.com/dh7r\r\r    http://tinyurl.com/pzcrp3j\r\rRev. James Diamond\r“Abortion, Animation, and Biological Hominzation”\rhttp://tinyurl.com/pzcrp3j\r\rU.S. Supreme Court, “Roe v. Wade”\rhttp://tinyurl.com/qhpdzo3\r\r\r",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Abstinence",
@@ -391,7 +391,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Alleluia",
                            @"twitterDef":@"a Latinized form of the phrase meaning\r“Praise the LORD”",
-                           @"definition":@"\rThe Alleluia is derived from the Hebrew expression “Praise YHWH”. It is spoken before the reading of the Gospel during the Mass. It is not spoken during the season of Lent.\r\rFurther Reference:\rCatechism of the Catholic Church, 2589\rhttp://tinyurl.com/pynlg6a\r\r\r",
+                           @"definition":@"\rThe Alleluia is derived from the Hebrew expression “Praise Yahweh”. It is spoken before the reading of the Gospel during the Mass. It is not spoken during the season of Lent.\r\rFurther Reference:\rCatechism of the Catholic Church, 2589\rhttp://tinyurl.com/pynlg6a\r\r\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Altar",
@@ -572,7 +572,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Blessing",
                            @"twitterDef":@"a pronouncement of Divine favor",
-                           @"definition":@"\rThe concept of blessing has its origins in the Old Testament. Patriarchs speak blessings over their inheritors. The Psalmist praises YHWH for various provisions in the form of blessings. In the New Testament, spiritual blessings are seen as being bestowed on the Church in Christ.\r\rHebrew, בְּרָכָה (berakah) “blessing”\r\rFurther Reference:\rCatechism of the Catholic Church, 2626\rhttp://tinyurl.com/jwoavzg\r\r\r",
+                           @"definition":@"\rThe concept of blessing has its origins in the Old Testament. Patriarchs speak blessings over their inheritors. The Psalmist praises Yahweh for various provisions in the form of blessings. In the New Testament, spiritual blessings are seen as being bestowed on the Church in Christ.\r\rHebrew, בְּרָכָה (berakah) “blessing”\r\rFurther Reference:\rCatechism of the Catholic Church, 2626\rhttp://tinyurl.com/jwoavzg\r\r\r",
                            @"category":@"Systematic"}];
 
     
@@ -613,8 +613,8 @@
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Ban",
-                           @"twitterDef":@"the ancient Israelite practice of destroying possessions dedicated to YHWH",
-                           @"definition":@"\rWhen victorious over its enemies, Israel was to place certain possessions, including people, under the Ban and completely destroy them in order to devote them anew to YHWH. Such is the case in Joshua 6 and 1 Samuel 15, which explicity commands the death of women and children. See “YHWH”.\r\rHebrew, חֶרֶם (herem) “cursed”\r\rFurther Reference:\rWikipedia, “Ban”\rhttp://tinyurl.com/p7phypo\r\r\r",
+                           @"twitterDef":@"the ancient Israelite practice of destroying possessions dedicated to Yahweh",
+                           @"definition":@"\rWhen victorious over its enemies, Israel was to place certain possessions, including people, under the Ban and completely destroy them in order to devote them anew to Yahweh. Such is the case in Joshua 6 and 1 Samuel 15, which explicity commands the death of women and children. See “Yahweh”.\r\rHebrew, חֶרֶם (herem) “cursed”\r\rFurther Reference:\rWikipedia, “Ban”\rhttp://tinyurl.com/p7phypo\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Big Bang Theory",
@@ -910,7 +910,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Chesed",
                            @"twitterDef":@"a Hebrew word meaning “loving kindness”",
-                           @"definition":@"\rChesed occurs predominantly in the Psalms, where it is used to refer to YHWH's covenant faithfulness. See “Agape”.\r\rHebrew, חֶסֶד (chesed)\r\rFurther Reference:\rWikipedia, “Chesed”\rhttp://tinyurl.com/9b59jr\r\r\r",
+                           @"definition":@"\rChesed occurs predominantly in the Psalms, where it is used to refer to Yahweh's covenant faithfulness. See “Agape”.\r\rHebrew, חֶסֶד (chesed)\r\rFurther Reference:\rWikipedia, “Chesed”\rhttp://tinyurl.com/9b59jr\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Circumcision",
@@ -925,7 +925,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Covenant",
                            @"twitterDef":@"a sacred contract or agreement",
-                           @"definition":@"\rCovenants are used throughout the Bible. They refer to the relationship between YHWH and Noah and all living creatures in Genesis 9; between God and Abraham in Genesis 15 and 17; between YHWH and all Israel in Exodus 25; and between God and humanity in the Gospels.\r\rFurther Reference:\rCatechism of the Catholic Church, 56, 59, 62, 73 http://tinyurl.com/pesbbq3\r\r\r",
+                           @"definition":@"\rCovenants are used throughout the Bible. They refer to the relationship between Yahweh and Noah and all living creatures in Genesis 9; between God and Abraham in Genesis 15 and 17; between Yahweh and all Israel in Exodus 25; and between God and humanity in the Gospels.\r\rFurther Reference:\rCatechism of the Catholic Church, 56, 59, 62, 73 http://tinyurl.com/pesbbq3\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Covenant Code",
@@ -1091,7 +1091,7 @@
 
     [TAWord wordWithDict:@{@"name":@"Deuteronomic History",
                            @"twitterDef":@"the theologized history of Israel in Joshua, Judges, 1 & 2 Samuel, and 1 & 2 Kings",
-                           @"definition":@"\rThe term given to the books Joshua, Judges, 1 & 2 Samuel, and 1 & 2 Kings, based on the theology of the book of Deuteronomy, which detail the rise and fall of the Israelite monarchy, united and divided kingdom, and eventual downfall of the nation Israel. It shows discernable signs of a major redaction after the Exile. Thus, Dtr1 is the pre-Exilic form of the history of Israel that portrays YHWH promising that the Davidic Covenant and Solomonic Temple will last forever. The post-Exilic version, Dtr2, adds renders those promises conditional, thus explaining the Exile in terms of disobedience to the Deuteronomic Code. See “Deuteronomic Code”, “Israel”.\r\rFurther Reference:\rWikipedia, “Deuteronomic History”\rhttp://tinyurl.com/poqwjxo\r\r\r",
+                           @"definition":@"\rThe term given to the books Joshua, Judges, 1 & 2 Samuel, and 1 & 2 Kings, based on the theology of the book of Deuteronomy, which detail the rise and fall of the Israelite monarchy, united and divided kingdom, and eventual downfall of the nation Israel. It shows discernable signs of a major redaction after the Exile. Thus, Dtr1 is the pre-Exilic form of the history of Israel that portrays Yahweh promising that the Davidic Covenant and Solomonic Temple will last forever. The post-Exilic version, Dtr2, adds renders those promises conditional, thus explaining the Exile in terms of disobedience to the Deuteronomic Code. See “Deuteronomic Code”, “Israel”.\r\rFurther Reference:\rWikipedia, “Deuteronomic History”\rhttp://tinyurl.com/poqwjxo\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Deuteronomic Source",
@@ -1257,7 +1257,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Election",
                            @"twitterDef":@"the concept that Israel and the Church were chosen by God to be in a covenant",
-                           @"definition":@"\rElection is a concept that runs throughout both the Old and New Testaments. In the Old Testament, Israel is a nation chosen by YHWH from among other nations to be in covenant relationship. In the New Testament, Christ is referred to as the “Chosen One” and believers in him are referred to as being chosen in him.\r\rFurther Reference:\rCatechism of the Catholic Church, 762, 769\rhttp://tinyurl.com/oy6txqx\r\r\r",
+                           @"definition":@"\rElection is a concept that runs throughout both the Old and New Testaments. In the Old Testament, Israel is a nation chosen by Yahweh from among other nations to be in covenant relationship. In the New Testament, Christ is referred to as the “Chosen One” and believers in him are referred to as being chosen in him.\r\rFurther Reference:\rCatechism of the Catholic Church, 762, 769\rhttp://tinyurl.com/oy6txqx\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Eschatology",
@@ -1373,7 +1373,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Exodus",
                            @"twitterDef":@"the liberation of the Israelite slaves from Egypt under Moses",
-                           @"definition":@"\rThe Exodus is traditionally dated to ca. 1275 BCE in the reign of Ramases II. It is the foundational event of the Israelite nation; current biblical research supports the idea of a small group of slaves leaving Egypt, having a Divine Revelation in Midian, and traveling to Canaan, where they met newly liberated Canaanite slaves. Exodus is also the name of the second book of the Torah. Richard Elliot Friedman argues that the Levites were the Israelites who left Egypt based on the following facts:\r\r1. Moses is identified as a Levite.\r2. Only Levites had Egyptian names.\r3. Levites had no alloted territory.\r4. Israel is absent from the Song of the Sea.\r5. Levites are absent from the Song of Debrah.\r6. Only Levite authors require circumcision, an Egyptian practice.\r7. Levite authors claim God was known by “El” until “YHWH” was revealed to Moses, a Levite.\r8. Only Levite authors include the Plagues.\r9. The Tabernacle & Temple are strikingly similar to Egyptian archeology.\r10. Levites murder those opposed to Moses.\r\rFurther Reference:\rRichard Elliot Friedman,\r“The Exodus Based on the Sources”\rhttp://tinyurl.com/ncovf49\r\r\r",
+                           @"definition":@"\rThe Exodus is traditionally dated to ca. 1275 BCE in the reign of Ramases II. It is the foundational event of the Israelite nation; current biblical research supports the idea of a small group of slaves leaving Egypt, having a Divine Revelation in Midian, and traveling to Canaan, where they met newly liberated Canaanite slaves. Exodus is also the name of the second book of the Torah. Richard Elliot Friedman argues that the Levites were the Israelites who left Egypt based on the following facts:\r\r1. Moses is identified as a Levite.\r2. Only Levites had Egyptian names.\r3. Levites had no alloted territory.\r4. Israel is absent from the Song of the Sea.\r5. Levites are absent from the Song of Debrah.\r6. Only Levite authors require circumcision, an Egyptian practice.\r7. Levite authors claim God was known by “El” until “Yahweh” was revealed to Moses, a Levite.\r8. Only Levite authors include the Plagues.\r9. The Tabernacle & Temple are strikingly similar to Egyptian archeology.\r10. Levites murder those opposed to Moses.\r\rFurther Reference:\rRichard Elliot Friedman,\r“The Exodus Based on the Sources”\rhttp://tinyurl.com/ncovf49\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Elementary Experience",
@@ -1430,7 +1430,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Faith",
                            @"twitterDef":@"trust or confidence;\rthe content of a religious tradition",
-                           @"definition":@"\rThe importance of faith is first illustrated in Genesis 15. According to the text, after YHWH promised Abram that he would father many nations, “Abram put his faith in the LORD who attributed it to him as an act of righteousness. Habbakuk 2:4 claims “the righteous will live by faith. Paul uses both of these references in his letter to the Romans, in which he claims that salvation is by “grace through faith”. Jude 1:3 refers to the Faith as “once for all delivered to the Saints”. See “Justification”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1814\rhttp://tinyurl.com/pd2yc32\r\r\r",
+                           @"definition":@"\rThe importance of faith is first illustrated in Genesis 15. According to the text, after Yahweh promised Abram that he would father many nations, “Abram put his faith in the LORD who attributed it to him as an act of righteousness. Habbakuk 2:4 claims “the righteous will live by faith. Paul uses both of these references in his letter to the Romans, in which he claims that salvation is by “grace through faith”. Jude 1:3 refers to the Faith as “once for all delivered to the Saints”. See “Justification”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1814\rhttp://tinyurl.com/pd2yc32\r\r\r",
                            @"category":@"Systematic"}];
     
     
@@ -1603,7 +1603,7 @@
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Hallelujah",
-                           @"twitterDef":@"a Hebrew word meaning “Praise YHWH”",
+                           @"twitterDef":@"a Hebrew word meaning “Praise Yahweh”",
                            @"definition":@"\rHallelujah occurs frequently throughout the Old Testament, especially in the Psalms.\r\rHebrew, הַלְּלוּיָהּ (halleluya)\r\rFurther Reference:\rWikipedia, “Hallelujah”\rhttp://tinyurl.com/5gctqe\r\r\r",
                            @"category":@"Liturgical"}];
 
@@ -1620,7 +1620,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Henotheism",
                            @"twitterDef":@"the belief that many gods exist while only one is served",
-                           @"definition":@"\rThe pre-exilic Israelites believed that foreign gods were real, but that they only had a covenant with YHWH. See “Monotheism”.\r\rFurther Reference:\rWikipedia, “Henotheism”\rhttp://tinyurl.com/chgvyn\r\r\r",
+                           @"definition":@"\rThe pre-exilic Israelites believed that foreign gods were real, but that they only had a covenant with Yahweh. See “Monotheism”.\r\rFurther Reference:\rWikipedia, “Henotheism”\rhttp://tinyurl.com/chgvyn\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Heresy",
@@ -1688,7 +1688,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Holy",
                            @"twitterDef":@"set apart from the ordinary, sacred",
-                           @"definition":@"\rGod is characterized as holy throughout the Catholic tradition. In the Scriptures, YHWH declares himself to be worshipped with the refrain “Holy, Holy, Holy” (Isaiah 6:3). Jesus is referred to as the Holy One (Acts 3:14). The Blessed Virgin Mary is referred to as the panhagia (all-holy). Holiness is one of the four marks of the Church.\r\rFurther Reference:\rWikipedia, “Sacred”\rhttp://tinyurl.com/pl9q2zh\r\r\r",
+                           @"definition":@"\rGod is characterized as holy throughout the Catholic tradition. In the Scriptures, Yahweh declares himself to be worshipped with the refrain “Holy, Holy, Holy” (Isaiah 6:3). Jesus is referred to as the Holy One (Acts 3:14). The Blessed Virgin Mary is referred to as the panhagia (all-holy). Holiness is one of the four marks of the Church.\r\rFurther Reference:\rWikipedia, “Sacred”\rhttp://tinyurl.com/pl9q2zh\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Holy of Holies",
@@ -1928,7 +1928,7 @@
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Kosher",
-                           @"twitterDef":@"foods that are appropriate to eat or sacrifice to YHWH",
+                           @"twitterDef":@"foods that are appropriate to eat or sacrifice to Yahweh",
                            @"definition":@"\rThe classification of some foods as “kosher” is unique to the Priestly Source. Leviticus 11 gives a detailed list of foods that are considered by the Priestly author to be unclean. See “Priestly Source”.\r\rFurther Reference:\rWikipedia, “Kosher Foods”\rhttp://tinyurl.com/druwv\r\r\r",
                            @"category":@"Biblical"}];
     
@@ -2007,7 +2007,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Levite",
                            @"twitterDef":@"a member of the priestly tribe of Levi",
-                           @"definition":@"\rAccording to the Elohist Source in Exodus 32:29, the Levites were set apart to serve YHWH as a reward for their faithfulness after rallying with Moses. Later in Deuteronomy 18:1-8, the Levites were specifically chosen as being the priests of YHWH. This view is in contrast to that of the Priestly Source, which only allows the sons of Aaron to serve as priests. See “Priestly Source”.\r\rFurther Reference:\rWikipedia, “Levite”\rhttp://tinyurl.com/2boql2c\r\r\r",
+                           @"definition":@"\rAccording to the Elohist Source in Exodus 32:29, the Levites were set apart to serve Yahweh as a reward for their faithfulness after rallying with Moses. Later in Deuteronomy 18:1-8, the Levites were specifically chosen as being the priests of Yahweh. This view is in contrast to that of the Priestly Source, which only allows the sons of Aaron to serve as priests. See “Priestly Source”.\r\rFurther Reference:\rWikipedia, “Levite”\rhttp://tinyurl.com/2boql2c\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Lex Orandi, Lex Credendi",
@@ -2285,7 +2285,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Natural Law",
                            @"twitterDef":@"the universal moral standard, accessible by human reason",
-                           @"definition":@"\rThe concept of natural law dates back to the early Greek philosophers. It is alluded to in St. Paul's epistle to the Romans 1:21. It is treated extensively by St. Thomas Aquinas in the “Summa Theologica”. Pope John Paul II emphasized its importance for Catholic moral teaching numerous times. More recent treatments have analyzed the concept in the context of its acknowledged conceptual difficulties. the Synod of Bishops in 2014 stated that the concept of Natural Law, given modern cultural pluralism, is problematic at best, if not entirely unintelligible:\r\r“In a vast majority of responses and observations, the concept of natural law today turns out to be, in different cultural contexts, highly problematic, if not completely incomprehensible. The expression is understood in a variety of ways, or simply not understood at all...Consequently, the natural law is perceived as an outdated legacy. Today, in not only the West but increasingly every part of the world, scientific research poses a serious challenge to the concept of nature. Evolution, biology and neuroscience, when confronted with the traditional idea of the natural law, conclude that it is not “scientific”....In other words, from an emerging point of view, drawn from a widely diffused culture, the natural law is no longer to be considered as applicable to everyone, since people mistakenly come to the conclusion that a unique system of reference does not exist.”\r-Synod, 21\rNadia Delicata contextualizes this disconnect with Natural Law in the growing dominance of technology:\r\r“...if the crisis of natural law among the Catholic faithful reflects a spiritual and existential crisis and not only a doctrinal and moral one, its retrieval as a robust foundation of the Christian life needs to face head-on other forces in human life that shape the spirit or ratio of our existence...We have now entered a new era shaped not by a modern 'mechanistic' mindset, but by a digital one of 'information.' If digitality is the most obvious technological substratum of the new age, 'information' is becoming its horizon of meaning...Just like the Christian life is in a mutual self-mediation with the emerging digital culture, the contemporary understanding of natural law must also evolve to accommodate emerging sensibilities and expressions..”\r-Delicatta, 2\r\rFurther Reference:\rInternational Theological Commission\r“In Search of a Universal Ethic”\rhttp://tinyurl.com/pxcjasx\r\rCatechism of the Catholic Church, 1954\rhttp://tinyurl.com/yla3tgm\r\rSynod of Bishops\r“Pastoral Challenges of the Family”\rhttp://tinyurl.com/ot9gmdg\r\rNadia Delicata\r“Natural Law in a Digital Age”\rhttp://tinyurl.com/opyt8mk\r\r\r",
+                           @"definition":@"\rThe concept of natural law dates back to the early Greek philosophers. It is alluded to in St. Paul's epistle to the Romans 1:21. It is treated extensively by St. Thomas Aquinas in the “Summa Theologica”. Pope John Paul II emphasized its importance for Catholic moral teaching numerous times. More recent treatments have analyzed the concept in the context of its acknowledged conceptual difficulties. the Synod of Bishops in 2014 stated that the concept of Natural Law, given modern cultural pluralism, is problematic at best, if not entirely unintelligible:\r\r“In a vast majority of responses and observations, the concept of natural law today turns out to be, in different cultural contexts, highly problematic, if not completely incomprehensible. The expression is understood in a variety of ways, or simply not understood at all...Consequently, the natural law is perceived as an outdated legacy. Today, in not only the West but increasingly every part of the world, scientific research poses a serious challenge to the concept of nature. Evolution, biology and neuroscience, when confronted with the traditional idea of the natural law, conclude that it is not “scientific”....In other words, from an emerging point of view, drawn from a widely diffused culture, the natural law is no longer to be considered as applicable to everyone, since people mistakenly come to the conclusion that a unique system of reference does not exist.”\r-Synod, 21\rNadia Delicata contextualizes this disconnect with Natural Law in the growing dominance of technology:\r\r“...if the crisis of natural law among the Catholic faithful reflects a spiritual and existential crisis and not only a doctrinal and moral one, its retrieval as a robust foundation of the Christian life needs to face head-on other forces in human life that shape the spirit or ratio of our existence...We have now entered a new era shaped not by a modern 'mechanistic' mindset, but by a digital one of 'information.' If digitality is the most obvious technological substratum of the new age, 'information' is becoming its horizon of meaning...Just like the Christian life is in a mutual self-mediation with the emerging digital culture, the contemporary understanding of natural law must also evolve to accommodate emerging sensibilities and expressions..”\r-Delicatta, 2\r\rFurther Reference:\rInternational Theological Commission\r“In Search of a Universal Ethic”\rhttp://tinyurl.com/pxcjasx\r\rCatechism of the Catholic Church, 1954\rhttp://tinyurl.com/yla3tgm\r\rSynod of Bishops\r“Pastoral Challenges of the Family”\rhttp://tinyurl.com/ot9gmdg\r\rNadia Delicata\r“Natural Law in a Digital Age”\rhttp://tinyurl.com/qx4nmac\r\r\r",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Natural Theology",
@@ -2349,7 +2349,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Office of Readings",
                            @"twitterDef":@"the set of spiritual readings for the Liturgy of the Hours",
-                           @"definition":@"\rThe Office of Readings was originally connected to Night Prayer, but was moved to accompany prayer throughout the course of the day. It contains readings from the Scriptures as well as selected texts from the Church Fathers. These readings are intended as an aid to meditation.\r\rFurther Reference:\rCongregation for Divine Worship\r“General Instruction on the Liturgy of the Hours”, 55-69\rhttp://tinyurl.com/luquyax\r\r\r",
+                           @"definition":@"\rThe Office of Readings was originally connected to Night Prayer, but was moved to accompany prayer throughout the course of the day. It contains readings from the Scriptures as well as selected texts from the Church Fathers. These readings are intended as an aid to meditation.\r\rFurther Reference:\rCongregation for Divine Worship\r“General Instruction on the Liturgy of the Hours”, 55-69, http://tinyurl.com/luquyax\r\r\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Omnibenevolence",
@@ -2364,7 +2364,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Omnipresence",
                            @"twitterDef":@"the quality of being all-present",
-                           @"definition":@"\rOmnipresence was a development from the teaching that God is Spirit.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy\r“Omnipresence”, http://tinyurl.com/3s7r2sz\r\r\r",
+                           @"definition":@"\rOmnipresence was a development from the teaching that God is Spirit.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy\r“Omnipresence”, http://tinyurl.com/njlv6ku\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Omniscience",
@@ -2430,7 +2430,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Oral Tradition",
                            @"twitterDef":@"the transmission of stories and beliefs by word of mouth",
-                           @"definition":@"\rBefore the writing of any biblical text, their stories were transmitted orally. The book of Deuteronomy dictates that the commandments of the Torah be passed down orally from parents to children. Eventually, written sources were made in order to establish an official record of the beginnings of the Israelite nation (most likely during the Davidic or Solomonic monarchies). Variations on a common story indicate an oral narrative core around which various authors tailored their writing. For example, in the Old Testament there was an oral tradition that circulated about the patriarch Abraham and his covenant with YHWH. This tradition was retold with different details based on the narrator's audience, as evidenced in its Yahwist, Elohist, and Priestly accounts.\r\rIn the New Testament, the words of Jesus were passed down orally before the composition of any of the 4 gospels, which were occassioned by the destruction of the Temple and consequent delay of the Parousia. Oral traditions that were recorded but not contained in the gospels illustrate the predominance of the oral tradition in 1st century Palestine. The oral commentary on the Torah (Mishnah) is regarded as equally authortative as the written Torah in modern Judaism. See “Mishnah”, “Parousia”, “Tradition”.\r\rFurther Reference:\rPontifical Biblical Commission\r“The Jewish People and their Sacred Scriptures in the Christian Bible”\rhttp://tinyurl.com/mt3e\r\r\r",
+                           @"definition":@"\rBefore the writing of any biblical text, their stories were transmitted orally. The book of Deuteronomy dictates that the commandments of the Torah be passed down orally from parents to children. Eventually, written sources were made in order to establish an official record of the beginnings of the Israelite nation (most likely during the Davidic or Solomonic monarchies). Variations on a common story indicate an oral narrative core around which various authors tailored their writing. For example, in the Old Testament there was an oral tradition that circulated about the patriarch Abraham and his covenant with Yahweh. This tradition was retold with different details based on the narrator's audience, as evidenced in its Yahwist, Elohist, and Priestly accounts.\r\rIn the New Testament, the words of Jesus were passed down orally before the composition of any of the 4 gospels, which were occassioned by the destruction of the Temple and consequent delay of the Parousia. Oral traditions that were recorded but not contained in the gospels illustrate the predominance of the oral tradition in 1st century Palestine. The oral commentary on the Torah (Mishnah) is regarded as equally authortative as the written Torah in modern Judaism. See “Mishnah”, “Parousia”, “Tradition”.\r\rFurther Reference:\rPontifical Biblical Commission\r“The Jewish People and their Sacred Scriptures in the Christian Bible”\rhttp://tinyurl.com/mt3e\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Our Father",
@@ -2442,7 +2442,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Pacifism",
                            @"twitterDef":@"the total rejection of violence",
-                           @"definition":@"\rPacifism has its roots in the early Christian intepretation of the words of Jesus in the Sermon on the Mount. Early Christian writers such as Justin Martyr, Origen, Clement of Alexandria, Irenaeus, and Tertullian claimed that Christians did not shed blood in war. While the limited reach of Christianity to army-eligible Romans is somewhat a factor in this, it remains the case that pacifism was the earliest response of the Church to war. Origen grounds the pacifism of all Christians in their participation in the priestly office of Christ.\r\rAs Christianity developed and expanded, and after its legalization by Constantine in A.D. 313, the Church faced a new situation as it slowly acquired the same political power that was used to crucify its Founder. St. Augustine was instrumental in the development of the Just War Theory, which begins with a presumption against violence that can only be overriden if specific criteria are met. Vatican II praised pacifist objection to war so long as additional rights are not violated. See “Just War Theory”.\r\rFurther Reference:\rVatican II, Gaudium et Spes, 78\rhttp://tinyurl.com/34xrhq\r\rWikipedia, “Pacifism”\rhttp://tinyurl.com/yo2ulo\r\r\r",
+                           @"definition":@"\rPacifism has its roots in the early Christian intepretation of the words of Jesus in the Sermon on the Mount. Early Christian writers such as Justin Martyr, Origen, Clement of Alexandria, Irenaeus, and Tertullian claimed that Christians did not shed blood in war. While the limited reach of Christianity to army-eligible Romans is somewhat a factor in this, it remains the case that pacifism was the earliest response of the Church to war. Origen grounds the pacifism of all Christians in their participation in the priestly office of Christ.\r\rAs Christianity developed and expanded, and after its legalization by Constantine in A.D. 313, the Church faced a new situation as it slowly acquired the same political power that was used to crucify its Founder. St. Augustine was instrumental in the development of the Just War Theory, which begins with a presumption against violence that can only be overriden if specific criteria are met. Vatican II praised pacifist objection to war so long as additional rights are not violated. See “Just War Theory”.\r\rFurther Reference:\rVatican II, Gaudium et Spes, 78\rhttp://tinyurl.com/34xrhq\r\rStanford Encyclopdia of Philosophy\r“Pacifism”, http://tinyurl.com/curckzx\r\r\r",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Pantheism",
@@ -2477,7 +2477,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Paten",
                            @"twitterDef":@"a small plate used to hold the Eucharist",
-                           @"definition":@"\rThe Paten is set on the Altar, and is usually made of gold or silver. See “Altar”, “Eucharist”.\r\rFurther Reference:\rCongregation for Divine Worship\r“General Instruction of the Roman Missal”. http://tinyurl.com/lgdqh94\r\r\r",
+                           @"definition":@"\rThe Paten is set on the Altar, and is usually made of gold or silver. See “Altar”, “Eucharist”.\r\rFurther Reference:\rCongregation for Divine Worship\r“General Instruction of the Roman Missal”\rhttp://tinyurl.com/lgdqh94\r\r\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Pater Noster",
@@ -2502,7 +2502,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Penance",
                            @"twitterDef":@"the Sacrament of reconciliation with the Church by restitution for one's sins",
-                           @"definition":@"\rThe Sacrament of Penance is offered in order to repair the harm caused by sin. Also known as the “second conversion”, it is the means through which post-Baptismal sins are forgiven. See “Sacrament”, “Forgiveness”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1422.\rhttp://tinyurl.com/l7xon9e\r\r\r",
+                           @"definition":@"\rThe Sacrament of Penance is offered in order to repair the harm caused by sin. Also known as the “second conversion”, it is the means through which post-Baptismal sins are forgiven. See “Sacrament”, “Forgiveness”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1422.\rhttp://tinyurl.com/l7xon9e\r\rRev. Peer Beer\r“Trent's Temporal Punishment and Today's Renewal of Penance”\rhttp://tinyurl.com/ovz83lo",
                            @"category":@"Systematic"}];
 
     
@@ -2523,17 +2523,17 @@
     
     [TAWord wordWithDict:@{@"name":@"Pluralism",
                            @"twitterDef":@"the belief that all religous claims are equally valid",
-                           @"definition":@"\rReligious Pluralism is distinct from Inclusivism or Ecumenism. The former retains an exclusive claim to truth and the latter promotes similarity of shared belief. Religious Pluralism entails that no single religion may lay claim to the truth to the exclusion of others.\r\rFurther Reference:\rWikipedia, “Religious Pluralism”\rhttp://tinyurl.com/3dzu8e\r\r\r",
+                           @"definition":@"\rReligious Pluralism is distinct from Inclusivism or Ecumenism. The former retains an exclusive claim to truth and the latter promotes similarity of shared belief. Religious Pluralism entails that no single religion may lay claim to the truth to the exclusion of others.\r\rFurther Reference:\rWikipedia, “Religious Pluralism”\rhttp://tinyurl.com/3dzu8e\r\rJeannine Fletcher\r“Religious Pluralism in an Era of Globalization: The Making of Modern Religious Identity”\rhttp://tinyurl.com/plwg3hf\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Polytheism",
                            @"twitterDef":@"the belief that many gods exist",
-                           @"definition":@"\rPolytheism was common in the ancient world. Pre-Exilic Israelites believed that many gods existed, as evidenced in the Decalogue and multiple references to foreign deities such as El, Asherah, Molech, and Ba'al. However, they had entered into a covenant with and only served one of them, YHWH. After the Exile, monotheism becomes the dominant and distinguishing feature of the Israelites. See “Henotheism”, “Monotheism”.\r\rFurther Reference:\rWikipeida, “Polytheism”\rhttp://tinyurl.com/33v9dl\r\r\r",
+                           @"definition":@"\rPolytheism was common in the ancient world. Pre-Exilic Israelites believed that many gods existed, as evidenced in the Decalogue and multiple references to foreign deities such as El, Asherah, Molech, and Ba'al. However, they had entered into a covenant with and only served one of them, Yahweh. After the Exile, monotheism becomes the dominant and distinguishing feature of the Israelites. See “Henotheism”, “Monotheism”.\r\rFurther Reference:\rWikipeida, “Polytheism”\rhttp://tinyurl.com/33v9dl\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Postmodernism",
                            @"twitterDef":@"the belief that there are no universally accesible truths or determinite meaning",
-                           @"definition":@"\rPostmoderism arose in the late 19th century as a critique of the philosophical foundations of the Enlightenment and Modernism. Leading propnents included Frederick Nietzsche, Karl Marx, and Sigmund Freud. It is a philosophical premise of modern Relativism, leading to a Hermeneutics of suspcision. See “Hermeneutics”, “Philosophy”, “Relativism”.\r\rFurther Reference:\rRev. Thomas Guarino\r“Postmodernity and Five Fundamental Theological Issues”\rhttp://tinyurl.com/pggnqup\r\r\r",
+                           @"definition":@"\rPostmoderism arose in the late 19th century as a critique of the philosophical foundations of the Enlightenment and Modernism. Leading propnents included Frederick Nietzsche, Karl Marx, and Sigmund Freud. It is a philosophical premise of modern Relativism, leading to a Hermeneutics of suspcision. See “Hermeneutics”, “Philosophy”, “Relativism”.\r\rFurther Reference:\rRev. Thomas Guarino\r“Postmodernity and Five Fundamental Theological Issues”, http://tinyurl.com/pggnqup\r\r\r",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Predestination",
@@ -2543,7 +2543,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Principle of Double Effect",
                            @"twitterDef":@"the moral acceptance of an unintended evil caused by an intended good",
-                           @"definition":@"\rThe Principle of Double Effect (PDE) was developed by St. Thomas Aquinas. When considering a given act and its effect, the PDE may be employed if 4 traditional criteria are satisfied:\r\r1. The act must be morally good.\r2. The agent may not will the evil affect.\r3. The good must result from the act.\r4. The good must be proportional.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy\r“Doctrine of Double Effect”\rhttp://tinyurl.com/2zz6sg\r\r\r",
+                           @"definition":@"\rThe Principle of Double Effect (PDE) was developed by St. Thomas Aquinas. When considering a given act and its effect, the PDE may be employed if 4 traditional criteria are satisfied:\r\r1. The act must be morally good.\r2. The agent may not will the evil affect.\r3. The good must result from the act.\r4. The good must be proportional.\r\rFurther Reference:\rStanford Encyclopedia of Philosophy\r“Doctrine of Double Effect”\rhttp://tinyurl.com/2zz6sg\r\rRev. James Keenan\r“The Function of the Principle of Double Effect”\rhttp://tinyurl.com/ojwf9o6\r\r\r",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Process Theology",
@@ -2573,7 +2573,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Pentateuch",
                            @"twitterDef":@"the first of five books in the Old Testament;\rthe Torah",
-                           @"definition":@"\rThe Pentateuch includes the books of the Torah: Genesis, Exodus, Leviticus, Numbers, and Deuteronomy. The recent acceptance of the Documentary Hypothesis has led to a better understanding of the history of the Pentateuch's composition.\r\r“Who wrote the Pentateuch, and when? Up to the seventeenth century, the virtually unanimous answer of Jews and Christians was 'Moses'. Moses wrote the Pentateuch as David wrote the Psalter and Solomon wrote the wisdom literature. Though scholars had noted inconsistencies (compare Ishmael’s age in Gn 16:16 and 21:5, 14) and duplications (Gn 12, 20, and 26), they assumed Mosaic authorship because of the prevalent theory of inspiration: God inspired authors while they wrote. With the rise of historical criticism, scholars began to use the doublets and inconsistencies as clues to different authors and traditions.\r\rBy the late nineteenth century, one theory of the sources of the Pentateuch had been worked out that proved acceptable in its main lines to the majority of scholars (apart from Christian and Jewish conservatives) then and now. It can be quickly sketched. In the premonarchic period of the Judges (ca. 1220–1020 B.C.), the twelve tribes had an oral form of their story from creation to the taking of the land. With the beginnings of monarchy in the late eleventh and tenth centuries, the oral material was written down, being known as the Yahwist account (from its use of the divine name YHWH). Its abbreviation, “J,” comes from the German spelling of the divine name. In the following century, another account took shape in the Northern Kingdom (called E after its use of Elohim as a divine name); some believe the E source is simply a supplement to J. After the fall of the Northern Kingdom in 722/721 B.C., the E version was taken to Jerusalem where it was combined with the J version to produce J-E. During the exile (conventionally dated 587–539 B.C.) or thereafter, an editor recast J-E to make it relevant for the exiled population. This editor is conventionally known as P (=Priestly) because of the chronological and ritual interests apparent in the work. P can also designate archival material and chronological notices. The audience for the Priestly edition no longer lived in the land and was deeply concerned about its survival and its claim on the land.\r\rDeuteronomy (=D) stands alone in style, genre (preaching rather than narrative), and content. How did it come to be the fifth book of the Pentateuch? The J-E narrative actually ends in Numbers, when Israel arrives at the plains of Moab. Many scholars believe that Deuteronomy was secondarily attached to Numbers by moving the account of Moses’ death from its original place in the J-E version in Numbers to the end of Deuteronomy (chap. 34). Deuteronomy was attached to Genesis–Numbers to link it to another great work, the Deuteronomistic History (Joshua to Kings). Deuteronomy is now the fifth book of the Pentateuch and the first book of the Deuteronomistic History”.\r-New American Bible Revised Edition, “Pentateuch”\r\rSee “Documentary Hypothesis”, “Torah”. See the Scripture section of the Overview tab.\r\rGreek, πεντάτευχος (pentateuchos) “five scrolls”\r\rFurther Reference:\rUnited States Conference of Catholic Bishops\rNew American Bible Revised Edition, “Pentateuch”\rhttp://tinyurl.com/pg8nvov\r\r\r",
+                           @"definition":@"\rThe Pentateuch includes the books of the Torah: Genesis, Exodus, Leviticus, Numbers, and Deuteronomy. The recent acceptance of the Documentary Hypothesis has led to a better understanding of the history of the Pentateuch's composition.\r\r“Who wrote the Pentateuch, and when? Up to the seventeenth century, the virtually unanimous answer of Jews and Christians was 'Moses'. Moses wrote the Pentateuch as David wrote the Psalter and Solomon wrote the wisdom literature. Though scholars had noted inconsistencies (compare Ishmael’s age in Gn 16:16 and 21:5, 14) and duplications (Gn 12, 20, and 26), they assumed Mosaic authorship because of the prevalent theory of inspiration: God inspired authors while they wrote. With the rise of historical criticism, scholars began to use the doublets and inconsistencies as clues to different authors and traditions.\r\rBy the late nineteenth century, one theory of the sources of the Pentateuch had been worked out that proved acceptable in its main lines to the majority of scholars (apart from Christian and Jewish conservatives) then and now. It can be quickly sketched. In the premonarchic period of the Judges (ca. 1220–1020 B.C.), the twelve tribes had an oral form of their story from creation to the taking of the land. With the beginnings of monarchy in the late eleventh and tenth centuries, the oral material was written down, being known as the Yahwist account (from its use of the divine name Yahweh). Its abbreviation, “J,” comes from the German spelling of the divine name. In the following century, another account took shape in the Northern Kingdom (called E after its use of Elohim as a divine name); some believe the E source is simply a supplement to J. After the fall of the Northern Kingdom in 722/721 B.C., the E version was taken to Jerusalem where it was combined with the J version to produce J-E. During the exile (conventionally dated 587–539 B.C.) or thereafter, an editor recast J-E to make it relevant for the exiled population. This editor is conventionally known as P (=Priestly) because of the chronological and ritual interests apparent in the work. P can also designate archival material and chronological notices. The audience for the Priestly edition no longer lived in the land and was deeply concerned about its survival and its claim on the land.\r\rDeuteronomy (=D) stands alone in style, genre (preaching rather than narrative), and content. How did it come to be the fifth book of the Pentateuch? The J-E narrative actually ends in Numbers, when Israel arrives at the plains of Moab. Many scholars believe that Deuteronomy was secondarily attached to Numbers by moving the account of Moses’ death from its original place in the J-E version in Numbers to the end of Deuteronomy (chap. 34). Deuteronomy was attached to Genesis–Numbers to link it to another great work, the Deuteronomistic History (Joshua to Kings). Deuteronomy is now the fifth book of the Pentateuch and the first book of the Deuteronomistic History”.\r-New American Bible Revised Edition, “Pentateuch”\r\rSee “Documentary Hypothesis”, “Torah”. See the Scripture section of the Overview tab.\r\rGreek, πεντάτευχος (pentateuchos) “five scrolls”\r\rFurther Reference:\rUnited States Conference of Catholic Bishops\rNew American Bible Revised Edition, “Pentateuch”\rhttp://tinyurl.com/pg8nvov\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Pericope",
@@ -2594,7 +2594,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Priestly Source",
                            @"twitterDef":@"the literary source (P) in the Torah that is concerned with priestly categories",
-                           @"definition":@"\rThe Priestly, or “P” tradition in the Torah can be dated to the time of Hezekiah (ca. 700 B.C.) and shows a major concern for order, numbers, and categories of holiness and cleanliness, especially in the book of Leviticus. The Priestly material is centered on the sacrificial cult in Jerusalem and regards all other sacrifices as improper or “profane”; this source, along with the Elohist and Deuteronomic Sources, does not accept the revelation of the name YHWH before the Mosaic epiphany in Exodus 3.\r\rThe Hebrew of the Priestly author reflects a later stage in its development but earlier than that of the Deuteronomic author. Notably, the P source never uses the word “compassionate” to describe God and forgiveness requires atonement (e.g. the Day of Atonement is a ritual exclusive to the Priestly author).\r\rFurther Reference:\rWikipeida, “Priestly Source”\rhttp://tinyurl.com/yq83pf\r\r\r",
+                           @"definition":@"\rThe Priestly, or “P” tradition in the Torah can be dated to the time of Hezekiah (ca. 700 B.C.) and shows a major concern for order, numbers, and categories of holiness and cleanliness, especially in the book of Leviticus. The Priestly material is centered on the sacrificial cult in Jerusalem and regards all other sacrifices as improper or “profane”; this source, along with the Elohist and Deuteronomic Sources, does not accept the revelation of the name Yahweh before the Mosaic epiphany in Exodus 3.\r\rThe Hebrew of the Priestly author reflects a later stage in its development but earlier than that of the Deuteronomic author. Notably, the P source never uses the word “compassionate” to describe God and forgiveness requires atonement (e.g. the Day of Atonement is a ritual exclusive to the Priestly author).\r\rFurther Reference:\rWikipeida, “Priestly Source”\rhttp://tinyurl.com/yq83pf\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Primeval History",
@@ -2716,7 +2716,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Righteousness",
                            @"twitterDef":@"a right or just relationship",
-                           @"definition":@"\rRigheousness is first spoken of in the Bible in reference to Abaham. After hearing the promise of YHWH that he would be the father of many nations, he “put his faith in the LORD, who credited it to him as an act of righteousness” (Gen 15:6). St. Paul uses this same example to claim that those who have faith in (or of) Jesus Christ are put into a right relationship with God. The word “Justification” derives from the same cognate. See “Justification”, “Justice”.\r\rGreek, δικαιοσύνη (dikaisune) “righteousness”\r\rFurther Reference:\rCatechism of the Catholic Church, 1992\rhttp://tinyurl.com/yaua7cc\r\r\r",
+                           @"definition":@"\rRigheousness is first spoken of in the Bible in reference to Abaham. After hearing the promise of Yahweh that he would be the father of many nations, he “put his faith in the LORD, who credited it to him as an act of righteousness” (Gen 15:6). St. Paul uses this same example to claim that those who have faith in (or of) Jesus Christ are put into a right relationship with God. The word “Justification” derives from the same cognate. See “Justification”, “Justice”.\r\rGreek, δικαιοσύνη (dikaisune) “righteousness”\r\rFurther Reference:\rCatechism of the Catholic Church, 1992\rhttp://tinyurl.com/yaua7cc\r\r\r",
                            @"category":@"Biblical"}];
     
     
@@ -2748,7 +2748,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Salvation",
                            @"twitterDef":@"deliverance from sin and death",
-                           @"definition":@"\rSalvation is a theme that runs throughout the Scriptures. YHWH is referred to as a Savior in the Old Testament, and the New Testament refers to Jesus as the Savior of the world. His is the name by which all must be saved (Acts 4:12). The ancient dictum: Extra Ecclesium Nulla Salus (“Outside the Church there is no salvation.”) has been positively interpreted by the Fathers of the Second Vatican Council as meaning that non-Christians relate to the Church in various ways. Those who have never experienced the particular grace of the Holy Spirit may nevertheless be saved. See “Inclusivism”.\r\rFurther Reference:\rCatechism of the Catholic Church, 847\rhttp://tinyurl.com/oupb5\r\r\r",
+                           @"definition":@"\rSalvation is a theme that runs throughout the Scriptures. Yahweh is referred to as a Savior in the Old Testament, and the New Testament refers to Jesus as the Savior of the world. His is the name by which all must be saved (Acts 4:12). The ancient dictum: Extra Ecclesium Nulla Salus (“Outside the Church there is no salvation.”) has been positively interpreted by the Fathers of the Second Vatican Council as meaning that non-Christians relate to the Church in various ways. Those who have never experienced the particular grace of the Holy Spirit may nevertheless be saved. See “Inclusivism”.\r\rFurther Reference:\rCatechism of the Catholic Church, 847\rhttp://tinyurl.com/oupb5\r\r\r",
                            @"category":@"Systematic"}];
     
     
@@ -2784,7 +2784,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Satan",
                            @"twitterDef":@"a Hebrew word meaning “adversary” used for a malevolent spiritual being",
-                           @"definition":@"\rThe development of the character of Satan is linked to the larger shift in Israelite theology after the Exile. Monotheism replaced Henotheism and no longer allowed the possibility that YHWH was responsible for evil (such as indicated by various passages in pre-Exilic Hebrew writings). Thus, a character developed which was seen as an adversarial member of YHWH's heavenly court, the Satan. For a clear example of this theological shift, see 2 Sam. 24:1 and 1 Chronicles 21:1.\r\rA later tradition interprets references to the Kings of Babylon and Tyre in Isaiah 14 and Ezekiel 38, respectively, to refer to Satan as a fallen angel who was expelled from Heaven after a failed attempt to dethrone the Almighty. The New Testament uses this later interpretation of Satan to refer to a malevolent spiritual being opposed to the will of God and seeking to destroy human welfare. See “Exile”, “Henotheism”, “Monotheism”, “Second Temple Judaism”, “YHWH”.\r\rHebrew, שָּׂטָן (satan)\r\rFurther Reference:\rWikipedia, “Satan”\rhttp://tinyurl.com/czesk\r\r\r",
+                           @"definition":@"\rThe development of the character of Satan is linked to the larger shift in Israelite theology after the Exile. Monotheism replaced Henotheism and no longer allowed the possibility that Yahweh was responsible for evil (such as indicated by various passages in pre-Exilic Hebrew writings). Thus, a character developed which was seen as an adversarial member of Yahweh's heavenly court, the Satan. For a clear example of this theological shift, see 2 Sam. 24:1 and 1 Chronicles 21:1.\r\rA later tradition interprets references to the Kings of Babylon and Tyre in Isaiah 14 and Ezekiel 38, respectively, to refer to Satan as a fallen angel who was expelled from Heaven after a failed attempt to dethrone the Almighty. The New Testament uses this later interpretation of Satan to refer to a malevolent spiritual being opposed to the will of God and seeking to destroy human welfare. See “Exile”, “Henotheism”, “Monotheism”, “Second Temple Judaism”, “Yahweh”.\r\rHebrew, שָּׂטָן (satan)\r\rFurther Reference:\rWikipedia, “Satan”\rhttp://tinyurl.com/czesk\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Septuagint",
@@ -2837,7 +2837,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Second Temple Judaism",
                            @"twitterDef":@"the nature of Judaism from 515 B.C. to A.D. 70, marked by distinctive theological characteristics",
-                           @"definition":@"\rSecond Temple Judaism has its roots in 4 major, post-Exilic theological developments in the ancient Israelite concept of the Covenant:\r\r1. Monotheism\r2. Torah\r3. Satan\r4. Resurrection\r\rWith the rise of Monotheism, the theme of adherence to the Torah became central to Jewish identity. As the attribution of misfortune shifted from YHWH to the character of the Satan, Resurrection arose, in part, as a response to the question of YHWH's justice in light of Covenant-faithfulness without the promised blessings. During the rebuiling of Solomon's Temple in 515 B.C. and its destruction in A.D. 70, Judaism was marked by various schools of thought which revolved around various interpretations of these elements. These schools of thought were facilitated by Synagogue worship, which had developed during the Exile and and would continue to the present day. See “Covenant”, “Monotheism”, “Resurrection”, “Satan”, “Synagogue”, “Torah”.\r\rFurther Reference:\rWikipedia, “Second Temple Judaism”\rhttp://tinyurl.com/ouo2ho5\r\r\r",
+                           @"definition":@"\rSecond Temple Judaism has its roots in 4 major, post-Exilic theological developments in the ancient Israelite concept of the Covenant:\r\r1. Monotheism\r2. Torah\r3. Satan\r4. Resurrection\r\rWith the rise of Monotheism, the theme of adherence to the Torah became central to Jewish identity. As the attribution of misfortune shifted from Yahweh to the character of the Satan, Resurrection arose, in part, as a response to the question of Yahweh's justice in light of Covenant-faithfulness without the promised blessings. During the rebuiling of Solomon's Temple in 515 B.C. and its destruction in A.D. 70, Judaism was marked by various schools of thought which revolved around various interpretations of these elements. These schools of thought were facilitated by Synagogue worship, which had developed during the Exile and and would continue to the present day. See “Covenant”, “Monotheism”, “Resurrection”, “Satan”, “Synagogue”, “Torah”.\r\rFurther Reference:\rWikipedia, “Second Temple Judaism”\rhttp://tinyurl.com/ouo2ho5\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Sensus Fidelium",
@@ -2857,7 +2857,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Spirituality",
                            @"twitterDef":@"the conscious process of integration of one's life toward Ultimate value",
-                           @"definition":@"\rIn the Catholic Tradition, the term “spirituality” has referred to various types of prayer or ways of living one's faith, often with a particular community\r\rFurther Reference:\rCatechism of the Catholic Church, 2684\rhttp://tinyurl.com/ocstm6t\r\r\r",
+                           @"definition":@"\rIn the Catholic Tradition, the term “spirituality” has referred to various types of prayer or ways of living one's faith, often with a particular community\r\rFurther Reference:\rCatechism of the Catholic Church, 2684\rhttp://tinyurl.com/ocstm6t\r\rSandra Schneiders\r“Spirituality in the Academy”\rhttp://tinyurl.com/pfosbqw",
                            @"category":@"Cultural"}];
     
     [TAWord wordWithDict:@{@"name":@"Structuralism",
@@ -2882,7 +2882,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Theological Notes",
                            @"twitterDef":@"qualifications of different Church teachings as having different levels of authority",
-                           @"definition":@"\rTheological Notes are given to clarify the level of authority of a particular doctrine. Not every doctrine is, of itself, infallible. Noninfallible teaching, while believed to be definitive, is nevertheless subject to revision. The International Theological Commission distinguished between common doctrines of the Church and faith of the Church:\r\r“The fact that tradition is a really live reality explains why there are so many declarations by the Magisterium of varying importance and varying degrees of obligation. To gauge these exactly and to interpret them, theology has worked out the doctrine of theological qualifications or notes, which, to some extent, the Magisterium has adopted. In recent times, this approach has unfortunately been more or less forgotten. But it is useful in the interpretation of dogma and should therefore be repristinated and developed further.”\r\rTo illustrate this point, the doctrine of Limbo, even though taught by Popes and the Magisterium as part of the common doctrine of the Church, was never infallibly defined as being a part of Divine Revelation. As such, it was qualified as being theological opinion and not of the Faith in 2007 by the International Theological Commission.\r\rFurther Reference:\rInternational Theological Commission\r“The Interpretation of Dogma”\rhttp://tinyurl.com/md9yco5\r\r\r",
+                           @"definition":@"\rTheological Notes are given to clarify the level of authority of a particular doctrine. Not every doctrine is, of itself, infallible. Noninfallible teaching, while believed to be definitive, is nevertheless subject to revision. The International Theological Commission distinguished between common doctrines of the Church and faith of the Church:\r\r“The fact that tradition is a really live reality explains why there are so many declarations by the Magisterium of varying importance and varying degrees of obligation. To gauge these exactly and to interpret them, theology has worked out the doctrine of theological qualifications or notes, which, to some extent, the Magisterium has adopted. In recent times, this approach has unfortunately been more or less forgotten. But it is useful in the interpretation of dogma and should therefore be repristinated and developed further.”\r\rTo illustrate this point, the doctrine of Limbo, even though taught by Popes and the Magisterium as part of the common doctrine of the Church, was never infallibly defined as being a part of Divine Revelation. As such, it was qualified as being theological opinion and not of the Faith in 2007 by the International Theological Commission.\r\rFurther Reference:\rInternational Theological Commission\r“The Interpretation of Dogma”\rhttp://tinyurl.com/md9yco5\r\rHarold Earnst\r“The Theological Notes and the Interpretation of Doctrine”\rhttp://tinyurl.com/pv6fxh3",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Theologoumenon",
@@ -2892,7 +2892,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Theology",
                            @"twitterDef":@"faith seeking understanding",
-                           @"definition":@"\rTheology has been traditionally understood as the intelligence of faith. Theology uses philosophical tools in its quest to better understand the content of Divine Revelation, which it takes as its point of departure. The International Theological Commission has identified several criteria for authentic Catholic theology.\r\rTheology:\r\r-recognizes the primacy of the Word of God\r\r-understands the Faith of the Church as its source, context, and norm\r\r-seeks to understand the rationality of faith\r\r-draws upon and promotes the Scriptural witness of the Faith\r\r-stands in fidelity to the Apostolic Tradition\r\r-is attentive to the sensus fidelium\r\r-adheres respsonsibly to the Magisterium in its various gradations\r\r-is practiced in prayerful collaboration within the theological community and larger communion of the Church\r\r-is in constant dialogue with the world\r\r-strives to rationally articulate the truths of the Christian Faith\r\r-attempts to integrate diverse methods and enquiries into a unified project\r\r-seeks and delights in the wisdom of God\r\rFurther Reference:\rInternational Theological Commission\r“Theology Today: Perspectives, Principles, and Criteria”, http://tinyurl.com/brdt29m\r\r\r",
+                           @"definition":@"\rTheology has been traditionally understood as the intelligence of faith. Theology uses philosophical tools in its quest to better understand the content of Divine Revelation, which it takes as its point of departure. The International Theological Commission has identified several criteria for authentic Catholic theology.\r\rTheology:\r\r-recognizes the primacy of the Word of God\r\r-understands the Faith of the Church as its source, context, and norm\r\r-seeks to understand the rationality of faith\r\r-draws upon and promotes the Scriptural witness of the Faith\r\r-stands in fidelity to the Apostolic Tradition\r\r-is attentive to the sensus fidelium\r\r-adheres respsonsibly to the Magisterium in its various gradations\r\r-is practiced in prayerful collaboration within the theological community and larger communion of the Church\r\r-is in constant dialogue with the world\r\r-strives to rationally articulate the truths of the Christian Faith\r\r-attempts to integrate diverse methods and enquiries into a unified project\r\r-seeks and delights in the wisdom of God\r\rFurther Reference:\rInternational Theological Commission\r“Theology Today: Perspectives, Principles, and Criteria”, http://tinyurl.com/brdt29m\r\rCongregation for the Doctrine of the Faith\r“Instruction on the Ecclesial Vocation of the Theologian”\rhttp://tinyurl.com/bhu2k\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Theosis",
@@ -2912,7 +2912,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Transubstantiation",
                            @"twitterDef":@"the substance of bread and wine becoming that of the body and blood of Christ",
-                           @"definition":@"\rIn the midst of a long tradition of attempts to explain how the Real Presence is possible, St. Thomas Aquinas, using Aristotelean metaphysics, taught that the substance of the bread and wine change into the substance of the body and blood of Christ in the Eucharist. His idea of Transubstantiation was recognized by the Council of Trent as being a “fitting” description of the change in the Eucharistic elements. See “Real Presence”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1376\rhttp://tinyurl.com/q6gyoc7\r\r\r",
+                           @"definition":@"\rIn the midst of a long tradition of attempts to explain how the Real Presence is possible, St. Thomas Aquinas, using Aristotelean metaphysics, taught that the substance of the bread and wine change into the substance of the body and blood of Christ in the Eucharist. His idea of Transubstantiation was recognized by the Council of Trent as being a “fitting” description of the change in the Eucharistic elements. See “Real Presence”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1376\rhttp://tinyurl.com/q6gyoc7\r\rRichard Cipolla\r“Selvaggi Revisted:Transubstantiation and Contemporary Science”\rhttp://tinyurl.com/pl8hzgo\r\r\r",
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Trinity",
@@ -2921,7 +2921,7 @@
                            @"category":@"Systematic"}];
     
     [TAWord wordWithDict:@{@"name":@"Tabernacle",
-                           @"twitterDef":@"the pre-Solomonic temporary dwelling place of YHWH in Israel",
+                           @"twitterDef":@"the pre-Solomonic temporary dwelling place of Yahweh in Israel",
                            @"definition":@"\rThe Tabernacle was initially housed at Shiloh. It is described in detail in the Priestly Source texts of Exodus 25-30 and the Elohist Source text of Exodus 33. It is never mentioned by the Yahwist or Deuteronomic Sources. Richard Elliot Freidman claims that the Tabernacle was housed in the Temple.\r\rFurther Reference:\rWikipedia, “Tabernacle”\rhttp://tinyurl.com/gwcu2\r\r\r",
                            @"category":@"Biblical"}];
     
@@ -2936,13 +2936,13 @@
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Temple",
-                           @"twitterDef":@"the permanent dwelling place of YHWH in Israel",
-                           @"definition":@"\rAccording to the Priestly and Deuteronomic Sources, YHWH told King David that his son would build a house for His Name to dwell in forever. 1 Kings 6, details the construction of the Temple. It was destroyed in 586 B.C. by the Babylonians and rebuilt in 515 B.C. after the return from Exile. Herod the Great rennovated the Temple at the beginning of the 1st century A.D., and it was destroyed by the Roman army under Titus in A.D. 70. The New Testament uses Temple imagery and metaphors in describing the experience of the Holy Spirit in the Church.\r\rFurther Reference:\rWikipedia, “Temple in Jerusalem”\rhttp://tinyurl.com/ja9hh\r\r\r",
+                           @"twitterDef":@"the permanent dwelling place of Yahweh in Israel",
+                           @"definition":@"\rAccording to the Priestly and Deuteronomic Sources, Yahweh told King David that his son would build a house for His Name to dwell in forever. 1 Kings 6, details the construction of the Temple. It was destroyed in 586 B.C. by the Babylonians and rebuilt in 515 B.C. after the return from Exile. Herod the Great rennovated the Temple at the beginning of the 1st century A.D., and it was destroyed by the Roman army under Titus in A.D. 70. The New Testament uses Temple imagery and metaphors in describing the experience of the Holy Spirit in the Church.\r\rFurther Reference:\rWikipedia, “Temple in Jerusalem”\rhttp://tinyurl.com/ja9hh\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Tetragrammaton",
                            @"twitterDef":@"a Greek word meaning “four letters” referring to the four-letter name of God",
-                           @"definition":@"\rThe Tetragrammaton is rendered in English bibles as “LORD”. See “YHWH”.\r\rGreek, τετραγράμματον (tetragrammaton)\r\rFurther Reference:\rWikipedia, “Tetragrammaton”\rhttp://tinyurl.com/7u37s\r\r\r",
+                           @"definition":@"\rThe Tetragrammaton is rendered in English bibles as “LORD”. See “Yahweh”.\r\rGreek, τετραγράμματον (tetragrammaton)\r\rFurther Reference:\rWikipedia, “Tetragrammaton”\rhttp://tinyurl.com/7u37s\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Textual Criticism",
@@ -3052,14 +3052,14 @@
                            @"definition":@"\rAccording to the Documentary Hypothesis, the Yahwist Source (also called “J” due to its German origin) is the earliest of the four written sources that comprise most of the Torah. In contrast to the other sources of the Documentary Hypothesis, the Yahwist Source is highly anthroporphic and knows the Tetragrammaton before Exodus 3. It, along with the Elohist Source, were likely combined to form a single narrative (the JE Epic) to which the Priestly author added his own material in addition to Deuteronomy and the Deuteronomic History. See “Documentary Hypothesis”, “Deuteronomic History”, “Elohist Source”, “JE Epic”, “Tetragrammaton”\r\rFurther Reference:\rWikipedia, “Yahwist Source”\rhttp://tinyurl.com/ye7axpa\r\r\r",
                            @"category":@"Biblical"}];
     
-    [TAWord wordWithDict:@{@"name":@"YHWH",
+    [TAWord wordWithDict:@{@"name":@"Yahweh",
                            @"twitterDef":@"the personal name of the God of the Israelites",
                            @"definition":@"\rThe four letter personal name of the God of the Israelites, also called the “Tetragrammaton”. According to the Elohist and Priestly sources, this name was not known before it was revealed to Moses in Exodus chapter 3. The Yahwhist Source, however, knows of it and uses it throughout Genesis as the personal name of God, which is one argument for multiple authorship of the Torah; the essence of the Documentary Hypothesis. See “Tetragrammaton”, “Documentary Hypothesis”.\r\rHebrew, יְהוָ֨ה (YHWH) “yahweh”\r\rFurther Reference:\rWikipedia, “Yahweh”\rhttp://tinyurl.com/y4vmqc\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Yom Kippur",
                            @"twitterDef":@"a Hebrew phrase meaning “Day of Atonement”",
-                           @"definition":@"\rAccording to Leviticus 16, Yom Kippur is a day set aside on the Jewish calendar dedicated to bringing about personal and national reconciliation with YHWH through the forgiveness of sins. See “Forgiveness”.\r\rFurther Reference:\rWikipedia, “Yom Kippur”\rhttp://tinyurl.com/ja2uz\r\r\r",
+                           @"definition":@"\rAccording to Leviticus 16, Yom Kippur is a day set aside on the Jewish calendar dedicated to bringing about personal and national reconciliation with Yahweh through the forgiveness of sins. See “Forgiveness”.\r\rFurther Reference:\rWikipedia, “Yom Kippur”\rhttp://tinyurl.com/ja2uz\r\r\r",
                            @"category":@"Biblical"}];
     
     
