@@ -129,7 +129,7 @@
     
     [infoDetail view];
     
-    infoDetail.textView.text = @"\r\r\rThank you for purchasing Theologica; the simple, yet comprehensive, Catholic theological resource for the iPhone. If you have content suggestions for any of the its features or if you have specific questions regarding future updates, please do not hesitate to reach out. If you find Theologica an aid to the study and/or teaching of Theology, please kindly rate it in the App Store.\r\rFollow @theologica_ on Twitter\rhttps://twitter.com/theologica_\r\rFor questions, concerns, or comments please email techrament@icloud.com\r\r";
+    infoDetail.textView.text = @"\r\r\rThank you for purchasing Theologica; the simple, yet comprehensive, Catholic theological resource for the iPhone. If you have content suggestions for any of its features or if you have specific questions regarding future updates, please do not hesitate to reach out. If you find Theologica an aid to the study and/or teaching of Theology, please kindly rate it in the App Store.\r\rFollow @theologica_ on Twitter\rhttps://twitter.com/theologica_.\r\rFor questions, concerns, or comments please email techrament@icloud.com.\r\rFor more information on Theologica, visit www.techrament.com.";
     infoDetail.modalPresentationStyle = UIModalPresentationPopover;
     
     [self.navigationController presentViewController:infoDetail animated:YES completion:nil];
