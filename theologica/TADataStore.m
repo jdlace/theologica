@@ -2764,7 +2764,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Social Justice",
                            @"twitterDef":@"the just structuring of society that prioritizes the common good and the poor",
-                           @"definition":@"\rAccording to Pope Paul VI, social justice is an essential aspect to the proclamation of the gospel.\r\rFurther Reference:\rCatechism of the Catholic Church, 1928\rhttp://tinyurl.com/ow79m3t\r\rCompendium of the Social Doctrine of the Church, 85, http://tinyurl.com/kn6q5wm\r\r\r",
+                           @"definition":@"\rAccording to Pope Paul VI, social justice is an essential aspect to the proclamation of the gospel.\r\rFurther Reference:\rCatechism of the Catholic Church, 1928\rhttp://tinyurl.com/ow79m3t\r\rCompendium of the Social Doctrine of the Church, 85, http://tinyurl.com/pgklzdg\r\r\r",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Speciesism",
