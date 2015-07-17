@@ -1,18 +1,18 @@
 //
-//  SourcesNavCon.m
+//  AboutNavCon.m
 //  theologica
 //
-//  Created by Jonathan Lace on 7/12/15.
+//  Created by Jonathan Lace on 7/16/15.
 //  Copyright (c) 2015 techrament. All rights reserved.
 //
 
-#import "SourcesNavCon.h"
+#import "AboutNavCon.h"
 
-@interface SourcesNavCon ()
+@interface AboutNavCon ()
 
 @end
 
-@implementation SourcesNavCon
+@implementation AboutNavCon
 
 - (void)viewDidLoad {
     [super viewDidLoad];

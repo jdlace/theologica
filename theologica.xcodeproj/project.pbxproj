@@ -46,6 +46,7 @@
 		698893B81A5E24CE00D1AC74 /* SourcesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 698893B71A5E24CE00D1AC74 /* SourcesDetailViewController.m */; };
 		6988A94A1A3E8DEB005A1B65 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6988A9491A3E8DEB005A1B65 /* MapViewController.m */; };
 		698F27AE1A6D85260065F8A6 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 698F27AD1A6D85260065F8A6 /* CloudKit.framework */; };
+		699416E51B5889BE006D51BD /* AboutNavCon.m in Sources */ = {isa = PBXBuildFile; fileRef = 699416E41B5889BE006D51BD /* AboutNavCon.m */; };
 		69B52BAB1A0EF6C100C23B47 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69B52BAA1A0EF6C100C23B47 /* Launch Screen.xib */; };
 		69B8D9381A4122B300186EA2 /* BiblicalPins.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B8D9371A4122B300186EA2 /* BiblicalPins.m */; };
 		69B8D93A1A4138B600186EA2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B8D9391A4138B600186EA2 /* CoreLocation.framework */; };
@@ -145,6 +146,8 @@
 		6988A9491A3E8DEB005A1B65 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = ../MapViewController.m; sourceTree = "<group>"; };
 		698F27AC1A6D837F0065F8A6 /* theologica.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = theologica.entitlements; path = theologica/theologica.entitlements; sourceTree = "<group>"; };
 		698F27AD1A6D85260065F8A6 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		699416E31B5889BE006D51BD /* AboutNavCon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutNavCon.h; sourceTree = "<group>"; };
+		699416E41B5889BE006D51BD /* AboutNavCon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutNavCon.m; sourceTree = "<group>"; };
 		69989AC519FF2D5D0009ABAE /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		69989B0619FF2FC70009ABAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69989B0719FF2FC70009ABAE /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
@@ -412,6 +415,8 @@
 				69D4C4B71B117D07009B5FE0 /* SourceContentViewController.m */,
 				69D4C4B91B117D1E009B5FE0 /* SignContentViewController.h */,
 				69D4C4BA1B117D1E009B5FE0 /* SignContentViewController.m */,
+				699416E31B5889BE006D51BD /* AboutNavCon.h */,
+				699416E41B5889BE006D51BD /* AboutNavCon.m */,
 				6954D6FD1A884E17004374F0 /* AboutViewController.h */,
 				6954D6FE1A884E17004374F0 /* AboutViewController.m */,
 				695847CC1AB5C9B90085251C /* TwitterTableViewController.h */,
@@ -583,6 +588,7 @@
 				69BB25491A130F2E00B3F5B5 /* WordDataSource.m in Sources */,
 				692ED2B21796F466008554F9 /* DictionaryTableViewController.m in Sources */,
 				6975A2291B53442200BCB4B7 /* ReferenceNavCon.m in Sources */,
+				699416E51B5889BE006D51BD /* AboutNavCon.m in Sources */,
 				69739B561A36897F008BAB06 /* SearchBarViewController.m in Sources */,
 				692ED2B51796F48B008554F9 /* WordDetailViewController.m in Sources */,
 				9BA06E2D1A833AD400A6A19E /* theologica.xcdatamodeld in Sources */,
