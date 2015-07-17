@@ -409,7 +409,7 @@
             </objects>
             <point key="canvasLocation" x="-2586" y="-3030.75"/>
         </scene>
-        <!--About View Controller-->
+        <!--Theologica-->
         <scene sceneID="eli-Yo-o7G">
             <objects>
                 <viewController storyboardIdentifier="AboutViewController" modalPresentationStyle="pageSheet" id="oem-Lx-p8B" customClass="AboutViewController" sceneMemberID="viewController">
@@ -418,86 +418,75 @@
                         <viewControllerLayoutGuide type="bottom" id="EAn-jF-dkG"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="n6v-BX-hLj">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Theologica" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wz8-WY-Yfj">
-                                <rect key="frame" x="226" y="72" width="151" height="38"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="32"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="KCd-cx-e4J">
                                 <rect key="frame" x="10" y="183" width="580" height="385"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES" address="YES"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Think Faith" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FQ0-oX-QgC">
-                                <rect key="frame" x="266" y="148" width="71" height="18"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" ambiguous="YES" misplaced="YES" image="appIconGradient3" translatesAutoresizingMaskIntoConstraints="NO" id="EAj-eD-b8G">
-                                <rect key="frame" x="280" y="109" width="40" height="40"/>
+                            <imageView userInteractionEnabled="NO" alpha="0.099999999999999992" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="525px-fresco_of_a_dominican_by_fra_angelico_001" translatesAutoresizingMaskIntoConstraints="NO" id="pa1-4v-IEv">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="EAn-jF-dkG" firstAttribute="top" secondItem="KCd-cx-e4J" secondAttribute="bottom" constant="32" id="3sh-N0-4RA">
-                                <variation key="widthClass=compact" constant="8" symbolic="YES"/>
-                            </constraint>
-                            <constraint firstItem="FQ0-oX-QgC" firstAttribute="top" secondItem="cYF-8e-WUs" secondAttribute="bottom" constant="75" id="6sg-Ku-no8">
-                                <variation key="widthClass=compact" constant="80"/>
-                                <variation key="heightClass=regular-widthClass=compact" constant="59"/>
-                            </constraint>
-                            <constraint firstItem="EAj-eD-b8G" firstAttribute="top" secondItem="wz8-WY-Yfj" secondAttribute="bottom" constant="16" id="Iqg-mI-ToU">
-                                <variation key="widthClass=compact" constant="19"/>
-                                <variation key="heightClass=regular-widthClass=compact" constant="27"/>
-                            </constraint>
+                            <constraint firstItem="pa1-4v-IEv" firstAttribute="top" secondItem="cYF-8e-WUs" secondAttribute="bottom" id="49l-b6-iWX"/>
+                            <constraint firstItem="pa1-4v-IEv" firstAttribute="leading" secondItem="n6v-BX-hLj" secondAttribute="leadingMargin" constant="-16" id="5JF-PB-l3V"/>
+                            <constraint firstItem="KCd-cx-e4J" firstAttribute="centerX" secondItem="pa1-4v-IEv" secondAttribute="centerX" id="9na-Tx-veg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pa1-4v-IEv" secondAttribute="trailing" constant="-16" id="JrF-44-oxX"/>
                             <constraint firstItem="KCd-cx-e4J" firstAttribute="top" secondItem="cYF-8e-WUs" secondAttribute="bottom" constant="140" id="V7V-tr-k8O">
                                 <variation key="widthClass=compact" constant="139"/>
-                                <variation key="heightClass=regular-widthClass=compact" constant="124"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
                             </constraint>
-                            <constraint firstItem="FQ0-oX-QgC" firstAttribute="centerX" secondItem="EAj-eD-b8G" secondAttribute="centerX" id="eHY-kD-2Tb"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="KCd-cx-e4J" secondAttribute="trailing" constant="-6" id="jwK-P3-2l1"/>
-                            <constraint firstItem="FQ0-oX-QgC" firstAttribute="centerX" secondItem="wz8-WY-Yfj" secondAttribute="centerX" id="raA-jp-cju">
-                                <variation key="heightClass=regular-widthClass=compact" constant="-1"/>
-                            </constraint>
-                            <constraint firstItem="KCd-cx-e4J" firstAttribute="leading" secondItem="n6v-BX-hLj" secondAttribute="leadingMargin" constant="-6" id="wdT-mI-xV5"/>
-                            <constraint firstAttribute="centerX" secondItem="wz8-WY-Yfj" secondAttribute="centerX" constant="-0.5" id="zhr-eI-LNd">
-                                <variation key="heightClass=regular-widthClass=compact" constant="-1.5"/>
-                            </constraint>
-                            <constraint firstItem="wz8-WY-Yfj" firstAttribute="top" secondItem="cYF-8e-WUs" secondAttribute="bottom" constant="38" id="zwV-gM-u3c">
-                                <variation key="widthClass=compact" constant="43"/>
-                                <variation key="heightClass=regular-widthClass=compact" constant="20"/>
-                            </constraint>
+                            <constraint firstItem="KCd-cx-e4J" firstAttribute="leading" secondItem="n6v-BX-hLj" secondAttribute="leadingMargin" constant="-6" id="dJY-zk-Q0Y"/>
+                            <constraint firstItem="EAn-jF-dkG" firstAttribute="top" secondItem="pa1-4v-IEv" secondAttribute="bottom" id="e7q-VH-nmb"/>
+                            <constraint firstItem="EAn-jF-dkG" firstAttribute="top" secondItem="KCd-cx-e4J" secondAttribute="bottom" constant="8" id="gnN-8b-a5U"/>
+                            <constraint firstItem="KCd-cx-e4J" firstAttribute="top" secondItem="cYF-8e-WUs" secondAttribute="bottom" id="xK1-2s-Cae"/>
                         </constraints>
                         <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="pa1-4v-IEv"/>
+                            </mask>
                             <mask key="constraints">
+                                <exclude reference="49l-b6-iWX"/>
+                                <exclude reference="5JF-PB-l3V"/>
+                                <exclude reference="JrF-44-oxX"/>
+                                <exclude reference="9na-Tx-veg"/>
                                 <exclude reference="V7V-tr-k8O"/>
-                                <exclude reference="zwV-gM-u3c"/>
-                                <exclude reference="Iqg-mI-ToU"/>
-                                <exclude reference="6sg-Ku-no8"/>
-                                <exclude reference="eHY-kD-2Tb"/>
-                                <exclude reference="raA-jp-cju"/>
+                                <exclude reference="dJY-zk-Q0Y"/>
+                                <exclude reference="xK1-2s-Cae"/>
+                                <exclude reference="e7q-VH-nmb"/>
+                                <exclude reference="gnN-8b-a5U"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="constraints">
                                 <include reference="V7V-tr-k8O"/>
-                                <include reference="zwV-gM-u3c"/>
-                                <include reference="Iqg-mI-ToU"/>
-                                <include reference="6sg-Ku-no8"/>
-                                <include reference="eHY-kD-2Tb"/>
-                                <include reference="raA-jp-cju"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="pa1-4v-IEv"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="49l-b6-iWX"/>
+                                <include reference="5JF-PB-l3V"/>
+                                <include reference="JrF-44-oxX"/>
+                                <include reference="9na-Tx-veg"/>
+                                <include reference="dJY-zk-Q0Y"/>
+                                <include reference="xK1-2s-Cae"/>
+                                <include reference="e7q-VH-nmb"/>
+                                <include reference="gnN-8b-a5U"/>
                             </mask>
                         </variation>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
-                    <navigationItem key="navigationItem" id="EDu-Wk-AP4">
+                    <navigationItem key="navigationItem" title="Theologica" id="EDu-Wk-AP4">
                         <barButtonItem key="leftBarButtonItem" title="Close" style="plain" id="sUc-0N-8KB">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="rju-0k-BhC">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -2384,10 +2373,10 @@
             </objects>
             <point key="canvasLocation" x="-3955.5" y="1209"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--About Nav Con-->
         <scene sceneID="S9W-f3-WDc">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ha2-wY-wFB" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ha2-wY-wFB" customClass="AboutNavCon" sceneMemberID="viewController">
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <toolbarItems/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
@@ -2406,7 +2395,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="appIconGradient3" width="40" height="40"/>
+        <image name="525px-fresco_of_a_dominican_by_fra_angelico_001" width="173" height="172"/>
         <image name="atomblue-1" width="83" height="83"/>
         <image name="biblelines" width="29" height="30"/>
         <image name="biblepurple" width="83" height="83"/>
