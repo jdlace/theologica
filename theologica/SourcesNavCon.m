@@ -24,6 +24,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+
 -(NSUInteger)supportedInterfaceOrientations
 {
     return [self.topViewController supportedInterfaceOrientations];
@@ -34,6 +35,12 @@
     return NO;
 }
 
+/*
+- (UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
+}
+*/
 /*
 #pragma mark - Navigation
 

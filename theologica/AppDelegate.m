@@ -17,12 +17,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    //UIColor *ios7BlueColor = [UIColor colorWithRed:89/255.0f green:174/255.0f blue:235/255.0f alpha:1.0f];
-    //[[UINavigationBar appearance] setBarTintColor: ios7BlueColor];
+   // UIColor *ios7BlueColor = [UIColor colorWithRed:89/255.0f green:174/255.0f blue:235/255.0f alpha:1.0f];
+    //[[UINavigationBar appearance] setBarTintColor: [UIColor whiteColor]];
     //[[UINavigationBar appearance] setTintColor: [UIColor whiteColor]];
     [Fabric with:@[CrashlyticsKit]];
 
         [[UINavigationBar appearance] setTitleTextAttributes: @{ NSFontAttributeName: [UIFont boldSystemFontOfSize:20]}];
+    
+    //[[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
     
     
     [[TADataStore sharedStore] buildDictionaryWords];

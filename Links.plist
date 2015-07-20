@@ -162,9 +162,9 @@
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>English Bibles</string>
+			<string>BibleGateway</string>
 			<key>URL</key>
-			<string>https://www.bible.com/bible/463/gen.1.nabre</string>
+			<string>https://www.biblegateway.com/passage/?search=John+1&amp;version=NABRE</string>
 		</dict>
 		<dict>
 			<key>Name</key>
@@ -240,9 +240,15 @@
 	<array>
 		<dict>
 			<key>Name</key>
-			<string>Universalis</string>
+			<string>Readings at Mass</string>
 			<key>URL</key>
-			<string>http://www.universalis.com</string>
+			<string>http://universalis.com/mass.htm</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Liturgy of the Hours</string>
+			<key>URL</key>
+			<string>http://universalis.com/lauds.htm</string>
 		</dict>
 		<dict>
 			<key>Name</key>
@@ -406,6 +412,18 @@
 	</array>
 	<key>Technology</key>
 	<array>
+		<dict>
+			<key>Name</key>
+			<string>Pontifical Council for Social Communication</string>
+			<key>URL</key>
+			<string>http://www.pccs.va/index.php/en/</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>The Cybertheology Daily</string>
+			<key>URL</key>
+			<string>http://paper.li/antoniospadaro/1306325259</string>
+		</dict>
 		<dict>
 			<key>Name</key>
 			<string>Ars Technica</string>
