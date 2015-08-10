@@ -6,7 +6,7 @@
 	<array>
 		<dict>
 			<key>Name</key>
-			<string>Creeds</string>
+			<string>Creeds in the Catechism</string>
 			<key>URL</key>
 			<string>http://www.vatican.va/archive/ccc_css/archive/catechism/credo.htm</string>
 		</dict>
@@ -21,9 +21,9 @@
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>Early Church Fathers</string>
+			<string>The Centre for Early Christian Studies</string>
 			<key>URL</key>
-			<string>http://www.tertullian.org/fathers2/</string>
+			<string>http://www.didache.com</string>
 		</dict>
 		<dict>
 			<key>Name</key>
@@ -52,20 +52,26 @@
 			<key>URL</key>
 			<string>http://www.iep.utm.edu</string>
 		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Logical Fallacies</string>
+			<key>URL</key>
+			<string>http://www.logicalfallacies.info</string>
+		</dict>
 	</array>
 	<key>Economy</key>
 	<array>
 		<dict>
 			<key>Name</key>
-			<string>The Economist</string>
+			<string>U.N. Economic and Social Council</string>
 			<key>URL</key>
-			<string>http://www.economist.com</string>
+			<string>http://www.un.org/en/ecosoc/</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>Bureau of Economic Analysis</string>
+			<string>Economic Policy Institute</string>
 			<key>URL</key>
-			<string>http://www.bea.gov</string>
+			<string>http://www.epi.org</string>
 		</dict>
 	</array>
 	<key>Politics</key>
@@ -99,9 +105,9 @@
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>Modern Popes</string>
+			<string>Catechism of the Catholic Church</string>
 			<key>URL</key>
-			<string>http://www.vatican.va/holy_father/index.htm</string>
+			<string>http://www.vatican.va/archive/ENG0015/_INDEX.HTM</string>
 		</dict>
 		<dict>
 			<key>Name</key>
@@ -111,9 +117,15 @@
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>Catechism of the Catholic Church</string>
+			<string>Compendium of the Social Doctrine</string>
 			<key>URL</key>
-			<string>http://www.vatican.va/archive/ENG0015/_INDEX.HTM</string>
+			<string>http://www.vatican.va/roman_curia/pontifical_councils/justpeace/documents/rc_pc_justpeace_doc_20060526_compendio-dott-soc_en.html</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Modern Popes</string>
+			<key>URL</key>
+			<string>http://www.vatican.va/holy_father/index.htm</string>
 		</dict>
 		<dict>
 			<key>Name</key>
@@ -281,7 +293,7 @@
 			<key>Name</key>
 			<string>Summa Theologica</string>
 			<key>URL</key>
-			<string>http://www.summatheologica.info</string>
+			<string>http://www3.nd.edu/~afreddos/summa-translation/TOC-part1.htm</string>
 		</dict>
 		<dict>
 			<key>Name</key>

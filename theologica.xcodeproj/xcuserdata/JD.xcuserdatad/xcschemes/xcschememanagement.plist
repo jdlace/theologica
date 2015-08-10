@@ -16,12 +16,12 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>theologica 2.xcscheme</key>
+		<key>WidgetFramework.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
-		<key>theologica.xcscheme</key>
+		<key>theologica 2.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -55,6 +55,21 @@
 			<true/>
 		</dict>
 		<key>69B52B981A0EA40A00C23B47</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>69E151961B69CBEF0002A35F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>69E151AB1B69D53B0002A35F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>69E151B51B69D53B0002A35F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

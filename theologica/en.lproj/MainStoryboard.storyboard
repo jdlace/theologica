@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
-        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -29,7 +28,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="14" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4481.25" y="-853.52112676056333"/>
+            <point key="canvasLocation" x="-5478" y="-1286"/>
         </scene>
         <!--SourceContentViewController-->
         <scene sceneID="Va3-ey-ooo">
@@ -430,59 +429,45 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES" address="YES"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" alpha="0.050000000000000003" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="525px-fresco_of_a_dominican_by_fra_angelico_001" translatesAutoresizingMaskIntoConstraints="NO" id="pa1-4v-IEv">
+                            <imageView userInteractionEnabled="NO" alpha="0.14999999999999969" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="viewIcon" translatesAutoresizingMaskIntoConstraints="NO" id="ijd-2U-peg">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="pa1-4v-IEv" firstAttribute="top" secondItem="cYF-8e-WUs" secondAttribute="bottom" id="49l-b6-iWX"/>
-                            <constraint firstItem="pa1-4v-IEv" firstAttribute="leading" secondItem="n6v-BX-hLj" secondAttribute="leadingMargin" constant="-16" id="5JF-PB-l3V"/>
-                            <constraint firstItem="KCd-cx-e4J" firstAttribute="centerX" secondItem="pa1-4v-IEv" secondAttribute="centerX" id="9na-Tx-veg"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="pa1-4v-IEv" secondAttribute="trailing" constant="-16" id="JrF-44-oxX"/>
-                            <constraint firstItem="KCd-cx-e4J" firstAttribute="top" secondItem="cYF-8e-WUs" secondAttribute="bottom" constant="140" id="V7V-tr-k8O">
-                                <variation key="widthClass=compact" constant="139"/>
-                                <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
+                            <constraint firstItem="KCd-cx-e4J" firstAttribute="top" secondItem="cYF-8e-WUs" secondAttribute="bottom" constant="8" id="LI0-Nx-kBw">
+                                <variation key="widthClass=compact" constant="20"/>
                             </constraint>
-                            <constraint firstItem="KCd-cx-e4J" firstAttribute="leading" secondItem="n6v-BX-hLj" secondAttribute="leadingMargin" constant="-6" id="dJY-zk-Q0Y"/>
-                            <constraint firstItem="EAn-jF-dkG" firstAttribute="top" secondItem="pa1-4v-IEv" secondAttribute="bottom" id="e7q-VH-nmb"/>
-                            <constraint firstItem="EAn-jF-dkG" firstAttribute="top" secondItem="KCd-cx-e4J" secondAttribute="bottom" constant="8" id="gnN-8b-a5U"/>
-                            <constraint firstItem="KCd-cx-e4J" firstAttribute="top" secondItem="cYF-8e-WUs" secondAttribute="bottom" id="xK1-2s-Cae"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="KCd-cx-e4J" secondAttribute="trailing" constant="-6" id="cGt-Vt-Pes"/>
+                            <constraint firstItem="EAn-jF-dkG" firstAttribute="top" secondItem="KCd-cx-e4J" secondAttribute="bottom" constant="8" id="h5K-9P-e8m">
+                                <variation key="widthClass=compact" constant="0.0"/>
+                            </constraint>
+                            <constraint firstItem="KCd-cx-e4J" firstAttribute="centerX" secondItem="ijd-2U-peg" secondAttribute="centerX" id="sdk-8J-org"/>
+                            <constraint firstItem="KCd-cx-e4J" firstAttribute="centerY" secondItem="ijd-2U-peg" secondAttribute="centerY" constant="10" id="x5j-t0-Kep">
+                                <variation key="widthClass=compact" constant="36"/>
+                            </constraint>
+                            <constraint firstItem="KCd-cx-e4J" firstAttribute="leading" secondItem="n6v-BX-hLj" secondAttribute="leadingMargin" constant="-6" id="zRQ-Y0-Jm2"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="pa1-4v-IEv"/>
+                                <exclude reference="ijd-2U-peg"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="49l-b6-iWX"/>
-                                <exclude reference="5JF-PB-l3V"/>
-                                <exclude reference="JrF-44-oxX"/>
-                                <exclude reference="9na-Tx-veg"/>
-                                <exclude reference="V7V-tr-k8O"/>
-                                <exclude reference="dJY-zk-Q0Y"/>
-                                <exclude reference="xK1-2s-Cae"/>
-                                <exclude reference="e7q-VH-nmb"/>
-                                <exclude reference="gnN-8b-a5U"/>
+                                <exclude reference="sdk-8J-org"/>
+                                <exclude reference="x5j-t0-Kep"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
-                            <mask key="constraints">
-                                <include reference="V7V-tr-k8O"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
-                                <include reference="pa1-4v-IEv"/>
+                                <include reference="ijd-2U-peg"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="49l-b6-iWX"/>
-                                <include reference="5JF-PB-l3V"/>
-                                <include reference="JrF-44-oxX"/>
-                                <include reference="9na-Tx-veg"/>
-                                <include reference="dJY-zk-Q0Y"/>
-                                <include reference="xK1-2s-Cae"/>
-                                <include reference="e7q-VH-nmb"/>
-                                <include reference="gnN-8b-a5U"/>
+                                <include reference="LI0-Nx-kBw"/>
+                                <include reference="cGt-Vt-Pes"/>
+                                <include reference="sdk-8J-org"/>
+                                <include reference="x5j-t0-Kep"/>
+                                <include reference="zRQ-Y0-Jm2"/>
+                                <include reference="h5K-9P-e8m"/>
                             </mask>
                         </variation>
                     </view>
@@ -528,7 +513,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eDO-ta-nsv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1269" y="-3030.75"/>
+            <point key="canvasLocation" x="-1269" y="-3031"/>
         </scene>
         <!--TwitterTableViewController-->
         <scene sceneID="y2d-ln-8B8">
@@ -893,7 +878,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pZt-tF-tCP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2814.375" y="-775.35211267605632"/>
+            <point key="canvasLocation" x="-2916" y="-1112"/>
         </scene>
         <!--Word Detail View Controller-->
         <scene sceneID="Esu-FU-O7a">
@@ -1120,7 +1105,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ch1-NC-7h2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2091" y="-776"/>
+            <point key="canvasLocation" x="-2079" y="-1096"/>
         </scene>
         <!--Maps-->
         <scene sceneID="Edy-lw-xDa">
@@ -1181,7 +1166,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J0z-Jr-lHg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2928" y="-169.5"/>
+            <point key="canvasLocation" x="-2988" y="-309"/>
         </scene>
         <!--Map Detail View Controller-->
         <scene sceneID="KGy-XG-vXI">
@@ -1378,7 +1363,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J46-eX-ikX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1653" y="-149"/>
+            <point key="canvasLocation" x="-1485" y="-298"/>
         </scene>
         <!--Saved-->
         <scene sceneID="F4P-2m-AMn">
@@ -1444,7 +1429,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hqu-e8-vF2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3506.25" y="-808.09859154929575"/>
+            <point key="canvasLocation" x="-3807" y="-1121"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="mMo-ER-RbE">
@@ -1627,7 +1612,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dgA-gS-tMu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2916" y="548"/>
+            <point key="canvasLocation" x="-2988" y="548"/>
         </scene>
         <!--WebViewController-->
         <scene sceneID="4XV-Iq-wlQ">
@@ -1719,7 +1704,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H0G-kW-ZiT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2133" y="548"/>
+            <point key="canvasLocation" x="-2217" y="548"/>
         </scene>
         <!--Maps-->
         <scene sceneID="jRQ-oP-mln">
@@ -1744,7 +1729,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ap7-6w-eW6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3506.25" y="-148.94366197183098"/>
+            <point key="canvasLocation" x="-3795" y="-309"/>
         </scene>
         <!--Reference-->
         <scene sceneID="DXf-Dc-5sq">
@@ -2347,7 +2332,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZdT-vd-YHc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2367" y="-138"/>
+            <point key="canvasLocation" x="-2259" y="-298"/>
         </scene>
         <!--Explorations-->
         <scene sceneID="uUL-Kf-MgO">
@@ -2396,7 +2381,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="525px-fresco_of_a_dominican_by_fra_angelico_001" width="173" height="172"/>
         <image name="atomblue-1" width="83" height="83"/>
         <image name="biblelines" width="29" height="30"/>
         <image name="biblepurple" width="83" height="83"/>

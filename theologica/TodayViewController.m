@@ -2,14 +2,21 @@
 //  TodayViewController.m
 //  Theologica
 //
-//  Created by Jonathan Lace on 10/27/14.
-//  Copyright (c) 2014 techrament. All rights reserved.
+//  Created by Jonathan Lace on 7/29/15.
+//  Copyright (c) 2015 techrament. All rights reserved.
 //
 
 #import "TodayViewController.h"
 #import <NotificationCenter/NotificationCenter.h>
+#import "TADataStore.h"
 
 @interface TodayViewController () <NCWidgetProviding>
+
+@property (weak, nonatomic) IBOutlet UILabel *wordLabel;
+@property (weak, nonatomic) IBOutlet UILabel *definitionLabel;
+@property (weak, nonatomic) NSArray *wordArray;
+
+
 
 @end
 
@@ -31,6 +38,12 @@
     // If an error is encountered, use NCUpdateResultFailed
     // If there's no update required, use NCUpdateResultNoData
     // If there's an update, use NCUpdateResultNewData
+    
+    
+    
+    
+    
+    
 
     completionHandler(NCUpdateResultNewData);
 }
