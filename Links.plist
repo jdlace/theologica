@@ -105,9 +105,21 @@
 		</dict>
 		<dict>
 			<key>Name</key>
+			<string>Modern Popes</string>
+			<key>URL</key>
+			<string>http://www.vatican.va/holy_father/index.htm</string>
+		</dict>
+		<dict>
+			<key>Name</key>
 			<string>Catechism of the Catholic Church</string>
 			<key>URL</key>
 			<string>http://www.vatican.va/archive/ENG0015/_INDEX.HTM</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Compendium of the Catechism</string>
+			<key>URL</key>
+			<string>http://www.vatican.va/archive/compendium_ccc/documents/archive_2005_compendium-ccc_en.html</string>
 		</dict>
 		<dict>
 			<key>Name</key>
@@ -120,12 +132,6 @@
 			<string>Compendium of the Social Doctrine</string>
 			<key>URL</key>
 			<string>http://www.vatican.va/roman_curia/pontifical_councils/justpeace/documents/rc_pc_justpeace_doc_20060526_compendio-dott-soc_en.html</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>Modern Popes</string>
-			<key>URL</key>
-			<string>http://www.vatican.va/holy_father/index.htm</string>
 		</dict>
 		<dict>
 			<key>Name</key>
@@ -204,13 +210,13 @@
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>Michael Fallon Resource Site</string>
+			<string>Old Testament Resources</string>
 			<key>URL</key>
 			<string>http://tinyurl.com/oefpuf6</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>Felix Just Resource Site</string>
+			<string>New Testament Resources</string>
 			<key>URL</key>
 			<string>http://catholic-resources.org</string>
 		</dict>
