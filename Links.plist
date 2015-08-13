@@ -33,7 +33,7 @@
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>Church Fathers (topical)</string>
+			<string>Church Fathers</string>
 			<key>URL</key>
 			<string>http://www.churchfathers.org</string>
 		</dict>
@@ -51,12 +51,6 @@
 			<string>Internet Encyclopedia of Philosophy</string>
 			<key>URL</key>
 			<string>http://www.iep.utm.edu</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>Logical Fallacies</string>
-			<key>URL</key>
-			<string>http://www.logicalfallacies.info</string>
 		</dict>
 	</array>
 	<key>Economy</key>
@@ -303,27 +297,15 @@
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>Theological Studies</string>
-			<key>URL</key>
-			<string>http://theologicalstudies.net/readers/download-past-articles/</string>
-		</dict>
-		<dict>
-			<key>Name</key>
 			<string>Thinking Faith</string>
 			<key>URL</key>
 			<string>http://www.thinkingfaith.org</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>Journal of Moral Theology</string>
+			<string>Theological Studies</string>
 			<key>URL</key>
-			<string>http://cdm.msmary.edu:2011/cdm/search/collection/JMT/searchterm/*/order/nosort</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>Encyclopedia of Religion and Science</string>
-			<key>URL</key>
-			<string>http://inters.org</string>
+			<string>http://theologicalstudies.net/readers/download-past-articles/</string>
 		</dict>
 		<dict>
 			<key>Name</key>
@@ -333,21 +315,27 @@
 		</dict>
 		<dict>
 			<key>Name</key>
+			<string>Encyclopedia of Religion and Science</string>
+			<key>URL</key>
+			<string>http://inters.org</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Journal of Moral Theology</string>
+			<key>URL</key>
+			<string>http://cdm.msmary.edu:2011/cdm/search/collection/JMT/searchterm/*/order/nosort</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Bernard Lonergan Archive</string>
+			<key>URL</key>
+			<string>http://www.bernardlonergan.com/index.php</string>
+		</dict>
+		<dict>
+			<key>Name</key>
 			<string>Atom + Eve Project</string>
 			<key>URL</key>
 			<string>http://washtheocon.org/resources/using-science-pastoral-ministry/</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>Catholic Climate Movement</string>
-			<key>URL</key>
-			<string>http://catholicclimatemovement.global</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>Catholic Climate Covenant</string>
-			<key>URL</key>
-			<string>http://catholicclimatecovenant.org</string>
 		</dict>
 		<dict>
 			<key>Name</key>
@@ -378,6 +366,12 @@
 		</dict>
 		<dict>
 			<key>Name</key>
+			<string>Catholic Climate Movement</string>
+			<key>URL</key>
+			<string>http://catholicclimatemovement.global</string>
+		</dict>
+		<dict>
+			<key>Name</key>
 			<string>National Snow &amp; Ice Data Center</string>
 			<key>URL</key>
 			<string>http://nsidc.org</string>
@@ -387,12 +381,6 @@
 			<string>World Resources Institute</string>
 			<key>URL</key>
 			<string>http://www.wri.org</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>U.S. Environmental Protection Agency</string>
-			<key>URL</key>
-			<string>http://m.epa.gov</string>
 		</dict>
 		<dict>
 			<key>Name</key>
