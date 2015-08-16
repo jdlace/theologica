@@ -122,7 +122,7 @@
     BiblicalPins *temple = [[BiblicalPins alloc] init];
     temple.coordinate = CLLocationCoordinate2DMake(31.7780, 35.2354);
     temple.title = @"The Temple";
-    temple.subtitle = @"The House of YHWH";
+    temple.subtitle = @"The House of Yahweh";
     temple.image = [UIImage imageNamed:@"temple"];
     temple.information = @"\rThe Temple was originally built by Solomon in the 10th century B.C. During the reign of Josiah, it purportedly housed a large statue of the Canaanite goddess Asherah. It was destroyed by the Babylonians in 587 B.C. during their conquest of Judah. Upon their return from the Exile, the Jews rebuilt the Temple and dedicated it in 515 B.C.\r\rIt was later expanded by Herod the Great.\r\rFurther Reference:\rWikipedia, “Solomon's Temple”\rhttp://tinyurl.com/2fvnju\r\rCoordinates:\r31.7780, 35.2354\r\r\r";
     
@@ -600,7 +600,7 @@
                                       BiblicalPins *temple = [[BiblicalPins alloc] init];
                                       temple.coordinate = CLLocationCoordinate2DMake(31.7780, 35.2354);
                                       temple.title = @"The Temple";
-                                      temple.subtitle = @"The House of YHWH";
+                                      temple.subtitle = @"The House of Yahweh";
                                       temple.image = [UIImage imageNamed:@"temple"];
                                       temple.information = @"\rThe Temple was originally built by Solomon in the 10th century B.C. During the reign of Josiah, it purportedly housed a large statue of the Canaanite goddess Asherah. It was destroyed by the Babylonians in 587 B.C. during their conquest of Judah. Upon their return from the Exile, the Jews rebuilt the Temple and dedicated it in 515 B.C.\r\rIt was later expanded by Herod the Great.\r\rFurther Reference:\rWikipedia, “Solomon's Temple”\rhttp://tinyurl.com/2fvnju\r\rCoordinates:\r31.7780, 35.2354\r\r\r";
                                       
@@ -736,7 +736,7 @@
                                    BiblicalPins *temple = [[BiblicalPins alloc] init];
                                    temple.coordinate = CLLocationCoordinate2DMake(31.7780, 35.2354);
                                    temple.title = @"The Temple Mount";
-                                   temple.subtitle = @"The House of YHWH";
+                                   temple.subtitle = @"The House of Yahweh";
                                    temple.image = [UIImage imageNamed:@"temple"];
                                    temple.information = @"\rThe Temple was originally built by Solomon in the 10th century B.C. During the reign of Josiah, it purportedly housed a large statue of the Canaanite goddess Asherah. It was destroyed by the Babylonians in 587 B.C. during their conquest of Judah. Upon their return from the Exile, the Jews rebuilt the Temple and dedicated it in 515 B.C.\r\rIt was later expanded by Herod the Great.\r\rCoordinates:\r31.7780, 35.2354\r\r\r";
                                    

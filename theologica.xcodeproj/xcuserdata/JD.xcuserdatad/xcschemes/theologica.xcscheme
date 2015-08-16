@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0610"
+   LastUpgradeVersion = "0640"
    wasCreatedForAppExtension = "YES"
    version = "2.0">
    <BuildAction
@@ -15,7 +15,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "69989B0119FF2FC60009ABAE"
+               BlueprintIdentifier = "69E151961B69CBEF0002A35F"
                BuildableName = "Theologica.appex"
                BlueprintName = "Theologica"
                ReferencedContainer = "container:theologica.xcodeproj">
@@ -35,6 +35,20 @@
                ReferencedContainer = "container:theologica.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "69E151B51B69D53B0002A35F"
+               BuildableName = "WidgetFrameworkTests.xctest"
+               BlueprintName = "WidgetFrameworkTests"
+               ReferencedContainer = "container:theologica.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -43,13 +57,23 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "69E151B51B69D53B0002A35F"
+               BuildableName = "WidgetFrameworkTests.xctest"
+               BlueprintName = "WidgetFrameworkTests"
+               ReferencedContainer = "container:theologica.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "69989B0119FF2FC60009ABAE"
-            BuildableName = "Theologica.appex"
-            BlueprintName = "Theologica"
+            BlueprintIdentifier = "692ED2461796D552008554F9"
+            BuildableName = "theologica.app"
+            BlueprintName = "theologica"
             ReferencedContainer = "container:theologica.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,8 +88,12 @@
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES"
       launchAutomaticallySubstyle = "2">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/Today">
+      </RemoteRunnable>
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "692ED2461796D552008554F9"
@@ -73,7 +101,7 @@
             BlueprintName = "theologica"
             ReferencedContainer = "container:theologica.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
