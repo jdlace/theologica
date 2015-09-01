@@ -35,6 +35,8 @@
 		6954D6FF1A884E17004374F0 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6954D6FE1A884E17004374F0 /* AboutViewController.m */; };
 		695847CE1AB5C9B90085251C /* TwitterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 695847CD1AB5C9B90085251C /* TwitterTableViewController.m */; };
 		6960659C1B3C8D77003B500D /* SourcesWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6960659B1B3C8D77003B500D /* SourcesWebViewController.m */; };
+		6960CA501B8C11A50072FCB3 /* TADataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA06E321A833B4800A6A19E /* TADataStore.m */; };
+		6960CA511B8C11BA0072FCB3 /* TAWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA06E6D1A833F9200A6A19E /* TAWord.m */; };
 		69739B561A36897F008BAB06 /* SearchBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69739B551A36897F008BAB06 /* SearchBarViewController.m */; };
 		6975A2231B53413100BCB4B7 /* CustomTabsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6975A2221B53413100BCB4B7 /* CustomTabsViewController.m */; };
 		6975A2261B53437300BCB4B7 /* SourcesNavCon.m in Sources */ = {isa = PBXBuildFile; fileRef = 6975A2251B53437300BCB4B7 /* SourcesNavCon.m */; };
@@ -55,19 +57,6 @@
 		69D4C4BB1B117D1E009B5FE0 /* SignContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D4C4BA1B117D1E009B5FE0 /* SignContentViewController.m */; };
 		69D6284C1A47617B0073C157 /* HistoricalPins.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D6284B1A47617B0073C157 /* HistoricalPins.m */; };
 		69D6284F1A4762830073C157 /* SocialPins.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D6284E1A4762830073C157 /* SocialPins.m */; };
-		69E151981B69CBEF0002A35F /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69989AC519FF2D5D0009ABAE /* NotificationCenter.framework */; };
-		69E1519E1B69CBEF0002A35F /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E1519D1B69CBEF0002A35F /* TodayViewController.m */; };
-		69E151A01B69CBEF0002A35F /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69E1519F1B69CBEF0002A35F /* MainInterface.storyboard */; };
-		69E151A31B69CBEF0002A35F /* Theologica.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 69E151971B69CBEF0002A35F /* Theologica.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		69E151B11B69D53B0002A35F /* WidgetFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 69E151B01B69D53B0002A35F /* WidgetFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		69E151C01B69D53B0002A35F /* WidgetFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E151BF1B69D53B0002A35F /* WidgetFrameworkTests.m */; };
-		69E151C31B69D53B0002A35F /* WidgetFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E151AC1B69D53B0002A35F /* WidgetFramework.framework */; };
-		69E151C41B69D53B0002A35F /* WidgetFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 69E151AC1B69D53B0002A35F /* WidgetFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		69E151CC1B69D6130002A35F /* TADataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA06E321A833B4800A6A19E /* TADataStore.m */; };
-		69E151CD1B69D68F0002A35F /* WidgetFramework.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E151B01B69D53B0002A35F /* WidgetFramework.h */; };
-		69E151CE1B69D7BF0002A35F /* TAWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA06E6D1A833F9200A6A19E /* TAWord.m */; };
-		69E151D01B69D8220002A35F /* WidgetFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E151AC1B69D53B0002A35F /* WidgetFramework.framework */; };
-		69E151D11B69D8C90002A35F /* WidgetFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E151AC1B69D53B0002A35F /* WidgetFramework.framework */; };
 		69F802BA1B3A4F8E002A5C8C /* Explorations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 69F802B91B3A4F8E002A5C8C /* Explorations.plist */; };
 		69F802BD1B3A50AE002A5C8C /* ExplorationsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F802BC1B3A50AE002A5C8C /* ExplorationsTableViewController.m */; };
 		69FB18EB1A0051C500F1C9A4 /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = 69FB18EA1A0051C500F1C9A4 /* Word.m */; };
@@ -80,37 +69,6 @@
 		FA9323091A1E6DE8008CF833 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9323081A1E6DE8008CF833 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		69E151A11B69CBEF0002A35F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 692ED23F1796D552008554F9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 69E151961B69CBEF0002A35F;
-			remoteInfo = Theologica;
-		};
-		69E151B81B69D53B0002A35F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 692ED23F1796D552008554F9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 69E151AB1B69D53B0002A35F;
-			remoteInfo = WidgetFramework;
-		};
-		69E151BA1B69D53B0002A35F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 692ED23F1796D552008554F9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 692ED2461796D552008554F9;
-			remoteInfo = theologica;
-		};
-		69E151C11B69D53B0002A35F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 692ED23F1796D552008554F9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 69E151AB1B69D53B0002A35F;
-			remoteInfo = WidgetFramework;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		69989AD519FF2D5D0009ABAE /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -118,7 +76,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				69E151A31B69CBEF0002A35F /* Theologica.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -129,7 +86,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				69E151C41B69D53B0002A35F /* WidgetFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,17 +173,6 @@
 		69D6284B1A47617B0073C157 /* HistoricalPins.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoricalPins.m; sourceTree = "<group>"; };
 		69D6284D1A4762830073C157 /* SocialPins.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialPins.h; sourceTree = "<group>"; };
 		69D6284E1A4762830073C157 /* SocialPins.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialPins.m; sourceTree = "<group>"; };
-		69E151971B69CBEF0002A35F /* Theologica.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Theologica.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		69E1519B1B69CBEF0002A35F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		69E1519C1B69CBEF0002A35F /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
-		69E1519D1B69CBEF0002A35F /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
-		69E1519F1B69CBEF0002A35F /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
-		69E151AC1B69D53B0002A35F /* WidgetFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WidgetFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		69E151AF1B69D53B0002A35F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		69E151B01B69D53B0002A35F /* WidgetFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WidgetFramework.h; sourceTree = "<group>"; };
-		69E151B61B69D53B0002A35F /* WidgetFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WidgetFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		69E151BE1B69D53B0002A35F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		69E151BF1B69D53B0002A35F /* WidgetFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WidgetFrameworkTests.m; sourceTree = "<group>"; };
 		69F802B91B3A4F8E002A5C8C /* Explorations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Explorations.plist; sourceTree = "<group>"; };
 		69F802BB1B3A50AE002A5C8C /* ExplorationsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExplorationsTableViewController.h; path = ../ExplorationsTableViewController.h; sourceTree = "<group>"; };
 		69F802BC1B3A50AE002A5C8C /* ExplorationsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExplorationsTableViewController.m; path = ../ExplorationsTableViewController.m; sourceTree = "<group>"; };
@@ -253,11 +198,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69E151CD1B69D68F0002A35F /* WidgetFramework.h in Frameworks */,
 				6939B7D81AB5BF8100DBA0E6 /* QuartzCore.framework in Frameworks */,
 				6946C9201B2EF7AF00631421 /* SystemConfiguration.framework in Frameworks */,
 				6946C9241B2EF7AF00631421 /* Crashlytics.framework in Frameworks */,
-				69E151C31B69D53B0002A35F /* WidgetFramework.framework in Frameworks */,
 				9BA06E701A83631900A6A19E /* CoreData.framework in Frameworks */,
 				6946C9221B2EF7AF00631421 /* libz.dylib in Frameworks */,
 				6939B7D71AB5BF8100DBA0E6 /* Security.framework in Frameworks */,
@@ -274,30 +217,6 @@
 				6939B7D51AB5BF8100DBA0E6 /* AddressBook.framework in Frameworks */,
 				6946C9211B2EF7AF00631421 /* libc++.dylib in Frameworks */,
 				692ED24F1796D552008554F9 /* CoreGraphics.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		69E151941B69CBEF0002A35F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				69E151D11B69D8C90002A35F /* WidgetFramework.framework in Frameworks */,
-				69E151981B69CBEF0002A35F /* NotificationCenter.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		69E151A81B69D53B0002A35F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		69E151B31B69D53B0002A35F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				69E151D01B69D8220002A35F /* WidgetFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,9 +266,6 @@
 				692ED2501796D552008554F9 /* Controllers */,
 				69BB25461A130E8200B3F5B5 /* Data Model */,
 				692ED2511796D552008554F9 /* Supporting Files */,
-				69E151991B69CBEF0002A35F /* Theologica */,
-				69E151AD1B69D53B0002A35F /* WidgetFramework */,
-				69E151BC1B69D53B0002A35F /* WidgetFrameworkTests */,
 				692ED2491796D552008554F9 /* Frameworks */,
 				692ED2481796D552008554F9 /* Products */,
 			);
@@ -359,9 +275,6 @@
 			isa = PBXGroup;
 			children = (
 				692ED2471796D552008554F9 /* theologica.app */,
-				69E151971B69CBEF0002A35F /* Theologica.appex */,
-				69E151AC1B69D53B0002A35F /* WidgetFramework.framework */,
-				69E151B61B69D53B0002A35F /* WidgetFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -513,59 +426,6 @@
 			path = theologica;
 			sourceTree = "<group>";
 		};
-		69E151991B69CBEF0002A35F /* Theologica */ = {
-			isa = PBXGroup;
-			children = (
-				69E1519C1B69CBEF0002A35F /* TodayViewController.h */,
-				69E1519D1B69CBEF0002A35F /* TodayViewController.m */,
-				69E1519F1B69CBEF0002A35F /* MainInterface.storyboard */,
-				69E1519A1B69CBEF0002A35F /* Supporting Files */,
-			);
-			path = Theologica;
-			sourceTree = "<group>";
-		};
-		69E1519A1B69CBEF0002A35F /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				69E1519B1B69CBEF0002A35F /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		69E151AD1B69D53B0002A35F /* WidgetFramework */ = {
-			isa = PBXGroup;
-			children = (
-				69E151B01B69D53B0002A35F /* WidgetFramework.h */,
-				69E151AE1B69D53B0002A35F /* Supporting Files */,
-			);
-			path = WidgetFramework;
-			sourceTree = "<group>";
-		};
-		69E151AE1B69D53B0002A35F /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				69E151AF1B69D53B0002A35F /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		69E151BC1B69D53B0002A35F /* WidgetFrameworkTests */ = {
-			isa = PBXGroup;
-			children = (
-				69E151BF1B69D53B0002A35F /* WidgetFrameworkTests.m */,
-				69E151BD1B69D53B0002A35F /* Supporting Files */,
-			);
-			path = WidgetFrameworkTests;
-			sourceTree = "<group>";
-		};
-		69E151BD1B69D53B0002A35F /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				69E151BE1B69D53B0002A35F /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		9BA06E2A1A833AB800A6A19E /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
@@ -593,17 +453,6 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		69E151A91B69D53B0002A35F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				69E151B11B69D53B0002A35F /* WidgetFramework.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
 		692ED2461796D552008554F9 /* theologica */ = {
 			isa = PBXNativeTarget;
@@ -620,67 +469,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				69E151A21B69CBEF0002A35F /* PBXTargetDependency */,
-				69E151C21B69D53B0002A35F /* PBXTargetDependency */,
 			);
 			name = theologica;
 			productName = theologica;
 			productReference = 692ED2471796D552008554F9 /* theologica.app */;
 			productType = "com.apple.product-type.application";
-		};
-		69E151961B69CBEF0002A35F /* Theologica */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 69E151A61B69CBEF0002A35F /* Build configuration list for PBXNativeTarget "Theologica" */;
-			buildPhases = (
-				69E151931B69CBEF0002A35F /* Sources */,
-				69E151941B69CBEF0002A35F /* Frameworks */,
-				69E151951B69CBEF0002A35F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Theologica;
-			productName = Theologica;
-			productReference = 69E151971B69CBEF0002A35F /* Theologica.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
-		69E151AB1B69D53B0002A35F /* WidgetFramework */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 69E151C51B69D53B0002A35F /* Build configuration list for PBXNativeTarget "WidgetFramework" */;
-			buildPhases = (
-				69E151A71B69D53B0002A35F /* Sources */,
-				69E151A81B69D53B0002A35F /* Frameworks */,
-				69E151A91B69D53B0002A35F /* Headers */,
-				69E151AA1B69D53B0002A35F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = WidgetFramework;
-			productName = WidgetFramework;
-			productReference = 69E151AC1B69D53B0002A35F /* WidgetFramework.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		69E151B51B69D53B0002A35F /* WidgetFrameworkTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 69E151C91B69D53B0002A35F /* Build configuration list for PBXNativeTarget "WidgetFrameworkTests" */;
-			buildPhases = (
-				69E151B21B69D53B0002A35F /* Sources */,
-				69E151B31B69D53B0002A35F /* Frameworks */,
-				69E151B41B69D53B0002A35F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				69E151B91B69D53B0002A35F /* PBXTargetDependency */,
-				69E151BB1B69D53B0002A35F /* PBXTargetDependency */,
-			);
-			name = WidgetFrameworkTests;
-			productName = WidgetFrameworkTests;
-			productReference = 69E151B61B69D53B0002A35F /* WidgetFrameworkTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -699,18 +492,6 @@
 							};
 						};
 					};
-					69E151961B69CBEF0002A35F = {
-						CreatedOnToolsVersion = 6.4;
-						DevelopmentTeam = M9E78PZP5E;
-					};
-					69E151AB1B69D53B0002A35F = {
-						CreatedOnToolsVersion = 6.4;
-						DevelopmentTeam = M9E78PZP5E;
-					};
-					69E151B51B69D53B0002A35F = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 692ED2461796D552008554F9;
-					};
 				};
 			};
 			buildConfigurationList = 692ED2421796D552008554F9 /* Build configuration list for PBXProject "theologica" */;
@@ -726,9 +507,6 @@
 			projectRoot = "";
 			targets = (
 				692ED2461796D552008554F9 /* theologica */,
-				69E151961B69CBEF0002A35F /* Theologica */,
-				69E151AB1B69D53B0002A35F /* WidgetFramework */,
-				69E151B51B69D53B0002A35F /* WidgetFrameworkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -744,28 +522,6 @@
 				6902FACE17F51D3E00299A50 /* Images.xcassets in Resources */,
 				6976E3021A6F3E8D0013A6D5 /* Links.plist in Resources */,
 				69F802BA1B3A4F8E002A5C8C /* Explorations.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		69E151951B69CBEF0002A35F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				69E151A01B69CBEF0002A35F /* MainInterface.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		69E151AA1B69D53B0002A35F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		69E151B41B69D53B0002A35F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -820,6 +576,7 @@
 				699416E51B5889BE006D51BD /* AboutNavCon.m in Sources */,
 				69739B561A36897F008BAB06 /* SearchBarViewController.m in Sources */,
 				692ED2B51796F48B008554F9 /* WordDetailViewController.m in Sources */,
+				6960CA501B8C11A50072FCB3 /* TADataStore.m in Sources */,
 				9BA06E2D1A833AD400A6A19E /* theologica.xcdatamodeld in Sources */,
 				69D6284C1A47617B0073C157 /* HistoricalPins.m in Sources */,
 				6975A2321B53460500BCB4B7 /* ExplorationsNavCon.m in Sources */,
@@ -830,6 +587,7 @@
 				694E879A1A55C5AB00CE4A37 /* LinksTableViewController.m in Sources */,
 				6954D6FF1A884E17004374F0 /* AboutViewController.m in Sources */,
 				6975A2261B53437300BCB4B7 /* SourcesNavCon.m in Sources */,
+				6960CA511B8C11BA0072FCB3 /* TAWord.m in Sources */,
 				694E879E1A55D52400CE4A37 /* WebViewController.m in Sources */,
 				690D0B9F1B13A57800A1F327 /* RootViewController.m in Sources */,
 				6975A22F1B53458700BCB4B7 /* MapsNavCon.m in Sources */,
@@ -842,55 +600,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		69E151931B69CBEF0002A35F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				69E1519E1B69CBEF0002A35F /* TodayViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		69E151A71B69D53B0002A35F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				69E151CE1B69D7BF0002A35F /* TAWord.m in Sources */,
-				69E151CC1B69D6130002A35F /* TADataStore.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		69E151B21B69D53B0002A35F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				69E151C01B69D53B0002A35F /* WidgetFrameworkTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		69E151A21B69CBEF0002A35F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 69E151961B69CBEF0002A35F /* Theologica */;
-			targetProxy = 69E151A11B69CBEF0002A35F /* PBXContainerItemProxy */;
-		};
-		69E151B91B69D53B0002A35F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 69E151AB1B69D53B0002A35F /* WidgetFramework */;
-			targetProxy = 69E151B81B69D53B0002A35F /* PBXContainerItemProxy */;
-		};
-		69E151BB1B69D53B0002A35F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 692ED2461796D552008554F9 /* theologica */;
-			targetProxy = 69E151BA1B69D53B0002A35F /* PBXContainerItemProxy */;
-		};
-		69E151C21B69D53B0002A35F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 69E151AB1B69D53B0002A35F /* WidgetFramework */;
-			targetProxy = 69E151C11B69D53B0002A35F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		692ED2531796D552008554F9 /* InfoPlist.strings */ = {
@@ -1017,208 +727,6 @@
 			};
 			name = Release;
 		};
-		69E151A41B69CBEF0002A35F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = Theologica/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		69E151A51B69CBEF0002A35F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = Theologica/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		69E151C61B69D53B0002A35F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = WidgetFramework/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		69E151C71B69D53B0002A35F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = WidgetFramework/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		69E151CA1B69D53B0002A35F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = WidgetFrameworkTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/theologica.app/theologica";
-			};
-			name = Debug;
-		};
-		69E151CB1B69D53B0002A35F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = WidgetFrameworkTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/theologica.app/theologica";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1236,33 +744,6 @@
 			buildConfigurations = (
 				692ED2761796D552008554F9 /* Debug */,
 				692ED2771796D552008554F9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		69E151A61B69CBEF0002A35F /* Build configuration list for PBXNativeTarget "Theologica" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				69E151A41B69CBEF0002A35F /* Debug */,
-				69E151A51B69CBEF0002A35F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		69E151C51B69D53B0002A35F /* Build configuration list for PBXNativeTarget "WidgetFramework" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				69E151C61B69D53B0002A35F /* Debug */,
-				69E151C71B69D53B0002A35F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		69E151C91B69D53B0002A35F /* Build configuration list for PBXNativeTarget "WidgetFrameworkTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				69E151CA1B69D53B0002A35F /* Debug */,
-				69E151CB1B69D53B0002A35F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
