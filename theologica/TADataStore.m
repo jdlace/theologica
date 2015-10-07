@@ -155,11 +155,12 @@
 
 - (void)buildDictionaryWords
 {
+    /*
     if ([TADataStore sharedStore].hasWords)
     {
         return;
     }
-    
+    */
     
     //A
     [TAWord wordWithDict:@{@"name":@"Abba",
@@ -1842,12 +1843,12 @@
     
     [TAWord wordWithDict:@{@"name":@"Integral Ecology",
                            @"twitterDef":@"the environmental context of the human person in light of the truths of Creation",
-                           @"definition":@"\rPope Francis has made the subject of integral ecology a theme of his latest encyclical.\r\r“Since everything is closely interrelated, and today’s problems call for a vision capable of taking into account every aspect of the global crisis, I suggest that we now consider some elements of an integral ecology, one which clearly respects its human and social dimensions...When we speak of the “environment”, what we really mean is a relationship existing between nature and the society which lives in it. Nature cannot be regarded as something separate from ourselves or as a mere setting in which we live. We are part of nature, included in it and thus in constant interaction with it...An integral ecology is marked by this broader vision.”\r-Laudato Si”, 137, 139, 159\r\rFurther Reference:\rPope Francis, “Laudato Si”\rhttp://tinyurl.com/o6sowft\r\rUnited States Conference of Catholic Bishops, “Renewing The Earth”, http://tinyurl.com/88p92au\r\r\r",
+                           @"definition":@"\rPope Francis has made the subject of integral ecology a theme of his latest encyclical.\r\r“Since everything is closely interrelated, and today’s problems call for a vision capable of taking into account every aspect of the global crisis, I suggest that we now consider some elements of an integral ecology, one which clearly respects its human and social dimensions...When we speak of the “environment”, what we really mean is a relationship existing between nature and the society which lives in it. Nature cannot be regarded as something separate from ourselves or as a mere setting in which we live. We are part of nature, included in it and thus in constant interaction with it...An integral ecology is marked by this broader vision.”\r-Laudato Si, 137, 139, 159\r\rFurther Reference:\rPope Francis, “Laudato Si”\rhttp://tinyurl.com/o6sowft\r\rUnited States Conference of Catholic Bishops, “Renewing The Earth”, http://tinyurl.com/88p92au\r\r\r",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Interpretation",
                            @"twitterDef":@"the process of determining the meaning, significance, and relevance of a text",
-                           @"definition":@"\rInterpretation of any text, especially the Bible, requires knowing the context of the writing. This, in turn, requires efforts to know the author's intent, which is partly discerned by studying the text's literary form. See “Exegesis”, “Hermeneutics”, “Sitz im Leben”.\r\rFurther Reference:\rPontifical Biblical Commission\r“The Interpretation of the Bible in the Church”\rhttp://tinyurl.com/nmj6amr\r\rRev. M.B. Fallon\r“Interpreting and Understanding the Texts”\rhttp://tinyurl.com/pas2gb5\r\r\r",
+                           @"definition":@"\rInterpretation of any text, especially the Bible, requires knowing the context of the writing. This, in turn, requires efforts to know the author's intent, which is partly discerned by studying the text's literary form. See “Exegesis”, “Hermeneutics”, “Sitz Em Leben”.\r\rFurther Reference:\rPontifical Biblical Commission\r“The Interpretation of the Bible in the Church”\rhttp://tinyurl.com/nmj6amr\r\rRev. M.B. Fallon\r“Interpreting and Understanding the Texts”\rhttp://tinyurl.com/pas2gb5\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Israel",
@@ -2754,6 +2755,12 @@
     
     //////////////////////////////////////S
     
+    [TAWord wordWithDict:@{@"name":@"Sabbath",
+                           @"twitterDef":@"the seventh day of the Hebrew week, the day of rest",
+                           @"definition":@"\rThe observance of the Sabbath is commanded in the Decalogue. In Exodus 20, the reason for Sabbath observance is God's cessation from creation, while in Deuteronomy 5, it is the fomer status of slavery in Egypt. Violation of the Sabbath observance was punishable by death and exommunication from the people of Israel. See “Decalogue”.\r\rFurther Reference:\rWikipedia, “Sabbath”\rhttp://tinyurl.com/nlqwwz9\r\r\r",
+                           @"category":@"Biblical"}];
+    
+    
     
     [TAWord wordWithDict:@{@"name":@"Sacrament",
                            @"twitterDef":@"an efficacious sign of the Paschal Mystery that confers the grace it signifies",
@@ -2781,6 +2788,13 @@
                            @"twitterDef":@"the Greek dynasty that ruled in Syria",
                            @"definition":@"\rThe Seleucids were descendants of Seleucus, a general of Alexander the Great. The most famous of the Seleucid dynasty was undoubtedly Antiochus IV, who installed a statue of Zeus in the Temple of Jerusalem and attempted to Hellenize the Jews by force. The sect of the Sadducees were descended from them. See “Sadducees”.\r\rFurther Reference:\rWikipedia, “Seleucid Empire”\rhttp://tinyurl.com/pq4w6z7\r\r\r",
                            @"category":@"Biblical"}];
+    
+    
+    [TAWord wordWithDict:@{@"name":@"Sin",
+                           @"twitterDef":@"the choice to rebel against love for ",
+                           @"definition":@"\rSoteriology examines the nature of salvation and its relationship with the larger subject of Ecclesiology. See “Ecclesiology”, “Salvation”.\r\rFurther Reference:\rWikipedia, “Soteriology”\rhttp://tinyurl.com/m3ysznn\r\r\r",
+                           @"category":@"Systematic"}];
+    
     
     [TAWord wordWithDict:@{@"name":@"Social Justice",
                            @"twitterDef":@"the just structuring of society that prioritizes the common good and the poor",
@@ -2812,9 +2826,9 @@
                            @"definition":@"\rAccording to legend, the Septuagint was made at the request of Alexander the Great by 70 Jewish scribes.\r\rFurther Reference:\rWikipedia, “Septuagint”\rhttp://tinyurl.com/ysxfhh\r\r\r",
                            @"category":@"Biblical"}];
     
-    [TAWord wordWithDict:@{@"name":@"Sitz im Leben",
-                           @"twitterDef":@"a German word meaning “setting in life” referring to the context of a text",
-                           @"definition":@"\rForm Criticism determines the literary form of a text. This form is intrinsically connected to its setting in life. The German biblical scholar Hermann Gunkel coined the phrase to refer to this context.\r\rGerman, (sitz em leben)\r\rFurther Reference:\rWikipedia, “Sitz im Leben”\rhttp://tinyurl.com/cj4hy7\r\r\r",
+    [TAWord wordWithDict:@{@"name":@"Sitz Em Leben",
+                           @"twitterDef":@"a German phrase meaning “setting in life” referring to the context of a text",
+                           @"definition":@"\rForm Criticism determines the literary form of a text. This form is intrinsically connected to its setting in life. The German biblical scholar Hermann Gunkel coined the phrase to refer to this context.\r\rGerman, (sitz em leben)\r\rFurther Reference:\rWikipedia, “Sitz Em Leben”\rhttp://tinyurl.com/cj4hy7\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Social Revolution Model",
