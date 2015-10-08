@@ -2791,8 +2791,8 @@
     
     
     [TAWord wordWithDict:@{@"name":@"Sin",
-                           @"twitterDef":@"the choice to rebel against love for ",
-                           @"definition":@"\rSoteriology examines the nature of salvation and its relationship with the larger subject of Ecclesiology. See “Ecclesiology”, “Salvation”.\r\rFurther Reference:\rWikipedia, “Soteriology”\rhttp://tinyurl.com/m3ysznn\r\r\r",
+                           @"twitterDef":@"the choice to rebel against love for God and neighbor",
+                           @"definition":@"\rIn the Catholic tradition, sin has been classified as either mortal or venial in terms of its effects. Mortal sin destroys charity for God and neighbor due to a grave offence, but must be committed with full knowledge of the sinful nature of the act and with deliberate consent. Venial sin wounds such charity but does not destroy it. The teaching of the Church acknowledges the power of habit in sin as a mitigating factor in assessing varying degrees of guilt. Original Sin, when referring to the sinful condition of fallen humanity, is termed such only analagously, since it is not derived from personal fault, but from the sin of the first humans. Theologians such as Karl Rahner have attempted to analyze sin from the broader perspective of a “fundamental option”, but Pope John Paul II taught that such an orientation is manifested in particular acts. See “Original Sin”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1849-1876\rhttp://tinyurl.com/on3399l\r\r\r",
                            @"category":@"Systematic"}];
     
     
@@ -2841,12 +2841,12 @@
                            @"definition":@"\rSource Criticism is a criticism used in the larger Historical-Critical Method. It was developed in the 19th century by German biblical scholars and eventually led to the formulation of the Documentary Hypothesis of the Torah and the Two-Source Theory of the Gospels. See “Documentary Hypothesis”, “Historical-Critical Method”, “Two-Source Theory”.\r\rFurther Reference:\rRev. Joseph Fitzmeyer\r“Historical Criticism: Its Role in Biblical Interpretation and Church Life”, 250-251\rhttp://tinyurl.com/p7488ev\r\r\r",
                            @"category":@"Biblical"}];
     
-   /*
+   
     [TAWord wordWithDict:@{@"name":@"Story Cycle",
-                           @"twitterDef":@"the series of ",
-                           @"definition":@"\rSynagogues developed among Jews during the Exile in Babylon as a means of preserving national and religious identity. They were carried over into post-Exilic, Second Temple Judaism. Jesus of Nazareth is portrayed as teaching in the synagogues of the Galilee in the Gospels. See “Second Temple Judaism”.\r\rGreek, συναγωγή (synagoge) “gathering”\r\rFurther Reference:\rWikipedia, “Synagogue”\rhttp://tinyurl.com/yjbh2z\r\r\r",
+                           @"twitterDef":@"the series of repetative short stories with different details that revolve around a central character",
+                           @"definition":@"\rIn the Torah, the Abraham cycles involve his migration to Egypt and his wife/sister Sarah's encounter with Pharoah and Abimelech. The Jacob cycle also involves his migration due to famine, his wives, and Abimelech. See “Torah”.\r\rFurther Reference:\rBarry Bandstra, “Reading the Old Testament: An Introduction to the Hebrew Bible” p. 81\rhttp://tinyurl.com/or2a9s5\r\r\r",
                            @"category":@"Biblical"}];
-    */
+    
     
     [TAWord wordWithDict:@{@"name":@"Synagogue",
                            @"twitterDef":@"the local gathering place for Jews on the Sabbath",
