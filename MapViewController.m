@@ -29,6 +29,7 @@
     UIBarButtonItem *temporaryBarButtonItem = [[UIBarButtonItem alloc] init];
     temporaryBarButtonItem.title = @"Back";
     self.navigationItem.backBarButtonItem = temporaryBarButtonItem;
+    self.mapView.showsScale = TRUE;
 
     
     //Create a region and zoom level for the intial view of the map. 
@@ -67,12 +68,12 @@
     nazareth.title = @"Nazareth";
     nazareth.subtitle = @"Traditional Hometown of Jesus";
     nazareth.image = [UIImage imageNamed:@"nazareth"];
-    nazareth.information = @"\rThe town of Nazareth is not mentioned in the Hebrew Scriptures. It was a small village only 4 miles from Sepphoris, the captial city of Herod Antipas. All of the Gospels claim that Jesus was from Nazareth. One of the terms used to describe the early Christians was “Nazarenes” after the same term was applied to Jesus (Acts 24:5).\r\rFurther Reference:\rPope John Paul II, Jubliee Pilgramage Homily on the Annunciation\rhttp://tinyurl.com/p4sjg9p\r\rCoordinates:\r32.7000, 35.3040\r\r\r";
+    nazareth.information = @"\rThe town of Nazareth is not mentioned in the Hebrew Scriptures. It was a small village only 4 miles from Sepphoris, the captial city of Herod Antipas. All of the Gospels claim that Jesus was from Nazareth. One of the terms used to describe the early Christians was “Nazarenes” after the same term was applied to Jesus (Acts 24:5).\r\rFurther Reference:\rPope John Paul II, Jubliee Pilgramage Homily on the Annunciation\rhttp://tinyurl.com/p4sjg9p\r\rWikipedia, “Nazareth”\rhttp://tinyurl.com/jojq76x\r\rCoordinates:\r32.7000, 35.3040\r\r\r";
     
     BiblicalPins *bethEl = [[BiblicalPins alloc] init];
     bethEl.coordinate = CLLocationCoordinate2DMake(31.9390, 35.2260);
     bethEl.title = @"Beth-El";
-    bethEl.subtitle = @"Canaanite cultic site of El";
+    bethEl.subtitle = @"Southern Israelite Cultic Site";
     bethEl.image = [UIImage imageNamed:@"bethel"];
     bethEl.information = @"\rBeth-El was a popular cultic site devoted to the Canaanite god El, the father of the Canaanite pantheon. In Genesis 32 and 35 it is associated with the Hebrew patriarch Jacob:\r\r“Jacob departed from Beer-sheba and proceeded toward Haran. When he came upon a certain place, he stopped there for the night, since the sun had already set. Taking one of the stones at the place, he put it under his head and lay down in that place. Then he had a dream: a stairway rested on the ground, with its top reaching to the heavens; and God’s angels were going up and down on it. And there was the LORD standing beside him and saying: I am the LORD, the God of Abraham your father and the God of Isaac; the land on which you are lying I will give to you and your descendants. Your descendants will be like the dust of the earth, and through them you will spread to the west and the east, to the north and the south. In you and your descendants all the families of the earth will find blessing. I am with you and will protect you wherever you go, and bring you back to this land. I will never leave you until I have done what I promised you. When Jacob awoke from his sleep, he said, 'Truly, the Lord is in this place and I did not know it!' He was afraid and said: 'How awesome this place is! This is nothing else but the house of God, the gateway to heaven!' Early the next morning Jacob took the stone that he had put under his head, set it up as a sacred pillar, and poured oil on top of it. He named that place Bethel, whereas the former name of the town had been Luz.”\r-Genesis 28: 10-19\r\rLater in 1 Kings, Bethel becomes one of two alternative worship sites established by King Jeroboam of the Northern Kingdom:\r\r“Jeroboam thought to himself: 'Now the kingdom will return to the house of David. If this people go up to offer sacrifices in the house of the Lord in Jerusalem, the hearts of this people will return to their master, Rehoboam, king of Judah, and they will kill me and return to Rehoboam, king of Judah.' The king took counsel, made two calves of gold, and said to the people: 'You have been going up to Jerusalem long enough. Here are your gods, O Israel, who brought you up from the land of Egypt.' And he put one in Bethel, the other in Dan. This led to sin, because the people frequented these calves in Bethel and in Dan. He also built temples on the high places and made priests from among the common people who were not Levites.”\r\rFurther Reference:\rNew American Bible Revised Edition\rGenesis 32, http://tinyurl.com/p32m2bw\r\r1 Kings 12, http://tinyurl.com/qhd4nug\r\rCoordinates:\r31.9390, 35.2260\r\r\r";
     
@@ -109,7 +110,7 @@
     dan.title = @"Dan";
     dan.image = [UIImage imageNamed:@"dan"];
     dan.subtitle = @"Northern Israelite Cultic Site";
-    dan.information = @"\rDan was one of the two sites at which Jeroboam established alternative worship sites for the newly established northern kingdom as described in 1 Kings 12.\r\rFurther Reference:\rWikipedia, “Dan”\rhttp://tinyurl.com/mxyh5wr\r\rCoordinates: 33.2490, 35.6520\r\r\r";
+    dan.information = @"\r1 Kings 12, Dan becomes one of two alternative worship sites established by King Jeroboam I of the Northern Kingdom:\r\r“Jeroboam thought to himself: 'Now the kingdom will return to the house of David. If this people go up to offer sacrifices in the house of the Lord in Jerusalem, the hearts of this people will return to their master, Rehoboam, king of Judah, and they will kill me and return to Rehoboam, king of Judah.' The king took counsel, made two calves of gold, and said to the people: 'You have been going up to Jerusalem long enough. Here are your gods, O Israel, who brought you up from the land of Egypt.' And he put one in Bethel, the other in Dan. This led to sin, because the people frequented these calves in Bethel and in Dan. He also built temples on the high places and made priests from among the common people who were not Levites.”\r-1 Kings 12: 28-31\r\rFurther Reference:\rNew American Bible Revised Edition\r1 Kings 12, http://tinyurl.com/qhd4nug\r\rWikipedia, “Dan”\rhttp://tinyurl.com/mxyh5wr\r\rCoordinates: 33.2490, 35.6520\r\r\r";
     
     BiblicalPins *jericho = [[BiblicalPins alloc] init];
     jericho.coordinate = CLLocationCoordinate2DMake(31.8500, 35.4500);
@@ -131,7 +132,7 @@
     hazor.title = @"Hazor";
     hazor.image = [UIImage imageNamed:@"hazor"];
     hazor.subtitle = @"Major Ancient Canaanite City";
-    hazor.information = @"\rHazor was a major city in ancient Canaan. It was described as being destroyed in Joshua within months of other campaigns against Jericho and Ai. However, recent archeological findings show that Hazor was destroyed by internal revolt rather than external attack. This is one datum that is explained by the Social Revolution Model of Settlement. See “Social Revolution Model” in the the Dictionary tab.\r\rFurther Reference:\rWikipedia, “Hazor”\rhttp://tinyurl.com/o6gnwhx\r\rCoordinates:\r33.0167, 35.5669\r\r\r";
+    hazor.information = @"\rHazor was a major city in ancient Canaan. It was described as being destroyed in Joshua within months of other campaigns against Jericho and Ai:\r\r“At that time Joshua, turning back, captured Hazor and struck down its king with the sword; for Hazor formerly was the chief of all those kingdoms. He also struck down with the sword every person there, carrying out the ban, till none was left alive. Hazor itself he burned.”\r-Joshua 11: 10-11\r\rHowever, according to the book of Judges, Hazor was still standing and a functional monarchy:\r\r“So the LORD sold them into the power of the Canaanite king, Jabin, who reigned in Hazor. The general of his army was Sisera, who lived in Harosheth-ha-goiim.”\r-Judges 4: 2\r\rIn addition to this discrepancy, recent archeological findings show that Hazor was destroyed in the late 13th century while Jericho and Ai were destroyed in 1500 B.C. and 2200 B.C., respectively. These findings further show Hazor was destoryed by internal revolt rather than external attack. These data are best explained by the Social Revolution Model of Settlement. See “Social Revolution Model” in the the Dictionary tab.\r\rFurther Reference:\rNew American Bible Revised Edition, Joshua 11\rhttp://tinyurl.com/z65778q\r\rJudges 4\rhttp://tinyurl.com/hf82n48\r\rIsrael Finkelstein, “The Forgotten Kingdom:  The Archeology And History Of Northern Israel”, pg. 21\rhttp://tinyurl.com/gnjmjwa\r\rWikipedia, “Hazor”\rhttp://tinyurl.com/o6gnwhx\r\rCoordinates:\r33.0167, 35.5669\r\r\r";
     
     BiblicalPins *sepphoris = [[BiblicalPins alloc] init];
     sepphoris.coordinate = CLLocationCoordinate2DMake(32.7529, 35.2795);
@@ -370,11 +371,18 @@
     texas.subtitle = @"Leads U.S. in Capital Punishment";
     texas.image = [UIImage imageNamed:@"texas"];
     texas.information = @"\rWhile numerous states have abolished the death penalty, Texas' rate of execution remains the highest in the nation. Various social groups, such as the Innocence Project, are aimed at abolishing the death penalty in Texas and throughout the country.\r\rFurther Reference:\rThe Innocence Project\rhttp://innocenceproject.org\r\r\r";
+    
+    SocialPins *gitmo = [[SocialPins alloc] init];
+    gitmo.coordinate = CLLocationCoordinate2DMake(19.9000, -75.1500);
+    gitmo.title = @"Guantanamo Bay";
+    gitmo.subtitle = @"Enemy Combatant Detention Camp";
+    gitmo.image = [UIImage imageNamed:@"gitmo"];
+    gitmo.information = @"\r\rAfter the 9/11 terrorist attacks on the United States, the Federal government initiated a policy of detaining foreign nationals who were suspected of being terrorists or supplying material support to terrorist networks.\r\rFurther Reference:\r\rCoordinates: 19.9000, -75.1500\r\r\r";
 
 
 
     
-    NSArray *annotations = [NSArray arrayWithObjects:jerusalem, gehenna, bethEl, ephesus, corinth, dan, temple, hazor, nicea, greenland, greatbr, philippines, rome, nazareth, capernaum, sierraLeone, camden, atlantic, rome2, constantinople, palestine, israel, alexandria, thessalonica, philippi, antioch, bethlehem, hebron, shiloh, lyon, vienne, chalcedon, constance, trent, florence, lateran, uganda, colossae, sepphoris, asheville, burma, ephesus2, cali, amazon, texas, nil];
+    NSArray *annotations = [NSArray arrayWithObjects:jerusalem, gehenna, bethEl, ephesus, corinth, dan, temple, hazor, nicea, greenland, greatbr, philippines, rome, nazareth, capernaum, sierraLeone, camden, atlantic, rome2, constantinople, palestine, israel, alexandria, thessalonica, philippi, antioch, bethlehem, hebron, shiloh, lyon, vienne, chalcedon, constance, trent, florence, lateran, uganda, colossae, sepphoris, asheville, burma, ephesus2, cali, amazon, texas, gitmo, nil];
     
     [self.mapView addAnnotations:annotations];
 
@@ -585,7 +593,7 @@
                                           BiblicalPins *bethEl = [[BiblicalPins alloc] init];
                                           bethEl.coordinate = CLLocationCoordinate2DMake(31.9390, 35.2260);
                                           bethEl.title = @"Beth-El";
-                                          bethEl.subtitle = @"Canaanite cultic site of El";
+                                          bethEl.subtitle = @"Southern Israelite Cultic Site";
                                           bethEl.image = [UIImage imageNamed:@"bethel"];
                                           bethEl.information = @"\rBeth-El was a popular cultic site devoted to the Canaanite god El, the father of the Canaanite pantheon. In Genesis 32 and 35 it is associated with the Hebrew patriarch Jacob:\r\r“Jacob departed from Beer-sheba and proceeded toward Haran. When he came upon a certain place, he stopped there for the night, since the sun had already set. Taking one of the stones at the place, he put it under his head and lay down in that place. Then he had a dream: a stairway rested on the ground, with its top reaching to the heavens; and God’s angels were going up and down on it. And there was the LORD standing beside him and saying: I am the LORD, the God of Abraham your father and the God of Isaac; the land on which you are lying I will give to you and your descendants. Your descendants will be like the dust of the earth, and through them you will spread to the west and the east, to the north and the south. In you and your descendants all the families of the earth will find blessing. I am with you and will protect you wherever you go, and bring you back to this land. I will never leave you until I have done what I promised you. When Jacob awoke from his sleep, he said, 'Truly, the Lord is in this place and I did not know it!' He was afraid and said: 'How awesome this place is! This is nothing else but the house of God, the gateway to heaven!' Early the next morning Jacob took the stone that he had put under his head, set it up as a sacred pillar, and poured oil on top of it. He named that place Bethel, whereas the former name of the town had been Luz.”\r-Genesis 28: 10-19\r\rLater in 1 Kings, Bethel becomes one of two alternative worship sites established by King Jeroboam of the Northern Kingdom:\r\r“Jeroboam thought to himself: 'Now the kingdom will return to the house of David. If this people go up to offer sacrifices in the house of the Lord in Jerusalem, the hearts of this people will return to their master, Rehoboam, king of Judah, and they will kill me and return to Rehoboam, king of Judah.' The king took counsel, made two calves of gold, and said to the people: 'You have been going up to Jerusalem long enough. Here are your gods, O Israel, who brought you up from the land of Egypt.' And he put one in Bethel, the other in Dan. This led to sin, because the people frequented these calves in Bethel and in Dan. He also built temples on the high places and made priests from among the common people who were not Levites.”\r\rFurther Reference:\rNew American Bible Revised Edition\rGenesis 32, http://tinyurl.com/p32m2bw\r\r1 Kings 12, http://tinyurl.com/qhd4nug\r\rCoordinates:\r31.9390, 35.2260\r\r\r";
 
@@ -595,7 +603,7 @@
                                           dan.title = @"Dan";
                                           dan.image = [UIImage imageNamed:@"dan"];
                                           dan.subtitle = @"Northern Israelite Cultic Site";
-                                          dan.information = @"\rDan was one of the two sites at which Jeroboam established alternative worship sites for the newly established northern kingdom as described in 1 Kings 12.\r\rFurther Reference:\rWikipedia, “Dan”\rhttp://tinyurl.com/mxyh5wr\r\rCoordinates: 33.2490, 35.6520\r\r\r";
+                                          dan.information = @"\r1 Kings 12, Dan becomes one of two alternative worship sites established by King Jeroboam I of the Northern Kingdom:\r\r“Jeroboam thought to himself: 'Now the kingdom will return to the house of David. If this people go up to offer sacrifices in the house of the Lord in Jerusalem, the hearts of this people will return to their master, Rehoboam, king of Judah, and they will kill me and return to Rehoboam, king of Judah.' The king took counsel, made two calves of gold, and said to the people: 'You have been going up to Jerusalem long enough. Here are your gods, O Israel, who brought you up from the land of Egypt.' And he put one in Bethel, the other in Dan. This led to sin, because the people frequented these calves in Bethel and in Dan. He also built temples on the high places and made priests from among the common people who were not Levites.”\r-1 Kings 12: 28-31\r\rFurther Reference:\rNew American Bible Revised Edition\r1 Kings 12, http://tinyurl.com/qhd4nug\r\rWikipedia, “Dan”\rhttp://tinyurl.com/mxyh5wr\r\rCoordinates: 33.2490, 35.6520\r\r\r";
                                       
                                       BiblicalPins *temple = [[BiblicalPins alloc] init];
                                       temple.coordinate = CLLocationCoordinate2DMake(31.7780, 35.2354);
@@ -604,12 +612,12 @@
                                       temple.image = [UIImage imageNamed:@"temple"];
                                       temple.information = @"\rThe Temple was originally built by Solomon in the 10th century B.C. During the reign of Josiah, it purportedly housed a large statue of the Canaanite goddess Asherah. It was destroyed by the Babylonians in 587 B.C. during their conquest of Judah. Upon their return from the Exile, the Jews rebuilt the Temple and dedicated it in 515 B.C.\r\rIt was later expanded by Herod the Great.\r\rFurther Reference:\rWikipedia, “Solomon's Temple”\rhttp://tinyurl.com/2fvnju\r\rCoordinates:\r31.7780, 35.2354\r\r\r";
                                       
-                                      BiblicalPins *hazor = [[BiblicalPins alloc] init];
-                                      hazor.coordinate = CLLocationCoordinate2DMake(33.0167, 35.5669);
-                                      hazor.title = @"Hazor";
-                                      hazor.image = [UIImage imageNamed:@"hazor"];
-                                      hazor.subtitle = @"Major Ancient Canaanite City";
-                                      hazor.information = @"\rHazor was a major city in ancient Canaan. It was described as being destroyed in Joshua within months of other campaigns against Jericho and Ai. However, recent archeological findings show that Hazor was destroyed by internal revolt rather than external attack. This is one datum that is explained by the Social Revolution Model of Settlement. See “Social Revolution Model” in the “Biblical” category of the Dictionary tab.\r\rFurther Reference:\rWikipedia, “Hazor”\rhttp://tinyurl.com/o6gnwhx\r\rCoordinates:\r33.0167, 35.5669\r\r\r";
+                                          BiblicalPins *hazor = [[BiblicalPins alloc] init];
+                                          hazor.coordinate = CLLocationCoordinate2DMake(33.0167, 35.5669);
+                                          hazor.title = @"Hazor";
+                                          hazor.image = [UIImage imageNamed:@"hazor"];
+                                          hazor.subtitle = @"Major Ancient Canaanite City";
+                                          hazor.information = @"\rHazor was a major city in ancient Canaan. It was described as being destroyed in Joshua within months of other campaigns against Jericho and Ai:\r\r“At that time Joshua, turning back, captured Hazor and struck down its king with the sword; for Hazor formerly was the chief of all those kingdoms. He also struck down with the sword every person there, carrying out the ban, till none was left alive. Hazor itself he burned.”\r-Joshua 11: 10-11\r\rHowever, according to the book of Judges, Hazor was still standing and a functional monarchy:\r\r“So the LORD sold them into the power of the Canaanite king, Jabin, who reigned in Hazor. The general of his army was Sisera, who lived in Harosheth-ha-goiim.”\r-Judges 4: 2\r\rIn addition to this discrepancy, recent archeological findings show that Hazor was destroyed in the late 13th century while Jericho and Ai were destroyed in 1500 B.C. and 2200 B.C., respectively. These findings further show Hazor was destoryed by internal revolt rather than external attack. These data are best explained by the Social Revolution Model of Settlement. See “Social Revolution Model” in the the Dictionary tab.\r\rFurther Reference:\rNew American Bible Revised Edition, Joshua 11\rhttp://tinyurl.com/z65778q\r\rJudges 4\rhttp://tinyurl.com/hf82n48\r\rIsrael Finkelstein, “The Forgotten Kingdom:  The Archeology And History Of Northern Israel”, pg. 21\rhttp://tinyurl.com/gnjmjwa\r\rWikipedia, “Hazor”\rhttp://tinyurl.com/o6gnwhx\r\rCoordinates:\r33.0167, 35.5669\r\r\r";
                                       
                                       BiblicalPins *jericho = [[BiblicalPins alloc] init];
                                       jericho.coordinate = CLLocationCoordinate2DMake(31.8500, 35.4500);
@@ -656,12 +664,12 @@
                                    {
                                         [self.mapView removeAnnotations:self.mapView.annotations];
                                    
-                                   BiblicalPins *nazareth = [[BiblicalPins alloc] init];
-                                   nazareth.coordinate = CLLocationCoordinate2DMake(32.7000, 35.3040);
-                                   nazareth.title = @"Nazareth";
-                                   nazareth.subtitle = @"Traditional Hometown of Jesus";
-                                   nazareth.image = [UIImage imageNamed:@"nazareth"];
-                                   nazareth.information = @"\rThe town of Nazareth is not mentioned in the Hebrew Scriptures. It was a small village only 4 miles from Sepphoris, the captial city of Herod Antipas. All of the Gospels claim that Jesus was from Nazareth. One of the terms used to describe the early Christians was “Nazarenes” after the same term was applied to Jesus.\r\rFurther Reference:\rWikipedia, “Nazareth”\r\rCoordinates:\r32.7000, 35.3040\r\r\r";
+                                       BiblicalPins *nazareth = [[BiblicalPins alloc] init];
+                                       nazareth.coordinate = CLLocationCoordinate2DMake(32.7000, 35.3040);
+                                       nazareth.title = @"Nazareth";
+                                       nazareth.subtitle = @"Traditional Hometown of Jesus";
+                                       nazareth.image = [UIImage imageNamed:@"nazareth"];
+                                       nazareth.information = @"\rThe town of Nazareth is not mentioned in the Hebrew Scriptures. It was a small village only 4 miles from Sepphoris, the captial city of Herod Antipas. All of the Gospels claim that Jesus was from Nazareth. One of the terms used to describe the early Christians was “Nazarenes” after the same term was applied to Jesus (Acts 24:5).\r\rFurther Reference:\rPope John Paul II, Jubliee Pilgramage Homily on the Annunciation\rhttp://tinyurl.com/p4sjg9p\r\rWikipedia, “Nazareth”\rhttp://tinyurl.com/jojq76x\r\rCoordinates:\r32.7000, 35.3040\r\r\r";
                                    
                                    BiblicalPins *gehenna = [[BiblicalPins alloc] init];
                                    gehenna.coordinate = CLLocationCoordinate2DMake(31.768406, 35.230439);
@@ -1004,9 +1012,16 @@
                                      texas.subtitle = @"Leads U.S. in Capital Punishment";
                                      texas.image = [UIImage imageNamed:@"texas"];
                                      texas.information = @"\rWhile numerous states have abolished the death penalty, Texas' rate of execution remains the highest in the nation. Various social groups, such as the Innocence Project, are aimed at abolishing the death penalty in Texas and throughout the country.\r\rFurther Reference:\rThe Innocence Project\rhttp://innocenceproject.org\r\r\r";
+                                         
+                                         SocialPins *gitmo = [[SocialPins alloc] init];
+                                         gitmo.coordinate = CLLocationCoordinate2DMake(19.9000, -75.1500);
+                                         gitmo.title = @"Guantanamo Bay";
+                                         gitmo.subtitle = @"Enemy Combatant Detention Camp";
+                                         gitmo.image = [UIImage imageNamed:@"gitmo"];
+                                         gitmo.information = @"\r\rAfter the 9/11 terrorist attacks on the United States, the Federal government initiated a policy of detaining foreign nationals who were suspected of being terrorists or supplying material support to terrorist networks.\r\rFurther Reference:\r\rCoordinates: 19.9000, -75.1500\r\r\r";
                                      
                                      
-                                     NSArray *annotations = [NSArray arrayWithObjects:greenland, greatbr, philippines, sierraLeone, camden, atlantic, palestine, israel, uganda, asheville, burma, cali, amazon, texas, nil];
+                                     NSArray *annotations = [NSArray arrayWithObjects:greenland, greatbr, philippines, sierraLeone, camden, atlantic, palestine, israel, uganda, asheville, burma, cali, amazon, texas, gitmo, nil];
                                      [self.mapView addAnnotations:annotations];
 
                                      
@@ -1016,6 +1031,16 @@
                                                          handler:^(UIAlertAction * action)
                                    {
                                    [self.mapView removeAnnotations:self.mapView.annotations];
+                                       
+                                       //Create a region and zoom level for the intial view of the map.
+                                       //  MKCoordinateSpan span = MKCoordinateSpanMake(180.0000f, 180.0000f);
+                                       CLLocationCoordinate2D coordinate = {38.4667, -28.4000};
+                                       MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(coordinate, 19900000, 19900000);
+                                       //MKCoordinateRegion region = {coordinate, span};
+                                       
+                                       MKCoordinateRegion regionThatFits = [self.mapView regionThatFits:region];
+                                       
+                                       [self.mapView setRegion:regionThatFits animated:YES];
                                    
                                        BiblicalPins *jerusalem = [[BiblicalPins alloc] init];
                                        jerusalem.coordinate = CLLocationCoordinate2DMake(31.7570, 35.1790);
@@ -1043,12 +1068,12 @@
                                        nazareth.title = @"Nazareth";
                                        nazareth.subtitle = @"Traditional Hometown of Jesus";
                                        nazareth.image = [UIImage imageNamed:@"nazareth"];
-                                       nazareth.information = @"\rThe town of Nazareth is not mentioned in the Hebrew Scriptures. It was a small village only 4 miles from Sepphoris, the captial city of Herod Antipas. All of the Gospels claim that Jesus was from Nazareth. One of the terms used to describe the early Christians was “Nazarenes” after the same term was applied to Jesus (Acts 24:5).\r\rFurther Reference:\rPope John Paul II, Jubliee Pilgramage Homily on the Annunciation\rhttp://tinyurl.com/p4sjg9p\r\rCoordinates:\r32.7000, 35.3040\r\r\r";
+                                       nazareth.information = @"\rThe town of Nazareth is not mentioned in the Hebrew Scriptures. It was a small village only 4 miles from Sepphoris, the captial city of Herod Antipas. All of the Gospels claim that Jesus was from Nazareth. One of the terms used to describe the early Christians was “Nazarenes” after the same term was applied to Jesus (Acts 24:5).\r\rFurther Reference:\rPope John Paul II, Jubliee Pilgramage Homily on the Annunciation\rhttp://tinyurl.com/p4sjg9p\r\rWikipedia, “Nazareth”\rhttp://tinyurl.com/jojq76x\r\rCoordinates:\r32.7000, 35.3040\r\r\r";
                                        
                                        BiblicalPins *bethEl = [[BiblicalPins alloc] init];
                                        bethEl.coordinate = CLLocationCoordinate2DMake(31.9390, 35.2260);
                                        bethEl.title = @"Beth-El";
-                                       bethEl.subtitle = @"Canaanite cultic site of El";
+                                       bethEl.subtitle = @"Southern Israelite Cultic Site";
                                        bethEl.image = [UIImage imageNamed:@"bethel"];
                                        bethEl.information = @"\rBeth-El was a popular cultic site devoted to the Canaanite god El, the father of the Canaanite pantheon. In Genesis 32 and 35 it is associated with the Hebrew patriarch Jacob:\r\r“Jacob departed from Beer-sheba and proceeded toward Haran. When he came upon a certain place, he stopped there for the night, since the sun had already set. Taking one of the stones at the place, he put it under his head and lay down in that place. Then he had a dream: a stairway rested on the ground, with its top reaching to the heavens; and God’s angels were going up and down on it. And there was the LORD standing beside him and saying: I am the LORD, the God of Abraham your father and the God of Isaac; the land on which you are lying I will give to you and your descendants. Your descendants will be like the dust of the earth, and through them you will spread to the west and the east, to the north and the south. In you and your descendants all the families of the earth will find blessing. I am with you and will protect you wherever you go, and bring you back to this land. I will never leave you until I have done what I promised you. When Jacob awoke from his sleep, he said, 'Truly, the Lord is in this place and I did not know it!' He was afraid and said: 'How awesome this place is! This is nothing else but the house of God, the gateway to heaven!' Early the next morning Jacob took the stone that he had put under his head, set it up as a sacred pillar, and poured oil on top of it. He named that place Bethel, whereas the former name of the town had been Luz.”\r-Genesis 28: 10-19\r\rLater in 1 Kings, Bethel becomes one of two alternative worship sites established by King Jeroboam of the Northern Kingdom:\r\r“Jeroboam thought to himself: 'Now the kingdom will return to the house of David. If this people go up to offer sacrifices in the house of the Lord in Jerusalem, the hearts of this people will return to their master, Rehoboam, king of Judah, and they will kill me and return to Rehoboam, king of Judah.' The king took counsel, made two calves of gold, and said to the people: 'You have been going up to Jerusalem long enough. Here are your gods, O Israel, who brought you up from the land of Egypt.' And he put one in Bethel, the other in Dan. This led to sin, because the people frequented these calves in Bethel and in Dan. He also built temples on the high places and made priests from among the common people who were not Levites.”\r\rFurther Reference:\rNew American Bible Revised Edition\rGenesis 32, http://tinyurl.com/p32m2bw\r\r1 Kings 12, http://tinyurl.com/qhd4nug\r\rCoordinates:\r31.9390, 35.2260\r\r\r";
                                        
@@ -1085,7 +1110,7 @@
                                        dan.title = @"Dan";
                                        dan.image = [UIImage imageNamed:@"dan"];
                                        dan.subtitle = @"Northern Israelite Cultic Site";
-                                       dan.information = @"\rDan was one of the two sites at which Jeroboam established alternative worship sites for the newly established northern kingdom as described in 1 Kings 12.\r\rFurther Reference:\rWikipedia, “Dan”\rhttp://tinyurl.com/mxyh5wr\r\rCoordinates: 33.2490, 35.6520\r\r\r";
+                                       dan.information = @"\r1 Kings 12, Dan becomes one of two alternative worship sites established by King Jeroboam I of the Northern Kingdom:\r\r“Jeroboam thought to himself: 'Now the kingdom will return to the house of David. If this people go up to offer sacrifices in the house of the Lord in Jerusalem, the hearts of this people will return to their master, Rehoboam, king of Judah, and they will kill me and return to Rehoboam, king of Judah.' The king took counsel, made two calves of gold, and said to the people: 'You have been going up to Jerusalem long enough. Here are your gods, O Israel, who brought you up from the land of Egypt.' And he put one in Bethel, the other in Dan. This led to sin, because the people frequented these calves in Bethel and in Dan. He also built temples on the high places and made priests from among the common people who were not Levites.”\r-1 Kings 12: 28-31\r\rFurther Reference:\rNew American Bible Revised Edition\r1 Kings 12, http://tinyurl.com/qhd4nug\r\rWikipedia, “Dan”\rhttp://tinyurl.com/mxyh5wr\r\rCoordinates: 33.2490, 35.6520\r\r\r";
                                        
                                        BiblicalPins *jericho = [[BiblicalPins alloc] init];
                                        jericho.coordinate = CLLocationCoordinate2DMake(31.8500, 35.4500);
@@ -1107,7 +1132,7 @@
                                        hazor.title = @"Hazor";
                                        hazor.image = [UIImage imageNamed:@"hazor"];
                                        hazor.subtitle = @"Major Ancient Canaanite City";
-                                       hazor.information = @"\rHazor was a major city in ancient Canaan. It was described as being destroyed in Joshua within months of other campaigns against Jericho and Ai. However, recent archeological findings show that Hazor was destroyed by internal revolt rather than external attack. This is one datum that is explained by the Social Revolution Model of Settlement. See “Social Revolution Model” in the the Dictionary tab.\r\rFurther Reference:\rWikipedia, “Hazor”\rhttp://tinyurl.com/o6gnwhx\r\rCoordinates:\r33.0167, 35.5669\r\r\r";
+                                       hazor.information = @"\rHazor was a major city in ancient Canaan. It was described as being destroyed in Joshua within months of other campaigns against Jericho and Ai:\r\r“At that time Joshua, turning back, captured Hazor and struck down its king with the sword; for Hazor formerly was the chief of all those kingdoms. He also struck down with the sword every person there, carrying out the ban, till none was left alive. Hazor itself he burned.”\r-Joshua 11: 10-11\r\rHowever, according to the book of Judges, Hazor was still standing and a functional monarchy:\r\r“So the LORD sold them into the power of the Canaanite king, Jabin, who reigned in Hazor. The general of his army was Sisera, who lived in Harosheth-ha-goiim.”\r-Judges 4: 2\r\rIn addition to this discrepancy, recent archeological findings show that Hazor was destroyed in the late 13th century while Jericho and Ai were destroyed in 1500 B.C. and 2200 B.C., respectively. These findings further show Hazor was destoryed by internal revolt rather than external attack. These data are best explained by the Social Revolution Model of Settlement. See “Social Revolution Model” in the the Dictionary tab.\r\rFurther Reference:\rNew American Bible Revised Edition, Joshua 11\rhttp://tinyurl.com/z65778q\r\rJudges 4\rhttp://tinyurl.com/hf82n48\r\rIsrael Finkelstein, “The Forgotten Kingdom:  The Archeology And History Of Northern Israel”, pg. 21\rhttp://tinyurl.com/gnjmjwa\r\rWikipedia, “Hazor”\rhttp://tinyurl.com/o6gnwhx\r\rCoordinates:\r33.0167, 35.5669\r\r\r";
                                        
                                        BiblicalPins *sepphoris = [[BiblicalPins alloc] init];
                                        sepphoris.coordinate = CLLocationCoordinate2DMake(32.7529, 35.2795);
@@ -1347,10 +1372,17 @@
                                        texas.image = [UIImage imageNamed:@"texas"];
                                        texas.information = @"\rWhile numerous states have abolished the death penalty, Texas' rate of execution remains the highest in the nation. Various social groups, such as the Innocence Project, are aimed at abolishing the death penalty in Texas and throughout the country.\r\rFurther Reference:\rThe Innocence Project\rhttp://innocenceproject.org\r\r\r";
                                        
+                                       SocialPins *gitmo = [[SocialPins alloc] init];
+                                       gitmo.coordinate = CLLocationCoordinate2DMake(19.9000, -75.1500);
+                                       gitmo.title = @"Guantanamo Bay";
+                                       gitmo.subtitle = @"Enemy Combatant Detention Camp";
+                                       gitmo.image = [UIImage imageNamed:@"gitmo"];
+                                       gitmo.information = @"\r\rAfter the 9/11 terrorist attacks on the United States, the Federal government initiated a policy of detaining foreign nationals who were suspected of being terrorists or supplying material support to terrorist networks.\r\rFurther Reference:\r\rCoordinates: 19.9000, -75.1500\r\r\r";
                                        
                                        
                                        
-                                       NSArray *annotations = [NSArray arrayWithObjects:jerusalem, gehenna, bethEl, ephesus, corinth, dan, temple, hazor, nicea, greenland, greatbr, philippines, rome, nazareth, capernaum, sierraLeone, camden, atlantic, rome2, constantinople, palestine, israel, alexandria, thessalonica, philippi, antioch, bethlehem, hebron, shiloh, lyon, vienne, chalcedon, constance, trent, florence, lateran, uganda, colossae, sepphoris, asheville, burma, ephesus2, cali, amazon, texas, nil];
+                                       
+                                       NSArray *annotations = [NSArray arrayWithObjects:jerusalem, gehenna, bethEl, ephesus, corinth, dan, temple, hazor, nicea, greenland, greatbr, philippines, rome, nazareth, capernaum, sierraLeone, camden, atlantic, rome2, constantinople, palestine, israel, alexandria, thessalonica, philippi, antioch, bethlehem, hebron, shiloh, lyon, vienne, chalcedon, constance, trent, florence, lateran, uganda, colossae, sepphoris, asheville, burma, ephesus2, cali, amazon, texas, gitmo, nil];
                                        
                                        [self.mapView addAnnotations:annotations];
 

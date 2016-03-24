@@ -2,15 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Interviews</key>
-	<array>
-		<dict>
-			<key>Name</key>
-			<string>1. Dr. Charles Camosy (pending)</string>
-			<key>URL</key>
-			<string>https://vimeo.com/user36977984/videos</string>
-		</dict>
-	</array>
 	<key>Lectures</key>
 	<array>
 		<dict>
@@ -21,19 +12,25 @@
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>2. The Documentary Hypothesis (pending)</string>
+			<string>2. Genesis and Evolution (pending)</string>
 			<key>URL</key>
 			<string>https://vimeo.com/user36977984/videos</string>
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>3. Science and Theology (pending)</string>
+			<string>3. Science and Spirituality (pending)</string>
 			<key>URL</key>
 			<string>https://vimeo.com/user36977984/videos</string>
 		</dict>
 		<dict>
 			<key>Name</key>
 			<string>4. Catholic Social Teaching (pending)</string>
+			<key>URL</key>
+			<string>https://vimeo.com/user36977984/videos</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>5. The Documentary Hypothesis (pending)</string>
 			<key>URL</key>
 			<string>https://vimeo.com/user36977984/videos</string>
 		</dict>

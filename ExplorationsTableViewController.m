@@ -23,7 +23,7 @@
     NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:path];
     self.explorations = dict;
     
-    NSArray *array = @[@"Lectures", @"Interviews"];
+    NSArray *array = @[@"Lectures"];
     self.explorationKeys = array;
     
     UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Explorations" style:UIBarButtonItemStylePlain target:nil action:nil];
