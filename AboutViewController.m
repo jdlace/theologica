@@ -18,8 +18,17 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-
+    
+    self.textView.scrollEnabled = NO;
+    self.textView.scrollEnabled = YES;
+    
+    [self.textView setContentInset:UIEdgeInsetsMake(10.0, 0, 0.0, 0)];
+    
+    CGRect frame = self.textView.frame;
+    frame.size.height = self.textView.contentSize.height;
+    self.textView.frame = frame;
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -71,7 +80,7 @@
     return NO;
 }
 
-- (NSUInteger)supportedInterfaceOrientations
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations
 {
     return UIInterfaceOrientationMaskPortrait;
 }

@@ -1180,7 +1180,7 @@
     Word *exodus = [[Word alloc] init];
     exodus.name = @"Exodus";
     exodus.twitterDef = @"the liberation of the Israelite slaves from Egypt through the obedience of Moses";
-    exodus.definition = @"The Exodus is traditionally dated to ca. 1275 BCE in the reign of Ramases II. It is the foundational event of the Israelite nation; current biblical research supports the idea of a small group of slaves leaving Egypt, having a Divine revelation in Midian, and traveling to Canaan. 2. The second book of the Torah.\r\rFurther Reference:\rRichard Elliot Friedman, “The Exodus Based on the Sources”\rhttp://tinyurl.com/ncovf49";
+    exodus.definition = @"The Exodus is traditionally dated to ca. 1275 BCE in the reign of Ramases II. It is the foundational event of the Israelite nation; current biblical research supports the idea of a small group of slaves leaving Egypt, having a Divine revelation in Midian, and traveling to Canaan. 2. The second book of the Torah.\r\rFurther Reference:\rRichard Elliot Friedman, “The Exodus Based on the Sources”(video)\rhttp://tinyurl.com/jgq5ytd";
     exodus.category = @"Biblical";
     
     Word *elementary = [[Word alloc] init];

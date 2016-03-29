@@ -25,7 +25,7 @@
 }
 
 
--(NSUInteger)supportedInterfaceOrientations
+-(UIInterfaceOrientationMask)supportedInterfaceOrientations
 {
     if (self.selectedViewController)
         return [self.selectedViewController supportedInterfaceOrientations];

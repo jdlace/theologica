@@ -162,6 +162,12 @@
 	<array>
 		<dict>
 			<key>Name</key>
+			<string>Theologica Biblical Timeline</string>
+			<key>URL</key>
+			<string>http://tinyurl.com/he7jylu</string>
+		</dict>
+		<dict>
+			<key>Name</key>
 			<string>Pontifical Biblical Commission</string>
 			<key>URL</key>
 			<string>http://www.vatican.va/roman_curia/congregations/cfaith/pcb_index.htm</string>

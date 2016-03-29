@@ -23,7 +23,7 @@
     NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:path];
     self.explorations = dict;
     
-    NSArray *array = @[@"Lectures"];
+    NSArray *array = @[@"Presentations", @"Interviews"];
     self.explorationKeys = array;
     
     UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Explorations" style:UIBarButtonItemStylePlain target:nil action:nil];
@@ -193,7 +193,7 @@
     return NO;
 }
 
-- (NSUInteger)supportedInterfaceOrientations
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations
 {
     return UIInterfaceOrientationMaskPortrait;
 }

@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Lectures</key>
+	<key>Presentations</key>
 	<array>
 		<dict>
 			<key>Name</key>
@@ -12,27 +12,18 @@
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>2. Genesis and Evolution (pending)</string>
+			<string>2. Genesis and Evolution</string>
 			<key>URL</key>
 			<string>https://vimeo.com/user36977984/videos</string>
 		</dict>
+	</array>
+	<key>Interviews</key>
+	<array>
 		<dict>
 			<key>Name</key>
-			<string>3. Science and Spirituality (pending)</string>
+			<string>Fr. Thomas Guarino</string>
 			<key>URL</key>
-			<string>https://vimeo.com/user36977984/videos</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>4. Catholic Social Teaching (pending)</string>
-			<key>URL</key>
-			<string>https://vimeo.com/user36977984/videos</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>5. The Documentary Hypothesis (pending)</string>
-			<key>URL</key>
-			<string>https://vimeo.com/user36977984/videos</string>
+			<string>https://vimeo.com/35972542</string>
 		</dict>
 	</array>
 </dict>

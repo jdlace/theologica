@@ -21,8 +21,5 @@
 @property (nonatomic, weak) UINavigationController *aboutNavCon; 
 
 
-- (IBAction)aboutButton:(id)sender;
-- (IBAction)infoButton:(id)sender;
-
 
 @end
