@@ -1626,14 +1626,14 @@
                                 <exclude reference="XUR-UL-iam"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="Iwq-4c-lDw"/>
-                                <exclude reference="RHL-A4-FHa"/>
-                                <exclude reference="dxH-Jp-sHO"/>
                                 <exclude reference="7LL-KA-4bh"/>
                                 <exclude reference="R1M-yp-fhY"/>
                                 <exclude reference="ez4-DV-dyN"/>
                                 <exclude reference="e8Y-7c-F2s"/>
                                 <exclude reference="r7k-v5-hmd"/>
+                                <exclude reference="Iwq-4c-lDw"/>
+                                <exclude reference="RHL-A4-FHa"/>
+                                <exclude reference="dxH-Jp-sHO"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -1641,14 +1641,14 @@
                                 <include reference="XUR-UL-iam"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="Iwq-4c-lDw"/>
-                                <include reference="RHL-A4-FHa"/>
-                                <include reference="dxH-Jp-sHO"/>
                                 <include reference="7LL-KA-4bh"/>
                                 <include reference="R1M-yp-fhY"/>
                                 <include reference="ez4-DV-dyN"/>
                                 <include reference="e8Y-7c-F2s"/>
                                 <include reference="r7k-v5-hmd"/>
+                                <include reference="Iwq-4c-lDw"/>
+                                <include reference="RHL-A4-FHa"/>
+                                <include reference="dxH-Jp-sHO"/>
                             </mask>
                         </variation>
                     </view>
