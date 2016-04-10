@@ -850,7 +850,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Conscience",
                            @"twitterDef":@"that which prompts us to do good and avoid evil",
-                           @"definition":@"\rAccording to Church teaching, all people are morally obligated to follow the dictates of their consciences. However, the subjective nature of the conscience does not guarantee the objective correspondence with moral truth. See “Morality”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1776\rhttp://tinyurl.com/n6fjppn\r\r\r",
+                           @"definition":@"\rAccording to Church teaching, all people are morally obligated to follow the dictates of their consciences. However, the subjective nature of the conscience does not guarantee the objective correspondence with moral truth. Writing in his April 2016, Post-Synodal Apostolic Exhortation, about the role of conscience in family issues, Pope Francis stated:\r\r“We have long thought that simply by stress- ing doctrinal, bioethical and moral issues, without encouraging openness to grace, we were provid- ing suf cient support to families, strengthening the marriage bond and giving meaning to marital life. We find it difficult to present marriage more as a dynamic path to personal development and fulfillment than as a lifelong burden. We also find it hard to make room for the consciences of the faithful, who very often respond as best they can to the Gospel amid their limitations, and are capable of carrying out their own discernment in complex situations. We have been called to form consciences, not to replace them.”\r-Francis, 37\r\rSee “Morality”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1776\rhttp://tinyurl.com/n6fjppn\r\r\r",
                            @"category":@"Moral"}];
     
     [TAWord wordWithDict:@{@"name":@"Consecration",
@@ -1195,7 +1195,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Easter",
                            @"twitterDef":@"the liturgical celebration of the resurrection of Jesus",
-                           @"definition":@"\rEaster is the Feast of feasts for the Church; the holiest day of the year. The resurrection of Jesus has been celebrated from the earliest days of the Church either the actual day of week or on the first Sunday after Passover. The Quartodeciman Controversy in the 2nd century illustrated that Catholicity did not necessitate uniformity. See “Quartodeciman Controversy”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1169-1170\rhttp://tinyurl.com/l7cbxu5\r\r\r",
+                           @"definition":@"\rEaster is the Feast of feasts for the Church; the holiest day of the year. In his 2016 Easter Vigil homily, Pope Franics emphasized the dynamic nature of the resurrection in contrast with a religion that is based on a series of rules:\r\r“The Lord is alive and wants to be sought among the living. After having found him, each person is sent out by him to announce the Easter message, to awaken and resurrect hope in hearts burdened by sadness, in those who struggle to find meaning in life. There is so necessary today. However, we must not proclaim ourselves. Rather, as joyful servants of hope, we must announce the Risen One by our lives and by our love; otherwise we will be only an international organization full of followers and good rules, yet incapable of offering the hope for which the world longs.”\r-Francis, Homily\r\rThe resurrection of Jesus has been celebrated from the earliest days of the Church either the actual day of week or on the first Sunday after Passover. The Quartodeciman Controversy in the 2nd century illustrated that Catholicity did not necessitate uniformity. See “Quartodeciman Controversy”, “Resurrection”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1169-1170\rhttp://tinyurl.com/l7cbxu5\r\rPope Francis, Easter Vigil Homily, 2016\rhttp://tinyurl.com/zpr4qaf\r\r\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Eastern Catholic Churches",
@@ -2040,7 +2040,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Litany",
                            @"twitterDef":@"a petitionary prayer led by a lector",
-                           @"definition":@"\rThe Litany of Saints of the Easter Vigil includes is an invocation of various Saints of the Church for their intercession.\r\rGreek, λιτανεία (litaneia) “supplication”\r\rFurther Reference:\rWikipedia, “Litany”\rhttp://tinyurl.com/l92sqgg\r\r\r",
+                           @"definition":@"\rThe Litany of Saints of the Easter Vigil includes is an invocation of various Saints of the Church for their intercession. See “Easter”.\r\rGreek, λιτανεία (litaneia) “supplication”\r\rFurther Reference:\rWikipedia, “Litany”\rhttp://tinyurl.com/l92sqgg\r\r\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Literary Criticism",
@@ -2372,7 +2372,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Octave",
                            @"twitterDef":@"the celebration of a feast over eight days",
-                           @"definition":@"\rThe Catholic Church only celebrates two Octaves: Christmas and Easter.\r\rFurther Reference:\rWikipedia, “Octave”\rhttp://tinyurl.com/d5u8q5v\r\r\r",
+                           @"definition":@"\rThe Catholic Church only celebrates two Octaves: Christmas and Easter. See “Easter”.\r\rFurther Reference:\rWikipedia, “Octave”\rhttp://tinyurl.com/d5u8q5v\r\r\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Offertory",
@@ -2546,7 +2546,7 @@
     
     [TAWord wordWithDict:@{@"name":@"Palm Sunday",
                            @"twitterDef":@"the Sunday before Easter that commemorates the final entry of Jesus into Jerusalem",
-                           @"definition":@"\rAccording to Letter XX of St. Ambrose of Milan, Palm Sunday was the day on which the Creed was taught to Catechumens. The current practice of congregants waving palm branches dates to the 9th century in France.\r\rFurther Reference:\rPope Francis, Palm Sunday Homily 2015\rhttp://tinyurl.com/pllaa46\r\r\r",
+                           @"definition":@"\rIn his 2016 Palm Sunday homily, Pope Francis emphasized the humble nature of Jesus' entry into Jerusalem:\r\r“Today’s liturgy teaches us that the Lord has not saved us by his triumphal entry or by means of powerful miracles. The Apostle Paul, in the second reading, epitomizes in two verbs the path of redemption: Jesus 'emptied' and 'humbled' himself (Phil 2:7-8). These two verbs show the boundlessness of God’s love for us. Jesus emptied himself: he did not cling to the glory that was his as the Son of God, but became the Son of man in order to be in solidarity with us sinners in all things; yet he was without sin. Even more, he lived among us in 'the condition of a servant' (v. 7); not of a king or a prince, but of a servant. Therefore he humbled himself, and the abyss of his humiliation, as Holy Week shows us, seems to be bottomless.”\r-Francis, Homily\r\rAccording to Letter XX of St. Ambrose of Milan, Palm Sunday was the day on which the Creed was taught to Catechumens. The current practice of congregants waving palm branches dates to the 9th century in France.\r\rFurther Reference:\rPope Francis, Palm Sunday Homily, 2016\rhttp://tinyurl.com/h4hrl7x\r\r\r",
                            @"category":@"Liturgical"}];
     
     [TAWord wordWithDict:@{@"name":@"Personhood",

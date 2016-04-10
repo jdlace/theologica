@@ -93,7 +93,13 @@
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>The New Encyclical: Laudato Si</string>
+			<string>Exhortation: Amoris Laetitia</string>
+			<key>URL</key>
+			<string>https://w2.vatican.va/content/dam/francesco/pdf/apost_exhortations/documents/papa-francesco_esortazione-ap_20160319_amoris-laetitia_en.pdf</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Encyclical: Laudato Si</string>
 			<key>URL</key>
 			<string>http://w2.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html</string>
 		</dict>
@@ -162,12 +168,6 @@
 	<array>
 		<dict>
 			<key>Name</key>
-			<string>Theologica Biblical Timeline</string>
-			<key>URL</key>
-			<string>http://tinyurl.com/he7jylu</string>
-		</dict>
-		<dict>
-			<key>Name</key>
 			<string>Pontifical Biblical Commission</string>
 			<key>URL</key>
 			<string>http://www.vatican.va/roman_curia/congregations/cfaith/pcb_index.htm</string>
@@ -177,6 +177,12 @@
 			<string>Biblica </string>
 			<key>URL</key>
 			<string>http://www.bsw.org/project/biblica</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Biblical Timeline</string>
+			<key>URL</key>
+			<string>http://tinyurl.com/he7jylu</string>
 		</dict>
 		<dict>
 			<key>Name</key>
