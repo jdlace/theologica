@@ -35,7 +35,7 @@
 			<key>Name</key>
 			<string>Church Fathers</string>
 			<key>URL</key>
-			<string>http://www.churchfathers.org</string>
+			<string>http://www.ccel.org/fathers.html</string>
 		</dict>
 	</array>
 	<key>Philosophy</key>
@@ -177,12 +177,6 @@
 			<string>Biblica </string>
 			<key>URL</key>
 			<string>http://www.bsw.org/project/biblica</string>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>Biblical Timeline</string>
-			<key>URL</key>
-			<string>http://tinyurl.com/he7jylu</string>
 		</dict>
 		<dict>
 			<key>Name</key>
