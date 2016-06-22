@@ -6,7 +6,6 @@
 //  Copyright (c) 2014 techrament. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import <MapKit/MapKit.h>
 
 @interface HistoricalPins : NSObject <MKAnnotation>
@@ -17,7 +16,7 @@
 @property (copy, nonatomic) NSString *information;
 @property (copy, nonatomic) UIImage *image;
 
+-(NSArray *)createHistoricalPins; 
 
-//+ (MKAnnotationView *)createViewAnnotationForMapView:(MKMapView *)mapView annotation:(id <MKAnnotation>)annotation;
 
 @end

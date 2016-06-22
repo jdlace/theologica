@@ -50,9 +50,10 @@
 		698F27AE1A6D85260065F8A6 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 698F27AD1A6D85260065F8A6 /* CloudKit.framework */; };
 		699416E51B5889BE006D51BD /* AboutNavCon.m in Sources */ = {isa = PBXBuildFile; fileRef = 699416E41B5889BE006D51BD /* AboutNavCon.m */; };
 		69B52BAB1A0EF6C100C23B47 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69B52BAA1A0EF6C100C23B47 /* Launch Screen.xib */; };
-		69B8D9381A4122B300186EA2 /* BiblicalPins.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B8D9371A4122B300186EA2 /* BiblicalPins.m */; };
 		69B8D93A1A4138B600186EA2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B8D9391A4138B600186EA2 /* CoreLocation.framework */; };
 		69BB25491A130F2E00B3F5B5 /* WordDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 69BB25481A130F2E00B3F5B5 /* WordDataSource.m */; };
+		69CF50751D198BD300DCD45F /* OTPins.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CF50741D198BD300DCD45F /* OTPins.m */; };
+		69CF50781D1999D700DCD45F /* NTPins.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CF50771D1999D700DCD45F /* NTPins.m */; };
 		69D4C4B81B117D07009B5FE0 /* SourceContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D4C4B71B117D07009B5FE0 /* SourceContentViewController.m */; };
 		69D4C4BB1B117D1E009B5FE0 /* SignContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D4C4BA1B117D1E009B5FE0 /* SignContentViewController.m */; };
 		69D6284C1A47617B0073C157 /* HistoricalPins.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D6284B1A47617B0073C157 /* HistoricalPins.m */; };
@@ -160,11 +161,13 @@
 		699416E41B5889BE006D51BD /* AboutNavCon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutNavCon.m; sourceTree = "<group>"; };
 		69989AC519FF2D5D0009ABAE /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		69B52BAA1A0EF6C100C23B47 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
-		69B8D9361A4122B300186EA2 /* BiblicalPins.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BiblicalPins.h; sourceTree = "<group>"; };
-		69B8D9371A4122B300186EA2 /* BiblicalPins.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BiblicalPins.m; sourceTree = "<group>"; };
 		69B8D9391A4138B600186EA2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		69BB25471A130F2E00B3F5B5 /* WordDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordDataSource.h; sourceTree = "<group>"; };
 		69BB25481A130F2E00B3F5B5 /* WordDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordDataSource.m; sourceTree = "<group>"; };
+		69CF50741D198BD300DCD45F /* OTPins.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OTPins.m; path = ../OTPins.m; sourceTree = "<group>"; };
+		69CF50761D198C3100DCD45F /* OTPins.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTPins.h; sourceTree = "<group>"; };
+		69CF50771D1999D700DCD45F /* NTPins.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTPins.m; sourceTree = "<group>"; };
+		69CF50791D199A0200DCD45F /* NTPins.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTPins.h; sourceTree = "<group>"; };
 		69D4C4B61B117D07009B5FE0 /* SourceContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourceContentViewController.h; sourceTree = "<group>"; };
 		69D4C4B71B117D07009B5FE0 /* SourceContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SourceContentViewController.m; sourceTree = "<group>"; };
 		69D4C4B91B117D1E009B5FE0 /* SignContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignContentViewController.h; sourceTree = "<group>"; };
@@ -360,8 +363,10 @@
 		694E87A11A564F8A00CE4A37 /* Map */ = {
 			isa = PBXGroup;
 			children = (
-				69B8D9361A4122B300186EA2 /* BiblicalPins.h */,
-				69B8D9371A4122B300186EA2 /* BiblicalPins.m */,
+				69CF50761D198C3100DCD45F /* OTPins.h */,
+				69CF50741D198BD300DCD45F /* OTPins.m */,
+				69CF50791D199A0200DCD45F /* NTPins.h */,
+				69CF50771D1999D700DCD45F /* NTPins.m */,
 				69D6284A1A47617B0073C157 /* HistoricalPins.h */,
 				69D6284B1A47617B0073C157 /* HistoricalPins.m */,
 				69D6284D1A4762830073C157 /* SocialPins.h */,
@@ -562,8 +567,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69B8D9381A4122B300186EA2 /* BiblicalPins.m in Sources */,
 				695847CE1AB5C9B90085251C /* TwitterTableViewController.m in Sources */,
+				69CF50751D198BD300DCD45F /* OTPins.m in Sources */,
 				6960659C1B3C8D77003B500D /* SourcesWebViewController.m in Sources */,
 				692ED2571796D552008554F9 /* main.m in Sources */,
 				69D4C4BB1B117D1E009B5FE0 /* SignContentViewController.m in Sources */,
@@ -572,6 +577,7 @@
 				6975A22C1B5344ED00BCB4B7 /* DictionaryNavCon.m in Sources */,
 				69BB25491A130F2E00B3F5B5 /* WordDataSource.m in Sources */,
 				692ED2B21796F466008554F9 /* DictionaryTableViewController.m in Sources */,
+				69CF50781D1999D700DCD45F /* NTPins.m in Sources */,
 				6975A2291B53442200BCB4B7 /* ReferenceNavCon.m in Sources */,
 				699416E51B5889BE006D51BD /* AboutNavCon.m in Sources */,
 				69739B561A36897F008BAB06 /* SearchBarViewController.m in Sources */,
@@ -695,7 +701,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "theologica/theologica-Prefix.pch";
 				INFOPLIST_FILE = "theologica/theologica-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.techrament.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -720,7 +726,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "theologica/theologica-Prefix.pch";
 				INFOPLIST_FILE = "theologica/theologica-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.techrament.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";

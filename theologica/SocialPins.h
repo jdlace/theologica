@@ -6,7 +6,6 @@
 //  Copyright (c) 2014 techrament. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import <MapKit/MapKit.h>
 
 @interface SocialPins : NSObject <MKAnnotation>
@@ -17,7 +16,8 @@
 @property (copy, nonatomic) NSString *information;
 @property (copy, nonatomic) UIImage *image;
 
+-(NSArray *)createSocialPins;
 
-//+ (MKAnnotationView *)createViewAnnotationForMapView:(MKMapView *)mapView annotation:(id <MKAnnotation>)annotation;
+
 
 @end
