@@ -77,8 +77,15 @@ hebron.title = @"Hebron";
 hebron.subtitle = @"David's Judahite Capital";
 hebron.image = [UIImage imageNamed:@"hebron"];
 hebron.information = @"\rOne of the oldest continually occupied cities in the world, Hebron is first mentioned in the biblical story-cycles of Abraham. In Genesis 23, Abraham buys Hebron from Ephron the Hittite for 400 sheckels. Abraham, Isaac, and Jacob are portrayed as buried there. Numbers 13:22 indicates that Hebron was founded around 1720 B.C. In the book of Judges, Joshua assigns Hebron to Caleb as part of the territory of Judah. In the book of 2 Samuel, David is annointed King of Judah and all Israel at Hebron.\r\r“All the tribes of Israel came to David at Hebron and said, 'We are your own flesh and blood. In the past, while Saul was king over us, you were the one who led Israel on their military campaigns. And the LORD said to you, ‘You will shepherd my people Israel, and you will become their ruler.’ When all the elders of Israel had come to King David at Hebron, the king made a covenant with them at Hebron before the LORD, and they anointed David king over Israel.”\r-2 Samuel 5: 1-3\r\rFurther Reference:\rNew American Bible Revised Edition\r2 Samuel 5, http://tinyurl.com/npwcn4a\r\rCoordinates:\r31.5333, 35.0950\r\r\r";
+    
+OTPins *ugarit = [[OTPins alloc] init];
+ugarit.coordinate = CLLocationCoordinate2DMake(35.602, 35.782);
+ugarit.title = @"Ugarit";
+ugarit.subtitle = @"Ancient Canaanite Port City";
+ugarit.image = [UIImage imageNamed:@"ugarit"];
+ugarit.information = @"\rUgarit was a major porty of entry for trading routes to ancient Mesapotamia and the Tigris and Euphrates rivers. Although it is not mentioned in the Bible, archeological discoveries at Ugarit have yielded insights into ancient Canaanite religious beliefs and practices (e.g. the so-called Amarna Letters) and, as a result, a better understanding of early Hebrew culture. Its pantheon included Ba'al, Hadad, and Dagon (also mentioned in the Old Testament). The most famous literary discovery has been the so-called Ba'al Cycle, which details the Canaanite belief in the seasons as being the result of divine actions. This can be seen in the various references to Ba'al in the Old Testament, especially in the story of Elijah and the prophets of Ba'al in 1 Kings 18. It was closely assocated with the Hittite Empire.\r\rFurther Reference:\rOxford Research Encyclopedia:\r“Ugaritic and Biblical Literature”\rhttp://tinyurl.com/z3ah8f4\r\r\r";
 
-    NSArray *annotations = [NSArray arrayWithObjects:jerusalem, gehenna, dan, bethEl, temple, hazor,jericho, shiloh, hebron, nil];
+    NSArray *annotations = [NSArray arrayWithObjects:jerusalem, gehenna, dan, bethEl, temple, hazor,jericho, shiloh, hebron, ugarit, nil];
     
    return annotations;
 }

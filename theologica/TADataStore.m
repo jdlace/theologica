@@ -497,6 +497,12 @@
                            @"definition":@"\rAtheism can be traced back to the writings of ancient Greek philosophers such as Euripides. It can also be found in the historical roots of Buddhism. Atheism can take many varieties, but the most common is a rejection of the traditional Judeo-Christian ideal of an all-powerful, all-loving, beneficient Creator. Atheism is not a necessary consequence of honest science as is sometimes mistakenly claimed by those who find an apparent conflict between certain scientific theories and traditional religious claims.\r\rFurther Reference:\rCatechism of the Catholic Church, 2113\rhttp://tinyurl.com/lu75a9k\r\r\r",
                            @"category":@"Cultural"}];
     
+    [TAWord wordWithDict:@{@"name":@"Atrahasis Myth",
+                           @"twitterDef":@"an ancient Babylonian Creation-Flood myth similar to the biblical accounts",
+                           @"definition":@"\rThe Atrahasis Myth predates both the Yahwhist and Priestly versions of the Creation and Flood stories by about 1,000 years. While the Creation story details the acts of Anu, Enlil, and Enki (Babylonian gods of the Sky, Wind, and Water), the Flood story revolves around a certain Atrahasis (“Extremely Wise“) who beomes a hero by obeying Enki's command to build a boat to escape the impending deluge, sent by the gods to destroy the human race:\r\r“'Flee the house, build a boat, forsake possessions, and save life. The boat which you build... be equal ...Roof her over like the depth, so that the sun shall not see inside her. Let her be roofed over fore and aft. The gear should be very strong, the pitch should be firm, and so give the boat strength. I will shower down upon you later a windfall of birds, a spate of fishes.' He opened the water clock and filled it, he told it of the coming of the seven-day deluge...Bringing ...whatever he had ...Pure animals he slaughtered, cattle...Fat animals he killed. Sheep...he choose and and brought on board. The birds flying in the heavens, the cattle and the...of the cattle god, the creatures of the steppe,...he brought on board...he invited his people...to a feast...his family was brought on board.“\r-Atrahasis, i.c25-ii.40\r\rFurther Reference:\r“The Epic of Atrahasis“\rhttp://tinyurl.com/zl2t5ma\r\r\r",
+                           @"category":@"Biblical"}];
+    
+    
     [TAWord wordWithDict:@{@"name":@"Awareness",
                            @"twitterDef":@"the gathering of information about a given injustice",
                            @"definition":@"\rAwareness is first step in acheiving social justice. Without awareness of conditions in society, no change can be affected.\r\rFurther Reference:\rPope Paul VI, “A Call To Action“, 48\rhttp://tinyurl.com/llup47a\r\r\r",
@@ -1546,6 +1552,11 @@
                            @"definition":@"\rGehenna (the Valley of Ben-Hinnom) seems to have become known as a place of the destruction of the wicked in Jewish folklore (a source which claims that it was a burning trash heap or garbage dump is disputed). It is used by Jesus to refer to a place where those who opposed the will of God would go. Thus, it came to be synonymous with “hell”.\r\rFurther Reference:\rCatechism of the Catholic Church, 1034\rhttp://tinyurl.com/l9ha57h\r\rWikipedia, “Gehenna”\rhttp://tinyurl.com/ymbj2d\r\r\r",
                            @"category":@"Biblical"}];
     
+    [TAWord wordWithDict:@{@"name":@"Geschichte",
+                           @"twitterDef":@"a German word that emaphasizes the meaning of historical events",
+                           @"definition":@"\rGeschichte is used by biblical scholars to refer to the meaning or signifcance of events that cannot be verified using modern methods of historical investigation. This has led to the observation that some stories in the Bible (espeically in the Primeval History and the Gospels) are primarily written from the perspective of their significance to the authors and not intended to be understood as objective historical/biographical records:\r\r“It was only after the Resurrection when Jesus himself interpreted the meaning of his death that they began to see it for what it really is: The divine deed of atonement. The cross can be understood as an act of atonement only when it is accompanied by the divinely given, inspired, authoritative word of interpretation which is received by faith. Historisch, the cross to the Jews was and is a stumbling block, as it is folly to Gentiles (I Cor. 1:23). To unbelieving Jews and Gentiles, the cross can never be demonstrated to be an act of divine love. It can never be proven historically to be the place of atonement. It is only to those who are called, to those who have received the Word of God, that a crucified Christ is both the power of God and the wisdom of God. If the deliverance of Christ for our offenses were an historische event, by definition it would be capable of being demonstrated as such to the neutral, i.e., unbelieving observer. This however is not possible, for the natural man does not receive the things of the Spirit of God (I Cor. 2:14). That the cross is a geschichtliche event means, as we use the term, that it is an event possessing full objectivity and facticity, but one whose real eventfulness can be perceived only by faith. On the cross, in history, a spiritual event was taking place. What Jesus accomplished on the cross is not merely an event of past history, although it is that. It is also an event whose spiritual meaning transcends all historical limitations, whose relevance and power are as effective today as yesterday. It is Geschichte, not Historie.”\r-Ladd, 90\r\rSee “Gospel”, “Primeval History”, “Historie”.\r\rFurther Reference:\rGeorge E. Ladd, “Faith and History”\r\rhttp://tinyurl.com/husklym\r\r\r",
+                           @"category":@"Biblical"}];
+    
     [TAWord wordWithDict:@{@"name":@"Genre",
                            @"twitterDef":@"the literary form of a text",
                            @"definition":@"\rA French word referring to the literary form of a text. According to the teaching of the Church, examination of the literary form of the text is essential for a proper interpretation:\r\r“In order to discover the sacred authors' intention, the reader must take into account the conditions of their time and culture, the literary genres in use at that time, and the modes of feeling, speaking and narrating then current. 'For the fact is that truth is differently presented and expressed in the various types of historical writing, in prophetical and poetical texts, and in other forms of literary expression.'”\r-Catechism, 110\r\rSee “Form Critcism”.\r\rFurther Reference:\rCatechism of the Catholic Church\rhttp://tinyurl.com/kvc3tvq\r\r\r",
@@ -1690,6 +1701,11 @@
     [TAWord wordWithDict:@{@"name":@"Historical Books",
                            @"twitterDef":@"the second of five sections in the Old Testament dealing with the beginning, downfall, and restoration of Israel",
                            @"definition":@"\rThe Historical Books deal primarily with the beginning of the Israelite nation, subsequent downfall, and eventual restoration. They include Joshua, Judges, Ruth, 1 & 2 Samuel, 1 & 2 Kings, 1 & 2 Chronicles, Ezra, and Nehemiah. See the Scripture section of the Overview tab.\r\rFurther Reference:\rNew American Bible Revised Edition\r “Historical Books”, http://tinyurl.com/qg82mvo\r\r\r",
+                           @"category":@"Biblical"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Historie",
+                           @"twitterDef":@"a German word that emphasizes the objectivity of actual events",
+                           @"definition":@"\rThis word is used by biblical scholars to refer to the objectivity of actual events in history that can be verified using historical methodology. Any events which cannot be verified by such methodology (or could be if data were available) are not Historie by definition. They are not 'events' in the biographical or historical sense. They may be, however, Myth or Geschichte.\r\rSee “Geschichte”, “Myth”.\r\rFurther Reference:\rGeorge E. Ladd\r “Faith and History”, http://tinyurl.com/husklym\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Historical-Critical Method",
@@ -2209,6 +2225,11 @@
     [TAWord wordWithDict:@{@"name":@"Messiah",
                            @"twitterDef":@"another word for “Christ”",
                            @"definition":@"\rSee “Christ”.",
+                           @"category":@"Biblical"}];
+    
+    [TAWord wordWithDict:@{@"name":@"Merneptah Stele",
+                           @"twitterDef":@"ancient victory inscription that provides the earliest archeological evidence for the existence of the Israelites",
+                           @"definition":@"\rPharoah Merneptah ruled Egypt from 1213-1203 B.C. As was customary in the ancient world, he used large stone slabs (steles) to boast about his military victories. The inscription, discovered in Thebes in 1896, has been dated to the year 1208 B.C. and claims:\r\r“The Canaan has been plundered into every sort of woe: Ashkelon has been overcome; Gezer has been captured; Yano'am is made non-existent. Israel is laid waste and his seed is not...”\r\rFurther Reference:\rOxford Research Encyclopedias:\r“History of Ancient Israel”\r\rhttp://tinyurl.com/ja8q2uc\r\r\r",
                            @"category":@"Biblical"}];
     
     [TAWord wordWithDict:@{@"name":@"Method of Correlation",

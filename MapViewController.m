@@ -281,8 +281,8 @@
                                       
                                       [self.mapView addAnnotations:annotations];
                                       
-                                      MKCoordinateSpan span = MKCoordinateSpanMake(03.0000f,03.0000f);
-                                      CLLocationCoordinate2D coordinate = {32.0556, 35.2895};
+                                      MKCoordinateSpan span = MKCoordinateSpanMake(05.0000f,05.0000f);
+                                      CLLocationCoordinate2D coordinate = {34.0556, 35.2895};
                                       MKCoordinateRegion region = {coordinate, span};
                                       
                                       MKCoordinateRegion regionThatFits = [self.mapView regionThatFits:region];
